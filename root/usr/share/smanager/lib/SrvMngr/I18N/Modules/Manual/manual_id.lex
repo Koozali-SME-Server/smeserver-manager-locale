@@ -1,0 +1,3 @@
+'manual_FORM_TITLE' => 'Petunjuk online dan dokumentasi lain',
+'manual_DESCRIPTION' => ' <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online manual</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a></ul><H2>Dukungan dan lisensi</H2> Software ini diterbitkan dibawah syarat-syarat yang terdapat pada halaman <a href="/server-manager/cgi-bin/support"> Dukungan dan Lisensi</a>. ',
+'manual_Online manual' => 'Petunjuk online',

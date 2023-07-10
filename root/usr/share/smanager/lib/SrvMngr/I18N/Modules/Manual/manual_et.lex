@@ -1,0 +1,3 @@
+'manual_FORM_TITLE' => 'Kasutusjuhend ja muud dokumendid võrgus',
+'manual_DESCRIPTION' => ' <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> KAsutusjuhend võrgus</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a> </ul> <H2>Kasutajatugi ja litsents</H2> See tarkvara kasutus põhineb õigustel mis on kättesaadvad<a href="/server-manager/cgi-bin/support"> Kasutajatugi ja litsentsi lehel</a> page. ',
+'manual_Online manual' => 'Kasutsusjuhend võrgus',

@@ -1,0 +1,10 @@
+
+'clm_FORM_TITLE' => 'Configuration de l\'antivirus',
+'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Vérifier l\'intégralité du système de fichier',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Paramètres généraux</h2> Si cette option est activée alors le système de fichier sera intégralement soumis à une vérification antivirale. Un rapport de tous les virus détectés sera ensuite envoyé par courriel à l\'administrateur. ',
+'clm_LABEL_QUARANTINE' => 'Mise en quarantaine des fichiers infectés',
+'clm_LABEL_CLAM_VERSIONS' => 'Versions de ClamAV et de sa base de définitions virales',
+'clm_WEEKLY' => 'Chaque semaine',
+'clm_NEVER' => 'Jamais',
+'clm_DAILY' => 'Chaque jour',
+'clm_SUCCESS' => 'Les nouveaux paramètres de l\'antivirus ClamAV ont été sauvegardés.',
