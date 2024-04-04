@@ -2,7 +2,7 @@ Summary: SME Server Manager localisation module (manager 2)
 %define name smeserver-manager-locale
 Name: %{name}
 %define version 11.0.0
-%define release 2
+%define release 3
 %define package_summary SME Server Manager localisation module
 %define group Applications/System
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
@@ -21,6 +21,9 @@ AutoReqProv: no
 SME Server Manager 2 localisation module (smeserver-manager)
 
 %changelog
+* Thu Apr 04 2024 Brian Read <brianr@koozali.org> 11.0.0-3.sme
+- Set license file to GPL2.0  [SME: 12577]
+
 * Sat Mar 23 2024 Brian Read <brianr@koozali.org>11.0.0-2.sme
 - Change Requires: e-smith- to Requires:smeserver-
 
