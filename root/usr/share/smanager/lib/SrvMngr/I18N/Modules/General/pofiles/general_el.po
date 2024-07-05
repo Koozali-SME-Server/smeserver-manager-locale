@@ -1,0 +1,566 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "OPERATION_Collaboration"
+msgid "Collaboration"
+msgstr "Συνεργασία"
+
+msgctxt "OPERATION_Administration"
+msgid "Administration"
+msgstr "Διαχείριση"
+
+msgctxt "OPERATION_Security"
+msgid "Security"
+msgstr "Ασφάλεια"
+
+msgctxt "OPERATION_Configuration"
+msgid "Configuration"
+msgstr "Ρύθμιση παραμέτρων συστήματος"
+
+msgctxt "OPERATION_Miscellaneous"
+msgid "Miscellaneous"
+msgstr "Διάφορα"
+
+msgctxt "OPERATION_Your Settings"
+msgid "Your Settings"
+msgstr "Οι ρυθμίσεις σας"
+
+msgctxt "OPERATION_SAVE"
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgctxt "OPERATION_CANCEL"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgctxt "OPERATION_ENABLED"
+msgid "Enabled"
+msgstr "Ενεργοποιήθηκε"
+
+msgctxt "OPERATION_DISABLED"
+msgid "Disabled"
+msgstr "Απενεργοποιημένος/η/ο"
+
+msgctxt "OPERATION_NO"
+msgid "No"
+msgstr "Όχι"
+
+msgctxt "OPERATION_YES"
+msgid "Yes"
+msgstr "Ναι"
+
+msgctxt "OPERATION_ADD"
+msgid "Add"
+msgstr "Προσθήκη"
+
+msgctxt "OPERATION_CREATE"
+msgid "Create"
+msgstr "Δημιουργία"
+
+msgctxt "OPERATION_MODIFY"
+msgid "Modify"
+msgstr "Τροποποίηση"
+
+msgctxt "OPERATION_REMOVE"
+msgid "Remove"
+msgstr "Διαγραφή"
+
+msgctxt "OPERATION_COMMENT"
+msgid "Comment"
+msgstr "Σχόλιο"
+
+msgctxt "OPERATION_NEXT"
+msgid "Next"
+msgstr "Επόμενο"
+
+msgctxt "OPERATION_SELF"
+msgid "Self"
+msgstr "Ίδιο"
+
+msgctxt "OPERATION_REMOTE"
+msgid "Remote"
+msgstr "Απομακρυσμένο"
+
+msgctxt "OPERATION_LOCAL"
+msgid "Local"
+msgstr "Τοπικό"
+
+msgctxt "OPERATION_ACTION"
+msgid "Action"
+msgstr "Ενέργεια"
+
+msgctxt "OPERATION_NETWORK"
+msgid "Network"
+msgstr "Δίκτυο"
+
+msgctxt "OPERATION_ROUTER"
+msgid "Router"
+msgstr "Δρομολογητής"
+
+msgctxt "OPERATION_STATUS_REPORT"
+msgid "Operation status report"
+msgstr "Αναφορά κατάστασης λειτουργίας"
+
+msgctxt "OPERATION_ACCOUNT"
+msgid "Account"
+msgstr "Λογαριασμός"
+
+msgctxt "OPERATION_GROUP"
+msgid "Group"
+msgstr "Ομάδα"
+
+msgctxt "OPERATION_DESC_SECTIONBAR"
+msgid "<hr class=\"sectionbar\"/>"
+msgstr " <hr class=\"sectionbar\"/> "
+
+msgctxt "OPERATION_NO_PIPES_ALLOWED"
+msgid "Pipe symbols (|) are not permitted in this field"
+msgstr ""
+"Το σύμβολο της κατακόρυφης μπάρας (|) δεν επιτρέπεται σ΄ετούτο το πεδίο"
+
+msgctxt "OPERATION_ERROR_BELOW"
+msgid ""
+"ERROR: There was an error in the validation of this page. Please scroll down"
+" and find the specific problem."
+msgstr ""
+"ΣΦΑΛΜΑ: Συνέβη κάποιο σφάλμα στην επικύρωση της παρούσας σελίδας. Παρακαλώ "
+"κάντε κύλιση της οθόνη προς τα κάτω για να βρείτε το συγκεκριμένο πρόβλημα."
+
+msgctxt "OPERATION_ACCESS"
+msgid "Access"
+msgstr "Πρόσβαση"
+
+msgctxt "OPERATION_ACCOUNT_LOCKED"
+msgid "Account is locked"
+msgstr "Ο Λογαριασμός είναι κλειδωμένος"
+
+msgctxt "OPERATION_GROUP_ADD"
+msgid "Add group"
+msgstr "Προσθήκη ομάδας"
+
+msgctxt "OPERATION_NETWORKS_ALLOW_LOCAL"
+msgid "Allow access only from local networks"
+msgstr "Επιτρέπεται η πρόσβαση μόνον από τοπικά δίκτυα"
+
+msgctxt "OPERATION_NETWORKS_ALLOW_PUBLIC"
+msgid "Allow public access (entire Internet)"
+msgstr "Επιτρέπεται η δημόσια πρόσβαση (από ολόκληρο το Διαδίκτυο)"
+
+msgctxt "OPERATION_ERROR_PASSWORD_CHANGE"
+msgid ""
+"An error occurred while attempting to change your password. Please make sure"
+" that the old password entered is correct."
+msgstr ""
+"Παρουσιάσθηκε κάποιο σφάλμα κατά την διάρκεια αλλαγής του κωδικού πρόσβασης."
+" Παρακαλώ σιγουρευτείτε ότι έγινε σωστή εισαγωγή του παλιού κωδικού "
+"πρόσβασης."
+
+msgctxt "OPERATION_BACK"
+msgid "Back"
+msgstr "Πίσω"
+
+msgctxt "OPERATION_BACKUP"
+msgid "Backup"
+msgstr "Αντίγραφο Ασφαλείας"
+
+msgctxt "OPERATION_DESCRIPTION_BRIEF"
+msgid "Brief description"
+msgstr "Σύντομη περιγραφή"
+
+msgctxt "OPERATION_PASSWORD_CHANGE"
+msgid "Change Password"
+msgstr "Αλλαγή κωδικού πρόσβασης"
+
+msgctxt "OPERATION_RESET_PASSWORD_TITLE"
+msgid "Reset user password"
+msgstr "Αρχικοποίηση (reset) αρχικού κωδικού πρόσβασης χρήστη"
+
+msgctxt "OPERATION_ACCOUNT_PASSWORD_CHANGE"
+msgid "Change account password"
+msgstr "Αλλαγή κωδικού πρόσβασης λογαριασμού"
+
+msgctxt "OPERATION_CONTENT"
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+msgctxt "OPERATION_CREATE_GROUP"
+msgid "Create user group"
+msgstr "Δημιουργία ομάδας χρηστών"
+
+msgctxt "OPERATION_USER_LIST_CURRENT"
+msgid "Current list of users"
+msgstr "Τρέχουσα λίστα χρηστών"
+
+msgctxt "OPERATION_DESCRIPTION"
+msgid "Description"
+msgstr "Περιγραφή"
+
+msgctxt "OPERATION_DESTINATION"
+msgid "Destination"
+msgstr "Προορισμός"
+
+msgctxt "OPERATION_DOMAIN_NAME"
+msgid "Domain name"
+msgstr "Όνομα τομέα"
+
+msgctxt "OPERATION_DOMAIN"
+msgid "Domain"
+msgstr "Τομέας"
+
+msgctxt "OPERATION_DOMAINS"
+msgid "Domains"
+msgstr "Τομείς"
+
+msgctxt "OPERATION_DOWNLOAD"
+msgid "Download"
+msgstr "Λήψη"
+
+msgctxt "OPERATION_ERROR_UPDATING_CONFIGURATION"
+msgid "Error occurred while updating system configuration."
+msgstr "Σφάλμα συνέβη κατά την ενημέρωση των ρυθμίσεων παραμέτρων συστήματος."
+
+msgctxt "OPERATION_GROUP_MEMBERS"
+msgid "Group Members"
+msgstr "Μέλη ομάδας"
+
+msgctxt "OPERATION_GROUP_NAME"
+msgid "Group Name"
+msgstr "Όνομα ομάδας"
+
+msgctxt "OPERATION_GROUPS"
+msgid "Groups"
+msgstr "Ομάδες"
+
+msgctxt "OPERATION_IP_ADDRESS"
+msgid "IP Address"
+msgstr "Διεύθυνση IP"
+
+msgctxt "OPERATION_IP_ADDRESS_OR_FQDN"
+msgid "IP Address or FQDN"
+msgstr "Διεύθυνση IP"
+
+msgctxt "OPERATION_USER_INVALID"
+msgid "Invalid user"
+msgstr "Μη-έγκυρος χρήστης"
+
+msgctxt "OPERATION_LOCATION"
+msgid "Location"
+msgstr "Τοποθεσία"
+
+msgctxt "OPERATION_MB"
+msgid "Mb"
+msgstr "Mb"
+
+msgctxt "OPERATION_MODIFY_USER_GROUP"
+msgid "Modify user group"
+msgstr "Τροποποίηση ομάδας χρηστών"
+
+msgctxt "OPERATION_NAME"
+msgid "Name"
+msgstr "Όνομα"
+
+msgctxt "OPERATION_PASSWORD_VERIFY_NEW"
+msgid "New password (verify):"
+msgstr "Νέος κωδικός πρόσβασης (επαλήθευση)"
+
+msgctxt "OPERATION_PASSWORD_NEW"
+msgid "New password:"
+msgstr "Νέος κωδικός πρόσβασης:"
+
+msgctxt "OPERATION_OFF"
+msgid "Off"
+msgstr "Εκτός"
+
+msgctxt "OPERATION_OK"
+msgid "Ok"
+msgstr "Εντάξει"
+
+msgctxt "OPERATION_PASSWORD_OLD"
+msgid "Old password:"
+msgstr "Παλαιός κωδικός πρόσβασης:"
+
+msgctxt "OPERATION_ON"
+msgid "On"
+msgstr "Εντός"
+
+msgctxt "OPERATION_PASSWORD"
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+msgctxt "OPERATION_PERFORM"
+msgid "Perform"
+msgstr "Εκτέλεση"
+
+msgctxt "OPERATION_RECONFIGURE"
+msgid "Reconfigure"
+msgstr "Επαναρύθμιση παραμέτρων"
+
+msgctxt "OPERATION_REMOVE_USER_GROUP"
+msgid "Remove user group"
+msgstr "Διαγραφή ομάδας χρηστών"
+
+msgctxt "OPERATION_PASSWORD_RESET"
+msgid "Reset password"
+msgstr "Αρχικοποίηση κωδικού πρόσβασης"
+
+msgctxt "OPERATION_RESTORE"
+msgid "Restore"
+msgstr "Επαναφορά"
+
+msgctxt "OPERATION_SHUTDOWN"
+msgid "Shutdown"
+msgstr "Τερματισμός"
+
+msgctxt "OPERATION_SUCCESS"
+msgid "Success"
+msgstr "Επιτυχής"
+
+msgctxt "OPERATION_ACCOUNT_NAME_INVALID"
+msgid "The account name entered is invalid."
+msgstr "Η ονομασία λογαριασμού που πληκτρολογήσατε δεν είναι έγκυρη."
+
+msgctxt "OPERATION_ACCOUNT_NAME_INVALID_CHARS"
+msgid "The account name you entered contained invalid characters."
+msgstr ""
+"Η ονομασία του λογαριασμού που πληκτρολογήσατε περιλαμβάνει μη-έγκυρους "
+"χαρακτήρες."
+
+msgctxt "OPERATION_PASSWORD_OLD_INVALID_CHARS"
+msgid "The old password you entered contained invalid characters."
+msgstr ""
+"Ο παλαιός κωδικός πρόσβασης που πληκτρολογήσατε περιέχει μη-έγκυρους "
+"χαρακτήρες."
+
+msgctxt "OPERATION_PASSWORD_INVALID_CHARS"
+msgid "The password you entered contained invalid characters."
+msgstr ""
+"Ο κωδικός πρόσβασης που πληκτρολογήσατε περιέχει μη-έγκυρους χαρακτήρες."
+
+msgctxt "OPERATION_PASSWORD_VERIFY_ERROR"
+msgid "The passwords you entered did not match."
+msgstr "Οι κωδικοί πρόσβασης που πληκτρολογήσατε δεν ταυτίζονται."
+
+msgctxt "OPERATION_ACCOUNT_USER_NONE"
+msgid "There are no user accounts in the system."
+msgstr "Δεν υφίστανται λογαριασμοί χρηστών στο σύστημα."
+
+msgctxt "OPERATION_ACCOUNT_GROUP_NONE"
+msgid "There are no user groups in the system."
+msgstr "Δεν υφίστανται ομάδες χρηστών στο σύστημα."
+
+msgctxt "OPERATION_ERROR_INVALID_CHARS"
+msgid "Unexpected characters in description."
+msgstr "Μη-αναμενόμενοι χαρακτήρες στην περιγραφή."
+
+msgctxt "OPERATION_USER_NAME"
+msgid "User Name"
+msgstr "Όνομα χρήστη"
+
+msgctxt "OPERATION_YOUR_ACCOUNT"
+msgid "Your account:"
+msgstr "Ο λογαριασμός σας:"
+
+msgctxt "OPERATION_YOUR_ACCOUNT_INVALID"
+msgid "The account name entered is invalid."
+msgstr "Η ονομασία λογαριασμού που πληκτρολογήσατε δεν είναι έγκυρη."
+
+msgctxt "OPERATION_PASSWORD_CHANGE_SUCCESS"
+msgid "Your password has been successfully changed."
+msgstr "Ο κωδικός πρόσβασής σας άλλαξε επιτυχώς."
+
+msgctxt "OPERATION_FM_NONBLANK"
+msgid "This field must not be left blank"
+msgstr "Αυτό το πεδίο δεν πρέπει ν΄αφεθεί κενό"
+
+msgctxt "OPERATION_FM_INTEGER"
+msgid "This field must contain a positive integer"
+msgstr "Αυτό το πεδίο πρέπει να περιέχει ένα θετικό ακέραιο αριθμό"
+
+msgctxt "OPERATION_FM_NUMBER"
+msgid "This field must contain a number"
+msgstr "Αυτό το πεδίο πρέπει να περιέχει έναν αριθμό"
+
+msgctxt "OPERATION_FM_WORD"
+msgid "This field must look like a single word."
+msgstr "Αυτό το πεδίο πρέπει να μοιάζει με μία λέξη."
+
+msgctxt "OPERATION_FM_DATE"
+msgid "The data entered could not be parsed as a date"
+msgstr ""
+"Τα δεδομένα που πληκτρολογήθηκαν δεν μπορούν να ερμηνευτούν σαν ημερομηνία"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER1"
+msgid "You must enter a credit card number"
+msgstr "Πρέπει να πληκτρολογήσετε έναν αριθμό πιστωτικής κάρτας"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER2"
+msgid ""
+"Credit card numbers shouldn\\'t have anything but numbers, spaces or dashes"
+msgstr ""
+"Ο αριθμός πιστωτικής κάρτας δεν μπορεί να περιέχει τίποτε άλλο παρά "
+"αριθμούς, κενά ή παύλες"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER3"
+msgid "Must be at least 14 characters in length"
+msgstr "Πρέπει να έχει μήκος τουλάχιστον 14 χαρακτήρες"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER4"
+msgid "Doesn\\'t appear to be a valid credit card number"
+msgstr "Δεν φαίνεται να είναι ένας έγκυρος αριθμός πιστωτικής κάρτας"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY1"
+msgid "No expiry date entered."
+msgstr "Δεν πληκτρολογήθηκε ημερομηνία λήξης ισχύος."
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY2"
+msgid "Expiry date must be in the format MM/YY or MM/YYYY"
+msgstr "Η ημερομηνία λήξης ισχύος πρέπει να είναι φόρμας MM/YY ή MM/YYYY"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY3"
+msgid "This expiry date appears to have already passed"
+msgstr "Η ημερομηνία λήξης ισχύος φαίνεται να έχει ήδη παρέλθει"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY4"
+msgid "This expiry date appears to be too far in the future"
+msgstr "Η ημερομηνία λήξης ισχύος φαίνεται να είναι πολύ μακριά στο μέλλον"
+
+msgctxt "OPERATION_FM_ISO_COUNTRY_CODE1"
+msgid "You must provide a country code"
+msgstr "Πρέπει να δώσετε ένα κωδικό χώρας"
+
+msgctxt "OPERATION_FM_ISO_COUNTRY_CODE2"
+msgid "This field does not contain an ISO country code"
+msgstr "Αυτό το πεδίο δεν περιέχει έναν ISO κωδικό χώρας"
+
+msgctxt "OPERATION_FM_US_STATE"
+msgid "This doesn\\'t appear to be a valid 2-letter US state abbreviation"
+msgstr ""
+"Αυτός δεν φαίνεται να είναι ένας έγκυρος διγράμματος κωδικός Πολιτείας των "
+"Η.Π.Α"
+
+msgctxt "OPERATION_FM_US_ZIPCODE"
+msgid "US zip codes must contain 5 or 9 numbers"
+msgstr "Οι ταχυδρομικοί κωδικοί των Η.Π.Α πρέπει να περιέχουν 5 ή 9 ψηφία"
+
+msgctxt "OPERATION_FM_MINLENGTH1"
+msgid "Minimum length has been specified meaninglessly as [_1]"
+msgstr "Το ελάχιστο μήκος έχει ορισθεί χωρίς νόημα ως {$minlength}"
+
+msgctxt "OPERATION_FM_MINLENGTH2"
+msgid "This field must be at least [_1] characters"
+msgstr "Αυτό το πεδίο πρέπει να είναι τουλάχιστον {$minlength} χαρακτήρες"
+
+msgctxt "OPERATION_FM_MAXLENGTH1"
+msgid "Maximum length has been specified meaninglessly as [_1]"
+msgstr "Το μέγιστο μήκος έχει ορισθεί χωρίς νόημα ως {$maxlength}"
+
+msgctxt "OPERATION_FM_MAXLENGTH2"
+msgid "This field must be no more than [_1] characters"
+msgstr ""
+"Αυτό το πεδίο δεν μπορεί να περιέχει περισσότερους από {$maxlength} "
+"χαρακτήρες"
+
+msgctxt "OPERATION_FM_EXACTLENGTH1"
+msgid "You must specify the length for the field."
+msgstr "Πρέπει να ορίσετε το μήκος του πεδίου."
+
+msgctxt "OPERATION_FM_EXACTLENGTH2"
+msgid "You must specify the exactlength of the field with an integer"
+msgstr "Πρέπει να ορίσετε το ακριβές μήκος του πεδίου δι΄ ενός ακεραίου"
+
+msgctxt "OPERATION_FM_EXACTLENGTH3"
+msgid "This field must be exactly [_1] characters"
+msgstr "Αυτό το πεδίο θα πρέπει να είναι ακριβώς {$exactlength} χαρακτήρες"
+
+msgctxt "OPERATION_FM_LENGTHRANGE1"
+msgid "You must specify the maximum and minimum length for the field."
+msgstr "Πρέπει να ορίσετε το μέγιστο και το ελάχιστο μήκος για το πεδίο."
+
+msgctxt "OPERATION_FM_LENGTHRANGE2"
+msgid ""
+"You must specify the maximum and minimum lengths of the field with an "
+"integer"
+msgstr ""
+"Πρέπει να ορίσετε το μέγιστο και ελάχιστο μήκος του πεδίου δι΄ ενός ακεραίου"
+
+msgctxt "OPERATION_FM_LENGTHRANGE3"
+msgid "This field must be between [_1] and [_2] characters"
+msgstr ""
+"Αυτό το πεδίο πρέπει να είναι μεταξύ {$minlength} και {$maxlength} "
+"χαρακτήρες"
+
+msgctxt "OPERATION_FM_URL"
+msgid "This field must contain a URL starting with http:// or ftp://"
+msgstr "Το πεδίο πρέπει να περιέχει ένα URL που ν΄αρχίζει με http:// ή ftp://"
+
+msgctxt "OPERATION_FM_EMAIL_SIMPLE1"
+msgid "You must enter an email address."
+msgstr "Πρέπει να πληκτρολογήσετε μια διεύθυνση ηλεκτρονικής αλληλογραφίας."
+
+msgctxt "OPERATION_FM_EMAIL_SIMPLE2"
+msgid "This field doesn\\'t look like an RFC822-compliant email address"
+msgstr ""
+"Αυτό το πεδίο δεν μοιάζει με μία συμβατή προς RFC822 διεύθυνση ηλεκτρονικής "
+"αλληλογραφίας"
+
+msgctxt "OPERATION_FM_DOMAIN_NAME"
+msgid "This field doesn\\'t look like a valid Internet domain name or hostname."
+msgstr ""
+"Αυτό το πεδίο δεν μοιάζει με μία έγκυρη ονομασία τομέα διαδικτύου ή δικτυακή"
+" ονομασία Η/Υ."
+
+msgctxt "OPERATION_FM_IP_NUMBER1"
+msgid "This field must contain a valid IP number and can not be left blank."
+msgstr ""
+"Αυτό το πεδίο πρέπει να περιέχει μία έγκυρη διεύθυνση IP και δεν μπορεί να "
+"αφεθεί κενό."
+
+msgctxt "OPERATION_FM_IP_NUMBER2"
+msgid "Invalid IP address format (expected X.X.X.X)"
+msgstr "Invalid IP address format (expected X.X.X.X)"
+
+msgctxt "OPERATION_FM_IP_NUMBER3"
+msgid "[_1] is more than 255"
+msgstr "{$octet} είναι μεγαλύτερο από 255"
+
+msgctxt "OPERATION_FM_USERNAME"
+msgid ""
+"This field must look like a valid username (3 to 8 letters and numbers)"
+msgstr ""
+"Το πεδίο πρέπει να μοιάζει με ένα έγκυρο όνομα χρήστη (3 έως 8 γράμματα και "
+"αριθμητικά ψηφία)"
+
+msgctxt "OPERATION_FM_PASSWORD1"
+msgid "You must provide a password."
+msgstr "Πρέπει να δώσετε ένα κωδικό πρόσβασης."
+
+msgctxt "OPERATION_FM_PASSWORD2"
+msgid ""
+"The password you provided was not a good password.A good password must "
+"contain all of the following: upper case letter, lower case letter, number, "
+"non-alphanumeric character, be at least 7 characters long."
+msgstr ""
+"Ο κωδικός που δώσατε δεν είναι ένας καλός κωδικός πρόσβασης. Ένας καλός "
+"κωδικός πρέπει να περιέχει τα παρακάτω: Κεφαλαία γράμματα, πεζά γράμματα, "
+"αριθμητικά ψηφία, μη αλφαριθμητικούς χαρακτήρες και να έχει μήκος "
+"τουλάχιστον 7 χαρακτήρων."
+
+msgctxt "OPERATION_FM_MAC_ADDRESS1"
+msgid "You must provide a MAC address."
+msgstr "Πρέπει να δώσετε μια MAC διεύθυνση."
+
+msgctxt "OPERATION_FM_MAC_ADDRESS2"
+msgid "The MAC address you provided was not valid."
+msgstr "Η MAC διεύθυνση που δώσατε δεν είναι έγκυρη."
+
+msgctxt "OPERATION_FM_ERR_UNEXPECTED_DESC"
+msgid "Error: unexpected or missing characters in description"
+msgstr "Σφάλμα: μη αναμενόμενοι ή ελλείποντες χαρακτήρες στην περιγραφή"
+
+msgctxt "OPERATION_CSRF_VALIDATION_FAILURE"
+msgid "Placeholder for missing original text"
+msgstr "Error: CSRF token is invalid or outdated."

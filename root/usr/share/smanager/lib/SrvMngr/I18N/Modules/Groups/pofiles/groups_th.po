@@ -1,0 +1,110 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "grp_FORM_TITLE"
+msgid "Create, modify, or remove user groups"
+msgstr "สร้างแก้ไขหรือลบกลุ่มผู้ใช้"
+
+msgctxt "grp_GROUP_TOO_LONG"
+msgid "Error: group name is too long. The maximum is [_1] characters."
+msgstr "ข้อผิดพลาด: ชื่อกลุ่มยาวเกินไป ความยาวสูงสุดคือ {$maxLength} ตัวอักษร"
+
+msgctxt "grp_ACCOUNT_CONFLICT"
+msgid ""
+"Error: the group \"[_1]\" can\\'t be created because there is\n"
+"already a [_2] account of that name."
+msgstr ""
+"ผิดพลาด:ไม่สามารถสร้างกลุ่ม \"{$group}\" เนื่องจากมีบัญชีชนิด{$type} "
+"ที่มีชื่อนี้อยู่แล้ว"
+
+msgctxt "grp_INVALID_GROUP_DESCRIPTION"
+msgid "Error: unexpected or missing characters in group description"
+msgstr "ผิดพลาด: มีสามารถตีความหรือไม่มีตัวอักษรในรายละเอียดของกลุ่ม"
+
+msgctxt "grp_NO_MEMBERS"
+msgid "Error: no members in group.Did not create new group."
+msgstr "ผิดพลาด: ไม่มีสมาชิกในกลุ่ม ไม่ได้ทำการสร้างกลุ่มใหม่"
+
+msgctxt "grp_CREATED_GROUP"
+msgid "Successfully created user group"
+msgstr "สร้างกลุ่มผู้ใช้เสร็จสิ้นแล้ว"
+
+msgctxt "grp_DELETED_GROUP"
+msgid "Successfully removed user group"
+msgstr "ลบกลุ่มผู้ใช้เสร็จสิ้นแล้ว"
+
+msgctxt "grp_MODIFIED_GROUP"
+msgid "Successfully modifed user group"
+msgstr "แก้ไขกลุ่มผู้ใช้เสร็จสิ้นแล้ว"
+
+msgctxt "grp_CREATE_ERROR"
+msgid "An error occurred while creating user group."
+msgstr "เกิดข้อผิดพลาดขณะสร้างกลุ่มผู้ใช้"
+
+msgctxt "grp_DELETE_ERROR"
+msgid "An error occurred while removing user group."
+msgstr "เกิดข้อผิดพลาดขณะลบกลุ่มผู้ใช้"
+
+msgctxt "grp_MODIFY_ERROR"
+msgid "An error occurred while modifying user group."
+msgstr "เกิดข้อผิดพลาดขณะแก้ไขกลุ่มผู้ใช้"
+
+msgctxt "grp_GROUP_NAMING"
+msgid ""
+"The group name should contain only lower-case\n"
+"letters, numbers, hyphens, periods, and underscores, \n"
+"and should start with a lower-case letter. For \n"
+"example \"sales\", \"beta5\", and \"reseller_partners\" are\n"
+"all valid group names, but \"3rd-event\", \"Marketing Team\"\n"
+"and \"lost&found\" are not."
+msgstr ""
+"ชื่อกลุ่มจะต้องมีเฉพาะตัวอักษรภาษาอังกฤษพิมพ์เล็ก ตัวเลข จุด ยติภังค์ (-) "
+"และขีดล่าง (_) และต้องเริ่มด้วยอักษร เช่น\"sales\", \"beta5\", และ "
+"\"reseller_partners\" ซึ่งถูกต้อง แต่ \"3rd-event\", \"Marketing Team\" และ "
+"\"lost&found\" จะใช้ไม่ได้"
+
+msgctxt "grp_GROUP_HAS_MEMBERS"
+msgid "This group contains the following members:"
+msgstr "กลุ่มนี้มีสมาชิกต่อไปนี้:"
+
+msgctxt "grp_NOT_A_GROUP"
+msgid "Error: That is not an existing group account."
+msgstr "ผิดพลาด: ไม่มีชื่อบัญชีกลุ่มนี้อยู่"
+
+msgctxt "grp_GROUP_DESC"
+msgid "Brief Description/Windows Group Alias"
+msgstr "คำอธิบายโดยย่อ/Windows Group Alia"
+
+msgctxt "grp_GROUP_DESC_EXPL"
+msgid ""
+"Input a brief group description in the field below.\n"
+" This field also designates the group name viewable by \n"
+" Windows clients."
+msgstr ""
+"ป้อนคำอธิบายกลุ่มสั้นในช่องด้านล่าง "
+"ฟิลด์นี้ยังกำหนดชื่อกลุ่มที่จะมองเห็นโดยเครื่องลูกที่เป็นระบบ Windows"
+
+msgctxt "grp_IBAYS_WILL_BE_CHANGED"
+msgid ""
+"The following information bays were assigned to this group and\n"
+"will be changed to the Administrator group (you can change them to\n"
+"something else afterward):"
+msgstr ""
+"information bays ที่ถูกกำหนดให้กับกลุ่มต่อไปนี้จะถูกเปลี่ยนให้เป็น "
+"\"กลุ่มผู้ดูแลระบบ\" (คุณสามารถเปลี่ยนให้อย่างอื่นได้ภายหลัง)"
+
+msgctxt "grp_CONFIRM_DELETE_GROUP"
+msgid "Are you sure you wish to remove this group?"
+msgstr "<p><b>คุณแน่ใจหรือว่าต้องการลบกลุ่มนี้?</b></p>"
+
+msgctxt "grp_CURRENT_LIST"
+msgid "Current list of User Groups"
+msgstr "<p>รายการกลุ่มของผู้ใช้ในปัจจุบัน</p>"
+
+msgctxt "grp_DELETE_DESCRIPTION"
+msgid "You are about to remove the user group \"[_1].\""
+msgstr "คุณกำลังจะลบกลุ่มผู้ใช้ \"<b>{$group}</b>.\""

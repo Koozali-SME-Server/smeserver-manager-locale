@@ -1,0 +1,184 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "prt_FORM_TITLE"
+msgid "Add or remove printers"
+msgstr "Tambah atau hapus printer"
+
+msgctxt "prt_INITIAL_DESC"
+msgid ""
+"<P><A class=\"button-like\" HREF=\"printers?page=0&Next=Add\">Add "
+"printer</A></P>"
+msgstr ""
+"<p><A class=\"button-like\" HREF=\"printers?page=0&Next=Add\">Tambah "
+"pinter</A></p>"
+
+msgctxt "prt_NO_PRINTERS"
+msgid "There are no printers in the system."
+msgstr "Tidak ada printer dalam sistem"
+
+msgctxt "prt_CURRENT_LIST"
+msgid "Current List of printers"
+msgstr "Daftar Printer"
+
+msgctxt "prt_REMOTE_ADDRESS"
+msgid "Remote address"
+msgstr "Alamat remote"
+
+msgctxt "prt_REMOTE_NAME"
+msgid "Remote name"
+msgstr "Nama remote"
+
+msgctxt "prt_CREATE_NEW_PRINTER"
+msgid "Create a new printer"
+msgstr "Tambah printer"
+
+msgctxt "prt_CREATE_NEW_DESC"
+msgid ""
+"Please choose a unique name for the printer and enter a brief\n"
+"description. The printer name should contain only lower-case\n"
+"letters and numbers, and should start with a lower-case\n"
+"letter. For example \"hplaser\", \"epsonlp\", and\n"
+"\"canonbj\" are valid choices, but \"HP Laser Jet\", \n"
+"\"Canon BubbleJet\", and\n"
+"\"HP JetDirect Printer\" are not.\n"
+"Avoid names and descriptions that contain these terms, \n"
+"\"offline\", \"disabled\", \"down\", \"off\", \"waiting\", \"jam\",\n"
+"\"paper\", \"error\" and \"responding\"."
+msgstr ""
+"Pilih nama yang unik untuk printer dan masukkan keterangan singkat. Nama "
+"printer hanya boleh terdiri dari huruf kecil dan angka, dan harus dimulai "
+"dengan huruf kecil. Contoh: \"hplaser\", \"epsonlp\", dan \"canonbj\" adalah"
+" pilihan yang benar, tapi \"HP Laser Jet\", \"Canon BubbleJet\", dan \"HP "
+"JetDirect Printer\" adalah salah. Nama dan keterangan tidak boleh mengandung"
+" kata: \"offline\", \"disabled\", \"down\", \"off\", \"waiting\", \"jam\", "
+"\"paper\", \"error\" dan \"responding\"."
+
+msgctxt "prt_PRINTER_NAME"
+msgid "Printer name"
+msgstr "Nama Printer"
+
+msgctxt "prt_LOCAL_PRINTER_0"
+msgid "Local printer port 0 (LPT1)"
+msgstr "Printer lokal port 0 (LPT1)"
+
+msgctxt "prt_LOCAL_PRINTER_1"
+msgid "Local printer port 1 (LPT2)"
+msgstr "Printer lokal port 1 (LPT2)"
+
+msgctxt "prt_LOCAL_PRINTER_2"
+msgid "Local printer port 2 (LPT3)"
+msgstr "Printer lokal port 2 (LPT3)"
+
+msgctxt "prt_NET_PRINTER"
+msgid "Network printer ..."
+msgstr "Printer jaringan ..."
+
+msgctxt "prt_FIRST_USB_PRINTER"
+msgid "First USB attached printer"
+msgstr "Printer terpasang pada USB pertama"
+
+msgctxt "prt_SECOND_USB_PRINTER"
+msgid "Second USB attached printer"
+msgstr "Printer terpasang pada USB kedua"
+
+msgctxt "prt_ERR_UNEXPECTED_NAME"
+msgid ""
+"<P>Error: unexpected characters in printer name.</P>\n"
+"<P>The printer name should contain only lower-case \n"
+"letters and numbers, and should start with a lower-case \n"
+"letter. For example \"hplaser\", \"epsonlp\", and \n"
+"\"canonbj\" are valid names.</P>"
+msgstr ""
+"<p>Error: terdapat karakter yang tidak dibolehkan pada nama printer.</p> "
+"<p>Nama printer hanya boleh terdiri dari huruf kecil dan angka, dan harus "
+"dimulai dengan huruf kecil. contoh \"hplaser\", \"epsonlp\", and \"canonbj\""
+" adalah nama yang valid.</p>"
+
+msgctxt "prt_ERR_UNEXPECTED_DESC"
+msgid ""
+"Error: unexpected or missing characters in description. \n"
+"Did not create new printer."
+msgstr ""
+"Error: terdapat karakter yang tidak dibolehkan atau hilang pada keterangan. "
+"Tidak menambah printer."
+
+msgctxt "prt_ERR_EXISTS"
+msgid "Error: An account with the same name exists with type:"
+msgstr "Error: Akun sudah ada dengan jenis:"
+
+msgctxt "prt_ERR_INVALID_ADDRESS"
+msgid "Error: invalid network address. Did not create new printer."
+msgstr "Error: alamat network salah. Tidak membuat printer baru."
+
+msgctxt "prt_ERR_INVALID_REMOTE_NAME"
+msgid "Error: invalid network printer name. Did not create new printer."
+msgstr "Error: nama printer network salah. Tidak membuat printer baru."
+
+msgctxt "prt_ERR_CREATING"
+msgid "Error occurred while creating printer."
+msgstr "Gagal saat membuat printer."
+
+msgctxt "prt_CREATED_SUCCESSFULLY"
+msgid "Successfully created printer:"
+msgstr "Berhasil membuat printer:"
+
+msgctxt "prt_CREATE_NETWORK_PRINTER"
+msgid "Create a new network printer"
+msgstr "Tambah printer network"
+
+msgctxt "prt_ERR_OPENING_DB"
+msgid "Error occurred while opening accounts database."
+msgstr "Gagal saat membuka database akun."
+
+msgctxt "prt_CREATE_NETWORK_DESC"
+msgid "Please enter the address and name of the network printer"
+msgstr "Isi alamat dan nama printer jaringan"
+
+msgctxt "prt_HOSTNAME_OR_IP"
+msgid "Hostname or IP address of the network printer"
+msgstr "Hostname atau alamat IP printer jaringan"
+
+msgctxt "prt_REMOTE_NAME_DESC"
+msgid "Network printer name (enter raw if not sure)"
+msgstr "Nama printer jaringan (isikan raw jika tidak yakin)"
+
+msgctxt "prt_REMOVE_PRINTER"
+msgid "Remove printer"
+msgstr "Hapus printer"
+
+msgctxt "prt_ABOUT_TO_REMOVE"
+msgid "You are about to remove the printer:"
+msgstr "Anda akan menghapus printer:"
+
+msgctxt "prt_SPOOL_FILE_WARNING"
+msgid "All the spool files for this printer will be deleted."
+msgstr "Semua file antrian untuk printer ini akan dihapus"
+
+msgctxt "prt_ARE_YOU_SURE"
+msgid "Are you sure you wish to remove this printer?"
+msgstr "Anda yakin menghapus printer ini?"
+
+msgctxt "prt_ERR_INTERNAL_FAILURE"
+msgid "Error: internal failure while removing printer:"
+msgstr "Error: gagal saat menghapus printer:"
+
+msgctxt "prt_ERR_DELETING"
+msgid "Error occurred while deleting printer."
+msgstr "Kesalahan saat menghapus printer."
+
+msgctxt "prt_DELETED_SUCCESSFULLY"
+msgid "Successfully deleted printer:"
+msgstr "Berhasil menghapus printer:"
+
+msgctxt "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgid "Must be a valid hostname or IP number"
+msgstr "Harus hostname atau alamat IP yang valid"
+
+msgctxt "prt_Printers"
+msgid "Printers"
+msgstr "Printer-printer"

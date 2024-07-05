@@ -1,0 +1,133 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "rvw_DESCRIPTION"
+msgid ""
+"This report summarizes the networking, server, and domain\n"
+"parameters on this server relevant to configuring\n"
+"the client computers on your network.You may wish to print this\n"
+"page and use it as a reference."
+msgstr ""
+"Acest raport însumează setările de rețea, server și parametrii de "
+"domeniupentru a configura calculatoarele client în rețeaua dumenavoastră. "
+"Puteți imprima această pagină pentru referințe."
+
+msgctxt "rvw_NETWORKING_PARAMS"
+msgid "Networking Parameters"
+msgstr "Paramentrii rețea"
+
+msgctxt "rvw_SERVER_MODE"
+msgid "Server Mode"
+msgstr "Tip server"
+
+msgctxt "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgid "Local IP address / subnet mask"
+msgstr "Adresa locală IP / mască subrețea"
+
+msgctxt "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgid "External IP address / subnet mask"
+msgstr "Adresă externă / mască subrețea"
+
+msgctxt "rvw_GATEWAY"
+msgid "Gateway"
+msgstr "Poartă (gateway)"
+
+msgctxt "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgid "Additional local networks"
+msgstr "Rețele locale adiționale"
+
+msgctxt "rvw_DHCP_SERVER"
+msgid "DHCP server"
+msgstr "Server DHCP"
+
+msgctxt "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgid "Beginning of DHCP address range"
+msgstr "Început adrese DHCP"
+
+msgctxt "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgid "End of DHCP address range"
+msgstr "Sfârșit adrese DHCP"
+
+msgctxt "rvw_SERVER_NAMES"
+msgid "Server names"
+msgstr "Nume server"
+
+msgctxt "rvw_DNS_SERVER"
+msgid "DNS server"
+msgstr "server DNS"
+
+msgctxt "rvw_WEB_SERVER"
+msgid "Web server"
+msgstr "server Web"
+
+msgctxt "rvw_PROXY_SERVER"
+msgid "Proxy server"
+msgstr "server Proxy"
+
+msgctxt "rvw_FTP_SERVER"
+msgid "FTP server"
+msgstr "server FTP"
+
+msgctxt "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgid "SMTP, POP, and IMAP mail servers"
+msgstr "servere de mail SMTP, POP și IMAP"
+
+msgctxt "rvw_HOSTS"
+msgid "Hosts"
+msgstr "Gazdă"
+
+msgctxt "rvw_DOMAIN_INFORMATION"
+msgid "Domain information"
+msgstr "Informații domeniu"
+
+msgctxt "rvw_PRIMARY_DOMAIN"
+msgid "Primary domain"
+msgstr "Domeniu primar"
+
+msgctxt "rvw_VIRTUAL_DOMAINS"
+msgid "Virtual domains"
+msgstr "Domenii virtuale"
+
+msgctxt "rvw_PRIMARY_WEB_SITE"
+msgid "Primary web site"
+msgstr "Site web primar"
+
+msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_MANAGER"
+msgid "Placeholder for missing original text"
+msgstr "Manager server"
+
+msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL"
+msgid "Placeholder for missing original text"
+msgstr "Panou de parola utilizator"
+
+msgctxt "rvw_EMAIL_ADDRESSES"
+msgid "Email Addresses"
+msgstr "Adresă Email"
+
+msgctxt "rvw_EMAIL_USERACCOUNT"
+msgid "useraccount"
+msgstr "Cont utilizator"
+
+msgctxt "rvw_EMAIL_FIRSTNAME"
+msgid "firstname"
+msgstr "Prenume"
+
+msgctxt "rvw_EMAIL_LASTNAME"
+msgid "lastname"
+msgstr "Nume (familie)"
+
+msgctxt "rvw_NO_VIRTUAL_DOMAINS"
+msgid "No virtual domains defined"
+msgstr "Nici un domeniu virtual definit"
+
+msgctxt "rvw_NO_NETWORKS"
+msgid "No additional networks defined"
+msgstr "Nici o rețea adițională definită"
+
+msgctxt "rvw_INTERNET_VISIBLE_ADDRESS"
+msgid "Internet Visible IP Address"
+msgstr "Adresa IP vizibilă Internet"

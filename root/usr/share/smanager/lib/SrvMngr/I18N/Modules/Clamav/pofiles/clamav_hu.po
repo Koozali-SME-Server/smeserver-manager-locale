@@ -1,0 +1,49 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "clm_FORM_TITLE"
+msgid "Antivirus settings"
+msgstr "Vírusírtó beállítások"
+
+msgctxt "clm_LABEL_FILESYSTEM_SCAN_PERIOD"
+msgid "Scan filesystem"
+msgstr "Fájlrendszer vizsgálata"
+
+msgctxt "clm_DESC_FILESYSTEM_SCAN_PERIOD"
+msgid ""
+"<h2>General Settings</h2>\n"
+"If this option is enabled then the filesystem will be \n"
+"scanned for viruses.A report of any found viruses will be\n"
+"emailed to the administrator."
+msgstr ""
+"<h2>Általános beállítások</h2> Ha ezt a funkciót engedélyezi, a "
+"fájlrendszeren be lesz kapcsolva a vírusellenőrzés. Minden talált vírusról a"
+" rendszergazda emailben értesítést kap."
+
+msgctxt "clm_LABEL_QUARANTINE"
+msgid "Quarantine infected files"
+msgstr "Fertőzött fájlok karanténba helyezése"
+
+msgctxt "clm_LABEL_CLAM_VERSIONS"
+msgid "ClamAV and db versions"
+msgstr "ClamAV és adatbázis verziók"
+
+msgctxt "clm_WEEKLY"
+msgid "Weekly"
+msgstr "Hetente"
+
+msgctxt "clm_NEVER"
+msgid "Never"
+msgstr "Soha"
+
+msgctxt "clm_DAILY"
+msgid "Daily"
+msgstr "Naponta"
+
+msgctxt "clm_SUCCESS"
+msgid "The new clamav antivirus settings have been saved."
+msgstr "Az vírusírtó új beállításai lementődtek."

@@ -1,0 +1,96 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "qma_FORM_TITLE"
+msgid "Mail Log File Analysis"
+msgstr "E-mail log bestand analyse"
+
+msgctxt "qma_INITIAL_DESC"
+msgid ""
+"<P>Analysing the mail system log files can aid both in\n"
+"understanding how your system is performing and in\n"
+"diagnosing delivery problems. Several different\n"
+"reports are available.</P>\n"
+"<P>Please note that it may take several minutes to generate\n"
+"these reports</P>"
+msgstr ""
+"<P>De analyse van de systeem e-mail log bestanden kan helpen in zowel het "
+"inzicht in de prestaties van uw systeem alsmede de diagnose van verzend "
+"problemen. Er zijn diverse rapporten beschikbaar.</P> <P>Opm.: het kan "
+"enkele minuten duren om deze rapporten te genereren</P>"
+
+msgctxt "qma_REPORT_TYPE"
+msgid "Choose a report type"
+msgstr "Kies een rapport type"
+
+msgctxt "qma_GENERATE_REPORT"
+msgid "Generate report"
+msgstr "Genereer rapport"
+
+msgctxt "qma_LIST_OUTGOING"
+msgid "List outgoing messages and recipients"
+msgstr "Geef een overzicht van de uitgaande berichten en -ontvangers"
+
+msgctxt "qma_SUMMARIZE_QUEUE"
+msgid "Summarize status of mail queue"
+msgstr "Samenvattende status e-mail wachtrij"
+
+msgctxt "qma_SUCCESSFUL_DELIVERY_DELAY"
+msgid "Successful delivery delay distribution"
+msgstr "Succesvolle afleveringsvertraging distributie"
+
+msgctxt "qma_REASONS_DEFERRAL"
+msgid "Reasons for deferral"
+msgstr "Reden voor uitstel"
+
+msgctxt "qma_REASONS_FAILURE"
+msgid "Reasons for failure"
+msgstr "Reden voor mislukken"
+
+msgctxt "qma_BASIC_STATS"
+msgid "Basic statistics"
+msgstr "Basis statistieken"
+
+msgctxt "qma_RECIP_STATS"
+msgid "Recipients statistics"
+msgstr "Ontvangst statistieken"
+
+msgctxt "qma_RECIP_HOSTS"
+msgid "Recipient hosts"
+msgstr "Ontvangende hosts"
+
+msgctxt "qma_RECIP_ORDERED"
+msgid "Recipients in best order for mailing lists"
+msgstr "Ontvangers in de beste volgorde voor mailing-lijsten"
+
+msgctxt "qma_SENDER_STATS"
+msgid "Sender statistics"
+msgstr "Verzend statistieken"
+
+msgctxt "qma_SENDMAIL_STYLE"
+msgid "Sendmail style log"
+msgstr "Sendmail-stijl log"
+
+msgctxt "qma_REASONS_SUCCESS"
+msgid "Reasons for success"
+msgstr "Redenen voor succes"
+
+msgctxt "qma_SENDER_UIDS"
+msgid "Sender uids"
+msgstr "Verzender uids"
+
+msgctxt "qma_INVALID_REPORT_TYPE"
+msgid "Invalid report type:"
+msgstr "Ongeldig rapport type:"
+
+msgctxt "qma_REPORT_GENERATED"
+msgid "Report generated:"
+msgstr "Gegenereerd rapport:"
+
+msgctxt "qma_END_OF_REPORT"
+msgid "End of Report"
+msgstr "Einde rapport"

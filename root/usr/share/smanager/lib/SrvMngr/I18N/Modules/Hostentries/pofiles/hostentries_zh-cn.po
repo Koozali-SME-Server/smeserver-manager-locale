@@ -1,0 +1,218 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "hos_UNABLE_TO_OPEN_CONFIGDB"
+msgid "Unable to open configuration database"
+msgstr "无法打开配置数据库。"
+
+msgctxt "hos_DNS_FORWARDER_ENABLED"
+msgid ""
+"A DNS forwarder has been configured. This means that all DNS\n"
+"lookups will be handled by the DNS forwarder. Hostnames \n"
+"and addresses cannot be modified on this server while\n"
+"a DNS forwarder is configured."
+msgstr "DNS转发器已被配置。这意味着所有的DNS查询将由此DNS转发器来处理。一旦DNS转发器被配置了，那么在服务器上，主机名和地址不能被修改。"
+
+msgctxt "hos_ADD_HOSTNAME"
+msgid "Add hostname"
+msgstr ""
+"<a class=\"button-like\" "
+"href=\"hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify\">添加主机名</a>"
+
+msgctxt "hos_HOSTNAME"
+msgid "Hostname"
+msgstr "主机名"
+
+msgctxt "hos_HOSTTYPE"
+msgid "Location"
+msgstr "位置"
+
+msgctxt "hos_LOCAL_IP"
+msgid "Local IP"
+msgstr "本地IP"
+
+msgctxt "hos_ETHERNET_ADDRESS"
+msgid "Ethernet address"
+msgstr "以太网地址"
+
+msgctxt "hos_CURRENT_HOSTNAMES_FOR_DOMAIN"
+msgid "Current list of hostnames for [_1]."
+msgstr "当前{$domain}的主机名列表。"
+
+msgctxt "hos_NO_HOSTNAMES_FOR_SERVICENAME"
+msgid "There are no hostnames in the system for [_1]."
+msgstr "系统中{$serviceName}暂无主机名。"
+
+msgctxt "hos_CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN"
+msgid "Current list of hostnames for [_1]"
+msgstr "当前{$localDomainName}的主机名列表。"
+
+msgctxt "hos_NO_HOSTNAMES_FOR_LOCAL_DOMAIN"
+msgid "There are no hostnames in the system for [_1]."
+msgstr "系统中{$localDomainName}暂无主机名。"
+
+msgctxt "hos_STATIC_HOST_MESSAGE"
+msgid ""
+"- This host represents your system name and cannot be modifiedor removed."
+msgstr "- 此主机代表您的系统名称，不能被修改或者移除。"
+
+msgctxt "hos_CREATE_LOCAL_HOST_TITLE"
+msgid "Create a new hostname referring to a local host."
+msgstr "创建新的本地主机名"
+
+msgctxt "hos_HOSTNAME_VALIDATION_ERROR"
+msgid ""
+"Error: unexpected characters in host name: \"[_1]\". \n"
+"The host name should contain only \n"
+"letters, numbers, and hyphens and must start \n"
+"with a letter or a number."
+msgstr "错误：在主机名\"{$HostName}\"出现非预期字符。主机名应该只包含字母、数字和连接符，并且以一个字母或者数字开头。"
+
+msgctxt "hos_HOSTNAME_LENGTH_ERROR"
+msgid ""
+"Error: account name [_1] is too long. The\n"
+"maximum is 32 characters."
+msgstr "错误：账号名称{$HostName}太长，最大为32个字符。"
+
+msgctxt "hos_DOMAIN_VALIDATION_ERROR"
+msgid ""
+"Error: unexpected or missing characters in domain name \n"
+"[_1]. The domain name should contain one or more \n"
+"letters, numbers, periods and minus signs. Did not create new \n"
+"domain."
+msgstr "错误：在域名{$domainName}中含有意外字符。域名应该包含一个或多个字母、数字、点号和分隔符。未能创建新域。"
+
+msgctxt "hos_HOSTNAME_EXISTS_ERROR"
+msgid "Error: account [_1] hostname."
+msgstr "错误：账号{$fullHostName}是一个已存在的{$type}主机名。"
+
+msgctxt "hos_SUCCESSFULLY_CREATED"
+msgid "Successfully created hostname."
+msgstr "主机名创建成功。"
+
+msgctxt "hos_HOSTNAME_DESCRIPTION"
+msgid ""
+"The hostname must contain only letters, numbers, and hyphens, and must start"
+" with a letter or number."
+msgstr "主机名只能包含字母、数字和连接符，并且以字母或者数字开头。"
+
+msgctxt "hos_LOCAL_IP_DESCRIPTION"
+msgid ""
+"The Local IP address is the IP address of another machine on\n"
+"the local network. Please enter a valid IP address in the\n"
+"format \"aaa.bbb.ccc.ddd\"."
+msgstr "此IP地址是本地网络中其他机器的IP地址。请输入一个有效的IP地址，格式为\"aaa.bbb.ccc.ddd\"。"
+
+msgctxt "hos_ETHERNET_ADDRESS_DESCRIPTION"
+msgid ""
+"The ethernet address is optional and causes the DHCP server to\n"
+"statically bind the local IP address to the computer with this\n"
+"ethernet address.If specified, it must be of the form\n"
+"\"AA:BB:CC:DD:EE:FF\" and must contain only the numbers 0-9 and\n"
+"the letters A-F."
+msgstr ""
+"Mac地址是可选的，通过它可以用DHCP服务器静态绑定本地的IP地址。如果指定了，它的格式必须是：\"AA:BB:CC:DD:EE:FF\"，并且只能包含数字0-9和字母A-F。"
+
+msgctxt "hos_DIDNT_ENTER_LOCAL_IP"
+msgid ""
+"Error: You did not specify a Local IP address.IP\n"
+"addresses must contain only numbers and periods and\n"
+"be in the form \"aaa.bbb.ccc.ddd\".Did not create hostname."
+msgstr "错误：您还没有指定本地IP地址。IP地址只允许包含数字和点号，并且格式为\"aaa.bbb.ccc.ddd\"。未能创建主机名。"
+
+msgctxt "hos_IP_VALIDATION_ERROR"
+msgid ""
+"Error: IP Address [_1] is\n"
+"invalid. IP Addresses must contain only numbers and periodsand be in the form \"aaa.bbb.ccc.ddd\". Did not create hostname."
+msgstr "错误：IP地址{$InternalIP}无效。IP地址只能包含数字和点号，并且格式为\"aaa.bbb.ccc.ddd\"。未能创建主机名。"
+
+msgctxt "hos_MAC_ADDRESS_VALIDATION_ERROR"
+msgid ""
+"Error: Ethernet address [_1]\n"
+"is invalid.Ethernet addresses must be in the\n"
+"form \"AA:BB:CC:DD:EE:FF\" and only contain the\n"
+"numbers 0-9 and the letters A-F. Did not create\n"
+"hostname."
+msgstr ""
+"错误：mac地址{$MACAddress}无效。mac地址格式必须为\"AA:BB:CC:DD:EE:FF\"，并且只能包含数字0-9和字母A-F。未能创建主机名。"
+
+msgctxt "hos_CREATE_REMOTE_HOST_TITLE"
+msgid "Create a new hostname referring to a remote host"
+msgstr "创建新的远程主机名"
+
+msgctxt "hos_CREATE_TITLE"
+msgid "Create or modify hostname"
+msgstr "创建或修改主机名"
+
+msgctxt "hos_LOCAL_PAGE_DESCRIPTION"
+msgid "Please enter the following additional details for a localhost:"
+msgstr "请为本地主机输入其他细节："
+
+msgctxt "hos_REMOTE_PAGE_DESCRIPTION"
+msgid "Please enter the following additional details for a remotehost:"
+msgstr "请为远程主机输入其他细节："
+
+msgctxt "hos_SUCCESSFULLY_DELETED"
+msgid "Successfully deleted host."
+msgstr "主机删除成功。"
+
+msgctxt "hos_SUCCESSFULLY_MODIFIED"
+msgid "Successfully modified host."
+msgstr "主机修改成功。"
+
+msgctxt "hos_REMOVE_PAGE_DESCRIPTION"
+msgid "You are about to remove the hostname \"[_1]\""
+msgstr "将要删除主机名 \"{$hostname}.{$domain}\". </p> <p> <b>是否真的要删除这个主机名？</b>"
+
+msgctxt "hos_CONFIRM_DESCRIPTION"
+msgid "Please confirm the following details."
+msgstr "请确认如下细节。"
+
+msgctxt "hos_NO_HOSTS_FOR_THIS_DOMAIN"
+msgid "There are no hosts for this domain."
+msgstr "此域暂无主机。"
+
+msgctxt "hos_ADDR_IN_DHCP_RANGE"
+msgid "Address is inside the DHCP assigned dynamic range"
+msgstr "地址是DHCP内部动态分配的范围"
+
+msgctxt "hos_ERROR_WHILE_CREATING_HOST"
+msgid "Error occurred while creating hostname."
+msgstr "创建主机名时出错。"
+
+msgctxt "hos_ERROR_WHILE_MODIFYING_HOST"
+msgid "Error occurred while modifying hostname."
+msgstr "编辑主机名时出错。"
+
+msgctxt "hos_ERROR_WHILE_DELETING_HOST"
+msgid "Error occurred while deleting hostname."
+msgstr "删除主机名时出错。"
+
+msgctxt "hos_ERR_IP_IS_LOCAL_OR_GATEWAY"
+msgid "Error: IP cannot be server IP or Gateway IP."
+msgstr "错误：IP地址不能为服务器IP或者网关IP。"
+
+msgctxt "hos_ERR_IP_NOT_LOCAL"
+msgid "Error: This IP address is not on any of our local networks."
+msgstr "错误：此IP地址不在本地网络范围内。"
+
+msgctxt "hos_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgid "Must be a valid hostname or IP number"
+msgstr "必须是一个合法的主机名或IP"
+
+msgctxt "hos_HOSTNAME_COMMENT_ERROR"
+msgid ""
+"Error: unexpected characters in the comment of \"[_1]\". \n"
+"The comment must contain only letters, spaces, numbers, dots, commas, undescores, hyphens and must start with a letter or number."
+msgstr ""
+"错误：在\"{$hostname}.{$domain}\"的备注中出现非法字符。内容只应该包含字母、空格、数字、句号、逗号、下划线和连字符，并且必须以字母或者数字开头。"
+
+msgctxt "hos_HOSTNAME_VALIDATOR_ERROR"
+msgid ""
+"Error: unexpected characters in host name: \"[_1]\". The host name should contain only \n"
+"letters, numbers, and hyphens and must start with a letter or a number."
+msgstr "错误：在\"{$hostname}.{$domain}\"的备注中出现无效字符。主机名应该只包含字母、数字和连接符，并且必须以字母或者数字开头。"

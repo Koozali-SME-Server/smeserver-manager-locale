@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "rbo_FORM_TITLE"
+msgid "Shutdown or reboot"
+msgstr "關機或重啟"
+
+msgctxt "rbo_REBOOT"
+msgid "Reboot"
+msgstr "重新啟動系統"
+
+msgctxt "rbo_REBOOT_SUCCEEDED"
+msgid "Reboot request initiated successfully."
+msgstr "重啟要求已成功開始進行。"
+
+msgctxt "rbo_DESC_REBOOT"
+msgid "Your server has initiated the reboot process."
+msgstr "您的伺服器已開始進行重啟程序。"
+
+msgctxt "rbo_RECONFIGURE_SUCCEEDED"
+msgid "Reconfiguration request initiated successfully."
+msgstr "重配置要求已成功開始進行。"
+
+msgctxt "rbo_DESC_RECONFIGURE"
+msgid "Your server has initiated a full system reconfiguration and reboot."
+msgstr "您的伺服器已開始進行全系統重配置，然後重啟。"
+
+msgctxt "rbo_DESC_SHUTDOWN"
+msgid ""
+"Your server has initiated the shutdown process. \n"
+"The process will take several minutes to complete, after which\n"
+"you can switch off the power."
+msgstr "您的伺服器已開始進行關機程序。該程序將費時數分鐘，然後您可以關閉電源。"
+
+msgctxt "rbo_LABEL_REBOOT"
+msgid "Select Shutdown, Reboot or Reconfigure"
+msgstr "選擇關機、重啟或重配置"
+
+msgctxt "rbo_DESCRIPTION"
+msgid ""
+"You can reboot, shut down your server or perform a full system\n"
+"reconfiguration from this screen. You must perform a shutdown\n"
+"before switching the power off. All of these functions take\n"
+"several minutes to complete.\n"
+"When you click <b>perform</b> the operation will be initiated immediately, so be ready!"
+msgstr ""
+"您可以從此畫面選擇重啟、關機或全系統重配置。當您關閉電源之前，必須先執行關機程序。所有功能將耗時數分鐘。當您按下 <b>執行</b> "
+"，操作將直接開始進行，因此請事先準備好！"

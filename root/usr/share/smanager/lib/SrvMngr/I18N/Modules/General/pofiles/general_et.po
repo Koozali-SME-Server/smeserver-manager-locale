@@ -1,0 +1,544 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "OPERATION_Collaboration"
+msgid "Collaboration"
+msgstr "Collaboration"
+
+msgctxt "OPERATION_Administration"
+msgid "Administration"
+msgstr "Administreerimine"
+
+msgctxt "OPERATION_Security"
+msgid "Security"
+msgstr "Turvalisus"
+
+msgctxt "OPERATION_Configuration"
+msgid "Configuration"
+msgstr "Seadistused"
+
+msgctxt "OPERATION_Miscellaneous"
+msgid "Miscellaneous"
+msgstr "Muu"
+
+msgctxt "OPERATION_Your Settings"
+msgid "Your Settings"
+msgstr "Sinu seaded"
+
+msgctxt "OPERATION_SAVE"
+msgid "Save"
+msgstr "Salvesta"
+
+msgctxt "OPERATION_CANCEL"
+msgid "Cancel"
+msgstr "Tühista"
+
+msgctxt "OPERATION_ENABLED"
+msgid "Enabled"
+msgstr "Lubatud"
+
+msgctxt "OPERATION_DISABLED"
+msgid "Disabled"
+msgstr "Keelatud"
+
+msgctxt "OPERATION_NO"
+msgid "No"
+msgstr "Ei"
+
+msgctxt "OPERATION_YES"
+msgid "Yes"
+msgstr "Jah"
+
+msgctxt "OPERATION_ADD"
+msgid "Add"
+msgstr "Lisa"
+
+msgctxt "OPERATION_CREATE"
+msgid "Create"
+msgstr "Loo"
+
+msgctxt "OPERATION_MODIFY"
+msgid "Modify"
+msgstr "Muuda"
+
+msgctxt "OPERATION_REMOVE"
+msgid "Remove"
+msgstr "Eemalda"
+
+msgctxt "OPERATION_COMMENT"
+msgid "Comment"
+msgstr "Kommentaar"
+
+msgctxt "OPERATION_NEXT"
+msgid "Next"
+msgstr "Edasi"
+
+msgctxt "OPERATION_SELF"
+msgid "Self"
+msgstr "Ise"
+
+msgctxt "OPERATION_REMOTE"
+msgid "Remote"
+msgstr "Eemalt"
+
+msgctxt "OPERATION_LOCAL"
+msgid "Local"
+msgstr "Kohalik"
+
+msgctxt "OPERATION_ACTION"
+msgid "Action"
+msgstr "Tegevus"
+
+msgctxt "OPERATION_NETWORK"
+msgid "Network"
+msgstr "Võrk"
+
+msgctxt "OPERATION_ROUTER"
+msgid "Router"
+msgstr "Ruuter"
+
+msgctxt "OPERATION_STATUS_REPORT"
+msgid "Operation status report"
+msgstr "Operatsiooni tulemus"
+
+msgctxt "OPERATION_ACCOUNT"
+msgid "Account"
+msgstr "Konto"
+
+msgctxt "OPERATION_GROUP"
+msgid "Group"
+msgstr "Grupp"
+
+msgctxt "OPERATION_DESC_SECTIONBAR"
+msgid "<hr class=\"sectionbar\"/>"
+msgstr " <hr class=\"sectionbar\"/> "
+
+msgctxt "OPERATION_NO_PIPES_ALLOWED"
+msgid "Pipe symbols (|) are not permitted in this field"
+msgstr "Pipe sümboleid (|) pole siin väljal lubatud"
+
+msgctxt "OPERATION_ERROR_BELOW"
+msgid ""
+"ERROR: There was an error in the validation of this page. Please scroll down"
+" and find the specific problem."
+msgstr ""
+"VIGA: Lehe valideerimisel ilmnes viga. Probleemi kirjeldus lehe lõpus."
+
+msgctxt "OPERATION_ACCESS"
+msgid "Access"
+msgstr "Juurdepääs"
+
+msgctxt "OPERATION_ACCOUNT_LOCKED"
+msgid "Account is locked"
+msgstr "Konto on lukus"
+
+msgctxt "OPERATION_GROUP_ADD"
+msgid "Add group"
+msgstr "Lisa grupp"
+
+msgctxt "OPERATION_NETWORKS_ALLOW_LOCAL"
+msgid "Allow access only from local networks"
+msgstr "Luba juurdepääs ainult kohtvõrgust"
+
+msgctxt "OPERATION_NETWORKS_ALLOW_PUBLIC"
+msgid "Allow public access (entire Internet)"
+msgstr "Luba avalik juurdepääs (internetist)"
+
+msgctxt "OPERATION_ERROR_PASSWORD_CHANGE"
+msgid ""
+"An error occurred while attempting to change your password. Please make sure"
+" that the old password entered is correct."
+msgstr ""
+"Parooli muutmisel ilmnes viga. Palun kontrolli kas sisestasid vana parooli "
+"õieti."
+
+msgctxt "OPERATION_BACK"
+msgid "Back"
+msgstr "Tagasi"
+
+msgctxt "OPERATION_BACKUP"
+msgid "Backup"
+msgstr "Varukoopia"
+
+msgctxt "OPERATION_DESCRIPTION_BRIEF"
+msgid "Brief description"
+msgstr "Brief kirjeldus"
+
+msgctxt "OPERATION_PASSWORD_CHANGE"
+msgid "Change Password"
+msgstr "Muuda parooli"
+
+msgctxt "OPERATION_RESET_PASSWORD_TITLE"
+msgid "Reset user password"
+msgstr "Tühista kasutaja parool"
+
+msgctxt "OPERATION_ACCOUNT_PASSWORD_CHANGE"
+msgid "Change account password"
+msgstr "Parooli muutmine"
+
+msgctxt "OPERATION_CONTENT"
+msgid "Content"
+msgstr "Sisu"
+
+msgctxt "OPERATION_CREATE_GROUP"
+msgid "Create user group"
+msgstr "Loo kasutajate grupp"
+
+msgctxt "OPERATION_USER_LIST_CURRENT"
+msgid "Current list of users"
+msgstr "Nimekiri kasutajatest"
+
+msgctxt "OPERATION_DESCRIPTION"
+msgid "Description"
+msgstr "Kirjeldus"
+
+msgctxt "OPERATION_DESTINATION"
+msgid "Destination"
+msgstr "Asukoht"
+
+msgctxt "OPERATION_DOMAIN_NAME"
+msgid "Domain name"
+msgstr "Domeeni nimi"
+
+msgctxt "OPERATION_DOMAIN"
+msgid "Domain"
+msgstr "Domeen"
+
+msgctxt "OPERATION_DOMAINS"
+msgid "Domains"
+msgstr "Domeenid"
+
+msgctxt "OPERATION_DOWNLOAD"
+msgid "Download"
+msgstr "Allalaadimine"
+
+msgctxt "OPERATION_ERROR_UPDATING_CONFIGURATION"
+msgid "Error occurred while updating system configuration."
+msgstr "Viga süsteemi seadete uuendamisel"
+
+msgctxt "OPERATION_GROUP_MEMBERS"
+msgid "Group Members"
+msgstr "Grupi liikmed"
+
+msgctxt "OPERATION_GROUP_NAME"
+msgid "Group Name"
+msgstr "Grupi nimi"
+
+msgctxt "OPERATION_GROUPS"
+msgid "Groups"
+msgstr "Grupid"
+
+msgctxt "OPERATION_IP_ADDRESS"
+msgid "IP Address"
+msgstr "IP aadress"
+
+msgctxt "OPERATION_IP_ADDRESS_OR_FQDN"
+msgid "IP Address or FQDN"
+msgstr "IP aadress või FQDN"
+
+msgctxt "OPERATION_USER_INVALID"
+msgid "Invalid user"
+msgstr "Olematu kasutaja"
+
+msgctxt "OPERATION_LOCATION"
+msgid "Location"
+msgstr "Asukoht"
+
+msgctxt "OPERATION_MB"
+msgid "Mb"
+msgstr "Mb"
+
+msgctxt "OPERATION_MODIFY_USER_GROUP"
+msgid "Modify user group"
+msgstr "Muuda kasutaja kuuluvust gruppi"
+
+msgctxt "OPERATION_NAME"
+msgid "Name"
+msgstr "Nimi"
+
+msgctxt "OPERATION_PASSWORD_VERIFY_NEW"
+msgid "New password (verify):"
+msgstr "Uus parool (korda uut parooli):"
+
+msgctxt "OPERATION_PASSWORD_NEW"
+msgid "New password:"
+msgstr "Uus parool:"
+
+msgctxt "OPERATION_OFF"
+msgid "Off"
+msgstr "Väljas"
+
+msgctxt "OPERATION_OK"
+msgid "Ok"
+msgstr "Ok"
+
+msgctxt "OPERATION_PASSWORD_OLD"
+msgid "Old password:"
+msgstr "Vana parool:"
+
+msgctxt "OPERATION_ON"
+msgid "On"
+msgstr "Sees"
+
+msgctxt "OPERATION_PASSWORD"
+msgid "Password"
+msgstr "Parool"
+
+msgctxt "OPERATION_PERFORM"
+msgid "Perform"
+msgstr "Perform"
+
+msgctxt "OPERATION_RECONFIGURE"
+msgid "Reconfigure"
+msgstr "Seadista ümber"
+
+msgctxt "OPERATION_REMOVE_USER_GROUP"
+msgid "Remove user group"
+msgstr "Eemalda kasutajate grupp"
+
+msgctxt "OPERATION_PASSWORD_RESET"
+msgid "Reset password"
+msgstr "Tühista parool"
+
+msgctxt "OPERATION_RESTORE"
+msgid "Restore"
+msgstr "Taasta"
+
+msgctxt "OPERATION_SHUTDOWN"
+msgid "Shutdown"
+msgstr "Sulge"
+
+msgctxt "OPERATION_SUCCESS"
+msgid "Success"
+msgstr "Õnnestus"
+
+msgctxt "OPERATION_ACCOUNT_NAME_INVALID"
+msgid "The account name entered is invalid."
+msgstr "Sisestatud kasutajanime ei leitud."
+
+msgctxt "OPERATION_ACCOUNT_NAME_INVALID_CHARS"
+msgid "The account name you entered contained invalid characters."
+msgstr "Kasutajanimi mis sa sisestasid sisaldab sobimatuid sümboleid."
+
+msgctxt "OPERATION_PASSWORD_OLD_INVALID_CHARS"
+msgid "The old password you entered contained invalid characters."
+msgstr "Vana parool mis sa sisestasid sisaldab sobimatuid sümboleid."
+
+msgctxt "OPERATION_PASSWORD_INVALID_CHARS"
+msgid "The password you entered contained invalid characters."
+msgstr "Parool mis sa sisestasid sisaldab sobimatuid sümboleid."
+
+msgctxt "OPERATION_PASSWORD_VERIFY_ERROR"
+msgid "The passwords you entered did not match."
+msgstr "Paroolid mis sa sisestasid ei ühti."
+
+msgctxt "OPERATION_ACCOUNT_USER_NONE"
+msgid "There are no user accounts in the system."
+msgstr "Süsteemis pole kasutajakontosid."
+
+msgctxt "OPERATION_ACCOUNT_GROUP_NONE"
+msgid "There are no user groups in the system."
+msgstr "Süsteemis pole kasutajagruppe."
+
+msgctxt "OPERATION_ERROR_INVALID_CHARS"
+msgid "Unexpected characters in description."
+msgstr "Sobimatu sümbol kirjelduses."
+
+msgctxt "OPERATION_USER_NAME"
+msgid "User Name"
+msgstr "Kasutajanimi"
+
+msgctxt "OPERATION_YOUR_ACCOUNT"
+msgid "Your account:"
+msgstr "Sinu konto:"
+
+msgctxt "OPERATION_YOUR_ACCOUNT_INVALID"
+msgid "The account name entered is invalid."
+msgstr "Sisestatud kasutajanime ei leitud."
+
+msgctxt "OPERATION_PASSWORD_CHANGE_SUCCESS"
+msgid "Your password has been successfully changed."
+msgstr "Sinu parool on edukalt muudetud."
+
+msgctxt "OPERATION_FM_NONBLANK"
+msgid "This field must not be left blank"
+msgstr "See väli peab täidetud olema"
+
+msgctxt "OPERATION_FM_INTEGER"
+msgid "This field must contain a positive integer"
+msgstr "See väli peab sisaldama positiivset täisarvu"
+
+msgctxt "OPERATION_FM_NUMBER"
+msgid "This field must contain a number"
+msgstr "Sellele väljale saab ainult numbreid sisestada"
+
+msgctxt "OPERATION_FM_WORD"
+msgid "This field must look like a single word."
+msgstr "Selle välja sisestus peab välja nägema nagu üks sõna."
+
+msgctxt "OPERATION_FM_DATE"
+msgid "The data entered could not be parsed as a date"
+msgstr "Sisestatud andmeid ei saa kuupäevaks lugeda"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER1"
+msgid "You must enter a credit card number"
+msgstr "Sa pead sisestama krediitkaardi numbri"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER2"
+msgid ""
+"Credit card numbers shouldn\\'t have anything but numbers, spaces or dashes"
+msgstr ""
+"Krediitkaardi number ei tohi sisaldada mitte midagi muud kui numbreid ja "
+"tühikuid"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER3"
+msgid "Must be at least 14 characters in length"
+msgstr "Peab olema vähemalt 14 sümbolit pikk"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER4"
+msgid "Doesn\\'t appear to be a valid credit card number"
+msgstr "Ei tundu sobivat krediikaardi numbriks"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY1"
+msgid "No expiry date entered."
+msgstr "Kaardi kehtivuse lõpu kuupäeva ei sisestatud."
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY2"
+msgid "Expiry date must be in the format MM/YY or MM/YYYY"
+msgstr "Kehtivuse lõpp peab olema vormingus KK/AA või KK/AAAA"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY3"
+msgid "This expiry date appears to have already passed"
+msgstr "See kuupäev on juba möödas"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY4"
+msgid "This expiry date appears to be too far in the future"
+msgstr "See kehtivuse lõpu kuupäev on liiga kaugel tulevikus"
+
+msgctxt "OPERATION_FM_ISO_COUNTRY_CODE1"
+msgid "You must provide a country code"
+msgstr "Sisesta riigi kood"
+
+msgctxt "OPERATION_FM_ISO_COUNTRY_CODE2"
+msgid "This field does not contain an ISO country code"
+msgstr "Väli ei sisalda maa koodi ISO vormingus"
+
+msgctxt "OPERATION_FM_US_STATE"
+msgid "This doesn\\'t appear to be a valid 2-letter US state abbreviation"
+msgstr "This doesn\\'t appear to be a valid 2-letter US state abbreviation"
+
+msgctxt "OPERATION_FM_US_ZIPCODE"
+msgid "US zip codes must contain 5 or 9 numbers"
+msgstr "US indeks koosneb ainult 5 või 9 numbrist"
+
+msgctxt "OPERATION_FM_MINLENGTH1"
+msgid "Minimum length has been specified meaninglessly as [_1]"
+msgstr "Minimum length has been specified meaninglessly as {$minlength}"
+
+msgctxt "OPERATION_FM_MINLENGTH2"
+msgid "This field must be at least [_1] characters"
+msgstr "See väli peab sisaldama vähemalt {$minlength} sümbolit"
+
+msgctxt "OPERATION_FM_MAXLENGTH1"
+msgid "Maximum length has been specified meaninglessly as [_1]"
+msgstr "Maximum length has been specified meaninglessly as {$maxlength}"
+
+msgctxt "OPERATION_FM_MAXLENGTH2"
+msgid "This field must be no more than [_1] characters"
+msgstr "See väli ei tohi sisaldada rohkem kui {$maxlength} sümbolit"
+
+msgctxt "OPERATION_FM_EXACTLENGTH1"
+msgid "You must specify the length for the field."
+msgstr "You must specify the length for the field."
+
+msgctxt "OPERATION_FM_EXACTLENGTH2"
+msgid "You must specify the exactlength of the field with an integer"
+msgstr "You must specify the exactlength of the field with an integer"
+
+msgctxt "OPERATION_FM_EXACTLENGTH3"
+msgid "This field must be exactly [_1] characters"
+msgstr "This field must be exactly {$exactlength} characters"
+
+msgctxt "OPERATION_FM_LENGTHRANGE1"
+msgid "You must specify the maximum and minimum length for the field."
+msgstr "Pead täpsustama maksimum ja miinimum pikkuse sellele väljale"
+
+msgctxt "OPERATION_FM_LENGTHRANGE2"
+msgid ""
+"You must specify the maximum and minimum lengths of the field with an "
+"integer"
+msgstr ""
+"You must specify the maximum and minimum lengths of the field with an "
+"integer"
+
+msgctxt "OPERATION_FM_LENGTHRANGE3"
+msgid "This field must be between [_1] and [_2] characters"
+msgstr ""
+"See väli saab sisaldada {$minlength} ja {$maxlength} vahemikus sümboleid"
+
+msgctxt "OPERATION_FM_URL"
+msgid "This field must contain a URL starting with http:// or ftp://"
+msgstr "Väli peab sisaldama URL-i algusega http:// või ftp://"
+
+msgctxt "OPERATION_FM_EMAIL_SIMPLE1"
+msgid "You must enter an email address."
+msgstr "Pead sisestama e-maili aadressi:"
+
+msgctxt "OPERATION_FM_EMAIL_SIMPLE2"
+msgid "This field doesn\\'t look like an RFC822-compliant email address"
+msgstr "Sisestus sellel väljal ei ole RFC822-vormingus e-maili aadress"
+
+msgctxt "OPERATION_FM_DOMAIN_NAME"
+msgid "This field doesn\\'t look like a valid Internet domain name or hostname."
+msgstr "Sisestus sellel väljal ei paista olevat domeeni või hostinimi."
+
+msgctxt "OPERATION_FM_IP_NUMBER1"
+msgid "This field must contain a valid IP number and can not be left blank."
+msgstr "See väli peab sisaldama IP aadressi ja ei tohi sisaldada tühikuid."
+
+msgctxt "OPERATION_FM_IP_NUMBER2"
+msgid "Invalid IP address format (expected X.X.X.X)"
+msgstr "Sobimatu IP aadress DHCP alguseks (mall X.X.X.X)"
+
+msgctxt "OPERATION_FM_IP_NUMBER3"
+msgid "[_1] is more than 255"
+msgstr "{$octet} on rohkem kui 255"
+
+msgctxt "OPERATION_FM_USERNAME"
+msgid ""
+"This field must look like a valid username (3 to 8 letters and numbers)"
+msgstr "See väli peab sisaldama kasutajanime (3 kuni 8 tähte ja numbrit)"
+
+msgctxt "OPERATION_FM_PASSWORD1"
+msgid "You must provide a password."
+msgstr "Pead parooli looma."
+
+msgctxt "OPERATION_FM_PASSWORD2"
+msgid ""
+"The password you provided was not a good password.A good password must "
+"contain all of the following: upper case letter, lower case letter, number, "
+"non-alphanumeric character, be at least 7 characters long."
+msgstr ""
+"Sinu poolt valitud parool ei ole kuigi turvaline. Turvaline parool peaks "
+"sisaldama: Suuri ja väikseid tähti, numbreid, tähestikus mitte olevaid "
+"sümboleid ja vähemalt 7 sümbolit pikk."
+
+msgctxt "OPERATION_FM_MAC_ADDRESS1"
+msgid "You must provide a MAC address."
+msgstr "Sisesta MAC aadress:"
+
+msgctxt "OPERATION_FM_MAC_ADDRESS2"
+msgid "The MAC address you provided was not valid."
+msgstr "Sisestatud MAC aadress ei sobi."
+
+msgctxt "OPERATION_FM_ERR_UNEXPECTED_DESC"
+msgid "Error: unexpected or missing characters in description"
+msgstr "Viga: sobimatu või puuduv sümbol kirjelduses"
+
+msgctxt "OPERATION_CSRF_VALIDATION_FAILURE"
+msgid "Placeholder for missing original text"
+msgstr "Error: CSRF token is invalid or outdated."

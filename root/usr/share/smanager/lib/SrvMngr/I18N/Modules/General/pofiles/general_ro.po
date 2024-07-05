@@ -1,0 +1,545 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "OPERATION_Collaboration"
+msgid "Collaboration"
+msgstr "Collaboration"
+
+msgctxt "OPERATION_Administration"
+msgid "Administration"
+msgstr "Administrația"
+
+msgctxt "OPERATION_Security"
+msgid "Security"
+msgstr "Security"
+
+msgctxt "OPERATION_Configuration"
+msgid "Configuration"
+msgstr "Configurare"
+
+msgctxt "OPERATION_Miscellaneous"
+msgid "Miscellaneous"
+msgstr "Miscellaneous"
+
+msgctxt "OPERATION_Your Settings"
+msgid "Your Settings"
+msgstr "Your Settings"
+
+msgctxt "OPERATION_SAVE"
+msgid "Save"
+msgstr "Salvează"
+
+msgctxt "OPERATION_CANCEL"
+msgid "Cancel"
+msgstr "Anulare"
+
+msgctxt "OPERATION_ENABLED"
+msgid "Enabled"
+msgstr "Activat"
+
+msgctxt "OPERATION_DISABLED"
+msgid "Disabled"
+msgstr "Disabled"
+
+msgctxt "OPERATION_NO"
+msgid "No"
+msgstr "Nu"
+
+msgctxt "OPERATION_YES"
+msgid "Yes"
+msgstr "Da"
+
+msgctxt "OPERATION_ADD"
+msgid "Add"
+msgstr "Adaugă"
+
+msgctxt "OPERATION_CREATE"
+msgid "Create"
+msgstr "Create"
+
+msgctxt "OPERATION_MODIFY"
+msgid "Modify"
+msgstr "Modifică"
+
+msgctxt "OPERATION_REMOVE"
+msgid "Remove"
+msgstr "Eliminare"
+
+msgctxt "OPERATION_COMMENT"
+msgid "Comment"
+msgstr "Comment"
+
+msgctxt "OPERATION_NEXT"
+msgid "Next"
+msgstr "Următorul"
+
+msgctxt "OPERATION_SELF"
+msgid "Self"
+msgstr "Self"
+
+msgctxt "OPERATION_REMOTE"
+msgid "Remote"
+msgstr "Eliminare"
+
+msgctxt "OPERATION_LOCAL"
+msgid "Local"
+msgstr "Local"
+
+msgctxt "OPERATION_ACTION"
+msgid "Action"
+msgstr "Acțiune"
+
+msgctxt "OPERATION_NETWORK"
+msgid "Network"
+msgstr "Network"
+
+msgctxt "OPERATION_ROUTER"
+msgid "Router"
+msgstr "Router"
+
+msgctxt "OPERATION_STATUS_REPORT"
+msgid "Operation status report"
+msgstr "Raport operațiune"
+
+msgctxt "OPERATION_ACCOUNT"
+msgid "Account"
+msgstr "Cont"
+
+msgctxt "OPERATION_GROUP"
+msgid "Group"
+msgstr "Group"
+
+msgctxt "OPERATION_DESC_SECTIONBAR"
+msgid "<hr class=\"sectionbar\"/>"
+msgstr " <hr class=\"sectionbar\"/> "
+
+msgctxt "OPERATION_NO_PIPES_ALLOWED"
+msgid "Pipe symbols (|) are not permitted in this field"
+msgstr "Pipe symbols (|) are not permitted in this field"
+
+msgctxt "OPERATION_ERROR_BELOW"
+msgid ""
+"ERROR: There was an error in the validation of this page. Please scroll down"
+" and find the specific problem."
+msgstr ""
+"ERROR: There was an error in the validation of this page. Please scroll down"
+" and find the specific problem."
+
+msgctxt "OPERATION_ACCESS"
+msgid "Access"
+msgstr "Access"
+
+msgctxt "OPERATION_ACCOUNT_LOCKED"
+msgid "Account is locked"
+msgstr "Account is locked"
+
+msgctxt "OPERATION_GROUP_ADD"
+msgid "Add group"
+msgstr "Add group"
+
+msgctxt "OPERATION_NETWORKS_ALLOW_LOCAL"
+msgid "Allow access only from local networks"
+msgstr "Allow access only from local networks"
+
+msgctxt "OPERATION_NETWORKS_ALLOW_PUBLIC"
+msgid "Allow public access (entire Internet)"
+msgstr "Allow public access (entire Internet)"
+
+msgctxt "OPERATION_ERROR_PASSWORD_CHANGE"
+msgid ""
+"An error occurred while attempting to change your password. Please make sure"
+" that the old password entered is correct."
+msgstr ""
+"An error occurred while attempting to change your password. Please make sure"
+" that the old password entered is correct."
+
+msgctxt "OPERATION_BACK"
+msgid "Back"
+msgstr "Înapoi"
+
+msgctxt "OPERATION_BACKUP"
+msgid "Backup"
+msgstr "Backup"
+
+msgctxt "OPERATION_DESCRIPTION_BRIEF"
+msgid "Brief description"
+msgstr "Brief description"
+
+msgctxt "OPERATION_PASSWORD_CHANGE"
+msgid "Change Password"
+msgstr "Schimbaţi-vă parola "
+
+msgctxt "OPERATION_RESET_PASSWORD_TITLE"
+msgid "Reset user password"
+msgstr "Reset user password"
+
+msgctxt "OPERATION_ACCOUNT_PASSWORD_CHANGE"
+msgid "Change account password"
+msgstr "Schimbă parola contului"
+
+msgctxt "OPERATION_CONTENT"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "OPERATION_CREATE_GROUP"
+msgid "Create user group"
+msgstr "Create user group"
+
+msgctxt "OPERATION_USER_LIST_CURRENT"
+msgid "Current list of users"
+msgstr "Current list of users"
+
+msgctxt "OPERATION_DESCRIPTION"
+msgid "Description"
+msgstr "Descriere"
+
+msgctxt "OPERATION_DESTINATION"
+msgid "Destination"
+msgstr "Destination"
+
+msgctxt "OPERATION_DOMAIN_NAME"
+msgid "Domain name"
+msgstr "Domain name"
+
+msgctxt "OPERATION_DOMAIN"
+msgid "Domain"
+msgstr "Domain"
+
+msgctxt "OPERATION_DOMAINS"
+msgid "Domains"
+msgstr "Domains"
+
+msgctxt "OPERATION_DOWNLOAD"
+msgid "Download"
+msgstr "Descarcă"
+
+msgctxt "OPERATION_ERROR_UPDATING_CONFIGURATION"
+msgid "Error occurred while updating system configuration."
+msgstr "Error occurred while updating system configuration."
+
+msgctxt "OPERATION_GROUP_MEMBERS"
+msgid "Group Members"
+msgstr "Group Members"
+
+msgctxt "OPERATION_GROUP_NAME"
+msgid "Group Name"
+msgstr "Group Name"
+
+msgctxt "OPERATION_GROUPS"
+msgid "Groups"
+msgstr "Groups"
+
+msgctxt "OPERATION_IP_ADDRESS"
+msgid "IP Address"
+msgstr "Adresă e-mail"
+
+msgctxt "OPERATION_IP_ADDRESS_OR_FQDN"
+msgid "IP Address or FQDN"
+msgstr "IP Address or FQDN"
+
+msgctxt "OPERATION_USER_INVALID"
+msgid "Invalid user"
+msgstr "Invalid user"
+
+msgctxt "OPERATION_LOCATION"
+msgid "Location"
+msgstr "Location"
+
+msgctxt "OPERATION_MB"
+msgid "Mb"
+msgstr "Mb (megaocteți)"
+
+msgctxt "OPERATION_MODIFY_USER_GROUP"
+msgid "Modify user group"
+msgstr "Modify user group"
+
+msgctxt "OPERATION_NAME"
+msgid "Name"
+msgstr "Nume"
+
+msgctxt "OPERATION_PASSWORD_VERIFY_NEW"
+msgid "New password (verify):"
+msgstr "New password (verify):"
+
+msgctxt "OPERATION_PASSWORD_NEW"
+msgid "New password:"
+msgstr "New password:"
+
+msgctxt "OPERATION_OFF"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "OPERATION_OK"
+msgid "Ok"
+msgstr "Ok"
+
+msgctxt "OPERATION_PASSWORD_OLD"
+msgid "Old password:"
+msgstr "Old password:"
+
+msgctxt "OPERATION_ON"
+msgid "On"
+msgstr "On"
+
+msgctxt "OPERATION_PASSWORD"
+msgid "Password"
+msgstr "Parolă"
+
+msgctxt "OPERATION_PERFORM"
+msgid "Perform"
+msgstr "Execută"
+
+msgctxt "OPERATION_RECONFIGURE"
+msgid "Reconfigure"
+msgstr "Reconfigurare"
+
+msgctxt "OPERATION_REMOVE_USER_GROUP"
+msgid "Remove user group"
+msgstr "Remove user group"
+
+msgctxt "OPERATION_PASSWORD_RESET"
+msgid "Reset password"
+msgstr "Reset password"
+
+msgctxt "OPERATION_RESTORE"
+msgid "Restore"
+msgstr "Restore"
+
+msgctxt "OPERATION_SHUTDOWN"
+msgid "Shutdown"
+msgstr "Închidere"
+
+msgctxt "OPERATION_SUCCESS"
+msgid "Success"
+msgstr "Success"
+
+msgctxt "OPERATION_ACCOUNT_NAME_INVALID"
+msgid "The account name entered is invalid."
+msgstr "The account name entered is invalid."
+
+msgctxt "OPERATION_ACCOUNT_NAME_INVALID_CHARS"
+msgid "The account name you entered contained invalid characters."
+msgstr "The account name you entered contained invalid characters."
+
+msgctxt "OPERATION_PASSWORD_OLD_INVALID_CHARS"
+msgid "The old password you entered contained invalid characters."
+msgstr "The old password you entered contained invalid characters."
+
+msgctxt "OPERATION_PASSWORD_INVALID_CHARS"
+msgid "The password you entered contained invalid characters."
+msgstr "The password you entered contained invalid characters."
+
+msgctxt "OPERATION_PASSWORD_VERIFY_ERROR"
+msgid "The passwords you entered did not match."
+msgstr "The passwords you entered did not match."
+
+msgctxt "OPERATION_ACCOUNT_USER_NONE"
+msgid "There are no user accounts in the system."
+msgstr "There are no user accounts in the system."
+
+msgctxt "OPERATION_ACCOUNT_GROUP_NONE"
+msgid "There are no user groups in the system."
+msgstr "There are no user groups in the system."
+
+msgctxt "OPERATION_ERROR_INVALID_CHARS"
+msgid "Unexpected characters in description."
+msgstr "Unexpected characters in description."
+
+msgctxt "OPERATION_USER_NAME"
+msgid "User Name"
+msgstr "User Name"
+
+msgctxt "OPERATION_YOUR_ACCOUNT"
+msgid "Your account:"
+msgstr "Your account:"
+
+msgctxt "OPERATION_YOUR_ACCOUNT_INVALID"
+msgid "The account name entered is invalid."
+msgstr "The account name entered is invalid."
+
+msgctxt "OPERATION_PASSWORD_CHANGE_SUCCESS"
+msgid "Your password has been successfully changed."
+msgstr "Your password has been successfully changed."
+
+msgctxt "OPERATION_FM_NONBLANK"
+msgid "This field must not be left blank"
+msgstr "This field must not be left blank"
+
+msgctxt "OPERATION_FM_INTEGER"
+msgid "This field must contain a positive integer"
+msgstr "This field must contain a positive integer"
+
+msgctxt "OPERATION_FM_NUMBER"
+msgid "This field must contain a number"
+msgstr "This field must contain a number"
+
+msgctxt "OPERATION_FM_WORD"
+msgid "This field must look like a single word."
+msgstr "This field must look like a single word."
+
+msgctxt "OPERATION_FM_DATE"
+msgid "The data entered could not be parsed as a date"
+msgstr "The data entered could not be parsed as a date"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER1"
+msgid "You must enter a credit card number"
+msgstr "You must enter a credit card number"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER2"
+msgid ""
+"Credit card numbers shouldn\\'t have anything but numbers, spaces or dashes"
+msgstr ""
+"Credit card numbers shouldn\\'t have anything but numbers, spaces or dashes"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER3"
+msgid "Must be at least 14 characters in length"
+msgstr "Must be at least 14 characters in length"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER4"
+msgid "Doesn\\'t appear to be a valid credit card number"
+msgstr "Doesn\\'t appear to be a valid credit card number"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY1"
+msgid "No expiry date entered."
+msgstr "No expiry date entered."
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY2"
+msgid "Expiry date must be in the format MM/YY or MM/YYYY"
+msgstr "Expiry date must be in the format MM/YY or MM/YYYY"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY3"
+msgid "This expiry date appears to have already passed"
+msgstr "This expiry date appears to have already passed"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY4"
+msgid "This expiry date appears to be too far in the future"
+msgstr "This expiry date appears to be too far in the future"
+
+msgctxt "OPERATION_FM_ISO_COUNTRY_CODE1"
+msgid "You must provide a country code"
+msgstr "You must provide a country code"
+
+msgctxt "OPERATION_FM_ISO_COUNTRY_CODE2"
+msgid "This field does not contain an ISO country code"
+msgstr "This field does not contain an ISO country code"
+
+msgctxt "OPERATION_FM_US_STATE"
+msgid "This doesn\\'t appear to be a valid 2-letter US state abbreviation"
+msgstr "This doesn\\'t appear to be a valid 2-letter US state abbreviation"
+
+msgctxt "OPERATION_FM_US_ZIPCODE"
+msgid "US zip codes must contain 5 or 9 numbers"
+msgstr "US zip codes must contain 5 or 9 numbers"
+
+msgctxt "OPERATION_FM_MINLENGTH1"
+msgid "Minimum length has been specified meaninglessly as [_1]"
+msgstr "Minimum length has been specified meaninglessly as {$minlength}"
+
+msgctxt "OPERATION_FM_MINLENGTH2"
+msgid "This field must be at least [_1] characters"
+msgstr "This field must be at least {$minlength} characters"
+
+msgctxt "OPERATION_FM_MAXLENGTH1"
+msgid "Maximum length has been specified meaninglessly as [_1]"
+msgstr "Maximum length has been specified meaninglessly as {$maxlength}"
+
+msgctxt "OPERATION_FM_MAXLENGTH2"
+msgid "This field must be no more than [_1] characters"
+msgstr "This field must be no more than {$maxlength} characters"
+
+msgctxt "OPERATION_FM_EXACTLENGTH1"
+msgid "You must specify the length for the field."
+msgstr "You must specify the length for the field."
+
+msgctxt "OPERATION_FM_EXACTLENGTH2"
+msgid "You must specify the exactlength of the field with an integer"
+msgstr "You must specify the exactlength of the field with an integer"
+
+msgctxt "OPERATION_FM_EXACTLENGTH3"
+msgid "This field must be exactly [_1] characters"
+msgstr "This field must be exactly {$exactlength} characters"
+
+msgctxt "OPERATION_FM_LENGTHRANGE1"
+msgid "You must specify the maximum and minimum length for the field."
+msgstr "You must specify the maximum and minimum length for the field."
+
+msgctxt "OPERATION_FM_LENGTHRANGE2"
+msgid ""
+"You must specify the maximum and minimum lengths of the field with an "
+"integer"
+msgstr ""
+"You must specify the maximum and minimum lengths of the field with an "
+"integer"
+
+msgctxt "OPERATION_FM_LENGTHRANGE3"
+msgid "This field must be between [_1] and [_2] characters"
+msgstr "This field must be between {$minlength} and {$maxlength} characters"
+
+msgctxt "OPERATION_FM_URL"
+msgid "This field must contain a URL starting with http:// or ftp://"
+msgstr "This field must contain a URL starting with http:// or ftp://"
+
+msgctxt "OPERATION_FM_EMAIL_SIMPLE1"
+msgid "You must enter an email address."
+msgstr "You must enter an email address."
+
+msgctxt "OPERATION_FM_EMAIL_SIMPLE2"
+msgid "This field doesn\\'t look like an RFC822-compliant email address"
+msgstr "This field doesn\\'t look like an RFC822-compliant email address"
+
+msgctxt "OPERATION_FM_DOMAIN_NAME"
+msgid "This field doesn\\'t look like a valid Internet domain name or hostname."
+msgstr ""
+"This field doesn\\'t look like a valid Internet domain name or hostname."
+
+msgctxt "OPERATION_FM_IP_NUMBER1"
+msgid "This field must contain a valid IP number and can not be left blank."
+msgstr "This field must contain a valid IP number and can not be left blank."
+
+msgctxt "OPERATION_FM_IP_NUMBER2"
+msgid "Invalid IP address format (expected X.X.X.X)"
+msgstr "Invalid IP address format (expected X.X.X.X)"
+
+msgctxt "OPERATION_FM_IP_NUMBER3"
+msgid "[_1] is more than 255"
+msgstr "{$octet} is more than 255"
+
+msgctxt "OPERATION_FM_USERNAME"
+msgid ""
+"This field must look like a valid username (3 to 8 letters and numbers)"
+msgstr ""
+"This field must look like a valid username (3 to 8 letters and numbers)"
+
+msgctxt "OPERATION_FM_PASSWORD1"
+msgid "You must provide a password."
+msgstr "You must provide a password."
+
+msgctxt "OPERATION_FM_PASSWORD2"
+msgid ""
+"The password you provided was not a good password.A good password must "
+"contain all of the following: upper case letter, lower case letter, number, "
+"non-alphanumeric character, be at least 7 characters long."
+msgstr ""
+"The password you provided was not a good password. A good password must "
+"contain all of the following: upper case letter, lower case letter, number, "
+"non-alphanumeric character, be at least 7 characters long."
+
+msgctxt "OPERATION_FM_MAC_ADDRESS1"
+msgid "You must provide a MAC address."
+msgstr "You must provide a MAC address."
+
+msgctxt "OPERATION_FM_MAC_ADDRESS2"
+msgid "The MAC address you provided was not valid."
+msgstr "The MAC address you provided was not valid."
+
+msgctxt "OPERATION_FM_ERR_UNEXPECTED_DESC"
+msgid "Error: unexpected or missing characters in description"
+msgstr "Error: unexpected or missing characters in description"
+
+msgctxt "OPERATION_CSRF_VALIDATION_FAILURE"
+msgid "Placeholder for missing original text"
+msgstr "Error: CSRF token is invalid or outdated."

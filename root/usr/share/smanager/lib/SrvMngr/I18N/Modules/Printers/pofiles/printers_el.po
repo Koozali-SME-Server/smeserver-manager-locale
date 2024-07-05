@@ -1,0 +1,188 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "prt_FORM_TITLE"
+msgid "Add or remove printers"
+msgstr "Προσθήκη ή διαγραφή εκτυπωτών"
+
+msgctxt "prt_INITIAL_DESC"
+msgid ""
+"<P><A class=\"button-like\" HREF=\"printers?page=0&Next=Add\">Add "
+"printer</A></P>"
+msgstr ""
+"<p><A class=\"button-like\" HREF=\"printers?page=0&Next=Add\">Προσθήκη "
+"εκτυπωτή</A></p>"
+
+msgctxt "prt_NO_PRINTERS"
+msgid "There are no printers in the system."
+msgstr "Δεν υπάρχουν εκτυπωτές στο σύστημα."
+
+msgctxt "prt_CURRENT_LIST"
+msgid "Current List of printers"
+msgstr "Τρέχουσα λίστα εκτυπωτών"
+
+msgctxt "prt_REMOTE_ADDRESS"
+msgid "Remote address"
+msgstr "Απομακρυσμένη διεύθυνση"
+
+msgctxt "prt_REMOTE_NAME"
+msgid "Remote name"
+msgstr "Απομακρυσμένη ονομασία"
+
+msgctxt "prt_CREATE_NEW_PRINTER"
+msgid "Create a new printer"
+msgstr "Δημιουργία νέου εκτυπωτή"
+
+msgctxt "prt_CREATE_NEW_DESC"
+msgid ""
+"Please choose a unique name for the printer and enter a brief\n"
+"description. The printer name should contain only lower-case\n"
+"letters and numbers, and should start with a lower-case\n"
+"letter. For example \"hplaser\", \"epsonlp\", and\n"
+"\"canonbj\" are valid choices, but \"HP Laser Jet\", \n"
+"\"Canon BubbleJet\", and\n"
+"\"HP JetDirect Printer\" are not.\n"
+"Avoid names and descriptions that contain these terms, \n"
+"\"offline\", \"disabled\", \"down\", \"off\", \"waiting\", \"jam\",\n"
+"\"paper\", \"error\" and \"responding\"."
+msgstr ""
+"Παρακαλώ επιλέξτε μία μοναδική ονομασία για τον εκτυπωτή και εισάγετε μια "
+"σύντομη περιγραφή. Η ονομασία του εκτυπωτή πρέπει να περιέχει μόνο πεζά "
+"γράμματα και αριθμούς και να αρχίζει με πεζό γράμμα. Για παράδειγμα οι "
+"ονομασίες \"hplaser\", \"epsonlp\", καί \"canonbj\" αποτελούν έγκυρες "
+"επιλογές, ενώ οι \"HP Laser Jet\", \"Canon BubbleJet\", και \"HP JetDirect "
+"Printer\" όχι. Αποφύγετε ονομασίες και περιγραφές που περιλαμβάνουν τους "
+"ακόλουθους όρους \"offline\", \"disabled\", \"down\", \"off\", \"waiting\", "
+"\"jam\", \"paper\", \"error\" και \"responding\"."
+
+msgctxt "prt_PRINTER_NAME"
+msgid "Printer name"
+msgstr "Ονομασία εκτυπωτή"
+
+msgctxt "prt_LOCAL_PRINTER_0"
+msgid "Local printer port 0 (LPT1)"
+msgstr "Τοπική θύρα εκτυπωτή 0 (LPT1)"
+
+msgctxt "prt_LOCAL_PRINTER_1"
+msgid "Local printer port 1 (LPT2)"
+msgstr "Τοπική θύρα εκτυπωτή 1 (LPT2)"
+
+msgctxt "prt_LOCAL_PRINTER_2"
+msgid "Local printer port 2 (LPT3)"
+msgstr "Τοπική θύρα εκτυπωτή 2 (LPT3)"
+
+msgctxt "prt_NET_PRINTER"
+msgid "Network printer ..."
+msgstr "Εκτυπωτής δικτύου ..."
+
+msgctxt "prt_FIRST_USB_PRINTER"
+msgid "First USB attached printer"
+msgstr "Πρώτος εκτυπωτής συνδεδεμένος σε USB"
+
+msgctxt "prt_SECOND_USB_PRINTER"
+msgid "Second USB attached printer"
+msgstr "Δεύτερος εκτυπωτής συνδεδεμένος σε USB"
+
+msgctxt "prt_ERR_UNEXPECTED_NAME"
+msgid ""
+"<P>Error: unexpected characters in printer name.</P>\n"
+"<P>The printer name should contain only lower-case \n"
+"letters and numbers, and should start with a lower-case \n"
+"letter. For example \"hplaser\", \"epsonlp\", and \n"
+"\"canonbj\" are valid names.</P>"
+msgstr ""
+"<p>Σφάλμα: μη-αναμενόμενοι χαρακτήρες στην ονομασία εκτυπωτή.</p> <p>Η "
+"ονομασία του εκτυπωτή πρέπει να περιέχει μόνο πεζά γράμματα και αριθμούς και"
+" να αρχίζει με πεζό γράμμα. Για παράδειγμα οι ονομασίες \"hplaser\", "
+"\"epsonlp\", καί \"canonbj\" αποτελούν έγκυρες επιλογές.</p>"
+
+msgctxt "prt_ERR_UNEXPECTED_DESC"
+msgid ""
+"Error: unexpected or missing characters in description. \n"
+"Did not create new printer."
+msgstr ""
+"Σφάλμα: μη-αναμενόμενοι ή ελλείποντες χαρακτήρες στην περιγραφή. Δεν "
+"δημιουργήθηκε νέος εκτυπωτής."
+
+msgctxt "prt_ERR_EXISTS"
+msgid "Error: An account with the same name exists with type:"
+msgstr "Σφάλμα: Υπάρχει λογαριασμός με την ίδια ονομασία και με τύπο:"
+
+msgctxt "prt_ERR_INVALID_ADDRESS"
+msgid "Error: invalid network address. Did not create new printer."
+msgstr ""
+"Σφάλμα: μη-έγκυρη δικτυακή διεύθυνση. Δεν δημιουργήθηκε νέος εκτυπωτής."
+
+msgctxt "prt_ERR_INVALID_REMOTE_NAME"
+msgid "Error: invalid network printer name. Did not create new printer."
+msgstr ""
+"Σφάλμα: μη-έγκυρο όνομα εκτυπωτή δικτύου. Δεν δημιουργήθηκε νέος εκτυπωτής."
+
+msgctxt "prt_ERR_CREATING"
+msgid "Error occurred while creating printer."
+msgstr "Παρουσιάσθηκε σφάλμα κατά τη δημιουργία του εκτυπωτή."
+
+msgctxt "prt_CREATED_SUCCESSFULLY"
+msgid "Successfully created printer:"
+msgstr "Επιτυχής δημιουργία εκτυπωτή:"
+
+msgctxt "prt_CREATE_NETWORK_PRINTER"
+msgid "Create a new network printer"
+msgstr "Δημιουργήστε έναν νέο εκτυπωτή δικτύου"
+
+msgctxt "prt_ERR_OPENING_DB"
+msgid "Error occurred while opening accounts database."
+msgstr ""
+"Παρουσιάσθηκε σφάλμα κατά το άνοιγμα της βάσης δεδομένων των λογαριασμών."
+
+msgctxt "prt_CREATE_NETWORK_DESC"
+msgid "Please enter the address and name of the network printer"
+msgstr "Παρακαλώ εισάγετε τη διεύθυνση και την ονομασία του εκτυπωτή δικτύου"
+
+msgctxt "prt_HOSTNAME_OR_IP"
+msgid "Hostname or IP address of the network printer"
+msgstr "Δικτυακή ονομασία ή IP διεύθυνση του εκτυπωτή δικτύου"
+
+msgctxt "prt_REMOTE_NAME_DESC"
+msgid "Network printer name (enter raw if not sure)"
+msgstr "Ονομασία εκτυπωτή δικτύου (εάν δεν είστε σίγουροι, εισάγετε raw)"
+
+msgctxt "prt_REMOVE_PRINTER"
+msgid "Remove printer"
+msgstr "Αφαίρεση εκτυπωτή"
+
+msgctxt "prt_ABOUT_TO_REMOVE"
+msgid "You are about to remove the printer:"
+msgstr "Πρόκειται να αφαιρέσετε τον εκτυπωτή:"
+
+msgctxt "prt_SPOOL_FILE_WARNING"
+msgid "All the spool files for this printer will be deleted."
+msgstr "Όλα τα αρχεία εκτυπώσεων για το συγκεκριμένο εκτυπωτή θα διαγραφούν."
+
+msgctxt "prt_ARE_YOU_SURE"
+msgid "Are you sure you wish to remove this printer?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε να αφαιρέσετε το συγκεκριμένο εκτυπωτή;"
+
+msgctxt "prt_ERR_INTERNAL_FAILURE"
+msgid "Error: internal failure while removing printer:"
+msgstr "Σφάλμα: εσωτερική αποτυχία κατά την αφαίρεση του εκτυπωτή:"
+
+msgctxt "prt_ERR_DELETING"
+msgid "Error occurred while deleting printer."
+msgstr "Παρουσιάσθηκε σφάλμα κατά τη διαγραφή του εκτυπωτή."
+
+msgctxt "prt_DELETED_SUCCESSFULLY"
+msgid "Successfully deleted printer:"
+msgstr "Επιτυχής διαγραφή του εκτυπωτή:"
+
+msgctxt "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgid "Must be a valid hostname or IP number"
+msgstr "Πρέπει να είναι μία έγκυρη δικτυακή ονομασία ή διεύθυνση IP"
+
+msgctxt "prt_Printers"
+msgid "Printers"
+msgstr "Εκτυπωτές"

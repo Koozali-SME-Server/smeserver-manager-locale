@@ -1,0 +1,10 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "support_FORM_TITLE"
+msgid "Support, warranty and licensing information"
+msgstr "ข้อมูล การบริการ การรับประกัน และใบอนุญาต"

@@ -1,0 +1,249 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "dat_FORM_TITLE"
+msgid "Date and time configuration"
+msgstr "Configuration de la date et de l\\'heure"
+
+msgctxt "dat_INITIAL_DESC"
+msgid ""
+"This is where you configure the date and time of this server. You may use an existing network time server or\n"
+"manually set the date and time for your time zone."
+msgstr ""
+"Vous pouvez configurer sur cette page la date et l\\'heure de ce serveur. "
+"Vous avez la possibilité d\\'utiliser un serveur de temps (protocole NTP ou "
+"Network Time Protocol) existant ou de régler manuellement la date et "
+"l\\'heure en fonction de votre fuseau horaire."
+
+msgctxt "dat_SET_DATE_TITLE"
+msgid "Set Date and Time"
+msgstr "Régler la date et l\\'heure"
+
+msgctxt "dat_COULD_NOT_OPEN_TZ_FILE"
+msgid "Error: Could not open timezone file for reading:"
+msgstr ""
+"ERREUR : Impossible d\\'ouvrir en lecture le fichier de fuseau horaire :"
+
+msgctxt "dat_JANUARY"
+msgid "January"
+msgstr "Janvier"
+
+msgctxt "dat_FEBRUARY"
+msgid "February"
+msgstr "Février"
+
+msgctxt "dat_MARCH"
+msgid "March"
+msgstr "Mars"
+
+msgctxt "dat_APRIL"
+msgid "April"
+msgstr "Avril"
+
+msgctxt "dat_MAY"
+msgid "May"
+msgstr "Mai"
+
+msgctxt "dat_JUNE"
+msgid "June"
+msgstr "Juin"
+
+msgctxt "dat_JULY"
+msgid "July"
+msgstr "Juillet"
+
+msgctxt "dat_AUGUST"
+msgid "August"
+msgstr "Août"
+
+msgctxt "dat_SEPTEMBER"
+msgid "September"
+msgstr "Septembre"
+
+msgctxt "dat_OCTOBER"
+msgid "October"
+msgstr "Octobre"
+
+msgctxt "dat_NOVEMBER"
+msgid "November"
+msgstr "Novembre"
+
+msgctxt "dat_DECEMBER"
+msgid "December"
+msgstr "Décembre"
+
+msgctxt "dat_NEW_M/D/Y"
+msgid "New month/day/year:"
+msgstr "Nouvelle date (mois/jour/an)"
+
+msgctxt "dat_NEW_H/M/S"
+msgid "New hour/min/sec:"
+msgstr "Nouvelle heure (heure/min/sec)"
+
+msgctxt "dat_AM/PM_AND_TZ"
+msgid "AM/PM and time zone:"
+msgstr "AM/PM et fuseau horaire"
+
+msgctxt "dat_NTP_ENABLE_DESC"
+msgid ""
+"The server can periodically synchronize the system clock to a network time "
+"protocol (NTP) server. If you select this option, enter the hostname or IP "
+"address of the NTP server below."
+msgstr ""
+"Le serveur peut synchroniser périodiquement l\\'horloge système avec un "
+"serveur de temps (protocole NTP ou Network Time Protocol). Si vous "
+"sélectionnez cette option, veuillez taper ci-dessous le nom d\\'hôte ou "
+"l\\'adresse IP du serveur NTP."
+
+msgctxt "dat_NTP_CONFIGURE_DESC"
+msgid ""
+"The server is periodically synchronizing the system clock to the network "
+"time protocol (NTP) server specified below. To synchronize to a different "
+"NTP server, enter a different hostname or IP address in the field below."
+msgstr ""
+"Le serveur synchronise périodiquement l\\'horloge système avec le serveur de"
+" temps (protocole NTP ou Network Time Protocol) indiqué ci-dessous. Pour "
+"synchroniser l\\'heure avec un serveur NTP différent, veuillez taper un "
+"autre nom d\\'hôte ou une autre adresse IP dans le champ ci-dessous."
+
+msgctxt "dat_NTP_DISABLE_DESC"
+msgid ""
+"Choose this option to stop syncronizing the system clock to the NTP\n"
+"server.When the NTP service is disabled, you can set the system date and time manually from this page."
+msgstr ""
+"Sélectionnez cette option pour cesser de synchroniser l\\'horloge système "
+"avec le serveur NTP. Lorsque le service NTP est désactivé, vous pouvez "
+"régler manuellement l\\'heure et la date du système à partir de cette page."
+
+msgctxt "dat_NTP_SERVER"
+msgid "NTP Server"
+msgstr "Serveur NTP"
+
+msgctxt "dat_VERIFY_DATE_AND_TIME"
+msgid "Verify date and time"
+msgstr "Vérifier la date et l\\'heure"
+
+msgctxt "dat_NEW_DATE_AND_TIME"
+msgid "New date and time setting:"
+msgstr "Nouveau réglage de la date et de l\\'heure :"
+
+msgctxt "dat_SETTING_DATE_AND_TIME"
+msgid "Setting date and time"
+msgstr "Réglage de la date et de l\\'heure"
+
+msgctxt "dat_INVALID_DAY"
+msgid "Error: invalid day of month:"
+msgstr "ERREUR : jour du mois non valide :"
+
+msgctxt "dat_BETWEEN_1_AND_31"
+msgid "Please choose a day between 1 and 31."
+msgstr "Choisissez un jour entre 1 et 31."
+
+msgctxt "dat_INVALID_YEAR"
+msgid "Error: invalid year:"
+msgstr "ERREUR : année non valide :"
+
+msgctxt "dat_FOUR_DIGIT_YEAR"
+msgid "Please choose a four-digit year between 1900 and 2200."
+msgstr "Choisissez une année sur 4 chiffres entre 1900 et 2200."
+
+msgctxt "dat_INVALID_HOUR"
+msgid "Error: invalid hour:"
+msgstr "ERREUR : heure non valide :"
+
+msgctxt "dat_BETWEEN_1_AND_12"
+msgid "Please choose an hour between 1 and 12."
+msgstr "Choisissez une heure entre 1 et 12."
+
+msgctxt "dat_INVALID_MINUTE"
+msgid "Error: invalid minute:"
+msgstr "ERREUR : minute non valide :"
+
+msgctxt "dat_BETWEEN_0_AND_59"
+msgid "Please choose a minute between 0 and 59."
+msgstr "Choisissez une minute entre 0 et 59."
+
+msgctxt "dat_INVALID_SECOND"
+msgid "Error: invalid second"
+msgstr "ERREUR : seconde non valide."
+
+msgctxt "dat_UPDATING_CLOCK"
+msgid ""
+"System clock is being updated. Please wait for a few seconds, \n"
+"then click <A HREF=\"datetime?page=1&wherenext=Verify\" TARGET=\"main\">here</A>\n"
+"to verify changes."
+msgstr ""
+"L\\'horloge système est en train d\\'être mise à jour. Attendez quelques "
+"secondes, puis cliquez <a href=\"datetime?page=1&wherenext=Verify\" "
+"target=\"main\">ici</a> pour vérifier les changements."
+
+msgctxt "dat_ERR_SETTING_CLOCK"
+msgid "Error occurred while setting system time and hardware clock."
+msgstr ""
+"Une erreur s\\'est produite pendant la mise à jour de l\\'heure système et "
+"de l\\'horloge matérielle."
+
+msgctxt "dat_SERVER_DISABLED"
+msgid "Network time server disabled successfully"
+msgstr "Serveur de temps désactivé avec succès."
+
+msgctxt "dat_SERVER_DISABLED_DESC"
+msgid ""
+"You have disabled this service: The server will rely on its internal\n"
+"clock, and <b>will not</b> try to synchronize from a time server."
+msgstr ""
+"Vous avez désactivé ce service. Le serveur se fiera à son horloge interne et"
+" <b>n\\'essaiera pas</b> de se synchroniser à un serveur de temps."
+
+msgctxt "dat_ERR_CHANGING_TS"
+msgid "Error while changing network time server setting"
+msgstr ""
+"Une erreur s\\'est produite pendant la modification du serveur de temps."
+
+msgctxt "dat_INVALID_NTP_ADDR"
+msgid "Invalid NTP server address:"
+msgstr "ERREUR : adresse du serveur de temps non valide :"
+
+msgctxt "dat_SETTINGS_CHANGED"
+msgid "Network time server setting changed successfully"
+msgstr "Modification du serveur de temps effectuée avec succès."
+
+msgctxt "dat_SYNC_WITH"
+msgid ""
+"This server is now configured to synchronize periodically \n"
+"(via the Internet) with:"
+msgstr ""
+"Ce serveur est maintenant configuré pour se synchroniser périodiquement avec"
+" :"
+
+msgctxt "dat_INVALID_NTP_SERVER"
+msgid ""
+"Invalid NTP server, the server <b>will not</b> try to synchronize from a "
+"time server."
+msgstr ""
+"Serveur de temps non valide. Le serveur <b>n\\'essaiera pas</b> de "
+"synchroniser son horloge à partir d\\'un serveur de temps."
+
+msgctxt "dat_NETWORK_TIME_SERVER"
+msgid "Network Time Server"
+msgstr "Serveur de temps"
+
+msgctxt "dat_NTP_CONFIGURE_TITLE"
+msgid "Configure Network Time Server"
+msgstr "Configurer le serveur de temps"
+
+msgctxt "dat_NTP_ENABLE_TITLE"
+msgid "Enable Network Time Server"
+msgstr "Activer un serveur de temps"
+
+msgctxt "dat_NTP_DISABLE_TITLE"
+msgid "Disable Network Time Server"
+msgstr "Désactiver le serveur de temps"
+
+msgctxt "dat_CURRENT_SETTING"
+msgid "Current setting"
+msgstr "Réglage actuel"

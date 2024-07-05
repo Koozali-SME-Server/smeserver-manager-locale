@@ -1,0 +1,83 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "use_TITLE"
+msgid "User login"
+msgstr ""
+
+msgctxt "use_SIGNIN"
+msgid "Sign in"
+msgstr ""
+
+msgctxt "use_FORGOT"
+msgid "Forgot password ?"
+msgstr ""
+
+msgctxt "use_RESET_REGISTERED"
+msgid ""
+"A password reset message has been sent to the e-mail address of this account.<br>\n"
+"If you do not receive it, check your spam/junk folders or ask your local administrator for help.<br>\n"
+"If it is not there ask your local administrator."
+msgstr ""
+
+msgctxt "use_TOO_MANY_LOGIN"
+msgid ""
+"Login access blocked !!<br>Too many failed login attempts.  Try again later"
+msgstr ""
+
+msgctxt "use_INVALID_DATA"
+msgid "Invalid input data, Try again"
+msgstr ""
+
+msgctxt "use_WELCOME"
+msgid "Welcome Back!"
+msgstr ""
+
+msgctxt "use_SORRY"
+msgid "Sorry try again"
+msgstr ""
+
+msgctxt "use_ERR_NAME"
+msgid "Enter a valid account name"
+msgstr ""
+
+msgctxt "use_NOT_THAT_OPER"
+msgid "Operation not allowed for this account."
+msgstr ""
+
+msgctxt "use_CONFIRM_RESET"
+msgid "Confirm Password Reset"
+msgstr ""
+
+msgctxt "use_GO_TO_URL"
+msgid ""
+"Password reset\n"
+"\n"
+"Click the following link to reset your password. If you have not requested the password reset, then ignore this email.\n"
+"\n"
+"[_1]"
+msgstr ""
+
+msgctxt "use_BYE"
+msgid "Goodbye !"
+msgstr ""
+
+msgctxt "use_DESC_RESET"
+msgid "Please enter an account name for a password reset !"
+msgstr ""
+
+msgctxt "use_RESET"
+msgid "Reset Password"
+msgstr ""
+
+msgctxt "use_OK_FOR_RESET"
+msgid "You are about to reset your user account password"
+msgstr ""
+
+msgctxt "use_INVALID_REQUEST"
+msgid "Error: your request is invalid or outdated"
+msgstr ""

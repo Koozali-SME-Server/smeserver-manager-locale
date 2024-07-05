@@ -1,0 +1,96 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "qma_FORM_TITLE"
+msgid "Mail Log File Analysis"
+msgstr "Analisa File Log Mail"
+
+msgctxt "qma_INITIAL_DESC"
+msgid ""
+"<P>Analysing the mail system log files can aid both in\n"
+"understanding how your system is performing and in\n"
+"diagnosing delivery problems. Several different\n"
+"reports are available.</P>\n"
+"<P>Please note that it may take several minutes to generate\n"
+"these reports</P>"
+msgstr ""
+"<p>Menganalisa log file dari mail sistem dapat membantu anda mengerti "
+"bagaimana dayaguna sistem anda dan dalam mendiagnosa masalah pengiriman. "
+"Beberapa jenis laporan tersedia.</p> <p>Harap dicatat bahwa mungkin "
+"diperlukan beberapa menit untuk membuat laporan-laporan tersebut</p>"
+
+msgctxt "qma_REPORT_TYPE"
+msgid "Choose a report type"
+msgstr "Pilih jenis laporan"
+
+msgctxt "qma_GENERATE_REPORT"
+msgid "Generate report"
+msgstr "Buat laporan"
+
+msgctxt "qma_LIST_OUTGOING"
+msgid "List outgoing messages and recipients"
+msgstr "Daftar pesan keluar dan penerima"
+
+msgctxt "qma_SUMMARIZE_QUEUE"
+msgid "Summarize status of mail queue"
+msgstr "Ringkasan status dari antrian surat"
+
+msgctxt "qma_SUCCESSFUL_DELIVERY_DELAY"
+msgid "Successful delivery delay distribution"
+msgstr "Sebaran waktu tunda yang berhasil dikirim"
+
+msgctxt "qma_REASONS_DEFERRAL"
+msgid "Reasons for deferral"
+msgstr "Alasan ditangguhkan"
+
+msgctxt "qma_REASONS_FAILURE"
+msgid "Reasons for failure"
+msgstr "Alasan gagal"
+
+msgctxt "qma_BASIC_STATS"
+msgid "Basic statistics"
+msgstr "Statistik dasar"
+
+msgctxt "qma_RECIP_STATS"
+msgid "Recipients statistics"
+msgstr "Statistik penerima"
+
+msgctxt "qma_RECIP_HOSTS"
+msgid "Recipient hosts"
+msgstr "Host penerima"
+
+msgctxt "qma_RECIP_ORDERED"
+msgid "Recipients in best order for mailing lists"
+msgstr "Penerima diurutkan dari yang terbaik untuk daftar alamat surat"
+
+msgctxt "qma_SENDER_STATS"
+msgid "Sender statistics"
+msgstr "Statistik pengirim"
+
+msgctxt "qma_SENDMAIL_STYLE"
+msgid "Sendmail style log"
+msgstr "Log dengan style Sendmail"
+
+msgctxt "qma_REASONS_SUCCESS"
+msgid "Reasons for success"
+msgstr "Alasan berhasil"
+
+msgctxt "qma_SENDER_UIDS"
+msgid "Sender uids"
+msgstr "Uid pengirim"
+
+msgctxt "qma_INVALID_REPORT_TYPE"
+msgid "Invalid report type:"
+msgstr "Jenis laporan invalid:"
+
+msgctxt "qma_REPORT_GENERATED"
+msgid "Report generated:"
+msgstr "Laporan yang dibuat:"
+
+msgctxt "qma_END_OF_REPORT"
+msgid "End of Report"
+msgstr "Akhir dari laporan"

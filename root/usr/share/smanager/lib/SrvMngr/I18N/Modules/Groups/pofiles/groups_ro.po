@@ -1,0 +1,110 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "grp_FORM_TITLE"
+msgid "Create, modify, or remove user groups"
+msgstr "Crează, modifica sau șterge grupuri de useri"
+
+msgctxt "grp_GROUP_TOO_LONG"
+msgid "Error: group name is too long. The maximum is [_1] characters."
+msgstr "Eroare: numele este prea lung. Maxim {$maxLength} caractere."
+
+msgctxt "grp_ACCOUNT_CONFLICT"
+msgid ""
+"Error: the group \"[_1]\" can\\'t be created because there is\n"
+"already a [_2] account of that name."
+msgstr ""
+"Eroare: grupul \"{$group}\" nu poate fi creat deorece există deja un cont de"
+" tipul {$type} cu același nume"
+
+msgctxt "grp_INVALID_GROUP_DESCRIPTION"
+msgid "Error: unexpected or missing characters in group description"
+msgstr "Eroare: caracter neașteptat sau lipsă în descrierea grupului"
+
+msgctxt "grp_NO_MEMBERS"
+msgid "Error: no members in group.Did not create new group."
+msgstr "Eroare: nu există nici un membru în grup. Nu s-a creat grup."
+
+msgctxt "grp_CREATED_GROUP"
+msgid "Successfully created user group"
+msgstr "Grup creat cu succes"
+
+msgctxt "grp_DELETED_GROUP"
+msgid "Successfully removed user group"
+msgstr "Grup șters cu succes"
+
+msgctxt "grp_MODIFIED_GROUP"
+msgid "Successfully modifed user group"
+msgstr "Grup modificat cu succes"
+
+msgctxt "grp_CREATE_ERROR"
+msgid "An error occurred while creating user group."
+msgstr "A apărut o eroare în timpul creerii grupului."
+
+msgctxt "grp_DELETE_ERROR"
+msgid "An error occurred while removing user group."
+msgstr "A apărut o eroare în timpul ștergerii grupului."
+
+msgctxt "grp_MODIFY_ERROR"
+msgid "An error occurred while modifying user group."
+msgstr "A apărut o eroare în timpul modificării grupului."
+
+msgctxt "grp_GROUP_NAMING"
+msgid ""
+"The group name should contain only lower-case\n"
+"letters, numbers, hyphens, periods, and underscores, \n"
+"and should start with a lower-case letter. For \n"
+"example \"sales\", \"beta5\", and \"reseller_partners\" are\n"
+"all valid group names, but \"3rd-event\", \"Marketing Team\"\n"
+"and \"lost&found\" are not."
+msgstr ""
+"Numele grupului trebuei să conțină numai litere mnuscule, numere, cratime, "
+"paranteze și sublinieri, trebuie să înceapă cu o litera minuscula . De "
+"exemplu \"sales\", \"beta5\", și \"reseller_partners\" sunt nume valide, "
+"dar\"3rd-event\", \"Marketing Team\" și \"lost&found\" nu sunt."
+
+msgctxt "grp_GROUP_HAS_MEMBERS"
+msgid "This group contains the following members:"
+msgstr "Acest grup cuprinde următorii membrii:"
+
+msgctxt "grp_NOT_A_GROUP"
+msgid "Error: That is not an existing group account."
+msgstr "Eroare: Grup inexistent."
+
+msgctxt "grp_GROUP_DESC"
+msgid "Brief Description/Windows Group Alias"
+msgstr "Descriere sumară/Alias de grup Windows"
+
+msgctxt "grp_GROUP_DESC_EXPL"
+msgid ""
+"Input a brief group description in the field below.\n"
+" This field also designates the group name viewable by \n"
+" Windows clients."
+msgstr ""
+"Introduceți o scurtă descriere în câmpul de dedesupt. Acest câmp este "
+"deasemenea numele grupului vizibil in clienții Windows"
+
+msgctxt "grp_IBAYS_WILL_BE_CHANGED"
+msgid ""
+"The following information bays were assigned to this group and\n"
+"will be changed to the Administrator group (you can change them to\n"
+"something else afterward):"
+msgstr ""
+"Următoarele i-bay-uri erau asignate acestui grup și vor fi alocate grupului "
+"administratorilor (le puteți modifica mai târziu după dorință):"
+
+msgctxt "grp_CONFIRM_DELETE_GROUP"
+msgid "Are you sure you wish to remove this group?"
+msgstr "<p><b>Sunteți sigur(ă) că vreți să ștergeți acest grup?</b></p>"
+
+msgctxt "grp_CURRENT_LIST"
+msgid "Current list of User Groups"
+msgstr "<p>Lista curentă de grupuri</p>"
+
+msgctxt "grp_DELETE_DESCRIPTION"
+msgid "You are about to remove the user group \"[_1].\""
+msgstr "Sunteți pe cale să ștergeți grupul \"<b>{$group}</b>.\""

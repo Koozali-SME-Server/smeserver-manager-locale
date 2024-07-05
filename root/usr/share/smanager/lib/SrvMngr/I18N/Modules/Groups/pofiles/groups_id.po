@@ -1,0 +1,112 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "grp_FORM_TITLE"
+msgid "Create, modify, or remove user groups"
+msgstr "Buat, ubah, atau hapus user group"
+
+msgctxt "grp_GROUP_TOO_LONG"
+msgid "Error: group name is too long. The maximum is [_1] characters."
+msgstr "Error: nama grup terlalu panjang.Maksimal {$maxLength} karakter."
+
+msgctxt "grp_ACCOUNT_CONFLICT"
+msgid ""
+"Error: the group \"[_1]\" can\\'t be created because there is\n"
+"already a [_2] account of that name."
+msgstr ""
+"Error: grup \"{$group}\" tidak dapat dibuat karena telah ada{$type} akun "
+"atas nama tersebut."
+
+msgctxt "grp_INVALID_GROUP_DESCRIPTION"
+msgid "Error: unexpected or missing characters in group description"
+msgstr ""
+"Error: karakter yang tidak diharapkan atau hilang dalam deskripsi grup"
+
+msgctxt "grp_NO_MEMBERS"
+msgid "Error: no members in group.Did not create new group."
+msgstr "Error: tidak ada anggota dalam grup. Tidak membuat grup baru"
+
+msgctxt "grp_CREATED_GROUP"
+msgid "Successfully created user group"
+msgstr "Berhasil membuat user group"
+
+msgctxt "grp_DELETED_GROUP"
+msgid "Successfully removed user group"
+msgstr "Berhasil menghapus user group"
+
+msgctxt "grp_MODIFIED_GROUP"
+msgid "Successfully modifed user group"
+msgstr "Berhasil mengubah user group"
+
+msgctxt "grp_CREATE_ERROR"
+msgid "An error occurred while creating user group."
+msgstr "Terjadi kesalahan saat membuat user group."
+
+msgctxt "grp_DELETE_ERROR"
+msgid "An error occurred while removing user group."
+msgstr "Terjadi kesalahan saat menghapus user group."
+
+msgctxt "grp_MODIFY_ERROR"
+msgid "An error occurred while modifying user group."
+msgstr "Terjadi kesalahan saat mengubah user group."
+
+msgctxt "grp_GROUP_NAMING"
+msgid ""
+"The group name should contain only lower-case\n"
+"letters, numbers, hyphens, periods, and underscores, \n"
+"and should start with a lower-case letter. For \n"
+"example \"sales\", \"beta5\", and \"reseller_partners\" are\n"
+"all valid group names, but \"3rd-event\", \"Marketing Team\"\n"
+"and \"lost&found\" are not."
+msgstr ""
+"Nama group hanya boleh terdiri dari huruf kecil, angka, strip, titik, dan "
+"garis bawah, dan harus dimulai dengan huruf kecil. Contohnya \"sales\", "
+"\"beta5\", dan\"reseller_partners\" adalah nama grup yang valid, namun "
+"\"3rd-event\", \"Marketing Team\" dan\"lost&found\" tidak."
+
+msgctxt "grp_GROUP_HAS_MEMBERS"
+msgid "This group contains the following members:"
+msgstr "Grup ini terdiri dari anggota-anggota sbb:"
+
+msgctxt "grp_NOT_A_GROUP"
+msgid "Error: That is not an existing group account."
+msgstr "Error: kelompok akun tersebut tidak ada."
+
+msgctxt "grp_GROUP_DESC"
+msgid "Brief Description/Windows Group Alias"
+msgstr "Penjelasan Singkat/Nama lain Windows Group"
+
+msgctxt "grp_GROUP_DESC_EXPL"
+msgid ""
+"Input a brief group description in the field below.\n"
+" This field also designates the group name viewable by \n"
+" Windows clients."
+msgstr ""
+"Masukkan penjelasan singkat dalam ruas dibawah ini. Ruas (field) ini juga "
+"menentukan nama grup yang bisa dilihat dari klien Windows."
+
+msgctxt "grp_IBAYS_WILL_BE_CHANGED"
+msgid ""
+"The following information bays were assigned to this group and\n"
+"will be changed to the Administrator group (you can change them to\n"
+"something else afterward):"
+msgstr ""
+"Information bays dibawah ini telah ditetapkan pada grup ini dan akan diubah "
+"menjadi grup Administrator (anda dapat mengubahnya menjadi yang lain "
+"kemudian):"
+
+msgctxt "grp_CONFIRM_DELETE_GROUP"
+msgid "Are you sure you wish to remove this group?"
+msgstr "<p><b>Anda yakin anda ingin menghapus grup ini?</b></p>"
+
+msgctxt "grp_CURRENT_LIST"
+msgid "Current list of User Groups"
+msgstr "<p>Daftar User Group</p>"
+
+msgctxt "grp_DELETE_DESCRIPTION"
+msgid "You are about to remove the user group \"[_1].\""
+msgstr "Anda akan menghapus grup pengguna \"<b>{$group}</b>.\""

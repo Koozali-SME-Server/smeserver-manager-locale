@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "rbo_FORM_TITLE"
+msgid "Shutdown or reboot"
+msgstr "Wyłącz lub uruchom ponownie"
+
+msgctxt "rbo_REBOOT"
+msgid "Reboot"
+msgstr "Uruchom ponownie"
+
+msgctxt "rbo_REBOOT_SUCCEEDED"
+msgid "Reboot request initiated successfully."
+msgstr "Żądanie ponownego uruchomienia zostało wykonane pomyślnie."
+
+msgctxt "rbo_DESC_REBOOT"
+msgid "Your server has initiated the reboot process."
+msgstr "Twój serwer jest w trakcie procesu ponownego uruchomienia."
+
+msgctxt "rbo_RECONFIGURE_SUCCEEDED"
+msgid "Reconfiguration request initiated successfully."
+msgstr "Żądanie ponownej konfiguracji zostało wykonane pomyślnie."
+
+msgctxt "rbo_DESC_RECONFIGURE"
+msgid "Your server has initiated a full system reconfiguration and reboot."
+msgstr ""
+"Twój serwer jest w trakcie procesu ponownego uruchomienia i konfiguracji."
+
+msgctxt "rbo_DESC_SHUTDOWN"
+msgid ""
+"Your server has initiated the shutdown process. \n"
+"The process will take several minutes to complete, after which\n"
+"you can switch off the power."
+msgstr ""
+"Twój serwer jest w trakcie procesu zamykania systemu. Proces ten może "
+"potrwać parę minut, potem możesz wyłączyć zasilanie."
+
+msgctxt "rbo_LABEL_REBOOT"
+msgid "Select Shutdown, Reboot or Reconfigure"
+msgstr "Wybierz: wyłączenie, ponowne uruchomienie lub rekonfiguracja"
+
+msgctxt "rbo_DESCRIPTION"
+msgid ""
+"You can reboot, shut down your server or perform a full system\n"
+"reconfiguration from this screen. You must perform a shutdown\n"
+"before switching the power off. All of these functions take\n"
+"several minutes to complete.\n"
+"When you click <b>perform</b> the operation will be initiated immediately, so be ready!"
+msgstr ""
+"W tym miejscu możesz zdalnie wyłączyć, uruchomić ponownie lub skonfigurować "
+"ponownie serwer.Musisz wyłączyć komputer z tego miejsca, zanim odłączysz "
+"zasilanie. Wszystkie z podanych zadań mogą potrwać minutę lub dłużej. Gdy "
+"naciśniesz przycisk <b>wykonaj</b> , żądana operacja zostanie wykonana."

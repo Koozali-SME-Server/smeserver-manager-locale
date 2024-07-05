@@ -1,0 +1,302 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "usr_FORM_TITLE"
+msgid "Create, modify, or remove user accounts"
+msgstr "建立、修改或移除使用者帳號"
+
+msgctxt "usr_FIRSTPAGE_DESC"
+msgid ""
+"<p>You can modify, lock or remove any account or reset the account\\'s "
+"password by clicking on the corresponding command next to the account. "
+"</p><p>If the account is marked as locked, that means that the user\\'s "
+"password needs to be reset. Please note that newly created accounts are "
+"automatically locked until the password is changed. </p>"
+msgstr ""
+"<p> <a class=\"button-like\" "
+"href=\"useraccounts?page=0&page_stack=&Next=Next\">增加使用者帳號</a> </p> "
+"<p>您可以修改、鎖定或移除任何帳號，或者透過點擊帳號旁邊的命令來重置帳號密碼。</p> "
+"<p>倘若帳號被標示為鎖定，表示使用者的密碼需要重新設定。請注意，新建立的帳號會自動鎖定直到密碼變更。</p>"
+
+msgctxt "usr_P2_TITLE"
+msgid "Create or modify"
+msgstr "建立或修正"
+
+msgctxt "usr_CREATE_MODIFY_DESC"
+msgid ""
+"<p>The account name should contain only lower-case letters, numbers, "
+"hyphens, periods, underscores and should start with a lower-case letter. For"
+" example \"betty\",\"hjohnson\", and \"mary-jane\" are all valid account "
+"names, but \"3friends\", \"John Smith\", and \"henry:miller\" are not. "
+"</p><p>Note that two special pseudonyms will be created for each new "
+"account. These pseudonyms provide the ability to have alternative mail "
+"accounts for that user which include their first name and last name "
+"separated with a period (.) and underscore (_). So, for the account "
+"\"betty\" with first name \"Betty\" and last name \"Rubble\" two pseudonyms "
+"are created as betty.rubble and betty_rubble.  </p><p>The directory "
+"information (department, company, etc.) can be changed from the defaults "
+"shown below. The changes will apply only to this user.  </p>"
+msgstr ""
+"<p>使用者名稱必須僅包含小寫字母、數字、連字符、日期、底線，並且以小寫字母開頭。例如\"betty\"、\"hjohnson\"與\"mary-"
+"jane\"都是有效使用者名稱，但是\"3friends\"、\"John Smith\"與\"henry:miller\"則否。</p> "
+"<p>每個新帳號將建立兩個特殊的匿名。這些匿名具有可取代使用者由逗號(.)與底線(_)姓名所形成郵件帳號的能力。因此，對於帳號\"betty\"與名字\"Betty\"和姓氏\"Rubble\"建立這兩個匿名betty.rubble與betty_rubble。</p>"
+" <p>此目錄訊息（部門、公司等）可從下方預設顯示處修正。此修正將套用到這位使用者。</p>"
+
+msgctxt "usr_MODIFY_ADMIN_TITLE"
+msgid "Modify the admin account"
+msgstr "修改管理員帳號"
+
+msgctxt "usr_USER_CREATED"
+msgid "Successfully created user account."
+msgstr "成功建立使用者帳號。"
+
+msgctxt "usr_USER_MODIFIED"
+msgid "Successfully modified user account."
+msgstr "成功修改使用者帳號。"
+
+msgctxt "usr_CANNOT_MODIFY_USER"
+msgid ""
+"Error: an internal error occurred while attempting to modify the user "
+"\"[_1]\"."
+msgstr "錯誤：當試著修正使用者\"{$acctName}\"時發生內部錯誤。"
+
+msgctxt "usr_CANNOT_MODIFY_USER_GROUPS"
+msgid ""
+"Error: an internal error occurred while attempting to modify the group "
+"\"[_1]\" for user \"[_2]\"."
+msgstr "錯誤：當試著對使用者\"{$acctName}\"修正群組\"{$group}\"時發生內部錯誤。"
+
+msgctxt "usr_TAINTED_USER"
+msgid "The account name \"[_1]\" contains invalid characters."
+msgstr "帳號名稱\"{$acctName}\"涵蓋無效字元。"
+
+msgctxt "usr_ACCOUNT_NAME"
+msgid "Account name"
+msgstr "帳號名稱"
+
+msgctxt "usr_FIRSTNAME"
+msgid "First name"
+msgstr "名"
+
+msgctxt "usr_LASTNAME"
+msgid "Last name"
+msgstr "姓"
+
+msgctxt "usr_DEPARTMENT"
+msgid "Department"
+msgstr "部門"
+
+msgctxt "usr_COMPANY"
+msgid "Company"
+msgstr "公司"
+
+msgctxt "usr_STREET_ADDRESS"
+msgid "Street address"
+msgstr "地址"
+
+msgctxt "usr_CITY"
+msgid "City"
+msgstr "城市"
+
+msgctxt "usr_PHONE_NUMBER"
+msgid "Phone number"
+msgstr "電話"
+
+msgctxt "usr_EMAIL_DELIVERY"
+msgid "Email delivery"
+msgstr "電郵傳遞"
+
+msgctxt "usr_DELIVER_EMAIL_LOCALLY"
+msgid "Deliver email locally"
+msgstr "傳遞本地端電郵"
+
+msgctxt "usr_FORWARD_EMAIL"
+msgid "Forward email to address below"
+msgstr "轉遞電郵至以下位址"
+
+msgctxt "usr_DELIVER_AND_FORWARD"
+msgid "Both deliver locally and forward"
+msgstr "傳遞本地端電郵並轉遞"
+
+msgctxt "usr_FORWARDING_ADDRESS"
+msgid "Forwarding address"
+msgstr "轉遞位址"
+
+msgctxt "usr_GROUP_MEMBERSHIPS"
+msgid "Group memberships"
+msgstr "群組成員"
+
+msgctxt "usr_RESET_DESC"
+msgid "You are about to change the password for the user account \"[_1]\" ([_2])"
+msgstr "您正要修改使用者帳號的密碼"
+
+msgctxt "usr_RESET_DESC2"
+msgid "Enter the new password in the fields below"
+msgstr "請於下方區塊輸入密碼"
+
+msgctxt "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgid "An error occurred while updating the password"
+msgstr "更新密碼時出現錯誤"
+
+msgctxt "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgid "Successfully changed password for user \"[_1]\"."
+msgstr "使用者 \"{$acctName}\" 的密碼修改成功。"
+
+msgctxt "usr_LOCK_DESC"
+msgid "You are about to lock the user account \"[_1]\" ([_2])"
+msgstr "您正要鎖定使用者帳號"
+
+msgctxt "usr_LOCKED_ACCOUNT"
+msgid "Successfully locked account for user \"[_1]\"."
+msgstr "使用者 \"{$acctName}\" 的帳號鎖定成功。"
+
+msgctxt "usr_NO_SUCH_USER"
+msgid "Error: the user account \"[_1]\" does not exist."
+msgstr "錯誤：使用者帳號 \"{$acctName}\" 不存在。"
+
+msgctxt "usr_PSEUDONYM_CLASH"
+msgid ""
+"Error: the pseudonym \"[_1]\" is already taken by the existing user account "
+"\"[_1]\".To differentiate, add initials to this field."
+msgstr "錯誤：此代號 \"{$pseudonym}\" 已經由既有的使用者 \"{$clashName}\" 所使用。 請重新填寫不同的代號到此區塊。"
+
+msgctxt "usr_LOCK_ACCOUNT"
+msgid "Lock account"
+msgstr "鎖定帳號"
+
+msgctxt "usr_LOCK_ACCOUNT_TITLE"
+msgid "Lock user account"
+msgstr "鎖定使用者帳號"
+
+msgctxt "usr_LOCK_DESC2"
+msgid ""
+"This user account will be locked. This means that this user will not be able"
+" to log in, and will not be able to collect e-mail. Any e-mail arriving will"
+" still be stored and/or forwarded to an external e-mail address, as "
+"configured. The account may be activated in the future by setting a new "
+"password. The current password will not be retained.</p><p><b>Are you sure "
+"you wish to lock this account?</b>"
+msgstr ""
+"此使用者帳號將被鎖定。這表示這位使用者將無法登入，並且無法收集電郵。任何收到的電郵仍會被保留並或轉送給事先配置好的外部電郵地址。此帳號稍後在設定新密碼以後可被啟用。現有密碼將不被保留。</p>"
+" <p> <b>您確定您想要鎖定此帳號？</b>"
+
+msgctxt "usr_REMOVE_ACCOUNT_TITLE"
+msgid "Remove user account"
+msgstr "移除使用者帳號"
+
+msgctxt "usr_REMOVE_DESC"
+msgid "You are about to remove the user account \"[_1]\" ([_2])"
+msgstr "您正要移除此使用者帳號"
+
+msgctxt "usr_REMOVE_DESC2"
+msgid ""
+"All files belonging to this user account will be deleted. Also, any e-mail "
+"for this user account still remaining on the server (i.e. that has not yet "
+"been retrieved by the user) will be discarded. </p><p><b>Are you sure you "
+"wish to remove this account?</b>"
+msgstr ""
+"此使用者帳號的所有檔案將被刪除。而且，伺服器上此使用者帳號既有有的電郵（例如：尚未由使用者取回）將被遺棄。</p> <p> "
+"<b>您確定您想要移除此帳號？</b>"
+
+msgctxt "usr_LOCK"
+msgid "Lock"
+msgstr "鎖定"
+
+msgctxt "usr_NO_USER_ACCOUNTS"
+msgid "There are no user accounts on this system."
+msgstr "此系統無使用者帳號。"
+
+msgctxt "usr_Users"
+msgid "Users"
+msgstr "使用者"
+
+msgctxt "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgid ""
+"The account name \"[_1]\" contains invalid characters. Account names must "
+"start with a lower case letter and contain only lower case letters, numbers,"
+" hyphens, periods and underscores."
+msgstr "此帳號名稱\"{$acctName}\"包含無效字元。帳號名稱必須以小寫字母起頭，而且僅能包含小寫字母、數字、連字符、句號和底線。"
+
+msgctxt "usr_ACCOUNT_TOO_LONG"
+msgid "Error: account name is too long. The maximum is [_1] characters."
+msgstr "錯誤：賬號名稱太長。最多{$maxLength}個字元。"
+
+msgctxt "usr_ACCOUNT_CONFLICT"
+msgid ""
+"Error: the account \"[_1]\" can\\'t be created because there is already a "
+"[_1] account of that name."
+msgstr "錯誤：賬號\"{$account}\"無法建立，因為此帳號名稱{$type}已經存在。"
+
+msgctxt "usr_ERR_OCCURRED_CREATING"
+msgid "An error occurred creating the user."
+msgstr "建立使用者時發生錯誤。"
+
+msgctxt "usr_CANNOT_CONTAIN_WHITESPACE"
+msgid "This field cannot contain white-space"
+msgstr "此區塊無法留白"
+
+msgctxt "usr_UNACCEPTABLE_CHARS"
+msgid ""
+"This field must contain only letters, numbers, dots, hypens and underscores "
+"and start with a letter"
+msgstr "此區塊只能包含字母、數字、逗號、連字符和底線，並且要以字母開頭。"
+
+msgctxt "usr_MEMBER"
+msgid "Member?"
+msgstr "成員？"
+
+msgctxt "usr_VPN_CLIENT_ACCESS"
+msgid "VPN Client Access"
+msgstr "VPN使用者端存取"
+
+msgctxt "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgid "Change system password"
+msgstr "更改系統密碼"
+
+msgctxt "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgid ""
+"Certain services on this server installation require a username and password"
+" (for example this web page for the server manager application). The "
+"username is always admin. You can change the system password using the "
+"fields below."
+msgstr "此系統安裝特定服務需要使用者名稱與密碼（例如伺服器管理應用程式的網頁）。使用者名稱總是管理者admin。您可於下方區塊修改系統密碼。"
+
+msgctxt "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgid "Password must contain only printable characters"
+msgstr "密碼僅能涵蓋可列印字元"
+
+msgctxt "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgid "The two passwords are not identical."
+msgstr "兩次密碼不相同。"
+
+msgctxt "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgid "The current password is incorrect."
+msgstr "當前密碼錯誤。"
+
+msgctxt "usr_SYSTEM_PASSWORD_CHANGED"
+msgid "The system password has been changed."
+msgstr "系統密碼已變更。"
+
+msgctxt "usr_CURRENT_SYSTEM_PASSWORD"
+msgid "Current system password"
+msgstr "當前系統密碼"
+
+msgctxt "usr_NEW_SYSTEM_PASSWORD"
+msgid "New system password"
+msgstr "新的系統密碼"
+
+msgctxt "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgid "New system password (verify)"
+msgstr "新的系統密碼（確認）"
+
+msgctxt "usr_LABEL_IPSECRW_DOWNLOAD"
+msgid "Download digital certificate to IPSec client"
+msgstr "下載數位簽章到IPSec客戶端"
+
+msgctxt "usr_ERR_OCCURRED_DELETING"
+msgid "An error occurred while trying to delete the user."
+msgstr "試著刪除使用者時發生錯誤。"

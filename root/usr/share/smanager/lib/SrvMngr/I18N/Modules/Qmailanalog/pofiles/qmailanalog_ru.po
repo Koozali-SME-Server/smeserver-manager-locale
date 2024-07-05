@@ -1,0 +1,96 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "qma_FORM_TITLE"
+msgid "Mail Log File Analysis"
+msgstr "Анализ почтовых лог файлов"
+
+msgctxt "qma_INITIAL_DESC"
+msgid ""
+"<P>Analysing the mail system log files can aid both in\n"
+"understanding how your system is performing and in\n"
+"diagnosing delivery problems. Several different\n"
+"reports are available.</P>\n"
+"<P>Please note that it may take several minutes to generate\n"
+"these reports</P>"
+msgstr ""
+"<P>Анализ лог файлов почтовой системы может помочь в понимании того, как "
+"ваша система работает и в диагностике проблем доставки. Доступны несколько "
+"различных отчётов .</P> <P>Имейте в виду, что может потребоваться несколько "
+"минут для создания этих отчётов</P>"
+
+msgctxt "qma_REPORT_TYPE"
+msgid "Choose a report type"
+msgstr "Выберите тип отчёта"
+
+msgctxt "qma_GENERATE_REPORT"
+msgid "Generate report"
+msgstr "Создать отчёт"
+
+msgctxt "qma_LIST_OUTGOING"
+msgid "List outgoing messages and recipients"
+msgstr "Список исходящих сообщений и адресатов"
+
+msgctxt "qma_SUMMARIZE_QUEUE"
+msgid "Summarize status of mail queue"
+msgstr "Итоговое состояние почтовой очереди"
+
+msgctxt "qma_SUCCESSFUL_DELIVERY_DELAY"
+msgid "Successful delivery delay distribution"
+msgstr "Распределение по задержке успешной доставки"
+
+msgctxt "qma_REASONS_DEFERRAL"
+msgid "Reasons for deferral"
+msgstr "Причины отсрочек"
+
+msgctxt "qma_REASONS_FAILURE"
+msgid "Reasons for failure"
+msgstr "Причины сбоев"
+
+msgctxt "qma_BASIC_STATS"
+msgid "Basic statistics"
+msgstr "Базовая статистика"
+
+msgctxt "qma_RECIP_STATS"
+msgid "Recipients statistics"
+msgstr "Статистика по получателям"
+
+msgctxt "qma_RECIP_HOSTS"
+msgid "Recipient hosts"
+msgstr "Узлы получателей"
+
+msgctxt "qma_RECIP_ORDERED"
+msgid "Recipients in best order for mailing lists"
+msgstr "Получатели, упорядоченные по списку адресатов"
+
+msgctxt "qma_SENDER_STATS"
+msgid "Sender statistics"
+msgstr "Статистика по отправителям"
+
+msgctxt "qma_SENDMAIL_STYLE"
+msgid "Sendmail style log"
+msgstr "Стиль логов Sendmail"
+
+msgctxt "qma_REASONS_SUCCESS"
+msgid "Reasons for success"
+msgstr "Причины успехов"
+
+msgctxt "qma_SENDER_UIDS"
+msgid "Sender uids"
+msgstr "UIDS отправителей"
+
+msgctxt "qma_INVALID_REPORT_TYPE"
+msgid "Invalid report type:"
+msgstr "Неверный тип отчёта:"
+
+msgctxt "qma_REPORT_GENERATED"
+msgid "Report generated:"
+msgstr "Отчёт создан:"
+
+msgctxt "qma_END_OF_REPORT"
+msgid "End of Report"
+msgstr "Конец отчёта"

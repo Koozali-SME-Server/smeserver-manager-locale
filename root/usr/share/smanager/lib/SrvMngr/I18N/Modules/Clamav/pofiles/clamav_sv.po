@@ -1,0 +1,49 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "clm_FORM_TITLE"
+msgid "Antivirus settings"
+msgstr "Antivirusinställningar"
+
+msgctxt "clm_LABEL_FILESYSTEM_SCAN_PERIOD"
+msgid "Scan filesystem"
+msgstr "Genomsök hela filsystemet"
+
+msgctxt "clm_DESC_FILESYSTEM_SCAN_PERIOD"
+msgid ""
+"<h2>General Settings</h2>\n"
+"If this option is enabled then the filesystem will be \n"
+"scanned for viruses.A report of any found viruses will be\n"
+"emailed to the administrator."
+msgstr ""
+"<h2>Allmäna inställningar</h2> Om detta val är tillåtet kommer hela "
+"filsystemet att genomsökas efter virus. En rapport över funna virus kommer "
+"att e-postas till administratören."
+
+msgctxt "clm_LABEL_QUARANTINE"
+msgid "Quarantine infected files"
+msgstr "Placera infekterade filer i karantän"
+
+msgctxt "clm_LABEL_CLAM_VERSIONS"
+msgid "ClamAV and db versions"
+msgstr "ClamAV och db versioner"
+
+msgctxt "clm_WEEKLY"
+msgid "Weekly"
+msgstr "Varje vecka"
+
+msgctxt "clm_NEVER"
+msgid "Never"
+msgstr "Aldrig"
+
+msgctxt "clm_DAILY"
+msgid "Daily"
+msgstr "En gång varje dag"
+
+msgctxt "clm_SUCCESS"
+msgid "The new clamav antivirus settings have been saved."
+msgstr "De nya inställningarna för clamav antivirus har sparats."

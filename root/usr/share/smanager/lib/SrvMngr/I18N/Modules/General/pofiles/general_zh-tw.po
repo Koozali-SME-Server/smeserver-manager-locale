@@ -1,0 +1,533 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "OPERATION_Collaboration"
+msgid "Collaboration"
+msgstr "協作"
+
+msgctxt "OPERATION_Administration"
+msgid "Administration"
+msgstr "管理"
+
+msgctxt "OPERATION_Security"
+msgid "Security"
+msgstr "安全性"
+
+msgctxt "OPERATION_Configuration"
+msgid "Configuration"
+msgstr "設定組態"
+
+msgctxt "OPERATION_Miscellaneous"
+msgid "Miscellaneous"
+msgstr "雜項"
+
+msgctxt "OPERATION_Your Settings"
+msgid "Your Settings"
+msgstr "您的設定"
+
+msgctxt "OPERATION_SAVE"
+msgid "Save"
+msgstr "儲存"
+
+msgctxt "OPERATION_CANCEL"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "OPERATION_ENABLED"
+msgid "Enabled"
+msgstr "啟用"
+
+msgctxt "OPERATION_DISABLED"
+msgid "Disabled"
+msgstr "禁用"
+
+msgctxt "OPERATION_NO"
+msgid "No"
+msgstr "否"
+
+msgctxt "OPERATION_YES"
+msgid "Yes"
+msgstr "是"
+
+msgctxt "OPERATION_ADD"
+msgid "Add"
+msgstr "新增"
+
+msgctxt "OPERATION_CREATE"
+msgid "Create"
+msgstr "建立"
+
+msgctxt "OPERATION_MODIFY"
+msgid "Modify"
+msgstr "修改"
+
+msgctxt "OPERATION_REMOVE"
+msgid "Remove"
+msgstr "移除"
+
+msgctxt "OPERATION_COMMENT"
+msgid "Comment"
+msgstr "備註"
+
+msgctxt "OPERATION_NEXT"
+msgid "Next"
+msgstr "下一步"
+
+msgctxt "OPERATION_SELF"
+msgid "Self"
+msgstr "自己"
+
+msgctxt "OPERATION_REMOTE"
+msgid "Remote"
+msgstr "遠端"
+
+msgctxt "OPERATION_LOCAL"
+msgid "Local"
+msgstr "本機"
+
+msgctxt "OPERATION_ACTION"
+msgid "Action"
+msgstr "動作"
+
+msgctxt "OPERATION_NETWORK"
+msgid "Network"
+msgstr "網絡"
+
+msgctxt "OPERATION_ROUTER"
+msgid "Router"
+msgstr "路由器"
+
+msgctxt "OPERATION_STATUS_REPORT"
+msgid "Operation status report"
+msgstr "運作狀態回報"
+
+msgctxt "OPERATION_ACCOUNT"
+msgid "Account"
+msgstr "帳號"
+
+msgctxt "OPERATION_GROUP"
+msgid "Group"
+msgstr "群組"
+
+msgctxt "OPERATION_DESC_SECTIONBAR"
+msgid "<hr class=\"sectionbar\"/>"
+msgstr " <hr class=\"sectionbar\"/> "
+
+msgctxt "OPERATION_NO_PIPES_ALLOWED"
+msgid "Pipe symbols (|) are not permitted in this field"
+msgstr "管線符號（|）在此區塊中是不允許的"
+
+msgctxt "OPERATION_ERROR_BELOW"
+msgid ""
+"ERROR: There was an error in the validation of this page. Please scroll down"
+" and find the specific problem."
+msgstr "錯誤：網頁驗證時存在錯誤。請下拉頁面並找到指定錯誤。"
+
+msgctxt "OPERATION_ACCESS"
+msgid "Access"
+msgstr "存取"
+
+msgctxt "OPERATION_ACCOUNT_LOCKED"
+msgid "Account is locked"
+msgstr "帳號鎖定"
+
+msgctxt "OPERATION_GROUP_ADD"
+msgid "Add group"
+msgstr "增加群組"
+
+msgctxt "OPERATION_NETWORKS_ALLOW_LOCAL"
+msgid "Allow access only from local networks"
+msgstr "僅限區域網路存取"
+
+msgctxt "OPERATION_NETWORKS_ALLOW_PUBLIC"
+msgid "Allow public access (entire Internet)"
+msgstr "允許公開存取（全部網際網路）"
+
+msgctxt "OPERATION_ERROR_PASSWORD_CHANGE"
+msgid ""
+"An error occurred while attempting to change your password. Please make sure"
+" that the old password entered is correct."
+msgstr "試圖變更您的密碼時發生錯誤。請確認輸入的舊密碼是否正確。"
+
+msgctxt "OPERATION_BACK"
+msgid "Back"
+msgstr "返回"
+
+msgctxt "OPERATION_BACKUP"
+msgid "Backup"
+msgstr "備份"
+
+msgctxt "OPERATION_DESCRIPTION_BRIEF"
+msgid "Brief description"
+msgstr "簡介"
+
+msgctxt "OPERATION_PASSWORD_CHANGE"
+msgid "Change Password"
+msgstr "改變密碼"
+
+msgctxt "OPERATION_RESET_PASSWORD_TITLE"
+msgid "Reset user password"
+msgstr "重設使用者密碼"
+
+msgctxt "OPERATION_ACCOUNT_PASSWORD_CHANGE"
+msgid "Change account password"
+msgstr "修改帳號密碼"
+
+msgctxt "OPERATION_CONTENT"
+msgid "Content"
+msgstr "內容"
+
+msgctxt "OPERATION_CREATE_GROUP"
+msgid "Create user group"
+msgstr "建立使用者群組"
+
+msgctxt "OPERATION_USER_LIST_CURRENT"
+msgid "Current list of users"
+msgstr "當前使用者列表"
+
+msgctxt "OPERATION_DESCRIPTION"
+msgid "Description"
+msgstr "介紹"
+
+msgctxt "OPERATION_DESTINATION"
+msgid "Destination"
+msgstr "目的地"
+
+msgctxt "OPERATION_DOMAIN_NAME"
+msgid "Domain name"
+msgstr "網域名稱"
+
+msgctxt "OPERATION_DOMAIN"
+msgid "Domain"
+msgstr "網域"
+
+msgctxt "OPERATION_DOMAINS"
+msgid "Domains"
+msgstr "眾網域"
+
+msgctxt "OPERATION_DOWNLOAD"
+msgid "Download"
+msgstr "下載"
+
+msgctxt "OPERATION_ERROR_UPDATING_CONFIGURATION"
+msgid "Error occurred while updating system configuration."
+msgstr "更新系統設定時錯誤。"
+
+msgctxt "OPERATION_GROUP_MEMBERS"
+msgid "Group Members"
+msgstr "群組成員"
+
+msgctxt "OPERATION_GROUP_NAME"
+msgid "Group Name"
+msgstr "群組名稱"
+
+msgctxt "OPERATION_GROUPS"
+msgid "Groups"
+msgstr "群組"
+
+msgctxt "OPERATION_IP_ADDRESS"
+msgid "IP Address"
+msgstr "IP 地址"
+
+msgctxt "OPERATION_IP_ADDRESS_OR_FQDN"
+msgid "IP Address or FQDN"
+msgstr "IP地址或FQDN"
+
+msgctxt "OPERATION_USER_INVALID"
+msgid "Invalid user"
+msgstr "無效使用者"
+
+msgctxt "OPERATION_LOCATION"
+msgid "Location"
+msgstr "位置"
+
+msgctxt "OPERATION_MB"
+msgid "Mb"
+msgstr "百萬位元(Mb)"
+
+msgctxt "OPERATION_MODIFY_USER_GROUP"
+msgid "Modify user group"
+msgstr "修正使用者群組"
+
+msgctxt "OPERATION_NAME"
+msgid "Name"
+msgstr "名稱"
+
+msgctxt "OPERATION_PASSWORD_VERIFY_NEW"
+msgid "New password (verify):"
+msgstr "新密碼（驗證）："
+
+msgctxt "OPERATION_PASSWORD_NEW"
+msgid "New password:"
+msgstr "新密碼："
+
+msgctxt "OPERATION_OFF"
+msgid "Off"
+msgstr "關閉"
+
+msgctxt "OPERATION_OK"
+msgid "Ok"
+msgstr "確定"
+
+msgctxt "OPERATION_PASSWORD_OLD"
+msgid "Old password:"
+msgstr "舊密碼："
+
+msgctxt "OPERATION_ON"
+msgid "On"
+msgstr "開啟"
+
+msgctxt "OPERATION_PASSWORD"
+msgid "Password"
+msgstr "密碼"
+
+msgctxt "OPERATION_PERFORM"
+msgid "Perform"
+msgstr "執行"
+
+msgctxt "OPERATION_RECONFIGURE"
+msgid "Reconfigure"
+msgstr "重新設定"
+
+msgctxt "OPERATION_REMOVE_USER_GROUP"
+msgid "Remove user group"
+msgstr "移除使用者群組"
+
+msgctxt "OPERATION_PASSWORD_RESET"
+msgid "Reset password"
+msgstr "重設密碼"
+
+msgctxt "OPERATION_RESTORE"
+msgid "Restore"
+msgstr "還原"
+
+msgctxt "OPERATION_SHUTDOWN"
+msgid "Shutdown"
+msgstr "關閉系統"
+
+msgctxt "OPERATION_SUCCESS"
+msgid "Success"
+msgstr "成功"
+
+msgctxt "OPERATION_ACCOUNT_NAME_INVALID"
+msgid "The account name entered is invalid."
+msgstr "輸入的帳號名稱無效。"
+
+msgctxt "OPERATION_ACCOUNT_NAME_INVALID_CHARS"
+msgid "The account name you entered contained invalid characters."
+msgstr "您輸入的帳號名稱包含無效字元。"
+
+msgctxt "OPERATION_PASSWORD_OLD_INVALID_CHARS"
+msgid "The old password you entered contained invalid characters."
+msgstr "您輸入的舊密碼包含無效字元。"
+
+msgctxt "OPERATION_PASSWORD_INVALID_CHARS"
+msgid "The password you entered contained invalid characters."
+msgstr "您輸入的密碼包含無效字元。"
+
+msgctxt "OPERATION_PASSWORD_VERIFY_ERROR"
+msgid "The passwords you entered did not match."
+msgstr "您輸入的密碼不符。"
+
+msgctxt "OPERATION_ACCOUNT_USER_NONE"
+msgid "There are no user accounts in the system."
+msgstr "系統中無使用者帳號。"
+
+msgctxt "OPERATION_ACCOUNT_GROUP_NONE"
+msgid "There are no user groups in the system."
+msgstr "系統中無使用者群組。"
+
+msgctxt "OPERATION_ERROR_INVALID_CHARS"
+msgid "Unexpected characters in description."
+msgstr "描述涵蓋未預期字元。"
+
+msgctxt "OPERATION_USER_NAME"
+msgid "User Name"
+msgstr "使用者名稱"
+
+msgctxt "OPERATION_YOUR_ACCOUNT"
+msgid "Your account:"
+msgstr "您的帳號："
+
+msgctxt "OPERATION_YOUR_ACCOUNT_INVALID"
+msgid "The account name entered is invalid."
+msgstr "輸入的帳號名稱無效。"
+
+msgctxt "OPERATION_PASSWORD_CHANGE_SUCCESS"
+msgid "Your password has been successfully changed."
+msgstr "您的密碼已修改成功。"
+
+msgctxt "OPERATION_FM_NONBLANK"
+msgid "This field must not be left blank"
+msgstr "此區塊不能留白。"
+
+msgctxt "OPERATION_FM_INTEGER"
+msgid "This field must contain a positive integer"
+msgstr "此區塊必須包含一個正整數。"
+
+msgctxt "OPERATION_FM_NUMBER"
+msgid "This field must contain a number"
+msgstr "此區塊必須包含一個數字。"
+
+msgctxt "OPERATION_FM_WORD"
+msgid "This field must look like a single word."
+msgstr "此區塊必須看起來像個單一的字。"
+
+msgctxt "OPERATION_FM_DATE"
+msgid "The data entered could not be parsed as a date"
+msgstr "輸入的資料無法被解析為日期"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER1"
+msgid "You must enter a credit card number"
+msgstr "您必須輸入信用卡號碼"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER2"
+msgid ""
+"Credit card numbers shouldn\\'t have anything but numbers, spaces or dashes"
+msgstr "信用卡號碼不應該包含數字、空格或破折號以外的其他字元"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER3"
+msgid "Must be at least 14 characters in length"
+msgstr "字元長度至少為14個"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_NUMBER4"
+msgid "Doesn\\'t appear to be a valid credit card number"
+msgstr "似非有效信用卡號碼"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY1"
+msgid "No expiry date entered."
+msgstr "無輸入屆期日"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY2"
+msgid "Expiry date must be in the format MM/YY or MM/YYYY"
+msgstr "屆期日格式須為MM/YY或MM/YYYY"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY3"
+msgid "This expiry date appears to have already passed"
+msgstr "似乎已過屆期日"
+
+msgctxt "OPERATION_FM_CREDIT_CARD_EXPIRY4"
+msgid "This expiry date appears to be too far in the future"
+msgstr "未來屆期日似乎太長"
+
+msgctxt "OPERATION_FM_ISO_COUNTRY_CODE1"
+msgid "You must provide a country code"
+msgstr "您必須提供國碼"
+
+msgctxt "OPERATION_FM_ISO_COUNTRY_CODE2"
+msgid "This field does not contain an ISO country code"
+msgstr "此欄位不包含ISO國碼"
+
+msgctxt "OPERATION_FM_US_STATE"
+msgid "This doesn\\'t appear to be a valid 2-letter US state abbreviation"
+msgstr "此似非有效2位元美國州縮寫"
+
+msgctxt "OPERATION_FM_US_ZIPCODE"
+msgid "US zip codes must contain 5 or 9 numbers"
+msgstr "美國郵遞區號必須包含5或9個數字"
+
+msgctxt "OPERATION_FM_MINLENGTH1"
+msgid "Minimum length has been specified meaninglessly as [_1]"
+msgstr "以{$minlength}指定的最小長度是無意義的。"
+
+msgctxt "OPERATION_FM_MINLENGTH2"
+msgid "This field must be at least [_1] characters"
+msgstr "此區段最少需要{$minlength}個字元。"
+
+msgctxt "OPERATION_FM_MAXLENGTH1"
+msgid "Maximum length has been specified meaninglessly as [_1]"
+msgstr "以{$maxlength}指定的最大長度是無意義的。"
+
+msgctxt "OPERATION_FM_MAXLENGTH2"
+msgid "This field must be no more than [_1] characters"
+msgstr "此區段不得超過{$maxlength}個字元。"
+
+msgctxt "OPERATION_FM_EXACTLENGTH1"
+msgid "You must specify the length for the field."
+msgstr "您必須為此區段指定長度。"
+
+msgctxt "OPERATION_FM_EXACTLENGTH2"
+msgid "You must specify the exactlength of the field with an integer"
+msgstr "您必須以整數為此區段指定準確長度。"
+
+msgctxt "OPERATION_FM_EXACTLENGTH3"
+msgid "This field must be exactly [_1] characters"
+msgstr "此區段必須確定為{$exactlength}個字元。"
+
+msgctxt "OPERATION_FM_LENGTHRANGE1"
+msgid "You must specify the maximum and minimum length for the field."
+msgstr "您必須為此區段指定最大與最小長度。"
+
+msgctxt "OPERATION_FM_LENGTHRANGE2"
+msgid ""
+"You must specify the maximum and minimum lengths of the field with an "
+"integer"
+msgstr "您必須以整數為此區段指定最大與最小長度。"
+
+msgctxt "OPERATION_FM_LENGTHRANGE3"
+msgid "This field must be between [_1] and [_2] characters"
+msgstr "此區段必須介於 {$minlength}與{$maxlength}個字元。"
+
+msgctxt "OPERATION_FM_URL"
+msgid "This field must contain a URL starting with http:// or ftp://"
+msgstr "此區段的URL必須以http://或ftp://開頭"
+
+msgctxt "OPERATION_FM_EMAIL_SIMPLE1"
+msgid "You must enter an email address."
+msgstr "您必須輸入一個電郵地址。"
+
+msgctxt "OPERATION_FM_EMAIL_SIMPLE2"
+msgid "This field doesn\\'t look like an RFC822-compliant email address"
+msgstr "此區段不似RFC822相容的電郵地址"
+
+msgctxt "OPERATION_FM_DOMAIN_NAME"
+msgid "This field doesn\\'t look like a valid Internet domain name or hostname."
+msgstr "此區段不似有效的網際網路網域名稱或主機名稱。"
+
+msgctxt "OPERATION_FM_IP_NUMBER1"
+msgid "This field must contain a valid IP number and can not be left blank."
+msgstr "此區段必須包含一個有效的IP位址且不能留白。"
+
+msgctxt "OPERATION_FM_IP_NUMBER2"
+msgid "Invalid IP address format (expected X.X.X.X)"
+msgstr "無效的IP位址格式（例如X.X.X.X）"
+
+msgctxt "OPERATION_FM_IP_NUMBER3"
+msgid "[_1] is more than 255"
+msgstr "{$octet}大於255"
+
+msgctxt "OPERATION_FM_USERNAME"
+msgid ""
+"This field must look like a valid username (3 to 8 letters and numbers)"
+msgstr "此區塊需類有效使用者名稱（3到8個字母和數字）"
+
+msgctxt "OPERATION_FM_PASSWORD1"
+msgid "You must provide a password."
+msgstr "您需提供密碼。"
+
+msgctxt "OPERATION_FM_PASSWORD2"
+msgid ""
+"The password you provided was not a good password.A good password must "
+"contain all of the following: upper case letter, lower case letter, number, "
+"non-alphanumeric character, be at least 7 characters long."
+msgstr "您提供的密碼不佳。良好的密碼需涵蓋以下：大小寫字母、數字、特殊字元，以及至少7個字元。"
+
+msgctxt "OPERATION_FM_MAC_ADDRESS1"
+msgid "You must provide a MAC address."
+msgstr "您需提供MAC位址。"
+
+msgctxt "OPERATION_FM_MAC_ADDRESS2"
+msgid "The MAC address you provided was not valid."
+msgstr "您提供的MAC位址無效。"
+
+msgctxt "OPERATION_FM_ERR_UNEXPECTED_DESC"
+msgid "Error: unexpected or missing characters in description"
+msgstr "錯誤：描述中涵蓋未知字元或遺失字元。"
+
+msgctxt "OPERATION_CSRF_VALIDATION_FAILURE"
+msgid "Placeholder for missing original text"
+msgstr "Error: CSRF token is invalid or outdated."

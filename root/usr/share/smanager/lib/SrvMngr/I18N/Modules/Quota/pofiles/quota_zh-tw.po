@@ -1,0 +1,141 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "quo_FORM_TITLE"
+msgid "Create, modify, or remove user account quotas"
+msgstr "建立、修正，或移除使用者帳號的限額"
+
+msgctxt "quo_UNABLE_TO_OPEN_ACCOUNTS"
+msgid "Unable to open accounts db"
+msgstr "無法開啟帳號資料庫"
+
+msgctxt "quo_QUOTA_DESC"
+msgid ""
+"<p>You can set filesystem quotas for users on your system by clicking\n"
+"the \"Modify\" button next to the user you wish to update.\n"
+"<p>If the user exceeds the \"Limit with grace period\", warnings will be\n"
+"generated. If this limit is exceeded for longer than a week or if the\n"
+"\"Absolute limit\" is reached, the user will be unable to store any more\n"
+"files or receive any more e-mail.\n"
+"<p>A setting of \\'0\\' for either limit disables that limit for the\n"
+"corresponding user.\n"
+"<p>The disk space for each user includes the user\\'s home directory,\n"
+"e-mail, and any files owned by the user in information bays."
+msgstr ""
+"<p>You can set filesystem quotas for users on your system by clicking the "
+"\"Modify\" button next to the user you wish to update. <p>If the user "
+"exceeds the \"Limit with grace period\", warnings will be generated. If this"
+" limit is exceeded for longer than a week or if the \"Absolute limit\" is "
+"reached, the user will be unable to store any more files or receive any more"
+" e-mail. <p>A setting of \\'0\\' for either limit disables that limit for "
+"the corresponding user. <p>The disk space for each user includes the "
+"user\\'s home directory, e-mail, and any files owned by the user in "
+"information bays."
+
+msgctxt "quo_CURRENT_USAGE_AND_SETTINGS"
+msgid "Current Quota Usage and Settings"
+msgstr "現有磁碟限額與設定"
+
+msgctxt "quo_LIMIT_WITH_GRACE"
+msgid "Limit with grace period"
+msgstr "寬限期"
+
+msgctxt "quo_LIMIT_WITH_GRACE_MB"
+msgid "Limit with grace period (MB)"
+msgstr "寬限期(MB)"
+
+msgctxt "quo_ABS_LIMIT"
+msgid "Absolute limit"
+msgstr "底限"
+
+msgctxt "quo_ABS_LIMIT_MB"
+msgid "Absolute limit (MB)"
+msgstr "底限(MB)"
+
+msgctxt "quo_CURRENT_USAGE"
+msgid "Current usage (MB)"
+msgstr "目前用量(MB)"
+
+msgctxt "quo_COULD_NOT_GET_UID"
+msgid "Could not determine the uid for user:"
+msgstr "無法確定該使用者的uid："
+
+msgctxt "quo_ERR_NO_SUCH_ACCT"
+msgid "Error: there is no account named:"
+msgstr "錯誤：無此帳號名稱："
+
+msgctxt "quo_ERR_NOT_A_USER_ACCT"
+msgid "Error: the account is not a user account:"
+msgstr "錯誤：此帳號非使用者帳號："
+
+msgctxt "quo_ACCOUNT_IS_TYPE"
+msgid "It is an account of type:"
+msgstr "帳號類型為："
+
+msgctxt "quo_MODIFY_USER_TITLE"
+msgid "Modify user quota limits"
+msgstr "Modify user quota limits"
+
+msgctxt "quo_USER"
+msgid "User:"
+msgstr "使用者："
+
+msgctxt "quo_CURRENTLY_HAS"
+msgid "currently has:"
+msgstr "目前有："
+
+msgctxt "quo_FILES"
+msgid "files"
+msgstr "檔案"
+
+msgctxt "quo_OCCUPYING"
+msgid "occupying:"
+msgstr "佔有："
+
+msgctxt "quo_MEGABYTES"
+msgid "megabytes"
+msgstr "百萬位元"
+
+msgctxt "quo_INSTRUCTIONS"
+msgid ""
+"Enter the quota with optional unit suffix of \\'K\\' for kilobytes, \\'M\\' for megabytes, \n"
+"\\'G\\' for gigabytes or \\'T\\' for terabytes. \n"
+"Entries with no suffix are assumed to be in megabytes. A setting of \\'0\\'\n"
+"for either limit disables that limit for the corresponding user."
+msgstr ""
+"Enter the quota with optional unit suffix of \\'K\\' for kilobytes, \\'M\\' "
+"for megabytes, \\'G\\' for gigabytes or \\'T\\' for terabytes. Entries with "
+"no suffix are assumed to be in megabytes. A setting of \\'0\\' for either "
+"limit disables that limit for the corresponding user."
+
+msgctxt "quo_SOFT_VAL_MUST_BE_NUMBER"
+msgid ""
+"Error: limit with grace period must be a number, optionally followed by one "
+"of the unit suffixes K, M, G, or T."
+msgstr "錯誤：寬限期必須是一個整數，單位字尾為K，M，G或T。"
+
+msgctxt "quo_HARD_VAL_MUST_BE_NUMBER"
+msgid ""
+"Error: absolute limit must be a number, optionally followed by one of the "
+"unit suffixes K, M, G, or T."
+msgstr "錯誤：絕對期限必須是一個整數，單位字尾為K，M，G或T。"
+
+msgctxt "quo_ERR_HARD_LT_SOFT"
+msgid "Error: absolute limit must be greater than limit with grace time."
+msgstr "錯誤：絕對期限必須大於寬限期限。"
+
+msgctxt "quo_ERR_MODIFYING"
+msgid "Error occurred while modifying user."
+msgstr "在編輯使用者時錯誤。"
+
+msgctxt "quo_SUCCESSFULLY_MODIFIED"
+msgid "Successfully modified quota for user account:"
+msgstr "成功修正使用者帳號的限額："
+
+msgctxt "quo_Quotas"
+msgid "Quotas"
+msgstr "限額"

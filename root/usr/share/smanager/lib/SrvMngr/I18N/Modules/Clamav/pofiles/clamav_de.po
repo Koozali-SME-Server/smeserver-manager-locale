@@ -1,0 +1,49 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "clm_FORM_TITLE"
+msgid "Antivirus settings"
+msgstr "Antivirus-Einstellungen"
+
+msgctxt "clm_LABEL_FILESYSTEM_SCAN_PERIOD"
+msgid "Scan filesystem"
+msgstr "Dateisystem prüfen"
+
+msgctxt "clm_DESC_FILESYSTEM_SCAN_PERIOD"
+msgid ""
+"<h2>General Settings</h2>\n"
+"If this option is enabled then the filesystem will be \n"
+"scanned for viruses.A report of any found viruses will be\n"
+"emailed to the administrator."
+msgstr ""
+"<h2>Allgemeine Einstellungen</h2> Beim Einschalten dieser Option wird das "
+"gesamte Dateisystem nach Viren durchsucht. Ein Bericht über gefundene Viren "
+"wird an den Administrator versandt."
+
+msgctxt "clm_LABEL_QUARANTINE"
+msgid "Quarantine infected files"
+msgstr "Infizierte Dateien isolieren"
+
+msgctxt "clm_LABEL_CLAM_VERSIONS"
+msgid "ClamAV and db versions"
+msgstr "ClamAV und DB Versionen"
+
+msgctxt "clm_WEEKLY"
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+msgctxt "clm_NEVER"
+msgid "Never"
+msgstr "Nie"
+
+msgctxt "clm_DAILY"
+msgid "Daily"
+msgstr "Täglich"
+
+msgctxt "clm_SUCCESS"
+msgid "The new clamav antivirus settings have been saved."
+msgstr "Die neuen Einstellungen für Clamav Antivirus wurden gespeichert."

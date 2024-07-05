@@ -1,0 +1,93 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "use_TITLE"
+msgid "User login"
+msgstr "Connexion Utilisateur"
+
+msgctxt "use_SIGNIN"
+msgid "Sign in"
+msgstr "Se connecter"
+
+msgctxt "use_FORGOT"
+msgid "Forgot password ?"
+msgstr "Mot de passe oublié ?"
+
+msgctxt "use_RESET_REGISTERED"
+msgid ""
+"A password reset message has been sent to the e-mail address of this account.<br>\n"
+"If you do not receive it, check your spam/junk folders or ask your local administrator for help.<br>\n"
+"If it is not there ask your local administrator."
+msgstr ""
+"Un e-mail de réinitialisation de mot de passe a été envoyé à l\\'adresse e-mail du compte.<br>\n"
+"Si vous ne le recevez pas, vérifiez vos dossiers de courrier indésirable/pourriel/spam ou demandez de l\\'aide à votre administrateur local.<br>\n"
+"Si ce n\\'est pas le cas, veuillez contacter votre administrateur."
+
+msgctxt "use_TOO_MANY_LOGIN"
+msgid ""
+"Login access blocked !!<br>Too many failed login attempts.  Try again later"
+msgstr ""
+"Accès à la connexion bloqué !!<br>Trop de tentatives en échec.  Réessayez "
+"plus tard !"
+
+msgctxt "use_INVALID_DATA"
+msgid "Invalid input data, Try again"
+msgstr "Données entrées invalides. Essayez à nouveau."
+
+msgctxt "use_WELCOME"
+msgid "Welcome Back!"
+msgstr "Heureux de vous revoir !"
+
+msgctxt "use_SORRY"
+msgid "Sorry try again"
+msgstr "Désolé, essayez de nouveau"
+
+msgctxt "use_ERR_NAME"
+msgid "Enter a valid account name"
+msgstr "Entrer un code utilisateur valide"
+
+msgctxt "use_NOT_THAT_OPER"
+msgid "Operation not allowed for this account."
+msgstr "Opération non autorisée pour ce compte."
+
+msgctxt "use_CONFIRM_RESET"
+msgid "Confirm Password Reset"
+msgstr "Confirmer la récupération de mot de passe"
+
+msgctxt "use_GO_TO_URL"
+msgid ""
+"Password reset\n"
+"\n"
+"Click the following link to reset your password. If you have not requested the password reset, then ignore this email.\n"
+"\n"
+"[_1]"
+msgstr ""
+"Réinitialiser le mot de passe\n"
+"\n"
+"Cliquer sur le lien suivant pour réinitialiser votre mot de passe. Si vous n\\'avez pas demandé cette réinitialisation de mot de passe, vous pouvez ignorer ce courriel.\n"
+"\n"
+"[_1]"
+
+msgctxt "use_BYE"
+msgid "Goodbye !"
+msgstr "Au revoir !"
+
+msgctxt "use_DESC_RESET"
+msgid "Please enter an account name for a password reset !"
+msgstr ""
+"Veuillez entrer un code utilisateur pour la réinitialisation de son mot de "
+"passe."
+
+msgctxt "use_RESET"
+msgid "Reset Password"
+msgstr "Réinitialiser"
+
+msgctxt "use_OK_FOR_RESET"
+msgid "You are about to reset your user account password"
+msgstr ""
+"Vous êtes sur le point de réinitialiser le mot de passe de votre compte "
+"utilisateur"

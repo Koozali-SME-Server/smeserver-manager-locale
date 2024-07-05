@@ -1,0 +1,184 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "prt_FORM_TITLE"
+msgid "Add or remove printers"
+msgstr "Printers toevoegen of verwijderen"
+
+msgctxt "prt_INITIAL_DESC"
+msgid ""
+"<P><A class=\"button-like\" HREF=\"printers?page=0&Next=Add\">Add "
+"printer</A></P>"
+msgstr ""
+"<P><A class=\"button-like\" HREF=\"printers?page=0&Next=Add\">Printer "
+"toevoegen</A></P>"
+
+msgctxt "prt_NO_PRINTERS"
+msgid "There are no printers in the system."
+msgstr "Er zijn geen printers op dit systeem."
+
+msgctxt "prt_CURRENT_LIST"
+msgid "Current List of printers"
+msgstr "Huidige lijst met printers"
+
+msgctxt "prt_REMOTE_ADDRESS"
+msgid "Remote address"
+msgstr "Adres elders"
+
+msgctxt "prt_REMOTE_NAME"
+msgid "Remote name"
+msgstr "Naam elders"
+
+msgctxt "prt_CREATE_NEW_PRINTER"
+msgid "Create a new printer"
+msgstr "Printer toevoegen"
+
+msgctxt "prt_CREATE_NEW_DESC"
+msgid ""
+"Please choose a unique name for the printer and enter a brief\n"
+"description. The printer name should contain only lower-case\n"
+"letters and numbers, and should start with a lower-case\n"
+"letter. For example \"hplaser\", \"epsonlp\", and\n"
+"\"canonbj\" are valid choices, but \"HP Laser Jet\", \n"
+"\"Canon BubbleJet\", and\n"
+"\"HP JetDirect Printer\" are not.\n"
+"Avoid names and descriptions that contain these terms, \n"
+"\"offline\", \"disabled\", \"down\", \"off\", \"waiting\", \"jam\",\n"
+"\"paper\", \"error\" and \"responding\"."
+msgstr ""
+"Kies een unieke naam voor de printer en geef een korte beschrijving. De "
+"printernaam mag alleen uit kleine letters en cijfers bestaan. Bijvoorbeeld "
+"\"hplaser\", \"epsonlp\" en \"canonbj\" zijn geldige keuzes. \"HP Laser "
+"Jet\", \"Canon BubbleJet\" en \"HP JetDirect Printer\" zijn geen geldige "
+"namen. Vermijd namen en omschrijvingen met deze termen: \"offline\", "
+"\"disabled\", \"down\", \"off\", \"waiting\", \"jam\", \"paper\", \"error\" "
+"en \"responding\"."
+
+msgctxt "prt_PRINTER_NAME"
+msgid "Printer name"
+msgstr "Printernaam"
+
+msgctxt "prt_LOCAL_PRINTER_0"
+msgid "Local printer port 0 (LPT1)"
+msgstr "Lokale printerpoort 0 (LPT1)"
+
+msgctxt "prt_LOCAL_PRINTER_1"
+msgid "Local printer port 1 (LPT2)"
+msgstr "Lokale printerpoort 1 (LPT2)"
+
+msgctxt "prt_LOCAL_PRINTER_2"
+msgid "Local printer port 2 (LPT3)"
+msgstr "Lokale printerpoort 2 (LPT3)"
+
+msgctxt "prt_NET_PRINTER"
+msgid "Network printer ..."
+msgstr "Netwerk printer ..."
+
+msgctxt "prt_FIRST_USB_PRINTER"
+msgid "First USB attached printer"
+msgstr "Eerste USB aangesloten printer"
+
+msgctxt "prt_SECOND_USB_PRINTER"
+msgid "Second USB attached printer"
+msgstr "Tweede USB aangesloten printer"
+
+msgctxt "prt_ERR_UNEXPECTED_NAME"
+msgid ""
+"<P>Error: unexpected characters in printer name.</P>\n"
+"<P>The printer name should contain only lower-case \n"
+"letters and numbers, and should start with a lower-case \n"
+"letter. For example \"hplaser\", \"epsonlp\", and \n"
+"\"canonbj\" are valid names.</P>"
+msgstr ""
+"<P>Fout: onverwachte tekens in de printernaam.</P> <P>De printernaam mag "
+"alleen kleine letters en cijfers bevatten en moet met een kleine letter "
+"beginnen. Bijvoorbeeld: \"hplaser\", \"epsonlp\" en \"canonbj\" zijn geldige"
+" namen.</P>"
+
+msgctxt "prt_ERR_UNEXPECTED_DESC"
+msgid ""
+"Error: unexpected or missing characters in description. \n"
+"Did not create new printer."
+msgstr ""
+"Fout: Onverwachte of ontbrekende tekens in de beschrijving. Geen nieuwe "
+"printer toegevoegd."
+
+msgctxt "prt_ERR_EXISTS"
+msgid "Error: An account with the same name exists with type:"
+msgstr "Fout: Een account met dezelfde naam bestaat al met type:"
+
+msgctxt "prt_ERR_INVALID_ADDRESS"
+msgid "Error: invalid network address. Did not create new printer."
+msgstr "Fout: ongeldig netwerk adres. Geen nieuwe printer toegevoegd."
+
+msgctxt "prt_ERR_INVALID_REMOTE_NAME"
+msgid "Error: invalid network printer name. Did not create new printer."
+msgstr "Fout: Ongeldige netwerk printernaam. Geen nieuwe printer toegevoegd."
+
+msgctxt "prt_ERR_CREATING"
+msgid "Error occurred while creating printer."
+msgstr "Fout tijdens het toevoegen van de printer."
+
+msgctxt "prt_CREATED_SUCCESSFULLY"
+msgid "Successfully created printer:"
+msgstr "Printer is met succes toegevoegd:"
+
+msgctxt "prt_CREATE_NETWORK_PRINTER"
+msgid "Create a new network printer"
+msgstr "Netwerk printer toevoegen"
+
+msgctxt "prt_ERR_OPENING_DB"
+msgid "Error occurred while opening accounts database."
+msgstr "Fout opgetreden tijdens het openen van de accounts database."
+
+msgctxt "prt_CREATE_NETWORK_DESC"
+msgid "Please enter the address and name of the network printer"
+msgstr "Geef het adres en de naam van de netwerk printer"
+
+msgctxt "prt_HOSTNAME_OR_IP"
+msgid "Hostname or IP address of the network printer"
+msgstr "Hostnaam of IP adres van de netwerk printer"
+
+msgctxt "prt_REMOTE_NAME_DESC"
+msgid "Network printer name (enter raw if not sure)"
+msgstr "Netwerk printernaam (geef ongeveer als u het niet zeker weet)"
+
+msgctxt "prt_REMOVE_PRINTER"
+msgid "Remove printer"
+msgstr "Verwijder printer"
+
+msgctxt "prt_ABOUT_TO_REMOVE"
+msgid "You are about to remove the printer:"
+msgstr "U verwijderd op deze manier de printer:"
+
+msgctxt "prt_SPOOL_FILE_WARNING"
+msgid "All the spool files for this printer will be deleted."
+msgstr "Alle opdracht-bestanden voor de printer worden verwijderd."
+
+msgctxt "prt_ARE_YOU_SURE"
+msgid "Are you sure you wish to remove this printer?"
+msgstr "Weet u zeker dat u deze printer wilt verwijderen?"
+
+msgctxt "prt_ERR_INTERNAL_FAILURE"
+msgid "Error: internal failure while removing printer:"
+msgstr "Fout: interne fout tijdens verwijderen van printer:"
+
+msgctxt "prt_ERR_DELETING"
+msgid "Error occurred while deleting printer."
+msgstr "Fout opgetreden tijdens verwijderen van de printer."
+
+msgctxt "prt_DELETED_SUCCESSFULLY"
+msgid "Successfully deleted printer:"
+msgstr "Printer is met succes verwijderd:"
+
+msgctxt "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgid "Must be a valid hostname or IP number"
+msgstr "Moet een geldige hostnaam of IP adres zijn"
+
+msgctxt "prt_Printers"
+msgid "Printers"
+msgstr "Printers"

@@ -1,0 +1,133 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "rvw_DESCRIPTION"
+msgid ""
+"This report summarizes the networking, server, and domain\n"
+"parameters on this server relevant to configuring\n"
+"the client computers on your network.You may wish to print this\n"
+"page and use it as a reference."
+msgstr ""
+"Denne rapporten oppsummerer nettverks, server, og domene innstillingene på "
+"denne serveren som er relevant for de lokale klientene på nettverket. Du "
+"ønsker kanskje å skrive ut denne siden som referanse."
+
+msgctxt "rvw_NETWORKING_PARAMS"
+msgid "Networking Parameters"
+msgstr "Nettverksparameter"
+
+msgctxt "rvw_SERVER_MODE"
+msgid "Server Mode"
+msgstr "Server modus"
+
+msgctxt "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgid "Local IP address / subnet mask"
+msgstr "Lokal IP adresse / subnettmaske"
+
+msgctxt "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgid "External IP address / subnet mask"
+msgstr "Ekstern IP adresse / subnettmaske"
+
+msgctxt "rvw_GATEWAY"
+msgid "Gateway"
+msgstr "Gateway"
+
+msgctxt "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgid "Additional local networks"
+msgstr "Ytterligere lokale nettverk"
+
+msgctxt "rvw_DHCP_SERVER"
+msgid "DHCP server"
+msgstr "DHCP server"
+
+msgctxt "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgid "Beginning of DHCP address range"
+msgstr "Starten på DHCP adresseområdet"
+
+msgctxt "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgid "End of DHCP address range"
+msgstr "Slutten på DHCP adresseområdet"
+
+msgctxt "rvw_SERVER_NAMES"
+msgid "Server names"
+msgstr "Server navn"
+
+msgctxt "rvw_DNS_SERVER"
+msgid "DNS server"
+msgstr "DNS server"
+
+msgctxt "rvw_WEB_SERVER"
+msgid "Web server"
+msgstr "Webserver"
+
+msgctxt "rvw_PROXY_SERVER"
+msgid "Proxy server"
+msgstr "Proxyserver"
+
+msgctxt "rvw_FTP_SERVER"
+msgid "FTP server"
+msgstr "FTPserver"
+
+msgctxt "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgid "SMTP, POP, and IMAP mail servers"
+msgstr "SMTP, POP, og IMAP e-postservere"
+
+msgctxt "rvw_HOSTS"
+msgid "Hosts"
+msgstr "Maskiner"
+
+msgctxt "rvw_DOMAIN_INFORMATION"
+msgid "Domain information"
+msgstr "Domene informasjon"
+
+msgctxt "rvw_PRIMARY_DOMAIN"
+msgid "Primary domain"
+msgstr "Primærdomene"
+
+msgctxt "rvw_VIRTUAL_DOMAINS"
+msgid "Virtual domains"
+msgstr "Virituelle domener"
+
+msgctxt "rvw_PRIMARY_WEB_SITE"
+msgid "Primary web site"
+msgstr "Primært webside"
+
+msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_MANAGER"
+msgid "Placeholder for missing original text"
+msgstr "Server manager"
+
+msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL"
+msgid "Placeholder for missing original text"
+msgstr "Bruker passord panel"
+
+msgctxt "rvw_EMAIL_ADDRESSES"
+msgid "Email Addresses"
+msgstr "Epostadresser"
+
+msgctxt "rvw_EMAIL_USERACCOUNT"
+msgid "useraccount"
+msgstr "brukerkonto"
+
+msgctxt "rvw_EMAIL_FIRSTNAME"
+msgid "firstname"
+msgstr "fornavn"
+
+msgctxt "rvw_EMAIL_LASTNAME"
+msgid "lastname"
+msgstr "etternavn"
+
+msgctxt "rvw_NO_VIRTUAL_DOMAINS"
+msgid "No virtual domains defined"
+msgstr "Ingen virituelle domener er satt opp"
+
+msgctxt "rvw_NO_NETWORKS"
+msgid "No additional networks defined"
+msgstr "Ingen ytterligere nettverk er satt opp"
+
+msgctxt "rvw_INTERNET_VISIBLE_ADDRESS"
+msgid "Internet Visible IP Address"
+msgstr "Internett Synlig IP adresse"

@@ -1,0 +1,239 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "dat_FORM_TITLE"
+msgid "Date and time configuration"
+msgstr "Dato- og tidsindstillinger"
+
+msgctxt "dat_INITIAL_DESC"
+msgid ""
+"This is where you configure the date and time of this server. You may use an existing network time server or\n"
+"manually set the date and time for your time zone."
+msgstr ""
+"Her kan du indstille dato og tid for serveren. Du kan hente tiden fra en "
+"tidsserver på nettet eller selv angive dato, tid og din tidszone."
+
+msgctxt "dat_SET_DATE_TITLE"
+msgid "Set Date and Time"
+msgstr "Indstil Dato og Tid"
+
+msgctxt "dat_COULD_NOT_OPEN_TZ_FILE"
+msgid "Error: Could not open timezone file for reading:"
+msgstr "Fejl: Kunne ikke åbne tidszonefilen til læsning:"
+
+msgctxt "dat_JANUARY"
+msgid "January"
+msgstr "Januar"
+
+msgctxt "dat_FEBRUARY"
+msgid "February"
+msgstr "Februar"
+
+msgctxt "dat_MARCH"
+msgid "March"
+msgstr "Marts"
+
+msgctxt "dat_APRIL"
+msgid "April"
+msgstr "April"
+
+msgctxt "dat_MAY"
+msgid "May"
+msgstr "Maj"
+
+msgctxt "dat_JUNE"
+msgid "June"
+msgstr "Juni"
+
+msgctxt "dat_JULY"
+msgid "July"
+msgstr "Juli"
+
+msgctxt "dat_AUGUST"
+msgid "August"
+msgstr "August"
+
+msgctxt "dat_SEPTEMBER"
+msgid "September"
+msgstr "September"
+
+msgctxt "dat_OCTOBER"
+msgid "October"
+msgstr "Oktober"
+
+msgctxt "dat_NOVEMBER"
+msgid "November"
+msgstr "November"
+
+msgctxt "dat_DECEMBER"
+msgid "December"
+msgstr "December"
+
+msgctxt "dat_NEW_M/D/Y"
+msgid "New month/day/year:"
+msgstr "Ny måned/dag/år:"
+
+msgctxt "dat_NEW_H/M/S"
+msgid "New hour/min/sec:"
+msgstr "Ny time/min/sek:"
+
+msgctxt "dat_AM/PM_AND_TZ"
+msgid "AM/PM and time zone:"
+msgstr "AM/PM og tidszone:"
+
+msgctxt "dat_NTP_ENABLE_DESC"
+msgid ""
+"The server can periodically synchronize the system clock to a network time "
+"protocol (NTP) server. If you select this option, enter the hostname or IP "
+"address of the NTP server below."
+msgstr ""
+"Serveren kan periodisk synkronsere systemet ur med en Network Time Protocol "
+"(NTP) server. Vælger du denne mulighed, angiv værtsnavn eller IP-addresse "
+"nedenfor."
+
+msgctxt "dat_NTP_CONFIGURE_DESC"
+msgid ""
+"The server is periodically synchronizing the system clock to the network "
+"time protocol (NTP) server specified below. To synchronize to a different "
+"NTP server, enter a different hostname or IP address in the field below."
+msgstr ""
+"Serveren synkronisere periodisk systemets ur med netværks tids protokol "
+"(NTP) serveren nedenfor. For at synkronisere med en anden server, indtast et"
+" andet værtsnavn eller en anden IPadresse i feltet nedenfor."
+
+msgctxt "dat_NTP_DISABLE_DESC"
+msgid ""
+"Choose this option to stop syncronizing the system clock to the NTP\n"
+"server.When the NTP service is disabled, you can set the system date and time manually from this page."
+msgstr ""
+"Vælg denne mulighed for at stoppe synkronisering med NTPserveren. Når "
+"servicen er stoppet kan du indstille dato og tid manuelt fra denne side."
+
+msgctxt "dat_NTP_SERVER"
+msgid "NTP Server"
+msgstr "NTPserver"
+
+msgctxt "dat_VERIFY_DATE_AND_TIME"
+msgid "Verify date and time"
+msgstr "Kontroller dato og tid"
+
+msgctxt "dat_NEW_DATE_AND_TIME"
+msgid "New date and time setting:"
+msgstr "Ny dato- og tidsindstilling:"
+
+msgctxt "dat_SETTING_DATE_AND_TIME"
+msgid "Setting date and time"
+msgstr "Indstil dato og tid"
+
+msgctxt "dat_INVALID_DAY"
+msgid "Error: invalid day of month:"
+msgstr "Fejl: ugyldig dag i maneden:"
+
+msgctxt "dat_BETWEEN_1_AND_31"
+msgid "Please choose a day between 1 and 31."
+msgstr "Vælg venligst en dag mellem 1 og 31."
+
+msgctxt "dat_INVALID_YEAR"
+msgid "Error: invalid year:"
+msgstr "Fejl: Ugyldigt år:"
+
+msgctxt "dat_FOUR_DIGIT_YEAR"
+msgid "Please choose a four-digit year between 1900 and 2200."
+msgstr "Vælg venligst et firecifret årstal mellem 1900 og 2200."
+
+msgctxt "dat_INVALID_HOUR"
+msgid "Error: invalid hour:"
+msgstr "Fejl: Ugyldig time:"
+
+msgctxt "dat_BETWEEN_1_AND_12"
+msgid "Please choose an hour between 1 and 12."
+msgstr "Vælg venligst et timetal mellem 1 og 12."
+
+msgctxt "dat_INVALID_MINUTE"
+msgid "Error: invalid minute:"
+msgstr "Fejl: Ugyldigt minut:"
+
+msgctxt "dat_BETWEEN_0_AND_59"
+msgid "Please choose a minute between 0 and 59."
+msgstr "Vælg et minut mellem 0 og 59."
+
+msgctxt "dat_INVALID_SECOND"
+msgid "Error: invalid second"
+msgstr "Fejl: Ugyldigt sekund"
+
+msgctxt "dat_UPDATING_CLOCK"
+msgid ""
+"System clock is being updated. Please wait for a few seconds, \n"
+"then click <A HREF=\"datetime?page=1&wherenext=Verify\" TARGET=\"main\">here</A>\n"
+"to verify changes."
+msgstr ""
+"Sytemuret bliver opdateret. Vent venligst nogle sekunder og klik så <A "
+"HREF=\"datetime?page=1&wherenext=Verify\" TARGET=\"main\">her</A> for at "
+"kontrollere ændringerne."
+
+msgctxt "dat_ERR_SETTING_CLOCK"
+msgid "Error occurred while setting system time and hardware clock."
+msgstr "Der skete en fejl under indstilling af tiden og systemuret."
+
+msgctxt "dat_SERVER_DISABLED"
+msgid "Network time server disabled successfully"
+msgstr "Synkronisering med NTP server er slået fra"
+
+msgctxt "dat_SERVER_DISABLED_DESC"
+msgid ""
+"You have disabled this service: The server will rely on its internal\n"
+"clock, and <b>will not</b> try to synchronize from a time server."
+msgstr ""
+"Du har slået denne service fra: Serveren vil anvende det interne ur, og "
+"<b>vil ikke</b> forsøge at synkronisere tiden fra en NTPserver."
+
+msgctxt "dat_ERR_CHANGING_TS"
+msgid "Error while changing network time server setting"
+msgstr "Der skete en fejl under ændringen af indstillingerne for NTP server"
+
+msgctxt "dat_INVALID_NTP_ADDR"
+msgid "Invalid NTP server address:"
+msgstr "Ugyldig NTPserver adresse:"
+
+msgctxt "dat_SETTINGS_CHANGED"
+msgid "Network time server setting changed successfully"
+msgstr "Indstillingerne for NTP server er ændret"
+
+msgctxt "dat_SYNC_WITH"
+msgid ""
+"This server is now configured to synchronize periodically \n"
+"(via the Internet) with:"
+msgstr ""
+"Serveren er nu indstillet til periodisk at synkronisere (via Internet) med:"
+
+msgctxt "dat_INVALID_NTP_SERVER"
+msgid ""
+"Invalid NTP server, the server <b>will not</b> try to synchronize from a "
+"time server."
+msgstr ""
+"Ugyldig NTPserver, serveren <b>vil ikke</b> forsøge at synkronisere fra en "
+"tidsserver."
+
+msgctxt "dat_NETWORK_TIME_SERVER"
+msgid "Network Time Server"
+msgstr "NetværksTidsServer"
+
+msgctxt "dat_NTP_CONFIGURE_TITLE"
+msgid "Configure Network Time Server"
+msgstr "Indstil NTPserver"
+
+msgctxt "dat_NTP_ENABLE_TITLE"
+msgid "Enable Network Time Server"
+msgstr "Slå NTPserver til"
+
+msgctxt "dat_NTP_DISABLE_TITLE"
+msgid "Disable Network Time Server"
+msgstr "Slå NTPserver fra"
+
+msgctxt "dat_CURRENT_SETTING"
+msgid "Current setting"
+msgstr "Aktuel indstilling"

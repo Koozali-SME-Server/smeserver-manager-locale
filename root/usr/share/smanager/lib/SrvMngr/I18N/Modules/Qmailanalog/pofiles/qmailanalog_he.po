@@ -1,0 +1,95 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "qma_FORM_TITLE"
+msgid "Mail Log File Analysis"
+msgstr "ניתוח קובץ יומן דואר"
+
+msgctxt "qma_INITIAL_DESC"
+msgid ""
+"<P>Analysing the mail system log files can aid both in\n"
+"understanding how your system is performing and in\n"
+"diagnosing delivery problems. Several different\n"
+"reports are available.</P>\n"
+"<P>Please note that it may take several minutes to generate\n"
+"these reports</P>"
+msgstr ""
+"<P>ניתוח קבצי יומן מערכת דואר יכול לסייע בהבנת ביצועי המערכת שלך ובאבחון "
+"בעיות משלוח. דוחות שונים זמינים. </P><P> שים לב שזה עלול לקחת כמה דקות כדי "
+"להפיק את הדוחות הללו </P>"
+
+msgctxt "qma_REPORT_TYPE"
+msgid "Choose a report type"
+msgstr "בחר סוג דוח"
+
+msgctxt "qma_GENERATE_REPORT"
+msgid "Generate report"
+msgstr "הפק דוח"
+
+msgctxt "qma_LIST_OUTGOING"
+msgid "List outgoing messages and recipients"
+msgstr "הצג רשימת הודעות יוצאות ונמענים"
+
+msgctxt "qma_SUMMARIZE_QUEUE"
+msgid "Summarize status of mail queue"
+msgstr "סכם מצב של תור דואר"
+
+msgctxt "qma_SUCCESSFUL_DELIVERY_DELAY"
+msgid "Successful delivery delay distribution"
+msgstr "Successful delivery delay distribution"
+
+msgctxt "qma_REASONS_DEFERRAL"
+msgid "Reasons for deferral"
+msgstr "סיבות לדחייה"
+
+msgctxt "qma_REASONS_FAILURE"
+msgid "Reasons for failure"
+msgstr "סיבות לכשלון"
+
+msgctxt "qma_BASIC_STATS"
+msgid "Basic statistics"
+msgstr "סטטיסטיקה בסיסית"
+
+msgctxt "qma_RECIP_STATS"
+msgid "Recipients statistics"
+msgstr "סטטיסטיקת נמענים"
+
+msgctxt "qma_RECIP_HOSTS"
+msgid "Recipient hosts"
+msgstr "מארחי נמענים"
+
+msgctxt "qma_RECIP_ORDERED"
+msgid "Recipients in best order for mailing lists"
+msgstr "נמענים בסדר הטוב ביותר עבור רשימות דיוור"
+
+msgctxt "qma_SENDER_STATS"
+msgid "Sender statistics"
+msgstr "סטטיסטיקת שולחים"
+
+msgctxt "qma_SENDMAIL_STYLE"
+msgid "Sendmail style log"
+msgstr "יומן בסגנון Sendmail"
+
+msgctxt "qma_REASONS_SUCCESS"
+msgid "Reasons for success"
+msgstr "סיבות להצלחה"
+
+msgctxt "qma_SENDER_UIDS"
+msgid "Sender uids"
+msgstr "uidים של שלוח"
+
+msgctxt "qma_INVALID_REPORT_TYPE"
+msgid "Invalid report type:"
+msgstr "סוג דוח לא חוקי:"
+
+msgctxt "qma_REPORT_GENERATED"
+msgid "Report generated:"
+msgstr "הדוח שהופק:"
+
+msgctxt "qma_END_OF_REPORT"
+msgid "End of Report"
+msgstr "סוף הדוח"

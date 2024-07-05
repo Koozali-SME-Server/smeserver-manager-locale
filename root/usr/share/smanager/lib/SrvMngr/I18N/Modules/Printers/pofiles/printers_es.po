@@ -1,0 +1,188 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "prt_FORM_TITLE"
+msgid "Add or remove printers"
+msgstr "Agregar o eliminar impresoras"
+
+msgctxt "prt_INITIAL_DESC"
+msgid ""
+"<P><A class=\"button-like\" HREF=\"printers?page=0&Next=Add\">Add "
+"printer</A></P>"
+msgstr ""
+"<p><A class=\"button-like\" HREF=\"printers?page=0&Next=Add\">Agregar "
+"impresora</A></p>"
+
+msgctxt "prt_NO_PRINTERS"
+msgid "There are no printers in the system."
+msgstr "No hay impresoras en el sistema."
+
+msgctxt "prt_CURRENT_LIST"
+msgid "Current List of printers"
+msgstr "Lista actual de impresoras"
+
+msgctxt "prt_REMOTE_ADDRESS"
+msgid "Remote address"
+msgstr "Dirección remota"
+
+msgctxt "prt_REMOTE_NAME"
+msgid "Remote name"
+msgstr "Nombre remoto"
+
+msgctxt "prt_CREATE_NEW_PRINTER"
+msgid "Create a new printer"
+msgstr "Crear una nueva impresora"
+
+msgctxt "prt_CREATE_NEW_DESC"
+msgid ""
+"Please choose a unique name for the printer and enter a brief\n"
+"description. The printer name should contain only lower-case\n"
+"letters and numbers, and should start with a lower-case\n"
+"letter. For example \"hplaser\", \"epsonlp\", and\n"
+"\"canonbj\" are valid choices, but \"HP Laser Jet\", \n"
+"\"Canon BubbleJet\", and\n"
+"\"HP JetDirect Printer\" are not.\n"
+"Avoid names and descriptions that contain these terms, \n"
+"\"offline\", \"disabled\", \"down\", \"off\", \"waiting\", \"jam\",\n"
+"\"paper\", \"error\" and \"responding\"."
+msgstr ""
+"Escoja un nombre único para la impresora y escriba una breve descripción. El"
+" nombre de la impresora sólo debe contener números y letras minúsculas, y "
+"debe comenzar con una minúscula. Por ejemplo, \"hplaser\", \"epsonlp\" y "
+"\"canonbj\" son opciones válidas, pero \"HP Laser Jet\", \"Canon BubbleJet\""
+" e \"Impresora HP JetDirect\" no lo son. Evite nombres y descripciones que "
+"contengan estos términos, \"offline\", \"disabled\", \"down\", \"off\", "
+"\"waiting\", \"jam\", \"paper\", \"error\" y \"responding\"."
+
+msgctxt "prt_PRINTER_NAME"
+msgid "Printer name"
+msgstr "Nombre de la impresora"
+
+msgctxt "prt_LOCAL_PRINTER_0"
+msgid "Local printer port 0 (LPT1)"
+msgstr "Puerto 0 (LPT1) de impresora local"
+
+msgctxt "prt_LOCAL_PRINTER_1"
+msgid "Local printer port 1 (LPT2)"
+msgstr "Puerto 1 (LPT2) de impresora local"
+
+msgctxt "prt_LOCAL_PRINTER_2"
+msgid "Local printer port 2 (LPT3)"
+msgstr "Puerto 2 (LPT3) de impresora local"
+
+msgctxt "prt_NET_PRINTER"
+msgid "Network printer ..."
+msgstr "Impresora de red ..."
+
+msgctxt "prt_FIRST_USB_PRINTER"
+msgid "First USB attached printer"
+msgstr "Primera impresora USB conectada"
+
+msgctxt "prt_SECOND_USB_PRINTER"
+msgid "Second USB attached printer"
+msgstr "Segunda impresora USB conectada"
+
+msgctxt "prt_ERR_UNEXPECTED_NAME"
+msgid ""
+"<P>Error: unexpected characters in printer name.</P>\n"
+"<P>The printer name should contain only lower-case \n"
+"letters and numbers, and should start with a lower-case \n"
+"letter. For example \"hplaser\", \"epsonlp\", and \n"
+"\"canonbj\" are valid names.</P>"
+msgstr ""
+"<P>Error: caracteres erróneos en el nombre de la impresora.</P> <P>El nombre"
+" de la impresora sólo debe contener números y letras minúsculas, y debe "
+"comenzar con una minúscula. Por ejemplo \"hplaser\", \"epsonlp\", y "
+"\"canonbj\" son nombres válidos.</P>"
+
+msgctxt "prt_ERR_UNEXPECTED_DESC"
+msgid ""
+"Error: unexpected or missing characters in description. \n"
+"Did not create new printer."
+msgstr ""
+"Error: caracteres erróneos o faltantes en la descripción. No se creó la "
+"impresora nueva."
+
+msgctxt "prt_ERR_EXISTS"
+msgid "Error: An account with the same name exists with type:"
+msgstr "Error: Una cuenta con el mismo nombre existe con el tipo:"
+
+msgctxt "prt_ERR_INVALID_ADDRESS"
+msgid "Error: invalid network address. Did not create new printer."
+msgstr "Error: dirección de red no válida. No se creó la impresora nueva."
+
+msgctxt "prt_ERR_INVALID_REMOTE_NAME"
+msgid "Error: invalid network printer name. Did not create new printer."
+msgstr ""
+"Error: nombre de impresora de red inválido. No se creó la impresora nueva."
+
+msgctxt "prt_ERR_CREATING"
+msgid "Error occurred while creating printer."
+msgstr "Ocurrió un error durante la creación de la impresora."
+
+msgctxt "prt_CREATED_SUCCESSFULLY"
+msgid "Successfully created printer:"
+msgstr "Impresora creada con éxito:"
+
+msgctxt "prt_CREATE_NETWORK_PRINTER"
+msgid "Create a new network printer"
+msgstr "Crear una nueva impresora de red"
+
+msgctxt "prt_ERR_OPENING_DB"
+msgid "Error occurred while opening accounts database."
+msgstr "Ocurrió un error al abrir la base de datos de las cuentas."
+
+msgctxt "prt_CREATE_NETWORK_DESC"
+msgid "Please enter the address and name of the network printer"
+msgstr "Introduzca la dirección y el nombre de la impresora de red"
+
+msgctxt "prt_HOSTNAME_OR_IP"
+msgid "Hostname or IP address of the network printer"
+msgstr "Nombre de host o dirección IP de la impresora de red"
+
+msgctxt "prt_REMOTE_NAME_DESC"
+msgid "Network printer name (enter raw if not sure)"
+msgstr ""
+"Nombre de impresora de red (si no esta seguro introduzca el nombre como "
+"aparece)"
+
+msgctxt "prt_REMOVE_PRINTER"
+msgid "Remove printer"
+msgstr "Eliminar impresora"
+
+msgctxt "prt_ABOUT_TO_REMOVE"
+msgid "You are about to remove the printer:"
+msgstr "Está a punto de eliminar la impresora:"
+
+msgctxt "prt_SPOOL_FILE_WARNING"
+msgid "All the spool files for this printer will be deleted."
+msgstr ""
+"Se borrarán todos los archivos de la cola de impresión para esta impresora."
+
+msgctxt "prt_ARE_YOU_SURE"
+msgid "Are you sure you wish to remove this printer?"
+msgstr "¿Está seguro de que desea eliminar esta impresora?"
+
+msgctxt "prt_ERR_INTERNAL_FAILURE"
+msgid "Error: internal failure while removing printer:"
+msgstr "Error: error interno al eliminar la impresora:"
+
+msgctxt "prt_ERR_DELETING"
+msgid "Error occurred while deleting printer."
+msgstr "Ocurrió un error durante la eliminación de la impresora."
+
+msgctxt "prt_DELETED_SUCCESSFULLY"
+msgid "Successfully deleted printer:"
+msgstr "Impresora eliminada con éxito:"
+
+msgctxt "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgid "Must be a valid hostname or IP number"
+msgstr "Debe ser un nombre de host o número de IP válidos"
+
+msgctxt "prt_Printers"
+msgid "Printers"
+msgstr "Impresoras"

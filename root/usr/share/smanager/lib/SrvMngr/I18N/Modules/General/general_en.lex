@@ -98,16 +98,16 @@
 'FM_WORD' => 'This field must look like a single word.',
 'FM_DATE' => 'The data entered could not be parsed as a date',
 'FM_CREDIT_CARD_NUMBER1' => 'You must enter a credit card number',
-'FM_CREDIT_CARD_NUMBER2' => 'Credit card numbers shouldn\'t have anything but numbers, spaces or dashes',
+'FM_CREDIT_CARD_NUMBER2' => 'Credit card numbers shouldn\\'t have anything but numbers, spaces or dashes',
 'FM_CREDIT_CARD_NUMBER3' => 'Must be at least 14 characters in length',
-'FM_CREDIT_CARD_NUMBER4' => 'Doesn\'t appear to be a valid credit card number',
+'FM_CREDIT_CARD_NUMBER4' => 'Doesn\\'t appear to be a valid credit card number',
 'FM_CREDIT_CARD_EXPIRY1' => 'No expiry date entered.',
 'FM_CREDIT_CARD_EXPIRY2' => 'Expiry date must be in the format MM/YY or MM/YYYY',
 'FM_CREDIT_CARD_EXPIRY3' => 'This expiry date appears to have already passed',
 'FM_CREDIT_CARD_EXPIRY4' => 'This expiry date appears to be too far in the future',
 'FM_ISO_COUNTRY_CODE1' => 'You must provide a country code',
 'FM_ISO_COUNTRY_CODE2' => 'This field does not contain an ISO country code',
-'FM_US_STATE' => 'This doesn\'t appear to be a valid 2-letter US state abbreviation',
+'FM_US_STATE' => 'This doesn\\'t appear to be a valid 2-letter US state abbreviation',
 'FM_US_ZIPCODE' => 'US zip codes must contain 5 or 9 numbers',
 'FM_MINLENGTH1' => 'Minimum length has been specified meaninglessly as [_1]',
 'FM_MINLENGTH2' => 'This field must be at least [_1] characters',
@@ -121,8 +121,8 @@
 'FM_LENGTHRANGE3' => 'This field must be between [_1] and [_2] characters',
 'FM_URL' => 'This field must contain a URL starting with http:// or ftp://',
 'FM_EMAIL_SIMPLE1' => 'You must enter an email address.',
-'FM_EMAIL_SIMPLE2' => 'This field doesn\'t look like an RFC822-compliant email address',
-'FM_DOMAIN_NAME' => 'This field doesn\'t look like a valid Internet domain name or hostname.',
+'FM_EMAIL_SIMPLE2' => 'This field doesn\\'t look like an RFC822-compliant email address',
+'FM_DOMAIN_NAME' => 'This field doesn\\'t look like a valid Internet domain name or hostname.',
 'FM_IP_NUMBER1' => 'This field must contain a valid IP number and can not be left blank.',
 'FM_IP_NUMBER2' => 'Invalid IP address format (expected X.X.X.X)',
 'FM_IP_NUMBER3' => '[_1] is more than 255',
@@ -132,24 +132,40 @@
 'FM_MAC_ADDRESS1' => 'You must provide a MAC address.',
 'FM_MAC_ADDRESS2' => 'The MAC address you provided was not valid.',
 'FM_ERR_UNEXPECTED_DESC' => 'Error: unexpected or missing characters in description',
-swt_THEME => 'Theme',
-swt_LOGIN_AGAIN => 'You may need to login again to see the choosed theme',
-acs_NO => 'Not Authorized',
-acs_LOGIN => 'Login required',
-acs_ADMIN => 'Admin rights required',
+'
+swt_THEME ' => 'Theme',
+'
+swt_LOGIN_AGAIN ' => 'You may need to login again to see the choosed theme',
+'
+acs_NO ' => 'Not Authorized',
+'
+acs_LOGIN ' => 'Login required',
+'
+acs_ADMIN ' => 'Admin rights required',
 'User password' => 'User password',
-Logout => 'Logout',
-Home => 'Home',
-CSRF_VALIDATION_FAILURE => 'Error: CSRF token is invalid or outdated.',
-Empty => 'Empty',
-Active => 'Active',
-MINUTE => 'Minute',
-MINUTES => 'Minutes',
-HOUR => 'Hour',
-HOURS => 'Hours',
-SMALL => 'Small',
-MEDIUM => 'Medium',
-LARGE => 'Large',
-FIELD_INVALID_CHARS => 'A field you entered contains invalid characters.',
-
-
+'
+Logout ' => 'Logout',
+'
+Home ' => 'Home',
+'
+CSRF_VALIDATION_FAILURE ' => 'Error: CSRF token is invalid or outdated.',
+'
+Empty ' => 'Empty',
+'
+Active ' => 'Active',
+'
+MINUTE ' => 'Minute',
+'
+MINUTES ' => 'Minutes',
+'
+HOUR ' => 'Hour',
+'
+HOURS ' => 'Hours',
+'
+SMALL ' => 'Small',
+'
+MEDIUM ' => 'Medium',
+'
+LARGE ' => 'Large',
+'
+FIELD_INVALID_CHARS ' => 'A field you entered contains invalid characters.',

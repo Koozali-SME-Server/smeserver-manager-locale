@@ -1,0 +1,130 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "rvw_DESCRIPTION"
+msgid ""
+"This report summarizes the networking, server, and domain\n"
+"parameters on this server relevant to configuring\n"
+"the client computers on your network.You may wish to print this\n"
+"page and use it as a reference."
+msgstr "这份报告概述了网络，服务器，并在此相关的域名服务器参数配置网络上的客户端计算机。你可能想打印此页并以此作为参考。"
+
+msgctxt "rvw_NETWORKING_PARAMS"
+msgid "Networking Parameters"
+msgstr "网络参数"
+
+msgctxt "rvw_SERVER_MODE"
+msgid "Server Mode"
+msgstr "Server模式"
+
+msgctxt "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgid "Local IP address / subnet mask"
+msgstr "本地IP地址/子网掩码"
+
+msgctxt "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgid "External IP address / subnet mask"
+msgstr "外部IP地址/子网掩码"
+
+msgctxt "rvw_GATEWAY"
+msgid "Gateway"
+msgstr "网关"
+
+msgctxt "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgid "Additional local networks"
+msgstr "本地其它网络"
+
+msgctxt "rvw_DHCP_SERVER"
+msgid "DHCP server"
+msgstr "DHCP服务器"
+
+msgctxt "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgid "Beginning of DHCP address range"
+msgstr "DHCP起始地址"
+
+msgctxt "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgid "End of DHCP address range"
+msgstr "DHCP结束地址"
+
+msgctxt "rvw_SERVER_NAMES"
+msgid "Server names"
+msgstr "服务器名称"
+
+msgctxt "rvw_DNS_SERVER"
+msgid "DNS server"
+msgstr "DNS服务器"
+
+msgctxt "rvw_WEB_SERVER"
+msgid "Web server"
+msgstr "Web服务器"
+
+msgctxt "rvw_PROXY_SERVER"
+msgid "Proxy server"
+msgstr "代理服务器"
+
+msgctxt "rvw_FTP_SERVER"
+msgid "FTP server"
+msgstr "FTP服务器"
+
+msgctxt "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgid "SMTP, POP, and IMAP mail servers"
+msgstr "SMTP、POP和IMAP 邮件服务器"
+
+msgctxt "rvw_HOSTS"
+msgid "Hosts"
+msgstr "主机"
+
+msgctxt "rvw_DOMAIN_INFORMATION"
+msgid "Domain information"
+msgstr "域信息"
+
+msgctxt "rvw_PRIMARY_DOMAIN"
+msgid "Primary domain"
+msgstr "主域"
+
+msgctxt "rvw_VIRTUAL_DOMAINS"
+msgid "Virtual domains"
+msgstr "虚拟域"
+
+msgctxt "rvw_PRIMARY_WEB_SITE"
+msgid "Primary web site"
+msgstr "主Web站点"
+
+msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_MANAGER"
+msgid "Placeholder for missing original text"
+msgstr "服务器管理"
+
+msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL"
+msgid "Placeholder for missing original text"
+msgstr "用户密码版面"
+
+msgctxt "rvw_EMAIL_ADDRESSES"
+msgid "Email Addresses"
+msgstr "电子邮件地址"
+
+msgctxt "rvw_EMAIL_USERACCOUNT"
+msgid "useraccount"
+msgstr "用户账号"
+
+msgctxt "rvw_EMAIL_FIRSTNAME"
+msgid "firstname"
+msgstr "名"
+
+msgctxt "rvw_EMAIL_LASTNAME"
+msgid "lastname"
+msgstr "姓"
+
+msgctxt "rvw_NO_VIRTUAL_DOMAINS"
+msgid "No virtual domains defined"
+msgstr "暂未定义虚拟域"
+
+msgctxt "rvw_NO_NETWORKS"
+msgid "No additional networks defined"
+msgstr "暂未定义额外的网络"
+
+msgctxt "rvw_INTERNET_VISIBLE_ADDRESS"
+msgid "Internet Visible IP Address"
+msgstr "现有因特网IP地址"

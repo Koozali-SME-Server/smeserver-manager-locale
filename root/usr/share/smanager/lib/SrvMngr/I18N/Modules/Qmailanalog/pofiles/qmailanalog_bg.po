@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "qma_FORM_TITLE"
+msgid "Mail Log File Analysis"
+msgstr "Анализ на журнала на пощата"
+
+msgctxt "qma_INITIAL_DESC"
+msgid ""
+"<P>Analysing the mail system log files can aid both in\n"
+"understanding how your system is performing and in\n"
+"diagnosing delivery problems. Several different\n"
+"reports are available.</P>\n"
+"<P>Please note that it may take several minutes to generate\n"
+"these reports</P>"
+msgstr ""
+"<P>Анализирането на файловете с журналите на пощенската система има за цел "
+"както да установите как действа Вашата система, така и да диагностицирате "
+"проблеми с доставката. Има достъпни няколко различни отчета.</P> <P>Моля, "
+"отбележете, че може да отнеме няколко минути за генерирането на тези "
+"отчети</P>"
+
+msgctxt "qma_REPORT_TYPE"
+msgid "Choose a report type"
+msgstr "Изберете вида на отчета"
+
+msgctxt "qma_GENERATE_REPORT"
+msgid "Generate report"
+msgstr "Създайте отчет"
+
+msgctxt "qma_LIST_OUTGOING"
+msgid "List outgoing messages and recipients"
+msgstr "Покажи списък на изходящите съобщения и получателите"
+
+msgctxt "qma_SUMMARIZE_QUEUE"
+msgid "Summarize status of mail queue"
+msgstr "Обобщение на състоянието на опашката за съобщения"
+
+msgctxt "qma_SUCCESSFUL_DELIVERY_DELAY"
+msgid "Successful delivery delay distribution"
+msgstr "Разпределние на закъсненията при успешно доставяне"
+
+msgctxt "qma_REASONS_DEFERRAL"
+msgid "Reasons for deferral"
+msgstr "Причини за отлагане"
+
+msgctxt "qma_REASONS_FAILURE"
+msgid "Reasons for failure"
+msgstr "Причини за неуспех"
+
+msgctxt "qma_BASIC_STATS"
+msgid "Basic statistics"
+msgstr "Опростена статистика"
+
+msgctxt "qma_RECIP_STATS"
+msgid "Recipients statistics"
+msgstr "Статистика по получатели"
+
+msgctxt "qma_RECIP_HOSTS"
+msgid "Recipient hosts"
+msgstr "Хостове на получателите"
+
+msgctxt "qma_RECIP_ORDERED"
+msgid "Recipients in best order for mailing lists"
+msgstr "Получатели подредени по най-добрия начин за пощенски списъци"
+
+msgctxt "qma_SENDER_STATS"
+msgid "Sender statistics"
+msgstr "Статистика по изпращач"
+
+msgctxt "qma_SENDMAIL_STYLE"
+msgid "Sendmail style log"
+msgstr "журнал в стил Sendmail"
+
+msgctxt "qma_REASONS_SUCCESS"
+msgid "Reasons for success"
+msgstr "Причини за успех"
+
+msgctxt "qma_SENDER_UIDS"
+msgid "Sender uids"
+msgstr "uid-та на Изпращача"
+
+msgctxt "qma_INVALID_REPORT_TYPE"
+msgid "Invalid report type:"
+msgstr "Невалиден тип на отчета:"
+
+msgctxt "qma_REPORT_GENERATED"
+msgid "Report generated:"
+msgstr "Отчета е генериран:"
+
+msgctxt "qma_END_OF_REPORT"
+msgid "End of Report"
+msgstr "Край на отчета"

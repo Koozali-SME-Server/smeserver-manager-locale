@@ -1,0 +1,48 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: None\n"
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "clm_FORM_TITLE"
+msgid "Antivirus settings"
+msgstr "アンティ ウイルス"
+
+msgctxt "clm_LABEL_FILESYSTEM_SCAN_PERIOD"
+msgid "Scan filesystem"
+msgstr "ファイルシステム　を　スカン"
+
+msgctxt "clm_DESC_FILESYSTEM_SCAN_PERIOD"
+msgid ""
+"<h2>General Settings</h2>\n"
+"If this option is enabled then the filesystem will be \n"
+"scanned for viruses.A report of any found viruses will be\n"
+"emailed to the administrator."
+msgstr ""
+"ジェネラル　セタイングもし　この　オプシオン　が　可能　でしたら、ファイルシステム　を　スカン　します。　ウイルス "
+"を　みつかたら　アドミン　に　メール　します。"
+
+msgctxt "clm_LABEL_QUARANTINE"
+msgid "Quarantine infected files"
+msgstr "ファイル　を　遮断"
+
+msgctxt "clm_LABEL_CLAM_VERSIONS"
+msgid "ClamAV and db versions"
+msgstr "ClamAV　と　db　バージョン"
+
+msgctxt "clm_WEEKLY"
+msgid "Weekly"
+msgstr "毎週"
+
+msgctxt "clm_NEVER"
+msgid "Never"
+msgstr "決して"
+
+msgctxt "clm_DAILY"
+msgid "Daily"
+msgstr "毎日"
+
+msgctxt "clm_SUCCESS"
+msgid "The new clamav antivirus settings have been saved."
+msgstr "新しい　ClamAV アンティ ウイルス セチング　セーブ　しました"
