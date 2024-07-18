@@ -3,13 +3,11 @@
 'exit' => 'Exit',
 'cancel' => 'Cancel',
 'hello' => 'hello',
-'All rights reserved' => 'All Rights Reserved',
 'Collaboration' => 'Collaboration',
 'Administration' => 'Administration',
 'Security' => 'Security',
 'Configuration' => 'Configuration',
 'Miscellaneous' => 'Miscellaneous',
-'Your Settings' => 'Your Settings',
 'SAVE' => 'Save',
 'CANCEL' => 'Cancel',
 'ENABLED' => 'Enabled',
@@ -132,40 +130,22 @@
 'FM_MAC_ADDRESS1' => 'You must provide a MAC address.',
 'FM_MAC_ADDRESS2' => 'The MAC address you provided was not valid.',
 'FM_ERR_UNEXPECTED_DESC' => 'Error: unexpected or missing characters in description',
-'
-swt_THEME ' => 'Theme',
-'
-swt_LOGIN_AGAIN ' => 'You may need to login again to see the choosed theme',
-'
-acs_NO ' => 'Not Authorized',
-'
-acs_LOGIN ' => 'Login required',
-'
-acs_ADMIN ' => 'Admin rights required',
-'User password' => 'User password',
-'
-Logout ' => 'Logout',
-'
-Home ' => 'Home',
-'
-CSRF_VALIDATION_FAILURE ' => 'Error: CSRF token is invalid or outdated.',
-'
-Empty ' => 'Empty',
-'
-Active ' => 'Active',
-'
-MINUTE ' => 'Minute',
-'
-MINUTES ' => 'Minutes',
-'
-HOUR ' => 'Hour',
-'
-HOURS ' => 'Hours',
-'
-SMALL ' => 'Small',
-'
-MEDIUM ' => 'Medium',
-'
-LARGE ' => 'Large',
-'
-FIELD_INVALID_CHARS ' => 'A field you entered contains invalid characters.',
+'swt_THEME' => 'Theme',
+'swt_LOGIN_AGAIN' => 'You may need to login again to see the choosed theme',
+'acs_NO' => 'Not Authorized',
+'acs_LOGIN' => 'Login required',
+'acs_ADMIN' => 'Admin rights required',
+',
+Logout' => 'Logout',
+'Home' => 'Home',
+'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'Empty' => 'Empty',
+'Active' => 'Active',
+'MINUTE' => 'Minute',
+'MINUTES' => 'Minutes',
+'HOUR' => 'Hour',
+'HOURS' => 'Hours',
+'SMALL' => 'Small',
+'MEDIUM' => 'Medium',
+'LARGE' => 'Large',
+'FIELD_INVALID_CHARS' => 'A field you entered contains invalid characters.',
