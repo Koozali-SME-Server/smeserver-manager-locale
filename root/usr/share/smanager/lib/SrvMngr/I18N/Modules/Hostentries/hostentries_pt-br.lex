@@ -1,4 +1,3 @@
-'hos_Hostnames and addresses' => 'Hosts e endereços',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Incapaz de abrir banco de dados de configuração',
 'hos_DNS_FORWARDER_ENABLED' => 'Um DNS forwarder foi configurado. Isto significa que busca em DNS serão tratadas pelo DNS forwarder. Nome de hosts e endereços não podem ser modificados neste servidor enquanto um DNS forwarder estiver configurado.',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Adicionar nomes de host</a> ',

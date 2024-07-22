@@ -1,4 +1,3 @@
-'hos_Hostnames and addresses' => 'Hostname dan alamat-alamat',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Tidak dapat membuka database konfigurasi',
 'hos_DNS_FORWARDER_ENABLED' => 'DNS forwarder telah terkonfigurasi. Artinya bahwa semua pencarian DNS akan dilakukan oleh DNS forwarder. Nama host dan alamat didalam server ini tidak bisa diubah selama DNS forwarder terkonfigurasi.',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Buat hostname</a> ',

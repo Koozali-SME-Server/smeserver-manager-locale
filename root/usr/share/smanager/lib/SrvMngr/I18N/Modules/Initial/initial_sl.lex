@@ -1,3 +1,2 @@
 'initial_FORM_TITLE' => 'Dobrodosli v spletno nadzorno plosco streznika',
 'initial_FRAMES_BODY' => ' <p> Dobrodosli v SME streznik. Za to programsko opremo ne dajemo nobene garancije. Za podroben opis garancije, podpore in licence <A HREF="/server-manager/support/" TARGET="main">kliknite tukaj</A>. </p> <p> Za upravljanje in vzdrzevanje streznika kliknite na zeljeno povezavo v meniju na levi strani vasega zaslona. </p> ',
-'initial_NOFRAMES_BODY' => ' <p> Dobrodosli v SME streznik. Za to programsko opremo ne dajemo nobene garancije. Za podroben opis garancije, podpore in licence <A HREF="/server-manager/support/" TARGET="main">kliknite tukaj</A>. </p> <p> <A HREF="/server-manager/noframes">Sledite povezavi</A>, da boste dobili seznam skrbniskih opravil. </p> ',

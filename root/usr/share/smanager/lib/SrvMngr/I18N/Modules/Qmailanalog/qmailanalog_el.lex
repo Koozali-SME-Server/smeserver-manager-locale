@@ -18,4 +18,3 @@
 'qma_INVALID_REPORT_TYPE' => 'Μη-έγκυρος τύπος αναφορών:',
 'qma_REPORT_GENERATED' => 'Η αναφορά δημιουργήθηκε:',
 'qma_END_OF_REPORT' => 'Τέλος Αναφοράς',
-'qma_Mail log file analysis' => 'Ανάλυση αρχείων καταγραφής αλληλογραφίας',

@@ -1,4 +1,3 @@
-'View log files' => 'Visualizza log',
 'log_FIRSTPAGE_DESC' => ' Questa pagina permette di visualizzare o scaricare i file di log generati dai servizi che girano sul server. ',
 'log_LOG_FILE_SELECT_DESC' => 'Selezionare un file di log da visualizzare',
 'log_FILTER_PATTERN_DESC' => ' <p>E\' possibile specificare un filtro che visualizzi solo le linee del log che soddisfano certi criteri. Lasciando vuoto il campo verranno mostrate tutte le linee del log. Notare che l\'opzione viene ignorata in caso di download del log.</p> ',

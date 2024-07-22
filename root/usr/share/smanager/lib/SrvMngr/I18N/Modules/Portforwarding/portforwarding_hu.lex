@@ -12,7 +12,6 @@
 'pf_LABEL_DESTINATION_HOST' => 'Célgép IP címe',
 'pf_LABEL_RULE_COMMENT' => 'Szabály leírása',
 'pf_LABEL_ALLOW_HOSTS' => 'Kiszolgálók engedélyezése',
-'pf_Port forwarding' => 'Port továbbítás',
 'pf_SUCCESS' => 'A port-továbbítási szabályok változásainak mentése megtörtént.',
 'pf_RULE_COMMENT' => 'Szabály leírása',
 'pf_ALLOW_HOSTS' => 'Kiszolgálók engedélyezése',

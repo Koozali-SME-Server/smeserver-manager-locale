@@ -1,4 +1,3 @@
-'rvw_Review configuration' => 'Revisão da configuração',
 'rvw_DESCRIPTION' => 'Este relatório resume os parâmetros relevantes da configuração da rede, servidor e domínio deste servidor para configuração de computadores cliente em sua rede. Você pode imprimir essa página para usá-la como refêrência.',
 'rvw_NETWORKING_PARAMS' => 'Parâmetros de rede',
 'rvw_SERVER_MODE' => 'Modo do servidor',
@@ -20,8 +19,6 @@
 'rvw_PRIMARY_DOMAIN' => 'Domínio primário',
 'rvw_VIRTUAL_DOMAINS' => 'Domínios virtuais',
 'rvw_PRIMARY_WEB_SITE' => 'Web site primário',
-'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Gerenciador do servidor',
-'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Painel de senha do usuário',
 'rvw_EMAIL_ADDRESSES' => 'Endereço de e-mail',
 'rvw_EMAIL_USERACCOUNT' => 'Conta do Usuário',
 'rvw_EMAIL_FIRSTNAME' => 'Primeiro nome',

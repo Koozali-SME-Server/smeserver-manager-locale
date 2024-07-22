@@ -1,4 +1,3 @@
-'hos_Hostnames and addresses' => 'Værtsnavne og adresser',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Opsætnigsdatabasen kan ikke åbnes',
 'hos_DNS_FORWARDER_ENABLED' => 'DNS er viderestillet. Det betyder at alle DNS-opslag vil blive håndteret af den DNSserver, der er viderestillet til. Værtsnavne og adresser kan ikke ændres på denne server så længe DNS er viderestillet.',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Tilføj værtsnavn</a> ',

@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "iba_FORM_TITLE"
+msgctxt "'iba_FORM_TITLE'"
 msgid "Create, modify, or remove i-bays"
 msgstr ""
 
@@ -146,6 +146,10 @@ msgid ""
 "<P>The following virtual domains were using this information bay \n"
 "as their content and will be changed to the primary web site \n"
 "(you can change them to something else afterward):</P>"
+msgstr ""
+
+msgctxt "Information bays"
+msgid "Information bays"
 msgstr ""
 
 msgctxt "WGRG"

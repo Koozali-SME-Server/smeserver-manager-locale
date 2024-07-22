@@ -18,4 +18,3 @@
 'qma_INVALID_REPORT_TYPE' => 'Érvénytelen jelentés típus:',
 'qma_REPORT_GENERATED' => 'Jelentés létrehozva:',
 'qma_END_OF_REPORT' => 'Jelentés vége',
-'qma_Mail log file analysis' => 'Levelezés naplófájl analízis',

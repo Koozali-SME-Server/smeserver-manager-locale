@@ -23,4 +23,3 @@
 'quo_ERR_HARD_LT_SOFT' => 'Eroare: limita absolută trebuie să fie mai mare ca ce cu perioadă de grație.',
 'quo_ERR_MODIFYING' => 'O eroare a apărut la actualizarea utilizatorului.',
 'quo_SUCCESSFULLY_MODIFIED' => 'Quota modificată cu succes pentru utilizatorul:',
-'quo_Quotas' => 'Quote',

@@ -38,7 +38,6 @@
 'usr_REMOVE_DESC2' => ' Minden fájl, amely ehhez a fiókhoz tartozik törlésre kerül. A felhasználó szerveren tárolt levelei (például azok, amelyeket még nem töltött le) szintén törlődnek. </p> <p> <b>Biztos benne, hogy törli ezt a fiókot?</b> ',
 'usr_LOCK' => 'Zárol',
 'usr_NO_USER_ACCOUNTS' => 'Nincsenek felhasználói fiókok ezen a rendszeren.',
-'usr_Users' => 'Felhasználók',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'A "{$acctName}" fiók neve érvénytelen karaktereket tartalmaz. A fiók nevének kis betűvel kell kezdődnie, és csak kisbetűket, számokat, kötőjeleket, aláhúzást és pontot tartalmazhat.',
 'usr_ACCOUNT_TOO_LONG' => 'Hiba: A fiók neve túl hosszú. Maximum {$maxLength} karakter hosszúságú lehet.',
 'usr_ACCOUNT_CONFLICT' => 'Hiba: a "{$account}" nevű fiók nem jött létre, mivel már van egy ilyen nevű {$type} fiók.',

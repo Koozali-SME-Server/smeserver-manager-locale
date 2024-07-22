@@ -27,7 +27,6 @@
 'rma_INVALID_SUBNET_MASK' => '無效的子網路遮罩',
 'rma_ERR_INVALID_PARAMS' => '請同時提供網路與子網路遮罩，亦或全數留白。',
 'rma_ERR_NO_RECORD' => '無法在設定資料庫中尋找httpd-admin紀錄',
-'rma_Remote access' => '遠端存取',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => '序列主控台',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar" /><h2>序列主控台</h2> You can allow access to the server console 您可以允許透過終端機連結到伺服器序列埠來存取伺服器主控台。',
 'rma_PORT1_ENABLED' => '啟動序列埠1',

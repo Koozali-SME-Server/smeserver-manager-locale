@@ -18,4 +18,3 @@
 'qma_INVALID_REPORT_TYPE' => '無效的報告型式：',
 'qma_REPORT_GENERATED' => '報告已產生：',
 'qma_END_OF_REPORT' => '報告末端',
-'qma_Mail log file analysis' => '郵件日誌檔分析',

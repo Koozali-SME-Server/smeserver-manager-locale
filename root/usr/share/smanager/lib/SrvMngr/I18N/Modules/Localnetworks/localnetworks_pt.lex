@@ -1,5 +1,4 @@
 'ln_LOCAL NETWORKS' => 'Redes locais',
-'ln_Local networks' => 'Redes locais',
 'ln_FIRSTPAGE_DESC' => ' Por razões de segurança, vários serviços em seu servidor estão disponíveis somente para sua rede local. Entretando você pode garantir esses privilégios de acesso da rede local local para redes externas, listando-as abaixo. A maioria das instalações deveriam deixar esta lista em branco.</p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Adicionar rede</a> ',
 'ln_ADD_TITLE' => 'Adicionar uma rede local',
 'ln_ADD_DESC' => ' Cada parametro tem que está na forma #.#.#.# (cada # é um número entre 0 e 255). O software do servidor irá zerar a parte final (identificador de host) do endereço de rede de acordo com a máscara de rede, para certificar que o endereço de rede e válido. </p><p> "Router" deverá ser o endereço IP do roteador de sua rede local pelo qual a rede adicional será alcançada. ',

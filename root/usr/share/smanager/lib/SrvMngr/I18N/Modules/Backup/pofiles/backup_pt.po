@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bac_BACKUP_TITLE"
@@ -111,10 +111,6 @@ msgctxt "bac_BACKUP_CONFIG_STATUS"
 msgid "Backup configuration and status"
 msgstr "Configuração de backup e status"
 
-msgctxt "bac_TAPE_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "O backup para fita está atualmente <b>habilitado</b>."
-
 msgctxt "bac_BACKUPS_RUN_AT"
 msgid "Regular tape backups will run at:"
 msgstr "Um regular tape backup irá rodar as:"
@@ -122,10 +118,6 @@ msgstr "Um regular tape backup irá rodar as:"
 msgctxt "bac_REMINDER_MESSAGE_AT"
 msgid "Reminder messages will be sent at:"
 msgstr "Mensagem de advertência irá ser enviada as:"
-
-msgctxt "bac_TAPE_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "O tape backup eatá <b>desativado</b>"
 
 msgctxt "bac_DESKTOP_BACKUP"
 msgid "Backup to desktop"
@@ -490,19 +482,15 @@ msgstr ""
 "Esta página irá recarregar em {$sec} segundos, ou click <a href=\"/server-"
 "manager/cgi-bin/backup\">aqui</a>."
 
+msgctxt "bac_Backup or restore"
+msgid "Backup or restore"
+msgstr "Backup ou restauração"
+
 msgctxt "bac_BACKUP_DESKTOP_TOO_BIG"
 msgid "Your server has too much data for a reliable backup to desktop."
 msgstr ""
 "Seu servidor tem muitos dados para que um backup para desktop seja "
 "confiável."
-
-msgctxt "bac_WORKSTN_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "O backup para micro da rede local está <b>desativado</b>"
-
-msgctxt "bac_WORKSTN_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "O backup para micro da rede local está atualmente <b>habilitado</b>."
 
 msgctxt "bac_WKBACKUPS_RUN_AT"
 msgid "Regular workstation backups will run at:"
@@ -1010,6 +998,14 @@ msgstr "cifs"
 msgctxt "bac_nfs"
 msgid "nfs"
 msgstr "nfs"
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr "O Backup é feito no disco removível local"
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
+msgstr "Montado"
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
 msgid ""

@@ -18,4 +18,3 @@
 'qma_INVALID_REPORT_TYPE' => 'Geçersiz raporlama tipi:',
 'qma_REPORT_GENERATED' => 'Oluşturulan rapor:',
 'qma_END_OF_REPORT' => 'Raporun Sonu',
-'qma_Mail log file analysis' => 'E-posta log dosyası analizi',

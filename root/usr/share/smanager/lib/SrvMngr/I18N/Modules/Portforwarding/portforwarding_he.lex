@@ -12,7 +12,6 @@
 'pf_LABEL_DESTINATION_HOST' => 'Destination Host IP Address',
 'pf_LABEL_RULE_COMMENT' => 'Rule Comment',
 'pf_LABEL_ALLOW_HOSTS' => 'Allow Hosts',
-'pf_Port forwarding' => 'Port forwarding',
 'pf_SUCCESS' => 'Your change to the port forwarding rules has been successfully saved.',
 'pf_RULE_COMMENT' => 'Rule Comment',
 'pf_ALLOW_HOSTS' => 'Allow Hosts',

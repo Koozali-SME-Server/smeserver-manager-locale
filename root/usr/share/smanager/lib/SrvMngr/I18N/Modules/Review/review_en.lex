@@ -1,4 +1,4 @@
-'rvw_FORM_TITLE' => 'Review configuration',
+''rvw_FORM_TITLE'' => 'Review configuration',
 'rvw_DESCRIPTION' => 'This report summarizes the networking, server, and domain
 parameters on this server relevant to configuring
 the client computers on your network.You may wish to print this
@@ -32,3 +32,4 @@ page and use it as a reference.',
 'rvw_NO_VIRTUAL_DOMAINS' => 'No virtual domains defined',
 'rvw_NO_NETWORKS' => 'No additional networks defined',
 'rvw_INTERNET_VISIBLE_ADDRESS' => 'Internet Visible IP Address',
+'Review configuration' => 'Review configuration',

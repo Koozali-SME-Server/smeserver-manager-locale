@@ -119,3 +119,11 @@ msgstr ""
 msgctxt "bugr_THANK_YOU"
 msgid "Thank you for your support!"
 msgstr ""
+
+msgctxt "bugr_Download this report"
+msgid "Download this report !"
+msgstr ""
+
+msgctxt "Report a bug"
+msgid "Report a bug"
+msgstr ""

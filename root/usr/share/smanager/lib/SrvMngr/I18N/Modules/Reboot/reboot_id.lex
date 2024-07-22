@@ -7,4 +7,3 @@
 'rbo_DESC_SHUTDOWN' => 'Server anda sudah memulai proses tutup padam. Proses ini memerlukan waktu beberapa menit, setelah itu baru anda dapat mematikan catu daya.',
 'rbo_LABEL_REBOOT' => 'Pilih Tutup Padam, Reboot atau Rekonfigurasi',
 'rbo_DESCRIPTION' => ' Anda dapat reboot, tutup padam server anda atau melakukan rekonfigurasi sistem secara penuh dari layar ini. Anda harus melakukan tutup padam sebelum mematikan listrik. Semua fungsi tersebut memerlukan waktu beberapa menit untuk menyelesaikannya. Saat anda klik <b>jalankan</b> proses akan dimulai saat itu juga, jadi bersiaplah! ',
-'rbo_Reboot or shutdown' => 'Reboot atau tutup padam',

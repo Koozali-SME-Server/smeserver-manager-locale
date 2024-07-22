@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: he\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bac_BACKUP_TITLE"
@@ -108,10 +108,6 @@ msgctxt "bac_BACKUP_CONFIG_STATUS"
 msgid "Backup configuration and status"
 msgstr "Backup configuration and status"
 
-msgctxt "bac_TAPE_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Tape backups are currently <b>enabled</b>."
-
 msgctxt "bac_BACKUPS_RUN_AT"
 msgid "Regular tape backups will run at:"
 msgstr "Regular tape backups will run at:"
@@ -119,10 +115,6 @@ msgstr "Regular tape backups will run at:"
 msgctxt "bac_REMINDER_MESSAGE_AT"
 msgid "Reminder messages will be sent at:"
 msgstr "Reminder messages will be sent at:"
-
-msgctxt "bac_TAPE_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Tape backups are <b>disabled</b>"
 
 msgctxt "bac_DESKTOP_BACKUP"
 msgid "Backup to desktop"
@@ -482,14 +474,6 @@ msgid "Your server has too much data for a reliable backup to desktop."
 msgstr ""
 "<div class=\"error\"> בשרת שלך יש יותר מדי נתונים ולכן לא יתאפשר גיבוי אמין "
 "לשולחן העבודה. </div>"
-
-msgctxt "bac_WORKSTN_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "גיבוי לתחנת עבודה<b>מנוטרל</b>"
-
-msgctxt "bac_WORKSTN_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "גיבוי לתחנת עבודה<b>מופעל</b>."
 
 msgctxt "bac_WKBACKUPS_RUN_AT"
 msgid "Regular workstation backups will run at:"
@@ -986,6 +970,14 @@ msgstr "cifs"
 msgctxt "bac_nfs"
 msgid "nfs"
 msgstr "nfs"
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr "Local removable disk"
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
+msgstr "מעוגן אל"
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
 msgid ""

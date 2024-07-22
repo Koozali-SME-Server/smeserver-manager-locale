@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: tr\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bac_BACKUP_TITLE"
@@ -107,10 +107,6 @@ msgctxt "bac_BACKUP_CONFIG_STATUS"
 msgid "Backup configuration and status"
 msgstr "Yedekleme ayarları ve durumu"
 
-msgctxt "bac_TAPE_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Teyip yedeklemesi <b>etkin</b>."
-
 msgctxt "bac_BACKUPS_RUN_AT"
 msgid "Regular tape backups will run at:"
 msgstr "Teyip yedeklemesi düzenli olarak bu saate gerçekleşecektir:"
@@ -118,10 +114,6 @@ msgstr "Teyip yedeklemesi düzenli olarak bu saate gerçekleşecektir:"
 msgctxt "bac_REMINDER_MESSAGE_AT"
 msgid "Reminder messages will be sent at:"
 msgstr "Hatırlatma mesajı gönderme zamanı:"
-
-msgctxt "bac_TAPE_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Teyip yedeklemesi <b>devredışı</b>"
 
 msgctxt "bac_DESKTOP_BACKUP"
 msgid "Backup to desktop"
@@ -489,14 +481,6 @@ msgid "Your server has too much data for a reliable backup to desktop."
 msgstr ""
 "<div class=\"error\"> Sunucunuzda, masaüstünüze yedeklenecek gerğinden fazla"
 " veri bulunmaktadır. </div>"
-
-msgctxt "bac_WORKSTN_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "İş istasonu yedeklemesi <b>devre dışı</b>"
-
-msgctxt "bac_WORKSTN_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "İş istasonu yedeklemesi <b>etkin</b>."
 
 msgctxt "bac_WKBACKUPS_RUN_AT"
 msgid "Regular workstation backups will run at:"
@@ -992,6 +976,14 @@ msgstr "cifs"
 msgctxt "bac_nfs"
 msgid "nfs"
 msgstr "nfs"
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr "Yedekleme yerel USB diske yapıldı"
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
+msgstr "Bağlı"
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
 msgid ""

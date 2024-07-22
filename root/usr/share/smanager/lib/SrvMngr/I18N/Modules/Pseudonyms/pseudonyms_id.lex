@@ -24,4 +24,3 @@
 'pse_MODIFY_SUCCEEDED' => 'Berhasil mengubah pseudonym',
 'pse_REMOVE_SUCCEEDED' => 'Berhasil menghapus pseudonym',
 'pse_EVERYONE' => 'Semua user',
-'pse_Pseudonyms' => 'Pseudonym',

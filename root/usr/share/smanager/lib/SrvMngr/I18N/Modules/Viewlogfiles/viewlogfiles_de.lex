@@ -1,4 +1,3 @@
-'View log files' => 'Log Dateien anzeigen',
 'log_FIRSTPAGE_DESC' => ' Diese Ansicht erlaubt es Ihnen, die vom Server und den darauf laufenden Prozessen erzeugten Log Dateien anzusehen oder herunterzuladen. ',
 'log_LOG_FILE_SELECT_DESC' => 'Wählen Sie eine Log Datei zur Ansicht',
 'log_FILTER_PATTERN_DESC' => ' <p>Sie können optional hier Filtermuster eingeben, um sich nur bestimmte Zeilen einer gewählten Log Datei anzeigen zu lassen. Wenn Sie das Feld leer lassen, werden alle verfügbaren Zeilen der Log Datei ausgegeben. Diese Funktion steht beim Herunterladen von Log Dateien nicht zur Verfügung.</p> ',
@@ -17,4 +16,3 @@
 'log_OP_DESC' => ' <p>Sie müssen auswählen, ob Sie die Log Datei im Webbrowser ansehen oder auf Ihren Computer herunterladen wollen. Wenn die Log Datei besonders groß ist, sollten Sie diese herunterladen und nicht in Ihrem Browser öffnen, weil das sonst bei manchen Webbrowsern zu Problemen führen kann.</p> ',
 'log_OP_LABEL' => 'Betrieb',
 'log_DOWNLOAD_PAGE_DESC' => ' <p>Das Herunterladen der Log-Datei wird vorbereitet. Dies wird durchgeführt, sobald Sie unten auf &quot;Weiter&quot; drücken und in Ihrem Browser das Herunterladen bestätigen.</p> ',
-'DOWNLOAD_FILE' => 'Vorbereitung zum Herunterladen der Log Datei {$logfile}.',

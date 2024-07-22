@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: ja\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "manual_FORM_TITLE"
@@ -23,3 +23,7 @@ msgstr ""
 "href=\"https://wiki.koozali.org/documentation/manual/\"> オンラインマニュアル</a> "
 "<li><a target=\"new\" href=\"https://wiki.koozali.org/documentation/FAQ/\"> "
 "よくある質問</a> </ul> <H2>サポートと免許</H2>このソフトはこの？によって免許されています"
+
+msgctxt "manual_Online manual"
+msgid "Online manual"
+msgstr "オンラインマニュアル"

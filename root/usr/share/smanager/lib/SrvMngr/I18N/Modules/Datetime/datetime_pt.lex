@@ -47,4 +47,3 @@
 'dat_NTP_ENABLE_TITLE' => 'Habilitar Servidor de Tempo de Rede',
 'dat_NTP_DISABLE_TITLE' => 'Desabilitar Servidor de Tempo de Rede',
 'dat_CURRENT_SETTING' => 'Configuração atual',
-'dat_Date and time' => 'Data e hora',

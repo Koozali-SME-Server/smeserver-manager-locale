@@ -24,4 +24,3 @@
 'pse_MODIFY_SUCCEEDED' => 'Успешно променен псевдоним',
 'pse_REMOVE_SUCCEEDED' => 'Успешно премахнат псевдоним',
 'pse_EVERYONE' => 'Всеки',
-'pse_Pseudonyms' => 'Псевдоними',

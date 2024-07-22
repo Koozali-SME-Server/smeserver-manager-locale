@@ -38,7 +38,6 @@
 'usr_REMOVE_DESC2' => ' All files belonging to this user account will be deleted. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded. </p> <p> <b>Are you sure you wish to remove this account?</b> ',
 'usr_LOCK' => 'Blokada',
 'usr_NO_USER_ACCOUNTS' => 'There are no user accounts on this system.',
-'usr_Users' => 'Użytkownicy',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'The account name "{$acctName}" contains invalid characters. Account names must start with a lower case letter and contain only lower case letters, numbers, hyphens, periods and underscores.',
 'usr_ACCOUNT_TOO_LONG' => 'Error: account name is too long. The maximum is {$maxLength} characters.',
 'usr_ACCOUNT_CONFLICT' => 'Error: the account "{$account}" can\'t be created because there is already a {$type} account of that name.',

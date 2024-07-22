@@ -1,3 +1,4 @@
+'bac_No suitable local devices found' => 'No suitable local devices found',
 'bac_BACKUP_TITLE' => 'Backup or restore server data',
 'bac_BACKUP_DESC' => '<P>The server provides two ways to back up and restore
 your server: using your local desktop or a tape drive.</P>
@@ -143,6 +144,7 @@ restore.',
 'bac_NO_UID_FOR_NAME' => 'Could not get uid for user named:',
 'bac_PAGE_REFRESH_IN' => 'This page will refresh to the status display in [_1] seconds, or
 click <a href="/server-manager/cgi-bin/backup">here</a>.',
+'Backup or restore' => 'Backup or restore',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Your server has too much data for a reliable backup to desktop.',
 'bac_WORKSTN_BACKUPS' => 'Workstation backups are',
 'bac_WKBACKUPS_RUN_AT' => 'Regular workstation backups will run at:',
@@ -273,5 +275,7 @@ with this panel and the next one.</p><p/>',
 'bac_CHECK_INTEGRITY_WARNING' => 'Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.',
 'bac_cifs' => 'cifs',
 'bac_nfs' => 'nfs',
+'bac_local removable disk' => 'Local removable disk',
+'bac_Mounted disk' => 'Mounted disk',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
 'bac_ERR_EXTRACT' => 'Error when extracting with Dar',

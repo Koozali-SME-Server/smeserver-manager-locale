@@ -1,3 +1,5 @@
+'ln_LOCAL NETWORKS' => 'Local networks',
+'Local networks' => 'Local networks',
 'ln_FIRSTPAGE_DESC' => 'For security reasons, several services on your server are available only to your local network. However you can grant these  local access privileges to additional networks by listing them  below. Most installations should leave this list empty.',
 'ln_ADD_TITLE' => 'Add a local network',
 'ln_ADD_DESC' => 'Each parameter must be in the form #.#.#.# (each # is a number  from 0 to 255). The server software will zero out the ending (host  identifier) part of the network address according to the subnet  mask, to ensure that the network address is valid. </P><P>  "Router" should be the IP address of the router on your local  network via which the additional network is reached.',

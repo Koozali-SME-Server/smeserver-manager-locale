@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "dom_ADD_DOMAIN"
+msgctxt "'dom_ADD_DOMAIN'"
 msgid "Add domain"
 msgstr ""
 
@@ -18,6 +18,10 @@ msgid ""
 "When you create a domain, your server will be able to\n"
 "receive e-mail for that domain and will also be able to host a\n"
 "web site for that domain."
+msgstr ""
+
+msgctxt "dom_ADD_DOMAIN"
+msgid "Add domain"
 msgstr ""
 
 msgctxt "dom_NO_VIRTUAL_DOMAINS"

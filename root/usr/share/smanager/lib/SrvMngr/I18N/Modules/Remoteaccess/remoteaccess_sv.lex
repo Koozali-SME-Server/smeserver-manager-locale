@@ -27,7 +27,6 @@
 'rma_INVALID_SUBNET_MASK' => 'Ogiltig subnätmask',
 'rma_ERR_INVALID_PARAMS' => 'Antingen anger du både nätverk och subnätmask eller så lämnar du båda fälten tomma.',
 'rma_ERR_NO_RECORD' => 'Kan inte hitta httpd-admin posten i konfigurationsdatabasen',
-'rma_Remote access' => 'Fjärråtkomst',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Seriell konsol',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar"/><h2>Seriell konsol</h2> Du kan tillåta åtkomst till serverkonsolen från en terminal ansluten till serverns serieport.',
 'rma_PORT1_ENABLED' => 'Tillåten på serieport 1',

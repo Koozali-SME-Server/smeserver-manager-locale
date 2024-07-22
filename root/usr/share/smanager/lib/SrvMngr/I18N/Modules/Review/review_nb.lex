@@ -1,4 +1,3 @@
-'rvw_Review configuration' => 'Se gjennom oppsettet',
 'rvw_DESCRIPTION' => 'Denne rapporten oppsummerer nettverks, server, og domene innstillingene på denne serveren som er relevant for de lokale klientene på nettverket. Du ønsker kanskje å skrive ut denne siden som referanse.',
 'rvw_NETWORKING_PARAMS' => 'Nettverksparameter',
 'rvw_SERVER_MODE' => 'Server modus',
@@ -20,8 +19,6 @@
 'rvw_PRIMARY_DOMAIN' => 'Primærdomene',
 'rvw_VIRTUAL_DOMAINS' => 'Virituelle domener',
 'rvw_PRIMARY_WEB_SITE' => 'Primært webside',
-'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Server manager',
-'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Bruker passord panel',
 'rvw_EMAIL_ADDRESSES' => 'Epostadresser',
 'rvw_EMAIL_USERACCOUNT' => 'brukerkonto',
 'rvw_EMAIL_FIRSTNAME' => 'fornavn',

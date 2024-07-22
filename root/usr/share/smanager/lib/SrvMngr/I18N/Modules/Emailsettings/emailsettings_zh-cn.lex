@@ -1,5 +1,4 @@
 'mai_FORM_TITLE' => '电子邮件设置',
-'mai_E-mail' => '电子邮件',
 'mai_SUCCESS' => 'e-mail 备份设置已被保存。',
 'mai_NEVER' => '都不允许',
 'mai_EVERY5MIN' => '每5分钟',

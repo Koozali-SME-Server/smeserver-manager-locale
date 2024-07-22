@@ -12,7 +12,6 @@
 'pf_LABEL_DESTINATION_HOST' => 'Alamat IP host tujuan',
 'pf_LABEL_RULE_COMMENT' => 'Komentar',
 'pf_LABEL_ALLOW_HOSTS' => 'Hosts',
-'pf_Port forwarding' => 'Penerusan port',
 'pf_SUCCESS' => 'Perubahan aturan penerusan port telah berhasil disimpan.',
 'pf_RULE_COMMENT' => 'Komentar',
 'pf_ALLOW_HOSTS' => 'Hosts',

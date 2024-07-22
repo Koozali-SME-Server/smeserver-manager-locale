@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: de\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bugr_FORM_TITLE"
@@ -146,3 +146,11 @@ msgstr ""
 msgctxt "bugr_THANK_YOU"
 msgid "Thank you for your support!"
 msgstr "Vielen Dank für Ihre Unterstützung!"
+
+msgctxt "bugr_Download this report"
+msgid "Download this report !"
+msgstr "Laden Sie diesen Report herunter!"
+
+msgctxt "bugr_Report a bug"
+msgid "Report a bug"
+msgstr "Fehler berichten"

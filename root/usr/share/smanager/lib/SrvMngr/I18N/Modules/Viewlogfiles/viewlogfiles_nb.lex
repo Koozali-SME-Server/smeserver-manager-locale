@@ -1,4 +1,3 @@
-'log_View log files' => 'Vis loggfiler',
 'log_FIRSTPAGE_DESC' => ' Dette panelet gir deg muligheten til å se eller laste ned loggfiler generert av tjenester som kjører på serveren. ',
 'log_LOG_FILE_SELECT_DESC' => 'Velg en loggfil å vise',
 'log_FILTER_PATTERN_DESC' => ' <p>Du kan velge å spesifisere et filtrengings mønster, som gjør at bare linjer fra loggfilen vises som stemmer med filteret. Hvis du lar dette feltet stå tomt, vil alle linjene vises. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.</p> ',

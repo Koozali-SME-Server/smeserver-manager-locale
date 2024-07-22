@@ -20,3 +20,5 @@
 'bugr_YOUR_HELP' => 'In very much the same way you need us to address your current issue, we need YOUR help to keep this project alive!',
 'bugr_CONSIDER_DONATING' => 'Please consider donating to the project by clicking on the image link below:',
 'bugr_THANK_YOU' => 'Thank you for your support!',
+'bugr_Download this report' => 'Download this report !',
+'Report a bug' => 'Report a bug',

@@ -5,6 +5,10 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "bac_No suitable local devices found"
+msgid "No suitable local devices found"
+msgstr ""
+
 msgctxt "bac_BACKUP_TITLE"
 msgid "Backup or restore server data"
 msgstr ""
@@ -411,6 +415,10 @@ msgctxt "bac_PAGE_REFRESH_IN"
 msgid ""
 "This page will refresh to the status display in [_1] seconds, or\n"
 "click <a href=\"/server-manager/cgi-bin/backup\">here</a>."
+msgstr ""
+
+msgctxt "Backup or restore"
+msgid "Backup or restore"
 msgstr ""
 
 msgctxt "bac_BACKUP_DESKTOP_TOO_BIG"
@@ -854,6 +862,14 @@ msgstr ""
 
 msgctxt "bac_nfs"
 msgid "nfs"
+msgstr ""
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr ""
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
 msgstr ""
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"

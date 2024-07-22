@@ -12,7 +12,6 @@
 'pf_LABEL_DESTINATION_HOST' => 'Varış Hostun IP Adresi',
 'pf_LABEL_RULE_COMMENT' => 'Kural Açıklamaları',
 'pf_LABEL_ALLOW_HOSTS' => 'Kabul edilen hostlar',
-'pf_Port forwarding' => 'Port yönlendirme',
 'pf_SUCCESS' => 'Port yönlendirme kurallarınız başarıyla kaydedildi.',
 'pf_RULE_COMMENT' => 'Kural Açıklamaları',
 'pf_ALLOW_HOSTS' => 'Kabul edilen hostlar',

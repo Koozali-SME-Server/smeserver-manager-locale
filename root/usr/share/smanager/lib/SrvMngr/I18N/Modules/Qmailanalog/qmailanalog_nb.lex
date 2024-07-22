@@ -18,4 +18,3 @@
 'qma_INVALID_REPORT_TYPE' => 'Ugyldig rapporttype:',
 'qma_REPORT_GENERATED' => 'Rapport generert:',
 'qma_END_OF_REPORT' => 'Slutt på rapporten',
-'qma_Mail log file analysis' => 'Postlogg fil analyse',

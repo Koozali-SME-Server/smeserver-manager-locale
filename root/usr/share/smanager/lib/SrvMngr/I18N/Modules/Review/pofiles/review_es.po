@@ -2,10 +2,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: es\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "rvw_DESCRIPTION"
+msgctxt "'rvw_Review configuration"
+msgid "Review configuration"
+msgstr "Revisar configuración"
+
+msgctxt "'rvw_rvw_DESCRIPTION"
 msgid ""
 "This report summarizes the networking, server, and domain\n"
 "parameters on this server relevant to configuring\n"
@@ -17,118 +21,110 @@ msgstr ""
 " su red. Si lo desea, puede imprimir esta página y utilizarla como "
 "referencia."
 
-msgctxt "rvw_NETWORKING_PARAMS"
+msgctxt "'rvw_rvw_NETWORKING_PARAMS"
 msgid "Networking Parameters"
 msgstr "Parámetros de Red"
 
-msgctxt "rvw_SERVER_MODE"
+msgctxt "'rvw_rvw_SERVER_MODE"
 msgid "Server Mode"
 msgstr "Modo de Servidor"
 
-msgctxt "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgctxt "'rvw_rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
 msgid "Local IP address / subnet mask"
 msgstr "Dirección IP local / máscara de subred"
 
-msgctxt "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgctxt "'rvw_rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
 msgid "External IP address / subnet mask"
 msgstr "Dirección IP externa / máscara de subred"
 
-msgctxt "rvw_GATEWAY"
+msgctxt "'rvw_rvw_GATEWAY"
 msgid "Gateway"
 msgstr "Puerta de enlace"
 
-msgctxt "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgctxt "'rvw_rvw_ADDITIONAL_LOCAL_NETWORKS"
 msgid "Additional local networks"
 msgstr "Redes locales adicionales"
 
-msgctxt "rvw_DHCP_SERVER"
+msgctxt "'rvw_rvw_DHCP_SERVER"
 msgid "DHCP server"
 msgstr "Servidor DHCP"
 
-msgctxt "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgctxt "'rvw_rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
 msgid "Beginning of DHCP address range"
 msgstr "Comienzo del rango de dirección DHCP"
 
-msgctxt "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgctxt "'rvw_rvw_END_OF_DHCP_ADDRESS_RANGE"
 msgid "End of DHCP address range"
 msgstr "Fin del rango de dirección DHCP"
 
-msgctxt "rvw_SERVER_NAMES"
+msgctxt "'rvw_rvw_SERVER_NAMES"
 msgid "Server names"
 msgstr "Nombres del servidor"
 
-msgctxt "rvw_DNS_SERVER"
+msgctxt "'rvw_rvw_DNS_SERVER"
 msgid "DNS server"
 msgstr "Servidor DNS"
 
-msgctxt "rvw_WEB_SERVER"
+msgctxt "'rvw_rvw_WEB_SERVER"
 msgid "Web server"
 msgstr "Servidor Web"
 
-msgctxt "rvw_PROXY_SERVER"
+msgctxt "'rvw_rvw_PROXY_SERVER"
 msgid "Proxy server"
 msgstr "Servidor proxy"
 
-msgctxt "rvw_FTP_SERVER"
+msgctxt "'rvw_rvw_FTP_SERVER"
 msgid "FTP server"
 msgstr "Servidor FTP"
 
-msgctxt "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgctxt "'rvw_rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
 msgid "SMTP, POP, and IMAP mail servers"
 msgstr "Servidores de correo SMTP, POP e IMAP"
 
-msgctxt "rvw_HOSTS"
+msgctxt "'rvw_rvw_HOSTS"
 msgid "Hosts"
 msgstr "Hosts"
 
-msgctxt "rvw_DOMAIN_INFORMATION"
+msgctxt "'rvw_rvw_DOMAIN_INFORMATION"
 msgid "Domain information"
 msgstr "Información de dominio"
 
-msgctxt "rvw_PRIMARY_DOMAIN"
+msgctxt "'rvw_rvw_PRIMARY_DOMAIN"
 msgid "Primary domain"
 msgstr "Dominio primario"
 
-msgctxt "rvw_VIRTUAL_DOMAINS"
+msgctxt "'rvw_rvw_VIRTUAL_DOMAINS"
 msgid "Virtual domains"
 msgstr "Dominios virtuales"
 
-msgctxt "rvw_PRIMARY_WEB_SITE"
+msgctxt "'rvw_rvw_PRIMARY_WEB_SITE"
 msgid "Primary web site"
 msgstr "Sitio Web primario"
 
-msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_MANAGER"
-msgid "Placeholder for missing original text"
-msgstr "Administrador del servidor"
-
-msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL"
-msgid "Placeholder for missing original text"
-msgstr "Panel de contraseña de usuario"
-
-msgctxt "rvw_EMAIL_ADDRESSES"
+msgctxt "'rvw_rvw_EMAIL_ADDRESSES"
 msgid "Email Addresses"
 msgstr "Direcciones de Email"
 
-msgctxt "rvw_EMAIL_USERACCOUNT"
+msgctxt "'rvw_rvw_EMAIL_USERACCOUNT"
 msgid "useraccount"
 msgstr "cuenta"
 
-msgctxt "rvw_EMAIL_FIRSTNAME"
+msgctxt "'rvw_rvw_EMAIL_FIRSTNAME"
 msgid "firstname"
 msgstr "nombre"
 
-msgctxt "rvw_EMAIL_LASTNAME"
+msgctxt "'rvw_rvw_EMAIL_LASTNAME"
 msgid "lastname"
 msgstr "apellido"
 
-msgctxt "rvw_NO_VIRTUAL_DOMAINS"
+msgctxt "'rvw_rvw_NO_VIRTUAL_DOMAINS"
 msgid "No virtual domains defined"
 msgstr "No hay dominios virtuales definidos"
 
-msgctxt "rvw_NO_NETWORKS"
+msgctxt "'rvw_rvw_NO_NETWORKS"
 msgid "No additional networks defined"
 msgstr "No hay redes adicionales definidas"
 
-msgctxt "rvw_INTERNET_VISIBLE_ADDRESS"
+msgctxt "'rvw_rvw_INTERNET_VISIBLE_ADDRESS"
 msgid "Internet Visible IP Address"
 msgstr "Dirección IP Visible de Internet"

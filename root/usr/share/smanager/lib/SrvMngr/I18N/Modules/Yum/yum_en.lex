@@ -1,4 +1,4 @@
-'yum_FORM_TITLE' => 'Software installer',
+''yum_FORM_TITLE'' => 'Software installer',
 'yum_SUCCESS' => 'The new settings have been saved.',
 'yum_LABEL_YUM_STATUS' => 'Check for updates',
 'yum_LABEL_YUM_AUTOINSTALLUPDATES' => 'Automatically install updates',

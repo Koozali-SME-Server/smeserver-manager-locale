@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: th\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bac_BACKUP_TITLE"
@@ -110,10 +110,6 @@ msgctxt "bac_BACKUP_CONFIG_STATUS"
 msgid "Backup configuration and status"
 msgstr "สถานะและการตั้งค่าของการสำรองข้อมูล"
 
-msgctxt "bac_TAPE_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "ขณะนี้การสำรองข้อมูลลงเทปถูก <b>เปิดใช้งาน</b>"
-
 msgctxt "bac_BACKUPS_RUN_AT"
 msgid "Regular tape backups will run at:"
 msgstr "ปกติการสำรองลงเทปจะทำงานเวลา:"
@@ -121,10 +117,6 @@ msgstr "ปกติการสำรองลงเทปจะทำงาน
 msgctxt "bac_REMINDER_MESSAGE_AT"
 msgid "Reminder messages will be sent at:"
 msgstr "ข้อความเตือนจะถูกส่งไปที่:"
-
-msgctxt "bac_TAPE_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "การทำสำรองข้อมูลลงเทปถูก <b>ปิดการทำงาน</b>"
 
 msgctxt "bac_DESKTOP_BACKUP"
 msgid "Backup to desktop"
@@ -496,14 +488,6 @@ msgid "Your server has too much data for a reliable backup to desktop."
 msgstr ""
 "<div class=\"error\"> เซิร์ฟเวอร์ของคุณมีข้อมูลมากเกินไปที่จะ "
 "สำรองข้อมูลไปเดสก์ทอป ได้อย่างน่าเชื่อถือได้</div>"
-
-msgctxt "bac_WORKSTN_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "การสำรองข้อมูลไปเครื่องลูกข่ายถูก <b>ปิดไม่ใช้งาน</b>"
-
-msgctxt "bac_WORKSTN_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "ขณะนี้การ สำรองข้อมูลไปเครื่องลูกข่าย ถูก <b>เปิดใช้งาน</b>"
 
 msgctxt "bac_WKBACKUPS_RUN_AT"
 msgid "Regular workstation backups will run at:"
@@ -1013,6 +997,15 @@ msgstr "cifs"
 msgctxt "bac_nfs"
 msgid "nfs"
 msgstr "nfs"
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr ""
+"อุปกรณ์บันทึกข้อมูลแบบถอดได้ที่เครื่องเซอร์ฟเวอร์ (local removable disk)"
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
+msgstr "Mounted disk"
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
 msgid ""

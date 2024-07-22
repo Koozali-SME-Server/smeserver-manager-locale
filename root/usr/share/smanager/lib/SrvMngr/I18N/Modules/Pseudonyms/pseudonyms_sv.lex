@@ -24,4 +24,3 @@
 'pse_MODIFY_SUCCEEDED' => 'Ändrat pseudonym',
 'pse_REMOVE_SUCCEEDED' => 'Raderat pseudonym',
 'pse_EVERYONE' => 'Alla',
-'pse_Pseudonyms' => 'Pseudonymer',

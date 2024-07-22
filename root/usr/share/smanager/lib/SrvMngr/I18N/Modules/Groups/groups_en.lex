@@ -1,4 +1,4 @@
-'grp_FORM_TITLE' => 'Create, modify, or remove user groups',
+''grp_FORM_TITLE'' => 'Create, modify, or remove user groups',
 'grp_GROUP_TOO_LONG' => 'Error: group name is too long. The maximum is [_1] characters.',
 'grp_ACCOUNT_CONFLICT' => 'Error: the group "[_1]" can\\'t be created because there is
 already a [_2] account of that name.',

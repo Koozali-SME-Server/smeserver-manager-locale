@@ -47,4 +47,3 @@
 'dat_NTP_ENABLE_TITLE' => 'Slå på Nettverk tidserver',
 'dat_NTP_DISABLE_TITLE' => 'Slå av nettverk tidserver',
 'dat_CURRENT_SETTING' => 'Nåværende innstillinger',
-'dat_Date and time' => 'Dato og tid',

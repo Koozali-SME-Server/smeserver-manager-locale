@@ -47,4 +47,3 @@
 'dat_NTP_ENABLE_TITLE' => 'Luba võrgus olev ajaserver',
 'dat_NTP_DISABLE_TITLE' => 'Keela võrgus olev ajaserver',
 'dat_CURRENT_SETTING' => 'Kehtivad seaded',
-'dat_Date and time' => 'Kuupäev ja kellaaeg',

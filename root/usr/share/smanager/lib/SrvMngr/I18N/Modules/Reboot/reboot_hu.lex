@@ -7,4 +7,3 @@
 'rbo_DESC_SHUTDOWN' => 'A szerver elindította leállítási folyamatot. A folyamat befejezése akár több percig is eltarthat, amely után lekapcsolhatja a gépet.',
 'rbo_LABEL_REBOOT' => 'Válasszon Leállítást, Újraindítást, vagy Újrakonfigurálást',
 'rbo_DESCRIPTION' => ' Ezen az oldalon leállíthatja, újraindíthatja, vagy újrakonfigurálhatja a rendszert. Gép lekapcsolása előtt szabályosan le kell állítania a rendszert. Ezek a folyamatok akár több percig is eltarthatnak. Amikor a <b>Végrehajtás</b>-ra kattint, a művelet azonnal végrehajtódik, ezért legyen óvatos! ',
-'rbo_Reboot or shutdown' => 'Újraindítás vagy leállítás',

@@ -1,4 +1,3 @@
-'rvw_Review configuration' => 'Преглед на конфигурацита',
 'rvw_DESCRIPTION' => 'Този отчет обобщава мрежовите, сървърните и домейн параметри на този сървър, които имат отношение към конфигурирането на клиентските компютри във Вашата мрежа. Възможно е да искате да отпечатате тази страница и да я ползвате за справка.',
 'rvw_NETWORKING_PARAMS' => 'Мрежови параметри',
 'rvw_SERVER_MODE' => 'Режим на сървъра',
@@ -20,8 +19,6 @@
 'rvw_PRIMARY_DOMAIN' => 'Основен домейн',
 'rvw_VIRTUAL_DOMAINS' => 'Виртуални домейни',
 'rvw_PRIMARY_WEB_SITE' => 'Основен web сайт',
-'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Server manager',
-'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Панел за потребителска парола',
 'rvw_EMAIL_ADDRESSES' => 'Електронни пощи',
 'rvw_EMAIL_USERACCOUNT' => 'потребителски акаунт',
 'rvw_EMAIL_FIRSTNAME' => 'име',

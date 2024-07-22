@@ -14,4 +14,3 @@
 'dir_SUCCESS' => 'Uued LDAP vaikimisi seaded on edukalt salvestatud.',
 'dir_LEAVE' => 'Jäta nii nagu on',
 'dir_UPDATE' => 'Rakenda kõikidele vaikimisi seaded',
-'dir_Directory' => 'Kataloog',

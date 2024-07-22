@@ -12,7 +12,6 @@
 'pf_LABEL_DESTINATION_HOST' => 'Mottagande värds IP-adress',
 'pf_LABEL_RULE_COMMENT' => 'Kommentar',
 'pf_LABEL_ALLOW_HOSTS' => 'Tillåtna värdar',
-'pf_Port forwarding' => 'Vidarebefordran av port',
 'pf_SUCCESS' => 'Din ändring av regeln för vidarebefordran av port har sparats.',
 'pf_RULE_COMMENT' => 'Kommentar',
 'pf_ALLOW_HOSTS' => 'Tillåtna värdar',

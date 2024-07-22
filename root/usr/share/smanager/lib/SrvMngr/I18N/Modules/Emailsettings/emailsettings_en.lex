@@ -1,4 +1,4 @@
-'mai_FORM_TITLE' => 'E-mail settings',
+''mai_FORM_TITLE'' => 'E-mail settings',
 'E-mail' => 'E-mail',
 'mai_SUCCESS' => 'The new e-mail settings have been saved.',
 'mai_NEVER' => 'not at all',

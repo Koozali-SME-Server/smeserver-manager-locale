@@ -12,7 +12,6 @@
 'pf_LABEL_DESTINATION_HOST' => '目标主机IP地址',
 'pf_LABEL_RULE_COMMENT' => '规则注释',
 'pf_LABEL_ALLOW_HOSTS' => '允许的主机',
-'pf_Port forwarding' => '端口转发',
 'pf_SUCCESS' => '您的修改已被保存。',
 'pf_RULE_COMMENT' => '规则注释',
 'pf_ALLOW_HOSTS' => '允许的主机',

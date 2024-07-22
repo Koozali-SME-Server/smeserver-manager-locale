@@ -33,4 +33,3 @@
 'prt_ERR_DELETING' => 'Kesalahan saat menghapus printer.',
 'prt_DELETED_SUCCESSFULLY' => 'Berhasil menghapus printer:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Harus hostname atau alamat IP yang valid',
-'prt_Printers' => 'Printer-printer',

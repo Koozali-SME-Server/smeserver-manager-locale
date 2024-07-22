@@ -11,4 +11,3 @@
 'wkg_INVALID_WORKGROUP' => 'A munkacsoport nevének (kis vagy nagy) betűvel kell kezdődnie, ezt követheti bármilyen kombinációban betű, szám, aláhúzás, pont és kötőjel.',
 'wkg_INVALID_SERVERNAME' => 'A szerver nevének (kis vagy nagy) betűvel kell kezdődnie, ezt követheti bármilyen kombinációban betű, szám, aláhúzás, pont és kötőjel.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'A szerver és a munkacsoport neve kisbetűsen összehasonlítva megegyezik. Ahhoz, hogy a fájlmegosztás működjön ezeknek különbözőeknek kell lenniük.',
-'wkg_Workgroup' => 'Munkacsoport',

@@ -1,4 +1,3 @@
-'View log files' => 'Ver archivos de registro',
 'log_FIRSTPAGE_DESC' => ' Este panel le permite ver o descargar los archivos de registro generados por los servicios que se ejecutan en el servidor. ',
 'log_LOG_FILE_SELECT_DESC' => 'Elija el archivo de registro que desea ver',
 'log_FILTER_PATTERN_DESC' => ' <p>Opcionalmente, puede especificar un patrón de filtro para mostrar sólo las líneas del archivo de registro que coincidan con este patrón. Si deja este campo en blanco, se mostrarán todas las líneas disponibles del archivo de registro. Tenga presente que esta opción no tiene ningún efecto si usted elige descargar el archivo.</p> ',

@@ -1,4 +1,3 @@
-'prx_Proxy settings' => 'Proksi (vekil sunucu) ayarları',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Buradan vekil sunucu ayarlarını yapabilirsiniz. Bu sunucu, saydam vekil sunucu ve HTTP trafiği için önbellekleme işilevelerine sahiptir. Varsayılan olarak bu özellik aktiftir, &quot;serveronly&quot; modunda çalışan sunucular için mecburi değil',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'Bu HTTP proksi sunucusu, ziyaret edilen web sayfalarını önbelleğinde tutarak sunucu yükünü azaltmaktadır. Bu servis onları kullanan web tarayıcıları için bir gizlilik sağlamaz. Bu proksi (vekil sunucu) devre dışı bırakabilir veya etkinleştirebilirsiniz.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'HTTP proksi (vekil sunucu) durumu',

@@ -1,4 +1,3 @@
-'log_View log files' => '查看日志文件',
 'log_FIRSTPAGE_DESC' => '在这个面板，您可以查看或下载服务器的日志文件。',
 'log_LOG_FILE_SELECT_DESC' => '请选择要查看的日志文件',
 'log_FILTER_PATTERN_DESC' => ' <p>您可以随意指定一个过滤器以便从日志文件中只显示符合条件的行。若将此字段留空，则显示所有行。注意，当您要下载日志文件时，一般不用此选项。</p> ',

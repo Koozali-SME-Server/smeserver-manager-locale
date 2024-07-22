@@ -1,4 +1,3 @@
-'log_View log files' => 'Просмотр логфайлов',
 'log_FIRSTPAGE_DESC' => ' Эта панель позволяет просматривать или скачивать файлы журналов, созданные службами работающим на сервере ',
 'log_LOG_FILE_SELECT_DESC' => 'Выберите лог файл для просмотра',
 'log_FILTER_PATTERN_DESC' => ' <p>You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile.</p> ',

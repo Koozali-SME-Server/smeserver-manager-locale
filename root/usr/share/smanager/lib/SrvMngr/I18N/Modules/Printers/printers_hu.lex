@@ -33,4 +33,3 @@
 'prt_ERR_DELETING' => 'Hiba történt a nyomtató eltávolításakor.',
 'prt_DELETED_SUCCESSFULLY' => 'Sikeresen eltávolított nyomtató:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Érvényes névnek és IP címnek kell lennie',
-'prt_Printers' => 'Nyomtatók',

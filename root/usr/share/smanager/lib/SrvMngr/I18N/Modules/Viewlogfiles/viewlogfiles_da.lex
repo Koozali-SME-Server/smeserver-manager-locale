@@ -1,4 +1,3 @@
-'log_View log files' => 'Vis logfiler',
 'log_FIRSTPAGE_DESC' => ' Dette panel tillader dig at vise eller hente logfiler, dannet af tjenester, der kører på din server. ',
 'log_LOG_FILE_SELECT_DESC' => 'Vælg hvilken logfil du vil se',
 'log_FILTER_PATTERN_DESC' => ' <p>Du har mulighed for at specificere et filtermønster, så kun linjer fra logfilen, der indeholder det angivne mønster vises. Efterlader du feltet tomt vises alle logfilens linjer. Bemærk at denne mulighed ikke benyttes, når du henter logfilen.</p> ',

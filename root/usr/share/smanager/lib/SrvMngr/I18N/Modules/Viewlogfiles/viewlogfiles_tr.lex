@@ -1,4 +1,3 @@
-'log_View log files' => 'Log dosyalarını görüntüle',
 'log_FIRSTPAGE_DESC' => ' Bu panel, sunucuda çalışan hizmetlerin log dosyalarını görüntülemeyi ve indirmeyi sağlar. ',
 'log_LOG_FILE_SELECT_DESC' => 'Görmek istediğiniz log dosyasını seçin',
 'log_FILTER_PATTERN_DESC' => ' <p>Görmek istediğiniz kelimeleri içeren satırları filtreleyebilirsiniz. Bir kelime belirtmediğiniz zaman log dosyasının tamamı görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.</p> ',

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "manual_FORM_TITLE"
@@ -26,3 +26,7 @@ msgstr ""
 "Licenciamento</H2> Este software é disponibilizado de acordo com os termos "
 "descritos no Painel <a href=\"/server-manager/cgi-bin/support\"> Suporte e "
 "Licenciamento</a>."
+
+msgctxt "manual_Online manual"
+msgid "Online manual"
+msgstr "Manual online"

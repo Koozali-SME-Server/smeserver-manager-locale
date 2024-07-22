@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: nl\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bac_BACKUP_TITLE"
@@ -114,10 +114,6 @@ msgctxt "bac_BACKUP_CONFIG_STATUS"
 msgid "Backup configuration and status"
 msgstr "Backup configuratie en status"
 
-msgctxt "bac_TAPE_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Tape backups zijn momenteel <b>geactiveerd</b>."
-
 msgctxt "bac_BACKUPS_RUN_AT"
 msgid "Regular tape backups will run at:"
 msgstr "Geautomatiseerde tape backups starten om:"
@@ -125,10 +121,6 @@ msgstr "Geautomatiseerde tape backups starten om:"
 msgctxt "bac_REMINDER_MESSAGE_AT"
 msgid "Reminder messages will be sent at:"
 msgstr "Herinneringsberichten worden verzonden naar:"
-
-msgctxt "bac_TAPE_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Tape backups zijn <b>niet geactiveerd</b>"
 
 msgctxt "bac_DESKTOP_BACKUP"
 msgid "Backup to desktop"
@@ -496,18 +488,14 @@ msgstr ""
 "Deze pagina vernieuwt naar het status scherm binnen {$sec} seconden, of klik"
 " <a href=\"/server-manager/cgi-bin/backup\">hier</a>."
 
+msgctxt "bac_Backup or restore"
+msgid "Backup or restore"
+msgstr "Backup of herstel"
+
 msgctxt "bac_BACKUP_DESKTOP_TOO_BIG"
 msgid "Your server has too much data for a reliable backup to desktop."
 msgstr ""
 "Uw server heeft te veel data voor een betrouwbare backup naar bureaublad."
-
-msgctxt "bac_WORKSTN_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Werkstation backups zijn <b>niet geactiveerd</b>"
-
-msgctxt "bac_WORKSTN_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Werkstation backups zijn <b>geactiveerd</b>."
 
 msgctxt "bac_WKBACKUPS_RUN_AT"
 msgid "Regular workstation backups will run at:"
@@ -1015,6 +1003,14 @@ msgstr "cifs"
 msgctxt "bac_nfs"
 msgid "nfs"
 msgstr "nfs"
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr "Lokale verwijderbare schijf"
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
+msgstr "Gemonteerde schijf"
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
 msgid ""

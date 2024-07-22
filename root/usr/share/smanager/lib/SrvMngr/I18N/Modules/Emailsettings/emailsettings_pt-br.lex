@@ -1,5 +1,4 @@
 'mai_FORM_TITLE' => 'Configurações de e-mail',
-'mai_E-mail' => 'E-mail',
 'mai_SUCCESS' => 'A nova configuração de e-mail foi salva.',
 'mai_NEVER' => 'de modo nenhum',
 'mai_EVERY5MIN' => 'Cada 5 minutos',

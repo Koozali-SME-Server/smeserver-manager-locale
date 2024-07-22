@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: fr\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "support_FORM_TITLE"
@@ -10,3 +10,7 @@ msgid "Support, warranty and licensing information"
 msgstr ""
 "Informations sur le support technique, la garantie et la licence "
 "d\\'exploitation"
+
+msgctxt "support_Support and licensing"
+msgid "Support and licensing"
+msgstr "Support technique et licenses"

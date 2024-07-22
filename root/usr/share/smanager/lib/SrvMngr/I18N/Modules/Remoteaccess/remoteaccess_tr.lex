@@ -27,7 +27,6 @@
 'rma_INVALID_SUBNET_MASK' => 'Geçersiz alt ağ maskesi',
 'rma_ERR_INVALID_PARAMS' => 'Hem ağı hem de alt ağ maskesini girin, veya ikisini de boş bırakın.',
 'rma_ERR_NO_RECORD' => 'httpd-admin kayıtları ayar veritabanında bulunamadı',
-'rma_Remote access' => 'Uzaktan erişim',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Konsol',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar" /><h2>Konsol</h2> Sunucuya seri porttan bağlı bir terminalden konsol erişimi verebilirsiniz.',
 'rma_PORT1_ENABLED' => '1 seri porttan erişimi etkin',

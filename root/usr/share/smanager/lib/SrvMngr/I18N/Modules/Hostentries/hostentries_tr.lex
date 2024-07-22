@@ -1,4 +1,3 @@
-'hos_Hostnames and addresses' => 'Alan adları ve adresler',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Yapılandırma veritabanı açılamadı',
 'hos_DNS_FORWARDER_ENABLED' => 'DNS yönlendirme ayarlandı. Bunun anlamı bütün DNS sorgulamaları yönlendirilecektir. DNS yönlendirme aktif olduğu sürece alan adları ve edresler değiştirilemez.',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Alan adı ekle</a> ',

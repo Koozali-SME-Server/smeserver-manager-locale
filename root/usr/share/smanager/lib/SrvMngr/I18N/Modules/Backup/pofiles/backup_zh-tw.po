@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: zh_tw\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bac_BACKUP_TITLE"
@@ -77,10 +77,6 @@ msgctxt "bac_BACKUP_CONFIG_STATUS"
 msgid "Backup configuration and status"
 msgstr "備份的設定與狀態"
 
-msgctxt "bac_TAPE_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "目前磁帶備份<b>被啟用</b>。"
-
 msgctxt "bac_BACKUPS_RUN_AT"
 msgid "Regular tape backups will run at:"
 msgstr "定期磁帶備份將執行於："
@@ -88,10 +84,6 @@ msgstr "定期磁帶備份將執行於："
 msgctxt "bac_REMINDER_MESSAGE_AT"
 msgid "Reminder messages will be sent at:"
 msgstr "提醒訊息將被送出於："
-
-msgctxt "bac_TAPE_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "磁帶備份 <b>被禁止</b>"
 
 msgctxt "bac_DESKTOP_BACKUP"
 msgid "Backup to desktop"
@@ -434,14 +426,6 @@ msgstr "此頁面將在 {$sec} 秒內更新， 或點選<a href=\"/server-manage
 msgctxt "bac_BACKUP_DESKTOP_TOO_BIG"
 msgid "Your server has too much data for a reliable backup to desktop."
 msgstr "<div class=\"error\">您的伺服器有太多資料，以至於無法可靠地備份到桌機。</div>"
-
-msgctxt "bac_WORKSTN_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "工作站備份 <b>無法啟用</b>"
-
-msgctxt "bac_WORKSTN_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "工作站備份當下<b>已啟用</b>。"
 
 msgctxt "bac_WKBACKUPS_RUN_AT"
 msgid "Regular workstation backups will run at:"
@@ -890,6 +874,14 @@ msgstr "網路芳鄰"
 msgctxt "bac_nfs"
 msgid "nfs"
 msgstr "網路檔案系統"
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr "本地的可移除磁碟"
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
+msgstr "已掛載磁碟"
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
 msgid ""

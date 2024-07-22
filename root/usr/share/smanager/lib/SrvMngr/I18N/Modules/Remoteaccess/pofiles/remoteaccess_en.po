@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "rma_FORM_TITLE"
+msgctxt "'rma_FORM_TITLE'"
 msgid "Change remote access settings"
 msgstr ""
 
@@ -179,6 +179,10 @@ msgstr ""
 
 msgctxt "rma_ERR_NO_RECORD"
 msgid "Unable to locate httpd-admin record in configuration db"
+msgstr ""
+
+msgctxt "Remote access"
+msgid "Remote access"
 msgstr ""
 
 msgctxt "rma_LABEL_SERIAL_CONSOLE_ACCESS"

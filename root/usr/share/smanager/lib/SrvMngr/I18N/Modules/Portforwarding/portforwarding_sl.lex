@@ -12,7 +12,6 @@
 'pf_LABEL_DESTINATION_HOST' => 'IP naslov ciljnega racunalnika',
 'pf_LABEL_RULE_COMMENT' => 'Rule Comment',
 'pf_LABEL_ALLOW_HOSTS' => 'Gostitelji',
-'pf_Port forwarding' => 'Posredovanje vrat',
 'pf_SUCCESS' => 'Vase spremembe pri posredovanju vrat so bile uspesno shranjene.',
 'pf_RULE_COMMENT' => 'Rule Comment',
 'pf_ALLOW_HOSTS' => 'Gostitelji',

@@ -1,4 +1,3 @@
-'rvw_Review configuration' => 'Konfigürasyonu gözden geçir',
 'rvw_DESCRIPTION' => 'Bu rapor, sunucuyla ilgili alan parametreleri, ağınızdaki istemci bilgisayarlarla ilgili parametreleri ve sunucu ayarlarını özetlemektedir. Bu sayfayı yazdırıp referans olarak kullanabilirsiniz.',
 'rvw_NETWORKING_PARAMS' => 'Ağ parametreleri',
 'rvw_SERVER_MODE' => 'Sunucu Tarzı',
@@ -20,8 +19,6 @@
 'rvw_PRIMARY_DOMAIN' => 'Birincil alan adı',
 'rvw_VIRTUAL_DOMAINS' => 'Sanal alan adları',
 'rvw_PRIMARY_WEB_SITE' => 'Birincil web sitesi',
-'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Sunucu yönetimi',
-'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Kullanıcı şifre paneli',
 'rvw_EMAIL_ADDRESSES' => 'E-posta adresleri',
 'rvw_EMAIL_USERACCOUNT' => 'KullanıcıHesabı',
 'rvw_EMAIL_FIRSTNAME' => 'adı',

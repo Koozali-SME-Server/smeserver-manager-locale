@@ -1,4 +1,4 @@
-'wkg_FORM_TITLE' => 'Change workgroup settings',
+''wkg_FORM_TITLE'' => 'Change workgroup settings',
 'wkg_DESC_WORKGROUP' => 'Enter the name of the Windows workgroup that this server should appear in.',
 'wkg_LABEL_WORKGROUP' => 'Windows workgroup',
 'wkg_DESC_SERVERNAME' => 'Enter the name that this server should use for

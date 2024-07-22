@@ -24,4 +24,3 @@
 'pse_MODIFY_SUCCEEDED' => 'แก้ไขนามแฝงสำเร็จแล้ว',
 'pse_REMOVE_SUCCEEDED' => 'ลบนามแฝงสำเร็จแล้ว',
 'pse_EVERYONE' => 'ทุกคน',
-'pse_Pseudonyms' => 'นามแฝง',

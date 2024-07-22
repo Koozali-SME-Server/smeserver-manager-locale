@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: th\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "Collaboration"
@@ -24,6 +24,10 @@ msgstr "การตั้งค่าของระบบ"
 msgctxt "Miscellaneous"
 msgid "Miscellaneous"
 msgstr "เบ็ดเตล็ด"
+
+msgctxt "Your Settings"
+msgid "Your Settings"
+msgstr "ค่าที่คุณตั้ง"
 
 msgctxt "SAVE"
 msgid "Save"

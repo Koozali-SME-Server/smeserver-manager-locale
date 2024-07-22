@@ -1,4 +1,4 @@
-'qma_FORM_TITLE' => 'Mail Log File Analysis',
+''qma_FORM_TITLE'' => 'Mail Log File Analysis',
 'qma_INITIAL_DESC' => '<P>Analysing the mail system log files can aid both in
 understanding how your system is performing and in
 diagnosing delivery problems. Several different
@@ -23,3 +23,4 @@ these reports</P>',
 'qma_INVALID_REPORT_TYPE' => 'Invalid report type:',
 'qma_REPORT_GENERATED' => 'Report generated:',
 'qma_END_OF_REPORT' => 'End of Report',
+'Mail log file analysis' => 'Mail log file analysis',

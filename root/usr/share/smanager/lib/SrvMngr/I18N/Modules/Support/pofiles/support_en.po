@@ -8,3 +8,7 @@ msgstr ""
 msgctxt "support_FORM_TITLE"
 msgid "Support, warranty and licensing information"
 msgstr ""
+
+msgctxt "Support and licensing"
+msgid "Support and licensing"
+msgstr ""

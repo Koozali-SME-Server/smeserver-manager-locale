@@ -1,4 +1,4 @@
-'rma_FORM_TITLE' => 'Change remote access settings',
+''rma_FORM_TITLE'' => 'Change remote access settings',
 'rma_DESCRIPTION' => 'For each of the options below, the private setting allows anyone
 from your local network to access your server. The
 public setting allows access from anywhere on the Internet. The no
@@ -64,6 +64,7 @@ enter the details below.',
 'rma_ERR_INVALID_PARAMS' => 'Either provide both a network and subnet mask, or leave both
 fields blank.',
 'rma_ERR_NO_RECORD' => 'Unable to locate httpd-admin record in configuration db',
+'Remote access' => 'Remote access',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Serial console',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => '<hr class="sectionbar" /><h2>Serial console</h2>
 You can allow access to the server console from a terminal

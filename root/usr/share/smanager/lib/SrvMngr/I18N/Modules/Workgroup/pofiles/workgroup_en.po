@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "wkg_FORM_TITLE"
+msgctxt "'wkg_FORM_TITLE'"
 msgid "Change workgroup settings"
 msgstr ""
 

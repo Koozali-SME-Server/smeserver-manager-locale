@@ -14,4 +14,3 @@
 'dir_SUCCESS' => 'Yeni LDAP varsayılan değerleri kaydedildi.',
 'dir_LEAVE' => 'Olduğu gibi bırak',
 'dir_UPDATE' => 'Yeni varsayılan bilgileri kullanarak güncelle',
-'dir_Directory' => 'Dizin',

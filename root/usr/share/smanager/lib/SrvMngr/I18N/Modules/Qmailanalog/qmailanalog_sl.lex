@@ -18,4 +18,3 @@
 'qma_INVALID_REPORT_TYPE' => 'Napacna vrsta porocila:',
 'qma_REPORT_GENERATED' => 'Porocilo generirano:',
 'qma_END_OF_REPORT' => 'Konec porocila',
-'qma_Mail log file analysis' => 'Analiza E-mail log datoteke',

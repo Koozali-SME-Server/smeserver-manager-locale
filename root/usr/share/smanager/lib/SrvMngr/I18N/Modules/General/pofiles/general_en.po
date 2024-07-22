@@ -25,6 +25,10 @@ msgctxt "hello"
 msgid "hello"
 msgstr ""
 
+msgctxt "All rights reserved"
+msgid "All Rights Reserved"
+msgstr ""
+
 msgctxt "Collaboration"
 msgid "Collaboration"
 msgstr ""
@@ -43,6 +47,10 @@ msgstr ""
 
 msgctxt "Miscellaneous"
 msgid "Miscellaneous"
+msgstr ""
+
+msgctxt "Your Settings"
+msgid "Your Settings"
 msgstr ""
 
 msgctxt "SAVE"
@@ -564,9 +572,11 @@ msgctxt "acs_ADMIN"
 msgid "Admin rights required"
 msgstr ""
 
-msgctxt ""
-",\n"
-"Logout"
+msgctxt "User password"
+msgid "User password"
+msgstr ""
+
+msgctxt "Logout"
 msgid "Logout"
 msgstr ""
 

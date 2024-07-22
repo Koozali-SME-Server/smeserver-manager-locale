@@ -1,5 +1,4 @@
 'mai_FORM_TITLE' => 'E-post innstillinger',
-'mai_E-mail' => 'E-post',
 'mai_SUCCESS' => 'De nye e-post innstillingene er lagret.',
 'mai_NEVER' => 'ikke i det hele tatt',
 'mai_EVERY5MIN' => 'Hvert 5.minutt',

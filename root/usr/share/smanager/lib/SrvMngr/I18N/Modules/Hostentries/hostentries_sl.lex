@@ -1,4 +1,3 @@
-'hos_Hostnames and addresses' => 'Hostnames and addresses',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Ne morem odpreti konfiguracijske baze',
 'hos_DNS_FORWARDER_ENABLED' => 'DNS posrednik je bil ustvarjen. To pomeni, da bodo vse DNS poizvedbe upravljane s tem posrednikom. Imena racunalnikov in naslovi ne morejo biti posodobljeni na tem strezniku, dokler je DNS posrednik aktiviran.',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Dodaj novo ime racunalnika</a> ',

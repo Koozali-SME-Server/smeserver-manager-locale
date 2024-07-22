@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "dir_FORM_TITLE"
+msgctxt "'dir_FORM_TITLE'"
 msgid "Change LDAP directory settings"
 msgstr ""
 

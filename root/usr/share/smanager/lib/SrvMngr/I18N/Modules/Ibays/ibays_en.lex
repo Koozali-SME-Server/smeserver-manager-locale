@@ -1,4 +1,4 @@
-'iba_FORM_TITLE' => 'Create, modify, or remove i-bays',
+''iba_FORM_TITLE'' => 'Create, modify, or remove i-bays',
 'iba_ADD_IBAY' => 'Add ibay',
 'iba_FIRSTPAGE_DESC' => 'You can remove any information bay or reset its password by
 clicking on the corresponding command
@@ -48,6 +48,7 @@ site (you can change them to something else afterward).',
 'iba_VHOST_MESSAGE' => '<P>The following virtual domains were using this information bay 
 as their content and will be changed to the primary web site 
 (you can change them to something else afterward):</P>',
+'Information bays' => 'Information bays',
 'WGRG' => 'Write = group, Read = group',
 'WGRE' => 'Write = group, Read = everyone',
 'WARG' => 'Write = admin, Read = group',

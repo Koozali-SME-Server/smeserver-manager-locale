@@ -5,6 +5,14 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "ln_LOCAL NETWORKS"
+msgid "Local networks"
+msgstr ""
+
+msgctxt "Local networks"
+msgid "Local networks"
+msgstr ""
+
 msgctxt "ln_FIRSTPAGE_DESC"
 msgid ""
 "For security reasons, several services on your server are available only to "

@@ -14,4 +14,3 @@
 'dir_SUCCESS' => 'LDAP 默认设置已被保存。',
 'dir_LEAVE' => '保持原样',
 'dir_UPDATE' => '更新默认值',
-'dir_Directory' => '目录',

@@ -1,8 +1,9 @@
-'dom_ADD_DOMAIN' => 'Add domain',
+''dom_ADD_DOMAIN'' => 'Add domain',
 'dom_FORM_TITLE' => 'Manage domains',
 'dom_FORM_DESCRIPTION' => 'When you create a domain, your server will be able to
 receive e-mail for that domain and will also be able to host a
 web site for that domain.',
+'dom_ADD_DOMAIN' => 'Add domain',
 'dom_NO_VIRTUAL_DOMAINS' => 'There are no domains in the system',
 'dom_CURRENT_DOMAINS' => 'Current list of domains',
 'dom_PRIMARY_SITE' => 'primary site',

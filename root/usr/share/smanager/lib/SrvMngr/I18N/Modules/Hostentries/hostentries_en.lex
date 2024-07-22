@@ -1,4 +1,4 @@
-'hos_FORM_TITLE' => 'Hostnames and addresses',
+''hos_FORM_TITLE'' => 'Hostnames and addresses',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Unable to open configuration database',
 'hos_DNS_FORWARDER_ENABLED' => 'A DNS forwarder has been configured. This means that all DNS
 lookups will be handled by the DNS forwarder. Hostnames 
@@ -69,3 +69,4 @@ hostname.',
 The comment must contain only letters, spaces, numbers, dots, commas, undescores, hyphens and must start with a letter or number.',
 'hos_HOSTNAME_VALIDATOR_ERROR' => 'Error: unexpected characters in host name: "[_1]". The host name should contain only 
 letters, numbers, and hyphens and must start with a letter or a number.',
+'Hostnames and addresses' => 'Hostnames and addresses',

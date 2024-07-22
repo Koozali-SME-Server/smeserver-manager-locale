@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "rvw_FORM_TITLE"
+msgctxt "'rvw_FORM_TITLE'"
 msgid "Review configuration"
 msgstr ""
 
@@ -131,4 +131,8 @@ msgstr ""
 
 msgctxt "rvw_INTERNET_VISIBLE_ADDRESS"
 msgid "Internet Visible IP Address"
+msgstr ""
+
+msgctxt "Review configuration"
+msgid "Review configuration"
 msgstr ""

@@ -38,7 +38,6 @@
 'usr_REMOVE_DESC2' => ' Vse datoteke, ki pripadajo uporabniku racuna bodo izbrisane. Tudi vsa e-posta, ki se ni bila prenesena z Streznika bo izbrisana. </p> <p> <b>Ali si preprican, da zelis izbrisati ta racun?</b> ',
 'usr_LOCK' => 'Zakleni',
 'usr_NO_USER_ACCOUNTS' => 'Uporabniski racun ne obstaja.',
-'usr_Users' => 'Uporabniki',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Naziv racuna "{$acctName}" vsebuje napacen znak. Ime racuna se mora zaceti z malo crko in vsebovati samo crke, stevilke in podcrtaj.',
 'usr_ACCOUNT_TOO_LONG' => 'Napaka: Ime racuna je predolgo. Maximalna dolzina je {$maxLength} znakov.',
 'usr_ACCOUNT_CONFLICT' => 'Napaka: Racuna "{$account}" ne mores kreirati ker tak racun {$type} ze obstaja.',

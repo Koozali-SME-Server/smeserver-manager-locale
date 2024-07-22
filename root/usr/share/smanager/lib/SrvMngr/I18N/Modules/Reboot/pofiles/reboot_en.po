@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "rbo_FORM_TITLE"
+msgctxt "'rbo_FORM_TITLE'"
 msgid "Shutdown or reboot"
 msgstr ""
 
@@ -51,4 +51,8 @@ msgid ""
 "before switching the power off. All of these functions take\n"
 "several minutes to complete.\n"
 "When you click <b>perform</b> the operation will be initiated immediately, so be ready!"
+msgstr ""
+
+msgctxt "Reboot or shutdown"
+msgid "Reboot or shutdown"
 msgstr ""

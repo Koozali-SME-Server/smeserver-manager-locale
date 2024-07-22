@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: zh_tw\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "Collaboration"
@@ -24,6 +24,10 @@ msgstr "設定組態"
 msgctxt "Miscellaneous"
 msgid "Miscellaneous"
 msgstr "雜項"
+
+msgctxt "Your Settings"
+msgid "Your Settings"
+msgstr "您的設定"
 
 msgctxt "SAVE"
 msgid "Save"

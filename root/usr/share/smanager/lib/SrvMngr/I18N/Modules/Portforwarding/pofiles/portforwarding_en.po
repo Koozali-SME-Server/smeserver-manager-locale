@@ -89,6 +89,10 @@ msgctxt "pf_LABEL_ALLOW_HOSTS"
 msgid "Allow Hosts"
 msgstr ""
 
+msgctxt "Port forwarding"
+msgid "Port forwarding"
+msgstr ""
+
 msgctxt "pf_SUCCESS"
 msgid "Your change to the port forwarding rules has been successfully saved."
 msgstr ""

@@ -1,4 +1,3 @@
-'rvw_Review configuration' => 'Review konfigurasi',
 'rvw_DESCRIPTION' => 'Laporan ini meringkaskan jaringan, server, dan parameter domain pada server ini yang berhubungan dengan mengatur komputer klien pada jaringan anda. Anda mungkin ingin mencetak halaman ini dan menggunakannya sebagai referensi.',
 'rvw_NETWORKING_PARAMS' => 'Parameter Jaringan',
 'rvw_SERVER_MODE' => 'Mode Server',
@@ -20,8 +19,6 @@
 'rvw_PRIMARY_DOMAIN' => 'Domain Utama',
 'rvw_VIRTUAL_DOMAINS' => 'Domain maya',
 'rvw_PRIMARY_WEB_SITE' => 'Situs web utama',
-'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Server manager',
-'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Panel Password Pengguna',
 'rvw_EMAIL_ADDRESSES' => 'Alamat Email',
 'rvw_EMAIL_USERACCOUNT' => 'Akun pengguna',
 'rvw_EMAIL_FIRSTNAME' => 'Nama depan',

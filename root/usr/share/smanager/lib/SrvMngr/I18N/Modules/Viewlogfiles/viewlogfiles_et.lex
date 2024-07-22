@@ -1,4 +1,3 @@
-'log_View log files' => 'Vaata logifaile',
 'log_FIRSTPAGE_DESC' => ' Siit saad vaadata või allalaadida logifaile mille on koostanud erinevad teenused selles serveris. ',
 'log_LOG_FILE_SELECT_DESC' => 'Vali logifail mida vaadata',
 'log_FILTER_PATTERN_DESC' => ' <p>You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile.</p> ',

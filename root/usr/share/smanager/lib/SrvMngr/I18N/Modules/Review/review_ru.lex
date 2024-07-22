@@ -1,4 +1,3 @@
-'rvw_Review configuration' => 'Обзор конфигурации',
 'rvw_DESCRIPTION' => 'Этот отчёт суммирует параметры сети, сервера и домена на этом сервере, имеющие отношение к настройке клиентских компьютеров в сети. Вы можете распечатать эту страницу и использовать ее, как справочную информацию.',
 'rvw_NETWORKING_PARAMS' => 'Сетевые параметы',
 'rvw_SERVER_MODE' => 'Режим сервера',
@@ -20,8 +19,6 @@
 'rvw_PRIMARY_DOMAIN' => 'Первичный домен',
 'rvw_VIRTUAL_DOMAINS' => 'Виртуальные домены',
 'rvw_PRIMARY_WEB_SITE' => 'Первичный веб-сайт',
-'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Менеджер сервера',
-'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Панель пароля пользователя',
 'rvw_EMAIL_ADDRESSES' => 'Адреса email',
 'rvw_EMAIL_USERACCOUNT' => 'учётная запись пользователя',
 'rvw_EMAIL_FIRSTNAME' => 'имя',

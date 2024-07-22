@@ -1,4 +1,3 @@
-'hos_Hostnames and addresses' => '主机名和地址',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => '无法打开配置数据库。',
 'hos_DNS_FORWARDER_ENABLED' => 'DNS转发器已被配置。这意味着所有的DNS查询将由此DNS转发器来处理。一旦DNS转发器被配置了，那么在服务器上，主机名和地址不能被修改。',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">添加主机名</a> ',

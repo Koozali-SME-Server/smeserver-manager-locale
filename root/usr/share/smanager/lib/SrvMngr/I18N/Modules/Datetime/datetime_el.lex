@@ -47,4 +47,3 @@
 'dat_NTP_ENABLE_TITLE' => 'Ενεργοποίηση διακομιστή ώρας δικτύου',
 'dat_NTP_DISABLE_TITLE' => 'Απενεργοποίηση διακομιστή ώρας δικτύου',
 'dat_CURRENT_SETTING' => 'Τρέχουσα ρύθμιση',
-'dat_Date and time' => 'Ημερομηνία και ώρα',

@@ -14,4 +14,3 @@
 'dir_SUCCESS' => 'De nye grundlæggende LDAPindstillinger er gemt.',
 'dir_LEAVE' => 'Efterlad som de er',
 'dir_UPDATE' => 'Opdater med nye indstillinger',
-'dir_Directory' => 'LDAPliste',

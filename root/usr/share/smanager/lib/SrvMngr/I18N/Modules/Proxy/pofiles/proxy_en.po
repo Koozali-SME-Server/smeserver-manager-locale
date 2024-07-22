@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "prx_TITLE"
+msgctxt "'prx_TITLE'"
 msgid "Proxy settings"
 msgstr ""
 
@@ -63,4 +63,8 @@ msgstr ""
 
 msgctxt "prx_BLOCKED"
 msgid "Blocked"
+msgstr ""
+
+msgctxt "Proxy settings"
+msgid "Proxy settings"
 msgstr ""

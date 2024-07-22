@@ -1,4 +1,3 @@
-'View log files' => 'Visualisation des fichiers journaux',
 'log_FORM_TITLE' => 'Visualisation des fichiers journaux',
 'log_FIRSTPAGE_DESC' => ' Cette page vous permet de visualiser ou de télécharger les fichiers journaux générés par les services en cours de fonctionnement sur votre serveur. ',
 'log_LOG_FILE_SELECT_DESC' => 'Choisissez le fichier journal à afficher',

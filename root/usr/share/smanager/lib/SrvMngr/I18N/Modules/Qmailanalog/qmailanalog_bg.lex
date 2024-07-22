@@ -18,4 +18,3 @@
 'qma_INVALID_REPORT_TYPE' => 'Невалиден тип на отчета:',
 'qma_REPORT_GENERATED' => 'Отчета е генериран:',
 'qma_END_OF_REPORT' => 'Край на отчета',
-'qma_Mail log file analysis' => 'Анализ на файла с журнала на пощата',

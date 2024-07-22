@@ -12,7 +12,6 @@
 'pf_LABEL_DESTINATION_HOST' => 'Destination Host IP Address',
 'pf_LABEL_RULE_COMMENT' => 'コメント',
 'pf_LABEL_ALLOW_HOSTS' => '全プロジェクト',
-'pf_Port forwarding' => 'Port forwarding',
 'pf_SUCCESS' => 'Your change to the port forwarding rules has been successfully saved.',
 'pf_RULE_COMMENT' => 'コメント',
 'pf_ALLOW_HOSTS' => '全プロジェクト',

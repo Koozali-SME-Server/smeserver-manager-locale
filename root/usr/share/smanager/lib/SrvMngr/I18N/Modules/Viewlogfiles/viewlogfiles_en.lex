@@ -1,4 +1,4 @@
-'log_FORM_TITLE' => 'View log files',
+''log_FORM_TITLE'' => 'View log files',
 'log_FIRSTPAGE_DESC' => 'This panel allows you to view or download the log files generated
 by the services running on your server.',
 'log_LOG_FILE_SELECT_DESC' => 'Choose a log file to view',

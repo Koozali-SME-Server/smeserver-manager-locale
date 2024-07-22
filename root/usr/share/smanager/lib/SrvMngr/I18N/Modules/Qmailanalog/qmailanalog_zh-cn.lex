@@ -18,4 +18,3 @@
 'qma_INVALID_REPORT_TYPE' => '非法报表类型：',
 'qma_REPORT_GENERATED' => '已生成报表：',
 'qma_END_OF_REPORT' => '报表结尾',
-'qma_Mail log file analysis' => '邮件日志文件分析',

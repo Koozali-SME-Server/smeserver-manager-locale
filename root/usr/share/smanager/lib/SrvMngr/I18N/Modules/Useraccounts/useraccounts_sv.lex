@@ -38,7 +38,6 @@
 'usr_REMOVE_DESC2' => ' Alla filer som tillhör detta användarkonto kommer att raderas. Dessutom kommer all e-postmeddelanden för detta användarkonto som fortfarande finns på servern (dvs. de som inte har hämtats av användaren) kommer att raderas. </p> <p> <b>Är du säker på att du vill radera detta konto?</b> ',
 'usr_LOCK' => 'Lås',
 'usr_NO_USER_ACCOUNTS' => 'Det finns inga användarkonton på detta system.',
-'usr_Users' => 'Användare',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Kontonamnet "{$acctName}" innehåller ej tillåtna tecken. Kontonamnet måste börja med gemener och endast innehålla gemener, siffror, bindestreck, punkter och understrykningar.',
 'usr_ACCOUNT_TOO_LONG' => 'Fel: Kontonamnet är för långt. Det får maximalt vara {$maxLength} tecken.',
 'usr_ACCOUNT_CONFLICT' => 'Fel: konto "{$account}" kan inte skapas eftersom det redan finns ett {$type} konto med detta namn.',

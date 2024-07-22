@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: sv\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bac_BACKUP_TITLE"
@@ -109,10 +109,6 @@ msgctxt "bac_BACKUP_CONFIG_STATUS"
 msgid "Backup configuration and status"
 msgstr "Backup, konfiguration och status"
 
-msgctxt "bac_TAPE_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Backup med band är för närvarande <b>valt</b>."
-
 msgctxt "bac_BACKUPS_RUN_AT"
 msgid "Regular tape backups will run at:"
 msgstr "Normal backup till band kommer att köras kl:"
@@ -120,10 +116,6 @@ msgstr "Normal backup till band kommer att köras kl:"
 msgctxt "bac_REMINDER_MESSAGE_AT"
 msgid "Reminder messages will be sent at:"
 msgstr "E-post med påminnelse kommer att skickas kl:"
-
-msgctxt "bac_TAPE_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Backup till band är <b>ej valt</b>"
 
 msgctxt "bac_DESKTOP_BACKUP"
 msgid "Backup to desktop"
@@ -494,14 +486,6 @@ msgid "Your server has too much data for a reliable backup to desktop."
 msgstr ""
 "<div class=\"error\"> Din server har för mycket data för en säker backup "
 "till din klient. </div>"
-
-msgctxt "bac_WORKSTN_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Backup till arbetsstation är <b>ej aktiverat</b>"
-
-msgctxt "bac_WORKSTN_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Backup till arbetsstation är för närvarande <b>valt</b>."
 
 msgctxt "bac_WKBACKUPS_RUN_AT"
 msgid "Regular workstation backups will run at:"
@@ -1007,6 +991,14 @@ msgstr "cifs"
 msgctxt "bac_nfs"
 msgid "nfs"
 msgstr "nfs"
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr "Lokal flyttbar disk"
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
+msgstr "Monterad"
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
 msgid ""

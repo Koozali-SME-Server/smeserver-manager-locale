@@ -47,4 +47,3 @@
 'dat_NTP_ENABLE_TITLE' => '啟用網路校時伺服器',
 'dat_NTP_DISABLE_TITLE' => '關閉網路校時伺服器',
 'dat_CURRENT_SETTING' => '目前設定',
-'dat_Date and time' => '日期和時間',

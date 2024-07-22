@@ -38,7 +38,6 @@
 'usr_REMOVE_DESC2' => ' 此账户的所有文件将被删除，现有的电子邮件（比如未读邮件）也会被丢弃。</p> <p> <b>确认删除此账户吗?</b> ',
 'usr_LOCK' => '锁定',
 'usr_NO_USER_ACCOUNTS' => '此系统中暂无用户账号。',
-'usr_Users' => '用户',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => '账号名称"{$acctName}"中包含无效的字符。账户名必须由小写字母、数字、连接符、句点和下划线组成并且以小写字母开头。',
 'usr_ACCOUNT_TOO_LONG' => '错误：账号名称太长，最大为{$maxLength}个字符。',
 'usr_ACCOUNT_CONFLICT' => '错误：账号"{$account}"不能被创建，因为同名{$type} 账号已存在。',

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: es\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bac_BACKUP_TITLE"
@@ -110,10 +110,6 @@ msgctxt "bac_BACKUP_CONFIG_STATUS"
 msgid "Backup configuration and status"
 msgstr "Configuración y estado del respaldo"
 
-msgctxt "bac_TAPE_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Los respaldos en cinta están <b>habilitados</b>."
-
 msgctxt "bac_BACKUPS_RUN_AT"
 msgid "Regular tape backups will run at:"
 msgstr "Los respaldos regulares en cinta se ejecutarán a las:"
@@ -121,10 +117,6 @@ msgstr "Los respaldos regulares en cinta se ejecutarán a las:"
 msgctxt "bac_REMINDER_MESSAGE_AT"
 msgid "Reminder messages will be sent at:"
 msgstr "Los mensajes recordatorios se enviarán a las:"
-
-msgctxt "bac_TAPE_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Los respaldos en cinta están <b>deshabilitados</b>"
 
 msgctxt "bac_DESKTOP_BACKUP"
 msgid "Backup to desktop"
@@ -495,19 +487,15 @@ msgstr ""
 "Esta página se actualizará a la pantalla de estado en {$sec} segundos o haga"
 " clic <a href=\"/server-manager/cgi-bin/backup\">aquí</a>."
 
+msgctxt "bac_Backup or restore"
+msgid "Backup or restore"
+msgstr "Respaldar o restaurar"
+
 msgctxt "bac_BACKUP_DESKTOP_TOO_BIG"
 msgid "Your server has too much data for a reliable backup to desktop."
 msgstr ""
 "Su servidor tiene demasiados datos para realizar un respaldo confiable al "
 "escritorio."
-
-msgctxt "bac_WORKSTN_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Los respaldos en ordenador remoto están <b>deshabilitados</b>"
-
-msgctxt "bac_WORKSTN_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Los respaldos en ordenador remoto están <b>habilitados</b>."
 
 msgctxt "bac_WKBACKUPS_RUN_AT"
 msgid "Regular workstation backups will run at:"
@@ -1025,6 +1013,14 @@ msgstr "cifs"
 msgctxt "bac_nfs"
 msgid "nfs"
 msgstr "nfs"
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr "El respaldo esta hecho en un disco local USB"
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
+msgstr "Montada"
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
 msgid ""

@@ -18,4 +18,3 @@
 'qma_INVALID_REPORT_TYPE' => 'ประเภทรายงานไม่ถูกต้อง:',
 'qma_REPORT_GENERATED' => 'สร้างรายงาน:',
 'qma_END_OF_REPORT' => 'สิ้นสุดการรายงาน',
-'qma_Mail log file analysis' => 'วิเคราะห์ log file ของเมล์',

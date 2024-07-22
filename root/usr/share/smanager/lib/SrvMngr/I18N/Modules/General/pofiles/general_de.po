@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: de\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "Collaboration"
@@ -24,6 +24,10 @@ msgstr "Konfiguration"
 msgctxt "Miscellaneous"
 msgid "Miscellaneous"
 msgstr "Verschiedenes"
+
+msgctxt "Your Settings"
+msgid "Your Settings"
+msgstr "Ihre Einstellungen"
 
 msgctxt "SAVE"
 msgid "Save"

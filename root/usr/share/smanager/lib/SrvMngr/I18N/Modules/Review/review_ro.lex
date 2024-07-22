@@ -1,4 +1,3 @@
-'rvw_Review configuration' => 'Verifică configurări',
 'rvw_DESCRIPTION' => 'Acest raport însumează setările de rețea, server și parametrii de domeniupentru a configura calculatoarele client în rețeaua dumenavoastră. Puteți imprima această pagină pentru referințe.',
 'rvw_NETWORKING_PARAMS' => 'Paramentrii rețea',
 'rvw_SERVER_MODE' => 'Tip server',
@@ -20,8 +19,6 @@
 'rvw_PRIMARY_DOMAIN' => 'Domeniu primar',
 'rvw_VIRTUAL_DOMAINS' => 'Domenii virtuale',
 'rvw_PRIMARY_WEB_SITE' => 'Site web primar',
-'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Manager server',
-'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Panou de parola utilizator',
 'rvw_EMAIL_ADDRESSES' => 'Adresă Email',
 'rvw_EMAIL_USERACCOUNT' => 'Cont utilizator',
 'rvw_EMAIL_FIRSTNAME' => 'Prenume',

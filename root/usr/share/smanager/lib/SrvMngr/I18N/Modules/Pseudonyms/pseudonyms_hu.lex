@@ -24,4 +24,3 @@
 'pse_MODIFY_SUCCEEDED' => 'Fedőnév módosítása sikeres',
 'pse_REMOVE_SUCCEEDED' => 'Fedőnév eltávolítása sikeres',
 'pse_EVERYONE' => 'Mindenki',
-'pse_Pseudonyms' => 'Fedőnevek',

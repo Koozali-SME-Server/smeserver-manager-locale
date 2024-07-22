@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: zh_tw\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "rvw_DESCRIPTION"
+msgctxt "'rvw_rvw_DESCRIPTION"
 msgid ""
 "This report summarizes the networking, server, and domain\n"
 "parameters on this server relevant to configuring\n"
@@ -13,118 +13,110 @@ msgid ""
 "page and use it as a reference."
 msgstr "本報告略述關於在您的網段上，設定客戶端電腦所需的本伺服器之網路、伺服器與網域參數。你可能想列印此頁並以此作為參考。"
 
-msgctxt "rvw_NETWORKING_PARAMS"
+msgctxt "'rvw_rvw_NETWORKING_PARAMS"
 msgid "Networking Parameters"
 msgstr "各網路參數"
 
-msgctxt "rvw_SERVER_MODE"
+msgctxt "'rvw_rvw_SERVER_MODE"
 msgid "Server Mode"
 msgstr "伺服器模式"
 
-msgctxt "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgctxt "'rvw_rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
 msgid "Local IP address / subnet mask"
 msgstr "內部IP位址／子網路遮罩"
 
-msgctxt "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgctxt "'rvw_rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
 msgid "External IP address / subnet mask"
 msgstr "外部IP位址／子網路遮罩"
 
-msgctxt "rvw_GATEWAY"
+msgctxt "'rvw_rvw_GATEWAY"
 msgid "Gateway"
 msgstr "閘道"
 
-msgctxt "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgctxt "'rvw_rvw_ADDITIONAL_LOCAL_NETWORKS"
 msgid "Additional local networks"
 msgstr "額外的本地網路"
 
-msgctxt "rvw_DHCP_SERVER"
+msgctxt "'rvw_rvw_DHCP_SERVER"
 msgid "DHCP server"
 msgstr "DHCP 伺服器"
 
-msgctxt "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgctxt "'rvw_rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
 msgid "Beginning of DHCP address range"
 msgstr "DHCP 網段起點"
 
-msgctxt "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgctxt "'rvw_rvw_END_OF_DHCP_ADDRESS_RANGE"
 msgid "End of DHCP address range"
 msgstr "DHCP網段終點"
 
-msgctxt "rvw_SERVER_NAMES"
+msgctxt "'rvw_rvw_SERVER_NAMES"
 msgid "Server names"
 msgstr "伺服器名稱"
 
-msgctxt "rvw_DNS_SERVER"
+msgctxt "'rvw_rvw_DNS_SERVER"
 msgid "DNS server"
 msgstr "網域名稱伺服器"
 
-msgctxt "rvw_WEB_SERVER"
+msgctxt "'rvw_rvw_WEB_SERVER"
 msgid "Web server"
 msgstr "網頁伺服器"
 
-msgctxt "rvw_PROXY_SERVER"
+msgctxt "'rvw_rvw_PROXY_SERVER"
 msgid "Proxy server"
 msgstr "代理伺服器"
 
-msgctxt "rvw_FTP_SERVER"
+msgctxt "'rvw_rvw_FTP_SERVER"
 msgid "FTP server"
 msgstr "檔案伺服器"
 
-msgctxt "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgctxt "'rvw_rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
 msgid "SMTP, POP, and IMAP mail servers"
 msgstr "SMTP, POP, 與 IMAP 郵件伺服器"
 
-msgctxt "rvw_HOSTS"
+msgctxt "'rvw_rvw_HOSTS"
 msgid "Hosts"
 msgstr "各主機"
 
-msgctxt "rvw_DOMAIN_INFORMATION"
+msgctxt "'rvw_rvw_DOMAIN_INFORMATION"
 msgid "Domain information"
 msgstr "網域的資訊"
 
-msgctxt "rvw_PRIMARY_DOMAIN"
+msgctxt "'rvw_rvw_PRIMARY_DOMAIN"
 msgid "Primary domain"
 msgstr "主要的網域"
 
-msgctxt "rvw_VIRTUAL_DOMAINS"
+msgctxt "'rvw_rvw_VIRTUAL_DOMAINS"
 msgid "Virtual domains"
 msgstr "虛擬的網域"
 
-msgctxt "rvw_PRIMARY_WEB_SITE"
+msgctxt "'rvw_rvw_PRIMARY_WEB_SITE"
 msgid "Primary web site"
 msgstr "主要的網頁站台"
 
-msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_MANAGER"
-msgid "Placeholder for missing original text"
-msgstr "伺服器的管理員"
-
-msgctxt "rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL"
-msgid "Placeholder for missing original text"
-msgstr "使用者密碼面板"
-
-msgctxt "rvw_EMAIL_ADDRESSES"
+msgctxt "'rvw_rvw_EMAIL_ADDRESSES"
 msgid "Email Addresses"
 msgstr "電郵地址"
 
-msgctxt "rvw_EMAIL_USERACCOUNT"
+msgctxt "'rvw_rvw_EMAIL_USERACCOUNT"
 msgid "useraccount"
 msgstr "使用者帳號"
 
-msgctxt "rvw_EMAIL_FIRSTNAME"
+msgctxt "'rvw_rvw_EMAIL_FIRSTNAME"
 msgid "firstname"
 msgstr "名字"
 
-msgctxt "rvw_EMAIL_LASTNAME"
+msgctxt "'rvw_rvw_EMAIL_LASTNAME"
 msgid "lastname"
 msgstr "姓氏"
 
-msgctxt "rvw_NO_VIRTUAL_DOMAINS"
+msgctxt "'rvw_rvw_NO_VIRTUAL_DOMAINS"
 msgid "No virtual domains defined"
 msgstr "尚未界定虛擬網域"
 
-msgctxt "rvw_NO_NETWORKS"
+msgctxt "'rvw_rvw_NO_NETWORKS"
 msgid "No additional networks defined"
 msgstr "尚未界定附加網路"
 
-msgctxt "rvw_INTERNET_VISIBLE_ADDRESS"
+msgctxt "'rvw_rvw_INTERNET_VISIBLE_ADDRESS"
 msgid "Internet Visible IP Address"
 msgstr "網際網路外部網址"

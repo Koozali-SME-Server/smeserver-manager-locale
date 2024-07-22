@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: bg\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "bac_BACKUP_TITLE"
@@ -111,10 +111,6 @@ msgctxt "bac_BACKUP_CONFIG_STATUS"
 msgid "Backup configuration and status"
 msgstr "Конфигурация и състояние на резервното копие"
 
-msgctxt "bac_TAPE_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Резервните копия върху лента са <b>забранени</b>"
-
 msgctxt "bac_BACKUPS_RUN_AT"
 msgid "Regular tape backups will run at:"
 msgstr "Редовните резервни копия на лента ще се бъдат създавани в:"
@@ -122,10 +118,6 @@ msgstr "Редовните резервни копия на лента ще се
 msgctxt "bac_REMINDER_MESSAGE_AT"
 msgid "Reminder messages will be sent at:"
 msgstr "Напомнящите съобщения ще бъдат изпращани на:"
-
-msgctxt "bac_TAPE_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Резервните копия върху лента са <b>забранени</b>"
 
 msgctxt "bac_DESKTOP_BACKUP"
 msgid "Backup to desktop"
@@ -502,14 +494,6 @@ msgid "Your server has too much data for a reliable backup to desktop."
 msgstr ""
 "Сървърът съдържа твърде много данни за надеждно копиране на локалния "
 "компютър."
-
-msgctxt "bac_WORKSTN_BACKUPS_DISABLED"
-msgid "Placeholder for missing original text"
-msgstr "Резервните копия върху лента са <b>забранени</b>"
-
-msgctxt "bac_WORKSTN_BACKUPS_ENABLED"
-msgid "Placeholder for missing original text"
-msgstr "Резервното копиране върху работна станция е <b>разрешено</b>."
 
 msgctxt "bac_WKBACKUPS_RUN_AT"
 msgid "Regular workstation backups will run at:"
@@ -1031,6 +1015,14 @@ msgstr "cifs"
 msgctxt "bac_nfs"
 msgid "nfs"
 msgstr "nfs"
+
+msgctxt "bac_local removable disk"
+msgid "Local removable disk"
+msgstr "Резервното копие е направено на локален USB диск"
+
+msgctxt "bac_Mounted disk"
+msgid "Mounted disk"
+msgstr "Инсталирани дискове"
 
 msgctxt "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
 msgid ""

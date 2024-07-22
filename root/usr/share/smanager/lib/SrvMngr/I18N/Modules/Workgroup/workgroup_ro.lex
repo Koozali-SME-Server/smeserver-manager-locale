@@ -11,4 +11,3 @@
 'wkg_INVALID_WORKGROUP' => 'Numele Workgrupului trebuie sa înceapă cu o litera (minusculă sau majusculă), urmată de orice combinație de litere, numere sublinieri, paranteze și cratime.',
 'wkg_INVALID_SERVERNAME' => 'Numele serverului trebuie sa înceapă cu o litera (minusculă sau majusculă), urmată de orice combinație de litere, numere sublinieri și cratime',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'Numele serverului si al workgrupului sunt identice comparate în minuscule. Aceste valori trebuie să difere pentru ca funcția de partajare fișiere să funcționeze corect',
-'wkg_Workgroup' => 'Workgrup (grup de lucru)',

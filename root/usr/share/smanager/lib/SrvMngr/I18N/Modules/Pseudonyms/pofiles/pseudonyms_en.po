@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "pse_NO_PSEUDONYMS"
+msgctxt "'pse_NO_PSEUDONYMS'"
 msgid "<b>There are no pseudonyms in the system.</b>"
 msgstr ""
 

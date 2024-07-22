@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "dat_FORM_TITLE"
+msgctxt "'dat_FORM_TITLE'"
 msgid "Date and time configuration"
 msgstr ""
 
@@ -226,4 +226,8 @@ msgstr ""
 
 msgctxt "dat_CURRENT_SETTING"
 msgid "Current setting"
+msgstr ""
+
+msgctxt "Date and time"
+msgid "Date and time"
 msgstr ""

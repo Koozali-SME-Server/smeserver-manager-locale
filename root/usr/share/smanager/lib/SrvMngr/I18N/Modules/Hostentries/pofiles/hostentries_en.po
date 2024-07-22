@@ -5,7 +5,7 @@ msgstr ""
 "Language: en\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "hos_FORM_TITLE"
+msgctxt "'hos_FORM_TITLE'"
 msgid "Hostnames and addresses"
 msgstr ""
 
@@ -226,4 +226,8 @@ msgctxt "hos_HOSTNAME_VALIDATOR_ERROR"
 msgid ""
 "Error: unexpected characters in host name: \"[_1]\". The host name should contain only \n"
 "letters, numbers, and hyphens and must start with a letter or a number."
+msgstr ""
+
+msgctxt "Hostnames and addresses"
+msgid "Hostnames and addresses"
 msgstr ""

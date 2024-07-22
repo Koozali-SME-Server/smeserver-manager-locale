@@ -27,7 +27,6 @@
 'rma_INVALID_SUBNET_MASK' => 'Invalid subnet mask',
 'rma_ERR_INVALID_PARAMS' => 'Either provide both a network and subnet mask, or leave both fields blank.',
 'rma_ERR_NO_RECORD' => 'Unable to locate httpd-admin record in configuration db',
-'rma_Remote access' => 'Remote access',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Serial console',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar" /><h2>Serial console</h2> You can allow access to the server console from a terminal connected to a server serial port.',
 'rma_PORT1_ENABLED' => 'Enabled on serial port 1',

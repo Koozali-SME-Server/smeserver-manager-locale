@@ -1,4 +1,3 @@
-'hos_Hostnames and addresses' => 'Maskinnavn og adresser',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Ikke mulig å åpne konfigurasjonsdatabasen',
 'hos_DNS_FORWARDER_ENABLED' => 'En DNS forwarder er satt opp. Det betyr at alle DNS forespørsler blir håndtert av DNS forwarederen. Maskinnavn og adresser kan ikke endres på denne serveren så lenge DNS forwarderen er satt opp.',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Legg til maskinnavn</a> ',

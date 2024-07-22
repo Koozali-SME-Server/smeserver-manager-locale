@@ -1,5 +1,4 @@
 'mai_FORM_TITLE' => 'E-posta',
-'mai_E-mail' => 'E-mail',
 'mai_SUCCESS' => 'Nove e-mail nastavitve so bile shanjene.',
 'mai_NEVER' => 'nikoli',
 'mai_EVERY5MIN' => 'vsakih 5 minut',

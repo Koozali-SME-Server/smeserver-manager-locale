@@ -33,4 +33,3 @@
 'prt_ERR_DELETING' => 'Ocorreu um erro enquanto removia a impressora.',
 'prt_DELETED_SUCCESSFULLY' => 'Impressora removida com sucesso:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Deve ser um endereço IP ou nome de host válido',
-'prt_Printers' => 'Impressoras',

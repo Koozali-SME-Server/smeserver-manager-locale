@@ -20,4 +20,3 @@
 'bugr_CONSIDER_DONATING' => 'Por favor considere doar uma quantia para o projeto clicando na imagem do link abaixo: ',
 'bugr_THANK_YOU' => 'Obrigado pelo seu suporte!',
 'bugr_Download this report' => 'Faça download do relatório!',
-'bugr_Report a bug' => 'Reportar um problema',

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: it\n"
 "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "pf_FORM_TITLE"
@@ -110,6 +110,10 @@ msgstr "Commento"
 msgctxt "pf_LABEL_ALLOW_HOSTS"
 msgid "Allow Hosts"
 msgstr "Host ammessi"
+
+msgctxt "pf_Port forwarding"
+msgid "Port forwarding"
+msgstr "Port forwarding"
 
 msgctxt "pf_SUCCESS"
 msgid "Your change to the port forwarding rules has been successfully saved."

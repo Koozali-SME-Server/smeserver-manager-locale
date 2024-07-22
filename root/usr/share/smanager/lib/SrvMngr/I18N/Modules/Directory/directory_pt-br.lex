@@ -14,4 +14,3 @@
 'dir_SUCCESS' => 'A configuração LDAP padrão foi salva.',
 'dir_LEAVE' => 'Deixe como estão',
 'dir_UPDATE' => 'Atualizar com os novos padrões',
-'dir_Directory' => 'Diretório',

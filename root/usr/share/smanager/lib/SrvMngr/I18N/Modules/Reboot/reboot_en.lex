@@ -1,4 +1,4 @@
-'rbo_FORM_TITLE' => 'Shutdown or reboot',
+''rbo_FORM_TITLE'' => 'Shutdown or reboot',
 'rbo_REBOOT' => 'Reboot',
 'rbo_REBOOT_SUCCEEDED' => 'Reboot request initiated successfully.',
 'rbo_DESC_REBOOT' => 'Your server has initiated the reboot process.',
@@ -14,3 +14,4 @@ reconfiguration from this screen. You must perform a shutdown
 before switching the power off. All of these functions take
 several minutes to complete.
 When you click <b>perform</b> the operation will be initiated immediately, so be ready!',
+'Reboot or shutdown' => 'Reboot or shutdown',

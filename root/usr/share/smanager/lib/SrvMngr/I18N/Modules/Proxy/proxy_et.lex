@@ -1,4 +1,3 @@
-'prx_Proxy settings' => 'Proxy seaded',
 'prx_FIRST_PAGE_DESCRIPTION' => 'This page allows configuration of the server\'s proxy settings. The server includes a transparent proxy and cache for HTTP traffic. This is enabled by default, but not enforced if the server is in &quot;serveronly&quot; mode. If this server is acting as an e-mail server, connections from local network clients to external SMTP servers will default to being redirected to the local e-mail server.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'The server\'s HTTP proxy works to reduce overall uplink usage by caching recently-visited pages. It is transparent to web browsers using this server as their gateway. Enable or disable this proxy with the following toggle.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'SMTP proxy olek',

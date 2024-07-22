@@ -1,4 +1,4 @@
-'pse_NO_PSEUDONYMS' => '<b>There are no pseudonyms in the system.</b>',
+''pse_NO_PSEUDONYMS'' => '<b>There are no pseudonyms in the system.</b>',
 'pse_REMOVE_PSEUDONYM' => 'Remove pseudonym',
 'pse_ABOUT_TO_REMOVE' => 'You are about to remove the pseudonym: [_1]<br>
 <b>Are you sure you wish to continue?</b>',

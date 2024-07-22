@@ -1,4 +1,4 @@
-'dir_FORM_TITLE' => 'Change LDAP directory settings',
+''dir_FORM_TITLE'' => 'Change LDAP directory settings',
 'dir_LABEL_ROOT' => 'Server root',
 'dir_DESCRIPTION' => 'The LDAP server provides a network-available listing of the user accounts 
 and groups on your server, and can be accessed using an LDAP client such as the Address Book feature

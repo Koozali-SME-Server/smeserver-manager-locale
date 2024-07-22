@@ -1,4 +1,3 @@
-'rvw_Review configuration' => 'Konfiguráció áttekintése',
 'rvw_DESCRIPTION' => 'Ez a jelentés összefoglalja a hálózati, szerver és domén paraméterek beállításait ezen a szerveren, melyek szükségesek a hálózat kliens gépeinek konfigurálásához. Ez az oldal kinyomtatható és referenciaként használható.',
 'rvw_NETWORKING_PARAMS' => 'Hálózati paraméterek',
 'rvw_SERVER_MODE' => 'Szerver mód',
@@ -20,8 +19,6 @@
 'rvw_PRIMARY_DOMAIN' => 'Elsődleges domén',
 'rvw_VIRTUAL_DOMAINS' => 'Virtuális domének',
 'rvw_PRIMARY_WEB_SITE' => 'Elsődleges webhely',
-'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Szerver kezelő',
-'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Felhasználói jelszó panel',
 'rvw_EMAIL_ADDRESSES' => 'Email címek',
 'rvw_EMAIL_USERACCOUNT' => 'felhasználói fiók',
 'rvw_EMAIL_FIRSTNAME' => 'Keresztnév',

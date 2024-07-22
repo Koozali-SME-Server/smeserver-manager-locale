@@ -1,4 +1,3 @@
-'log_View log files' => 'Granska loggfil',
 'log_FIRSTPAGE_DESC' => ' Denna panel tillåter dig att granska eller ladda ner loggfiler som genererats av tjänster som körs på din server. ',
 'log_LOG_FILE_SELECT_DESC' => 'Välj en loggfil för granskning',
 'log_FILTER_PATTERN_DESC' => ' <p>Du har även möjligheten att ange ett filtermönster för att visa endast de rader från loggfilen som matchar detta mönster. Om du lämnar fältet tomt kommer alla tillgängliga rader att visas. Observera att denna möjlighet inte går att använda vid nerladdning av loggfilen.</p> ',

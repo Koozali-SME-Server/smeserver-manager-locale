@@ -1,4 +1,4 @@
-'quo_FORM_TITLE' => 'Create, modify, or remove user account quotas',
+''quo_FORM_TITLE'' => 'Create, modify, or remove user account quotas',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Unable to open accounts db',
 'quo_QUOTA_DESC' => '<p>You can set filesystem quotas for users on your system by clicking
 the "Modify" button next to the user you wish to update.

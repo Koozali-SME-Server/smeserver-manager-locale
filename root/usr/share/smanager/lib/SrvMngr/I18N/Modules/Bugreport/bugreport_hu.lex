@@ -20,4 +20,3 @@
 'bugr_CONSIDER_DONATING' => 'Kérjük, fontolja meg a projekthez való anyagi hozzájárulást az alábbi képre kattintva:',
 'bugr_THANK_YOU' => 'Köszönjük a támogatását!',
 'bugr_Download this report' => 'Töltse le ezt a jelentést !',
-'bugr_Report a bug' => 'Hiba bejelentése',

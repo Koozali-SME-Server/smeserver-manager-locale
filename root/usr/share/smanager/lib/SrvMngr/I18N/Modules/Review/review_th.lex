@@ -1,4 +1,3 @@
-'rvw_Review configuration' => 'ตรวจสอบค่าที่ตั้ง',
 'rvw_DESCRIPTION' => 'นี่เป็นรายงานสรุปข้อมูลเครือข่าย เซิร์ฟเวอร์ และพารามิเตอร์ของโดเมนของเซิร์ฟเวอร์นี้ที่จะเกี่ยวข้องกับการกำหนดค่าของเครื่องลูกข่าย (client) ของเครือข่ายของคุณ คุณอาจต้องการพิมพ์หน้านี้เพื่อใช้เป็นข้อมูลอ้างอิง',
 'rvw_NETWORKING_PARAMS' => 'พารามิเตอร์ของเครือข่าย',
 'rvw_SERVER_MODE' => 'โหมดของเซอร์ฟเวอร์',
@@ -20,8 +19,6 @@
 'rvw_PRIMARY_DOMAIN' => 'โดเมนหลัก',
 'rvw_VIRTUAL_DOMAINS' => 'โดเมนเสมือน (virtual domains) ',
 'rvw_PRIMARY_WEB_SITE' => 'เว็บไซต์หลัก (primary)',
-'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Server manager',
-'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'งานรหัสผ่านของผู้ใช้',
 'rvw_EMAIL_ADDRESSES' => 'ที่อยู่อีเมล',
 'rvw_EMAIL_USERACCOUNT' => 'บัญชีผู้ใช้',
 'rvw_EMAIL_FIRSTNAME' => 'ชื่อ',

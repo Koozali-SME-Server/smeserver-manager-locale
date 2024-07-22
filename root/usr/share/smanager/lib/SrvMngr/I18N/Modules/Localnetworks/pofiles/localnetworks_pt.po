@@ -2,8 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Language: None\n"
+"Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "ln_LOCAL NETWORKS"
+msgid "Local networks"
+msgstr "Redes locais"
 
 msgctxt "ln_FIRSTPAGE_DESC"
 msgid ""

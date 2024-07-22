@@ -1,4 +1,3 @@
-'log_View log files' => 'Vizualizează log',
 'log_FIRSTPAGE_DESC' => 'Acest panou vă permite să vizualizați sau descărcați fișierele de log generate de server. ',
 'log_LOG_FILE_SELECT_DESC' => 'Alege un fișier de evidență',
 'log_FILTER_PATTERN_DESC' => ' <p>Puteți opta pentru un anume model de filtru în fișierul de evidență, numai liniile ce au modelul impus vor fi afișate . Dacă nu completați nimic toate înregistrările din fișierul de evidență vor fi afișate. Luați aminte că această opțiune nu este utilizată daca optați pentu tranferul fișierului.</p> ',

@@ -1,4 +1,4 @@
-'prt_FORM_TITLE' => 'Add or remove printers',
+''prt_FORM_TITLE'' => 'Add or remove printers',
 'prt_INITIAL_BTN' => 'Add printer',
 'prt_INITIAL_DESC' => '<P><A class="button-like" HREF="printers?page=0&Next=Add">Add printer</A></P>',
 'prt_NO_PRINTERS' => 'There are no printers in the system.',

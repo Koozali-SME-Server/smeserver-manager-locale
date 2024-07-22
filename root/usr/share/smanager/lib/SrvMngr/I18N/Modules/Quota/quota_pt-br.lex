@@ -23,4 +23,3 @@
 'quo_ERR_HARD_LT_SOFT' => 'Erro: limite absoluto tem que ser maior que o limite com tempo cedido.',
 'quo_ERR_MODIFYING' => 'Ocorreu erro enquanto modificava usuário.',
 'quo_SUCCESSFULLY_MODIFIED' => 'Sucesso ao modificar a cota da conta do usuário:',
-'quo_Quotas' => 'Cotas',

@@ -33,4 +33,3 @@
 'prt_ERR_DELETING' => 'Възникна грешка при изтриване на принтера.',
 'prt_DELETED_SUCCESSFULLY' => 'Успешно изтрит принтер:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Трябва да е валидно име на хост или IP адрес',
-'prt_Printers' => 'Принтери',
