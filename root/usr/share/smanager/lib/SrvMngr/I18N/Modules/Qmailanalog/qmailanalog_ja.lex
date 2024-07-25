@@ -18,3 +18,4 @@
 'qma_INVALID_REPORT_TYPE' => 'Invalid report type:',
 'qma_REPORT_GENERATED' => 'Report generated:',
 'qma_END_OF_REPORT' => 'End of Report',
+'qma_Mail log file analysis' => 'Mail log file analysis',

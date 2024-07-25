@@ -18,3 +18,4 @@
 'qma_INVALID_REPORT_TYPE' => 'סוג דוח לא חוקי:',
 'qma_REPORT_GENERATED' => 'הדוח שהופק:',
 'qma_END_OF_REPORT' => 'סוף הדוח',
+'qma_Mail log file analysis' => 'ניתוח קובץ יומן דואר',

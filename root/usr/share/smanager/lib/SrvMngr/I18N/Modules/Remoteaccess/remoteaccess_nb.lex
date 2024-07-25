@@ -27,6 +27,7 @@
 'rma_INVALID_SUBNET_MASK' => 'Ugyldig lokal subnettmaske',
 'rma_ERR_INVALID_PARAMS' => 'Du må enten oppgi både nettverk og subnett maske, eller la begge feltene stå tomme.',
 'rma_ERR_NO_RECORD' => 'Ikke mulig å finne httpd-admin oppføring i oppsettsdatabasen',
+'rma_Remote access' => 'Fjernadministrasjon',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Seriell konsoll',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar" /><h2>Seriell konsoll</h2> Du kan tillate tilgang til server console fra en terminal koblet til en serieport.',
 'rma_PORT1_ENABLED' => 'Slått på på serieport 1',

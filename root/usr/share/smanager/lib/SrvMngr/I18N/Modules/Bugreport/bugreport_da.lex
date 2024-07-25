@@ -20,3 +20,4 @@
 'bugr_CONSIDER_DONATING' => 'Vælgj venligst at donere til projektet ved at klikke på billedet nedenfor:',
 'bugr_THANK_YOU' => 'Tak for din støtte!',
 'bugr_Download this report' => 'Hent denne rapport!',
+'bugr_Report a bug' => 'Rapporter en bug',

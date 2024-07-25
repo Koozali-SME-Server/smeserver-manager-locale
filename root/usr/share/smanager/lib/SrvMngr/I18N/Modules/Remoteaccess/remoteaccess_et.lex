@@ -27,6 +27,7 @@
 'rma_INVALID_SUBNET_MASK' => 'Sobimatu subnet mask',
 'rma_ERR_INVALID_PARAMS' => 'Lisa mõlemad võrk ja subnet mask või jäta mõlemad tühjaks',
 'rma_ERR_NO_RECORD' => 'Ei leidnud httpd-admin kirjeid konfiguratsiooni andmebaasist',
+'rma_Remote access' => 'Kaughaldus',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Serial console',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar" /><h2>Serial console</h2> You can allow access to the server console from a terminal connected to a server serial port.',
 'rma_PORT1_ENABLED' => 'Enabled on serial port 1',

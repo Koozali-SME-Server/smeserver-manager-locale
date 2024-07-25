@@ -24,3 +24,4 @@
 'pse_MODIFY_SUCCEEDED' => 'Uspesno urejen vzdevek',
 'pse_REMOVE_SUCCEEDED' => 'Uspesno odstranjen vzdevek',
 'pse_EVERYONE' => 'Everyone',
+'pse_Pseudonyms' => 'Vzdevek',

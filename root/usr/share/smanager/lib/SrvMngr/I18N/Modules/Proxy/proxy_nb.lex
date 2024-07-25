@@ -1,3 +1,4 @@
+'prx_Proxy settings' => 'Proxy innstillinger',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Denne siden lar deg konfigurere serverens proxy innstillinger. serveren har en gjennomfiktig proxy og mellomlager for HTTP trafikk. Dette er slått på som standard, men blir ikke håndhevd hvis serveren er i &quot;serveronly&quot; modus. Hvis serveren opptrer som e-post server, vil tilkoblinger fra lokale maskiner på nettverket mot eksterne SMTP servere som standard bli videresendt til den lokale e-postserveren.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'Serverens HTTP proxy jobber for å redusere den totale opplastnings bruken ved å mellomlagre nylig besøkte sider. Den er gjennomsiktig for nettlesere som bruker denne serveren som gateway. Slå av eller på proxy med følgende bryter.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'HTTP proxy status',

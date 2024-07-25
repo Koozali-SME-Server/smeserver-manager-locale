@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Slå NTPserver til',
 'dat_NTP_DISABLE_TITLE' => 'Slå NTPserver fra',
 'dat_CURRENT_SETTING' => 'Aktuel indstilling',
+'dat_Date and time' => 'Dato og tid',

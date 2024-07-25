@@ -1,4 +1,5 @@
 'mai_FORM_TITLE' => '電郵設定',
+'mai_E-mail' => '電郵',
 'mai_SUCCESS' => '新電郵設定已被儲存。',
 'mai_NEVER' => '一點也不',
 'mai_EVERY5MIN' => '每5分鐘',

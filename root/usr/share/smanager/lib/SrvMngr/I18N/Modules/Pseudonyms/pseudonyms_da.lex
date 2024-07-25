@@ -24,3 +24,4 @@
 'pse_MODIFY_SUCCEEDED' => 'Pseudonym ændret',
 'pse_REMOVE_SUCCEEDED' => 'Pseudonym fjernet',
 'pse_EVERYONE' => 'Alle',
+'pse_Pseudonyms' => 'Pseudonymer',

@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Bolehkan Server Waktu Jaringan',
 'dat_NTP_DISABLE_TITLE' => 'Disable Server Waktu Jaringan',
 'dat_CURRENT_SETTING' => 'Pengaturan sekarang',
+'dat_Date and time' => 'Tanggal dan jam',

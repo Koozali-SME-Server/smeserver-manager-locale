@@ -24,3 +24,4 @@
 'pse_MODIFY_SUCCEEDED' => 'Takma ad başarıyla değiştirildi',
 'pse_REMOVE_SUCCEEDED' => 'Takma ad başarıyla silindi',
 'pse_EVERYONE' => 'Herkes',
+'pse_Pseudonyms' => 'Takma adlar',

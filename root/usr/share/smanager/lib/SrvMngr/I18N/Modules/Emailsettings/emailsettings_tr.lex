@@ -1,4 +1,5 @@
 'mai_FORM_TITLE' => 'E-posta ayarları',
+'mai_E-mail' => 'E-posta',
 'mai_SUCCESS' => 'Yeni e-posta ayarları kaydedildi.',
 'mai_NEVER' => 'hiç biri',
 'mai_EVERY5MIN' => 'Her 5 dakikada',

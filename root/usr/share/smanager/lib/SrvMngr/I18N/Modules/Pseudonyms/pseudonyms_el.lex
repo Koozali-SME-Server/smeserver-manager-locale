@@ -24,3 +24,4 @@
 'pse_MODIFY_SUCCEEDED' => 'Επιτυχής τροποποίηση ψευδωνύμου',
 'pse_REMOVE_SUCCEEDED' => 'Επιτυχής αφαίρεση ψευδωνύμου',
 'pse_EVERYONE' => 'Όλοι',
+'pse_Pseudonyms' => 'Ψευδώνυμα',

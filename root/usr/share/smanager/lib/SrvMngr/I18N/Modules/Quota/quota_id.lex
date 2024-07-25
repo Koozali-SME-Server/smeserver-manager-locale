@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => 'Error: batasan absolut harus lebih besar daripada batasan dengan masa kelonggaran.',
 'quo_ERR_MODIFYING' => 'Terjadi kesalahan saat mengubah pengguna.',
 'quo_SUCCESSFULLY_MODIFIED' => 'Berhasil mengubah kuota untuk akun pengguna:',
+'quo_Quotas' => 'Kuota',

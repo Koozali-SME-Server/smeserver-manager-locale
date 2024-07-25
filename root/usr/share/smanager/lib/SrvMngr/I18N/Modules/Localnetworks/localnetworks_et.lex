@@ -1,3 +1,4 @@
+'ln_Local networks' => 'Lokaalsed võrgud',
 'ln_FIRSTPAGE_DESC' => ' Turvalisuse tagamiseks on mõned teenused kättesaadvad ainult kohtvõrgus. Kui soovid teenuseid ja juurdepääsu teha kättesaadvaks ka mõnes teises võrgus, siis lisa need siia. Tavaliselt jäetakse see täiendamata.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Lisa võrk</a> ',
 'ln_ADD_TITLE' => 'Lisa lokaalne võrk',
 'ln_ADD_DESC' => ' Each parameter must be in the form #.#.#.# (each # is a number from 0 to 255). The server software will zero out the ending (host identifier) part of the network address according to the subnet mask, to ensure that the network address is valid. </P><P> "Router" should be the IP address of the router on your local network via which the additional network is reached. ',

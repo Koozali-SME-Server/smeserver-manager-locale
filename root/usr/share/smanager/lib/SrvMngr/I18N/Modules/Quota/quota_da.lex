@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => 'Fejl: Værdien for "absolut grænse" skal være højere end værdien for "Henstandsperiode".',
 'quo_ERR_MODIFYING' => 'Der opstod en fejl under ændringen.',
 'quo_SUCCESSFULLY_MODIFIED' => 'Har gennemført ændringen for bruger:',
+'quo_Quotas' => 'Kvota',

@@ -1,3 +1,4 @@
+'ln_Local networks' => 'Local networks',
 'ln_FIRSTPAGE_DESC' => ' Iz varnostnih razlogov, je nekaj storitev omogocenih samo s strani lokalnega omrezja. Kljub temu lahko zunanjim uporabnikom omogocite te storitve tako, da jih dodate na seznam lokalnih (varnih) uporabnikov. (Najveckrat pustimo to prazno.) </p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Dodaj omrezje</a> ',
 'ln_ADD_TITLE' => 'Dodaj lokalno omrezje',
 'ln_ADD_DESC' => ' Each parameter must be in the form #.#.#.# (each # is a number from 0 to 255). The server software will zero out the ending (host identifier) part of the network address according to the subnet mask, to ensure that the network address is valid. </p><p> "Router" should be the IP address of the router on your local network via which the additional network is reached. ',

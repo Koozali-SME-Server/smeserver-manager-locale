@@ -1,3 +1,4 @@
+'rvw_Review configuration' => 'Vaata serveri seadeid',
 'rvw_DESCRIPTION' => 'This report summarizes the networking, server, and domain parameters on this server relevant to configuring the client computers on your network. You may wish to print this page and use it as a reference.',
 'rvw_NETWORKING_PARAMS' => 'Võrgu parameetrid',
 'rvw_SERVER_MODE' => 'Server Mode',
@@ -19,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => 'Peamine domeen',
 'rvw_VIRTUAL_DOMAINS' => 'Virtuaalsed domeenid',
 'rvw_PRIMARY_WEB_SITE' => 'Peamine weebileht',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Serveri konsool',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Kasutaja parooli paneel',
 'rvw_EMAIL_ADDRESSES' => 'E-posti aadressid',
 'rvw_EMAIL_USERACCOUNT' => 'kasutajakonto',
 'rvw_EMAIL_FIRSTNAME' => 'Eesnimi',

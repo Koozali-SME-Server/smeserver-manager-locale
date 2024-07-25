@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => 'Error: absolute limit must be greater than limit with grace time.',
 'quo_ERR_MODIFYING' => 'Error occurred while modifying user.',
 'quo_SUCCESSFULLY_MODIFIED' => 'Successfully modified quota for user account:',
+'quo_Quotas' => 'Quotas',

@@ -20,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => 'Domínio primário',
 'rvw_VIRTUAL_DOMAINS' => 'Domínios virtuais',
 'rvw_PRIMARY_WEB_SITE' => 'Web site primário',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Gerenciador do servidor',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Painel de senha do usuário',
 'rvw_EMAIL_ADDRESSES' => 'Endereço Email',
 'rvw_EMAIL_USERACCOUNT' => 'Contas de usuário',
 'rvw_EMAIL_FIRSTNAME' => 'Primeiro nome',

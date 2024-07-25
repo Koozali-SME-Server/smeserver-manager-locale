@@ -27,6 +27,7 @@
 'rma_INVALID_SUBNET_MASK' => 'subnet mask ไม่ถูกต้อง',
 'rma_ERR_INVALID_PARAMS' => 'กรอกทั้ง network และ subnet mask หรือไม่กรอกทั้งสอง',
 'rma_ERR_NO_RECORD' => 'ไม่พบข้อ httpd-admin recordใน configuration db',
+'rma_Remote access' => 'Remote access',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Serial console',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar" /><h2>Serial console</h2>คุณสามารถเปิดใช้งาน server console จากเทอร์มินัลที่ต่อกับซีเรียลพอร์ตของเซิร์ฟเวอร์ได้',
 'rma_PORT1_ENABLED' => 'เปิดใช้ซีเรียลพอร์ต 1',

@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Включить сервер сетевого времени',
 'dat_NTP_DISABLE_TITLE' => 'Отключить сервер сетевого времени',
 'dat_CURRENT_SETTING' => 'Текущие настройки',
+'dat_Date and time' => 'Дата и время',

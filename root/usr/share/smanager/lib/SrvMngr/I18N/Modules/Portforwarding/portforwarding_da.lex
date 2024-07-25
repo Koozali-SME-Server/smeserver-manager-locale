@@ -12,6 +12,7 @@
 'pf_LABEL_DESTINATION_HOST' => 'Målværts IP-adresse',
 'pf_LABEL_RULE_COMMENT' => 'Kommentarer',
 'pf_LABEL_ALLOW_HOSTS' => 'Tillad værter',
+'pf_Port forwarding' => 'Portviderestilling',
 'pf_SUCCESS' => 'Dine ændringer i reglen for portviderestilling er gemt.',
 'pf_RULE_COMMENT' => 'Kommentarer',
 'pf_ALLOW_HOSTS' => 'Tillad værter',

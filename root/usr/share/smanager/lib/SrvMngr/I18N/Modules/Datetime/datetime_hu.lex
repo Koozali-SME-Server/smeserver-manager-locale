@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Hálózati időszerver engedélyezése',
 'dat_NTP_DISABLE_TITLE' => 'Hálózati időszerver letiltása',
 'dat_CURRENT_SETTING' => 'Jelenlegi beállítások',
+'dat_Date and time' => 'Dátum és idő',

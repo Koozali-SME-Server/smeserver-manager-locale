@@ -1,3 +1,4 @@
+'rvw_Review configuration' => 'Review configuration',
 'rvw_DESCRIPTION' => 'To porocilo je povzetek parametrov omrezja, streznika in domen na tem strezniku, ki je primeren za nastavitev uporabniskih racunalnikov v omrezju. Morda bi lahko stiskal to stran kot napotek.',
 'rvw_NETWORKING_PARAMS' => 'Parametri omrezja',
 'rvw_SERVER_MODE' => 'Nacin delovanja Streznika',
@@ -19,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => 'Osnovna domena',
 'rvw_VIRTUAL_DOMAINS' => 'Virtualne domene',
 'rvw_PRIMARY_WEB_SITE' => 'Osnovna spletna stran',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Upravljanje streznika',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Plosca za gesla uporabnikov',
 'rvw_EMAIL_ADDRESSES' => 'E-postni naslovi',
 'rvw_EMAIL_USERACCOUNT' => 'Zakleni uporabniski racun',
 'rvw_EMAIL_FIRSTNAME' => 'Ime',

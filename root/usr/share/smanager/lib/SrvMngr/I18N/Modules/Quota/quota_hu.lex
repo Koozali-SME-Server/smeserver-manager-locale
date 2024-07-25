@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => 'Hiba: az abszolút határ értékének nagyobbnak kell lennie mint a türelmi korlát értékének.',
 'quo_ERR_MODIFYING' => 'Hiba történt a felhasználó módosításakor.',
 'quo_SUCCESSFULLY_MODIFIED' => 'A következő felhasználói fiók kvótája sikeresen módosult:',
+'quo_Quotas' => 'Kvóták',

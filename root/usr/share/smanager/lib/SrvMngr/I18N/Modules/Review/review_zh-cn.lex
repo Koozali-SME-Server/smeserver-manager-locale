@@ -1,3 +1,4 @@
+'rvw_Review configuration' => '检查配置',
 'rvw_DESCRIPTION' => '这份报告概述了网络，服务器，并在此相关的域名服务器参数配置网络上的客户端计算机。你可能想打印此页并以此作为参考。',
 'rvw_NETWORKING_PARAMS' => '网络参数',
 'rvw_SERVER_MODE' => 'Server模式',
@@ -19,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => '主域',
 'rvw_VIRTUAL_DOMAINS' => '虚拟域',
 'rvw_PRIMARY_WEB_SITE' => '主Web站点',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => '服务器管理',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => '用户密码版面',
 'rvw_EMAIL_ADDRESSES' => '电子邮件地址',
 'rvw_EMAIL_USERACCOUNT' => '用户账号',
 'rvw_EMAIL_FIRSTNAME' => '名',

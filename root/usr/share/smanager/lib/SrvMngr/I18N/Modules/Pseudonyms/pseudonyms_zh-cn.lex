@@ -24,3 +24,4 @@
 'pse_MODIFY_SUCCEEDED' => '成功修改别名',
 'pse_REMOVE_SUCCEEDED' => '成功移除别名',
 'pse_EVERYONE' => '任何人',
+'pse_Pseudonyms' => '别名',

@@ -14,3 +14,4 @@
 'dir_SUCCESS' => '新的LDAP預設值已存檔',
 'dir_LEAVE' => '維持原貌',
 'dir_UPDATE' => '新的預設值更新',
+'dir_Directory' => '目錄',

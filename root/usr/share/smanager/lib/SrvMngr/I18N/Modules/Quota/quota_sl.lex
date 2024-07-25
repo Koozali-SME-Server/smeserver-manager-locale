@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => 'Napaka: "Maximalni limit" mora biti vecji ali enak "Limit pred maximumom".',
 'quo_ERR_MODIFYING' => 'Pri spremembi je prislo do napake.',
 'quo_SUCCESSFULLY_MODIFIED' => 'Uspesno spremenjen prostor za uporabniski racun:',
+'quo_Quotas' => 'Prostor',

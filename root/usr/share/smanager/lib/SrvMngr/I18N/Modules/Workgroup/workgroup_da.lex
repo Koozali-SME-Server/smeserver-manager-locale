@@ -11,3 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'Arbejdsgruppenavnet skal starte med et (stort eller lille) bogstav fulgt af en kombination af bogstaver, tal, bindestreger, punktum og understregningskoder.',
 'wkg_INVALID_SERVERNAME' => 'Servernavnet skal starte med et (stort eller lille) bogstav fulgt af en kombination af bogstaver, tal, bindestreger og understregningskoder.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'Server og arbejdsgruppenavne stemmer overens, når de sammenlignes som små bogstaver. Disse værdier skal være forskellige for at fildelingen kan slås til.',
+'wkg_Workgroup' => 'Arbejdsgruppe',

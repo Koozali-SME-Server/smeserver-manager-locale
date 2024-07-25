@@ -12,6 +12,7 @@
 'pf_LABEL_DESTINATION_HOST' => 'Διεύθυνση IP του Η/Υ προορισμού',
 'pf_LABEL_RULE_COMMENT' => 'Σχόλιο',
 'pf_LABEL_ALLOW_HOSTS' => 'Η/Υ',
+'pf_Port forwarding' => 'Προώθηση θύρας',
 'pf_SUCCESS' => 'Επιτυχής αποθήκευση τροποποίησης κανόνων προώθησης θυρών.',
 'pf_RULE_COMMENT' => 'Σχόλιο',
 'pf_ALLOW_HOSTS' => 'Η/Υ',

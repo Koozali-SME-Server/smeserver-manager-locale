@@ -1,3 +1,4 @@
+'prx_Proxy settings' => 'Proxyinställningar',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Denna sida ger dig möjligheten att konfigurera serverns proxyinställningar. Servern innehåller en transparant proxy och cache för HTTP trafik. Detta är tillåten som förvald inställning, om inte servern är i &quot;endast servermod&quot;. Om servern arbetar som en e-postserver, kommer anslutningar från det lokal nätverkets klienter till externa SMTP-servrar att automatiskt styras om till den lokal e-postservern.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'Serverns HTTP-proxy har till uppgift att minska den övergripande uppströmstrafiken genom att cacha alla nyligen besökta sidor. Detta är transparent för webbläsare som använder denna server som deras gateway. Tillåt eller tillåt inte denna proxy med nedanstående inställning.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'HTTP-proxy status',

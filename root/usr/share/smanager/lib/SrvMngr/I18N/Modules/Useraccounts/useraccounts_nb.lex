@@ -38,6 +38,7 @@
 'usr_REMOVE_DESC2' => ' Alle filer tilhørende brukerkontoen vil bli slettet. Det gjelder også e-post til brukerkontoen som ennå ligger på serveren (d.v.s. som enda ikke har blit lastet ned av brukeren) vil bli forkastet. </p> <p> <b>Er du sikker på at du vil fjerne kontoen?</b> ',
 'usr_LOCK' => 'Lås',
 'usr_NO_USER_ACCOUNTS' => 'Det er ingen brukerkontoer på systemet.',
+'usr_Users' => 'Brukere',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Kontonavnet "{$acctName}" inneholder ugyldige tegn. Kontonavn må starte med liten bokstav og bare inneholde små bokstaver, tall, bindestrek, punktum og understreker.',
 'usr_ACCOUNT_TOO_LONG' => 'Feil: kontonavnet er for langt. maksimal lengde er {$maxLength} tegn.',
 'usr_ACCOUNT_CONFLICT' => 'Feil: kontoen "{$account}" kan ikke opprettes fordi det allerede er en {$type}konto med det navnet.',

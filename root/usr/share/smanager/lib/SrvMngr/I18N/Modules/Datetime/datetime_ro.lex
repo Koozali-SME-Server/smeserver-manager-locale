@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Enable Network Time Server',
 'dat_NTP_DISABLE_TITLE' => 'Disable Network Time Server',
 'dat_CURRENT_SETTING' => 'Current setting',
+'dat_Date and time' => 'Date and time',

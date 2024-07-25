@@ -33,3 +33,4 @@
 'prt_ERR_DELETING' => 'Printeri kustutamisel ilmnes viga.',
 'prt_DELETED_SUCCESSFULLY' => 'Kustutati edukalt printer:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Peab olema sobiv hostinimi või IP number',
+'prt_Printers' => 'Printerid',

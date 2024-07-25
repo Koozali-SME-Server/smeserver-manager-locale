@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Tillåt tidsserver',
 'dat_NTP_DISABLE_TITLE' => 'Tillåt ej tidsserver',
 'dat_CURRENT_SETTING' => 'Nuvarande inställning',
+'dat_Date and time' => 'Datum och tid',

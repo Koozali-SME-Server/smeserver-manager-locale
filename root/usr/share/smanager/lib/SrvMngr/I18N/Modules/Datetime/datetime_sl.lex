@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Omogoci mrezni casovni streznik',
 'dat_NTP_DISABLE_TITLE' => 'Preklici mrezni casovni streznik',
 'dat_CURRENT_SETTING' => 'Trenutne nastavitve',
+'dat_Date and time' => 'Datum in čas',

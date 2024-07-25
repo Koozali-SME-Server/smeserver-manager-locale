@@ -1,3 +1,4 @@
+'hos_Hostnames and addresses' => 'Värdnamn och adresser',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Kan inte öppna konfigurationsdatabasen',
 'hos_DNS_FORWARDER_ENABLED' => 'En DNS-forwarder har konfigurerats. Detta betyder att alla DNS uppslagningar kommer att hanteras av DNS forwarder. Värdnamn och adresser kan inte modifieras på denna server eftersom en DNS forwarder är konfigurerad.',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Lägg till värdnamn</a> ',

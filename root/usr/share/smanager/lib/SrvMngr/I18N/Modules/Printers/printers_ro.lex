@@ -33,3 +33,4 @@
 'prt_ERR_DELETING' => 'A apărut o eroare la stergerea repository-ului',
 'prt_DELETED_SUCCESSFULLY' => 'Imprimanta a fost ștearsă cu succes',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Trebuie să fie un nume de gazdă valid sau un număr de IP',
+'prt_Printers' => 'Printers',

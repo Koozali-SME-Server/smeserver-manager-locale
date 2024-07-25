@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => '启用NTP服务器',
 'dat_NTP_DISABLE_TITLE' => '禁用NTP服务器',
 'dat_CURRENT_SETTING' => '当前设置',
+'dat_Date and time' => '日期和时间',

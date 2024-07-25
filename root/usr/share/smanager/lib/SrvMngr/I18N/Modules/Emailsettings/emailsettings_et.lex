@@ -1,4 +1,5 @@
 'mai_FORM_TITLE' => 'E-posti seaded',
+'mai_E-mail' => 'E-post',
 'mai_SUCCESS' => 'Uued e-posti seadistused salvestatud.',
 'mai_NEVER' => 'pole',
 'mai_EVERY5MIN' => 'Iga 5 minuti järel',

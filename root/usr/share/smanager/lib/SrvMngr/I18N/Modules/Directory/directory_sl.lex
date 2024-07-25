@@ -14,3 +14,4 @@
 'dir_SUCCESS' => 'Nove privzete nastavitve LDAP streznika so bile shranjene.',
 'dir_LEAVE' => 'Pustite nespremenjene',
 'dir_UPDATE' => 'Posodobite z novimi nastavitvami',
+'dir_Directory' => 'Directory',

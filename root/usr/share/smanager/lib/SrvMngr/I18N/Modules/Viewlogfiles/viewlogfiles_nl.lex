@@ -1,3 +1,4 @@
+'View log files' => 'Logbestanden bekijken',
 'log_FIRSTPAGE_DESC' => ' Dit paneel laat u toe om de log bestanden die worden gegenereerd door de diensten op uw server te bekijken of op te halen. ',
 'log_LOG_FILE_SELECT_DESC' => 'Kies een logbestand om te bekijken',
 'log_FILTER_PATTERN_DESC' => ' <p>U kan er voor kiezen om een filterpatroon op te geven om alleen de regels uit het logbestand te tonen die overeenkomen met dit patroon. Alle regels uit het logbestand zullen worden weergegeven indien u dit vakje leeg laat. Merk op: deze optie is niet van toepassing als u het logbestand dowloadt.</p> ',

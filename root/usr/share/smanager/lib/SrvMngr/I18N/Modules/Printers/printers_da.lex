@@ -33,3 +33,4 @@
 'prt_ERR_DELETING' => 'Der opstod en fejl under sletning af printeren.',
 'prt_DELETED_SUCCESSFULLY' => 'Har slettet printer:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Skal være gyldigt værtsnavn eller IP-nummer',
+'prt_Printers' => 'Printere',

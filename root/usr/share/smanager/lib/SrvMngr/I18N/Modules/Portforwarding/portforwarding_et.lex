@@ -12,6 +12,7 @@
 'pf_LABEL_DESTINATION_HOST' => 'Asukoha hosti IP aadress',
 'pf_LABEL_RULE_COMMENT' => 'Kommentaar',
 'pf_LABEL_ALLOW_HOSTS' => 'Hostid',
+'pf_Port forwarding' => 'Pordi suunamine',
 'pf_SUCCESS' => 'Muudatused pordi suunamise reeglites edukalt salvestatud.',
 'pf_RULE_COMMENT' => 'Kommentaar',
 'pf_ALLOW_HOSTS' => 'Hostid',

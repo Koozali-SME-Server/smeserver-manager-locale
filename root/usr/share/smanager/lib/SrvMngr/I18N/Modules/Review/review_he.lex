@@ -1,3 +1,4 @@
+'rvw_Review configuration' => 'Review configuration',
 'rvw_DESCRIPTION' => 'This report summarizes the networking, server, and domain parameters on this server relevant to configuring the client computers on your network. You may wish to print this page and use it as a reference.',
 'rvw_NETWORKING_PARAMS' => 'Networking Parameters',
 'rvw_SERVER_MODE' => 'Server Mode',
@@ -19,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => 'Primary domain',
 'rvw_VIRTUAL_DOMAINS' => 'Virtual domains',
 'rvw_PRIMARY_WEB_SITE' => 'Primary web site',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Server manager',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'User password panel',
 'rvw_EMAIL_ADDRESSES' => 'Email Addresses',
 'rvw_EMAIL_USERACCOUNT' => 'useraccount',
 'rvw_EMAIL_FIRSTNAME' => 'firstname',

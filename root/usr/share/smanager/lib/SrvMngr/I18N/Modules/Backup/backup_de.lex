@@ -2,8 +2,10 @@
 'bac_BACKUP_DESC' => ' <P>Der Server bietet zwei Möglichkeiten, den Server zu sichern und wiederherzustellen: entweder auf dem lokalen Desktop oder auf ein Bandlaufwerk.</P> <P>Die erste Methode erzeugt eine Kopie der Servereinstellungen sowie der Benutzerdaten und lädt diese über den Webbrowser auf den Arbeitsplatzrechner herunter. Im Moment beträgt die Größe Ihrer Einstellungen und Benutzerdaten ungefähr<b>$tarsize</b>. Die Sicherungsdatei wird etwas kleiner als dieser Wert, abhängig davon wie die Daten komprimierbar sind. Mit \"Überprüfung der Sicherungsdatei\" kann die Datei noch einmal auf Integrität überprüft werden.</P> <P>Die Bandsicherungmethode benutzt ein Softwarepaket mit dem Namen <I>$module</I>, um die Daten der Festplatte jede Nacht zu sichern. Dafür wird ein Bandsicherungslaufwerk und ein nicht schreibgeschütztes Band benötigt. Die Sicherung wird automatisch zu der angegebenen Zeit jede Nacht durchgeführt (sowie im Laufe des Tages eine E-Mail an den Administrator geschickt). Aktuell sind auf Festplatten Ihres Servers <b>$dumpsize</b> an Daten gespeichert. <b>Im Idealfall sollte die Wiederherstellung auf einem frisch installierten Server durchgeführt werden.</b></P> ',
 'bac_BACKUP_DESC_DAR' => ' <P>Drei Möglichkeiten sind vorgesehen, um Ihren Server zu sichern und wiederherzustellen: mit einem Bandlaufwerk, mit einer Netzwerkfreigabe oder mit Hilfe Ihres lokalen Arbeitsplatzrechners.</P> <P>Bandsicherung. Diese Methode verwendet ein Software-Paket namens <I>$module</I>, um jede Nacht die gesamte Server-Festplatte auf Band zu sichern. Dies erfordert ein unterstütztes Bandlaufwerk und ein nicht schreibgeschütztes Band. Die Sicherung wird automatisch zur gewählten Zeit in der Nacht durchgeführt (eine Erinnerung wird automatisch während des Tages an den Administrator gemailt). Zur Zeit enthält Ihre Festplatte <b>$dumpsize</b> an Daten.</P> <P>Workstation-Sicherung. Diese Methode verwendet ein Software-Paket namens <I>dar</I>, um Ihre Server-Konfiguration und Daten auf eine Netzwerkfreigabe oder eine lokale Wechselfestplatte, z.B. eine USB-Festplatte, zu sichern. Sie können bestimmen, wie viele rotierende Sätze der Sicherungen aufbewahrt werden und wie viele inkrementelle Sicherungen in jedem Satz enthalten sind. Die Sicherung wird automatisch täglich zu der ausgewählten Zeit durchgeführt. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>$tarsize</b>. Die doppelte Größe muß frei auf der Netzwerkfreigabe zur Verfügung stehen.</P> <P>Sicherung auf lokalem Arbeitsplatzrechner. Diese Methode erstellt eine Kopie der Serverkonfiguration und Benutzerdaten und lädt diese mit Hilfe des Web-Browsers auf Ihren lokalen Arbeitsplatzrechner herunter. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>$tarsize</b>. Die Sicherungsdatei kann je nach Komprimierungsgrad etwas kleiner sein. Diese Datei kann verwendet werden, um die Serverdaten von der Konsole wiederherstellen, wenn die Datei auf ein lokales Wechselmedium, z.B. lokale USB-Festplatte, kopiert wird.</P> <P>Mit allen Sicherungsmethoden können Sie Ihre Konfigurations- und Benutzerdateien wiederherstellen. Die Workstation-Sicherung ermöglicht es individuelle Dateien wiederherzustellen. <b>Im Idealfall sollte eine vollständige Rücksicherung auf einem frisch installierten Server durchgeführt werden</b>.</P> ',
 'bac_BACKUP_CONFIG_STATUS' => 'Sichern von Konfiguration und Status',
+'bac_TAPE_BACKUPS_ENABLED' => ' Bandsicherung ist im Moment <b>aktiviert</b>. ',
 'bac_BACKUPS_RUN_AT' => 'Die normale Bandsicherung läuft um:',
 'bac_REMINDER_MESSAGE_AT' => 'Erinnerungsmitteilung wird gesendet um:',
+'bac_TAPE_BACKUPS_DISABLED' => ' Bandsicherungen sind <b>deaktiviert</b> ',
 'bac_DESKTOP_BACKUP' => 'Sicherung auf den Arbeitsplatzrechner',
 'bac_DESKTOP_RESTORE' => 'Wiederherstellen vom Arbeitsplatzrechner',
 'bac_DESKTOP_VERIFY' => 'Überprüfung der Sicherungsdatei',
@@ -82,6 +84,8 @@
 'bac_PAGE_REFRESH_IN' => ' Diese Seite wird in {$sec} Sekunden mit der Statusanzeige erneuert, oder drücken Sie <a href="/server-manager/cgi-bin/backup">hier</a>. ',
 'Backup or restore' => 'Sichern oder Wiederherstellen',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Auf Ihrem Server befinden sich zu viele Daten, um eine verläßliche Sicherung auf den lokalen Arbeitsplatz durchführen zu können.',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation Backups sind <b>deaktiviert</b> ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation Backups sind im Moment <b>aktiviert</b>. ',
 'bac_WKBACKUPS_RUN_AT' => 'Das normale Workstation Backup wird laufen um:',
 'bac_WORKSTN_CONFIGURE' => 'Konfiguriere Workstation Backup',
 'bac_WORKSTN_VERIFY' => 'Workstation Backup überprüfen',
@@ -174,7 +178,11 @@
 'bac_RESTORE_VERIFY_FAILED' => 'Prüfung der Integrität ist fehlgeschlagen',
 'bac_CHECK_INTEGRITY_WARNING' => 'Warnung: Bei großen Sicherungen kann die Überprüfung der Integrität eine langwierige Sache werden und sollte bei täglichem Workstation Backup deaktiviert sein.',
  'bac_cifs' => 
+ 'CIFS',
  'bac_nfs' => 
+ 'NFS',
  'bac_local removable disk' => 
+ 'Lokaler Wechseldatenträger',
  'bac_Mounted disk' => 
+ 'Eingebunder Datenträger',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'Die Parameter wurden gespeichert, aber der entfernte Host ist nicht erreichbar, bitte überprüfen Sie die Einstellungen.',

@@ -1,2 +1,3 @@
 'manual_FORM_TITLE' => 'Çevrimiçi klavuz ve diğer dökümanlar',
 'manual_DESCRIPTION' => ' <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Çevrimiçi klavuz</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> S.S.S.</a> </ul> <H2>Destek ve Lisanslama</H2> Bu yazılımın kullanım süreci <a href="/server-manager/cgi-bin/support"> Destek ve Lisanslama</a> sayfasında belirtilmiştir. ',
+'manual_Online manual' => 'Çevrimiçi klavuz',

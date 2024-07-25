@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Włącz sieciowego serwera czasu',
 'dat_NTP_DISABLE_TITLE' => 'Wyłącz sieciowego serwera czasu',
 'dat_CURRENT_SETTING' => 'Obecne ustawienia',
+'dat_Date and time' => 'Data i czas',

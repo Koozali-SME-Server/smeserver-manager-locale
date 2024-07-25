@@ -11,3 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'Arbeidsgruppenavnet må begynne med en bokstav (stor eller liten bokstav), fulgt av en hver kombinasjon av bokstaver, tall, understreker, punktum, og bindestreker.',
 'wkg_INVALID_SERVERNAME' => 'Servernavnet må begynne med en bokstav (stor eller liten bokstav), fulgt av en hver kombinasjon av bokstaver, tall, understreker, punktum, og bindestreker.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'Servernavnet og arbeidsgruppenavnet er likt når de sammenliknes i små bokstaver. de kan ikke være like dersom fildeling skal være slått på.',
+'wkg_Workgroup' => 'Arbeidsgruppe',

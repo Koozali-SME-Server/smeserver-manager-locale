@@ -12,6 +12,7 @@
 'pf_LABEL_DESTINATION_HOST' => 'Målmaskinens IP adresse',
 'pf_LABEL_RULE_COMMENT' => 'Regel Kommentar',
 'pf_LABEL_ALLOW_HOSTS' => 'Tillat vert',
+'pf_Port forwarding' => 'Port videresending',
 'pf_SUCCESS' => 'Din endring på port videresending reglene er lagret.',
 'pf_RULE_COMMENT' => 'Regel Kommentar',
 'pf_ALLOW_HOSTS' => 'Tillat vert',

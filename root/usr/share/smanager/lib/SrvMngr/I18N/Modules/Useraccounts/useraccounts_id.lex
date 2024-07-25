@@ -38,6 +38,7 @@
 'usr_REMOVE_DESC2' => ' Semua berkas milik user akun ini akan dihapus. Juga semua e-mail milik akun user ini yang berada di server akan dihapus. </p> <p> <b>Anda yakin menghapus akun ini?</b> ',
 'usr_LOCK' => 'Kunci',
 'usr_NO_USER_ACCOUNTS' => 'Tidak ada akun pengguna dalam sistem ini',
+'usr_Users' => 'Pengguna',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Nama pengguna "{$acctName}" mengandung karakter yang tidak valid. Nama akun harus dimulai dengan huruf kecil dan hanya boleh terdiri dari huruf kecil, angka, hyphen, titik dan garis bawah.',
 'usr_ACCOUNT_TOO_LONG' => 'Error : nama akun terlalu panjang. Maksimal {$maxLength}karakter.',
 'usr_ACCOUNT_CONFLICT' => 'Error: Akun "{$account}" tidak dapat dibuat karena sudah ada {$type} akun yang menggunakan nama tersebut.',

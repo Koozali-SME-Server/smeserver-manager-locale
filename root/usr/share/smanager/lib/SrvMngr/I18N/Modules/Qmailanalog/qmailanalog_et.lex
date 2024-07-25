@@ -18,3 +18,4 @@
 'qma_INVALID_REPORT_TYPE' => 'Sobimatu raporti tüüp:',
 'qma_REPORT_GENERATED' => 'Raport koostatud:',
 'qma_END_OF_REPORT' => 'Raporti lõpp',
+'qma_Mail log file analysis' => 'E-maili logide analüüs',

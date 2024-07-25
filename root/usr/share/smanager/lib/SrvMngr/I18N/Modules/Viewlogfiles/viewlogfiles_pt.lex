@@ -1,3 +1,4 @@
+'View log files' => 'Visualizar arquivos de log',
 'log_FIRSTPAGE_DESC' => ' Este painel permite a você visualizar ou baixar os arquivos de log gerados pelos serviços que estão rodando no seu servidor. ',
 'log_LOG_FILE_SELECT_DESC' => 'Escolher o arquivo de log para visualizar',
 'log_FILTER_PATTERN_DESC' => ' <p>Você pode opcionalmente especificar um modelo de filtro para mostrar somente as linhas do arquivo de log que coincidirem com o filtro. Se você deixar esse campo em branco, todas as linhas disponíveis no arquivo de log serão mostradas. Note que essa opção não é usada se você baixar o arquivo de log.</p> ',

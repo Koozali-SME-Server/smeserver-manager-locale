@@ -1,3 +1,4 @@
+'rvw_Review configuration' => 'Vis opsætning',
 'rvw_DESCRIPTION' => 'Denne rapport viser de aktuelle indstillinger som er nødvendige, for at kunne konfigurere klientmaskinerne på dit lokalnet. Du kan udskrive denne side og bruge den som reference.',
 'rvw_NETWORKING_PARAMS' => 'Netværksparametre',
 'rvw_SERVER_MODE' => 'Server tilstand',
@@ -19,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => 'Primære domæne',
 'rvw_VIRTUAL_DOMAINS' => 'Virtuelle domæner',
 'rvw_PRIMARY_WEB_SITE' => 'Primær web side',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Server-styring',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Bruger password panel',
 'rvw_EMAIL_ADDRESSES' => 'Email Adresser',
 'rvw_EMAIL_USERACCOUNT' => 'brugerkonto',
 'rvw_EMAIL_FIRSTNAME' => 'fornavn',

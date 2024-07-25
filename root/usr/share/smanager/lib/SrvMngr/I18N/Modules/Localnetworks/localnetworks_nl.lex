@@ -1,4 +1,5 @@
 'ln_LOCAL NETWORKS' => 'Lokale netwerken',
+'ln_Local networks' => 'Lokale netwerken',
 'ln_FIRSTPAGE_DESC' => ' Om veiligheidsredenen zijn diverse diensten op de server enkel beschikbaar voor het lokale netwerk. U kunt deze lokale toegangsrechten echter wel toekennen aan additionele netwerken indien ze hieronder worden toegevoegd. Voor de meeste installaties zal deze lijst echter leeg worden gelaten.</p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Netwerk toevoegen</a> ',
 'ln_ADD_TITLE' => 'Een lokaal netwerk toevoegen',
 'ln_ADD_DESC' => ' Elke parameter dient in de vorm #.#.#.# te zijn (elk # is een getal van 0 tot 255). De server software zal het eind gedeelte door een nul vervangen (host herkenningsteken) afhankelijk van het deelnetwerkmasker om er voor te zorgen dat het een geldig netwerkadres betreft. </P><P> "Router" dient het IP adres van de router op het lokale netwerk te zijn via welke het additionele netwerk te bereiken is. ',

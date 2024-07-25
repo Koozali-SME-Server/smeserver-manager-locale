@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Habilitar Servidor de Horário da Rede',
 'dat_NTP_DISABLE_TITLE' => 'Desabilitar Servidor de Horário da Rede',
 'dat_CURRENT_SETTING' => 'Configuração atual',
+'dat_Date and time' => 'Data e hora',

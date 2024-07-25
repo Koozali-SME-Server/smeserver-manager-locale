@@ -27,6 +27,7 @@
 'rma_INVALID_SUBNET_MASK' => '无效的子网掩码',
 'rma_ERR_INVALID_PARAMS' => '请同时添加网络和子网掩码，或者全部留空。',
 'rma_ERR_NO_RECORD' => '无法在配置数据库中找到httpd-admin记录',
+'rma_Remote access' => '远程访问',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => '串口控制台',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar" /><h2>串口控制台</h2> 您可以允许一个终端通过串口连接来访问系统控制台。',
 'rma_PORT1_ENABLED' => '在串口1启用',

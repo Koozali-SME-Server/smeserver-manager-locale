@@ -1,3 +1,4 @@
+'ln_Local networks' => '本地网络',
 'ln_FIRSTPAGE_DESC' => ' 基于安全因素，服务器的一些服务只在本地网络有效。然而，您可以通过下面的列表赋予其他网络访问本地网络的权限。大部分的情况会将此列表留空。</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">添加网络地址</a> ',
 'ln_ADD_TITLE' => '添加一个本地网络',
 'ln_ADD_DESC' => ' 每个参数的格式为 #.#.#.# (每一个 # 为0到255之间的数字)。 服务器会根据子网掩码将网络地址的最后一位（作为主机标识）重置为零。 </P><P> "Router" 应该是本地网络上的路由器的IP地址，通过此地址外部网络可以访问本地网络。 ',

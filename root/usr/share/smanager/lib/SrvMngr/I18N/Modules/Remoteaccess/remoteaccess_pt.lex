@@ -27,6 +27,7 @@
 'rma_INVALID_SUBNET_MASK' => 'Máscara de subrede inválida',
 'rma_ERR_INVALID_PARAMS' => 'Escolha entre fornecer ambos, uma rede e máscara de subrede, ou deixar ambos os campos em branco.',
 'rma_ERR_NO_RECORD' => 'Incapaz de localizar registro httpd-admin na configuração do banco de dados',
+'rma_Remote access' => 'Acesso remoto',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Console serial',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar"/><h2>Console serial</h2> Você pode permitir o acesso ao console do servidor de um terminal conectado a porta serial.',
 'rma_PORT1_ENABLED' => 'Habilitar na porta serial 1',

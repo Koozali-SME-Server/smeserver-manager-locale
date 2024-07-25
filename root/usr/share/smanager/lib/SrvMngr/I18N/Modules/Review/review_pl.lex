@@ -1,3 +1,4 @@
+'rvw_Review configuration' => 'Przegląd konfiguracji',
 'rvw_DESCRIPTION' => 'Niniejszy raport podsumowuje sieci, serwery i parametry domeny na tym serwerze dotyczących konfiguracji komputerów klienckich w sieci. Możesz wydrukować tę stronę i używać go jako punkt odniesienia.',
 'rvw_NETWORKING_PARAMS' => 'Parametry sieci',
 'rvw_SERVER_MODE' => 'Tryb serwera',
@@ -19,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => 'Domena podstawowa',
 'rvw_VIRTUAL_DOMAINS' => 'Domena wirtualna',
 'rvw_PRIMARY_WEB_SITE' => 'Podstawowa witryna sieci Web',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Menedżer serwera',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Panel hasła użytkownika',
 'rvw_EMAIL_ADDRESSES' => 'Adresy email',
 'rvw_EMAIL_USERACCOUNT' => 'nazwa użytkownika',
 'rvw_EMAIL_FIRSTNAME' => 'pierwsze imię',

@@ -1,3 +1,4 @@
+'prx_Proxy settings' => 'Proxy beállítások',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Ez az oldal lehetővé teszi a szerver proxy beállításainak konfigurálását. A szerver tartalmaz egy transzparens proxit és gyorsítótárazza a HTTP forgalmat. Ez alaphelyzetben engedélyezve van, de nem kötelező, ha a szerver &quot;csak szerver&quot; módban működik. Ha ez a szerver e-mail szerverként működik, a helyi hálózati kliensek külső SMTP szerverre irányuló kapcsolatai automatikusan a helyi e-mail szerverhez lesznek irányítva.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'A szerver HTTP proxy szolgáltatása mérsékli a hálózati forgalmat a legutóbb látogatott weboldalak gyorsítótárazásával. Ez transzparens azon webböngészők számára, amelyek átjárónak használják ezt a szervert. A proxyt az alábbi vezérlőkkel ki-és-be kapcsolhatja.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'HTTP proxy állapota',

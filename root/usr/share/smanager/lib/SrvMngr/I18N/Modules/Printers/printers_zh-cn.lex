@@ -33,3 +33,4 @@
 'prt_ERR_DELETING' => '删除打印机时出错。',
 'prt_DELETED_SUCCESSFULLY' => '成功删除打印机：',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => '必须是一个合法的主机名或IP',
+'prt_Printers' => '打印机',

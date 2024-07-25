@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => 'Fel: absolut gräns måste vara större än anståndstiden.',
 'quo_ERR_MODIFYING' => 'Fel inträffade vid ändring av användare.',
 'quo_SUCCESSFULLY_MODIFIED' => 'Ändrat kvot för användarkonto:',
+'quo_Quotas' => 'Kvoter',

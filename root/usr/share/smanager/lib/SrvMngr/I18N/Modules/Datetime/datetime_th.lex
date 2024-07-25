@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'เปิดใช้บริการ Network Time Server',
 'dat_NTP_DISABLE_TITLE' => 'ปิดไม่ใช้บริการ Network Time Server',
 'dat_CURRENT_SETTING' => 'การตั้งค่าปัจจุบัน',
+'dat_Date and time' => 'วันที่และเวลา',

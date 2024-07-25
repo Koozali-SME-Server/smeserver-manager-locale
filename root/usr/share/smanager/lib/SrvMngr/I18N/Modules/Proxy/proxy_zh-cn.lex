@@ -1,3 +1,4 @@
+'prx_Proxy settings' => '代理设置',
 'prx_FIRST_PAGE_DESCRIPTION' => '此页面可以配置服务器的代理设置，包括透明代理和HTTP流量的高速缓存，默认是启用的，如果此服务器为“serveronly”模式，这是非强制性的。如果此服务器是作为一台电子邮件服务器，默认情况下，从本地客户端到外部SMTP服务器的连接，将被重新寄送到本地电子邮件服务器。',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => '服务器的HTTP代理工作原理，是通过高速缓存最近访问的页面来减少带宽上行的使用。对于把服务器作为网关的客户端浏览器来说，它是透明的。请使用下面的开关选项来启用或禁用代理服务。',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'HTTP代理状态',

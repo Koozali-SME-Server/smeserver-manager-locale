@@ -18,3 +18,4 @@
 'qma_INVALID_REPORT_TYPE' => 'Jenis laporan invalid:',
 'qma_REPORT_GENERATED' => 'Laporan yang dibuat:',
 'qma_END_OF_REPORT' => 'Akhir dari laporan',
+'qma_Mail log file analysis' => 'Analisa File Log Mail',

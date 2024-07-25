@@ -38,6 +38,7 @@
 'usr_REMOVE_DESC2' => ' Todos os arquivos pertencentes a esse usuário serão apagados. Também, qualquer e-mail para essa conta de usuário neste servidor (i.e. aqueles que ainda não foram recuperados pelo usuário) serão descartados. </p> <p> <b>Você tem certeza que deseja remover essa conta?</b> ',
 'usr_LOCK' => 'Bloquear',
 'usr_NO_USER_ACCOUNTS' => 'Não existe contas de usuários neste servidor.',
+'usr_Users' => 'Usuários',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'A conta de nome "{$acctName}" contém caracteres inválidos. Nome de conta deve iniciar com letra minúscula e conter somente letras minúsculas, números e hífens.',
 'usr_ACCOUNT_TOO_LONG' => 'Erro: nome de conta muito longo. O máximo é de {$maxLength} caracteres.',
 'usr_ACCOUNT_CONFLICT' => 'Erro: a conta "{$account}" não pode ser criada porque já existe a conta {$type} com esse nome.',

@@ -33,3 +33,4 @@
 'prt_ERR_DELETING' => 'Error occurred while deleting printer.',
 'prt_DELETED_SUCCESSFULLY' => 'Successfully deleted printer:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Must be a valid hostname or IP number',
+'prt_Printers' => 'Printers',

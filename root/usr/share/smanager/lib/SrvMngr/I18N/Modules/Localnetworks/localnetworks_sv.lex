@@ -1,3 +1,4 @@
+'ln_Local networks' => 'Lokala nätverk',
 'ln_FIRSTPAGE_DESC' => ' Av säkerhetsskäl finns vissa tjänster på din server endast åtkomliga på ditt lokala nätverk. Du kan emellertid ge lokal åtkomst till ytterligare nätverk genom att ange dem nedan. De flesta installationer bör lämna denna lista tom</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Lägg till nätverk</a> ',
 'ln_ADD_TITLE' => 'Lägg till lokalt nätverk',
 'ln_ADD_DESC' => ' Varje parameter måste vara i formatet #.#.#.# (där varje # är ett tal från 0 till 255). Serverns mjukvara kommer att ta bort den avslutande delen (värdidentifieraren) av nätverksadressen enligt subnätmasken för att försäkra att nätverksadressen är giltig. </P><P> "Router" skall vara den IP-adress på ditt lokala nätverk som det ytterligare nätverket nås via. ',

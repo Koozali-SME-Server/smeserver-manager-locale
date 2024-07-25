@@ -1,3 +1,4 @@
+'hos_Hostnames and addresses' => 'ชื่อโฮสต์และที่อยู่',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'ไม่สามารถเปิดฐานข้อมูลเก็บการตั้งค่า',
 'hos_DNS_FORWARDER_ENABLED' => 'ได้กำหนดค่า DNS forwarder แล้ว ซึ่งหมายความว่าการขอบริการ DNS (DNS lookup) ทุกรายการจะถูกจัดการที่ DNS forwarder ที่กำหนด และการแก้ไขหมายเลขและชื่อของโฮสต์บนเซิร์ฟเวอร์นี้จะใช้การไม่ได้ขณะมีการตั้งค่า DNS forwarder นี้อยู่',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">เพิ่มชื่อโฮสต์</a> ',

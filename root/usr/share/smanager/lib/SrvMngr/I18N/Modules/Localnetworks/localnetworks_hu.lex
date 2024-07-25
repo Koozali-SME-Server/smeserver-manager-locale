@@ -1,3 +1,4 @@
+'ln_Local networks' => 'Helyi hálózatok',
 'ln_FIRSTPAGE_DESC' => ' Biztonsági okokból a szerver néhány szolgáltatása csak hálózaton belül érhető el. Azonban lehetősége van ezen szolgáltatásokhoz hozzáférést adni további hálózatok számára, úgy hogy hozzáadja őket az alábbi listához. Más esetben hagyja üresen ezt a listát.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Hálózat hozzáadása</a> ',
 'ln_ADD_TITLE' => 'Helyi hálózat hozzáadása',
 'ln_ADD_DESC' => ' Minden paramétert a #.#.#.# formában kell megadni (minden # egy szám 0 és 255 között). A szerver kinullázza a hálózati cím alhálózati maszk által meghatározott végét (gép azonosítót) hogy a hálózati cím érvényes legyen. </P><P> Az "Átjáró" annak az eszköznek az IP címe amelyen keresztül elérhetők a további külső hálózatok ',

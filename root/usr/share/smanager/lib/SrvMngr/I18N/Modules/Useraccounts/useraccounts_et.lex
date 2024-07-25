@@ -38,6 +38,7 @@
 'usr_REMOVE_DESC2' => ' Kõik failid mis kuuluvad sellele kasutajakontole kustutatakse. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded. </p> <p> <b>Oled kindel, et tahad seda kasutajakontot kustutada?</b> ',
 'usr_LOCK' => 'Lukusta',
 'usr_NO_USER_ACCOUNTS' => 'Selles serveris pole kasutajakontosid.',
+'usr_Users' => 'Kasutajad',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Kasutajanimi "{$acctName}" sisaldab sobimatuid sümboleid.Kasutajanimi peab algama väiketähega ja koosnema ainult väiketähtedest, numbritest, hyphens, periods ja underscores.',
 'usr_ACCOUNT_TOO_LONG' => 'VIGA: konto nimi on liiga pikk. Maksimum on {$maxLength} sümbolit.',
 'usr_ACCOUNT_CONFLICT' => 'Viga: Kasutajat "{$account}" ei saanud luua kuna on juba {$type} sellise nimega.',

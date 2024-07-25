@@ -1,3 +1,4 @@
+'rvw_Review configuration' => 'Ανασκόπηση ρυθμίσεων παραμέτρων συστήματος',
 'rvw_DESCRIPTION' => 'Η παρούσα αναφορά συνοψίζει τις παραμέτρους δικτύου, διακομιστή και τομέα (domain) του παρόντος διακομιστή που έχουν σχέση με τις ρυθμίσεις των πελατών Η/Υ του δικτύου σας. Εφόσον το επιθυμείτε, μπορείτε να εκτυπώσετε την παρούσα σελίδα και ν΄ανατρέχετε σ΄αυτή.',
 'rvw_NETWORKING_PARAMS' => 'Παράμετροι δικτύου',
 'rvw_SERVER_MODE' => 'Κατάσταση λειτουργίας διακομιστή',
@@ -19,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => 'Πρωτεύων τομέας (primary domain)',
 'rvw_VIRTUAL_DOMAINS' => 'Εικονικοί τομείς (virtual domains)',
 'rvw_PRIMARY_WEB_SITE' => 'Πρωτεύων ιστότοπος',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Διαχειριστής διακομιστή',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Πίνακας κωδικών πρόσβασης χρηστών',
 'rvw_EMAIL_ADDRESSES' => 'Διευθύνσεις ηλεκτρονικής αλληλογραφίας',
 'rvw_EMAIL_USERACCOUNT' => 'Λογαριασμός χρήστη',
 'rvw_EMAIL_FIRSTNAME' => 'όνομα',

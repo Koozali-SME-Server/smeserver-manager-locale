@@ -14,3 +14,4 @@
 'dir_SUCCESS' => 'De nye forhåndsinnstilte LDAP innstillingene er lagret.',
 'dir_LEAVE' => 'La de være som de er',
 'dir_UPDATE' => 'Oppdater med nye forhåndsinnstillinger',
+'dir_Directory' => 'Mappe',

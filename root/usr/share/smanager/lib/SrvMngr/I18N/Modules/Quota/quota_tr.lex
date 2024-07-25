@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => 'Hata: kesin limit süreli limitten büyük olmalıdır.',
 'quo_ERR_MODIFYING' => 'Kullanıcı ayarları değiştirilirken hata oluştu',
 'quo_SUCCESSFULLY_MODIFIED' => 'Kullanıcıya ait disk kotası başarıyla değiştirildi.',
+'quo_Quotas' => 'Kotalar',

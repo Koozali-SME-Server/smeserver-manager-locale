@@ -27,6 +27,7 @@
 'rma_INVALID_SUBNET_MASK' => 'Nepravilna podomrezna maska',
 'rma_ERR_INVALID_PARAMS' => 'Vnesti moras tako omrezje kot masko podomrezja ali pa pusti obe polji prazni.',
 'rma_ERR_NO_RECORD' => 'Ne morem locirati httpd-admin zapisa v Konfiguracijski db',
+'rma_Remote access' => 'Oddaljen dostop',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Serijska konzola',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar"/><h2>Serijska konzola</h2> Tu lahko omogocis dostop do Konzole Streznika preko terminala, ki je prikljucen preko serijskega porta na strezniku..',
 'rma_PORT1_ENABLED' => 'Omogoci na serijskem portu 1',

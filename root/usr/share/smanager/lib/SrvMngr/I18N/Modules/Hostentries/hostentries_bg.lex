@@ -1,3 +1,4 @@
+'hos_Hostnames and addresses' => 'Имена на хостове и адреси',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Не мога да се отвори базата данни с конфигурацията',
 'hos_DNS_FORWARDER_ENABLED' => 'Беше настроен DNS forwarder. Това означава, че всички обръщения за преобразуване на имена ще бъдат обработвани от DNS forwarder. Имената на хостовете и адресите не могат да бъдат променяни от този сървър докато има настроен DNS forwarder.',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Добави име на хост</a> ',

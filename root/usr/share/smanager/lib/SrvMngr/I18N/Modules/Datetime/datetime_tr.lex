@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Zaman Sunucusunu Etkinleştir',
 'dat_NTP_DISABLE_TITLE' => 'Zaman Sunucusunu Devre dışı bırak',
 'dat_CURRENT_SETTING' => 'Geçerli Ayarlar',
+'dat_Date and time' => 'Tarih ve zaman',

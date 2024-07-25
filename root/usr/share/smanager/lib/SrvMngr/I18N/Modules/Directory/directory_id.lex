@@ -14,3 +14,4 @@
 'dir_SUCCESS' => 'Setting default LDAP telah disimpan.',
 'dir_LEAVE' => 'Biarkan',
 'dir_UPDATE' => 'Mutakhirkan dengan nilai default',
+'dir_Directory' => 'Direktori',

@@ -1,4 +1,5 @@
 'mai_FORM_TITLE' => 'Pengaturan email',
+'mai_E-mail' => 'E-mail',
 'mai_SUCCESS' => 'Setting e-mail yang baru telah disimpan.',
 'mai_NEVER' => 'tidak kedua-duanya',
 'mai_EVERY5MIN' => 'Setiap 5 menit',

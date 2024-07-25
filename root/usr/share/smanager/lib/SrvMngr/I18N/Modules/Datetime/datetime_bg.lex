@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'Включване на мрежови сървър за време',
 'dat_NTP_DISABLE_TITLE' => 'Изключване на мрежови сървър за време',
 'dat_CURRENT_SETTING' => 'Текуща настройка',
+'dat_Date and time' => 'Дата и час',

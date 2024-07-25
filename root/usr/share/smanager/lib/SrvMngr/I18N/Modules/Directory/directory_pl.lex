@@ -14,3 +14,4 @@
 'dir_SUCCESS' => 'Nowe ustawienia katalogu LDAP zostały zapisane.',
 'dir_LEAVE' => 'pozostaw',
 'dir_UPDATE' => 'zaktualizuj z nowymi ustawieniami',
+'dir_Directory' => 'Katalog',

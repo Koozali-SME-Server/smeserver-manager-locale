@@ -33,3 +33,4 @@
 'prt_ERR_DELETING' => 'Napaka occurred while deleting printer.',
 'prt_DELETED_SUCCESSFULLY' => 'Uspesno izbrisan tiskalnik:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Mora biti veljavno ime gostitelja ali IP stevilka',
+'prt_Printers' => 'Tiskalniki',

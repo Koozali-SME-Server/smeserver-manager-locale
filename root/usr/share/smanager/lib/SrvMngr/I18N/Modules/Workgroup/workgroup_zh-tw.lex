@@ -11,3 +11,4 @@
 'wkg_INVALID_WORKGROUP' => '群組名稱必須以字母開頭（大寫或小寫），接著由任意的字母 、 數字 、 底線 、 句號和連字號組成。',
 'wkg_INVALID_SERVERNAME' => '伺服器名稱必須以字母開頭（大寫或小寫），接著由任意的字母 、 數字 、 底線和連字號組成。',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => '當以小寫字母對照伺服器與群組名稱時，為了打開文件分享功能，這些值必須不同。',
+'wkg_Workgroup' => '群組',

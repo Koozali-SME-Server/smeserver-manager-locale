@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => '錯誤：絕對期限必須大於寬限期限。',
 'quo_ERR_MODIFYING' => '在編輯使用者時錯誤。',
 'quo_SUCCESSFULLY_MODIFIED' => '成功修正使用者帳號的限額：',
+'quo_Quotas' => '限額',

@@ -1,3 +1,4 @@
+'hos_Hostnames and addresses' => '主機名稱和位址',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => '無法開啟設定資料庫',
 'hos_DNS_FORWARDER_ENABLED' => 'DNS 轉寄站已被設定。這代表所有 DNS 查詢將由此 DNS 轉寄站來處理。當 DNS 轉寄站被設定後，此伺服務器的主機名稱和位址無法被修改。',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">增加主機名稱</a> ',

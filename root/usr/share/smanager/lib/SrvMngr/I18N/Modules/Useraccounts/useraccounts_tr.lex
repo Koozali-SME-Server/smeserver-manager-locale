@@ -38,6 +38,7 @@
 'usr_REMOVE_DESC2' => ' Bu kullanıcı hesabına ait bütün dosyalar silinecektir. Sunucuda bu kullanıcıya ait bekleyen e-postalar da dahil (örn. kullanıcı tarafından henüz okunmamış mesajlar) iptal edilecektir. </p> <p> <b>Bu kullanıcı hesabını silmek istediğinizden eminmisiniz?</b> ',
 'usr_LOCK' => 'Kilitli',
 'usr_NO_USER_ACCOUNTS' => 'Kullanıcı hesabı bulunamadı.',
+'usr_Users' => 'Kullanıcılar',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => '"{$acctName}" kullancı adı geçersiz karakter içeriyor. Hesap adı küçük harfle başlamalı ve küçük harfler, rakamlar, tire, nokta ve alt çizgi içermelidir.',
 'usr_ACCOUNT_TOO_LONG' => 'Hata: kullanıcı adı çok uzun. En fazla {$maxLength} karakter kullanılabilir.',
 'usr_ACCOUNT_CONFLICT' => 'Hata: "{$account}" hesabı oluşturulamadı çünkü {$type} isimli bir hesap zaten mevcut.',

@@ -1,4 +1,5 @@
 'mai_FORM_TITLE' => 'E-mail beállítások',
+'mai_E-mail' => 'E-mail',
 'mai_SUCCESS' => 'Az új e-mail beállítások lementődtek.',
 'mai_NEVER' => 'egyáltalán nem',
 'mai_EVERY5MIN' => 'Minden 5 percben',

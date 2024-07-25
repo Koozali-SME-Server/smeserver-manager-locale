@@ -14,3 +14,4 @@
 'dir_SUCCESS' => 'The new LDAP default settings have been saved.',
 'dir_LEAVE' => 'Leave as they are',
 'dir_UPDATE' => 'Update with new defaults',
+'dir_Directory' => 'Directory',

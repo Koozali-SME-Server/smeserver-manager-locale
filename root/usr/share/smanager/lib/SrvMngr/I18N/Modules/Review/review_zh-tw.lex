@@ -1,3 +1,4 @@
+'rvw_Review configuration' => '檢視設定',
 'rvw_DESCRIPTION' => '本報告略述關於在您的網段上，設定客戶端電腦所需的本伺服器之網路、伺服器與網域參數。你可能想列印此頁並以此作為參考。',
 'rvw_NETWORKING_PARAMS' => '各網路參數',
 'rvw_SERVER_MODE' => '伺服器模式',
@@ -19,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => '主要的網域',
 'rvw_VIRTUAL_DOMAINS' => '虛擬的網域',
 'rvw_PRIMARY_WEB_SITE' => '主要的網頁站台',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => '伺服器的管理員',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => '使用者密碼面板',
 'rvw_EMAIL_ADDRESSES' => '電郵地址',
 'rvw_EMAIL_USERACCOUNT' => '使用者帳號',
 'rvw_EMAIL_FIRSTNAME' => '名字',

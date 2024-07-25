@@ -12,6 +12,7 @@
 'pf_LABEL_DESTINATION_HOST' => 'หมายเลข IP ของโฮสต์ปลายทาง',
 'pf_LABEL_RULE_COMMENT' => 'หมายเหตุของ Rule',
 'pf_LABEL_ALLOW_HOSTS' => 'โฮสต์ที่อนุญาต',
+'pf_Port forwarding' => 'Port forwarding',
 'pf_SUCCESS' => 'การเก้ไขกฎของ port forwarding ได้รับการบันทึกเรียบร้อยแล้ว',
 'pf_RULE_COMMENT' => 'หมายเหตุของ Rule',
 'pf_ALLOW_HOSTS' => 'โฮสต์ที่อนุญาต',

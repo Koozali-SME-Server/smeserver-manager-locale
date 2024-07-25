@@ -27,6 +27,7 @@
 'rma_INVALID_SUBNET_MASK' => 'Subnet mask cacat',
 'rma_ERR_INVALID_PARAMS' => 'Isikan network dan subnet mask, atau biarkan keduanya kosong.',
 'rma_ERR_NO_RECORD' => 'Tidak dapat menemukan record httpd-admin dalam configuration db',
+'rma_Remote access' => 'Akses jarak jauh',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Konsol serial',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar"/><h2>Konsol Serial</h2> Anda dapat membolehkan akses ke konsol server dari sebuah terminal yang terhubung melalui serial port pada server.',
 'rma_PORT1_ENABLED' => 'Dibolehkan pada port serial 1',

@@ -20,3 +20,4 @@
 'bugr_CONSIDER_DONATING' => 'Proszę rozważyć darowiznę na rzecz projektu, klikając poniższy obrazek z odnośnikiem:',
 'bugr_THANK_YOU' => 'Dziękuję za Twoje wsparcie!',
 'bugr_Download this report' => 'Pobierz ten raport!',
+'bugr_Report a bug' => 'Zgłoś błąd',

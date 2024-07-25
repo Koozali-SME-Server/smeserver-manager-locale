@@ -24,3 +24,4 @@
 'pse_MODIFY_SUCCEEDED' => 'Alias edukalt muudetud',
 'pse_REMOVE_SUCCEEDED' => 'Alias edukalt eemaldatud',
 'pse_EVERYONE' => 'Everyone',
+'pse_Pseudonyms' => 'Aliased',

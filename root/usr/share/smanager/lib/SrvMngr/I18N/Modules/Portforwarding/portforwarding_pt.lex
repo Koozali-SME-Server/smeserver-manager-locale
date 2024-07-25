@@ -12,6 +12,7 @@
 'pf_LABEL_DESTINATION_HOST' => 'Endereço IP do Host de Destino',
 'pf_LABEL_RULE_COMMENT' => 'Comentário',
 'pf_LABEL_ALLOW_HOSTS' => 'Hosts Permitidos',
+'pf_Port forwarding' => 'Redirecionamento de porta',
 'pf_SUCCESS' => 'Sua troca de regra para redirecionamento de porta foi salva com sucesso.',
 'pf_RULE_COMMENT' => 'Comentário',
 'pf_ALLOW_HOSTS' => 'Hosts Permitidos',

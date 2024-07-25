@@ -1,3 +1,4 @@
+'rvw_Review configuration' => 'Granska konfiguration',
 'rvw_DESCRIPTION' => 'Denna rapport summerar nätverk, server och domän parametrar på denna server, som är relevanta för konfigurering av klientdatorer på ditt nätverk. Du kan skriva ut denna sida och använda den som referens.',
 'rvw_NETWORKING_PARAMS' => 'Nätverksparametrar',
 'rvw_SERVER_MODE' => 'Servermod',
@@ -19,6 +20,8 @@
 'rvw_PRIMARY_DOMAIN' => 'Primär domän',
 'rvw_VIRTUAL_DOMAINS' => 'Virtuella domäner',
 'rvw_PRIMARY_WEB_SITE' => 'Primär webbplats',
+'rvw_MITEL_NETWORKS_SME_SERVER_MANAGER' => 'Serverhanterare',
+'rvw_MITEL_NETWORKS_SME_SERVER_USER_PASSWORD_PANEL' => 'Användarnas lösenordspanel',
 'rvw_EMAIL_ADDRESSES' => 'E-postadresser',
 'rvw_EMAIL_USERACCOUNT' => 'användarkonto',
 'rvw_EMAIL_FIRSTNAME' => 'förnamn',

@@ -47,3 +47,4 @@
 'dat_NTP_ENABLE_TITLE' => 'אפשר שרת זמן רשתי',
 'dat_NTP_DISABLE_TITLE' => 'נטרל שרת זמן רשתי',
 'dat_CURRENT_SETTING' => 'הגדרות נוכחיות',
+'dat_Date and time' => 'תאריך ושעה',

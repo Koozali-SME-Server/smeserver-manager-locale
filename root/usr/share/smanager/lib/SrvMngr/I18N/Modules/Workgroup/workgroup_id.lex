@@ -11,3 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'Nama workgroup harus dimulai dengan sebuah huruf (huruf besar atau huruf kecil), diikuti dengan kombinasi apa saja dari huruf, angka, garis bawah, titik dan strip.',
 'wkg_INVALID_SERVERNAME' => 'Nama server harus dimulai dengan sebuah huruf (huruf besar atau huruf kecil), diikuti dengan kombinasi apa saja dari huruf, angka, garis bawah, titik dan strip.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'Nama server dan workgroup sama, ketika dibandingkan dengan menjadikan semua huruf kecil. Keduanya harus berbeda supaya filesharing dapat diaktifkan.',
+'wkg_Workgroup' => 'Workgroup',

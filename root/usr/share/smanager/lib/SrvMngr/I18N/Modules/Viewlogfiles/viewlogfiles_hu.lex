@@ -1,3 +1,4 @@
+'log_View log files' => 'Naplófájlok megtekintése',
 'log_FIRSTPAGE_DESC' => ' Ez a panel lehetővé teszi, hogy megtekintse, vagy letöltse a szolgáltatások által generált naplófájlokat. ',
 'log_LOG_FILE_SELECT_DESC' => 'Válasszon egy naplófájlt a megtekintéshez',
 'log_FILTER_PATTERN_DESC' => ' <p>Opcionálisan meghatározhat egy szűrési feltételt, hogy csak azok a sorok látszódjanak a naplófájlból amelyek megfelelnek a szűrési feltételnek. Ha ezt a mezőt üresen hagyja, minden sor látható lesz. Ez az opció nem működik a naplófájl letöltésekor.</p> ',

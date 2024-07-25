@@ -12,6 +12,7 @@
 'pf_LABEL_DESTINATION_HOST' => 'IP адрес узла назначения',
 'pf_LABEL_RULE_COMMENT' => 'Комментарий к правилу',
 'pf_LABEL_ALLOW_HOSTS' => 'Разрешить узлы',
+'pf_Port forwarding' => 'Перенаправление портов',
 'pf_SUCCESS' => 'Ваши изменения в правилах перенаправления портов были успешно сохранены.',
 'pf_RULE_COMMENT' => 'Комментарий к правилу',
 'pf_ALLOW_HOSTS' => 'Разрешить узлы',

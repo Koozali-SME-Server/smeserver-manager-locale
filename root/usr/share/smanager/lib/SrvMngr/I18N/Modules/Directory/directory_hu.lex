@@ -14,3 +14,4 @@
 'dir_SUCCESS' => 'Az új LDAP alapértelmezések le lettek mentve.',
 'dir_LEAVE' => 'Változatlanul hagyni',
 'dir_UPDATE' => 'Az új beállítások használata',
+'dir_Directory' => 'Címtár',

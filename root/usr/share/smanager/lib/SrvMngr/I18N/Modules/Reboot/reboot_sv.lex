@@ -7,3 +7,4 @@
 'rbo_DESC_SHUTDOWN' => 'Din server har initierat en avstängningsprocess. Processen kommer pågå i flera minuter och därefter kan du stänga av strömmen.',
 'rbo_LABEL_REBOOT' => 'Välj Avstängning, Omstart eller Omkonfigurering',
 'rbo_DESCRIPTION' => ' Du kan starta om, stänga av eller utföra en fullständig omkonfigurering av systemet från denna skärm. Du måste genomföra en avstängning före det att du stänger av strömmen. Alla dessa funktioner tar flera minuter att genomföra. När du klickar på <b>Verkställ</b> kommer funktionen att påbörjas omedelbart, var beredd! ',
+'rbo_Reboot or shutdown' => 'Avstängning eller omstart',

@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => '错误：绝对限制必须大于宽限额度。',
 'quo_ERR_MODIFYING' => '在编辑用户时出错。',
 'quo_SUCCESSFULLY_MODIFIED' => '成功为编辑了用户的磁盘配额：',
+'quo_Quotas' => '磁盘配额',

@@ -24,3 +24,4 @@
 'pse_MODIFY_SUCCEEDED' => 'Successfully modified pseudonym',
 'pse_REMOVE_SUCCEEDED' => 'Successfully removed pseudonym',
 'pse_EVERYONE' => 'Everyone',
+'pse_Pseudonyms' => 'Pseudonyms',

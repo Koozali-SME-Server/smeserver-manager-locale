@@ -11,3 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'Namnet på arbetsgruppen måste börja med en bokstav (versal eller gemen), följt av en kombination av bokstäver, siffror, understreck, punkter eller bindestreck.',
 'wkg_INVALID_SERVERNAME' => 'Namnet på servern måste börja med en bokstav (versal eller gemen), följt av en kombination av bokstäver, siffror, understreck eller bindestreck.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'Servernamnet och arbetsgruppsnamnet matchar när man jämför dessa som gemener. Dessa värden måste vara olika för att fildelning skall kunna fungera.',
+'wkg_Workgroup' => 'Arbetsgrupp',

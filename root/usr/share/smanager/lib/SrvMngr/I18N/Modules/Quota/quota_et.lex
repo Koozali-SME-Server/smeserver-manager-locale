@@ -23,3 +23,4 @@
 'quo_ERR_HARD_LT_SOFT' => 'VIGA: absoluutne limiit peab olema suurem kui hoiatuslimiit.',
 'quo_ERR_MODIFYING' => 'Kasutaja muutmisel ilmnes viga.',
 'quo_SUCCESSFULLY_MODIFIED' => 'Kasutajakonto kettaruumi kasutamine edukalt muudetud:',
+'quo_Quotas' => 'Kettakasutus',

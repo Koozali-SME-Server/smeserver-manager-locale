@@ -27,6 +27,7 @@
 'rma_INVALID_SUBNET_MASK' => 'Érvénytelen alhálózati maszk',
 'rma_ERR_INVALID_PARAMS' => 'Adja meg a hálózatot és az alhálózati maszkot is, vagy hagyja mindkét mezőt üresen.',
 'rma_ERR_NO_RECORD' => 'Nem lehet megtalálni a http-admin rekordot a konfigurációs adatbázisban',
+'rma_Remote access' => 'Távoli hozzáférés',
 'rma_LABEL_SERIAL_CONSOLE_ACCESS' => 'Soros konzol',
 'rma_DESC_SERIAL_CONSOLE_ACCESS' => ' <hr class="sectionbar" /><h2>Soros konzol</h2> Engedélyezheti a hozzáférést a szerver konzolhoz egy szerverre kapcsolt soros terminálon keresztül.',
 'rma_PORT1_ENABLED' => 'Engedélyezve az 1. soros porton',

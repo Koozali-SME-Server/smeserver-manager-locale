@@ -7,3 +7,4 @@
 'rbo_DESC_SHUTDOWN' => 'Serverul rulează procedurile de inchidere. După cateva minute puteti inchide și alimentarea de la buton.',
 'rbo_LABEL_REBOOT' => 'Alegeți Închidere, Repornire sau Reconfigurare',
 'rbo_DESCRIPTION' => ' Din acest meniu puteți reporni, opri serverul sau să faceti reconfigurarea completă a sistemului. Trebuie sa utilizati procedura de oprire înainte de a tăia alimentarea cu energie electrică. Aceste proceduri durează câteva minute. Când apăsați <b>efectuează</b> procedurile vor fi inițiate imediat, deci fiți pregătiți! ',
+'rbo_Reboot or shutdown' => 'Repornire sau închidere',

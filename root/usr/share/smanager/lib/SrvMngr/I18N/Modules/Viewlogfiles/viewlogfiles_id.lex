@@ -1,3 +1,4 @@
+'log_View log files' => 'Lihat log file',
 'log_FIRSTPAGE_DESC' => ' Panel ini berfungsi untuk melihat atau men-download log file yang dibuat oleh layanan yang berjalan di server anda. ',
 'log_LOG_FILE_SELECT_DESC' => 'Pilih sebuah log file untuk dilihat',
 'log_FILTER_PATTERN_DESC' => ' <p>Anda dapat secara opsional menentukan sebuah pattern filter untuk menampilkan hanya baris -baris dari log file yang cocok dengan pattern ini. Jika anda membiarkan field ini kosong, semua baris dari log file akan ditampilkan. Harap catat bahwa pilihan ini tidak berlaku jika anda mendownload logfile tersebut.</p> ',

@@ -1,3 +1,4 @@
+'prx_Proxy settings' => 'Setări Proxy',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Această pagină permite configurarea setărilor de Proxy. Serverul conține un Proxy transparent și cache pentru traficul HTTP. Acesta este activ implicit, dar nu este activ pentur configurarea serverului în mod &quot;serveronly&quot;. Dacă acest server funționează ca server de mail, toate mailuriel utilizatorilor vor trece prin serverul intern.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'Proxy-ul serverului este menit să reducă utilizarea totală a accesului prin păstrarea paginilor recent vizitate. Este transparent pentru clientii de internet ce utilizează acest server ca releu. Activați sau dezactivați proxy-ul prin comutatorul următor.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'Statutul HTTP proxy',

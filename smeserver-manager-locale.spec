@@ -55,9 +55,9 @@ SME Server Manager 2 localisation module (smeserver-manager)
 
 %install
 rm -rf $RPM_BUILD_ROOT
-(cd root   ; find . -depth -print | cpio -dump $RPM_BUILD_ROOT)
+(cd root   ; find . -not -name "*.po" -depth -print | cpio -dump $RPM_BUILD_ROOT)
 
-/sbin/e-smith/genfilelist $RPM_BUILD_ROOT \
+/sbin/e-smith/genfilelist $RPM_BUILD_ROOT | grep -v pofiles \
     > %{name}-%{version}-%{release}-filelist
 
 for locale in %{package_locales}

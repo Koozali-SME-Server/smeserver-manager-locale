@@ -18,3 +18,4 @@
 'qma_INVALID_REPORT_TYPE' => 'Tipo de relatório inválido:',
 'qma_REPORT_GENERATED' => 'Relatório gerado:',
 'qma_END_OF_REPORT' => 'Fim de Relatório',
+'qma_Mail log file analysis' => 'Análise de arquivo do log do sistema de correio',

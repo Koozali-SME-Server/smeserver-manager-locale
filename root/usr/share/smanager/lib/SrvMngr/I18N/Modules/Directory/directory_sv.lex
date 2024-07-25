@@ -14,3 +14,4 @@
 'dir_SUCCESS' => 'De nya förvalda LDAP-inställningarna har sparats.',
 'dir_LEAVE' => 'Lämna som de är',
 'dir_UPDATE' => 'Uppdatera med de nya förvalda inställningarna',
+'dir_Directory' => 'Katalog',

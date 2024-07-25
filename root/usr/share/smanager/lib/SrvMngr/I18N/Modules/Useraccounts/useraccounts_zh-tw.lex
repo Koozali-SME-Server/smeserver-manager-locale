@@ -38,6 +38,7 @@
 'usr_REMOVE_DESC2' => '此使用者帳號的所有檔案將被刪除。而且，伺服器上此使用者帳號既有有的電郵（例如：尚未由使用者取回）將被遺棄。</p> <p> <b>您確定您想要移除此帳號？</b> ',
 'usr_LOCK' => '鎖定',
 'usr_NO_USER_ACCOUNTS' => '此系統無使用者帳號。',
+'usr_Users' => '使用者',
 'usr_ACCT_NAME_HAS_INVALID_CHARS' => '此帳號名稱"{$acctName}"包含無效字元。帳號名稱必須以小寫字母起頭，而且僅能包含小寫字母、數字、連字符、句號和底線。',
 'usr_ACCOUNT_TOO_LONG' => '錯誤：賬號名稱太長。最多{$maxLength}個字元。',
 'usr_ACCOUNT_CONFLICT' => '錯誤：賬號"{$account}"無法建立，因為此帳號名稱{$type}已經存在。',

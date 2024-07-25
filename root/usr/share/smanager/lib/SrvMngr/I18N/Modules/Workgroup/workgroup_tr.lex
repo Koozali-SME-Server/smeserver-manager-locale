@@ -11,3 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'Çalışma gurubu adı harf ile başlamalıdır ( büyük veya küçük harf ), devamında harfler, sayılar, alt çizgi, nokta ve tire kullanılabilir.',
 'wkg_INVALID_SERVERNAME' => 'Sunucu adı harf ile başlamalıdır ( büyük veya küçük harf ), devamında harfler, sayılar, alt çizgi ve tire kullanılabilir.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'Sunucu ve çalışma grubu adları küçük harf olarak kaşılaştırıldığında aynıdır. Dosya paylaşımın yapılabilmesi için bu iki isim bir birinden farklı olmalıdır.',
+'wkg_Workgroup' => 'Çalışma gurubu',

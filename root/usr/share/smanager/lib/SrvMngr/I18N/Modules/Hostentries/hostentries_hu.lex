@@ -1,3 +1,4 @@
+'hos_Hostnames and addresses' => 'Kiszolgálónevek és címek',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'A konfigurációs adatbázis nem nyitható meg',
 'hos_DNS_FORWARDER_ENABLED' => 'A DNS továbbító konfigurálva lett. Ez azt jelenti, hogy minden DNS kérés a DNS továbbítónak megy. A kiszolgálónevek és IP címek addig nem módosíthatók ezen a szerveren, amíg a DNS továbbitó be van állítva.',
 'hos_ADD_HOSTNAME' => ' <a class="button-like" href="hostentries?page=0&page_stack=&Next=Next&wherenext=CreateModify">Kiszolgálónév hozzáadása</a> ',
