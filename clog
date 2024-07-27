@@ -1,0 +1,2 @@
+* Tue Jul 23 2024 Brian Read <brianr@koozali.org> 11.0.0-4.sme
+- Add in .po files and make some fixes to lex files [SME: 12713]
