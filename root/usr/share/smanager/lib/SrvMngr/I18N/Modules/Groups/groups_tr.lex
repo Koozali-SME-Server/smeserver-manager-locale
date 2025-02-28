@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Kısa Açıklama/Windows Grubu Takma Adı',
 'grp_GROUP_DESC_EXPL' => 'Aşağıdaki alana kısa bir grup açıklaması giriniz. Bu alan aynı zamanda Windows istemcileri tarafından görülebilen grup adıdır.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Listedeki i-bays bu guruba bağlanmıştır ve Yönetici gurubuna bağlamıştır (daha sonra bunların bağlı olduğu gurubu değiştirebilirsiniz):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Bu gurubu silmek istediğinizden eminmisiniz?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Mevcut Kullanıcı Gurupların listesi</p>',
-'grp_DELETE_DESCRIPTION' => ' "<b>{$group}</b> gurubunu silmek üzeresiniz." ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Bu gurubu silmek istediğinizden eminmisiniz?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Mevcut Kullanıcı Gurupların listesi</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' "{$group} gurubunu silmek üzeresiniz." ',

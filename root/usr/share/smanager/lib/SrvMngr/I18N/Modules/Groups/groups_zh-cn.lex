@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => '简介/Windows组别名',
 'grp_GROUP_DESC_EXPL' => '在下面的位置中输入一个简短的组说明，这个位置也可被Windows客户端查看。',
 'grp_IBAYS_WILL_BE_CHANGED' => '以下i-bay已被分配到此组，并且将被指定为管理员组（您可以稍后修改它们）：',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>是否要删除这个组？</b></p> ',
-'grp_CURRENT_LIST' => '<p>当前用户组列表</p>',
-'grp_DELETE_DESCRIPTION' => ' 即将删除用户组 "<b>{$group}</b>。" ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>是否要删除这个组？</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>当前用户组列表</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' 即将删除用户组 "{$group}。" ',

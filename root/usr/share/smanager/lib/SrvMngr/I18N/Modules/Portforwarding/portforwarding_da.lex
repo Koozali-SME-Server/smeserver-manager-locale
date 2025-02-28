@@ -1,11 +1,17 @@
 'pf_FORM_TITLE' => 'Indstil port-viderestilling',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Du kan bruge dette panel til, at ændre brandmurens regler, som at åbne en bestemt port på serveren og viderestille den til en anden port hos en anden vært. Det vil medføre at indkommende trafik får direkte adgang til en privat vært på lokalnet. </p> <p> ADVARSEL: Fejlagtig brug af denne funktion kan kompromittere dit netværks sikkerhed. Brug denne funktion med forsigtighed og ikke uden at forstå hvad det indebærer. </p> ',
+'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Du kan bruge dette panel til, at ændre brandmurens regler, som at åbne en bestemt port på serveren og viderestille den til en anden port hos en anden vært. Det vil medføre at indkommende trafik får direkte adgang til en privat vært på lokalnet. </p>
+
+  <p> ADVARSEL: Fejlagtig brug af denne funktion kan kompromittere dit netværks sikkerhed. Brug denne funktion med forsigtighed og ikke uden at forstå hvad det indebærer. </p>
+
+  ',
 'pf_CREATE_RULE' => 'Opret en regel for port-viderestilling',
 'pf_SUMMARY_ADD_DESC' => 'Det følgende er en regel for port-viderestilling, som du er ved at tilføje. Er du tilfreds med reglen, klik på &quot;Tilføj&quot; knappen. Er du ikke, klik på &quot;Fortryd&quot; knappen.',
 'pf_SUMMARY_REMOVE_DESC' => 'Det følgende er en regel for port-viderestilling, som du er ved at fjerne. Er du sikker på at du vil fjerne reglen, klik på &quot;Fjern&quot; knappen. Hvis ikke, klik på &quot;Fortryd&quot; knappen.',
 'pf_SHOW_FORWARDS' => 'Nedenfor finder du en tabel, der sammenstiller de aktuelle regler for viderestilling af porte på denne server. Klik på &quot;Fjern&quot; knappen for at fjerne tilhørende regel.',
 'pf_NO_FORWARDS' => 'Der er ingen viderestillede porte i systemet.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Vælg protokol, den port du ønsker at viderestille, mål vært, og den port på værten du ønsker at viderestille til. Ønsker du at angive et port-område, angiv den laveste og højeste værdi adskilt af bindestreg. Mål-porten kan efterlades tom, hvilket vil instruere brandmuren til at efterlade kildeporten upåvirket.</p> ',
+'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Vælg protokol, den port du ønsker at viderestille, mål vært, og den port på værten du ønsker at viderestille til. Ønsker du at angive et port-område, angiv den laveste og højeste værdi adskilt af bindestreg. Mål-porten kan efterlades tom, hvilket vil instruere brandmuren til at efterlade kildeporten upåvirket.</p>
+
+  ',
 'pf_LABEL_SOURCE_PORT' => 'Kilde port(e)',
 'pf_LABEL_PROTOCOL' => 'Protokol',
 'pf_LABEL_DESTINATION_PORT' => 'Mål port(e)',

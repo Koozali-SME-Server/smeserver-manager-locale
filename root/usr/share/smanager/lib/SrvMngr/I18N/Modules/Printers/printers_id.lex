@@ -1,5 +1,7 @@
 'prt_FORM_TITLE' => 'Tambah atau hapus printer',
-'prt_INITIAL_DESC' => ' <p><A class="button-like" HREF="printers?page=0&Next=Add">Tambah pinter</A></p> ',
+'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Tambah pinter</a></p>
+
+  ',
 'prt_NO_PRINTERS' => 'Tidak ada printer dalam sistem',
 'prt_CURRENT_LIST' => 'Daftar Printer',
 'prt_REMOTE_ADDRESS' => 'Alamat remote',
@@ -13,7 +15,11 @@
 'prt_NET_PRINTER' => 'Printer jaringan ...',
 'prt_FIRST_USB_PRINTER' => 'Printer terpasang pada USB pertama',
 'prt_SECOND_USB_PRINTER' => 'Printer terpasang pada USB kedua',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>Error: terdapat karakter yang tidak dibolehkan pada nama printer.</p> <p>Nama printer hanya boleh terdiri dari huruf kecil dan angka, dan harus dimulai dengan huruf kecil. contoh "hplaser", "epsonlp", and "canonbj" adalah nama yang valid.</p> ',
+'prt_ERR_UNEXPECTED_NAME' => ' <p>Error: terdapat karakter yang tidak dibolehkan pada nama printer.</p>
+
+  <p>Nama printer hanya boleh terdiri dari huruf kecil dan angka, dan harus dimulai dengan huruf kecil. contoh "hplaser", "epsonlp", and "canonbj" adalah nama yang valid.</p>
+
+  ',
 'prt_ERR_UNEXPECTED_DESC' => 'Error: terdapat karakter yang tidak dibolehkan atau hilang pada keterangan. Tidak menambah printer.',
 'prt_ERR_EXISTS' => 'Error: Akun sudah ada dengan jenis:',
 'prt_ERR_INVALID_ADDRESS' => 'Error: alamat network salah. Tidak membuat printer baru.',

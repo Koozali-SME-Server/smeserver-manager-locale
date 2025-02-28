@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Descriere sumară/Alias de grup Windows',
 'grp_GROUP_DESC_EXPL' => 'Introduceți o scurtă descriere în câmpul de dedesupt. Acest câmp este deasemenea numele grupului vizibil in clienții Windows',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Următoarele i-bay-uri erau asignate acestui grup și vor fi alocate grupului administratorilor (le puteți modifica mai târziu după dorință): ',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Sunteți sigur(ă) că vreți să ștergeți acest grup?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Lista curentă de grupuri</p>',
-'grp_DELETE_DESCRIPTION' => ' Sunteți pe cale să ștergeți grupul "<b>{$group}</b>." ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Sunteți sigur(ă) că vreți să ștergeți acest grup?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Lista curentă de grupuri</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Sunteți pe cale să ștergeți grupul "{$group}." ',

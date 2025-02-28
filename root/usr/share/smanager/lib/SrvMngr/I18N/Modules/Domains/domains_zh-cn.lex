@@ -1,5 +1,7 @@
 'dom_FORM_TITLE' => '域名管理',
-'dom_FORM_DESCRIPTION' => ' <p>每当创建一个域名，服务器将会收到一份该域名的邮件，并可以为此域名建立网站。</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">添加域名</a> ',
+'dom_FORM_DESCRIPTION' => ' <p>每当创建一个域名，服务器将会收到一份该域名的邮件，并可以为此域名建立网站。</p>
+
+  <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">添加域名</a> ',
 'dom_NO_VIRTUAL_DOMAINS' => '系统中暂时还没有域名。',
 'dom_CURRENT_LIST_OF_DOMAINS' => '当前域名列表',
 'dom_PRIMARY_SITE' => '主站点',
@@ -15,11 +17,17 @@
 'dom_NONEXISTENT_DOMAIN_ERROR' => '错误: {$domainName} 已经存在。',
 'dom_SUCCESSFULLY_MODIFIED' => '成功修改了域名{$domainName}。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。',
 'dom_REMOVE_TITLE' => '删除域名',
-'dom_REMOVE_DESCRIPTION' => ' <p> 即将删除域名 {$domain} ({$domainDesc}). </p> <p> <b>是否真的要删除这个域名？</b> </p> ',
+'dom_REMOVE_DESCRIPTION' => ' <p> 即将删除域名 {$domain} ({$domainDesc}). </p>
+
+  <p> <b>是否真的要删除这个域名？</b> </p>
+
+  ',
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => '错误：删除域名 {$domain} 时出现内部错误。',
 'dom_SUCCESSFULLY_DELETED' => '成功删除域名{$domain}。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。',
-'dom_DESC_CORPORATE_DNS_CURRENT' => ' <hr class="sectionbar" /><h2>Corporate DNS 设置</h2> ',
-'dom_BUTTON_CORPORATE_DNS' => ' <p>如果服务器不访问因特网，或者您对于DNS解析有特别的需要，请在此处输入DNS服务器IP地址。您不需要在此处输入ISP的DNS服务器地址，因为本服务器可以解析所有因特网域名而不需要附加设置。</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">修改DNS设置</a> ',
+'dom_DESC_CORPORATE_DNS_CURRENT' => ' Corporate DNS 设置 ',
+'dom_BUTTON_CORPORATE_DNS' => ' <p>如果服务器不访问因特网，或者您对于DNS解析有特别的需要，请在此处输入DNS服务器IP地址。您不需要在此处输入ISP的DNS服务器地址，因为本服务器可以解析所有因特网域名而不需要附加设置。</p>
+
+  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">修改DNS设置</a> ',
 'dom_DESC_CORPORATE_DNS' => '如果服务器没有接入因特网，或者对于DNS解析有特别的需要，请在此处输入DNS服务器的IP地址。除非有特别的原因，这些字段应该留空。您不需要在此处输入ISP的DNS服务器，因为本服务器可以解析所有因特网域名而不需要额外设置。',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => '主DNS服务器',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => '第二DNS服务器',

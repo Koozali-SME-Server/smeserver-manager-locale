@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Operatsiooni tulemus',
 'ACCOUNT' => 'Konto',
 'GROUP' => 'Grupp',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Pipe sümboleid (|) pole siin väljal lubatud',
 'ERROR_BELOW' => 'VIGA: Lehe valideerimisel ilmnes viga. Probleemi kirjeldus lehe lõpus.',
 'ACCESS' => 'Juurdepääs',

@@ -1,9 +1,13 @@
 'log_View log files' => 'Просмотр логфайлов',
 'log_FIRSTPAGE_DESC' => ' Эта панель позволяет просматривать или скачивать файлы журналов, созданные службами работающим на сервере ',
 'log_LOG_FILE_SELECT_DESC' => 'Выберите лог файл для просмотра',
-'log_FILTER_PATTERN_DESC' => ' <p>You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile.</p> ',
+'log_FILTER_PATTERN_DESC' => ' <p>You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile.</p>
+
+  ',
 'log_FILTER_PATTERN_LABEL' => 'Шаблон фильтра (необязательный)',
-'log_MATCH_PATTERN_DESC' => ' <p>You may also optionally specify a highlight pattern to mark in bold any lines from the log file which match the highlight pattern. The highlight pattern is applied to any lines which have already matched the filter pattern. Note that this option is not used if you download the logfile.</p> ',
+'log_MATCH_PATTERN_DESC' => ' <p>You may also optionally specify a highlight pattern to mark in bold any lines from the log file which match the highlight pattern. The highlight pattern is applied to any lines which have already matched the filter pattern. Note that this option is not used if you download the logfile.</p>
+
+  ',
 'log_MATCH_PATTERN_LABEL' => 'Шаблон подсветки (необязательный)',
 'log_END_DESC' => 'Обратите внимание, что это может занять некоторое время для формирования этих отчётов.',
 'log_VIEW' => 'Просмотр логфайла',
@@ -12,9 +16,17 @@
 'log_MATCH_HEADER' => 'Показаны строки соответствующие: "{$matchPattern}".',
 'log_HIGHLIGHT_HEADER' => 'Подсветить строки соответствующие: "{$highlightPattern}".',
 'log_NO_MATCHING_LINES' => 'Нет совпадающих строк.',
-'log_FILENAME_ERROR' => ' <p>Ошибка при указании имени логфайла.</p> <p>Неверный тип отчёта "{$filename}".</p> ',
+'log_FILENAME_ERROR' => ' <p>Ошибка при указании имени логфайла.</p>
+
+  <p>Неверный тип отчёта "{$filename}".</p>
+
+  ',
 'log_REFRESH' => 'Обновить этот логфайл',
-'log_OP_DESC' => ' <p>Вы должны выбрать между просмотром лог-файла в вашем браузере или загрузкой лог-файла на ваш компьютер. Если лог-файл особенно велик, вы можете загрузить его вместо того чтобы попытаться открыть его в браузере, так как это является проблемой для некоторых веб-браузеров.</p> ',
+'log_OP_DESC' => ' <p>Вы должны выбрать между просмотром лог-файла в вашем браузере или загрузкой лог-файла на ваш компьютер. Если лог-файл особенно велик, вы можете загрузить его вместо того чтобы попытаться открыть его в браузере, так как это является проблемой для некоторых веб-браузеров.</p>
+
+  ',
 'log_OP_LABEL' => 'Действие',
-'log_DOWNLOAD_PAGE_DESC' => ' <p>Your logfile download is now prepared. It will proceed as soon as you click on the &quot;Next&quot; button below, and instruct your browser to accept the download via the pop-up window that will appear.</p> ',
+'log_DOWNLOAD_PAGE_DESC' => ' <p>Your logfile download is now prepared. It will proceed as soon as you click on the &quot;Next&quot; button below, and instruct your browser to accept the download via the pop-up window that will appear.</p>
+
+  ',
 'log_DOWNLOAD_FILE' => 'Подготовка к загрузке логфайла {$logfile}.',

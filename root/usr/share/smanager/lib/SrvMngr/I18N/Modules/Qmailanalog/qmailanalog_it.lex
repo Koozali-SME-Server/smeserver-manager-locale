@@ -1,5 +1,9 @@
 'qma_FORM_TITLE' => 'Analisi File di Log Posta',
-'qma_INITIAL_DESC' => ' <p>L\'analisi dei file di log del sistema di posta permette sia di valutare le prestazioni che di diagnosticare eventuali problemi di consegna. Sono disponibili diversi rapporti.</p> <p>Potrebbero essere necessari alcuni minuti per generare questi rapporti.</p> ',
+'qma_INITIAL_DESC' => ' <p>L\'analisi dei file di log del sistema di posta permette sia di valutare le prestazioni che di diagnosticare eventuali problemi di consegna. Sono disponibili diversi rapporti.</p>
+
+  <p>Potrebbero essere necessari alcuni minuti per generare questi rapporti.</p>
+
+  ',
 'qma_REPORT_TYPE' => 'Selezionare il tipo di rapporto',
 'qma_GENERATE_REPORT' => 'Genera rapporto',
 'qma_LIST_OUTGOING' => 'Elenca messaggi in uscita e destinatari',

@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Statusbericht',
 'ACCOUNT' => 'Benutzerkonto',
 'GROUP' => 'Benutzergruppe',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Pipe-Symbole (|) sind in diesem Feld nicht erlaubt',
 'ERROR_BELOW' => 'FEHLER: Es gab einen Fehler mit der Gültigkeitsprüfung auf dieser Seite. Bitte navigieren Sie durch diese Seite und finden Sie das Problem.',
 'ACCESS' => 'Zugriff',

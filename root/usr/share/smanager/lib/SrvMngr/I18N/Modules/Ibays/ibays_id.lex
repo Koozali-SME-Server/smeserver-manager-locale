@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Buat, ubah atau hapus i-bay.',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Buat i-bay</a> </p> <p> Anda dapat menghapus information bay atau me-reset password-nya dengan meng-klik pada command yang ada di sebelah information bay. Jika warna information bay adalah merah, itu berarti password belum diubah dari default, dan harus diubah secepatnya. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Buat i-bay</a> </p>
+
+  <p> Anda dapat menghapus information bay atau me-reset password-nya dengan meng-klik pada command yang ada di sebelah information bay. Jika warna information bay adalah merah, itu berarti password belum diubah dari default, dan harus diubah secepatnya. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Buat atau mengubah i-bay.',
 'iba_NAME_FIELD_DESC' => 'Nama information bay hanya boleh berisi huruf kecil, angka, titik, min (hyphen), dan garis bawah (underscore), dan harus dimulai dengan huruf kecil. Contoh yang benar :"johnson","intra" dan "cust3.prj12". Sedangkan "3associates","John Smith" dan "Bus!Partner" adalah salah. Panjang nama dibatasi {$maxLength} karakter.',
 'iba_NAME_LABEL' => 'Nama Information Bay',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Jalankan konten dinamis (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Force secure connections',
 'iba_REMOVE_TITLE' => 'Hapus information bay',
-'iba_REMOVE_DESC' => ' <p> Anda akan manghapus information bay "{$name}" ({$description}). </p> <p> Semua file pada information bay ini akan dihapus. </p> <p> Anda yakin menghapus information bay ini? </p> ',
+'iba_REMOVE_DESC' => ' <p> Anda akan manghapus information bay "{$name}" ({$description}). </p>
+
+  <p> Semua file pada information bay ini akan dihapus. </p>
+
+  <p> Anda yakin menghapus information bay ini? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Error saat membuat i-bay',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Berhasil membuat i-bay.',
 'iba_NO_IBAYS' => 'Tidak ada i-bay yang dikonfigurasi saat ini.',
@@ -17,7 +27,9 @@
 'iba_CANT_CREATE_IBAY' => 'Tak dapat membuat akun baru dengan nama {$name} (apakah nama tsb sudah ada?)',
 'iba_ERROR_WHILE_MODIFYING_IBAY' => 'Error saat mengubah i-bay.',
 'iba_SUCCESSFULLY_MODIFIED_IBAY' => 'Berhasil mengubah i-bay.',
-'iba_VIRTUAL_HOST_MESSAGE' => ' <p>Virtual domain berikut ini menggunakan information bay ini sebagai konten dan akan diubah ke primary web (anda dapat mengubahnya kelak):</p> <ul>{$vhostList}</ul> ',
+'iba_VIRTUAL_HOST_MESSAGE' => ' <p>Virtual domain berikut ini menggunakan information bay ini sebagai konten dan akan diubah ke primary web (anda dapat mengubahnya kelak):</p>
+
+  <ul>{$vhostList}</ul> ',
 'iba_SUCCESSFULLY_DELETED_IBAY' => 'Berhasil menghapus i-bay.',
 'iba_ERROR_WHILE_DELETING_IBAY' => 'Error saat menghapus i-bay.',
 'iba_PASSWORD_DESC' => 'Anda akan mengubah password i-bay {$name}.',
@@ -25,7 +37,9 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Password tidak sama.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Berhasil mengubah password.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Error saat mengubah password.',
-'iba_VHOST_MESSAGE' => ' <p>The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):</p> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' <p>The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):</p>
+
+  <ul>{$vhostList}</ul> ',
 'iba_Information bays' => 'Information bays',
 'iba_WGRG' => 'Write = group, Read = group',
 'iba_WGRE' => 'Write = group, Read = everyone',
@@ -39,5 +53,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Error: karakter tak diharapkan atau hilang pada keterangan i-bay',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Nama i-bay"{$acctName}" mengandung karakter yang tidak dibolehkan. Nama I-bay harus dimulai dengan huruf kecil dan hanya mengandung huruf kecil, angka, dan hyphen (tanda minus).',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Nama i-bay "{$name}" terlalu panjang. Maksimum adalah {$maxIbayNameLength} karakter.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Akun "{$acctName}" bentrok dengan detail pseudonym untuk {$acctType} akun "{$acct}". <p>{$acctName} adalah pseudonym untuk {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Akun "{$acctName}" bentrok dengan detail pseudonym untuk {$acctType} akun "{$acct}". {$acctName} adalah pseudonym untuk {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'Akun "{$acctName}" adalah akun{$acctType} yang telah ada.',

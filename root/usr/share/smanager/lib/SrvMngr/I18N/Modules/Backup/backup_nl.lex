@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Backup of herstel server data',
-'bac_BACKUP_DESC' => ' <P>De server heeft twee manieren van backup en herstellen van uw server.</P><P>De eerste methode creëert een kopie van de server configuratie en gebruikers bestanden en download het naar het bureaublad over uw webbrowser. Op dit moment is de omvang van uw configuratie en gebruikers bestanden ongeveer <b>$tarsize</b>. Het backup bestand zal wat kleiner zijn afhankelijk van hoe de bestanden te comprimeren zijn. De \"Controleer bureaublad backup bestand\" optie kan gebruikt worden om de integriteit van het backup bestand te testen.</P><P>De tape backup methode gebruikt een software pakket genaamd <I>$module</I> om elke nacht de volledige harddisk naar tape te schrijven. Dit vereist een een ondersteunde tape drive en een tape die niet beveiligd is tegen schrijven. De backup wordt automatisch uitgevoerd op de ingestelde tijd \'s nachts (met een herinnering e-mail naar de beheerder gedurende de dag). Op dit moment bevat uw vaste schijfstation <b>$dumpsize</b> aan data.</P> <P>Beide methodes maken herstellen van configuratie en gebruikers bestanden mogelijk. <b>Het verdient de voorkeur de herstel operatie uit te voeren op een vers geïnstalleerde server</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Er worden drie methoden aangeboden om uw server te backuppen en herstellen: gebruik maken van een tape drive, gebruik maken van een gedeelde netwerkschijf of een lokale verwisselbare schijf, of gebruik maken van je lokale bureaublad.</P> <P>Tape Backup: Deze methode maakt gebruik van een software pakket genaamd <I>$module</I> om uw gehele harddisk elke nacht naar tape te schrijven. Hiervoor is een ondersteunde tape drive nodig en een tape welke niet schrijfbeveiligd is. De backup wordt elke nacht automatisch op de geselecteerde tijd uitgevoerd (met een automatische herinnering welke gedurende de dag per e-mail aan de beheerder gestuurd wordt). Momenteel bevat uw hard disk <b>$dumpsize</b> aan gegevens.</P> <P>Werkstation Backup: Deze methode maakt gebruik van een software pakket genaamd <I>dar</I> om uw configuratie- en gegevensbestanden elke nacht naar een gedeelde netwerkschijf of een lokale verwisselbare schijf zoals een USB schijf. U kunt instellen hoeveel roterende backup sets worden bewaard, en hoeveel incrementele backups er in elke set zijn. De backup wordt dagelijks automatisch uitgevoerd op de geselecteerde tijd. De huidige ongecomprimeerde configuratie- en gegevensbestandgrootte is ongeveer <b>$tarsize</b>. Op de gedeelde backup schijf moet ongeveer twee maal de gecomprimeerde gegevensgrootte beschikbaar zijn.</P> <P>Backup naar Bureaublad: Deze methode maakt een kopie van uw configuratie- en gegevensbestanden, en download deze naar uw lokale desktop via uw webbrowser. De huidige configuratie- en gegevensbestandsgrootte is ongeveer <b>$tarsize</b>. Het backup bestand zal iets kleiner zijn, afhankelijk van de comprimeerbaarheid van de gegevens. Dit bestand kan gebruikt worden om uw server te herstellen vanaf het console wanneer u het bestand kopieert naar een lokale verwisselbare schijf, zoals een USB-schijf.</P> <P>Alle backup methoden maken het mogelijk uw configuratie en gegevensbestanden te herstellen. Werkstation Backup biedt daarnaast ook de mogelijkheid individuele bestanden te herstellen. <b>Bij voorkeur dient U een volledig herstel uit te voeren op een schoon geïnstalleerde server</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>De server heeft twee manieren van backup en herstellen van uw server.</p>
+
+  <p>De eerste methode creëert een kopie van de server configuratie en gebruikers bestanden en download het naar het bureaublad over uw webbrowser. Op dit moment is de omvang van uw configuratie en gebruikers bestanden ongeveer <b>[_3]</b>. Het backup bestand zal wat kleiner zijn afhankelijk van hoe de bestanden te comprimeren zijn. De \"Controleer bureaublad backup bestand\" optie kan gebruikt worden om de integriteit van het backup bestand te testen.</p>
+
+  <p>De tape backup methode gebruikt een software pakket genaamd <i>[_1]</i> om elke nacht de volledige harddisk naar tape te schrijven. Dit vereist een een ondersteunde tape drive en een tape die niet beveiligd is tegen schrijven. De backup wordt automatisch uitgevoerd op de ingestelde tijd \'s nachts (met een herinnering e-mail naar de beheerder gedurende de dag). Op dit moment bevat uw vaste schijfstation <b>[_2]</b> aan data.</p>
+
+  <p>Beide methodes maken herstellen van configuratie en gebruikers bestanden mogelijk. <b>Het verdient de voorkeur de herstel operatie uit te voeren op een vers geïnstalleerde server</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Er worden drie methoden aangeboden om uw server te backuppen en herstellen: gebruik maken van een tape drive, gebruik maken van een gedeelde netwerkschijf of een lokale verwisselbare schijf, of gebruik maken van je lokale bureaublad.</p>
+
+  <p>Tape Backup: Deze methode maakt gebruik van een software pakket genaamd <i>[_1]</i> om uw gehele harddisk elke nacht naar tape te schrijven. Hiervoor is een ondersteunde tape drive nodig en een tape welke niet schrijfbeveiligd is. De backup wordt elke nacht automatisch op de geselecteerde tijd uitgevoerd (met een automatische herinnering welke gedurende de dag per e-mail aan de beheerder gestuurd wordt). Momenteel bevat uw hard disk <b>[_2]</b> aan gegevens.</p>
+
+  <p>Werkstation Backup: Deze methode maakt gebruik van een software pakket genaamd <i>dar</i> om uw configuratie- en gegevensbestanden elke nacht naar een gedeelde netwerkschijf of een lokale verwisselbare schijf zoals een USB schijf. U kunt instellen hoeveel roterende backup sets worden bewaard, en hoeveel incrementele backups er in elke set zijn. De backup wordt dagelijks automatisch uitgevoerd op de geselecteerde tijd. De huidige ongecomprimeerde configuratie- en gegevensbestandgrootte is ongeveer <b>[_3]</b>. Op de gedeelde backup schijf moet ongeveer twee maal de gecomprimeerde gegevensgrootte beschikbaar zijn.</p>
+
+  <p>Backup naar Bureaublad: Deze methode maakt een kopie van uw configuratie- en gegevensbestanden, en download deze naar uw lokale desktop via uw webbrowser. De huidige configuratie- en gegevensbestandsgrootte is ongeveer <b>[_3]</b>. Het backup bestand zal iets kleiner zijn, afhankelijk van de comprimeerbaarheid van de gegevens. Dit bestand kan gebruikt worden om uw server te herstellen vanaf het console wanneer u het bestand kopieert naar een lokale verwisselbare schijf, zoals een USB-schijf.</p>
+
+  <p>Alle backup methoden maken het mogelijk uw configuratie en gegevensbestanden te herstellen. Werkstation Backup biedt daarnaast ook de mogelijkheid individuele bestanden te herstellen. <b>Bij voorkeur dient U een volledig herstel uit te voeren op een schoon geïnstalleerde server</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Backup configuratie en status',
-'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups zijn momenteel <b>geactiveerd</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups zijn momenteel geactiveerd. ',
 'bac_BACKUPS_RUN_AT' => 'Geautomatiseerde tape backups starten om:',
 'bac_REMINDER_MESSAGE_AT' => 'Herinneringsberichten worden verzonden naar:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups zijn <b>niet geactiveerd</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups zijn niet geactiveerd ',
 'bac_DESKTOP_BACKUP' => 'Backup naar bureaublad',
 'bac_DESKTOP_RESTORE' => 'Herstellen vanaf bureaublad',
 'bac_DESKTOP_VERIFY' => 'Controleer bureaublad backup bestand',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'Een systeemherstel is voltooid',
 'bac_STARTED_AT' => 'Het begon om:',
 'bac_FINISHED_AT' => 'en is voltooid om:',
-'bac_YOU_MUST_REBOOT' => 'U moet de server omwille van het systeemherstel herstarten om configuratie wijzigingen die gemaakt zijn te activeren.', 
+'bac_YOU_MUST_REBOOT' => 'U moet de server omwille van het systeemherstel herstarten om configuratie wijzigingen die gemaakt zijn te activeren.',
 'bac_REBOOT' => 'Herstarten',
 'bac_SELECT_AN_ACTION' => 'Selecteer een actie',
 'bac_X_BACKUP_OR_RESTORE' => 'X Backup of herstel server data',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => 'Er is een fout opgetreden tijdens de voorbereiding van herstel acties.',
 'bac_ERR_POST_BACKUP' => 'Fout opgetreden tijdens na-backup acties.',
 'bac_RESTORE_SERVER_CONFIG' => 'Server configuratie herstellen',
-'bac_DESKTOP_RESTORE_DESC' => ' Dit proces laadt een server backup bestand van uw lokale computer naar uw server en herstelt de configuratie en gebruikers data. <B>Het herstel kan best uitgevoerd worden op een nieuw geïnstalleerde server</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Dit proces laadt een server backup bestand van uw lokale computer naar uw server en herstelt de configuratie en gebruikers data. Het herstel kan best uitgevoerd worden op een nieuw geïnstalleerde server. ',
 'bac_FREE_SPACE' => ' U heeft ongeveer $tmpfree vrije schijfruimte op de server. Controleer dat het bureaublad backup bestand kleiner is dan $halffree voordat U het herstel start. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'Nadat het herstel voltooid is moet u de server herstarten.',
 'bac_FILE_TO_RESTORE' => 'Backup bestand om van te herstellen',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Deze optie toont de namen van alle bestanden in een eerder gemaakt bureaublad backup bestand. U kan deze optie gebruiken om de inhoud van het backup bestand te verifieren.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Deze optie toont de namen van alle bestanden in een eerder gemaakt bureaublad backup bestand. U kan deze optie gebruiken om de inhoud van het backup bestand te verifieren.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Selecteer backup bestand',
 'bac_VERIFY' => 'Controleer',
 'bac_RESTORE_CANNOT_PROCEED' => 'Kan server configuratie niet verder herstellen',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'Het backup bestand is onvolledig',
 'bac_ERR_READING_FILE' => 'Er is een fout bij het lezen van het backup bestand.',
 'bac_ENABLE_DISABLE_TAPE' => 'Activeer/De-activeer Nachtelijke Tape Backup',
-'bac_TAPE_CONFIG_DESC' => ' <p>Selecteer of u nachtelijke backups wil activeren. Geef daarna de tijdstippen aan voor de backup en de herinnering om de tape te plaatsen.</p> <p>De tape backup heeft een ondersteund tape station nodig. Een opgelet bericht zal naar de administrator verzonden worden op het vastgestelde herinneringstijdstip als het tape station leeg is.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Selecteer of u nachtelijke backups wil activeren. Geef daarna de tijdstippen aan voor de backup en de herinnering om de tape te plaatsen.</p>
+
+  <p>De tape backup heeft een ondersteund tape station nodig. Een opgelet bericht zal naar de administrator verzonden worden op het vastgestelde herinneringstijdstip als het tape station leeg is.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Activeer tape backup',
 'bac_TAPE_BACKUP_TIME' => 'Tape backup tijdstip (uur/min)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Laad tape herinnering tijdstip (uur/min)',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => 'en laad tape herinneringstijd:',
 'bac_SUCCESSFULLY_DISABLED' => 'Tape backups zijn met succes gedeactiveerd',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Herstel server configuratie van tape backup',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Dit proces zal de configuratie en gebruikers data herstellen van een server tape backup. <B>Het herstel moet uitgevoerd worden op een nieuw geïnstalleerde server</B>.</P> <P>Kijk na of u de benodigde backup tape in het tape station heeft geplaatst vooraleer te starten.</P> <P>Nadat het herstel voltooid is moet u de server herstarten.</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Dit proces zal de configuratie en gebruikers data herstellen van een server tape backup. <b>Het herstel moet uitgevoerd worden op een nieuw geïnstalleerde server</b>.</p>
+
+  <p>Kijk na of u de benodigde backup tape in het tape station heeft geplaatst vooraleer te starten.</p>
+
+  <p>Nadat het herstel voltooid is moet u de server herstarten.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Herstellen Vanaf Tape',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Niet mogelijk om server configuratie te herstellen',
 'bac_RESTORING_FROM_TAPE' => 'Aan het herstellen vanaf Tape',
@@ -81,11 +111,11 @@
 'bac_SERVER_REBOOT' => 'Server herstart',
 'bac_SERVER_WILL_REBOOT' => 'Uw server zal nu herstarten.',
 'bac_NO_UID_FOR_NAME' => 'Kan uid niet vinden voor gebruiker:',
-'bac_PAGE_REFRESH_IN' => ' Deze pagina vernieuwt naar het status scherm binnen {$sec} seconden, of klik <a href="/server-manager/cgi-bin/backup">hier</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Deze pagina vernieuwt naar het status scherm binnen {$sec} seconden, of klik hier. ',
 'Backup or restore' => 'Backup of herstel',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Uw server heeft te veel data voor een betrouwbare backup naar bureaublad.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Werkstation backups zijn <b>niet geactiveerd</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Werkstation backups zijn <b>geactiveerd</b>. ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' Werkstation backups zijn niet geactiveerd ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' Werkstation backups zijn geactiveerd. ',
 'bac_WKBACKUPS_RUN_AT' => 'Werkstation backups starten om:',
 'bac_WORKSTN_CONFIGURE' => 'Configureer werkstation backup',
 'bac_WORKSTN_VERIFY' => 'Controleer werkstation backup',
@@ -98,9 +128,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Werkstation backups zijn met succes geactiveerd',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Werkstation backups zijn met succes gedeactiveerd',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Controleer werkstation backup',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Deze optie toont de namen van alle bestanden in eerder gemaakte dagelijkse werkstation backups. U kunt deze optie gebruiken om de inhoud van de backup te controleren.<b>U dient de backup te kiezen die u wilt controleren.</b></p> <p>Alleen bestanden gemerkt met [Saved] zullen zich in de backup bevinden.</p> Backup bestanden zijn gecontroleerd vanaf de gedeelde map : ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Deze optie toont de namen van alle bestanden in eerder gemaakte dagelijkse werkstation backups. U kunt deze optie gebruiken om de inhoud van de backup te controleren.<b>U dient de backup te kiezen die u wilt controleren.</b></p>
+
+  <p>Alleen bestanden gemerkt met [Saved] zullen zich in de backup bevinden.</p>
+
+  Backup bestanden zijn gecontroleerd vanaf de gedeelde map : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Herstel server configuratie vanaf werkstation backup',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Dit proces zal de configuratie en gebruikers bestanden herstellen van een Server werkstation backup. <b>Het herstel moet uitgevoerd worden op een nieuw geinstalleerde server</b>.</p> <p>Controleer dat u de juiste backup selecteert vooraleer door te gaan.</p> <p>Nadat het herstel voltooid is moet u de server herstarten.</p> Backup wordt hersteld vanaf : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Dit proces zal de configuratie en gebruikers bestanden herstellen van een Server werkstation backup. <b>Het herstel moet uitgevoerd worden op een nieuw geinstalleerde server</b>.</p>
+
+  <p>Controleer dat u de juiste backup selecteert vooraleer door te gaan.</p>
+
+  <p>Nadat het herstel voltooid is moet u de server herstarten.</p>
+
+  Backup wordt hersteld vanaf : ',
 'bac_RESTORE_FROM_WORKSTN' => 'Herstel Vanaf Werkstation',
 'bac_RESTORING_FROM_WORKSTN' => 'Aan het herstellen vanaf werkstation',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Uw server configuratie en gebruikers data bestanden worden nu hersteld vanaf de gedeelde map van het werkstation.',
@@ -124,7 +164,7 @@
 'bac_NUMBER_OF_SETS' => 'Aantal sets rotatie backups',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Dagelijkse backups in elke set',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Sets aantal moet groter of gelijk zijn aan 1',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Dit getal moet groter of gelijk zijn aan 1. De eerste backup in de set is <b>volledig</b> de andere zijn <b>incrementeel</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Dit getal moet groter of gelijk zijn aan 1. De eerste backup in de set is volledig de andere zijn incrementeel',
 'bac_WORKSTN_TIMEOUT' => 'Optionele backup sessie tijdsstop (uren)',
 'bac_INC_ONLY_TIMEOUT' => 'Geen tijdsstop voor volledige backup sessies',
 'bac_ERR_INVALID_TIMEOUT' => 'Maximum backup tijd moet zich tussen 1 en 24 uur bevinden',
@@ -133,11 +173,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Bestandsselectie herstel vanaf werkstation',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Werkstation bestandsselectie herstel',
 'bac_ALL_BACKUPS' => 'Alle backups',
-'bac_WORKSTN_SEL_REST_DESC' => ' Dit proces herstelt enkel geselecteerde bestanden en mappen. U moet eerst de juiste backup selecteren van waar u wil herstellen. Als u niet weet in welke backup de bestanden zich bevinden, kan u de \'alle backups\' optie selecteren. <br/><br/> Het volgende paneel toont beschikbare bestanden en mappen zodat u diegene kan selecteren die u nodig heeft. Om het aantal bestanden en mappen te beperken kan u nu een filter ingeven, toegepast als een reguliere expressie op de getoonde namen.<br/><br/> U heeft de verantwoordelijkheid om bestanden die het functioneren van uw systeem te beschadigen niet te herstellen.<br/><br/>Momenteel worden bestanden hersteld vanaf: ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Dit proces herstelt enkel geselecteerde bestanden en mappen. U moet eerst de juiste backup selecteren van waar u wil herstellen. Als u niet weet in welke backup de bestanden zich bevinden, kan u de \'alle backups\' optie selecteren.  Het volgende paneel toont beschikbare bestanden en mappen zodat u diegene kan selecteren die u nodig heeft. Om het aantal bestanden en mappen te beperken kan u nu een filter ingeven, toegepast als een reguliere expressie op de getoonde namen. U heeft de verantwoordelijkheid om bestanden die het functioneren van uw systeem te beschadigen niet te herstellen.Momenteel worden bestanden hersteld vanaf: ',
 'bac_BACKUP_CHOICE' => 'Selecteer bestanden om te tonen',
 'bac_SELECT_DATE_BEFORE' => 'Herstel meest recente voor',
 'bac_FILTER_EXPRESSION' => 'Namen gefilterd door',
-'bac_READ_COMPLETE' => ' U kunt de mappen en bestanden die hersteld moeten worden selecteren in de getoonde lijst (gebruik Ctrl of Shift voor veelvoudige keuze). <br/><b>Waarschuwing: </b>Als een map worden geselecteerd, worden alle onderliggende mappen en bestanden hersteld.<p/>Als standaard instelling worden de meest recent versies van de geselecteerde bestanden hersteld, maar als een datum in het formaat <i>[ [ [jjjj/]mm/]dd-]uu:mm[:ss]</i> is gespecificeerd word alleen de meest recente versie <b>voor de aangegeven datum</b> herstelt. ',
+'bac_READ_COMPLETE' => ' U kunt de mappen en bestanden die hersteld moeten worden selecteren in de getoonde lijst (gebruik Ctrl of Shift voor veelvoudige keuze). Waarschuwing: Als een map worden geselecteerd, worden alle onderliggende mappen en bestanden hersteld.Als standaard instelling worden de meest recent versies van de geselecteerde bestanden hersteld, maar als een datum in het formaat [ [ [jjjj/]mm/]dd-]uu:mm[:ss] is gespecificeerd word alleen de meest recente versie voor de aangegeven datum herstelt. ',
 'bac_ERR_INVALID_SELDATE' => 'Datum formaat is niet correct, gewenst formaat ~[ ~[ ~[jjjj/~]mm/~]dd-~]uu:mm~[:ss~]. bijvoorbeeld: 2005/12/31-08:23:32 of 10-08:32 of 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Selecteer bestanden om te herstellen',
 'bac_ERR_WHILE_UNMOUNTING' => 'Fout opgetreden bij het ontladen van gedeelde map',
@@ -147,8 +187,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Compressie level moet zich tussen 0 (geen compressie) en 9 (maximum compressie) bevinden',
 'bac_DOW' => 'Zondag Maandag Dinsdag Woensdag Donderdag Vrijdag Zaterdag Alle dagen',
 'bac_CONFIGURATION_TO_BE_DONE' => 'A.u.b. de backup instellingen configureren.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Dit paneel toont de huidige workstation backup configuratie. U kan deze wijzigen in dit en het volgende paneel.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Op dit moment is werkstation backup niet geconfigureerd. U kan dit instellen in dit en het volgende paneel.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Dit paneel toont de huidige workstation backup configuratie. U kan deze wijzigen in dit en het volgende paneel.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Op dit moment is werkstation backup niet geconfigureerd. U kan dit instellen in dit en het volgende paneel.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Backup is',
 'bac_WORKSTN_BACKUP_USB' => 'Backup is gemaakt op lokale verwijderbare schijf',
 'bac_WORKSTN_BACKUP_MNT' => 'Backup is gemaakt op gemonteerde schijf',

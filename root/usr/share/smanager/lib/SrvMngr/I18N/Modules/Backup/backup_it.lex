@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Backup o ripristino dei dati del server',
-'bac_BACKUP_DESC' => '<P>Il server fornisce due sistemi di backup e ripristino dei dati: il desktop locale o un\'unità a nastro.</P> <P>Il primo metodo crea una copia della configurazione e dei dati degli utenti e lo invia al desktop locale attraverso il browser. In questo momento, configurazione e dati occupano approssimativamente <b>$tarsize</b>. Il file di backup avrà dimensioni inferiori per merito della compressione. L\'opzione \"Verifica desktop backup\" può essere utilizzata per verificare l\'integrità del file di backup.</P> <P>Il backup su nastro utilizza un software chiamato <I>$module</I> per copiare l\'intero disco fisso su nastro ogni notte. Questa opzione richiede un\'unità nastro supportata e un nastro non protetto da scrittura. Il backup viene effettuato automaticamente all\'ora selezionata ogni notte (durante il giorno l\'amministratore riceve una email con un promemoria per l\'inserimento del nastro). Attualmente il disco fisso contiene <b>$dumpsize</b> di dati.</P> <P>Entrambi i sistemi ripristinano la configurazione e i dati. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>E\' possibile fare il backup ed il restore del server in tre modi: utilizzando una unità nastro, una connessione di rete o un disco rimovibile locale, o utilizzando il desktop locale. </P> <P>Backup su nastro. Questo metodo utilizza il software <I>$module</I> per salvare l\'intero contenuto del disco su nastro ogni notte. Il metodo richiede una unità nastro supportatta e un nastro non protetto da scrittura. Il backup viene eseguito automaticamente all\'ora selezionata ogni notte (con un avviso inviato automaticamente all\'amministratore durante la giornata). Attualmente il server contiene <b>$dumpsize</b> di dati.</P> <P>Workstation backup. Questo metodo usa un software denominato <I>dar</I> per salvare la configurazione del server ed i dati su una condivisione di rete o su un disco rimovibile locale come ad esempio un disco USB. Si può configurare il numero di backup completi da conservare (a rotazione), e quanti backup incrementali eseguire per ogni backup completo conservato. Il backup viene eseguito automaticamente ogni giorno nell\'orario selezionato. Attualmente configurazione e dati occupano approssimativamente <b>$tarsize</b> non compressi. Sul dispositivo di backup deve essere disponibile uno spazio libero pari ad almeno il doppio dello spazio occupato dai dati compressi.</P> <P>Backup su Desktop. Questo metodo crea una copia della configurazione del server e dei dati e la salva sul desktop locale attraverso il browser web. Attualmente configurazione e dati occupano approssimativamente <b>$tarsize</b>. Il file di backup risulterà più piccolo di questa dimensione, in funzione di quanto siano comprimibili i filesalvati. Il file può essere utilizzato per ripristinare il server dalla console dopo averlo copiato su un supporto rimovibile locale come un disco USB.</P> <P>Tutti i metodi di backup consentono il ripristino completo di dati e configurazione. Il backup su workstation consente il ripristino di singoli file. <b>In linea di principio il restore completo va utilizzato su un server di nuova installazione.</b>.</P> ',
+'bac_BACKUP_DESC' => '<p>Il server fornisce due sistemi di backup e ripristino dei dati: il desktop locale o un\'unità a nastro.</p>
+
+  <p>Il primo metodo crea una copia della configurazione e dei dati degli utenti e lo invia al desktop locale attraverso il browser. In questo momento, configurazione e dati occupano approssimativamente <b>[_3]</b>. Il file di backup avrà dimensioni inferiori per merito della compressione. L\'opzione \"Verifica desktop backup\" può essere utilizzata per verificare l\'integrità del file di backup.</p>
+
+  <p>Il backup su nastro utilizza un software chiamato <i>[_1]</i> per copiare l\'intero disco fisso su nastro ogni notte. Questa opzione richiede un\'unità nastro supportata e un nastro non protetto da scrittura. Il backup viene effettuato automaticamente all\'ora selezionata ogni notte (durante il giorno l\'amministratore riceve una email con un promemoria per l\'inserimento del nastro). Attualmente il disco fisso contiene <b>[_2]</b> di dati.</p>
+
+  <p>Entrambi i sistemi ripristinano la configurazione e i dati. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>E\' possibile fare il backup ed il restore del server in tre modi: utilizzando una unità nastro, una connessione di rete o un disco rimovibile locale, o utilizzando il desktop locale. </p>
+
+  <p>Backup su nastro. Questo metodo utilizza il software <i>[_1]</i> per salvare l\'intero contenuto del disco su nastro ogni notte. Il metodo richiede una unità nastro supportatta e un nastro non protetto da scrittura. Il backup viene eseguito automaticamente all\'ora selezionata ogni notte (con un avviso inviato automaticamente all\'amministratore durante la giornata). Attualmente il server contiene <b>[_2]</b> di dati.</p>
+
+  <p>Workstation backup. Questo metodo usa un software denominato <i>dar</i> per salvare la configurazione del server ed i dati su una condivisione di rete o su un disco rimovibile locale come ad esempio un disco USB. Si può configurare il numero di backup completi da conservare (a rotazione), e quanti backup incrementali eseguire per ogni backup completo conservato. Il backup viene eseguito automaticamente ogni giorno nell\'orario selezionato. Attualmente configurazione e dati occupano approssimativamente <b>[_3]</b> non compressi. Sul dispositivo di backup deve essere disponibile uno spazio libero pari ad almeno il doppio dello spazio occupato dai dati compressi.</p>
+
+  <p>Backup su Desktop. Questo metodo crea una copia della configurazione del server e dei dati e la salva sul desktop locale attraverso il browser web. Attualmente configurazione e dati occupano approssimativamente <b>[_3]</b>. Il file di backup risulterà più piccolo di questa dimensione, in funzione di quanto siano comprimibili i filesalvati. Il file può essere utilizzato per ripristinare il server dalla console dopo averlo copiato su un supporto rimovibile locale come un disco USB.</p>
+
+  <p>Tutti i metodi di backup consentono il ripristino completo di dati e configurazione. Il backup su workstation consente il ripristino di singoli file. <b>In linea di principio il restore completo va utilizzato su un server di nuova installazione.</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Configurazione e stato del backup',
-'bac_TAPE_BACKUPS_ENABLED' => ' Il backup su nastro è <b>abilitato</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Il backup su nastro è abilitato. ',
 'bac_BACKUPS_RUN_AT' => 'I backup su nastro inizieranno alle:',
 'bac_REMINDER_MESSAGE_AT' => 'Il promemoria verrà inviato alle:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Il backup su nastro è <b>disabilitato</b>. ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Il backup su nastro è disabilitato. ',
 'bac_DESKTOP_BACKUP' => 'Backup su desktop',
 'bac_DESKTOP_RESTORE' => 'Ripristino da desktop',
 'bac_DESKTOP_VERIFY' => 'Verifica desktop backup',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'Ripristino completato',
 'bac_STARTED_AT' => 'Inizio:',
 'bac_FINISHED_AT' => 'fine:',
-'bac_YOU_MUST_REBOOT' => 'E\' necessario riavviare il server per attivare le modifiche alla configurazione successivamente al ripristino.', 
+'bac_YOU_MUST_REBOOT' => 'E\' necessario riavviare il server per attivare le modifiche alla configurazione successivamente al ripristino.',
 'bac_REBOOT' => 'Riavvia',
 'bac_SELECT_AN_ACTION' => 'Selezionare un\'azione',
 'bac_X_BACKUP_OR_RESTORE' => 'X Backup o ripristino server data',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => 'Errore durante le operazioni precedenti il ripristino.',
 'bac_ERR_POST_BACKUP' => 'Errore durante le operazioni successive al backup.',
 'bac_RESTORE_SERVER_CONFIG' => 'Ripristino configurazione server',
-'bac_DESKTOP_RESTORE_DESC' => ' Questa procedura caricherà un file di backup dal desktop locale al server e ripristinerà la configurazione e i dati degli utenti. <B> Il ripristino dovrebbe essere effettuato su un server appena installato.</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Questa procedura caricherà un file di backup dal desktop locale al server e ripristinerà la configurazione e i dati degli utenti.  Il ripristino dovrebbe essere effettuato su un server appena installato.. ',
 'bac_FREE_SPACE' => ' Attualmente, lo spazio libero sul server è approssimativamente $tmpfree. Controllare che il file del backup su desktop sia più piccolo di $halffree prima di iniziare il ripristino. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'Al termine del ripristino è necessario riavviare il server.',
 'bac_FILE_TO_RESTORE' => 'File di backup da cui ripristinare',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Questa opzione mostra i nomi di tutti i file contenuti in un backup su desktop precedentemente creato. Utilizzarla per verificare il contenuto di un file di backup su desktop.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Questa opzione mostra i nomi di tutti i file contenuti in un backup su desktop precedentemente creato. Utilizzarla per verificare il contenuto di un file di backup su desktop.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Selezionare il file di backup',
 'bac_VERIFY' => 'Verifica',
 'bac_RESTORE_CANNOT_PROCEED' => 'Impossibile proseguire il ripristino',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'Il file di backup era incompleto',
 'bac_ERR_READING_FILE' => 'Errore durante la lettura del file di backup.',
 'bac_ENABLE_DISABLE_TAPE' => 'Abilita/Disabilita Backup notturno su nastro',
-'bac_TAPE_CONFIG_DESC' => ' <p>Abilitare/disabilitare i backup notturni su nastro e indicare l\'orario desiderato per il backup e il promemoria di inserimento nastro.</p> <p> Il backup su nastro richiede un\'unità nastro supportata. L\'amministratore riceverà una mail di avvertimento all\'orario del promemoria se l\'unità nastro è vuota.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Abilitare/disabilitare i backup notturni su nastro e indicare l\'orario desiderato per il backup e il promemoria di inserimento nastro.</p>
+
+  <p> Il backup su nastro richiede un\'unità nastro supportata. L\'amministratore riceverà una mail di avvertimento all\'orario del promemoria se l\'unità nastro è vuota.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Abilita backup su nastro',
 'bac_TAPE_BACKUP_TIME' => 'Orario backup (ore/min)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Orario promemoria (ore/min)',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => 'e promemoria alle:',
 'bac_SUCCESSFULLY_DISABLED' => 'Backup su nastro disabilitato con successo',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Ripristina configurazione da nastro',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>La procedura ripristinerà la configurazione e i dati utente da un backup su nastro. <B>Il ripristino dovrebbe essere effettuato su un server appena installato</B>.</p> <p>Assicurarsi di aver inserito il nastro desiderato nell\'unità prima di procedere.</p> <p>Al termine del ripristino sarà necessario riavviare il server.</p> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>La procedura ripristinerà la configurazione e i dati utente da un backup su nastro. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</p>
+
+  <p>Assicurarsi di aver inserito il nastro desiderato nell\'unità prima di procedere.</p>
+
+  <p>Al termine del ripristino sarà necessario riavviare il server.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Ripristino da Nastro',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Impossibile ripristinare la configurazione',
 'bac_RESTORING_FROM_TAPE' => 'Ripristino da Nastro in corso',
@@ -81,11 +111,11 @@
 'bac_SERVER_REBOOT' => 'Riavvio Server',
 'bac_SERVER_WILL_REBOOT' => 'Il server ora si riavvierà.',
 'bac_NO_UID_FOR_NAME' => 'Impossibile ottenere l\'uid per l\'utente:',
-'bac_PAGE_REFRESH_IN' => ' Aggiornamento automatico ogni {$sec} secondi, o fare clic <a href="/server-manager/cgi-bin/backup">qui</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Aggiornamento automatico ogni {$sec} secondi, o fare clic qui. ',
 'Backup or restore' => 'Backup o ripristino',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Il server ha una quantità di dati superiore alla capacità del backup su desktop.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' I backup su workstation sono <b>disabilitati</b>. ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' I backup su workstation sono attualmente <b>abilitati</b>. ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' I backup su workstation sono disabilitati. ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' I backup su workstation sono attualmente abilitati. ',
 'bac_WKBACKUPS_RUN_AT' => 'I backup su workstation inizieranno alle:',
 'bac_WORKSTN_CONFIGURE' => 'Configura il backup su workstation',
 'bac_WORKSTN_VERIFY' => 'Verifica il backup su workstation',
@@ -98,9 +128,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Backup su workstation abilitato con successo',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Backup su workstation disabilitato con successo',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Verifica il backup su workstation',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Questa opzione visualizzerà i nomi di tutti i file contenuti in un backup su workstation creato in precedenza. E\' possibile utilizzarla per verificare il contenuto del backup.<b>E\' necessario scegliere qualebackup si desidera verificare</b></p> <p>Soltanto i file marcati [Saved] sono contenuti nel backup.</p>I file di backup saranno verificati dalla condivisione di rete: ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Questa opzione visualizzerà i nomi di tutti i file contenuti in un backup su workstation creato in precedenza. E\' possibile utilizzarla per verificare il contenuto del backup.<b>E\' necessario scegliere qualebackup si desidera verificare</b></p>
+
+  <p>Soltanto i file marcati [Saved] sono contenuti nel backup.</p>
+
+  I file di backup saranno verificati dalla condivisione di rete: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Ripristina configurazione da backup su workstation',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>La procedura ripristinerà la configurazione e i dati utente da un backup su workstation. <B>Il ripristino dovrebbe essere effettuato su un server appena installato</B>.</p> <p>Assicurarsi di scegliere dalla lista il backup corretto da ripristinare prima di procedere.</p> <p>Al termine del ripristino sarà necessario riavviare il server.</p> ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>La procedura ripristinerà la configurazione e i dati utente da un backup su workstation. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</p>
+
+  <p>Assicurarsi di scegliere dalla lista il backup corretto da ripristinare prima di procedere.</p>
+
+  <p>Al termine del ripristino sarà necessario riavviare il server.</p>
+
+  ',
 'bac_RESTORE_FROM_WORKSTN' => 'Ripristina da workstation',
 'bac_RESTORING_FROM_WORKSTN' => 'Ripristino da workstation in corso',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'La configurazione del server e i dati utente vengono ripristinati da workstation.',
@@ -124,7 +164,7 @@
 'bac_NUMBER_OF_SETS' => 'Numero di set di backup',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Backup giornalieri per ogni set',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Il numero di set deve essere uguale o maggiore di 1',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Questo numero deve essere maggiore o uguale a 1. Il primo backup sarà <b>completo</b>, gli altri saranno <b>incrementali</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Questo numero deve essere maggiore o uguale a 1. Il primo backup sarà completo, gli altri saranno incrementali',
 'bac_WORKSTN_TIMEOUT' => 'Limite massimo di tempo per la sessione di backup (ore)',
 'bac_INC_ONLY_TIMEOUT' => 'Non limitare il tempo delle sessioni di backup completo',
 'bac_ERR_INVALID_TIMEOUT' => 'Il tempo limite di backup deve essere compreso tra 1 e 24 ore',
@@ -133,11 +173,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Restore selettivo dei file da workstation',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Restore selettivo dei file da workstation',
 'bac_ALL_BACKUPS' => 'Tutti i backup',
-'bac_WORKSTN_SEL_REST_DESC' => ' Questo processo ripristinerà solo i file e le cartelle selezionati. Deve prima essere scelto il set di backup da cui saranno ripristinati i file. Se non è noto in quale backup sono contenuti i file richiesti selezionare l\'opzione "Tutti i backup". <br/><br/> Il prossimo pannello mostrerà i file e le cartelle disponibili per poter scegliere quelli da ripristinare. Per limitare il numero di file e cartelle mostrati è possibile introdurre un filtro, applicato come una espressione regolare ai nomi visualizzati.<br/><br/> E\' cura dell\'utente <b>non ripristinare</b> file che potrebbero pregiudicare il corretto funzionamento del server.<br/> <br/>I file saranno ripristinati da: ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Questo processo ripristinerà solo i file e le cartelle selezionati. Deve prima essere scelto il set di backup da cui saranno ripristinati i file. Se non è noto in quale backup sono contenuti i file richiesti selezionare l\'opzione "Tutti i backup".  Il prossimo pannello mostrerà i file e le cartelle disponibili per poter scegliere quelli da ripristinare. Per limitare il numero di file e cartelle mostrati è possibile introdurre un filtro, applicato come una espressione regolare ai nomi visualizzati. E\' cura dell\'utente non ripristinare file che potrebbero pregiudicare il corretto funzionamento del server. I file saranno ripristinati da: ',
 'bac_BACKUP_CHOICE' => 'Selezione dei file da mostrare in corso',
 'bac_SELECT_DATE_BEFORE' => 'Ripristina file aggiornati alla data',
 'bac_FILTER_EXPRESSION' => 'Nomi filtrati per',
-'bac_READ_COMPLETE' => ' Selezionare i file e le directory da ripristinare elencati nella lista (utilizzare ctrl o shift per selezioni multiple). <br/> <b>Attenzione :</b> Selezionando una directory, tutti i file e le sottodirectory in essa contenuti verranno ripristinati.<p/> Per default sarà ripristinata la versione più recente dei file selezionati, ma indicando una data nel formato <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> verrà ripristinata la versione antecedente <b>alla data indicata</b>. ',
+'bac_READ_COMPLETE' => ' Selezionare i file e le directory da ripristinare elencati nella lista (utilizzare ctrl o shift per selezioni multiple).  Attenzione : Selezionando una directory, tutti i file e le sottodirectory in essa contenuti verranno ripristinati. Per default sarà ripristinata la versione più recente dei file selezionati, ma indicando una data nel formato [ [ [yyyy/]mm/]dd-]hh:mm[:ss] verrà ripristinata la versione antecedente alla data indicata. ',
 'bac_ERR_INVALID_SELDATE' => 'Il formato della data non è valido, deve essere ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. es.: 2005/12/31-08:23:32 oppure 10-08:32 oppure 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Selezionare i file da ripristinare',
 'bac_ERR_WHILE_UNMOUNTING' => 'Si è verificato un errore nell\'umount della condivisione remota',
@@ -147,8 +187,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Il livello di compressione deve essere impostato tra 0 (nessuna compressione) e 9 (massima compressione)',
 'bac_DOW' => 'Domenica Lunedì Martedì Mercoledì Giovedì Venerdì Sabato Sempre',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Configurare le impostazioni di backup.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Questa pagina mostra le impostazioni correnti per il backup su workstation. E\' possibile effettuare modifiche in questa pagina e nella prossima.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Al momento, il backup su worstation non è configurato. E\' possibile configurarlo in questa pagina e nella prossima.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Questa pagina mostra le impostazioni correnti per il backup su workstation. E\' possibile effettuare modifiche in questa pagina e nella prossima.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Al momento, il backup su worstation non è configurato. E\' possibile configurarlo in questa pagina e nella prossima.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Il backup è ',
 'bac_WORKSTN_BACKUP_USB' => 'Il backup viene effettuato su un disco USB locale',
 'bac_WORKSTN_BACKUP_MNT' => 'Il backup viene effettuato su un disco montato',

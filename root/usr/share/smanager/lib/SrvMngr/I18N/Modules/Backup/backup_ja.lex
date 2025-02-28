@@ -1,8 +1,26 @@
 'bac_BACKUP_TITLE' => 'サーバーデータをバックアップ・復元',
-'bac_BACKUP_DESC' => ' <P>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</P> <P>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \"Verify desktop backup file\" option can be used to check the integrity of a desktop backup file.</P> <P>The tape backup method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>
+
+  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \"Verify desktop backup file\" option can be used to check the integrity of a desktop backup file.</p>
+
+  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+
+  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>
+
+  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
+
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => '設定と状態をバックアップ',
-'bac_TAPE_BACKUPS_ENABLED' => ' 現在テープバックアップが<b>有効になる</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' 現在テープバックアップが有効になる. ',
 'bac_BACKUPS_RUN_AT' => 'ワークステーション バクアプ まで　の　時間：',
 'bac_REMINDER_MESSAGE_AT' => 'Reminder messages will be sent at:',
 'bac_TAPE_BACKUPS_DISABLED' => 'ワークステーション バクアプ　は　無能',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'システムの復元が完了しました',
 'bac_STARTED_AT' => '開始時刻は',
 'bac_FINISHED_AT' => '終了時刻は:',
-'bac_YOU_MUST_REBOOT' => 'システム復元による変更を反映するにはサーバーの再起動が必要です。', 
+'bac_YOU_MUST_REBOOT' => 'システム復元による変更を反映するにはサーバーの再起動が必要です。',
 'bac_REBOOT' => '再起動',
 'bac_SELECT_AN_ACTION' => '実行する作業を指定してください',
 'bac_X_BACKUP_OR_RESTORE' => 'X サーバーデータをバックアップ・復元',
@@ -25,11 +43,15 @@
 'bac_ERR_PRE_RESTORE' => '復元作業を行う前にエラーが発生しました',
 'bac_ERR_POST_BACKUP' => 'バックアップ作業を行った後にエラーが発生しました',
 'bac_RESTORE_SERVER_CONFIG' => 'サーバーの設定を復元する',
-'bac_DESKTOP_RESTORE_DESC' => ' この作業は復元ファイルをデスクトップからサーバーへアップロードし、設定およびユーザのデータファイルを復元します。 <B>復元は新規インストールされたサーバーにて行うことをおすすめします。</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' この作業は復元ファイルをデスクトップからサーバーへアップロードし、設定およびユーザのデータファイルを復元します。 復元は新規インストールされたサーバーにて行うことをおすすめします。. ',
 'bac_FREE_SPACE' => ' You have approximately $tmpfree free space on the server. Check that desktop backup file is less than $halffree before commencing the restore. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'After the restore completes you must reboot the server.',
 'bac_FILE_TO_RESTORE' => 'Backup file to restore from',
-'bac_VERIFY_BACKUP_DESC' => ' <p>この項目では以前作った全ての一日毎のワークステーションバックアップファイルの名前を表示する。この項目でバックアップの内容を確認できる。<b>確認したいバックアップを選ばなければならない。</b></p><p>あなたが選んだ全てのバックアップファイルが見れる。</p>共有フォルダでバックアップファイルが確認できる : ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>この項目では以前作った全ての一日毎のワークステーションバックアップファイルの名前を表示する。この項目でバックアップの内容を確認できる。<b>確認したいバックアップを選ばなければならない。</b></p>
+
+  <p>あなたが選んだ全てのバックアップファイルが見れる。</p>
+
+  共有フォルダでバックアップファイルが確認できる : ',
 'bac_SELECT_BACKUP_FILE' => 'バックアップファイルを選択',
 'bac_VERIFY' => '認証',
 'bac_RESTORE_CANNOT_PROCEED' => 'Unable to proceed with restore of server configuration',
@@ -49,7 +71,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'バクアプ　ファイル　が　不完全　でした',
 'bac_ERR_READING_FILE' => 'バクアプ　ファイル　読んでる　最中　エラー　が　でました',
 'bac_ENABLE_DISABLE_TAPE' => 'ナイトリ　テープ　バクアプ　を　可能／無能　に　する',
-'bac_TAPE_CONFIG_DESC' => ' <p>Select whether you wish to enable nightly backups. Then indicate the desired times for the backup and the load tape reminder.</p> <p>The tape backup requires a supported tape drive. A warning message will be sent to the administrator at the designated reminder time if the tape drive is empty.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Select whether you wish to enable nightly backups. Then indicate the desired times for the backup and the load tape reminder.</p>
+
+  <p>The tape backup requires a supported tape drive. A warning message will be sent to the administrator at the designated reminder time if the tape drive is empty.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'テープ　バクアプ　を　可能',
 'bac_TAPE_BACKUP_TIME' => 'テープ　バクアプ　の　時間　(時／分）',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'ロード　テープ　備忘　の　時間　（時／分）',
@@ -70,7 +96,13 @@
 'bac_WITH_REMINDER_TIME' => 'ロード　テープ　リマインダー　時間',
 'bac_SUCCESSFULLY_DISABLED' => 'テープバックアップの無効化に成功',
 'bac_RESTORE_CONF_FROM_TAPE' => 'テープバックアップファイルからサーバー設定を復元する',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>この工程でサーバーワークステーションバックアップファイルから設定とユーザーのデータファイルを復元する。<b>この復元は新しくインストールされたサーバーにされる</b>,</p><p>始める前に正しいバックアップファイルを選ぶように注意する</p><p>復元が終わったらサーバーを再起動しなければならない。</p>復元するバックアップファイルはここに : ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>この工程でサーバーワークステーションバックアップファイルから設定とユーザーのデータファイルを復元する。<b>この復元は新しくインストールされたサーバーにされる</b>,</p>
+
+  <p>始める前に正しいバックアップファイルを選ぶように注意する</p>
+
+  <p>復元が終わったらサーバーを再起動しなければならない。</p>
+
+  復元するバックアップファイルはここに : ',
 'bac_RESTORE_FROM_TAPE' => 'テープから復元する',
 'bac_UNABLE_TO_RESTORE_CONF' => 'サーバー　コンフィグレーシオン　を　レストア　する　こと　が　出来ません',
 'bac_RESTORING_FROM_TAPE' => 'テープ　から　リストア',
@@ -85,7 +117,7 @@
 'Backup or restore' => 'バクアプ、リストア',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'サーバー　に　データ　が　ありすぎて　ちゃんとした　バクアプ　が　出来ません',
 'bac_WORKSTN_BACKUPS_DISABLED' => 'ワークステーション バクアプ　は　無能',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' ワークステーションテープバックアップが<b>有効になる</b>. ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' ワークステーションテープバックアップが有効になる. ',
 'bac_WKBACKUPS_RUN_AT' => 'ワークステーション バクアプ まで　の　時間：',
 'bac_WORKSTN_CONFIGURE' => 'ワークステーション バクアプ　を　せてい',
 'bac_WORKSTN_VERIFY' => 'ワークステーションバックアップのチェック',
@@ -98,9 +130,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'ワークステーションのバックアップの有効化に成功',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'ワークステーションバックアップの無効化に成功',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'ワークステーションバックアップのチェック',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>この項目では以前作った全ての一日毎のワークステーションバックアップファイルの名前を表示する。この項目でバックアップの内容を確認できる。<b>確認したいバックアップを選ばなければならない。</b></p><p>あなたが選んだ全てのバックアップファイルが見れる。</p>共有フォルダでバックアップファイルが確認できる : ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>この項目では以前作った全ての一日毎のワークステーションバックアップファイルの名前を表示する。この項目でバックアップの内容を確認できる。<b>確認したいバックアップを選ばなければならない。</b></p>
+
+  <p>あなたが選んだ全てのバックアップファイルが見れる。</p>
+
+  共有フォルダでバックアップファイルが確認できる : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'ワークステーションバックアップファイルからサーバー設定を復元する',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>この工程でサーバーワークステーションバックアップファイルから設定とユーザーのデータファイルを復元する。<b>この復元は新しくインストールされたサーバーにされる</b>,</p><p>始める前に正しいバックアップファイルを選ぶように注意する</p><p>復元が終わったらサーバーを再起動しなければならない。</p>復元するバックアップファイルはここに : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>この工程でサーバーワークステーションバックアップファイルから設定とユーザーのデータファイルを復元する。<b>この復元は新しくインストールされたサーバーにされる</b>,</p>
+
+  <p>始める前に正しいバックアップファイルを選ぶように注意する</p>
+
+  <p>復元が終わったらサーバーを再起動しなければならない。</p>
+
+  復元するバックアップファイルはここに : ',
 'bac_RESTORE_FROM_WORKSTN' => 'ワークステーションから復元する',
 'bac_RESTORING_FROM_WORKSTN' => 'ワークステーションから復元中',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'ワークステーション共有フォルダからサーバー設定とユーザーのデータファイルを現在復元している。',
@@ -124,7 +166,7 @@
 'bac_NUMBER_OF_SETS' => '循環してるバックアップ設定の数',
 'bac_NUMBER_OF_FILES_IN_SET' => '各セットにある一日毎のバックアップ',
 'bac_ERR_INVALID_SETS_NUMBER' => 'セットの数字は１より大きくなければならない',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'この数字は１より大きくなければならない。最初のセットのバックアップは<b>満</b>他のは<b>増加</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'この数字は１より大きくなければならない。最初のセットのバックアップは満他のは増加',
 'bac_WORKSTN_TIMEOUT' => '任意のバックアップセッション時間切れ(時)',
 'bac_INC_ONLY_TIMEOUT' => 'フルバックアップセッションを中断させない',
 'bac_ERR_INVALID_TIMEOUT' => '最大限度のバックアップ時間は１から２４時間の間に設定しなければならない',
@@ -133,11 +175,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'ワークステーションより選択されたファイルを復元',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'ワークステーションの選択されたファイルが復元する',
 'bac_ALL_BACKUPS' => 'すべてのバックアップ',
-'bac_WORKSTN_SEL_REST_DESC' => ' This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don\'t know in which backup are the required files, you can select \'All backups\' option. <br/><br/> The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names.<br/><br/> You have the responsibility not to restore files which could break the functioning of your server.<br/> <br/>Currently, files will be restored from : ',
+'bac_WORKSTN_SEL_REST_DESC' => ' This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don\'t know in which backup are the required files, you can select \'All backups\' option.  The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names. You have the responsibility not to restore files which could break the functioning of your server. Currently, files will be restored from : ',
 'bac_BACKUP_CHOICE' => 'ファイルを選択して表示させる',
 'bac_SELECT_DATE_BEFORE' => '一番新しいのを復元する',
 'bac_FILTER_EXPRESSION' => '名前フィルター：',
-'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection). <br/> <b>Warning :</b> If you select a directory, all contained files and directories will be restored.<p/> By default the most recent version of selected files is restored, but if you specify a date in the format <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> the process will restore only the most recent version modified <b>before the given date</b>. ',
+'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format [ [ [yyyy/]mm/]dd-]hh:mm[:ss] the process will restore only the most recent version modified before the given date. ',
 'bac_ERR_INVALID_SELDATE' => '無効なデータフォーマット。こうでなければならない[ [ [yyyy/]mm/]dd-]hh:mm[:ss]. 例: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => '復元するファイルを選択する',
 'bac_ERR_WHILE_UNMOUNTING' => 'ヂスタント　シェア　を　アンマウント　する　とき　に　エラー　が　派生　します',
@@ -147,8 +189,12 @@
 'bac_ERR_INVALID_COMPRESSION' => '圧縮レベルは0(無圧縮)-9(最高圧縮)の間でなければならない',
 'bac_DOW' => '日曜　月曜　火曜　水曜　木曜　金曜　土曜　毎日',
 'bac_CONFIGURATION_TO_BE_DONE' => 'バックアップ設定をしてください',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>このパネルは現在のバックアップ設定を表示しています。あなたはこのパネルと次のを変更することが出来ます。</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>このパネルは現在のバックアップ設定を表示しています。あなたはこのパネルと次のを変更することが出来ます。</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Backup is',
 'bac_WORKSTN_BACKUP_USB' => 'Backup is made on local removable disk',
 'bac_WORKSTN_BACKUP_MNT' => 'Backup is made on mounted disk',

@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Crea, modifica o rimuovi i-bay',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Aggiungi i-bay</a> </p> <p> E\' possibile rimuovere una i-bay o cambiare la password facendo clic sul corrispondente comando a fianco dell\'i-bay. Se l\'i-bay appare in rosso significa che la password non è ancora stata cambiata dal default e dovrebbe essere cambiata subito. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Aggiungi i-bay</a> </p>
+
+  <p> E\' possibile rimuovere una i-bay o cambiare la password facendo clic sul corrispondente comando a fianco dell\'i-bay. Se l\'i-bay appare in rosso significa che la password non è ancora stata cambiata dal default e dovrebbe essere cambiata subito. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Crea o modifica una i-bay',
 'iba_NAME_FIELD_DESC' => 'Il nome dell\'i-bay può contenere solo lettere minuscole, numeri, punti, trattini e underscore e deve iniziare con una lettera minuscola. Per esempio "brambilla", "intra" e "prog.soft" sono tutti nomi validi, mentre "2dipicche", "Mario Rossi" e "go!web" non lo sono. Il nome è limitato a {$maxLength} caratteri.',
 'iba_NAME_LABEL' => 'Nome i-bay',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Esecuzione di contenuti dinamici (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Forza connessioni sicure (HTTPS)',
 'iba_REMOVE_TITLE' => 'Rimuovi i-bay',
-'iba_REMOVE_DESC' => ' <p> Sta per essere rimossa la i-bay "{$name}" ({$description}). </p> <p> Tutti i file contenuti in questa i-bay verranno cancellati. </p> <p> Siete sicuri di voler rimuovere questa i-bay? </p> ',
+'iba_REMOVE_DESC' => ' <p> Sta per essere rimossa la i-bay "{$name}" ({$description}). </p>
+
+  <p> Tutti i file contenuti in questa i-bay verranno cancellati. </p>
+
+  <p> Siete sicuri di voler rimuovere questa i-bay? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Errore durante la creazione della i-bay.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'i-bay creata con successo.',
 'iba_NO_IBAYS' => 'Non ci sono i-bay configurate.',
@@ -25,7 +35,9 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Le password non coincidono.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Password modificata con successo.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Errore durante la modifica della password.',
-'iba_VHOST_MESSAGE' => ' <p>I seguenti domini virtuali usavano questa i-bay e verranno redirezionati al sito web primario (sarà possibile modificarli in seguito):</p> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' <p>I seguenti domini virtuali usavano questa i-bay e verranno redirezionati al sito web primario (sarà possibile modificarli in seguito):</p>
+
+  <ul>{$vhostList}</ul> ',
 'Information bays' => 'i-bay',
 'iba_WGRG' => 'Scrittura = gruppo, Lettura = gruppo',
 'iba_WGRE' => 'Scrittura = gruppo, Lettura = tutti',
@@ -39,5 +51,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Errore: carattere inaspettato o mancante nella descrizione dell\'i-bay',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Il nome dell\'i-bay "{$acctName}" contiene caratteri non validi. I nome delle i-bay devono iniziare con una lettera minuscola e contenere solo lettere minuscole, numeri e trattini.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Il nome della i-bay "{$name}" è troppo lungo. Il massimo è {$maxIbayNameLength} caratteri.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' L\'account "{$acctName}" è in conflitto con i dettagli dello pseudonimo per "{$acct}". <p>{$acctName} è uno pseudonimo per {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' L\'account "{$acctName}" è in conflitto con i dettagli dello pseudonimo per "{$acct}". {$acctName} è uno pseudonimo per {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'L\'account "{$acctName}" è un account {$acctType} esistente.',

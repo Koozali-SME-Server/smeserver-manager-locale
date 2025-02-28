@@ -10,7 +10,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Exécution de contenu dynamique (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Forcer l\'utilisation de connexions sécurisées',
 'iba_REMOVE_TITLE' => 'Supprimer l\'i-bay',
-'iba_REMOVE_DESC' => ' <p>Vous êtes sur le point de supprimer l\'i-bay "[_1]" ([_2]).</p> <p>Tous les fichiers contenus dans cette i-bay seront supprimés.</p> <p><b>Voulez-vous vraiment supprimer cette i-bay ?</b></p> ',
+'iba_REMOVE_DESC' => ' <p>Vous êtes sur le point de supprimer l\'i-bay "[_1]" ([_2]).</p>
+
+  <p>Tous les fichiers contenus dans cette i-bay seront supprimés.</p>
+
+  <p><b>Voulez-vous vraiment supprimer cette i-bay ?</b></p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Une erreur s\'est produite lors de la création de cette i-bay.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'i-bay créée avec succès.',
 'iba_NO_IBAYS' => 'Aucune i-bay n\'est configurée actuellement.',
@@ -26,7 +32,9 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Les mots de passe ne concordent pas.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Mot de passe réinitialisé avec succès.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Une erreur s\'est produite lors de la réinitialisation du mot de passe.',
-'iba_VHOST_MESSAGE' => ' <p>Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :</p> <ul>[_1]</ul> ',
+'iba_VHOST_MESSAGE' => ' <p>Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :</p>
+
+  <ul>[_1]</ul> ',
 'Information bays' => 'I-bays',
 'iba_WGRG' => 'Écriture=Groupe, Lecture=Groupe',
 'iba_WGRE' => 'Écriture=Groupe, Lecture=Tous',
@@ -40,5 +48,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'ERREUR : caractères inattendus ou manquants dans la description de l\'i-bay.',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Le nom de l\'i-bay "[_1]" contient des caractères non valides. Le nom de l\'i-bay doit commencer par une minuscule et contenir uniquement des lettres minuscules, des chiffres et des traits d\'union.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Le nom de l\'i-bay "[_1]" est trop long. Le nombre maximum de caractères est de [_2].',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Le compte "[_1]" entre en conflit avec un pseudonyme du compte "[_2]". <p>"[_3]" est un pseudonyme de "[_4]".</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Le compte "[_1]" entre en conflit avec un pseudonyme du compte "[_2]". "[_3]" est un pseudonyme de "[_4]". ',
 'iba_ACCOUNT_EXISTS' => 'Le nom de compte "[_1]" est un compte [_2] existant.',

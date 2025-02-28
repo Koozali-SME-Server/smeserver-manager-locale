@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'E-mail log bestand analyse',
-'qma_INITIAL_DESC' => ' <P>De analyse van de systeem e-mail log bestanden kan helpen in zowel het inzicht in de prestaties van uw systeem alsmede de diagnose van verzend problemen. Er zijn diverse rapporten beschikbaar.</P> <P>Opm.: het kan enkele minuten duren om deze rapporten te genereren</P> ',
+'qma_INITIAL_DESC' => ' De analyse van de systeem e-mail log bestanden kan helpen in zowel het inzicht in de prestaties van uw systeem alsmede de diagnose van verzend problemen. Er zijn diverse rapporten beschikbaar. Opm.: het kan enkele minuten duren om deze rapporten te genereren ',
 'qma_REPORT_TYPE' => 'Kies een rapport type',
 'qma_GENERATE_REPORT' => 'Genereer rapport',
 'qma_LIST_OUTGOING' => 'Geef een overzicht van de uitgaande berichten en -ontvangers',

@@ -1,7 +1,7 @@
 'ln_Local networks' => 'Lokale nettverk',
-'ln_FIRSTPAGE_DESC' => ' Av sikkerhetsmessige grunner er flere av tjenestene på serveren bare tilgjenglig på det lokale nettverket. Imidlertid kan du gi rettigheter for disse til flere nettverk ved å oppgi nettverkene nedenfor. De fleste installasjoner kan la listen være tom.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Legg til nettverk</a> ',
+'ln_FIRSTPAGE_DESC' => ' Av sikkerhetsmessige grunner er flere av tjenestene på serveren bare tilgjenglig på det lokale nettverket. Imidlertid kan du gi rettigheter for disse til flere nettverk ved å oppgi nettverkene nedenfor. De fleste installasjoner kan la listen være tom. Legg til nettverk ',
 'ln_ADD_TITLE' => 'Legg til et lokalt nettverk',
-'ln_ADD_DESC' => ' Hvert parameter må være i formatet #.#.#.# (hver # er et nummer fra 0 til 255). Server programvaren vil nulle ut enden (maskin identifikator) delen av nettverk adressen i henhold til subnet masken, for å forsikre at nettverk adressen er gyldig. </P><P> "Ruter" bør være IP adressen til ruteren på ditt lokale nettverk som det ekstra nettverket kan nås. ',
+'ln_ADD_DESC' => ' Hvert parameter må være i formatet #.#.#.# (hver # er et nummer fra 0 til 255). Server programvaren vil nulle ut enden (maskin identifikator) delen av nettverk adressen i henhold til subnet masken, for å forsikre at nettverk adressen er gyldig.  "Ruter" bør være IP adressen til ruteren på ditt lokale nettverk som det ekstra nettverket kan nås. ',
 'ln_NETWORK_ADDRESS' => 'Nettverksadresse',
 'ln_SUBNET_MASK' => 'Subnett maske',
 'ln_INVALID_IP_ADDRESS' => 'Ugyldig IP-adresse',
@@ -18,7 +18,11 @@
 'ln_SUCCESS' => 'Nettverket {$network}/{$networkMask} lagt til via ruteren {$networkRouter}.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den enkle IP adressen {$network}.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Nettverket{$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den {$totalHosts} IP adressene i området {$network}{$firstAddr} to {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den {$totalHosts} IP adressene i området {$network} {$firstAddr} to {$lastAddr}.</p> <p> Advarsel: ProFTPd FTP serveren kan ikke håndtere ikke standardiserte subnetmasker. Den enklere spesifikasjonen<b>{$simpleMask}</b> blir brukt isteden. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den {$totalHosts} IP adressene i området {$network} {$firstAddr} to {$lastAddr}.</p>
+
+  <p> Advarsel: ProFTPd FTP serveren kan ikke håndtere ikke standardiserte subnetmasker. Den enklere spesifikasjonen<b>{$simpleMask}</b> blir brukt isteden. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.',
 'ln_ERROR_DELETING_NETWORK' => 'En feil oppsto under sletting av nettverk. ',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Ingen flere nettverk',

@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Felhasználói fiókok létrehozása, módosítása, vagy eltávolítása',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Felhasználói fiók hozzáadása</a> </p> <p> Módosíthat, zárolhat, eltávolíthat bármely fiókot, vagy megváltoztathatja a jelszavakat a fiókok neve mellett található parancsokra való kattintással . </p> <p> Ha a fiók zároltra van jelölve, akkor az azt jelenti, hogy a felhasználónak jelszavat kell beállítani. Minden újonnan létrehozott fiók automatikusan zárolva van addig míg új jelszót be nem állítanak neki. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Felhasználói fiók hozzáadása</a> </p>
+
+  <p> Módosíthat, zárolhat, eltávolíthat bármely fiókot, vagy megváltoztathatja a jelszavakat a fiókok neve mellett található parancsokra való kattintással . </p>
+
+  <p> Ha a fiók zároltra van jelölve, akkor az azt jelenti, hogy a felhasználónak jelszavat kell beállítani. Minden újonnan létrehozott fiók automatikusan zárolva van addig míg új jelszót be nem állítanak neki. </p>
+
+  ',
 'usr_P2_TITLE' => 'Létrehozás vagy módosítás',
-'usr_CREATE_MODIFY_DESC' => ' <p> A fióknév csak kisbetűket, számokat, kötőjeleket, pontokat, aláhúzásokat tartalmazhat és betűvel kezdődhet. Például "betty", "hjohnson", és "mary-jane" érvényes fióknevek, de a "3friends", "John Smith", és "henry:miller" már nem. </p> <p> Két speciális fedőnév generálódik minden fiókhoz. Ezek a fedőnevek lehetővé teszik a felhasználó számára, hogy alternatív e-mail címük legyen, amely tartalmazza a kereszt és vezetéknevet ponttal és aláhúzással elválasztva. Így a"betty" fiók "Betty" keresztnévvel és "Rubble" vezetéknévvel két fedőnevet kap, úgy mint betty.rubble és betty_rubble. </p> <p> A címtár információk (részleg, cégnév, stb.) az alább látható alapértelmezettről, átállítható másra. A változtatás csak erre a felhasználóra lesz érvényes. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> A fióknév csak kisbetűket, számokat, kötőjeleket, pontokat, aláhúzásokat tartalmazhat és betűvel kezdődhet. Például "betty", "hjohnson", és "mary-jane" érvényes fióknevek, de a "3friends", "John Smith", és "henry:miller" már nem. </p>
+
+  <p> Két speciális fedőnév generálódik minden fiókhoz. Ezek a fedőnevek lehetővé teszik a felhasználó számára, hogy alternatív e-mail címük legyen, amely tartalmazza a kereszt és vezetéknevet ponttal és aláhúzással elválasztva. Így a"betty" fiók "Betty" keresztnévvel és "Rubble" vezetéknévvel két fedőnevet kap, úgy mint betty.rubble és betty_rubble. </p>
+
+  <p> A címtár információk (részleg, cégnév, stb.) az alább látható alapértelmezettről, átállítható másra. A változtatás csak erre a felhasználóra lesz érvényes. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Admin fiók módosítása',
 'usr_USER_CREATED' => 'Felhasználói fiók létrehozása sikeres.',
 'usr_USER_MODIFIED' => 'Felhasználói fiók módosítása sikeres.',
-'usr_CANNOT_MODIFY_USER' => 'Hiba: a "{$acctName}" felhasználó módosításakor belső hiba történt.', 
+'usr_CANNOT_MODIFY_USER' => 'Hiba: a "{$acctName}" felhasználó módosításakor belső hiba történt.',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Hiba: a "{$acctName}" felhasználó "{$group}" csoportjának módosításakor belső hiba történt.',
 'usr_TAINTED_USER' => 'A "{$acctName}" fióknév érvénytelen karaktereket tartalmaz.',
 'usr_ACCOUNT_NAME' => 'Fióknév',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Hiba: a "{$pseudonym}" fedőnevet már lefoglalta a "{$clashName}" felhasználó. Adjon monogramot a névhez, hogy különböző legyen.',
 'usr_LOCK_ACCOUNT' => 'Fiók zárolása',
 'usr_LOCK_ACCOUNT_TITLE' => 'Felhasználói fiók zárolása',
-'usr_LOCK_DESC2' => ' Ez a felhasználói fiók zárolva lesz. Ez azt jelenti, hogy a felhasználó nem tud bejelentkezni, és nem fogadhat e-mailt. Minden beérkező levele eltárolásra kerül, vagy továbbítódik egy előre beállított e-mail címre. A fiók újra aktiválható új jelszó megadásával a jövőben. A jelenlegi jelszó törölve lesz. </p> <p> <b>Biztos benne, hogy zárolja ezt a fiókot?</b> ',
+'usr_LOCK_DESC2' => ' Ez a felhasználói fiók zárolva lesz. Ez azt jelenti, hogy a felhasználó nem tud bejelentkezni, és nem fogadhat e-mailt. Minden beérkező levele eltárolásra kerül, vagy továbbítódik egy előre beállított e-mail címre. A fiók újra aktiválható új jelszó megadásával a jövőben. A jelenlegi jelszó törölve lesz.   Biztos benne, hogy zárolja ezt a fiókot? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Felhasználói fiók törlése',
 'usr_REMOVE_DESC' => 'A felhasználói fiók eltávolítására készül',
-'usr_REMOVE_DESC2' => ' Minden fájl, amely ehhez a fiókhoz tartozik törlésre kerül. A felhasználó szerveren tárolt levelei (például azok, amelyeket még nem töltött le) szintén törlődnek. </p> <p> <b>Biztos benne, hogy törli ezt a fiókot?</b> ',
+'usr_REMOVE_DESC2' => ' Minden fájl, amely ehhez a fiókhoz tartozik törlésre kerül. A felhasználó szerveren tárolt levelei (például azok, amelyeket még nem töltött le) szintén törlődnek.   Biztos benne, hogy törli ezt a fiókot? ',
 'usr_LOCK' => 'Zárol',
 'usr_NO_USER_ACCOUNTS' => 'Nincsenek felhasználói fiókok ezen a rendszeren.',
 'usr_Users' => 'Felhasználók',

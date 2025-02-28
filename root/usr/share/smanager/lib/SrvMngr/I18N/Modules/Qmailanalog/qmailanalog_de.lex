@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'E-Mail Logdateien analysieren',
-'qma_INITIAL_DESC' => ' <P>Die Analyse der E-Mail Logdateien kann Ihnen zum einen helfen zu verstehen, wie Ihr System arbeitet und andererseits Ihnen Hinweise bei Auslieferungsprobleme geben. Es sind verschiedene Berichte verfügbar.</P> <P>Bitte beachten Sie, dass die Erstellung dieser Berichte einige Minuten dauern kann</P> ',
+'qma_INITIAL_DESC' => ' Die Analyse der E-Mail Logdateien kann Ihnen zum einen helfen zu verstehen, wie Ihr System arbeitet und andererseits Ihnen Hinweise bei Auslieferungsprobleme geben. Es sind verschiedene Berichte verfügbar. Bitte beachten Sie, dass die Erstellung dieser Berichte einige Minuten dauern kann ',
 'qma_REPORT_TYPE' => 'Berichtstyp auswählen',
 'qma_GENERATE_REPORT' => 'Bericht erzeugen',
 'qma_LIST_OUTGOING' => 'Liste der ausgehenden Meldungen und Empfänger',

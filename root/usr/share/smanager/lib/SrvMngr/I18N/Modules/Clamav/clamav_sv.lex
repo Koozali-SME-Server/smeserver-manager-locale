@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Antivirusinställningar',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Genomsök hela filsystemet',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Allmäna inställningar</h2> Om detta val är tillåtet kommer hela filsystemet att genomsökas efter virus. En rapport över funna virus kommer att e-postas till administratören.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Allmäna inställningar Om detta val är tillåtet kommer hela filsystemet att genomsökas efter virus. En rapport över funna virus kommer att e-postas till administratören.',
 'clm_LABEL_QUARANTINE' => 'Placera infekterade filer i karantän',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV och db versioner',
 'clm_WEEKLY' => 'Varje vecka',

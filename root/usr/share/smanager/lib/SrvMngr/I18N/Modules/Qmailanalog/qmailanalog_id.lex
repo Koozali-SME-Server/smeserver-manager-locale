@@ -1,5 +1,9 @@
 'qma_FORM_TITLE' => 'Analisa File Log Mail',
-'qma_INITIAL_DESC' => ' <p>Menganalisa log file dari mail sistem dapat membantu anda mengerti bagaimana dayaguna sistem anda dan dalam mendiagnosa masalah pengiriman. Beberapa jenis laporan tersedia.</p> <p>Harap dicatat bahwa mungkin diperlukan beberapa menit untuk membuat laporan-laporan tersebut</p> ',
+'qma_INITIAL_DESC' => ' <p>Menganalisa log file dari mail sistem dapat membantu anda mengerti bagaimana dayaguna sistem anda dan dalam mendiagnosa masalah pengiriman. Beberapa jenis laporan tersedia.</p>
+
+  <p>Harap dicatat bahwa mungkin diperlukan beberapa menit untuk membuat laporan-laporan tersebut</p>
+
+  ',
 'qma_REPORT_TYPE' => 'Pilih jenis laporan',
 'qma_GENERATE_REPORT' => 'Buat laporan',
 'qma_LIST_OUTGOING' => 'Daftar pesan keluar dan penerima',

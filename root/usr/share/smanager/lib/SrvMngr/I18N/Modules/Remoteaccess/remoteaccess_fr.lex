@@ -36,7 +36,7 @@
 'rma_DESC_TELNET_ACCESS' => 'AVERTISSEMENT : Telnet est actuellement activé, mais cette fonctionnalité n\'est plus prise en charge. Intrinsèquement, Telnet n\'est pas sécurisé et nous vous recommandons de ne pas l\'utiliser, à moins que vous n\'ayez pas d\'autre alternative. Vous devriez définir cette option à "{$NO_ACCESS}" et utiliser un terminal sécurisé (SSH) si l\'accès distant est nécessaire. Une fois désactivé, Telnet n\'apparaîtra plus sur cette page. ',
 'rma_DESC_IPSECRW' => 'Vous pouvez autoriser l\'accès authentifié par certificat numérique à votre serveur via un client IPSEC. Nous vous recommandons de laisser cette fonctionnalité désactivée en réglant la valeur à 0, à moins que vous n\'ayez absolument besoin d\'un accès par IPSEC. ',
 'rma_LABEL_IPSECRW_SESS' => 'Nombre de connexions simultanées',
-'rma_DESC_IPSECRW_RESET' => ' Si vous le désirez, vous pouvez régénérer les certificats numériques ici.<br> Les anciens certificats ne permettront plus l\'authentification auprès du serveur et <b><i>tous les clients IPSEC devront donc importer un nouveau certificat !</i></b> ',
+'rma_DESC_IPSECRW_RESET' => ' Si vous le désirez, vous pouvez régénérer les certificats numériques ici. Les anciens certificats ne permettront plus l\'authentification auprès du serveur et tous les clients IPSEC devront donc importer un nouveau certificat ! ',
 'rma_LABEL_IPSECRW_RESET' => 'Régénérer les certificats numériques',
 'rma_TITLE_SSH' => 'Paramètres SSH',
 'rma_TITLE_FTP_ACCESS' => 'Paramètres FTP',

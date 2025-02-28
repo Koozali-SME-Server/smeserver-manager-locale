@@ -1,9 +1,13 @@
 'log_View log files' => 'Vis loggfiler',
 'log_FIRSTPAGE_DESC' => ' Dette panelet gir deg muligheten til å se eller laste ned loggfiler generert av tjenester som kjører på serveren. ',
 'log_LOG_FILE_SELECT_DESC' => 'Velg en loggfil å vise',
-'log_FILTER_PATTERN_DESC' => ' <p>Du kan velge å spesifisere et filtrengings mønster, som gjør at bare linjer fra loggfilen vises som stemmer med filteret. Hvis du lar dette feltet stå tomt, vil alle linjene vises. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.</p> ',
+'log_FILTER_PATTERN_DESC' => ' <p>Du kan velge å spesifisere et filtrengings mønster, som gjør at bare linjer fra loggfilen vises som stemmer med filteret. Hvis du lar dette feltet stå tomt, vil alle linjene vises. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.</p>
+
+  ',
 'log_FILTER_PATTERN_LABEL' => 'Filter mønster (valgfritt)',
-'log_MATCH_PATTERN_DESC' => ' <p>Du kan velge å merke ut et mønster med fet skrift, som gjør at alle linjer merkes med fet skrift dersom linjene stemmer med filtrerings mønsteret. fet skrift mønsteret påføres en hver linje som allerede stemmer med mønsteret. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.</p> ',
+'log_MATCH_PATTERN_DESC' => ' <p>Du kan velge å merke ut et mønster med fet skrift, som gjør at alle linjer merkes med fet skrift dersom linjene stemmer med filtrerings mønsteret. fet skrift mønsteret påføres en hver linje som allerede stemmer med mønsteret. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.</p>
+
+  ',
 'log_MATCH_PATTERN_LABEL' => 'Fet Skrift Mønster (valgfritt)',
 'log_END_DESC' => 'Merk at det kan ta lang tid å generere rapportene.',
 'log_VIEW' => 'Vis loggfil',
@@ -12,9 +16,17 @@
 'log_MATCH_HEADER' => 'Viser linjer som stemmer med: "{$matchPattern}".',
 'log_HIGHLIGHT_HEADER' => 'Viser linjer som stemmer med: "{$highlightPattern}".',
 'log_NO_MATCHING_LINES' => 'Ingen linjer som ligner er vist.',
-'log_FILENAME_ERROR' => ' <p>Feil ved spesifisering av loggfilnavnet.</p> <p>Ugyldig rapport type "{$filename}".</p> ',
+'log_FILENAME_ERROR' => ' <p>Feil ved spesifisering av loggfilnavnet.</p>
+
+  <p>Ugyldig rapport type "{$filename}".</p>
+
+  ',
 'log_REFRESH' => 'Oppfrisk loggfilen',
-'log_OP_DESC' => ' <p>Du må velge mellom å se på loggfilen i nettleseren, eller å laste ned loggfilen til din datamaskin. Hvis loggfilen er spesiellt stor, bør du velge å laste den ned, da store filer kan være et problem for noen nettlesere.</p> ',
+'log_OP_DESC' => ' <p>Du må velge mellom å se på loggfilen i nettleseren, eller å laste ned loggfilen til din datamaskin. Hvis loggfilen er spesiellt stor, bør du velge å laste den ned, da store filer kan være et problem for noen nettlesere.</p>
+
+  ',
 'log_OP_LABEL' => 'Funksjon',
-'log_DOWNLOAD_PAGE_DESC' => ' <p>Din loggfil nedlasting blir forberedt. Det vil fortsette så snart du klikker på &quot;Neste&quot; knappen nedenfor, og gi nettleseren din beskjed om å godta nedlastingen via pop-up vinduet som vil komme.</p> ',
+'log_DOWNLOAD_PAGE_DESC' => ' <p>Din loggfil nedlasting blir forberedt. Det vil fortsette så snart du klikker på &quot;Neste&quot; knappen nedenfor, og gi nettleseren din beskjed om å godta nedlastingen via pop-up vinduet som vil komme.</p>
+
+  ',
 'log_DOWNLOAD_FILE' => 'Forbereder å laste ned loggfilen {$logfile}.',

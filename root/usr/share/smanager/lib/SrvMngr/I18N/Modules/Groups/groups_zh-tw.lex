@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => '簡短描述／視窗群組別名',
 'grp_GROUP_DESC_EXPL' => '請於下方欄位輸入群組簡短描述。此欄位在視窗客戶端可由指定的群組名稱來檢視。',
 'grp_IBAYS_WILL_BE_CHANGED' => '下列訊息被指定到此群組，而且將被改成管理員群組（您隨後可修改）：',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>您確定希望移除此群組？</b></p> ',
-'grp_CURRENT_LIST' => '<p>即時使用者群組列表</p>',
-'grp_DELETE_DESCRIPTION' => ' 您將要移除使用者群組 "<b>{$group}</b>。" ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>您確定希望移除此群組？</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>即時使用者群組列表</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' 您將要移除使用者群組 "{$group}。" ',

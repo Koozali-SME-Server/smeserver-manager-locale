@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => '操作报告',
 'ACCOUNT' => '帐号',
 'GROUP' => '组',
-'DESC_SECTIONBAR' => ' <hr class="位置栏"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => '管道符号(|) 在此字段中是不允许的。',
 'ERROR_BELOW' => '错误：验证页面时出现错误。请滚动页面并找到指定错误。',
 'ACCESS' => '访问',

@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Criar, modificar, ou remover conta de usuário',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Adicionar conta de usuário</a> </p> <p> Você pode modificar, bloquear ou remover qualquer conta de usuário ou resetar as senhas das contas clicando no comando correspondente próximo a conta. </p> <p> Se a conta está marcada como bloqueada, isso significa que a senha do usuário precisa ser resetada. Por favor note que ao criar uma conta ela é configurada como bloqueada até que a senha seja definida. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Adicionar conta de usuário</a> </p>
+
+  <p> Você pode modificar, bloquear ou remover qualquer conta de usuário ou resetar as senhas das contas clicando no comando correspondente próximo a conta. </p>
+
+  <p> Se a conta está marcada como bloqueada, isso significa que a senha do usuário precisa ser resetada. Por favor note que ao criar uma conta ela é configurada como bloqueada até que a senha seja definida. </p>
+
+  ',
 'usr_P2_TITLE' => 'Criar ou modificar',
-'usr_CREATE_MODIFY_DESC' => ' <p> O nome da conta deverá conter somente letras minúsculas, números e hifens; e deverá iniciar com letra minúscula. Por exemplo "beto", "silvajoao", e "jose-silva" são todos nomes de contas válidos, mas "3friends", "John Smith", e "henry_miller" não são. </p> <p> Note que dois pseudônimos são criados para cada nova conta. Esses pseudônimos habilitam o usuário a ter contas de correio alternativas que incluem seus primeiro e último nomes separados por um ponto (.) e sublinhado (_). Assim, para a conta "beto" com primeiro nome "Roberto" e último nome "Silva" dois psedônimos são criados, roberto.silva e roberto_silva. </p> <p> As informações do diretório (departamento, companhia, etc.) podem ser trocados para outras além das padrão definidas abaixo. As alterações serão aplicadas somente para este usuário. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> O nome da conta deverá conter somente letras minúsculas, números e hifens; e deverá iniciar com letra minúscula. Por exemplo "beto", "silvajoao", e "jose-silva" são todos nomes de contas válidos, mas "3friends", "John Smith", e "henry_miller" não são. </p>
+
+  <p> Note que dois pseudônimos são criados para cada nova conta. Esses pseudônimos habilitam o usuário a ter contas de correio alternativas que incluem seus primeiro e último nomes separados por um ponto (.) e sublinhado (_). Assim, para a conta "beto" com primeiro nome "Roberto" e último nome "Silva" dois psedônimos são criados, roberto.silva e roberto_silva. </p>
+
+  <p> As informações do diretório (departamento, companhia, etc.) podem ser trocados para outras além das padrão definidas abaixo. As alterações serão aplicadas somente para este usuário. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Modificar conta do administrador',
 'usr_USER_CREATED' => 'Conta de usuário criada com sucesso.',
 'usr_USER_MODIFIED' => 'Conta de usuário modificada com sucesso.',
-'usr_CANNOT_MODIFY_USER' => 'Erro: um erro interno ocorreu enquanto tentava modificar conta de usuário "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Erro: um erro interno ocorreu enquanto tentava modificar conta de usuário "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Erro: um erro interno ocorreu enquanto tentava modificar o grupo "{$group}" do usuário "{$acctName}".',
 'usr_TAINTED_USER' => 'A conta de nome "{$acctName}" contém caracteres inválidos.',
 'usr_ACCOUNT_NAME' => 'Nome da conta',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Erro: o apelido "{$pseudonym}" já está sendo usado pela conta de usuário "{$clashName}". Para diferenciar, por exemplo, adicione as letras de nomes intermediários ou iniciais aqui.',
 'usr_LOCK_ACCOUNT' => 'Bloquear conta',
 'usr_LOCK_ACCOUNT_TITLE' => 'Bloquear conta de usuário',
-'usr_LOCK_DESC2' => ' Esta conta de usuário será bloqueada. Isto significa que o usuário não será capaz de logar e não será capaz de coletar e-mail. Qualquer e-mail será armazenado e/ou redirecionado para uma conta de e-mail externa, conforme configurado. A conta pode ser reativada no futuro definindo-se uma nova senha. A senha atual não será preservada. </p> <p> <b>Você tem certeza que deseja tornar bloquear essa conta?</b> ',
+'usr_LOCK_DESC2' => ' Esta conta de usuário será bloqueada. Isto significa que o usuário não será capaz de logar e não será capaz de coletar e-mail. Qualquer e-mail será armazenado e/ou redirecionado para uma conta de e-mail externa, conforme configurado. A conta pode ser reativada no futuro definindo-se uma nova senha. A senha atual não será preservada.   Você tem certeza que deseja tornar bloquear essa conta? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Remover conta de usuário',
 'usr_REMOVE_DESC' => 'Voce esta prestes a remover a conta do usuário',
-'usr_REMOVE_DESC2' => ' Todos os arquivos pertencentes a esse usuário serão apagados. Também, qualquer e-mail para essa conta de usuário neste servidor (i.e. aqueles que ainda não foram recuperados pelo usuário) serão descartados. </p> <p> <b>Você tem certeza que deseja remover essa conta?</b> ',
+'usr_REMOVE_DESC2' => ' Todos os arquivos pertencentes a esse usuário serão apagados. Também, qualquer e-mail para essa conta de usuário neste servidor (i.e. aqueles que ainda não foram recuperados pelo usuário) serão descartados.   Você tem certeza que deseja remover essa conta? ',
 'usr_LOCK' => 'Bloquear',
 'usr_NO_USER_ACCOUNTS' => 'Não existe contas de usuários neste servidor.',
 'usr_Users' => 'Usuários',

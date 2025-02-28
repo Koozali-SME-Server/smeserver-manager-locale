@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Oprette, ændre eller fjerne brugerkonti',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Tilføj brugerkonto</a> </p> <p> Du kan ændre, låse, fjerne brugerkonti eller skifte adgangskoden ved at klikke på den aktuelle kommando ud for brugernavnet. </p> <p> Hvis brugerkontoen er markeret som låst, betyder det, at brugerens adgangskode skal skiftes. Bemærk venligst at nyoprettede konti automatisk er låst indtil adgangskoden er skiftet. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Tilføj brugerkonto</a> </p>
+
+  <p> Du kan ændre, låse, fjerne brugerkonti eller skifte adgangskoden ved at klikke på den aktuelle kommando ud for brugernavnet. </p>
+
+  <p> Hvis brugerkontoen er markeret som låst, betyder det, at brugerens adgangskode skal skiftes. Bemærk venligst at nyoprettede konti automatisk er låst indtil adgangskoden er skiftet. </p>
+
+  ',
 'usr_P2_TITLE' => 'Oprette eller ændre',
-'usr_CREATE_MODIFY_DESC' => ' <p> Brugernavnet må kun indeholde små bogstaver, tal, bindestreg, punktum, understregningskode og skal starte med lille bogstev. F.eks. er "betty", "hjohnson" og "mary-jane" alle gyldige brugernavne, mens "3venner", "John Smith" og "henry:miller" er ugyldige. </p> <p> Bemærk, at der vil blive dannet 2 specielle pseudonymer for hvert nyt brugernavn. Disse pseudonymer giver brugeren mulighed for alternative e-postadresser, som indeholder brugerens fornavn og efternavn, adskilt med et punktum (.) og et understregningstegn (_). For brugernavnet "betty" med fornavn "Betty" og efternavn "Rubble" dannes 2 pseudonymer, betty.rubble og betty_rubble. </p> <p> Adresseinformation (afdeling, virksomhed og så videre) kan ændres fra de viste standardværdier. Ændringerne gælder kun den enkelte bruger. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> Brugernavnet må kun indeholde små bogstaver, tal, bindestreg, punktum, understregningskode og skal starte med lille bogstev. F.eks. er "betty", "hjohnson" og "mary-jane" alle gyldige brugernavne, mens "3venner", "John Smith" og "henry:miller" er ugyldige. </p>
+
+  <p> Bemærk, at der vil blive dannet 2 specielle pseudonymer for hvert nyt brugernavn. Disse pseudonymer giver brugeren mulighed for alternative e-postadresser, som indeholder brugerens fornavn og efternavn, adskilt med et punktum (.) og et understregningstegn (_). For brugernavnet "betty" med fornavn "Betty" og efternavn "Rubble" dannes 2 pseudonymer, betty.rubble og betty_rubble. </p>
+
+  <p> Adresseinformation (afdeling, virksomhed og så videre) kan ændres fra de viste standardværdier. Ændringerne gælder kun den enkelte bruger. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Ændre administratorkonto',
 'usr_USER_CREATED' => 'Brugerkontoen er oprettet.',
 'usr_USER_MODIFIED' => 'Brugerkontoen er ændret.',
-'usr_CANNOT_MODIFY_USER' => 'FEJL: Der skete en intern fejl i forbindelse med forsøget på at ændre brugeren "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'FEJL: Der skete en intern fejl i forbindelse med forsøget på at ændre brugeren "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'FEJL: Der er sket en intern fejl i forbindelse med forsøget på at ændre gruppen "{$group}" for brugeren "{$acctName}".',
 'usr_TAINTED_USER' => 'Brugernavnet "{$acctName}" indeholder ugyldige tegn.',
 'usr_ACCOUNT_NAME' => 'Brugernavn',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Fejl: Pseudonymet "{$pseudonym}" bruges allerede af brugerkonto "{$clashName}". For at lave en forskel kan du evt. tilføje initialer i dette felt.',
 'usr_LOCK_ACCOUNT' => 'Lås konto',
 'usr_LOCK_ACCOUNT_TITLE' => 'Lås brugerkonto',
-'usr_LOCK_DESC2' => ' Denne brugerkonto vil blive låst, så brugeren ikke kan logge ind og ikke vil være i stand til at hente e-post. Post til brugeren vil blive gemt og/eller videresendt til en ekstern e-postadresse ifølge opsætningen. Kontoen aktiveres igen ved at skifte adgangskoden. Den aktuelle adgangskode vil ikke blive bevaret. </p> <p> <b>Er du sikker på, at du vil låse denne konto?</b> ',
+'usr_LOCK_DESC2' => ' Denne brugerkonto vil blive låst, så brugeren ikke kan logge ind og ikke vil være i stand til at hente e-post. Post til brugeren vil blive gemt og/eller videresendt til en ekstern e-postadresse ifølge opsætningen. Kontoen aktiveres igen ved at skifte adgangskoden. Den aktuelle adgangskode vil ikke blive bevaret.   Er du sikker på, at du vil låse denne konto? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Fjerne brugerkonto',
 'usr_REMOVE_DESC' => 'Du er ved at fjerne brugerkontoen',
-'usr_REMOVE_DESC2' => ' Alle filer tilhørende denne brugerkonto vil blive slettet. Endvidere, alle e-mail for denne brugerkonto, som stadig ligger på serveren (det vil sige e-mails som endnu ikke er hentet af brugeren) vil blive slettet</p> <p> <b>Er du sikker på, at du ønsker at fjerne denne brugerkonto?</b> ',
+'usr_REMOVE_DESC2' => ' Alle filer tilhørende denne brugerkonto vil blive slettet. Endvidere, alle e-mail for denne brugerkonto, som stadig ligger på serveren (det vil sige e-mails som endnu ikke er hentet af brugeren) vil blive slettet  Er du sikker på, at du ønsker at fjerne denne brugerkonto? ',
 'usr_LOCK' => 'Lås',
 'usr_NO_USER_ACCOUNTS' => 'Der er ingen brugerkonti på dette system.',
 'usr_Users' => 'Brugere',

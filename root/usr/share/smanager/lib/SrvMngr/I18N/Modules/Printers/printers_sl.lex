@@ -1,5 +1,7 @@
 'prt_FORM_TITLE' => 'Dodaj ali odstrani tiskalnik',
-'prt_INITIAL_DESC' => ' <p><A class="button-like" HREF="printers?page=0&Next=Add">Dodaj tiskalnik</A></p> ',
+'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Dodaj tiskalnik</a></p>
+
+  ',
 'prt_NO_PRINTERS' => 'V sistemu ni nobenega tiskalnika.',
 'prt_CURRENT_LIST' => 'Trenutni seznam tiskalnikov',
 'prt_REMOTE_ADDRESS' => 'Oddaljen naslov',
@@ -13,7 +15,11 @@
 'prt_NET_PRINTER' => 'Mrezni tiskalnik ...',
 'prt_FIRST_USB_PRINTER' => 'Prvi USB tiskalnik',
 'prt_SECOND_USB_PRINTER' => 'Drugi USB tiskalnik',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>Napaka: V imenu tiskalnika so nepravi znaki-crke. </p> <p>Ime tiskalnika lahko vsebuje samo male crke in stevilke naprimer "hplaser" ali "canonbj" in se mora zaceti z malo crko. </p> ',
+'prt_ERR_UNEXPECTED_NAME' => ' <p>Napaka: V imenu tiskalnika so nepravi znaki-crke. </p>
+
+  <p>Ime tiskalnika lahko vsebuje samo male crke in stevilke naprimer "hplaser" ali "canonbj" in se mora zaceti z malo crko. </p>
+
+  ',
 'prt_ERR_UNEXPECTED_DESC' => 'Napaka: Nepricakovan ali manjkajoc znak v opisu tiskalnika. Novi tiskalnik ni dodan.',
 'prt_ERR_EXISTS' => 'Napaka: Racun z enakim imenom ze obstaja:',
 'prt_ERR_INVALID_ADDRESS' => 'Napaka: Napacen mrezni maslov. Nov tiskalnik ni dodan.',

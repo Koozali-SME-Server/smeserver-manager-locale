@@ -6,5 +6,5 @@
 'rbo_DESC_RECONFIGURE' => 'Ihr Server hat eine volle System-Rekonfiguration und Neustart angestoßen.',
 'rbo_DESC_SHUTDOWN' => 'Ihr Server wird heruntergefahren. Dies dauert einige Minuten, danach können Sie die Stromversorgung ausschalten.',
 'rbo_LABEL_REBOOT' => 'Wählen Sie Herunterfahren, Neustart oder Rekonfigurieren',
-'rbo_DESCRIPTION' => ' Hier können Sie den Server herunterfahren, neu starten oder eine volle System-Rekonfigurierung durchführen. Bevor Sie die Spannungsversorgung ausschalten, müssen Sie den Server herunterfahren. Alle Funktionen benötigen einige Minuten, bis sie abgeschlossen sind. Wenn Sie auf <b>Ausführen</b> drücken, wird die gewählte Funktion gestartet, seien Sie bereit! ',
+'rbo_DESCRIPTION' => ' Hier können Sie den Server herunterfahren, neu starten oder eine volle System-Rekonfigurierung durchführen. Bevor Sie die Spannungsversorgung ausschalten, müssen Sie den Server herunterfahren. Alle Funktionen benötigen einige Minuten, bis sie abgeschlossen sind. Wenn Sie auf Ausführen drücken, wird die gewählte Funktion gestartet, seien Sie bereit! ',
 'Reboot or shutdown' => 'Neustart oder Herunterfahren',

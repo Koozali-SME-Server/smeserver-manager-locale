@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Antivirüs ayarları',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Dosya sistemini tara',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Genel Ayarlar</h2> Bu seçenek etkinse, dosya sistemi virüslere karşı taranır. Bulunan virüslere ilişkin rapor sistem yöneticisine gönderilecektir.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Genel Ayarlar Bu seçenek etkinse, dosya sistemi virüslere karşı taranır. Bulunan virüslere ilişkin rapor sistem yöneticisine gönderilecektir.',
 'clm_LABEL_QUARANTINE' => 'Virüslü dosyaları karantinaya al.',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV ve db versiyonu',
 'clm_WEEKLY' => 'Haftalık',

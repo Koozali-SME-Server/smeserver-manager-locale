@@ -1,7 +1,7 @@
 'ln_Local networks' => 'Helyi hálózatok',
-'ln_FIRSTPAGE_DESC' => ' Biztonsági okokból a szerver néhány szolgáltatása csak hálózaton belül érhető el. Azonban lehetősége van ezen szolgáltatásokhoz hozzáférést adni további hálózatok számára, úgy hogy hozzáadja őket az alábbi listához. Más esetben hagyja üresen ezt a listát.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Hálózat hozzáadása</a> ',
+'ln_FIRSTPAGE_DESC' => ' Biztonsági okokból a szerver néhány szolgáltatása csak hálózaton belül érhető el. Azonban lehetősége van ezen szolgáltatásokhoz hozzáférést adni további hálózatok számára, úgy hogy hozzáadja őket az alábbi listához. Más esetben hagyja üresen ezt a listát. Hálózat hozzáadása ',
 'ln_ADD_TITLE' => 'Helyi hálózat hozzáadása',
-'ln_ADD_DESC' => ' Minden paramétert a #.#.#.# formában kell megadni (minden # egy szám 0 és 255 között). A szerver kinullázza a hálózati cím alhálózati maszk által meghatározott végét (gép azonosítót) hogy a hálózati cím érvényes legyen. </P><P> Az "Átjáró" annak az eszköznek az IP címe amelyen keresztül elérhetők a további külső hálózatok ',
+'ln_ADD_DESC' => ' Minden paramétert a #.#.#.# formában kell megadni (minden # egy szám 0 és 255 között). A szerver kinullázza a hálózati cím alhálózati maszk által meghatározott végét (gép azonosítót) hogy a hálózati cím érvényes legyen.  Az "Átjáró" annak az eszköznek az IP címe amelyen keresztül elérhetők a további külső hálózatok ',
 'ln_NETWORK_ADDRESS' => 'Hálózati cím',
 'ln_SUBNET_MASK' => 'Alhálózati maszk',
 'ln_INVALID_IP_ADDRESS' => 'Érvénytelen IP cím',
@@ -18,7 +18,11 @@
 'ln_SUCCESS' => 'A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$network} IP címnek.',
 'ln_SUCCESS_NETWORK_RANGE' => 'A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$totalHosts} IP címeknek a {$firstAddr} -tól {$lastAddr} -ig terjedő címtartományban.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$totalHosts} IP címeknek a {$firstAddr} -tól {$lastAddr} -ig terjedő címtartományban.. </p> <p> Figyelem: a ProFTPd FTP szerver nem tudja kezelni az ilyen fajta alhálózati maszkot. Az egyszerűbb <b>{$simpleMask}</b> lesz helyette használatban. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$totalHosts} IP címeknek a {$firstAddr} -tól {$lastAddr} -ig terjedő címtartományban.. </p>
+
+  <p> Figyelem: a ProFTPd FTP szerver nem tudja kezelni az ilyen fajta alhálózati maszkot. Az egyszerűbb <b>{$simpleMask}</b> lesz helyette használatban. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen eltávolította.',
 'ln_ERROR_DELETING_NETWORK' => 'Hiba történt a hálózat eltávolításakor.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Nincsenek hozzáadott hálózatok',

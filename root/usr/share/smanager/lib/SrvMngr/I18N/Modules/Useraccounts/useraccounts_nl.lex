@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Gebruikersaccount toevoegen, wijzigen of verwijderen',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Gebruikersaccount toevoegen</a> </p> <p>U kan een account wijzigen, vergrendelen of verwijderen of het wachtwoord opnieuw instellen door op de corresponderende opdracht te klikken naast de account. </p> <p> Een vergrendelde account betekent dat het wachtwoord van deze account opnieuw moet worden ingesteld. Houd er rekening mee dat nieuw aangemaakte accounts automatisch worden vergrendeld tot het wachtwoord opnieuw is ingesteld. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Gebruikersaccount toevoegen</a> </p>
+
+  <p>U kan een account wijzigen, vergrendelen of verwijderen of het wachtwoord opnieuw instellen door op de corresponderende opdracht te klikken naast de account. </p>
+
+  <p> Een vergrendelde account betekent dat het wachtwoord van deze account opnieuw moet worden ingesteld. Houd er rekening mee dat nieuw aangemaakte accounts automatisch worden vergrendeld tot het wachtwoord opnieuw is ingesteld. </p>
+
+  ',
 'usr_P2_TITLE' => 'Toevoegen of wijzigen',
-'usr_CREATE_MODIFY_DESC' => ' <p> De accountnaam mag alleen kleine letters, cijfers, koppeltekens, punten en lage streepjes bevatten en moet met een kleine letter beginnen. Bijvoorbeeld "betty", "hjohnson", en "mary-jane" zijn geldige accountnamen, maar "3vrienden", "Jan Smit", en "henry:miller" niet. </p> <p> Merk op dat voor elke account twee speciale pseudoniemen worden aangemaakt. Deze pseudoniemen geven de mogelijkheid om alternatieve mail accounts aan een gebruiker te geven welke de voornaam en familienaam gescheiden door een punt (.) en laag streepje (_). Bijvoorbeeld, voor de account "betty", met voornaam "Betty" en familienaam "Rubble", worden twee pseudoniemen aangemaakt: betty.rubble en betty_rubble. </p> <p> De directory gegevens (afdeling, bedrijf, enz.) kunnen hieronder worden aangepast. De wijzigingen zullen alleen op deze gebruiker van toepassing zijn. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> De accountnaam mag alleen kleine letters, cijfers, koppeltekens, punten en lage streepjes bevatten en moet met een kleine letter beginnen. Bijvoorbeeld "betty", "hjohnson", en "mary-jane" zijn geldige accountnamen, maar "3vrienden", "Jan Smit", en "henry:miller" niet. </p>
+
+  <p> Merk op dat voor elke account twee speciale pseudoniemen worden aangemaakt. Deze pseudoniemen geven de mogelijkheid om alternatieve mail accounts aan een gebruiker te geven welke de voornaam en familienaam gescheiden door een punt (.) en laag streepje (_). Bijvoorbeeld, voor de account "betty", met voornaam "Betty" en familienaam "Rubble", worden twee pseudoniemen aangemaakt: betty.rubble en betty_rubble. </p>
+
+  <p> De directory gegevens (afdeling, bedrijf, enz.) kunnen hieronder worden aangepast. De wijzigingen zullen alleen op deze gebruiker van toepassing zijn. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Beheerders account wijzigen',
 'usr_USER_CREATED' => 'De gebruikersaccount is met succes toegevoegd.',
 'usr_USER_MODIFIED' => 'De gebruikersaccount is met succes gewijzigd.',
-'usr_CANNOT_MODIFY_USER' => 'Fout: er is een fout opgetreden tijdens het wijzigen van de gebruikersaccount "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Fout: er is een fout opgetreden tijdens het wijzigen van de gebruikersaccount "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Fout: er is een fout opgetreden tijdens het wijzigen van de groep "{$group}" voor gebruiker "{$acctName}".',
 'usr_TAINTED_USER' => 'De accountnaam "{$acctName}" bevat ongeldige tekens.',
 'usr_ACCOUNT_NAME' => 'Accountnaam',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Fout: het pseudoniem "{$pseudonym}" is reeds in gebruik door de gebruikersaccount "{$clashName}". Voeg aan dit veld de initialen toe om een onderscheid te maken.',
 'usr_LOCK_ACCOUNT' => 'Account vergrendelen',
 'usr_LOCK_ACCOUNT_TITLE' => 'Gebruikersaccount vergrendelen',
-'usr_LOCK_DESC2' => ' Deze gebruikersaccount zal vergrendeld worden. Dit betekend dat deze gebruiker niet meet in kan loggen en geen e-mail kan bekijken of ophalen. E-mail voor deze gebruiker zal worden opgeslagen en/of doorgestuurd worden als ingesteld. De account kan geheractiveerd worden door een nieuw wachtwoord in te stellen. het huidige wachtwoord is niet meer geldig. </p> <p> <b>Weet U zeker dat U deze account wilt vergrendelen?</b> ',
+'usr_LOCK_DESC2' => ' Deze gebruikersaccount zal vergrendeld worden. Dit betekend dat deze gebruiker niet meet in kan loggen en geen e-mail kan bekijken of ophalen. E-mail voor deze gebruiker zal worden opgeslagen en/of doorgestuurd worden als ingesteld. De account kan geheractiveerd worden door een nieuw wachtwoord in te stellen. het huidige wachtwoord is niet meer geldig.   Weet U zeker dat U deze account wilt vergrendelen? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Gebruikersaccount verwijderen',
 'usr_REMOVE_DESC' => 'U staat op het punt om de gebruikersaccount te verwijderen',
-'usr_REMOVE_DESC2' => ' All bestanden behorende bij deze gebruikersaccount zullen verwijdert worden. Tevens zal alle e-mail voor deze gebruikers account (voor zover dit niet opgehaald is) verwijderd worden. </p> <p> <b>Bent U zeker dat U deze gebruikersaccount wilt verwijderen?</b> ',
+'usr_REMOVE_DESC2' => ' All bestanden behorende bij deze gebruikersaccount zullen verwijdert worden. Tevens zal alle e-mail voor deze gebruikers account (voor zover dit niet opgehaald is) verwijderd worden.   Bent U zeker dat U deze gebruikersaccount wilt verwijderen? ',
 'usr_LOCK' => 'Vergrendel',
 'usr_NO_USER_ACCOUNTS' => 'Er zijn geen gebruikersaccounts op dit systeem.',
 'Users' => 'Gebruikers',

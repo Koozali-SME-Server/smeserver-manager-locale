@@ -1,5 +1,7 @@
 'prt_FORM_TITLE' => 'Aggiungi o rimuovi stampanti',
-'prt_INITIAL_DESC' => ' <p><A class="button-like" HREF="printers?page=0&Next=Add">Aggiungi stampante</A></p> ',
+'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Aggiungi stampante</a></p>
+
+  ',
 'prt_NO_PRINTERS' => 'Non ci sono stampanti nel sistema.',
 'prt_CURRENT_LIST' => 'Lista delle stampanti',
 'prt_REMOTE_ADDRESS' => 'Indirizzo remoto',
@@ -13,7 +15,11 @@
 'prt_NET_PRINTER' => 'Stampante di rete ...',
 'prt_FIRST_USB_PRINTER' => 'Prima stampante USB',
 'prt_SECOND_USB_PRINTER' => 'Seconda stampante USB',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>Errore: carattere inaspettato nel nome stampante.</p> <p>Il nome della stampante può contenere soltanto lettere minuscole e numeri e deve iniziare con una lettera minuscola. Per esempio "hplaser", "epsonlp" e "canonbj" sono nomi validi.</p> ',
+'prt_ERR_UNEXPECTED_NAME' => ' <p>Errore: carattere inaspettato nel nome stampante.</p>
+
+  <p>Il nome della stampante può contenere soltanto lettere minuscole e numeri e deve iniziare con una lettera minuscola. Per esempio "hplaser", "epsonlp" e "canonbj" sono nomi validi.</p>
+
+  ',
 'prt_ERR_UNEXPECTED_DESC' => 'Errore: carattere mancante o inaspettato nella descrizione. Stampante non creata.',
 'prt_ERR_EXISTS' => 'Errore: esiste un account con lo stesso nome di tipo:',
 'prt_ERR_INVALID_ADDRESS' => 'Errore: indirizzo di rete non valido. Stampante non creata.',

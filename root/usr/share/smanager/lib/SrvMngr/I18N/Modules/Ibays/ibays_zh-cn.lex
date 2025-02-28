@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => '创建、修改或删除i-bay',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">添加信息港</a> </p> <p>您可以移除任何信息港或点击信息港边相应的命令来重置其密码。如果信息港显示为红色，则表示其密码为默认，没有修改过，因此应该尽快修改。</p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">添加信息港</a> </p>
+
+  <p>您可以移除任何信息港或点击信息港边相应的命令来重置其密码。如果信息港显示为红色，则表示其密码为默认，没有修改过，因此应该尽快修改。</p>
+
+  ',
 'iba_ADD_TITLE' => '创建或修改i-bay',
 'iba_NAME_FIELD_DESC' => 'i-bay名称只能包含小写字母、数字、句点、连接符和下划线，并且要以小写字母开头。例如"johnson"、"intra"和"cust3.prj12"是有效名称，但是"3associates"、 "John Smith" 和"Bus!Partner"是无效的。该名称的长度限制为 {$maxLength} 个字符。',
 'iba_NAME_LABEL' => 'i-bay名称',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => '执行动态内容(CGI, PHP, SSI)',
 'iba_HTTPS_Only' => '强制安全连接',
 'iba_REMOVE_TITLE' => '删除i-bay',
-'iba_REMOVE_DESC' => ' <p> 您正要删除i-bay "{$name}" ({$description}). </p> <p> 此i-bay的所有文件都将被删除。 </p> <p> 是否真的要删除此i-bay？ </p> ',
+'iba_REMOVE_DESC' => ' <p> 您正要删除i-bay "{$name}" ({$description}). </p>
+
+  <p> 此i-bay的所有文件都将被删除。 </p>
+
+  <p> 是否真的要删除此i-bay？ </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => '创建信息港时出错。',
 'iba_SUCCESSFULLY_CREATED_IBAY' => '信息港创建成功。',
 'iba_NO_IBAYS' => '当前尚未配置信息港。',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => '两次密码不相匹配。',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => '密码重置成功。',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => '密码重置时发生错误。',
-'iba_VHOST_MESSAGE' => ' <P>下面的虚拟域将使用此信息港作为其内容，它将被当做主web站点（可以稍后修改它们）:</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' 下面的虚拟域将使用此信息港作为其内容，它将被当做主web站点（可以稍后修改它们）: {$vhostList} ',
 'iba_Information bays' => '信息港',
 'iba_WGRG' => '写入=群，读取=群',
 'iba_WGRE' => '写入 = 群组，读取 = 任何人',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => '错误：在i-bay的描述中缺少字符',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'i-bay名称"{$acctName}" 包含无效字符。i-bay名称必须以小写字母开头，并且只能包含小写字母、数字和连接符。',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'i-bay名称"{$acctName}"太长，最大为{$maxIbayNameLength}个字符。',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' 账号 "{$acctName}"与{$acctType} 账号 "{$acct}"的署名有冲突. <p>{$acctName}是{$acct}的署名。</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' 账号 "{$acctName}"与{$acctType} 账号 "{$acct}"的署名有冲突. {$acctName}是{$acct}的署名。 ',
 'iba_ACCOUNT_EXISTS' => '账号"{$acctName}" 是已存在的{$acctType}账号。',

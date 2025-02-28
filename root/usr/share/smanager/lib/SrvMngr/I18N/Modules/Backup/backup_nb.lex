@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Lag sikkerhetskopi eller gjenopprett server data',
-'bac_BACKUP_DESC' => ' <P>Serveren har to mulige måter å sikkerhetskopiere og gjenopprette din server: Dit lokale skrivebord, eller tapestasjon.</P> <P>Den første metoden oppretter en kopi av server oppsettet og brukernes datafiler, og lagerer den på skrivebordet ditt via nettleseren. Konfigurasjonsfilene og bruker datafilene er ca <b>$tarsize</b> store. Backupfilen er noe mindre en dette avhengig av hvor komprimerbar dataene er. \"Verifiser skrivebord backup filen\" valget kan brukes til å sjekke integriteten til skrivebords backupfilen.</P> <P>Tape backup metoden bruker et program kalt <I>$module</I> til å ta backup av hele harddisken til tape hver natt. Det krever en støttet tapestasjon og en tape som ikke er skrivebeskyttet. Backup blir kjørt automatisk til valgt tid hver natt (med en påminnelse automatisk sendt på e-post til administrator i løpet av dagen). Nå inneholder harddisken <b>$dumpsize</b> med data.</P> <P>Begge gjenopprettings metoder tillater å gjenopprette oppsett og bruker datafiler. <b>Ideelt, bør gjenoppretting foretas på en nyinstallert server</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>Serveren har to mulige måter å sikkerhetskopiere og gjenopprette din server: Dit lokale skrivebord, eller tapestasjon.</p>
+
+  <p>Den første metoden oppretter en kopi av server oppsettet og brukernes datafiler, og lagerer den på skrivebordet ditt via nettleseren. Konfigurasjonsfilene og bruker datafilene er ca <b>[_3]</b> store. Backupfilen er noe mindre en dette avhengig av hvor komprimerbar dataene er. \"Verifiser skrivebord backup filen\" valget kan brukes til å sjekke integriteten til skrivebords backupfilen.</p>
+
+  <p>Tape backup metoden bruker et program kalt <i>[_1]</i> til å ta backup av hele harddisken til tape hver natt. Det krever en støttet tapestasjon og en tape som ikke er skrivebeskyttet. Backup blir kjørt automatisk til valgt tid hver natt (med en påminnelse automatisk sendt på e-post til administrator i løpet av dagen). Nå inneholder harddisken <b>[_2]</b> med data.</p>
+
+  <p>Begge gjenopprettings metoder tillater å gjenopprette oppsett og bruker datafiler. <b>Ideelt, bør gjenoppretting foretas på en nyinstallert server</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+
+  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>
+
+  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
+
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Sikkerhetskopi oppsett og status',
-'bac_TAPE_BACKUPS_ENABLED' => ' sikkerhetskopi til bånd er for tiden <b>aktiveret</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' sikkerhetskopi til bånd er for tiden aktiveret. ',
 'bac_BACKUPS_RUN_AT' => 'Sikkerhetskopi til tape vil foregå kl.:',
 'bac_REMINDER_MESSAGE_AT' => 'Påminnelses e-post vil bli sendt:',
-'bac_TAPE_BACKUPS_DISABLED' => ' sikkerhetskopi til tape er <b>deaktiveret</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' sikkerhetskopi til tape er deaktiveret ',
 'bac_DESKTOP_BACKUP' => 'Sikkerhetskopi til arbeidsstasjon',
 'bac_DESKTOP_RESTORE' => 'Gjenopprett fra arbeidsstasjon',
 'bac_DESKTOP_VERIFY' => 'Undersøk sikkerhetskopi til arbeidsstasjon',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'Systemgjenopprettelsen er fullført',
 'bac_STARTED_AT' => 'Starttid:',
 'bac_FINISHED_AT' => 'sluttid:',
-'bac_YOU_MUST_REBOOT' => 'Du må starte om serveren for å aktivere endringerne fra gjenopprettelsen.', 
+'bac_YOU_MUST_REBOOT' => 'Du må starte om serveren for å aktivere endringerne fra gjenopprettelsen.',
 'bac_REBOOT' => 'Restart',
 'bac_SELECT_AN_ACTION' => 'Velg en aktivitet',
 'bac_X_BACKUP_OR_RESTORE' => 'X Sikkerhetskopi eller gjenopprett server data',
@@ -25,11 +43,11 @@
 'bac_ERR_PRE_RESTORE' => 'Det skjedde en feil under klargøring av gjenopprettelsen.',
 'bac_ERR_POST_BACKUP' => 'Det skjedde en feil under etterbehandling av sikkerhetskopien.',
 'bac_RESTORE_SERVER_CONFIG' => 'gjenopprett serverOppsett',
-'bac_DESKTOP_RESTORE_DESC' => ' Denne prosess vil hente en sikkerhetskopi fra din arbeidsstasjon til serveren og gjenopprette serveroppsett og brukerdata. <B>gjenopprettelsen bør utføres på en nyinstalleret server</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Denne prosess vil hente en sikkerhetskopi fra din arbeidsstasjon til serveren og gjenopprette serveroppsett og brukerdata. gjenopprettelsen bør utføres på en nyinstalleret server. ',
 'bac_FREE_SPACE' => ' Du har omtrent $tmpfree ledig plass på serveren. Kontroller at sikkerhetskopien er mindre en $halffree innen du utfører gjenopprettingen. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'etter at gjenopprettelsen er gjennomført, skal du starte om serveren.',
 'bac_FILE_TO_RESTORE' => 'Hent sikkerhetskopien fra',
-'bac_VERIFY_BACKUP_DESC' => 'Dette valget vil vise filnavnene i tidligere opprettede sikkerhetskopi til arbeidsstasjon. Du kan bruke denne mulighet til å kontrollere innholdet i sikkerhetskopien.</p> ',
+'bac_VERIFY_BACKUP_DESC' => 'Dette valget vil vise filnavnene i tidligere opprettede sikkerhetskopi til arbeidsstasjon. Du kan bruke denne mulighet til å kontrollere innholdet i sikkerhetskopien. ',
 'bac_SELECT_BACKUP_FILE' => 'Velg sikkerhetskopi',
 'bac_VERIFY' => 'Kontroller',
 'bac_RESTORE_CANNOT_PROCEED' => 'Kan ikke fortsette med gjenopprettelse av serverOppsettet',
@@ -49,7 +67,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'sikkerhetskopien var ikke komplett',
 'bac_ERR_READING_FILE' => 'Der opstod en feil under lesing av sikkerhetskopien.',
 'bac_ENABLE_DISABLE_TAPE' => 'Slå på/av nattlig sikkerhetskopi til bånd',
-'bac_TAPE_CONFIG_DESC' => ' <p>Velg om du ønsker å kjøre backup på natten. Velg så ønsket starttid for backup jobben, og ønsket tid for å sende ut påminnelse om å sette inn tapeen.</p> <p>Tape backupen krever en støttet stasjon. En advarsel vil bli sendt til administratoren til angitt tid dersom tapestasjonen er tom.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Velg om du ønsker å kjøre backup på natten. Velg så ønsket starttid for backup jobben, og ønsket tid for å sende ut påminnelse om å sette inn tapeen.</p>
+
+  <p>Tape backupen krever en støttet stasjon. En advarsel vil bli sendt til administratoren til angitt tid dersom tapestasjonen er tom.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Slå på sikkerhetskopi til bånd',
 'bac_TAPE_BACKUP_TIME' => 'Tidspunkt for sikkerhetskopiering (timer(0-11)/min(0-59))',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Tidspunkt for påminnelse for å sette i tape (timer(0-11)/min(0-59))',
@@ -70,7 +92,13 @@
 'bac_WITH_REMINDER_TIME' => 'og sett i tape påminnelsestid:',
 'bac_SUCCESSFULLY_DISABLED' => 'Det ble slått av for sikkerhetskopi til bånd',
 'bac_RESTORE_CONF_FROM_TAPE' => 'gjenopprett fra bånd',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <P>Denne prosess vil gjenopprette serverOppsett og brukerdata fra en sikkerhetskopi på bånd. <B>gjenopprettelsen bør foregå på en nyinstallert server</B>.</P> <P>Du må forsikre deg om, at det rette bånd er satt inn i båndstasjonen innen gjenoppretting.</P> <P>etter gjenopprettelsen skal serveren starte på nytt.</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Denne prosess vil gjenopprette serverOppsett og brukerdata fra en sikkerhetskopi på bånd. <b>gjenopprettelsen bør foregå på en nyinstallert server</b>.</p>
+
+  <p>Du må forsikre deg om, at det rette bånd er satt inn i båndstasjonen innen gjenoppretting.</p>
+
+  <p>etter gjenopprettelsen skal serveren starte på nytt.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'gjenopprett fra bånd',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Kan ikke gjenopprette serverOppsettet',
 'bac_RESTORING_FROM_TAPE' => 'gjenoppretter fra bånd',
@@ -81,11 +109,11 @@
 'bac_SERVER_REBOOT' => 'ServerRestart',
 'bac_SERVER_WILL_REBOOT' => 'Din server vil starte på nytt.',
 'bac_NO_UID_FOR_NAME' => 'Kunne ikke finne brukerID for brukeren:',
-'bac_PAGE_REFRESH_IN' => ' Siden vil Gjenoppfiske statusvisningen om {$sec} sekunder, ellers klikk <a href="/server-manager/cgi-bin/backup">her</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Siden vil Gjenoppfiske statusvisningen om {$sec} sekunder, ellers klikk her. ',
 'bac_Backup or restore' => 'sikkerhetskopi eller gjenoppretting',
-'bac_BACKUP_DESKTOP_TOO_BIG' => ' <div class="error"> Din server har for mye data til en pålitlig sikkerhetskopi til arbeidsstasjon. </div> ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' sikkerhetskopi til lokalnett er <b>deaktivert</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' sikkerhetskopi til lokalnett er <b>aktivert</b>. ',
+'bac_BACKUP_DESKTOP_TOO_BIG' => '  Din server har for mye data til en pålitlig sikkerhetskopi til arbeidsstasjon.  ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' sikkerhetskopi til lokalnett er deaktivert ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' sikkerhetskopi til lokalnett er aktivert. ',
 'bac_WKBACKUPS_RUN_AT' => 'sikkerhetskopi til lokalnett vil foregå kl.:',
 'bac_WORKSTN_CONFIGURE' => 'Oppsett av sikkerhetskopi til lokalnett',
 'bac_WORKSTN_VERIFY' => 'Kontroller sikkerhetskopi på lokalnett',
@@ -98,9 +126,15 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'sikkerhetskopi til lokalnett er aktivert',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'sikkerhetskopi til lokalnett er deaktivert',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Kontroller sikkerhetskopi på lokalnett',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' Denne muligheten vil vise navnene på alle filer i sikkerhetskopien og kan brukes til å bekrefte sikkerhetskopiens innhold.<b> Du må velge den sikkerhetskopi du ønsker å undersøke</b></p> <p>Kun filer merket med [Lagret] ligger i sikkerhetskopien.</p> Filene i sikkerhetskopien blir kontrolleret fra den delte mappe: ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' Denne muligheten vil vise navnene på alle filer i sikkerhetskopien og kan brukes til å bekrefte sikkerhetskopiens innhold. Du må velge den sikkerhetskopi du ønsker å undersøke Kun filer merket med [Lagret] ligger i sikkerhetskopien. Filene i sikkerhetskopien blir kontrolleret fra den delte mappe: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'gjenopprett fra lokalnett',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Denne proces vil gjenopprettne Oppsett og brukerdata fra en sikkerhetskopi på lokalnetet. <b>gjenopprettelsen bør utføres på en nyinstalleret server</b>.</p> <p>Du må sikre dig at du velger den rigtige sikkerhetskopi innen du fortsetter.</p> <p>etter gjenopprettelsen skal serveren starte oms.</p> gjenopprettelsen vil ske fra: ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Denne proces vil gjenopprettne Oppsett og brukerdata fra en sikkerhetskopi på lokalnetet. <b>gjenopprettelsen bør utføres på en nyinstalleret server</b>.</p>
+
+  <p>Du må sikre dig at du velger den rigtige sikkerhetskopi innen du fortsetter.</p>
+
+  <p>etter gjenopprettelsen skal serveren starte oms.</p>
+
+  gjenopprettelsen vil ske fra: ',
 'bac_RESTORE_FROM_WORKSTN' => 'Gjenopprett fra lokalnett',
 'bac_RESTORING_FROM_WORKSTN' => 'Gjenoppretter fra lokalnett',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Ditt serveroppsett og brukerdata holder på å bli innlest fra en delt mappe på lokalnettet.',
@@ -124,7 +158,7 @@
 'bac_NUMBER_OF_SETS' => 'Antall rullerende sikkerhetsett',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Antall daglige kopier i hvert sett',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Sett-antallet må være 1 eller mer',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Antallet må være minst 1. Første sikkerhetskopi i settet er <b>full</b> følgende inneholder kun <b>endrede/tilføyde data</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Antallet må være minst 1. Første sikkerhetskopi i settet er full følgende inneholder kun endrede/tilføyde data',
 'bac_WORKSTN_TIMEOUT' => 'Mulig utløpstid for sikkerhetskopier (i timer)',
 'bac_INC_ONLY_TIMEOUT' => 'Ingen utløpstid for fulle sikkerhetskopier',
 'bac_ERR_INVALID_TIMEOUT' => 'Maksimal sikkerhetskopi-tid må være mellom 1 og 24 timer',
@@ -133,11 +167,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Individuell gjenoppretting fra lokalnettet',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Individuell gjenoppretting fra lokalnettet',
 'bac_ALL_BACKUPS' => 'Alle sikkerhetskopier',
-'bac_WORKSTN_SEL_REST_DESC' => ' Denne prosessen vil kun gjenopprette valgte filer og mapper. Du skal først velge den sikkerhetskopi som filer skal gjenopprettes fra. Vet du ikke hvilken sikkerhetskopi du skal bruke, kan du velge \'Alle sikkerhetskopier\'.<br/> Det neste panelet vil vise filer og mapper, så du kan velge dem som skal gjenopprettes. For å begrense antallet viste filer og mapper, kan du angi et filteruttrykk, tilføyd som regulært uttrykk for de viste navnene.<br/><br/> Du har ansvaret for ikke at gjenopprette filer, som vil kunne ødelegge din servers funksjoner.<br/><br/>Aktuelt, vil filene gjenopprettes fra: ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Denne prosessen vil kun gjenopprette valgte filer og mapper. Du skal først velge den sikkerhetskopi som filer skal gjenopprettes fra. Vet du ikke hvilken sikkerhetskopi du skal bruke, kan du velge \'Alle sikkerhetskopier\'. Det neste panelet vil vise filer og mapper, så du kan velge dem som skal gjenopprettes. For å begrense antallet viste filer og mapper, kan du angi et filteruttrykk, tilføyd som regulært uttrykk for de viste navnene. Du har ansvaret for ikke at gjenopprette filer, som vil kunne ødelegge din servers funksjoner.Aktuelt, vil filene gjenopprettes fra: ',
 'bac_BACKUP_CHOICE' => 'Velg filer som skal vises',
 'bac_SELECT_DATE_BEFORE' => 'gjenopprett seneste innen',
 'bac_FILTER_EXPRESSION' => 'Navn filtrert etter',
-'bac_READ_COMPLETE' => ' Du kan velge alle filer og mapper du ønsker gjenopprettet fra den viste liste (bruk ctrl og shift til massevalg). <br/> <b>Advarsel :</b> Velger du en mappe vil alle filer og mapper i mappen bli gjenopprettet.<p/> I utgangspunktet vil de seneste versjoner av de valgte filene bli gjenopprettet, med mindre du specifiserer en dato i formatet <i>[ [ [åååå/]mm/]dd-]tt:mm[:ss]</i> denne prosessen vil kun gjenopprette de seneste endrede versjoner <b>innen den angitte dato</b>. ',
+'bac_READ_COMPLETE' => ' Du kan velge alle filer og mapper du ønsker gjenopprettet fra den viste liste (bruk ctrl og shift til massevalg).  Advarsel : Velger du en mappe vil alle filer og mapper i mappen bli gjenopprettet. I utgangspunktet vil de seneste versjoner av de valgte filene bli gjenopprettet, med mindre du specifiserer en dato i formatet [ [ [åååå/]mm/]dd-]tt:mm[:ss] denne prosessen vil kun gjenopprette de seneste endrede versjoner innen den angitte dato. ',
 'bac_ERR_INVALID_SELDATE' => 'Ugyldig datoformat, det må være [ [ [åååå/]mm/]dd-]tt:mm[:ss]. F.eks.: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Velg filer til gjenoppretting',
 'bac_ERR_WHILE_UNMOUNTING' => 'Det skjedde en feil under avmonteringen av den delte fjernmappen',
@@ -147,8 +181,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Komprimeringsnivå må være mellom 0 (ingen komprimering) og 9 (maksimal komprimering)',
 'bac_DOW' => 'Søndag Mandag Tirsdag Onsdag Torsdag Fredag Lørdag \'Hver dag\'',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Vennligst angi innstillinger for sikkerhetskopi.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Dette panelet viser oppsett for den aktuelle sikkerhetskopi til lokalnettet.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Det er ikke satt opp noen sikkerhetskopi til lokalnett. Du kan lage et oppsett i dette og de neste panelene.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Dette panelet viser oppsett for den aktuelle sikkerhetskopi til lokalnettet.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Det er ikke satt opp noen sikkerhetskopi til lokalnett. Du kan lage et oppsett i dette og de neste panelene.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'sikkerhetskopi er',
 'bac_WORKSTN_BACKUP_USB' => 'sikkerhetskopi er opprettet på lokal USB-disk',
 'bac_WORKSTN_BACKUP_MNT' => 'sikkerhetskopi er opprettet på lokal USB-disk',

@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Kratek opis/Psevdonim za Windows skupino',
 'grp_GROUP_DESC_EXPL' => 'Vpisite kratek opis v spodnje polje. To polje tudi predstavlja ime skupine, ki jo vidijo Windows odjemalci.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Naslednji informacijski listi so dodeljeni tej skupini in bodo spremenjeni v Skrbnikovo skupino (to lahko kasneje tudi spremenite):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Ste prepricani, da zelite odstraniti to skupino?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Trenuten spisek uporabniskih skupin</p>',
-'grp_DELETE_DESCRIPTION' => ' Ste tik pred tem, da boste odstranili uporabnisko skupino "<b>{$group}</b>." ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Ste prepricani, da zelite odstraniti to skupino?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Trenuten spisek uporabniskih skupin</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Ste tik pred tem, da boste odstranili uporabnisko skupino "{$group}." ',

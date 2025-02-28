@@ -6,5 +6,5 @@
 'rbo_DESC_RECONFIGURE' => 'Seu servidor está fazendo uma reconfiguração completa do sistema e após terminar fará um reboot.',
 'rbo_DESC_SHUTDOWN' => 'Seu servidor iniciou o processo de desligamento. O processo levará alguns minutos para completar, depois você poderá desligar o computador. Ou este poderá já ser desligado automaticamente pelo processo.',
 'rbo_LABEL_REBOOT' => 'Selecione Desligar,Reiniciar ou Reconfigurar',
-'rbo_DESCRIPTION' => ' Você pode reiniciar ou desligar seu servidor dessa tela. Você tem que desligar o servidor antes de desligar o computador. Mas ao mandar o linux desligar, pode ser que o equipamento já seja desligado na sequência. Ambas as funções levam vários minutos para completar. Quando você clica em <b>executar</b> a operação irá iniciar imediatamente, logo esteja pronto! ',
+'rbo_DESCRIPTION' => ' Você pode reiniciar ou desligar seu servidor dessa tela. Você tem que desligar o servidor antes de desligar o computador. Mas ao mandar o linux desligar, pode ser que o equipamento já seja desligado na sequência. Ambas as funções levam vários minutos para completar. Quando você clica em executar a operação irá iniciar imediatamente, logo esteja pronto! ',
 'Reboot or shutdown' => 'Reiniciar ou desligar',

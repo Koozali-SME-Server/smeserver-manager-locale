@@ -1,5 +1,7 @@
 'dom_FORM_TITLE' => 'Gestione domini',
-'dom_FORM_DESCRIPTION' => ' <p>Creando un dominio, il server potrà ricevere e-mail per quel dominio e potrà anche ospitare il sito web di quel dominio.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Aggiungi dominio</a> ',
+'dom_FORM_DESCRIPTION' => ' <p>Creando un dominio, il server potrà ricevere e-mail per quel dominio e potrà anche ospitare il sito web di quel dominio.</p>
+
+  <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Aggiungi dominio</a> ',
 'dom_NO_VIRTUAL_DOMAINS' => 'Non ci sono domini nel sistema.',
 'dom_CURRENT_LIST_OF_DOMAINS' => 'Lista domini',
 'dom_PRIMARY_SITE' => 'Sito principale',
@@ -15,11 +17,15 @@
 'dom_NONEXISTENT_DOMAIN_ERROR' => 'Errore: {$domainName} non è un dominio esistente.',
 'dom_SUCCESSFULLY_MODIFIED' => 'Dominio {$domainName} modificato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell\'operazione.',
 'dom_REMOVE_TITLE' => 'Rimuovi dominio',
-'dom_REMOVE_DESCRIPTION' => ' <p> Sta per essere rimosso il dominio {$domain} ({$domainDesc}). </p> <p> <b>Siete sicuri di voler rimuovere questo dominio ?</b> </p> ',
+'dom_REMOVE_DESCRIPTION' => ' <p> Sta per essere rimosso il dominio {$domain} ({$domainDesc}). </p>
+
+  <p> <b>Siete sicuri di voler rimuovere questo dominio ?</b> </p>
+
+  ',
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Errore: problema interno durante la rimozione del dominio {$domain}.',
 'dom_SUCCESSFULLY_DELETED' => 'Dominio {$domainName} eliminato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell\'operazione.',
-'dom_DESC_CORPORATE_DNS_CURRENT' => ' <hr class="sectionbar"/><h2>Configurazione DNS</h2> ',
-'dom_BUTTON_CORPORATE_DNS' => ' <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Modifica la configurazione del DNS</a> ',
+'dom_DESC_CORPORATE_DNS_CURRENT' => ' Configurazione DNS ',
+'dom_BUTTON_CORPORATE_DNS' => ' Modifica la configurazione del DNS ',
 'dom_DESC_CORPORATE_DNS' => 'Se il server non ha accesso ad Internet o la risoluzione dei nomi è affidata ad altri server, inserire gli indirizzi IP dei server DNS nei campi sottostanti. Si consiglia di lasciarli vuoti e non inserire gli indirizzi dei DNS del provider perché il server è in grado di risolvere direttamente tutti i nomi di dominio Internet senza necessità di ulteriori configurazioni.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Server DNS primario',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Server DNS secondario',

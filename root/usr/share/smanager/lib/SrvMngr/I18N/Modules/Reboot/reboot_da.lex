@@ -6,5 +6,5 @@
 'rbo_DESC_RECONFIGURE' => 'Din server har iværksat en komplet system omkonfiguration efterfulgt af en genstart.',
 'rbo_DESC_SHUTDOWN' => 'Din Server har iværksat en nedlukning. Processen kan tage adskillige minutter, hvorefter du kan slukke for strømmen.',
 'rbo_LABEL_REBOOT' => 'Vælg Sluk, Genstart eller Omkonfigurér',
-'rbo_DESCRIPTION' => ' Du kan genstarte, lukke serveren ned eller foretage en omkonfigurering af serveren fra dette skærmbillede. Du skal gennemføre "Luk ned"-proceduren før du tager strømmen. Alle funktioner kan vare adskillige minutter. Når du klikker på <b>Udfør</b> starter udførelsen af dit valg, så vær varsom! ',
+'rbo_DESCRIPTION' => ' Du kan genstarte, lukke serveren ned eller foretage en omkonfigurering af serveren fra dette skærmbillede. Du skal gennemføre "Luk ned"-proceduren før du tager strømmen. Alle funktioner kan vare adskillige minutter. Når du klikker på Udfør starter udførelsen af dit valg, så vær varsom! ',
 'rbo_Reboot or shutdown' => 'Genstart eller luk ned',

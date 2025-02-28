@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Ustvari, popravi ali odstrani uporabnika',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Dodaj uporabnika</a> </p> <p> Tu lahko popravis, zaklenes ali odstranis uporabnika in pa resetiras geslo uporabnika s pritiskom na gumb poleg imena uporabnika. </p> <p> Ce je uporabnik oznacen kot zaklenjen, pomeni da je potrebno geslo uporabnika resetirati. Prosim, bodi pozoren ker je pri novih uporabnikih racun zaklenjen avtomatsko, dokler se ne vnese geslo. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Dodaj uporabnika</a> </p>
+
+  <p> Tu lahko popravis, zaklenes ali odstranis uporabnika in pa resetiras geslo uporabnika s pritiskom na gumb poleg imena uporabnika. </p>
+
+  <p> Ce je uporabnik oznacen kot zaklenjen, pomeni da je potrebno geslo uporabnika resetirati. Prosim, bodi pozoren ker je pri novih uporabnikih racun zaklenjen avtomatsko, dokler se ne vnese geslo. </p>
+
+  ',
 'usr_P2_TITLE' => 'Ustvari ali popravi',
-'usr_CREATE_MODIFY_DESC' => ' <p> Racun lahko vsebuje samo male crke in stevilke, ter se mora obvezno zaceti z malo crko. Primer: "betty", "polde", "janez-kranjski" so vse pravilna imena racunov, toda "3prijatelji", Janez Kranjski" in "marjan_glavni" niso pravilni. </p> <p> Pozor. Za vsak nov racun bosta kreirana dva vzdevka-naziva. Torej za racun "glavni" z imenom "marjan" in priimkom "taglavni" bosta kreirana vzdevka locena z piko (.) in podcrtajem (_) : "marjan.taglavni" in "marjan_taglavni" . </p> <p> Uporbniski podatki (oddelek, podjetje, itd) se lahko popravijo iz osnovnih na podatke prikazane spodaj. Spremembe bodo vplivale samo na ta racun. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> Racun lahko vsebuje samo male crke in stevilke, ter se mora obvezno zaceti z malo crko. Primer: "betty", "polde", "janez-kranjski" so vse pravilna imena racunov, toda "3prijatelji", Janez Kranjski" in "marjan_glavni" niso pravilni. </p>
+
+  <p> Pozor. Za vsak nov racun bosta kreirana dva vzdevka-naziva. Torej za racun "glavni" z imenom "marjan" in priimkom "taglavni" bosta kreirana vzdevka locena z piko (.) in podcrtajem (_) : "marjan.taglavni" in "marjan_taglavni" . </p>
+
+  <p> Uporbniski podatki (oddelek, podjetje, itd) se lahko popravijo iz osnovnih na podatke prikazane spodaj. Spremembe bodo vplivale samo na ta racun. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Uredi Admin racun',
 'usr_USER_CREATED' => 'Uspesno narejen uporabniski racun.',
 'usr_USER_MODIFIED' => 'Uspesno popravljen uporabiski racun.',
-'usr_CANNOT_MODIFY_USER' => 'Napaka: Prislo je do interne napake pri urejanju uporabnika "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Napaka: Prislo je do interne napake pri urejanju uporabnika "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Napaka: Prislo je do notranje napake pri urejanju skupine "{$group}" za uporabnika "{$acctName}".',
 'usr_TAINTED_USER' => 'Uporabniski racun "{$acctName}" vsebuje neveljaven znak.',
 'usr_ACCOUNT_NAME' => 'Ime racuna',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Napaka: Vzdevek "{$pseudonym}" je ze v uporabi pri obsojecemu uporabniskemu racunu "{$clashName}". Za razlikovanje dodaj inicijalke v to polje."',
 'usr_LOCK_ACCOUNT' => 'Zakleni racun',
 'usr_LOCK_ACCOUNT_TITLE' => 'Zakleni uporabniski racun',
-'usr_LOCK_DESC2' => ' Ta uporabniski racun bo zakljenjen. To pomeni, da se uporabnik ne bo mogel prijaviti na svoj racun in pregledovati svoje e-poste. Vsa e-posta, ki bo prispela, bo shranjena in/ali posredovana na zunanji naslov e-poste ce je nastavljen. Racun se lahko ponovno aktivira z dodelitvijo novega gesla. Obstojece geslo ne bo obdrzano. </p> <p> <b>Ali si preprican, da zelis zakleniti ta racun?</b> ',
+'usr_LOCK_DESC2' => ' Ta uporabniski racun bo zakljenjen. To pomeni, da se uporabnik ne bo mogel prijaviti na svoj racun in pregledovati svoje e-poste. Vsa e-posta, ki bo prispela, bo shranjena in/ali posredovana na zunanji naslov e-poste ce je nastavljen. Racun se lahko ponovno aktivira z dodelitvijo novega gesla. Obstojece geslo ne bo obdrzano.   Ali si preprican, da zelis zakleniti ta racun? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Izbrisi uporabniski racun',
 'usr_REMOVE_DESC' => 'Ali si preprican, da zelis izbrisati uporabniski racun',
-'usr_REMOVE_DESC2' => ' Vse datoteke, ki pripadajo uporabniku racuna bodo izbrisane. Tudi vsa e-posta, ki se ni bila prenesena z Streznika bo izbrisana. </p> <p> <b>Ali si preprican, da zelis izbrisati ta racun?</b> ',
+'usr_REMOVE_DESC2' => ' Vse datoteke, ki pripadajo uporabniku racuna bodo izbrisane. Tudi vsa e-posta, ki se ni bila prenesena z Streznika bo izbrisana.   Ali si preprican, da zelis izbrisati ta racun? ',
 'usr_LOCK' => 'Zakleni',
 'usr_NO_USER_ACCOUNTS' => 'Uporabniski racun ne obstaja.',
 'usr_Users' => 'Uporabniki',

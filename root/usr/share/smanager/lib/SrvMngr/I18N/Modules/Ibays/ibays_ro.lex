@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Create, modify, or remove i-bays',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Add i-bay</a> </p> <p> You can remove any information bay or reset its password by clicking on the corresponding command next to the information bay. If the information bay shows up in red, that means that the password has not yet been changed from the default, and should be changed soon. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Add i-bay</a> </p>
+
+  <p> You can remove any information bay or reset its password by clicking on the corresponding command next to the information bay. If the information bay shows up in red, that means that the password has not yet been changed from the default, and should be changed soon. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Create or modify an i-bay',
 'iba_NAME_FIELD_DESC' => 'The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example "johnson", "intra", and "cust3.prj12" are all valid names, but "3associates", "John Smith" and "Bus!Partner" are not. The name is limited to {$maxLength} characters.',
 'iba_NAME_LABEL' => 'Information bay name',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Execution of dynamic content (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Permiteți conexiuni directe SMTP',
 'iba_REMOVE_TITLE' => 'Remove information bay',
-'iba_REMOVE_DESC' => ' <p> You are about to remove the information bay "{$name}" ({$description}). </p> <p> All files belonging to this information bay will be deleted. </p> <p> Are you sure you wish to remove this information bay? </p> ',
+'iba_REMOVE_DESC' => ' <p> You are about to remove the information bay "{$name}" ({$description}). </p>
+
+  <p> All files belonging to this information bay will be deleted. </p>
+
+  <p> Are you sure you wish to remove this information bay? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'An error occurred while creating the i-bay.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Successfully created i-bay.',
 'iba_NO_IBAYS' => 'There are no i-bays currently configured.',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'The passwords do not match.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Successfully reset password.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Error while resetting password.',
-'iba_VHOST_MESSAGE' => ' <P>The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): {$vhostList} ',
 'iba_Information bays' => 'Information bays',
 'iba_WGRG' => 'Write = group, Read = group',
 'iba_WGRE' => 'Write = group, Read = everyone',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Error: unexpected or missing characters in i-bay description',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'The i-bay name "{$acctName}" contains invalid characters. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'The i-bay name "{$name}" is too long. The maximum is {$maxIbayNameLength} characters.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Contul "{$acctName}" este ăn conflict cu detaliile pseudonimului contulrui de tip {$acctType} "{$acct}". <p>{$acctName} este pseudonim pentru {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Contul "{$acctName}" este ăn conflict cu detaliile pseudonimului contulrui de tip {$acctType} "{$acct}". {$acctName} este pseudonim pentru {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'Contul "{$acctName}" este deja cont de tip {$acctType} ',

@@ -1,5 +1,9 @@
 'pf_FORM_TITLE' => 'Configurazione Port Forwarding',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Utilizzando questo pannello è possibile modificare le regole del firewall per aprire una porta specifica su questo server e inoltrare il traffico ad un\'altra porta su un altro server. Sarà possibile accedere direttamente ad un server privato sulla rete locale. </p> <p> ATTENZIONE: l\'uso improprio di questa funzione potrebbe compromettere seriamente la sicurezza della rete. Non utilizzare questa funzione con superficialità o senza comprenderne pienamente le implicazioni sulla sicurezza. </p> ',
+'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Utilizzando questo pannello è possibile modificare le regole del firewall per aprire una porta specifica su questo server e inoltrare il traffico ad un\'altra porta su un altro server. Sarà possibile accedere direttamente ad un server privato sulla rete locale. </p>
+
+  <p> ATTENZIONE: l\'uso improprio di questa funzione potrebbe compromettere seriamente la sicurezza della rete. Non utilizzare questa funzione con superficialità o senza comprenderne pienamente le implicazioni sulla sicurezza. </p>
+
+  ',
 'pf_CREATE_RULE' => 'Crea regola di port-forwarding',
 'pf_SUMMARY_ADD_DESC' => 'La tabella seguente mostra la regola di port-forwarding che sta per essere aggiunta. Se la regola appare corretta, fare clic sul pulsante &quot;Aggiungi&quot;. In caso contrario, fare clic sul pulsante &quot;Annulla&quot;.',
 'pf_SUMMARY_REMOVE_DESC' => 'La tabella seguente mostra la regola di port-forwarding che sta per essere rimossa. Se siete sicuri di voler rimuovere la regola, fare clic sul pulsante &quot;Rimuovi&quot;. In caso contrario, fare clic sul pulsante &quot;Annulla&quot;.',

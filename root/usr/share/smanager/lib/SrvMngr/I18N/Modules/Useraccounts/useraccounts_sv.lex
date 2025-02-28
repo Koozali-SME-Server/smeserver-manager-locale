@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Skapa, ändra och radera användarkonton',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Lägg till användarkonto</a> </p> <p> Du kan ändra, låsa eller radera konto eller återställa kontots lösenord genom att klicka på länken vid sidan om aktuellt konto. </p> <p> Om kontot är markerat låst betyder det att användarens lösenord behöver återställas. Observera att nyligen skapade konton automatiskt blir låsta tills lösenordet ändras. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Lägg till användarkonto</a> </p>
+
+  <p> Du kan ändra, låsa eller radera konto eller återställa kontots lösenord genom att klicka på länken vid sidan om aktuellt konto. </p>
+
+  <p> Om kontot är markerat låst betyder det att användarens lösenord behöver återställas. Observera att nyligen skapade konton automatiskt blir låsta tills lösenordet ändras. </p>
+
+  ',
 'usr_P2_TITLE' => 'Skapa eller ändra',
-'usr_CREATE_MODIFY_DESC' => ' <p> Kontonamnet får bara innehålla gemener, siffror, bindestreck, punkt, understreck och skall börja med en gemen. Exempelvis "betty", "hjohnson" och "mary-jane" är alla tillåtna kontonamn, men "3friends", "John Smith" och "henry:miller" är det inte. </p> <p> Observera att två pseudonymer kommer att skapas för varje nytt konto. Dessa två synonymer möjliggör att ha alternativa e-postkonton för varje användare som innehåller förnamn och efternamn separerade med en punkt (.) respektive understreck (_). För exempelvis kontot "betty" med förnamnet "Betty" och efternamnet "Rubble" kommer två pseudonymer att skapas betty.rubble och betty_rubble. </p> <p> Kataloginformationen (avdelning, företag, etc.) kan ändras från det förvalda, som visas nedan. Ändringarna kommer bara att påverka aktuell användare. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> Kontonamnet får bara innehålla gemener, siffror, bindestreck, punkt, understreck och skall börja med en gemen. Exempelvis "betty", "hjohnson" och "mary-jane" är alla tillåtna kontonamn, men "3friends", "John Smith" och "henry:miller" är det inte. </p>
+
+  <p> Observera att två pseudonymer kommer att skapas för varje nytt konto. Dessa två synonymer möjliggör att ha alternativa e-postkonton för varje användare som innehåller förnamn och efternamn separerade med en punkt (.) respektive understreck (_). För exempelvis kontot "betty" med förnamnet "Betty" och efternamnet "Rubble" kommer två pseudonymer att skapas betty.rubble och betty_rubble. </p>
+
+  <p> Kataloginformationen (avdelning, företag, etc.) kan ändras från det förvalda, som visas nedan. Ändringarna kommer bara att påverka aktuell användare. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Ändra administratörskontot',
 'usr_USER_CREATED' => 'Skapat användarkonto.',
 'usr_USER_MODIFIED' => 'Ändrat användarkontot.',
-'usr_CANNOT_MODIFY_USER' => 'Fel: ett internt fel uppstod vid modifiering av användaren "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Fel: ett internt fel uppstod vid modifiering av användaren "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Fel: ett internt fel uppstod vid modifiering av gruppen "{$group}" för användare "{$acctName}".',
 'usr_TAINTED_USER' => 'Kontonamnet "{$acctName}" innehåller felaktiga tecken.',
 'usr_ACCOUNT_NAME' => 'Kontonamn',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Fel: Pseudonymen "{$pseudonym}" är redan upptagen av det existerande användarkontot "{$clashName}". För att skilja de åt, lägg till initialer i detta fält.',
 'usr_LOCK_ACCOUNT' => 'Lås konto',
 'usr_LOCK_ACCOUNT_TITLE' => 'Lås användarkont',
-'usr_LOCK_DESC2' => ' Detta användarkonto kommer att låsas vilket betyder att användaren inte kan logga in och heller inte hämta e-post. All e-post som anländer kommer att sparas och/eller vidarebefordras till en extern e-postadress om detta är inställt. Kontot kan bli aktiverat i framtiden genom att ange ett nytt lösenord. Nuvarande lösenord kommer inte att sparas. </p> <p> <b>Är du säker på att du vill låsa detta användarkonto?</b> ',
+'usr_LOCK_DESC2' => ' Detta användarkonto kommer att låsas vilket betyder att användaren inte kan logga in och heller inte hämta e-post. All e-post som anländer kommer att sparas och/eller vidarebefordras till en extern e-postadress om detta är inställt. Kontot kan bli aktiverat i framtiden genom att ange ett nytt lösenord. Nuvarande lösenord kommer inte att sparas.   Är du säker på att du vill låsa detta användarkonto? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Radera användarkonto',
 'usr_REMOVE_DESC' => 'Du är på väg att radera ett användarkonto',
-'usr_REMOVE_DESC2' => ' Alla filer som tillhör detta användarkonto kommer att raderas. Dessutom kommer all e-postmeddelanden för detta användarkonto som fortfarande finns på servern (dvs. de som inte har hämtats av användaren) kommer att raderas. </p> <p> <b>Är du säker på att du vill radera detta konto?</b> ',
+'usr_REMOVE_DESC2' => ' Alla filer som tillhör detta användarkonto kommer att raderas. Dessutom kommer all e-postmeddelanden för detta användarkonto som fortfarande finns på servern (dvs. de som inte har hämtats av användaren) kommer att raderas.   Är du säker på att du vill radera detta konto? ',
 'usr_LOCK' => 'Lås',
 'usr_NO_USER_ACCOUNTS' => 'Det finns inga användarkonton på detta system.',
 'usr_Users' => 'Användare',

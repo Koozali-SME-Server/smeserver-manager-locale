@@ -1,20 +1,32 @@
 'log_View log files' => 'Log dosyalarını görüntüle',
 'log_FIRSTPAGE_DESC' => ' Bu panel, sunucuda çalışan hizmetlerin log dosyalarını görüntülemeyi ve indirmeyi sağlar. ',
 'log_LOG_FILE_SELECT_DESC' => 'Görmek istediğiniz log dosyasını seçin',
-'log_FILTER_PATTERN_DESC' => ' <p>Görmek istediğiniz kelimeleri içeren satırları filtreleyebilirsiniz. Bir kelime belirtmediğiniz zaman log dosyasının tamamı görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.</p> ',
+'log_FILTER_PATTERN_DESC' => ' <p>Görmek istediğiniz kelimeleri içeren satırları filtreleyebilirsiniz. Bir kelime belirtmediğiniz zaman log dosyasının tamamı görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.</p>
+
+  ',
 'log_FILTER_PATTERN_LABEL' => 'Filtrelenecek kelime (isteğe bağlı)',
-'log_MATCH_PATTERN_DESC' => ' <p>Ayrıca isteğe bağlı olarak vurgulamak istediğiniz kelimeyle eşleşen log dosyası satırı, kalın bir hat olarak görüntülemek için belirtebilirsiniz. Filtre ile eşleşen satırlar kalın bir hat olarak görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.</p> ',
+'log_MATCH_PATTERN_DESC' => ' <p>Ayrıca isteğe bağlı olarak vurgulamak istediğiniz kelimeyle eşleşen log dosyası satırı, kalın bir hat olarak görüntülemek için belirtebilirsiniz. Filtre ile eşleşen satırlar kalın bir hat olarak görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.</p>
+
+  ',
 'log_MATCH_PATTERN_LABEL' => 'Kelimeyi Vurgula (isteğe bağlı)',
 'log_END_DESC' => 'Raporları oluşturmak zaman alabilir.',
 'log_VIEW' => 'Log dosyasını görüntüle',
-'log_LOG_FILE_EMPTY' => '"{$filename}" dosyası boş!',
+'log_LOG_FILE_EMPTY' => '{$filename}" dosyası boş!',
 'log_VIEWING_TIME' => 'Görüntülenme zamanı {$time}.',
 'log_MATCH_HEADER' => ' "{$matchPattern}" ile eşleşen satırlar.',
 'log_HIGHLIGHT_HEADER' => ' "{$highlightPattern}" ile eşleşip vurgulanan satırlar.',
 'log_NO_MATCHING_LINES' => 'Eşleşen satır yok.',
-'log_FILENAME_ERROR' => ' <p>Log dosyasının adı yanlış.</p> <p> "{$filename}" dosyası geçersiz log içeriyor.</p> ',
+'log_FILENAME_ERROR' => ' <p>Log dosyasının adı yanlış.</p>
+
+  <p> "{$filename}" dosyası geçersiz log içeriyor.</p>
+
+  ',
 'log_REFRESH' => 'Log dosyasını yenile',
-'log_OP_DESC' => ' <p>Log dosyalarını görüntülemek veya indirmeyi seçebilirsiniz. Görmek istediğiniz log dosyası çok büyük ise görüntülemek yerine indirmeniz önerilir, çünkü büyük dosyaları görüntülemek bazı web tarayıcılarında sorunlara neden olabilir.</p> ',
+'log_OP_DESC' => ' <p>Log dosyalarını görüntülemek veya indirmeyi seçebilirsiniz. Görmek istediğiniz log dosyası çok büyük ise görüntülemek yerine indirmeniz önerilir, çünkü büyük dosyaları görüntülemek bazı web tarayıcılarında sorunlara neden olabilir.</p>
+
+  ',
 'log_OP_LABEL' => 'İşlem',
-'log_DOWNLOAD_PAGE_DESC' => ' <p>Log dosyası indirmek için hazır. İndirmek için &quot;Next&quot; butonuna tıkladığınızda, dosya indirme pencersi belirecektir, dosyayı istediğiniz yere yükleyebilirsiniz.</p> ',
+'log_DOWNLOAD_PAGE_DESC' => ' <p>Log dosyası indirmek için hazır. İndirmek için &quot;Next&quot; butonuna tıkladığınızda, dosya indirme pencersi belirecektir, dosyayı istediğiniz yere yükleyebilirsiniz.</p>
+
+  ',
 'log_DOWNLOAD_FILE' => 'Log dosyası indirme için hazırlanıyor {$logfile}.',

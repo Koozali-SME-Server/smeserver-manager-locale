@@ -1,5 +1,7 @@
 'dom_FORM_TITLE' => 'Alan adlarını yönet',
-'dom_FORM_DESCRIPTION' => ' <p>Bu sistemde bir alan adı oluşturulduğunda, bu alana bağlı e-posta alabilir ve web sitesini barındırabilirsiniz.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Alan adı ekle</a> ',
+'dom_FORM_DESCRIPTION' => ' <p>Bu sistemde bir alan adı oluşturulduğunda, bu alana bağlı e-posta alabilir ve web sitesini barındırabilirsiniz.</p>
+
+  <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Alan adı ekle</a> ',
 'dom_NO_VIRTUAL_DOMAINS' => 'Sistemde alan adı bulunmamaktadır.',
 'dom_CURRENT_LIST_OF_DOMAINS' => 'Mevcut alan adları listesi.',
 'dom_PRIMARY_SITE' => 'birincil site',
@@ -15,11 +17,17 @@
 'dom_NONEXISTENT_DOMAIN_ERROR' => 'Hata: {$domainName} mevcut bir alan değildir.',
 'dom_SUCCESSFULLY_MODIFIED' => '{$domainName} alan adı ayarları uygulandı. Web sunucunuz şimdi yeniden başlatılacaktır. Sunucu yeniden başlatılana kadar aşağıdaki bağlantılar etkinleşmeyecektir.',
 'dom_REMOVE_TITLE' => 'Alan adı Sil',
-'dom_REMOVE_DESCRIPTION' => ' <p> {$domain} ({$domainDesc}) alan daını silmek üzeresiniz. </p> <p> <b>Bu alan adını silmek istediğinizden eminmisiniz?</b> </p> ',
+'dom_REMOVE_DESCRIPTION' => ' <p> {$domain} ({$domainDesc}) alan daını silmek üzeresiniz. </p>
+
+  <p> <b>Bu alan adını silmek istediğinizden eminmisiniz?</b> </p>
+
+  ',
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Hata: {$domain} silinirken iç hata oluştu.',
 'dom_SUCCESSFULLY_DELETED' => '{$domain} başarıyla silindi. Web sunucunuz şimdi yeniden başlatılacaktır. Sunucu yeniden başlatılana kadar aşağıdaki bağlantılar etkinleşmeyecektir.',
-'dom_DESC_CORPORATE_DNS_CURRENT' => ' <hr class="sectionbar" /><h2>Kurumsal DNS Ayarları</h2> ',
-'dom_BUTTON_CORPORATE_DNS' => ' <p>Bu cunucu internete bağlı değilse, veya DNS çözümlenmesi için özel ayarlara gereksinim varsa, DNS sunucunuzun IP adresini buraya yazın. ISP\'nicin DNS adreslerini buraya yazmayın, bu sunucu ek bir yapılandırmaya gerek kalmadan tüm internet DNS adlarını çözme yeteneğine sahiptir.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Kurumsal DNS Ayarlarını Değiştir</a> ',
+'dom_DESC_CORPORATE_DNS_CURRENT' => ' Kurumsal DNS Ayarları ',
+'dom_BUTTON_CORPORATE_DNS' => ' <p>Bu cunucu internete bağlı değilse, veya DNS çözümlenmesi için özel ayarlara gereksinim varsa, DNS sunucunuzun IP adresini buraya yazın. ISP\'nicin DNS adreslerini buraya yazmayın, bu sunucu ek bir yapılandırmaya gerek kalmadan tüm internet DNS adlarını çözme yeteneğine sahiptir.</p>
+
+  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Kurumsal DNS Ayarlarını Değiştir</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Bu sunucu internete bağlı değilse veya DNS çözümlemesi özel ayarlara ihtiyacınız varsa, buraya DNS sunucuların IP adresini girebilirsiniz. Özel durumlar dışında boş bırakmanız önerilir. Sunucu bu ek bir yapılandırmaya gerek kalmadan tüm internet DNS adlarını çözme yeteneğine sahiptir, bıraya ISP\'nizin DNS adreslerini girmenize gerek yoktur.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Birincil kurumsal DNS sunucusu',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'İkincil kurumsal DNS sunucusu',

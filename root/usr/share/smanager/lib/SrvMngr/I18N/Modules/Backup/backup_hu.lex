@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'A szerver adatainak biztonsági mentése, vagy helyreállítása',
-'bac_BACKUP_DESC' => ' <P>A szerver kétféle biztonsági mentést tesz lehetővé: az asztali mentést, vagy a szalagos mentést.</P> <P>Az első módszerrel a szerver másolatot készít a konfigurációs fájlokról és a felhasználói adatokról, majd letölti azt a helyi munkaasztalra a webböngészőn keresztül. Jelenleg az ön konfigurációs és felhasználói adatainak mérete <b>$tarsize</b>. Az elkészült biztonsági mentés valamivel kisebb lesz ennél, attól függően, hogy az adatok mennyire tömöríthetők. Az \"Asztali mentés ellenőrzése\" opcióval ellenőrizheti az asztali mentés fájl integritását.</P> <P>A szalagos mentés egy <I>$module</I>-nevű szoftvercsomagot használ, amellyel minden éjjel lementi szalagra a merevlemez teljes tartalmát. Ehhez támogatott szalagos meghajtó és nem írásvédett szalagok kellenek. A biztonsági mentés minden éjjel automatikusan történik (A rendszergazda automatikus figyelmeztető email-t kap előtte a nap folyamán). Jelenleg a merevlemez <b>$dumpsize</b> adatot tartalmaz.</P> <P>Mindkét biztonsági mentés lehetővé teszi, hogy a konfigurációs fájlokat és felhasználói adatokat helyreállítsa.<b>Teljes rendszer-helyreállítást frissen telepített rendszeren érdemes végrehajtani.</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P> A szerver biztonsági mentésének és visszaállításának három módja van: szalagos meghajtó használata, hálózati megosztás vagy helyi cserélhető lemez használata, vagy a helyi asztali számítógép használata. </P> <P> Szalagos biztonsági mentés . Ez a módszer a <I> $ modul </I> nevű szoftvercsomagot használja a teljes merevlemez biztonsági mentéséhez minden este. Ehhez egy támogatott szalagmeghajtóra és egy olyan szalagra van szükség, amely nem írásvédett. A mentés minden este automatikusan történik a kiválasztott időpontban (az emlékeztetőt automatikusan elküldi a rendszergazdának a nap folyamán). Jelenleg a merevlemez <b> $ dumpsize </b> adatot tartalmaz. </P> <P> Munkaállomás-mentés. Ez a módszer a <I> dar </I> nevű szoftvercsomagot használja a kiszolgáló konfigurációs és adatfájlainak hálózati megosztásra vagy helyi cserélhető lemezre, például USB-lemezre történő biztonsági mentéséhez. Tudja kezelni, hogy hány forgatható készletet tartanak fenn, és hogy hány inkrementális mentést készítsenek az egyes készletekben. A biztonsági mentés automatikusan történik minden nap a kiválasztott időpontban. Jelenleg a konfigurációs és adatfájlok összege körülbelül <b> $ tarsize </b> tömörítetlenül. A biztonsági mentést tároló megosztásnak legalább kétszer nagyobbnak kell lennie a tömörített biztonsági mentés méreténél. </P> <P> Biztonsági mentés az asztalra. Ez a módszer létrehozza a szerver konfigurációs és felhasználói adatfájljait, és letölti azt a helyi asztalra a webböngészőn keresztül. Jelenleg a konfigurációs és adatfájlok mérete körülbelül <b> $ tarsize </b>. A biztonsági mentési fájl némileg kisebb lesz, attól függően, hogy az adatok mennyire tömöríthetők. Ez a fájl használható a kiszolgáló visszaállítására a konzolról, ha áthelyezi egy helyi cserélhető lemezre, például USB lemezre. </P> <P> Minden biztonsági mentési módszer lehetővé teszi a konfigurációs és felhasználói adatfájlok visszaállítását. A munkaállomás biztonsági mentés egyedi fájl-visszaállítást biztosít. <b> Ideális esetben a teljes visszaállítást frissen telepített kiszolgálón kell végrehajtani </b>. </P>',
+'bac_BACKUP_DESC' => ' <p>A szerver kétféle biztonsági mentést tesz lehetővé: az asztali mentést, vagy a szalagos mentést.</p>
+
+  <p>Az első módszerrel a szerver másolatot készít a konfigurációs fájlokról és a felhasználói adatokról, majd letölti azt a helyi munkaasztalra a webböngészőn keresztül. Jelenleg az ön konfigurációs és felhasználói adatainak mérete <b>[_3]</b>. Az elkészült biztonsági mentés valamivel kisebb lesz ennél, attól függően, hogy az adatok mennyire tömöríthetők. Az \"Asztali mentés ellenőrzése\" opcióval ellenőrizheti az asztali mentés fájl integritását.</p>
+
+  <p>A szalagos mentés egy <i>[_1]</i>-nevű szoftvercsomagot használ, amellyel minden éjjel lementi szalagra a merevlemez teljes tartalmát. Ehhez támogatott szalagos meghajtó és nem írásvédett szalagok kellenek. A biztonsági mentés minden éjjel automatikusan történik (A rendszergazda automatikus figyelmeztető email-t kap előtte a nap folyamán). Jelenleg a merevlemez <b>[_2]</b> adatot tartalmaz.</p>
+
+  <p>Mindkét biztonsági mentés lehetővé teszi, hogy a konfigurációs fájlokat és felhasználói adatokat helyreállítsa.<b>Teljes rendszer-helyreállítást frissen telepített rendszeren érdemes végrehajtani.</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p> A szerver biztonsági mentésének és visszaállításának három módja van: szalagos meghajtó használata, hálózati megosztás vagy helyi cserélhető lemez használata, vagy a helyi asztali számítógép használata. </p>
+
+  <p> Szalagos biztonsági mentés . Ez a módszer a <i> $ modul </i> nevű szoftvercsomagot használja a teljes merevlemez biztonsági mentéséhez minden este. Ehhez egy támogatott szalagmeghajtóra és egy olyan szalagra van szükség, amely nem írásvédett. A mentés minden este automatikusan történik a kiválasztott időpontban (az emlékeztetőt automatikusan elküldi a rendszergazdának a nap folyamán). Jelenleg a merevlemez <b> $ dumpsize </b> adatot tartalmaz. </p>
+
+  <p> Munkaállomás-mentés. Ez a módszer a <i> dar </i> nevű szoftvercsomagot használja a kiszolgáló konfigurációs és adatfájlainak hálózati megosztásra vagy helyi cserélhető lemezre, például USB-lemezre történő biztonsági mentéséhez. Tudja kezelni, hogy hány forgatható készletet tartanak fenn, és hogy hány inkrementális mentést készítsenek az egyes készletekben. A biztonsági mentés automatikusan történik minden nap a kiválasztott időpontban. Jelenleg a konfigurációs és adatfájlok összege körülbelül <b> $ tarsize </b> tömörítetlenül. A biztonsági mentést tároló megosztásnak legalább kétszer nagyobbnak kell lennie a tömörített biztonsági mentés méreténél. </p>
+
+  <p> Biztonsági mentés az asztalra. Ez a módszer létrehozza a szerver konfigurációs és felhasználói adatfájljait, és letölti azt a helyi asztalra a webböngészőn keresztül. Jelenleg a konfigurációs és adatfájlok mérete körülbelül <b> $ tarsize </b>. A biztonsági mentési fájl némileg kisebb lesz, attól függően, hogy az adatok mennyire tömöríthetők. Ez a fájl használható a kiszolgáló visszaállítására a konzolról, ha áthelyezi egy helyi cserélhető lemezre, például USB lemezre. </p>
+
+  <p> Minden biztonsági mentési módszer lehetővé teszi a konfigurációs és felhasználói adatfájlok visszaállítását. A munkaállomás biztonsági mentés egyedi fájl-visszaállítást biztosít. <b> Ideális esetben a teljes visszaállítást frissen telepített kiszolgálón kell végrehajtani </b>. </p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Biztonsági mentés beállítása és állapota',
-'bac_TAPE_BACKUPS_ENABLED' => ' Szalagra mentés <b>engedélyezve</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Szalagra mentés engedélyezve. ',
 'bac_BACKUPS_RUN_AT' => 'Rendszeres mentés szalagra ekkor: ',
 'bac_REMINDER_MESSAGE_AT' => 'Emlékeztető küldése ekkor: ',
-'bac_TAPE_BACKUPS_DISABLED' => ' Szalagra mentés <b>letiltva</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Szalagra mentés letiltva ',
 'bac_DESKTOP_BACKUP' => 'Mentés asztalra',
 'bac_DESKTOP_RESTORE' => 'Helyreállítás asztalról',
 'bac_DESKTOP_VERIFY' => 'Asztali mentés ellenőrzése',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'A rendszer helyreállítása befejeződött',
 'bac_STARTED_AT' => 'Kezdés ideje:',
 'bac_FINISHED_AT' => 'Befejezés ideje:',
-'bac_YOU_MUST_REBOOT' => 'Újra kell indítania a szervert, hogy a rendszer-helyreállítás által megváltozott beállítások érvénybe lépjenek.', 
+'bac_YOU_MUST_REBOOT' => 'Újra kell indítania a szervert, hogy a rendszer-helyreállítás által megváltozott beállítások érvénybe lépjenek.',
 'bac_REBOOT' => 'Újraindítás',
 'bac_SELECT_AN_ACTION' => 'Válasszon műveletet',
 'bac_X_BACKUP_OR_RESTORE' => 'Biztonsági mentés, vagy rendszer helyreállítás',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => 'Hiba történt a helyreállítás előkészítésekor.',
 'bac_ERR_POST_BACKUP' => 'Hiba történt a mentés befejezésekor.',
 'bac_RESTORE_SERVER_CONFIG' => 'Szerver beállításainak helyreállítása',
-'bac_DESKTOP_RESTORE_DESC' => ' Ez a folyamat feltölti a munkaasztalról a biztonsági mentést a szerverre, majd helyreállítja a szerver beállításait és a felhasználói adatokat. <B>A helyreállítást lehetőleg frissen telepített szerveren végezze el.</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Ez a folyamat feltölti a munkaasztalról a biztonsági mentést a szerverre, majd helyreállítja a szerver beállításait és a felhasználói adatokat. A helyreállítást lehetőleg frissen telepített szerveren végezze el.. ',
 'bac_FREE_SPACE' => ' Megközelítőleg $tmpfree szabad lemezterület áll rendelkezésére a szerveren. Bizonyosodjon meg róla, hogy az asztali mentés mérete kisebb mint $halffree mielőtt nekifog a rendszer helyreállításának. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'A rendszer-helyreállítás után újra kell indítania a szervert.',
 'bac_FILE_TO_RESTORE' => 'Biztonsági mentésből helyreállítás',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Ez az opció kilistázza az összes fájl nevét amelyet az asztali mentés fájl tartalmaz. Ezzel az opcióval ellenőrizhető a biztonsági mentés tartalma.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Ez az opció kilistázza az összes fájl nevét amelyet az asztali mentés fájl tartalmaz. Ezzel az opcióval ellenőrizhető a biztonsági mentés tartalma.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Válasszon biztonsági mentést',
 'bac_VERIFY' => 'Ellenőrzés',
 'bac_RESTORE_CANNOT_PROCEED' => 'Nem lehet folytatni a rendszer-helyreállítást',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'A biztonsági mentés hiányos volt',
 'bac_ERR_READING_FILE' => 'Nem sikerült a biztonsági mentés beolvasása.',
 'bac_ENABLE_DISABLE_TAPE' => 'Éjjeli szalagos mentés engedélyezése/tiltása',
-'bac_TAPE_CONFIG_DESC' => ' <p>Állítsa be, amennyiben engedélyezni kívánja az éjjeli szalagos mentést. Végül adja meg, hogy hányszor legyen mentés és hogy legyen-e szalagcsere figyelmeztető.</p> <p>A szalagos mentéshez támogatott szalagos meghajtó kell. A rendszer egy figyelmeztető üzenetet küld a rendszergazdának a megadott időpontban, ha a szalagos meghajtóban nincs szalag.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Állítsa be, amennyiben engedélyezni kívánja az éjjeli szalagos mentést. Végül adja meg, hogy hányszor legyen mentés és hogy legyen-e szalagcsere figyelmeztető.</p>
+
+  <p>A szalagos mentéshez támogatott szalagos meghajtó kell. A rendszer egy figyelmeztető üzenetet küld a rendszergazdának a megadott időpontban, ha a szalagos meghajtóban nincs szalag.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Szalagos mentés engedélyezése',
 'bac_TAPE_BACKUP_TIME' => 'A szalagos mentés ideje (óra/perc)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Betöltés emlékeztető küldésének ideje (óra/perc)',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => ' szalagcsere emlékeztető küldésének időpontja:',
 'bac_SUCCESSFULLY_DISABLED' => 'A szalagos mentés letiltása sikeres',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Rendszer-helyreállítás szalagról',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <P>Ez a folyamat helyreállítja a konfigurációs fájlokat, és a felhasználói adatokat a szalagos biztonsági mentésből. <B>A helyreállítást frissen telepített rendszeren érdemes elvégezni</B>.</P> <P>Mielőtt nekikezdene, bizonyosodjon meg afelől, hogy a megfelelő kazetta van betöltve a szalagos meghajtóba.</P> <P>A rendszer helyreállítása után újra kell indítania a szervert.</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Ez a folyamat helyreállítja a konfigurációs fájlokat, és a felhasználói adatokat a szalagos biztonsági mentésből. <b>A helyreállítást frissen telepített rendszeren érdemes elvégezni</b>.</p>
+
+  <p>Mielőtt nekikezdene, bizonyosodjon meg afelől, hogy a megfelelő kazetta van betöltve a szalagos meghajtóba.</p>
+
+  <p>A rendszer helyreállítása után újra kell indítania a szervert.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Helyreállítás szalagról',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Nem lehet a szerver beállításait helyreállítani',
 'bac_RESTORING_FROM_TAPE' => 'Helyreállítás szalagról',
@@ -81,11 +111,11 @@
 'bac_SERVER_REBOOT' => 'Szerver újraindítás',
 'bac_SERVER_WILL_REBOOT' => 'A szerver most újraindul.',
 'bac_NO_UID_FOR_NAME' => 'Nincs meg az uid a következő felhasználóhoz:',
-'bac_PAGE_REFRESH_IN' => ' Ez az oldal {$sec} másodperc múlva frissül, vagy kattintson <a href="/server-manager/cgi-bin/backup">ide</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Ez az oldal {$sec} másodperc múlva frissül, vagy kattintson ide. ',
 'bac_Backup or restore' => 'Biztonsági mentés',
-'bac_BACKUP_DESKTOP_TOO_BIG' => ' <div class="error"> Az ön szervere túl sok adatot tartalmaz ahhoz, hogy asztali mentést lehessen készíteni. </div> ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Hálózati mentés <b>letiltva</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Hálózati mentés jelenleg <b>engedélyezve</b>. ',
+'bac_BACKUP_DESKTOP_TOO_BIG' => '  Az ön szervere túl sok adatot tartalmaz ahhoz, hogy asztali mentést lehessen készíteni.  ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' Hálózati mentés letiltva ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' Hálózati mentés jelenleg engedélyezve. ',
 'bac_WKBACKUPS_RUN_AT' => 'Rendszeres hálózati mentések készítésének időpontja:',
 'bac_WORKSTN_CONFIGURE' => 'Hálózati mentés beállítása',
 'bac_WORKSTN_VERIFY' => 'Hálózati mentés ellenőrzése',
@@ -98,9 +128,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Hálózati mentés engedélyezve',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Hálózati mentés letiltva',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Hálózati mentés ellenőrzése',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Ez az opció kilistázza az előzőleg készült hálózati mentésben lévő fájlokat. Ennek az opciónak a segítségével ellenőrizheti a biztonsági mentés tartalmát.<b>Ki kell választania azt a mentést amelyet ellenőrizni kíván</b></p> <p>Csak a [Saved] címkével jelölt fájlokat tartalmazza a mentés.</p> <br/>A biztonsági mentések a következő megosztáson lesznek ellenőrizve : ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Ez az opció kilistázza az előzőleg készült hálózati mentésben lévő fájlokat. Ennek az opciónak a segítségével ellenőrizheti a biztonsági mentés tartalmát.<b>Ki kell választania azt a mentést amelyet ellenőrizni kíván</b></p>
+
+  <p>Csak a [Saved] címkével jelölt fájlokat tartalmazza a mentés.</p>
+
+  <br/>A biztonsági mentések a következő megosztáson lesznek ellenőrizve : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Szerver beállításainak helyreállítása hálózati mentésből',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Ez a folyamat helyreállítja a konfigurációs fájlokat és a felhasználói adatokat a hálózati mentésből. <b>A helyreállítást frissen telepített rendszeren érdemes elvégezni</b>.</p> <p>A továbblépés előtt bizonyosodjon meg, hogy a megfelelő biztonsági mentést választotta ki.</p> <p>A rendszer-helyreállítás befejezése után újra kell indítani a szervert.</p> A helyreállítandó biztonsági mentés helye : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Ez a folyamat helyreállítja a konfigurációs fájlokat és a felhasználói adatokat a hálózati mentésből. <b>A helyreállítást frissen telepített rendszeren érdemes elvégezni</b>.</p>
+
+  <p>A továbblépés előtt bizonyosodjon meg, hogy a megfelelő biztonsági mentést választotta ki.</p>
+
+  <p>A rendszer-helyreállítás befejezése után újra kell indítani a szervert.</p>
+
+  A helyreállítandó biztonsági mentés helye : ',
 'bac_RESTORE_FROM_WORKSTN' => 'Helyreállítás hálózati mentésből',
 'bac_RESTORING_FROM_WORKSTN' => 'Helyreállítás hálózati mentésből',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Az ön szerverének beállításai és felhasználói adatai most helyre lesznek állítva a munkaállomás megosztott mappájában lévő biztonsági mentésből.',
@@ -124,7 +164,7 @@
 'bac_NUMBER_OF_SETS' => 'Biztonsági mentés készlet száma ',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Napi mentés minden készletben ',
 'bac_ERR_INVALID_SETS_NUMBER' => 'A számnak 1-nek, vagy annál nagyobbnak kell lennie.',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Ennek a számnak 1-nek, vagy annál nagyobbnak kell lennie. Az első mentés a készletben <b>teljes</b>, A többi<b>növekményes</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Ennek a számnak 1-nek, vagy annál nagyobbnak kell lennie. Az első mentés a készletben teljes, A többinövekményes',
 'bac_WORKSTN_TIMEOUT' => 'Opcionális mentés időkorlát (órákban) ',
 'bac_INC_ONLY_TIMEOUT' => 'Ne állítson be időkorlátot a teljes mentéshez',
 'bac_ERR_INVALID_TIMEOUT' => 'A maximális mentési időnek 1 és 24 óra között kell lennie',
@@ -133,11 +173,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Szelektív fájl-helyreállítás hálózati mentésből ',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Szelektív fájl-helyreállítás a hálózati mentésből ',
 'bac_ALL_BACKUPS' => 'Minden mentés',
-'bac_WORKSTN_SEL_REST_DESC' => ' Ez a folyamat csak a kiválasztott fájlokat és könyvtárakat fogja helyreállítani. Először ki kell választania azt a mentést, amelyből helyre kívánja állítani az adatokat. Ha nem tudja melyik mentés tartalmazza a helyreállítani kívánt fájlokat, válassza a \'Minden mentés\' opciót. <br/><br/> A következő oldalon kilistázódnak az elérhető fájlok és könyvtárak, amelyekből kiválaszthatja az önnek megfelelőket. A megjelenítendő fájlok és könyvtárak számának csökkentéséhez szűrést is alkalmazhat.<br/><br/> Az ön felelőssége az, hogy <b>ne állítson helyre</b> olyan fájlokat amelyek tönkretehetik a szerver működését.<br/> <br/>Jelenleg a fájlok a következő helyről lesznek helyreállítva : ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Ez a folyamat csak a kiválasztott fájlokat és könyvtárakat fogja helyreállítani. Először ki kell választania azt a mentést, amelyből helyre kívánja állítani az adatokat. Ha nem tudja melyik mentés tartalmazza a helyreállítani kívánt fájlokat, válassza a \'Minden mentés\' opciót.  A következő oldalon kilistázódnak az elérhető fájlok és könyvtárak, amelyekből kiválaszthatja az önnek megfelelőket. A megjelenítendő fájlok és könyvtárak számának csökkentéséhez szűrést is alkalmazhat. Az ön felelőssége az, hogy ne állítson helyre olyan fájlokat amelyek tönkretehetik a szerver működését. Jelenleg a fájlok a következő helyről lesznek helyreállítva : ',
 'bac_BACKUP_CHOICE' => 'Fájlok kiválasztása',
 'bac_SELECT_DATE_BEFORE' => 'A legutóbbiak helyreállítása',
 'bac_FILTER_EXPRESSION' => 'Nevek szűrése',
-'bac_READ_COMPLETE' => ' Bármely fájlt vagy könyvtárat helyreállíthat amely a listában van (használja a ctrl-t vagy a shift-et a többszörös kijelöléshez). <br/> <b>Figyelem! :</b> Ha kiválaszt egy könyvtárat, akkor annak összes tartalma helyre lesz állítva.<p/> Alaphelyzetben a legfrissebb fájlok lesznek helyreállítva, de ha megad egy dátumot a következő formában <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> a folyamat csak a <b>beállított dátum előtti</b> fájlokat fogja helyreállítani. ',
+'bac_READ_COMPLETE' => ' Bármely fájlt vagy könyvtárat helyreállíthat amely a listában van (használja a ctrl-t vagy a shift-et a többszörös kijelöléshez).  Figyelem! : Ha kiválaszt egy könyvtárat, akkor annak összes tartalma helyre lesz állítva. Alaphelyzetben a legfrissebb fájlok lesznek helyreállítva, de ha megad egy dátumot a következő formában [ [ [yyyy/]mm/]dd-]hh:mm[:ss] a folyamat csak a beállított dátum előtti fájlokat fogja helyreállítani. ',
 'bac_ERR_INVALID_SELDATE' => 'Érvénytelen dátum formátum! Így helyes: [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. Pl: 2005/12/31-08:23:32 vagy 10-08:32 vagy 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Visszaállítandó fájlok kiválasztása',
 'bac_ERR_WHILE_UNMOUNTING' => 'Hiba a távoli megosztás leválasztásakor ',
@@ -147,8 +187,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'A tömörítési szintet 0 (nincs tömörítés) és 9 (maximális tömörítés) közötti értékben kell megadni',
 'bac_DOW' => 'Vasárnap Hétfő Kedd Szerda Csütörtök Péntek Szombat Mindennap',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Kérem, konfigurálja a biztonsági mentést.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Ez az oldal tartalmazza a jelenlegi hálózati mentés konfigurációját. Ezen az oldalon és a következőn megváltoztathatja a beállításokat </p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Jelenleg a hálózati mentés nincs konfigurálva. Ezen, és a következő oldalon elvégezheti a konfigurálást.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Ez az oldal tartalmazza a jelenlegi hálózati mentés konfigurációját. Ezen az oldalon és a következőn megváltoztathatja a beállításokat </p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Jelenleg a hálózati mentés nincs konfigurálva. Ezen, és a következő oldalon elvégezheti a konfigurálást.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Biztonsági mentés ',
 'bac_WORKSTN_BACKUP_USB' => 'Biztonsági mentés készült külső meghajtóra',
 'bac_WORKSTN_BACKUP_MNT' => 'Biztonsági mentés készült a felcsatolt meghajtóra',

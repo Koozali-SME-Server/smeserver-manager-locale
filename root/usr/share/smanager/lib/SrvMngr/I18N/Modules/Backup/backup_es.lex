@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Respaldar o restaurar los datos del servidor',
-'bac_BACKUP_DESC' => ' <P>El servidor provee dos maneras de respaldar y restaurar su servidor: usando su escritorio local o unidad de cinta.</P> <P>El primer método crea una copia de los archivos de datos de usuario y de configuración del servidor y la descarga al escritorio local mediante el explorador Web. El total aproximado actual de los archivos de configuración y de datos es de <b>$tarsize</b>. El archivo de respaldo será un poco menor, dependiendo de lo comprimibles que sean los datos. La opción \"Verificar archivo de respaldo de escritorio\" se puede utilizar para verificar la integridad de un archivo de respaldo de escritorio.</P> <P>El método de respaldo en cinta utiliza un paquete de software llamado <I>$module</I> para respaldar en cinta el disco duro completo todas las noches. Esto requiere una unidad de cinta compatible y una cinta que no esté protegida contra-escritura. El respaldo se realiza automáticamente todas las noches a la hora seleccionada (enviándose automáticamente al administrador un recordatorio electrónico durante el día). Actualmente, el disco duro contiene <b>$dumpsize</b> de datos.</P> <P>Los dos métodos de restauración permiten restaurar los archivos de configuración y de datos de usuario. <b>Idealmente, la restauración se debe realizar en un servidor recién instalado</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>El servidor provee dos maneras de respaldar y restaurar su servidor: usando su escritorio local o unidad de cinta.</p>
+
+  <p>El primer método crea una copia de los archivos de datos de usuario y de configuración del servidor y la descarga al escritorio local mediante el explorador Web. El total aproximado actual de los archivos de configuración y de datos es de <b>[_3]</b>. El archivo de respaldo será un poco menor, dependiendo de lo comprimibles que sean los datos. La opción \"Verificar archivo de respaldo de escritorio\" se puede utilizar para verificar la integridad de un archivo de respaldo de escritorio.</p>
+
+  <p>El método de respaldo en cinta utiliza un paquete de software llamado <i>[_1]</i> para respaldar en cinta el disco duro completo todas las noches. Esto requiere una unidad de cinta compatible y una cinta que no esté protegida contra-escritura. El respaldo se realiza automáticamente todas las noches a la hora seleccionada (enviándose automáticamente al administrador un recordatorio electrónico durante el día). Actualmente, el disco duro contiene <b>[_2]</b> de datos.</p>
+
+  <p>Los dos métodos de restauración permiten restaurar los archivos de configuración y de datos de usuario. <b>Idealmente, la restauración se debe realizar en un servidor recién instalado</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+
+  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>
+
+  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
+
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Configuración y estado del respaldo',
-'bac_TAPE_BACKUPS_ENABLED' => ' Los respaldos en cinta están <b>habilitados</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Los respaldos en cinta están habilitados. ',
 'bac_BACKUPS_RUN_AT' => 'Los respaldos regulares en cinta se ejecutarán a las:',
 'bac_REMINDER_MESSAGE_AT' => 'Los mensajes recordatorios se enviarán a las:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Los respaldos en cinta están <b>deshabilitados</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Los respaldos en cinta están deshabilitados ',
 'bac_DESKTOP_BACKUP' => 'Respaldo al escritorio',
 'bac_DESKTOP_RESTORE' => 'Restaurar desde el escritorio',
 'bac_DESKTOP_VERIFY' => 'Verificar archivo de respaldo de escritorio',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'Se ha completado la restauración del sistema',
 'bac_STARTED_AT' => 'Comenzó a las:',
 'bac_FINISHED_AT' => 'y finalizó a las:',
-'bac_YOU_MUST_REBOOT' => 'Debe reiniciar el servidor para activar cualquier cambio en la configuración realizada como resultado de esta restauración.', 
+'bac_YOU_MUST_REBOOT' => 'Debe reiniciar el servidor para activar cualquier cambio en la configuración realizada como resultado de esta restauración.',
 'bac_REBOOT' => 'Reiniciar',
 'bac_SELECT_AN_ACTION' => 'Seleccionar una acción',
 'bac_X_BACKUP_OR_RESTORE' => 'X Respaldar o restaurar los datos del servidor',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => 'Ocurrió un error durante las acciones pre-restore.',
 'bac_ERR_POST_BACKUP' => 'Ocurrió un error durante las acciones post-backup.',
 'bac_RESTORE_SERVER_CONFIG' => 'Restaurar la configuración del servidor',
-'bac_DESKTOP_RESTORE_DESC' => ' Este proceso cargará un archivo de respaldo del servidor desde el escritorio local al servidor y restaurará los archivos de configuración y de datos de usuario. <B>La restauración se debe realizar sobre una instalación nueva de servidor</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Este proceso cargará un archivo de respaldo del servidor desde el escritorio local al servidor y restaurará los archivos de configuración y de datos de usuario. La restauración se debe realizar sobre una instalación nueva de servidor. ',
 'bac_FREE_SPACE' => ' Usted tiene aproximadamente $tmpfree de espacio libre en el servidor. Verifique que el archivo de respaldo de escritorio sea menor a $halffree antes de comenzar con la restauración. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'Luego de que finalice la restauración, debe reiniciar el servidor.',
 'bac_FILE_TO_RESTORE' => 'Archivo de respaldo desde el cual restaurar',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Esta opción mostrará los nombres de todos los archivoscontenidos en archivo de respaldo de escritorio creado previamente. Puede utilizar esta opción para verificar el contenido del archivo de respaldo.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Esta opción mostrará los nombres de todos los archivoscontenidos en archivo de respaldo de escritorio creado previamente. Puede utilizar esta opción para verificar el contenido del archivo de respaldo.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Seleccionar archivo de respaldo',
 'bac_VERIFY' => 'Verificar',
 'bac_RESTORE_CANNOT_PROCEED' => 'No se puede continuar con la restauración de la configuración del servidor',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'El archivo de respaldo estaba incompleto',
 'bac_ERR_READING_FILE' => 'Ocurrió un error en la lectura del archivo de respaldo.',
 'bac_ENABLE_DISABLE_TAPE' => 'Habilitar/Deshabilitar Respaldo Nocturno en Cinta',
-'bac_TAPE_CONFIG_DESC' => ' <p>Seleccione si desea habilitar los respaldos nocturnos. Luego, indique las horas deseadas para el respaldo y el recordatorio de carga de cinta.</p> <p>El respaldo en cinta requiere una unidad de cinta compatible. Si la unidad de cinta está vacía, se enviará un mensaje de advertencia al administrador a la hora de recordatorio designada.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Seleccione si desea habilitar los respaldos nocturnos. Luego, indique las horas deseadas para el respaldo y el recordatorio de carga de cinta.</p>
+
+  <p>El respaldo en cinta requiere una unidad de cinta compatible. Si la unidad de cinta está vacía, se enviará un mensaje de advertencia al administrador a la hora de recordatorio designada.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Habilitar respaldo en cinta',
 'bac_TAPE_BACKUP_TIME' => 'Hora del día para respaldo en cinta (hora/min)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Hora del día para recordatorio de carga de cinta (hora/min)',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => 'y hora de recordatorio de carga de cinta:',
 'bac_SUCCESSFULLY_DISABLED' => 'Respaldos en cinta deshabilitados correctamente',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Restaurar la configuración del servidor desde el respaldo en cinta',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Este proceso restaurará los archivos de configuración y de datos de usuario desde un respaldo en cinta del servidor. <B>La restauración se debe realizar en un servidor recién instalado</B>.</p> <p>Antes de continuar, asegúrese de haber cargado la cinta de respaldo deseada en la unidad de cinta.</p> <p>Luego de que finalice la restauración, debe reiniciar el servidor.</p> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Este proceso restaurará los archivos de configuración y de datos de usuario desde un respaldo en cinta del servidor. <b>La restauración se debe realizar en un servidor recién instalado</b>.</p>
+
+  <p>Antes de continuar, asegúrese de haber cargado la cinta de respaldo deseada en la unidad de cinta.</p>
+
+  <p>Luego de que finalice la restauración, debe reiniciar el servidor.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Restaurar Desde Cinta',
 'bac_UNABLE_TO_RESTORE_CONF' => 'No se puede restaurar la configuración del servidor',
 'bac_RESTORING_FROM_TAPE' => 'Restauración Desde Cinta',
@@ -81,11 +111,11 @@
 'bac_SERVER_REBOOT' => 'Reinicio del servidor',
 'bac_SERVER_WILL_REBOOT' => 'Ahora se reiniciará el servidor.',
 'bac_NO_UID_FOR_NAME' => 'No se pudo obtener el uid para el usuario llamado:',
-'bac_PAGE_REFRESH_IN' => ' Esta página se actualizará a la pantalla de estado en {$sec} segundos o haga clic <a href="/server-manager/cgi-bin/backup">aquí</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Esta página se actualizará a la pantalla de estado en {$sec} segundos o haga clic aquí. ',
 'Backup or restore' => 'Respaldar o restaurar',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Su servidor tiene demasiados datos para realizar un respaldo confiable al escritorio.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Los respaldos en ordenador remoto están <b>deshabilitados</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Los respaldos en ordenador remoto están <b>habilitados</b>. ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' Los respaldos en ordenador remoto están deshabilitados ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' Los respaldos en ordenador remoto están habilitados. ',
 'bac_WKBACKUPS_RUN_AT' => 'Los respaldos regulares en ordenador remoto se ejecutarán a las:',
 'bac_WORKSTN_CONFIGURE' => 'Configurar respaldo en ordenador remoto',
 'bac_WORKSTN_VERIFY' => 'Verificar respaldo de ordenador remoto',
@@ -98,9 +128,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Respaldos en ordenador remoto habilitados correctamente',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Respaldos en ordenador remoto deshabilitados correctamente',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Verificar respaldo de ordenador remoto',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Esta opción le mostrará los nombres de todos los archivos dentro de un respaldo previo diario en ordenador remoto. Puede utilizar esta opción para verificar los contenidos del respaldo.<b>Debe elegir el respaldo que desea verificar</b></p> <p>Sólo los archivos marcados con [Guardado] están contenidos en el respaldo.</p> <br/>Los archivos de respaldo son verificados desde la carpeta compartida : ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Esta opción le mostrará los nombres de todos los archivos dentro de un respaldo previo diario en ordenador remoto. Puede utilizar esta opción para verificar los contenidos del respaldo.<b>Debe elegir el respaldo que desea verificar</b></p>
+
+  <p>Sólo los archivos marcados con [Guardado] están contenidos en el respaldo.</p>
+
+  <br/>Los archivos de respaldo son verificados desde la carpeta compartida : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Restaurar la configuración del servidor desde el respaldo en ordenador remoto',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Este proceso restaurará los archivos de configuración y de datos de usuario desde un respaldo del Servidor en el ordenador remoto. <b>La restauración se debe realizar en un servidor recién instalado</b>.</p> <p>Antes de continuar, asegúrese de haber elegido debajo el respaldo correcto que desea restaurar.</p> <p>Luego de que finalice la restauración, debe reiniciar el servidor.</p> El respaldo será restaurado desde : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Este proceso restaurará los archivos de configuración y de datos de usuario desde un respaldo del Servidor en el ordenador remoto. <b>La restauración se debe realizar en un servidor recién instalado</b>.</p>
+
+  <p>Antes de continuar, asegúrese de haber elegido debajo el respaldo correcto que desea restaurar.</p>
+
+  <p>Luego de que finalice la restauración, debe reiniciar el servidor.</p>
+
+  El respaldo será restaurado desde : ',
 'bac_RESTORE_FROM_WORKSTN' => 'Restaurar Desde Ordenador Remoto',
 'bac_RESTORING_FROM_WORKSTN' => 'Restauración Desde Ordenador Remoto',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Ahora, se están restaurando desde la carpeta compartida del ordenador remoto los archivos de configuración del servidor y de datos de usuario.',
@@ -124,7 +164,7 @@
 'bac_NUMBER_OF_SETS' => 'Cantidad de rotaciones de los juegos de respaldos',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Respaldos diarios en cada juego',
 'bac_ERR_INVALID_SETS_NUMBER' => 'El número fijado debe ser 1 o mayor',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Este número debe ser 1 o mayor. El primer respaldo en el juego debe ser <b>completo</b>, los otros son <b>incrementales</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Este número debe ser 1 o mayor. El primer respaldo en el juego debe ser completo, los otros son incrementales',
 'bac_WORKSTN_TIMEOUT' => 'Tiempo opcional de espera de sesión de respaldo (horas)',
 'bac_INC_ONLY_TIMEOUT' => 'Sin tiempo de espera en las sesiones de respaldo completo',
 'bac_ERR_INVALID_TIMEOUT' => 'El tiempo máximo de respaldo debe estar fijado entre 1 y 24 horas',
@@ -133,11 +173,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Restauración selectiva de archivos desde ordenador remoto',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Restauración selectiva de archivos de ordenador remoto',
 'bac_ALL_BACKUPS' => 'Todos los respaldos',
-'bac_WORKSTN_SEL_REST_DESC' => ' Este proceso restaurará solamente los archivos y directorios especificados. Primero debe elegir el respaldo desde el cual los archivos serán restaurados. Si no sabe en cuál respaldo están los archivos requeridos, puede seleccionar la opción \'Todos los respaldos\'. <br/><br/> El siguiente panel le mostrará los archivos y directorios disponibles, entonces usted podrá elegir los que desee restaurar. Para restringir la cantidad de archivos y directorios mostrados en este panel, tiene la opción de suministrar ahora una expresión de filtrado, aplicada como expresión regular sobre los nombres mostrados.<br/><br/> Usted tiene la responsabilidad de <b>no restaurar</b> los archivos que puedan romper el funcionamiento de su servidor.<br/><br/>Actualmente, los archivos serán restaurados desde : ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Este proceso restaurará solamente los archivos y directorios especificados. Primero debe elegir el respaldo desde el cual los archivos serán restaurados. Si no sabe en cuál respaldo están los archivos requeridos, puede seleccionar la opción \'Todos los respaldos\'.  El siguiente panel le mostrará los archivos y directorios disponibles, entonces usted podrá elegir los que desee restaurar. Para restringir la cantidad de archivos y directorios mostrados en este panel, tiene la opción de suministrar ahora una expresión de filtrado, aplicada como expresión regular sobre los nombres mostrados. Usted tiene la responsabilidad de no restaurar los archivos que puedan romper el funcionamiento de su servidor.Actualmente, los archivos serán restaurados desde : ',
 'bac_BACKUP_CHOICE' => 'Seleccionar archivos para ver',
 'bac_SELECT_DATE_BEFORE' => 'Restaurar el más reciente antes de',
 'bac_FILTER_EXPRESSION' => 'Nombres filtrados por',
-'bac_READ_COMPLETE' => ' Puede elegir todos los directorios y archivos que desee restaurar en la lista mostrada (use ctrl o shift para selecciones múltiples). <br/><b>Advertencia :</b> Si selecciona un directorio, todos los archivos y directorios contenidos serán restaurados.<p/> Por defecto será restaurada la versión más reciente de los archivos seleccionados, pero si usted especifica una fecha en el formato <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> el proceso restaurará solamente la versión más recientemente modificada <b>anterior a la fecha suministrada</b>. ',
+'bac_READ_COMPLETE' => ' Puede elegir todos los directorios y archivos que desee restaurar en la lista mostrada (use ctrl o shift para selecciones múltiples). Advertencia : Si selecciona un directorio, todos los archivos y directorios contenidos serán restaurados. Por defecto será restaurada la versión más reciente de los archivos seleccionados, pero si usted especifica una fecha en el formato [ [ [yyyy/]mm/]dd-]hh:mm[:ss] el proceso restaurará solamente la versión más recientemente modificada anterior a la fecha suministrada. ',
 'bac_ERR_INVALID_SELDATE' => 'El formato de fecha es inválido, debe ser ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ej: 2005/12/31-08:23:32 o 10-08:32 o 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Seleccionar archivos para restaurar',
 'bac_ERR_WHILE_UNMOUNTING' => 'Ha ocurrido un error cuando se desmontaba el recurso compartido distante',
@@ -147,8 +187,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'El nivel de compresión debe fijarse entre 0 (sin compresión) y 9 (compresión máxima)',
 'bac_DOW' => 'Domingo Lunes Martes Miércoles Jueves Viernes Sábado Diario',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Por favor, configure los ajustes de respaldo.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Esta panel muestra la configuración actual de respaldo de ordenador remoto. Puede cambiarla en este panel y en el siguiente.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Actualmente, el respaldo de ordenador remoto no esta configurado. Puede configurarlo con este panel y el siguiente.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Esta panel muestra la configuración actual de respaldo de ordenador remoto. Puede cambiarla en este panel y en el siguiente.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Actualmente, el respaldo de ordenador remoto no esta configurado. Puede configurarlo con este panel y el siguiente.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Respaldo es',
 'bac_WORKSTN_BACKUP_USB' => 'El respaldo esta hecho en un disco local USB',
 'bac_WORKSTN_BACKUP_MNT' => 'El respaldo esta hecho en un disco local USB',

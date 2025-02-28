@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Buat, ubah, atau hapus akun pengguna',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Buat akun pengguna</a> </p> <p> Anda dapat mengubah, mengunci atau menghapus akun atau me-reset password akun dengan mengklik perintah yang sesuai. </p> <p> Jika akun telah ditandai sedang terkunci, artinya bahwa password pengguna perlu di-reset. Harap diingat bahwa akun yang baru dibuatsecara otomatis terkunci sampai password telah diganti. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Buat akun pengguna</a> </p>
+
+  <p> Anda dapat mengubah, mengunci atau menghapus akun atau me-reset password akun dengan mengklik perintah yang sesuai. </p>
+
+  <p> Jika akun telah ditandai sedang terkunci, artinya bahwa password pengguna perlu di-reset. Harap diingat bahwa akun yang baru dibuatsecara otomatis terkunci sampai password telah diganti. </p>
+
+  ',
 'usr_P2_TITLE' => 'Buat atau ubah',
-'usr_CREATE_MODIFY_DESC' => ' <p> Nama akun hanya boleh terdiri dari huruf kecil, angka, hyphen, titik, garis bawah, dan harus dimulai dengan huruf kecil. Contoh "betty", "hjohnson", and "mary-jane" adalah nama akun yang valid account , tetapi "3friends", "John Smith", and "henry:miller" tidak. </p> <p> Perhatikan bahwa dua nama pseudonym akan dibuat untuk setiap nama akun. Pseudonym tersebut dibuat agar terdapat akun email alternatif untuk user tersebut yaitu nama depan dan nama belakan yang terpisah dengan titik (.)dan garis bawah(_). Jadi untuk akun "betty" dengan nama depan"Betty" dan nama belakang "Rubble" dua pseudonym akan dibuat sebagai betty.rubble dan betty_rubble. </p> <p> Informasi (department, perusahaan, etc.) dapat diganti dari nilai defaults dibawah ini. Perubahan hanya berlaku untuk user ini. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> Nama akun hanya boleh terdiri dari huruf kecil, angka, hyphen, titik, garis bawah, dan harus dimulai dengan huruf kecil. Contoh "betty", "hjohnson", and "mary-jane" adalah nama akun yang valid account , tetapi "3friends", "John Smith", and "henry:miller" tidak. </p>
+
+  <p> Perhatikan bahwa dua nama pseudonym akan dibuat untuk setiap nama akun. Pseudonym tersebut dibuat agar terdapat akun email alternatif untuk user tersebut yaitu nama depan dan nama belakan yang terpisah dengan titik (.)dan garis bawah(_). Jadi untuk akun "betty" dengan nama depan"Betty" dan nama belakang "Rubble" dua pseudonym akan dibuat sebagai betty.rubble dan betty_rubble. </p>
+
+  <p> Informasi (department, perusahaan, etc.) dapat diganti dari nilai defaults dibawah ini. Perubahan hanya berlaku untuk user ini. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Ubah akun admin',
 'usr_USER_CREATED' => 'Berhasil membuat akun pengguna',
 'usr_USER_MODIFIED' => 'Berhasil mengubah akun pengguna.',
-'usr_CANNOT_MODIFY_USER' => 'Error: terjadi kesalahan internal saat mencoba mengubah user "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Error: terjadi kesalahan internal saat mencoba mengubah user "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: terjadi kesalahan internal saat mencoba mengubah group "{$group}" untuk pengguna "{$acctName}".',
 'usr_TAINTED_USER' => 'Nama akun "{$acctName}" mengandung karakter yang tidak valid.',
 'usr_ACCOUNT_NAME' => 'Nama Akun',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Error: pseudonym "{$pseudonym}" sudah digunakan oleh akun user "{$clashName}". Untuk membedakan, tambahkan inisial kedalam field ini.',
 'usr_LOCK_ACCOUNT' => 'Kunci akun',
 'usr_LOCK_ACCOUNT_TITLE' => 'Kunci akun pengguna',
-'usr_LOCK_DESC2' => ' Akun pengguna ini akan dikunci. Artinya user ini tidak akan bisa login, dan tidak bisa mengambil e-mail. Semua e-mail yang masuk akan tetap disimpan maupun diteruskan kepada alamat email external, seperti yang telah dikonfigurasi. Akun dapat diaktifkan kembali dengan memasukkan password baru. Password yang sekarang tidak akan disimpan. </p> <p> <b>Anda yakin mengunci akun ini?</b> ',
+'usr_LOCK_DESC2' => ' Akun pengguna ini akan dikunci. Artinya user ini tidak akan bisa login, dan tidak bisa mengambil e-mail. Semua e-mail yang masuk akan tetap disimpan maupun diteruskan kepada alamat email external, seperti yang telah dikonfigurasi. Akun dapat diaktifkan kembali dengan memasukkan password baru. Password yang sekarang tidak akan disimpan.   Anda yakin mengunci akun ini? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Menghapus akun pengguna',
 'usr_REMOVE_DESC' => 'Anda akan menghapus akun pengguna',
-'usr_REMOVE_DESC2' => ' Semua berkas milik user akun ini akan dihapus. Juga semua e-mail milik akun user ini yang berada di server akan dihapus. </p> <p> <b>Anda yakin menghapus akun ini?</b> ',
+'usr_REMOVE_DESC2' => ' Semua berkas milik user akun ini akan dihapus. Juga semua e-mail milik akun user ini yang berada di server akan dihapus.   Anda yakin menghapus akun ini? ',
 'usr_LOCK' => 'Kunci',
 'usr_NO_USER_ACCOUNTS' => 'Tidak ada akun pengguna dalam sistem ini',
 'usr_Users' => 'Pengguna',

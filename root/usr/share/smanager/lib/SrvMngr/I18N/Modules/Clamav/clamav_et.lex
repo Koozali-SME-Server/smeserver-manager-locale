@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Antiviiruse seadistused',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Skaneeri failisüsteemi',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Peamised seaded</h2> Kui see valik on lubatud siis scaneeritakse failisüsteemi viiruste suhtes. Raport ükskõik millisest viirusest saadetakse administraatori e-mailile.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Peamised seaded Kui see valik on lubatud siis scaneeritakse failisüsteemi viiruste suhtes. Raport ükskõik millisest viirusest saadetakse administraatori e-mailile.',
 'clm_LABEL_QUARANTINE' => 'Nakatunud failide garantiin',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV ja db versioonid',
 'clm_WEEKLY' => 'Nädalas',

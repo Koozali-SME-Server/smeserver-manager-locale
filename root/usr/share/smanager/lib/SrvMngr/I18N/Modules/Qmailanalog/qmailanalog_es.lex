@@ -1,5 +1,9 @@
 'qma_FORM_TITLE' => 'Análisis del Archivo de Registro de Correo',
-'qma_INITIAL_DESC' => ' <p>Al analizar los archivos de registro del sistema de correo, se puede entender cómo se está ejecutando el sistema, permitiendo diagnosticar problemas de entrega. Están disponibles varios informes distintos.</p> <p>Observe que puede demorar varios minutos en generar esos informes</p> ',
+'qma_INITIAL_DESC' => ' <p>Al analizar los archivos de registro del sistema de correo, se puede entender cómo se está ejecutando el sistema, permitiendo diagnosticar problemas de entrega. Están disponibles varios informes distintos.</p>
+
+  <p>Observe que puede demorar varios minutos en generar esos informes</p>
+
+  ',
 'qma_REPORT_TYPE' => 'Elegir un tipo de informe',
 'qma_GENERATE_REPORT' => 'Generar informe',
 'qma_LIST_OUTGOING' => 'Lista de mensajes salientes y destinatarios',

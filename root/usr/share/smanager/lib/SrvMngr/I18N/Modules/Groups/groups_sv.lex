@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Kort beskrivning/Windows gruppalias',
 'grp_GROUP_DESC_EXPL' => 'Ange en kort beskrivning i fältet nedan. Detta fält anger även gruppnamnet som syns Windows-klienter.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Följande informations bay var tilldelad denna grupp och kommer att ändras till Administratörsgruppen (du kan ändra dessa till något annat efteråt):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Vill du verkligen radera denna grupp?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Aktuell lista över användargrupper</p>',
-'grp_DELETE_DESCRIPTION' => ' Du är på väg att radera denna användargrupp "<b>{$group}</b>." ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Vill du verkligen radera denna grupp?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Aktuell lista över användargrupper</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Du är på väg att radera denna användargrupp "{$group}." ',

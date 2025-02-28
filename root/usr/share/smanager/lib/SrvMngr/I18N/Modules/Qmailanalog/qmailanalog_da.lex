@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'Postlogfil analyse',
-'qma_INITIAL_DESC' => ' <P>Analyse af postsytemets logfiler kan både understøtte forståelsen af hvordan systemet arbejder og diagnosen af leveringsproblemer. Der er adgang til adskillige forskellige rapporter.</P> <P>Venligst bemærk at det kan tage adskillige minutter at opbygge disse rapporter</P> ',
+'qma_INITIAL_DESC' => ' Analyse af postsytemets logfiler kan både understøtte forståelsen af hvordan systemet arbejder og diagnosen af leveringsproblemer. Der er adgang til adskillige forskellige rapporter. Venligst bemærk at det kan tage adskillige minutter at opbygge disse rapporter ',
 'qma_REPORT_TYPE' => 'Vælg en rapporttype',
 'qma_GENERATE_REPORT' => 'Lav rapport',
 'qma_LIST_OUTGOING' => 'Udgående beskeder og modtagere',

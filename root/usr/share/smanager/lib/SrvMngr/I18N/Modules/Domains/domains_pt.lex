@@ -1,5 +1,7 @@
 'dom_FORM_TITLE' => 'Gerenciar domínios',
-'dom_FORM_DESCRIPTION' => ' <p>Quando criar um domínio virtual, seu servidor será capaz de receber e-mail para este domínio e também ser um hospedeiro de páginas web para este domínio.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Add domain</a> ',
+'dom_FORM_DESCRIPTION' => ' <p>Quando criar um domínio virtual, seu servidor será capaz de receber e-mail para este domínio e também ser um hospedeiro de páginas web para este domínio.</p>
+
+  <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Add domain</a> ',
 'dom_NO_VIRTUAL_DOMAINS' => 'Não existem domínios virtuais no sistema.',
 'dom_CURRENT_LIST_OF_DOMAINS' => 'Lista atual de domínios',
 'dom_PRIMARY_SITE' => 'site primário',
@@ -15,11 +17,15 @@
 'dom_NONEXISTENT_DOMAIN_ERROR' => 'Erro: {$domainName} não é um domínio existente.',
 'dom_SUCCESSFULLY_MODIFIED' => 'Domínio virtual {$domainName} modificado com sucesso. Seu servidor web está sendo reinicializado. Os liks desta página estarão inativos até que a reinicialização do servidor de complete.',
 'dom_REMOVE_TITLE' => 'Remover domínio virtual',
-'dom_REMOVE_DESCRIPTION' => ' <p> Você está prestes a remover o domínio virtual {$domain} ({$domainDesc}). </p> <p> <b>Tem certeza que deseja remover este domínio?</b> </p> ',
+'dom_REMOVE_DESCRIPTION' => ' <p> Você está prestes a remover o domínio virtual {$domain} ({$domainDesc}). </p>
+
+  <p> <b>Tem certeza que deseja remover este domínio?</b> </p>
+
+  ',
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Erro: falha interna enquanto removia o domínio virtual {$domain}.',
 'dom_SUCCESSFULLY_DELETED' => 'Removeu o domínio virtual {$domain} com sucesso. Seu servidor web está sendo reinicializado. Os liks desta página estarão inativos até que a reinicialização do servidor de complete.',
-'dom_DESC_CORPORATE_DNS_CURRENT' => ' <hr class="sectionbar"/><h2>Configuração de DNS corporativo</h2> ',
-'dom_BUTTON_CORPORATE_DNS' => ' <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Modificar configurações de DNS corporativo</a> ',
+'dom_DESC_CORPORATE_DNS_CURRENT' => ' Configuração de DNS corporativo ',
+'dom_BUTTON_CORPORATE_DNS' => ' Modificar configurações de DNS corporativo ',
 'dom_DESC_CORPORATE_DNS' => 'Se seu servidor não possui acesso direto a Internet ou você tiver requerimentos especiais para resolução de DNS, entre com endereço IP do servidor DNS aqui. Estes campos devem ser deixados em branco a não ser que você tenha uma razão específica para configurar outro servidor DNS. Você não deve entrar o endereço IP do servidor DNS do seu provedor aqui, pois o servidor é capaz de resolver todos os nomes DNS da Internet sem configuração adicional.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Servidor primário de DNS corporativo',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Servidor secundário de DNS corporativo',

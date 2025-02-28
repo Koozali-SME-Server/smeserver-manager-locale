@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Lav sikkerhedskopi eller gendan server data',
-'bac_BACKUP_DESC' => ' <P> Denne server giver 2 muligheder for at sikkerhedskopiere eller gendanne din server: Sikkerhedskopi til arbejdsstation og sikkerhedskopi til bånd.</P> <P>Den første metode danner en kopi af din serverkonfiguration og brugerdata, og giver dig mulighed for gemme sikkerhedskopien på din arbejdsstation via en browser. Dine nuværende serveropsætning og brugerdate fylder ca. <b>$tarsize</b>. Sikkerhedskopien vil være en smule mindre, afhængig af hvor meget data kan komprimeres. Valgmuligheden \"Undersøg sikkerhedskopi til arbejdsstation\" kan bruges til at kontrollere sikkerhedskopien.</P> <P> Sikkerhedskopi til bånd anvender programmet <I>$module</I> til at lave en sikkerhedskopi af hele harddisken hver nat. Det kræver en understøttet båndstation og et isat bånd, der ikke er skrivebeskyttet. Sikkerhedskopien dannes automatisk på det valgte tidspunkt hver nat (der sendes automatisk en påmindelse til administrator om dagen). P.t. indeholder din hardisk <b>$dumpsize</b> data. </P> <P>Begge metoder giver dig mulighed for at gendanne dine serveropsætning og dine brugerdata. <b>Ideelt set bør sikkerhedskopien indlæses på en nyinstalleret server</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Serveren tilbyder tre forskellige muligheder for sikkerhedskopi og gendannelse: Sikkerhedskopi til bånd, til et netværksshare eller flytbart medie, eller din lokale desktop.</P> <P>Bånd backup. Bruger en programpakke ved navn <I>$module</I> til at sikkerhedskopiere hele din disk til bånd hver nat. Det forudsætter en understøttet båndstation og et bånd der ikke er skrivebeskyttet. Sikkerhedskopien udføres automatisk på et fastlagt tidspunkt hver nat (og der sendes automatisk en påmindelse til administrator i løbet af dagen). Aktuelt indeholder din disk <b>$dumpsize</b> af data.</P> <P>Netværkshare eller flytbart medie. Bruger en programpakke ved navn <I>dar</I> til at sikkerhedskopiere serveropsætning og data til netværksshare eller et lokalt flytbart medie som f.eks. en USB-disk. Du kan indstille antallet af roterende sikkerhedskopier du ønsker at bevare, og antallet af ændringsbackup i hvert sæt. Sikkerhedskopien udføres dagligt på det fastsatte tidspunkt. Aktuelt fylder serveropsætning og data <b>$tarsize</b> ukomprimeret. Der skal være plads til det dobbelte af den komprimerede datamængde på backup mediet.</P> <P>Backup til pc. Denne metode opretter en kopi af serveropsætning og brugerdata og henter dem til din pc via din web-browser. Aktuelt fylder opsætning og data i alt ca. <b>$tarsize</b>. Sikkerhedskopien vil være lidt mindre afhængig af hvor meget data kan komprimeres. Denne fil kan bruges til gendannelse af serveren fra konsollen, hvis du kopierer filen til et flytbart medie, som f.eks. en USB-disk.</P> <P>Alle 3 muligheder vil kunne gendanne serveropsætning og data på serveren. Backup til netshare eller flytbart medie kan desuden bruges til at gendanne individuelle filer fra sikkerhedskopien. <b>En fuld gendannelse bør udføres på en nyinstalleret server.</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p> Denne server giver 2 muligheder for at sikkerhedskopiere eller gendanne din server: Sikkerhedskopi til arbejdsstation og sikkerhedskopi til bånd.</p>
+
+  <p>Den første metode danner en kopi af din serverkonfiguration og brugerdata, og giver dig mulighed for gemme sikkerhedskopien på din arbejdsstation via en browser. Dine nuværende serveropsætning og brugerdate fylder ca. <b>[_3]</b>. Sikkerhedskopien vil være en smule mindre, afhængig af hvor meget data kan komprimeres. Valgmuligheden \"Undersøg sikkerhedskopi til arbejdsstation\" kan bruges til at kontrollere sikkerhedskopien.</p>
+
+  <p> Sikkerhedskopi til bånd anvender programmet <i>[_1]</i> til at lave en sikkerhedskopi af hele harddisken hver nat. Det kræver en understøttet båndstation og et isat bånd, der ikke er skrivebeskyttet. Sikkerhedskopien dannes automatisk på det valgte tidspunkt hver nat (der sendes automatisk en påmindelse til administrator om dagen). P.t. indeholder din hardisk <b>[_2]</b> data. </p>
+
+  <p>Begge metoder giver dig mulighed for at gendanne dine serveropsætning og dine brugerdata. <b>Ideelt set bør sikkerhedskopien indlæses på en nyinstalleret server</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Serveren tilbyder tre forskellige muligheder for sikkerhedskopi og gendannelse: Sikkerhedskopi til bånd, til et netværksshare eller flytbart medie, eller din lokale desktop.</p>
+
+  <p>Bånd backup. Bruger en programpakke ved navn <i>[_1]</i> til at sikkerhedskopiere hele din disk til bånd hver nat. Det forudsætter en understøttet båndstation og et bånd der ikke er skrivebeskyttet. Sikkerhedskopien udføres automatisk på et fastlagt tidspunkt hver nat (og der sendes automatisk en påmindelse til administrator i løbet af dagen). Aktuelt indeholder din disk <b>[_2]</b> af data.</p>
+
+  <p>Netværkshare eller flytbart medie. Bruger en programpakke ved navn <i>dar</i> til at sikkerhedskopiere serveropsætning og data til netværksshare eller et lokalt flytbart medie som f.eks. en USB-disk. Du kan indstille antallet af roterende sikkerhedskopier du ønsker at bevare, og antallet af ændringsbackup i hvert sæt. Sikkerhedskopien udføres dagligt på det fastsatte tidspunkt. Aktuelt fylder serveropsætning og data <b>[_3]</b> ukomprimeret. Der skal være plads til det dobbelte af den komprimerede datamængde på backup mediet.</p>
+
+  <p>Backup til pc. Denne metode opretter en kopi af serveropsætning og brugerdata og henter dem til din pc via din web-browser. Aktuelt fylder opsætning og data i alt ca. <b>[_3]</b>. Sikkerhedskopien vil være lidt mindre afhængig af hvor meget data kan komprimeres. Denne fil kan bruges til gendannelse af serveren fra konsollen, hvis du kopierer filen til et flytbart medie, som f.eks. en USB-disk.</p>
+
+  <p>Alle 3 muligheder vil kunne gendanne serveropsætning og data på serveren. Backup til netshare eller flytbart medie kan desuden bruges til at gendanne individuelle filer fra sikkerhedskopien. <b>En fuld gendannelse bør udføres på en nyinstalleret server.</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Sikkerhedskopiopsætning og status',
-'bac_TAPE_BACKUPS_ENABLED' => ' Sikkerhedskopi til bånd er for tiden <b>aktiveret</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Sikkerhedskopi til bånd er for tiden aktiveret. ',
 'bac_BACKUPS_RUN_AT' => 'Sikkerhedskopi til bånd vil foregå kl.:',
 'bac_REMINDER_MESSAGE_AT' => 'En påmindelse vil blive sendt:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Sikkerhedskopi til bånd er <b>deaktiveret</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Sikkerhedskopi til bånd er deaktiveret ',
 'bac_DESKTOP_BACKUP' => 'Sikkerhedskopi til arbejdsstation',
 'bac_DESKTOP_RESTORE' => 'Gendan fra arbejdsstation',
 'bac_DESKTOP_VERIFY' => 'Undersøg sikkerhedskopi til arbejdsstation',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'Systemgendannelsen er fuldført',
 'bac_STARTED_AT' => 'Starttid:',
 'bac_FINISHED_AT' => 'sluttid:',
-'bac_YOU_MUST_REBOOT' => 'Du skal genstarte serveren for at aktivere ændringerne fra gendannelsen.', 
+'bac_YOU_MUST_REBOOT' => 'Du skal genstarte serveren for at aktivere ændringerne fra gendannelsen.',
 'bac_REBOOT' => 'Genstart',
 'bac_SELECT_AN_ACTION' => 'Vælg en aktivitet',
 'bac_X_BACKUP_OR_RESTORE' => 'X Lav sikkerhedskopi eller gendan server data',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => 'Der skete en fejl under klargøring af gendannelsen.',
 'bac_ERR_POST_BACKUP' => 'Der skete en fejl under efterbehandling af sikkerhedskopien.',
 'bac_RESTORE_SERVER_CONFIG' => 'Gendan serveropsætning',
-'bac_DESKTOP_RESTORE_DESC' => ' Denne proces vil hente en sikkerhedskopi fra din arbejdsstation til serveren og gendanne serveropsætning og brugerdata. <B>Gendannelsen bør udføres på en nyinstalleret server</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Denne proces vil hente en sikkerhedskopi fra din arbejdsstation til serveren og gendanne serveropsætning og brugerdata. Gendannelsen bør udføres på en nyinstalleret server. ',
 'bac_FREE_SPACE' => ' Du har omtrent $tmpfree fri plads på serveren. Kontroller at sikkerhedskopien er mindre end $halffree inden du begynder gendannelsen. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'Efter at gendannelsen er gennemført, skal du genstarte serveren.',
 'bac_FILE_TO_RESTORE' => 'Hent sikkerhedskopien fra',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Denne mulighed viser alle filnavne i den tidligere dannede sikkerhedskopi. Du kan bruge denne mulighed til at kontrollere indholdet i sikkerhedskopien.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Denne mulighed viser alle filnavne i den tidligere dannede sikkerhedskopi. Du kan bruge denne mulighed til at kontrollere indholdet i sikkerhedskopien.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Vælg sikkerhedskopi',
 'bac_VERIFY' => 'Kontroller',
 'bac_RESTORE_CANNOT_PROCEED' => 'Kan ikke fortsætte med gendannelse af serveropsætningen',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'Sikkerhedskopien var ikke komplet',
 'bac_ERR_READING_FILE' => 'Der opstod en fejl under læsning af sikkerhedskopien.',
 'bac_ENABLE_DISABLE_TAPE' => 'Tænd/Sluk natlig sikkerhedskopi til bånd',
-'bac_TAPE_CONFIG_DESC' => ' <p>Vælg om du ønsker natlige sikkerhedskopier og angiv det ønskede tidspunk og også et tidspunk for påmindelse om at isætte et bånd.</p> <p>Båndsikkerhedskopiering forudsætter en understøttet båndstation. En advarsel bliver sendt til administrator på det fastlagte tidspunkt, hvis der ikke er bånd i båndstationen.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Vælg om du ønsker natlige sikkerhedskopier og angiv det ønskede tidspunk og også et tidspunk for påmindelse om at isætte et bånd.</p>
+
+  <p>Båndsikkerhedskopiering forudsætter en understøttet båndstation. En advarsel bliver sendt til administrator på det fastlagte tidspunkt, hvis der ikke er bånd i båndstationen.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Tænd for sikkerhedskopi til bånd',
 'bac_TAPE_BACKUP_TIME' => 'Tidspunkt for sikkerhedskopiering (timer(0-11)/min(0-59))',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Tidspunkt for udsendelse af påmindelse (time(0-11)/min(0-59))',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => 'med udsendelse af påmindelse kl.:',
 'bac_SUCCESSFULLY_DISABLED' => 'Der blev slukket for sikkerhedskopi til bånd',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Gendan fra bånd',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <P>Denne proces vil gendanne serveropsætning og brugerdata fra en sikkerhedskopi på bånd. <B>Gendannelsen bør foregå på en nyinstalleret server</B>.</P> <P>Du må sikre dig dig, at det rette bånd er indsat i båndstationen inden gendannelse.</P> <P>Efter gendannelsen skal serveren genstartes.</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Denne proces vil gendanne serveropsætning og brugerdata fra en sikkerhedskopi på bånd. <b>Gendannelsen bør foregå på en nyinstalleret server</b>.</p>
+
+  <p>Du må sikre dig dig, at det rette bånd er indsat i båndstationen inden gendannelse.</p>
+
+  <p>Efter gendannelsen skal serveren genstartes.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Gendan fra bånd',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Kan ikke gendanne serveropsætningen',
 'bac_RESTORING_FROM_TAPE' => 'Gendanner fra bånd',
@@ -81,11 +111,11 @@
 'bac_SERVER_REBOOT' => 'Servergenstart',
 'bac_SERVER_WILL_REBOOT' => 'Din server vil nu genstarte.',
 'bac_NO_UID_FOR_NAME' => 'Kunne ikke finde brugerID for brugeren:',
-'bac_PAGE_REFRESH_IN' => ' Siden vil genopfiske statusvisningen om {$sec} sekunder, ellers klik <a href="/server-manager/cgi-bin/backup">her</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Siden vil genopfiske statusvisningen om {$sec} sekunder, ellers klik her. ',
 'bac_Backup or restore' => 'Sikkerhedskopi eller gendannelse',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Din server har for mange data til en pålidelig sikkerhedskopi til arbejdsstation.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Sikkerhedskopi til lokalnet er <b>deaktiveret</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Sikkerhedskopi til lokalnet er <b>aktiveret</b>. ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' Sikkerhedskopi til lokalnet er deaktiveret ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' Sikkerhedskopi til lokalnet er aktiveret. ',
 'bac_WKBACKUPS_RUN_AT' => 'Sikkerhedskopi til lokalnet vil foregå kl.:',
 'bac_WORKSTN_CONFIGURE' => 'Opsætning af sikkerhedskopi til lokalnet',
 'bac_WORKSTN_VERIFY' => 'Kontroller sikkerhedskopi på lokalnet',
@@ -98,9 +128,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Sikkerhedskopi til lokalnet er aktiveret',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Sikkerhedskopi til lokalnet er deaktiveret',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Kontroller sikkerhedskopi på lokalnet',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Denne mulighed vil vise navnene på alle filer i en tidligere dannet sikkerhedskopi. Du kan bruge denne mulighed til at bekræfte sikkerhedskopiens indhold.<b> Du skal vælge den sikkerhedskopi du ønsker at undersøge</b></p> <p>Kun filer markeret med [Saved] er sikkerhedskopieret.</p> <br/> Filerne i sikkerhedskopien bliver kontrolleret fra den delte mappe: ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Denne mulighed vil vise navnene på alle filer i en tidligere dannet sikkerhedskopi. Du kan bruge denne mulighed til at bekræfte sikkerhedskopiens indhold.<b> Du skal vælge den sikkerhedskopi du ønsker at undersøge</b></p>
+
+  <p>Kun filer markeret med [Saved] er sikkerhedskopieret.</p>
+
+  <br/> Filerne i sikkerhedskopien bliver kontrolleret fra den delte mappe: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Gendan fra lokalnet',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Denne proces vil gendanne opsætning og brugerdata fra en sikkerhedskopi på lokalnetet. <b>Gendannelsen bør udføres på en nyinstalleret server</b>.</p> <p>Du må sikre dig at du vælger den rigtige sikkerhedskopi inden du fortsætter.</p> <p>Efter gendannelsen skal serveren genstartes.</p> Gendannelsen vil ske fra: ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Denne proces vil gendanne opsætning og brugerdata fra en sikkerhedskopi på lokalnetet. <b>Gendannelsen bør udføres på en nyinstalleret server</b>.</p>
+
+  <p>Du må sikre dig at du vælger den rigtige sikkerhedskopi inden du fortsætter.</p>
+
+  <p>Efter gendannelsen skal serveren genstartes.</p>
+
+  Gendannelsen vil ske fra: ',
 'bac_RESTORE_FROM_WORKSTN' => 'Gendan fra lokalnet',
 'bac_RESTORING_FROM_WORKSTN' => 'Gendanner fra lokalnet',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Din serveropsætning og brugerdata er ved at blive indlæst fra en delt mappe på lokalnet.',
@@ -124,7 +164,7 @@
 'bac_NUMBER_OF_SETS' => 'Antal roterende sikkerhedssæt',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Antal daglige kopier i hvert sæt',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Sæt-antallet skal være mindst 1',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Antallet skal være mindst 1. Første sikkerhedskopi i sættet er <b>fuld</b> følgende indeholder kun <b>ændrede/tilføjede data</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Antallet skal være mindst 1. Første sikkerhedskopi i sættet er fuld følgende indeholder kun ændrede/tilføjede data',
 'bac_WORKSTN_TIMEOUT' => 'Mulig udløbstid for sikkerhedskopier (i timer)',
 'bac_INC_ONLY_TIMEOUT' => 'Ingen udløbstid for fulde sikkerhedskopier',
 'bac_ERR_INVALID_TIMEOUT' => 'Maksimal sikkerhedskopi-tid skal være mellem 1 og 24 timer',
@@ -133,11 +173,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Selektiv gendannelse fra lokalnet',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Selektiv gendannelse fra lokalnet',
 'bac_ALL_BACKUPS' => 'Alle sikkerhedskopier',
-'bac_WORKSTN_SEL_REST_DESC' => ' Denne proces vil kun gendanne udpegede filer og mapper. Du skal først vælge den sikkerhedskopi hvorfra filer skal gendannes. Ved du ikke hvilken sikkerhedskopi du skal bruge, kan du vælge \'Alle sikkerhedskopier\'.<br/><br/> Det næste panel vil vise filer og mapper, så du kan vælge dem, der skal gendannes. For at begrænse antallet af viste filer og mapper kan du angive et filterudtryk, tilføjet som regulært udtryk for de viste navne.<br/><br/> Du har ansvaret for ikke at gendanne filer, der vil kunne ødelægge din servers funktioner.<br/> <br/>Aktuelt vil filerne gendannes fra: ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Denne proces vil kun gendanne udpegede filer og mapper. Du skal først vælge den sikkerhedskopi hvorfra filer skal gendannes. Ved du ikke hvilken sikkerhedskopi du skal bruge, kan du vælge \'Alle sikkerhedskopier\'. Det næste panel vil vise filer og mapper, så du kan vælge dem, der skal gendannes. For at begrænse antallet af viste filer og mapper kan du angive et filterudtryk, tilføjet som regulært udtryk for de viste navne. Du har ansvaret for ikke at gendanne filer, der vil kunne ødelægge din servers funktioner. Aktuelt vil filerne gendannes fra: ',
 'bac_BACKUP_CHOICE' => 'Vælg filer der skal vises',
 'bac_SELECT_DATE_BEFORE' => 'Gendan seneste inden',
 'bac_FILTER_EXPRESSION' => 'Navne filtreret efter',
-'bac_READ_COMPLETE' => ' Du kan vælge alle filer og mapper du ønsker gendannet fra den viste liste (brug ctrl og shift til massevalg). <br/> <b>Advarsel :</b> Vælger du en mappe vil alle filer og mapper i mappen blive gendannet.<p/> I udgangspunkt vil de seneste versioner af de valgte filer blive gendannet, medmindre du specificerer en dato i formatet <i>[ [ [åååå/]mm/]dd-]tt:mm[:ss]</i> denne proces vil kun gendanne de seneste ændrede versioner <b>inden den angivne dato</b>. ',
+'bac_READ_COMPLETE' => ' Du kan vælge alle filer og mapper du ønsker gendannet fra den viste liste (brug ctrl og shift til massevalg).  Advarsel : Vælger du en mappe vil alle filer og mapper i mappen blive gendannet. I udgangspunkt vil de seneste versioner af de valgte filer blive gendannet, medmindre du specificerer en dato i formatet [ [ [åååå/]mm/]dd-]tt:mm[:ss] denne proces vil kun gendanne de seneste ændrede versioner inden den angivne dato. ',
 'bac_ERR_INVALID_SELDATE' => 'Ugyldigt datoformat, det skal være [ [ [åååå/]mm/]dd-]tt:mm[:ss]. F.eks.: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Vælg filer til gendannelse',
 'bac_ERR_WHILE_UNMOUNTING' => 'Der skete en fejl under afmonteringen af den delte fjernmappe',
@@ -147,8 +187,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Komprimeringsniveau skal være mellem 0 (ingen komprimering) og 9 (maksimal komprimering)',
 'bac_DOW' => 'Søndag Mandag Tirsdag Onsdag Torsdag Fredag Lørdag Dagligt',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Venligst angiv indstillinger for sikkerhedskopi.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Dette panel viser opsætning for den aktuelle sikkerhedskopi til lokalnet. Du kan ændre opsætningen i dette og næste panel.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Der er aktuelt ikke opsat nogen sikkerhedskopi til lokalnet. Du kan lave en opsætning i dette og følgende paneler.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Dette panel viser opsætning for den aktuelle sikkerhedskopi til lokalnet. Du kan ændre opsætningen i dette og næste panel.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Der er aktuelt ikke opsat nogen sikkerhedskopi til lokalnet. Du kan lave en opsætning i dette og følgende paneler.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Sikkerhedskopi er',
 'bac_WORKSTN_BACKUP_USB' => 'Sikkerhedskopi er lavet på lokal flytbar disk',
 'bac_WORKSTN_BACKUP_MNT' => 'Sikkerhedskopi dannes på tilsluttet disk',

@@ -1,7 +1,7 @@
 'ln_Local networks' => 'Jaringan-jaringan lokal',
-'ln_FIRSTPAGE_DESC' => ' For security reasons, several services on your server are available only to your local network. However you can grant these local access privileges to additional networks by listing them below. Most installations should leave this list empty.</p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Add network</a> ',
+'ln_FIRSTPAGE_DESC' => ' For security reasons, several services on your server are available only to your local network. However you can grant these local access privileges to additional networks by listing them below. Most installations should leave this list empty. Add network ',
 'ln_ADD_TITLE' => 'Tombah jaringan lokal',
-'ln_ADD_DESC' => ' Tiap parameter harus dalam bentuk #.#.#.# (tiap # adalah angka dari 0 s.d 255). Server akan mengubah akhir (pengenal host) bagian dari alamat jaringan sesuai dengan subnet mask, untuk memastikan bahwa alamat network valid. </p><p> "Router" adalah alamat IP dari router dalam jaringan lokal anda untuk mencapai jaringan tambahan tersebut. ',
+'ln_ADD_DESC' => ' Tiap parameter harus dalam bentuk #.#.#.# (tiap # adalah angka dari 0 s.d 255). Server akan mengubah akhir (pengenal host) bagian dari alamat jaringan sesuai dengan subnet mask, untuk memastikan bahwa alamat network valid.  "Router" adalah alamat IP dari router dalam jaringan lokal anda untuk mencapai jaringan tambahan tersebut. ',
 'ln_NETWORK_ADDRESS' => 'Alamat jaringan',
 'ln_SUBNET_MASK' => 'Subnet mask',
 'ln_INVALID_IP_ADDRESS' => 'IP address cacat',
@@ -18,7 +18,13 @@
 'ln_SUCCESS' => 'Berhasil menambah jaringan {$network}/{$networkMask} melalui router {$networkRouter}.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Berhasil menambah jaringan {$network}/{$networkMask} melalui router {$networkRouter}. Server anda akan mengabulkan hak akses lokal ke alamat IP tunggal {$network}.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Berhasil menambah jaringan {$network}/{$networkMask} melalui router {$networkRouter}. Server anda akan mengabulkan hak akses lokal ke {$totalHosts} alamat IP dalam range {$firstAddr} s.d {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Berhasil menambah jaringan {$network}/{$networkMask} melaluirouter {$networkRouter}. </p> <p> Server anda akan mengabulkan hak akses lokal ke {$totalHosts} alamat IP dalam range {$firstAddr} s.d {$lastAddr}. </p> <p> Peringatan: Server FTP ProFTPd tidak dapat menangani subnet mask nonstandard ini. Spesifikasi yang lebih sederhana <b>{$simpleMask}</b> akan digunakan. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Berhasil menambah jaringan {$network}/{$networkMask} melaluirouter {$networkRouter}. </p>
+
+  <p> Server anda akan mengabulkan hak akses lokal ke {$totalHosts} alamat IP dalam range {$firstAddr} s.d {$lastAddr}. </p>
+
+  <p> Peringatan: Server FTP ProFTPd tidak dapat menangani subnet mask nonstandard ini. Spesifikasi yang lebih sederhana <b>{$simpleMask}</b> akan digunakan. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Berhasil menghapus jaringan {$network}/{$networkMask} lewat router {$networkRouter}.',
 'ln_ERROR_DELETING_NETWORK' => 'Terjadi error saat menghapus jaringan.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Tidak ada jaringan tambahan',

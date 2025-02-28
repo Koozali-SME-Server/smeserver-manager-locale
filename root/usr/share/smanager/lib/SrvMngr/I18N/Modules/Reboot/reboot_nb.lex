@@ -6,5 +6,5 @@
 'rbo_DESC_RECONFIGURE' => 'Serveren har satt i gang en full system rekonfigurasjon og restart.',
 'rbo_DESC_SHUTDOWN' => 'Serveren har satt i gang avsluttnings prosessen. Prosessen vil ta flere minutter. etter det kan du slå av strømmen.',
 'rbo_LABEL_REBOOT' => 'Velg Slå av,Restart, eller Rekonfigurere',
-'rbo_DESCRIPTION' => ' Du kan restarte , slå av serveren, eller sette i gang en ful rekonfigurasjon fra dette vinduet. Du må utføre avsluttningsprosedyren før du slår av strømmen. Alle disse funksjonene vil ta flere minutter å fullføre. Når du trykker <b>utfør</b> vil valget bli satt i gang umiddelbart, så vær klar! ',
+'rbo_DESCRIPTION' => ' Du kan restarte , slå av serveren, eller sette i gang en ful rekonfigurasjon fra dette vinduet. Du må utføre avsluttningsprosedyren før du slår av strømmen. Alle disse funksjonene vil ta flere minutter å fullføre. Når du trykker utfør vil valget bli satt i gang umiddelbart, så vær klar! ',
 'rbo_Reboot or shutdown' => 'Restart, eller avslutt',

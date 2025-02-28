@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Estado de la operación',
 'ACCOUNT' => 'Cuenta',
 'GROUP' => 'Grupo',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Los símbolos pipe (|) no están permitidos en este campo',
 'ERROR_BELOW' => 'ERROR: Se ha producido un error en la validación de esta página. Por favor, desplácese hacia abajo y busque el problema específico.',
 'ACCESS' => 'Acceso',

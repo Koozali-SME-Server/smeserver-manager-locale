@@ -1,5 +1,7 @@
 'prt_FORM_TITLE' => 'Adicionar ou remover impressoras',
-'prt_INITIAL_DESC' => ' <p><A class="button-like" HREF="printers?page=0&Next=Add">Adicionar impressora</A></p> ',
+'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Adicionar impressora</a></p>
+
+  ',
 'prt_NO_PRINTERS' => 'Não existem impressoras no sistema.',
 'prt_CURRENT_LIST' => 'Lista atual de impressoras',
 'prt_REMOTE_ADDRESS' => 'Endereço remoto',
@@ -13,7 +15,11 @@
 'prt_NET_PRINTER' => 'Impressora de rede ...',
 'prt_FIRST_USB_PRINTER' => 'Primeira impressora USB acoplada',
 'prt_SECOND_USB_PRINTER' => 'Segunda impressora USB acoplada',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>Erro: caracter inesperado no nome da impressora.</p> <p>O nome da impressora somente deve conter letras minúsculas e números e deve iniciar com letra minúscula. Por exemplo "hplaser", "epsonlp", e "canonbj" são nomes válidos.</p> ',
+'prt_ERR_UNEXPECTED_NAME' => ' <p>Erro: caracter inesperado no nome da impressora.</p>
+
+  <p>O nome da impressora somente deve conter letras minúsculas e números e deve iniciar com letra minúscula. Por exemplo "hplaser", "epsonlp", e "canonbj" são nomes válidos.</p>
+
+  ',
 'prt_ERR_UNEXPECTED_DESC' => 'Erro: caracter inesperado na descrição ou falta de descrição. Nova impressora não criada.',
 'prt_ERR_EXISTS' => 'Erro: Uma conta com o mesmo nome já existe:',
 'prt_ERR_INVALID_ADDRESS' => 'Erro: endereço de rede inválido. Nova impressora não criada.',

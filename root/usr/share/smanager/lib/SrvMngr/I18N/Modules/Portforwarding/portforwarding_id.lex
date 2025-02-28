@@ -1,11 +1,17 @@
 'pf_FORM_TITLE' => 'Konfigurasi Port Forwarding',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Anda dapat menggunakan panel ini untuk mengubah aturan aturan firewall seperti membuka port tertentu pada server ini dan meneruskannya pada port lain di host yang lain. Dengan melakukan hal tersebut akan mengijinkan lalulintas masuk untuk secara langsung mengakses host pribadi dalam jaringan lokal anda. </p> <p> PERINGATAN: Penyalahgunaan dari fitur ini dapat secara serius mengancam keamanan dari jaringan anda. Jangan gunakan fitur ini dengan enteng, atau tanpa mengerti benar akibat dari melakukan hal ini. </p> ',
+'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Anda dapat menggunakan panel ini untuk mengubah aturan aturan firewall seperti membuka port tertentu pada server ini dan meneruskannya pada port lain di host yang lain. Dengan melakukan hal tersebut akan mengijinkan lalulintas masuk untuk secara langsung mengakses host pribadi dalam jaringan lokal anda. </p>
+
+  <p> PERINGATAN: Penyalahgunaan dari fitur ini dapat secara serius mengancam keamanan dari jaringan anda. Jangan gunakan fitur ini dengan enteng, atau tanpa mengerti benar akibat dari melakukan hal ini. </p>
+
+  ',
 'pf_CREATE_RULE' => 'Membuat aturan portforwarding',
 'pf_SUMMARY_ADD_DESC' => 'Berikut ini ringkasan dari aturan port-forwarding yang akan anda tambahkan. Jika anda puas dengan rule tersebut, klik tombol &quot;Tambah&quot;. Jika tidak, klik tombol &quot;Batal&quot;.',
 'pf_SUMMARY_REMOVE_DESC' => 'Berikut ini ringkasan dari aturan port-forwarding yang akan anda hapus. Jika anda yakin anda ingin menghapus rule tersebut, klik tombol &quot;Hapus&quot;. Jika tidak, klik tombol &quot;Batal&quot;.',
 'pf_SHOW_FORWARDS' => 'Dibawah ini anda akan mendapati tabel ringkasan dari aturan portforwaring yang terpasang di server ini. Klik&quot;Hapus&quot; untuk menghapus rule yang bersangkutan.',
 'pf_NO_FORWARDS' => 'Saat ini tidak ada port yang diteruskan dalam sistem',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Pilih protokol, port yang ingin anda teruskan, the host tujuan, dan port dari host tujuan yang ingin anda teruskan. Jika anda ingin menentukan port range, masukkan batas bawah dan atas dipisahkan dengan strip. Port tujuan dapat dibiarkan kosong, yang mana akan menginstruksikan firewall agar membiarkan source port tidak diubah-ubah.</p> ',
+'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Pilih protokol, port yang ingin anda teruskan, the host tujuan, dan port dari host tujuan yang ingin anda teruskan. Jika anda ingin menentukan port range, masukkan batas bawah dan atas dipisahkan dengan strip. Port tujuan dapat dibiarkan kosong, yang mana akan menginstruksikan firewall agar membiarkan source port tidak diubah-ubah.</p>
+
+  ',
 'pf_LABEL_SOURCE_PORT' => 'Port asal',
 'pf_LABEL_PROTOCOL' => 'Protokol',
 'pf_LABEL_DESTINATION_PORT' => 'Port tujuan (boleh lebih dari satu)',

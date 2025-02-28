@@ -1,4 +1,4 @@
-'hos_FORM_TITLE' =>  'Gestion des noms d\'hôte et des adresses',
+'hos_FORM_TITLE' => 'Gestion des noms d\'hôte et des adresses',
 'Hostnames and addresses' => 'Gestion des noms d hôte et des adresses',
 'hos_UNABLE_TO_OPEN_CONFIGDB' => 'Impossible d\'ouvrir la base de données de configuration.',
 'hos_DNS_FORWARDER_ENABLED' => 'Un achemineur DNS a été configuré. Cela signifie que toutes les résolutions DNS seront traitées par cet achemineur. Les noms et les adresses d\'hôte ne peuvent être modifiés sur ce serveur lorsqu\'un achemineur DNS est configuré.',
@@ -31,7 +31,11 @@
 'hos_REMOTE_PAGE_DESCRIPTION' => 'Veuillez entrer les éléments supplémentaires suivants pour un hôte distant :',
 'hos_SUCCESSFULLY_DELETED' => 'L\'hôte a été supprimé avec succès.',
 'hos_SUCCESSFULLY_MODIFIED' => 'L\'hôte a été modifié avec succès.',
-'hos_REMOVE_PAGE_DESCRIPTION' => ' <p>Vous êtes sur le point de supprimer le nom d\'hôte "{$hostname}.{$domain}".</p> <p><b>Voulez-vous vraiment supprimer ce nom d\'hôte ?</b></p> ',
+'hos_REMOVE_PAGE_DESCRIPTION' => ' <p>Vous êtes sur le point de supprimer le nom d\'hôte "{$hostname}.{$domain}".</p>
+
+  <p><b>Voulez-vous vraiment supprimer ce nom d\'hôte ?</b></p>
+
+  ',
 'hos_CONFIRM_DESCRIPTION' => 'Veuillez confirmer les éléments suivants :',
 'hos_NO_HOSTS_FOR_THIS_DOMAIN' => 'Il n\'y a aucun nom d\'hôte défini pour ce domaine.',
 'hos_ADDR_IN_DHCP_RANGE' => 'L\'adresse est comprise dans la plage d\'allocation dynamique d\'adresses DHCP.',

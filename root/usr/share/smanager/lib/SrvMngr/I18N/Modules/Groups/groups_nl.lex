@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Korte beschrijving/Windows groep pseudoniem',
 'grp_GROUP_DESC_EXPL' => 'Voer een korte groep beschrijving in het veld hieronder in. Dit veld bepaald ook de groepsnaam zichtbaar voor Windows gebruikers.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'De volgende informatiebaaien waren toegewezen aan deze groep en zullen worden veranderd in de beheerdersgroep (u kunt deze naderhand weer wijzigen):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Weet U zeker dat U deze groep wilt verwijderen?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Huidige lijst van gebruikersgroepen</p>',
-'grp_DELETE_DESCRIPTION' => ' U staat op het punt om de gebruikersgroep "<b>{$group}</b>." te verwijderen ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Weet U zeker dat U deze groep wilt verwijderen?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Huidige lijst van gebruikersgroepen</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' U staat op het punt om de gebruikersgroep "{$group}." te verwijderen ',

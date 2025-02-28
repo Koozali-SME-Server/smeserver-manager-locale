@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Rövid leírás/Windows csoport alias-név',
 'grp_GROUP_DESC_EXPL' => 'Írja be a lenti mezőbe a csoport rövid leírását. Ez a leírás látható lesz a Windows munkaállomásokon is.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'A következő adattárak hozzá lettek rendelve ehhez a csoporthoz és az Administrator csoporthoz (késöbb ez megváltoztatható):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Biztos el kívánja távolítani ezt a csoportot?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Felhasználói csoportok listája</p>',
-'grp_DELETE_DESCRIPTION' => ' Most készül eltávolítani a(z) "<b>{$group}</b>" felhasználói csoportot',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Biztos el kívánja távolítani ezt a csoportot?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Felhasználói csoportok listája</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Most készül eltávolítani a(z) "{$group}" felhasználói csoportot',

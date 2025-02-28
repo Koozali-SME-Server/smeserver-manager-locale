@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Pengaturan Antivirus',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Scan filesistem',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Pengaturan Umum</h2> Jika pilihan ini di-enable maka filesistem akan di pindai untuk mencari virus. Sebuah laporan tentang virus yang ditemukan akan dikirimkan ke email pengelola.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Pengaturan Umum Jika pilihan ini di-enable maka filesistem akan di pindai untuk mencari virus. Sebuah laporan tentang virus yang ditemukan akan dikirimkan ke email pengelola.',
 'clm_LABEL_QUARANTINE' => 'Karantina file-file yang terinfeksi',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV dan versi db',
 'clm_WEEKLY' => 'Setiap minggu',

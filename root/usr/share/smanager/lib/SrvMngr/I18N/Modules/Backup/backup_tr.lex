@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Sunucu verilerini yedekle veya geri yükle',
-'bac_BACKUP_DESC' => ' <P>Sunucunuz iki şekilde yedek alma ve geri yüklemeyi sağlar: yerel masaüstünüzü veya teyip sürücüsünü kullanarak.</P> <P>İlk yöntem ayar ve kullanıcı dosyalarınızın yedeğini oluşturup, web gezginiyle masaüstünüze kaydetmeyi sağlar. Mevcut ayar ve kullanıcı dosyalarınız yaklaşık olarak <b>$tarsize</b> yer kaplar. Yedekleme dosyası bundan daha az yer kaplar, ne kadar sıkıştırıldığına bağlı. \"Masaüstü yedeklemesini doğrula\" seçeneği masaüstünüze yüklenen yedeğin içeriğini bütünlüğünü doğrular.</P> <P>Teyip yedeklemesi ise <I>$module</I> programını kullanarak sunucunuzun yedeğini her gece teybe kaydetmek için kullanır . Bu işlem için tanımlanan bir teyip sürücüsü ve yazılabilir bir kaset gerekir. Yedekleme belirtilen saatte her gece otomatik olarak yapılır (hatırlatıcı kullanılırsa her gün yöneticiye hatırlatma e-postası gönderilir). Diskinizdeki mevcut veri iktarı <b>$dumpsize</b> .</P> <P>Her iki geri yükleme yöntemi hem sunucu ayarlarını hem de kullanıcı dosyalarını geri yüklemeyi sağlar. <b>En iyisi, geri yükleme işlemi yeni kurulum yapılmış sunucuda yapmaktır</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>Sunucunuz iki şekilde yedek alma ve geri yüklemeyi sağlar: yerel masaüstünüzü veya teyip sürücüsünü kullanarak.</p>
+
+  <p>İlk yöntem ayar ve kullanıcı dosyalarınızın yedeğini oluşturup, web gezginiyle masaüstünüze kaydetmeyi sağlar. Mevcut ayar ve kullanıcı dosyalarınız yaklaşık olarak <b>[_3]</b> yer kaplar. Yedekleme dosyası bundan daha az yer kaplar, ne kadar sıkıştırıldığına bağlı. \"Masaüstü yedeklemesini doğrula\" seçeneği masaüstünüze yüklenen yedeğin içeriğini bütünlüğünü doğrular.</p>
+
+  <p>Teyip yedeklemesi ise <i>[_1]</i> programını kullanarak sunucunuzun yedeğini her gece teybe kaydetmek için kullanır . Bu işlem için tanımlanan bir teyip sürücüsü ve yazılabilir bir kaset gerekir. Yedekleme belirtilen saatte her gece otomatik olarak yapılır (hatırlatıcı kullanılırsa her gün yöneticiye hatırlatma e-postası gönderilir). Diskinizdeki mevcut veri iktarı <b>[_2]</b> .</p>
+
+  <p>Her iki geri yükleme yöntemi hem sunucu ayarlarını hem de kullanıcı dosyalarını geri yüklemeyi sağlar. <b>En iyisi, geri yükleme işlemi yeni kurulum yapılmış sunucuda yapmaktır</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+
+  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>
+
+  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
+
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Yedekleme ayarları ve durumu',
-'bac_TAPE_BACKUPS_ENABLED' => ' Teyip yedeklemesi <b>etkin</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Teyip yedeklemesi etkin. ',
 'bac_BACKUPS_RUN_AT' => 'Teyip yedeklemesi düzenli olarak bu saate gerçekleşecektir:',
 'bac_REMINDER_MESSAGE_AT' => 'Hatırlatma mesajı gönderme zamanı:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Teyip yedeklemesi <b>devredışı</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Teyip yedeklemesi devredışı ',
 'bac_DESKTOP_BACKUP' => 'Masaüstüne yedekle',
 'bac_DESKTOP_RESTORE' => 'Masaüstünden geri yükle',
 'bac_DESKTOP_VERIFY' => 'Masaüstündeki yedeği doğrula',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'Sistem geri yüklemesi tamamlandı',
 'bac_STARTED_AT' => 'Başlama zamanı:',
 'bac_FINISHED_AT' => 'bitiş zamanı:',
-'bac_YOU_MUST_REBOOT' => 'Geri yükleme sonucu oluşan değişiklikleri etkinleştirmek için, sistemin yeniden başlatılması gerekiyor.', 
+'bac_YOU_MUST_REBOOT' => 'Geri yükleme sonucu oluşan değişiklikleri etkinleştirmek için, sistemin yeniden başlatılması gerekiyor.',
 'bac_REBOOT' => 'Yeniden Başlat',
 'bac_SELECT_AN_ACTION' => 'İşlemi seçin',
 'bac_X_BACKUP_OR_RESTORE' => 'X Yedekle veya geri yükle',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => 'Geri yükleme hazırlık aşamasında hata oluştu.',
 'bac_ERR_POST_BACKUP' => 'Yedekleme sonrası hata oluştu',
 'bac_RESTORE_SERVER_CONFIG' => 'Sunucu ayarlarını geri yükle',
-'bac_DESKTOP_RESTORE_DESC' => ' Bu işlem sunucu masaüstündeki yedekleme dosyası, sunucuya geri yüklenecek ve sistem yarları ve kullanıcı bilgileri geri yüklenecek. <B>Geri yükleme yeni kurulmuş sistem üzerinde yüklenmelidir</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Bu işlem sunucu masaüstündeki yedekleme dosyası, sunucuya geri yüklenecek ve sistem yarları ve kullanıcı bilgileri geri yüklenecek. Geri yükleme yeni kurulmuş sistem üzerinde yüklenmelidir. ',
 'bac_FREE_SPACE' => ' Sunucunuzda yaklaşık olarak $tmpfree boş alan bulunuyor. Geri yüklenecek masaüstü yedeklemesi boyutunun $halffree daha az olmasına dikkat edin. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'Geri yükleme işlemi bitince sunucuyu yeniden başlatmak gerekmektedir.',
 'bac_FILE_TO_RESTORE' => 'Geri yüklenecek yedekleme dosyası',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Bu seçenek, daha önce oluşturulmuş masaüstü yedek dosyasındaki tüm dosyaların adlarını görüntüler. Yedek dosyanın içeriğini doğrulamak için bu seçeneği kullanabilirsiniz.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Bu seçenek, daha önce oluşturulmuş masaüstü yedek dosyasındaki tüm dosyaların adlarını görüntüler. Yedek dosyanın içeriğini doğrulamak için bu seçeneği kullanabilirsiniz.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Yedekleme dosyasını seçin',
 'bac_VERIFY' => 'Doğrula',
 'bac_RESTORE_CANNOT_PROCEED' => 'Sunucu yapılandırması geri yüklenemiyor',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'Yedekleme dosyası tamamlanamadı',
 'bac_ERR_READING_FILE' => 'Yedekleme dosyasını okunurken hata oluştu',
 'bac_ENABLE_DISABLE_TAPE' => 'Gece Yedek Almayı Etkinleştir/Devre Dışı Bırak',
-'bac_TAPE_CONFIG_DESC' => ' <p>Gece yedek almayı etkinleştirmek isterseniz. Teyip yükleme hatırlatıcısının çalıştırılacağı saatleri belirtmelisiniz.</p> <p>Teyip sürücüsüne desteklediği bant tipini yerleştirmeniz gerkmektedir. Teyip sürücüsü boş olursa hatırlatıcı, sistem yöneticisini bant yerleştirmesi için uyaracaktır.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Gece yedek almayı etkinleştirmek isterseniz. Teyip yükleme hatırlatıcısının çalıştırılacağı saatleri belirtmelisiniz.</p>
+
+  <p>Teyip sürücüsüne desteklediği bant tipini yerleştirmeniz gerkmektedir. Teyip sürücüsü boş olursa hatırlatıcı, sistem yöneticisini bant yerleştirmesi için uyaracaktır.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Teyip yedeklemesini etkileştir',
 'bac_TAPE_BACKUP_TIME' => 'Günün, teyibe yedek alma saati (saat/dak)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Teyibe bant yükleme hatırlatıcısının çalışma zamanı (saat/dak)',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => 'teyibi yerleştirmek için hatırlatma zamanı:',
 'bac_SUCCESSFULLY_DISABLED' => 'Teyip yedeklemesi başarıyla devre dışı bırakıldı.',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Sunucu ayarlarını, teyip yedeklemesinden geri yükle',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <P>Bu işlem teyip yedeklemesini sunucuya geri yükler. <B>Geri yükleme yeni kurulmuş sisteme uygulanmalıdır.</B>.</P> <P>İstenen yedekleme bantını teyibe yerleştirdiğinizden emin olun.</P> <P>Geri yükleme tamamlandıktan sonra sunucuyu yeniden başlatmanız gerekmektedir.</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Bu işlem teyip yedeklemesini sunucuya geri yükler. <b>Geri yükleme yeni kurulmuş sisteme uygulanmalıdır.</b>.</p>
+
+  <p>İstenen yedekleme bantını teyibe yerleştirdiğinizden emin olun.</p>
+
+  <p>Geri yükleme tamamlandıktan sonra sunucuyu yeniden başlatmanız gerekmektedir.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Teyipten Geri Yükle',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Sunucu ayarları geri yüklenemiyor',
 'bac_RESTORING_FROM_TAPE' => 'Teyipten Geri Yükleniyor',
@@ -81,11 +111,11 @@
 'bac_SERVER_REBOOT' => 'Sunucuyu yeniden başlat',
 'bac_SERVER_WILL_REBOOT' => 'Sunucu yeniden başlatılıyor',
 'bac_NO_UID_FOR_NAME' => 'Bu kullanıcınn UID numarası bulunamadı:',
-'bac_PAGE_REFRESH_IN' => ' Bu sayfa {$sec} saniyede bir kendini yenileyerek ilerleme durumunu gösterir, veya <a href="/server-manager/cgi-bin/backup">buraya tıklayın</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Bu sayfa {$sec} saniyede bir kendini yenileyerek ilerleme durumunu gösterir, veya buraya tıklayın. ',
 'bac_Backup or restore' => 'Yedek oluştur veya geri yükle',
-'bac_BACKUP_DESKTOP_TOO_BIG' => ' <div class="error"> Sunucunuzda, masaüstünüze yedeklenecek gerğinden fazla veri bulunmaktadır. </div> ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' İş istasonu yedeklemesi <b>devre dışı</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' İş istasonu yedeklemesi <b>etkin</b>. ',
+'bac_BACKUP_DESKTOP_TOO_BIG' => '  Sunucunuzda, masaüstünüze yedeklenecek gerğinden fazla veri bulunmaktadır.  ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' İş istasonu yedeklemesi devre dışı ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' İş istasonu yedeklemesi etkin. ',
 'bac_WKBACKUPS_RUN_AT' => 'İş istasyonu yedeklemesi düzenli olarak bu saate gerçekleşecektir:',
 'bac_WORKSTN_CONFIGURE' => 'İş istasyonu yedeklemesi ayarları',
 'bac_WORKSTN_VERIFY' => 'İş istasyonu yedeğini doğrula',
@@ -98,9 +128,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'İş istasyonu yedeklemesi başarıyla etkinleştirildi',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'İş istasyonu yedeklemesi başarıyla devre dışı bırakıldı.',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'İş istasyonu yedeğini doğrula',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Bu seçenek daha önce oluşturulan masaüstü yedeklemelerinin içeriğini göstermektedir. Bunu yedeklemenin içeriğini teyid etmek için kullanabilirsiniz.<b>Doğrulamak istediğiniz yedeklemeyi seçebilirsiniz</b></p> <p>Sadece [Kaydedildi] diye işaretlenen dosyalar yedekte yer almaktadır.</p> <br/>Yedek dosyaları paylaşılan bu klasörden kontrol edilecektir : ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Bu seçenek daha önce oluşturulan masaüstü yedeklemelerinin içeriğini göstermektedir. Bunu yedeklemenin içeriğini teyid etmek için kullanabilirsiniz.<b>Doğrulamak istediğiniz yedeklemeyi seçebilirsiniz</b></p>
+
+  <p>Sadece [Kaydedildi] diye işaretlenen dosyalar yedekte yer almaktadır.</p>
+
+  <br/>Yedek dosyaları paylaşılan bu klasörden kontrol edilecektir : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Sunucu ayarlarını masaüstü yedeğinden geri yükle',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Bu işlem sunucu ayarlarını ve kullanıcı dosyalarını masaüstü yedeklemesinden geri yükler. <b>Geri yükleme yeni kurulmuş sisteme uygulanmalıdır</b>.</p> <p>Geri yükleme yapmadan önce doğru yedeklemeyi seçtiğinizden emin olun.</p> <p>Geri yükleme tamamlandıktan sonra sunucuyu yeniden başlatmanız gerekmektedir.</p> Geri yüklenecek yedek : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Bu işlem sunucu ayarlarını ve kullanıcı dosyalarını masaüstü yedeklemesinden geri yükler. <b>Geri yükleme yeni kurulmuş sisteme uygulanmalıdır</b>.</p>
+
+  <p>Geri yükleme yapmadan önce doğru yedeklemeyi seçtiğinizden emin olun.</p>
+
+  <p>Geri yükleme tamamlandıktan sonra sunucuyu yeniden başlatmanız gerekmektedir.</p>
+
+  Geri yüklenecek yedek : ',
 'bac_RESTORE_FROM_WORKSTN' => 'İş istasyonundan geri yükle',
 'bac_RESTORING_FROM_WORKSTN' => 'İş istasyonundan geri yükleniyor',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Sunucu ayarları ve kullanıcı dosyaları şimdi iş istasyonunnun paylaştırılmış klasöründen geri yüklenecek.',
@@ -124,7 +164,7 @@
 'bac_NUMBER_OF_SETS' => 'Yedeklemele setinini adedi',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Yedekleme setinin günlük adedi',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Set sayısı 1 veya daha fazla olmalı',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Bu sayı 1 veya daha fazla olmalıdır. Setteki ilk yedekleme <b>tam</b> diğerleri <b>artan</b>dır',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Bu sayı 1 veya daha fazla olmalıdır. Setteki ilk yedekleme tam diğerleri artandır',
 'bac_WORKSTN_TIMEOUT' => 'İsteğe bağlı yedekleme zaman limiti (saat)',
 'bac_INC_ONLY_TIMEOUT' => 'Tam yedekleme süresini sınırlama',
 'bac_ERR_INVALID_TIMEOUT' => 'En fazla yedekleme süresi 1 ile 24 saat arasında olmalıdır',
@@ -133,11 +173,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'İş istasyonundan seçimli geri yükleme',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'İş istasyonundan seçimli geri yükleme',
 'bac_ALL_BACKUPS' => 'Bütün yedeklemeler',
-'bac_WORKSTN_SEL_REST_DESC' => ' Bu işlem belirli dosya ve klasörleri geri yükler. Önce geri yüklenecek yedeği seçmelisiniz. İstediğiniz dosyanın hangi yedekte bulunduğunu bilmiyorsanız \'Bütün yedeklemeler\' seçeneğini işaretleyebilirsiniz. <br/><br/> Sonraki panel dosya ve klasör isimlerini size gösterecektir, geri yüklemek istediğinizi seçiniz. Gösterilecek dosya ve klasör sayısını kısıtlamak için, sonuçlara ifade filtreleme yapabilirsiniz, gösterilecek isimler düzenli ifaderle sınırlandırılabilir .<br/><br/> Suncunuzun çalışmasını bozacak dosyaları geri yükleme sorumluluğu sizdedir.<br/> <br/>Geri yüklenecek, dosyaların yeri : ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Bu işlem belirli dosya ve klasörleri geri yükler. Önce geri yüklenecek yedeği seçmelisiniz. İstediğiniz dosyanın hangi yedekte bulunduğunu bilmiyorsanız \'Bütün yedeklemeler\' seçeneğini işaretleyebilirsiniz.  Sonraki panel dosya ve klasör isimlerini size gösterecektir, geri yüklemek istediğinizi seçiniz. Gösterilecek dosya ve klasör sayısını kısıtlamak için, sonuçlara ifade filtreleme yapabilirsiniz, gösterilecek isimler düzenli ifaderle sınırlandırılabilir . Suncunuzun çalışmasını bozacak dosyaları geri yükleme sorumluluğu sizdedir. Geri yüklenecek, dosyaların yeri : ',
 'bac_BACKUP_CHOICE' => 'Gösterilecek dosya seçimi',
 'bac_SELECT_DATE_BEFORE' => 'Önce en son yedeklemeyi geri yükle',
 'bac_FILTER_EXPRESSION' => 'Filtrelenen',
-'bac_READ_COMPLETE' => ' Geri yüklemek istediğiniz bütün dosya ve klasörleri listeden seçin (çoklu seçim için ctrl veya shift tuşunu basılı tutun). <br/> <b>Dikkat :</b> Eğer klasör seçerseniz, onun içerdiğiğ tim dosya ve klasörler de geri yüklenecektir.<p/> Varsayılan olarak seçilen dosyaların sadece son versiyonu geri yüklenir, fakat belirli bir tarih belirtilirse <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> formatında sadece <b>belitilen tarihten önceki</b> yedekler geri yüklenir. ',
+'bac_READ_COMPLETE' => ' Geri yüklemek istediğiniz bütün dosya ve klasörleri listeden seçin (çoklu seçim için ctrl veya shift tuşunu basılı tutun).  Dikkat : Eğer klasör seçerseniz, onun içerdiğiğ tim dosya ve klasörler de geri yüklenecektir. Varsayılan olarak seçilen dosyaların sadece son versiyonu geri yüklenir, fakat belirli bir tarih belirtilirse [ [ [yyyy/]mm/]dd-]hh:mm[:ss] formatında sadece belitilen tarihten önceki yedekler geri yüklenir. ',
 'bac_ERR_INVALID_SELDATE' => 'Geçersiz tarih formatı, gerekli format [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. örn: 2005/12/31-08:23:32 veya 10-08:32 veya 08:32 olmalıdır',
 'bac_SELECT_FILES_TO_RESTORE' => 'Geri yüklenecek dosyaları seçin',
 'bac_ERR_WHILE_UNMOUNTING' => 'Uzaktaki paylaşımı ayırırken hata oluştu',
@@ -147,8 +187,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Sıkıştırma oranı 0 (sıkıştırma yok) ile 9 (en fazla sıkıştırma) aralığında olmalıdır',
 'bac_DOW' => 'Pazar Pazartesi Salı Çarşamba Perşembe Cuma Cumartesi Hergün',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Lütfen yedekleme ayarlarını yapın',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Bu sayfa mevcut iş istasyonu yedekleme ayarlarını gösterir. Bu ayarları buradan veya sonraki sayfadan değiştirilebilir.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>İş istasyonu yedeklemesi, hala ayarlı değil. Bu ayarları buradan veya sonraki sayfadan değiştirilebilir.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Bu sayfa mevcut iş istasyonu yedekleme ayarlarını gösterir. Bu ayarları buradan veya sonraki sayfadan değiştirilebilir.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>İş istasyonu yedeklemesi, hala ayarlı değil. Bu ayarları buradan veya sonraki sayfadan değiştirilebilir.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Yedekleme',
 'bac_WORKSTN_BACKUP_USB' => 'Yedekleme yerel USB diske yapıldı',
 'bac_WORKSTN_BACKUP_MNT' => 'Yedekleme yerel USB diske yapıldı',

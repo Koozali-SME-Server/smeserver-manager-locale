@@ -6,5 +6,5 @@
 'rbo_DESC_RECONFIGURE' => 'Your server has initiated a full system reconfiguration and reboot.',
 'rbo_DESC_SHUTDOWN' => 'Your server has initiated the shutdown process. The process will take several minutes to complete, after which you can switch off the power.',
 'rbo_LABEL_REBOOT' => 'Select Shutdown, Reboot or Reconfigure',
-'rbo_DESCRIPTION' => ' You can reboot, shut down your server or perform a full system reconfiguration from this screen. You must perform a shutdown before switching the power off. All of these functions take several minutes to complete. When you click <b>perform</b> the operation will be initiated immediately, so be ready! ',
+'rbo_DESCRIPTION' => ' You can reboot, shut down your server or perform a full system reconfiguration from this screen. You must perform a shutdown before switching the power off. All of these functions take several minutes to complete. When you click perform the operation will be initiated immediately, so be ready! ',
 'rbo_Reboot or shutdown' => 'Reboot or shutdown',

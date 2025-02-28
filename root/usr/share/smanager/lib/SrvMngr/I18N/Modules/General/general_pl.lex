@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Raport o stanie procesu',
 'ACCOUNT' => 'Konto',
 'GROUP' => 'Grupa',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Znaki pionowej kreski (|) nie są dozwolone w tym polu',
 'ERROR_BELOW' => 'BŁĄD: Wystąpił błąd podczas sprawdzania poprawności tej strony. Przewiń w dół i znajdź konkretny problem.',
 'ACCESS' => 'Dostęp',

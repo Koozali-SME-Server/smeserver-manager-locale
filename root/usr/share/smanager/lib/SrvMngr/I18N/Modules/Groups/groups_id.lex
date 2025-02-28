@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Penjelasan Singkat/Nama lain Windows Group',
 'grp_GROUP_DESC_EXPL' => 'Masukkan penjelasan singkat dalam ruas dibawah ini. Ruas (field) ini juga menentukan nama grup yang bisa dilihat dari klien Windows.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Information bays dibawah ini telah ditetapkan pada grup ini dan akan diubah menjadi grup Administrator (anda dapat mengubahnya menjadi yang lain kemudian):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Anda yakin anda ingin menghapus grup ini?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Daftar User Group</p>',
-'grp_DELETE_DESCRIPTION' => ' Anda akan menghapus grup pengguna "<b>{$group}</b>." ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Anda yakin anda ingin menghapus grup ini?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Daftar User Group</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Anda akan menghapus grup pengguna "{$group}." ',

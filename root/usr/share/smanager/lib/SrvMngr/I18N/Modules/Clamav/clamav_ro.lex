@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Setari antivirus',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Scanare sistem',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Setari Generale</h2> Daca aceasta optiune este bifata sistemul va fi scanat de virusi. Administratoruil de sistem va primi un email cu eventualele probleme gasite.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Setari Generale Daca aceasta optiune este bifata sistemul va fi scanat de virusi. Administratoruil de sistem va primi un email cu eventualele probleme gasite.',
 'clm_LABEL_QUARANTINE' => 'Fisierele infectate vor fi trecute in carantina',
 'clm_LABEL_CLAM_VERSIONS' => 'Versiunile ClamAV si ale bazei de date ',
 'clm_WEEKLY' => 'Saptamanal',

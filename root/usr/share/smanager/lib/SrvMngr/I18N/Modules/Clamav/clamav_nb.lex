@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Antivirus innstillinger',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Søk gjennom filsystem',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Generelle Innstillinger</h2> Hvis denne blir slått på vil filsystemet bli gjennomsøkt for virus. En rapport med oppdagede virus vil bli sendt til administrator.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Generelle Innstillinger Hvis denne blir slått på vil filsystemet bli gjennomsøkt for virus. En rapport med oppdagede virus vil bli sendt til administrator.',
 'clm_LABEL_QUARANTINE' => 'Flytt infiserte filer i karantene',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV og db versjoner',
 'clm_WEEKLY' => 'Ukentlig',

@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Statusrapport över operationerna',
 'ACCOUNT' => 'Konto',
 'GROUP' => 'Grupp',
-'DESC_SECTIONBAR' => '',
+'DESC_SECTIONBAR' => ',
 'NO_PIPES_ALLOWED' => 'Pipe symboler (|) är inte tillåtna i detta fält',
 'ERROR_BELOW' => 'FEL: Det blev ett fel vid valideringen av denna sida. Skrolla ner på sidan och sök efter problemet.',
 'ACCESS' => 'Åtkomst',

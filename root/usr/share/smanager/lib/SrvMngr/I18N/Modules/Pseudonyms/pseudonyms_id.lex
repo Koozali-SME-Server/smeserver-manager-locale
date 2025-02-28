@@ -1,20 +1,32 @@
-'pse_NO_PSEUDONYMS' => ' <b>Tidak ada pseudonym dalam sistem.</b> ',
+'pse_NO_PSEUDONYMS' => ' Tidak ada pseudonym dalam sistem. ',
 'pse_REMOVE_PSEUDONYM' => 'Hapus pseudonym',
-'pse_ABOUT_TO_REMOVE' => ' Anda akan menghapus pseudonym:<br> <b>Anda yakin ingin melanjutkan?</b> ',
+'pse_ABOUT_TO_REMOVE' => ' Anda akan menghapus pseudonym: Anda yakin ingin melanjutkan? ',
 'pse_FORM_TITLE' => 'Buat, ubah, atau hapus pseudonym',
-'pse_DESCRIPTION' => ' <p>TServer secara otomatis membuat sebuah e-mail untuk setiap grup. Jika anda ingin mendefinisikan sebuah email alias untuk sejumlah user, cukup buat sebuah grup dan list akan dikelola oleh server secara otomatis..</p> <p>Dengan Pseudonym anda bisa membuat nama lain dari user atau grup yang telah ada. Contohnya , anda ingin membuat pseudonym "webmaster" untuk grup "pengembangweb" atau pseudonym "joe" untuk pengguna "joseph".</p> <p>Server secara otomatis membuat pseudonym dalam bentuk firstname.lastname dan firstname_lastname untuk setiap userdalam sistem dan sebuah pseudonym "everyone" yang memuat semua user dalam sistem.</p> <p>Pseudonym juga membuat anda dapat membuat alamat email alias untuk (virtual) domains dan pengguna yang valid. COntohnya anda dapat meneruskan "sales@virtualdomain1.com" ke pengguna "mary" dan "sales@virtualdomain2.com" ke pengguna "john". Anda harus membuat domain-domain dan akun pengguna sebelum membuat alamat email alias.</p> <p>Pseudonyms juga dapat meneruskan ke pseudonyms yang lain, walaupun hal ini terbatas sampai satu langkah saja. Contoh pseudonym "webmaster" dapat meneruskan ke pseudonym "techsupport" yang kemudian meneruskan ke pengguna yang spesifik "ray". Hal ini berguna ketika satu pengguna bertanggung jawab untuk berbagai bagian dan sangat menolong sehingga tidak perlu mengubah pseudonym\'s yang terhubung dengan user tersebut pada saat user tersebut keluar dari organisasi.</p> <p>Anda dapat mengubah atau menghapus pseudonym dengan cara meng-klik perintah yang bersangkutan disebelah pseudonym.</p>',
+'pse_DESCRIPTION' => ' <p>TServer secara otomatis membuat sebuah e-mail untuk setiap grup. Jika anda ingin mendefinisikan sebuah email alias untuk sejumlah user, cukup buat sebuah grup dan list akan dikelola oleh server secara otomatis..</p>
+
+  <p>Dengan Pseudonym anda bisa membuat nama lain dari user atau grup yang telah ada. Contohnya , anda ingin membuat pseudonym "webmaster" untuk grup "pengembangweb" atau pseudonym "joe" untuk pengguna "joseph".</p>
+
+  <p>Server secara otomatis membuat pseudonym dalam bentuk firstname.lastname dan firstname_lastname untuk setiap userdalam sistem dan sebuah pseudonym "everyone" yang memuat semua user dalam sistem.</p>
+
+  <p>Pseudonym juga membuat anda dapat membuat alamat email alias untuk (virtual) domains dan pengguna yang valid. COntohnya anda dapat meneruskan "sales@virtualdomain1.com" ke pengguna "mary" dan "sales@virtualdomain2.com" ke pengguna "john". Anda harus membuat domain-domain dan akun pengguna sebelum membuat alamat email alias.</p>
+
+  <p>Pseudonyms juga dapat meneruskan ke pseudonyms yang lain, walaupun hal ini terbatas sampai satu langkah saja. Contoh pseudonym "webmaster" dapat meneruskan ke pseudonym "techsupport" yang kemudian meneruskan ke pengguna yang spesifik "ray". Hal ini berguna ketika satu pengguna bertanggung jawab untuk berbagai bagian dan sangat menolong sehingga tidak perlu mengubah pseudonym\'s yang terhubung dengan user tersebut pada saat user tersebut keluar dari organisasi.</p>
+
+  <p>Anda dapat mengubah atau menghapus pseudonym dengan cara meng-klik perintah yang bersangkutan disebelah pseudonym.</p>
+
+  ',
 'pse_LOCAL_ONLY' => '(jaringan lokal saja)',
 'pse_SELECT_ACCOUNT' => 'Pilih akun atau grup',
 'pse_SELECT_INTERNAL' => 'Jaringan lokal saja',
 'pse_CLICK_TO_CREATE' => 'Tambah pseudonym',
 'pse_PSEUDONYM' => 'Pseudonym',
 'pse_USER_OR_GROUP' => 'Pengguna atau grup',
-'pse_CURRENT_PSEUDONYMS' => '<b>Daftar Pseudonym</b>',
+'pse_CURRENT_PSEUDONYMS' => 'Daftar Pseudonym',
 'pse_TITLE_CREATE' => 'Buat sebuah pseudonym',
 'pse_DESC_PSEUDONYM_NAME' => 'Silakan pilih akun atau grup yang telah ada untuk pseudonym dari pulldown menu dibawah ini',
 'pse_MODIFY_PSEUDONYM' => 'Ubah pseudonym',
 'pse_PSEUDONYM_NAME' => 'Nama pseudonym',
-'pse_VALID_PSEUDONYM_NAMES' => ' Pseudonym hanya boleh mengandung huruf kecil,angka, titik, strip dan garis bawah dan harus dimulai dengan huruf kecil atau angka. Contoh "sales", "john.holland", "123" dan "email-administrator" adalah pseudonym yang benar, tetapi "John Smith" dan "Henry Miller" tidak benar. <p>Anda juga dapat membuat nama lain dari email untuk akun dan domain (virtual) yang valid dalam server ini. Contohnya "fred@virtualdomain.com" dapat diforward ke "mary" (atau ke akun pengguna lain yang valid).</p> ',
+'pse_VALID_PSEUDONYM_NAMES' => ' Pseudonym hanya boleh mengandung huruf kecil,angka, titik, strip dan garis bawah dan harus dimulai dengan huruf kecil atau angka. Contoh "sales", "john.holland", "123" dan "email-administrator" adalah pseudonym yang benar, tetapi "John Smith" dan "Henry Miller" tidak benar. Anda juga dapat membuat nama lain dari email untuk akun dan domain (virtual) yang valid dalam server ini. Contohnya "fred@virtualdomain.com" dapat diforward ke "mary" (atau ke akun pengguna lain yang valid). ',
 'pse_NAME_IN_USE' => 'Error: Nama tersebut sudah digunakan. Anda tidak dapat membuat pseudonym menggunakan nama itu.',
 'pse_NOT_A_PSEUDONYM' => 'Akun ini bukan sebuah pseudonym',
 'pse_PSEUDONYM_INVALID_DOMAIN' => 'Domain tersebut tidak berada dalam server ini',

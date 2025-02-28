@@ -1,3 +1,3 @@
 'manual_FORM_TITLE' => 'Online kézikönyv és más dokumentáció',
-'manual_DESCRIPTION' => ' <ul> <li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online kézikönyv</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a> </ul> <H2>Terméktámogatás és licenszelés</H2> Ezen szoftver terjesztési feltételei a <a href="/server-manager/cgi-bin/support"> Terméktámogatás és licenszelés</a> oldalon olvashatók. ',
+'manual_DESCRIPTION' => ' <p><ul><li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online kézikönyv</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a> </ul> <H2>Terméktámogatás és licenszelés</H2> Ezen szoftver terjesztési feltételei a <a href="/server-manager/cgi-bin/support"> Terméktámogatás és licenszelés</a> oldalon olvashatók. </p>',
 'manual_Online manual' => 'Online kézikönyv',

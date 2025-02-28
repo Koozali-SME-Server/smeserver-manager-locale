@@ -1,7 +1,7 @@
 'ln_Local networks' => 'Yerel ağlar',
-'ln_FIRSTPAGE_DESC' => ' Güvenlik sebepleri nedeniyle bu sunucudaki bazı servisler sadece yerel ağ balantısıyla yönetilebilirr. Bu hizmetlere erişimi, ek ağlara da verebilmeniz için aşağıdaki listeye ek ağları tanımlamanız gerekmektedir. Çoğu kurulum bu listeyi boş bırakır.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Ağ ekle</a> ',
+'ln_FIRSTPAGE_DESC' => ' Güvenlik sebepleri nedeniyle bu sunucudaki bazı servisler sadece yerel ağ balantısıyla yönetilebilirr. Bu hizmetlere erişimi, ek ağlara da verebilmeniz için aşağıdaki listeye ek ağları tanımlamanız gerekmektedir. Çoğu kurulum bu listeyi boş bırakır. Ağ ekle ',
 'ln_ADD_TITLE' => 'Yerel ağ ekle',
-'ln_ADD_DESC' => ' Parametrelerin formatı #.#.#.# (her # işareti 0 ile 255 arasında bir sayıyı gösterir) şeklinde olmalıdır. Sunucunuz network adresini geçerli kılmak içinalt ağ maskesinin sonunu sıfır ile değiştirecektir.</P><P>Ek ağ ulaşmanızı sağlayan "Router" IP adresi, sunucunuzun ağ adresi aralığında yer almalıdır. ',
+'ln_ADD_DESC' => ' Parametrelerin formatı #.#.#.# (her # işareti 0 ile 255 arasında bir sayıyı gösterir) şeklinde olmalıdır. Sunucunuz network adresini geçerli kılmak içinalt ağ maskesinin sonunu sıfır ile değiştirecektir.Ek ağ ulaşmanızı sağlayan "Router" IP adresi, sunucunuzun ağ adresi aralığında yer almalıdır. ',
 'ln_NETWORK_ADDRESS' => 'Ağ adresi',
 'ln_SUBNET_MASK' => 'Alt ağ maskesi',
 'ln_INVALID_IP_ADDRESS' => 'Geçersiz IP adresi',
@@ -18,7 +18,13 @@
 'ln_SUCCESS' => 'Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. Sunucunuz {$network} IP adresine yerel erişim yetkisi tanıyacaktır.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. Sunucunuz {$firstAddr} den {$lastAddr} kadar olan toplam {$totalHosts} IP adresine yerel erişim hizmeti tanıyacaktır.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. </p> <p> Sunucunuz {$firstAddr} den {$lastAddr} kadar olan toplam {$totalHosts} IP adresine yerel erişim hizmeti tanıyacaktır. </p> <p> Dikkat: ProFTPd FTP sunucusu bu standart olmayan alt ağ maskesini kullanamaz. Bunun yerine standart <b>{$simpleMask}</b> alt ağ maskesini kullanacaktır. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. </p>
+
+  <p> Sunucunuz {$firstAddr} den {$lastAddr} kadar olan toplam {$totalHosts} IP adresine yerel erişim hizmeti tanıyacaktır. </p>
+
+  <p> Dikkat: ProFTPd FTP sunucusu bu standart olmayan alt ağ maskesini kullanamaz. Bunun yerine standart <b>{$simpleMask}</b> alt ağ maskesini kullanacaktır. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla silindi.',
 'ln_ERROR_DELETING_NETWORK' => 'Ağ silinirken hata oluştu.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Ek ağ bulunamadı.',

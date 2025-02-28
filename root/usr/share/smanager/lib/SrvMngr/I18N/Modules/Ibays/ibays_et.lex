@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Lisa, muuda või kustuta i-bay-id',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Lisa i-bay</a> </p> <p> You can remove any information bay or reset its password by clicking on the corresponding command next to the information bay. If the information bay shows up in red, that means that the password has not yet been changed from the default, and should be changed soon. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Lisa i-bay</a> </p>
+
+  <p> You can remove any information bay or reset its password by clicking on the corresponding command next to the information bay. If the information bay shows up in red, that means that the password has not yet been changed from the default, and should be changed soon. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Lisa või muuda i-bay-d',
 'iba_NAME_FIELD_DESC' => 'The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example "johnson", "intra", and "cust3.prj12" are all valid names, but "3associates", "John Smith" and "Bus!Partner" are not. The name is limited to {$maxLength} characters.',
 'iba_NAME_LABEL' => 'I-bay nimi',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Dünaamilise sisu käivitamine (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Force secure connections',
 'iba_REMOVE_TITLE' => 'Eemalda i- bay',
-'iba_REMOVE_DESC' => ' <p> You are about to remove the information bay "{$name}" ({$description}). </p> <p> All files belonging to this information bay will be deleted. </p> <p> Are you sure you wish to remove this information bay? </p> ',
+'iba_REMOVE_DESC' => ' <p> You are about to remove the information bay "{$name}" ({$description}). </p>
+
+  <p> All files belonging to this information bay will be deleted. </p>
+
+  <p> Are you sure you wish to remove this information bay? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'I-bay loomisel ilmnes viga.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'I-bay edukalt loodud.',
 'iba_NO_IBAYS' => 'Pole i-bay-sid mida seadistada.',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Paroolid ei kattu.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Parool edukalt muudetud.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Viga parooli muutmisel.',
-'iba_VHOST_MESSAGE' => ' <P>The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): {$vhostList} ',
 'iba_Information bays' => 'I-bay-d',
 'iba_WGRG' => 'Write = group, Read = group',
 'iba_WGRE' => 'Write = group, Read = everyone',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Viga: unexpected or missing characters in i-bay description',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => ' I-bay nimi "{$acctName}" sisaldab sobimatuid sümboleid. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'I-bay nimi "{$name}" ion liiga pikk. Maksimum lubatud pikkus on {$maxIbayNameLength} märki.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' The account "{$acctName}" clashes with pseudonym details for {$acctType} account "{$acct}". <p>{$acctName} is a pseudonym for {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' The account "{$acctName}" clashes with pseudonym details for {$acctType} account "{$acct}". {$acctName} is a pseudonym for {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'Konto"{$acctName}" on olemas {$acctType} kontona.',

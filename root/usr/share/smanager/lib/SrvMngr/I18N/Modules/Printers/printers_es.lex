@@ -1,5 +1,7 @@
 'prt_FORM_TITLE' => 'Agregar o eliminar impresoras',
-'prt_INITIAL_DESC' => ' <p><A class="button-like" HREF="printers?page=0&Next=Add">Agregar impresora</A></p> ',
+'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Agregar impresora</a></p>
+
+  ',
 'prt_NO_PRINTERS' => 'No hay impresoras en el sistema.',
 'prt_CURRENT_LIST' => 'Lista actual de impresoras',
 'prt_REMOTE_ADDRESS' => 'Dirección remota',
@@ -13,7 +15,7 @@
 'prt_NET_PRINTER' => 'Impresora de red ...',
 'prt_FIRST_USB_PRINTER' => 'Primera impresora USB conectada',
 'prt_SECOND_USB_PRINTER' => 'Segunda impresora USB conectada',
-'prt_ERR_UNEXPECTED_NAME' => ' <P>Error: caracteres erróneos en el nombre de la impresora.</P> <P>El nombre de la impresora sólo debe contener números y letras minúsculas, y debe comenzar con una minúscula. Por ejemplo "hplaser", "epsonlp", y "canonbj" son nombres válidos.</P> ',
+'prt_ERR_UNEXPECTED_NAME' => ' Error: caracteres erróneos en el nombre de la impresora. El nombre de la impresora sólo debe contener números y letras minúsculas, y debe comenzar con una minúscula. Por ejemplo "hplaser", "epsonlp", y "canonbj" son nombres válidos. ',
 'prt_ERR_UNEXPECTED_DESC' => 'Error: caracteres erróneos o faltantes en la descripción. No se creó la impresora nueva.',
 'prt_ERR_EXISTS' => 'Error: Una cuenta con el mismo nombre existe con el tipo:',
 'prt_ERR_INVALID_ADDRESS' => 'Error: dirección de red no válida. No se creó la impresora nueva.',

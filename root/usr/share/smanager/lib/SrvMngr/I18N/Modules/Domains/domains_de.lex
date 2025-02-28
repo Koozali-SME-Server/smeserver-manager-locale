@@ -1,5 +1,9 @@
 'dom_FORM_TITLE' => 'Domänen verwalten',
-'dom_FORM_DESCRIPTION' => ' <p>Wenn Sie eine Domäne anlegen, wird der Server in der Lage sein, Emails für diese Domäne zu empfangen sowie eine Website für diese Domäne zu hosten.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next?wherenext=DOMAINS_PAGE_CREATE">Domäne hinzufügen</a></p> ',
+'dom_FORM_DESCRIPTION' => ' <p>Wenn Sie eine Domäne anlegen, wird der Server in der Lage sein, Emails für diese Domäne zu empfangen sowie eine Website für diese Domäne zu hosten.</p>
+
+  <p><a class="button-like" href="domains?page=0&page_stack=&next=next?wherenext=domains_page_create">Domäne hinzufügen</a></p>
+
+  ',
 'dom_NO_VIRTUAL_DOMAINS' => 'Es sind keine Domänen auf dem System.',
 'dom_CURRENT_LIST_OF_DOMAINS' => 'Aktuelle Liste aller Domänen',
 'dom_PRIMARY_SITE' => 'Primäre Seite',
@@ -15,11 +19,17 @@
 'dom_NONEXISTENT_DOMAIN_ERROR' => 'FEHLER: {$domainName} ist keine existierende Domäne.',
 'dom_SUCCESSFULLY_MODIFIED' => 'Die Domäne {$domainName} wurde erfolgreich geändert. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist.',
 'dom_REMOVE_TITLE' => 'Domäne entfernen',
-'dom_REMOVE_DESCRIPTION' => ' <p> Sie sind dabei, die Domäne {$domain} ({$domainDesc}) zu entfernen. </p> <p> <b>Sind Sie sicher, dass Sie die Domäne entfernen wollen ?</b> </p> ',
+'dom_REMOVE_DESCRIPTION' => ' <p> Sie sind dabei, die Domäne {$domain} ({$domainDesc}) zu entfernen. </p>
+
+  <p> <b>Sind Sie sicher, dass Sie die Domäne entfernen wollen ?</b> </p>
+
+  ',
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'FEHLER: interner Fehler beim Entfernen der Domäne {$domain}.',
 'dom_SUCCESSFULLY_DELETED' => 'Die Domäne {$domainName} wurde erfolgreich entfernt. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist.',
-'dom_DESC_CORPORATE_DNS_CURRENT' => ' <hr class="sectionbar" /><h2>Zentrale DNS-Einstellungen</h2> ',
-'dom_BUTTON_CORPORATE_DNS' => ' <p>Wenn dieser Server keinen Internetzugang hat oder wenn Sie spezielle Anforderungen für die DNS-Auflösung haben, geben Sie hier die DNS-Server IP-Adresse ein. Sie sollten hier nicht die IP-Adresse des DNS-Servers Ihres Internet Service Providers angeben, weil der Server alle Internet-Adressen auch ohne diese Konfiguration auflösen kann.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Ändere zentrale DNS-Einstellungen</a> ',
+'dom_DESC_CORPORATE_DNS_CURRENT' => ' Zentrale DNS-Einstellungen ',
+'dom_BUTTON_CORPORATE_DNS' => ' <p>Wenn dieser Server keinen Internetzugang hat oder wenn Sie spezielle Anforderungen für die DNS-Auflösung haben, geben Sie hier die DNS-Server IP-Adresse ein. Sie sollten hier nicht die IP-Adresse des DNS-Servers Ihres Internet Service Providers angeben, weil der Server alle Internet-Adressen auch ohne diese Konfiguration auflösen kann.</p>
+
+  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Ändere zentrale DNS-Einstellungen</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Wenn dieser Server keinen Internetzugang hat oder aber Sie besondere Anforderungen für die DNS-Namensauflösungen haben, geben Sie hier bitte die IP-Adresse des DNS-Server ein. Diese Felder sollten leer bleiben, wenn Sie keine besonderen Gründe zur Konfiguration anderer DNS-Server haben. Geben Sie bitte nicht die IP-Adresse des DNS-Servers ein, der Ihnen von Ihrem Internet Service Provider zugewiesen wurde, denn Ihr Server ist in der Lage, alle Internet DNS-Anfragen ohne diese zusätzliche Konfigurationen aufzulösen.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Erster zentraler DNS-Server',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Zweiter zentraler DNS-Server',

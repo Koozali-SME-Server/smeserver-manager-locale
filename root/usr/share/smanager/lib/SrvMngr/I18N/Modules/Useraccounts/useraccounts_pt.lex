@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Criar, modificar, ou remover conta de usuário',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Adicionar conta de usuário</a> </p> <p> Voce pode modificar, deixar inativa ou remover qualquer conta de usuário ou resetar as senhas das contas clicando no correspondente comando proximo a conta. </p> <p> Se a conta está marcada como inativa, isso significa que a senha do usuário precisa ser resetada. Favor notar que ao criar uma conta ela é configurada como inativa até que a senha seja trocada. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Adicionar conta de usuário</a> </p>
+
+  <p> Voce pode modificar, deixar inativa ou remover qualquer conta de usuário ou resetar as senhas das contas clicando no correspondente comando proximo a conta. </p>
+
+  <p> Se a conta está marcada como inativa, isso significa que a senha do usuário precisa ser resetada. Favor notar que ao criar uma conta ela é configurada como inativa até que a senha seja trocada. </p>
+
+  ',
 'usr_P2_TITLE' => 'Criar ou modificar',
-'usr_CREATE_MODIFY_DESC' => ' <p> O nome da conta deverá conter somente letras minúsculas, números, e hifens, e deverá iniciar com letra minúscula. Por exemplo "betty", "hjohnson", e "mary-jane" são todos nomes de contas válidos, mas "3friends", "John Smith", e "henry_miller" não são. </p> <p> Note que dois pseudônimos são criados para cada nova conta. Esses pseudônimos habilitam o usuário a ter contar de correio alternativas que incluem seus primeiro e último nomes separados por um ponto (.) e uma barra inferior (_). Assim, para a conta "betty" com primeiro nome "Betty" e último nome "Rubble" dois psedônimos são criados, betty.rubble e betty_rubble. </p> <p> O diretório de informação (departamento, copanhia, etc.) podem ser trocados do padrão como mostrado abaixo. As trocas irão ser aplicadas somente para este usuário. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> O nome da conta deverá conter somente letras minúsculas, números, e hifens, e deverá iniciar com letra minúscula. Por exemplo "betty", "hjohnson", e "mary-jane" são todos nomes de contas válidos, mas "3friends", "John Smith", e "henry_miller" não são. </p>
+
+  <p> Note que dois pseudônimos são criados para cada nova conta. Esses pseudônimos habilitam o usuário a ter contar de correio alternativas que incluem seus primeiro e último nomes separados por um ponto (.) e uma barra inferior (_). Assim, para a conta "betty" com primeiro nome "Betty" e último nome "Rubble" dois psedônimos são criados, betty.rubble e betty_rubble. </p>
+
+  <p> O diretório de informação (departamento, copanhia, etc.) podem ser trocados do padrão como mostrado abaixo. As trocas irão ser aplicadas somente para este usuário. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Modificar conta do administrador',
 'usr_USER_CREATED' => 'Conta de usuário criada com sucesso.',
 'usr_USER_MODIFIED' => 'Conta de usuário modificada com sucesso.',
-'usr_CANNOT_MODIFY_USER' => 'Erro: um erro interno ocorreu enquanto tentava modificar conta de usuário "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Erro: um erro interno ocorreu enquanto tentava modificar conta de usuário "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Erro: um erro interno ocorreu enquanto tentava modificar o grupo "{$group}" do usuário "{$acctName}".',
 'usr_TAINTED_USER' => 'A conta de nome "{$acctName}" contém caracteres inválidos.',
 'usr_ACCOUNT_NAME' => 'Nome da conta',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Erro: o apelido "{$pseudonym}" já está sendo usado pela conta de usuário "{$clashName}". Para diferenciar, por exemplo, adicione as letras de nomes intermediários ou iniciais aqui.',
 'usr_LOCK_ACCOUNT' => 'Deixar conta inativa',
 'usr_LOCK_ACCOUNT_TITLE' => 'Deixar inativa conta de usuário',
-'usr_LOCK_DESC2' => ' Esta conta de usuário será destivada. Isto significa que o usuário não será capaz de logar, e não será capaz de coletar e-mail. Quaquer e-mail será armazenado e/ou redirecionado para uma conta de e-mail externa, como configurado. A conta pode ser reativada no futuro configurando-se uma nova senha. A senha atual não irá sera conservada. </p> <p> <b>Voce tem certeza que deseja tornar essa conta inativa?</b> ',
+'usr_LOCK_DESC2' => ' Esta conta de usuário será destivada. Isto significa que o usuário não será capaz de logar, e não será capaz de coletar e-mail. Quaquer e-mail será armazenado e/ou redirecionado para uma conta de e-mail externa, como configurado. A conta pode ser reativada no futuro configurando-se uma nova senha. A senha atual não irá sera conservada.   Voce tem certeza que deseja tornar essa conta inativa? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Remover conta de usuário',
 'usr_REMOVE_DESC' => 'Voce esta prestes a remover a conta do usuário',
-'usr_REMOVE_DESC2' => ' Todos os arquivos pertencentes a esse usuário irão ser apagados. Tambem, qualquer e-mail para essa conta de usuário neste servidor (i.e. aqueles que ainda não foram recuperados pelo usuário) serão descartados. </p> <p> <b>Voce tem certeza que deseja remover essa conta?</b> ',
+'usr_REMOVE_DESC2' => ' Todos os arquivos pertencentes a esse usuário irão ser apagados. Tambem, qualquer e-mail para essa conta de usuário neste servidor (i.e. aqueles que ainda não foram recuperados pelo usuário) serão descartados.   Voce tem certeza que deseja remover essa conta? ',
 'usr_LOCK' => 'Inativar',
 'usr_NO_USER_ACCOUNTS' => 'Não existe contas de usuários neste servidor.',
 'Users' => 'Usuários',

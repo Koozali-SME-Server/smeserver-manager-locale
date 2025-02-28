@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'Postlogg fil analyse',
-'qma_INITIAL_DESC' => ' <P>Å analysere post system loggfilene kan hjelpe til både å forstå hvordan system yter, og feilsøke leveringsproblemer. Flere ulike rapporter er tilgjenglige.</P> <P>Merk at det kan ta flere minutter å generere disse rapportene</P> ',
+'qma_INITIAL_DESC' => ' Å analysere post system loggfilene kan hjelpe til både å forstå hvordan system yter, og feilsøke leveringsproblemer. Flere ulike rapporter er tilgjenglige. Merk at det kan ta flere minutter å generere disse rapportene ',
 'qma_REPORT_TYPE' => 'Velg en rapporttype',
 'qma_GENERATE_REPORT' => 'Generer rapport',
 'qma_LIST_OUTGOING' => 'Liste utgående meldinger og mottakere',

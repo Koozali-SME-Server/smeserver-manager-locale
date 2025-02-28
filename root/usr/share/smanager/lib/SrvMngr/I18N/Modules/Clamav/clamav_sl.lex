@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Nastavitve protivirusne zascite',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Preisci celoten datotecni sistem',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Splosne nastavitve</h2> Ce je ta opcija izbrana, potem bo celoten datotecni sistem pregledan. Ce bo najdena okuzena datoteka, bo le ta nemudoma sporocena administratorju.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Splosne nastavitve Ce je ta opcija izbrana, potem bo celoten datotecni sistem pregledan. Ce bo najdena okuzena datoteka, bo le ta nemudoma sporocena administratorju.',
 'clm_LABEL_QUARANTINE' => 'Okozene datoteke v karanteno',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV in verzije podatkovne baze',
 'clm_WEEKLY' => 'Tedensko',

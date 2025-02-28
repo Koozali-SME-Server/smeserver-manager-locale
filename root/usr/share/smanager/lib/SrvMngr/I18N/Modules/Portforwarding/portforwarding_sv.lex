@@ -1,11 +1,17 @@
 'pf_FORM_TITLE' => 'Konfigurera vidarebefordran av port',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Du kan använda denna panel för att modifiera dina brandväggsregler för att öppna en angiven port på denna server och vidarebefordra den till en annan port på en annan värd. Genom att göra detta tillåts inkommande trafik åtkomst direkt till en privat värd på ditt LAN. </p> <p> Varning: Felaktig användning av denna inställning kan allvarligt hota säkerheten på ditt nätverk. Använd inte denna möjlighet lättvindligt eller utan att du förstår innebörden av dina åtgärder. </p> ',
+'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Du kan använda denna panel för att modifiera dina brandväggsregler för att öppna en angiven port på denna server och vidarebefordra den till en annan port på en annan värd. Genom att göra detta tillåts inkommande trafik åtkomst direkt till en privat värd på ditt LAN. </p>
+
+  <p> Varning: Felaktig användning av denna inställning kan allvarligt hota säkerheten på ditt nätverk. Använd inte denna möjlighet lättvindligt eller utan att du förstår innebörden av dina åtgärder. </p>
+
+  ',
 'pf_CREATE_RULE' => 'Skapa regel för vidarebefordran av post',
 'pf_SUMMARY_ADD_DESC' => 'Följande summerar den regel för vidarebefordran av port som du håller på att skapa. Om du är nöjd med regeln, klicka på &quot;Lägg till&quot;-knappen. Om du inte är nöjd, klicka på &quot;Avbryt&quot;-knappen.',
 'pf_SUMMARY_REMOVE_DESC' => 'Följande summerar den regel för vidarebefordran av port som du håller på att radera. om du är säker på att du vill radera denna regel, klicka på &quot;Radera&quot;-knappen. Om inte, klicka på &quot;Avbryt&quot;-knappen.',
 'pf_SHOW_FORWARDS' => 'Nedan finner du en tabell som summerar de nuvarande reglerna för vidarebefordran av post på denna server. Klicka på &quot;Radera&quot;-länken för radering av aktuell regel.',
 'pf_NO_FORWARDS' => 'Det finns för närvarande inga portar som vidarebefordras på systemet.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Välj det protokoll, den port som du önskar vidarebefordra, mottagande värd, och porten på den mottagande värden som du önskar vidarebefordra till. Om du önskar specificera ett portintervall, ante den undre och övre gränsen, separerade med ett bindestreck. Mottagarporten kan utelämnas, vilket innebär att brandväggen kommer att använda portnumret oförändrat.</p> ',
+'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Välj det protokoll, den port som du önskar vidarebefordra, mottagande värd, och porten på den mottagande värden som du önskar vidarebefordra till. Om du önskar specificera ett portintervall, ante den undre och övre gränsen, separerade med ett bindestreck. Mottagarporten kan utelämnas, vilket innebär att brandväggen kommer att använda portnumret oförändrat.</p>
+
+  ',
 'pf_LABEL_SOURCE_PORT' => 'Källport(ar)',
 'pf_LABEL_PROTOCOL' => 'Protokoll',
 'pf_LABEL_DESTINATION_PORT' => 'Mottagarport(ar)',

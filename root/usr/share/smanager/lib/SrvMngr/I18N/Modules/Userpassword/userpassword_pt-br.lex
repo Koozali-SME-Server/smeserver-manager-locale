@@ -1,1 +1,5 @@
-'pwd_DESCRIPTION' => ' <p>Para trocar a senha de sua conta, por favor preencha o seguinte formulário. Você precisará fornecer o nome da conta, sua senha antiga, e a nova senha desejada (e precisará digitar sua nova senha duas vezes).</p> <p>Se você não pode trocar sua senha porque esqueceu a antiga, seu administrador do servidor poderá resetar sua senha usando o <EM>gerenciador do servidor</EM>.</p> ',
+'pwd_DESCRIPTION' => ' <p>Para trocar a senha de sua conta, por favor preencha o seguinte formulário. Você precisará fornecer o nome da conta, sua senha antiga, e a nova senha desejada (e precisará digitar sua nova senha duas vezes).</p>
+
+  <p>Se você não pode trocar sua senha porque esqueceu a antiga, seu administrador do servidor poderá resetar sua senha usando o <em>gerenciador do servidor</em>.</p>
+
+  ',

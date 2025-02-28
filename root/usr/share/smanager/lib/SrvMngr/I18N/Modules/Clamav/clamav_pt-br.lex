@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Configurações do antivirus',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Escaner todo sistema de arquivos',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>General Settings</h2> Se esta opção estiver habilitada então todo o sistema de arquivos será scaneado por virus. Um relatório sobre qualquer virus encontrado será enviado ao administrador por e-mail.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' General Settings Se esta opção estiver habilitada então todo o sistema de arquivos será scaneado por virus. Um relatório sobre qualquer virus encontrado será enviado ao administrador por e-mail.',
 'clm_LABEL_QUARANTINE' => 'Quarentena arquivos infectados',
 'clm_LABEL_CLAM_VERSIONS' => 'Versões do ClamAV e db',
 'clm_WEEKLY' => 'Semanalmente',

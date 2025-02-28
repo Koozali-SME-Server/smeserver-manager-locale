@@ -15,6 +15,6 @@
 'grp_GROUP_DESC' => 'Brève description / Alias de groupe Windows',
 'grp_GROUP_DESC_EXPL' => 'Tapez une brève description du groupe dans le champ ci-dessous. Ce champ correspond également au nom du groupe visible par les clients Windows.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Les i-bays suivantes étaient attribuées à ce groupe et vont être réattribuées au groupe de l\'administrateur (vous pourrez par la suite les attribuer à un autre groupe) :',
-'grp_CONFIRM_DELETE_GROUP' => ' <b>Voulez-vous vraiment supprimer ce groupe ?</b> ',
+'grp_CONFIRM_DELETE_GROUP' => ' Voulez-vous vraiment supprimer ce groupe ? ',
 'grp_CURRENT_LIST' => ' Liste actuelle des groupes d\'utilisateurs : ',
-'grp_DELETE_DESCRIPTION' => ' Vous êtes sur le point de supprimer le groupe d\'utilisateurs "<b>[_1]</b>". ',
+'grp_DELETE_DESCRIPTION' => ' Vous êtes sur le point de supprimer le groupe d\'utilisateurs "[_1]". ',

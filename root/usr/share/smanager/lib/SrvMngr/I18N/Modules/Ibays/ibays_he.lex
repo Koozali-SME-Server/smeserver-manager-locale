@@ -1,5 +1,5 @@
 'iba_FORM_TITLE' => 'יצירה, שינוי או הסרת i-bayים',
-'iba_FIRSTPAGE_DESC' => '<a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">הוספת i-bay</a> </p> <p> ניתן להסיר כל i-bay או לאפס את סיסמתו על ידי לחיצה על הפקודה המתאימה ליד הi-bay. אם הi-bay מוצג באדום, זה מכיוון שהסיסמה עדיין לא שונתה מברירת המחדל ועליך לשנותה בקרוב. </p> ',
+'iba_FIRSTPAGE_DESC' => 'הוספת i-bay   ניתן להסיר כל i-bay או לאפס את סיסמתו על ידי לחיצה על הפקודה המתאימה ליד הi-bay. אם הi-bay מוצג באדום, זה מכיוון שהסיסמה עדיין לא שונתה מברירת המחדל ועליך לשנותה בקרוב.  ',
 'iba_ADD_TITLE' => 'יצירה או שינוי i-bay',
 'iba_NAME_FIELD_DESC' => 'שם מפרץ המידע צריך להכיל אך ורק אותיות קטנות, מספרים, נקודות, מקפים וקווים תחתיים וחייב להתחיל באות קטנה. למשל, "johnson", "intar" ו- "cust3.prj12" הינם כולם שמות חוקיים, אך "3associates", "John Smith" ו- "Bus!Partner" אינם. השם מוגבל עד ל{$maxLength} תווים.',
 'iba_NAME_LABEL' => 'שם מפרץ מידע',
@@ -9,7 +9,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'החרגה של תוכן דינמי (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'שחזר הגדרות שרת',
 'iba_REMOVE_TITLE' => 'הסרת מפרץ מידע',
-'iba_REMOVE_DESC' => ' <p> אתה עומד להסיר את מפרץ המידע "{$name}" ({$description}). </p> <p> כל הקבצים השייכים למרץ מידע זה ימחקו. </p> <p> האם אתה בטוח שברצונך להסיר מפרץ מידע זה? </p> ',
+'iba_REMOVE_DESC' => ' <p> אתה עומד להסיר את מפרץ המידע "{$name}" ({$description}). </p>
+
+  <p> כל הקבצים השייכים למרץ מידע זה ימחקו. </p>
+
+  <p> האם אתה בטוח שברצונך להסיר מפרץ מידע זה? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'קרתה תקלה בזמן יצירת הi-bay.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'i-bay נוצר בהצלחה.',
 'iba_NO_IBAYS' => 'אין כרגע i-bay מוגדר.',
@@ -25,7 +31,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'הסיסמאות אינן תואמות זו לזו.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'סיסמא אופסה בהצלחה.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'שגיאה בעת איפוס סיסמא.',
-'iba_VHOST_MESSAGE' => ' <P>The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): {$vhostList} ',
 'iba_Information bays' => 'מפרצי מידע',
 'iba_WGRG' => 'כתיבה = group, קריאה = group',
 'iba_WGRE' => 'כתיבה = group, קריאה = everyone',
@@ -39,5 +45,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'שגיאה: סימן לא נתמך או חסר בתיאור i-bay',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'שם הi-bay "{$acctName}" מכיל סימנים לא חוקיים. שמות i-bay חייבים להתחיל באות קטנה ולהכיל אך ורק אותיות קטנות, מספרים ומקפים.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'שם הi-bay "{$name}"ארוך מדי. המקסימום הוא {$maxIbayNameLength} תווים.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' החשבון "{$acctName}" מתנגש עם תיאור השם הנרדף עבור {$acctType} חשבון "{$acct}". {$acctName} הוא שם נרדף עבור {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' החשבון "{$acctName}" מתנגש עם תיאור השם הנרדף עבור {$acctType} חשבון "{$acct}". {$acctName} הוא שם נרדף עבור {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'החשבון "{$acctName}" הוא חשבון {$acctType} קיים.',

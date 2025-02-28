@@ -1,1 +1,5 @@
-'pwd_DESCRIPTION' => ' <p>Untuk mengubah password anda, silakan isi form dibawah ini. Anda akan perlu menyediakan nama akun anda, password lama, dan password baru yang anda inginkan. (Anda harus mengisikan password baru dua kali.)</p> <p>Jika anda tidak dapat mengubah password karena anda lupa password lama, system administrator lokal anda dapat mengubah password anda menggunakan <EM>server manager</EM>.</p> ',
+'pwd_DESCRIPTION' => ' <p>Untuk mengubah password anda, silakan isi form dibawah ini. Anda akan perlu menyediakan nama akun anda, password lama, dan password baru yang anda inginkan. (Anda harus mengisikan password baru dua kali.)</p>
+
+  <p>Jika anda tidak dapat mengubah password karena anda lupa password lama, system administrator lokal anda dapat mengubah password anda menggunakan <em>server manager</em>.</p>
+
+  ',

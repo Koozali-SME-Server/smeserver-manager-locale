@@ -1,11 +1,17 @@
 'pf_FORM_TITLE' => 'Port Yönlendirmeyi Ayarla',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Bu paneli ateş duvarı ayarlarını yapmak için kullanabilirsiniz buradan özel port açma veya başka hosta yönlendirme tanımlanabilir. Bunu yapmakla özel sunucunuza AĞDAN doğrudan rişim sağlayabilirsiniz. </p> <p> DİKKAT: Bu yerel ağınızsa sızmalara sebep olabilir. Bu işlemin sonuçlarını tam anlamadan kullanmamanız önerilir. </p> ',
+'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Bu paneli ateş duvarı ayarlarını yapmak için kullanabilirsiniz buradan özel port açma veya başka hosta yönlendirme tanımlanabilir. Bunu yapmakla özel sunucunuza AĞDAN doğrudan rişim sağlayabilirsiniz. </p>
+
+  <p> DİKKAT: Bu yerel ağınızsa sızmalara sebep olabilir. Bu işlemin sonuçlarını tam anlamadan kullanmamanız önerilir. </p>
+
+  ',
 'pf_CREATE_RULE' => 'Port yönlendirme kuralı oluştur',
 'pf_SUMMARY_ADD_DESC' => 'Eklenecek port yönlendirme kuralları özeti. Bunu uygulamak için &quot;Ekle&quot; butonuna basın. İstemiyorsanız &quot;İptal&quot; butonuna basın.',
 'pf_SUMMARY_REMOVE_DESC' => 'Silinecek port yönlendirme kuralları özeti. Bu kuralı silmek için &quot;Sil&quot; butonuna basın. Vazgeçmek için &quot;İptal&quot; butonuna basın.',
 'pf_SHOW_FORWARDS' => 'Aşağıda, bu sunucuda tanımlı port yönlendirme kurallarını görebilirsiniz. İlgili kuralı silmek için &quot;Sil&quot; butonuna basın.',
 'pf_NO_FORWARDS' => 'Bu sistemde tanımlı port yönlendirme bulunmamaktadır.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Yönlendirmek istediğiniz porta ait protokolü seçin. Port aralığı tanımlamak isterseniz aralığı yazıp tire ile ayırabilirsiniz. Ateş duvarı varsayılan ayarlarını kullanmak için hedef port boş bırakılmalıdır.</p> ',
+'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Yönlendirmek istediğiniz porta ait protokolü seçin. Port aralığı tanımlamak isterseniz aralığı yazıp tire ile ayırabilirsiniz. Ateş duvarı varsayılan ayarlarını kullanmak için hedef port boş bırakılmalıdır.</p>
+
+  ',
 'pf_LABEL_SOURCE_PORT' => 'Kaynak Port(lar)',
 'pf_LABEL_PROTOCOL' => 'Protokol',
 'pf_LABEL_DESTINATION_PORT' => 'Varış Port(ları)',

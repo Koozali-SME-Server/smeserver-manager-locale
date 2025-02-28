@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => '病毒防治設定',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => '掃瞄檔案系統',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>一般設定</h2>倘若啟用該選項，則檔案系統將進行病毒掃描。任何發現病毒的報告將電郵告知網管。',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' 一般設定倘若啟用該選項，則檔案系統將進行病毒掃描。任何發現病毒的報告將電郵告知網管。',
 'clm_LABEL_QUARANTINE' => '隔離受感染的檔案',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV與病毒資料庫的版本',
 'clm_WEEKLY' => '每週',

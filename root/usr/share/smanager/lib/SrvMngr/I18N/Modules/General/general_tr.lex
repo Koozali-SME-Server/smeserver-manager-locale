@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'İşlem durum raporu',
 'ACCOUNT' => 'Hesap',
 'GROUP' => 'Grup',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Boru sembolü ( | ) bu alanda kullanılamaz',
 'ERROR_BELOW' => 'HATA: Bu sayfanın doğrulanmasında bir hata oluştu. Lütfen önce sayfanın aşağısına bakıp sorunu belirleyin.',
 'ACCESS' => 'Giriş',

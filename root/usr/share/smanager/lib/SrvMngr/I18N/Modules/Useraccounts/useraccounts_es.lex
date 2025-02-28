@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Crear, modificar o eliminar cuentas de usuario',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Agregar cuenta de usuario</a> </p> <p> Puede modificar, bloquear o eliminar cualquier cuenta o restablecer la contraseña de la cuenta al hacer click en el comando correspondiente junto a ella. </p> <p> Si la cuenta está marcada como bloqueada, eso significa que se debe restablecer la contraseña del usuario. Observe que las cuentas creadas recientemente se bloquean automáticamente hasta que se cambia la contraseña. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Agregar cuenta de usuario</a> </p>
+
+  <p> Puede modificar, bloquear o eliminar cualquier cuenta o restablecer la contraseña de la cuenta al hacer click en el comando correspondiente junto a ella. </p>
+
+  <p> Si la cuenta está marcada como bloqueada, eso significa que se debe restablecer la contraseña del usuario. Observe que las cuentas creadas recientemente se bloquean automáticamente hasta que se cambia la contraseña. </p>
+
+  ',
 'usr_P2_TITLE' => 'Crear o modificar',
-'usr_CREATE_MODIFY_DESC' => ' <p> El nombre de la cuenta sólo debe contener números, guiones y letras minúsculas, y debe comenzar con una minúscula. Por ejemplo, "beatriz", "hmorales" y "ana-isabel" son nombres de cuenta válidos, mientras que "3amigos", "Juan Arancibia" y "enrique_morales" no lo son. </p> <p> Observe que se crearán dos seudónimos especiales para cada cuenta nueva. Estos seudónimos brindan la capacidad de tener cuentas de correo alternativas para el usuario, que incluyen su nombre y apellido separados por un punto (.) o un guión bajo (_). Por lo tanto, para la cuenta "beatriz" con el nombre "Beatriz" y el apellido "Rojas", se crean dos seudónimos: beatriz.rojas y beatriz_rojas. </p> <p> La información de directorio (departamento, compañía, etc.) se puede cambiar de las opciones predeterminadas que se muestran a continuación. Los cambios se aplicarán sólo a este usuario. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> El nombre de la cuenta sólo debe contener números, guiones y letras minúsculas, y debe comenzar con una minúscula. Por ejemplo, "beatriz", "hmorales" y "ana-isabel" son nombres de cuenta válidos, mientras que "3amigos", "Juan Arancibia" y "enrique_morales" no lo son. </p>
+
+  <p> Observe que se crearán dos seudónimos especiales para cada cuenta nueva. Estos seudónimos brindan la capacidad de tener cuentas de correo alternativas para el usuario, que incluyen su nombre y apellido separados por un punto (.) o un guión bajo (_). Por lo tanto, para la cuenta "beatriz" con el nombre "Beatriz" y el apellido "Rojas", se crean dos seudónimos: beatriz.rojas y beatriz_rojas. </p>
+
+  <p> La información de directorio (departamento, compañía, etc.) se puede cambiar de las opciones predeterminadas que se muestran a continuación. Los cambios se aplicarán sólo a este usuario. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Modificar la cuenta admin',
 'usr_USER_CREATED' => 'Cuenta de usuario creada con éxito.',
 'usr_USER_MODIFIED' => 'Cuenta de usuario modificada con éxito.',
-'usr_CANNOT_MODIFY_USER' => 'Error: ocurrió un error interno al intentar modificar el usuario "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Error: ocurrió un error interno al intentar modificar el usuario "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: ocurrió un error interno al intentar modificar el grupo "{$group}" para el usuario "{$acctName}".',
 'usr_TAINTED_USER' => 'El nombre de cuenta "{$acctName}" contiene caracteres inválidos.',
 'usr_ACCOUNT_NAME' => 'Nombre de cuenta',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Error: el seudónimo "{$pseudonym}" ya está ocupado por una cuenta de usuario existente "{$clashName}". Para diferenciarla, agregue iniciales a este campo.',
 'usr_LOCK_ACCOUNT' => 'Bloquear cuenta',
 'usr_LOCK_ACCOUNT_TITLE' => 'Bloquear cuenta de usuario',
-'usr_LOCK_DESC2' => ' Se bloqueará esta cuenta de usuario. Esto significa que el usuario no podrá conectarse ni acumular correos electrónicos. No obstante, todos los correos electrónicos que lleguen se almacenarán y/o reenviarán a una dirección de correo electrónico externa, según esté configurado. Se puede activar la cuenta más adelante al establecer una contraseña nueva. La contraseña actual no se mantendrá. </p> <p> <b>¿Está seguro de que desea bloquear esta cuenta?</b> ',
+'usr_LOCK_DESC2' => ' Se bloqueará esta cuenta de usuario. Esto significa que el usuario no podrá conectarse ni acumular correos electrónicos. No obstante, todos los correos electrónicos que lleguen se almacenarán y/o reenviarán a una dirección de correo electrónico externa, según esté configurado. Se puede activar la cuenta más adelante al establecer una contraseña nueva. La contraseña actual no se mantendrá.   ¿Está seguro de que desea bloquear esta cuenta? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Eliminar cuenta de usuario',
 'usr_REMOVE_DESC' => 'Está a punto de eliminar la cuenta de usuario',
-'usr_REMOVE_DESC2' => ' Se borrarán todos los archivos pertenecientes a esta cuenta de usuario. Además, se descartarán todos los correos electrónicos para esta cuenta de usuario que aún se mantengan en el servidor (por ej. que el usuario aún no haya recuperado). </p> <p> <b>¿Está seguro de que desea eliminar esta cuenta?</b> ',
+'usr_REMOVE_DESC2' => ' Se borrarán todos los archivos pertenecientes a esta cuenta de usuario. Además, se descartarán todos los correos electrónicos para esta cuenta de usuario que aún se mantengan en el servidor (por ej. que el usuario aún no haya recuperado).   ¿Está seguro de que desea eliminar esta cuenta? ',
 'usr_LOCK' => 'Bloquear',
 'usr_NO_USER_ACCOUNTS' => 'No hay cuentas de usuario en el sistema.',
 'Users' => 'Usuarios',

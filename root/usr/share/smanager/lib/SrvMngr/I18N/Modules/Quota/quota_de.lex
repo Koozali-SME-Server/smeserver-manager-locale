@@ -1,6 +1,14 @@
 'quo_FORM_TITLE' => 'Anlegen, Ändern oder Entfernen von Speicherlimits von Benutzerkonten',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Es ist nicht möglich, die Kontendatenbank zu öffnen',
-'quo_QUOTA_DESC' => ' <p> Sie können die Speicherbelegung eines Benutzers auf Ihrem System begrenzen, indem Sie in der Zeile des Benutzers unter Aktion auf "Ändern" klicken. </p> <p> Wenn ein Benutzer das "Limit mit Gnadenfrist" erreicht, wird eine Warnung erzeugt. Wird dieses Limit für mehr als eine Woche überschritten oder der Benutzer erreicht das "Absolute Limit", können von Ihm keine Dateien mehr gespeichert werden. Dieser Benutzer erhält auch keine E-Mails mehr. </p> <p> Sobald \'0\' eingegeben wird, werden alle Limits für diesen Benutzer \'abgeschaltet\'. </p> <p> Der Speicherplatz für den Benutzer beinhaltet das Home-Verzeichnis, E-Mails und alle Dateien, die diesem Benutzer in den i-bays gehören. </p> ',
+'quo_QUOTA_DESC' => ' <p> Sie können die Speicherbelegung eines Benutzers auf Ihrem System begrenzen, indem Sie in der Zeile des Benutzers unter Aktion auf "Ändern" klicken. </p>
+
+  <p> Wenn ein Benutzer das "Limit mit Gnadenfrist" erreicht, wird eine Warnung erzeugt. Wird dieses Limit für mehr als eine Woche überschritten oder der Benutzer erreicht das "Absolute Limit", können von Ihm keine Dateien mehr gespeichert werden. Dieser Benutzer erhält auch keine E-Mails mehr. </p>
+
+  <p> Sobald \'0\' eingegeben wird, werden alle Limits für diesen Benutzer \'abgeschaltet\'. </p>
+
+  <p> Der Speicherplatz für den Benutzer beinhaltet das Home-Verzeichnis, E-Mails und alle Dateien, die diesem Benutzer in den i-bays gehören. </p>
+
+  ',
 'quo_CURRENT_USAGE_AND_SETTINGS' => 'Aktuelle Speicherbelegung und Einstellungen',
 'quo_LIMIT_WITH_GRACE' => 'Limit mit Gnadenfrist',
 'quo_LIMIT_WITH_GRACE_MB' => 'Limit mit Gnadenfrist (MB)',

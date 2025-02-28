@@ -1,7 +1,7 @@
 'Local networks' => 'Lokale netværk',
-'ln_FIRSTPAGE_DESC' => ' Af hensyn til sikkerheden er der kun adgang fra lokalnettet til mange services på serveren. Du kan tildele yderligere netværker tilsvarende adgang ved at tilføje dem til listen nedenfor. De fleste installationer bør efterlade listen tom.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Tilføj netværk</a> ',
+'ln_FIRSTPAGE_DESC' => ' Af hensyn til sikkerheden er der kun adgang fra lokalnettet til mange services på serveren. Du kan tildele yderligere netværker tilsvarende adgang ved at tilføje dem til listen nedenfor. De fleste installationer bør efterlade listen tom. Tilføj netværk ',
 'ln_ADD_TITLE' => 'Tilføj et lokalt netværk',
-'ln_ADD_DESC' => ' Hver indtastning skal være i formen #.#.#.# (hvert # er et nummer fra 0 til 255). Serverprogrammet vil nulstille den sidste del (værtsidentifikationen) af netværksadressen i overenstemmelse med subnetmasken, for at sikre at netværksadressen er gyldig. </P><P> "Router" bør være IP-adressen på den router på lokalnetværket, der giver adgang til det andet netværk. ',
+'ln_ADD_DESC' => ' Hver indtastning skal være i formen #.#.#.# (hvert # er et nummer fra 0 til 255). Serverprogrammet vil nulstille den sidste del (værtsidentifikationen) af netværksadressen i overenstemmelse med subnetmasken, for at sikre at netværksadressen er gyldig.  "Router" bør være IP-adressen på den router på lokalnetværket, der giver adgang til det andet netværk. ',
 'ln_NETWORK_ADDRESS' => 'Netværks-adresse',
 'ln_SUBNET_MASK' => 'Subnetmaske',
 'ln_INVALID_IP_ADDRESS' => 'Ugyldig IP adresse',
@@ -18,7 +18,13 @@
 'ln_SUCCESS' => 'Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. De nedenfor nævnte IP adresser har adgang til serveren svarende til adgangen fra lokalnet {$network}.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. Serveren vil tildele lokal adgangsret til {$totalHosts} IP-adresser i området {$firstAddr} til {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. </p> <p> Serveren vil tildele lokal adgangsret til {$totalHosts} IP-adresser i området {$firstAddr} til {$lastAddr}. </p> <p> Advarsel: ProFTPd FTP-server kan ikke håndtere denne ikke-standard subnetmaske. <b>{$simpleMask}</b> vil blive brugt i stedet for. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. </p>
+
+  <p> Serveren vil tildele lokal adgangsret til {$totalHosts} IP-adresser i området {$firstAddr} til {$lastAddr}. </p>
+
+  <p> Advarsel: ProFTPd FTP-server kan ikke håndtere denne ikke-standard subnetmaske. <b>{$simpleMask}</b> vil blive brugt i stedet for. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Netværket {$network}/{$networkMask} via router {$networkRouter} blev fjernet.',
 'ln_ERROR_DELETING_NETWORK' => 'Fejl under sletning af netværk.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Ingen yderligere netværker',

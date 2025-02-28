@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => '反病毒设置',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => '扫描文件系统',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>常规设置</h2> 如果此选项被启用，那么文件系统将被进行病毒扫描。 当发现病毒，会向管理员发送邮件报告。',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' 常规设置 如果此选项被启用，那么文件系统将被进行病毒扫描。 当发现病毒，会向管理员发送邮件报告。',
 'clm_LABEL_QUARANTINE' => '隔离感染文件',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV和病毒库版本',
 'clm_WEEKLY' => '每周',

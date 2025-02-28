@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'i-bay oluştur, değiştir veya kaldır',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">i-bay ekle</a> </p> <p> Herhangi bir i-bay\'ı silmek için, o i-bayın sonundaki komutları seçmelisiniz. Eğer i-bay kırmızı renkte gösteriliyorsa, standart şifre değerinin değiştirilmediğini göstermektedir, en yakın zamanda şifrenin değiştirilmesi gerekmektedir. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">i-bay ekle</a> </p>
+
+  <p> Herhangi bir i-bay\'ı silmek için, o i-bayın sonundaki komutları seçmelisiniz. Eğer i-bay kırmızı renkte gösteriliyorsa, standart şifre değerinin değiştirilmediğini göstermektedir, en yakın zamanda şifrenin değiştirilmesi gerekmektedir. </p>
+
+  ',
 'iba_ADD_TITLE' => 'i-bay oluştur veya değiştir',
 'iba_NAME_FIELD_DESC' => 'i-bay adı sadece küçük harfer, rakamlar, tire altçizgi ve nokta içermelidir, sadece üçük harfle başlamalıdır. Örneğin "johnson", "intra" ve "cust3.prj12" geçerli, fakat "3associates", "John Smith" and "Bus!Partner" geçersizdir. İsimler en fazla {$maxLength} karakterden oluşmaktadır.',
 'iba_NAME_LABEL' => 'i-bay (bilgi yuvası) adı',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Dinamik içerik yürütmesi (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Force secure connections',
 'iba_REMOVE_TITLE' => 'i-bay kaldır',
-'iba_REMOVE_DESC' => ' <p> "{$name}" ({$description}) isimli i-bay kaldırılacak. </p> <p> bu i-baydaki bütün bilgiler silinecektir. </p> <p> Bu i-bay\'ı silmek istediğinizden eminmisiniz? </p> ',
+'iba_REMOVE_DESC' => ' <p> "{$name}" ({$description}) isimli i-bay kaldırılacak. </p>
+
+  <p> bu i-baydaki bütün bilgiler silinecektir. </p>
+
+  <p> Bu i-bay\'ı silmek istediğinizden eminmisiniz? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'i-bay oluşturulurken hata meydana geldi.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'i-bay başarıyla oluşturuldu.',
 'iba_NO_IBAYS' => 'Yapılandırılmış i-bay yok.',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Şifreler eşleşmedi.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Şifre başarıyla resetlendi.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Şifre resetlenirken hata oluştu.',
-'iba_VHOST_MESSAGE' => ' <P>Aşaığdaki alan adları bu i-bay\'ı kullanmaktadır ve içeriği birincil i-bay\'a taşınacaktır (daha sonra bunları değiştirebilirsiniz):</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' Aşaığdaki alan adları bu i-bay\'ı kullanmaktadır ve içeriği birincil i-bay\'a taşınacaktır (daha sonra bunları değiştirebilirsiniz): {$vhostList} ',
 'iba_Information bays' => 'i-bay (bilgi yuvaları)',
 'iba_WGRG' => 'Yazma = grup, Okuma = grup',
 'iba_WGRE' => 'Yazma = grup, Okuma = herkes',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Hata: i-bay açıklamasında geçersiz karakter bulunuyor',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'i-bay adı "{$acctName}" geçersiz karakter içeriyor. i-bay isimleri küçük harf veya rakalma başlamalı ve küçük harf, rakam ve nokta içerebilir.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'i-bay adı "{$name}" çok uzun. En fazla {$maxIbayNameLength} karakterden oluşmalıdır.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' "{$acctName}" hesabı, {$acctType} hesap çeşidi "{$acct}" takma adıyla çakışıyor . <p>{$acctName}, {$acct} nın takma adıdır.</p> ',
-'iba_ACCOUNT_EXISTS' => '"{$acctName}" hesabı {$acctType} hesabıyla çeşidindedir.',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' "{$acctName}" hesabı, {$acctType} hesap çeşidi "{$acct}" takma adıyla çakışıyor . {$acctName}, {$acct} nın takma adıdır. ',
+'iba_ACCOUNT_EXISTS' => '{$acctName}" hesabı {$acctType} hesabıyla çeşidindedir.',

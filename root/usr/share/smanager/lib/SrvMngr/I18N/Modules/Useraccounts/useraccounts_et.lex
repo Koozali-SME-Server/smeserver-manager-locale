@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Lisa, muuda või eemalda kasutajakontosid',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Lisa kasutajakonto</a> </p> <p> Kasutajakontosid saad muuta, lukustada ja kustutada kui klikid kasutajakonto taga olevaid linke. </p> <p> Kui konto tga on kirjas et "Konto on lukus" siis avamiseks tuleb talle uus parool luua. Pane tähele, et uue kasutajakonto loomisel on ta automaatselt lukus, kuni talle parool luuakse. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Lisa kasutajakonto</a> </p>
+
+  <p> Kasutajakontosid saad muuta, lukustada ja kustutada kui klikid kasutajakonto taga olevaid linke. </p>
+
+  <p> Kui konto tga on kirjas et "Konto on lukus" siis avamiseks tuleb talle uus parool luua. Pane tähele, et uue kasutajakonto loomisel on ta automaatselt lukus, kuni talle parool luuakse. </p>
+
+  ',
 'usr_P2_TITLE' => 'Lisa või muuda',
-'usr_CREATE_MODIFY_DESC' => ' <p> The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example "betty", "hjohnson", and "mary-jane" are all valid account names, but "3friends", "John Smith", and "henry:miller" are not. </p> <p> Note that two special pseudonyms will be created for each new account. These pseudonyms provide the ability to have alternative mail accounts for that user which include their first name and last name separated with a period (.) and underscore (_). So, for the account "betty" with first name "Betty" and last name "Rubble" two pseudonyms are created as betty.rubble and betty_rubble. </p><p> The directory information (department, company, etc.) can be changed from the defaults shown below. The changes will apply only to this user. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example "betty", "hjohnson", and "mary-jane" are all valid account names, but "3friends", "John Smith", and "henry:miller" are not. </p>
+
+  <p> Note that two special pseudonyms will be created for each new account. These pseudonyms provide the ability to have alternative mail accounts for that user which include their first name and last name separated with a period (.) and underscore (_). So, for the account "betty" with first name "Betty" and last name "Rubble" two pseudonyms are created as betty.rubble and betty_rubble. </p>
+
+  <p> The directory information (department, company, etc.) can be changed from the defaults shown below. The changes will apply only to this user. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Muuda admin-i kontot',
 'usr_USER_CREATED' => 'Kasutajakonto on edukalt loodud.',
 'usr_USER_MODIFIED' => 'Kasutajakonto on edukalt muudetud.',
-'usr_CANNOT_MODIFY_USER' => 'Viga: süsteemi viga konto "{$acctName}" muutmisel', 
+'usr_CANNOT_MODIFY_USER' => 'Viga: süsteemi viga konto "{$acctName}" muutmisel',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: an internal error occurred while attempting to modify the group "{$group}" for user "{$acctName}".',
 'usr_TAINTED_USER' => 'Kasutajanimi "{$acctName}" sisaldab sobimatuid sümboleid.',
 'usr_ACCOUNT_NAME' => 'Kasutajanimi',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Viga:pseudonym "{$pseudonym}" is already taken by the existing user account "{$clashName}". To differentiate, add initials to this field.',
 'usr_LOCK_ACCOUNT' => 'Lukusta konto',
 'usr_LOCK_ACCOUNT_TITLE' => 'Lukusta kasutajakonto',
-'usr_LOCK_DESC2' => ' See kasutajakonto lukustatakse.See tähendab, et kasutaja ei saa sisse logida ja ta ei saa ka e-posti näha. Kuid kõik saabuvad kirjad salvestatakse ja/või saadetakse edasi muule aadressile, kui see on määratud. Seda kontot saab hiljem aktiveerida luues talle uue parooli. </p> <p> <b>Oled kindel et tahad siiski selle konto lukustada?</b> ',
+'usr_LOCK_DESC2' => ' See kasutajakonto lukustatakse.See tähendab, et kasutaja ei saa sisse logida ja ta ei saa ka e-posti näha. Kuid kõik saabuvad kirjad salvestatakse ja/või saadetakse edasi muule aadressile, kui see on määratud. Seda kontot saab hiljem aktiveerida luues talle uue parooli.   Oled kindel et tahad siiski selle konto lukustada? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Eemalda kasutajakonto',
 'usr_REMOVE_DESC' => 'Oled kindel, et tahad kasutajakonto kustutada',
-'usr_REMOVE_DESC2' => ' Kõik failid mis kuuluvad sellele kasutajakontole kustutatakse. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded. </p> <p> <b>Oled kindel, et tahad seda kasutajakontot kustutada?</b> ',
+'usr_REMOVE_DESC2' => ' Kõik failid mis kuuluvad sellele kasutajakontole kustutatakse. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded.   Oled kindel, et tahad seda kasutajakontot kustutada? ',
 'usr_LOCK' => 'Lukusta',
 'usr_NO_USER_ACCOUNTS' => 'Selles serveris pole kasutajakontosid.',
 'usr_Users' => 'Kasutajad',

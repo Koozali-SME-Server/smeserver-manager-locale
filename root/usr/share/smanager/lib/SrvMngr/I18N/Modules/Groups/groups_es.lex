@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Breve Descripción/Alias de Grupo de Windows',
 'grp_GROUP_DESC_EXPL' => 'Ingrese una breve descripción en el campo inferior. Este campo también designa el nombre de grupo visible por los clientes Windows.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Las siguientes bahías de información se asignaron a este grupo y se cambiarán al grupo del Administrador (puede cambiarlas posteriormente a otra cosa):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>¿Está seguro de que desea eliminar este grupo?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Lista actual de Grupos de Usuario</p>',
-'grp_DELETE_DESCRIPTION' => ' Está a punto de eliminar el grupo de usuario "<b>{$group}</b>". ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>¿Está seguro de que desea eliminar este grupo?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Lista actual de Grupos de Usuario</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Está a punto de eliminar el grupo de usuario "{$group}". ',

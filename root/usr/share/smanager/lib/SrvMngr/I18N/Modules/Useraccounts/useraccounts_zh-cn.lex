@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => '创建、修改或者移除用户账号',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">增加用户账号</a> </p> <p> 您可以修改、锁定或者移除任何账号，或者通过点击账号边上的相应命令来重置账号密码。 </p> <p> 如果账号标记为被锁，就意味着该需要重置该用户的密码。请注意，新建账号会自动锁定，直至其密码变更。 </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">增加用户账号</a> </p>
+
+  <p> 您可以修改、锁定或者移除任何账号，或者通过点击账号边上的相应命令来重置账号密码。 </p>
+
+  <p> 如果账号标记为被锁，就意味着该需要重置该用户的密码。请注意，新建账号会自动锁定，直至其密码变更。 </p>
+
+  ',
 'usr_P2_TITLE' => '创建或修改',
-'usr_CREATE_MODIFY_DESC' => ' <p>账户名必须由小写字母、数字、连字符、日期、着重号组合而成，且以小写字母开头。例如“betty”,“hjohnson”,和“mary-jane”都是有效地账户名,但“3friends”、“John Smith”和“henry:miller”无效。</p> <p> 注意，每个新账户会有两个别名。这些别名可以替代邮件账号（包含姓名的那种）。因此账户"betty"（姓"Betty"，名"Rubble"）的两个别名是“betty.rubble”和“betty_rubble”。</p> <p> 目录信息(部门、公司等)可以在下面更改。更改只对该用户有效。</p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p>账户名必须由小写字母、数字、连字符、日期、着重号组合而成，且以小写字母开头。例如“betty”,“hjohnson”,和“mary-jane”都是有效地账户名,但“3friends”、“John Smith”和“henry:miller”无效。</p>
+
+  <p> 注意，每个新账户会有两个别名。这些别名可以替代邮件账号（包含姓名的那种）。因此账户"betty"（姓"Betty"，名"Rubble"）的两个别名是“betty.rubble”和“betty_rubble”。</p>
+
+  <p> 目录信息(部门、公司等)可以在下面更改。更改只对该用户有效。</p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => '修改管理员账号',
 'usr_USER_CREATED' => '成功创建用户账号。',
 'usr_USER_MODIFIED' => '成功修改用户账号。',
-'usr_CANNOT_MODIFY_USER' => '错误：尝试修改用户"{$acctName}"时出现内部错误。', 
+'usr_CANNOT_MODIFY_USER' => '错误：尝试修改用户"{$acctName}"时出现内部错误。',
 'usr_CANNOT_MODIFY_USER_GROUPS' => '错误：尝试修改群组"{$group}" 的用户"{$acctName}"时出现内部错误。',
 'usr_TAINTED_USER' => '账号名称"{$acctName}"包含非法字符。',
 'usr_ACCOUNT_NAME' => '账号名称',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => '错误：假名"{$pseudonym}" 已被用户"{$clashName}"使用。需使用不同的假名，请重新填写此字段。',
 'usr_LOCK_ACCOUNT' => '锁定账号',
 'usr_LOCK_ACCOUNT_TITLE' => '锁定用户账号',
-'usr_LOCK_DESC2' => ' 此用户账户将被锁定。意味着此用户将不能登录和收发邮件。任何收到的邮件仍会被存储并且（或者）转发给事先配置好的外部电子邮件地址。 此账户以后可以在重置密码后被激活，但当前密码不会保留。 </p> <p> <b>您确定锁定此账户吗?</b> ',
+'usr_LOCK_DESC2' => ' 此用户账户将被锁定。意味着此用户将不能登录和收发邮件。任何收到的邮件仍会被存储并且（或者）转发给事先配置好的外部电子邮件地址。 此账户以后可以在重置密码后被激活，但当前密码不会保留。   您确定锁定此账户吗? ',
 'usr_REMOVE_ACCOUNT_TITLE' => '移除用户账户',
 'usr_REMOVE_DESC' => '您正要移除此用户账号',
-'usr_REMOVE_DESC2' => ' 此账户的所有文件将被删除，现有的电子邮件（比如未读邮件）也会被丢弃。</p> <p> <b>确认删除此账户吗?</b> ',
+'usr_REMOVE_DESC2' => ' 此账户的所有文件将被删除，现有的电子邮件（比如未读邮件）也会被丢弃。  确认删除此账户吗? ',
 'usr_LOCK' => '锁定',
 'usr_NO_USER_ACCOUNTS' => '此系统中暂无用户账号。',
 'usr_Users' => '用户',

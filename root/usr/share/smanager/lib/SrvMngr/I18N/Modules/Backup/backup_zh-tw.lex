@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => '備份或還原伺服器資料',
-'bac_BACKUP_DESC' => ' <P>伺服器提供兩種方式以備份與還原您的伺服器：使用桌機或磁帶。</P><P>第一種方式是建立伺服器設定與使用者資料檔的副本，然後透過網路瀏覽器下載到本地桌機。當前全部的設定檔與資料檔的容量大約<b>$tarsize</b>。實際備份檔案將略小於此數字，這取決於壓縮比例。\"驗證桌機備份檔\" 選項用於檢查桌機備份檔的完整性。</P><P>磁帶備份方式是在每天晚上使用<I>$module</I>的軟體套件備份整個硬碟到磁帶。這需要受支援的磁帶機與未被寫入保護的磁帶。備份將在每晚指定的時間自動執行（白天會自動電郵以提醒管理員）。目前您的硬碟包含<b>$dumpsize</b>容量的資料。</P><P>兩種還原方式皆允許您還原您的設定檔與使用者資料檔。<b>理論上，還原應當執行於全新安裝的伺服器</b>。</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>提供三種方法來備份和還原您的伺服器：使用磁帶機、使用網路分享磁碟、本機可移除式磁碟，或區網桌機。</P> <P>磁帶備份。此法使用的軟體套件稱為<I>$module</I>用以每夜備份整顆硬碟到磁帶。這需要支援的磁帶機與非寫入保護的磁帶。此備份自動運作於每夜特定的時間（伴隨著白天寄給管理者的自動提醒電郵）。此時您的硬碟涵蓋<b>$dumpsize</b>的資料。</P> <P>工作站備份。此法使用的軟體套件稱為<I>dar</I>用以備份您伺服器的設定檔與資料檔到網路分享空間或如同USB碟的可移除式磁碟。您可管理備份的滾動式設定組有多少被保留，以及每個設定組擁有多少增量式備份。此備份自動運作於每日特定的時間。當下您的設定與資料檔案全部接近<b>$tarsize</b>未壓縮量。兩次壓縮數據的大小需在分享空間容量內。</P> <P>備份到桌機。此法複製您伺服器設定檔與使用者資料，並透過網路瀏覽器下載到您的本地端桌機。當下您的設定與資料檔案全部接近<b>$tarsize</b>。備份資料將稍微小於此量，這是根據有多少資料可被壓縮而來。倘若您複製到本地端可移除式磁碟如USB隨身碟，此檔可透過終端機被用來還原伺服器。</P> <P>所有的備份方法允許您還原您的設定檔與使用者資料檔。工作站備份提供個別檔案的還原。<b>實際上，完全還原應該運用於新安裝的伺服器</b>。</P> ',
+'bac_BACKUP_DESC' => ' <p>伺服器提供兩種方式以備份與還原您的伺服器：使用桌機或磁帶。</p>
+
+  <p>第一種方式是建立伺服器設定與使用者資料檔的副本，然後透過網路瀏覽器下載到本地桌機。當前全部的設定檔與資料檔的容量大約<b>[_3]</b>。實際備份檔案將略小於此數字，這取決於壓縮比例。\"驗證桌機備份檔\" 選項用於檢查桌機備份檔的完整性。</p>
+
+  <p>磁帶備份方式是在每天晚上使用<i>[_1]</i>的軟體套件備份整個硬碟到磁帶。這需要受支援的磁帶機與未被寫入保護的磁帶。備份將在每晚指定的時間自動執行（白天會自動電郵以提醒管理員）。目前您的硬碟包含<b>[_2]</b>容量的資料。</p>
+
+  <p>兩種還原方式皆允許您還原您的設定檔與使用者資料檔。<b>理論上，還原應當執行於全新安裝的伺服器</b>。</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>提供三種方法來備份和還原您的伺服器：使用磁帶機、使用網路分享磁碟、本機可移除式磁碟，或區網桌機。</p>
+
+  <p>磁帶備份。此法使用的軟體套件稱為<i>[_1]</i>用以每夜備份整顆硬碟到磁帶。這需要支援的磁帶機與非寫入保護的磁帶。此備份自動運作於每夜特定的時間（伴隨著白天寄給管理者的自動提醒電郵）。此時您的硬碟涵蓋<b>[_2]</b>的資料。</p>
+
+  <p>工作站備份。此法使用的軟體套件稱為<i>dar</i>用以備份您伺服器的設定檔與資料檔到網路分享空間或如同USB碟的可移除式磁碟。您可管理備份的滾動式設定組有多少被保留，以及每個設定組擁有多少增量式備份。此備份自動運作於每日特定的時間。當下您的設定與資料檔案全部接近<b>[_3]</b>未壓縮量。兩次壓縮數據的大小需在分享空間容量內。</p>
+
+  <p>備份到桌機。此法複製您伺服器設定檔與使用者資料，並透過網路瀏覽器下載到您的本地端桌機。當下您的設定與資料檔案全部接近<b>[_3]</b>。備份資料將稍微小於此量，這是根據有多少資料可被壓縮而來。倘若您複製到本地端可移除式磁碟如USB隨身碟，此檔可透過終端機被用來還原伺服器。</p>
+
+  <p>所有的備份方法允許您還原您的設定檔與使用者資料檔。工作站備份提供個別檔案的還原。<b>實際上，完全還原應該運用於新安裝的伺服器</b>。</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => '備份的設定與狀態',
-'bac_TAPE_BACKUPS_ENABLED' => '目前磁帶備份<b>被啟用</b>。',
+'bac_TAPE_BACKUPS_ENABLED' => '目前磁帶備份被啟用。',
 'bac_BACKUPS_RUN_AT' => '定期磁帶備份將執行於：',
 'bac_REMINDER_MESSAGE_AT' => '提醒訊息將被送出於：',
-'bac_TAPE_BACKUPS_DISABLED' => ' 磁帶備份 <b>被禁止</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' 磁帶備份 被禁止 ',
 'bac_DESKTOP_BACKUP' => '備份到桌機',
 'bac_DESKTOP_RESTORE' => '從桌機還原',
 'bac_DESKTOP_VERIFY' => '檢查桌機的備份檔',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => '系統還原已完成',
 'bac_STARTED_AT' => '其開始於：',
 'bac_FINISHED_AT' => '結束於：',
-'bac_YOU_MUST_REBOOT' => '您必須重啟伺服器，以便啟動因系統還原而導致的系統設定異動。', 
+'bac_YOU_MUST_REBOOT' => '您必須重啟伺服器，以便啟動因系統還原而導致的系統設定異動。',
 'bac_REBOOT' => '重新啟動',
 'bac_SELECT_AN_ACTION' => '選擇一項操作',
 'bac_X_BACKUP_OR_RESTORE' => 'X備份或還原伺服器資料',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => '初始化還原時發生錯誤。',
 'bac_ERR_POST_BACKUP' => '備份結束時發生錯誤。',
 'bac_RESTORE_SERVER_CONFIG' => '還原伺服器設定',
-'bac_DESKTOP_RESTORE_DESC' => '該程序將從本地桌機上傳伺服器備份檔到您的伺服器，並將還原覆蓋設定檔與使用者資料檔。<B>本還原應當被執行於全新安裝的伺服器</B>。',
+'bac_DESKTOP_RESTORE_DESC' => '該程序將從本地桌機上傳伺服器備份檔到您的伺服器，並將還原覆蓋設定檔與使用者資料檔。本還原應當被執行於全新安裝的伺服器。',
 'bac_FREE_SPACE' => ' 您的伺服器大約還剩 $tmpfree 空間。還原前，請檢查桌機備份檔是否小於 $halffree 。 ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => '系統還原後，您必須重啟伺服器。',
 'bac_FILE_TO_RESTORE' => '欲還原的備份檔源自',
-'bac_VERIFY_BACKUP_DESC' => ' <p>該選項顯示先前桌機備份檔所使用過的名稱。您可使用該選項以驗證備份內容。</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>該選項顯示先前桌機備份檔所使用過的名稱。您可使用該選項以驗證備份內容。</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => '選擇備份檔',
 'bac_VERIFY' => '確認',
 'bac_RESTORE_CANNOT_PROCEED' => '無法還原伺服器的設定檔',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => '備份檔不完整',
 'bac_ERR_READING_FILE' => '讀取備份檔時發生錯誤。',
 'bac_ENABLE_DISABLE_TAPE' => '啟用／禁用夜間磁帶備份',
-'bac_TAPE_CONFIG_DESC' => ' <p>選擇是否啟用夜間備份功能，然後指定欲備份與載入磁帶的時間。</p> <p>磁帶備份需要受支援的磁帶機。倘若磁帶機是空的，警示訊息將在指定的提醒時間傳送給管理員。</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>選擇是否啟用夜間備份功能，然後指定欲備份與載入磁帶的時間。</p>
+
+  <p>磁帶備份需要受支援的磁帶機。倘若磁帶機是空的，警示訊息將在指定的提醒時間傳送給管理員。</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => '啟用磁帶備份',
 'bac_TAPE_BACKUP_TIME' => '每日磁帶備份時間（時／分）',
 'bac_LOAD_TAPE_REMINDER_TIME' => '每日載入磁帶的提醒時間（時／分）',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => '載入磁帶提醒時間：',
 'bac_SUCCESSFULLY_DISABLED' => '成功禁用磁帶備份',
 'bac_RESTORE_CONF_FROM_TAPE' => '從磁帶備份中還原伺服器設定',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => '<P>該程序將從伺服器的磁帶備份中還原設定檔與使用者資料。<B>該還原應當執行於全新安裝的伺服器</B>。</P> <P>執行前，請確認您已載入想要還原的磁帶於磁帶機中。</P> <P>還原完成後，您必須重啟伺服器。</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => '<p>該程序將從伺服器的磁帶備份中還原設定檔與使用者資料。<b>該還原應當執行於全新安裝的伺服器</b>。</p>
+
+  <p>執行前，請確認您已載入想要還原的磁帶於磁帶機中。</p>
+
+  <p>還原完成後，您必須重啟伺服器。</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => '從磁帶還原',
 'bac_UNABLE_TO_RESTORE_CONF' => '無法還原伺服器設定',
 'bac_RESTORING_FROM_TAPE' => '從磁帶還原進行中',
@@ -81,11 +111,11 @@
 'bac_SERVER_REBOOT' => '重啟伺服器',
 'bac_SERVER_WILL_REBOOT' => '您的伺服器將重啟。',
 'bac_NO_UID_FOR_NAME' => '該使用者無法獲得uid：',
-'bac_PAGE_REFRESH_IN' => ' 此頁面將在 {$sec} 秒內更新， 或點選<a href="/server-manager/cgi-bin/backup">此處</a>。',
+'bac_PAGE_REFRESH_IN' => ' 此頁面將在 {$sec} 秒內更新， 或點選此處。',
 'bac_Backup or restore' => '備份或是還原',
-'bac_BACKUP_DESKTOP_TOO_BIG' => '<div class="error">您的伺服器有太多資料，以至於無法可靠地備份到桌機。</div> ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作站備份 <b>無法啟用</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' 工作站備份當下<b>已啟用</b>。',
+'bac_BACKUP_DESKTOP_TOO_BIG' => '您的伺服器有太多資料，以至於無法可靠地備份到桌機。 ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作站備份 無法啟用 ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' 工作站備份當下已啟用。',
 'bac_WKBACKUPS_RUN_AT' => '定期工作站備份將執行於：',
 'bac_WORKSTN_CONFIGURE' => '設定工作站備份',
 'bac_WORKSTN_VERIFY' => '驗證工作站備份',
@@ -98,9 +128,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => '成功啟用工作站備份',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => '成功禁用工作站備份',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => '驗證工作站備份',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => '<p>該選項將顯示之前工作站每日備份檔的所有檔名。您能使用該選項以驗證備份內容。<b>您必須選擇欲驗證的備份檔。</b></p> <p>只有當檔案被標記為[Saved]時，才會被包含於備份中。</p> <br/>來自以下共享文件夾的檔案已經被驗證：',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => '<p>該選項將顯示之前工作站每日備份檔的所有檔名。您能使用該選項以驗證備份內容。<b>您必須選擇欲驗證的備份檔。</b></p>
+
+  <p>只有當檔案被標記為[Saved]時，才會被包含於備份中。</p>
+
+  <br/>來自以下共享文件夾的檔案已經被驗證：',
 'bac_RESTORE_CONF_FROM_WORKSTN' => '從工作站備份中還原伺服器設定',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => '<p>該程序將從伺服器的工作站備份中還原設定檔與使用者資料。<b>該還原應當執行於全新安裝的伺服器</b>。</p> <p>還原前，請確認您已選擇正確的備份檔。</p> <p>還原完成後，您必須重啟伺服器。</p>備份文件將還原自：',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => '<p>該程序將從伺服器的工作站備份中還原設定檔與使用者資料。<b>該還原應當執行於全新安裝的伺服器</b>。</p>
+
+  <p>還原前，請確認您已選擇正確的備份檔。</p>
+
+  <p>還原完成後，您必須重啟伺服器。</p>
+
+  備份文件將還原自：',
 'bac_RESTORE_FROM_WORKSTN' => '從工作站還原',
 'bac_RESTORING_FROM_WORKSTN' => '正從工作站還原中',
 'bac_NOW_RESTORING_FROM_WORKSTN' => '您的伺服器設定與使用者檔案資料現正從工作站分享文件夾中還原。',
@@ -124,7 +164,7 @@
 'bac_NUMBER_OF_SETS' => '循環備份設定的數量',
 'bac_NUMBER_OF_FILES_IN_SET' => '每一設定中的每日備份',
 'bac_ERR_INVALID_SETS_NUMBER' => '設定的數量必須大於等於1',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => '數量必須大於等於1。設定中的第一次備份是<b>完整備份</b>其餘則是<b>增量備份</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => '數量必須大於等於1。設定中的第一次備份是完整備份其餘則是增量備份',
 'bac_WORKSTN_TIMEOUT' => '選擇性備份時間結束（小時）',
 'bac_INC_ONLY_TIMEOUT' => '請勿結束完全備份',
 'bac_ERR_INVALID_TIMEOUT' => '最大備份時間必須設定介於1到24小時',
@@ -133,11 +173,11 @@
 'bac_WORKSTN_SEL_RESTORE' => '來自工作站選定的還原檔案',
 'bac_WORKSTN_SELECTIVE_RESTORE' => '工作站選定的還原檔案',
 'bac_ALL_BACKUPS' => '所有的備份',
-'bac_WORKSTN_SEL_REST_DESC' => ' 該程序將還原指定的文件和目錄。您必須先選擇要還原的備份文件。倘若您不知道要選擇哪個備份文件，您可以選擇 「完全備份」選項。<br/><br/> 下個介面將會顯示可用的文件和目錄，您可以選擇需要還原的項目。為了限制介面中顯示的文件和目錄數量，您有一個過濾選項，可用來規範所顯示的名稱。<br/><br/> 您有義務不因還原檔案而中斷伺服器的工作。<br/> <br/>現在，文件將還原自：',
+'bac_WORKSTN_SEL_REST_DESC' => ' 該程序將還原指定的文件和目錄。您必須先選擇要還原的備份文件。倘若您不知道要選擇哪個備份文件，您可以選擇 「完全備份」選項。 下個介面將會顯示可用的文件和目錄，您可以選擇需要還原的項目。為了限制介面中顯示的文件和目錄數量，您有一個過濾選項，可用來規範所顯示的名稱。 您有義務不因還原檔案而中斷伺服器的工作。 現在，文件將還原自：',
 'bac_BACKUP_CHOICE' => '顯示選定的檔案',
 'bac_SELECT_DATE_BEFORE' => '還原最近的備份',
 'bac_FILTER_EXPRESSION' => '名稱過濾乃依據',
-'bac_READ_COMPLETE' => '您可以在列表中選擇您想要還原的目錄和文件（使用ctrl鍵或shift鍵可多選）。<br/> <b>注意：</b>倘若您選擇目錄，其所包含的檔案與目錄將被還原。<p/> 系統預設還原選訂檔案的最新版本，如果您指定日期<i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i>，程序將只會還原在<b>指定日期之前</b>異動的最新版本。 ',
+'bac_READ_COMPLETE' => '您可以在列表中選擇您想要還原的目錄和文件（使用ctrl鍵或shift鍵可多選）。 注意：倘若您選擇目錄，其所包含的檔案與目錄將被還原。 系統預設還原選訂檔案的最新版本，如果您指定日期[ [ [yyyy/]mm/]dd-]hh:mm[:ss]，程序將只會還原在指定日期之前異動的最新版本。 ',
 'bac_ERR_INVALID_SELDATE' => '錯誤的日期格式，必須為[ [ [yyyy/]mm/]dd-]hh:mm[:ss]，例如：2005/12/31-08:23:32或10-08:32或08:32',
 'bac_SELECT_FILES_TO_RESTORE' => '選擇欲還原的檔案',
 'bac_ERR_WHILE_UNMOUNTING' => '卸載遠端共享文件時發生錯誤',
@@ -147,8 +187,12 @@
 'bac_ERR_INVALID_COMPRESSION' => '壓縮程度必須設定介於0（無壓縮）或9（最大壓縮）',
 'bac_DOW' => '週日 週一 週二 週三 週四 週五 週六 每日',
 'bac_CONFIGURATION_TO_BE_DONE' => '請設定備份設定檔。',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>此介面顯示當前工作站備份設定。您可在此介面與下個介面修改。</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>此時，工作站備份尚未被設定。您可以在此介面與下個介面中設定。</p><p/>',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>此介面顯示當前工作站備份設定。您可在此介面與下個介面修改。</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>此時，工作站備份尚未被設定。您可以在此介面與下個介面中設定。</p>
+
+  <p/>',
 'bac_WORKSTN_BACKUP_ENABLED' => '備份乃',
 'bac_WORKSTN_BACKUP_USB' => '備份到本地的USB碟。',
 'bac_WORKSTN_BACKUP_MNT' => '備份已經完成於掛載的硬碟',

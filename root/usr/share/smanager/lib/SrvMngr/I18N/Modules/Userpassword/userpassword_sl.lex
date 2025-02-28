@@ -1,1 +1,5 @@
-'pwd_DESCRIPTION' => ' <p> Za zamenjavo gesla vasemu uporabniskemu imenu, uporabite spodnji obrazec. vpisati boste morali vase <b>uporabnisko ime</b> vase sedanje geslo in zeljeno novo geslo. (Novo geslo morate zaradi varnosti vpisati dva krat.)</p> <p> Ce ste vase staro geslo pozabili in zaradi tega ne morete zamenjati gesla, vam lahko geslo ponastavi vas skrbnik streznika z uporabo <EM>spletne nadzorne plosce</EM>.</p> ',
+'pwd_DESCRIPTION' => ' <p> Za zamenjavo gesla vasemu uporabniskemu imenu, uporabite spodnji obrazec. vpisati boste morali vase <b>uporabnisko ime</b> vase sedanje geslo in zeljeno novo geslo. (Novo geslo morate zaradi varnosti vpisati dva krat.)</p>
+
+  <p> Ce ste vase staro geslo pozabili in zaradi tega ne morete zamenjati gesla, vam lahko geslo ponastavi vas skrbnik streznika z uporabo <em>spletne nadzorne plosce</em>.</p>
+
+  ',

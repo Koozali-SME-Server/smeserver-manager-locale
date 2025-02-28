@@ -1,7 +1,7 @@
 'ln_Local networks' => 'Redes locais',
-'ln_FIRSTPAGE_DESC' => ' Por razões de segurança, vários serviços em seu servidor estão disponíveis somente para sua rede local. Entretando você pode garantir esses privilégios de acesso da rede local para redes externas, listando-as abaixo. A maioria das instalações deveriam deixar esta lista em branco.</p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Adicionar rede</a> ',
+'ln_FIRSTPAGE_DESC' => ' Por razões de segurança, vários serviços em seu servidor estão disponíveis somente para sua rede local. Entretando você pode garantir esses privilégios de acesso da rede local para redes externas, listando-as abaixo. A maioria das instalações deveriam deixar esta lista em branco. Adicionar rede ',
 'ln_ADD_TITLE' => 'Adicionar uma rede local',
-'ln_ADD_DESC' => ' Cada parametro tem que está na forma #.#.#.# (cada # é um número entre 0 e 255). O software do servidor irá zerar a parte final (identificador de host) do endereço de rede de acordo com a máscara de rede, para garantir que o endereço de rede é válido. </p><p> "Roteador" deverá ser o endereço IP do roteador de sua rede local pelo qual a rede adicional será alcançada. ',
+'ln_ADD_DESC' => ' Cada parametro tem que está na forma #.#.#.# (cada # é um número entre 0 e 255). O software do servidor irá zerar a parte final (identificador de host) do endereço de rede de acordo com a máscara de rede, para garantir que o endereço de rede é válido.  "Roteador" deverá ser o endereço IP do roteador de sua rede local pelo qual a rede adicional será alcançada. ',
 'ln_NETWORK_ADDRESS' => 'Endereço de rede',
 'ln_SUBNET_MASK' => 'Máscara de subrede',
 'ln_INVALID_IP_ADDRESS' => 'Endereço IP inválido',
@@ -18,7 +18,13 @@
 'ln_SUCCESS' => 'Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. Seu servidor irá garantir privilégios de acesso local para o endereço IP {$network}.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. Seu servidor irá garantir privilegios de acesso local para {$totalHosts} endereços IP na faixa de {$firstAddr} à {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. </p> <p> Seu servidor irá garantir privilegios de acesso local para {$totalHosts} endereços IP na faixa de {$firstAddr} à {$lastAddr}. </p> <p> Aviso: o servidor FTP ProFTP não pode manusear essas máscaras de rede não -padrão. A especificação simples <b>{$simpleMask}</b> será usada. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. </p>
+
+  <p> Seu servidor irá garantir privilegios de acesso local para {$totalHosts} endereços IP na faixa de {$firstAddr} à {$lastAddr}. </p>
+
+  <p> Aviso: o servidor FTP ProFTP não pode manusear essas máscaras de rede não -padrão. A especificação simples <b>{$simpleMask}</b> será usada. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Remoção da rede com sucesso {$network}/{$networkMask} rotear via {$networkRouter}.',
 'ln_ERROR_DELETING_NETWORK' => 'Um erro ocorreu enquanto eliminava a rede.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Nenhum rede adicional',

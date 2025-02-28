@@ -1,12 +1,26 @@
 'usr_FORM_TITLE' => 'Gestion des comptes utilisateur',
-'usr_FIRSTPAGE_DESC' => '<p>You can modify, lock or remove any account or reset the account\'s password by clicking on the corresponding command next to the account. </p> <p>If the account is marked as locked, that means that theuser\'s password needs to be reset. Please note that newly created accounts are automatically locked until the password is changed. </p>',
-'usr_FIRSTPAGE_DESC' => '<p>Vous pouvez modifier, verrouiller ou supprimer n\'importe quel compte ou bien réinitialiser le mot de passe d\'un compte en cliquant sur la commande correspondante à côté du compte.</p> <p>Si le compte est marqué comme étant verrouillé, cela signifie qu\'il faut réinitialiser le mot de passe de l\'utilisateur. Veuillez noter que les comptes nouvellement créés sont automatiquement verrouillés jusqu\'à ce qu\'un mot de passe ait été saisi.</p> ',
+'usr_FIRSTPAGE_DESC' => '<p>You can modify, lock or remove any account or reset the account\'s password by clicking on the corresponding command next to the account. </p>
+
+  <p>If the account is marked as locked, that means that theuser\'s password needs to be reset. Please note that newly created accounts are automatically locked until the password is changed. </p>
+
+  ',
+'usr_FIRSTPAGE_DESC' => '<p>Vous pouvez modifier, verrouiller ou supprimer n\'importe quel compte ou bien réinitialiser le mot de passe d\'un compte en cliquant sur la commande correspondante à côté du compte.</p>
+
+  <p>Si le compte est marqué comme étant verrouillé, cela signifie qu\'il faut réinitialiser le mot de passe de l\'utilisateur. Veuillez noter que les comptes nouvellement créés sont automatiquement verrouillés jusqu\'à ce qu\'un mot de passe ait été saisi.</p>
+
+  ',
 'usr_P2_TITLE' => 'Créer ou modifier',
-'usr_CREATE_MODIFY_DESC' => ' <p>Le nom du compte ne doit être composé que de lettres minuscules, de chiffres, de traits d\'union, de points et de tirets-bas (_) et doit commencer par une lettre minuscule. Par exemple "marie-line", "eireann.p" et "phoebe_p" sont tous des noms de compte valides, mais "3amis", "Jean" et "claude*francois" ne le sont pas.</p> <p>Notez que deux pseudonymes spéciaux seront créés pour chaque nouveau compte. Ces pseudonymes donnent à l\'utilisateur la possibilité d\'avoir des comptes de messagerie supplémentaires composés de son prénom et de son nom, séparés par un point (.) et par un trait de soulignement (_). Ainsi, pour le compte "betty", avec "Betty" comme prénom et "Rubble" comme nom, deux pseudonymes sont créés, à savoir "betty.rubble" et "betty_rubble".</p> <p>Les valeurs par défaut de l\'annuaire (service, société, etc.) peuvent être modifiées à votre convenance. Ces modifications ne s\'appliqueront qu\'à cet utilisateur.</p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p>Le nom du compte ne doit être composé que de lettres minuscules, de chiffres, de traits d\'union, de points et de tirets-bas (_) et doit commencer par une lettre minuscule. Par exemple "marie-line", "eireann.p" et "phoebe_p" sont tous des noms de compte valides, mais "3amis", "Jean" et "claude*francois" ne le sont pas.</p>
+
+  <p>Notez que deux pseudonymes spéciaux seront créés pour chaque nouveau compte. Ces pseudonymes donnent à l\'utilisateur la possibilité d\'avoir des comptes de messagerie supplémentaires composés de son prénom et de son nom, séparés par un point (.) et par un trait de soulignement (_). Ainsi, pour le compte "betty", avec "Betty" comme prénom et "Rubble" comme nom, deux pseudonymes sont créés, à savoir "betty.rubble" et "betty_rubble".</p>
+
+  <p>Les valeurs par défaut de l\'annuaire (service, société, etc.) peuvent être modifiées à votre convenance. Ces modifications ne s\'appliqueront qu\'à cet utilisateur.</p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Modifier le compte "admin"',
 'usr_USER_CREATED' => 'Compte utilisateur créé avec succès.',
 'usr_USER_MODIFIED' => 'Compte utilisateur modifié avec succès.',
-'usr_CANNOT_MODIFY_USER' => 'ERREUR : une erreur s\'est produite lors de la tentative de modification de l\'utilisateur "[_1]".', 
+'usr_CANNOT_MODIFY_USER' => 'ERREUR : une erreur s\'est produite lors de la tentative de modification de l\'utilisateur "[_1]".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'ERREUR : une erreur s\'est produite lors de la tentative de modification du groupe "[_1]" pour l\'utilisateur "[_1]".',
 'usr_TAINTED_USER' => 'Le nom du compte "[_1]" contient des caractères non valides.',
 'usr_ACCOUNT_NAME' => 'Nom du compte',
@@ -33,10 +47,18 @@
 'usr_PSEUDONYM_CLASH' => 'ERREUR : le pseudonyme "[_1]" est déjà utilisé par le compte utilisateur "[_2]". Pour différencier ces pseudonymes, vous pouvez ajouter des initiales dans ce champ.',
 'usr_LOCK_ACCOUNT' => 'Verrouiller le compte',
 'usr_LOCK_ACCOUNT_TITLE' => 'Verrouiller le compte de l\'utilisateur',
-'usr_LOCK_DESC2' => ' <p>Une fois le compte verrouillé, l\'utilisateur ne pourra ni se connecter ni consulter ses courriels. Tout message arrivant sera stocké et/ou renvoyé à une adresse de courriel externe, conformément à la configuration du système. Ce compte pourra ultérieurement être réactivé en définissant un nouveau mot de passe. Le mot de passe actuel ne sera pas conservé.</p> <p><b>Voulez-vous vraiment verrouiller ce compte ?</b></p> ',
+'usr_LOCK_DESC2' => ' <p>Une fois le compte verrouillé, l\'utilisateur ne pourra ni se connecter ni consulter ses courriels. Tout message arrivant sera stocké et/ou renvoyé à une adresse de courriel externe, conformément à la configuration du système. Ce compte pourra ultérieurement être réactivé en définissant un nouveau mot de passe. Le mot de passe actuel ne sera pas conservé.</p>
+
+  <p><b>Voulez-vous vraiment verrouiller ce compte ?</b></p>
+
+  ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Supprimer le compte utilisateur',
 'usr_REMOVE_DESC' => 'Vous êtes sur le point de supprimer le compte de l\'utilisateur',
-'usr_REMOVE_DESC2' => ' <p>Tous les fichiers appartenant à ce compte seront supprimés, ainsi que tous les courriels lui étant destinés et encore stockés sur ce serveur (ie. qui n\'ont pas encore été récupérés par l\'utilisateur).</p> <p><b>Voulez-vous vraiment supprimer ce compte ?</b></p> ',
+'usr_REMOVE_DESC2' => ' <p>Tous les fichiers appartenant à ce compte seront supprimés, ainsi que tous les courriels lui étant destinés et encore stockés sur ce serveur (ie. qui n\'ont pas encore été récupérés par l\'utilisateur).</p>
+
+  <p><b>Voulez-vous vraiment supprimer ce compte ?</b></p>
+
+  ',
 'usr_LOCK' => 'Verrouiller',
 'usr_NO_USER_ACCOUNTS' => 'Aucun compte utilisateur n\'a été défini sur ce système.',
 'Users' => 'Utilisateurs',

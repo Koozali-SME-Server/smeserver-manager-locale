@@ -1,12 +1,24 @@
 'usr_FORM_TITLE' => '建立、修改或移除使用者帳號',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">增加使用者帳號</a> </p> <p>您可以修改、鎖定或移除任何帳號，或者透過點擊帳號旁邊的命令來重置帳號密碼。</p> <p>倘若帳號被標示為鎖定，表示使用者的密碼需要重新設定。請注意，新建立的帳號會自動鎖定直到密碼變更。</p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">增加使用者帳號</a> </p>
+
+  <p>您可以修改、鎖定或移除任何帳號，或者透過點擊帳號旁邊的命令來重置帳號密碼。</p>
+
+  <p>倘若帳號被標示為鎖定，表示使用者的密碼需要重新設定。請注意，新建立的帳號會自動鎖定直到密碼變更。</p>
+
+  ',
 'usr_P2_TITLE' => '建立或修正',
-'usr_CREATE_MODIFY_DESC' => ' <p>使用者名稱必須僅包含小寫字母、數字、連字符、日期、底線，並且以小寫字母開頭。例如"betty"、"hjohnson"與"mary-jane"都是有效使用者名稱，但是"3friends"、"John Smith"與"henry:miller"則否。</p> <p>每個新帳號將建立兩個特殊的匿名。這些匿名具有可取代使用者由逗號(.)與底線(_)姓名所形成郵件帳號的能力。因此，對於帳號"betty"與名字"Betty"和姓氏"Rubble"建立這兩個匿名betty.rubble與betty_rubble。</p> <p>此目錄訊息（部門、公司等）可從下方預設顯示處修正。此修正將套用到這位使用者。</p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p>使用者名稱必須僅包含小寫字母、數字、連字符、日期、底線，並且以小寫字母開頭。例如"betty"、"hjohnson"與"mary-jane"都是有效使用者名稱，但是"3friends"、"John Smith"與"henry:miller"則否。</p>
+
+  <p>每個新帳號將建立兩個特殊的匿名。這些匿名具有可取代使用者由逗號(.)與底線(_)姓名所形成郵件帳號的能力。因此，對於帳號"betty"與名字"Betty"和姓氏"Rubble"建立這兩個匿名betty.rubble與betty_rubble。</p>
+
+  <p>此目錄訊息（部門、公司等）可從下方預設顯示處修正。此修正將套用到這位使用者。</p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => '修改管理員帳號',
 'usr_USER_CREATED' => '成功建立使用者帳號。',
 'usr_USER_MODIFIED' => '成功修改使用者帳號。',
-'usr_CANNOT_MODIFY_USER' => '錯誤：當試著修正使用者"{$acctName}"時發生內部錯誤。', 
-'usr_CANNOT_MODIFY_USER_GROUPS' =>'錯誤：當試著對使用者"{$acctName}"修正群組"{$group}"時發生內部錯誤。',
+'usr_CANNOT_MODIFY_USER' => '錯誤：當試著修正使用者"{$acctName}"時發生內部錯誤。',
+'usr_CANNOT_MODIFY_USER_GROUPS' => '錯誤：當試著對使用者"{$acctName}"修正群組"{$group}"時發生內部錯誤。',
 'usr_TAINTED_USER' => '帳號名稱"{$acctName}"涵蓋無效字元。',
 'usr_ACCOUNT_NAME' => '帳號名稱',
 'usr_FIRSTNAME' => '名',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => '錯誤：此代號 "{$pseudonym}" 已經由既有的使用者 "{$clashName}" 所使用。 請重新填寫不同的代號到此區塊。',
 'usr_LOCK_ACCOUNT' => '鎖定帳號',
 'usr_LOCK_ACCOUNT_TITLE' => '鎖定使用者帳號',
-'usr_LOCK_DESC2' => '此使用者帳號將被鎖定。這表示這位使用者將無法登入，並且無法收集電郵。任何收到的電郵仍會被保留並或轉送給事先配置好的外部電郵地址。此帳號稍後在設定新密碼以後可被啟用。現有密碼將不被保留。</p> <p> <b>您確定您想要鎖定此帳號？</b> ',
+'usr_LOCK_DESC2' => '此使用者帳號將被鎖定。這表示這位使用者將無法登入，並且無法收集電郵。任何收到的電郵仍會被保留並或轉送給事先配置好的外部電郵地址。此帳號稍後在設定新密碼以後可被啟用。現有密碼將不被保留。  您確定您想要鎖定此帳號？ ',
 'usr_REMOVE_ACCOUNT_TITLE' => '移除使用者帳號',
 'usr_REMOVE_DESC' => '您正要移除此使用者帳號',
-'usr_REMOVE_DESC2' => '此使用者帳號的所有檔案將被刪除。而且，伺服器上此使用者帳號既有有的電郵（例如：尚未由使用者取回）將被遺棄。</p> <p> <b>您確定您想要移除此帳號？</b> ',
+'usr_REMOVE_DESC2' => '此使用者帳號的所有檔案將被刪除。而且，伺服器上此使用者帳號既有有的電郵（例如：尚未由使用者取回）將被遺棄。  您確定您想要移除此帳號？ ',
 'usr_LOCK' => '鎖定',
 'usr_NO_USER_ACCOUNTS' => '此系統無使用者帳號。',
 'usr_Users' => '使用者',

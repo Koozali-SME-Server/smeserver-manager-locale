@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Criar, modificar ou remover pastas',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Adicionar compartilhamento</a> </p> <p> Você pode remover qualquer pasta ou resetar a senha clicando no comando correspondente próximo ao compartilhamento. Se o compartilhamento estiver em vermelho, isto significa que a senha ainda não foi definida, e deverá ser trocada tão logo possível. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Adicionar compartilhamento</a> </p>
+
+  <p> Você pode remover qualquer pasta ou resetar a senha clicando no comando correspondente próximo ao compartilhamento. Se o compartilhamento estiver em vermelho, isto significa que a senha ainda não foi definida, e deverá ser trocada tão logo possível. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Criar ou modificar um compartilhamento',
 'iba_NAME_FIELD_DESC' => 'O nome do compartilhamento deverá conter somente letras minúsculas, números, pontos, hífens e sublinhado e deverá iniciar com letra minúscula. Por exemplo "joao", "intra", e "cust3.prj12" são todos nomes válidos, mas "3associados", "Joao Silva" e "Parceiros!Comerciais" não são. O tamanho do nome está limitado a {$maxLength} caracteres.',
 'iba_NAME_LABEL' => 'Nome da pasta',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Conteúdo de execução dinâmica (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Forçar uso de conexões seguras',
 'iba_REMOVE_TITLE' => 'Remover pasta',
-'iba_REMOVE_DESC' => ' <p> Você está prestes a remover a pasta "{$name}" ({$description}). </p> <p> Todos os arquivos pertencentes a esta pasta serão apagados. </p> <p> Você tem certeza que deseja remover esta pasta? </p> ',
+'iba_REMOVE_DESC' => ' <p> Você está prestes a remover a pasta "{$name}" ({$description}). </p>
+
+  <p> Todos os arquivos pertencentes a esta pasta serão apagados. </p>
+
+  <p> Você tem certeza que deseja remover esta pasta? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Ocorreu um erro enquanto criava o compartilhamento.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Pasta criada com sucesso.',
 'iba_NO_IBAYS' => 'Não existe nenhuma pasta configurada.',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'As senhas que você entrou não são iguais.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Senha resetada com sucesso.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Erro enquanto resetava senha.',
-'iba_VHOST_MESSAGE' => ' <P>Os seguinte domínios virtuais estavam usando esta pasta como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde):</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' Os seguinte domínios virtuais estavam usando esta pasta como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde): {$vhostList} ',
 'iba_Information bays' => 'Pastas',
 'iba_WGRG' => 'Escrever = grupo, Ler = grupo',
 'iba_WGRE' => 'Escrever = grupo, Ler = todos',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Erro: caracter inesperado ou ausente na descrição do compartilhamento',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'O nome de compartilhamento "{$acctName}" contém caracteres inválidos. O nome do compartilhamento tem que iniciar com letra minúscula e conter somente letras minúsculas, números e hifens.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'O nome do compartilhamento "{$name}" é muito longo. O máximo é de {$maxIbayNameLength} caracteres.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A conta "{$acctName}" conflita com detalhes do pseudonimo para a conta "{$acct}" do tipo {$acctType}. <p>{$acctName} é um pseudonimo para {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A conta "{$acctName}" conflita com detalhes do pseudonimo para a conta "{$acct}" do tipo {$acctType}. {$acctName} é um pseudonimo para {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'A conta "{$acctName}" é uma conta do tipo {$acctType} já existente.',

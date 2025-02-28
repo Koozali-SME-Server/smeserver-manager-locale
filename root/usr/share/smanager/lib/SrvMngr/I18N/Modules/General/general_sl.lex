@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Porocilo o delovanju',
 'ACCOUNT' => 'Racun',
 'GROUP' => 'Skupina',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Simboli, kot je (|) niso dovoljeni vnos v tem polju',
 'ERROR_BELOW' => 'NAPAKA: Pri preverjanju te strani je prislo do napake. Prosimo premaknite se po strani navzdol in poiscite vzrok za napako.',
 'ACCESS' => 'Ni dostopa',

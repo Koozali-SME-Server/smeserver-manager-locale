@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'สำรองหรือเรียกคืนข้อมูลของเซิร์ฟเวอร์',
-'bac_BACKUP_DESC' => ' <P>การสำรองข้อมูลและการนำข้อมูลสำรองของเซอร์ฟเวอร์กลับมาใช้มีสองวิธีคือ โดยใช้พื้นที่เดสก์ทอปบนเครื่องของคุณ และเทปแบคอัพ</P> <P>ในวิธีแรกจะทำสำเนาการตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้ จากนั้นดาวน์โหลดลงมาที่เดสก์ทอปของคุณ ซึ่งจะทำผ่านเว็บเบราเซอร์ ปัจจุบันขนาดรวมของไฟล์การตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้มีอยู่ประมาณ <b>$tarsize</b> โดยทั่วไปไฟล์แบคอัพจริงจะเล็กกว่านี้ ซึ่งขึ้นกับข้อมูลจะสามารถถูกบีบอัดลงได้มากแค่ใหน ตัวเลือก \"ตรวจทานไฟล์ของการสำรองไปเดสก์ทอป\" จะใช้เมื่อต้องหากการให้ทำการตรวจสอบความถูกต้องของไฟล์สำรองนั้นด้วย</P> <P>การสำรองโดยใช้เทปแบคอัพจะใช้ชุดโปรแกรมที่ชื่อ <I>$module</I> โดยจะทำการสำรองข้อมูลทั้งหมดทั้งฮาร์ดไดร์ลงเทป และทำทุกวัน (ทุกคืน) มันทำงานได้เฉพาะกับเครื่องเล่นเทปที่มันรู้จักและเทปต้องป้องกัน มันจะทำงานโดยอัตโนมัติเมื่อถึงเวลาที่ตั้งไว้ (รวมถึงทำการเตือนล่วงหน้าให้ใส่เทป โดยจะอีเมล์ไปที่ผู้ดูแลระบบของเซอร์ฟเวอร์นี้) ขณะนี้ฮาร์ดดิสมีข้อมูลทั้งหมดขนาดประมาณ <b>$dumpsize</b></P> <P>วิธีการทั้งสองแบบต่างก็สามารถเรียกคืนข้อมูลสำรองไว้ได้ <b>คำแนะนำ การเรียกคืนข้อมูลสำรองนี้ควรทำเฉพาะกับเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>การสำรองข้อมูลและการนำข้อมูลสำรองของเซอร์ฟเวอร์กลับมาใช้มีสองวิธีคือ โดยใช้พื้นที่เดสก์ทอปบนเครื่องของคุณ และเทปแบคอัพ</p>
+
+  <p>ในวิธีแรกจะทำสำเนาการตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้ จากนั้นดาวน์โหลดลงมาที่เดสก์ทอปของคุณ ซึ่งจะทำผ่านเว็บเบราเซอร์ ปัจจุบันขนาดรวมของไฟล์การตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้มีอยู่ประมาณ <b>[_3]</b> โดยทั่วไปไฟล์แบคอัพจริงจะเล็กกว่านี้ ซึ่งขึ้นกับข้อมูลจะสามารถถูกบีบอัดลงได้มากแค่ใหน ตัวเลือก \"ตรวจทานไฟล์ของการสำรองไปเดสก์ทอป\" จะใช้เมื่อต้องหากการให้ทำการตรวจสอบความถูกต้องของไฟล์สำรองนั้นด้วย</p>
+
+  <p>การสำรองโดยใช้เทปแบคอัพจะใช้ชุดโปรแกรมที่ชื่อ <i>[_1]</i> โดยจะทำการสำรองข้อมูลทั้งหมดทั้งฮาร์ดไดร์ลงเทป และทำทุกวัน (ทุกคืน) มันทำงานได้เฉพาะกับเครื่องเล่นเทปที่มันรู้จักและเทปต้องป้องกัน มันจะทำงานโดยอัตโนมัติเมื่อถึงเวลาที่ตั้งไว้ (รวมถึงทำการเตือนล่วงหน้าให้ใส่เทป โดยจะอีเมล์ไปที่ผู้ดูแลระบบของเซอร์ฟเวอร์นี้) ขณะนี้ฮาร์ดดิสมีข้อมูลทั้งหมดขนาดประมาณ <b>[_2]</b></p>
+
+  <p>วิธีการทั้งสองแบบต่างก็สามารถเรียกคืนข้อมูลสำรองไว้ได้ <b>คำแนะนำ การเรียกคืนข้อมูลสำรองนี้ควรทำเฉพาะกับเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+
+  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>
+
+  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
+
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'สถานะและการตั้งค่าของการสำรองข้อมูล',
-'bac_TAPE_BACKUPS_ENABLED' => ' ขณะนี้การสำรองข้อมูลลงเทปถูก <b>เปิดใช้งาน</b> ',
+'bac_TAPE_BACKUPS_ENABLED' => ' ขณะนี้การสำรองข้อมูลลงเทปถูก เปิดใช้งาน ',
 'bac_BACKUPS_RUN_AT' => 'ปกติการสำรองลงเทปจะทำงานเวลา:',
 'bac_REMINDER_MESSAGE_AT' => 'ข้อความเตือนจะถูกส่งไปที่:',
-'bac_TAPE_BACKUPS_DISABLED' => ' การทำสำรองข้อมูลลงเทปถูก <b>ปิดการทำงาน</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' การทำสำรองข้อมูลลงเทปถูก ปิดการทำงาน ',
 'bac_DESKTOP_BACKUP' => 'สำรองข้อมูลส่งไปเดสก์ทอป',
 'bac_DESKTOP_RESTORE' => 'นำข้อมูลสำรองจากเดสก์ทอปมาใช้',
 'bac_DESKTOP_VERIFY' => 'ตรวจทานแฟ้มสำรองข้อมูลของเดสก์ทอป',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'ระบบการนำข้อมูลสำรองมาใช้ทำงานเสร็จแล้ว',
 'bac_STARTED_AT' => 'เริ่มต้นที่:',
 'bac_FINISHED_AT' => 'และสิ้นสุดที่:',
-'bac_YOU_MUST_REBOOT' => 'คุณต้องรีบูตเครื่องเซิร์ฟเวอร์เพื่อให้ค่าต่างๆ เปลี่ยนย้อนกลับไปเป็นเหมือนเมื่อตอนที่ได้ทำการสำรองข้อมูลสำรองส่งผล', 
+'bac_YOU_MUST_REBOOT' => 'คุณต้องรีบูตเครื่องเซิร์ฟเวอร์เพื่อให้ค่าต่างๆ เปลี่ยนย้อนกลับไปเป็นเหมือนเมื่อตอนที่ได้ทำการสำรองข้อมูลสำรองส่งผล',
 'bac_REBOOT' => 'รีบูต',
 'bac_SELECT_AN_ACTION' => 'เลือกดำเนินการอย่างใดอย่างหนึ่ง',
 'bac_X_BACKUP_OR_RESTORE' => 'X สำรองข้อมูล หรือนำข้อมูลสำรองของเซิร์ฟเวอร์กลับมาใช้',
@@ -25,11 +43,11 @@
 'bac_ERR_PRE_RESTORE' => 'ข้อผิดพลาดเกิดขึ้นระหว่างการเตรียมการนำข้อมูลสำรองมาใช้',
 'bac_ERR_POST_BACKUP' => 'ข้อผิดพลาดเกิดขึ้นระหว่างขั้นตอนหลังการสำรองข้อมูล',
 'bac_RESTORE_SERVER_CONFIG' => 'นำข้อมูลการตั้งค่าของเซิร์ฟเวอร์ที่สำรองไว้กลับมาใช้',
-'bac_DESKTOP_RESTORE_DESC' => ' กระบวนการนี้จะอัพโหลดแฟ้มสำรองข้อมูลจากเดสก์ทอปของคุณขึ้นเซิร์ฟเวอร์ และย้อนการตั้งค่าและแฟ้มต่างๆ ของผู้ใช้กลับไป<B>การกระทำนี้ควรเฉพาะทำกับเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</B> ',
+'bac_DESKTOP_RESTORE_DESC' => ' กระบวนการนี้จะอัพโหลดแฟ้มสำรองข้อมูลจากเดสก์ทอปของคุณขึ้นเซิร์ฟเวอร์ และย้อนการตั้งค่าและแฟ้มต่างๆ ของผู้ใช้กลับไปการกระทำนี้ควรเฉพาะทำกับเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่ ',
 'bac_FREE_SPACE' => ' คุณมีพื้นที่ว่างบนเซอร์ฟเวอร์ประมาณ $tmpfree ตรวจสอบแฟ้มสำรองข้อมูลที่เครื่องเดสก์ทอปของคุณก่อนว่ามีขนาดไม่ใหญ่กว่า$halffree ก่อนที่นำข้อมูลสำรองมาใช้ ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'หลังจากเรียกคืนข้อมูลสำรองเสร็จ คุณจะต้องรีบู๊ตเซิร์ฟเวอร์ใหม่',
 'bac_FILE_TO_RESTORE' => 'จะใช้แฟ้มข้อมูลสำรองจาก',
-'bac_VERIFY_BACKUP_DESC' => ' ตัวเลือกนี้จะแสดงชื่อไฟล์ทั้งหมดของแฟ้มสำรองข้อมูลบนเดสก์ทอปที่สร้างไปก่อนหน้านี้ คุณสามารถใช้ตัวเลือกนี้เพื่อตรวจสอบเนื้อหาของแฟ้มสำรองข้อมูล</p><p>ไฟล์สุดท้ายที่อยู่ในแฟ้มนั้นๆ ควรเป็นไฟล์ชื่อ "smbpasswd"</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' ตัวเลือกนี้จะแสดงชื่อไฟล์ทั้งหมดของแฟ้มสำรองข้อมูลบนเดสก์ทอปที่สร้างไปก่อนหน้านี้ คุณสามารถใช้ตัวเลือกนี้เพื่อตรวจสอบเนื้อหาของแฟ้มสำรองข้อมูลไฟล์สุดท้ายที่อยู่ในแฟ้มนั้นๆ ควรเป็นไฟล์ชื่อ "smbpasswd" ',
 'bac_SELECT_BACKUP_FILE' => 'เลือก ไฟล์สำรองข้อมูล',
 'bac_VERIFY' => 'ตรวจทาน',
 'bac_RESTORE_CANNOT_PROCEED' => 'ไม่สามารถดำเนินการเรียกคืน การตั้งค่าของเซิร์ฟเวอร์',
@@ -49,7 +67,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'แฟ้มสำรองไม่สมบูรณ์',
 'bac_ERR_READING_FILE' => 'มีข้อผิดพลาดในการอ่านแฟ้มสำรองข้อมูล',
 'bac_ENABLE_DISABLE_TAPE' => 'เปิดใช้/ปิดไม่ใช้ การสำรองลงเทปเวลากลางคืน (Nightly Tape Backup)',
-'bac_TAPE_CONFIG_DESC' => ' <p>เลือกว่าคุณต้องการเปิดใช้การสำรองข้อมูลเวลากลางคืนหรือไม่ แล้วระบุเวลาแจ้งเตือนให้ใส่เทปสำรองข้อมูล</p> <p>คุณต้องมีเครื่องบันทึกเทปสำรองข้อมูลที่ระบบรู้จัก และข้อความแจ้งเตือนจะถูกส่งไปยังผู้ดูแลระบบเมื่อถึงเวลาตั้งเตือนตามที่กำหนดหากตรวจพบว่าไม่มีเทปอยู่ในเครื่องบันทึก</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>เลือกว่าคุณต้องการเปิดใช้การสำรองข้อมูลเวลากลางคืนหรือไม่ แล้วระบุเวลาแจ้งเตือนให้ใส่เทปสำรองข้อมูล</p>
+
+  <p>คุณต้องมีเครื่องบันทึกเทปสำรองข้อมูลที่ระบบรู้จัก และข้อความแจ้งเตือนจะถูกส่งไปยังผู้ดูแลระบบเมื่อถึงเวลาตั้งเตือนตามที่กำหนดหากตรวจพบว่าไม่มีเทปอยู่ในเครื่องบันทึก</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'เปิดการใช้งานระบบเทปสำรองข้อมูล',
 'bac_TAPE_BACKUP_TIME' => 'สำรองลงเทป ณ. เวลา (ชั่วโมง/นาที)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'เตือนให้ใส่เทป ณ. เวลา (ชั่วโมง/นาที)',
@@ -70,7 +92,13 @@
 'bac_WITH_REMINDER_TIME' => 'และเวลาแจ้งเตือนให้ใส่เทป:',
 'bac_SUCCESSFULLY_DISABLED' => 'ปิดการใช้งานระบบเทปสำรองข้อมูลเสร็จแล้ว',
 'bac_RESTORE_CONF_FROM_TAPE' => 'คืนข้อมูลสำรองของการตั้งค่าของเซอร์เวอร์จากเทปสำรองข้อมูล',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <P>กระบวนการนี้จะเรียกคืนการตั้งค่าและไฟล์ข้อมูลผู้ใช้จากเซิร์ฟเวอร์เทปสำรองข้อมูล <B>การเรียกคืนข้อมูลแบบนี้ควรทำกับเฉพาะเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</B></P> <P>ให้แน่ใจว่าคุณได้ใส่เทปสำรองข้อมูลที่ต้องการในเครื่องอ่านเทปก่อนที่จะดำเนินการต่อ</P> <P>หลังจากเรียกคืนเสร็จสมบูรณ์คุณจะต้องรีบู๊ตเซิร์ฟเวอร์</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>กระบวนการนี้จะเรียกคืนการตั้งค่าและไฟล์ข้อมูลผู้ใช้จากเซิร์ฟเวอร์เทปสำรองข้อมูล <b>การเรียกคืนข้อมูลแบบนี้ควรทำกับเฉพาะเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></p>
+
+  <p>ให้แน่ใจว่าคุณได้ใส่เทปสำรองข้อมูลที่ต้องการในเครื่องอ่านเทปก่อนที่จะดำเนินการต่อ</p>
+
+  <p>หลังจากเรียกคืนเสร็จสมบูรณ์คุณจะต้องรีบู๊ตเซิร์ฟเวอร์</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'เรียกคืนข้อมูลสำรองจากเทป',
 'bac_UNABLE_TO_RESTORE_CONF' => 'ไม่สามารถเรียกคืนการตั้งค่าเซิร์ฟเวอร์',
 'bac_RESTORING_FROM_TAPE' => 'กำลังเรียกคืนข้อมูลสำรองจากเทป',
@@ -81,11 +109,11 @@
 'bac_SERVER_REBOOT' => 'รีบู๊ตเซอร์ฟเวอร์',
 'bac_SERVER_WILL_REBOOT' => 'เซอร์ฟเวอร์เริ่มต้นรีบู๊ต',
 'bac_NO_UID_FOR_NAME' => 'ไม่ได้สามารถระบุ uid ของ user ที่ชื่อ:',
-'bac_PAGE_REFRESH_IN' => ' หน้านี้จะรีเฟรชเพื่อแสดงสถานะล่าสุดใน {$sec} วินาที, หรือคลิ๊ก<a href="/server-manager/cgi-bin/backup">ที่นี่</a> ',
+'bac_PAGE_REFRESH_IN' => ' หน้านี้จะรีเฟรชเพื่อแสดงสถานะล่าสุดใน {$sec} วินาที, หรือคลิ๊กที่นี่ ',
 'bac_Backup or restore' => 'สำรองหรือเรียกคืนข้อมูลสำรอง',
-'bac_BACKUP_DESKTOP_TOO_BIG' => ' <div class="error"> เซิร์ฟเวอร์ของคุณมีข้อมูลมากเกินไปที่จะ สำรองข้อมูลไปเดสก์ทอป ได้อย่างน่าเชื่อถือได้</div> ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' การสำรองข้อมูลไปเครื่องลูกข่ายถูก <b>ปิดไม่ใช้งาน</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' ขณะนี้การ สำรองข้อมูลไปเครื่องลูกข่าย ถูก <b>เปิดใช้งาน</b> ',
+'bac_BACKUP_DESKTOP_TOO_BIG' => '  เซิร์ฟเวอร์ของคุณมีข้อมูลมากเกินไปที่จะ สำรองข้อมูลไปเดสก์ทอป ได้อย่างน่าเชื่อถือได้ ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' การสำรองข้อมูลไปเครื่องลูกข่ายถูก ปิดไม่ใช้งาน ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' ขณะนี้การ สำรองข้อมูลไปเครื่องลูกข่าย ถูก เปิดใช้งาน ',
 'bac_WKBACKUPS_RUN_AT' => 'การสำรองข้อมูลไปเครื่องลูกข่ายจะเริ่มทำงานตามปกติ ณ. เวลา',
 'bac_WORKSTN_CONFIGURE' => 'ตั้งค่า สำรองข้อมูลไปเครื่องลูกข่าย',
 'bac_WORKSTN_VERIFY' => 'ตรวจทานข้อมูลของการ สำรองข้อมูลไปเครื่องลูกข่าย',
@@ -98,9 +126,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'เปิดใช้งานการสำรองข้อมูลไปเครื่องลูกข่ายเสร็จแล้ว',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'ปิดไม่ใช้งานการสำรองข้อมูลไปเครื่องลูกข่ายเสร็จแล้ว',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'ตรวจทานข้อมูลของการ สำรองข้อมูลไปเครื่องลูกข่าย',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>ตัวเลือกนี้จะแสดงชื่อของไฟล์ทั้งหมดที่เคยสร้างไปของของการสำรองไปเครื่องลูกข่ายรายวัน คุณสามารถใช้ตัวเลือกนี้เพื่อตรวจสอบความถูกต้องของไฟล์ <b>โดยให้เลือกไฟล์ที่คุณต้องการตรวจสอบ</b></p> <p>เฉพาะไฟล์ที่มีการทำเครื่องหมาย[บันทึก] อยู่ข้างใน</p> <br/>จะการตรวจสอบนี้จะทำกับไฟล์ที่เก็บไว้ที่ : ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>ตัวเลือกนี้จะแสดงชื่อของไฟล์ทั้งหมดที่เคยสร้างไปของของการสำรองไปเครื่องลูกข่ายรายวัน คุณสามารถใช้ตัวเลือกนี้เพื่อตรวจสอบความถูกต้องของไฟล์ <b>โดยให้เลือกไฟล์ที่คุณต้องการตรวจสอบ</b></p>
+
+  <p>เฉพาะไฟล์ที่มีการทำเครื่องหมาย[บันทึก] อยู่ข้างใน</p>
+
+  <br/>จะการตรวจสอบนี้จะทำกับไฟล์ที่เก็บไว้ที่ : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'เรียกคืนข้อมูลการตั้งค่าของเซอร์ฟเวอร์จากเครื่องลูกข่าย',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>กระบวนการนี้จะเรียกคืนการตั้งค่าและไฟล์ข้อมูลของผู้ใช้จากเครื่องลูกข่ายที่รับเก็บมูลสำรองไว้ <b>การเรียกคืนนี้ควรทำกับเฉพาะเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></p> <p>ให้เลือกการไฟล์ข้อมูลสำรองที่ถูกต้องเพื่อดำเนินการด้านล่างนี้</p> <p>หลังจากการเรียกคืนข้อมูลสำรองเสร็จสมบูรณ์ คุณจะต้องรูบู๊ตเซิร์ฟเวอร์</p>เรียกคืนข้อมูลสำรองจาก : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>กระบวนการนี้จะเรียกคืนการตั้งค่าและไฟล์ข้อมูลของผู้ใช้จากเครื่องลูกข่ายที่รับเก็บมูลสำรองไว้ <b>การเรียกคืนนี้ควรทำกับเฉพาะเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></p>
+
+  <p>ให้เลือกการไฟล์ข้อมูลสำรองที่ถูกต้องเพื่อดำเนินการด้านล่างนี้</p>
+
+  <p>หลังจากการเรียกคืนข้อมูลสำรองเสร็จสมบูรณ์ คุณจะต้องรูบู๊ตเซิร์ฟเวอร์</p>
+
+  เรียกคืนข้อมูลสำรองจาก : ',
 'bac_RESTORE_FROM_WORKSTN' => 'เรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย',
 'bac_RESTORING_FROM_WORKSTN' => 'กำลังเรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'กำลังเริ่มการเรียกคืนข้อมูลสำรองการตั้งค่าและไฟล์ข้อมูลของผู้ใช้จากแหล่งที่เก็บบนเครื่องลูกข่าย',
@@ -124,7 +162,7 @@
 'bac_NUMBER_OF_SETS' => 'จำนวนการเวียนใช้ของ backup sets',
 'bac_NUMBER_OF_FILES_IN_SET' => 'ในแต่ละชุดเป็นการสำรองข้อมูลรายวัน',
 'bac_ERR_INVALID_SETS_NUMBER' => 'ตัวเลขชุดต้องเป็นเลข 1 หรือมากกว่า',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'ตัวเลขนี้ต้องเป็นเลข 1 หรือมากกว่า การสำรองครั้งแรกจะเป็นการสำรองแบบ<b>เต็ม</b> ถัดมาจะเป็นข้อมูลเฉพาะที่<b>แตกต่าง</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'ตัวเลขนี้ต้องเป็นเลข 1 หรือมากกว่า การสำรองครั้งแรกจะเป็นการสำรองแบบเต็ม ถัดมาจะเป็นข้อมูลเฉพาะที่แตกต่าง',
 'bac_WORKSTN_TIMEOUT' => 'ตัวเลือกเพิ่มเติม ระยะเวลาสูงสุดที่ให้ใช้ในการทำการสำรอง (เป็นชั่วโมง)',
 'bac_INC_ONLY_TIMEOUT' => 'ไม่ให้การสำรองแบบเต็มมีการหมดเวลา',
 'bac_ERR_INVALID_TIMEOUT' => 'ระยะเวลาสูงสุดที่จะให้ใช้ในการทำสำรอง ต้องอยู่ระหว่าง 1 ถึง 24 ชั่วโมง',
@@ -133,11 +171,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'ทำการเลือกไฟล์ที่จะเรียกคืนจากเครื่องลูกข่าย',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'ไฟล์ที่ทำการเลือกให้เรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย',
 'bac_ALL_BACKUPS' => 'ทุกการสำรอง',
-'bac_WORKSTN_SEL_REST_DESC' => ' กระบวนการนี้จะเรียกคืนแฟ้มและไดเรกทอรีที่ระบุเท่านั้น คุณต้องเลือกไฟล์สำรองที่จะให้กู้คืน ถ้าคุณไม่ทราบที่ว่าไฟล์ใดที่จะต้องเรียกคืนให้ใช้ตัวเลือก \'ทุกๆ การสำรอง (All backups)\' <br/><br/>หน้าจอถัดไปจะมีการแสดงไฟล์และไดเรกทอรีเพื่อจะให้คุณระบุสิ่งที่ต้องเรียกคืน คุณสามารถจำกัดจำนวนไฟล์และไดเรกทอรีที่ปรากฏในหน้าจอนั้นโดยการตั้งเงื่อนไขข้อมูลที่จะให้แสดง, applied as a regular expression to the displayed names.<br/><br/>เป็นสิ่งที่พึงระวังและคุณต้องรับทราบความเสี่ยงว่า การเรียกคืนข้อมูลเช่นนี้นี้อาจทำให้เซอร์ฟเวอร์ทำงานผิดปกติ หรือไม่สามารถทำงานได้<br/> <br/>ขณะนี้ จะเป็นการเรียกคืนไฟล์ข้อมูลสำรองจาก : ',
+'bac_WORKSTN_SEL_REST_DESC' => ' กระบวนการนี้จะเรียกคืนแฟ้มและไดเรกทอรีที่ระบุเท่านั้น คุณต้องเลือกไฟล์สำรองที่จะให้กู้คืน ถ้าคุณไม่ทราบที่ว่าไฟล์ใดที่จะต้องเรียกคืนให้ใช้ตัวเลือก \'ทุกๆ การสำรอง (All backups)\' หน้าจอถัดไปจะมีการแสดงไฟล์และไดเรกทอรีเพื่อจะให้คุณระบุสิ่งที่ต้องเรียกคืน คุณสามารถจำกัดจำนวนไฟล์และไดเรกทอรีที่ปรากฏในหน้าจอนั้นโดยการตั้งเงื่อนไขข้อมูลที่จะให้แสดง, applied as a regular expression to the displayed names.เป็นสิ่งที่พึงระวังและคุณต้องรับทราบความเสี่ยงว่า การเรียกคืนข้อมูลเช่นนี้นี้อาจทำให้เซอร์ฟเวอร์ทำงานผิดปกติ หรือไม่สามารถทำงานได้ ขณะนี้ จะเป็นการเรียกคืนไฟล์ข้อมูลสำรองจาก : ',
 'bac_BACKUP_CHOICE' => 'เลือกไฟล์ที่จะแสดง',
 'bac_SELECT_DATE_BEFORE' => 'เรียกคืนข้อมูลทั้งหมด ณ. เวลาก่อน',
 'bac_FILTER_EXPRESSION' => 'ชื่อที่ถูกกรองโดยเงื่อนไข',
-'bac_READ_COMPLETE' => ' คุณสามารถเลือกไดเรกทอรีและไฟล์ที่คุณต้องการเรียกคืนในรายการที่แสดง (ใช้ ctrl หรือ shiftเพื่อเลือกหลายๆ รายการ)<br/> <b>คำเตือน:</b> ถ้าคุณเลือกไดเรกทอรี ทุกไฟล์และไดเรกทอรีที่ข้างในจะถูกเลือกใช้<p/> โดยค่าเริ่มต้น ทุกอย่างของเวอร์ชันล่าสุดของไฟล์ที่ถูกเลือกจะถูกเรียกคืนทั้งหมด แต่ถ้าคุณระบุวันที่ในรูปแบบ <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> กระบวนการจะเรียกคืนเฉพาะรายการที่ถูกแก้ไขล่าสุด <b>ก่อนวันที่ที่ระบุ</b> ',
+'bac_READ_COMPLETE' => ' คุณสามารถเลือกไดเรกทอรีและไฟล์ที่คุณต้องการเรียกคืนในรายการที่แสดง (ใช้ ctrl หรือ shiftเพื่อเลือกหลายๆ รายการ) คำเตือน: ถ้าคุณเลือกไดเรกทอรี ทุกไฟล์และไดเรกทอรีที่ข้างในจะถูกเลือกใช้ โดยค่าเริ่มต้น ทุกอย่างของเวอร์ชันล่าสุดของไฟล์ที่ถูกเลือกจะถูกเรียกคืนทั้งหมด แต่ถ้าคุณระบุวันที่ในรูปแบบ [ [ [yyyy/]mm/]dd-]hh:mm[:ss] กระบวนการจะเรียกคืนเฉพาะรายการที่ถูกแก้ไขล่าสุด ก่อนวันที่ที่ระบุ ',
 'bac_ERR_INVALID_SELDATE' => 'วันที่ที่ถูกต้องต้องอยู่ในรูปแบบ [ [ [yyyy/]mm/]dd-]hh:mm[:ss] เช่น: 2005/12/31-08:23:32 หรือ 10-08:32 หรือ 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'เลือกไฟล์ที่จะเรียกคืน',
 'bac_ERR_WHILE_UNMOUNTING' => 'เกิดข้อผิดพลาดขึ้นเมื่อทำการ unmount พื้นที่ปลายทาง',
@@ -147,8 +185,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'ระดับการบีบอัดต้องอยู่ระหว่าง 0 (ไม่บีบอัด) และ 9 (บีบอัดให้มากที่สุด)',
 'bac_DOW' => 'วันอาทิตย์ วันจันทร์ วันอังคาร วันพุธ วันพฤหัสบดี วันศุกร์ วันเสาร์ ทุกวัน',
 'bac_CONFIGURATION_TO_BE_DONE' => 'กรุณาตั้งค่าการสำรองข้อมูล',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>หน้าจอนี้จะแสดงข้อมูลปัจจุบันของการตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่าย คุณสามารถแก้ไขค่าต่างๆ ที่หน้าจอนี้ และในหน้าจอถัดไป</p> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>ขณะนี้ การสำรองไปเครื่องลูกข่ายไม่ได้ถูกตั้งค่า คุณสามารถตั้งค่าในหน้าจอนี้และหน้าจอถัดไป</p> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>หน้าจอนี้จะแสดงข้อมูลปัจจุบันของการตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่าย คุณสามารถแก้ไขค่าต่างๆ ที่หน้าจอนี้ และในหน้าจอถัดไป</p>
+
+  ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>ขณะนี้ การสำรองไปเครื่องลูกข่ายไม่ได้ถูกตั้งค่า คุณสามารถตั้งค่าในหน้าจอนี้และหน้าจอถัดไป</p>
+
+  ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'การสำรองคือ',
 'bac_WORKSTN_BACKUP_USB' => 'ทำการสำรองลงที่ local removable disk',
 'bac_WORKSTN_BACKUP_MNT' => 'ทำการสำรองลงที่ local removable disk',

@@ -1,7 +1,7 @@
 'ln_Local networks' => '本地网络',
-'ln_FIRSTPAGE_DESC' => ' 基于安全因素，服务器的一些服务只在本地网络有效。然而，您可以通过下面的列表赋予其他网络访问本地网络的权限。大部分的情况会将此列表留空。</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">添加网络地址</a> ',
+'ln_FIRSTPAGE_DESC' => ' 基于安全因素，服务器的一些服务只在本地网络有效。然而，您可以通过下面的列表赋予其他网络访问本地网络的权限。大部分的情况会将此列表留空。 添加网络地址 ',
 'ln_ADD_TITLE' => '添加一个本地网络',
-'ln_ADD_DESC' => ' 每个参数的格式为 #.#.#.# (每一个 # 为0到255之间的数字)。 服务器会根据子网掩码将网络地址的最后一位（作为主机标识）重置为零。 </P><P> "Router" 应该是本地网络上的路由器的IP地址，通过此地址外部网络可以访问本地网络。 ',
+'ln_ADD_DESC' => ' 每个参数的格式为 #.#.#.# (每一个 # 为0到255之间的数字)。 服务器会根据子网掩码将网络地址的最后一位（作为主机标识）重置为零。  "Router" 应该是本地网络上的路由器的IP地址，通过此地址外部网络可以访问本地网络。 ',
 'ln_NETWORK_ADDRESS' => '网络地址',
 'ln_SUBNET_MASK' => '子网掩码',
 'ln_INVALID_IP_ADDRESS' => '无效的IP地址',
@@ -18,7 +18,13 @@
 'ln_SUCCESS' => '成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。',
 'ln_SUCCESS_SINGLE_ADDRESS' => '成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。服务器将赋予IP地址{$network}访问本地网络的权限。',
 'ln_SUCCESS_NETWORK_RANGE' => '成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。服务器将赋予在{$firstAddr} 和{$lastAddr}之间的{$totalHosts}个IP地址访问本地网络的权限。',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> 成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。 </p> <p> 服务器将赋予在{$firstAddr} 和{$lastAddr}之间的{$totalHosts}个IP地址访问本地网络的权限。 </p> <p> 警告:ProFTPd FTP 服务器不能处理这种非标准的子网掩码。 简单的说明 <b>{$simpleMask}</b> 将会被替代。 </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> 成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。 </p>
+
+  <p> 服务器将赋予在{$firstAddr} 和{$lastAddr}之间的{$totalHosts}个IP地址访问本地网络的权限。 </p>
+
+  <p> 警告:ProFTPd FTP 服务器不能处理这种非标准的子网掩码。 简单的说明 <b>{$simpleMask}</b> 将会被替代。 </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => '成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。',
 'ln_ERROR_DELETING_NETWORK' => '尝试删除网络地址时出错。',
 'ln_NO_ADDITIONAL_NETWORKS' => '暂无其他网络',

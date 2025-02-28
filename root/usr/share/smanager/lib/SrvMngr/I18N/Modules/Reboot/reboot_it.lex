@@ -6,5 +6,5 @@
 'rbo_DESC_RECONFIGURE' => 'Il server ha iniziato la procedura di riconfigurazione e reboot.',
 'rbo_DESC_SHUTDOWN' => 'Il server ha appena iniziato la procedura di arresto. L\'operazione si completerà entro alcuni minuti, al termine sarà possibile spegnere il server togliendo l\'alimentazione.',
 'rbo_LABEL_REBOOT' => 'Selezionare Arresto o Riavvio',
-'rbo_DESCRIPTION' => ' E\' possibile spegnere o riavviare il server. E\' obbligatorio arrestare il sistema prima di spegnere il server. Entrambe le funzioni impiegano alcuni minuti. Facendo clic su <b>Esegui</b> l\'operazione inizierà immediatamente! ',
+'rbo_DESCRIPTION' => ' E\' possibile spegnere o riavviare il server. E\' obbligatorio arrestare il sistema prima di spegnere il server. Entrambe le funzioni impiegano alcuni minuti. Facendo clic su Esegui l\'operazione inizierà immediatamente! ',
 'Reboot or shutdown' => 'Riavvio o arresto',

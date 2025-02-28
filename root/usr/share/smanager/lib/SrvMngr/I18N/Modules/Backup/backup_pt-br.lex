@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Fazer backup ou restaurar dados do servidor',
-'bac_BACKUP_DESC' => ' <P>Existem duas maneiras de fazer backup e restore do seu servidor: usando seu micro local ou um drive de fita.</P> <P>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>$tarsize</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. A opção\"Verificar arquivo de backup para desktop\" pode ser usado para verificar a integridade de um arquivo de backup para o desktop.</P> <P>O método de backup em fita usa um pacote de software chamado <I>$module</I> para fazer o backup de seu disco rígido inteiro para a fita todas as noites. Isto requer um drive de fita suportado e que a fita não esteja protegida contra gravação. O backup é feito automaticamente no horário selecionado a cada noite (com um lembrete sendo enviado automaticamente por e-mail ao administrador durante o dia). Atualmente seu disco rígido contém <b>$dumpsize</b> de dados.</P> <P>Todos métodos de restauração permitem que você restaure sua configuração e arquivos de dados dos usuários. O método de backup para micro da rede local permite um restauração de arquivos individuais. <b>Idealmente um backup completo deveria ser restaurado num servidor recém instalado.</b></P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Existem três maneiras de fazer backup e restore do seu servidor: usando seu micro local, um drive de fita ou um dispositivo de um computador da rede.</P> <P>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>$tarsize</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. Este arquivo pode ser usado para restaurar o servidor a partir da console se voce copiá-lo para uma mídia removível como um disco USB.</P> <P>O método de backup em fita usa um pacote de software chamado <I>$module</I> para fazer o backup de seu disco rígido inteiro para a fita todas as noites. Isto requer um drive de fita suportado e que a fita não esteja protegida contra gravação. O backup é feito automaticamente no horário selecionado a cada noite (com um lembrete sendo enviado automaticamente por e-mail ao administrador durante o dia). Atualmente seu disco rígido contém <b>$dumpsize</b> de dados.</P> <P>O método de backup para computador da rede usa um pacote de software chamado <I>dar</I> para fazer o backup da configuração de seu servidor e dos dados para um computador na rede local (ou um disco USB). Isto requer que você forneça um compartilhamento gravável (cifs ou nfs) no micro da rede local ou num disco USB. Você pode gerenciar quantos conjuntos de backup são mantidos no compartilhamento de backup e pode também definir um backup incremental por vários dias. O backup é realizado automaticamente no horário selecionado a cada noite. Atualmente sua configuração e arquivos de dados somam aproximadamente <b>$tarsize</b> (sem comprimir). No compartilhamento de backup deve estar disponível o DOBRO do espaço citado acima.</P> <P>Todos métodos de restauração permitem que você restaure sua configuração e arquivos de dados dos usuários. O método de backup para micro da rede local permite uma restauração de arquivos individuais. <b>Idealmente um restore completo deveria ser realizado num servidor recém instalado.</b></P> ',
+'bac_BACKUP_DESC' => ' <p>Existem duas maneiras de fazer backup e restore do seu servidor: usando seu micro local ou um drive de fita.</p>
+
+  <p>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>[_3]</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. A opção\"Verificar arquivo de backup para desktop\" pode ser usado para verificar a integridade de um arquivo de backup para o desktop.</p>
+
+  <p>O método de backup em fita usa um pacote de software chamado <i>[_1]</i> para fazer o backup de seu disco rígido inteiro para a fita todas as noites. Isto requer um drive de fita suportado e que a fita não esteja protegida contra gravação. O backup é feito automaticamente no horário selecionado a cada noite (com um lembrete sendo enviado automaticamente por e-mail ao administrador durante o dia). Atualmente seu disco rígido contém <b>[_2]</b> de dados.</p>
+
+  <p>Todos métodos de restauração permitem que você restaure sua configuração e arquivos de dados dos usuários. O método de backup para micro da rede local permite um restauração de arquivos individuais. <b>Idealmente um backup completo deveria ser restaurado num servidor recém instalado.</b></p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Existem três maneiras de fazer backup e restore do seu servidor: usando seu micro local, um drive de fita ou um dispositivo de um computador da rede.</p>
+
+  <p>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>[_3]</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. Este arquivo pode ser usado para restaurar o servidor a partir da console se voce copiá-lo para uma mídia removível como um disco USB.</p>
+
+  <p>O método de backup em fita usa um pacote de software chamado <i>[_1]</i> para fazer o backup de seu disco rígido inteiro para a fita todas as noites. Isto requer um drive de fita suportado e que a fita não esteja protegida contra gravação. O backup é feito automaticamente no horário selecionado a cada noite (com um lembrete sendo enviado automaticamente por e-mail ao administrador durante o dia). Atualmente seu disco rígido contém <b>[_2]</b> de dados.</p>
+
+  <p>O método de backup para computador da rede usa um pacote de software chamado <i>dar</i> para fazer o backup da configuração de seu servidor e dos dados para um computador na rede local (ou um disco USB). Isto requer que você forneça um compartilhamento gravável (cifs ou nfs) no micro da rede local ou num disco USB. Você pode gerenciar quantos conjuntos de backup são mantidos no compartilhamento de backup e pode também definir um backup incremental por vários dias. O backup é realizado automaticamente no horário selecionado a cada noite. Atualmente sua configuração e arquivos de dados somam aproximadamente <b>[_3]</b> (sem comprimir). No compartilhamento de backup deve estar disponível o DOBRO do espaço citado acima.</p>
+
+  <p>Todos métodos de restauração permitem que você restaure sua configuração e arquivos de dados dos usuários. O método de backup para micro da rede local permite uma restauração de arquivos individuais. <b>Idealmente um restore completo deveria ser realizado num servidor recém instalado.</b></p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Configuração de backup e status',
-'bac_TAPE_BACKUPS_ENABLED' => ' O backup para fita está atualmente <b>habilitado</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' O backup para fita está atualmente habilitado. ',
 'bac_BACKUPS_RUN_AT' => 'Um regular tape backup irá rodar as:',
 'bac_REMINDER_MESSAGE_AT' => 'Mensagem de advertência será enviada as:',
-'bac_TAPE_BACKUPS_DISABLED' => ' O tape backup está <b>desativado</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' O tape backup está desativado ',
 'bac_DESKTOP_BACKUP' => 'Backup para o desktop',
 'bac_DESKTOP_RESTORE' => 'Restaurar do desktop',
 'bac_DESKTOP_VERIFY' => 'Verificar arquivos de bakup do desktop',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'A restauração do sistema foi completada',
 'bac_STARTED_AT' => 'Começou as:',
 'bac_FINISHED_AT' => 'e terminou as:',
-'bac_YOU_MUST_REBOOT' => 'Você tem que reinicializar o sistema para que as modificações feitas com a restauração surtam efeito.', 
+'bac_YOU_MUST_REBOOT' => 'Você tem que reinicializar o sistema para que as modificações feitas com a restauração surtam efeito.',
 'bac_REBOOT' => 'Reiniciar',
 'bac_SELECT_AN_ACTION' => 'Selecionar uma ação',
 'bac_X_BACKUP_OR_RESTORE' => 'X Backup ou restaurar dados do servidor',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => 'Ocorreu um erro durante a ação de pre-restauração.',
 'bac_ERR_POST_BACKUP' => 'Ocorreu um erro durante a ação de pos-backup.',
 'bac_RESTORE_SERVER_CONFIG' => 'Configurar restauração do servidor',
-'bac_DESKTOP_RESTORE_DESC' => ' Este processo irá carregar um arquivo de backup no servidor do desktop local e restaurar a configuração e arquivos de dados dos usuários. <B>A restauração deve ser feita em uma nova instalação do servidor</B> ',
+'bac_DESKTOP_RESTORE_DESC' => ' Este processo irá carregar um arquivo de backup no servidor do desktop local e restaurar a configuração e arquivos de dados dos usuários. A restauração deve ser feita em uma nova instalação do servidor ',
 'bac_FREE_SPACE' => ' Você tem aproximadamente $tmpfree de espaço livre no servidor. Verifique se o arquivo de backup para desktop é menor que $halffree antes de começar a restauração. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'Depois de concluída a restauração você tem que reiniciar o servidor.',
 'bac_FILE_TO_RESTORE' => 'Arquivo de backup para restaurar do',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Esta opção irá mostrar todos os nomes de arquivos de backup para desktop criados anteriormente. Você pode usar esta opção para verificar o conteúdo do arquivo de backup.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Esta opção irá mostrar todos os nomes de arquivos de backup para desktop criados anteriormente. Você pode usar esta opção para verificar o conteúdo do arquivo de backup.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Selecionar arquivo de backup',
 'bac_VERIFY' => 'Verificar',
 'bac_RESTORE_CANNOT_PROCEED' => 'Incapaz de continuar com a restauração da configuração do servidor',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'O arquivo de backup estava incompleto',
 'bac_ERR_READING_FILE' => 'Existiu um erro na leitura do arquivo de backup.',
 'bac_ENABLE_DISABLE_TAPE' => 'Habilitar/Desabilitar backup noturno para fita',
-'bac_TAPE_CONFIG_DESC' => ' <p>Selecionar se deseja habilitar backup noturno. Então indique os horários desejados para backup e aviso do carregamento da fita de backup.</p> <p>O backup para fita requer um drive compatível. Uma mensagem de aviso será enviada para o administrador no tempo desejado se o drive de fita estiver vazio.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Selecionar se deseja habilitar backup noturno. Então indique os horários desejados para backup e aviso do carregamento da fita de backup.</p>
+
+  <p>O backup para fita requer um drive compatível. Uma mensagem de aviso será enviada para o administrador no tempo desejado se o drive de fita estiver vazio.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Habilitar backup para fita',
 'bac_TAPE_BACKUP_TIME' => 'Hora do backup para fita (hora/min)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Hora para relembrar carga da fita de backup (hora/min)',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => 'e aviso de hora para carregamento da fita de backup:',
 'bac_SUCCESSFULLY_DISABLED' => 'Desabilitando com sucesso os backups para fita',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Restaurando configuração do servidor da fita de backup',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Este processo irá restaurar configuração do servidor e arquivos dos usuários de um tape backup. <B>A restauração devera ser feita em uma nova instalação de servidor</B>.</p> <p>Certifique-se de ter inserido o tape desejado no tape drive antes de proceder a restauração.</p> <p>Depois da completada a restauração você tem que reinicializar o servidor.</p> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Este processo irá restaurar configuração do servidor e arquivos dos usuários de um tape backup. <b>A restauração devera ser feita em uma nova instalação de servidor</b>.</p>
+
+  <p>Certifique-se de ter inserido o tape desejado no tape drive antes de proceder a restauração.</p>
+
+  <p>Depois da completada a restauração você tem que reinicializar o servidor.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Restaurar da fita',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Incapaz de restaurar configuração do servidor',
 'bac_RESTORING_FROM_TAPE' => 'Restaurando da Fita',
@@ -81,10 +111,10 @@
 'bac_SERVER_REBOOT' => 'Reinicializar servidor',
 'bac_SERVER_WILL_REBOOT' => 'Seu servidor irá reinicializar agora.',
 'bac_NO_UID_FOR_NAME' => 'Incapaz de achar uid para usuário chamado:',
-'bac_PAGE_REFRESH_IN' => ' Esta página irá recarregar em {$sec} segundos, ou clique <a href="/server-manager/cgi-bin/backup">aqui</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Esta página irá recarregar em {$sec} segundos, ou clique aqui. ',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Seu servidor tem muitos dados para que um backup para desktop seja confiável.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' O backup para micro da rede local está <b>desativado</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' O backup para micro da rede local está atualmente <b>habilitado</b>. ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' O backup para micro da rede local está desativado ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' O backup para micro da rede local está atualmente habilitado. ',
 'bac_WKBACKUPS_RUN_AT' => 'Backup para micro da rede local será executado às:',
 'bac_WORKSTN_CONFIGURE' => 'Configure o backup para micro da rede local',
 'bac_WORKSTN_VERIFY' => 'Verificar um backup para micro da rede local',
@@ -97,9 +127,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Sucesso ao habilitar o backup para micro da rede local',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Sucesso ao desabilitar o backup para micro da rede local',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Verificar um backup para micro da rede local',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Esta opção mostrará o nome de todos os arquivos de backup para micro da rede local já criados. Você pode usar esta opção para verificar o conteúdo do backup.<b>Você deve escolher o backup que deseja verificar</b></p> <p>Somente arquivos marcados com [Saved] estão contidos no backup.</p><br/>Arquivos de backup são verificados a partir do compartilhamento: ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Esta opção mostrará o nome de todos os arquivos de backup para micro da rede local já criados. Você pode usar esta opção para verificar o conteúdo do backup.<b>Você deve escolher o backup que deseja verificar</b></p>
+
+  <p>Somente arquivos marcados com [Saved] estão contidos no backup.</p>
+
+  <br/>Arquivos de backup são verificados a partir do compartilhamento: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Restaurando configuração do servidor a partir do backup feito para micro da rede local',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Este processo irá restaurar a configuração do servidor e arquivos dos usuários de um backup para micro da rede local. <b>A restauração deverá ser feita em uma nova instalação de servidor</b>.</p> <p>Assegure-se de escolher o backup correto antes de continuar o procedimento de restauração.</p> <p>Depois da terminada a restauração você PRECISA reinicializar o servidor.</p> O backup será restaurado de: ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Este processo irá restaurar a configuração do servidor e arquivos dos usuários de um backup para micro da rede local. <b>A restauração deverá ser feita em uma nova instalação de servidor</b>.</p>
+
+  <p>Assegure-se de escolher o backup correto antes de continuar o procedimento de restauração.</p>
+
+  <p>Depois da terminada a restauração você PRECISA reinicializar o servidor.</p>
+
+  O backup será restaurado de: ',
 'bac_RESTORE_FROM_WORKSTN' => 'Restore de micro da rede local',
 'bac_RESTORING_FROM_WORKSTN' => 'Restaurando de micro da rede local',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Sua configuração do servidor e arquivos de dados estão sendo restaurados do compartilhamento no micro da rede local.',
@@ -123,7 +163,7 @@
 'bac_NUMBER_OF_SETS' => 'Número de conjuntos de backup antes de rotacionar',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Backups diários em cada conjunto',
 'bac_ERR_INVALID_SETS_NUMBER' => 'O número de conjuntos deve ser maior ou igual a 1.',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Este número deve ser igual ou maior que 1. O primeiro backup no conjunto é o <b>COMPLETO</b> os outros são <b>incrementais</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Este número deve ser igual ou maior que 1. O primeiro backup no conjunto é o COMPLETO os outros são incrementais',
 'bac_WORKSTN_TIMEOUT' => 'Limite opcional de estouro de tempo (timeout) da sessão de backup (em horas).',
 'bac_INC_ONLY_TIMEOUT' => 'Não use estouro de tempo para sessões de backup completo',
 'bac_ERR_INVALID_TIMEOUT' => 'O tempo máximo de backup deve estar entre 1 e 24 horas',
@@ -132,11 +172,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Restauração seletiva de alguns arquivos do backup para micro da rede local',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Restauração seletiva de arquivos do backup para micro da rede local',
 'bac_ALL_BACKUPS' => 'Todos os backups',
-'bac_WORKSTN_SEL_REST_DESC' => ' Este processo restaurará apenas os arquivos e diretórios especificados. Primeiro escolha o backup do qual os arquivos serão restaurados. Se você não sabe em qual backup estão os arquivos, escolha a opção \'Todos backups\' .<br/><br/> A próxima tela mostrará todos arquivos e diretórios disponíveis para que você escolha aqueles que deseja restaurar. Para diminuir o número de arquivos e diretórios mostrados nesta tela, você poderá inserir agora uma expressão de filtragem, aplicada como expressão regular aos nomes mostrados.<br/><br/> É sua a responsabilidade de <b>não restaurar</b> arquivos que poderiam fazer o servidor parar de funcionar.<br/><br/>Os arquivos serão restaurados de : ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Este processo restaurará apenas os arquivos e diretórios especificados. Primeiro escolha o backup do qual os arquivos serão restaurados. Se você não sabe em qual backup estão os arquivos, escolha a opção \'Todos backups\' . A próxima tela mostrará todos arquivos e diretórios disponíveis para que você escolha aqueles que deseja restaurar. Para diminuir o número de arquivos e diretórios mostrados nesta tela, você poderá inserir agora uma expressão de filtragem, aplicada como expressão regular aos nomes mostrados. É sua a responsabilidade de não restaurar arquivos que poderiam fazer o servidor parar de funcionar.Os arquivos serão restaurados de : ',
 'bac_BACKUP_CHOICE' => 'Selecionando arquivos para mostrar',
 'bac_SELECT_DATE_BEFORE' => 'Restaurar arquivos mais recentes que',
 'bac_FILTER_EXPRESSION' => 'Nomes filtrados por',
-'bac_READ_COMPLETE' => ' Você pode escolher todos os diretórios e arquivos que você não quer restaurar na lista mostrada (use CTRL ou SHIFT para seleção múltipla). <br/> <b>ATENÇÃO :</b> Se você selecionar um diretório, todos arquivos e subdiretórios contidos abaixo dele serão restaurados.<p/> O padrão é que somente a versão mais recente dos arquivos selecionados seja restaurada, mas se você especificar uma data no formato <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> o processo restaurará apenas a versão mais recente modificada<b>ANTES da data fornecida</b>. ',
+'bac_READ_COMPLETE' => ' Você pode escolher todos os diretórios e arquivos que você não quer restaurar na lista mostrada (use CTRL ou SHIFT para seleção múltipla).  ATENÇÃO : Se você selecionar um diretório, todos arquivos e subdiretórios contidos abaixo dele serão restaurados. O padrão é que somente a versão mais recente dos arquivos selecionados seja restaurada, mas se você especificar uma data no formato [ [ [yyyy/]mm/]dd-]hh:mm[:ss] o processo restaurará apenas a versão mais recente modificadaANTES da data fornecida. ',
 'bac_ERR_INVALID_SELDATE' => 'Formato de data inválido, deve ser[ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Selecione arquivos para restaurar',
 'bac_ERR_WHILE_UNMOUNTING' => 'Ocorreu um erro quando desmontando o compartilhamento remoto',
@@ -146,8 +186,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'O nível de compressão deve ser definido entre 0 (sem compressão) e 9 (compressão máxima)',
 'bac_DOW' => 'Domingo Segunda Terça Quarta Quinta Sexta Sábado TodosDias',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Por favor, altere as configurações de Backup.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Esta tela mostra a configuração atual do backup para micro da rede local . Você pode mudá-la nesta tela e na próxima.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Atualmente o backup para micro da rede local não está configurado. Você pode defini-lo nesta tela e na próxima.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Esta tela mostra a configuração atual do backup para micro da rede local . Você pode mudá-la nesta tela e na próxima.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Atualmente o backup para micro da rede local não está configurado. Você pode defini-lo nesta tela e na próxima.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'O backup está',
 'bac_WORKSTN_BACKUP_USB' => 'O Backup é feito no disco local removível',
 'bac_WORKSTN_BACKUP_MNT' => 'O Backup é feito no disco já montado.',

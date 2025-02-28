@@ -1,11 +1,27 @@
 'bac_BACKUP_TITLE' => 'Sichern oder Wiederherstellen der Serverdaten',
-'bac_BACKUP_DESC' => ' <P>Der Server bietet zwei Möglichkeiten, den Server zu sichern und wiederherzustellen: entweder auf dem lokalen Desktop oder auf ein Bandlaufwerk.</P> <P>Die erste Methode erzeugt eine Kopie der Servereinstellungen sowie der Benutzerdaten und lädt diese über den Webbrowser auf den Arbeitsplatzrechner herunter. Im Moment beträgt die Größe Ihrer Einstellungen und Benutzerdaten ungefähr<b>$tarsize</b>. Die Sicherungsdatei wird etwas kleiner als dieser Wert, abhängig davon wie die Daten komprimierbar sind. Mit \"Überprüfung der Sicherungsdatei\" kann die Datei noch einmal auf Integrität überprüft werden.</P> <P>Die Bandsicherungmethode benutzt ein Softwarepaket mit dem Namen <I>$module</I>, um die Daten der Festplatte jede Nacht zu sichern. Dafür wird ein Bandsicherungslaufwerk und ein nicht schreibgeschütztes Band benötigt. Die Sicherung wird automatisch zu der angegebenen Zeit jede Nacht durchgeführt (sowie im Laufe des Tages eine E-Mail an den Administrator geschickt). Aktuell sind auf Festplatten Ihres Servers <b>$dumpsize</b> an Daten gespeichert. <b>Im Idealfall sollte die Wiederherstellung auf einem frisch installierten Server durchgeführt werden.</b></P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Drei Möglichkeiten sind vorgesehen, um Ihren Server zu sichern und wiederherzustellen: mit einem Bandlaufwerk, mit einer Netzwerkfreigabe oder mit Hilfe Ihres lokalen Arbeitsplatzrechners.</P> <P>Bandsicherung. Diese Methode verwendet ein Software-Paket namens <I>$module</I>, um jede Nacht die gesamte Server-Festplatte auf Band zu sichern. Dies erfordert ein unterstütztes Bandlaufwerk und ein nicht schreibgeschütztes Band. Die Sicherung wird automatisch zur gewählten Zeit in der Nacht durchgeführt (eine Erinnerung wird automatisch während des Tages an den Administrator gemailt). Zur Zeit enthält Ihre Festplatte <b>$dumpsize</b> an Daten.</P> <P>Workstation-Sicherung. Diese Methode verwendet ein Software-Paket namens <I>dar</I>, um Ihre Server-Konfiguration und Daten auf eine Netzwerkfreigabe oder eine lokale Wechselfestplatte, z.B. eine USB-Festplatte, zu sichern. Sie können bestimmen, wie viele rotierende Sätze der Sicherungen aufbewahrt werden und wie viele inkrementelle Sicherungen in jedem Satz enthalten sind. Die Sicherung wird automatisch täglich zu der ausgewählten Zeit durchgeführt. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>$tarsize</b>. Die doppelte Größe muß frei auf der Netzwerkfreigabe zur Verfügung stehen.</P> <P>Sicherung auf lokalem Arbeitsplatzrechner. Diese Methode erstellt eine Kopie der Serverkonfiguration und Benutzerdaten und lädt diese mit Hilfe des Web-Browsers auf Ihren lokalen Arbeitsplatzrechner herunter. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>$tarsize</b>. Die Sicherungsdatei kann je nach Komprimierungsgrad etwas kleiner sein. Diese Datei kann verwendet werden, um die Serverdaten von der Konsole wiederherstellen, wenn die Datei auf ein lokales Wechselmedium, z.B. lokale USB-Festplatte, kopiert wird.</P> <P>Mit allen Sicherungsmethoden können Sie Ihre Konfigurations- und Benutzerdateien wiederherstellen. Die Workstation-Sicherung ermöglicht es individuelle Dateien wiederherzustellen. <b>Im Idealfall sollte eine vollständige Rücksicherung auf einem frisch installierten Server durchgeführt werden</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>Der Server bietet zwei Möglichkeiten, den Server zu sichern und wiederherzustellen: entweder auf dem lokalen Desktop oder auf ein Bandlaufwerk.</p>
+
+  <p>Die erste Methode erzeugt eine Kopie der Servereinstellungen sowie der Benutzerdaten und lädt diese über den Webbrowser auf den Arbeitsplatzrechner herunter. Im Moment beträgt die Größe Ihrer Einstellungen und Benutzerdaten ungefähr<b>[_3]</b>. Die Sicherungsdatei wird etwas kleiner als dieser Wert, abhängig davon wie die Daten komprimierbar sind. Mit \"Überprüfung der Sicherungsdatei\" kann die Datei noch einmal auf Integrität überprüft werden.</p>
+
+  <p>Die Bandsicherungmethode benutzt ein Softwarepaket mit dem Namen <i>[_1]</i>, um die Daten der Festplatte jede Nacht zu sichern. Dafür wird ein Bandsicherungslaufwerk und ein nicht schreibgeschütztes Band benötigt. Die Sicherung wird automatisch zu der angegebenen Zeit jede Nacht durchgeführt (sowie im Laufe des Tages eine E-Mail an den Administrator geschickt). Aktuell sind auf Festplatten Ihres Servers <b>[_2]</b> an Daten gespeichert. <b>Im Idealfall sollte die Wiederherstellung auf einem frisch installierten Server durchgeführt werden.</b></p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Drei Möglichkeiten sind vorgesehen, um Ihren Server zu sichern und wiederherzustellen: mit einem Bandlaufwerk, mit einer Netzwerkfreigabe oder mit Hilfe Ihres lokalen Arbeitsplatzrechners.</p>
+
+  <p>Bandsicherung. Diese Methode verwendet ein Software-Paket namens <i>[_1]</i>, um jede Nacht die gesamte Server-Festplatte auf Band zu sichern. Dies erfordert ein unterstütztes Bandlaufwerk und ein nicht schreibgeschütztes Band. Die Sicherung wird automatisch zur gewählten Zeit in der Nacht durchgeführt (eine Erinnerung wird automatisch während des Tages an den Administrator gemailt). Zur Zeit enthält Ihre Festplatte <b>[_2]</b> an Daten.</p>
+
+  <p>Workstation-Sicherung. Diese Methode verwendet ein Software-Paket namens <i>dar</i>, um Ihre Server-Konfiguration und Daten auf eine Netzwerkfreigabe oder eine lokale Wechselfestplatte, z.B. eine USB-Festplatte, zu sichern. Sie können bestimmen, wie viele rotierende Sätze der Sicherungen aufbewahrt werden und wie viele inkrementelle Sicherungen in jedem Satz enthalten sind. Die Sicherung wird automatisch täglich zu der ausgewählten Zeit durchgeführt. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>[_3]</b>. Die doppelte Größe muß frei auf der Netzwerkfreigabe zur Verfügung stehen.</p>
+
+  <p>Sicherung auf lokalem Arbeitsplatzrechner. Diese Methode erstellt eine Kopie der Serverkonfiguration und Benutzerdaten und lädt diese mit Hilfe des Web-Browsers auf Ihren lokalen Arbeitsplatzrechner herunter. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>[_3]</b>. Die Sicherungsdatei kann je nach Komprimierungsgrad etwas kleiner sein. Diese Datei kann verwendet werden, um die Serverdaten von der Konsole wiederherstellen, wenn die Datei auf ein lokales Wechselmedium, z.B. lokale USB-Festplatte, kopiert wird.</p>
+
+  <p>Mit allen Sicherungsmethoden können Sie Ihre Konfigurations- und Benutzerdateien wiederherstellen. Die Workstation-Sicherung ermöglicht es individuelle Dateien wiederherzustellen. <b>Im Idealfall sollte eine vollständige Rücksicherung auf einem frisch installierten Server durchgeführt werden</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Sichern von Konfiguration und Status',
-'bac_TAPE_BACKUPS_ENABLED' => ' Bandsicherung ist im Moment <b>aktiviert</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Bandsicherung ist im Moment aktiviert. ',
 'bac_BACKUPS_RUN_AT' => 'Die normale Bandsicherung läuft um:',
 'bac_REMINDER_MESSAGE_AT' => 'Erinnerungsmitteilung wird gesendet um:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Bandsicherungen sind <b>deaktiviert</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Bandsicherungen sind deaktiviert ',
 'bac_DESKTOP_BACKUP' => 'Sicherung auf den Arbeitsplatzrechner',
 'bac_DESKTOP_RESTORE' => 'Wiederherstellen vom Arbeitsplatzrechner',
 'bac_DESKTOP_VERIFY' => 'Überprüfung der Sicherungsdatei',
@@ -17,7 +33,7 @@
 'bac_RESTORE_COMPLETED' => 'Die Systemwiederherstellung wurde beendet',
 'bac_STARTED_AT' => 'Sie begann um:',
 'bac_FINISHED_AT' => 'und endete um:',
-'bac_YOU_MUST_REBOOT' => 'Sie müssen den Server neu starten, um die Änderungen zu aktivieren, die durch das Wiederherstellen übertragen wurden.', 
+'bac_YOU_MUST_REBOOT' => 'Sie müssen den Server neu starten, um die Änderungen zu aktivieren, die durch das Wiederherstellen übertragen wurden.',
 'bac_REBOOT' => 'Neustart',
 'bac_SELECT_AN_ACTION' => 'Wählen Sie eine Aktion',
 'bac_X_BACKUP_OR_RESTORE' => 'X Sichern oder Wiederherstellen der Serverdaten',
@@ -25,11 +41,13 @@
 'bac_ERR_PRE_RESTORE' => 'Es ist ein Fehler während der Pre-Restore Aktionen aufgetreten.',
 'bac_ERR_POST_BACKUP' => 'Es ist ein Fehler während der Post-Backup Aktionen aufgetreten.',
 'bac_RESTORE_SERVER_CONFIG' => 'Wiederherstellen der Server Einstellungen',
-'bac_DESKTOP_RESTORE_DESC' => ' Dieser Prozess wird eine Sicherungsdatei von Ihrem Arbeitsplatzrechner auf Ihren Server hochladen und stellt die Einstellungen sowie die Benutzerdaten wieder her. <B>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</B> ',
+'bac_DESKTOP_RESTORE_DESC' => ' Dieser Prozess wird eine Sicherungsdatei von Ihrem Arbeitsplatzrechner auf Ihren Server hochladen und stellt die Einstellungen sowie die Benutzerdaten wieder her. Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden. ',
 'bac_FREE_SPACE' => ' Sie haben ungefähr $tmpfree freien Speicherplatz auf Ihrem Server. Prüfen Sie, ob die Sicherungsdatei kleiner als $halffree ist, bevor Sie mit der Wiederherstellung beginnen. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'Nach Beendigung der Wiederherstellung müssen Sie Ihren Server neu starten.',
 'bac_FILE_TO_RESTORE' => 'Sicherungsdatei aus der wiederhergestellt werden soll',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Diese Option zeigt Ihnen die Namen aller erzeugten lokalen Sicherungsdateien an. Sie können diese Option dazu verwenden, den Inhalt Ihrer Sicherungsdateien zu überprüfen.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Diese Option zeigt Ihnen die Namen aller erzeugten lokalen Sicherungsdateien an. Sie können diese Option dazu verwenden, den Inhalt Ihrer Sicherungsdateien zu überprüfen.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Sicherungsdatei auswählen',
 'bac_VERIFY' => 'Bestätigen',
 'bac_RESTORE_CANNOT_PROCEED' => 'Es ist nicht möglich, mit der Wiederherstellung der Servereinstellungen fortzufahren',
@@ -49,7 +67,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'Die Sicherungsdatei ist unvollständig',
 'bac_ERR_READING_FILE' => 'Es ist ein Fehler beim Lesen der Sicherungsdatei aufgetreten.',
 'bac_ENABLE_DISABLE_TAPE' => 'Aktivieren/Deaktivieren der nächtlichen Bandsicherung',
-'bac_TAPE_CONFIG_DESC' => ' <p>Auswählen ob die nächtliche Bandsicherung durchgeführt werden soll. Danach die gewünschte Zeit und die Erinnerungsmeldung zum Laden des Bandes eingeben.</p> <p>Die Bandsicherung benötigt ein unterstütztes Bandlaufwerk. Sollte das Bandlaufwerk leer sein, wird eine Warnmeldung zum gesetzten Zeitpunkt an den Administrator gesendet.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Auswählen ob die nächtliche Bandsicherung durchgeführt werden soll. Danach die gewünschte Zeit und die Erinnerungsmeldung zum Laden des Bandes eingeben.</p>
+
+  <p>Die Bandsicherung benötigt ein unterstütztes Bandlaufwerk. Sollte das Bandlaufwerk leer sein, wird eine Warnmeldung zum gesetzten Zeitpunkt an den Administrator gesendet.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Aktivieren der Bandsicherung',
 'bac_TAPE_BACKUP_TIME' => 'Bandsicherungszeit am Tag (Stunde/Minute)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Banderinnerung laden am Tag (Stunde/Minute)',
@@ -70,7 +92,13 @@
 'bac_WITH_REMINDER_TIME' => 'und Zeit um an das Laden des Bands zu erinnern:',
 'bac_SUCCESSFULLY_DISABLED' => 'Bandsicherung erfolgreich aktiviert',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Servereinstellungen vom Band wiederherstellen',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <P>Dieser Prozess stellt die Konfigurations- und Benutzerdaten von Ihrem Bandlaufwerk wieder her. <B>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</B></P> <P>Vergewissern Sie sich, dass das richtige Band im Bandlaufwerk eingelegt wurde, bevor Sie beginnen. </P> <P>Nach der Wiederherstellung muss der Server neu gestartet werden.</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Dieser Prozess stellt die Konfigurations- und Benutzerdaten von Ihrem Bandlaufwerk wieder her. <b>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</b></p>
+
+  <p>Vergewissern Sie sich, dass das richtige Band im Bandlaufwerk eingelegt wurde, bevor Sie beginnen. </p>
+
+  <p>Nach der Wiederherstellung muss der Server neu gestartet werden.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Wiederherstellen vom Band',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Es ist nicht möglich, die Konfiguration des Servers wiederherzustellen',
 'bac_RESTORING_FROM_TAPE' => 'Wiederherstellung vom Band',
@@ -81,11 +109,11 @@
 'bac_SERVER_REBOOT' => 'Server Neustart',
 'bac_SERVER_WILL_REBOOT' => 'Der Server wird jetzt neu gestartet.',
 'bac_NO_UID_FOR_NAME' => 'Kann keine UID für den Benutzer mit dem folgenden Namen bekommen:',
-'bac_PAGE_REFRESH_IN' => ' Diese Seite wird in {$sec} Sekunden mit der Statusanzeige erneuert, oder drücken Sie <a href="/server-manager/cgi-bin/backup">hier</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Diese Seite wird in {$sec} Sekunden mit der Statusanzeige erneuert, oder drücken Sie hier. ',
 'Backup or restore' => 'Sichern oder Wiederherstellen',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Auf Ihrem Server befinden sich zu viele Daten, um eine verläßliche Sicherung auf den lokalen Arbeitsplatz durchführen zu können.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation Backups sind <b>deaktiviert</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation Backups sind im Moment <b>aktiviert</b>. ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation Backups sind deaktiviert ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation Backups sind im Moment aktiviert. ',
 'bac_WKBACKUPS_RUN_AT' => 'Das normale Workstation Backup wird laufen um:',
 'bac_WORKSTN_CONFIGURE' => 'Konfiguriere Workstation Backup',
 'bac_WORKSTN_VERIFY' => 'Workstation Backup überprüfen',
@@ -98,9 +126,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Workstation Backups wurden erfolgreich aktiviert',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Workstation Backups erfolgreich deaktiviert',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Workstation Backup überprüfen',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Mit dieser Option werden Ihnen alle Dateinamen in einer erstellten Workstation Sicherung angezeigt. Sie können damit den Inhalt der Sicherung überprüfen. <b>Wählen Sie die Sicherung aus, die Sie prüfen möchten.</b></p> <p>Nur Dateien gekennzeichnet mit ~[Saved~] sind in der Sicherung enthalten.</p> <br/>Sicherungsdateien aus folgendem Verzeichnis werden geprüft: ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Mit dieser Option werden Ihnen alle Dateinamen in einer erstellten Workstation Sicherung angezeigt. Sie können damit den Inhalt der Sicherung überprüfen. <b>Wählen Sie die Sicherung aus, die Sie prüfen möchten.</b></p>
+
+  <p>Nur Dateien gekennzeichnet mit ~[Saved~] sind in der Sicherung enthalten.</p>
+
+  <br/>Sicherungsdateien aus folgendem Verzeichnis werden geprüft: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Server Einstellungen aus Workstation Backup wiederherstellen',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Dieser Prozess stellt die Konfigurations- und Benutzerdaten aus Ihrem Workstation Backup wieder her. <b>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</b></p> <p>Vergewissern Sie sich, dass das richtige Band eingelegt wurde, bevor Sie beginnen.</p> <p>Nach der Wiederherstellung muß der Server neu gestartet werden.</p>Wiederherstellung von: ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Dieser Prozess stellt die Konfigurations- und Benutzerdaten aus Ihrem Workstation Backup wieder her. <b>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</b></p>
+
+  <p>Vergewissern Sie sich, dass das richtige Band eingelegt wurde, bevor Sie beginnen.</p>
+
+  <p>Nach der Wiederherstellung muß der Server neu gestartet werden.</p>
+
+  Wiederherstellung von: ',
 'bac_RESTORE_FROM_WORKSTN' => 'Wiederherstellung aus Workstation Backup',
 'bac_RESTORING_FROM_WORKSTN' => 'Wiederherstellung aus Workstation Backup läuft',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Ihre Servereinstellungen und Benutzerdaten wurden aus dem Workstation Backup wiederhergestellt.',
@@ -124,7 +162,7 @@
 'bac_NUMBER_OF_SETS' => 'Anzahl der rotierenden Backup-Sets',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Anzahl der täglichen Backups in jedem Satz',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Die Anzahl der Datensicherungssätze muss 1 oder größer sein',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Diese Zahl muss größer oder gleich 1 sein. Das Erste Backup ist ein <b>Vollbackup</b> alle anderen sind <b>inkrementell</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Diese Zahl muss größer oder gleich 1 sein. Das Erste Backup ist ein Vollbackup alle anderen sind inkrementell',
 'bac_WORKSTN_TIMEOUT' => 'Optionales Backup Session Timeout (Stunden)',
 'bac_INC_ONLY_TIMEOUT' => 'Kein Timeout für Vollsicherungen',
 'bac_ERR_INVALID_TIMEOUT' => 'Die maximale Datensicherungszeit muss zwischen 1 und 24 Stunden betragen',
@@ -133,11 +171,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Gezielte Wiederherstellung einzelner Dateien aus dem Workstation Backup',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Gezielte Wiederherstellung einzelner Dateien aus dem Workstation Backup',
 'bac_ALL_BACKUPS' => 'Alle Sicherungen',
-'bac_WORKSTN_SEL_REST_DESC' => ' Dieser Vorgang stellt nur ausgewählte Dateien und Verzeichnisse wieder her. Wählen Sie zuerst die Sicherung, aus der Dateien wiederhergestellt werden sollen. Falls Sie nicht wissen, in welchem Backup sich die benötigten Dateien befinden, können Sie \'Alle Sicherungen\' auswählen. <br/><br/>Die nächste Seite zeigt Ihnen die verfügbaren Dateien und Verzeichnisse, aus denen Sie die zu wiederherstellenden auswählen können. Um die Anzahl der angezeigten Dateien und Verzeichnisse zu beschränken, können Sie Filterausdrücke erstellen, die auf die anzuzeigenden Namen wirken.<br/><br/>Achtung: Schließen Sie Dateien aus der Wiederherstellung aus, die für Funktion des Servers benötigt werden.<br/><br/>Aktuell werden die Dateien zurückgesichert von: ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Dieser Vorgang stellt nur ausgewählte Dateien und Verzeichnisse wieder her. Wählen Sie zuerst die Sicherung, aus der Dateien wiederhergestellt werden sollen. Falls Sie nicht wissen, in welchem Backup sich die benötigten Dateien befinden, können Sie \'Alle Sicherungen\' auswählen. Die nächste Seite zeigt Ihnen die verfügbaren Dateien und Verzeichnisse, aus denen Sie die zu wiederherstellenden auswählen können. Um die Anzahl der angezeigten Dateien und Verzeichnisse zu beschränken, können Sie Filterausdrücke erstellen, die auf die anzuzeigenden Namen wirken.Achtung: Schließen Sie Dateien aus der Wiederherstellung aus, die für Funktion des Servers benötigt werden.Aktuell werden die Dateien zurückgesichert von: ',
 'bac_BACKUP_CHOICE' => 'Dateien für Anzeige auswählen',
 'bac_SELECT_DATE_BEFORE' => 'Wiederherstellung der letzten Änderungen vor',
 'bac_FILTER_EXPRESSION' => 'Namen gefiltert nach',
-'bac_READ_COMPLETE' => ' Sie können alle Verzeichnisse und Dateien, die Sie wiederherstellen möchten in der angezeigten Liste auswählen (benutzen Sie <i>Strg</i> oder <i>Shift</i> für Mehrfachselektionen).<br/> <b>Warnung:</b> Wenn Sie ein Verzeichnis selektieren, werden alle enthaltenen Dateien und Verzeichnisse wiederhergestellt.<p/> Standardmäßig wird die neueste Version der ausgewählten Dateien wiederhergestellt, falls Sie aber ein Datum im Format <i>~[ ~[ ~[yyyy/~]mm/~]tt-~]hh:mm~[:ss~]</i> angeben, wird der Prozess nur die neueste <b>vor dem gegebenen Datum</b> geänderte Version wiederherstellen. ',
+'bac_READ_COMPLETE' => ' Sie können alle Verzeichnisse und Dateien, die Sie wiederherstellen möchten in der angezeigten Liste auswählen (benutzen Sie Strg oder Shift für Mehrfachselektionen). Warnung: Wenn Sie ein Verzeichnis selektieren, werden alle enthaltenen Dateien und Verzeichnisse wiederhergestellt. Standardmäßig wird die neueste Version der ausgewählten Dateien wiederhergestellt, falls Sie aber ein Datum im Format ~[ ~[ ~[yyyy/~]mm/~]tt-~]hh:mm~[:ss~] angeben, wird der Prozess nur die neueste vor dem gegebenen Datum geänderte Version wiederherstellen. ',
 'bac_ERR_INVALID_SELDATE' => 'Das Datumsformat ist ungültig, es muß wie folgt angegeben werden ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. Das bedeutet: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Dateien für Wiederherstellung auswählen',
 'bac_ERR_WHILE_UNMOUNTING' => 'Fehler bei der Trennung entfernter Freigaben',
@@ -147,8 +185,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Der Komprimierungsgrad muss zwischen 0 (keine) und 9 (maximale Komprimierung) eingestellt sein',
 'bac_DOW' => 'Sonntag Montag Dienstag Mittwoch Donnerstag Freitag Samstag Täglich',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Bitte konfigurieren Sie die Backup Einstellungen.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Diese Seite zeigt die aktuelle Workstation-Backup Konfiguration. Sie können diese hier und auf der folgenden Seite ändern.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Keine aktuelle Konfiguration für Workstation Backup vorhanden. Sie können diese hier und auf der folgenden Seite vornehmen.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Diese Seite zeigt die aktuelle Workstation-Backup Konfiguration. Sie können diese hier und auf der folgenden Seite ändern.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Keine aktuelle Konfiguration für Workstation Backup vorhanden. Sie können diese hier und auf der folgenden Seite vornehmen.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Sicherung ist',
 'bac_WORKSTN_BACKUP_USB' => 'Das Backup wird auf einem lokalen Wechseldatenträger erstellt',
 'bac_WORKSTN_BACKUP_MNT' => 'Sicherung wird auf einem eingebundenen Datenträger erstellt',
@@ -177,12 +219,8 @@
 'bac_TESTED_BACKUP' => 'Überprüfe die Integrität der Sicherung',
 'bac_RESTORE_VERIFY_FAILED' => 'Prüfung der Integrität ist fehlgeschlagen',
 'bac_CHECK_INTEGRITY_WARNING' => 'Warnung: Bei großen Sicherungen kann die Überprüfung der Integrität eine langwierige Sache werden und sollte bei täglichem Workstation Backup deaktiviert sein.',
- 'bac_cifs' => 
- 'CIFS',
- 'bac_nfs' => 
- 'NFS',
- 'bac_local removable disk' => 
- 'Lokaler Wechseldatenträger',
- 'bac_Mounted disk' => 
- 'Eingebunder Datenträger',
+'bac_cifs' => ' 'CIFS',
+'bac_nfs' => ' 'NFS',
+'bac_local removable disk' => ' 'Lokaler Wechseldatenträger',
+'bac_Mounted disk' => ' 'Eingebunder Datenträger',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'Die Parameter wurden gespeichert, aber der entfernte Host ist nicht erreichbar, bitte überprüfen Sie die Einstellungen.',

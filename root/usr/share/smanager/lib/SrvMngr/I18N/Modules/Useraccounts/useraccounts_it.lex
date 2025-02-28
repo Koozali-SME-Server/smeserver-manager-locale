@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Crea, modifica o rimuovi utenti',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Aggiungi utente</a> </p> <p> E\' possibile modificare, bloccare o rimuovere un utente o modificare la password facendo clic sul comando corrispondente a fianco dell\'utente. </p> <p> Se l\'utente è bloccato, significa che la password deve essere modificata. Notare che gli utenti appena creati vengono automaticamente bloccati fino a quando non viene cambiata la password. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Aggiungi utente</a> </p>
+
+  <p> E\' possibile modificare, bloccare o rimuovere un utente o modificare la password facendo clic sul comando corrispondente a fianco dell\'utente. </p>
+
+  <p> Se l\'utente è bloccato, significa che la password deve essere modificata. Notare che gli utenti appena creati vengono automaticamente bloccati fino a quando non viene cambiata la password. </p>
+
+  ',
 'usr_P2_TITLE' => 'Crea o modifica',
-'usr_CREATE_MODIFY_DESC' => ' <p> Il nome utente può contenere solo lettere minuscole, numeri, trattini, punti e underscore (_) e deve iniziare con una lettera minuscola. Per esempio "luisa", "mrossi" e "liu-jo" sono nomi utente validi, mentre "4amici", "Franco Neri" e "aldo/sbaglio" non lo sono. </p> <p> Notare che verranno creati due pseudonimi speciali per ogni nuovo utente. Questi pseudonimi forniscono indirizzi email alternativi per l\'utente, creati unendo nome e cognome con un punto (.) e un underscore (_). L\'utente "mario" di nome "Mario" e cognome "Rossi" avrà due pseudonimi, mario.rossi e mario_rossi. </p> <p> Le informazioni di rubrica (ufficio, azienda, etc.) possono essere modificate dai default sottostanti. Le modifiche verranno applicate solo a questo utente. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> Il nome utente può contenere solo lettere minuscole, numeri, trattini, punti e underscore (_) e deve iniziare con una lettera minuscola. Per esempio "luisa", "mrossi" e "liu-jo" sono nomi utente validi, mentre "4amici", "Franco Neri" e "aldo/sbaglio" non lo sono. </p>
+
+  <p> Notare che verranno creati due pseudonimi speciali per ogni nuovo utente. Questi pseudonimi forniscono indirizzi email alternativi per l\'utente, creati unendo nome e cognome con un punto (.) e un underscore (_). L\'utente "mario" di nome "Mario" e cognome "Rossi" avrà due pseudonimi, mario.rossi e mario_rossi. </p>
+
+  <p> Le informazioni di rubrica (ufficio, azienda, etc.) possono essere modificate dai default sottostanti. Le modifiche verranno applicate solo a questo utente. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Modifica l\'utente admin',
 'usr_USER_CREATED' => 'Utente creato con successo.',
 'usr_USER_MODIFIED' => 'Utente modificato con successo.',
-'usr_CANNOT_MODIFY_USER' => 'Errore: errore interno durante la modifica dell\'utente: "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Errore: errore interno durante la modifica dell\'utente: "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Errore: errore interno durante la modifica del gruppo "{$group}" per l\'utente "{$acctName}".',
 'usr_TAINTED_USER' => 'Il nome utente "{$acctName}" contiene caratteri non validi.',
 'usr_ACCOUNT_NAME' => 'Nome utente',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Errore: lo pseudonimo "{$pseudonym}" è già usato dall\'utente "{$clashName}". Per differenziare, aggiungere le iniziali a questo campo.',
 'usr_LOCK_ACCOUNT' => 'Blocca utente',
 'usr_LOCK_ACCOUNT_TITLE' => 'Blocca utente',
-'usr_LOCK_DESC2' => ' L\'utente verrà bloccato. Questo significa che l\'utente non sarà in grado di effettuare il login e non potrà leggere la posta. La posta in arrivo continuerà a venire memorizzata e/o inoltrata ad un eventuale indirizzo esterno in base alla configurazione. L\'utente potrà essere riattivato in futuro impostando una nuova password. La password attuale non verrà salvata. </p> <p> <b>Siete sicuri di voler bloccare questo utente?</b> ',
+'usr_LOCK_DESC2' => ' L\'utente verrà bloccato. Questo significa che l\'utente non sarà in grado di effettuare il login e non potrà leggere la posta. La posta in arrivo continuerà a venire memorizzata e/o inoltrata ad un eventuale indirizzo esterno in base alla configurazione. L\'utente potrà essere riattivato in futuro impostando una nuova password. La password attuale non verrà salvata.   Siete sicuri di voler bloccare questo utente? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Rimuovi utente',
 'usr_REMOVE_DESC' => 'Sta per essere rimosso l\'utente',
-'usr_REMOVE_DESC2' => ' Tutti i file appartenenti a questo utente verranno cancellati. Inoltre tutte le email dell\'utente ancora sul server (non ancora eventualmente scaricate dall\'utente) verranno cancellate. </p> <p> <b>Siete sicuri di voler rimuovere questo utente?</b> ',
+'usr_REMOVE_DESC2' => ' Tutti i file appartenenti a questo utente verranno cancellati. Inoltre tutte le email dell\'utente ancora sul server (non ancora eventualmente scaricate dall\'utente) verranno cancellate.   Siete sicuri di voler rimuovere questo utente? ',
 'usr_LOCK' => 'Blocca',
 'usr_NO_USER_ACCOUNTS' => 'Non ci sono utenti in questo sistema',
 'Users' => 'Utenti',

@@ -1,20 +1,32 @@
-'pse_NO_PSEUDONYMS' => ' <b>Nincsenek fedőnevek a rendszerben.</b> ',
+'pse_NO_PSEUDONYMS' => ' Nincsenek fedőnevek a rendszerben. ',
 'pse_REMOVE_PSEUDONYM' => 'Fedőnév eltávolítása',
-'pse_ABOUT_TO_REMOVE' => ' Ezen fedőnév eltávolítására készül:<br> <b>Biztos hogy folytatja?</b> ',
+'pse_ABOUT_TO_REMOVE' => ' Ezen fedőnév eltávolítására készül: Biztos hogy folytatja? ',
 'pse_FORM_TITLE' => 'Fedőnevek létrehozása, módosítása, vagy eltávolítása',
-'pse_DESCRIPTION' => ' <p>A szerver minden csoport számára generál egy e-mail alias-t. Ha egy e-mail alias-t akar létrehozni a felhasználók egy csoportja számára, egyszerűen csak hozzon létre egy csoportot és a listát automatikusan a szerver fogja karbantartani.</p> <p>A fedőnevek lehetővé teszik hogy más nevet hozzon létre a már létező felhasználók vagy csoportok számára. Például ha szeretne egy "webmaster" fedőnevet létrehozni a "webdevelopers" csoportja számára,vagy egy "joe" fedőnevet a "joseph" felhasználónak.</p> <p>A szerver automatikusan létrehozza a fedőneveket a keresztnév.vezetéknév és a keresztnév_vezetéknév formában minden felhasználónakvalamint az "everyone" fedőnevet, amely a rendszer összes felhasználójára mutat.</p> <p>Az fedőnevek azt is lehetővé teszik, hogy e-mail alias-okat hozzon létre virtuális domének és a felhasználók számára. Például továbbítani tudja "sales@virtualdomain1.com" címre jövő leveleket a "mary" felhasználónak és a"sales@virtualdomain2.com" -ra jövő leveleket a "john" felhasználónak. Mielőtt e-mail alias-okat hozna létre el kell készítenie a virtuális doméneket és a felhasználói fiókokat.</p> <p>A fedőnevek mutathatnak egy másik fedőnévre is, bár ez egyszintűre van korlátozva. Például a "webmaster" fedőnév mutathat a "techsupport" fedőnévre ami pedig egy "ray" nevű felhasználóra mutat. Ez akkor hasznos, mikor egyetlen felhasználó felelős több feladatért. Ugyanis, ha az illető eltávozik a cégtől nem kell a fedőneveket több soron módosítani.</p> <p>A fedőnevek módosítása, vagy eltávolítása a fedőnevek neve melletti parancsokra való kattintással végezhető el.</p>',
+'pse_DESCRIPTION' => ' <p>A szerver minden csoport számára generál egy e-mail alias-t. Ha egy e-mail alias-t akar létrehozni a felhasználók egy csoportja számára, egyszerűen csak hozzon létre egy csoportot és a listát automatikusan a szerver fogja karbantartani.</p>
+
+  <p>A fedőnevek lehetővé teszik hogy más nevet hozzon létre a már létező felhasználók vagy csoportok számára. Például ha szeretne egy "webmaster" fedőnevet létrehozni a "webdevelopers" csoportja számára,vagy egy "joe" fedőnevet a "joseph" felhasználónak.</p>
+
+  <p>A szerver automatikusan létrehozza a fedőneveket a keresztnév.vezetéknév és a keresztnév_vezetéknév formában minden felhasználónakvalamint az "everyone" fedőnevet, amely a rendszer összes felhasználójára mutat.</p>
+
+  <p>Az fedőnevek azt is lehetővé teszik, hogy e-mail alias-okat hozzon létre virtuális domének és a felhasználók számára. Például továbbítani tudja "sales@virtualdomain1.com" címre jövő leveleket a "mary" felhasználónak és a"sales@virtualdomain2.com" -ra jövő leveleket a "john" felhasználónak. Mielőtt e-mail alias-okat hozna létre el kell készítenie a virtuális doméneket és a felhasználói fiókokat.</p>
+
+  <p>A fedőnevek mutathatnak egy másik fedőnévre is, bár ez egyszintűre van korlátozva. Például a "webmaster" fedőnév mutathat a "techsupport" fedőnévre ami pedig egy "ray" nevű felhasználóra mutat. Ez akkor hasznos, mikor egyetlen felhasználó felelős több feladatért. Ugyanis, ha az illető eltávozik a cégtől nem kell a fedőneveket több soron módosítani.</p>
+
+  <p>A fedőnevek módosítása, vagy eltávolítása a fedőnevek neve melletti parancsokra való kattintással végezhető el.</p>
+
+  ',
 'pse_LOCAL_ONLY' => '(csak helyi hálózat)',
 'pse_SELECT_ACCOUNT' => 'Fiók, vagy csoport kiválasztása',
 'pse_SELECT_INTERNAL' => 'Csak helyi hálózat',
 'pse_CLICK_TO_CREATE' => 'Fedőnév hozzáadása',
 'pse_PSEUDONYM' => 'Fedőnév',
 'pse_USER_OR_GROUP' => 'Felhasználó vagy csoport',
-'pse_CURRENT_PSEUDONYMS' => '<b>Álnevek listája</b>',
+'pse_CURRENT_PSEUDONYMS' => 'Álnevek listája',
 'pse_TITLE_CREATE' => 'Fedőnév létrehozása',
 'pse_DESC_PSEUDONYM_NAME' => 'Kérem válasszon ki egy létező fiókot vagy csoportot a legördülő listából a fedőnév számára.',
 'pse_MODIFY_PSEUDONYM' => 'Fedőnév módosítása',
 'pse_PSEUDONYM_NAME' => 'Fedőnév neve',
-'pse_VALID_PSEUDONYM_NAMES' => ' A fedőnév csak kisbetűket, számokat, kötőjeleket, pontokat, aláhúzásokat tartalmazhat és betűvel vagy számmal kezdődhet. Például a "sales", "john.holland", "123" és az "email-administrator" érvényes fedőnevek, de a "John Smith" és "Henry Miller" már nem. <p>E-mail alias-okat is létrehozhat a fiókokhoz és az olyan virtuális doménekhez, amelyek érvényesek ezen a szerveren. Például "fred@virtualdomain.com" továbbítható a "mary" (vagy bármely más érvényes) felhasználói fiókba.</p> ',
+'pse_VALID_PSEUDONYM_NAMES' => ' A fedőnév csak kisbetűket, számokat, kötőjeleket, pontokat, aláhúzásokat tartalmazhat és betűvel vagy számmal kezdődhet. Például a "sales", "john.holland", "123" és az "email-administrator" érvényes fedőnevek, de a "John Smith" és "Henry Miller" már nem. E-mail alias-okat is létrehozhat a fiókokhoz és az olyan virtuális doménekhez, amelyek érvényesek ezen a szerveren. Például "fred@virtualdomain.com" továbbítható a "mary" (vagy bármely más érvényes) felhasználói fiókba. ',
 'pse_NAME_IN_USE' => 'Hiba: Ez a név már használatban van, nem hozhat létre fedőnevet ezzel a névvel.',
 'pse_NOT_A_PSEUDONYM' => 'Az a fiók nem fedőnév',
 'pse_PSEUDONYM_INVALID_DOMAIN' => 'Az a domén nem ezen a szerveren van',

@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Adattárak létrehozása, módosítása vagy törlése.',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Adattár létrehozása</a> </p> <p> Eltávolíthatja bármelyik adattárat, vagy megváltoztathatja azok jelszavát. Ha az adattár neve piros színű, az azt jelenti, hogy az adattár alapértelmezett jelszava még nem lett megváltoztatva és hamarosan el kell végezni az új jelszó beállítását. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Adattár létrehozása</a> </p>
+
+  <p> Eltávolíthatja bármelyik adattárat, vagy megváltoztathatja azok jelszavát. Ha az adattár neve piros színű, az azt jelenti, hogy az adattár alapértelmezett jelszava még nem lett megváltoztatva és hamarosan el kell végezni az új jelszó beállítását. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Adattár létrehozása vagy módosítása.',
 'iba_NAME_FIELD_DESC' => 'Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. Például "johnson", "intra", and "cust3.prj12" használható nevek, de az "3associates", "John Smith" and "Bus!Partner" nevek nem. A név {$maxLength} karakter hosszú lehet.',
 'iba_NAME_LABEL' => 'Adattár neve',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Dinamikus tartalom engedélyezése (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Biztonságos kapcsolatok kikényszerítése',
 'iba_REMOVE_TITLE' => 'Adattár eltávolítása',
-'iba_REMOVE_DESC' => ' <p> Most készül eltávolítani a "{$name}" ({$description}) adattárat. </p> <p> Minden fájl, amit az adattár tartalmaz, megsemmisül. </p> <p> Biztos benne, hogy törli az adattárat? </p> ',
+'iba_REMOVE_DESC' => ' <p> Most készül eltávolítani a "{$name}" ({$description}) adattárat. </p>
+
+  <p> Minden fájl, amit az adattár tartalmaz, megsemmisül. </p>
+
+  <p> Biztos benne, hogy törli az adattárat? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Hiba történt az adattár létrehozásakor.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Az adattár sikeresen létrejött.',
 'iba_NO_IBAYS' => 'Nincsenek adattárak beállítva.',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'A jelszavak nem egyeznek',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'A jelszó megváltozott.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Hiba történt a jelszó megváltoztatásakor.',
-'iba_VHOST_MESSAGE' => ' <P>A következő virtuális domének ezt az adattárat használták tartalomként, ezért ezek ezentúl az elsődleges webhelyet jelenítik meg (később ezek átállíthatók másra):</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' A következő virtuális domének ezt az adattárat használták tartalomként, ezért ezek ezentúl az elsődleges webhelyet jelenítik meg (később ezek átállíthatók másra): {$vhostList} ',
 'iba_Information bays' => 'Adattárak',
 'iba_WGRG' => 'Irás = csoport, Olvasás = csoport',
 'iba_WGRE' => 'Irás = csoport, Olvasás = mindenki',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Hiba: helytelen, vagy hiányzó karakter az adattár leírásában',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'A "{$acctName}" adattár neve érvénytelen karaktereket tartalmaz. Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. ',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'A "{$name}" adattár neve túl hosszú. Maximum {$maxIbayNameLength} karakter hosszú lehet.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A "{$acctName}" nevű fiók ütközik az {$acctType}"{$acct}" fiók álnevével. <p>A{$acctName} az {$acct} álneve.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A "{$acctName}" nevű fiók ütközik az {$acctType}"{$acct}" fiók álnevével. A{$acctName} az {$acct} álneve. ',
 'iba_ACCOUNT_EXISTS' => 'A "{$acctName}" nevű fiók egy létező {$acctType} fiók.',

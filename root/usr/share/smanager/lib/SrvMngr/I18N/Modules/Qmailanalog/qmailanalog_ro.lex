@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'Analiza fișierelor de evidență poștă electronică',
-'qma_INITIAL_DESC' => ' <P>Analizarea fișierelor de log poate ajuta atât la înțelegerea performaței sistemului cât și la diagnosticarea problemelor. Câteva tipuri de rapoarte sunt disponibile.</P> <P>Țineți cont că se poate ca genrarea acestor rapoarte să dureze câteva minute</P> ',
+'qma_INITIAL_DESC' => ' Analizarea fișierelor de log poate ajuta atât la înțelegerea performaței sistemului cât și la diagnosticarea problemelor. Câteva tipuri de rapoarte sunt disponibile. Țineți cont că se poate ca genrarea acestor rapoarte să dureze câteva minute ',
 'qma_REPORT_TYPE' => 'Alege un tip de raport',
 'qma_GENERATE_REPORT' => 'Generează raport',
 'qma_LIST_OUTGOING' => 'Listează mesajele și destinatarii mesajelor de ieșire',

@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Utwórz, modyfikuj lub usuń magazyn',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Dodaj magazyn</a> </p> <p> Możesz usunąć każdy magazyn lub zresetować hasło klikając w odpowiednie polecenie w obok magazynu. Jeśli magazyn pojawi się na czerwono, oznacza to, że hasło nie zostało zmienione z domyślnej wartości i powinny zostać zmienione.</p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Dodaj magazyn</a> </p>
+
+  <p> Możesz usunąć każdy magazyn lub zresetować hasło klikając w odpowiednie polecenie w obok magazynu. Jeśli magazyn pojawi się na czerwono, oznacza to, że hasło nie zostało zmienione z domyślnej wartości i powinny zostać zmienione.</p>
+
+  ',
 'iba_ADD_TITLE' => 'Utwórz lub zmodyfikuj magazyn',
 'iba_NAME_FIELD_DESC' => 'Nazwa magazynu informacji powinna zawierać tylko małe litery, cyrfry, myślniki i podkreślniki oraz powinna zaczynać się od małej litery. Na przykład "dane", "faktury" i "dokumenty.2009" są poprawnymi nazwamy, ale "11wnioski", "Dane klientów" i "Ważne!dokumenty" nie są poprawne. Nazwa magazynu jest ograniczona do {$maxLength} znaków.',
 'iba_NAME_LABEL' => 'Nazwa magazynu',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Uruchamiaj dynamiczną zawartość (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Wymuś bezpieczne połączenia',
 'iba_REMOVE_TITLE' => 'Usuń magazyn informacji',
-'iba_REMOVE_DESC' => ' <p> Zamierzasz usunąć magazyn "{$name}" ({$description}). </p> <p> Wszystkie dane należące do tego magazynu zostaną usunięte. </p> <p> Czy jesteś pewien, że chcesz usunąć ten magazyn danych? </p> ',
+'iba_REMOVE_DESC' => ' <p> Zamierzasz usunąć magazyn "{$name}" ({$description}). </p>
+
+  <p> Wszystkie dane należące do tego magazynu zostaną usunięte. </p>
+
+  <p> Czy jesteś pewien, że chcesz usunąć ten magazyn danych? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Wystąpił błąd podczas tworzenia magazynu.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Pomyślnie utworzono magazyn.',
 'iba_NO_IBAYS' => 'Nie ma żadnych obecnie skonfigurowanych magazynów.',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Hasła nie zgadzają się.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Pomyślnie zresetowano hasło.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Wystąpił błąd podczas resetowania hasła.',
-'iba_VHOST_MESSAGE' => ' <P>Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie):</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie): {$vhostList} ',
 'iba_Information bays' => 'Magazyn danych',
 'iba_WGRG' => 'Zapis = grupa, Odczyt = grupa',
 'iba_WGRE' => 'Zapis = grupa, Odczyt = wszyscy',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Błąd: niespodziewane lub nieprawidłowe znaki w opisie magazynu',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Magazyn "{$acctName}" zawiera nieprawidłowe znaki. Nazwa magazynu musi zaczynać się od małej litery i zawierać tylko litery, cyfry i łączniki.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Nazwa magazynu "{$name}" jest za długa. Maksymalna długość wynosi {$maxIbayNameLength} znaków.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Konto „{$ acctName}” koliduje ze szczegółami pseudonimu {$ acctType} dla konta „{$ acct}”. <p> {$ acctName} to pseudonim dla {$ acct}. </p>',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Konto „{$ acctName}” koliduje ze szczegółami pseudonimu {$ acctType} dla konta „{$ acct}”.  {$ acctName} to pseudonim dla {$ acct}. ',
 'iba_ACCOUNT_EXISTS' => 'Konto "{$acctName}" jest obecnym kontem {$acctType}.',

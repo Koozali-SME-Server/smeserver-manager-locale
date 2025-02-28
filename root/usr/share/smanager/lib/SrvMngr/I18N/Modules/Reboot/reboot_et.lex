@@ -6,5 +6,5 @@
 'rbo_DESC_RECONFIGURE' => 'Serveris alagatati kogu süsteemi ümber seadistamine ja taaskäivitamine.',
 'rbo_DESC_SHUTDOWN' => 'Serveris algatati sulgemis protsess. See võib võtta mõne minuti, pärast seda võid toite välja lülitada.',
 'rbo_LABEL_REBOOT' => 'Vali sulgemine, taaskäivitamine või ümber seadistamine',
-'rbo_DESCRIPTION' => ' You can reboot, shut down your server or perform a full system reconfiguration from this screen. You must perform a shutdown before switching the power off. All of these functions take several minutes to complete. When you click <b>perform</b> the operation will be initiated immediately, so be ready! ',
+'rbo_DESCRIPTION' => ' You can reboot, shut down your server or perform a full system reconfiguration from this screen. You must perform a shutdown before switching the power off. All of these functions take several minutes to complete. When you click perform the operation will be initiated immediately, so be ready! ',
 'rbo_Reboot or shutdown' => 'Taaskäivita või sulge',

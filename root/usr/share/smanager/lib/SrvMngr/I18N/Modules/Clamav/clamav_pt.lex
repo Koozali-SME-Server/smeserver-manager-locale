@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Configurações do Antivírus',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Analisar o sistema de ficheiros do servidor',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Configuração Geral</h2> Se activar esta opção, serão efectuadas análises periódicas ao sistema de ficheiros do seu servidor para detectar a presença de vírus e outro software malicioso. Serão também enviados (por email) relatórios sobre eventuais vírus encontrados ao administrador do sistema.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Configuração Geral Se activar esta opção, serão efectuadas análises periódicas ao sistema de ficheiros do seu servidor para detectar a presença de vírus e outro software malicioso. Serão também enviados (por email) relatórios sobre eventuais vírus encontrados ao administrador do sistema.',
 'clm_LABEL_QUARANTINE' => 'Colocar em quarentena os ficheiros infectados',
 'clm_LABEL_CLAM_VERSIONS' => 'Versões do ClamAV e respectiva base de dados',
 'clm_WEEKLY' => 'Semanalmente',

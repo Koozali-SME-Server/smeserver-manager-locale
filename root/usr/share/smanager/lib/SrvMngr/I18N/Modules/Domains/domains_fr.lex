@@ -15,7 +15,11 @@
 'dom_NONEXISTENT_DOMAIN_ERROR' => 'ERREUR : le domaine "[_1]" est inexistant.',
 'dom_SUCCESSFULLY_MODIFIED' => 'Le domaine "[_1]" a été modifié avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu\'à la fin du redémarrage du service Web.',
 'dom_REMOVE_TITLE' => 'Supprimer le domaine',
-'dom_REMOVE_DESCRIPTION' => ' <p>Vous êtes sur le point de supprimer le domaine "[_1]" ([_2])..</p> <p><b>Voulez-vous vraiment supprimer ce domaine ?</b></p> ',
+'dom_REMOVE_DESCRIPTION' => ' <p>Vous êtes sur le point de supprimer le domaine "[_1]" ([_2])..</p>
+
+  <p><b>Voulez-vous vraiment supprimer ce domaine ?</b></p>
+
+  ',
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'ERREUR : une erreur s\'est produite lors de la suppression du domaine "[_1]".',
 'dom_SUCCESSFULLY_DELETED' => 'Le domaine "[_1]" a été supprimé avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu\'à la fin du redémarrage du service Web.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => 'Paramètres DNS de votre organisation',

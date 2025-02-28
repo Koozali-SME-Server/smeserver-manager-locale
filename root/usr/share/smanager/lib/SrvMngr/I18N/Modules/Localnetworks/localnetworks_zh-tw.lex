@@ -1,7 +1,7 @@
 'ln_Local networks' => 'Local networks',
-'ln_FIRSTPAGE_DESC' => ' For security reasons, several services on your server are available only to your local network. However you can grant these local access privileges to additional networks by listing them below. Most installations should leave this list empty.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Add network</a> ',
+'ln_FIRSTPAGE_DESC' => ' For security reasons, several services on your server are available only to your local network. However you can grant these local access privileges to additional networks by listing them below. Most installations should leave this list empty. Add network ',
 'ln_ADD_TITLE' => 'Add a local network',
-'ln_ADD_DESC' => ' Each parameter must be in the form #.#.#.# (each # is a number from 0 to 255). The server software will zero out the ending (host identifier) part of the network address according to the subnet mask, to ensure that the network address is valid. </P><P> "Router" should be the IP address of the router on your local network via which the additional network is reached. ',
+'ln_ADD_DESC' => ' Each parameter must be in the form #.#.#.# (each # is a number from 0 to 255). The server software will zero out the ending (host identifier) part of the network address according to the subnet mask, to ensure that the network address is valid.  "Router" should be the IP address of the router on your local network via which the additional network is reached. ',
 'ln_NETWORK_ADDRESS' => 'Network address',
 'ln_SUBNET_MASK' => '子網路遮罩',
 'ln_INVALID_IP_ADDRESS' => 'Invalid IP address',
@@ -18,7 +18,13 @@
 'ln_SUCCESS' => 'Successfully added network {$network}/{$networkMask} via router {$networkRouter}.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Successfully added network {$network}/{$networkMask} via router {$networkRouter}. Your server will grant local access privileges to the single IP address {$network}.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Successfully added network {$network}/{$networkMask} via router {$networkRouter}. Your server will grant local access privileges to {$totalHosts} IP addresses in the range {$firstAddr} to {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Successfully added network {$network}/{$networkMask} via router {$networkRouter}. </p> <p> Your server will grant local access privileges to {$totalHosts} IP addresses in the range {$firstAddr} to {$lastAddr}. </p> <p> Warning: the ProFTPd FTP server cannot handle this nonstandard subnet mask. The simpler specification <b>{$simpleMask}</b> will be used instead. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Successfully added network {$network}/{$networkMask} via router {$networkRouter}. </p>
+
+  <p> Your server will grant local access privileges to {$totalHosts} IP addresses in the range {$firstAddr} to {$lastAddr}. </p>
+
+  <p> Warning: the ProFTPd FTP server cannot handle this nonstandard subnet mask. The simpler specification <b>{$simpleMask}</b> will be used instead. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Successfully removed network {$network}/{$networkMask} via router {$networkRouter}.',
 'ln_ERROR_DELETING_NETWORK' => '刪除網路時發生錯誤。',
 'ln_NO_ADDITIONAL_NETWORKS' => '無其他網路',

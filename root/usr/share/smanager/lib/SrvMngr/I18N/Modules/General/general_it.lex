@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Rapporto operazione',
 'ACCOUNT' => 'Utente',
 'GROUP' => 'Gruppo',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Pipe (|) non permesso in questo campo',
 'ERROR_BELOW' => 'ERRORE: Errore durante la validazione della pagina. Scorrere verso il basso per trovare l\'errore specifico.',
 'ACCESS' => 'Accesso',

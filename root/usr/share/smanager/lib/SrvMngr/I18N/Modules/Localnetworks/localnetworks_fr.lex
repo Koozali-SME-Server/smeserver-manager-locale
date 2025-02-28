@@ -2,7 +2,11 @@
 'Local networks' => 'Gestion des réseaux locaux',
 'ln_FIRSTPAGE_DESC' => 'Par mesure de sécurité, plusieurs services du serveur ne sont disponibles que pour votre réseau local. Mais il vous est possible d\'accorder ces privilèges d\'accès local à d\'autres réseaux en les ajoutant à la liste ci-dessous. Dans la plupart des cas, vous devriez laisser cette liste vide.',
 'ln_ADD_TITLE' => 'Ajouter un réseau local',
-'ln_ADD_DESC' => '<p>Chaque valeur doit être de la forme #.#.#.# (où # est un nombre entier compris entre 0 et 255). Le serveur supprime les zéros de la partie finale (identificateur de l\'hôte) de l\'adresse réseau en fonction du masque de sous-réseau, afin d\'assurer la validité de l\'adresse réseau.</p> <p>Le champ \'Routeur\' doit contenir l\'adresse IP du routeur local assurant la liaison vers le réseau supplémentaire.</p> ',
+'ln_ADD_DESC' => '<p>Chaque valeur doit être de la forme #.#.#.# (où # est un nombre entier compris entre 0 et 255). Le serveur supprime les zéros de la partie finale (identificateur de l\'hôte) de l\'adresse réseau en fonction du masque de sous-réseau, afin d\'assurer la validité de l\'adresse réseau.</p>
+
+  <p>Le champ \'Routeur\' doit contenir l\'adresse IP du routeur local assurant la liaison vers le réseau supplémentaire.</p>
+
+  ',
 'ln_NETWORK_ADDRESS' => 'Adresse réseau',
 'ln_SUBNET_MASK' => 'Masque de sous-réseau',
 'ln_INVALID_IP_ADDRESS' => 'Adresse IP non valide.',
@@ -19,7 +23,13 @@
 'ln_SUCCESS' => 'Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été ajouté avec succès.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été ajouté avec succès. Votre serveur accordera des privilèges d\'accès local à l\'unique adresse IP {$network}.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été ajouté avec succès. Votre serveur accordera des privilèges d\'accès local aux {$totalHosts} adresses IP comprises dans l\'intervalle {$firstAddr} à {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p>Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été ajouté avec succès.</p> <p>Votre serveur accordera des privilèges d\'accès local aux {$totalHosts} adresses IP comprises dans l\'intervalle {$firstAddr} à {$lastAddr}.</p> <p>ATTENTION : le serveur FTP ProFTPd ne peut pas traiter ce masque de sous-réseau non standard. Le masque simplifié <b>{$simpleMask}</b> sera utilisé à la place.</p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p>Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été ajouté avec succès.</p>
+
+  <p>Votre serveur accordera des privilèges d\'accès local aux {$totalHosts} adresses IP comprises dans l\'intervalle {$firstAddr} à {$lastAddr}.</p>
+
+  <p>ATTENTION : le serveur FTP ProFTPd ne peut pas traiter ce masque de sous-réseau non standard. Le masque simplifié <b>{$simpleMask}</b> sera utilisé à la place.</p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Le réseau {$network}/{$networkMask} accessible via le routeur {$networkRouter} a été supprimé avec succès.',
 'ln_ERROR_DELETING_NETWORK' => 'Une erreur est survenue lors de la suppression du réseau.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Aucun réseau local additionnel',

@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Krótki opis / Alias grupy Windows',
 'grp_GROUP_DESC_EXPL' => 'Wpisz krótki opis grupy w polu poniżej. To pole również wyznacza nazwę grupy widzianej przez klientów systemu Windows.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Poniższy magazyn danych był przypisany do tej grupy i zostanie zmieniony na grupę administratora (można ją później zmienić):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Czy napewno chcesz usunąć tę grupę?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Lista grup użytkowników</p>',
-'grp_DELETE_DESCRIPTION' => ' Masz zamiar usunąć grupę użytkowników "<b>{$group}</b>." ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Czy napewno chcesz usunąć tę grupę?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Lista grup użytkowników</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Masz zamiar usunąć grupę użytkowników "{$group}." ',

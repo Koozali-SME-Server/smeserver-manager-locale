@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Operationeel status rapport',
 'ACCOUNT' => 'Account',
 'GROUP' => 'Groep',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Pijplijn symbolen (|) zijn niet toegestaan in dit veld',
 'ERROR_BELOW' => 'FOUT: Er is een fout opgetreden in de validatie van deze pagina. Blader naar onderen om het specifieke probleem te vinden.',
 'ACCESS' => 'Toegang',

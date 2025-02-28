@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Laporan status operasi',
 'ACCOUNT' => 'Akun',
 'GROUP' => 'Grup',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Simbol \'pipe\' (|) tidak diperbolehkan dalam field ini',
 'ERROR_BELOW' => 'ERROR: Terjadi kesalahan dalam validasi halaman ini. Silakan gulung kebawah dan temukan masalah tersebut.',
 'ACCESS' => 'Akses',

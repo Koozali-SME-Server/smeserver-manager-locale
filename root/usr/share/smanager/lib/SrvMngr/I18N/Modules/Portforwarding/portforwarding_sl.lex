@@ -1,11 +1,17 @@
 'pf_FORM_TITLE' => 'Nastavi posredovanje TCP/UDP vrat na lokalni IP naslov',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Na tej strani lahko spremenite nastavitve pozarnega zidu tako, da odprete dolocena vrata in posredujete na zeljena vrata racunalnika v vasem lokalnem omrezju. Na ta nacin boste omogocili vstopnim podatkom direkten dostop do zeljenega racunalnika v vasem lokalnem omrezju. </p> <p> OPOZORILO: Napacna uporaba te lastnosti lahko resno ogrozi varnost vasega omrezja. Ne uporabljajte te funkcije, ce niste popolnoma prepricani v to kar spreminjate in se zavedate posledic vasega dejanja. </p> ',
+'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Na tej strani lahko spremenite nastavitve pozarnega zidu tako, da odprete dolocena vrata in posredujete na zeljena vrata racunalnika v vasem lokalnem omrezju. Na ta nacin boste omogocili vstopnim podatkom direkten dostop do zeljenega racunalnika v vasem lokalnem omrezju. </p>
+
+  <p> OPOZORILO: Napacna uporaba te lastnosti lahko resno ogrozi varnost vasega omrezja. Ne uporabljajte te funkcije, ce niste popolnoma prepricani v to kar spreminjate in se zavedate posledic vasega dejanja. </p>
+
+  ',
 'pf_CREATE_RULE' => 'Create portforwarding rule',
 'pf_SUMMARY_ADD_DESC' => 'Spodaj je izpisano pravilo o posredovanju vrat, ki ga pravkar zelite dodati. Ce se s pravilom strinjate, izberite gumb &quot;Dodaj&quot;. Ce s pravilom niste zadovoljni, pritisnite gumb &quot;Preklici&quot;.',
 'pf_SUMMARY_REMOVE_DESC' => 'Spodaj je izpisano pravilo o posredovanju vrat, ki ga pravkar zelite odstraniti. Ce ste prepricani, da zelite to pravilo odstraniti, izberite gumb &quot;Odstrani&quot;, sicer izberite gumb &quot;Preklici&quot;.',
 'pf_SHOW_FORWARDS' => 'Spodaj so izpisana trenutno omogocena pravila o posredovanju vrat. Ce bi zeleli katero izmed teh odstraniti, kliknite na povezavo &quot;Odstrani&quot; na desni strani opisa posameznega pravila.',
 'pf_NO_FORWARDS' => 'V sistemu ni konfiguriranega nobenega pravila za posredovanje vrat.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p> Izberite vrsto protokola, stevilo vrat, IP naslov ciljnega racunalnika v lokalnem omrezju na katerega zelite promet preusmeriti. Ce zelite preusmeriti obseg vrat, vpisite spodnjo vrednost, pomisljaj in zgornjo vrednost (npr. 4899-5910). Stevilko ciljnih vrat lahko pustite prazno, kar bo pomenilo, da bo pozarni zid za st. ciljnih vrat uposteval enako, kot za izvor.</p> ',
+'pf_CREATE_PAGE_DESCRIPTION' => ' <p> Izberite vrsto protokola, stevilo vrat, IP naslov ciljnega racunalnika v lokalnem omrezju na katerega zelite promet preusmeriti. Ce zelite preusmeriti obseg vrat, vpisite spodnjo vrednost, pomisljaj in zgornjo vrednost (npr. 4899-5910). Stevilko ciljnih vrat lahko pustite prazno, kar bo pomenilo, da bo pozarni zid za st. ciljnih vrat uposteval enako, kot za izvor.</p>
+
+  ',
 'pf_LABEL_SOURCE_PORT' => 'St. izvornih vrat',
 'pf_LABEL_PROTOCOL' => 'Protokol',
 'pf_LABEL_DESTINATION_PORT' => 'St. ciljnih vrat',

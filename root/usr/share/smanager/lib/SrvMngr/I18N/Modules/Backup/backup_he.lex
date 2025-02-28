@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'גיבוי או שחזור מידע שרת',
-'bac_BACKUP_DESC' => ' <P>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</P> <P>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \"Verify desktop backup file\" option can be used to check the integrity of a desktop backup file.</P> <P>The tape backup method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>
+
+  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \"Verify desktop backup file\" option can be used to check the integrity of a desktop backup file.</p>
+
+  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+
+  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>
+
+  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
+
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Backup configuration and status',
-'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently <b>enabled</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently enabled. ',
 'bac_BACKUPS_RUN_AT' => 'Regular tape backups will run at:',
 'bac_REMINDER_MESSAGE_AT' => 'Reminder messages will be sent at:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups are <b>disabled</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups are disabled ',
 'bac_DESKTOP_BACKUP' => 'גיבוי לשולחן העבודה',
 'bac_DESKTOP_RESTORE' => 'שחזור משולחן העבודה',
 'bac_DESKTOP_VERIFY' => 'בדוק תקינות קובץ גיבוי לשולחן עבודה',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'שחזור מערכת הושלם',
 'bac_STARTED_AT' => 'הוא החל ב:',
 'bac_FINISHED_AT' => 'והסתיים ב:',
-'bac_YOU_MUST_REBOOT' => 'אתה חייב לאתחל את השרת כדי להפעיל את כל שינויי התצורה שנעשו כתוצאה מהשחזור הזה.', 
+'bac_YOU_MUST_REBOOT' => 'אתה חייב לאתחל את השרת כדי להפעיל את כל שינויי התצורה שנעשו כתוצאה מהשחזור הזה.',
 'bac_REBOOT' => 'הפעלה מחדש',
 'bac_SELECT_AN_ACTION' => 'בחר פעולה',
 'bac_X_BACKUP_OR_RESTORE' => 'X גיבוי או שחזור מידע שרת',
@@ -25,11 +43,11 @@
 'bac_ERR_PRE_RESTORE' => 'שגיאה התרחשה במהלך פעולת טרום-שחזור.',
 'bac_ERR_POST_BACKUP' => 'שגיאה התרחשה במהלך פעולת לאחר-גיבוי.',
 'bac_RESTORE_SERVER_CONFIG' => 'שחזר הגדרות שרת',
-'bac_DESKTOP_RESTORE_DESC' => 'תהליך זה יעלה קובץ גיבוי שרת משולחן העבודה המקומי שלך אל השרת שלך וישחזר את התצורה ואת קבצי הנתונים של המשתמשים. <B> השחזור צריך להתבצע על שרת מותקן נקי </ B>. ',
+'bac_DESKTOP_RESTORE_DESC' => 'תהליך זה יעלה קובץ גיבוי שרת משולחן העבודה המקומי שלך אל השרת שלך וישחזר את התצורה ואת קבצי הנתונים של המשתמשים.  השחזור צריך להתבצע על שרת מותקן נקי . ',
 'bac_FREE_SPACE' => 'יש לך כ $tmpfree שטח פנוי בשרת. בדוק כי קובץ גיבוי שולחן העבודה הוא פחות מ $halffree לפני תחילת השחזור. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'לאחר שהשחזור הושלם עליך לאתחל את השרת.',
 'bac_FILE_TO_RESTORE' => 'קובץ גיבוי לשחזר ממנו',
-'bac_VERIFY_BACKUP_DESC' => '<p> אפשרות זו תציג את השמות של כל הקבצים בתוך קובץ גיבוי שנוצר בעבר בשולחן העבודה. ניתן להשתמש באפשרות זו כדי לבדוק את תוכנו של קובץ הגיבוי. </ P>',
+'bac_VERIFY_BACKUP_DESC' => '<p> אפשרות זו תציג את השמות של כל הקבצים בתוך קובץ גיבוי שנוצר בעבר בשולחן העבודה. ניתן להשתמש באפשרות זו כדי לבדוק את תוכנו של קובץ הגיבוי. </ p>',
 'bac_SELECT_BACKUP_FILE' => 'בחר קובץ גיבוי',
 'bac_VERIFY' => 'בדיקה',
 'bac_RESTORE_CANNOT_PROCEED' => 'לא ניתן להמשיך עם שחזור הגדרות שרת',
@@ -49,7 +67,7 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'קובץ הגיבוי לא היה שלם',
 'bac_ERR_READING_FILE' => 'ארעה שגיאה בקריאת קובץ הגיבוי.',
 'bac_ENABLE_DISABLE_TAPE' => 'אפשר\נטרל גיבוי טייפ לילי',
-'bac_TAPE_CONFIG_DESC' => '<p> בחר אם אתה רוצה להפעיל גיבויים לילים. אחר כך ציין את הזמנים הרצוים לגיבוי ולתזכורת הכנסת קלטת. </ P> הגיבוי לטייפ דורש כונן קלטות נתמך. הודעת אזהרה תישלח לאדמין במועד התזכורת שנקבעה במידה והטייפ ריק. </ p>',
+'bac_TAPE_CONFIG_DESC' => '<p> בחר אם אתה רוצה להפעיל גיבויים לילים. אחר כך ציין את הזמנים הרצוים לגיבוי ולתזכורת הכנסת קלטת. </ p> הגיבוי לטייפ דורש כונן קלטות נתמך. הודעת אזהרה תישלח לאדמין במועד התזכורת שנקבעה במידה והטייפ ריק. </ p>',
 'bac_ENABLE_TAPE_BACKUP' => 'אפשר גיבוי לטייפ',
 'bac_TAPE_BACKUP_TIME' => 'זמן ביום לביצוע גיבוי לטייפ (שעה/דקות)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'זמן ביום למשלוח תזכורת להכנסת קלטת לטייפ הגיבוי (שעה/דקות)',
@@ -70,7 +88,13 @@
 'bac_WITH_REMINDER_TIME' => 'וזמן שליחת תזכורת להכנסת קלטת גיבוי לטייפ ב:',
 'bac_SUCCESSFULLY_DISABLED' => 'גיבויי טייפ נוטרלו בהצלחה',
 'bac_RESTORE_CONF_FROM_TAPE' => 'שחזר הגדרות שרת מגיבוי טייפ',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => '<P> תהליך זה ישחזר את התצורה וגם את קבצי המשתמש מגיבוי קלטת בשרת. <B> השחזור צריך להתבצע על שרת מותקן נקי </B>. </P><P> אנא ודא כי קלטת הגיבוי הוכנסה אל טייפ הגיבוי לפני שתמשיך. </P> אחרי השלמת השחזור עליך לאתחל את השרת. </P>',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => '<p> תהליך זה ישחזר את התצורה וגם את קבצי המשתמש מגיבוי קלטת בשרת. <b> השחזור צריך להתבצע על שרת מותקן נקי </b>. </p>
+
+  <p> אנא ודא כי קלטת הגיבוי הוכנסה אל טייפ הגיבוי לפני שתמשיך. </p>
+
+  אחרי השלמת השחזור עליך לאתחל את השרת. </p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'שחזור מטייפ',
 'bac_UNABLE_TO_RESTORE_CONF' => 'לא ניתן לשחזר הגדרות שרת',
 'bac_RESTORING_FROM_TAPE' => 'משחזר מטייפ',
@@ -81,11 +105,11 @@
 'bac_SERVER_REBOOT' => 'הפעלה מחדש לשרת',
 'bac_SERVER_WILL_REBOOT' => 'השרת יופעל מחדש עכשיו.',
 'bac_NO_UID_FOR_NAME' => 'לא הצלחתי לקבל את הuid עבור משתמש בשם:',
-'bac_PAGE_REFRESH_IN' => ' דף זה ירענן את תצוגת הסטטוס בתוך {$sec} שניות, או לחץ על<a href="/server-manager/cgi-bin/backup">רענון</a>. ',
+'bac_PAGE_REFRESH_IN' => ' דף זה ירענן את תצוגת הסטטוס בתוך {$sec} שניות, או לחץ עלרענון. ',
 'bac_Backup or restore' => 'גיבוי או שחזור',
-'bac_BACKUP_DESKTOP_TOO_BIG' => ' <div class="error"> בשרת שלך יש יותר מדי נתונים ולכן לא יתאפשר גיבוי אמין לשולחן העבודה. </div> ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' גיבוי לתחנת עבודה<b>מנוטרל</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' גיבוי לתחנת עבודה<b>מופעל</b>. ',
+'bac_BACKUP_DESKTOP_TOO_BIG' => '  בשרת שלך יש יותר מדי נתונים ולכן לא יתאפשר גיבוי אמין לשולחן העבודה.  ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' גיבוי לתחנת עבודהמנוטרל ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' גיבוי לתחנת עבודהמופעל. ',
 'bac_WKBACKUPS_RUN_AT' => 'גיבוי רגיל לתחנת עבודה יופעל ב:',
 'bac_WORKSTN_CONFIGURE' => 'הגדרת גיבוי לתחנת עבודה',
 'bac_WORKSTN_VERIFY' => 'בדיקת גיבוי לתחנת עבודה',
@@ -98,9 +122,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'גיבוי אל שולחן עבודה הופעל בהצלחה',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'גיבוי אל שולחן עבודה בוטל בהצלחה',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'בדיקת גיבוי לתחנת עבודה',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>אפשרות זו תציג את שמות כל הקבצים שנוצרו על ידי גיבוי יומי אל תחנת עבודה. ניתן להשתמש באפשרות זו כדי לבדוק את תוכן הגיבוי.<b>עליך לבחור את הגיבויאותו אתה מעוניין לבדוק</b></p> <p>רק קבצים בעלי דגל [Saved] מאוכסנים בגיבוי.</p> <br/>קבצי גיבוי נבדקים מתוך תיקיית השיתוף: ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>אפשרות זו תציג את שמות כל הקבצים שנוצרו על ידי גיבוי יומי אל תחנת עבודה. ניתן להשתמש באפשרות זו כדי לבדוק את תוכן הגיבוי.<b>עליך לבחור את הגיבויאותו אתה מעוניין לבדוק</b></p>
+
+  <p>רק קבצים בעלי דגל [Saved] מאוכסנים בגיבוי.</p>
+
+  <br/>קבצי גיבוי נבדקים מתוך תיקיית השיתוף: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'שחזור הגדרות שרת מגיבוי אל תחנת עבודה',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>This process will restore the configuration and user data files from a Server workstation backup. <b>The restore should be performed on a freshly installed Server</b>.</p> <p>Ensure that choose the right backup to restore below before proceeding.</p> <p>After the restore completes you must reboot the server.</p> Backup will be restored from : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>This process will restore the configuration and user data files from a Server workstation backup. <b>The restore should be performed on a freshly installed Server</b>.</p>
+
+  <p>Ensure that choose the right backup to restore below before proceeding.</p>
+
+  <p>After the restore completes you must reboot the server.</p>
+
+  Backup will be restored from : ',
 'bac_RESTORE_FROM_WORKSTN' => 'Restore From Workstation',
 'bac_RESTORING_FROM_WORKSTN' => 'Restoring From Workstation',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Your server configuration and user data files are now being restored from workstation shared folder.',
@@ -124,7 +158,7 @@
 'bac_NUMBER_OF_SETS' => 'Number of rotating backup sets',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Daily backups in each set',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Sets number must be 1 or greater',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'This number must be 1 or greater. First backup in set is <b>full</b> others are <b>incrementals</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'This number must be 1 or greater. First backup in set is full others are incrementals',
 'bac_WORKSTN_TIMEOUT' => 'Optional backup session timeout (hours)',
 'bac_INC_ONLY_TIMEOUT' => 'Don\'t timeout full backup sessions',
 'bac_ERR_INVALID_TIMEOUT' => 'Maximum backup time must be set between 1 and 24 hours',
@@ -133,11 +167,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Selective file restore from workstation',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Workstation selective file restore',
 'bac_ALL_BACKUPS' => 'All backups',
-'bac_WORKSTN_SEL_REST_DESC' => ' This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don\'t know in which backup are the required files, you can select \'All backups\' option. <br/><br/> The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names.<br/><br/> You have the responsibility not to restore files which could break the functioning of your server.<br/> <br/>Currently, files will be restored from : ',
+'bac_WORKSTN_SEL_REST_DESC' => ' This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don\'t know in which backup are the required files, you can select \'All backups\' option.  The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names. You have the responsibility not to restore files which could break the functioning of your server. Currently, files will be restored from : ',
 'bac_BACKUP_CHOICE' => 'Selecting files to display',
 'bac_SELECT_DATE_BEFORE' => 'Restore most recent before',
 'bac_FILTER_EXPRESSION' => 'Names filtered by',
-'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection). <br/> <b>Warning :</b> If you select a directory, all contained files and directories will be restored.<p/> By default the most recent version of selected files is restored, but if you specify a date in the format <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> the process will restore only the most recent version modified <b>before the given date</b>. ',
+'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format [ [ [yyyy/]mm/]dd-]hh:mm[:ss] the process will restore only the most recent version modified before the given date. ',
 'bac_ERR_INVALID_SELDATE' => 'Date format is invalid, must be [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Select files to restore',
 'bac_ERR_WHILE_UNMOUNTING' => 'Error occurs when unmounting distant share',
@@ -147,8 +181,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Compression level must be set between 0 (no compression) and 9 (maximum compression)',
 'bac_DOW' => 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday Everyday',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Please configure the backup settings.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>This panel displays the present workstation backup configuration. You can change it in this panel and the next one.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>This panel displays the present workstation backup configuration. You can change it in this panel and the next one.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Backup is',
 'bac_WORKSTN_BACKUP_USB' => 'Backup is made on local removable disk',
 'bac_WORKSTN_BACKUP_MNT' => 'Backup is made on mounted disk',

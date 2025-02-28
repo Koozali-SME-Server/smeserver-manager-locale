@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'Mailide logid ja failide analüüs',
-'qma_INITIAL_DESC' => ' <P>Analysing the mail system log files can aid both in understanding how your system is performing and in diagnosing delivery problems. Several different reports are available.</P> <P>Pane tähele, et raporti koostamine võib võtta mitu minutit</P> ',
+'qma_INITIAL_DESC' => ' Analysing the mail system log files can aid both in understanding how your system is performing and in diagnosing delivery problems. Several different reports are available. Pane tähele, et raporti koostamine võib võtta mitu minutit ',
 'qma_REPORT_TYPE' => 'Vali raporti tüüp',
 'qma_GENERATE_REPORT' => 'Koosta raport',
 'qma_LIST_OUTGOING' => 'List outgoing messages and recipients',

@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Kullanıcı hesabı oluştur, değiştir veya sil',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Kullanıcı hesabı ekle</a> </p> <p> Herhangi bir hesapta değişiklik yapmak, kilitlemek, şifresini değiştirmek veya şifresini sıfırlamak için ilgili hesabın sonundaki butonlara tıklayın. </p> <p> Eğer kullanıcı durumu kiltli görünüyorsa, bu kullanıcının şifresi sıfırlanmalıdır. Yeni oluşturulan hesaplar, şifresi değiştirilene kadar kilitlidir. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Kullanıcı hesabı ekle</a> </p>
+
+  <p> Herhangi bir hesapta değişiklik yapmak, kilitlemek, şifresini değiştirmek veya şifresini sıfırlamak için ilgili hesabın sonundaki butonlara tıklayın. </p>
+
+  <p> Eğer kullanıcı durumu kiltli görünüyorsa, bu kullanıcının şifresi sıfırlanmalıdır. Yeni oluşturulan hesaplar, şifresi değiştirilene kadar kilitlidir. </p>
+
+  ',
 'usr_P2_TITLE' => 'Oluştur veya değiştir',
-'usr_CREATE_MODIFY_DESC' => ' <p> Hesap adı sadece küçük harf, rakam, tire aplçizgi ve noktadan oluşabilir ve küçük harfle başlamalıdır. Örneğin "betty", "hjohnson" ve "mary-jane" geçerli kullanıcı isimleridir, fakat "3friends", "John Smith", and "henry:miller" geçersizdir. </p> <p> Her yeni hesap için iki takma ad atandığını unutmayın. Bu takma adlar kullanıcı için alternatif e-posta kutuları oluşturur, kullanıcının adı ve soyadı arasında nokta (.) vealtçizgi (_) konarak oluşturulur. Örneğin "betty" kullanıcısını ilk adı "Betty" ve soyadı "Rubble" ise e-posta için iki takma ad oluşturulacaktır betty.rubble ve betty_rubble. </p> <p> Adres defteri bilgileri (departman, şirket vb.) aşağıda değiştirilebilri. Bu bilgiler sadece bu kullanıcı için geçerli olacaktır. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> Hesap adı sadece küçük harf, rakam, tire aplçizgi ve noktadan oluşabilir ve küçük harfle başlamalıdır. Örneğin "betty", "hjohnson" ve "mary-jane" geçerli kullanıcı isimleridir, fakat "3friends", "John Smith", and "henry:miller" geçersizdir. </p>
+
+  <p> Her yeni hesap için iki takma ad atandığını unutmayın. Bu takma adlar kullanıcı için alternatif e-posta kutuları oluşturur, kullanıcının adı ve soyadı arasında nokta (.) vealtçizgi (_) konarak oluşturulur. Örneğin "betty" kullanıcısını ilk adı "Betty" ve soyadı "Rubble" ise e-posta için iki takma ad oluşturulacaktır betty.rubble ve betty_rubble. </p>
+
+  <p> Adres defteri bilgileri (departman, şirket vb.) aşağıda değiştirilebilri. Bu bilgiler sadece bu kullanıcı için geçerli olacaktır. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'admin hesabını değiştir',
 'usr_USER_CREATED' => 'Kullanıcı hesabı başarıyla oluşturuldu',
 'usr_USER_MODIFIED' => 'Kullanıcı hesabı başarıyla değiştirildi',
-'usr_CANNOT_MODIFY_USER' => 'Hata: "{$acctName}" isimli kullanıcının ayarları değiştirilirken hata meydana geldi.', 
+'usr_CANNOT_MODIFY_USER' => 'Hata: "{$acctName}" isimli kullanıcının ayarları değiştirilirken hata meydana geldi.',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Hata: "{$acctName}" isimli kullanıcının bağlı olduğu gurubu değiştirilirken hata meydana geldi, ilgili rup "{$group}" .',
 'usr_TAINTED_USER' => 'Girilen hesap adı "{$acctName}" geçersiz karakterler içeriyor.',
 'usr_ACCOUNT_NAME' => 'Hesap adı',
@@ -25,21 +37,21 @@
 'usr_RESET_DESC' => 'Kullanıcı hesabının şifresini değiştirmek üzeresiniz',
 'usr_RESET_DESC2' => 'Aşağıdaki alanlara yeni şifrenizi girin',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Şifre güncellenirken hata oluştu',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => '"{$acctName}" kullanıcısının şifresi başarıyla değiştirildi.',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => '{$acctName}" kullanıcısının şifresi başarıyla değiştirildi.',
 'usr_LOCK_DESC' => 'Kullanıcının hesabını kilitlemek üzeresiniz',
-'usr_LOCKED_ACCOUNT' => '"{$acctName}" kullanıcısının hesabı başarıyla kilitlendi.',
+'usr_LOCKED_ACCOUNT' => '{$acctName}" kullanıcısının hesabı başarıyla kilitlendi.',
 'usr_NO_SUCH_USER' => 'Hata: "{$acctName}" kullanıcısının hesabı bulunamadı.',
 'usr_PSEUDONYM_CLASH' => 'Hata: takma isim "{$pseudonym}" zaten var olan "{$clashName}" kullanıcının hesabı ile alınır . Farklılaştırmak için, bu alanın başına harfleri ekleyin.',
 'usr_LOCK_ACCOUNT' => 'Hesabı kilitle',
 'usr_LOCK_ACCOUNT_TITLE' => 'Kullanıcı hesabını kilitle',
-'usr_LOCK_DESC2' => ' Bu kullanıcının hesabı kilitlenecektir. Bu durumda bu kullanıcı sisteme giriş yapamayacaktır ve e-postalarına ulaşamayacaktır. Gelen e-postalar saklanacak ve / veya harici e-posta adresine yönlendirilecek, yapılandırılmış ise. Hesap, daha sonra şifre verilerek tekrar aktifleştirilebilir. Geçerli şifre korunmayacaktır. </p> <p> <b>Hesabı kiltlemek istediğinizden eminmisiniz?</b> ',
+'usr_LOCK_DESC2' => ' Bu kullanıcının hesabı kilitlenecektir. Bu durumda bu kullanıcı sisteme giriş yapamayacaktır ve e-postalarına ulaşamayacaktır. Gelen e-postalar saklanacak ve / veya harici e-posta adresine yönlendirilecek, yapılandırılmış ise. Hesap, daha sonra şifre verilerek tekrar aktifleştirilebilir. Geçerli şifre korunmayacaktır.   Hesabı kiltlemek istediğinizden eminmisiniz? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Kullanıcı hesabını sil',
 'usr_REMOVE_DESC' => 'Kullanıcı hesabını silmek üzeresiniz',
-'usr_REMOVE_DESC2' => ' Bu kullanıcı hesabına ait bütün dosyalar silinecektir. Sunucuda bu kullanıcıya ait bekleyen e-postalar da dahil (örn. kullanıcı tarafından henüz okunmamış mesajlar) iptal edilecektir. </p> <p> <b>Bu kullanıcı hesabını silmek istediğinizden eminmisiniz?</b> ',
+'usr_REMOVE_DESC2' => ' Bu kullanıcı hesabına ait bütün dosyalar silinecektir. Sunucuda bu kullanıcıya ait bekleyen e-postalar da dahil (örn. kullanıcı tarafından henüz okunmamış mesajlar) iptal edilecektir.   Bu kullanıcı hesabını silmek istediğinizden eminmisiniz? ',
 'usr_LOCK' => 'Kilitli',
 'usr_NO_USER_ACCOUNTS' => 'Kullanıcı hesabı bulunamadı.',
 'usr_Users' => 'Kullanıcılar',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => '"{$acctName}" kullancı adı geçersiz karakter içeriyor. Hesap adı küçük harfle başlamalı ve küçük harfler, rakamlar, tire, nokta ve alt çizgi içermelidir.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => '{$acctName}" kullancı adı geçersiz karakter içeriyor. Hesap adı küçük harfle başlamalı ve küçük harfler, rakamlar, tire, nokta ve alt çizgi içermelidir.',
 'usr_ACCOUNT_TOO_LONG' => 'Hata: kullanıcı adı çok uzun. En fazla {$maxLength} karakter kullanılabilir.',
 'usr_ACCOUNT_CONFLICT' => 'Hata: "{$account}" hesabı oluşturulamadı çünkü {$type} isimli bir hesap zaten mevcut.',
 'usr_ERR_OCCURRED_CREATING' => 'Kullanıcı oluşturulurken hata meydana geldi.',

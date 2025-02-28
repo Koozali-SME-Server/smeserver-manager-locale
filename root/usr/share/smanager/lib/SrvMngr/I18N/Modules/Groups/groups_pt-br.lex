@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Breve Descrição/pseudônimo de grupo Windows',
 'grp_GROUP_DESC_EXPL' => 'Entre com uma breve descrição do grupo no campo abaixo. Este campo também indica o nome de grupo visto pelos clientes Windows.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Os seguintes compartilhamentos foram designados para este grupo e serão trocados para o grupo Administrador (e você poderá trocá-los para qualquer coisa diferente mais tarde):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Tem certeza que deseja remover este grupo?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Lista atual de grupos de usuários</p>',
-'grp_DELETE_DESCRIPTION' => ' Voce está prestes a remover o grupo de usuários "<b>{$group}</b>." ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Tem certeza que deseja remover este grupo?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Lista atual de grupos de usuários</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Voce está prestes a remover o grupo de usuários "{$group}." ',

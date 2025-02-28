@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Backup atau restore data server',
-'bac_BACKUP_DESC' => ' <P>Server menyediakan dua cara untuk membackup dan me-restore server: : menggunakan desktop lokal atau sebuah tape drive.</P> <P>Metode pertama membuat salinan dari konfigurasi server dan file data pengguna, dan mengunduhnya pada desktop lokal anda melalui web browser anda. Saat ini total file konfigurasi dan data sekitar <b>$tarsize</b>. File backup akan sedikit lebih kecil dari ini, tergantung seberapa bisa data dimampatkan . Pilihan \"Periksa file backup dekstop\" option dapat digunakanuntuk memeriksa integritas dari sebuah file backup.</P> <P>Metode tape backup menggunakan paket perangkat lunak <I>$module</I> untuk membackup seluruh harddisk kedalam tape setiap malam. Ini memerlukan tape drive yang di-support dan sebuah tape yang tidak di write-protect. Backup dilakukan secara otomatis pada waktu yang ditentukan setiap malam (dengan reminder yang secara otomatis di e-mailed kepada administrator pada hari berikutnya). Saat ini harddisk anda berisi data <b>$dumpsize</b> .</P> <P>Kedua metode restore membolehkan anda untuk me-restore file konfigurasi dan data pengguna. <b>Sebaiknya, restore dilakukan pada server yang baru di-install</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>Server menyediakan dua cara untuk membackup dan me-restore server: : menggunakan desktop lokal atau sebuah tape drive.</p>
+
+  <p>Metode pertama membuat salinan dari konfigurasi server dan file data pengguna, dan mengunduhnya pada desktop lokal anda melalui web browser anda. Saat ini total file konfigurasi dan data sekitar <b>[_3]</b>. File backup akan sedikit lebih kecil dari ini, tergantung seberapa bisa data dimampatkan . Pilihan \"Periksa file backup dekstop\" option dapat digunakanuntuk memeriksa integritas dari sebuah file backup.</p>
+
+  <p>Metode tape backup menggunakan paket perangkat lunak <i>[_1]</i> untuk membackup seluruh harddisk kedalam tape setiap malam. Ini memerlukan tape drive yang di-support dan sebuah tape yang tidak di write-protect. Backup dilakukan secara otomatis pada waktu yang ditentukan setiap malam (dengan reminder yang secara otomatis di e-mailed kepada administrator pada hari berikutnya). Saat ini harddisk anda berisi data <b>[_2]</b> .</p>
+
+  <p>Kedua metode restore membolehkan anda untuk me-restore file konfigurasi dan data pengguna. <b>Sebaiknya, restore dilakukan pada server yang baru di-install</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+
+  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>
+
+  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
+
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Konfigurasi dan status backup',
-'bac_TAPE_BACKUPS_ENABLED' => ' Backup Tape saat ini di <b>enabled</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Backup Tape saat ini di enabled. ',
 'bac_BACKUPS_RUN_AT' => 'Tape backup akan dijalankan secara teratur pada:',
 'bac_REMINDER_MESSAGE_AT' => 'Pesan pengingat akan dikirim pada:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Backups Tape di <b>disabled</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Backups Tape di disabled ',
 'bac_DESKTOP_BACKUP' => 'Backup ke desktop',
 'bac_DESKTOP_RESTORE' => 'Restore dari desktop',
 'bac_DESKTOP_VERIFY' => 'Verifikasi file backup desktop',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'Sistem restore telah selesai',
 'bac_STARTED_AT' => 'Dimulai pada:',
 'bac_FINISHED_AT' => 'dan selesai pada:',
-'bac_YOU_MUST_REBOOT' => 'Anda harus tutup-padam server untuk meng-aktivasi perubahan konfigurasi yang telah terjadi sebagai akibat dari sistem restore.', 
+'bac_YOU_MUST_REBOOT' => 'Anda harus tutup-padam server untuk meng-aktivasi perubahan konfigurasi yang telah terjadi sebagai akibat dari sistem restore.',
 'bac_REBOOT' => 'Re-boot',
 'bac_SELECT_AN_ACTION' => 'Pilih aksi',
 'bac_X_BACKUP_OR_RESTORE' => 'X Backup atau restore data server',
@@ -25,11 +43,15 @@
 'bac_ERR_PRE_RESTORE' => 'Error terjadi saat melakukan pre-restore.',
 'bac_ERR_POST_BACKUP' => 'Terjadi kesalahan saat melakuka post-backup.',
 'bac_RESTORE_SERVER_CONFIG' => 'Restore konfigurasi server',
-'bac_DESKTOP_RESTORE_DESC' => ' Proses ini akan meng-upload filebackup dari desktop lokal anda ke server dan me-restore konfigurasi dan data pengguna.<B>Restore harus dilakukan pada server yang baru diinstall</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Proses ini akan meng-upload filebackup dari desktop lokal anda ke server dan me-restore konfigurasi dan data pengguna.Restore harus dilakukan pada server yang baru diinstall. ',
 'bac_FREE_SPACE' => ' Anda memiliki ruang kosong sekitar $tmpfree di server. Periksa kembali apakah file backup dekstop lebih kecil dari $halffree sebelum menjalankan restore. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'Setelah restore selesai anda harus me-reboot server',
 'bac_FILE_TO_RESTORE' => 'File backup yang akan direstore dari',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Pilihan ini akan menampilkan nama dari semua file di dalam file backup yang telah dibuat sebelumnya. Anda dapat menggunakan opsi ini untuk memeriksa isi dari file backup.</p> <p>File terakhir yang ada didalam file backup adalah file yang bernama "smbpasswd".</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Pilihan ini akan menampilkan nama dari semua file di dalam file backup yang telah dibuat sebelumnya. Anda dapat menggunakan opsi ini untuk memeriksa isi dari file backup.</p>
+
+  <p>File terakhir yang ada didalam file backup adalah file yang bernama "smbpasswd".</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Pilih file backup',
 'bac_VERIFY' => 'Verifikasi',
 'bac_RESTORE_CANNOT_PROCEED' => 'Tidak dapat menjalankan restore konfigurasi server.',
@@ -49,7 +71,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'File backup tidak lengkap',
 'bac_ERR_READING_FILE' => 'Terjadi kesalahan membaca file backup.',
 'bac_ENABLE_DISABLE_TAPE' => 'Enable/Disable Backup Pita Malam Hari',
-'bac_TAPE_CONFIG_DESC' => ' <p>Pilih apakan anda ingin meng-enable backup tiap malam. Kemudian tentukan jam untuk mem-backup dan reminder untuk memasang pita.</p> <p>Tape backup memerlukan tape drive yang didukung. Pesan peringatan akan dikirim kepada administrator pada saat yang ditentukan jika tape drive kosong.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Pilih apakan anda ingin meng-enable backup tiap malam. Kemudian tentukan jam untuk mem-backup dan reminder untuk memasang pita.</p>
+
+  <p>Tape backup memerlukan tape drive yang didukung. Pesan peringatan akan dikirim kepada administrator pada saat yang ditentukan jika tape drive kosong.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Enable backup pita',
 'bac_TAPE_BACKUP_TIME' => 'Waktu melakukan backup (Jam/Menit)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Waktu Pengingat load pita (jam/menit)',
@@ -70,7 +96,13 @@
 'bac_WITH_REMINDER_TIME' => 'dan waktu pengingat load pita:',
 'bac_SUCCESSFULLY_DISABLED' => 'Berhasil men-disable tape backup',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Restore konfigurasi server dari tape backup',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Proses ini akan me-restore konfigurasi dan data pengguna dari sebuah backup tape. <B>Restore harus dilakukan pada server yang baru saja di-install.</B>.</p> <p>Pastikan bahwa anda sudah memasukkan backup tape yang benar kedalam tape drive sebelum melanjutkan.</p> <p>Setelah proses restore selesai, anda harus me-reboot server.</p> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Proses ini akan me-restore konfigurasi dan data pengguna dari sebuah backup tape. <b>Restore harus dilakukan pada server yang baru saja di-install.</b>.</p>
+
+  <p>Pastikan bahwa anda sudah memasukkan backup tape yang benar kedalam tape drive sebelum melanjutkan.</p>
+
+  <p>Setelah proses restore selesai, anda harus me-reboot server.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Restore Dari Tape',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Tidak dapat me-restore konfigurasi server',
 'bac_RESTORING_FROM_TAPE' => 'Sedang me-restore dari Tape',
@@ -81,11 +113,11 @@
 'bac_SERVER_REBOOT' => 'Server reboot',
 'bac_SERVER_WILL_REBOOT' => 'Server akan reboot sekarang',
 'bac_NO_UID_FOR_NAME' => 'Tidak dapat mengambil uid untuk user:',
-'bac_PAGE_REFRESH_IN' => ' Halaman ini akan me-refresh ke display status dalam {$sec} detik, atau klik<a href="/server-manager/cgi-bin/backup">di sini</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Halaman ini akan me-refresh ke display status dalam {$sec} detik, atau klikdi sini. ',
 'bac_Backup or restore' => 'Backup atau restore',
-'bac_BACKUP_DESKTOP_TOO_BIG' => ' <div class="error"> Terlalu banyak data pada server untuk backup ke desktop. </div> ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation backups di <b>disabled</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation backups saat ini di <b>enabled</b>. ',
+'bac_BACKUP_DESKTOP_TOO_BIG' => '  Terlalu banyak data pada server untuk backup ke desktop.  ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation backups di disabled ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation backups saat ini di enabled. ',
 'bac_WKBACKUPS_RUN_AT' => 'Workstation Backup secara teratur dilakukan pada:',
 'bac_WORKSTN_CONFIGURE' => 'Pengaturan workstation backup',
 'bac_WORKSTN_VERIFY' => 'Periksa workstation backup',
@@ -98,9 +130,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Workstation backup berhasil diaktifkan',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Berhasil men-disable workstation backup',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Periksa workstation backup',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Pilihan ini akan menampilkan semua nama file didalam berkas workstation backup yang telah dilakukan sebelumnya. Anda dapat menggunakan pilihan ini untuk memeriksa isi dari backup.<b>Anda harus memilih backup yang ingin anda periksa</b></p> <p>Hanya file yang ditandai dengan [Saved] yang berada didalam backup.</p> File backup diperiksa dari shared folder: ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Pilihan ini akan menampilkan semua nama file didalam berkas workstation backup yang telah dilakukan sebelumnya. Anda dapat menggunakan pilihan ini untuk memeriksa isi dari backup.<b>Anda harus memilih backup yang ingin anda periksa</b></p>
+
+  <p>Hanya file yang ditandai dengan [Saved] yang berada didalam backup.</p>
+
+  File backup diperiksa dari shared folder: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Restore konfigurasi server dari workstation backup',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Proses ini akan mengembalikan konfigurasi dan berkas data pengguna dari backup server. <B>Proses ini harus dilakukan pada server yang baru di install</B>.</p> <p>Pastikan anda telah memilih backup yang benar yang akan dikembalikan sebelum melanjutkan proses.</p> <p>Setelah proses restore selesai anda harus me-reboot server.</p> ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Proses ini akan mengembalikan konfigurasi dan berkas data pengguna dari backup server. <b>Proses ini harus dilakukan pada server yang baru di install</b>.</p>
+
+  <p>Pastikan anda telah memilih backup yang benar yang akan dikembalikan sebelum melanjutkan proses.</p>
+
+  <p>Setelah proses restore selesai anda harus me-reboot server.</p>
+
+  ',
 'bac_RESTORE_FROM_WORKSTN' => 'Restore dari Workstation',
 'bac_RESTORING_FROM_WORKSTN' => 'Sedang me-restore dari Workstation',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Konfigurasi server anda dan berkas data pengguna sedang di-restore dari shared folder workstation.',
@@ -124,7 +166,7 @@
 'bac_NUMBER_OF_SETS' => 'Jumlah putaran set backup',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Jumlah hari pada tiap set',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Jumlah set harus 1 atau lebih',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Angka ini harus 1 atau lebih besar dari 1. Backup set pertama adalah <b>full backup</b> selanjutnya adalah <b>incremental backup</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Angka ini harus 1 atau lebih besar dari 1. Backup set pertama adalah full backup selanjutnya adalah incremental backup',
 'bac_WORKSTN_TIMEOUT' => 'Waktu timeout sesi backup (Opsional)',
 'bac_INC_ONLY_TIMEOUT' => 'Sesi full backup jangan di-timeout',
 'bac_ERR_INVALID_TIMEOUT' => 'Waktu backup maksimal harus antara 1 dan 24 jam.',
@@ -133,11 +175,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Restore secara selektif dari workstation',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Restore secara selektif dari workstation',
 'bac_ALL_BACKUPS' => 'Semua backup',
-'bac_WORKSTN_SEL_REST_DESC' => ' Proses ini akan merestore hanya file dan direktori yang anda tentukan. Anda harus memilih backup asal dari mana file tersebut akan di-restore. Jika anda tidak tahu backup yang mana yang berisi file yang anda inginkan, anda dapat memilih \'Semua backup\' . <br/><br/> Panel berikut akan menampilkan semua file dan direktori, sehingga anda dapat memilih yang anda ingin restore. Untuk membatasi jumlah file dan direktori yang ditampilkan pada panel ini, anda dapat memberi filtering expression, yang akan diterapkan sebagai regular expression pada nama yang ditampilkan.<br/><br/> Anda bertanggung jawab untuk tidak merestore file yang dapat menyebabkan fungsi server anda rusak..<br/> <br/>Saat ini, file akan di-restore dari : ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Proses ini akan merestore hanya file dan direktori yang anda tentukan. Anda harus memilih backup asal dari mana file tersebut akan di-restore. Jika anda tidak tahu backup yang mana yang berisi file yang anda inginkan, anda dapat memilih \'Semua backup\' .  Panel berikut akan menampilkan semua file dan direktori, sehingga anda dapat memilih yang anda ingin restore. Untuk membatasi jumlah file dan direktori yang ditampilkan pada panel ini, anda dapat memberi filtering expression, yang akan diterapkan sebagai regular expression pada nama yang ditampilkan. Anda bertanggung jawab untuk tidak merestore file yang dapat menyebabkan fungsi server anda rusak.. Saat ini, file akan di-restore dari : ',
 'bac_BACKUP_CHOICE' => 'Memilih file yang ditampilkan',
 'bac_SELECT_DATE_BEFORE' => 'Restore terbaru sebelum',
 'bac_FILTER_EXPRESSION' => 'Nama difilter dengan ',
-'bac_READ_COMPLETE' => ' Anda dapat memilih semua direktori dan file yang ingin ada restore pada daftar yang dipampilkan (gunakan ctrl atau shift untuk memilih lebih dari 1). <br/> <b>Peringatan :</b> Jika anda memilih direktori, semua file dan direktori didalamnya akan di-restore.<p/> Secara default versi yang terbaru dari file yang dipilih akan di-restore, tetapi jika anda menentukan tanggal dalam format <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> proses akan me-restore hanya versi terbaru <b>sebelum tanggal tersebut</b>. ',
+'bac_READ_COMPLETE' => ' Anda dapat memilih semua direktori dan file yang ingin ada restore pada daftar yang dipampilkan (gunakan ctrl atau shift untuk memilih lebih dari 1).  Peringatan : Jika anda memilih direktori, semua file dan direktori didalamnya akan di-restore. Secara default versi yang terbaru dari file yang dipilih akan di-restore, tetapi jika anda menentukan tanggal dalam format [ [ [yyyy/]mm/]dd-]hh:mm[:ss] proses akan me-restore hanya versi terbaru sebelum tanggal tersebut. ',
 'bac_ERR_INVALID_SELDATE' => 'Format Tanggal invalid, harus dalam format [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 atau 10-08:32 atau 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Pilih file yang ingin di restore',
 'bac_ERR_WHILE_UNMOUNTING' => 'Gagal saat melakukan unmount pada share luar',
@@ -147,8 +189,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Level kemampatan harus antara 0 (tanpa kompresi) dan 9 (kompresi maksimal)',
 'bac_DOW' => 'Minggu Senin Selasa rabu Kamis Jumat Sabtu Setiap-hari',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Harap meng-konfigurasi setting backup',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Panel ini menampilkan konfigurasi workstation backup saat ini. Anda dapat mengubahnya pada panel ini dan panel selanjutnya.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Saat ini, workstation backup belum di konfigurasi. Anda dapat mengatur konfigurasi dengan panel ini dan panel selanjutnya.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Panel ini menampilkan konfigurasi workstation backup saat ini. Anda dapat mengubahnya pada panel ini dan panel selanjutnya.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Saat ini, workstation backup belum di konfigurasi. Anda dapat mengatur konfigurasi dengan panel ini dan panel selanjutnya.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Backup adalah',
 'bac_WORKSTN_BACKUP_USB' => 'Backup dilakukan pada USB disk lokal',
 'bac_WORKSTN_BACKUP_MNT' => 'Backup dilakukan pada USB disk lokal',

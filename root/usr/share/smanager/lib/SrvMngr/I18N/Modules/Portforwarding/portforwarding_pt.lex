@@ -1,11 +1,17 @@
 'pf_FORM_TITLE' => 'Configurar redirecionamento de porta',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Voce pode usar esse painel para modificar as regras de seu firewall abrindo uma porta específica e redirecionando para outra porta em outro host. Fazendo isso voce vai permitir trafego externo acessar um host privado em sua rede. </p> <p> AVISO: O mau uso deste recurso pode comprometer seriamente a segurança de sua rede. Não use esse recurso sem seriedade, ou sem uma compreensão profunda das implicações de suas ações. </p> ',
+'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Voce pode usar esse painel para modificar as regras de seu firewall abrindo uma porta específica e redirecionando para outra porta em outro host. Fazendo isso voce vai permitir trafego externo acessar um host privado em sua rede. </p>
+
+  <p> AVISO: O mau uso deste recurso pode comprometer seriamente a segurança de sua rede. Não use esse recurso sem seriedade, ou sem uma compreensão profunda das implicações de suas ações. </p>
+
+  ',
 'pf_CREATE_RULE' => 'Criar regra de redirecionamento de porta',
 'pf_SUMMARY_ADD_DESC' => 'O seguinte sumariza a regra de redirecionamento de porta que voce esta para adicionar. Se voce esta satisfeito com a regra, clik o botão &quot;Adicionar&quot; . Se vove não esta, click o botão &quot;Cancelar&quot; .',
 'pf_SUMMARY_REMOVE_DESC' => 'O seguinte sumariza a regra de redirecionamento de portas que voce esta para eliminar. Se voce tem certeza que quer eliminar a regra, click o botão &quot;Remover&quot; . Se não, click o botão &quot;Cancelar&quot; .',
 'pf_SHOW_FORWARDS' => 'Abaixo voce vai encontrar uma tabela atual sumarizada das regras de redirecionamento de portas deste servidor. Click em no link &quot;Remover&quot; para remover a regra corrrespondente.',
 'pf_NO_FORWARDS' => 'Não existe atualmente redirecionamento de portas no sistema.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Selecione o protocolo, a porta que deseja redirecionar, o host de destino, e a porta no host de destino a qual voce deseja redirecionar. Se voce deseja especificar uma faixa de portas, entre com o valor mais baixo e mais alto dos limites separados por um hifen. A porta de destino pode ser deixada em branco, o que, irá instruir o firewall para deixar a porta origem inalterada.</p> ',
+'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Selecione o protocolo, a porta que deseja redirecionar, o host de destino, e a porta no host de destino a qual voce deseja redirecionar. Se voce deseja especificar uma faixa de portas, entre com o valor mais baixo e mais alto dos limites separados por um hifen. A porta de destino pode ser deixada em branco, o que, irá instruir o firewall para deixar a porta origem inalterada.</p>
+
+  ',
 'pf_LABEL_SOURCE_PORT' => 'Porta(s) Origem(ns)',
 'pf_LABEL_PROTOCOL' => 'Protocolo',
 'pf_LABEL_DESTINATION_PORT' => 'Porta(s) Destino',

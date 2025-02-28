@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Kort beskrivelse/Windows gruppealias',
 'grp_GROUP_DESC_EXPL' => 'Indtast en kort beskrivelse for gruppen nedenfor. Dette felt betegner også gruppenavnet som det ses af Windows-klienterne.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Følgende i-bay(s) var tildelt til denne gruppe. De(n) vil blive tildelt gruppen Administrator (det kan ændres senere):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Er du sikker på at du vil slette denne gruppe?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Aktuel liste af grupper</p>',
-'grp_DELETE_DESCRIPTION' => ' Du er igang med at slette gruppen "<b>{$group}</b>." ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Er du sikker på at du vil slette denne gruppe?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Aktuel liste af grupper</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Du er igang med at slette gruppen "{$group}." ',

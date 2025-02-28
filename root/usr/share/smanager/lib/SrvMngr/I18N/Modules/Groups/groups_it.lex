@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Breve Descrizione/Gruppo Windows',
 'grp_GROUP_DESC_EXPL' => 'Inserire una breve descrizione nel campo sottostante. Questo campo indica anche il nome del gruppo visibile dai client Windows.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Le seguenti information bays appartenevano a questo gruppo e verranno assegnate al gruppo Amministratore (sarà possibile riassegnarle in seguito):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Siete sicuri di voler rimuovere questo gruppo ?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Lista dei gruppi</p>',
-'grp_DELETE_DESCRIPTION' => ' Sta per essere rimosso il gruppo "<b>{$group}</b>." ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Siete sicuri di voler rimuovere questo gruppo ?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Lista dei gruppi</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Sta per essere rimosso il gruppo "{$group}." ',

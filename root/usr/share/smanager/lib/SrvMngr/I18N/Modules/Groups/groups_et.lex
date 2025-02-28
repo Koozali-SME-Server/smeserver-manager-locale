@@ -15,6 +15,10 @@
 'grp_GROUP_DESC' => 'Brief Description/Windows Group Alias',
 'grp_GROUP_DESC_EXPL' => 'Input a brief group description in the field below. This field also designates the group name viewable by Windows clients.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'The following information bays were assigned to this group and will be changed to the Administrator group (you can change them to something else afterward):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Oled kindel, et tahad seda gruppi eemaldada?</b></p> ',
-'grp_CURRENT_LIST' => '<p>Nimekiri olemasolevatest gruppidest</p>',
-'grp_DELETE_DESCRIPTION' => ' Oled kindel, et tahad gruppi "<b>{$group}</b>."kustutada ',
+'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Oled kindel, et tahad seda gruppi eemaldada?</b></p>
+
+  ',
+'grp_CURRENT_LIST' => '<p>Nimekiri olemasolevatest gruppidest</p>
+
+  ',
+'grp_DELETE_DESCRIPTION' => ' Oled kindel, et tahad gruppi "{$group}."kustutada ',

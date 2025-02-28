@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Criar, modificar ou remover compartilhamentos',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Adicionar i-bay</a> </p> <p> Voce pode remover qualquer informação do compartilhamento ou resetar a senha clicando no comando correspondente próximo ao compartilhamento. Se o compartilhamento estiver em vermelho, isto significa que a senha ainda não foi definida, e deverá ser trocada tão logo possível. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Adicionar i-bay</a> </p>
+
+  <p> Voce pode remover qualquer informação do compartilhamento ou resetar a senha clicando no comando correspondente próximo ao compartilhamento. Se o compartilhamento estiver em vermelho, isto significa que a senha ainda não foi definida, e deverá ser trocada tão logo possível. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Criar ou modificar um i-bay',
 'iba_NAME_FIELD_DESC' => 'O nome do compartilhamento deverá conter somente letras minúsculas números, pontos, hífens e sublinhado, e deverá iniciar com letra minúscula. Por exemplo "joao", "intra", e "cust3.prj12" são todos nomes válidos, mas "3associados", "Joao Silva" e "Parceiros!Comerciais" não são. O tamanho do nome está limitado a {$maxLength} caracteres.',
 'iba_NAME_LABEL' => 'Nome do compartilhamento',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Conteúdo de execução dinâmica (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Forçar conexões seguras',
 'iba_REMOVE_TITLE' => 'Remover compartilhamento',
-'iba_REMOVE_DESC' => ' <p> Você está prestes a remover o compartilhamento "{$name}" ({$description}). </p> <p> Todos os arquivos pertencentes a este compartilhamento serão apagados. </p> <p> Você tem certeza que deseja remover este compartilhamento? </p> ',
+'iba_REMOVE_DESC' => ' <p> Você está prestes a remover o compartilhamento "{$name}" ({$description}). </p>
+
+  <p> Todos os arquivos pertencentes a este compartilhamento serão apagados. </p>
+
+  <p> Você tem certeza que deseja remover este compartilhamento? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Um erro ocoreu quando criava o compartilhamento.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Compartilhamento criado com sucesso.',
 'iba_NO_IBAYS' => 'Não existe nenhum compartilhamento configurado.',
@@ -25,7 +35,9 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'As senhas que você entrou não são iguais.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Senha resetada com sucesso.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Erro enquanto resetava senha.',
-'iba_VHOST_MESSAGE' => ' <p>Os seguinte domínios virtuais estavam usando este compartilhamento como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde):</p> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' <p>Os seguinte domínios virtuais estavam usando este compartilhamento como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde):</p>
+
+  <ul>{$vhostList}</ul> ',
 'Information bays' => 'Compartilhamentos',
 'iba_WGRG' => 'Escrever = grupo, Ler = grupo',
 'iba_WGRE' => 'Escrever = grupo, Ler = todos',
@@ -39,5 +51,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Erro: inesperado ou ausência de caracter na descrição da i-bay',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'O nome de i-bay "{$acctName}" contem caracteres inválidos. Nome de I-bay tem que iniciar com letra minúscula e conter somente letras minúsculas, números e hifens.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'O nome do i-bay "{$name}" é muito longo. O máximo é de {$maxIbayNameLength} caracteres.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A conta "{$acctName}" conflita com detalhes do apelido para a conta "{$acct}" do tipo {$acctType}. <p>{$acctName} é um apelido para {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A conta "{$acctName}" conflita com detalhes do apelido para a conta "{$acct}" do tipo {$acctType}. {$acctName} é um apelido para {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'A conta "{$acctName}" é uma conta do tipo {$acctType} já existente.',

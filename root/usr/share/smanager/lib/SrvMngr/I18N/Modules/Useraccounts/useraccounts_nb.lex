@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Opprett, endre, eller fjerne brukerkontoer',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Legg til brukerkonto</a> </p> <p> Du kan endre, låse eller fjerne kontoer eller nullstille kontoens passord ved å klikke på tilhørende kommando ved siden av kontoen. </p> <p> Hvis kontoen er markert som låst, betyr det at brukerens passord må nullstilles. Merk at nyopprettede kontoer automatisk er låst inntil passordet endres. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Legg til brukerkonto</a> </p>
+
+  <p> Du kan endre, låse eller fjerne kontoer eller nullstille kontoens passord ved å klikke på tilhørende kommando ved siden av kontoen. </p>
+
+  <p> Hvis kontoen er markert som låst, betyr det at brukerens passord må nullstilles. Merk at nyopprettede kontoer automatisk er låst inntil passordet endres. </p>
+
+  ',
 'usr_P2_TITLE' => 'Opprett eller endre',
-'usr_CREATE_MODIFY_DESC' => ' <p> Kontonavnet må bare inneholde små bokstaver, tall, bindestreker, punktum, understreker og må starte med liten bokstav. For eksempel "betty", "hjohnson", og "mary-jane" er gyldige kontonavn, men "3friends", "John Smith", og "henry:miller" er ikke. </p> <p> Merk at to spesielle pseudonymer vil bli opprettet for hver nye konto. Disse pseudonymene gir muligheten til å ha alternative e-post kontoer for den brukeren som inneholder fornavn og etternavn adskilt med punktum(.) og understrek (_). Så, for kontoen "betty" med fornavnet "Betty" og etternavnet "Rubble" blit to pseudonymer opprettet som betty.rubble og betty_rubble. </p> <p> Adressebokinformasjonen (avdeling, firma, osv.)kan bli endret fra standard vist nedenfor. Endringene vil kun gjelde for denne brukeren. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> Kontonavnet må bare inneholde små bokstaver, tall, bindestreker, punktum, understreker og må starte med liten bokstav. For eksempel "betty", "hjohnson", og "mary-jane" er gyldige kontonavn, men "3friends", "John Smith", og "henry:miller" er ikke. </p>
+
+  <p> Merk at to spesielle pseudonymer vil bli opprettet for hver nye konto. Disse pseudonymene gir muligheten til å ha alternative e-post kontoer for den brukeren som inneholder fornavn og etternavn adskilt med punktum(.) og understrek (_). Så, for kontoen "betty" med fornavnet "Betty" og etternavnet "Rubble" blit to pseudonymer opprettet som betty.rubble og betty_rubble. </p>
+
+  <p> Adressebokinformasjonen (avdeling, firma, osv.)kan bli endret fra standard vist nedenfor. Endringene vil kun gjelde for denne brukeren. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Endre admin kontoen',
 'usr_USER_CREATED' => 'Kontoen ble opprettet.',
 'usr_USER_MODIFIED' => 'Kontoen ble endret.',
-'usr_CANNOT_MODIFY_USER' => 'Feil: en intern feil oppsto under forsøk på å endre brukeren "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Feil: en intern feil oppsto under forsøk på å endre brukeren "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Feil: en intern feil oppsto under forsøk på å endre gruppen"{$group}" for brukeren "{$acctName}".',
 'usr_TAINTED_USER' => 'Kontonavnet "{$acctName}" inneholder ugyldige tegn.',
 'usr_ACCOUNT_NAME' => 'Kontonavn',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Feil: Pseudonymet "{$pseudonym}" er allerede i bruk av den eksiterende brukerkontoen "{$clashName}". For å diffrensiere, legg til initialer til feltet.',
 'usr_LOCK_ACCOUNT' => 'Lås konto',
 'usr_LOCK_ACCOUNT_TITLE' => 'Lås brukerkonto',
-'usr_LOCK_DESC2' => ' Brukerkontoen vil bli låst. Det betyr at brukeren ikke kan logge på, eller hente e-post. Mottatt e-post vil fortsatt lagres og eller videresendes til en ekstern adresse, som spesifisert. Kontoen kan aktiveres i fremtiden ved å sette et nytt passord. Gjeldende passord vil ikke bli beholdt. </p> <p> <b>Er du sikker på at du vil låse kontoen?</b> ',
+'usr_LOCK_DESC2' => ' Brukerkontoen vil bli låst. Det betyr at brukeren ikke kan logge på, eller hente e-post. Mottatt e-post vil fortsatt lagres og eller videresendes til en ekstern adresse, som spesifisert. Kontoen kan aktiveres i fremtiden ved å sette et nytt passord. Gjeldende passord vil ikke bli beholdt.   Er du sikker på at du vil låse kontoen? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Fjern brukerkonto',
 'usr_REMOVE_DESC' => 'Du er i ferd med å fjerne brukerkontoen',
-'usr_REMOVE_DESC2' => ' Alle filer tilhørende brukerkontoen vil bli slettet. Det gjelder også e-post til brukerkontoen som ennå ligger på serveren (d.v.s. som enda ikke har blit lastet ned av brukeren) vil bli forkastet. </p> <p> <b>Er du sikker på at du vil fjerne kontoen?</b> ',
+'usr_REMOVE_DESC2' => ' Alle filer tilhørende brukerkontoen vil bli slettet. Det gjelder også e-post til brukerkontoen som ennå ligger på serveren (d.v.s. som enda ikke har blit lastet ned av brukeren) vil bli forkastet.   Er du sikker på at du vil fjerne kontoen? ',
 'usr_LOCK' => 'Lås',
 'usr_NO_USER_ACCOUNTS' => 'Det er ingen brukerkontoer på systemet.',
 'usr_Users' => 'Brukere',

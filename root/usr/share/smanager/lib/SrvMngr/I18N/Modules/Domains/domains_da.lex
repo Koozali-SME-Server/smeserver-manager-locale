@@ -1,5 +1,7 @@
 'dom_FORM_TITLE' => 'Administrer domæner',
-'dom_FORM_DESCRIPTION' => ' <p>Når du opsætter et virtuelt domæne, vil serveren være i stand til at modtage post, være vært for webstedet og lig. for dette domæne.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Tilføj domæne</a> ',
+'dom_FORM_DESCRIPTION' => ' <p>Når du opsætter et virtuelt domæne, vil serveren være i stand til at modtage post, være vært for webstedet og lig. for dette domæne.</p>
+
+  <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Tilføj domæne</a> ',
 'dom_NO_VIRTUAL_DOMAINS' => 'Der er ikke oprettet nogen virtuelle domæner på serveren.',
 'dom_CURRENT_LIST_OF_DOMAINS' => 'Liste over domæner',
 'dom_PRIMARY_SITE' => 'primært websted',
@@ -15,11 +17,17 @@
 'dom_NONEXISTENT_DOMAIN_ERROR' => 'Fejl: {$domainName} findes ikke.',
 'dom_SUCCESSFULLY_MODIFIED' => 'Virtuelt domæne {$domainName} er ændret. Webserveren vil blive gensartet. Genvejene på denne side vil være inaktive indtil webserveren kører igen.',
 'dom_REMOVE_TITLE' => 'Remove virtual domain',
-'dom_REMOVE_DESCRIPTION' => ' <p> Du er ved at fjerne domænet {$domain} ({$domainDesc}). </p> <p> <b>Er du sikker på du ønsker at fjerne domænet?</b> </p> ',
+'dom_REMOVE_DESCRIPTION' => ' <p> Du er ved at fjerne domænet {$domain} ({$domainDesc}). </p>
+
+  <p> <b>Er du sikker på du ønsker at fjerne domænet?</b> </p>
+
+  ',
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Fejl: intern fejl under fjernelse af domæne {$domain}.',
 'dom_SUCCESSFULLY_DELETED' => 'Domæne {$domainName} er slettet. Webserveren vil blive genstartet. Genvejene på denne side vil være inaktive indtil webserveren kører igen.',
-'dom_DESC_CORPORATE_DNS_CURRENT' => ' <hr class="sectionbar" /><h2>Virksomheds DNS indstillinger</h2> ',
-'dom_BUTTON_CORPORATE_DNS' => ' <p>Hvis din server ikke har adgang til Internet, eller du har specielle krav til DNS-opslag så angiv DNSserverens IPadresse her. Det er ikke internetudbyderens DNSserver der skalangives. Denne server er fuldt ud i stand til selv at omsætte Internet DNS uden yderligere opsætning.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Ændre firma DNS opsætning</a> ',
+'dom_DESC_CORPORATE_DNS_CURRENT' => ' Virksomheds DNS indstillinger ',
+'dom_BUTTON_CORPORATE_DNS' => ' <p>Hvis din server ikke har adgang til Internet, eller du har specielle krav til DNS-opslag så angiv DNSserverens IPadresse her. Det er ikke internetudbyderens DNSserver der skalangives. Denne server er fuldt ud i stand til selv at omsætte Internet DNS uden yderligere opsætning.</p>
+
+  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Ændre firma DNS opsætning</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Hvis din server ikke har adgang til Internet, eller du har specielle krav til DNS-opslag så angiv DNSserverens IPadresse her. Efterlad disse felter tomme medmindre du har specielle grunde til at opsætte en anden DNS server. Det er ikke internetudbyderens DNSserver der skal angives. Denne server er fuldt ud i stand til selv at omsætte Internet DNS uden yderligere opsætning.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Primær firma DNS server',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Sekundær firma DNS server',

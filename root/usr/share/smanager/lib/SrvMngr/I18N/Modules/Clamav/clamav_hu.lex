@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Vírusírtó beállítások',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Fájlrendszer vizsgálata',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Általános beállítások</h2> Ha ezt a funkciót engedélyezi, a fájlrendszeren be lesz kapcsolva a vírusellenőrzés. Minden talált vírusról a rendszergazda emailben értesítést kap.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Általános beállítások Ha ezt a funkciót engedélyezi, a fájlrendszeren be lesz kapcsolva a vírusellenőrzés. Minden talált vírusról a rendszergazda emailben értesítést kap.',
 'clm_LABEL_QUARANTINE' => 'Fertőzött fájlok karanténba helyezése',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV és adatbázis verziók',
 'clm_WEEKLY' => 'Hetente',

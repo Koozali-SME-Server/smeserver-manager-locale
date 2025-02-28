@@ -6,5 +6,5 @@
 'rbo_DESC_RECONFIGURE' => 'Su servidor ha comenzado la reconfiguración completa del sistema y reinicio.',
 'rbo_DESC_SHUTDOWN' => 'Su servidor ha comenzado el proceso de apagado. El proceso tomará varios minutos en completarse, luego del cual usted podrá desconectar la alimentación.',
 'rbo_LABEL_REBOOT' => 'Seleccione Apagar, Reiniciar o Reconfigurar',
-'rbo_DESCRIPTION' => ' Puede reiniciar, apagar el servidor o realizar una reconfiguración completa del sistema desde esta pantalla. Debe realizar el apagado antes de desconectar la alimentación. Todas estas funciones demoran varios minutos en finalizar. Cuando haga click en <b>ejecutar</b>, la operación se iniciará inmediatamente, por lo que debe estar atento. ',
+'rbo_DESCRIPTION' => ' Puede reiniciar, apagar el servidor o realizar una reconfiguración completa del sistema desde esta pantalla. Debe realizar el apagado antes de desconectar la alimentación. Todas estas funciones demoran varios minutos en finalizar. Cuando haga click en ejecutar, la operación se iniciará inmediatamente, por lo que debe estar atento. ',
 'Reboot or shutdown' => 'Reiniciar o apagar',

@@ -1,5 +1,7 @@
 'dom_FORM_TITLE' => 'Administrer domener',
-'dom_FORM_DESCRIPTION' => ' <p>Når du oppretter et domene, vil serveren din kunne motta e-post for det domene og vil også kunne vise en webside for domenet.</p> <p><a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CREATE">Legg til domene</a> ',
+'dom_FORM_DESCRIPTION' => ' <p>Når du oppretter et domene, vil serveren din kunne motta e-post for det domene og vil også kunne vise en webside for domenet.</p>
+
+  <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Legg til domene</a> ',
 'dom_NO_VIRTUAL_DOMAINS' => 'Det er ingen domener i systemet.',
 'dom_CURRENT_LIST_OF_DOMAINS' => 'Gjeldende liste over domener',
 'dom_PRIMARY_SITE' => 'Hoved side',
@@ -15,11 +17,17 @@
 'dom_NONEXISTENT_DOMAIN_ERROR' => 'Feil: {$domainName} eksisterer ikke.',
 'dom_SUCCESSFULLY_MODIFIED' => 'Domenet {$domainName} er oppdatert. Web serveren restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig.',
 'dom_REMOVE_TITLE' => 'Fjerne domene',
-'dom_REMOVE_DESCRIPTION' => ' <p> Du holder på å fjerne domenet {$domain} ({$domainDesc}). </p> <p> <b>Er du sikker på at du vil fjerne dette domenet?</b> </p> ',
+'dom_REMOVE_DESCRIPTION' => ' <p> Du holder på å fjerne domenet {$domain} ({$domainDesc}). </p>
+
+  <p> <b>Er du sikker på at du vil fjerne dette domenet?</b> </p>
+
+  ',
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Feil: Intern feil ved forsøk på å fjerne domenet {$domain}.',
 'dom_SUCCESSFULLY_DELETED' => 'Domenet {$domain} er slettet.Webserverne restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig.',
-'dom_DESC_CORPORATE_DNS_CURRENT' => ' <hr class="sectionbar" /><h2>Felles DNS Instillinger</h2> ',
-'dom_BUTTON_CORPORATE_DNS' => ' <p>Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner.</p> <p> <a class="button-like" href="domains?page=0&page_stack=&Next=Next&wherenext=DOMAINS_PAGE_CORPORATE_DNS">Endre felles DNS innstillinger</a> ',
+'dom_DESC_CORPORATE_DNS_CURRENT' => ' Felles DNS Instillinger ',
+'dom_BUTTON_CORPORATE_DNS' => ' <p>Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner.</p>
+
+  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Endre felles DNS innstillinger</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Feltene bør stå tomme med mindre du har spesifikke grunner til å sette opp andre DNS servere. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Første felles DNS server',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Andre felles DNS server',

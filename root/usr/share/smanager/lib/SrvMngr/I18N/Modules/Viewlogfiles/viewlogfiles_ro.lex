@@ -1,9 +1,13 @@
 'log_View log files' => 'Vizualizează log',
 'log_FIRSTPAGE_DESC' => 'Acest panou vă permite să vizualizați sau descărcați fișierele de log generate de server. ',
 'log_LOG_FILE_SELECT_DESC' => 'Alege un fișier de evidență',
-'log_FILTER_PATTERN_DESC' => ' <p>Puteți opta pentru un anume model de filtru în fișierul de evidență, numai liniile ce au modelul impus vor fi afișate . Dacă nu completați nimic toate înregistrările din fișierul de evidență vor fi afișate. Luați aminte că această opțiune nu este utilizată daca optați pentu tranferul fișierului.</p> ',
+'log_FILTER_PATTERN_DESC' => ' <p>Puteți opta pentru un anume model de filtru în fișierul de evidență, numai liniile ce au modelul impus vor fi afișate . Dacă nu completați nimic toate înregistrările din fișierul de evidență vor fi afișate. Luați aminte că această opțiune nu este utilizată daca optați pentu tranferul fișierului.</p>
+
+  ',
 'log_FILTER_PATTERN_LABEL' => 'Model filtru (opțional)',
-'log_MATCH_PATTERN_DESC' => ' <p>Puteți specifica opțional un filtru ce va fi adus in atenție prin ingroșarea liniilor din log ce vor fi conforme filtrului. Filtrul va fi aplicat oricărei linii din log ce a fost identificata ca conformă. Notă: această opțiune nu se aplică la descărcarea logului.</p> ',
+'log_MATCH_PATTERN_DESC' => ' <p>Puteți specifica opțional un filtru ce va fi adus in atenție prin ingroșarea liniilor din log ce vor fi conforme filtrului. Filtrul va fi aplicat oricărei linii din log ce a fost identificata ca conformă. Notă: această opțiune nu se aplică la descărcarea logului.</p>
+
+  ',
 'log_MATCH_PATTERN_LABEL' => 'Filtru de evidențiere (opțional) ',
 'log_END_DESC' => 'Notă: este posibil ca generarea raportului să dureze câteva minute.',
 'log_VIEW' => 'Vizualizează log',
@@ -12,9 +16,17 @@
 'log_MATCH_HEADER' => 'Listare linii conforme filtru: "{$matchPattern}".',
 'log_HIGHLIGHT_HEADER' => 'Ingrosare linii conforme: "{$highlightPattern}".',
 'log_NO_MATCHING_LINES' => 'Nici o linie nu e conforma cu filtrul.',
-'log_FILENAME_ERROR' => ' <p>Eroare în numele fișierului de log.</p> <p>Tip de raport invalid "{$filename}".</p> ',
+'log_FILENAME_ERROR' => ' <p>Eroare în numele fișierului de log.</p>
+
+  <p>Tip de raport invalid "{$filename}".</p>
+
+  ',
 'log_REFRESH' => 'Actualizează acest fisier de log.',
-'log_OP_DESC' => ' <p>Trebuie să alegeți intre vizualizarea pe monitor sau descărcare pe computer. Dacă fișierul de log este foarte mare, probabil că doriți să îl descărcați decât să îl vizualizați direct, deoarece poate crea probleme unor browsere de internet.</p> ',
+'log_OP_DESC' => ' <p>Trebuie să alegeți intre vizualizarea pe monitor sau descărcare pe computer. Dacă fișierul de log este foarte mare, probabil că doriți să îl descărcați decât să îl vizualizați direct, deoarece poate crea probleme unor browsere de internet.</p>
+
+  ',
 'log_OP_LABEL' => 'Operație',
-'log_DOWNLOAD_PAGE_DESC' => ' <p>Fișierul de evidență este pregătit. Tranferul va contiuna imediat ce se apasă butonul &quot;Next&quot; de mai jos și veti accepta ferestrele de confirmare ce vor apare în browserului dumneavoastră.</p> ',
+'log_DOWNLOAD_PAGE_DESC' => ' <p>Fișierul de evidență este pregătit. Tranferul va contiuna imediat ce se apasă butonul &quot;Next&quot; de mai jos și veti accepta ferestrele de confirmare ce vor apare în browserului dumneavoastră.</p>
+
+  ',
 'log_DOWNLOAD_FILE' => 'Pregtire tranfer fișier de evidență {$logfile}.',

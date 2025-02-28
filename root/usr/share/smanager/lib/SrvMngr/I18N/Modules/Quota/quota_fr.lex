@@ -1,6 +1,14 @@
 'quo_FORM_TITLE' => 'Gestion des quotas pour les comptes utilisateur',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Impossible d\'ouvrir la base de données des comptes.',
-'quo_QUOTA_DESC' => ' <p>Vous pouvez définir des quotas d\'espace disque sur le système de fichiers pour les utilisateurs de votre système en cliquant sur le bouton "Modifier", à côté de l\'utilisateur à mettre à jour.</p> <p>Si l\'utilisateur dépasse la "limite avec période de grâce", des avertissements lui seront envoyés. Si cette limite est dépassée pendant plus d\'une semaine ou si la "limite absolue" est atteinte, l\'utilisateur ne pourra plus stocker d\'autres fichiers ni recevoir d\'autres courriels.</p> <p>La valeur "0" pour l\'une ou l\'autre des limites désactive cette limite pour l\'utilisateur correspondant.</p> <p>L\'espace disque utilisé par l\'utilisateur comprend son répertoire personnel, ses courriels, ainsi que tous les fichiers dont il est propriétaire dans les différentes i-bays.</p> ',
+'quo_QUOTA_DESC' => ' <p>Vous pouvez définir des quotas d\'espace disque sur le système de fichiers pour les utilisateurs de votre système en cliquant sur le bouton "Modifier", à côté de l\'utilisateur à mettre à jour.</p>
+
+  <p>Si l\'utilisateur dépasse la "limite avec période de grâce", des avertissements lui seront envoyés. Si cette limite est dépassée pendant plus d\'une semaine ou si la "limite absolue" est atteinte, l\'utilisateur ne pourra plus stocker d\'autres fichiers ni recevoir d\'autres courriels.</p>
+
+  <p>La valeur "0" pour l\'une ou l\'autre des limites désactive cette limite pour l\'utilisateur correspondant.</p>
+
+  <p>L\'espace disque utilisé par l\'utilisateur comprend son répertoire personnel, ses courriels, ainsi que tous les fichiers dont il est propriétaire dans les différentes i-bays.</p>
+
+  ',
 'quo_CURRENT_USAGE_AND_SETTINGS' => 'Utilisation et paramètres actuels des quotas',
 'quo_LIMIT_WITH_GRACE' => 'Limite avec période de grâce',
 'quo_LIMIT_WITH_GRACE_MB' => 'Limite avec période de grâce (Mo)',

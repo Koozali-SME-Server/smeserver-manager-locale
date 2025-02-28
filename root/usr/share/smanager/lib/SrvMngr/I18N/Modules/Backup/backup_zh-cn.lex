@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => '备份或还原服务器数据',
-'bac_BACKUP_DESC' => ' <P>服务器提供两种备份还原方式: 使用本地工作站或磁带。</P> <P>第一种方法是通过浏览器，创建一份服务器和用户配置的副本，然后下载到本地工作站。当前配置和数据文件一共大约 <b>$tarsize</b>。备份文件会实际略小于此数字，这取决于压缩比例。 \"检查备份文件\" 选项用于检查备份文件的完整性。 </P> <P>磁带备份是在每天晚上使用一个叫<I>$module</I>的软件包备份整个硬盘。这要求使用未被写保护的磁带。在每天晚上的指定时间，备份就会自动运行。(白天会自动发送邮件提醒给管理员). 当前硬盘的数据大小共计<b>$dumpsize</b> 。</P> <P>两种还原方式都可以把您的配置和用户数据还原。 <b>理论上，还原操作只应该发生在新安装系统的裸机上。</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>提供三种办法来备份/还原服务器：使用磁带，网络共享，本地可插拔硬盘或者直接备份到您的桌面。</P> <P>磁带备份。这种方法使用软件包<I>$module</I> 每天夜里备份整个硬盘到磁带去。需要一个驱动支持且未被写保护的磁带。备份会在每天选定的时间自动运行 (白天会有一个自动邮件提醒发往管理员)。 当前硬盘数据量为 <b>$dumpsize</b> 。</P> <P>工作站备份。这种备份方式使用一个叫 <I>dar</I> 的软件来备份服务器配置和数据到网络共享或者USB移动硬盘。您可以设置保留多少个完整备份，以及每个完整备份包含多少次增量备份。备份会在每天选定的时间自动运行。当前未压缩的数据大约有 <b>$tarsize</b> 。备份介质需要准备两倍的容量。</P> <P>备份到桌面。这种方法会将数据打包，然后通过浏览器下载到您的桌面。当前未压缩的数据大约有 <b>$tarsize</b>。备份文件会比实际数据小一些，取决于压缩比率。如果把这个备份文件拷贝到USB移动硬盘，那么也可以从服务器的终端界面来执行还原任务。</P> <P>所有备份方法都允许您完整的还原数据。工作站备份提供独立的文件存储。<b>理论上讲，完全还原只应该在新服务器上执行</b>。</P> ',
+'bac_BACKUP_DESC' => ' <p>服务器提供两种备份还原方式: 使用本地工作站或磁带。</p>
+
+  <p>第一种方法是通过浏览器，创建一份服务器和用户配置的副本，然后下载到本地工作站。当前配置和数据文件一共大约 <b>[_3]</b>。备份文件会实际略小于此数字，这取决于压缩比例。 \"检查备份文件\" 选项用于检查备份文件的完整性。 </p>
+
+  <p>磁带备份是在每天晚上使用一个叫<i>[_1]</i>的软件包备份整个硬盘。这要求使用未被写保护的磁带。在每天晚上的指定时间，备份就会自动运行。(白天会自动发送邮件提醒给管理员). 当前硬盘的数据大小共计<b>[_2]</b> 。</p>
+
+  <p>两种还原方式都可以把您的配置和用户数据还原。 <b>理论上，还原操作只应该发生在新安装系统的裸机上。</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>提供三种办法来备份/还原服务器：使用磁带，网络共享，本地可插拔硬盘或者直接备份到您的桌面。</p>
+
+  <p>磁带备份。这种方法使用软件包<i>[_1]</i> 每天夜里备份整个硬盘到磁带去。需要一个驱动支持且未被写保护的磁带。备份会在每天选定的时间自动运行 (白天会有一个自动邮件提醒发往管理员)。 当前硬盘数据量为 <b>[_2]</b> 。</p>
+
+  <p>工作站备份。这种备份方式使用一个叫 <i>dar</i> 的软件来备份服务器配置和数据到网络共享或者USB移动硬盘。您可以设置保留多少个完整备份，以及每个完整备份包含多少次增量备份。备份会在每天选定的时间自动运行。当前未压缩的数据大约有 <b>[_3]</b> 。备份介质需要准备两倍的容量。</p>
+
+  <p>备份到桌面。这种方法会将数据打包，然后通过浏览器下载到您的桌面。当前未压缩的数据大约有 <b>[_3]</b>。备份文件会比实际数据小一些，取决于压缩比率。如果把这个备份文件拷贝到USB移动硬盘，那么也可以从服务器的终端界面来执行还原任务。</p>
+
+  <p>所有备份方法都允许您完整的还原数据。工作站备份提供独立的文件存储。<b>理论上讲，完全还原只应该在新服务器上执行</b>。</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => '备份配置和状态',
-'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently <b>启用</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently 启用. ',
 'bac_BACKUPS_RUN_AT' => '定期磁带备份将运行于：',
 'bac_REMINDER_MESSAGE_AT' => '提醒信息将被发送于：',
-'bac_TAPE_BACKUPS_DISABLED' => ' 磁带备份被<b>禁用</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' 磁带备份被禁用 ',
 'bac_DESKTOP_BACKUP' => '备份到桌面',
 'bac_DESKTOP_RESTORE' => '从桌面还原',
 'bac_DESKTOP_VERIFY' => '校验桌面备份文件',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => '系统还原已完毕',
 'bac_STARTED_AT' => '开始于：',
 'bac_FINISHED_AT' => '结束于：',
-'bac_YOU_MUST_REBOOT' => '为了使系统还原生效，必须重启服务器。', 
+'bac_YOU_MUST_REBOOT' => '为了使系统还原生效，必须重启服务器。',
 'bac_REBOOT' => '重启',
 'bac_SELECT_AN_ACTION' => '选择一个动作',
 'bac_X_BACKUP_OR_RESTORE' => 'X备份或者还原服务器数据',
@@ -25,7 +43,7 @@
 'bac_ERR_PRE_RESTORE' => '还原初始化时出错。',
 'bac_ERR_POST_BACKUP' => '备份结束时出错',
 'bac_RESTORE_SERVER_CONFIG' => '还原服务器配置',
-'bac_DESKTOP_RESTORE_DESC' => ' 此操作会从本地桌面上传一个备份文件到服务器，并且覆盖原服务器配置和用户数据文件。 <B>系统还原只应在一个全新安装的服务器上执行</B>。',
+'bac_DESKTOP_RESTORE_DESC' => ' 此操作会从本地桌面上传一个备份文件到服务器，并且覆盖原服务器配置和用户数据文件。 系统还原只应在一个全新安装的服务器上执行。',
 'bac_FREE_SPACE' => '在服务器上，大概有$tmpfree空余空间。在还原操作前，请检查桌面的备份文件是否小于$halffree 。',
 'bac_MUST_REBOOT_AFTER_RESTORE' => '在系统还原完成后，必须重启服务器。',
 'bac_FILE_TO_RESTORE' => '要还原的备份文件来自',
@@ -49,7 +67,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => '备份文件不完整',
 'bac_ERR_READING_FILE' => '读取备份文件时出错。',
 'bac_ENABLE_DISABLE_TAPE' => '启用/禁用 夜间磁带备份',
-'bac_TAPE_CONFIG_DESC' => ' <p>请选择是否启用夜间备份。然后指定备份和加载磁带提醒的时间。</p> <p>磁带备份需要系统支持的磁带类型。如果磁带驱动器内为空，在指定的提醒时间，系统将会向管理员发送一个提醒邮件。</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>请选择是否启用夜间备份。然后指定备份和加载磁带提醒的时间。</p>
+
+  <p>磁带备份需要系统支持的磁带类型。如果磁带驱动器内为空，在指定的提醒时间，系统将会向管理员发送一个提醒邮件。</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => '启用磁带备份',
 'bac_TAPE_BACKUP_TIME' => '磁带每天的备份时间（时/分）',
 'bac_LOAD_TAPE_REMINDER_TIME' => '加载磁带提醒器的时间（时/分）',
@@ -70,7 +92,13 @@
 'bac_WITH_REMINDER_TIME' => '加载磁带提醒时间：',
 'bac_SUCCESSFULLY_DISABLED' => '已禁用磁带备份',
 'bac_RESTORE_CONF_FROM_TAPE' => '从磁带备份中还原服务器配置',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <P>此操作会从磁带备份处还原系统配置和用户文件。 <B>完整的系统还原只应在一个全新安装的服务器上执行。</B>.</P> <P>在执行之前，请确保加载的是合适的备份。</P> <P>当还原完成后，必须重启服务器生效。</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>此操作会从磁带备份处还原系统配置和用户文件。 <b>完整的系统还原只应在一个全新安装的服务器上执行。</b>.</p>
+
+  <p>在执行之前，请确保加载的是合适的备份。</p>
+
+  <p>当还原完成后，必须重启服务器生效。</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => '从磁带还原',
 'bac_UNABLE_TO_RESTORE_CONF' => '无法还原服务器配置',
 'bac_RESTORING_FROM_TAPE' => '从磁带还原',
@@ -81,11 +109,11 @@
 'bac_SERVER_REBOOT' => '服务器重启',
 'bac_SERVER_WILL_REBOOT' => '服务器即将重启。',
 'bac_NO_UID_FOR_NAME' => '不能获取用户id，名称为：',
-'bac_PAGE_REFRESH_IN' => ' 此页面将在 {$sec} 秒内重新加载， 或者点击 <a href="/server-manager/cgi-bin/backup">此处</a>. ',
+'bac_PAGE_REFRESH_IN' => ' 此页面将在 {$sec} 秒内重新加载， 或者点击 此处. ',
 'bac_Backup or restore' => '备份或者还原',
-'bac_BACKUP_DESKTOP_TOO_BIG' => ' <div class="error"> 服务器有太多数据需要备份到桌面。 </div> ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作组备份被<b>禁用</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' 当前工作组备份被 <b>启用</b>. ',
+'bac_BACKUP_DESKTOP_TOO_BIG' => '  服务器有太多数据需要备份到桌面。  ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作组备份被禁用 ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' 当前工作组备份被 启用. ',
 'bac_WKBACKUPS_RUN_AT' => '定期工作组备份将运行于：',
 'bac_WORKSTN_CONFIGURE' => '工作组备份配置',
 'bac_WORKSTN_VERIFY' => '检查工作组备份',
@@ -98,9 +126,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => '成功启用工作组备份',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => '成功禁用工作组备份',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => '检查工作组备份',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>此选项将显示在以前创建的所有工作站的日常备份文件的名称。您可以使用此选项来检查备份的内容.<b>您必须选择您想要检查的备份</b></p> <p>只有标记为 [Saved] 的文件才会包含在备份中。</p> <br/>备份文件已被检查，文件来自于共享文件夹 : ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>此选项将显示在以前创建的所有工作站的日常备份文件的名称。您可以使用此选项来检查备份的内容.<b>您必须选择您想要检查的备份</b></p>
+
+  <p>只有标记为 [Saved] 的文件才会包含在备份中。</p>
+
+  <br/>备份文件已被检查，文件来自于共享文件夹 : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => '从工作组备份还原服务器配置',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>此操作会从一个工作站备份处还原系统配置和用户数据文件。 <b>此还原操作应该在一个全新安装的服务器上执行</b>。</p> <p>在执行还原操作之前，确保选择正确的备份。</p> <p>还原过后，您必须重新启动服务器。</p> 备份还原文件来自 : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>此操作会从一个工作站备份处还原系统配置和用户数据文件。 <b>此还原操作应该在一个全新安装的服务器上执行</b>。</p>
+
+  <p>在执行还原操作之前，确保选择正确的备份。</p>
+
+  <p>还原过后，您必须重新启动服务器。</p>
+
+  备份还原文件来自 : ',
 'bac_RESTORE_FROM_WORKSTN' => '从工作组还原',
 'bac_RESTORING_FROM_WORKSTN' => '正在从工作组还原',
 'bac_NOW_RESTORING_FROM_WORKSTN' => '正在从工作组共享文件夹还原您服务器配置和用户数据文件。',
@@ -124,7 +162,7 @@
 'bac_NUMBER_OF_SETS' => '轮换备份设备数量',
 'bac_NUMBER_OF_FILES_IN_SET' => '每个设备的每日备份',
 'bac_ERR_INVALID_SETS_NUMBER' => '设备数量必须为1或者更大',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => '此数字必须为1或者更大，第一个设备是 <b>完整备份</b> 其他为 <b>增量备份</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => '此数字必须为1或者更大，第一个设备是 完整备份 其他为 增量备份',
 'bac_WORKSTN_TIMEOUT' => '（可选）备份会话超时（小时）',
 'bac_INC_ONLY_TIMEOUT' => '请勿为完整备份设置会话超时',
 'bac_ERR_INVALID_TIMEOUT' => '最大备份时间必须设置为1到24小时之间',
@@ -133,11 +171,11 @@
 'bac_WORKSTN_SEL_RESTORE' => '从工作组可选择的还原文件',
 'bac_WORKSTN_SELECTIVE_RESTORE' => '工作组中可选择的还原文件',
 'bac_ALL_BACKUPS' => '所有备份',
-'bac_WORKSTN_SEL_REST_DESC' => ' 这个操作将会还原指定的文件和目录。您必须先选择要还原的备份文件。如果您不知道要选择哪个备份文件，您可以选择 “所有备份”选项。<br/><br/> 之后的面板将会显示可用的文件和目录，因此，您可以在其中选择需要还原的文件或目录。为了限制面板中显示的文件和目录数量，这里还有一个现成的过滤选项。<br/><br/> 您有义务保证在还原后服务器相关功能配置不被覆盖。<br/> <br/>现在，文件还原将从: ',
+'bac_WORKSTN_SEL_REST_DESC' => ' 这个操作将会还原指定的文件和目录。您必须先选择要还原的备份文件。如果您不知道要选择哪个备份文件，您可以选择 “所有备份”选项。 之后的面板将会显示可用的文件和目录，因此，您可以在其中选择需要还原的文件或目录。为了限制面板中显示的文件和目录数量，这里还有一个现成的过滤选项。 您有义务保证在还原后服务器相关功能配置不被覆盖。 现在，文件还原将从: ',
 'bac_BACKUP_CHOICE' => '要显示的可选择文件',
 'bac_SELECT_DATE_BEFORE' => '从最近的备份还原',
 'bac_FILTER_EXPRESSION' => '过滤名称 通过',
-'bac_READ_COMPLETE' => ' 您可以在列表中选择您想要还原的目录和文件 (使用 ctrl 键 或者 shift 键可选择多项)。 <br/> <b>警告:</b> 如果您选择了一个目录，那么该目录所包含的文件和目录也将被一同还原。<p/> 系统默认选择最新的备份版本，如果您指定了一个日期 <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> ，那么将只会还原在<b>指定日期之前</b>被修改的文件。 ',
+'bac_READ_COMPLETE' => ' 您可以在列表中选择您想要还原的目录和文件 (使用 ctrl 键 或者 shift 键可选择多项)。  警告: 如果您选择了一个目录，那么该目录所包含的文件和目录也将被一同还原。 系统默认选择最新的备份版本，如果您指定了一个日期 [ [ [yyyy/]mm/]dd-]hh:mm[:ss] ，那么将只会还原在指定日期之前被修改的文件。 ',
 'bac_ERR_INVALID_SELDATE' => '非法日期格式，必须为[ [ [yyyy/]mm/]dd-]hh:mm[:ss]，比如： 2005/12/31-08:23:32 或者 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => '选择要还原的文件',
 'bac_ERR_WHILE_UNMOUNTING' => '卸载远端共享时出错',
@@ -147,8 +185,12 @@
 'bac_ERR_INVALID_COMPRESSION' => '压缩等级必须设置为0（不压缩）或者9（压缩最大化）',
 'bac_DOW' => '周日 周一 周二 周三 周三 周五 周六 每天',
 'bac_CONFIGURATION_TO_BE_DONE' => '请配置备份设置。',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>此面板显示当前工作组备份配置。您可以在此面板和下一个面板上修改。</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>当前年，工作组备份为被配置。您可以在此面板或者下一个面板设置此配置 。</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>此面板显示当前工作组备份配置。您可以在此面板和下一个面板上修改。</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>当前年，工作组备份为被配置。您可以在此面板或者下一个面板设置此配置 。</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => '备份为',
 'bac_WORKSTN_BACKUP_USB' => '备份已被保存到本地可移动磁盘上',
 'bac_WORKSTN_BACKUP_MNT' => '备份已被保存到已挂载的硬盘上',

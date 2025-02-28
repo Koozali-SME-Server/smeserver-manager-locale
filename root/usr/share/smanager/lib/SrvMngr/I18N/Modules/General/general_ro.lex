@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Raport operațiune',
 'ACCOUNT' => 'Cont',
 'GROUP' => 'Group',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Pipe symbols (|) are not permitted in this field',
 'ERROR_BELOW' => 'ERROR: There was an error in the validation of this page. Please scroll down and find the specific problem.',
 'ACCESS' => 'Access',

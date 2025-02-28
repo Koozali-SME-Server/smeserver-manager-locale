@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'Analys av mailloggar',
-'qma_INITIAL_DESC' => ' <P>Analys av mailsystemets loggfiler kan både hjälpa till att ge kunskap om hur ditt system fungerar och undersöka förmedlingsproblem. Flera olika rapporter finns tillgängliga.</P> <P>Notera dock att det kan ta flera minuter att skapa en rapport</P> ',
+'qma_INITIAL_DESC' => ' Analys av mailsystemets loggfiler kan både hjälpa till att ge kunskap om hur ditt system fungerar och undersöka förmedlingsproblem. Flera olika rapporter finns tillgängliga. Notera dock att det kan ta flera minuter att skapa en rapport ',
 'qma_REPORT_TYPE' => 'Välj rapporttyp',
 'qma_GENERATE_REPORT' => 'Skapa rapport',
 'qma_LIST_OUTGOING' => 'Lista utgående meddelanden och mottagare',

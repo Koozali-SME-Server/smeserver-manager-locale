@@ -6,5 +6,5 @@
 'rbo_DESC_RECONFIGURE' => 'Uw server heeft een volwaardige systeem herconfiguratie en herstart in gang gezet.',
 'rbo_DESC_SHUTDOWN' => 'Uw server heeft het afsluit proces in gang gezet. Dit proces neemt enige minuten om af te ronden, aansluitend kunt u de stroomtoevoer afkoppelen.',
 'rbo_LABEL_REBOOT' => 'Kies Afsluiten, Herstarten of Herconfigureren',
-'rbo_DESCRIPTION' => ' U kunt herstarten, afsluiten of een volledige herconfiguratie van uw server uitvoeren via dit scherm. U moet het systeem afsluiten voordat u de stroomtoevoer afkoppelt. Al deze functies nemen enige minuten in beslag. Als u op <b>uitvoeren</b> klikt wordt deze actie direct uitgevoerd, wees er dus klaar voor! ',
+'rbo_DESCRIPTION' => ' U kunt herstarten, afsluiten of een volledige herconfiguratie van uw server uitvoeren via dit scherm. U moet het systeem afsluiten voordat u de stroomtoevoer afkoppelt. Al deze functies nemen enige minuten in beslag. Als u op uitvoeren klikt wordt deze actie direct uitgevoerd, wees er dus klaar voor! ',
 'Reboot or shutdown' => 'Herstarten of afsluiten',

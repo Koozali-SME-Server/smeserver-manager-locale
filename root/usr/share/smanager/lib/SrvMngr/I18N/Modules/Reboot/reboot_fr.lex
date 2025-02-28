@@ -7,5 +7,5 @@
 'rbo_SHUTDOWN_SUCCEEDED' => 'Lancement réussi de la requête d\'arrêt.',
 'rbo_DESC_SHUTDOWN' => 'Votre serveur a commencé le processus d\'arrêt. L\'exécution complète de ce processus pourra durer quelques minutes, après lesquelles vous pourrez couper l\'alimentation.',
 'rbo_LABEL_REBOOT' => 'Action',
-'rbo_DESCRIPTION' => ' Vous pouvez arrêter, redémarrer ou effectuer une reconfiguration complète de votre serveur à partir de cette page. Vous devez lancer la séquence d\'arrêt avant de couper l\'alimentation. L\'exécution de ces fonctions peut durer quelques minutes. Lorsque vous cliquerez sur "<b>Exécuter</b>" l\'opération se lancera immédiatement, alors soyez prêt ! ',
+'rbo_DESCRIPTION' => ' Vous pouvez arrêter, redémarrer ou effectuer une reconfiguration complète de votre serveur à partir de cette page. Vous devez lancer la séquence d\'arrêt avant de couper l\'alimentation. L\'exécution de ces fonctions peut durer quelques minutes. Lorsque vous cliquerez sur "Exécuter" l\'opération se lancera immédiatement, alors soyez prêt ! ',
 'Reboot or shutdown' => 'Arrêt et redémarrage',

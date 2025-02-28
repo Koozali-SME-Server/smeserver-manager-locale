@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => '運作狀態回報',
 'ACCOUNT' => '帳號',
 'GROUP' => '群組',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => '管線符號（|）在此區塊中是不允許的',
 'ERROR_BELOW' => '錯誤：網頁驗證時存在錯誤。請下拉頁面並找到指定錯誤。',
 'ACCESS' => '存取',

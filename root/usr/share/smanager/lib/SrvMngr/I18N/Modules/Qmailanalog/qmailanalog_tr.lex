@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'E-posta Log Dosya Analizi',
-'qma_INITIAL_DESC' => ' <P>E-posta sisteminin, log dosyaların analizi sistem performansını ve gönderme sorunları teşhis etmek için yardım eder. Farklı raporlama çeşitleri mevcuttur.</P> <P>Bu raporların oluşturulması birkaç dakika sürebileceğini gözönünde bulundurmalısınız</P> ',
+'qma_INITIAL_DESC' => ' E-posta sisteminin, log dosyaların analizi sistem performansını ve gönderme sorunları teşhis etmek için yardım eder. Farklı raporlama çeşitleri mevcuttur. Bu raporların oluşturulması birkaç dakika sürebileceğini gözönünde bulundurmalısınız ',
 'qma_REPORT_TYPE' => 'Rapor türünü seçin',
 'qma_GENERATE_REPORT' => 'Rapor oluştur',
 'qma_LIST_OUTGOING' => 'Giden e-posta mesajları ve alıcılarını listele',

@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Sauvegarde et restauration des données du serveur',
-'bac_BACKUP_DESC' => ' <p>Vous disposez de deux méthodes pour sauvegarder et restaurer votre serveur : à distance sur un ordinateur du réseau local ou sur un lecteur/enregistreur de bande magnétique.</p><p>La première méthode crée une archive des fichiers de configuration du serveur et des données des utilisateurs et la télécharge sur un ordinateur de votre réseau local à l\'aide d\'un navigateur Internet. Actuellement, vos fichiers de configuration et de données totalisent environ <b>[_2]</b>. La taille du fichier de sauvegarde sera quelque peu inférieure à cela, en fonction du degré de compressibilité des données. L\'option \"Vérifier le fichier de sauvegarde de l\'ordinateur\" peut être utilisée pour vérifier l\'intégrité d\'un fichier de sauvegarde stocké sur l\'ordinateur local.</p> <p>La méthode de sauvegarde sur bande utilise le programme <i>[_1]</i> pour sauvegarder quotidiennement tout votre disque dur. Ceci nécessite que le lecteur/enregistreur de bande magnétique soit pris en charge et que la bande ne soit pas protégée contre l\'écriture. La sauvegarde est exécutée automatiquement chaque jour à l\'heure sélectionnée, (avec un rappel envoyé à l\'administrateur dans la journée par courriel.<br>Actuellement, votre disque dur contient <b>[_2]</b> de données.</p><p>Les deux méthodes de restauration vous permettent de restaurer vos fichiers de configuration et les données des utilisateurs.<br><b>Idéalement, la restauration ne devrait se faire que sur un serveur nouvellement installé</b>.</p>',
-'bac_BACKUP_DESC_DAR' => ' <P>Vous disposez de trois méthodes de sauvegarde et de restauration de votre serveur : sur votre ordinateur local, un lecteur/enregistreur de bandes ou un ordinateur distant sur votre réseau local.</P> <P>La première méthode crée une copie de la configuration du serveur et des données utilisateur puis les transfère sur votre ordinateur local, via votre navigateur Internet. Actuellement, la taille totale de ces données représente approximativement <b>[_2]</b>. La taille du fichier de sauvegarde sera légèrement inférieure à ceci, en fonction de la compressibilité de ces données. Ce fichier peut être utilisé pour restaurer votre serveur depuis la console si vous le copiez sur un média de stockage tel qu\'un disque amovible.</P><P>La méthode de sauvegarde sur bande exploite le programme <i>[_1]</i> pour sauvegarder quotidiennement l\'intégralité du disque dur du serveur. Ceci nécessite l\'emploi d\'un lecteur/enregistreur de bandes reconnu et d\'une bande non protégée en écriture. La sauvegarde est effectuée automatiquement à l\'heure sélectionnée (un courriel de rappel est aussi envoyé automatiquement à l\'administrateur). Actuellement, la taille totale utilisée sur le disque dur de votre serveur représente approximativement <b>[_3]</b>.</P> <p>La méthode de sauvegarde sur un ordinateur distant exploite le programme <i>dar</i> pour sauvegarder la configuration de votre serveur et les données utilisateur vers un ordinateur sur votre réseau local (ou un disque USB connecté au serveur). Ceci nécessite que vous disposiez d\'un partage accessible en écriture (smbfs, cifs, ou nfs) sur l\'ordinateur distant ou d\'un disque USB sur le serveur. Vous pouvez définir le nombre de jeux de sauvegardes devant être conservés sur le partage, ainsi que la possibilité de créer des jeux de sauvegardes incrémentales sur plusieurs jours. La sauvegarde est effectuée automatiquement à l\'heure sélectionnée. Actuellement, les fichiers de configuration et de données représentent approximativement <b>[_3]</b> non compressés. Le partage de sauvegarde doit offrir deux fois la taille d\'une sauvegarde non compressée.</p> <p>Toutes les méthodes de restauration vous permettent de restaurer la configuration du serveur et des données utilisateur. La sauvegarde sur un ordinateur distant permet de restaurer chaque fichier individuellement. <b>Idéalement, une restauration complète devrait être effectuée sur un serveur nouvellement installé</b>.</p> ',
+'bac_BACKUP_DESC' => ' <p>Vous disposez de deux méthodes pour sauvegarder et restaurer votre serveur : à distance sur un ordinateur du réseau local ou sur un lecteur/enregistreur de bande magnétique.</p>
+
+  <p>La première méthode crée une archive des fichiers de configuration du serveur et des données des utilisateurs et la télécharge sur un ordinateur de votre réseau local à l\'aide d\'un navigateur Internet. Actuellement, vos fichiers de configuration et de données totalisent environ <b>[_2]</b>. La taille du fichier de sauvegarde sera quelque peu inférieure à cela, en fonction du degré de compressibilité des données. L\'option \"Vérifier le fichier de sauvegarde de l\'ordinateur\" peut être utilisée pour vérifier l\'intégrité d\'un fichier de sauvegarde stocké sur l\'ordinateur local.</p>
+
+  <p>La méthode de sauvegarde sur bande utilise le programme <i>[_1]</i> pour sauvegarder quotidiennement tout votre disque dur. Ceci nécessite que le lecteur/enregistreur de bande magnétique soit pris en charge et que la bande ne soit pas protégée contre l\'écriture. La sauvegarde est exécutée automatiquement chaque jour à l\'heure sélectionnée, (avec un rappel envoyé à l\'administrateur dans la journée par courriel.<br>Actuellement, votre disque dur contient <b>[_2]</b> de données.</p>
+
+  <p>Les deux méthodes de restauration vous permettent de restaurer vos fichiers de configuration et les données des utilisateurs.<br><b>Idéalement, la restauration ne devrait se faire que sur un serveur nouvellement installé</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Vous disposez de trois méthodes de sauvegarde et de restauration de votre serveur : sur votre ordinateur local, un lecteur/enregistreur de bandes ou un ordinateur distant sur votre réseau local.</p>
+
+  <p>La première méthode crée une copie de la configuration du serveur et des données utilisateur puis les transfère sur votre ordinateur local, via votre navigateur Internet. Actuellement, la taille totale de ces données représente approximativement <b>[_2]</b>. La taille du fichier de sauvegarde sera légèrement inférieure à ceci, en fonction de la compressibilité de ces données. Ce fichier peut être utilisé pour restaurer votre serveur depuis la console si vous le copiez sur un média de stockage tel qu\'un disque amovible.</p>
+
+  <p>La méthode de sauvegarde sur bande exploite le programme <i>[_1]</i> pour sauvegarder quotidiennement l\'intégralité du disque dur du serveur. Ceci nécessite l\'emploi d\'un lecteur/enregistreur de bandes reconnu et d\'une bande non protégée en écriture. La sauvegarde est effectuée automatiquement à l\'heure sélectionnée (un courriel de rappel est aussi envoyé automatiquement à l\'administrateur). Actuellement, la taille totale utilisée sur le disque dur de votre serveur représente approximativement <b>[_3]</b>.</p>
+
+  <p>La méthode de sauvegarde sur un ordinateur distant exploite le programme <i>dar</i> pour sauvegarder la configuration de votre serveur et les données utilisateur vers un ordinateur sur votre réseau local (ou un disque USB connecté au serveur). Ceci nécessite que vous disposiez d\'un partage accessible en écriture (smbfs, cifs, ou nfs) sur l\'ordinateur distant ou d\'un disque USB sur le serveur. Vous pouvez définir le nombre de jeux de sauvegardes devant être conservés sur le partage, ainsi que la possibilité de créer des jeux de sauvegardes incrémentales sur plusieurs jours. La sauvegarde est effectuée automatiquement à l\'heure sélectionnée. Actuellement, les fichiers de configuration et de données représentent approximativement <b>[_3]</b> non compressés. Le partage de sauvegarde doit offrir deux fois la taille d\'une sauvegarde non compressée.</p>
+
+  <p>Toutes les méthodes de restauration vous permettent de restaurer la configuration du serveur et des données utilisateur. La sauvegarde sur un ordinateur distant permet de restaurer chaque fichier individuellement. <b>Idéalement, une restauration complète devrait être effectuée sur un serveur nouvellement installé</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Configuration et état de la sauvegarde',
-'bac_TAPE_BACKUPS_ENABLED' => ' Les sauvegardes sur bande sont actuellement <b>activées</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Les sauvegardes sur bande sont actuellement activées. ',
 'bac_BACKUPS_RUN_AT' => 'Les sauvegardes régulières sur bande seront exécutées à:',
 'bac_REMINDER_MESSAGE_AT' => 'Les courriels de rappel seront envoyés à:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Les sauvegardes sur bande sont actuellement <b>désactivées</b>. ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Les sauvegardes sur bande sont actuellement désactivées. ',
 'bac_DESKTOP_BACKUP' => 'Sauvegarder sur l\'ordinateur local',
 'bac_DESKTOP_RESTORE' => 'Restaurer depuis l\'ordinateur local',
 'bac_DESKTOP_VERIFY' => 'Vérifier le fichier de sauvegarde sur l\'ordinateur local',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'Restauration de système terminée',
 'bac_STARTED_AT' => 'Elle a commencé le :',
 'bac_FINISHED_AT' => 'et s\'est terminée le :',
-'bac_YOU_MUST_REBOOT' => 'Vous devez redémarrer le serveur pour activer tous les changements de configuration qui ont été effectués suite à cette restauration.', 
+'bac_YOU_MUST_REBOOT' => 'Vous devez redémarrer le serveur pour activer tous les changements de configuration qui ont été effectués suite à cette restauration.',
 'bac_REBOOT' => 'Redémarrer',
 'bac_SELECT_AN_ACTION' => 'Sélectionnez une action :',
 'bac_X_BACKUP_OR_RESTORE' => 'X Sauvegarder ou restaurer les données du serveur',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => 'Une erreur est survenue lors des opérations préparatoires à la restauration.',
 'bac_ERR_POST_BACKUP' => 'Une erreur est survenue lors des opérations succédant à la sauvegarde.',
 'bac_RESTORE_SERVER_CONFIG' => 'Restaurer la configuration du serveur',
-'bac_DESKTOP_RESTORE_DESC' => ' Cette action va vous permettre de télécharger un fichier de sauvegarde depuis votre ordinateur local vers votre serveur. Ceci permettra de restaurer la configuration du serveur et les données des utilisateurs. <B>Cette restauration ne devrait être effectuée que sur un serveur nouvellement installé</B>. ',
-'bac_FREE_SPACE' => ' L\'espace libre disponible sur votre serveur est d\'environ <b>[_1]</b>. Vérifiez que la taille du fichier de sauvegarde sur votre ordinateur local est inférieure à <b>[_2]</b> avant de commencer la restauration. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Cette action va vous permettre de télécharger un fichier de sauvegarde depuis votre ordinateur local vers votre serveur. Ceci permettra de restaurer la configuration du serveur et les données des utilisateurs. Cette restauration ne devrait être effectuée que sur un serveur nouvellement installé. ',
+'bac_FREE_SPACE' => ' L\'espace libre disponible sur votre serveur est d\'environ [_1]. Vérifiez que la taille du fichier de sauvegarde sur votre ordinateur local est inférieure à [_2] avant de commencer la restauration. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'À la fin de la restauration, vous devrez redémarrer le serveur.',
 'bac_FILE_TO_RESTORE' => 'Sélectionnez le fichier de sauvegarde à restaurer',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Cette option va afficher le nom de tous les fichiers contenus dans un fichier de sauvegarde déjà stocké sur l\'ordinateur local. Vous pouvez utiliser cette option pour vérifier le contenu du fichier de sauvegarde.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Cette option va afficher le nom de tous les fichiers contenus dans un fichier de sauvegarde déjà stocké sur l\'ordinateur local. Vous pouvez utiliser cette option pour vérifier le contenu du fichier de sauvegarde.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Sélectionnez le fichier de sauvegarde',
 'bac_VERIFY' => 'Vérifier',
 'bac_RESTORE_CANNOT_PROCEED' => 'Impossible de poursuivre la restauration de la configuration du serveur.',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'Le fichier de sauvegarde était incomplet.',
 'bac_ERR_READING_FILE' => 'Erreur de lecture du fichier de sauvegarde.',
 'bac_ENABLE_DISABLE_TAPE' => 'Activer/désactiver la sauvegarde quotidienne sur bande magnétique',
-'bac_TAPE_CONFIG_DESC' => ' <p>Vous pouvez définir ici si vous souhaitez activer les sauvegardes quotidiennes. Indiquez les heures souhaitées pour la sauvegarde et l\'envoi du courriel de rappel de chargement de la bande.</p> <p>La sauvegarde sur bande nécessite que le lecteur/enregistreur de bande soit pris en charge. Un courriel d\'avertissement sera envoyé à l\'administrateur à l\'heure indiquée pour le rappel si le lecteur de bande est vide.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Vous pouvez définir ici si vous souhaitez activer les sauvegardes quotidiennes. Indiquez les heures souhaitées pour la sauvegarde et l\'envoi du courriel de rappel de chargement de la bande.</p>
+
+  <p>La sauvegarde sur bande nécessite que le lecteur/enregistreur de bande soit pris en charge. Un courriel d\'avertissement sera envoyé à l\'administrateur à l\'heure indiquée pour le rappel si le lecteur de bande est vide.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Activer la sauvegarde sur bande',
 'bac_TAPE_BACKUP_TIME' => 'Heure de la sauvegarde sur bande (heure/min)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Heure du rappel du chargement de la bande (heure/min)',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => 'Heure de rappel du chargement de la bande :',
 'bac_SUCCESSFULLY_DISABLED' => 'Désactivation réussie des sauvegardes sur bande.',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Restaurer la configuration du serveur à partir de la sauvegarde sur bande magnétique',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Cette action restaurera les fichiers de configuration du serveur et les données des utilisateurs à partir d\'une sauvegarde sur bande du serveur.<br> <b>Cette restauration ne devrait être effectuée que sur un serveur nouvellement installé</b>.</p> <p>Assurez-vous de charger la bande de sauvegarde désirée dans le lecteur/enregistreur avant de poursuivre.</p> <p>Après la fin de la restauration, vous devrez redémarrer le serveur.</p> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Cette action restaurera les fichiers de configuration du serveur et les données des utilisateurs à partir d\'une sauvegarde sur bande du serveur.<br> <b>Cette restauration ne devrait être effectuée que sur un serveur nouvellement installé</b>.</p>
+
+  <p>Assurez-vous de charger la bande de sauvegarde désirée dans le lecteur/enregistreur avant de poursuivre.</p>
+
+  <p>Après la fin de la restauration, vous devrez redémarrer le serveur.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Restaurer à partir de la bande',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Impossible de restaurer la configuration serveur.',
 'bac_RESTORING_FROM_TAPE' => 'Restauration à partir de la bande magnétique',
@@ -81,11 +111,11 @@
 'bac_SERVER_REBOOT' => 'Redémarrage du serveur',
 'bac_SERVER_WILL_REBOOT' => 'Votre serveur va maintenant redémarrer.',
 'bac_NO_UID_FOR_NAME' => 'Impossible d\'obtenir l\'UID de l\'utilisateur :',
-'bac_PAGE_REFRESH_IN' => ' Cette page s\'actualisera dans [_1] secondes pour afficher l\'état de l\'opération en cours. Vous pouvez également actualiser la page en cliquant <a href="/smanager/backup">ici</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Cette page s\'actualisera dans [_1] secondes pour afficher l\'état de l\'opération en cours. Vous pouvez également actualiser la page en cliquant ici. ',
 'Backup or restore' => 'Sauvegarde et restauration',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Le volume de données stockées sur votre serveur est trop important pour assurer la fiabilité de la sauvegarde sur l\'ordinateur local.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Les sauvegardes sur un ordinateur distant sont actuellement <b>désactivées</b>. ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Les sauvegardes sur un ordinateur distant sont actuellement <b>activées</b>. ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' Les sauvegardes sur un ordinateur distant sont actuellement désactivées. ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' Les sauvegardes sur un ordinateur distant sont actuellement activées. ',
 'bac_WKBACKUPS_RUN_AT' => 'Les sauvegardes quotidiennes sur un ordinateur distant seront exécutées à',
 'bac_WORKSTN_CONFIGURE' => 'Configurer les sauvegardes sur un ordinateur distant',
 'bac_WORKSTN_VERIFY' => 'Vérifier les sauvegardes sur un ordinateur distant',
@@ -98,9 +128,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Activation réussie des sauvegardes sur un ordinateur distant',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Désactivation réussie des sauvegardes sur un ordinateur distant',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Vérifier les sauvegardes sur un ordinateur distant',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Cette option va afficher le nom de tous les fichiers inclus dans une précédente sauvegarde quotidienne sur un ordinateur distant. Vous pouvez utiliser cette option pour vérifier le contenu de la sauvegarde.<b>Vous allez choisir la sauvegarde à vérifier.</b></p> <p>Seuls les fichiers portant la mention ~[Saved~] sont effectivement inclus dans la sauvegarde sélectionnée.</p> Les fichiers de sauvegarde sont vérifiés à partir du dossier partagé : ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Cette option va afficher le nom de tous les fichiers inclus dans une précédente sauvegarde quotidienne sur un ordinateur distant. Vous pouvez utiliser cette option pour vérifier le contenu de la sauvegarde.<b>Vous allez choisir la sauvegarde à vérifier.</b></p>
+
+  <p>Seuls les fichiers portant la mention ~[Saved~] sont effectivement inclus dans la sauvegarde sélectionnée.</p>
+
+  Les fichiers de sauvegarde sont vérifiés à partir du dossier partagé : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Restaurer la configuration du serveur à partir d\'une sauvegarde sur un ordinateur distant',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Cette action restaurera les fichiers de configuration du serveur et les données des utilisateurs à partir d\'une sauvegarde sur un ordinateur distant.<br> <b>Cette restauration ne devrait être effectuée que sur un serveur nouvellement installé</b>.</p> <p>Assurez-vous de sélectionner le bon fichier de sauvegarde avant de poursuivre.</p> <p>Après la fin de la restauration, vous devrez redémarrer le serveur.</p> La restauration va être effectuée à partir de : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Cette action restaurera les fichiers de configuration du serveur et les données des utilisateurs à partir d\'une sauvegarde sur un ordinateur distant.<br> <b>Cette restauration ne devrait être effectuée que sur un serveur nouvellement installé</b>.</p>
+
+  <p>Assurez-vous de sélectionner le bon fichier de sauvegarde avant de poursuivre.</p>
+
+  <p>Après la fin de la restauration, vous devrez redémarrer le serveur.</p>
+
+  La restauration va être effectuée à partir de : ',
 'bac_RESTORE_FROM_WORKSTN' => 'Restaurer à partir d\'un ordinateur distant',
 'bac_RESTORING_FROM_WORKSTN' => 'Restauration à partir d\'un ordinateur distant',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Les fichiers de configuration et les données des utilisateurs de votre serveur sont en cours de restauration à partir d\'un ordinateur distant.',
@@ -124,7 +164,7 @@
 'bac_NUMBER_OF_SETS' => 'Nombre de jeux de sauvegarde tournants',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Sauvegardes quotidiennes dans chaque jeu',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Le nombre de jeux doit être supérieur ou égal à 1',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Ce nombre doit être supérieur ou égal à 1. La première sauvegarde dans un jeu est <b>complète</b>, les autres sont <b>incrémentales</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Ce nombre doit être supérieur ou égal à 1. La première sauvegarde dans un jeu est complète, les autres sont incrémentales',
 'bac_WORKSTN_TIMEOUT' => 'Durée maximale d\'une session de sauvegarde (heures)',
 'bac_INC_ONLY_TIMEOUT' => 'Pas de limitation de durée pour les sauvegardes complètes',
 'bac_ERR_INVALID_TIMEOUT' => 'La durée maximale d\'une sauvegarde doit être comprise entre 1 et 24 heures',
@@ -133,11 +173,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Restauration sélective de fichier depuis un ordinateur distant',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Restauration sélective de fichier depuis un ordinateur distant',
 'bac_ALL_BACKUPS' => 'Toutes les sauvegardes',
-'bac_WORKSTN_SEL_REST_DESC' => ' Cette action va restaurer uniquement les fichiers et répertoires spécifiés.Vous devez dans un premier temps choisir la sauvegarde à utiliser. Si vous ne savez pas dans quelle sauvegarde sont les fichiers voulus, vous pouvez sélectionner \'Toutes les sauvegardes\'. <br/><br/> L\'écran suivant affichera les fichiers et répertoires disponibles, et vous pourrez choisir ceux à restaurer. Pour réduire le nombre de fichiers et de répertoires affichés, il vous est possible de fournir une expression de filtrage, utilisée comme une expression régulière qui sera appliquée aux noms affichés.<br/><br/> Vous devez veiller à <b>ne pas restaurer</b> de fichiers empêchant le fonctionnement de votre serveur.<br/><br/>Actuellement, les fichiers vont être restaurés à partir de :',
+'bac_WORKSTN_SEL_REST_DESC' => ' Cette action va restaurer uniquement les fichiers et répertoires spécifiés.Vous devez dans un premier temps choisir la sauvegarde à utiliser. Si vous ne savez pas dans quelle sauvegarde sont les fichiers voulus, vous pouvez sélectionner \'Toutes les sauvegardes\'.  L\'écran suivant affichera les fichiers et répertoires disponibles, et vous pourrez choisir ceux à restaurer. Pour réduire le nombre de fichiers et de répertoires affichés, il vous est possible de fournir une expression de filtrage, utilisée comme une expression régulière qui sera appliquée aux noms affichés. Vous devez veiller à ne pas restaurer de fichiers empêchant le fonctionnement de votre serveur.Actuellement, les fichiers vont être restaurés à partir de :',
 'bac_BACKUP_CHOICE' => 'Sélectionner les fichiers à afficher',
 'bac_SELECT_DATE_BEFORE' => 'Restaurer les plus récents avant cette date',
 'bac_FILTER_EXPRESSION' => 'Filtrage des noms par',
-'bac_READ_COMPLETE' => ' Vous pouvez choisir tous les dossiers et les fichiers que vous voulez restaurer dans la liste affichée (utiliser ctrl ou shift pour des sélections multiples). <br/> <b>Attention :</b> Si vous sélectionnez un répertoire, tous ses fichiers et sous-dossiers vont être restaurés.<p/> Par défaut, la version la plus récente des fichiers sélectionnés est restaurée mais si vous indiquez une date avec le format <i>~[ ~[ ~[aaaa/~]mm/~]jj-~]hh:mm~[:ss~]</i> le processus va uniquement restaurer la plus récente des versions ayant été modifiée <b>avant cette date</b>. ',
+'bac_READ_COMPLETE' => ' Vous pouvez choisir tous les dossiers et les fichiers que vous voulez restaurer dans la liste affichée (utiliser ctrl ou shift pour des sélections multiples).  Attention : Si vous sélectionnez un répertoire, tous ses fichiers et sous-dossiers vont être restaurés. Par défaut, la version la plus récente des fichiers sélectionnés est restaurée mais si vous indiquez une date avec le format ~[ ~[ ~[aaaa/~]mm/~]jj-~]hh:mm~[:ss~] le processus va uniquement restaurer la plus récente des versions ayant été modifiée avant cette date. ',
 'bac_ERR_INVALID_SELDATE' => 'Le format de la date est invalide. Il doit être du style ~[ ~[ ~[aaaa/~]mm/~]jj-~]hh:mm~[:ss~]. Ex: 2005/12/31-08:23:32, 10-08:32 ou 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Sélectionnez les fichiers à restaurer',
 'bac_ERR_WHILE_UNMOUNTING' => 'Une erreur est survenue pendant le démontage du partage distant',
@@ -147,8 +187,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Le niveau de compression doit être réglé entre 0 (aucune compression) et 9 (compression maximale)',
 'bac_DOW' => 'Dimanche Lundi Mardi Mercredi Jeudi Vendredi Samedi Tous les jours',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Veuillez confirmer les paramétrages de la sauvegarde :',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Cette page présente la configuration actuelle de la sauvegarde sur ordinateur distant. Vous pouvez la modifier ici et dans les pages suivantes.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Pour l\'instant, la sauvegarde sur ordinateur distant n\'est configurée. Vous pouvez configurer cette fonctionnalité avec ce panneau et le suivant.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Cette page présente la configuration actuelle de la sauvegarde sur ordinateur distant. Vous pouvez la modifier ici et dans les pages suivantes.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Pour l\'instant, la sauvegarde sur ordinateur distant n\'est configurée. Vous pouvez configurer cette fonctionnalité avec ce panneau et le suivant.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Le système de sauvegarde est',
 'bac_WORKSTN_BACKUP_USB' => 'La sauvegarde est effectuée sur disque amovible local',
 'bac_WORKSTN_BACKUP_MNT' => 'La sauvegarde est effectuée sur un disque monté',

@@ -1,7 +1,7 @@
 'ln_Local networks' => 'Lokala nätverk',
-'ln_FIRSTPAGE_DESC' => ' Av säkerhetsskäl finns vissa tjänster på din server endast åtkomliga på ditt lokala nätverk. Du kan emellertid ge lokal åtkomst till ytterligare nätverk genom att ange dem nedan. De flesta installationer bör lämna denna lista tom</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Lägg till nätverk</a> ',
+'ln_FIRSTPAGE_DESC' => ' Av säkerhetsskäl finns vissa tjänster på din server endast åtkomliga på ditt lokala nätverk. Du kan emellertid ge lokal åtkomst till ytterligare nätverk genom att ange dem nedan. De flesta installationer bör lämna denna lista tom Lägg till nätverk ',
 'ln_ADD_TITLE' => 'Lägg till lokalt nätverk',
-'ln_ADD_DESC' => ' Varje parameter måste vara i formatet #.#.#.# (där varje # är ett tal från 0 till 255). Serverns mjukvara kommer att ta bort den avslutande delen (värdidentifieraren) av nätverksadressen enligt subnätmasken för att försäkra att nätverksadressen är giltig. </P><P> "Router" skall vara den IP-adress på ditt lokala nätverk som det ytterligare nätverket nås via. ',
+'ln_ADD_DESC' => ' Varje parameter måste vara i formatet #.#.#.# (där varje # är ett tal från 0 till 255). Serverns mjukvara kommer att ta bort den avslutande delen (värdidentifieraren) av nätverksadressen enligt subnätmasken för att försäkra att nätverksadressen är giltig.  "Router" skall vara den IP-adress på ditt lokala nätverk som det ytterligare nätverket nås via. ',
 'ln_NETWORK_ADDRESS' => 'Nätverksadress',
 'ln_SUBNET_MASK' => 'Subnätmask',
 'ln_INVALID_IP_ADDRESS' => 'Ogiltig IP-adress',
@@ -18,7 +18,13 @@
 'ln_SUCCESS' => 'Lagt till nätverket {$network}/{$networkMask} via router {$networkRouter}.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Lagt till nätverket {$network}/{$networkMask} via router {$networkRouter}. Din server tillåter lokala åtkomstprivilegier till den enstaka nätverksadressen {$network}.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Lagt till nätverket {$network}/{$networkMask} via router {$networkRouter}. Din server tillåter lokala åtkomstprivilegier till {$totalHosts} IP-adresser inom intervallet {$firstAddr} till {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Lagt till nätverk {$network}/{$networkMask} via router {$networkRouter}. </p> <p> Din server tillåter lokala åtkomstprivilegier till {$totalHosts} IP-adresser inom intervallet {$firstAddr} till {$lastAddr}. </p> <p> Varning: ProFTPd FTP-server kan inte hantera denna icke standardiserade nätverksmask. Den enklare specifikationen <b>{$simpleMask}</b> kommer att användas istället. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Lagt till nätverk {$network}/{$networkMask} via router {$networkRouter}. </p>
+
+  <p> Din server tillåter lokala åtkomstprivilegier till {$totalHosts} IP-adresser inom intervallet {$firstAddr} till {$lastAddr}. </p>
+
+  <p> Varning: ProFTPd FTP-server kan inte hantera denna icke standardiserade nätverksmask. Den enklare specifikationen <b>{$simpleMask}</b> kommer att användas istället. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Radera nätverk {$network}/{$networkMask} via router {$networkRouter}.',
 'ln_ERROR_DELETING_NETWORK' => 'Ett fel inträffade vid radering av nätverk.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Inga ytterligare nätverk',

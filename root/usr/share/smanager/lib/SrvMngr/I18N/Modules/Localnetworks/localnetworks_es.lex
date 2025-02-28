@@ -1,8 +1,8 @@
 'ln_LOCAL NETWORKS' => 'Redes locales',
 'Local networks' => 'Redes locales',
-'ln_FIRSTPAGE_DESC' => ' Por razones de seguridad, varios servicios en su servidor sólo están disponibles para su red local. Sin embargo, puede conceder estos privilegios de acceso local a otras redes, enumerándolas a continuación. La mayoría de las instalaciones deben dejar esta lista vacía.</P><P> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Agregar red</a> ',
+'ln_FIRSTPAGE_DESC' => ' Por razones de seguridad, varios servicios en su servidor sólo están disponibles para su red local. Sin embargo, puede conceder estos privilegios de acceso local a otras redes, enumerándolas a continuación. La mayoría de las instalaciones deben dejar esta lista vacía. Agregar red ',
 'ln_ADD_TITLE' => 'Agregar una red local',
-'ln_ADD_DESC' => ' Cada parámetro debe estar en la forma #.#.#.# (cada # es un número de 0 a 255). El software del servidor pondrá en cero la parte final (el identificador de host) de la dirección de red según la máscara de subred, para asegurar que la dirección de red sea válida. </p><p> "Router" debe corresponder a la dirección IP del router de su red local a través del cual se alcanza la red adicional. ',
+'ln_ADD_DESC' => ' Cada parámetro debe estar en la forma #.#.#.# (cada # es un número de 0 a 255). El software del servidor pondrá en cero la parte final (el identificador de host) de la dirección de red según la máscara de subred, para asegurar que la dirección de red sea válida.  "Router" debe corresponder a la dirección IP del router de su red local a través del cual se alcanza la red adicional. ',
 'ln_NETWORK_ADDRESS' => 'Dirección de red',
 'ln_SUBNET_MASK' => 'Máscara de subred',
 'ln_INVALID_IP_ADDRESS' => 'Dirección IP no válida',
@@ -19,7 +19,13 @@
 'ln_SUCCESS' => 'Se agregó con éxito la red {$network}/{$networkMask} mediante el router {$networkRouter}.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Se agregó con éxito la red {$network}/{$networkMask} mediante el router {$networkRouter}. Su servidor concederá privilegios de acceso local a la dirección IP única {$network}.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Se agregó con éxito la red {$network}/{$networkMask} mediante el router {$networkRouter}. Su servidor concederá privilegios de acceso local a {$totalHosts} direcciones IP en el rango de {$firstAddr} a {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Se agregó con éxito la red {$network}/{$networkMask} mediante el router {$networkRouter}. </p> <p> Su servidor concederá privilegios de acceso local a {$totalHosts} direcciones IP en el rango de {$firstAddr} a {$lastAddr}. </p> <p> Advertencia: el servidor FTP ProFTPd no puede manejar esta máscara de subred no estándar. En su lugar, se utilizará la especificación más simple <b>{$simpleMask}</b>. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Se agregó con éxito la red {$network}/{$networkMask} mediante el router {$networkRouter}. </p>
+
+  <p> Su servidor concederá privilegios de acceso local a {$totalHosts} direcciones IP en el rango de {$firstAddr} a {$lastAddr}. </p>
+
+  <p> Advertencia: el servidor FTP ProFTPd no puede manejar esta máscara de subred no estándar. En su lugar, se utilizará la especificación más simple <b>{$simpleMask}</b>. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'La red {$network}/{$networkMask} ha sido removida con éxito mediante el router {$networkRouter}.',
 'ln_ERROR_DELETING_NETWORK' => 'Ocurrió un error al eliminar la red.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Sin redes adicionales',

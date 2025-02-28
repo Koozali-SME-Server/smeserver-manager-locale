@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Crear, modificar o eliminar i-bays',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Agregar i-bay</a> </p> <p> Puede eliminar cualquier bahía de información o puede restablecer su contraseña haciendo click en el comando correspondiente junto a la bahía de información. Si la bahía de información aparece en rojo, significa que aún no se ha cambiado la contraseña del valor predeterminado y se debe cambiar pronto. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Agregar i-bay</a> </p>
+
+  <p> Puede eliminar cualquier bahía de información o puede restablecer su contraseña haciendo click en el comando correspondiente junto a la bahía de información. Si la bahía de información aparece en rojo, significa que aún no se ha cambiado la contraseña del valor predeterminado y se debe cambiar pronto. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Crear o modificar una i-bay',
 'iba_NAME_FIELD_DESC' => 'El nombre de la bahía de información debe contener sólo minúsculas, números, puntos, guiones y guiones bajos y debe comenzar con una minúscula. Por ejemplo "rojas", "intra" y "client3.prj12" son nombres válidos, pero "3asociados", "Juan Arancibia" y "Bus!Socio" no lo son. El nombre está limitado a {$maxLength} caracteres.',
 'iba_NAME_LABEL' => 'Nombre de la bahía de información',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Ejecución de contenido dinámico (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Forzar conexiones seguras',
 'iba_REMOVE_TITLE' => 'Eliminar bahía de información',
-'iba_REMOVE_DESC' => ' <p> Está a punto de eliminar la bahía de información "{$name}" ({$description}). </p> <p> Se borrarán todos los archivos pertenecientes a esta bahía de información. </p> <p> ¿Está seguro de que desea eliminar esta bahía de información? </p> ',
+'iba_REMOVE_DESC' => ' <p> Está a punto de eliminar la bahía de información "{$name}" ({$description}). </p>
+
+  <p> Se borrarán todos los archivos pertenecientes a esta bahía de información. </p>
+
+  <p> ¿Está seguro de que desea eliminar esta bahía de información? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Ocurrió un error al crear la i-bay.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Se creó con éxito la i-bay.',
 'iba_NO_IBAYS' => 'No hay i-bays actualmente configuradas.',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Las contraseñas no coinciden.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Se restableció con éxito la contraseña.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Error al restablecer la contraseña.',
-'iba_VHOST_MESSAGE' => ' <P>Los siguientes dominios virtuales estaban utilizando esta bahía de información como su contenido y se cambiarán al sitio Web primario (posteriormente, puede cambiarlos a algo diferente):</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' Los siguientes dominios virtuales estaban utilizando esta bahía de información como su contenido y se cambiarán al sitio Web primario (posteriormente, puede cambiarlos a algo diferente): {$vhostList} ',
 'Information bays' => 'Bahías de información',
 'iba_WGRG' => 'Escritura = grupo, Lectura = grupo',
 'iba_WGRE' => 'Escritura = grupo, Lectura = todos',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Error: caracteres erróneos o faltantes en la descripción de i-bay',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'El nombre de i-bay "{$acctName}" contiene caracteres no válidos. Los nombres de i-bays deben comenzar con minúscula y deben contener sólo minúsculas, números y guiones.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'El nombre de la i-bay "{$name}" es demasiado largo. El máximo es de {$maxIbayNameLength} caracteres.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' La cuenta "{$acctName}" entra en conflicto con los detalles del seudónimo para {$acctType} de la cuenta "{$acct}". <p>{$acctName} es un seudónimo de {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' La cuenta "{$acctName}" entra en conflicto con los detalles del seudónimo para {$acctType} de la cuenta "{$acct}". {$acctName} es un seudónimo de {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'La cuenta "{$acctName}" es una cuenta {$acctType} existente.',

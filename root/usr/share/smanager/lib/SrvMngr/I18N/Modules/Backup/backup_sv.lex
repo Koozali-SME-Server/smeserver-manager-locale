@@ -1,11 +1,29 @@
 'bac_BACKUP_TITLE' => 'Backup eller återställ serverdata',
-'bac_BACKUP_DESC' => ' <P>Serverns ger dig möjlighet till två sätt att ta backup och återställa din server: använd din lokala klient eller en bandstation.</P> <P>Den första metoden skapar en kopia av din server konfiguration och användarnas datafiler, laddar ner det till din lokala klient via din webbläsare. För närvarande upptar din konfigurations- och datafiler totalt ungefär <b>$tarsize</b>. Backup-filen kommer att bli något mindre än detta, beroende på hur komprimerad datat är. \"Verifiering av klientens backupfile\" inställning kan användas för att kontrollera integriteten på backupfilen.</P> <P>Backup med bandstation använder en mjukvara med namnet <I>$module</I> för att ta backup på hela hårddisken till band, varje natt. Detta kräver en bandstation som stöds och ett band som inte är skrivskyddat. Backupen körs automatiskt på vald tid varje natt (med en påminnelse som automatiskt e-postas till administratören under dagen). För närvarande innehåller din hårddisk <b>$dumpsize</b> av data.</P> <P>Båda återställningsmetoderna tillåter dig att återställa din konfiguration och användarnas datafiler. <b>Idealiskt är att återställningen sker på en nyinstallerad server</b>.</P> ',
-'bac_BACKUP_DESC_DAR' => ' <P>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</P> <P>Tape Backup. This method uses a software package called <I>$module</I> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>$dumpsize</b> of data.</P> <P>Workstation backup. This method uses a software package called <I>dar</I> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>$tarsize</b> uncompressed. Twice the compressed data size must be available on the backup share.</P> <P>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>$tarsize</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</P> <P>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</P> ',
+'bac_BACKUP_DESC' => ' <p>Serverns ger dig möjlighet till två sätt att ta backup och återställa din server: använd din lokala klient eller en bandstation.</p>
+
+  <p>Den första metoden skapar en kopia av din server konfiguration och användarnas datafiler, laddar ner det till din lokala klient via din webbläsare. För närvarande upptar din konfigurations- och datafiler totalt ungefär <b>[_3]</b>. Backup-filen kommer att bli något mindre än detta, beroende på hur komprimerad datat är. \"Verifiering av klientens backupfile\" inställning kan användas för att kontrollera integriteten på backupfilen.</p>
+
+  <p>Backup med bandstation använder en mjukvara med namnet <i>[_1]</i> för att ta backup på hela hårddisken till band, varje natt. Detta kräver en bandstation som stöds och ett band som inte är skrivskyddat. Backupen körs automatiskt på vald tid varje natt (med en påminnelse som automatiskt e-postas till administratören under dagen). För närvarande innehåller din hårddisk <b>[_2]</b> av data.</p>
+
+  <p>Båda återställningsmetoderna tillåter dig att återställa din konfiguration och användarnas datafiler. <b>Idealiskt är att återställningen sker på en nyinstallerad server</b>.</p>
+
+  ',
+'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+
+  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+
+  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>
+
+  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
+
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
+
+  ',
 'bac_BACKUP_CONFIG_STATUS' => 'Backup, konfiguration och status',
-'bac_TAPE_BACKUPS_ENABLED' => ' Backup med band är för närvarande <b>valt</b>. ',
+'bac_TAPE_BACKUPS_ENABLED' => ' Backup med band är för närvarande valt. ',
 'bac_BACKUPS_RUN_AT' => 'Normal backup till band kommer att köras kl:',
 'bac_REMINDER_MESSAGE_AT' => 'E-post med påminnelse kommer att skickas kl:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Backup till band är <b>ej valt</b> ',
+'bac_TAPE_BACKUPS_DISABLED' => ' Backup till band är ej valt ',
 'bac_DESKTOP_BACKUP' => 'Backup till klient',
 'bac_DESKTOP_RESTORE' => 'Återställ från klient',
 'bac_DESKTOP_VERIFY' => 'Verifiera klientens backupfil',
@@ -17,7 +35,7 @@
 'bac_RESTORE_COMPLETED' => 'En systemåterställning är genomförd',
 'bac_STARTED_AT' => 'Den startade kl:',
 'bac_FINISHED_AT' => 'och avslutades kl:',
-'bac_YOU_MUST_REBOOT' => 'Du måste starta om servern för att aktivera de eventuella ny konfigurationer som blev resultatet av denna återställning.', 
+'bac_YOU_MUST_REBOOT' => 'Du måste starta om servern för att aktivera de eventuella ny konfigurationer som blev resultatet av denna återställning.',
 'bac_REBOOT' => 'Starta om',
 'bac_SELECT_AN_ACTION' => 'Välj en åtgärd',
 'bac_X_BACKUP_OR_RESTORE' => 'X Backup eller återställ serverdata',
@@ -25,11 +43,13 @@
 'bac_ERR_PRE_RESTORE' => 'Ett fel inträffade under de förberedande åtgärderna för återställning.',
 'bac_ERR_POST_BACKUP' => 'Ett fel inträffade under de efterföljande åtgärderna efter backup.',
 'bac_RESTORE_SERVER_CONFIG' => 'Återställ serverkonfiguration',
-'bac_DESKTOP_RESTORE_DESC' => ' Denna process kommer att ladda upp serverns backupfil från din lokal klient till servern och återställa konfigurationen och användarnas datafiler. <B>Återställning bör genomföras på en nyinstallerad server</B>. ',
+'bac_DESKTOP_RESTORE_DESC' => ' Denna process kommer att ladda upp serverns backupfil från din lokal klient till servern och återställa konfigurationen och användarnas datafiler. Återställning bör genomföras på en nyinstallerad server. ',
 'bac_FREE_SPACE' => ' Du har ungefär $tmpfree fritt utrymme på servern. Kontrollera att klientens backupfil är mindre än $halffree före påbörjandet av återställning. ',
 'bac_MUST_REBOOT_AFTER_RESTORE' => 'Efter återställningen är genomförd måste du starta om din server.',
 'bac_FILE_TO_RESTORE' => 'Backupfil att återställa från',
-'bac_VERIFY_BACKUP_DESC' => ' <p>Detta val kommer att visa namnet på alla filer i den förut skapade backupfilen som ligger på klienten. Du kan använda detta val till att verifiera innehållet på backupfilen.</p> ',
+'bac_VERIFY_BACKUP_DESC' => ' <p>Detta val kommer att visa namnet på alla filer i den förut skapade backupfilen som ligger på klienten. Du kan använda detta val till att verifiera innehållet på backupfilen.</p>
+
+  ',
 'bac_SELECT_BACKUP_FILE' => 'Välj backupfil',
 'bac_VERIFY' => 'Verifiera',
 'bac_RESTORE_CANNOT_PROCEED' => 'Kan inte fortsätta med återställandet av serverns konfiguration',
@@ -49,7 +69,11 @@
 'bac_BACKUP_FILE_INCOMPLETE' => 'Backupfilen var inte komplett',
 'bac_ERR_READING_FILE' => 'Det inträffade ett fel vid läsning av backupfilen.',
 'bac_ENABLE_DISABLE_TAPE' => 'Tillåt/Tillåt inte nattlig backup till band',
-'bac_TAPE_CONFIG_DESC' => ' <p>Välj om du vill tillåta nattlig backup. Indikera därefter den önskade tiden för backup och ladda påminnelsen om band.</p> <p>Bandbackupen kräver ett bandstation som stöds. Ett varningsmeddelande kommer att skickas till administratören på den angivna påminnelsetiden om bandstationen inte har något band.</p> ',
+'bac_TAPE_CONFIG_DESC' => ' <p>Välj om du vill tillåta nattlig backup. Indikera därefter den önskade tiden för backup och ladda påminnelsen om band.</p>
+
+  <p>Bandbackupen kräver ett bandstation som stöds. Ett varningsmeddelande kommer att skickas till administratören på den angivna påminnelsetiden om bandstationen inte har något band.</p>
+
+  ',
 'bac_ENABLE_TAPE_BACKUP' => 'Tillåt bandbackup',
 'bac_TAPE_BACKUP_TIME' => 'Klockslag för bandbackup (timmar/minuter)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Klockslag för att ladda påminnelse om band (timmar/minuter)',
@@ -70,7 +94,13 @@
 'bac_WITH_REMINDER_TIME' => 'och tid för laddning av påminnelse om band:',
 'bac_SUCCESSFULLY_DISABLED' => 'Bandbackup ej tillåten',
 'bac_RESTORE_CONF_FROM_TAPE' => 'Återställ serverkonfiguration från bandbackup',
-'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <P>Denna processs kommer att återställa konfigurationen och användarnas datafiler från ett backupband från servern. <B>Återställningen bör ske på en nyinstallerad server</B>.</P> <P>Försäkra dig om att du har laddad det önskade bandet i bandstationen innan du fortsätter.</P> <P>Efter det att återställningen är klar måste du starta om servern.</P> ',
+'bac_RESTORE_CONF_FROM_TAPE_DESC' => ' <p>Denna processs kommer att återställa konfigurationen och användarnas datafiler från ett backupband från servern. <b>Återställningen bör ske på en nyinstallerad server</b>.</p>
+
+  <p>Försäkra dig om att du har laddad det önskade bandet i bandstationen innan du fortsätter.</p>
+
+  <p>Efter det att återställningen är klar måste du starta om servern.</p>
+
+  ',
 'bac_RESTORE_FROM_TAPE' => 'Återställ från band',
 'bac_UNABLE_TO_RESTORE_CONF' => 'Kunde inte återställa serverns konfiguration',
 'bac_RESTORING_FROM_TAPE' => 'Återställning från band',
@@ -81,11 +111,11 @@
 'bac_SERVER_REBOOT' => 'Omstart av server',
 'bac_SERVER_WILL_REBOOT' => 'Din server kommer nu att starta om.',
 'bac_NO_UID_FOR_NAME' => 'Kunde inte läsa uid för användare med namnet:',
-'bac_PAGE_REFRESH_IN' => ' Denna sida kommer att uppdatera statusen om {$sec} sekunder, eller klicka <a href="/server-manager/cgi-bin/backup">här</a>. ',
+'bac_PAGE_REFRESH_IN' => ' Denna sida kommer att uppdatera statusen om {$sec} sekunder, eller klicka här. ',
 'bac_Backup or restore' => 'Backup eller återställning',
-'bac_BACKUP_DESKTOP_TOO_BIG' => ' <div class="error"> Din server har för mycket data för en säker backup till din klient. </div> ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Backup till arbetsstation är <b>ej aktiverat</b> ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Backup till arbetsstation är för närvarande <b>valt</b>. ',
+'bac_BACKUP_DESKTOP_TOO_BIG' => '  Din server har för mycket data för en säker backup till din klient.  ',
+'bac_WORKSTN_BACKUPS_DISABLED' => ' Backup till arbetsstation är ej aktiverat ',
+'bac_WORKSTN_BACKUPS_ENABLED' => ' Backup till arbetsstation är för närvarande valt. ',
 'bac_WKBACKUPS_RUN_AT' => 'Normal backup till arbetsstation kommer att köras kl:',
 'bac_WORKSTN_CONFIGURE' => 'Konfigurera backup till arbetsstation',
 'bac_WORKSTN_VERIFY' => 'Verifiera backup till arbetsstation',
@@ -98,9 +128,19 @@
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Aktiverat backup till arbetsstation',
 'bac_SUCCESSFULLY_DISABLED_WORKSTN' => 'Avaktiverat backup till arbetsstation',
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Verifiera backup till arbetsstation',
-'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Denna inställning visar namnet på alla filer i den tidigare skapade dagliga backupen på arbetsstationen. Du kan använda denna inställning för att verifiera innehållet av backupen.<b>Du måste välja den backup som du vill verifiera</b></p> <p>Endast filer markerade med [Sparad] finns i backupen.</p><br/> Backupfilerna verifieras från den delade mappen : ',
+'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Denna inställning visar namnet på alla filer i den tidigare skapade dagliga backupen på arbetsstationen. Du kan använda denna inställning för att verifiera innehållet av backupen.<b>Du måste välja den backup som du vill verifiera</b></p>
+
+  <p>Endast filer markerade med [Sparad] finns i backupen.</p>
+
+  <br/> Backupfilerna verifieras från den delade mappen : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Återställ serverkonfiguration från arbetsstationen',
-'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Denna processs kommer att återställa konfigurationen och användarnas datafiler från ett backup gjord på en arbetsstation ansluten till LAN. <b>Återställningen bör ske på en nyinstallerad server</b>.</p> <p>Försäkra dig om att du har valt den önskade backupen innan du fortsätter.</p> <p>Efter det att återställningen är klar måste du starta om servern.</p> Backupen kommer att återställas från : ',
+'bac_RESTORE_CONF_FROM_WORKSTN_DESC' => ' <p>Denna processs kommer att återställa konfigurationen och användarnas datafiler från ett backup gjord på en arbetsstation ansluten till LAN. <b>Återställningen bör ske på en nyinstallerad server</b>.</p>
+
+  <p>Försäkra dig om att du har valt den önskade backupen innan du fortsätter.</p>
+
+  <p>Efter det att återställningen är klar måste du starta om servern.</p>
+
+  Backupen kommer att återställas från : ',
 'bac_RESTORE_FROM_WORKSTN' => 'Återställ från arbetsstation',
 'bac_RESTORING_FROM_WORKSTN' => 'Återställer från arbetsstation',
 'bac_NOW_RESTORING_FROM_WORKSTN' => 'Din servers konfigurering och användarnas datafiler återställs nu från arbetsstationen.',
@@ -124,7 +164,7 @@
 'bac_NUMBER_OF_SETS' => 'Antal roterande backupuppsättningar',
 'bac_NUMBER_OF_FILES_IN_SET' => 'Dagliga backuper i varje uppsättning',
 'bac_ERR_INVALID_SETS_NUMBER' => 'Antalet uppsättningar måste vara 1 eller större',
-'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Siffran måste vara 1 eller större. Första backupen i uppsättningen är <b>full</b> de andra är <b>inkrementella</b>',
+'bac_ERR_INVALID_FILES_IN_SET_NUMBER' => 'Siffran måste vara 1 eller större. Första backupen i uppsättningen är full de andra är inkrementella',
 'bac_WORKSTN_TIMEOUT' => 'Valfri inställning, timeout för backupens session (timmar)',
 'bac_INC_ONLY_TIMEOUT' => 'Gör ej timeout för fullsändiga backupsessioner',
 'bac_ERR_INVALID_TIMEOUT' => 'Maximal backuptid måste vara mellan 1 och 24 timmar',
@@ -133,11 +173,11 @@
 'bac_WORKSTN_SEL_RESTORE' => 'Selektiv återställning av filer från arbetsstationen',
 'bac_WORKSTN_SELECTIVE_RESTORE' => 'Återställning av valda filer från arbetsstationen',
 'bac_ALL_BACKUPS' => 'Alla backuper',
-'bac_WORKSTN_SEL_REST_DESC' => ' Denna process kommer att återskapa endast de angivna filerna och mapparna. Du måste först välja den backup från vilken filerna skall återställas. Om du inte vet vilken backup som innehåller de önskade filerna kan du välja \'Alla filer\'. <br/><br/> Nästa fönster kommer att visa tillgängliga filer och mappar och du kan därefter välja de som du vill återställa. För att minska antalet filer och mappar som visas i nästa fönster kan du nu ange ett filter, som anges som ett vanligt uttryck till de visade namnen.<br/><br/> Det är ditt ansvar så att du inte återställer några filer som förhindrar funktionen på din server.<br/><br/>Filerna återställs från: ',
+'bac_WORKSTN_SEL_REST_DESC' => ' Denna process kommer att återskapa endast de angivna filerna och mapparna. Du måste först välja den backup från vilken filerna skall återställas. Om du inte vet vilken backup som innehåller de önskade filerna kan du välja \'Alla filer\'.  Nästa fönster kommer att visa tillgängliga filer och mappar och du kan därefter välja de som du vill återställa. För att minska antalet filer och mappar som visas i nästa fönster kan du nu ange ett filter, som anges som ett vanligt uttryck till de visade namnen. Det är ditt ansvar så att du inte återställer några filer som förhindrar funktionen på din server.Filerna återställs från: ',
 'bac_BACKUP_CHOICE' => 'Välj filer som skall visas',
 'bac_SELECT_DATE_BEFORE' => 'Återställ de senaste före',
 'bac_FILTER_EXPRESSION' => 'Namn filtrerade efter',
-'bac_READ_COMPLETE' => ' Du kan välja alla de mappar och filer du vill återställa i listan som visas (använd ctrl eller shift för flerval). <br/><b>Varning :</b> Om du väljer en mapp kommer alla filer och underliggande mappar, att återställas.<p/> Förvalt är att den senaste versionen av valda filer återställs men om du anger ett datum i formatet <i>[ [ [yyyy/]mm/]dd-]hh:mm[:ss]</i> kommer processen att återställa den senaste versionen som är ändrad <b>före det angivna datumet</b>. ',
+'bac_READ_COMPLETE' => ' Du kan välja alla de mappar och filer du vill återställa i listan som visas (använd ctrl eller shift för flerval). Varning : Om du väljer en mapp kommer alla filer och underliggande mappar, att återställas. Förvalt är att den senaste versionen av valda filer återställs men om du anger ett datum i formatet [ [ [yyyy/]mm/]dd-]hh:mm[:ss] kommer processen att återställa den senaste versionen som är ändrad före det angivna datumet. ',
 'bac_ERR_INVALID_SELDATE' => 'Datumformat är ogiltigt eftersom det måste vara [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. exvis: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Välj filer som skall återställas',
 'bac_ERR_WHILE_UNMOUNTING' => 'Fel uppstod vid avmontering av fjärrdelningen',
@@ -147,8 +187,12 @@
 'bac_ERR_INVALID_COMPRESSION' => 'Kompressionsnivån måste vara mellan 0 (ingen kompression) och 9 (maximal kompression)',
 'bac_DOW' => 'Söndag Måndag Tisdag Onsdag Torsdag Fredag Lördag Alla_dagar',
 'bac_CONFIGURATION_TO_BE_DONE' => 'Konfigurera inställningarna för backup.',
-'bac_WORKSTN_BACKUP_DESC' => ' <p>Detta fönster visar nuvarande inställningar för arbetsstationens backup. Du kan ändra det i detta fönster och nästa.</p><p/> ',
-'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Just nu är inte arbetsstationens backup konfigurerad. Du kan göra dessa inställningar i detta och nästa fönster.</p><p/> ',
+'bac_WORKSTN_BACKUP_DESC' => ' <p>Detta fönster visar nuvarande inställningar för arbetsstationens backup. Du kan ändra det i detta fönster och nästa.</p>
+
+  <p/> ',
+'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Just nu är inte arbetsstationens backup konfigurerad. Du kan göra dessa inställningar i detta och nästa fönster.</p>
+
+  <p/> ',
 'bac_WORKSTN_BACKUP_ENABLED' => 'Backupen är',
 'bac_WORKSTN_BACKUP_USB' => 'Backupen görs på en lokal flyttbar USB-disk',
 'bac_WORKSTN_BACKUP_MNT' => 'Backupen görs på en lokal flyttbar USB-disk',

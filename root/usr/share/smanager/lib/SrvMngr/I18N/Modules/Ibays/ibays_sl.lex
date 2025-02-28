@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Ustvari, posodobi ali odstrani i-list',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Dodaj i-list</a> </p> <p> Odstranite lahko vsak informacijski list ali ponastaavite njegovo geslo s klikom na ustrezno povezavo ukaza zraven imena informacijskega lista. Ce je ime informacijskega lista izpisano rdece pomeni, da se niste zamenjali gesla s privzete vrednosti in bi ga bilo smiselno zamenjati cim prej. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Dodaj i-list</a> </p>
+
+  <p> Odstranite lahko vsak informacijski list ali ponastaavite njegovo geslo s klikom na ustrezno povezavo ukaza zraven imena informacijskega lista. Ce je ime informacijskega lista izpisano rdece pomeni, da se niste zamenjali gesla s privzete vrednosti in bi ga bilo smiselno zamenjati cim prej. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Dodaj ali uredi i-list',
 'iba_NAME_FIELD_DESC' => 'Ime informacijskega lista sme vsebovati samo majhne crke, stevilke, pike, vezaje in podcrtaje, ter se zacne z majno crko. Npr. "novak", "inter" in "just4.you" so veljavna imena, imena "5tica", "Janez Novak" in "Novi!Partner" pa ne. Ime je omejeno na maksimalno {$maxLength} znakov.',
 'iba_NAME_LABEL' => 'Ime informacijskega lista',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Izvajanje dinamicnih vsebin (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Force secure connections',
 'iba_REMOVE_TITLE' => 'Odstrani informacijski list',
-'iba_REMOVE_DESC' => ' <p> Ste tik pred tem, da odstranite informacijski list "{$name}" ({$description}). </p> <p> Vse datoteke v tem informacijskem listu bodo izbrisane. </p> <p> Ali ste prepricani, da zelite odstraniti ta informacijski list? </p> ',
+'iba_REMOVE_DESC' => ' <p> Ste tik pred tem, da odstranite informacijski list "{$name}" ({$description}). </p>
+
+  <p> Vse datoteke v tem informacijskem listu bodo izbrisane. </p>
+
+  <p> Ali ste prepricani, da zelite odstraniti ta informacijski list? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Pri ustvarjanju i-lista je prislo do napake.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'I-list je bil uspesno ustvarjen.',
 'iba_NO_IBAYS' => 'Trenutno ni nobenega i-lista v sistemu.',
@@ -25,7 +35,9 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Gesli se ne ujemata.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Geslo je bilo uspesno ponastavljeno.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Pri ponastavljanju gesla je prislo do napake.',
-'iba_VHOST_MESSAGE' => ' <p> Naslednje navidezne domene uporabljajo vsebino tega i-lista za spletno stran. Sedaj bo uporabljena vsebina primarne spletne strani. (kasneje lahko to poljubno spremenite):</p> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' <p> Naslednje navidezne domene uporabljajo vsebino tega i-lista za spletno stran. Sedaj bo uporabljena vsebina primarne spletne strani. (kasneje lahko to poljubno spremenite):</p>
+
+  <ul>{$vhostList}</ul> ',
 'iba_Information bays' => 'Informacijski listi',
 'iba_WGRG' => 'Pisi = skupina, Beri = skupina',
 'iba_WGRE' => 'Pisi = skupina, Beri = vsi',
@@ -39,5 +51,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Napaka: nepricakovani alli manjkajoci znaki v opisu i-lista',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Ime i-liste "{$acctName}" vsebuje neveljavne znake. Imena I-liste se morajo zaceti z majhno crko in morajo vsebovati samo majhne crke, stevilke in vezaje.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Ime i-liste "{$name}" je predolgo. Maksimalno stevilo znakov je {$maxIbayNameLength}.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Ime i-liste "{$acctName}" se ujema s psevdonimom podrobnosti za {$acctType} racun "{$acct}". <p>{$acctName} je psevdonim za {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Ime i-liste "{$acctName}" se ujema s psevdonimom podrobnosti za {$acctType} racun "{$acct}". {$acctName} je psevdonim za {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'I-list "{$acctName}" je obstojeci {$acctType} racun.',

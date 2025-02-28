@@ -1,6 +1,6 @@
 'clm_FORM_TITLE' => 'Antivirus instellingen',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Scan bestandssyteem',
-'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' <h2>Standaard Instellingen</h2> Als deze optie geactiveerd is zal het bestandssysteem gescand worden op virussen. Een rapport over gevonden virussen zal naar de systeembeheerder gemaild worden.',
+'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Standaard Instellingen Als deze optie geactiveerd is zal het bestandssysteem gescand worden op virussen. Een rapport over gevonden virussen zal naar de systeembeheerder gemaild worden.',
 'clm_LABEL_QUARANTINE' => 'Plaats geïnfecteerde bestanden in quarantaine',
 'clm_LABEL_CLAM_VERSIONS' => 'ClamAV en db versies',
 'clm_WEEKLY' => 'Wekelijks',

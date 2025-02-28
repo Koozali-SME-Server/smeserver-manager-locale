@@ -27,7 +27,7 @@
 'yum_DESC_BUTTON_CONFIGURATION' => 'Modifier les paramètres de mise à jour',
 'yum_DESC_BUTTON_INSTALL_AVAILABLE' => 'Installer une application additionnelle',
 'yum_DESC_BUTTON_REMOVE' => 'Retirer une application installée',
-'yum_HEADER_POSTUPGRADE_REQUIRED' => ' Le système doit être reconfiguré après l\'ajout ou la suppression de paquetages, ou l\'application de mises à jour. <p> Veuillez cliquer sur le bouton "Reconfigurer" au bas decette page pour démarrer le processus de reconfiguration. <b>Le système redémarrera automatiquement à l\'issue de ce processus de reconfiguration.</b> </p> ',
+'yum_HEADER_POSTUPGRADE_REQUIRED' => ' Le système doit être reconfiguré après l\'ajout ou la suppression de paquetages, ou l\'application de mises à jour.  Veuillez cliquer sur le bouton "Reconfigurer" au bas decette page pour démarrer le processus de reconfiguration. Le système redémarrera automatiquement à l\'issue de ce processus de reconfiguration.  ',
 'yum_SYSTEM_BEING_RECONFIGURED' => 'Votre système va redémarrer automatiquement afin d\'achever le processus de reconfiguration.',
 'yum_1DAILY' => 'Chaque jour',
 'yum_2WEEKLY' => 'Chaque semaine',

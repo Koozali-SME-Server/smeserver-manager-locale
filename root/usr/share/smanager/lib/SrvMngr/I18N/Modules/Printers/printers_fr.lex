@@ -1,6 +1,8 @@
 'prt_FORM_TITLE' => 'Gestion des imprimantes',
 'prt_INITIAL_BTN' => 'Ajouter une imprimante',
-'prt_INITIAL_DESC' => ' <p><a class="button-like" HREF="printers?page=0&Next=Add">Ajouter une imprimante</a></p> ',
+'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Ajouter une imprimante</a></p>
+
+  ',
 'prt_NO_PRINTERS' => 'Aucune imprimante n\'a été définie dans le système.',
 'prt_CURRENT_LIST' => 'Liste actuelle des imprimantes',
 'prt_REMOTE_ADDRESS' => 'Adresse distante',
@@ -14,7 +16,11 @@
 'prt_NET_PRINTER' => 'Imprimante réseau...',
 'prt_FIRST_USB_PRINTER' => 'Première imprimante raccordée à un port USB',
 'prt_SECOND_USB_PRINTER' => 'Seconde imprimante raccordée à un port USB',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>ERREUR : caractères inattendus dans le nom de l\'imprimante.</p> <p>Le nom de l\'imprimante doit commencer par une lettre minuscule et ne contenir que des lettres minuscules et des chiffres. Par exemple, "hplaser", "epsonlp" et "canonbj" sont des noms valides.</p> ',
+'prt_ERR_UNEXPECTED_NAME' => ' <p>ERREUR : caractères inattendus dans le nom de l\'imprimante.</p>
+
+  <p>Le nom de l\'imprimante doit commencer par une lettre minuscule et ne contenir que des lettres minuscules et des chiffres. Par exemple, "hplaser", "epsonlp" et "canonbj" sont des noms valides.</p>
+
+  ',
 'prt_ERR_UNEXPECTED_DESC' => 'ERREUR : caractères inattendus ou manquants dans la description. L\'imprimante n\'a pas été créée.',
 'prt_ERR_EXISTS' => 'ERREUR : un compte existe déjà sous ce nom avec le type',
 'prt_ERR_INVALID_ADDRESS' => 'ERREUR : l\'adresse réseau n\'est pas valide. L\'imprimante n\'a pas été créée.',

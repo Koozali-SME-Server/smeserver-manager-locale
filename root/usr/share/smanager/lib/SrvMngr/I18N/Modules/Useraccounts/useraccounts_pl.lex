@@ -1,11 +1,23 @@
 'usr_FORM_TITLE' => 'Create, modify, or remove user accounts',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&Next=Next">Add user account</a> </p> <p> You can modify, lock or remove any account or reset the account\'s password by clicking on the corresponding command next to the account. </p> <p> If the account is marked as locked, that means that the user\'s password needs to be reset. Please note that newly created accounts are automatically locked until the password is changed. </p> ',
+'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Add user account</a> </p>
+
+  <p> You can modify, lock or remove any account or reset the account\'s password by clicking on the corresponding command next to the account. </p>
+
+  <p> If the account is marked as locked, that means that the user\'s password needs to be reset. Please note that newly created accounts are automatically locked until the password is changed. </p>
+
+  ',
 'usr_P2_TITLE' => 'Create or modify',
-'usr_CREATE_MODIFY_DESC' => ' <p> The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example "betty", "hjohnson", and "mary-jane" are all valid account names, but "3friends", "John Smith", and "henry:miller" are not. </p> <p> Note that two special pseudonyms will be created for each new account. These pseudonyms provide the ability to have alternative mail accounts for that user which include their first name and last name separated with a period (.) and underscore (_). So, for the account "betty" with first name "Betty" and last name "Rubble" two pseudonyms are created as betty.rubble and betty_rubble. </p> <p> The directory information (department, company, etc.) can be changed from the defaults shown below. The changes will apply only to this user. </p> ',
+'usr_CREATE_MODIFY_DESC' => ' <p> The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example "betty", "hjohnson", and "mary-jane" are all valid account names, but "3friends", "John Smith", and "henry:miller" are not. </p>
+
+  <p> Note that two special pseudonyms will be created for each new account. These pseudonyms provide the ability to have alternative mail accounts for that user which include their first name and last name separated with a period (.) and underscore (_). So, for the account "betty" with first name "Betty" and last name "Rubble" two pseudonyms are created as betty.rubble and betty_rubble. </p>
+
+  <p> The directory information (department, company, etc.) can be changed from the defaults shown below. The changes will apply only to this user. </p>
+
+  ',
 'usr_MODIFY_ADMIN_TITLE' => 'Modify the admin account',
 'usr_USER_CREATED' => 'Successfully created user account.',
 'usr_USER_MODIFIED' => 'Successfully modified user account.',
-'usr_CANNOT_MODIFY_USER' => 'Error: an internal error occurred while attempting to modify the user "{$acctName}".', 
+'usr_CANNOT_MODIFY_USER' => 'Error: an internal error occurred while attempting to modify the user "{$acctName}".',
 'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: an internal error occurred while attempting to modify the group "{$group}" for user "{$acctName}".',
 'usr_TAINTED_USER' => 'The account name "{$acctName}" contains invalid characters.',
 'usr_ACCOUNT_NAME' => 'Account name',
@@ -32,10 +44,10 @@
 'usr_PSEUDONYM_CLASH' => 'Error: the pseudonym "{$pseudonym}" is already taken by the existing user account "{$clashName}". To differentiate, add initials to this field.',
 'usr_LOCK_ACCOUNT' => 'Lock account',
 'usr_LOCK_ACCOUNT_TITLE' => 'Lock user account',
-'usr_LOCK_DESC2' => ' This user account will be locked. This means that this user will not be able to log in, and will not be able to collect e-mail. Any e-mail arriving will still be stored and/or forwarded to an external e-mail address, as configured. The account may be activated in the future by setting a new password. The current password will not be retained. </p> <p> <b>Are you sure you wish to lock this account?</b> ',
+'usr_LOCK_DESC2' => ' This user account will be locked. This means that this user will not be able to log in, and will not be able to collect e-mail. Any e-mail arriving will still be stored and/or forwarded to an external e-mail address, as configured. The account may be activated in the future by setting a new password. The current password will not be retained.   Are you sure you wish to lock this account? ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Remove user account',
 'usr_REMOVE_DESC' => 'You are about to remove the user account',
-'usr_REMOVE_DESC2' => ' All files belonging to this user account will be deleted. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded. </p> <p> <b>Are you sure you wish to remove this account?</b> ',
+'usr_REMOVE_DESC2' => ' All files belonging to this user account will be deleted. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded.   Are you sure you wish to remove this account? ',
 'usr_LOCK' => 'Blokada',
 'usr_NO_USER_ACCOUNTS' => 'There are no user accounts on this system.',
 'usr_Users' => 'Użytkownicy',

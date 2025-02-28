@@ -1,8 +1,8 @@
 'ln_LOCAL NETWORKS' => 'Lokale netwerken',
 'ln_Local networks' => 'Lokale netwerken',
-'ln_FIRSTPAGE_DESC' => ' Om veiligheidsredenen zijn diverse diensten op de server enkel beschikbaar voor het lokale netwerk. U kunt deze lokale toegangsrechten echter wel toekennen aan additionele netwerken indien ze hieronder worden toegevoegd. Voor de meeste installaties zal deze lijst echter leeg worden gelaten.</p><p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Netwerk toevoegen</a> ',
+'ln_FIRSTPAGE_DESC' => ' Om veiligheidsredenen zijn diverse diensten op de server enkel beschikbaar voor het lokale netwerk. U kunt deze lokale toegangsrechten echter wel toekennen aan additionele netwerken indien ze hieronder worden toegevoegd. Voor de meeste installaties zal deze lijst echter leeg worden gelaten. Netwerk toevoegen ',
 'ln_ADD_TITLE' => 'Een lokaal netwerk toevoegen',
-'ln_ADD_DESC' => ' Elke parameter dient in de vorm #.#.#.# te zijn (elk # is een getal van 0 tot 255). De server software zal het eind gedeelte door een nul vervangen (host herkenningsteken) afhankelijk van het deelnetwerkmasker om er voor te zorgen dat het een geldig netwerkadres betreft. </P><P> "Router" dient het IP adres van de router op het lokale netwerk te zijn via welke het additionele netwerk te bereiken is. ',
+'ln_ADD_DESC' => ' Elke parameter dient in de vorm #.#.#.# te zijn (elk # is een getal van 0 tot 255). De server software zal het eind gedeelte door een nul vervangen (host herkenningsteken) afhankelijk van het deelnetwerkmasker om er voor te zorgen dat het een geldig netwerkadres betreft.  "Router" dient het IP adres van de router op het lokale netwerk te zijn via welke het additionele netwerk te bereiken is. ',
 'ln_NETWORK_ADDRESS' => 'Netwerk adres',
 'ln_SUBNET_MASK' => 'Subnet masker',
 'ln_INVALID_IP_ADDRESS' => 'Ongeldig IP adres',
@@ -19,7 +19,13 @@
 'ln_SUCCESS' => 'Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan het enkele IP adres {$network}.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan {$totalHosts} IP adressen in het bereik {$firstAddr} tot {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. </p> <p> De server zal lokale toegangsprivileges toekennen aan {$totalHosts} IP adressen in het bereik {$firstAddr} tot {$lastAddr}. </p> <p> Waarschuwing: de ProFTPd FTP server herkent dit niet-standaard deelnetwerkmasker niet. De versimpelde specificatie <b>{$simpleMask}</b> zal in plaats hiervan worden gebruikt. </p> ',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. </p>
+
+  <p> De server zal lokale toegangsprivileges toekennen aan {$totalHosts} IP adressen in het bereik {$firstAddr} tot {$lastAddr}. </p>
+
+  <p> Waarschuwing: de ProFTPd FTP server herkent dit niet-standaard deelnetwerkmasker niet. De versimpelde specificatie <b>{$simpleMask}</b> zal in plaats hiervan worden gebruikt. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes verwijderd.',
 'ln_ERROR_DELETING_NETWORK' => 'Er is een fout opgetreden tijdens het verwijderen van het netwerk.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Geen additionele netwerken',

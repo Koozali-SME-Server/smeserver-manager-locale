@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'Opprett, endre eller fjern informasjonsgrupper',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">Legg til i-bay</a> </p> <p> Du kan fjerne en informasjons gruppe eller nulstille passordet ved å klikke på tilhørende link ved ønsket informasjonsgruppe. Hvis informasjonsgruppen vises i rødt, betyr det at passordet enda ikke er endret fra standard, og bør endres snarest. </p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Legg til i-bay</a> </p>
+
+  <p> Du kan fjerne en informasjons gruppe eller nulstille passordet ved å klikke på tilhørende link ved ønsket informasjonsgruppe. Hvis informasjonsgruppen vises i rødt, betyr det at passordet enda ikke er endret fra standard, og bør endres snarest. </p>
+
+  ',
 'iba_ADD_TITLE' => 'Opprett eller endre en informasjonsgruppe',
 'iba_NAME_FIELD_DESC' => 'Informasjonsgruppens navn kan bare inneholde små bokstaver, tall, punktum og understreker, og må starte med liten bokstav. For eksempel er "jonsen", intra", og "cust3.prj12" gyldige navn, mens "3part", Jon Jonsen" og "Bus!Partner" ikker er gyldige. Navnet er begrenset til en lengde på {$maxLength} tegn.',
 'iba_NAME_LABEL' => 'Informasjonsgruppe navn',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Kjøring av dynamisk innhold (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Force secure connections',
 'iba_REMOVE_TITLE' => 'Fjerne informasjonsgruppe',
-'iba_REMOVE_DESC' => ' <p> Du er i ferd med å fjerne informasjonsgruppen "{$name}" ({$description}). </p> <p> Alle filer som hører til gruppen vil bli slettet. </p> <p> Er du sikker på at du vil fjerne informasjonsgruppen? </p> ',
+'iba_REMOVE_DESC' => ' <p> Du er i ferd med å fjerne informasjonsgruppen "{$name}" ({$description}). </p>
+
+  <p> Alle filer som hører til gruppen vil bli slettet. </p>
+
+  <p> Er du sikker på at du vil fjerne informasjonsgruppen? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'En feil oppsto under opprettelsen av informasjonsgruppen.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Informasjonsgruppen er opprettet.',
 'iba_NO_IBAYS' => 'Ingen informasjonsgrupper er opprettet.',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Passordene er ikke like.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Passodet er nullstilt.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'En feil oppsto under nulstilling av passordet.',
-'iba_VHOST_MESSAGE' => ' <P>Følgende virituelle domener brukte denne informasjonsgruppens innhold, og de vil bli flyttet til hoved webstedet (du kan endre det til noe annet senere):</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' Følgende virituelle domener brukte denne informasjonsgruppens innhold, og de vil bli flyttet til hoved webstedet (du kan endre det til noe annet senere): {$vhostList} ',
 'iba_Information bays' => 'Informasjonsgrupper',
 'iba_WGRG' => 'Skrive = gruppe, Lese = gruppe',
 'iba_WGRE' => 'Skrive = gruppe, Lese = alle',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'Feil: uventet Feil:uventet eller manglende tegn i informasjonsgruppe beskrivelsen',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Informasjonsgruppens navn "{$acctName}" inneholder ugyldige tegn. Informasjonsgruppenavn må starte med liten bokstav og kun inneholde små bokstaver, tall og bindestreker.',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Informasjonsgruppenavnet "{$name}" er for langt. maksimallengden er {$maxIbayNameLength} tegn.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Kontoen "{$acctName}" er i konflikt med pseudonym detaljene for {$acctType} kontoen "{$acct}". <p>{$acctName} er et pseudonym for {$acct}.</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Kontoen "{$acctName}" er i konflikt med pseudonym detaljene for {$acctType} kontoen "{$acct}". {$acctName} er et pseudonym for {$acct}. ',
 'iba_ACCOUNT_EXISTS' => 'Kontoen "{$acctName}" er en eksisterende {$acctType} konto.',

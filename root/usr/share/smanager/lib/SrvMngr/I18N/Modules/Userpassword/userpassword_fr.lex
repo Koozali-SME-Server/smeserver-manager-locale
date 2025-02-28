@@ -1,5 +1,5 @@
 'pwd_FIELDS_REQUIRED' => 'Tous les champs doivent être saisis',
-'pwd_DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'pwd_DESC_SECTIONBAR' => '  ',
 'pwd_NO_PIPES_ALLOWED' => 'La barre verticale "|" (pipe) n\'est pas autorisée dans ce champ.',
 'pwd_ERROR_BELOW' => 'ERREUR : Une erreur s\'est produite lors de la validation de cette page. Vous trouverez ci-dessous les raisons de ce problème :',
 'pwd_ACCESS' => 'Accès',
@@ -49,5 +49,13 @@
 'pwd_YOUR_ACCOUNT' => 'Votre compte utilisateur:',
 'pwd_YOUR_ACCOUNT_INVALID' => 'Le nom d\'utilisateur que vous avez tapé n\'est pas valide.',
 'pwd_PASSWORD_CHANGE_SUCCESS' => 'Le mot de passe a été modifié avec succès.',
-'pwd_DESCRIPTION' => '<p>Pour modifier le mot de passe de votre compte, remplissez le formulaire suivant. Vous devez taper votre nom d\'utilisateur, votre ancien mot de passe et le nouveau mot de passe souhaité (que vous devrez taper deux fois).</p> <p>Si vous ne pouvez pas modifier votre mot de passe parce que vous avez oublié l\'ancien, l\'administrateur de votre serveur peut le réinitialiser à l\'aide du <em>gestionnaire du serveur</em>.</p> ',
-'pwd_DESCRIPTION_RESET' => '<p>Pour réinitialiser le mot de passe de votre compte, remplissez le formulaire suivant. Vous devez taper le nouveau mot de passe souhaité (que vous devrez taper deux fois).</p> <p>En cas de problème, l\'administrateur de votre serveur peut le réinitialiser à l\'aide du <em>gestionnaire du serveur</em>.</p> ',
+'pwd_DESCRIPTION' => '<p>Pour modifier le mot de passe de votre compte, remplissez le formulaire suivant. Vous devez taper votre nom d\'utilisateur, votre ancien mot de passe et le nouveau mot de passe souhaité (que vous devrez taper deux fois).</p>
+
+  <p>Si vous ne pouvez pas modifier votre mot de passe parce que vous avez oublié l\'ancien, l\'administrateur de votre serveur peut le réinitialiser à l\'aide du <em>gestionnaire du serveur</em>.</p>
+
+  ',
+'pwd_DESCRIPTION_RESET' => '<p>Pour réinitialiser le mot de passe de votre compte, remplissez le formulaire suivant. Vous devez taper le nouveau mot de passe souhaité (que vous devrez taper deux fois).</p>
+
+  <p>En cas de problème, l\'administrateur de votre serveur peut le réinitialiser à l\'aide du <em>gestionnaire du serveur</em>.</p>
+
+  ',

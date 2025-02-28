@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'Levelezés naplófájl analízis',
-'qma_INITIAL_DESC' => ' <P>A levelezőrendszer naplófájljainak vizsgálata segíti nyomon követni a rendszer működését és a kézbesítési problémák felderítését. Számos különböző jelentés készíthető.</P> <P>Vegyefigyelembe, hogy a jelentések generálása több percet is igénybevehet</P> ',
+'qma_INITIAL_DESC' => ' A levelezőrendszer naplófájljainak vizsgálata segíti nyomon követni a rendszer működését és a kézbesítési problémák felderítését. Számos különböző jelentés készíthető. Vegyefigyelembe, hogy a jelentések generálása több percet is igénybevehet ',
 'qma_REPORT_TYPE' => 'Válasszon egy jelentés típust',
 'qma_GENERATE_REPORT' => 'Jelentés generálása',
 'qma_LIST_OUTGOING' => 'Kimenő levelek és címzettek listája',

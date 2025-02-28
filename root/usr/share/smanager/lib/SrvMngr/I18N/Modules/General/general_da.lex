@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Status rapport',
 'ACCOUNT' => 'Konto',
 'GROUP' => 'Gruppe',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Pipe symboler (|) er ikke tilladte i dette felt',
 'ERROR_BELOW' => 'Fejl: Der skete en fejl i forbindelse med kontrol af denne side. Rul venligst ned ad siden for at finde problemet.',
 'ACCESS' => 'Adgang',

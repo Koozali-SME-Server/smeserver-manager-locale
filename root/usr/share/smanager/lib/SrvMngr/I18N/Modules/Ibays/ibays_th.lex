@@ -1,5 +1,9 @@
 'iba_FORM_TITLE' => 'สร้าง แก้ไข หรือลบ i-bay',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&Next=Next&wherenext=CreateModify">เพิ่ม i-bay</a> </p><p> คุณสามารถลบ หรือเปลี่นรหัสผ่าน information bay ใดๆ โดยการคลิ๊กคำสั่งถัดจากรายชื่อของ information bay นั้นๆ ถ้ารายการ information bay ใดเป็นสีแดงแสดงว่ายังไม่ได้เปลี่ยนรหัสผ่านจากค่าปริยายเป็นอย่างอื่น และควารทำการเปลี่ยนให้เร็วที่สุด</p> ',
+'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">เพิ่ม i-bay</a> </p>
+
+  <p> คุณสามารถลบ หรือเปลี่นรหัสผ่าน information bay ใดๆ โดยการคลิ๊กคำสั่งถัดจากรายชื่อของ information bay นั้นๆ ถ้ารายการ information bay ใดเป็นสีแดงแสดงว่ายังไม่ได้เปลี่ยนรหัสผ่านจากค่าปริยายเป็นอย่างอื่น และควารทำการเปลี่ยนให้เร็วที่สุด</p>
+
+  ',
 'iba_ADD_TITLE' => 'สร้างหรือแก้ไข i-bay',
 'iba_NAME_FIELD_DESC' => 'ชื่อ i-bay จะต้องประกอบด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข จุด (.) ขีดล่าง (_) ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรเท่านั้น ตัวอย่างที่ถูกต้อง เช่น "johnson", "intra", และ "cust3.prj12" ส่วนที่ไม่ถูกต้อง เช่น "3associates", "John Smith" และ "Bus!Partner" เป็นต้น ชื่อ i-bay จะมีความยาวได้สูงสุด {$maxLength} ตัวอักษร',
 'iba_NAME_LABEL' => 'ชื่อ information bay',
@@ -9,7 +13,13 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'การประมวลผลเนื้อหาเว็บชนิด dynamic content (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Force secure connections',
 'iba_REMOVE_TITLE' => 'ลบ information bay',
-'iba_REMOVE_DESC' => ' <p>คุณกำลังจะลบ information bay ชื่อ "{$name}" ({$description})</p> <p>ทุกไฟล์ใน information bay นี้จะถูกลบทั้งหมด</p> <p>คุณแน่ใจหรือว่าต้องการจะลบ information นี้? </p> ',
+'iba_REMOVE_DESC' => ' <p>คุณกำลังจะลบ information bay ชื่อ "{$name}" ({$description})</p>
+
+  <p>ทุกไฟล์ใน information bay นี้จะถูกลบทั้งหมด</p>
+
+  <p>คุณแน่ใจหรือว่าต้องการจะลบ information นี้? </p>
+
+  ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'เกิดข้อผิดพลาดขณะสร้าง i-bay',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'สร้าง i-bay เสร็จแล้ว',
 'iba_NO_IBAYS' => 'ไม่มี i-bay ที่กำลังถูกตั้งค่า',
@@ -25,7 +35,7 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'รหัสผ่านไม่ตรงกัน',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'รีเซ็ตรหัสผ่านเรียบร้อย',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'ข้อผิดพลาดขณะกำหนดรหัสผ่านใหม่',
-'iba_VHOST_MESSAGE' => ' <P>โดเมนเสมือน (virtual domain) ที่ตั้งให้ใช้ information bay นี้เป็นที่เก็บข้อมูลของมัน จะถูกเปลี่ยนไปใช้ข้อมูลจาก primary web site แทน (คุณสามารถแก้ไขเป็นอย่างอื่นภายหลังได้) :</P> <ul>{$vhostList}</ul> ',
+'iba_VHOST_MESSAGE' => ' โดเมนเสมือน (virtual domain) ที่ตั้งให้ใช้ information bay นี้เป็นที่เก็บข้อมูลของมัน จะถูกเปลี่ยนไปใช้ข้อมูลจาก primary web site แทน (คุณสามารถแก้ไขเป็นอย่างอื่นภายหลังได้) : {$vhostList} ',
 'iba_Information bays' => 'Information bays',
 'iba_WGRG' => 'เขียน = เฉพาะในกลุ่ม, อ่าน = เฉพาะในกลุ่ม',
 'iba_WGRE' => 'เขียน = เฉพาะในกลุ่ม, อ่าน = ทุกคน',
@@ -39,5 +49,5 @@
 'iba_INVALID_IBAY_DESCRIPTION' => 'ข้อผิดพลาด: ไม่ระบุหรือไม่ได้กรอกรายละเอียดของ i-bay ',
 'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'ชื่อ i-bay "{$acctName}" มีอักขระที่ไม่ถูกต้อง ชื่อ i-bay ต้องต้องเริ่มต้นด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข และเครื่องหมายยัติภังค์ (-) เท่านั้น',
 'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'ชื่อ i-bay "{$acctName}" ยาวเกินไป ความยาวสูงสุดคือไม่เกิน{$maxIbayNameLength} ตัวอักษร',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' ชื่อบั๙ชี "{$acctName}" ชนกันกับนามแฝงของ {$acctType} ของบัญชีที่ชื่อ "{$acct}" <p>ชื่อ {$acctName} ความผิดพลาดที่จะเกิดคือชื่อนี้จะถูกแปลความเป็นนามแฝงของ {$acct} ไป</p> ',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' ชื่อบั๙ชี "{$acctName}" ชนกันกับนามแฝงของ {$acctType} ของบัญชีที่ชื่อ "{$acct}" ชื่อ {$acctName} ความผิดพลาดที่จะเกิดคือชื่อนี้จะถูกแปลความเป็นนามแฝงของ {$acct} ไป ',
 'iba_ACCOUNT_EXISTS' => 'บัญชีชื่อ "{$acctName}" ปรากฏว่าถูกใช้ไปแล้วโดย {$acctType}',

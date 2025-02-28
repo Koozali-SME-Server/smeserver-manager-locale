@@ -25,7 +25,7 @@
 'OPERATION_STATUS_REPORT' => 'Relarório de status de operação',
 'ACCOUNT' => 'Conta',
 'GROUP' => 'Grupo',
-'DESC_SECTIONBAR' => ' <hr class="sectionbar"/> ',
+'DESC_SECTIONBAR' => '  ',
 'NO_PIPES_ALLOWED' => 'Símbolos pipe (|) não são permitidos neste campo',
 'ERROR_BELOW' => 'ERRO: Existiu um erro na validação desta página. Favor rolar para baixo e encontrar o problema específico.',
 'ACCESS' => 'Acesso',

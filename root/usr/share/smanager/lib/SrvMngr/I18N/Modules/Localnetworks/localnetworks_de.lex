@@ -1,8 +1,16 @@
 'ln_LOCAL NETWORKS' => 'Lokale Netzwerke',
 'Local networks' => 'Lokale Netzwerke',
-'ln_FIRSTPAGE_DESC' => ' <p> Aus Sicherheitsgründen sind einige Funktionen auf Ihrem Server nur für das interne Netzwerk verfügbar. Trotzdem können Sie die Zugänge für unten aufgeführte zusätzliche lokale Netzwerksegmente freigeben, indem Sie diese unten aufführen. Bei den meisten Installationen sollten Sie dieses Feld leer lassen. </p> <p> <a class="button-like" href="localnetworks?page=0&page_stack=&Next=Next&wherenext=Add">Netzwerk hinzufügen</a> </p> ',
+'ln_FIRSTPAGE_DESC' => ' <p> Aus Sicherheitsgründen sind einige Funktionen auf Ihrem Server nur für das interne Netzwerk verfügbar. Trotzdem können Sie die Zugänge für unten aufgeführte zusätzliche lokale Netzwerksegmente freigeben, indem Sie diese unten aufführen. Bei den meisten Installationen sollten Sie dieses Feld leer lassen. </p>
+
+  <p> <a class="button-like" href="localnetworks?page=0&page_stack=&next=next&wherenext=add">Netzwerk hinzufügen</a> </p>
+
+  ',
 'ln_ADD_TITLE' => 'Lokales Netzwerk hinzufügen',
-'ln_ADD_DESC' => ' <p> Jeder Parameter muß in Form von #.#.#.# eingegeben werden (wobei jede # eine Zahl zwischen 0 und 255 ist). Die Server-Software wird die letzten Stellen automatisch mit 0 ersetzen (Host Identifier), um mit Hilfe der Subnetz-Maske eine korrekte Netzwerk-Definition zu garantieren. </p> <p> "Router" sollte die IP-Adresse des Routers im lokalen Netzwerk sein, über welchen weitere Netzwerke wie das Internet erreicht werden. </p> ',
+'ln_ADD_DESC' => ' <p> Jeder Parameter muß in Form von #.#.#.# eingegeben werden (wobei jede # eine Zahl zwischen 0 und 255 ist). Die Server-Software wird die letzten Stellen automatisch mit 0 ersetzen (Host Identifier), um mit Hilfe der Subnetz-Maske eine korrekte Netzwerk-Definition zu garantieren. </p>
+
+  <p> "Router" sollte die IP-Adresse des Routers im lokalen Netzwerk sein, über welchen weitere Netzwerke wie das Internet erreicht werden. </p>
+
+  ',
 'ln_NETWORK_ADDRESS' => 'Netzwerk Adresse',
 'ln_SUBNET_MASK' => 'Subnetz-Maske',
 'ln_INVALID_IP_ADDRESS' => 'Ungültige IP-Adresse',
@@ -19,7 +27,13 @@
 'ln_SUCCESS' => 'Netzwerk {$network}/{$networkMask} wurde erfolgreich über den Router {$networkRouter} hinzugefügt.',
 'ln_SUCCESS_SINGLE_ADDRESS' => 'Netzwerk {$network}/{$networkMask}wurde erfolgreich über den Router {$networkRouter} hinzugefügt. Ihr Server stellt den lokalen Zugang für eine einzelne IP-Adresse {$network}zur Verfügung.',
 'ln_SUCCESS_NETWORK_RANGE' => 'Netzwerk {$network}/{$networkMask}wurde erfolgreich über den Router {$networkRouter} hinzugefügt. Ihr Server stellt den lokalen Zugang für {$totalHosts} IP-Adressen von {$firstAddr} bis {$lastAddr} zur Verfügung.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Netzwerk {$network}/{$networkMask} wurde erfolgreich über den Router {$networkRouter} hinzugefügt. </p> <p> Ihr Server stellt den lokalen Zugang für {$totalHosts} in einem IP-Adressbereich von {$firstAddr} bis {$lastAddr} zur Verfügung. </p> <p> Warnung: Der ProFTPd FTP Server kann die nicht standardmäßige Subnetz-Maske nicht verwenden. Die einfachere Angabe <b>{$simpleMask}</b> wird statt dessen benutzt. </p>',
+'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Netzwerk {$network}/{$networkMask} wurde erfolgreich über den Router {$networkRouter} hinzugefügt. </p>
+
+  <p> Ihr Server stellt den lokalen Zugang für {$totalHosts} in einem IP-Adressbereich von {$firstAddr} bis {$lastAddr} zur Verfügung. </p>
+
+  <p> Warnung: Der ProFTPd FTP Server kann die nicht standardmäßige Subnetz-Maske nicht verwenden. Die einfachere Angabe <b>{$simpleMask}</b> wird statt dessen benutzt. </p>
+
+  ',
 'ln_SUCCESS_REMOVED_NETWORK' => 'Netzwerk {$network}/{$networkMask} über den Router {$networkRouter} wurde erfolgreich entfernt.',
 'ln_ERROR_DELETING_NETWORK' => 'Fehler beim Löschen des Netzwerks aufgetreten.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Keine zusätzlichen Netzwerke',
