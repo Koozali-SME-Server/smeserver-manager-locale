@@ -2,7 +2,7 @@ Summary: SME Server Manager localisation module (manager 2)
 %define name smeserver-manager-locale
 Name: %{name}
 %define version 11.0.0
-%define release 5
+%define release 6
 %define package_summary SME Server Manager localisation module
 %define group Applications/System
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
@@ -21,10 +21,14 @@ AutoReqProv: no
 SME Server Manager 2 localisation module (smeserver-manager)
 
 %changelog
+* Tue Mar 04 2025 Brian Read <brianr@koozali.org> 11.0.0-6.sme
+- Fix a few errors in the lex files stopping it compiling [SME: 12900]
+- Add createlinks to provide smeserver-manager-locale-update action so that re-configure/reboot not required
+
 * Fri Feb 28 2025 Brian Read <brianr@koozali.org> 11.0.0-5.sme
-- Remove html from most of the lex lines, except where it is an intial para needing formating [SME: 12900]
+- Remove html from most of the lex lines, except where it is an initial para needing formatting [SME: 12900]
 - Also map embedded vars to mojo lexical parameters
-- Fix link to support page in intial panel.
+- Fix link to support page in initial panel.
 - Make sure all html tags are lowercase
 
 * Tue Jul 23 2024 Brian Read <brianr@koozali.org> 11.0.0-4.sme
@@ -58,13 +62,20 @@ SME Server Manager 2 localisation module (smeserver-manager)
 #do
 #    /sbin/e-smith/validate-lexicon-sm2 $file
 #done
+# Pass the lanuage list to createlinks.
+sed -i 's/___LANGUAGES___/%{package_locales}/' createlinks
+perl createlinks
+
 
 %install
 rm -rf $RPM_BUILD_ROOT
 (cd root   ; find . -not -name "*.po" -depth -print | cpio -dump $RPM_BUILD_ROOT)
 
-/sbin/e-smith/genfilelist $RPM_BUILD_ROOT | grep -v pofiles \
+/sbin/e-smith/genfilelist $RPM_BUILD_ROOT \
+	| grep -v pofiles \
+	| grep -v "*.\.pm" \
     > %{name}-%{version}-%{release}-filelist
+
 
 for locale in %{package_locales}
 do
@@ -72,6 +83,10 @@ do
 	%{name}-%{version}-%{release}-filelist-$locale
     grep -e "_$locale.lex" -e "_$(echo $locale | tr '[:upper:]_' '[:lower:]-').lex" \
          %{name}-%{version}-%{release}-filelist >> %{name}-%{version}-%{release}-filelist-$locale
+    grep -e "\-locale\-$locale\-update" \
+         %{name}-%{version}-%{release}-filelist >> %{name}-%{version}-%{release}-filelist-$locale
+    
+	cat  %{name}-%{version}-%{release}-filelist-$locale
 done
 
 %clean 

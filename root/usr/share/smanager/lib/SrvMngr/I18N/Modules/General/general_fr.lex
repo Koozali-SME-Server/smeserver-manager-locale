@@ -1,4 +1,5 @@
-_AUTO => '1,  YES => 'Oui',
+_AUTO => '1',
+YES => 'Oui',
 NO => 'Non',
 edit => 'Modifier',
 del => 'Effacer',

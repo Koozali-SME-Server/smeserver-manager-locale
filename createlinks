@@ -1,0 +1,28 @@
+#!/usr/bin/perl -w
+ 
+use esmith::Build::CreateLinks qw(:all);
+use esmith::Build::Backup qw(:all);
+
+#--------------------------------------------------
+# functions for manager-locale
+#--------------------------------------------------
+my $mngrdir = '/usr/share/smanager';
+my @languages = qw(___LANGUAGES___); #Editted in by the spec file.
+
+foreach $lang (@languages){
+	$event = "smeserver-manager-locale-$lang-update";
+
+	# Services to restart
+	safe_symlink("restart",
+		"root/etc/e-smith/events/$event/services2adjust/smanager");
+	safe_symlink("reload",
+		"root/etc/e-smith/events/$event/services2adjust/httpd-e-smith");
+
+	# actions to perform
+	event_link('navigation2-conf', "$event", '80');
+	event_link('routes2-conf', "$event", '80');
+	event_link('locales2-conf', "$event", '80');
+
+	event_link('systemd-default', $event, '88');
+	event_link('systemd-reload', $event, '89');
+}
