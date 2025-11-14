@@ -35,3 +35,4 @@
 'yum_LABEL_YUM_DELTARPM' => 'En forskels RPM indeholder forskellen mellem en gammel og en ny version af en RPM, hvilket sparer båndbredde. Ulempen er, at selve opdateringen kræver betragteligt mere CPU ressourcer',
 'yum_LABEL_YUM_DOWNLOADONLY' => 'Download opdateringer på forhånd',
 'yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION' => 'RPM opdateringer kan downloades om natten, det vil lette og speede YUM opdateringer op (der vil kun blive anvendt aktiverede repositories).',
+'yum_Please_Wait_-_dnf_Running' => 'Please Wait-dnf Running',

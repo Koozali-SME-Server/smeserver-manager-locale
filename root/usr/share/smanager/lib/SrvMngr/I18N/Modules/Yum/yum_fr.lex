@@ -43,3 +43,4 @@
 'yum_TITLE_UPTODATE' => 'Ce système est à jour.',
 'yum_TITLE_UPDATES_AVAILABLE' => 'Des mises à jour sont disponibles',
 'yum_BUTTON_INSTALL_UPDATES' => 'Lister les mises à jour disponibles',
+'yum_Please_Wait_-_dnf_Running' => 'Please Wait-dnf Running',

@@ -34,4 +34,5 @@
 'yum_LABEL_YUM_DELTARPMPROCESS' => 'Delta Rpm Update',
 'yum_LABEL_YUM_DELTARPM' => 'A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles',
 'yum_LABEL_YUM_DOWNLOADONLY' => 'Detalles personales actualizados',
-'yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION' => 'The rpm updates can be downloaded during the night, this will ease and give faster the yum update process (only enabled repositories will be used).',
+'yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION' => 'The rpm updates can be downloaded during the night, this will ease and make the dnf  update process (only enabled repositories will be used).',
+'yum_Please_Wait_-_dnf_Running' => 'Please Wait-dnf Running',

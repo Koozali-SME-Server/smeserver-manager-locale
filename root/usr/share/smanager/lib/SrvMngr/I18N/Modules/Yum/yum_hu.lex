@@ -35,3 +35,4 @@
 'yum_LABEL_YUM_DELTARPM' => 'A deltarpm egy régi és egy új rpm csomag közötti különbséget tárol, amellyell sávszélességet lehet megtakarítani. A hátránya, hogy a frissítési műveletek jelentősen több CPU erőforrást igényelnek',
 'yum_LABEL_YUM_DOWNLOADONLY' => 'Frissítések előtöltése',
 'yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION' => 'Az rpm frissítések letölthetők az éjszaka folyamán is ezzel könnyítve és gyorsítva az rpm frissítő folyamatot (csak az engedélyezett csomagtárolók lesznek használva)',
+'yum_Please_Wait_-_dnf_Running' => 'Please Wait-dnf Running',

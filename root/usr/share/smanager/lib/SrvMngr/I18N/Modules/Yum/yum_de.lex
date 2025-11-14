@@ -35,3 +35,4 @@
 'yum_LABEL_YUM_DELTARPM' => 'Ein Delta RPM enthält die Differenz zwischen einer alten und einer neuen RPM Version, was Bandbreite sparen kann. Der Nachteil ist, daß die Updatedurchführung erheblich mehr CPU Zyklen benötigt',
 'yum_LABEL_YUM_DOWNLOADONLY' => 'Updates vorab herunterladen',
 'yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION' => 'Die RPM Updates können nachts heruntergeladen werden, was den Yum Updateprozeß vereinfacht und beschleunigt (nur aktivierte Repositories werden benutzt).',
+'yum_Please_Wait_-_dnf_Running' => 'Please Wait-dnf Running',
