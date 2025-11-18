@@ -2,7 +2,7 @@ Summary: SME Server Manager localisation module (manager 2)
 %define name smeserver-manager-locale
 Name: %{name}
 %define version 11.0.0
-%define release 8
+%define release 9
 %define package_summary SME Server Manager localisation module
 %define group Applications/System
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
@@ -21,6 +21,9 @@ AutoReqProv: no
 SME Server Manager 2 localisation module (smeserver-manager)
 
 %changelog
+* Tue Nov 18 2025 Brian Read <brianr@koozali.org> 11.0.0-9.sme
+- Add fr lex for email settings [SME: 13307]
+
 * Tue Nov 11 2025 Brian Read <brianr@koozali.org> 11.0.0-8.sme
 - Edited yum from yum panel lex files (now dnf) and added 'dnf running' lex entry  [SME: 13283]
 

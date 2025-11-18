@@ -88,3 +88,5 @@
 'mai_LABEL_SMARTHOST_SMTPAUTH_USERID' => 'Compte de messagerie',
 'mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD' => 'Mot de passe de messagerie',
 'mai_VALIDATION_SMTPAUTH_NONBLANK' => 'Ce champ ne peut pas être laissé vide si l\'authentification SMTP est activée.',
+'mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT' => 'Port du serveur de messagerie du FAI (ISP)',
+'mai_DESC_PEERPORT' => 'Habituellement 25, 587 ou 467. Si laissé vide, la valeur part défaut 25 sera utilisée.',
