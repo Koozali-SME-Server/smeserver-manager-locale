@@ -9,7 +9,7 @@
 
   <p> b) Se siete una azienda o un integratore di servizi e distribuite/installate SME per la vostra attività per generare profitto, siete invitati a fare una donazione commisurata al livello di guadagno prodotto ed al numero di server installati. Aiutate il progetto </p>
 
-  <br> <p> <a href="https://wiki.koozali.org/donate" target="_blank"> <img src="/server-common/btn_donatecc_lg.gif" alt="https://wiki.koozali.org/donate" align="middle"></a> </p>
+  <br> <p> <a href="https://wiki.koozali.org/donate" target="_blank"> <img src="images/btn_donateCC_LG.gif" alt="https://wiki.koozali.org/donate" align="middle"></a> </p>
 
   <br> <p> Il software viene distribuito SENZA ALCUNA GARANZIA. Consultate <a href="/smanager/support" target="main">click here</a> per informazioni complete su assistenza, garanzia e licenza. </p>
 

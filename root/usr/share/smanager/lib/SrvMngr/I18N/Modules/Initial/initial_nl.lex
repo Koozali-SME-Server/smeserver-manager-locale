@@ -9,7 +9,7 @@
 
   <p> b) Bent u een bedrijf of een integrator welke SME implementeert ten behoeve van uw werk voor het genereren van inkomsten, dan verwachten wij een donatie evenredig met de hoeveelheid winst die u hiermee maakt en het aantal servers welke u in gebruik heeft. Alstublieft, help het project </p>
 
-  <br> <p> <a href="https://wiki.koozali.org/donate" target="_blank"> <img src="/server-common/btn_donatecc_lg.gif" alt="https://wiki.koozali.org/donate" align="middle"></a> </p>
+  <br> <p> <a href="https://wiki.koozali.org/donate" target="_blank"> <img src="images/btn_donateCC_LG.gif" alt="https://wiki.koozali.org/donate" align="middle"></a> </p>
 
   <br> <p> Deze software komt met ABSOLUUT GEEN GARANTIE. <a href="/smanager/support" target="main">Klik hier</a> voor een gedetailleerd rapport, garantie- en licentie informatie. </p>
 

@@ -9,7 +9,7 @@
 
   <p> b) If you are a company or an integrator and you are deploying SME in the course of your work to generate revenue, we expect you to make a donation commensurate with the level of revenue you generate and the number of servers your have in the field. Please, help the project </p>
 
-  <br> <p> <a href="https://wiki.koozali.org/donate" target="_blank"> <img src="/server-common/btn_donatecc_lg.gif" alt="https://wiki.koozali.org/donate" align="middle"></a> </p>
+  <br> <p> <a href="https://wiki.koozali.org/donate" target="_blank"> <img src="images/btn_donateCC_LG.gif" alt="https://wiki.koozali.org/donate" align="middle"></a> </p>
 
   <br> <p> This software comes with ABSOLUTELY NO WARRANTY. Please <a href="/smanager/support" target="main">click here</a> to view detailed support, warranty and licensing information. </p>
 

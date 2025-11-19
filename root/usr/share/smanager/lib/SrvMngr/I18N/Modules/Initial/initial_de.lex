@@ -9,7 +9,7 @@
 
   <p> b) Wenn Sie ein Unternehmen sind oderim Rahmen Ihrer Tätigkeit Gewinne erzielen, erwarten wir von Ihnen eine angemessene Spende im Einklang mit der Höhe Ihrer Gewinne und der Anzahl der eingesetzten Server. Bitte besuchen Sie für eine Spende </p>
 
-  <br> <p> <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\"> <img src=\"/server-common/btn_donatecc_lg.gif\" alt=\"https://wiki.koozali.org/donate\" align=\"middle\"> </a> </p>
+  <br> <p> <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\"> <img src=\"images/btn_donateCC_LG.gif\" alt=\"https://wiki.koozali.org/donate\" align=\"middle\"> </a> </p>
 
   <br> <p> Diese Software wird ABSOLUT OHNE GARANTIE zur Verfügung gestellt. Bitte schauen Sie sich <a href=\"/server-manager/support/\" target=\"main\">hier</a> die ausführlichen Informationen zu Support, Garantie und Lizenzen an. </p>
 
