@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'Die eingegebene MAC-Adresse ist unzulässig.',
 'FM_ERR_UNEXPECTED_DESC' => 'Fehler: Unzulässige oder fehlende Zeichen in der Beschreibung',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'Thema',

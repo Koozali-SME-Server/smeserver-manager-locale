@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'Η MAC διεύθυνση που δώσατε δεν είναι έγκυρη.',
 'FM_ERR_UNEXPECTED_DESC' => 'Σφάλμα: μη αναμενόμενοι ή ελλείποντες χαρακτήρες στην περιγραφή',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'Θέμα',

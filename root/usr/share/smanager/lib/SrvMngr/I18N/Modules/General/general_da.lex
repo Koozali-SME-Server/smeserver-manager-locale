@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'Den indtastede MAC adresse er ikke gyldig.',
 'FM_ERR_UNEXPECTED_DESC' => 'Fejl: Uventede eller manglende tegn i beskrivelsen',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'Tema',

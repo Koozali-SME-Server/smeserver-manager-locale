@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'Het MAC adres dat u opgaf is niet geldig.',
 'FM_ERR_UNEXPECTED_DESC' => 'Fout: onverwachte of ontbrekende tekens in de beschrijving',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'Thema',

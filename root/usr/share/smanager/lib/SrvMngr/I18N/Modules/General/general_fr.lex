@@ -148,4 +148,4 @@ CSRF_VALIDATION_FAILURE => 'Erreur: le jeton CSRF est invalide ou expiré.',
 'info_past_EOL' => 'AVIS URGENT : Depuis le 31 mai 2029, SME Server 11 est obsolète et potentiellement NON SÉCURISÉ. AUCUN support ne sera offert pour tout problème rencontré avec cette version installée.
         Veuillez migrer IMMÉDIATEMENT vers Koozali SME Server 12 ou une version ultérieure. Le fait de ne pas mettre à niveau peut entraîner la compromission de ce serveur.
         </br>Veuillez consulter <a href="https://wiki.koozali.org/SME_Server:Download" target="_blank">https://wiki.koozali.org/SME_Server:Download</a> pour obtenir la dernière version',
-'swt_THEME' => 'Thème',
+'swt_THEME'=>'Thème',

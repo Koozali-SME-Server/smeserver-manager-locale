@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'Недействительный MAC адрес.',
 'FM_ERR_UNEXPECTED_DESC' => 'Ошибка: непредвиденные или отсутствующие символы в описании',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'Тема',

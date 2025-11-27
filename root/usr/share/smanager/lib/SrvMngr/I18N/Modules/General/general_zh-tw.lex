@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => '您提供的MAC位址無效。',
 'FM_ERR_UNEXPECTED_DESC' => '錯誤：描述中涵蓋未知字元或遺失字元。',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'主題',

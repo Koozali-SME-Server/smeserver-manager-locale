@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'Il Mac-Address fornito non è valido.',
 'FM_ERR_UNEXPECTED_DESC' => 'Errore: carattere mancante o inaspettato nella descrizione.',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'Tema',

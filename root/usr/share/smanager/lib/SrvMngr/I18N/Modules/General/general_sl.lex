@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'Vnesli ste neveljaven MAC naslov.',
 'FM_ERR_UNEXPECTED_DESC' => 'Napaka: v opisu je nepricakovan ali manjkajoci znak',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'Tema',

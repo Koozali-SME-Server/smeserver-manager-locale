@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'Sisestatud MAC aadress ei sobi.',
 'FM_ERR_UNEXPECTED_DESC' => 'Viga: sobimatu või puuduv sümbol kirjelduses',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'Teema',

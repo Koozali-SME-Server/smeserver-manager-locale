@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'MAC address ที่ระบุไม่ถูกต้อง',
 'FM_ERR_UNEXPECTED_DESC' => 'ข้อผิดพลาด: ไม่ได้กรอกรายละเอียด',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'ธีม',

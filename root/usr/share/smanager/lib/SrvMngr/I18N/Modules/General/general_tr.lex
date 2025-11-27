@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'Tanımladığınız MAC adresi geçerli değildir.',
 'FM_ERR_UNEXPECTED_DESC' => 'Hata: açıklama geçersiz karakter içeriyor',
 'CSRF_VALIDATION_FAILURE' => 'Error: CSRF token is invalid or outdated.',
+'swt_THEME'=>'Tema',

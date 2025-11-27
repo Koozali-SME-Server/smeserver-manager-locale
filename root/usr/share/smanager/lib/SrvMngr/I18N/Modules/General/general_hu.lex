@@ -127,3 +127,4 @@
 'FM_MAC_ADDRESS2' => 'A megadott MAC cím érvénytelen volt.',
 'FM_ERR_UNEXPECTED_DESC' => 'Hiba: Érvénytelen, vagy hiányzó karakterek a leírásban',
 'CSRF_VALIDATION_FAILURE' => 'Hiba: a CSRF token érvénytelen vagy lejárt',
+'swt_THEME'=>'Téma',
