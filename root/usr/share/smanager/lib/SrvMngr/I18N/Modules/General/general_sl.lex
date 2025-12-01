@@ -140,5 +140,5 @@
 'Investigation' => 'Preiskava',
 'NutUPS configuration' => 'NutUPS konfiguracija',
 'Samba Workgroup' => 'Delovna skupina Samba',
-'Letsencrypt certificate' => 'Potrdilo Let's Encrypt',
+'Letsencrypt certificate' => 'Potrdilo Letsencrypt',
 'Legacy' => 'Zapisi',
