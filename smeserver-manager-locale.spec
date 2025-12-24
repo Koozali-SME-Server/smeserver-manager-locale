@@ -2,7 +2,7 @@ Summary: SME Server Manager localisation module (manager 2)
 %define name smeserver-manager-locale
 Name: %{name}
 %define version 11.0.0
-%define release 15
+%define release 16
 %define package_summary SME Server Manager localisation module
 %define group Applications/System
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
@@ -21,6 +21,9 @@ AutoReqProv: no
 SME Server Manager 2 localisation module (smeserver-manager)
 
 %changelog
+* Mon Dec 22 2025 Brian Read <brianr@koozali.org> 11.0.0-16.sme
+- Audit and add translation for single words in general lex for all languages [SME: 12950]
+
 * Mon Dec 01 2025 Brian Read <brianr@koozali.org> 11.0.0-15.sme
 - Fix unexpected apostrohe in menu string  [SME: 13361]
 
