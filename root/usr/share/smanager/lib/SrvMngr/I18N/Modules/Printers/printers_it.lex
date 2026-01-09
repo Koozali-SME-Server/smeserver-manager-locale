@@ -1,5 +1,5 @@
 'prt_FORM_TITLE' => 'Aggiungi o rimuovi stampanti',
-'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Aggiungi stampante</a></p>
+'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Aggiungi stampante</a>
 
   ',
 'prt_NO_PRINTERS' => 'Non ci sono stampanti nel sistema.',
@@ -15,7 +15,7 @@
 'prt_NET_PRINTER' => 'Stampante di rete ...',
 'prt_FIRST_USB_PRINTER' => 'Prima stampante USB',
 'prt_SECOND_USB_PRINTER' => 'Seconda stampante USB',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>Errore: carattere inaspettato nel nome stampante.</p>
+'prt_ERR_UNEXPECTED_NAME' => ' Errore: carattere inaspettato nel nome stampante.
 
   <p>Il nome della stampante può contenere soltanto lettere minuscole e numeri e deve iniziare con una lettera minuscola. Per esempio "hplaser", "epsonlp" e "canonbj" sono nomi validi.</p>
 
@@ -40,3 +40,4 @@
 'prt_DELETED_SUCCESSFULLY' => 'Stampante rimossa con successo:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Deve essere un nome host valido o un indirizzo IP',
 'Printers' => 'Stampanti',
+'prt_INITIAL_BTN' => 'Aggiungi stampante',

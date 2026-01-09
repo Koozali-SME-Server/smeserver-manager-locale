@@ -1,6 +1,6 @@
 'quo_FORM_TITLE' => 'Crează, modifică sau sterge quota utilizatorilor',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Nu s-a putut deschide baza de conturi',
-'quo_QUOTA_DESC' => ' <p>Puteți seta quota de disk pentru utilizatori apăsând butonul "Modifică" de lângă utilizatorul dorit. <p>Dacă utilizatorul depășeste "Limita cu perioadă de grație", un avertisment va fi generat. Dacă limita este incălcată pentru o perioadă mai mare de o săptamână sau dacă se atinge "Limita absolută", utilizatorul nu va mai putea salva alte fișiere sau să primeasca alte emailuri. <p>Setarea \'0\' pentru ambele limite dezactiveaza limitele utilizatorului. <p>Spațiul utilizat de utilizator include directorul home al lui, emailurile și toate fișierele deținute în ibay-uri.. ',
+'quo_QUOTA_DESC' => ' Puteți seta quota de disk pentru utilizatori apăsând butonul "Modifică" de lângă utilizatorul dorit. Dacă utilizatorul depășeste "Limita cu perioadă de grație", un avertisment va fi generat. Dacă limita este incălcată pentru o perioadă mai mare de o săptamână sau dacă se atinge "Limita absolută", utilizatorul nu va mai putea salva alte fișiere sau să primeasca alte emailuri. Setarea \'0\' pentru ambele limite dezactiveaza limitele utilizatorului. Spațiul utilizat de utilizator include directorul home al lui, emailurile și toate fișierele deținute în ibay-uri.. ',
 'quo_CURRENT_USAGE_AND_SETTINGS' => 'Utilizare actuală quota și setări',
 'quo_LIMIT_WITH_GRACE' => 'Limitare cu perioadă de grație',
 'quo_LIMIT_WITH_GRACE_MB' => 'Limitare cu perioadă de grație (MB)',

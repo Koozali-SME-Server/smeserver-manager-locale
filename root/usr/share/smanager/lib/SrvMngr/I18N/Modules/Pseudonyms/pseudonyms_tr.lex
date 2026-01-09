@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Takma ad sil',
 'pse_ABOUT_TO_REMOVE' => ' Takma adı silmek üzeresiniz: Devam etmek istediğinizden eminmisiniz? ',
 'pse_FORM_TITLE' => 'Takma ad oluştur, değiştir veya sil',
-'pse_DESCRIPTION' => ' <p>Sunucu her kullanıcı gurubu için otomatik olarak e-posta takma adı oluşturur. Kullanıcı listesi için e-posta tanımlamak için, yeni bir grup oluşturun sunucunuz mevcut listeyı koruyacaktır.</p>
+'pse_DESCRIPTION' => ' Sunucu her kullanıcı gurubu için otomatik olarak e-posta takma adı oluşturur. Kullanıcı listesi için e-posta tanımlamak için, yeni bir grup oluşturun sunucunuz mevcut listeyı koruyacaktır.
 
   <p>Mevcut kullanıcı ve gruplar için takma adlar tanımlanabilir. Örneğin, web tasrımcılarınız için "webmaster" adında takma ad tanımlamak isteyebilirsiniz veya"joseph" isimli kullanıcı için "joe" takma adını tanımlayabilirsiniz.</p>
 

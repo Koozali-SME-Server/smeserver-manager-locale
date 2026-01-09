@@ -1,7 +1,7 @@
 'bac_BACKUP_TITLE' => 'Backup o ripristino dei dati del server',
 'bac_BACKUP_DESC' => '<p>Il server fornisce due sistemi di backup e ripristino dei dati: il desktop locale o un\'unità a nastro.</p>
 
-  <p>Il primo metodo crea una copia della configurazione e dei dati degli utenti e lo invia al desktop locale attraverso il browser. In questo momento, configurazione e dati occupano approssimativamente <b>[_3]</b>. Il file di backup avrà dimensioni inferiori per merito della compressione. L\'opzione \"Verifica desktop backup\" può essere utilizzata per verificare l\'integrità del file di backup.</p>
+  <p>Il primo metodo crea una copia della configurazione e dei dati degli utenti e lo invia al desktop locale attraverso il browser. In questo momento, configurazione e dati occupano approssimativamente <b>[_3]</b>. Il file di backup avrà dimensioni inferiori per merito della compressione. L\'opzione \\"Verifica desktop backup\\" può essere utilizzata per verificare l\'integrità del file di backup.</p>
 
   <p>Il backup su nastro utilizza un software chiamato <i>[_1]</i> per copiare l\'intero disco fisso su nastro ogni notte. Questa opzione richiede un\'unità nastro supportata e un nastro non protetto da scrittura. Il backup viene effettuato automaticamente all\'ora selezionata ogni notte (durante il giorno l\'amministratore riceve una email con un promemoria per l\'inserimento del nastro). Attualmente il disco fisso contiene <b>[_2]</b> di dati.</p>
 
@@ -111,7 +111,7 @@
 'bac_SERVER_REBOOT' => 'Riavvio Server',
 'bac_SERVER_WILL_REBOOT' => 'Il server ora si riavvierà.',
 'bac_NO_UID_FOR_NAME' => 'Impossibile ottenere l\'uid per l\'utente:',
-'bac_PAGE_REFRESH_IN' => ' Aggiornamento automatico ogni {$sec} secondi, o fare clic qui. ',
+'bac_PAGE_REFRESH_IN' => ' Aggiornamento automatico ogni [_1] secondi, o fare clic qui. ',
 'Backup or restore' => 'Backup o ripristino',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Il server ha una quantità di dati superiore alla capacità del backup su desktop.',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' I backup su workstation sono disabilitati. ',
@@ -226,3 +226,7 @@
 'bac_local removable disk' => 'Disco rimovibile locale',
 'bac_Mounted disk' => 'Disco montato',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'I parametri son ostati salvati ma l\'host remoto non è raggiungibile; controllare le impostazioni.',
+'bac_No suitable local devices found' => 'Nessun dispositivo locale adatto trovato',
+'bac_TAPE_BACKUPS' => 'I backup su nastro sono',
+'bac_WORKSTN_BACKUPS' => 'I backup delle workstation sono',
+'bac_ERR_EXTRACT' => 'Errore durante l\'estrazione con Dar',

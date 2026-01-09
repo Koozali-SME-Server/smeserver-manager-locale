@@ -7,3 +7,4 @@
 'clm_NEVER' => 'Mitte kunagi',
 'clm_DAILY' => 'Päevas',
 'clm_SUCCESS' => 'Uued antiviiruse seadistused salvestatud.',
+'clm_Antivirus (ClamAV)' => 'Viirusetõrje (ClamAV)',

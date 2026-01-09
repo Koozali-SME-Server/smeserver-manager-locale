@@ -1,5 +1,5 @@
 'prt_FORM_TITLE' => 'Tambah atau hapus printer',
-'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Tambah pinter</a></p>
+'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Tambah pinter</a>
 
   ',
 'prt_NO_PRINTERS' => 'Tidak ada printer dalam sistem',
@@ -15,7 +15,7 @@
 'prt_NET_PRINTER' => 'Printer jaringan ...',
 'prt_FIRST_USB_PRINTER' => 'Printer terpasang pada USB pertama',
 'prt_SECOND_USB_PRINTER' => 'Printer terpasang pada USB kedua',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>Error: terdapat karakter yang tidak dibolehkan pada nama printer.</p>
+'prt_ERR_UNEXPECTED_NAME' => ' Error: terdapat karakter yang tidak dibolehkan pada nama printer.
 
   <p>Nama printer hanya boleh terdiri dari huruf kecil dan angka, dan harus dimulai dengan huruf kecil. contoh "hplaser", "epsonlp", and "canonbj" adalah nama yang valid.</p>
 
@@ -40,3 +40,5 @@
 'prt_DELETED_SUCCESSFULLY' => 'Berhasil menghapus printer:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Harus hostname atau alamat IP yang valid',
 'prt_Printers' => 'Printer-printer',
+'prt_INITIAL_BTN' => 'Tambahkan printer',
+'Printers' => 'Printer',

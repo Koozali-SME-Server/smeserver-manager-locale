@@ -1,41 +1,41 @@
 'iba_FORM_TITLE' => 'i-bay oluştur, değiştir veya kaldır',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">i-bay ekle</a> </p>
+'iba_FIRSTPAGE_DESC' => '  i-bay ekle 
 
-  <p> Herhangi bir i-bay\'ı silmek için, o i-bayın sonundaki komutları seçmelisiniz. Eğer i-bay kırmızı renkte gösteriliyorsa, standart şifre değerinin değiştirilmediğini göstermektedir, en yakın zamanda şifrenin değiştirilmesi gerekmektedir. </p>
+   Herhangi bir i-bay\'ı silmek için, o i-bayın sonundaki komutları seçmelisiniz. Eğer i-bay kırmızı renkte gösteriliyorsa, standart şifre değerinin değiştirilmediğini göstermektedir, en yakın zamanda şifrenin değiştirilmesi gerekmektedir. 
 
   ',
 'iba_ADD_TITLE' => 'i-bay oluştur veya değiştir',
-'iba_NAME_FIELD_DESC' => 'i-bay adı sadece küçük harfer, rakamlar, tire altçizgi ve nokta içermelidir, sadece üçük harfle başlamalıdır. Örneğin "johnson", "intra" ve "cust3.prj12" geçerli, fakat "3associates", "John Smith" and "Bus!Partner" geçersizdir. İsimler en fazla {$maxLength} karakterden oluşmaktadır.',
+'iba_NAME_FIELD_DESC' => 'i-bay adı sadece küçük harfer, rakamlar, tire altçizgi ve nokta içermelidir, sadece üçük harfle başlamalıdır. Örneğin "johnson", "intra" ve "cust3.prj12" geçerli, fakat "3associates", "John Smith" and "Bus!Partner" geçersizdir. İsimler en fazla [_1] karakterden oluşmaktadır.',
 'iba_NAME_LABEL' => 'i-bay (bilgi yuvası) adı',
 'iba_USER_ACCESS' => 'Kullanıcı, erişim dosya paylaşımı veya ftp üzerinden yapılabilir',
 'iba_PUBLIC_ACCESS' => 'web veya anonim ftp yoluyla kamu erişimi',
 'iba_PUBLIC_ACCESS_DESCRIPTION' => 'Genel erişim modu "yerel ağ dışında şifre gerekir" FTP sunucusu bileşeni tarafından desteklenmemektedir şifre gereklidir. Bu modu seçerseniz, FTP sunucusuna parola gerek içeriden ve dışarıdan bu i-bay\'a erişebilirsiniz.',
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Dinamik içerik yürütmesi (CGI, PHP, SSI)',
-'iba_HTTPS_Only' => 'Force secure connections',
+'iba_HTTPS_Only' => 'Güvenli bağlantıları zorunlu kıl',
 'iba_REMOVE_TITLE' => 'i-bay kaldır',
-'iba_REMOVE_DESC' => ' <p> "{$name}" ({$description}) isimli i-bay kaldırılacak. </p>
+'iba_REMOVE_DESC' => '  "[_1]" ([_2]) isimli i-bay kaldırılacak. 
 
-  <p> bu i-baydaki bütün bilgiler silinecektir. </p>
+   bu i-baydaki bütün bilgiler silinecektir. 
 
-  <p> Bu i-bay\'ı silmek istediğinizden eminmisiniz? </p>
+   Bu i-bay\'ı silmek istediğinizden eminmisiniz? 
 
   ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'i-bay oluşturulurken hata meydana geldi.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'i-bay başarıyla oluşturuldu.',
 'iba_NO_IBAYS' => 'Yapılandırılmış i-bay yok.',
-'iba_CANT_FIND_IBAY' => '{$name} hesabı bulunamadı (mevcut mu kontrol edin)',
-'iba_CANT_CREATE_IBAY' => '{$name} hesabı oluşturulamadı (mevcut olabilir)',
+'iba_CANT_FIND_IBAY' => '[_1] hesabı bulunamadı (mevcut mu kontrol edin)',
+'iba_CANT_CREATE_IBAY' => '[_1] hesabı oluşturulamadı (mevcut olabilir)',
 'iba_ERROR_WHILE_MODIFYING_IBAY' => 'i-bay yapılandırılırken hata oluştu.',
 'iba_SUCCESSFULLY_MODIFIED_IBAY' => 'i-bay başarıyla yapılandırıldı.',
 'iba_VIRTUAL_HOST_MESSAGE' => 'Bazı alan adları bu i-bay\'ı kullanıyor, silindiğinde bunu kullanan alan adları birincil i-bay\'a bağlanacaktır (daha sonra onları istediğiniz başka birine bağlayabilirsiniz).',
 'iba_SUCCESSFULLY_DELETED_IBAY' => 'i-bay başarıyla silindi.',
 'iba_ERROR_WHILE_DELETING_IBAY' => 'i-bay silinirken hata oluştu.',
-'iba_PASSWORD_DESC' => '{$name} isimli i-bay şifresi başarıyla değiştirildi.',
+'iba_PASSWORD_DESC' => '[_1] isimli i-bay şifresi başarıyla değiştirildi.',
 'iba_IBAY_PASSWD_VALIDATION_ERROR' => 'Şifre sadece harfler ve rakamlardan oluşmalıdır.',
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Şifreler eşleşmedi.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Şifre başarıyla resetlendi.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Şifre resetlenirken hata oluştu.',
-'iba_VHOST_MESSAGE' => ' Aşaığdaki alan adları bu i-bay\'ı kullanmaktadır ve içeriği birincil i-bay\'a taşınacaktır (daha sonra bunları değiştirebilirsiniz): {$vhostList} ',
+'iba_VHOST_MESSAGE' => ' Aşaığdaki alan adları bu i-bay\'ı kullanmaktadır ve içeriği birincil i-bay\'a taşınacaktır (daha sonra bunları değiştirebilirsiniz): [_1] ',
 'iba_Information bays' => 'i-bay (bilgi yuvaları)',
 'iba_WGRG' => 'Yazma = grup, Okuma = grup',
 'iba_WGRE' => 'Yazma = grup, Okuma = herkes',
@@ -47,7 +47,18 @@
 'iba_ENTIRE_INTERNET_PASSWORD' => 'Bütün internet (şifre grekir)',
 'iba_ENTIRE_INTERNET_PASSWORD_REMOTE' => 'Bütün internet (yerel ağ hariçi şifre gerekir)',
 'iba_INVALID_IBAY_DESCRIPTION' => 'Hata: i-bay açıklamasında geçersiz karakter bulunuyor',
-'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'i-bay adı "{$acctName}" geçersiz karakter içeriyor. i-bay isimleri küçük harf veya rakalma başlamalı ve küçük harf, rakam ve nokta içerebilir.',
-'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'i-bay adı "{$name}" çok uzun. En fazla {$maxIbayNameLength} karakterden oluşmalıdır.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' "{$acctName}" hesabı, {$acctType} hesap çeşidi "{$acct}" takma adıyla çakışıyor . {$acctName}, {$acct} nın takma adıdır. ',
-'iba_ACCOUNT_EXISTS' => '{$acctName}" hesabı {$acctType} hesabıyla çeşidindedir.',
+'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'i-bay adı "[_1]" geçersiz karakter içeriyor. i-bay isimleri küçük harf veya rakalma başlamalı ve küçük harf, rakam ve nokta içerebilir.',
+'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'i-bay adı "[_1]" çok uzun. En fazla [_1] karakterden oluşmalıdır.',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' "[_1]" hesabı, [_2] hesap çeşidi "[_3]" takma adıyla çakışıyor . [_1], [_3] nın takma adıdır. ',
+'iba_ACCOUNT_EXISTS' => '[_1]" hesabı [_2] hesabıyla çeşidindedir.',
+'iba_ADD_IBAY' => 'i-bay ekle',
+'WGRG' => '(en)Write = group, Read = group',
+'WGRE' => '(en)Write = group, Read = everyone',
+'WARG' => '(en)Write = admin, Read = group',
+'NONE' => 'Erişim yok',
+'LOCAL_NETWORK_NO_PASSWORD' => 'Yerel ağ (parola gerekmez)',
+'LOCAL_NETWORK_PASSWORD' => 'Yerel ağ (parola gerekli)',
+'ENTIRE_INTERNET_NO_PASSWORD' => 'Tüm İnternet (parola gerekmez)',
+'ENTIRE_INTERNET_PASSWORD' => 'Tüm İnternet (parola gerekli)',
+'ENTIRE_INTERNET_PASSWORD_REMOTE' => '(en)Entire Internet (password required outside local network)',
+'INVALID_IBAY_DESCRIPTION' => '(en)Error: unexpected or missing characters in i-bay description',

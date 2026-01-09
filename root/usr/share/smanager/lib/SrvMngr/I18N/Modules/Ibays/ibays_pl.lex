@@ -1,11 +1,11 @@
 'iba_FORM_TITLE' => 'Utwórz, modyfikuj lub usuń magazyn',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Dodaj magazyn</a> </p>
+'iba_FIRSTPAGE_DESC' => '  Dodaj magazyn 
 
-  <p> Możesz usunąć każdy magazyn lub zresetować hasło klikając w odpowiednie polecenie w obok magazynu. Jeśli magazyn pojawi się na czerwono, oznacza to, że hasło nie zostało zmienione z domyślnej wartości i powinny zostać zmienione.</p>
+   Możesz usunąć każdy magazyn lub zresetować hasło klikając w odpowiednie polecenie w obok magazynu. Jeśli magazyn pojawi się na czerwono, oznacza to, że hasło nie zostało zmienione z domyślnej wartości i powinny zostać zmienione.
 
   ',
 'iba_ADD_TITLE' => 'Utwórz lub zmodyfikuj magazyn',
-'iba_NAME_FIELD_DESC' => 'Nazwa magazynu informacji powinna zawierać tylko małe litery, cyrfry, myślniki i podkreślniki oraz powinna zaczynać się od małej litery. Na przykład "dane", "faktury" i "dokumenty.2009" są poprawnymi nazwamy, ale "11wnioski", "Dane klientów" i "Ważne!dokumenty" nie są poprawne. Nazwa magazynu jest ograniczona do {$maxLength} znaków.',
+'iba_NAME_FIELD_DESC' => 'Nazwa magazynu informacji powinna zawierać tylko małe litery, cyrfry, myślniki i podkreślniki oraz powinna zaczynać się od małej litery. Na przykład "dane", "faktury" i "dokumenty.2009" są poprawnymi nazwamy, ale "11wnioski", "Dane klientów" i "Ważne!dokumenty" nie są poprawne. Nazwa magazynu jest ograniczona do [_1] znaków.',
 'iba_NAME_LABEL' => 'Nazwa magazynu',
 'iba_USER_ACCESS' => 'Dostęp użytkowników przez udostępnianie lub ftp',
 'iba_PUBLIC_ACCESS' => 'Dostęp powszechny przez sieć web lub anonimowy ftp',
@@ -13,29 +13,29 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Uruchamiaj dynamiczną zawartość (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Wymuś bezpieczne połączenia',
 'iba_REMOVE_TITLE' => 'Usuń magazyn informacji',
-'iba_REMOVE_DESC' => ' <p> Zamierzasz usunąć magazyn "{$name}" ({$description}). </p>
+'iba_REMOVE_DESC' => '  Zamierzasz usunąć magazyn "[_1]" ([_2]). 
 
-  <p> Wszystkie dane należące do tego magazynu zostaną usunięte. </p>
+   Wszystkie dane należące do tego magazynu zostaną usunięte. 
 
-  <p> Czy jesteś pewien, że chcesz usunąć ten magazyn danych? </p>
+   Czy jesteś pewien, że chcesz usunąć ten magazyn danych? 
 
   ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Wystąpił błąd podczas tworzenia magazynu.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Pomyślnie utworzono magazyn.',
 'iba_NO_IBAYS' => 'Nie ma żadnych obecnie skonfigurowanych magazynów.',
-'iba_CANT_FIND_IBAY' => 'Nie udało się znaleźć konta dla {$name}(czy istnieje?)',
-'iba_CANT_CREATE_IBAY' => 'Nie udało się utworzyć nowego konta dla {$name}(czy już istnieje?)',
+'iba_CANT_FIND_IBAY' => 'Nie udało się znaleźć konta dla [_1](czy istnieje?)',
+'iba_CANT_CREATE_IBAY' => 'Nie udało się utworzyć nowego konta dla [_1](czy już istnieje?)',
 'iba_ERROR_WHILE_MODIFYING_IBAY' => 'Wystąpił błąd podczas modyfikowania magazynu.',
 'iba_SUCCESSFULLY_MODIFIED_IBAY' => 'Pomyślnie zmodyfikowano magazyn.',
 'iba_VIRTUAL_HOST_MESSAGE' => 'Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie).',
 'iba_SUCCESSFULLY_DELETED_IBAY' => 'Pomyślnie usunięto magazyn.',
 'iba_ERROR_WHILE_DELETING_IBAY' => 'Wystąpił błąd podczas usuwania magazynu.',
-'iba_PASSWORD_DESC' => 'Masz zamiar zmienić hasło dla magzynu {$name}.',
+'iba_PASSWORD_DESC' => 'Masz zamiar zmienić hasło dla magzynu [_1].',
 'iba_IBAY_PASSWD_VALIDATION_ERROR' => 'Hasło może zawierać tylko litery i cyfry.',
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Hasła nie zgadzają się.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Pomyślnie zresetowano hasło.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Wystąpił błąd podczas resetowania hasła.',
-'iba_VHOST_MESSAGE' => ' Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie): {$vhostList} ',
+'iba_VHOST_MESSAGE' => ' Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie): [_1] ',
 'iba_Information bays' => 'Magazyn danych',
 'iba_WGRG' => 'Zapis = grupa, Odczyt = grupa',
 'iba_WGRE' => 'Zapis = grupa, Odczyt = wszyscy',
@@ -47,7 +47,18 @@
 'iba_ENTIRE_INTERNET_PASSWORD' => 'Internet (wymagaj hasła)',
 'iba_ENTIRE_INTERNET_PASSWORD_REMOTE' => 'Internet (wymagaj hasła poza siecią lokalną)',
 'iba_INVALID_IBAY_DESCRIPTION' => 'Błąd: niespodziewane lub nieprawidłowe znaki w opisie magazynu',
-'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Magazyn "{$acctName}" zawiera nieprawidłowe znaki. Nazwa magazynu musi zaczynać się od małej litery i zawierać tylko litery, cyfry i łączniki.',
-'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Nazwa magazynu "{$name}" jest za długa. Maksymalna długość wynosi {$maxIbayNameLength} znaków.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Konto „{$ acctName}” koliduje ze szczegółami pseudonimu {$ acctType} dla konta „{$ acct}”.  {$ acctName} to pseudonim dla {$ acct}. ',
-'iba_ACCOUNT_EXISTS' => 'Konto "{$acctName}" jest obecnym kontem {$acctType}.',
+'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Magazyn "[_1]" zawiera nieprawidłowe znaki. Nazwa magazynu musi zaczynać się od małej litery i zawierać tylko litery, cyfry i łączniki.',
+'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Nazwa magazynu "[_1]" jest za długa. Maksymalna długość wynosi [_1] znaków.',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Konto „[_1]” koliduje ze szczegółami pseudonimu [_2] dla konta „[_3]”.  [_4] to pseudonim dla [_5]. ',
+'iba_ACCOUNT_EXISTS' => 'Konto "[_1]" jest obecnym kontem [_2].',
+'iba_ADD_IBAY' => 'Dodaj i-bay',
+'WGRG' => '(en)Write = group, Read = group',
+'WGRE' => '(en)Write = group, Read = everyone',
+'WARG' => '(en)Write = admin, Read = group',
+'NONE' => 'Brak dostępu',
+'LOCAL_NETWORK_NO_PASSWORD' => 'Sieć lokalna (hasło nie jest wymagane)',
+'LOCAL_NETWORK_PASSWORD' => 'Sieć lokalna (wymagane hasło)',
+'ENTIRE_INTERNET_NO_PASSWORD' => 'Cały Internet (hasło nie jest wymagane)',
+'ENTIRE_INTERNET_PASSWORD' => 'Cały Internet (wymagane hasło)',
+'ENTIRE_INTERNET_PASSWORD_REMOTE' => '(en)Entire Internet (password required outside local network)',
+'INVALID_IBAY_DESCRIPTION' => '(en)Error: unexpected or missing characters in i-bay description',

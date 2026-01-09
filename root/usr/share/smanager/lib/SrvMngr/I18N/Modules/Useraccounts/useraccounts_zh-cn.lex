@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => '创建、修改或者移除用户账号',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">增加用户账号</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">增加用户账号</a> 
 
   <p> 您可以修改、锁定或者移除任何账号，或者通过点击账号边上的相应命令来重置账号密码。 </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => '创建或修改',
-'usr_CREATE_MODIFY_DESC' => ' <p>账户名必须由小写字母、数字、连字符、日期、着重号组合而成，且以小写字母开头。例如“betty”,“hjohnson”,和“mary-jane”都是有效地账户名,但“3friends”、“John Smith”和“henry:miller”无效。</p>
+'usr_CREATE_MODIFY_DESC' => ' 账户名必须由小写字母、数字、连字符、日期、着重号组合而成，且以小写字母开头。例如“betty”,“hjohnson”,和“mary-jane”都是有效地账户名,但“3friends”、“John Smith”和“henry:miller”无效。
 
   <p> 注意，每个新账户会有两个别名。这些别名可以替代邮件账号（包含姓名的那种）。因此账户"betty"（姓"Betty"，名"Rubble"）的两个别名是“betty.rubble”和“betty_rubble”。</p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => '修改管理员账号',
 'usr_USER_CREATED' => '成功创建用户账号。',
 'usr_USER_MODIFIED' => '成功修改用户账号。',
-'usr_CANNOT_MODIFY_USER' => '错误：尝试修改用户"{$acctName}"时出现内部错误。',
-'usr_CANNOT_MODIFY_USER_GROUPS' => '错误：尝试修改群组"{$group}" 的用户"{$acctName}"时出现内部错误。',
-'usr_TAINTED_USER' => '账号名称"{$acctName}"包含非法字符。',
+'usr_CANNOT_MODIFY_USER' => '错误：尝试修改用户"[_1]"时出现内部错误。',
+'usr_CANNOT_MODIFY_USER_GROUPS' => '错误：尝试修改群组"[_1]" 的用户"[_2]"时出现内部错误。',
+'usr_TAINTED_USER' => '账号名称"[_1]"包含非法字符。',
 'usr_ACCOUNT_NAME' => '账号名称',
 'usr_FIRSTNAME' => '名字',
 'usr_LASTNAME' => '姓氏',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => '您正要修改用户的密码',
 'usr_RESET_DESC2' => '在下面输入新密码',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => '更新密码时出错',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => '成功修改了用户"{$acctName}"的密码。',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => '成功修改了用户"[_1]"的密码。',
 'usr_LOCK_DESC' => '您正要锁定用户账号',
-'usr_LOCKED_ACCOUNT' => '成功锁定了用户"{$acctName}"的账号',
-'usr_NO_SUCH_USER' => '错误：用户账号"{$acctName}"不存在。',
-'usr_PSEUDONYM_CLASH' => '错误：假名"{$pseudonym}" 已被用户"{$clashName}"使用。需使用不同的假名，请重新填写此字段。',
+'usr_LOCKED_ACCOUNT' => '成功锁定了用户"[_1]"的账号',
+'usr_NO_SUCH_USER' => '错误：用户账号"[_1]"不存在。',
+'usr_PSEUDONYM_CLASH' => '错误：假名"[_1]" 已被用户"[_2]"使用。需使用不同的假名，请重新填写此字段。',
 'usr_LOCK_ACCOUNT' => '锁定账号',
 'usr_LOCK_ACCOUNT_TITLE' => '锁定用户账号',
 'usr_LOCK_DESC2' => ' 此用户账户将被锁定。意味着此用户将不能登录和收发邮件。任何收到的邮件仍会被存储并且（或者）转发给事先配置好的外部电子邮件地址。 此账户以后可以在重置密码后被激活，但当前密码不会保留。   您确定锁定此账户吗? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => '锁定',
 'usr_NO_USER_ACCOUNTS' => '此系统中暂无用户账号。',
 'usr_Users' => '用户',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => '账号名称"{$acctName}"中包含无效的字符。账户名必须由小写字母、数字、连接符、句点和下划线组成并且以小写字母开头。',
-'usr_ACCOUNT_TOO_LONG' => '错误：账号名称太长，最大为{$maxLength}个字符。',
-'usr_ACCOUNT_CONFLICT' => '错误：账号"{$account}"不能被创建，因为同名{$type} 账号已存在。',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => '账号名称"[_1]"中包含无效的字符。账户名必须由小写字母、数字、连接符、句点和下划线组成并且以小写字母开头。',
+'usr_ACCOUNT_TOO_LONG' => '错误：账号名称太长，最大为[_1]个字符。',
+'usr_ACCOUNT_CONFLICT' => '错误：账号"[_1]"不能被创建，因为同名[_2] 账号已存在。',
 'usr_ERR_OCCURRED_CREATING' => '创建用户时出错。',
 'usr_CANNOT_CONTAIN_WHITESPACE' => '此字段不能包含空白字符',
 'usr_UNACCEPTABLE_CHARS' => '此地段只能包含字母、数字、句点、连接符和下划线，并且要以字母开头。',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => '新的系统密码（确认）',
 'usr_LABEL_IPSECRW_DOWNLOAD' => '下载数字证书到IPSec客户端',
 'usr_ERR_OCCURRED_DELETING' => '尝试删除用户时出错。',
+'usr_ADD_USER' => '添加用户账户',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => '用户',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

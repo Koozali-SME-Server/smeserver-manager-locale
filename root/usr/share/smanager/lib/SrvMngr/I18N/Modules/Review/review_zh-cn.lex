@@ -29,3 +29,7 @@
 'rvw_NO_VIRTUAL_DOMAINS' => '暂未定义虚拟域',
 'rvw_NO_NETWORKS' => '暂未定义额外的网络',
 'rvw_INTERNET_VISIBLE_ADDRESS' => '现有因特网IP地址',
+'rvw_FORM_TITLE' => '检查配置',
+'rvw_SERVER_MANAGER' => '服务器管理器',
+'rvw_USER_PASSWORD_PANEL' => '用户密码面板',
+'Review configuration' => '检查配置',

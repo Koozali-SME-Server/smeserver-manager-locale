@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Lisa, muuda või eemalda kasutajakontosid',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Lisa kasutajakonto</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Lisa kasutajakonto</a> 
 
   <p> Kasutajakontosid saad muuta, lukustada ja kustutada kui klikid kasutajakonto taga olevaid linke. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Lisa või muuda',
-'usr_CREATE_MODIFY_DESC' => ' <p> The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example "betty", "hjohnson", and "mary-jane" are all valid account names, but "3friends", "John Smith", and "henry:miller" are not. </p>
+'usr_CREATE_MODIFY_DESC' => '  The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example "betty", "hjohnson", and "mary-jane" are all valid account names, but "3friends", "John Smith", and "henry:miller" are not. 
 
   <p> Note that two special pseudonyms will be created for each new account. These pseudonyms provide the ability to have alternative mail accounts for that user which include their first name and last name separated with a period (.) and underscore (_). So, for the account "betty" with first name "Betty" and last name "Rubble" two pseudonyms are created as betty.rubble and betty_rubble. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Muuda admin-i kontot',
 'usr_USER_CREATED' => 'Kasutajakonto on edukalt loodud.',
 'usr_USER_MODIFIED' => 'Kasutajakonto on edukalt muudetud.',
-'usr_CANNOT_MODIFY_USER' => 'Viga: süsteemi viga konto "{$acctName}" muutmisel',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: an internal error occurred while attempting to modify the group "{$group}" for user "{$acctName}".',
-'usr_TAINTED_USER' => 'Kasutajanimi "{$acctName}" sisaldab sobimatuid sümboleid.',
+'usr_CANNOT_MODIFY_USER' => 'Viga: süsteemi viga konto "[_1]" muutmisel',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: an internal error occurred while attempting to modify the group "[_1]" for user "[_2]".',
+'usr_TAINTED_USER' => 'Kasutajanimi "[_1]" sisaldab sobimatuid sümboleid.',
 'usr_ACCOUNT_NAME' => 'Kasutajanimi',
 'usr_FIRSTNAME' => 'Eesnimi',
 'usr_LASTNAME' => 'Perenimi',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'Oled kindel, et tahad kasutaja parooli muuta',
 'usr_RESET_DESC2' => 'Sisesta uus parool allolevatele väljadele',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Parooli uuendamisel ilmnes viga',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Kasutaja "{$acctName}". parool on edukalt muudetud.',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Kasutaja "[_1]". parool on edukalt muudetud.',
 'usr_LOCK_DESC' => 'Oled kindel, et tahad kasutajakonto lukustada',
-'usr_LOCKED_ACCOUNT' => 'Konto "{$acctName}" on edukalt lukustatud.',
-'usr_NO_SUCH_USER' => 'Viga: kasutajakontot "{$acctName}" ei eksisteeri.',
-'usr_PSEUDONYM_CLASH' => 'Viga:pseudonym "{$pseudonym}" is already taken by the existing user account "{$clashName}". To differentiate, add initials to this field.',
+'usr_LOCKED_ACCOUNT' => 'Konto "[_1]" on edukalt lukustatud.',
+'usr_NO_SUCH_USER' => 'Viga: kasutajakontot "[_1]" ei eksisteeri.',
+'usr_PSEUDONYM_CLASH' => 'Viga:pseudonym "[_1]" is already taken by the existing user account "[_2]". To differentiate, add initials to this field.',
 'usr_LOCK_ACCOUNT' => 'Lukusta konto',
 'usr_LOCK_ACCOUNT_TITLE' => 'Lukusta kasutajakonto',
 'usr_LOCK_DESC2' => ' See kasutajakonto lukustatakse.See tähendab, et kasutaja ei saa sisse logida ja ta ei saa ka e-posti näha. Kuid kõik saabuvad kirjad salvestatakse ja/või saadetakse edasi muule aadressile, kui see on määratud. Seda kontot saab hiljem aktiveerida luues talle uue parooli.   Oled kindel et tahad siiski selle konto lukustada? ',
@@ -51,16 +51,16 @@
 'usr_LOCK' => 'Lukusta',
 'usr_NO_USER_ACCOUNTS' => 'Selles serveris pole kasutajakontosid.',
 'usr_Users' => 'Kasutajad',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Kasutajanimi "{$acctName}" sisaldab sobimatuid sümboleid.Kasutajanimi peab algama väiketähega ja koosnema ainult väiketähtedest, numbritest, hyphens, periods ja underscores.',
-'usr_ACCOUNT_TOO_LONG' => 'VIGA: konto nimi on liiga pikk. Maksimum on {$maxLength} sümbolit.',
-'usr_ACCOUNT_CONFLICT' => 'Viga: Kasutajat "{$account}" ei saanud luua kuna on juba {$type} sellise nimega.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Kasutajanimi "[_1]" sisaldab sobimatuid sümboleid.Kasutajanimi peab algama väiketähega ja koosnema ainult väiketähtedest, numbritest, hyphens, periods ja underscores.',
+'usr_ACCOUNT_TOO_LONG' => 'VIGA: konto nimi on liiga pikk. Maksimum on [_1] sümbolit.',
+'usr_ACCOUNT_CONFLICT' => 'Viga: Kasutajat "[_1]" ei saanud luua kuna on juba [_2] sellise nimega.',
 'usr_ERR_OCCURRED_CREATING' => 'Kasutaja loomisel ilmnes viga.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'See väli ei tohi sisaldada tühikuid',
 'usr_UNACCEPTABLE_CHARS' => 'See väli tohib sisaldada ainult tähti, numbreid, punkte, hypens ja underscores ja algama tähega',
 'usr_MEMBER' => 'Liige?',
 'usr_VPN_CLIENT_ACCESS' => 'VPN juurdepääs',
 'usr_SYSTEM_PASSWORD_FORM_TITLE' => 'Muuda süsteemi parooli',
-'usr_SYSTEM_PASSWORD_DESCRIPTION' => ' Certain services on this server installation require a username and password (for example this web page for the server manager application). The username is always admin. You can change the system password using the fields below. ',
+'usr_SYSTEM_PASSWORD_DESCRIPTION' => '(en) Certain services on this server installation require a username and password (for example this web page for the server manager application). The username is always admin. You can change the system password using the fields below. ',
 'usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS' => 'Parool peab koosnema ainult prinditavatest sümbolitest',
 'usr_SYSTEM_PASSWORD_VERIFY_ERROR' => 'Sisestatud paroolid ei ühti.',
 'usr_SYSTEM_PASSWORD_AUTH_ERROR' => 'Kehtiv parool on vale.',
@@ -68,5 +68,13 @@
 'usr_CURRENT_SYSTEM_PASSWORD' => 'Kehtiv süsteemi parool',
 'usr_NEW_SYSTEM_PASSWORD' => 'Uus süsteemi parool',
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Uus süsteemi parool (korda uut parooli)',
-'usr_LABEL_IPSECRW_DOWNLOAD' => 'Download digital certificate to IPSec client',
+'usr_LABEL_IPSECRW_DOWNLOAD' => '(en)Download digital certificate to IPSec client',
 'usr_ERR_OCCURRED_DELETING' => 'Kasutaja kustutamisel ilmnes viga.',
+'usr_ADD_USER' => 'Lisa kasutajakonto',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'Kasutajad',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

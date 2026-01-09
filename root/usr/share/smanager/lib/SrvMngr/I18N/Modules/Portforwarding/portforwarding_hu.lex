@@ -1,5 +1,5 @@
 'pf_FORM_TITLE' => 'Port továbbítás konfigurálása',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Ezen az oldalon módosíthatja a tűzfalszabályokat, valamint megnyithat egy meghatározott portot a szerveren, amit továbbíthat egy másik gép valamely portjára. Egy ilyen beállítás a bejövő forgalmat közvetlenül átirányítja a belső hálózat gépére. </p>
+'pf_FIRST_PAGE_DESCRIPTION' => '  Ezen az oldalon módosíthatja a tűzfalszabályokat, valamint megnyithat egy meghatározott portot a szerveren, amit továbbíthat egy másik gép valamely portjára. Egy ilyen beállítás a bejövő forgalmat közvetlenül átirányítja a belső hálózat gépére. 
 
   <p> Figyelem: Ennek a szolgáltatásnak a helytelen használatával komolyan veszélyeztetheti a belső hálózat biztonságát. Ne használja ezt a szolgáltatást felelőtlenül, vagy anélkül, hogy teljes mértékben tisztában lenne a tettei következményeivel. </p>
 
@@ -9,7 +9,7 @@
 'pf_SUMMARY_REMOVE_DESC' => 'A következőekben van összefoglalva az a port-továbbítási szabály, amelyet el akar távolítani. Ha biztos benne, kattintson a &quot;Eltávolítás&quot; gombra. Ellenkező esetben kattintson a &quot;Mégsem&quot; gombra.',
 'pf_SHOW_FORWARDS' => 'Az alább látható táblázat összefoglalja a szerver jelenlegi port-továbbítási szabályait. Egy szabály eltávolításához kattintson a szabály melletti &quot;Eltávolítás&quot; gombra.',
 'pf_NO_FORWARDS' => 'Nincsenek továbbított portok a rendszeren.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Válassza ki a protokollt, a továbbítandó portot, a célgépet és a célgépen azt a portot, amire a tvábbítást szeretné. Ha egy port-tartományt szeretne meghatározni, írja be a felső és alsó határt kötőjellel elválasztva. A cél port üresen ishagyható, ekkor a tűzfal a forrás portot változatlanul hagyja.</p>
+'pf_CREATE_PAGE_DESCRIPTION' => ' Válassza ki a protokollt, a továbbítandó portot, a célgépet és a célgépen azt a portot, amire a tvábbítást szeretné. Ha egy port-tartományt szeretne meghatározni, írja be a felső és alsó határt kötőjellel elválasztva. A cél port üresen ishagyható, ekkor a tűzfal a forrás portot változatlanul hagyja.
 
   ',
 'pf_LABEL_SOURCE_PORT' => 'Forrás Port(ok)',

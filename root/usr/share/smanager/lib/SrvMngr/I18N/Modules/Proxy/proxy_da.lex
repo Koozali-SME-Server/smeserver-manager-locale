@@ -8,3 +8,6 @@
 'prx_ERR_NO_SQUID_REC' => 'Fejl: Der er ingen proxy-optegnelse i databasen.',
 'prx_SUCCESS' => 'De nye proxy-indstillinger er gemt.',
 'prx_BLOCKED' => 'Blokeret',
+'prx_TITLE' => 'Proxyindstillinger',
+'Proxy settings' => 'Proxyindstillinger',
+'prx_Proxy' => 'Proxy',

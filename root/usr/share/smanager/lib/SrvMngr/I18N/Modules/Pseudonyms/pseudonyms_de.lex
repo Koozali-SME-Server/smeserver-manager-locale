@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Pseudonym löschen',
 'pse_ABOUT_TO_REMOVE' => ' Sie sind dabei, das Pseudonym zu entfernen: Wollen Sie wirklich fortfahren? ',
 'pse_FORM_TITLE' => 'Anlegen, Ändern oder Löschen von Pseudonymen',
-'pse_DESCRIPTION' => ' <p>Der Server legt automatisch E-Mail Aliases für jede Gruppe an. Wenn Sie einen E-Mail Alias für eine Liste von Nutzern anlegen wollen, legen Sie eine Gruppe an und die Liste wird automatisch vom Server verwaltet.</p>
+'pse_DESCRIPTION' => ' Der Server legt automatisch E-Mail Aliases für jede Gruppe an. Wenn Sie einen E-Mail Alias für eine Liste von Nutzern anlegen wollen, legen Sie eine Gruppe an und die Liste wird automatisch vom Server verwaltet.
 
   <p>Pseudonyme erlauben es Ihnen, für bestehende Benutzer und Gruppen andere Namen zu erstellen. Zum Beispiel könnten Sie ein Pseudonym "webmaster" für eine Gruppe "webentwickler" oder ein Pseudonym "joe" für den Nutzer "josef" anzulegen.</p>
 

@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Crear, modificar o eliminar cuentas de usuario',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Agregar cuenta de usuario</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Agregar cuenta de usuario</a> 
 
   <p> Puede modificar, bloquear o eliminar cualquier cuenta o restablecer la contraseña de la cuenta al hacer click en el comando correspondiente junto a ella. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Crear o modificar',
-'usr_CREATE_MODIFY_DESC' => ' <p> El nombre de la cuenta sólo debe contener números, guiones y letras minúsculas, y debe comenzar con una minúscula. Por ejemplo, "beatriz", "hmorales" y "ana-isabel" son nombres de cuenta válidos, mientras que "3amigos", "Juan Arancibia" y "enrique_morales" no lo son. </p>
+'usr_CREATE_MODIFY_DESC' => '  El nombre de la cuenta sólo debe contener números, guiones y letras minúsculas, y debe comenzar con una minúscula. Por ejemplo, "beatriz", "hmorales" y "ana-isabel" son nombres de cuenta válidos, mientras que "3amigos", "Juan Arancibia" y "enrique_morales" no lo son. 
 
   <p> Observe que se crearán dos seudónimos especiales para cada cuenta nueva. Estos seudónimos brindan la capacidad de tener cuentas de correo alternativas para el usuario, que incluyen su nombre y apellido separados por un punto (.) o un guión bajo (_). Por lo tanto, para la cuenta "beatriz" con el nombre "Beatriz" y el apellido "Rojas", se crean dos seudónimos: beatriz.rojas y beatriz_rojas. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Modificar la cuenta admin',
 'usr_USER_CREATED' => 'Cuenta de usuario creada con éxito.',
 'usr_USER_MODIFIED' => 'Cuenta de usuario modificada con éxito.',
-'usr_CANNOT_MODIFY_USER' => 'Error: ocurrió un error interno al intentar modificar el usuario "{$acctName}".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: ocurrió un error interno al intentar modificar el grupo "{$group}" para el usuario "{$acctName}".',
-'usr_TAINTED_USER' => 'El nombre de cuenta "{$acctName}" contiene caracteres inválidos.',
+'usr_CANNOT_MODIFY_USER' => 'Error: ocurrió un error interno al intentar modificar el usuario "[_1]".',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: ocurrió un error interno al intentar modificar el grupo "[_1]" para el usuario "[_2]".',
+'usr_TAINTED_USER' => 'El nombre de cuenta "[_1]" contiene caracteres inválidos.',
 'usr_ACCOUNT_NAME' => 'Nombre de cuenta',
 'usr_FIRSTNAME' => 'Nombre',
 'usr_LASTNAME' => 'Apellido',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'Está a punto de cambiar la contraseña para la cuenta de usuario',
 'usr_RESET_DESC2' => 'Ingresar la nueva contraseña en los siguientes campos',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Ocurrió un error al actualizar la contraseña',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Se ha cambiado la contraseña para el usuario "{$acctName}".',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Se ha cambiado la contraseña para el usuario "[_1]".',
 'usr_LOCK_DESC' => 'Está a punto de bloquear la cuenta de usuario',
-'usr_LOCKED_ACCOUNT' => 'Cuenta bloqueada con éxito para el usuario "{$acctName}".',
-'usr_NO_SUCH_USER' => 'Error: la cuenta de usuario "{$acctName}" no existe.',
-'usr_PSEUDONYM_CLASH' => 'Error: el seudónimo "{$pseudonym}" ya está ocupado por una cuenta de usuario existente "{$clashName}". Para diferenciarla, agregue iniciales a este campo.',
+'usr_LOCKED_ACCOUNT' => 'Cuenta bloqueada con éxito para el usuario "[_1]".',
+'usr_NO_SUCH_USER' => 'Error: la cuenta de usuario "[_1]" no existe.',
+'usr_PSEUDONYM_CLASH' => 'Error: el seudónimo "[_1]" ya está ocupado por una cuenta de usuario existente "[_2]". Para diferenciarla, agregue iniciales a este campo.',
 'usr_LOCK_ACCOUNT' => 'Bloquear cuenta',
 'usr_LOCK_ACCOUNT_TITLE' => 'Bloquear cuenta de usuario',
 'usr_LOCK_DESC2' => ' Se bloqueará esta cuenta de usuario. Esto significa que el usuario no podrá conectarse ni acumular correos electrónicos. No obstante, todos los correos electrónicos que lleguen se almacenarán y/o reenviarán a una dirección de correo electrónico externa, según esté configurado. Se puede activar la cuenta más adelante al establecer una contraseña nueva. La contraseña actual no se mantendrá.   ¿Está seguro de que desea bloquear esta cuenta? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Bloquear',
 'usr_NO_USER_ACCOUNTS' => 'No hay cuentas de usuario en el sistema.',
 'Users' => 'Usuarios',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'El nombre de cuenta "{$acctName}" contiene caracteres no válidos. Los nombres de cuenta deben comenzar con minúscula y deben contener sólo letras minúsculas, números y guiones.',
-'usr_ACCOUNT_TOO_LONG' => 'Error: el nombre de la cuenta es demasiado largo. El máximo es {$maxLength} caracteres.',
-'usr_ACCOUNT_CONFLICT' => 'Error: no se puede crear la cuenta "{$account}" debido a que ya existe una cuenta {$type} con ese nombre.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'El nombre de cuenta "[_1]" contiene caracteres no válidos. Los nombres de cuenta deben comenzar con minúscula y deben contener sólo letras minúsculas, números y guiones.',
+'usr_ACCOUNT_TOO_LONG' => 'Error: el nombre de la cuenta es demasiado largo. El máximo es [_1] caracteres.',
+'usr_ACCOUNT_CONFLICT' => 'Error: no se puede crear la cuenta "[_1]" debido a que ya existe una cuenta [_2] con ese nombre.',
 'usr_ERR_OCCURRED_CREATING' => 'Ocurrió un error al crear el usuario.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Este campo no puede contener espacios en blanco',
 'usr_UNACCEPTABLE_CHARS' => 'Este campo debe contener sólo letras, números, puntos, guiones y guiones bajos y debe comenzar con una letra',
@@ -70,3 +70,10 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Nueva contraseña del sistema (repetir)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Descarga de certificado digital para cliente IPSec',
 'usr_ERR_OCCURRED_DELETING' => 'Ha ocurrido un error mientras se intentaba eliminar el usuario.',
+'usr_ADD_USER' => 'Agregar cuenta de usuario',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

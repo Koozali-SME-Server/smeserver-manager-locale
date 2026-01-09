@@ -7,3 +7,4 @@
 'clm_NEVER' => 'Nikoli',
 'clm_DAILY' => 'Dnevno',
 'clm_SUCCESS' => 'Nove nastavitve za clamav antivirus so shranjene.',
+'clm_Antivirus (ClamAV)' => 'Protivirusni program (ClamAV)',

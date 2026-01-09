@@ -117,7 +117,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Error: karakter yang tidak diharapkan atau hilang dalam deskripsi',
 'FM_IP_NUMBER1' => 'Field ini harus berisi nomor IP yang valid dan tidak boleh dikosongkan',
 'FM_IP_NUMBER2' => 'Alamat IP tidak valid untuk memulai DHCP',
-'FM_IP_NUMBER3' => '{$octet} lebih dari 255',
+'FM_IP_NUMBER3' => '[_1] lebih dari 255',
 'FM_MAC_ADDRESS1' => 'Anda harus mengisikan alamat MAC',
 'FM_MAC_ADDRESS2' => 'Alamat MAC yang anda sediakan tidak valid.',
 'FM_NONBLANK' => 'Field ini tidak boleh dikosongkan',

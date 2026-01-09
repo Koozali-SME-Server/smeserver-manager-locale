@@ -11,22 +11,28 @@
 'ln_REMOVE_CONFIRM' => 'Bu ağı silmek istediğinizden eminmisiniz?',
 'ln_DEFAULT' => 'varsayılan',
 'ln_NUMBER_OF_HOSTS' => 'Etki alanı sayısı',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Hata: yönlendirme {$networkRouter} yerel ağ tarafından erişilemez. Ağ eklenemedi.',
-'ln_NETWORK_ALREADY_LOCAL' => 'Hata: ağ {$network} (yerel ağ {$networkAddress} ve alt ağ maskesi {$networkMask}) yerel olarak kullanımda. Ağ eklenemedi.',
-'ln_NETWORK_ALREADY_ADDED' => 'Hata: ağ {$network} (mevcut ağ {$networkAddress} ve alt ağ maskesi {$networkMask}) zaten eklenmiş. Ağ eklenemedi.',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Hata: yönlendirme [_1] yerel ağ tarafından erişilemez. Ağ eklenemedi.',
+'ln_NETWORK_ALREADY_LOCAL' => 'Hata: ağ [_1] (yerel ağ [_2] ve alt ağ maskesi [_3]) yerel olarak kullanımda. Ağ eklenemedi.',
+'ln_NETWORK_ALREADY_ADDED' => 'Hata: ağ [_1] (mevcut ağ [_2] ve alt ağ maskesi [_3]) zaten eklenmiş. Ağ eklenemedi.',
 'ln_ERROR_CREATING_NETWORK' => 'Ağ oluşturulurken hata meydana geldi.',
-'ln_SUCCESS' => 'Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi.',
-'ln_SUCCESS_SINGLE_ADDRESS' => 'Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. Sunucunuz {$network} IP adresine yerel erişim yetkisi tanıyacaktır.',
-'ln_SUCCESS_NETWORK_RANGE' => 'Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. Sunucunuz {$firstAddr} den {$lastAddr} kadar olan toplam {$totalHosts} IP adresine yerel erişim hizmeti tanıyacaktır.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla eklendi. </p>
+'ln_SUCCESS' => 'Ağ [_1]/[_2] , yönlendirme [_3] başarıyla eklendi.',
+'ln_SUCCESS_SINGLE_ADDRESS' => 'Ağ [_1]/[_2] , yönlendirme [_3] başarıyla eklendi. Sunucunuz [_4] IP adresine yerel erişim yetkisi tanıyacaktır.',
+'ln_SUCCESS_NETWORK_RANGE' => 'Ağ [_1]/[_2] , yönlendirme [_3] başarıyla eklendi. Sunucunuz [_4] den [_5] kadar olan toplam [_6] IP adresine yerel erişim hizmeti tanıyacaktır.',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  Ağ [_1]/[_2] , yönlendirme [_3] başarıyla eklendi. 
 
-  <p> Sunucunuz {$firstAddr} den {$lastAddr} kadar olan toplam {$totalHosts} IP adresine yerel erişim hizmeti tanıyacaktır. </p>
+  <p> Sunucunuz [_1] den [_2] kadar olan toplam [_3] IP adresine yerel erişim hizmeti tanıyacaktır. </p>
 
-  <p> Dikkat: ProFTPd FTP sunucusu bu standart olmayan alt ağ maskesini kullanamaz. Bunun yerine standart <b>{$simpleMask}</b> alt ağ maskesini kullanacaktır. </p>
+  <p> Dikkat: ProFTPd FTP sunucusu bu standart olmayan alt ağ maskesini kullanamaz. Bunun yerine standart <b>[_1]</b> alt ağ maskesini kullanacaktır. </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => 'Ağ {$network}/{$networkMask} , yönlendirme {$networkRouter} başarıyla silindi.',
+'ln_SUCCESS_REMOVED_NETWORK' => 'Ağ [_1]/[_2] , yönlendirme [_3] başarıyla silindi.',
 'ln_ERROR_DELETING_NETWORK' => 'Ağ silinirken hata oluştu.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Ek ağ bulunamadı.',
 'ln_REMOVE_HOSTS_DESC' => 'Silmeye çalıştığınız ağda yapılantırılmış alan adı sunucular tespit edildi. Varsayılan oalrak onalar da silinecektir. Bunun olmasını istemiyorsanız seçme kutusunu işaretleyin. Bu ağ bağlı sunucular bundan sonra yerel olarak tanınmayacaklardır ve ağ silindikten sonra erişilemeyebilirler.',
 'ln_REMOVE_HOSTS_LABEL' => 'Ağdaki alan adını sil',
+'ln_LOCAL NETWORKS' => 'Yerel ağlar',
+'Local networks' => 'Yerel ağlar',
+'ln_LOCALNETWORK_ADD' => 'Ağ ekle',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] yönlendirici üzerinden [_3]',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',

@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Fjern pseudonym',
 'pse_ABOUT_TO_REMOVE' => ' Du er ved at fjerne pseudonomet: Ønsker du at fortsætte? ',
 'pse_FORM_TITLE' => 'Oprette, ændre eller fjerne pseudonymer',
-'pse_DESCRIPTION' => ' <p>Serveren opretter automatisk e-post-alias for enhver gruppe. Ønsker du et postalias for en gruppe brugere, opretter du bare gruppen og den vil automatisk blive vedligeholdt af serveren.</p>
+'pse_DESCRIPTION' => ' Serveren opretter automatisk e-post-alias for enhver gruppe. Ønsker du et postalias for en gruppe brugere, opretter du bare gruppen og den vil automatisk blive vedligeholdt af serveren.
 
   <p>Pseudonymer tillader dig at oprette andre navne for brugere og grupper. F.eks. hvis du ønsker at oprette et pseudonym "webmaster" for din gruppe af "webudviklere" eller et pseudonym "joe" for "joseph".</p>
 

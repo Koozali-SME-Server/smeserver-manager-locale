@@ -1,5 +1,5 @@
 'initial_FORM_TITLE' => 'Tere tulemast serveri haldusesse',
-'initial_FRAMES_BODY' => ' <p> Tere tulemast SME Server-isse, tegemist on juhtiva Linuxi distributsiooniga väikesele ja keskmise suurusega ettevõttele. SME Server is brought to you by <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, a non-profit corporation that exists to provide marketing and legal support for SME Server. </p>
+'initial_FRAMES_BODY' => '  Tere tulemast SME Server-isse, tegemist on juhtiva Linuxi distributsiooniga väikesele ja keskmise suurusega ettevõttele. SME Server is brought to you by <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, a non-profit corporation that exists to provide marketing and legal support for SME Server. 
 
   <p> SME Server is freely available under the GNU General Public License and is only possible through the efforts of the SME Server community. However, the availability and quality of SME Server is dependent on meeting our expenses, such as hosting costs, server hardware, etc. </p>
 
@@ -12,7 +12,7 @@
   <p> To perform a system administration function, click one of the links in the menu on the left of your screen. </p>
 
   ',
-'initial_NOFRAMES_BODY' => ' <p> Tere tulemast SME Server-isse. This software comes with ABSOLUTELY NO WARRANTY. Palun <a href="/smanager/support" target="main">vajuta siia</a> vaatamaks detailset kasutajatoe, warranty ja litsentsi informatiooni. </p>
+'initial_NOFRAMES_BODY' => '  Tere tulemast SME Server-isse. This software comes with ABSOLUTELY NO WARRANTY. Palun <a href="/smanager/support" target="main">vajuta siia</a> vaatamaks detailset kasutajatoe, warranty ja litsentsi informatiooni. 
 
   <p> <a href="/server-manager/noframes">Vajuta siia</a> for a list of system administration functions. </p>
 

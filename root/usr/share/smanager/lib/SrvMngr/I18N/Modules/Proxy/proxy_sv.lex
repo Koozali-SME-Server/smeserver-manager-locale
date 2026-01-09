@@ -8,3 +8,6 @@
 'prx_ERR_NO_SQUID_REC' => 'Fel: Det finns inga squid-poster i konfigurationens databas.',
 'prx_SUCCESS' => 'De nya proxyinställningarna sparades.',
 'prx_BLOCKED' => 'Blockerad',
+'prx_TITLE' => 'Proxyinställningar',
+'Proxy settings' => 'Proxyinställningar',
+'prx_Proxy' => 'Proxy',

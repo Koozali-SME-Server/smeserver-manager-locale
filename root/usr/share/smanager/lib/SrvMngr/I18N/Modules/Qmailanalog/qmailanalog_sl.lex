@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'E-mail LOG datoteka',
-'qma_INITIAL_DESC' => ' <p>Analiza sistemske LOG e-mail datoteke lahko pomaga pri razumevanju delovanja in diagnozi pri tazavah z odposiljanjem e-poste. Na voljo je kar nekaj razlicnih vrst porocil. </p>
+'qma_INITIAL_DESC' => ' Analiza sistemske LOG e-mail datoteke lahko pomaga pri razumevanju delovanja in diagnozi pri tazavah z odposiljanjem e-poste. Na voljo je kar nekaj razlicnih vrst porocil. 
 
   <p>Prosim bodi pozoren, ker lahko generiranje porocila traja kar nekaj casa. </p>
 

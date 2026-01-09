@@ -1,6 +1,6 @@
 'quo_FORM_TITLE' => 'Crea, modifica o rimuovi quota utenti',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Impossibile aprire il db accounts',
-'quo_QUOTA_DESC' => ' <p>E\' possibile impostare quote disco per gli utenti del sistema facendo clic sul pulsante "Modifica" a fianco dell\'utente da modificare. <p>Se l\'utente supera il "Limite di avvertimento", verranno inviati degli avvisi. Se questo limite viene ecceduto per oltre una settimana o se viene raggiunto il "Limite assoluto", l\'utente non potrà salvare nuovi file o ricevere posta. <p>Impostando a \'0\' uno dei limiti disabiliterà quel limite per l\'utente corrispondente. <p>Lo spazio su disco di ogni utente include l\'home directory, l\'e-mail e tutti i file appartenenti all\'utente nelle i-bay. ',
+'quo_QUOTA_DESC' => ' E\' possibile impostare quote disco per gli utenti del sistema facendo clic sul pulsante "Modifica" a fianco dell\'utente da modificare. Se l\'utente supera il "Limite di avvertimento", verranno inviati degli avvisi. Se questo limite viene ecceduto per oltre una settimana o se viene raggiunto il "Limite assoluto", l\'utente non potrà salvare nuovi file o ricevere posta. Impostando a \'0\' uno dei limiti disabiliterà quel limite per l\'utente corrispondente. Lo spazio su disco di ogni utente include l\'home directory, l\'e-mail e tutti i file appartenenti all\'utente nelle i-bay. ',
 'quo_CURRENT_USAGE_AND_SETTINGS' => 'Situazione e Impostazioni Quota',
 'quo_LIMIT_WITH_GRACE' => 'Limite di avvertimento',
 'quo_LIMIT_WITH_GRACE_MB' => 'Limite di avvertimento (MB)',

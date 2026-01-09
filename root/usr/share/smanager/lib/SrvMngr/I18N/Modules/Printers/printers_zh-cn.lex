@@ -34,3 +34,5 @@
 'prt_DELETED_SUCCESSFULLY' => '成功删除打印机：',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => '必须是一个合法的主机名或IP',
 'prt_Printers' => '打印机',
+'prt_INITIAL_BTN' => '添加打印机',
+'Printers' => '打印机',

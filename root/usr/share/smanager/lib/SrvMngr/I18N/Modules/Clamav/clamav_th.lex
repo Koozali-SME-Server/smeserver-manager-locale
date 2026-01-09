@@ -7,3 +7,4 @@
 'clm_NEVER' => 'ไม่ต้อง',
 'clm_DAILY' => 'รายวัน',
 'clm_SUCCESS' => 'การตั้งค่าของตัวป้องกันไวรัส Clamav ได้รับการบันทึกแล้ว',
+'clm_Antivirus (ClamAV)' => 'โปรแกรมป้องกันไวรัส (ClamAV)',

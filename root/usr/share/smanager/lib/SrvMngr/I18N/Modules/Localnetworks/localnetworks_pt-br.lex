@@ -11,22 +11,28 @@
 'ln_REMOVE_CONFIRM' => 'Você tem certeza que deseja remover esta rede?',
 'ln_DEFAULT' => 'padrão',
 'ln_NUMBER_OF_HOSTS' => 'Número de hosts',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Erro: endereço de roteador {$networkRouter} não está acessível da rede local. Rede não adicionada.',
-'ln_NETWORK_ALREADY_LOCAL' => 'Erro: rede {$network} (derivada da rede {$networkAddress} e máscara de rede {$networkMask}) já é considerada local. Nova rede não adicionada.',
-'ln_NETWORK_ALREADY_ADDED' => 'Erro: rede {$network} (derivada da rede {$networkAddress} e máscara de rede {$networkMask}) já foi adicionada. Nova rede não adicionada.',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Erro: endereço de roteador [_1] não está acessível da rede local. Rede não adicionada.',
+'ln_NETWORK_ALREADY_LOCAL' => 'Erro: rede [_1] (derivada da rede [_2] e máscara de rede [_3]) já é considerada local. Nova rede não adicionada.',
+'ln_NETWORK_ALREADY_ADDED' => 'Erro: rede [_1] (derivada da rede [_2] e máscara de rede [_3]) já foi adicionada. Nova rede não adicionada.',
 'ln_ERROR_CREATING_NETWORK' => 'Ocorreu um erro enquanto criava a rede.',
-'ln_SUCCESS' => 'Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}.',
-'ln_SUCCESS_SINGLE_ADDRESS' => 'Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. Seu servidor irá garantir privilégios de acesso local para o endereço IP {$network}.',
-'ln_SUCCESS_NETWORK_RANGE' => 'Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. Seu servidor irá garantir privilegios de acesso local para {$totalHosts} endereços IP na faixa de {$firstAddr} à {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Rede adicionada com sucesso {$network}/{$networkMask} rotear via {$networkRouter}. </p>
+'ln_SUCCESS' => 'Rede adicionada com sucesso [_1]/[_2] rotear via [_3].',
+'ln_SUCCESS_SINGLE_ADDRESS' => 'Rede adicionada com sucesso [_1]/[_2] rotear via [_3]. Seu servidor irá garantir privilégios de acesso local para o endereço IP [_4].',
+'ln_SUCCESS_NETWORK_RANGE' => 'Rede adicionada com sucesso [_1]/[_2] rotear via [_3]. Seu servidor irá garantir privilegios de acesso local para [_4] endereços IP na faixa de [_5] à [_6].',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  Rede adicionada com sucesso [_1]/[_2] rotear via [_3]. 
 
-  <p> Seu servidor irá garantir privilegios de acesso local para {$totalHosts} endereços IP na faixa de {$firstAddr} à {$lastAddr}. </p>
+  <p> Seu servidor irá garantir privilegios de acesso local para [_1] endereços IP na faixa de [_2] à [_3]. </p>
 
-  <p> Aviso: o servidor FTP ProFTP não pode manusear essas máscaras de rede não -padrão. A especificação simples <b>{$simpleMask}</b> será usada. </p>
+  <p> Aviso: o servidor FTP ProFTP não pode manusear essas máscaras de rede não -padrão. A especificação simples <b>[_1]</b> será usada. </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => 'Remoção da rede com sucesso {$network}/{$networkMask} rotear via {$networkRouter}.',
+'ln_SUCCESS_REMOVED_NETWORK' => 'Remoção da rede com sucesso [_1]/[_2] rotear via [_3].',
 'ln_ERROR_DELETING_NETWORK' => 'Um erro ocorreu enquanto eliminava a rede.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Nenhum rede adicional',
 'ln_REMOVE_HOSTS_DESC' => 'Foram detectados hosts na rede que você está prestes a eliminar. Por padrão, eles tambem serão eliminados. Desmarque essa caixa se por alguma razão voce não quer que isso aconteça. Note que eles não serãotratados como hosts locais e podem sequer estar acessíveis depois que a rede for eliminada.',
 'ln_REMOVE_HOSTS_LABEL' => 'Eliminat hosts na rede',
+'ln_LOCAL NETWORKS' => 'Redes locais',
+'Local networks' => 'Redes locais',
+'ln_LOCALNETWORK_ADD' => 'Adicionar rede',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] via roteador [_3]',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',

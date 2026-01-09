@@ -1,5 +1,5 @@
 'pf_FORM_TITLE' => 'Configureer poort doorzenden',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Dit scherm kan worden gebruikt voor het wijzigen van de firewall regels zoals het openen van een specifieke poort op deze server en het doorzenden naar een andere poort op een andere computer. Indien geconfigureerd heeft inkomend verkeer direct toegang tot een systeem op het LAN. </p>
+'pf_FIRST_PAGE_DESCRIPTION' => '  Dit scherm kan worden gebruikt voor het wijzigen van de firewall regels zoals het openen van een specifieke poort op deze server en het doorzenden naar een andere poort op een andere computer. Indien geconfigureerd heeft inkomend verkeer direct toegang tot een systeem op het LAN. 
 
   <p> WAARSCHUWING: Verkeerd gebruik van deze optie kan de veiligheid van het netwerk ernstig schaden. Gebruik deze mogelijkheid niet luchthartig en zonder de strekking en gevolgen volledig te begrijpen. </p>
 
@@ -9,7 +9,7 @@
 'pf_SUMMARY_REMOVE_DESC' => 'Het volgende somt de poort-doorzendregel op welke u op het punt staat te verwijderen. Indien u zeker bent dat u deze regel wilt verwijderen, klik u op de &quot;Verwijderen&quot; knop. Bent u niet zeker, klik dan op de &quot;Annuleren&quot; knop.',
 'pf_SHOW_FORWARDS' => 'Onderstaand vindt u een overzichtstabel met de actuele poort-doorzendregels zoals geconfigureerd op deze server. Klik op de &quot;Verwijderen&quot; link op de corresponderende regel te verwijderen.',
 'pf_NO_FORWARDS' => 'Er zijn momenteel geen poort-doorzendregels aanwezig op dit systeem.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Selecteer het protocol, de poort welke u wilt doorzenden, de doel-host en de poort op de doel-host waarnaar doorgezonden dient te worden. Indien u een poort bereik wilt specificeren vul dan de begin en eindpoort in gescheiden door een koppelteken. De doel-poort mag blank worden gelaten, waardoor de firewall uit zal gaan van dezelfde poort als de bron-poort.</p>
+'pf_CREATE_PAGE_DESCRIPTION' => ' Selecteer het protocol, de poort welke u wilt doorzenden, de doel-host en de poort op de doel-host waarnaar doorgezonden dient te worden. Indien u een poort bereik wilt specificeren vul dan de begin en eindpoort in gescheiden door een koppelteken. De doel-poort mag blank worden gelaten, waardoor de firewall uit zal gaan van dezelfde poort als de bron-poort.
 
   ',
 'pf_LABEL_SOURCE_PORT' => 'Bron-poort(en)',

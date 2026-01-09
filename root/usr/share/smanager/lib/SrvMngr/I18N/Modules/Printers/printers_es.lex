@@ -1,5 +1,5 @@
 'prt_FORM_TITLE' => 'Agregar o eliminar impresoras',
-'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Agregar impresora</a></p>
+'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Agregar impresora</a>
 
   ',
 'prt_NO_PRINTERS' => 'No hay impresoras en el sistema.',
@@ -36,3 +36,4 @@
 'prt_DELETED_SUCCESSFULLY' => 'Impresora eliminada con éxito:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Debe ser un nombre de host o número de IP válidos',
 'Printers' => 'Impresoras',
+'prt_INITIAL_BTN' => 'Añadir impresora',

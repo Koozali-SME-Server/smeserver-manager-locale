@@ -29,3 +29,7 @@
 'rvw_NO_VIRTUAL_DOMAINS' => '尚未界定虛擬網域',
 'rvw_NO_NETWORKS' => '尚未界定附加網路',
 'rvw_INTERNET_VISIBLE_ADDRESS' => '網際網路外部網址',
+'rvw_FORM_TITLE' => '檢視設定',
+'rvw_SERVER_MANAGER' => '伺服器管理員',
+'rvw_USER_PASSWORD_PANEL' => '使用者密碼面板',
+'Review configuration' => '檢視設定',

@@ -110,7 +110,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Erro: caracter inesperado ou faltando na descrição',
 'FM_IP_NUMBER1' => 'Este campo precisa conter um endereço IP e não pode ser deixado em branco.',
 'FM_IP_NUMBER2' => 'Formato do endereço IP inválido (deve ser X.X.X.X)',
-'FM_IP_NUMBER3' => '{$octet} é maior que 255',
+'FM_IP_NUMBER3' => '[_1] é maior que 255',
 'FM_MAC_ADDRESS1' => 'Você precisa fornecer um endereço MAC.',
 'FM_MAC_ADDRESS2' => 'O endereço MAC fornecido não é válido.',
 'FM_NONBLANK' => 'Este campo não pode ser deixado em branco',

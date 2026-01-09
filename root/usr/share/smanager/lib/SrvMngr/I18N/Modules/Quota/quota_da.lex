@@ -1,6 +1,6 @@
 'quo_FORM_TITLE' => 'Oprette, ændre eller fjern kvota for bruger',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Kan ikke åbne kontodatabasen',
-'quo_QUOTA_DESC' => ' <p>Du kan oprette diskkvota for brugere på systemet ved at klikke "Ændre"-knappen ud for brugeren. <p>Hvis brugeren overskrider "Henstandsperiode", vil der blive udsendt en advarsel. Overskrides denne grænse i mere end en uge eller hvis "Absolut grænse" bliver nået, vil brugeren ikke kunne gemme mere på serveren og heller ikke modtage mere e-post. <p>Indstilles begge værdier til \'0\' vil der ikke være nogen begrænsning for brugeren. <p>Diskpladsen for hver bruger omfatter e-post, indholdet i hjemmemappen, samt hvad brugeren har gemt i diverse i-bays. ',
+'quo_QUOTA_DESC' => ' Du kan oprette diskkvota for brugere på systemet ved at klikke "Ændre"-knappen ud for brugeren. Hvis brugeren overskrider "Henstandsperiode", vil der blive udsendt en advarsel. Overskrides denne grænse i mere end en uge eller hvis "Absolut grænse" bliver nået, vil brugeren ikke kunne gemme mere på serveren og heller ikke modtage mere e-post. Indstilles begge værdier til \'0\' vil der ikke være nogen begrænsning for brugeren. Diskpladsen for hver bruger omfatter e-post, indholdet i hjemmemappen, samt hvad brugeren har gemt i diverse i-bays. ',
 'quo_CURRENT_USAGE_AND_SETTINGS' => 'Aktuel kvote og indstillinger',
 'quo_LIMIT_WITH_GRACE' => 'Henstandsperiode',
 'quo_LIMIT_WITH_GRACE_MB' => 'Henstandsperiode (MB)',

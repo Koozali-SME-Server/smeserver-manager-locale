@@ -16,7 +16,11 @@
 'pwd_CONTENT' => 'Contenu',
 'pwd_CREATE_GROUP' => 'Créer un groupe d\'utilisateurs',
 'pwd_USER_LIST_CURRENT' => 'Liste des utilisateurs',
-'pwd_DESCRIPTION' => 'Description',
+'pwd_DESCRIPTION' => 'Pour modifier le mot de passe de votre compte, remplissez le formulaire suivant. Vous devez taper votre nom d\'utilisateur, votre ancien mot de passe et le nouveau mot de passe souhaité (que vous devrez taper deux fois).
+
+  <p>Si vous ne pouvez pas modifier votre mot de passe parce que vous avez oublié l\'ancien, l\'administrateur de votre serveur peut le réinitialiser à l\'aide du <em>gestionnaire du serveur</em>.</p>
+
+  ',
 'pwd_GROUP_MEMBERS' => 'Membres du groupe',
 'pwd_GROUP_NAME' => 'Nom du groupe',
 'pwd_GROUPS' => 'Groupes',
@@ -26,7 +30,7 @@
 'pwd_PASSWORD_VERIFY_NEW' => 'Nouveau mot de passe (vérification)',
 'pwd_PASSWORD_NEW' => 'Nouveau mot de passe',
 'pwd_OFF' => 'Désactivé',
-'pwd_OK' => 'Ok',
+'pwd_OK' => 'OK',
 'pwd_PASSWORD_OLD' => 'Ancien mot de passe',
 'pwd_ON' => 'Activé',
 'pwd_PASSWORD' => 'Mot de passe',
@@ -49,13 +53,15 @@
 'pwd_YOUR_ACCOUNT' => 'Votre compte utilisateur:',
 'pwd_YOUR_ACCOUNT_INVALID' => 'Le nom d\'utilisateur que vous avez tapé n\'est pas valide.',
 'pwd_PASSWORD_CHANGE_SUCCESS' => 'Le mot de passe a été modifié avec succès.',
-'pwd_DESCRIPTION' => '<p>Pour modifier le mot de passe de votre compte, remplissez le formulaire suivant. Vous devez taper votre nom d\'utilisateur, votre ancien mot de passe et le nouveau mot de passe souhaité (que vous devrez taper deux fois).</p>
-
-  <p>Si vous ne pouvez pas modifier votre mot de passe parce que vous avez oublié l\'ancien, l\'administrateur de votre serveur peut le réinitialiser à l\'aide du <em>gestionnaire du serveur</em>.</p>
-
-  ',
-'pwd_DESCRIPTION_RESET' => '<p>Pour réinitialiser le mot de passe de votre compte, remplissez le formulaire suivant. Vous devez taper le nouveau mot de passe souhaité (que vous devrez taper deux fois).</p>
+'pwd_DESCRIPTION_RESET' => 'Pour réinitialiser le mot de passe de votre compte, remplissez le formulaire suivant. Vous devez taper le nouveau mot de passe souhaité (que vous devrez taper deux fois).
 
   <p>En cas de problème, l\'administrateur de votre serveur peut le réinitialiser à l\'aide du <em>gestionnaire du serveur</em>.</p>
 
   ',
+'pwd_TAINTED_USER' => '(en)The account name "[_1]" contains invalid characters.',
+'pwd_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'pwd_NONE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters.',
+'pwd_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'pwd_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'pwd_STRONG_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'pwd_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

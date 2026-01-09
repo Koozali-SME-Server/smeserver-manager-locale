@@ -1,6 +1,6 @@
 'quo_FORM_TITLE' => 'Felhasználói fiók kvótájának létrehozása, módosítása vagy eltávolítása.',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Nem lehet a felhasználói adatbázist megnyitni',
-'quo_QUOTA_DESC' => ' <p>A felhasználó neve melletti "Módosítás" gombra kattintva fájlrendszer kvótát állíthat be. <p>Ha a felhasználó tárhelyének mérete eléri a "türelmi határt", figyelmeztető üzenetet kap. Ha a felhasználó túllépi ezt a türelmi határt, vagy eléri az abszolút határt, nem tud több fájlt lementeni és nem tud e-mailt fogadni. <p>A 0 érték megadása bármely határértéknél kikapcsolja az adott felhasználói határértéket. <p>Minden felhasználó tárhelyébe beleszámít a felhasználó home könyvtára, az e-mail fiókja és a felhasználó bármely adattárban tárolt fájljai. ',
+'quo_QUOTA_DESC' => ' A felhasználó neve melletti "Módosítás" gombra kattintva fájlrendszer kvótát állíthat be. Ha a felhasználó tárhelyének mérete eléri a "türelmi határt", figyelmeztető üzenetet kap. Ha a felhasználó túllépi ezt a türelmi határt, vagy eléri az abszolút határt, nem tud több fájlt lementeni és nem tud e-mailt fogadni. A 0 érték megadása bármely határértéknél kikapcsolja az adott felhasználói határértéket. Minden felhasználó tárhelyébe beleszámít a felhasználó home könyvtára, az e-mail fiókja és a felhasználó bármely adattárban tárolt fájljai. ',
 'quo_CURRENT_USAGE_AND_SETTINGS' => 'Jelenlegi kvóta kihasználtság és beállítások',
 'quo_LIMIT_WITH_GRACE' => 'Türelmi határ',
 'quo_LIMIT_WITH_GRACE_MB' => 'Türelmi határ (MB)',

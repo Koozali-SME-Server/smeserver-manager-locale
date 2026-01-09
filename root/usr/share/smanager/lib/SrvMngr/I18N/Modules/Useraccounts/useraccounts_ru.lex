@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Создание, изменение и удаление учётных записей пользователей',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Добавить учётную запись пользователя</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Добавить учётную запись пользователя</a> 
 
   <p> Вы можете изменить, заблокировать или удалить учетную запись или сбросить её пароль, нажав на соответствующую команду рядом с учётной записью. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Создать или изменить',
-'usr_CREATE_MODIFY_DESC' => ' <p> Имя учётной записи должно содержать только прописные буквы, цифры, дефисы, точки и подчёркивания и начинаться с прописной буквы. Например, "betty", "hjohnson" и "mary-jane" - допустимые имена, а "3friends", "John Smith" и "henry:miller" - нет. </p>
+'usr_CREATE_MODIFY_DESC' => '  Имя учётной записи должно содержать только прописные буквы, цифры, дефисы, точки и подчёркивания и начинаться с прописной буквы. Например, "betty", "hjohnson" и "mary-jane" - допустимые имена, а "3friends", "John Smith" и "henry:miller" - нет. 
 
   <p> Заметим, что два специальных псевдонима будут созданы для каждой новой учетной записи. Эти псевдонимы предоставляют возможность иметь альтернативные учетные записи тем пользователям, которые используют имя и фамилию, разделенные точкой (.) и подчеркиванием (_). Так, для учётной записи "betty" с именем "Betty" и фамилией "Rubble" будут созданы два псевдонима, betty.rubble и betty_rubble. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Изменить учётную запись администратора',
 'usr_USER_CREATED' => 'Учётная запись пользователя успешно создана.',
 'usr_USER_MODIFIED' => 'Учётная запись пользователя успешно изменена.',
-'usr_CANNOT_MODIFY_USER' => 'Ошибка: произошла внутренняя ошибка при попытке изменить пользователя "{$acctName}".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Ошибка: произошла внутренняя ошибка при попытке изменить группу "{$group}" для пользователя "{$acctName}".',
-'usr_TAINTED_USER' => 'Имя учётной записи "{$acctName}" содержит недопустимые символы.',
+'usr_CANNOT_MODIFY_USER' => 'Ошибка: произошла внутренняя ошибка при попытке изменить пользователя "[_1]".',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Ошибка: произошла внутренняя ошибка при попытке изменить группу "[_1]" для пользователя "[_2]".',
+'usr_TAINTED_USER' => 'Имя учётной записи "[_1]" содержит недопустимые символы.',
 'usr_ACCOUNT_NAME' => 'Имя учётной записи',
 'usr_FIRSTNAME' => 'Имя',
 'usr_LASTNAME' => 'Фамилия',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'Вы собираетесь изменить пароль для учетной записи пользователя',
 'usr_RESET_DESC2' => 'Введите новый пароль в поле ниже',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Произошла ошибка при обновлении пароля',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Успешно изменён пароль пользователя "{$acctName}".',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Успешно изменён пароль пользователя "[_1]".',
 'usr_LOCK_DESC' => 'Вы собираетесь заблокировать учетную запись пользователя',
-'usr_LOCKED_ACCOUNT' => 'Успешно заблокирована учётная запись пользователя "{$acctName}".',
-'usr_NO_SUCH_USER' => 'Ошибка: учётная запись пользователя "{$acctName}" не существует.',
-'usr_PSEUDONYM_CLASH' => 'Ошибка: псевдоним "{$pseudonym}" уже дан существующей учетной записи пользователя "{$clashName}". Для различения, добавьте инициалы в это поле.',
+'usr_LOCKED_ACCOUNT' => 'Успешно заблокирована учётная запись пользователя "[_1]".',
+'usr_NO_SUCH_USER' => 'Ошибка: учётная запись пользователя "[_1]" не существует.',
+'usr_PSEUDONYM_CLASH' => 'Ошибка: псевдоним "[_1]" уже дан существующей учетной записи пользователя "[_2]". Для различения, добавьте инициалы в это поле.',
 'usr_LOCK_ACCOUNT' => 'Блокировать учётную запись',
 'usr_LOCK_ACCOUNT_TITLE' => 'Блокировать учётную запись пользователя',
 'usr_LOCK_DESC2' => ' Эта учетная запись пользователя будет заблокирована. Это означает, что данный пользователь не сможет войти в систему, и не будет иметь возможности забирать почту. Любая принятая электронная почта будет храниться и/или перенаправлятся на внешний адрес электронной почты, как настроено. Учетная запись может быть задействована в будущем, установкой нового пароля. Текущий пароль не будет сохранен.   Вы уверены, что хотите заблокировать эту учётную запись? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Блокировать',
 'usr_NO_USER_ACCOUNTS' => 'В этой системе нет учётных записей пользователей.',
 'usr_Users' => 'Пользователи',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Имя учётной записи "{$acctName}" содержит недопустимые символы. Имена учётных записей должны начинаться с прописной буквы и содержать только прописные буквы, цифры, дефисы, точки и подчёркивания.',
-'usr_ACCOUNT_TOO_LONG' => 'Ошибка: слишком длинное имя учётной записи. Максимум - {$maxLength} символов.',
-'usr_ACCOUNT_CONFLICT' => 'Ошибка: учётная запись "{$account}" не может быть создана, т.к. уже есть учётная запись {$type} с таким именем.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Имя учётной записи "[_1]" содержит недопустимые символы. Имена учётных записей должны начинаться с прописной буквы и содержать только прописные буквы, цифры, дефисы, точки и подчёркивания.',
+'usr_ACCOUNT_TOO_LONG' => 'Ошибка: слишком длинное имя учётной записи. Максимум - [_1] символов.',
+'usr_ACCOUNT_CONFLICT' => 'Ошибка: учётная запись "[_1]" не может быть создана, т.к. уже есть учётная запись [_2] с таким именем.',
 'usr_ERR_OCCURRED_CREATING' => 'Произошла ошибка создания пользователя.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Это поле не может содержать пробелы',
 'usr_UNACCEPTABLE_CHARS' => 'Это поле должно содержать только буквы, цифры, точки, дефисы и подчёркивания и начинаться с буквы',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Новый системный пароль (подтверждение)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Загрузите цифровой сертификат в клиента IPSec',
 'usr_ERR_OCCURRED_DELETING' => 'Произошла ошибка при попытке удалить пользователя.',
+'usr_ADD_USER' => 'Добавить учетную запись пользователя',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'Пользователи',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

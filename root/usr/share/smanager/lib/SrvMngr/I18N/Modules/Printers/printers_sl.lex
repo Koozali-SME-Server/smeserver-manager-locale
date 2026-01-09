@@ -1,5 +1,5 @@
 'prt_FORM_TITLE' => 'Dodaj ali odstrani tiskalnik',
-'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Dodaj tiskalnik</a></p>
+'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Dodaj tiskalnik</a>
 
   ',
 'prt_NO_PRINTERS' => 'V sistemu ni nobenega tiskalnika.',
@@ -15,7 +15,7 @@
 'prt_NET_PRINTER' => 'Mrezni tiskalnik ...',
 'prt_FIRST_USB_PRINTER' => 'Prvi USB tiskalnik',
 'prt_SECOND_USB_PRINTER' => 'Drugi USB tiskalnik',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>Napaka: V imenu tiskalnika so nepravi znaki-crke. </p>
+'prt_ERR_UNEXPECTED_NAME' => ' Napaka: V imenu tiskalnika so nepravi znaki-crke. 
 
   <p>Ime tiskalnika lahko vsebuje samo male crke in stevilke naprimer "hplaser" ali "canonbj" in se mora zaceti z malo crko. </p>
 
@@ -40,3 +40,5 @@
 'prt_DELETED_SUCCESSFULLY' => 'Uspesno izbrisan tiskalnik:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Mora biti veljavno ime gostitelja ali IP stevilka',
 'prt_Printers' => 'Tiskalniki',
+'prt_INITIAL_BTN' => 'Dodaj tiskalnik',
+'Printers' => 'Tiskalniki',

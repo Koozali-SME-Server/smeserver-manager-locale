@@ -7,3 +7,4 @@
 'clm_NEVER' => 'Niciodata',
 'clm_DAILY' => 'Zilnic',
 'clm_SUCCESS' => 'Noile setari pentru antivirusul clamav au fost salvate.',
+'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',

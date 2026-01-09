@@ -1,7 +1,7 @@
 'bac_BACKUP_TITLE' => '备份或还原服务器数据',
 'bac_BACKUP_DESC' => ' <p>服务器提供两种备份还原方式: 使用本地工作站或磁带。</p>
 
-  <p>第一种方法是通过浏览器，创建一份服务器和用户配置的副本，然后下载到本地工作站。当前配置和数据文件一共大约 <b>[_3]</b>。备份文件会实际略小于此数字，这取决于压缩比例。 \"检查备份文件\" 选项用于检查备份文件的完整性。 </p>
+  <p>第一种方法是通过浏览器，创建一份服务器和用户配置的副本，然后下载到本地工作站。当前配置和数据文件一共大约 <b>[_3]</b>。备份文件会实际略小于此数字，这取决于压缩比例。 \\"检查备份文件\\" 选项用于检查备份文件的完整性。 </p>
 
   <p>磁带备份是在每天晚上使用一个叫<i>[_1]</i>的软件包备份整个硬盘。这要求使用未被写保护的磁带。在每天晚上的指定时间，备份就会自动运行。(白天会自动发送邮件提醒给管理员). 当前硬盘的数据大小共计<b>[_2]</b> 。</p>
 
@@ -109,7 +109,7 @@
 'bac_SERVER_REBOOT' => '服务器重启',
 'bac_SERVER_WILL_REBOOT' => '服务器即将重启。',
 'bac_NO_UID_FOR_NAME' => '不能获取用户id，名称为：',
-'bac_PAGE_REFRESH_IN' => ' 此页面将在 {$sec} 秒内重新加载， 或者点击 此处. ',
+'bac_PAGE_REFRESH_IN' => ' 此页面将在 [_1] 秒内重新加载， 或者点击 此处. ',
 'bac_Backup or restore' => '备份或者还原',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  服务器有太多数据需要备份到桌面。  ',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作组备份被禁用 ',
@@ -219,8 +219,13 @@
 'bac_TESTED_BACKUP' => '测试备份的完整性',
 'bac_RESTORE_VERIFY_FAILED' => '完整性检查失败',
 'bac_CHECK_INTEGRITY_WARNING' => '警告：对于较大的备份，检查完整性可能是一个长期性的任务，当工作组备份并禁用时，需要每天进行检查。',
-'bac_cifs' => 'cifs',
-'bac_nfs' => 'nfs',
+'bac_cifs' => 'CIFS',
+'bac_nfs' => 'NFS',
 'bac_local removable disk' => '本地移动磁盘',
 'bac_Mounted disk' => '已挂载的硬盘',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '参数已被保存，但是远程主机不可达，请检查您的设置。',
+'bac_No suitable local devices found' => '未找到合适的本地设备',
+'bac_TAPE_BACKUPS' => '磁带备份是',
+'Backup or restore' => '备份或还原',
+'bac_WORKSTN_BACKUPS' => '工作站备份为',
+'bac_ERR_EXTRACT' => '使用 Dar 提取时出错',

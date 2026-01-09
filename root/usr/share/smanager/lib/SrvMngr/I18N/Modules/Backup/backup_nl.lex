@@ -1,7 +1,7 @@
 'bac_BACKUP_TITLE' => 'Backup of herstel server data',
 'bac_BACKUP_DESC' => ' <p>De server heeft twee manieren van backup en herstellen van uw server.</p>
 
-  <p>De eerste methode creëert een kopie van de server configuratie en gebruikers bestanden en download het naar het bureaublad over uw webbrowser. Op dit moment is de omvang van uw configuratie en gebruikers bestanden ongeveer <b>[_3]</b>. Het backup bestand zal wat kleiner zijn afhankelijk van hoe de bestanden te comprimeren zijn. De \"Controleer bureaublad backup bestand\" optie kan gebruikt worden om de integriteit van het backup bestand te testen.</p>
+  <p>De eerste methode creëert een kopie van de server configuratie en gebruikers bestanden en download het naar het bureaublad over uw webbrowser. Op dit moment is de omvang van uw configuratie en gebruikers bestanden ongeveer <b>[_3]</b>. Het backup bestand zal wat kleiner zijn afhankelijk van hoe de bestanden te comprimeren zijn. De \\"Controleer bureaublad backup bestand\\" optie kan gebruikt worden om de integriteit van het backup bestand te testen.</p>
 
   <p>De tape backup methode gebruikt een software pakket genaamd <i>[_1]</i> om elke nacht de volledige harddisk naar tape te schrijven. Dit vereist een een ondersteunde tape drive en een tape die niet beveiligd is tegen schrijven. De backup wordt automatisch uitgevoerd op de ingestelde tijd \'s nachts (met een herinnering e-mail naar de beheerder gedurende de dag). Op dit moment bevat uw vaste schijfstation <b>[_2]</b> aan data.</p>
 
@@ -111,7 +111,7 @@
 'bac_SERVER_REBOOT' => 'Server herstart',
 'bac_SERVER_WILL_REBOOT' => 'Uw server zal nu herstarten.',
 'bac_NO_UID_FOR_NAME' => 'Kan uid niet vinden voor gebruiker:',
-'bac_PAGE_REFRESH_IN' => ' Deze pagina vernieuwt naar het status scherm binnen {$sec} seconden, of klik hier. ',
+'bac_PAGE_REFRESH_IN' => ' Deze pagina vernieuwt naar het status scherm binnen [_1] seconden, of klik hier. ',
 'Backup or restore' => 'Backup of herstel',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Uw server heeft te veel data voor een betrouwbare backup naar bureaublad.',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' Werkstation backups zijn niet geactiveerd ',
@@ -193,7 +193,7 @@
 'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Op dit moment is werkstation backup niet geconfigureerd. U kan dit instellen in dit en het volgende paneel.</p>
 
   <p/> ',
-'bac_WORKSTN_BACKUP_ENABLED' => 'Backup is',
+'bac_WORKSTN_BACKUP_ENABLED' => 'Back-up is',
 'bac_WORKSTN_BACKUP_USB' => 'Backup is gemaakt op lokale verwijderbare schijf',
 'bac_WORKSTN_BACKUP_MNT' => 'Backup is gemaakt op gemonteerde schijf',
 'bac_WORKSTN_BACKUP_HOST' => 'Backup is gemaakt op LAN werkstation',
@@ -225,4 +225,8 @@
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'Lokale verwijderbare schijf',
 'bac_Mounted disk' => 'Gemonteerde schijf',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'Geen geschikte lokale apparaten gevonden',
+'bac_TAPE_BACKUPS' => 'Tape-back-ups zijn',
+'bac_WORKSTN_BACKUPS' => 'Werkstationback-ups zijn',
+'bac_ERR_EXTRACT' => 'Fout bij het uitpakken met Dar',

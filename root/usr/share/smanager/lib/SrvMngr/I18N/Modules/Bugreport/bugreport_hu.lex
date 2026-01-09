@@ -21,3 +21,4 @@
 'bugr_THANK_YOU' => 'Köszönjük a támogatását!',
 'bugr_Download this report' => 'Töltse le ezt a jelentést !',
 'bugr_Report a bug' => 'Hiba bejelentése',
+'bugr_PREVIOUS_SERVER_MODE' => '(en)Previous server mode',

@@ -117,7 +117,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Hiba: Érvénytelen, vagy hiányzó karakterek a leírásban',
 'FM_IP_NUMBER1' => 'Ennek a mezőnek egy érvényes IP címet kell tartalmaznia és nem hagyható üresen.',
 'FM_IP_NUMBER2' => 'Érvénytelen IP cím formátum (X.X.X.X az elfogadott)',
-'FM_IP_NUMBER3' => 'A {$octet} nagyobb mint 255',
+'FM_IP_NUMBER3' => 'A [_1] nagyobb mint 255',
 'FM_MAC_ADDRESS1' => 'Meg kell adnia egy MAC címet.',
 'FM_MAC_ADDRESS2' => 'A megadott MAC cím érvénytelen volt.',
 'FM_NONBLANK' => 'Ez a mező nem maradhat üresen.',

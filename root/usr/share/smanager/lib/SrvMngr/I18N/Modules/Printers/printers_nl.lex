@@ -34,3 +34,4 @@
 'prt_DELETED_SUCCESSFULLY' => 'Printer is met succes verwijderd:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Moet een geldige hostnaam of IP adres zijn',
 'Printers' => 'Printers',
+'prt_INITIAL_BTN' => 'Printer toevoegen',

@@ -1,11 +1,11 @@
 'iba_FORM_TITLE' => 'Criar, modificar ou remover compartilhamentos',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Adicionar i-bay</a> </p>
+'iba_FIRSTPAGE_DESC' => '  Adicionar i-bay 
 
-  <p> Voce pode remover qualquer informação do compartilhamento ou resetar a senha clicando no comando correspondente próximo ao compartilhamento. Se o compartilhamento estiver em vermelho, isto significa que a senha ainda não foi definida, e deverá ser trocada tão logo possível. </p>
+   Voce pode remover qualquer informação do compartilhamento ou resetar a senha clicando no comando correspondente próximo ao compartilhamento. Se o compartilhamento estiver em vermelho, isto significa que a senha ainda não foi definida, e deverá ser trocada tão logo possível. 
 
   ',
 'iba_ADD_TITLE' => 'Criar ou modificar um i-bay',
-'iba_NAME_FIELD_DESC' => 'O nome do compartilhamento deverá conter somente letras minúsculas números, pontos, hífens e sublinhado, e deverá iniciar com letra minúscula. Por exemplo "joao", "intra", e "cust3.prj12" são todos nomes válidos, mas "3associados", "Joao Silva" e "Parceiros!Comerciais" não são. O tamanho do nome está limitado a {$maxLength} caracteres.',
+'iba_NAME_FIELD_DESC' => 'O nome do compartilhamento deverá conter somente letras minúsculas números, pontos, hífens e sublinhado, e deverá iniciar com letra minúscula. Por exemplo "joao", "intra", e "cust3.prj12" são todos nomes válidos, mas "3associados", "Joao Silva" e "Parceiros!Comerciais" não são. O tamanho do nome está limitado a [_1] caracteres.',
 'iba_NAME_LABEL' => 'Nome do compartilhamento',
 'iba_USER_ACCESS' => 'Acesso do usuário via compartilhamento de arquivos ou ftp',
 'iba_PUBLIC_ACCESS' => 'Acesso público via web ou ftp anônimo',
@@ -13,32 +13,32 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Conteúdo de execução dinâmica (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Forçar conexões seguras',
 'iba_REMOVE_TITLE' => 'Remover compartilhamento',
-'iba_REMOVE_DESC' => ' <p> Você está prestes a remover o compartilhamento "{$name}" ({$description}). </p>
+'iba_REMOVE_DESC' => '  Você está prestes a remover o compartilhamento "[_1]" ([_2]). 
 
-  <p> Todos os arquivos pertencentes a este compartilhamento serão apagados. </p>
+   Todos os arquivos pertencentes a este compartilhamento serão apagados. 
 
-  <p> Você tem certeza que deseja remover este compartilhamento? </p>
+   Você tem certeza que deseja remover este compartilhamento? 
 
   ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Um erro ocoreu quando criava o compartilhamento.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Compartilhamento criado com sucesso.',
 'iba_NO_IBAYS' => 'Não existe nenhum compartilhamento configurado.',
-'iba_CANT_FIND_IBAY' => 'Incapaz de encontrar conta para {$name} (isto não existe?)',
-'iba_CANT_CREATE_IBAY' => 'Incapaz de criar conta para {$name} (isto já existe?)',
+'iba_CANT_FIND_IBAY' => 'Incapaz de encontrar conta para [_1] (isto não existe?)',
+'iba_CANT_CREATE_IBAY' => 'Incapaz de criar conta para [_1] (isto já existe?)',
 'iba_ERROR_WHILE_MODIFYING_IBAY' => 'Ocorreu um erro quando modificava a i-bay.',
 'iba_SUCCESSFULLY_MODIFIED_IBAY' => 'Compartilhamento modificado com sucesso.',
 'iba_VIRTUAL_HOST_MESSAGE' => 'Os seguinte domínios virtuais estavam usando este compartilhamento como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde).',
 'iba_SUCCESSFULLY_DELETED_IBAY' => 'Compartilhamento eliminado com sucesso.',
 'iba_ERROR_WHILE_DELETING_IBAY' => 'Um erro ocorreu enquanto eliminava o compartilhamento.',
-'iba_PASSWORD_DESC' => 'Você está prestes a trocar a senha do compartilhamento {$name}.',
+'iba_PASSWORD_DESC' => 'Você está prestes a trocar a senha do compartilhamento [_1].',
 'iba_IBAY_PASSWD_VALIDATION_ERROR' => 'A senha deve conter apenas letras e números.',
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'As senhas que você entrou não são iguais.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Senha resetada com sucesso.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Erro enquanto resetava senha.',
-'iba_VHOST_MESSAGE' => ' <p>Os seguinte domínios virtuais estavam usando este compartilhamento como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde):</p>
+'iba_VHOST_MESSAGE' => ' Os seguinte domínios virtuais estavam usando este compartilhamento como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde):
 
-  <ul>{$vhostList}</ul> ',
-'Information bays' => 'Compartilhamentos',
+  <ul>[_1]</ul> ',
+'iba_Information bays' => 'Compartilhamentos',
 'iba_WGRG' => 'Escrever = grupo, Ler = grupo',
 'iba_WGRE' => 'Escrever = grupo, Ler = todos',
 'iba_WARG' => 'Escrever = admin, Ler = grupo',
@@ -49,7 +49,18 @@
 'iba_ENTIRE_INTERNET_PASSWORD' => 'Toda a Internet (requer senha)',
 'iba_ENTIRE_INTERNET_PASSWORD_REMOTE' => 'Toda a Internet (requer senha para rede externa)',
 'iba_INVALID_IBAY_DESCRIPTION' => 'Erro: inesperado ou ausência de caracter na descrição da i-bay',
-'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'O nome de i-bay "{$acctName}" contem caracteres inválidos. Nome de I-bay tem que iniciar com letra minúscula e conter somente letras minúsculas, números e hifens.',
-'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'O nome do i-bay "{$name}" é muito longo. O máximo é de {$maxIbayNameLength} caracteres.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A conta "{$acctName}" conflita com detalhes do apelido para a conta "{$acct}" do tipo {$acctType}. {$acctName} é um apelido para {$acct}. ',
-'iba_ACCOUNT_EXISTS' => 'A conta "{$acctName}" é uma conta do tipo {$acctType} já existente.',
+'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'O nome de i-bay "[_1]" contem caracteres inválidos. Nome de I-bay tem que iniciar com letra minúscula e conter somente letras minúsculas, números e hifens.',
+'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'O nome do i-bay "[_1]" é muito longo. O máximo é de [_1] caracteres.',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A conta "[_1]" conflita com detalhes do apelido para a conta "[_3]" do tipo [_2]. [_1] é um apelido para [_3]. ',
+'iba_ACCOUNT_EXISTS' => 'A conta "[_1]" é uma conta do tipo [_2] já existente.',
+'iba_ADD_IBAY' => 'Adicionar i-bay',
+'WGRG' => '(en)Write = group, Read = group',
+'WGRE' => '(en)Write = group, Read = everyone',
+'WARG' => '(en)Write = admin, Read = group',
+'NONE' => 'Sem acesso',
+'LOCAL_NETWORK_NO_PASSWORD' => 'Rede local (não é necessária palavra-passe)',
+'LOCAL_NETWORK_PASSWORD' => 'Rede local (senha necessária)',
+'ENTIRE_INTERNET_NO_PASSWORD' => 'Internet inteira (não é necessária palavra-passe)',
+'ENTIRE_INTERNET_PASSWORD' => 'Internet inteira (senha necessária)',
+'ENTIRE_INTERNET_PASSWORD_REMOTE' => '(en)Entire Internet (password required outside local network)',
+'INVALID_IBAY_DESCRIPTION' => '(en)Error: unexpected or missing characters in i-bay description',

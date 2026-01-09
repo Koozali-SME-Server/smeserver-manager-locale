@@ -11,22 +11,28 @@
 'ln_REMOVE_CONFIRM' => '是否要删除这个网络？',
 'ln_DEFAULT' => '默认',
 'ln_NUMBER_OF_HOSTS' => '主机数量',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => '错误：从本地网络无法访问路由地址{$networkRouter}。无法添加这个网络。',
-'ln_NETWORK_ALREADY_LOCAL' => '错误：网络{$network} （由网络{$networkAddress}和子网掩码{$networkMask}衍生而来）已被视为本地网络。无法添加新网络。',
-'ln_NETWORK_ALREADY_ADDED' => '错误：网络{$network} （由网络{$networkAddress}和子网掩码{$networkMask}衍生而来）已被添加。无法添加新网络。',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => '错误：从本地网络无法访问路由地址[_1]。无法添加这个网络。',
+'ln_NETWORK_ALREADY_LOCAL' => '错误：网络[_1] （由网络[_2]和子网掩码[_3]衍生而来）已被视为本地网络。无法添加新网络。',
+'ln_NETWORK_ALREADY_ADDED' => '错误：网络[_1] （由网络[_2]和子网掩码[_3]衍生而来）已被添加。无法添加新网络。',
 'ln_ERROR_CREATING_NETWORK' => '尝试创建网络时出错。',
-'ln_SUCCESS' => '成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。',
-'ln_SUCCESS_SINGLE_ADDRESS' => '成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。服务器将赋予IP地址{$network}访问本地网络的权限。',
-'ln_SUCCESS_NETWORK_RANGE' => '成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。服务器将赋予在{$firstAddr} 和{$lastAddr}之间的{$totalHosts}个IP地址访问本地网络的权限。',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> 成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。 </p>
+'ln_SUCCESS' => '成功添加网络 [_1]/[_2] 通过路由器 [_3]。',
+'ln_SUCCESS_SINGLE_ADDRESS' => '成功添加网络 [_1]/[_2] 通过路由器 [_3]。服务器将赋予IP地址[_4]访问本地网络的权限。',
+'ln_SUCCESS_NETWORK_RANGE' => '成功添加网络 [_1]/[_2] 通过路由器 [_3]。服务器将赋予在[_4] 和[_5]之间的[_6]个IP地址访问本地网络的权限。',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  成功添加网络 [_1]/[_2] 通过路由器 [_3]。 
 
-  <p> 服务器将赋予在{$firstAddr} 和{$lastAddr}之间的{$totalHosts}个IP地址访问本地网络的权限。 </p>
+  <p> 服务器将赋予在[_1] 和[_2]之间的[_3]个IP地址访问本地网络的权限。 </p>
 
-  <p> 警告:ProFTPd FTP 服务器不能处理这种非标准的子网掩码。 简单的说明 <b>{$simpleMask}</b> 将会被替代。 </p>
+  <p> 警告:ProFTPd FTP 服务器不能处理这种非标准的子网掩码。 简单的说明 <b>[_1]</b> 将会被替代。 </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => '成功添加网络 {$network}/{$networkMask} 通过路由器 {$networkRouter}。',
+'ln_SUCCESS_REMOVED_NETWORK' => '成功添加网络 [_1]/[_2] 通过路由器 [_3]。',
 'ln_ERROR_DELETING_NETWORK' => '尝试删除网络地址时出错。',
 'ln_NO_ADDITIONAL_NETWORKS' => '暂无其他网络',
 'ln_REMOVE_HOSTS_DESC' => '您要删除的本地主机的网络配置已经被检测到。默认情况下，它们也需要被移除。如果出于某种原因，您不希望发生这种事情，可以取消。请注意，当这个网络被移除后，他们不会被视为本地主机，甚至有可能不能访问。',
 'ln_REMOVE_HOSTS_LABEL' => '删除主机，位于网络',
+'ln_LOCAL NETWORKS' => '本地网络',
+'Local networks' => '本地网络',
+'ln_LOCALNETWORK_ADD' => '添加网络',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] 通过路由器 [_3]',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',

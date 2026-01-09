@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Buat, ubah, atau hapus akun pengguna',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Buat akun pengguna</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Buat akun pengguna</a> 
 
   <p> Anda dapat mengubah, mengunci atau menghapus akun atau me-reset password akun dengan mengklik perintah yang sesuai. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Buat atau ubah',
-'usr_CREATE_MODIFY_DESC' => ' <p> Nama akun hanya boleh terdiri dari huruf kecil, angka, hyphen, titik, garis bawah, dan harus dimulai dengan huruf kecil. Contoh "betty", "hjohnson", and "mary-jane" adalah nama akun yang valid account , tetapi "3friends", "John Smith", and "henry:miller" tidak. </p>
+'usr_CREATE_MODIFY_DESC' => '  Nama akun hanya boleh terdiri dari huruf kecil, angka, hyphen, titik, garis bawah, dan harus dimulai dengan huruf kecil. Contoh "betty", "hjohnson", and "mary-jane" adalah nama akun yang valid account , tetapi "3friends", "John Smith", and "henry:miller" tidak. 
 
   <p> Perhatikan bahwa dua nama pseudonym akan dibuat untuk setiap nama akun. Pseudonym tersebut dibuat agar terdapat akun email alternatif untuk user tersebut yaitu nama depan dan nama belakan yang terpisah dengan titik (.)dan garis bawah(_). Jadi untuk akun "betty" dengan nama depan"Betty" dan nama belakang "Rubble" dua pseudonym akan dibuat sebagai betty.rubble dan betty_rubble. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Ubah akun admin',
 'usr_USER_CREATED' => 'Berhasil membuat akun pengguna',
 'usr_USER_MODIFIED' => 'Berhasil mengubah akun pengguna.',
-'usr_CANNOT_MODIFY_USER' => 'Error: terjadi kesalahan internal saat mencoba mengubah user "{$acctName}".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: terjadi kesalahan internal saat mencoba mengubah group "{$group}" untuk pengguna "{$acctName}".',
-'usr_TAINTED_USER' => 'Nama akun "{$acctName}" mengandung karakter yang tidak valid.',
+'usr_CANNOT_MODIFY_USER' => 'Error: terjadi kesalahan internal saat mencoba mengubah user "[_1]".',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Error: terjadi kesalahan internal saat mencoba mengubah group "[_1]" untuk pengguna "[_2]".',
+'usr_TAINTED_USER' => 'Nama akun "[_1]" mengandung karakter yang tidak valid.',
 'usr_ACCOUNT_NAME' => 'Nama Akun',
 'usr_FIRSTNAME' => 'Nama depan',
 'usr_LASTNAME' => 'Nama belakang',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'Anda akan mengubah passwork untuk akun user',
 'usr_RESET_DESC2' => 'masukkan password yang baru dibawah ini',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Terjadi kesalahan saat meng-update password',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Berhasil mengubah password user "{$acctName}".',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Berhasil mengubah password user "[_1]".',
 'usr_LOCK_DESC' => 'Anda akan mengunci akun pengguna',
-'usr_LOCKED_ACCOUNT' => 'Berhasil mengunci akun pengguna "{$acctName}".',
-'usr_NO_SUCH_USER' => 'Error : Akun "{$acctName}" tidak ada',
-'usr_PSEUDONYM_CLASH' => 'Error: pseudonym "{$pseudonym}" sudah digunakan oleh akun user "{$clashName}". Untuk membedakan, tambahkan inisial kedalam field ini.',
+'usr_LOCKED_ACCOUNT' => 'Berhasil mengunci akun pengguna "[_1]".',
+'usr_NO_SUCH_USER' => 'Error : Akun "[_1]" tidak ada',
+'usr_PSEUDONYM_CLASH' => 'Error: pseudonym "[_1]" sudah digunakan oleh akun user "[_2]". Untuk membedakan, tambahkan inisial kedalam field ini.',
 'usr_LOCK_ACCOUNT' => 'Kunci akun',
 'usr_LOCK_ACCOUNT_TITLE' => 'Kunci akun pengguna',
 'usr_LOCK_DESC2' => ' Akun pengguna ini akan dikunci. Artinya user ini tidak akan bisa login, dan tidak bisa mengambil e-mail. Semua e-mail yang masuk akan tetap disimpan maupun diteruskan kepada alamat email external, seperti yang telah dikonfigurasi. Akun dapat diaktifkan kembali dengan memasukkan password baru. Password yang sekarang tidak akan disimpan.   Anda yakin mengunci akun ini? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Kunci',
 'usr_NO_USER_ACCOUNTS' => 'Tidak ada akun pengguna dalam sistem ini',
 'usr_Users' => 'Pengguna',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Nama pengguna "{$acctName}" mengandung karakter yang tidak valid. Nama akun harus dimulai dengan huruf kecil dan hanya boleh terdiri dari huruf kecil, angka, hyphen, titik dan garis bawah.',
-'usr_ACCOUNT_TOO_LONG' => 'Error : nama akun terlalu panjang. Maksimal {$maxLength}karakter.',
-'usr_ACCOUNT_CONFLICT' => 'Error: Akun "{$account}" tidak dapat dibuat karena sudah ada {$type} akun yang menggunakan nama tersebut.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Nama pengguna "[_1]" mengandung karakter yang tidak valid. Nama akun harus dimulai dengan huruf kecil dan hanya boleh terdiri dari huruf kecil, angka, hyphen, titik dan garis bawah.',
+'usr_ACCOUNT_TOO_LONG' => 'Error : nama akun terlalu panjang. Maksimal [_1]karakter.',
+'usr_ACCOUNT_CONFLICT' => 'Error: Akun "[_1]" tidak dapat dibuat karena sudah ada [_2] akun yang menggunakan nama tersebut.',
 'usr_ERR_OCCURRED_CREATING' => 'Terjadi kesalahan saat membuat akun pengguna',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Field ini tidak boleh berisi spasi kosong',
 'usr_UNACCEPTABLE_CHARS' => 'Field ini hanya boleh terdiri atas huruf, angka, titik, hyphen, dan garis bawah dan dimulai dengan huruf',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Password system yang baru (verifikasi)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Unduh digital certificate ke client IPSec ',
 'usr_ERR_OCCURRED_DELETING' => 'Terjadi kesalahan saat mencoba menghapus user.',
+'usr_ADD_USER' => 'Tambahkan akun pengguna',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'Pengguna',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

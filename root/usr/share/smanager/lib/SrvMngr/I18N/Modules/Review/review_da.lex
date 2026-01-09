@@ -29,3 +29,7 @@
 'rvw_NO_VIRTUAL_DOMAINS' => 'Ingen virtuelle domæner defineret',
 'rvw_NO_NETWORKS' => 'Ingen yderligere netværk defineret',
 'rvw_INTERNET_VISIBLE_ADDRESS' => 'Internet Synlige IP Adresse',
+'rvw_FORM_TITLE' => 'Gennemgå konfiguration',
+'rvw_SERVER_MANAGER' => 'Serveradministrator',
+'rvw_USER_PASSWORD_PANEL' => 'Panel til brugeradgangskode',
+'Review configuration' => 'Gennemgå konfiguration',

@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Supprimer le pseudonyme',
 'pse_ABOUT_TO_REMOVE' => ' Vous êtes sur le point de supprimer le pseudonyme. Voulez-vous vraiment continuer ? ',
 'pse_FORM_TITLE' => 'Gestion des pseudonymes',
-'pse_DESCRIPTION' => ' <p>Le serveur crée automatiquement un alias de courriel pour chaque groupe. Si vous voulez définir un alias de courriel pour une liste d\'utilisateurs, il suffit simplement de créer un groupe contenant l\'ensemble des utilisateurs de la liste et celle-ci sera automatiquement gérée par le serveur.</p>
+'pse_DESCRIPTION' => ' Le serveur crée automatiquement un alias de courriel pour chaque groupe. Si vous voulez définir un alias de courriel pour une liste d\'utilisateurs, il suffit simplement de créer un groupe contenant l\'ensemble des utilisateurs de la liste et celle-ci sera automatiquement gérée par le serveur.
 
   <p>Les pseudonymes vous permettent de créer d\'autres noms pour des utilisateurs ou des groupes existants. Par exemple, vous pouvez créer le pseudonyme "webmestre" pour le groupe "concepteurs Web" ou le pseudonyme "joe" pour l\'utilisateur "joseph".</p>
 

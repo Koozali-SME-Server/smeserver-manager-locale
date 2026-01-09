@@ -1,11 +1,11 @@
 'iba_FORM_TITLE' => 'Informatie-baaien toevoegen, wijzigen of verwijderen',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify"> informatie-baai toevoegen</a> </p>
+'iba_FIRSTPAGE_DESC' => '   informatie-baai toevoegen 
 
-  <p> Elke informatie-baai kan worden verwijderd of het wachtwoord kan worden hersteld door op het corresponderende commando te klikken achter de betreffende informatie-baai. Als de informatie-baai in het rood wordt aangegeven betekend dit dat het standaard wachtwoord nog niet is aangepast en dat dit op korte termijn nog dient te gebeuren. </p>
+   Elke informatie-baai kan worden verwijderd of het wachtwoord kan worden hersteld door op het corresponderende commando te klikken achter de betreffende informatie-baai. Als de informatie-baai in het rood wordt aangegeven betekend dit dat het standaard wachtwoord nog niet is aangepast en dat dit op korte termijn nog dient te gebeuren. 
 
   ',
 'iba_ADD_TITLE' => 'Toevoegen of wijzigen van een informatie-baai',
-'iba_NAME_FIELD_DESC' => 'De informatie-baai naam mag enkel bestaan uit kleine letters, cijfers, punten, koppeltekens en lage streepjes en dient te beginnen met een kleine letter. Bijvoorbeeld "johnson", "intra" en "cust3.prj12" zijn correcte namen, maar "3vrienden", "Jan Smit" en "Bus!Partner" zijn dit niet. De lengte van de naam is gelimiteerd tot {$maxLength} tekens.',
+'iba_NAME_FIELD_DESC' => 'De informatie-baai naam mag enkel bestaan uit kleine letters, cijfers, punten, koppeltekens en lage streepjes en dient te beginnen met een kleine letter. Bijvoorbeeld "johnson", "intra" en "cust3.prj12" zijn correcte namen, maar "3vrienden", "Jan Smit" en "Bus!Partner" zijn dit niet. De lengte van de naam is gelimiteerd tot [_1] tekens.',
 'iba_NAME_LABEL' => 'Informatie-baai naam',
 'iba_USER_ACCESS' => 'Gebruikers toegang via bestandsdeling of gebruikers-ftp',
 'iba_PUBLIC_ACCESS' => 'Publiekelijke toegang via internet of anonieme ftp',
@@ -13,32 +13,32 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Uitvoeren van dynamische inhoud (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Forceer beveiligde verbindingen',
 'iba_REMOVE_TITLE' => 'Informatie-baai verwijderen',
-'iba_REMOVE_DESC' => ' <p> U staat op het punt om de informatie-baai"{$name}" ({$description}) te verwijderen. </p>
+'iba_REMOVE_DESC' => '  U staat op het punt om de informatie-baai"[_1]" ([_2]) te verwijderen. 
 
-  <p> Alle bestanden welke zich in deze informatie-baai bevinden zullen verloren gaan. </p>
+   Alle bestanden welke zich in deze informatie-baai bevinden zullen verloren gaan. 
 
-  <p> Weet u zeker dat u deze informatie-baai wilt verwijderen? </p>
+   Weet u zeker dat u deze informatie-baai wilt verwijderen? 
 
   ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Er is een fout opgetreden tijdens het aanmaken van de informatie-baai.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Informatie-baai is met succes toegevoegd.',
 'iba_NO_IBAYS' => 'Er zijn momenteel geen informatie-baaien geconfigureerd.',
-'iba_CANT_FIND_IBAY' => 'Kan geen account vinden voor {$name} (bestaat deze account?)',
-'iba_CANT_CREATE_IBAY' => 'Kan geen nieuw account toevoegen voor {$name} (bestaat deze al?)',
+'iba_CANT_FIND_IBAY' => 'Kan geen account vinden voor [_1] (bestaat deze account?)',
+'iba_CANT_CREATE_IBAY' => 'Kan geen nieuw account toevoegen voor [_1] (bestaat deze al?)',
 'iba_ERROR_WHILE_MODIFYING_IBAY' => 'Er is een fout opgetreden tijdens het wijzigen van de informatie-baai.',
 'iba_SUCCESSFULLY_MODIFIED_IBAY' => 'Informatie-baai is met succes gewijzigd.',
 'iba_VIRTUAL_HOST_MESSAGE' => 'De volgende virtuele domeinen gebruiken deze informatie-baai voor hun inhoud. Dit zal worden aangepast naar de primaire web site (u kunt dit achteraf aanpassen).',
 'iba_SUCCESSFULLY_DELETED_IBAY' => 'Informatie-baai is met succes verwijderd.',
 'iba_ERROR_WHILE_DELETING_IBAY' => 'Er is een fout opgetreden tijdens het verwijderen van de informatie-baai.',
-'iba_PASSWORD_DESC' => 'U staat op het punt om het wachtwoord te veranderen voor de informatie-baai {$name}.',
+'iba_PASSWORD_DESC' => 'U staat op het punt om het wachtwoord te veranderen voor de informatie-baai [_1].',
 'iba_IBAY_PASSWD_VALIDATION_ERROR' => 'Het wachtwoord mag enkel letters en cijfers bevatten.',
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'De wachtwoorden zijn niet gelijk.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Wachtwoord is met succes gewijzigd.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Fout tijdens het wijzigen van het wachtwoord.',
-'iba_VHOST_MESSAGE' => ' <p>De volgende virtuele domeinen gebruikten deze informatie-baai voor hun inhoud, dit zal worden aangepast naar de primaire web site (dit kan achteraf worden aangepast):</p>
+'iba_VHOST_MESSAGE' => ' De volgende virtuele domeinen gebruikten deze informatie-baai voor hun inhoud, dit zal worden aangepast naar de primaire web site (dit kan achteraf worden aangepast):
 
-  <ul>{$vhostList}</ul> ',
-'Information bays' => 'Informatie-baaien',
+  <ul>[_1]</ul> ',
+'iba_Information bays' => 'Informatie-baaien',
 'iba_WGRG' => 'Schrijven = groep, Lezen = groep',
 'iba_WGRE' => 'Schrijven = groep, Lezen = iedereen',
 'iba_WARG' => 'Schrijven = beheerder, Lezen = groep',
@@ -49,7 +49,18 @@
 'iba_ENTIRE_INTERNET_PASSWORD' => 'Gehele Internet (wachtwoord vereist)',
 'iba_ENTIRE_INTERNET_PASSWORD_REMOTE' => 'Gehele Internet (wachtwoord vereist buiten het lokale netwerk)',
 'iba_INVALID_IBAY_DESCRIPTION' => 'Fout: onverwachte of missende tekens in de informatie-baai beschrijving',
-'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'De informatie-baai naam "{$acctName}" bevat ongeldige tekens. Informatie-baai namen dienen te starten met een kleine letter en mogen enkel kleine letters, cijfers en koppeltekens bevatten.',
-'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'De informatie-baai naam "{$name}" is te lang. Demaximale lengte is {$maxIbayNameLength} tekens.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' De account "{$acctName}" heeft een conflict met pseudoniem details voor {$acctType} account "{$acct}". {$acctName} is een pseudoniem voor {$acct}. ',
-'iba_ACCOUNT_EXISTS' => 'De account "{$acctName}" is een bestaande {$acctType} account.',
+'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'De informatie-baai naam "[_1]" bevat ongeldige tekens. Informatie-baai namen dienen te starten met een kleine letter en mogen enkel kleine letters, cijfers en koppeltekens bevatten.',
+'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'De informatie-baai naam "[_1]" is te lang. Demaximale lengte is [_1] tekens.',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' De account "[_1]" heeft een conflict met pseudoniem details voor [_2] account "[_3]". [_1] is een pseudoniem voor [_3]. ',
+'iba_ACCOUNT_EXISTS' => 'De account "[_1]" is een bestaande [_2] account.',
+'iba_ADD_IBAY' => 'I-bay toevoegen',
+'WGRG' => '(en)Write = group, Read = group',
+'WGRE' => '(en)Write = group, Read = everyone',
+'WARG' => '(en)Write = admin, Read = group',
+'NONE' => 'Geen toegang',
+'LOCAL_NETWORK_NO_PASSWORD' => 'Lokaal netwerk (geen wachtwoord vereist)',
+'LOCAL_NETWORK_PASSWORD' => 'Lokaal netwerk (wachtwoord vereist)',
+'ENTIRE_INTERNET_NO_PASSWORD' => 'Volledig internet (geen wachtwoord vereist)',
+'ENTIRE_INTERNET_PASSWORD' => 'Volledig internet (wachtwoord vereist)',
+'ENTIRE_INTERNET_PASSWORD_REMOTE' => '(en)Entire Internet (password required outside local network)',
+'INVALID_IBAY_DESCRIPTION' => '(en)Error: unexpected or missing characters in i-bay description',

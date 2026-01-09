@@ -8,3 +8,5 @@
 'prx_ERR_NO_SQUID_REC' => 'FOUT: Er is geen Squid record in de configuratiedatabase.',
 'prx_SUCCESS' => 'De nieuwe proxy-instellingen zijn met succes gewijzigd.',
 'prx_BLOCKED' => 'Geblokkeerd',
+'prx_TITLE' => 'Proxy-instellingen',
+'prx_Proxy' => 'Proxy',

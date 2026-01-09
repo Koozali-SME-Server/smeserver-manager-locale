@@ -34,3 +34,5 @@
 'prt_DELETED_SUCCESSFULLY' => 'Sikeresen eltávolított nyomtató:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Érvényes névnek és IP címnek kell lennie',
 'prt_Printers' => 'Nyomtatók',
+'prt_INITIAL_BTN' => 'Nyomtató hozzáadása',
+'Printers' => 'Nyomtatók',

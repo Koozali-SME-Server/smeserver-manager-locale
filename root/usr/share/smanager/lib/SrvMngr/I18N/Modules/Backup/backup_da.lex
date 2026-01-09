@@ -1,7 +1,7 @@
 'bac_BACKUP_TITLE' => 'Lav sikkerhedskopi eller gendan server data',
 'bac_BACKUP_DESC' => ' <p> Denne server giver 2 muligheder for at sikkerhedskopiere eller gendanne din server: Sikkerhedskopi til arbejdsstation og sikkerhedskopi til bånd.</p>
 
-  <p>Den første metode danner en kopi af din serverkonfiguration og brugerdata, og giver dig mulighed for gemme sikkerhedskopien på din arbejdsstation via en browser. Dine nuværende serveropsætning og brugerdate fylder ca. <b>[_3]</b>. Sikkerhedskopien vil være en smule mindre, afhængig af hvor meget data kan komprimeres. Valgmuligheden \"Undersøg sikkerhedskopi til arbejdsstation\" kan bruges til at kontrollere sikkerhedskopien.</p>
+  <p>Den første metode danner en kopi af din serverkonfiguration og brugerdata, og giver dig mulighed for gemme sikkerhedskopien på din arbejdsstation via en browser. Dine nuværende serveropsætning og brugerdate fylder ca. <b>[_3]</b>. Sikkerhedskopien vil være en smule mindre, afhængig af hvor meget data kan komprimeres. Valgmuligheden \\"Undersøg sikkerhedskopi til arbejdsstation\\" kan bruges til at kontrollere sikkerhedskopien.</p>
 
   <p> Sikkerhedskopi til bånd anvender programmet <i>[_1]</i> til at lave en sikkerhedskopi af hele harddisken hver nat. Det kræver en understøttet båndstation og et isat bånd, der ikke er skrivebeskyttet. Sikkerhedskopien dannes automatisk på det valgte tidspunkt hver nat (der sendes automatisk en påmindelse til administrator om dagen). P.t. indeholder din hardisk <b>[_2]</b> data. </p>
 
@@ -79,7 +79,7 @@
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Tidspunkt for udsendelse af påmindelse (time(0-11)/min(0-59))',
 'bac_AM/PM' => 'AM (før middag) / PM (efter middag)',
 'bac_AM' => 'AM (før middag)',
-'bac_PM' => 'PM (efter middag)',
+'bac_PM' => 'PM (eftermiddag)',
 'bac_UPDATE_CONF' => 'Opdater',
 'bac_UPDATING_TAPE_CONF' => 'Opdaterer opsætning af sikkerhedskopi til bånd',
 'bac_ERR_INVALID_HOUR' => 'Fejl: Ulovlig sikkerhedskopi time:',
@@ -111,7 +111,7 @@
 'bac_SERVER_REBOOT' => 'Servergenstart',
 'bac_SERVER_WILL_REBOOT' => 'Din server vil nu genstarte.',
 'bac_NO_UID_FOR_NAME' => 'Kunne ikke finde brugerID for brugeren:',
-'bac_PAGE_REFRESH_IN' => ' Siden vil genopfiske statusvisningen om {$sec} sekunder, ellers klik her. ',
+'bac_PAGE_REFRESH_IN' => ' Siden vil genopfiske statusvisningen om [_1] sekunder, ellers klik her. ',
 'bac_Backup or restore' => 'Sikkerhedskopi eller gendannelse',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Din server har for mange data til en pålidelig sikkerhedskopi til arbejdsstation.',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' Sikkerhedskopi til lokalnet er deaktiveret ',
@@ -226,3 +226,8 @@
 'bac_local removable disk' => 'Lokal flytbar disk',
 'bac_Mounted disk' => 'Tilsluttet disk',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'Parametrene er blevet gemt, men den eksterne vært kan ikke nås, kontroller venligst din opsætning.',
+'bac_No suitable local devices found' => 'Ingen egnede lokale enheder fundet',
+'bac_TAPE_BACKUPS' => 'Båndsikkerhedskopier er',
+'Backup or restore' => 'Sikkerhedskopier eller gendan',
+'bac_WORKSTN_BACKUPS' => 'Backup af arbejdsstationer er',
+'bac_ERR_EXTRACT' => 'Fejl ved udtrækning med Dar',

@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Remove pseudonym',
 'pse_ABOUT_TO_REMOVE' => ' You are about to remove the pseudonym: Are you sure you wish to continue? ',
 'pse_FORM_TITLE' => 'Create, modify, or remove pseudonyms',
-'pse_DESCRIPTION' => ' <p>The server automatically creates an e-mail alias for each group. If you want to define an e-mail alias for a list of users, simply create a group and the list will automatically be maintained by the server.</p>
+'pse_DESCRIPTION' => ' The server automatically creates an e-mail alias for each group. If you want to define an e-mail alias for a list of users, simply create a group and the list will automatically be maintained by the server.
 
   <p>Pseudonyms allow you to create other names for existing users or groups. For example, you may wish to create a pseudonym "webmaster" for your "webdevelopers" group or a pseudonym "joe" for the user "joseph".</p>
 

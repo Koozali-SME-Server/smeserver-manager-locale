@@ -11,22 +11,27 @@
 'ln_REMOVE_CONFIRM' => 'Er du sikker på at du vil fjerne dette lokale netværk?',
 'ln_DEFAULT' => 'standard',
 'ln_NUMBER_OF_HOSTS' => 'Antal værter',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Fejl: Der er ingen adgang til router-adressen {$networkRouter} fra lokal-nettet. Netværket blev ikke oprettet.',
-'ln_NETWORK_ALREADY_LOCAL' => 'Fejl: Netværket {$network} (beregnet fra netadressen {$networkAddress} og subnetmasken {$networkMask}) ses allerede som en del af det lokale net. Netværket blev ikke oprettet.',
-'ln_NETWORK_ALREADY_ADDED' => 'Fejl: Netværket {$network} (beregnet fra netadressen {$networkAddress} og subnetmasken {$networkMask}) er allerede tilføjet. Netværket blev ikke oprettet.',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Fejl: Der er ingen adgang til router-adressen [_1] fra lokal-nettet. Netværket blev ikke oprettet.',
+'ln_NETWORK_ALREADY_LOCAL' => 'Fejl: Netværket [_1] (beregnet fra netadressen [_2] og subnetmasken [_3]) ses allerede som en del af det lokale net. Netværket blev ikke oprettet.',
+'ln_NETWORK_ALREADY_ADDED' => 'Fejl: Netværket [_1] (beregnet fra netadressen [_2] og subnetmasken [_3]) er allerede tilføjet. Netværket blev ikke oprettet.',
 'ln_ERROR_CREATING_NETWORK' => 'Der skete en fejl under oprettelse af netværk.',
-'ln_SUCCESS' => 'Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}.',
-'ln_SUCCESS_SINGLE_ADDRESS' => 'Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. De nedenfor nævnte IP adresser har adgang til serveren svarende til adgangen fra lokalnet {$network}.',
-'ln_SUCCESS_NETWORK_RANGE' => 'Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. Serveren vil tildele lokal adgangsret til {$totalHosts} IP-adresser i området {$firstAddr} til {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Netværket er tilføjet {$network}/{$networkMask} via router {$networkRouter}. </p>
+'ln_SUCCESS' => 'Netværket er tilføjet [_1]/[_2] via router [_3].',
+'ln_SUCCESS_SINGLE_ADDRESS' => 'Netværket er tilføjet [_1]/[_2] via router [_3]. De nedenfor nævnte IP adresser har adgang til serveren svarende til adgangen fra lokalnet [_4].',
+'ln_SUCCESS_NETWORK_RANGE' => 'Netværket er tilføjet [_1]/[_2] via router [_3]. Serveren vil tildele lokal adgangsret til [_4] IP-adresser i området [_5] til [_6].',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  Netværket er tilføjet [_1]/[_2] via router [_3]. 
 
-  <p> Serveren vil tildele lokal adgangsret til {$totalHosts} IP-adresser i området {$firstAddr} til {$lastAddr}. </p>
+  <p> Serveren vil tildele lokal adgangsret til [_1] IP-adresser i området [_2] til [_3]. </p>
 
-  <p> Advarsel: ProFTPd FTP-server kan ikke håndtere denne ikke-standard subnetmaske. <b>{$simpleMask}</b> vil blive brugt i stedet for. </p>
+  <p> Advarsel: ProFTPd FTP-server kan ikke håndtere denne ikke-standard subnetmaske. <b>[_1]</b> vil blive brugt i stedet for. </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => 'Netværket {$network}/{$networkMask} via router {$networkRouter} blev fjernet.',
+'ln_SUCCESS_REMOVED_NETWORK' => 'Netværket [_1]/[_2] via router [_3] blev fjernet.',
 'ln_ERROR_DELETING_NETWORK' => 'Fejl under sletning af netværk.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Ingen yderligere netværker',
 'ln_REMOVE_HOSTS_DESC' => 'Der er registreret lokale værter på det netværk, du er ved at fjerne. I udgangspunkt fjernes også disse. Fjern fluebenet, hvis du ikke ønsker dette, men bemærk, at de ikke vil blive behandlet som lokale og måske er de ikke engang er tilgængelige, hvis netværket fjernes.',
 'ln_REMOVE_HOSTS_LABEL' => 'Fjern værter på netværket',
+'ln_LOCAL NETWORKS' => 'Lokale netværk',
+'ln_LOCALNETWORK_ADD' => 'Tilføj netværk',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] via router [_3]',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',

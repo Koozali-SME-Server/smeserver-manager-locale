@@ -119,7 +119,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Viga: sobimatu või puuduv sümbol kirjelduses',
 'FM_IP_NUMBER1' => 'See väli peab sisaldama IP aadressi ja ei tohi sisaldada tühikuid.',
 'FM_IP_NUMBER2' => 'Sobimatu IP aadress DHCP alguseks (mall X.X.X.X)',
-'FM_IP_NUMBER3' => '{$octet} on rohkem kui 255',
+'FM_IP_NUMBER3' => '[_1] on rohkem kui 255',
 'FM_MAC_ADDRESS1' => 'Sisesta MAC aadress:',
 'FM_MAC_ADDRESS2' => 'Sisestatud MAC aadress ei sobi.',
 'FM_NONBLANK' => 'See väli peab täidetud olema',

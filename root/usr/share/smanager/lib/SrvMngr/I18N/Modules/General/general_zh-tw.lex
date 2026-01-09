@@ -43,7 +43,7 @@
 'FM_ERR_UNEXPECTED_DESC' => '錯誤：描述中涵蓋未知字元或遺失字元。',
 'FM_IP_NUMBER1' => '此區段必須包含一個有效的IP位址且不能留白。',
 'FM_IP_NUMBER2' => '無效的IP位址格式（例如X.X.X.X）',
-'FM_IP_NUMBER3' => '{$octet}大於255',
+'FM_IP_NUMBER3' => '[_1]大於255',
 'FM_MAC_ADDRESS1' => '您需提供MAC位址。',
 'FM_MAC_ADDRESS2' => '您提供的MAC位址無效。',
 'FM_NONBLANK' => '此區塊不能留白。',

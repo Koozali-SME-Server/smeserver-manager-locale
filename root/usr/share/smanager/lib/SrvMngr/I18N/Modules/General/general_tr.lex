@@ -115,7 +115,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Hata: açıklama geçersiz karakter içeriyor',
 'FM_IP_NUMBER1' => 'Bu alan geçerli bir IP adresi içermelidir boş bırakılamaz.',
 'FM_IP_NUMBER2' => 'Standart DHCP için geçersiz adres',
-'FM_IP_NUMBER3' => '{$octet} 255 ten büyüktür',
+'FM_IP_NUMBER3' => '[_1] 255 ten büyüktür',
 'FM_MAC_ADDRESS1' => 'MAC adresi belirtmelisiniz.',
 'FM_MAC_ADDRESS2' => 'Tanımladığınız MAC adresi geçerli değildir.',
 'FM_NONBLANK' => 'Bu alan boş bırakılmamalı',

@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => 'Felhasználói csoportok létrehozása, módosítása, vagy törlése',
-'grp_GROUP_TOO_LONG' => 'Hiba: a csoport neve túl hosszú. Legfeljebb {$maxLength} karakter hosszúságú lehet.',
-'grp_ACCOUNT_CONFLICT' => 'Hiba: A "{$group}" nevű csoport nem hozható létre, mert már van egy ilyen nevű {$type} fiók.',
+'grp_GROUP_TOO_LONG' => 'Hiba: a csoport neve túl hosszú. Legfeljebb [_1] karakter hosszúságú lehet.',
+'grp_ACCOUNT_CONFLICT' => 'Hiba: A "[_1]" nevű csoport nem hozható létre, mert már van egy ilyen nevű [_2] fiók.',
 'grp_INVALID_GROUP_DESCRIPTION' => 'Hiba: nem várt, vagy hiányzó karakterek a csoport leírásában',
 'grp_NO_MEMBERS' => 'Hiba: nincsenek tagok a csoportban. Nincs új csoport létrehozva.',
 'grp_CREATED_GROUP' => 'Felhasználói csoport sikeresen létrehozva',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => 'Rövid leírás/Windows csoport alias-név',
 'grp_GROUP_DESC_EXPL' => 'Írja be a lenti mezőbe a csoport rövid leírását. Ez a leírás látható lesz a Windows munkaállomásokon is.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'A következő adattárak hozzá lettek rendelve ehhez a csoporthoz és az Administrator csoporthoz (késöbb ez megváltoztatható):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Biztos el kívánja távolítani ezt a csoportot?</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' Biztos el kívánja távolítani ezt a csoportot?
 
   ',
-'grp_CURRENT_LIST' => '<p>Felhasználói csoportok listája</p>
+'grp_CURRENT_LIST' => 'Felhasználói csoportok listája
 
   ',
-'grp_DELETE_DESCRIPTION' => ' Most készül eltávolítani a(z) "{$group}" felhasználói csoportot',
+'grp_DELETE_DESCRIPTION' => ' Most készül eltávolítani a(z) "[_1]" felhasználói csoportot',

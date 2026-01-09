@@ -7,3 +7,4 @@
 'clm_NEVER' => '決して',
 'clm_DAILY' => '毎日',
 'clm_SUCCESS' => '新しい　ClamAV アンティ ウイルス セチング　セーブ　しました',
+'clm_Antivirus (ClamAV)' => 'アンチウイルス（ClamAV）',

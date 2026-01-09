@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'Analisa File Log Mail',
-'qma_INITIAL_DESC' => ' <p>Menganalisa log file dari mail sistem dapat membantu anda mengerti bagaimana dayaguna sistem anda dan dalam mendiagnosa masalah pengiriman. Beberapa jenis laporan tersedia.</p>
+'qma_INITIAL_DESC' => ' Menganalisa log file dari mail sistem dapat membantu anda mengerti bagaimana dayaguna sistem anda dan dalam mendiagnosa masalah pengiriman. Beberapa jenis laporan tersedia.
 
   <p>Harap dicatat bahwa mungkin diperlukan beberapa menit untuk membuat laporan-laporan tersebut</p>
 

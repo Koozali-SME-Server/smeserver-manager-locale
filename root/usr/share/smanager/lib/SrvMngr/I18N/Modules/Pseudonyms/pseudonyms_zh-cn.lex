@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => '删除别名',
 'pse_ABOUT_TO_REMOVE' => ' 即将删除别名: 是否继续？ ',
 'pse_FORM_TITLE' => '创建、编辑或者删除别名',
-'pse_DESCRIPTION' => ' <p>服务器会自动为每个群组创建一个E-mail别名。如果您要为列表中的用户自定义一个E-mail别名，只要简单创建一个群组，列表会由服务器自动维护。</p>
+'pse_DESCRIPTION' => ' 服务器会自动为每个群组创建一个E-mail别名。如果您要为列表中的用户自定义一个E-mail别名，只要简单创建一个群组，列表会由服务器自动维护。
 
   <p>别名可以为已存在的用户或组创建其他名称。例如，您想要为"webdevelopers"组创建别名"webmaster"，或者为用户"joseph"创建别名"joe"。</p>
 

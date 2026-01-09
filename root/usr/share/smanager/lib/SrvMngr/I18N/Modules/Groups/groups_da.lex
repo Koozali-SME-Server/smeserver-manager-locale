@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => 'Oprete, ændre eller fjern grupper',
-'grp_GROUP_TOO_LONG' => 'Fejl: Gruppenavn er for langt. Den maksimale længde er {$maxLength} tegn.',
-'grp_ACCOUNT_CONFLICT' => 'Fejl: Gruppen "{$group}" kan ikke oprettes fordi der allerede findes en {$type} konto med det navn.',
+'grp_GROUP_TOO_LONG' => 'Fejl: Gruppenavn er for langt. Den maksimale længde er [_1] tegn.',
+'grp_ACCOUNT_CONFLICT' => 'Fejl: Gruppen "[_1]" kan ikke oprettes fordi der allerede findes en [_2] konto med det navn.',
 'grp_INVALID_GROUP_DESCRIPTION' => 'Fejl: Uventede eller manglende tegn i gruppebeskrivelsen',
 'grp_NO_MEMBERS' => 'Fejl: Der er ingen medlemmer i gruppen. Gruppen blev ikke oprettet.',
 'grp_CREATED_GROUP' => 'Gruppe oprettet',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => 'Kort beskrivelse/Windows gruppealias',
 'grp_GROUP_DESC_EXPL' => 'Indtast en kort beskrivelse for gruppen nedenfor. Dette felt betegner også gruppenavnet som det ses af Windows-klienterne.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Følgende i-bay(s) var tildelt til denne gruppe. De(n) vil blive tildelt gruppen Administrator (det kan ændres senere):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Er du sikker på at du vil slette denne gruppe?</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' Er du sikker på at du vil slette denne gruppe?
 
   ',
-'grp_CURRENT_LIST' => '<p>Aktuel liste af grupper</p>
+'grp_CURRENT_LIST' => 'Aktuel liste af grupper
 
   ',
-'grp_DELETE_DESCRIPTION' => ' Du er igang med at slette gruppen "{$group}." ',
+'grp_DELETE_DESCRIPTION' => ' Du er igang med at slette gruppen "[_1]" ',

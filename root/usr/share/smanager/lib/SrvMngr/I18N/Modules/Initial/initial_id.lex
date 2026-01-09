@@ -1,5 +1,5 @@
 'initial_FORM_TITLE' => 'Selamat datang di server manager',
-'initial_FRAMES_BODY' => ' <p> Selamat datang di SME Server, pemimpin distribusi linux untuk perusahaan kecil dan menengah. SME Server dipersembahkan bagi anda oleh <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, sebuah korporasi nirlaba yang eksis untuk menyediakan dukungan pemasaran dan hukum untuk SME Server. </p>
+'initial_FRAMES_BODY' => '  Selamat datang di SME Server, pemimpin distribusi linux untuk perusahaan kecil dan menengah. SME Server dipersembahkan bagi anda oleh <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, sebuah korporasi nirlaba yang eksis untuk menyediakan dukungan pemasaran dan hukum untuk SME Server. 
 
   <p> SME Server tersedia secara bebas dibawah GNU General Public License dan hanya mungkin tercipta melalui usaha dari Komunitas SME Server. Walau demikian, ketersediaan dan kualitas dari SME Server adalah tergantung dari adanya pembiayaan, seperti biaya hosting, perangkat keras server , dll. </p>
 
@@ -12,7 +12,7 @@
   <p> Untuk menjalankan fungsi pengaturan sistem, klik satu dari link menu disebelah kiri layar anda. </p>
 
   ',
-'initial_NOFRAMES_BODY' => ' <p> Selamat datang di SME Server. Software ini SAMA SEKALI TIDAK DIGARANSI. Silakan <a href="/smanager/support" target="main">klik disini</a> untuk melihat informasi secara terperinci tentang dukungan, garansi dan lisensi. </p>
+'initial_NOFRAMES_BODY' => '  Selamat datang di SME Server. Software ini SAMA SEKALI TIDAK DIGARANSI. Silakan <a href="/smanager/support" target="main">klik disini</a> untuk melihat informasi secara terperinci tentang dukungan, garansi dan lisensi. 
 
   <p> <a href="/server-manager/noframes">Click here</a> for a list of system administration functions. </p>
 

@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => '建立、修改或移除使用者帳號',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">增加使用者帳號</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">增加使用者帳號</a> 
 
   <p>您可以修改、鎖定或移除任何帳號，或者透過點擊帳號旁邊的命令來重置帳號密碼。</p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => '建立或修正',
-'usr_CREATE_MODIFY_DESC' => ' <p>使用者名稱必須僅包含小寫字母、數字、連字符、日期、底線，並且以小寫字母開頭。例如"betty"、"hjohnson"與"mary-jane"都是有效使用者名稱，但是"3friends"、"John Smith"與"henry:miller"則否。</p>
+'usr_CREATE_MODIFY_DESC' => ' 使用者名稱必須僅包含小寫字母、數字、連字符、日期、底線，並且以小寫字母開頭。例如"betty"、"hjohnson"與"mary-jane"都是有效使用者名稱，但是"3friends"、"John Smith"與"henry:miller"則否。
 
   <p>每個新帳號將建立兩個特殊的匿名。這些匿名具有可取代使用者由逗號(.)與底線(_)姓名所形成郵件帳號的能力。因此，對於帳號"betty"與名字"Betty"和姓氏"Rubble"建立這兩個匿名betty.rubble與betty_rubble。</p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => '修改管理員帳號',
 'usr_USER_CREATED' => '成功建立使用者帳號。',
 'usr_USER_MODIFIED' => '成功修改使用者帳號。',
-'usr_CANNOT_MODIFY_USER' => '錯誤：當試著修正使用者"{$acctName}"時發生內部錯誤。',
-'usr_CANNOT_MODIFY_USER_GROUPS' => '錯誤：當試著對使用者"{$acctName}"修正群組"{$group}"時發生內部錯誤。',
-'usr_TAINTED_USER' => '帳號名稱"{$acctName}"涵蓋無效字元。',
+'usr_CANNOT_MODIFY_USER' => '錯誤：當試著修正使用者"[_1]"時發生內部錯誤。',
+'usr_CANNOT_MODIFY_USER_GROUPS' => '錯誤：當試著對使用者"[_1]"修正群組"[_2]"時發生內部錯誤。',
+'usr_TAINTED_USER' => '帳號名稱"[_1]"涵蓋無效字元。',
 'usr_ACCOUNT_NAME' => '帳號名稱',
 'usr_FIRSTNAME' => '名',
 'usr_LASTNAME' => '姓',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => '您正要修改使用者帳號的密碼',
 'usr_RESET_DESC2' => '請於下方區塊輸入密碼',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => '更新密碼時出現錯誤',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => '使用者 "{$acctName}" 的密碼修改成功。',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => '使用者 "[_1]" 的密碼修改成功。',
 'usr_LOCK_DESC' => '您正要鎖定使用者帳號',
-'usr_LOCKED_ACCOUNT' => '使用者 "{$acctName}" 的帳號鎖定成功。',
-'usr_NO_SUCH_USER' => '錯誤：使用者帳號 "{$acctName}" 不存在。',
-'usr_PSEUDONYM_CLASH' => '錯誤：此代號 "{$pseudonym}" 已經由既有的使用者 "{$clashName}" 所使用。 請重新填寫不同的代號到此區塊。',
+'usr_LOCKED_ACCOUNT' => '使用者 "[_1]" 的帳號鎖定成功。',
+'usr_NO_SUCH_USER' => '錯誤：使用者帳號 "[_1]" 不存在。',
+'usr_PSEUDONYM_CLASH' => '錯誤：此代號 "[_1]" 已經由既有的使用者 "[_2]" 所使用。 請重新填寫不同的代號到此區塊。',
 'usr_LOCK_ACCOUNT' => '鎖定帳號',
 'usr_LOCK_ACCOUNT_TITLE' => '鎖定使用者帳號',
 'usr_LOCK_DESC2' => '此使用者帳號將被鎖定。這表示這位使用者將無法登入，並且無法收集電郵。任何收到的電郵仍會被保留並或轉送給事先配置好的外部電郵地址。此帳號稍後在設定新密碼以後可被啟用。現有密碼將不被保留。  您確定您想要鎖定此帳號？ ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => '鎖定',
 'usr_NO_USER_ACCOUNTS' => '此系統無使用者帳號。',
 'usr_Users' => '使用者',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => '此帳號名稱"{$acctName}"包含無效字元。帳號名稱必須以小寫字母起頭，而且僅能包含小寫字母、數字、連字符、句號和底線。',
-'usr_ACCOUNT_TOO_LONG' => '錯誤：賬號名稱太長。最多{$maxLength}個字元。',
-'usr_ACCOUNT_CONFLICT' => '錯誤：賬號"{$account}"無法建立，因為此帳號名稱{$type}已經存在。',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => '此帳號名稱"[_1]"包含無效字元。帳號名稱必須以小寫字母起頭，而且僅能包含小寫字母、數字、連字符、句號和底線。',
+'usr_ACCOUNT_TOO_LONG' => '錯誤：賬號名稱太長。最多[_1]個字元。',
+'usr_ACCOUNT_CONFLICT' => '錯誤：賬號"[_1]"無法建立，因為此帳號名稱[_2]已經存在。',
 'usr_ERR_OCCURRED_CREATING' => '建立使用者時發生錯誤。',
 'usr_CANNOT_CONTAIN_WHITESPACE' => '此區塊無法留白',
 'usr_UNACCEPTABLE_CHARS' => '此區塊只能包含字母、數字、逗號、連字符和底線，並且要以字母開頭。',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => '新的系統密碼（確認）',
 'usr_LABEL_IPSECRW_DOWNLOAD' => '下載數位簽章到IPSec客戶端',
 'usr_ERR_OCCURRED_DELETING' => '試著刪除使用者時發生錯誤。',
+'usr_ADD_USER' => '新增使用者帳戶',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => '使用者',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

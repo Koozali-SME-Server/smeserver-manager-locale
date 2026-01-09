@@ -1,7 +1,7 @@
 'bac_BACKUP_TITLE' => '備份或還原伺服器資料',
 'bac_BACKUP_DESC' => ' <p>伺服器提供兩種方式以備份與還原您的伺服器：使用桌機或磁帶。</p>
 
-  <p>第一種方式是建立伺服器設定與使用者資料檔的副本，然後透過網路瀏覽器下載到本地桌機。當前全部的設定檔與資料檔的容量大約<b>[_3]</b>。實際備份檔案將略小於此數字，這取決於壓縮比例。\"驗證桌機備份檔\" 選項用於檢查桌機備份檔的完整性。</p>
+  <p>第一種方式是建立伺服器設定與使用者資料檔的副本，然後透過網路瀏覽器下載到本地桌機。當前全部的設定檔與資料檔的容量大約<b>[_3]</b>。實際備份檔案將略小於此數字，這取決於壓縮比例。\\"驗證桌機備份檔\\" 選項用於檢查桌機備份檔的完整性。</p>
 
   <p>磁帶備份方式是在每天晚上使用<i>[_1]</i>的軟體套件備份整個硬碟到磁帶。這需要受支援的磁帶機與未被寫入保護的磁帶。備份將在每晚指定的時間自動執行（白天會自動電郵以提醒管理員）。目前您的硬碟包含<b>[_2]</b>容量的資料。</p>
 
@@ -111,7 +111,7 @@
 'bac_SERVER_REBOOT' => '重啟伺服器',
 'bac_SERVER_WILL_REBOOT' => '您的伺服器將重啟。',
 'bac_NO_UID_FOR_NAME' => '該使用者無法獲得uid：',
-'bac_PAGE_REFRESH_IN' => ' 此頁面將在 {$sec} 秒內更新， 或點選此處。',
+'bac_PAGE_REFRESH_IN' => ' 此頁面將在 [_1] 秒內更新， 或點選此處。',
 'bac_Backup or restore' => '備份或是還原',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '您的伺服器有太多資料，以至於無法可靠地備份到桌機。 ',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作站備份 無法啟用 ',
@@ -226,3 +226,8 @@
 'bac_local removable disk' => '本地的可移除磁碟',
 'bac_Mounted disk' => '已掛載磁碟',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '參數已被儲存，然而遠端主機無法聯繫，請檢視您的設定。',
+'bac_No suitable local devices found' => '找不到合適的本機裝置',
+'bac_TAPE_BACKUPS' => '磁帶備份是',
+'Backup or restore' => '備份或還原',
+'bac_WORKSTN_BACKUPS' => '工作站備份為：',
+'bac_ERR_EXTRACT' => '使用 Dar 解壓縮時發生錯誤',

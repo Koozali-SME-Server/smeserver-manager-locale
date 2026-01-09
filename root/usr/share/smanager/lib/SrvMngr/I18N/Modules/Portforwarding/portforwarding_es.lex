@@ -1,5 +1,5 @@
 'pf_FORM_TITLE' => 'Configurar Reenvío de Puerto',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Usted puede utilizar este panel para modificar las reglas de su firewall como también para abrir un puerto específico de su servidor y reenviarlo a otro puerto de otro host. Si lo hace, podrá permitir al tráfico entrante acceder directamente a un host privado en particular de su LAN. </p>
+'pf_FIRST_PAGE_DESCRIPTION' => '  Usted puede utilizar este panel para modificar las reglas de su firewall como también para abrir un puerto específico de su servidor y reenviarlo a otro puerto de otro host. Si lo hace, podrá permitir al tráfico entrante acceder directamente a un host privado en particular de su LAN. 
 
   <p> ADVERTENCIA: El mal uso de esta función puede comprometer seriamente la seguridad de su red. No utilice esta función ligeramente o sin entender totalmente las consecuencias de sus acciones. </p>
 
@@ -9,7 +9,7 @@
 'pf_SUMMARY_REMOVE_DESC' => 'La siguiente tabla resume la regla de reenvío de puerto que está a punto de eliminar. Si está seguro de que desea eliminar la regla, haga click en el botón &quot;Eliminar&quot;. De lo contrario, haga click en el botón &quot;Cancelar&quot;.',
 'pf_SHOW_FORWARDS' => 'A continuación, encontrará una tabla que resume las reglas actuales de reenvío de puerto instaladas en este servidor. Haga click en el vínculo &quot;Eliminar&quot; para eliminar la regla correspondiente.',
 'pf_NO_FORWARDS' => 'Actualmente, no hay puertos reenviados en el sistema.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Seleccione el protocolo, el puerto que desea reenviar, el host de destino y el puerto del host de destino al que desea reenviar. Si desea especificar una gama de puertos, escriba los límites inferior y superior, separados por un guión. El puerto de destino se puede dejar en blanco, lo que le indicará al firewall que debe dejar inalterado el puerto de origen.</p>
+'pf_CREATE_PAGE_DESCRIPTION' => ' Seleccione el protocolo, el puerto que desea reenviar, el host de destino y el puerto del host de destino al que desea reenviar. Si desea especificar una gama de puertos, escriba los límites inferior y superior, separados por un guión. El puerto de destino se puede dejar en blanco, lo que le indicará al firewall que debe dejar inalterado el puerto de origen.
 
   ',
 'pf_LABEL_SOURCE_PORT' => 'Puerto(s) de origen',

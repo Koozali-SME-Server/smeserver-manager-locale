@@ -1,6 +1,6 @@
 'quo_FORM_TITLE' => 'Create, modify, or remove user account quotas',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Unable to open accounts db',
-'quo_QUOTA_DESC' => ' <p>You can set filesystem quotas for users on your system by clicking the "Modify" button next to the user you wish to update. <p>If the user exceeds the "Limit with grace period", warnings will be generated. If this limit is exceeded for longer than a week or if the "Absolute limit" is reached, the user will be unable to store any more files or receive any more e-mail. <p>A setting of \'0\' for either limit disables that limit for the corresponding user. <p>The disk space for each user includes the user\'s home directory, e-mail, and any files owned by the user in information bays. ',
+'quo_QUOTA_DESC' => ' You can set filesystem quotas for users on your system by clicking the "Modify" button next to the user you wish to update. If the user exceeds the "Limit with grace period", warnings will be generated. If this limit is exceeded for longer than a week or if the "Absolute limit" is reached, the user will be unable to store any more files or receive any more e-mail. A setting of \'0\' for either limit disables that limit for the corresponding user. The disk space for each user includes the user\'s home directory, e-mail, and any files owned by the user in information bays. ',
 'quo_CURRENT_USAGE_AND_SETTINGS' => 'Current Quota Usage and Settings',
 'quo_LIMIT_WITH_GRACE' => 'הגבלה עם תקופת חסד',
 'quo_LIMIT_WITH_GRACE_MB' => 'הגבלה עם תקופת חסד (MB)',

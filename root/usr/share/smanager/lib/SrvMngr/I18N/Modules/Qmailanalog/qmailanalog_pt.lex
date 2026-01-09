@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'Análise do arquivo Mail Log',
-'qma_INITIAL_DESC' => ' <p>Analisando o arquivo de log do sistema de e-mail ajuda a entender como o sistema está se comportando e a diagnosticar problemas de entrega. Vários tipos de relatório estão disponíveis.</p>
+'qma_INITIAL_DESC' => ' Analisando o arquivo de log do sistema de e-mail ajuda a entender como o sistema está se comportando e a diagnosticar problemas de entrega. Vários tipos de relatório estão disponíveis.
 
   <p>Por favor, note que para geração de alguns destes relatórios podem ser necessários vários minutos</p>
 

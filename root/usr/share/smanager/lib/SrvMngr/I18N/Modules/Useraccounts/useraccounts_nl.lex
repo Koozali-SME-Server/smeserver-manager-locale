@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Gebruikersaccount toevoegen, wijzigen of verwijderen',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Gebruikersaccount toevoegen</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Gebruikersaccount toevoegen</a> 
 
   <p>U kan een account wijzigen, vergrendelen of verwijderen of het wachtwoord opnieuw instellen door op de corresponderende opdracht te klikken naast de account. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Toevoegen of wijzigen',
-'usr_CREATE_MODIFY_DESC' => ' <p> De accountnaam mag alleen kleine letters, cijfers, koppeltekens, punten en lage streepjes bevatten en moet met een kleine letter beginnen. Bijvoorbeeld "betty", "hjohnson", en "mary-jane" zijn geldige accountnamen, maar "3vrienden", "Jan Smit", en "henry:miller" niet. </p>
+'usr_CREATE_MODIFY_DESC' => '  De accountnaam mag alleen kleine letters, cijfers, koppeltekens, punten en lage streepjes bevatten en moet met een kleine letter beginnen. Bijvoorbeeld "betty", "hjohnson", en "mary-jane" zijn geldige accountnamen, maar "3vrienden", "Jan Smit", en "henry:miller" niet. 
 
   <p> Merk op dat voor elke account twee speciale pseudoniemen worden aangemaakt. Deze pseudoniemen geven de mogelijkheid om alternatieve mail accounts aan een gebruiker te geven welke de voornaam en familienaam gescheiden door een punt (.) en laag streepje (_). Bijvoorbeeld, voor de account "betty", met voornaam "Betty" en familienaam "Rubble", worden twee pseudoniemen aangemaakt: betty.rubble en betty_rubble. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Beheerders account wijzigen',
 'usr_USER_CREATED' => 'De gebruikersaccount is met succes toegevoegd.',
 'usr_USER_MODIFIED' => 'De gebruikersaccount is met succes gewijzigd.',
-'usr_CANNOT_MODIFY_USER' => 'Fout: er is een fout opgetreden tijdens het wijzigen van de gebruikersaccount "{$acctName}".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Fout: er is een fout opgetreden tijdens het wijzigen van de groep "{$group}" voor gebruiker "{$acctName}".',
-'usr_TAINTED_USER' => 'De accountnaam "{$acctName}" bevat ongeldige tekens.',
+'usr_CANNOT_MODIFY_USER' => 'Fout: er is een fout opgetreden tijdens het wijzigen van de gebruikersaccount "[_1]".',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Fout: er is een fout opgetreden tijdens het wijzigen van de groep "[_1]" voor gebruiker "[_2]".',
+'usr_TAINTED_USER' => 'De accountnaam "[_1]" bevat ongeldige tekens.',
 'usr_ACCOUNT_NAME' => 'Accountnaam',
 'usr_FIRSTNAME' => 'Voornaam',
 'usr_LASTNAME' => 'Achternaam',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'U staat op het punt om het wachtwoord voor de gebruikersaccount te wijzigen',
 'usr_RESET_DESC2' => 'Vul het nieuwe wachtwoord in de onderstaande velden in',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Er is een fout opgetreden bij het wijzigen van het wachtwoord',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Het wachtwoord voor gebruiker "{$acctName}" is met succes gewijzigd.',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Het wachtwoord voor gebruiker "[_1]" is met succes gewijzigd.',
 'usr_LOCK_DESC' => 'U staat op het punt om de gebruikersaccount te vergrendelen',
-'usr_LOCKED_ACCOUNT' => 'Gebruikersaccount "{$acctName}" is met succes vergrendeld.',
-'usr_NO_SUCH_USER' => 'Fout: de gebruikersaccount "{$acctName}" bestaat niet.',
-'usr_PSEUDONYM_CLASH' => 'Fout: het pseudoniem "{$pseudonym}" is reeds in gebruik door de gebruikersaccount "{$clashName}". Voeg aan dit veld de initialen toe om een onderscheid te maken.',
+'usr_LOCKED_ACCOUNT' => 'Gebruikersaccount "[_1]" is met succes vergrendeld.',
+'usr_NO_SUCH_USER' => 'Fout: de gebruikersaccount "[_1]" bestaat niet.',
+'usr_PSEUDONYM_CLASH' => 'Fout: het pseudoniem "[_1]" is reeds in gebruik door de gebruikersaccount "[_2]". Voeg aan dit veld de initialen toe om een onderscheid te maken.',
 'usr_LOCK_ACCOUNT' => 'Account vergrendelen',
 'usr_LOCK_ACCOUNT_TITLE' => 'Gebruikersaccount vergrendelen',
 'usr_LOCK_DESC2' => ' Deze gebruikersaccount zal vergrendeld worden. Dit betekend dat deze gebruiker niet meet in kan loggen en geen e-mail kan bekijken of ophalen. E-mail voor deze gebruiker zal worden opgeslagen en/of doorgestuurd worden als ingesteld. De account kan geheractiveerd worden door een nieuw wachtwoord in te stellen. het huidige wachtwoord is niet meer geldig.   Weet U zeker dat U deze account wilt vergrendelen? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Vergrendel',
 'usr_NO_USER_ACCOUNTS' => 'Er zijn geen gebruikersaccounts op dit systeem.',
 'Users' => 'Gebruikers',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'De accountnaam "{$acctName}" bevat ongeldige tekens. Accountnamen moeten beginnen met een kleine letter en mogen alleen kleine letters, cijfers, koppeltekens, punten en lage streepjes bevatten.',
-'usr_ACCOUNT_TOO_LONG' => 'Fout: de accountnaam is te lang. De maximum lengte is {$maxLength} tekens.',
-'usr_ACCOUNT_CONFLICT' => 'Fout: de account "{$account}" kan niet worden toegevoegd omdat er is all een {$type} account met die naam bestaat.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'De accountnaam "[_1]" bevat ongeldige tekens. Accountnamen moeten beginnen met een kleine letter en mogen alleen kleine letters, cijfers, koppeltekens, punten en lage streepjes bevatten.',
+'usr_ACCOUNT_TOO_LONG' => 'Fout: de accountnaam is te lang. De maximum lengte is [_1] tekens.',
+'usr_ACCOUNT_CONFLICT' => 'Fout: de account "[_1]" kan niet worden toegevoegd omdat er is all een [_2] account met die naam bestaat.',
 'usr_ERR_OCCURRED_CREATING' => 'Er heeft zich een fout voorgedaan bij het toevoegen van de gebruiker.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Dit veld mag geen spaties bevatten',
 'usr_UNACCEPTABLE_CHARS' => 'Dit veld mag alleen letters, cijfers, punten, koppeltekens en lage streepjes bevatten en moet met een letter beginnen',
@@ -70,3 +70,10 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Nieuw systeem wachtwoord (verificatie)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Digitaal certificaat voor IPSec client ophalen',
 'usr_ERR_OCCURRED_DELETING' => 'Er is een fout opgetreden tijdens het verwijderen van de gebruiker.',
+'usr_ADD_USER' => 'Gebruikersaccount toevoegen',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

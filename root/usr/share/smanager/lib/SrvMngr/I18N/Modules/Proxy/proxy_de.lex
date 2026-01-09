@@ -8,3 +8,5 @@
 'prx_ERR_NO_SQUID_REC' => 'FEHLER: Es gibt keinen Squid-Eintrag in der Konfigurations-Datenbank.',
 'prx_SUCCESS' => 'Die neuen Proxy-Einstellungen wurden erfolgreich aktualisiert.',
 'prx_BLOCKED' => 'Gesperrt',
+'prx_TITLE' => 'Proxy-Einstellungen',
+'prx_Proxy' => 'Proxy',

@@ -7,3 +7,4 @@
 'clm_NEVER' => 'Aldrig',
 'clm_DAILY' => 'Daglig',
 'clm_SUCCESS' => 'De nye clamav antivirus indstillinger er gemt.',
+'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',

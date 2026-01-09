@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => 'Buat, ubah, atau hapus user group',
-'grp_GROUP_TOO_LONG' => 'Error: nama grup terlalu panjang.Maksimal {$maxLength} karakter.',
-'grp_ACCOUNT_CONFLICT' => 'Error: grup "{$group}" tidak dapat dibuat karena telah ada{$type} akun atas nama tersebut.',
+'grp_GROUP_TOO_LONG' => 'Error: nama grup terlalu panjang.Maksimal [_1] karakter.',
+'grp_ACCOUNT_CONFLICT' => 'Error: grup "[_1]" tidak dapat dibuat karena telah ada[_2] akun atas nama tersebut.',
 'grp_INVALID_GROUP_DESCRIPTION' => 'Error: karakter yang tidak diharapkan atau hilang dalam deskripsi grup',
 'grp_NO_MEMBERS' => 'Error: tidak ada anggota dalam grup. Tidak membuat grup baru',
 'grp_CREATED_GROUP' => 'Berhasil membuat user group',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => 'Penjelasan Singkat/Nama lain Windows Group',
 'grp_GROUP_DESC_EXPL' => 'Masukkan penjelasan singkat dalam ruas dibawah ini. Ruas (field) ini juga menentukan nama grup yang bisa dilihat dari klien Windows.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Information bays dibawah ini telah ditetapkan pada grup ini dan akan diubah menjadi grup Administrator (anda dapat mengubahnya menjadi yang lain kemudian):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Anda yakin anda ingin menghapus grup ini?</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' Anda yakin anda ingin menghapus grup ini?
 
   ',
-'grp_CURRENT_LIST' => '<p>Daftar User Group</p>
+'grp_CURRENT_LIST' => 'Daftar User Group
 
   ',
-'grp_DELETE_DESCRIPTION' => ' Anda akan menghapus grup pengguna "{$group}." ',
+'grp_DELETE_DESCRIPTION' => ' Anda akan menghapus grup pengguna "[_1]" ',

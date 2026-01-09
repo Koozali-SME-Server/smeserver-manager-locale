@@ -7,3 +7,4 @@
 'clm_NEVER' => 'Asla',
 'clm_DAILY' => 'Günlük',
 'clm_SUCCESS' => 'clamav antivirüs için yeni ayarlar kaydedildi.',
+'clm_Antivirus (ClamAV)' => 'Antivirüs (ClamAV)',

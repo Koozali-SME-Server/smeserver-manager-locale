@@ -8,3 +8,6 @@
 'prx_ERR_NO_SQUID_REC' => 'HIBA: Nincs squid rekord a konfigurációs adatbázisban.',
 'prx_SUCCESS' => 'Az új proxy beállítások sikeresen alkalmazva.',
 'prx_BLOCKED' => 'Blokkolt',
+'prx_TITLE' => 'Proxybeállítások',
+'Proxy settings' => 'Proxybeállítások',
+'prx_Proxy' => 'Proxy',

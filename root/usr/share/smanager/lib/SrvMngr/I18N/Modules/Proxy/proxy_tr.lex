@@ -8,3 +8,6 @@
 'prx_ERR_NO_SQUID_REC' => 'HATA: Yapılandırma veritabanında squid kaydı bulunamadı.',
 'prx_SUCCESS' => 'Yeni vekil sunucu ayarları başarıyla uygulandı.',
 'prx_BLOCKED' => 'Engellenmiş',
+'prx_TITLE' => 'Proxy ayarları',
+'Proxy settings' => 'Proxy ayarları',
+'prx_Proxy' => 'Proxy',

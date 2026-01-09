@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Ta bort pseudonym',
 'pse_ABOUT_TO_REMOVE' => ' Du är på väg att ta bort en pseudonym: Är du säker på att du vill fortsätta? ',
 'pse_FORM_TITLE' => 'Skapa, ändra eller ta bort pseudonymer',
-'pse_DESCRIPTION' => ' <p>Servern skapar automatiskt ett e-postalias för varje grupp. Om du önskar definiera ett e-post alias för ett antal användare, skapa en grupp och listan kommer automatiskt att underhållas av servern.</p>
+'pse_DESCRIPTION' => ' Servern skapar automatiskt ett e-postalias för varje grupp. Om du önskar definiera ett e-post alias för ett antal användare, skapa en grupp och listan kommer automatiskt att underhållas av servern.
 
   <p>Pseudonymer ger dig möjligheten att skapa andra namn för existerande grupp eller grupper. Exempelvis, du kanske önskar att skapa pseudonymen "webbmaster" för din "webdevelopers-grupp" eller en pseudonym "joe" för användaren "joseph".</p>
 

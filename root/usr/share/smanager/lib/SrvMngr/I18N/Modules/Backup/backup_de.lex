@@ -1,7 +1,7 @@
 'bac_BACKUP_TITLE' => 'Sichern oder Wiederherstellen der Serverdaten',
 'bac_BACKUP_DESC' => ' <p>Der Server bietet zwei Möglichkeiten, den Server zu sichern und wiederherzustellen: entweder auf dem lokalen Desktop oder auf ein Bandlaufwerk.</p>
 
-  <p>Die erste Methode erzeugt eine Kopie der Servereinstellungen sowie der Benutzerdaten und lädt diese über den Webbrowser auf den Arbeitsplatzrechner herunter. Im Moment beträgt die Größe Ihrer Einstellungen und Benutzerdaten ungefähr<b>[_3]</b>. Die Sicherungsdatei wird etwas kleiner als dieser Wert, abhängig davon wie die Daten komprimierbar sind. Mit \"Überprüfung der Sicherungsdatei\" kann die Datei noch einmal auf Integrität überprüft werden.</p>
+  <p>Die erste Methode erzeugt eine Kopie der Servereinstellungen sowie der Benutzerdaten und lädt diese über den Webbrowser auf den Arbeitsplatzrechner herunter. Im Moment beträgt die Größe Ihrer Einstellungen und Benutzerdaten ungefähr<b>[_3]</b>. Die Sicherungsdatei wird etwas kleiner als dieser Wert, abhängig davon wie die Daten komprimierbar sind. Mit \\"Überprüfung der Sicherungsdatei\\" kann die Datei noch einmal auf Integrität überprüft werden.</p>
 
   <p>Die Bandsicherungmethode benutzt ein Softwarepaket mit dem Namen <i>[_1]</i>, um die Daten der Festplatte jede Nacht zu sichern. Dafür wird ein Bandsicherungslaufwerk und ein nicht schreibgeschütztes Band benötigt. Die Sicherung wird automatisch zu der angegebenen Zeit jede Nacht durchgeführt (sowie im Laufe des Tages eine E-Mail an den Administrator geschickt). Aktuell sind auf Festplatten Ihres Servers <b>[_2]</b> an Daten gespeichert. <b>Im Idealfall sollte die Wiederherstellung auf einem frisch installierten Server durchgeführt werden.</b></p>
 
@@ -109,7 +109,7 @@
 'bac_SERVER_REBOOT' => 'Server Neustart',
 'bac_SERVER_WILL_REBOOT' => 'Der Server wird jetzt neu gestartet.',
 'bac_NO_UID_FOR_NAME' => 'Kann keine UID für den Benutzer mit dem folgenden Namen bekommen:',
-'bac_PAGE_REFRESH_IN' => ' Diese Seite wird in {$sec} Sekunden mit der Statusanzeige erneuert, oder drücken Sie hier. ',
+'bac_PAGE_REFRESH_IN' => ' Diese Seite wird in [_1] Sekunden mit der Statusanzeige erneuert, oder drücken Sie hier. ',
 'Backup or restore' => 'Sichern oder Wiederherstellen',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Auf Ihrem Server befinden sich zu viele Daten, um eine verläßliche Sicherung auf den lokalen Arbeitsplatz durchführen zu können.',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation Backups sind deaktiviert ',
@@ -147,7 +147,7 @@
 'bac_WORKSTN_NAME' => 'Workstation-IP-Adresse oder Hostename',
 'bac_WORKSTN_BACKUP_SETTINGS' => 'Einstellungen für Workstation Backup',
 'bac_SHARED_FOLDER_NAME' => 'Ordner für die Datensicherung',
-'bac_WORKSTN_LOGIN' => 'Login Name',
+'bac_WORKSTN_LOGIN' => 'Anmeldename',
 'bac_WORKSTATION_BACKUP_DEST' => 'Einstellungen für Workstation Backup',
 'bac_CONFIGURE_WORKSTN_BACKUP_DESC' => 'Sie können eine Anzahl von sukzessiven, automatisch rollierenden Backup-Sätzen auf der Workstation vorgeben. Jeder Backup-Satz kann gesicherte Daten für mehrere aufeinanderfolgende Tage enthalten. Jeder erste Backup-Satz ist ein Voll-Backup, alle anderen täglichen Backups sind nur inkrementell. Sie können außerdem ein Zeitlimit für jeden Backup-Prozess setzen, oder auch nur für inkrementelle Backups. Wenn dieses Limit erreicht wird, wird der Backup-Prozess ordnungsgemäß beendet, und das nächste inkrementelle Backup setzt das Sichern der ungesicherten und veränderten Daten fort.',
 'bac_ERR_INVALID_WORKSTN' => 'Ungültige Workstation IP-Adresse oder Hostname',
@@ -224,3 +224,7 @@
 'bac_local removable disk' => 'Lokaler Wechseldatenträger',
 'bac_Mounted disk' => 'Eingebunder Datenträger',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'Die Parameter wurden gespeichert, aber der entfernte Host ist nicht erreichbar, bitte überprüfen Sie die Einstellungen.',
+'bac_No suitable local devices found' => 'Keine geeigneten lokalen Geräte gefunden',
+'bac_TAPE_BACKUPS' => 'Bandsicherungen sind',
+'bac_WORKSTN_BACKUPS' => 'Workstation-Backups sind',
+'bac_ERR_EXTRACT' => 'Fehler beim Extrahieren mit Dar',

@@ -21,3 +21,4 @@
 'bugr_THANK_YOU' => 'Dziękuję za Twoje wsparcie!',
 'bugr_Download this report' => 'Pobierz ten raport!',
 'bugr_Report a bug' => 'Zgłoś błąd',
+'bugr_PREVIOUS_SERVER_MODE' => '(en)Previous server mode',

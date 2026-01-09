@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Ustvari, popravi ali odstrani uporabnika',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Dodaj uporabnika</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Dodaj uporabnika</a> 
 
   <p> Tu lahko popravis, zaklenes ali odstranis uporabnika in pa resetiras geslo uporabnika s pritiskom na gumb poleg imena uporabnika. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Ustvari ali popravi',
-'usr_CREATE_MODIFY_DESC' => ' <p> Racun lahko vsebuje samo male crke in stevilke, ter se mora obvezno zaceti z malo crko. Primer: "betty", "polde", "janez-kranjski" so vse pravilna imena racunov, toda "3prijatelji", Janez Kranjski" in "marjan_glavni" niso pravilni. </p>
+'usr_CREATE_MODIFY_DESC' => '  Racun lahko vsebuje samo male crke in stevilke, ter se mora obvezno zaceti z malo crko. Primer: "betty", "polde", "janez-kranjski" so vse pravilna imena racunov, toda "3prijatelji", Janez Kranjski" in "marjan_glavni" niso pravilni. 
 
   <p> Pozor. Za vsak nov racun bosta kreirana dva vzdevka-naziva. Torej za racun "glavni" z imenom "marjan" in priimkom "taglavni" bosta kreirana vzdevka locena z piko (.) in podcrtajem (_) : "marjan.taglavni" in "marjan_taglavni" . </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Uredi Admin racun',
 'usr_USER_CREATED' => 'Uspesno narejen uporabniski racun.',
 'usr_USER_MODIFIED' => 'Uspesno popravljen uporabiski racun.',
-'usr_CANNOT_MODIFY_USER' => 'Napaka: Prislo je do interne napake pri urejanju uporabnika "{$acctName}".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Napaka: Prislo je do notranje napake pri urejanju skupine "{$group}" za uporabnika "{$acctName}".',
-'usr_TAINTED_USER' => 'Uporabniski racun "{$acctName}" vsebuje neveljaven znak.',
+'usr_CANNOT_MODIFY_USER' => 'Napaka: Prislo je do interne napake pri urejanju uporabnika "[_1]".',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Napaka: Prislo je do notranje napake pri urejanju skupine "[_1]" za uporabnika "[_2]".',
+'usr_TAINTED_USER' => 'Uporabniski racun "[_1]" vsebuje neveljaven znak.',
 'usr_ACCOUNT_NAME' => 'Ime racuna',
 'usr_FIRSTNAME' => 'Ime',
 'usr_LASTNAME' => 'Priimek',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'Si na tem, da spremenis uporabisko geslo',
 'usr_RESET_DESC2' => 'Vpisi novo geslo v polje spodaj',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Prislo je do napake pri spremembi gesla!',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Uspesno spremenjeno geslo za racun "{$acctName}".',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Uspesno spremenjeno geslo za racun "[_1]".',
 'usr_LOCK_DESC' => 'Si pred tem, da zaklenes racun uporabnika',
-'usr_LOCKED_ACCOUNT' => 'Uspesno zaklenjen racun uporabnika "{$acctName}".',
-'usr_NO_SUCH_USER' => 'Napaka: Uporabniski racun "{$acctName}" ne obstaja.',
-'usr_PSEUDONYM_CLASH' => 'Napaka: Vzdevek "{$pseudonym}" je ze v uporabi pri obsojecemu uporabniskemu racunu "{$clashName}". Za razlikovanje dodaj inicijalke v to polje."',
+'usr_LOCKED_ACCOUNT' => 'Uspesno zaklenjen racun uporabnika "[_1]".',
+'usr_NO_SUCH_USER' => 'Napaka: Uporabniski racun "[_1]" ne obstaja.',
+'usr_PSEUDONYM_CLASH' => 'Napaka: Vzdevek "[_1]" je ze v uporabi pri obsojecemu uporabniskemu racunu "[_2]". Za razlikovanje dodaj inicijalke v to polje."',
 'usr_LOCK_ACCOUNT' => 'Zakleni racun',
 'usr_LOCK_ACCOUNT_TITLE' => 'Zakleni uporabniski racun',
 'usr_LOCK_DESC2' => ' Ta uporabniski racun bo zakljenjen. To pomeni, da se uporabnik ne bo mogel prijaviti na svoj racun in pregledovati svoje e-poste. Vsa e-posta, ki bo prispela, bo shranjena in/ali posredovana na zunanji naslov e-poste ce je nastavljen. Racun se lahko ponovno aktivira z dodelitvijo novega gesla. Obstojece geslo ne bo obdrzano.   Ali si preprican, da zelis zakleniti ta racun? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Zakleni',
 'usr_NO_USER_ACCOUNTS' => 'Uporabniski racun ne obstaja.',
 'usr_Users' => 'Uporabniki',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Naziv racuna "{$acctName}" vsebuje napacen znak. Ime racuna se mora zaceti z malo crko in vsebovati samo crke, stevilke in podcrtaj.',
-'usr_ACCOUNT_TOO_LONG' => 'Napaka: Ime racuna je predolgo. Maximalna dolzina je {$maxLength} znakov.',
-'usr_ACCOUNT_CONFLICT' => 'Napaka: Racuna "{$account}" ne mores kreirati ker tak racun {$type} ze obstaja.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Naziv racuna "[_1]" vsebuje napacen znak. Ime racuna se mora zaceti z malo crko in vsebovati samo crke, stevilke in podcrtaj.',
+'usr_ACCOUNT_TOO_LONG' => 'Napaka: Ime racuna je predolgo. Maximalna dolzina je [_1] znakov.',
+'usr_ACCOUNT_CONFLICT' => 'Napaka: Racuna "[_1]" ne mores kreirati ker tak racun [_2] ze obstaja.',
 'usr_ERR_OCCURRED_CREATING' => 'Pri kreiranju uporabnika je prislo do napake.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'To polje ne sme vsebovati presledka',
 'usr_UNACCEPTABLE_CHARS' => 'To polje lahko vsebuje smo crke, stevilke, pikoali podcrtaj in se zacne samo z crko.',
@@ -69,4 +69,12 @@
 'usr_NEW_SYSTEM_PASSWORD' => 'Novo sistemsko geslo',
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Novo sistemsko geslo (ponovno)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Prenesi digitalni certifikat na IPSec client',
-'usr_ERR_OCCURRED_DELETING' => 'An error occurred while trying to delete the user.',
+'usr_ERR_OCCURRED_DELETING' => '(en)An error occurred while trying to delete the user.',
+'usr_ADD_USER' => 'Dodaj uporabniški račun',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'Uporabniki',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

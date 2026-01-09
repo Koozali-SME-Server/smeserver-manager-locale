@@ -29,3 +29,6 @@
 'rvw_NO_VIRTUAL_DOMAINS' => 'No hay dominios virtuales definidos',
 'rvw_NO_NETWORKS' => 'No hay redes adicionales definidas',
 'rvw_INTERNET_VISIBLE_ADDRESS' => 'Dirección IP Visible de Internet',
+'rvw_FORM_TITLE' => 'Revisar configuración',
+'rvw_SERVER_MANAGER' => 'Administrador de servidores',
+'rvw_USER_PASSWORD_PANEL' => 'Panel de contraseña de usuario',

@@ -119,7 +119,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Fout: onverwachte of ontbrekende tekens in de beschrijving',
 'FM_IP_NUMBER1' => 'Dit veld moet een geldig IP nummer bevatten en kan niet leeg worden gelaten.',
 'FM_IP_NUMBER2' => 'Ongeldig IP adres (geldig formaat X.X.X.X)',
-'FM_IP_NUMBER3' => '{$octet} is meer dan 255',
+'FM_IP_NUMBER3' => '[_1] is meer dan 255',
 'FM_MAC_ADDRESS1' => 'U moet een MAC adres opgeven.',
 'FM_MAC_ADDRESS2' => 'Het MAC adres dat u opgaf is niet geldig.',
 'FM_NONBLANK' => 'Dit veld mag niet leeg worden gelaten',

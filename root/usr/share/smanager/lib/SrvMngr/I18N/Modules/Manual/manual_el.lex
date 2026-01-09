@@ -1,3 +1,3 @@
 'manual_FORM_TITLE' => 'Online εγχειρίδιο και άλλα έγραφα',
-'manual_DESCRIPTION' => ' <p><ul><li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online εγχειρίδιο</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a></ul><H2>Υποστήριξη και χορήγηση αδειών</H2> Αυτό το λογισμικό διανέμεται υπό τους όρους που παρατίθενται στη σελίδα <a href="/server-manager/cgi-bin/support">Υποστήριξη και χορήγηση αδειών.</a></p>',
+'manual_DESCRIPTION' => ' <ul><li><a target="new" href="https://wiki.koozali.org/documentation/manual/"> Online εγχειρίδιο</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a></ul>Υποστήριξη και χορήγηση αδειών Αυτό το λογισμικό διανέμεται υπό τους όρους που παρατίθενται στη σελίδα <a href="/server-manager/cgi-bin/support">Υποστήριξη και χορήγηση αδειών.</a>',
 'manual_Online manual' => 'Online εγχειρίδιο',

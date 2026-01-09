@@ -34,3 +34,5 @@
 'prt_DELETED_SUCCESSFULLY' => 'Yazıcı başarıyla kaldırıldı:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Geçerli alan adı veya IP adresi içermelidir',
 'prt_Printers' => 'Yazıcılar',
+'prt_INITIAL_BTN' => 'Yazıcı ekle',
+'Printers' => 'Yazıcılar',

@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => 'Kullanıcı gurubu oluştur, değiştir veya sil',
-'grp_GROUP_TOO_LONG' => 'Hata: grup adı çok uzun.En fazla {$maxLength} karakterden oluşmalıdır.',
-'grp_ACCOUNT_CONFLICT' => 'Hata: "{$group}" gurubu oluşturulamıyor, {$type} hesabına ait aynı grup var.',
+'grp_GROUP_TOO_LONG' => 'Hata: grup adı çok uzun.En fazla [_1] karakterden oluşmalıdır.',
+'grp_ACCOUNT_CONFLICT' => 'Hata: "[_1]" gurubu oluşturulamıyor, [_2] hesabına ait aynı grup var.',
 'grp_INVALID_GROUP_DESCRIPTION' => 'Hata: grup açıklamasında geçersiz karakter(ler) bulunuyor',
 'grp_NO_MEMBERS' => 'Hata: grupta üye bulunamadı. Yeni grup oluşturulamıyor.',
 'grp_CREATED_GROUP' => 'Kullanıcı gurubu başarıyla oluşturuldu',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => 'Kısa Açıklama/Windows Grubu Takma Adı',
 'grp_GROUP_DESC_EXPL' => 'Aşağıdaki alana kısa bir grup açıklaması giriniz. Bu alan aynı zamanda Windows istemcileri tarafından görülebilen grup adıdır.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Listedeki i-bays bu guruba bağlanmıştır ve Yönetici gurubuna bağlamıştır (daha sonra bunların bağlı olduğu gurubu değiştirebilirsiniz):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Bu gurubu silmek istediğinizden eminmisiniz?</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' Bu gurubu silmek istediğinizden eminmisiniz?
 
   ',
-'grp_CURRENT_LIST' => '<p>Mevcut Kullanıcı Gurupların listesi</p>
+'grp_CURRENT_LIST' => 'Mevcut Kullanıcı Gurupların listesi
 
   ',
-'grp_DELETE_DESCRIPTION' => ' "{$group} gurubunu silmek üzeresiniz." ',
+'grp_DELETE_DESCRIPTION' => ' "[_1]" ',

@@ -1,7 +1,7 @@
 'bac_BACKUP_TITLE' => 'A szerver adatainak biztonsági mentése, vagy helyreállítása',
 'bac_BACKUP_DESC' => ' <p>A szerver kétféle biztonsági mentést tesz lehetővé: az asztali mentést, vagy a szalagos mentést.</p>
 
-  <p>Az első módszerrel a szerver másolatot készít a konfigurációs fájlokról és a felhasználói adatokról, majd letölti azt a helyi munkaasztalra a webböngészőn keresztül. Jelenleg az ön konfigurációs és felhasználói adatainak mérete <b>[_3]</b>. Az elkészült biztonsági mentés valamivel kisebb lesz ennél, attól függően, hogy az adatok mennyire tömöríthetők. Az \"Asztali mentés ellenőrzése\" opcióval ellenőrizheti az asztali mentés fájl integritását.</p>
+  <p>Az első módszerrel a szerver másolatot készít a konfigurációs fájlokról és a felhasználói adatokról, majd letölti azt a helyi munkaasztalra a webböngészőn keresztül. Jelenleg az ön konfigurációs és felhasználói adatainak mérete <b>[_3]</b>. Az elkészült biztonsági mentés valamivel kisebb lesz ennél, attól függően, hogy az adatok mennyire tömöríthetők. Az \\"Asztali mentés ellenőrzése\\" opcióval ellenőrizheti az asztali mentés fájl integritását.</p>
 
   <p>A szalagos mentés egy <i>[_1]</i>-nevű szoftvercsomagot használ, amellyel minden éjjel lementi szalagra a merevlemez teljes tartalmát. Ehhez támogatott szalagos meghajtó és nem írásvédett szalagok kellenek. A biztonsági mentés minden éjjel automatikusan történik (A rendszergazda automatikus figyelmeztető email-t kap előtte a nap folyamán). Jelenleg a merevlemez <b>[_2]</b> adatot tartalmaz.</p>
 
@@ -111,7 +111,7 @@
 'bac_SERVER_REBOOT' => 'Szerver újraindítás',
 'bac_SERVER_WILL_REBOOT' => 'A szerver most újraindul.',
 'bac_NO_UID_FOR_NAME' => 'Nincs meg az uid a következő felhasználóhoz:',
-'bac_PAGE_REFRESH_IN' => ' Ez az oldal {$sec} másodperc múlva frissül, vagy kattintson ide. ',
+'bac_PAGE_REFRESH_IN' => ' Ez az oldal [_1] másodperc múlva frissül, vagy kattintson ide. ',
 'bac_Backup or restore' => 'Biztonsági mentés',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Az ön szervere túl sok adatot tartalmaz ahhoz, hogy asztali mentést lehessen készíteni.  ',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' Hálózati mentés letiltva ',
@@ -226,3 +226,8 @@
 'bac_local removable disk' => 'Helyi eltávolítható meghajtó',
 'bac_Mounted disk' => 'Felcsatolt merevlemez',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'A paraméterek elmentve, azonban a távoli kiszolgáló nem érhető el, kérem ellenőrizze a beállításokat.',
+'bac_No suitable local devices found' => 'Nem találhatók megfelelő helyi eszközök',
+'bac_TAPE_BACKUPS' => 'A szalagos biztonsági mentések:',
+'Backup or restore' => 'Biztonsági mentés vagy visszaállítás',
+'bac_WORKSTN_BACKUPS' => 'A munkaállomás biztonsági mentései:',
+'bac_ERR_EXTRACT' => 'Hiba a Dar-ral történő kibontáskor',

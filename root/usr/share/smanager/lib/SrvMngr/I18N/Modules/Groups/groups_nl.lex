@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => 'Gebruikersgroepen toevoegen, wijzigen of verwijderen',
-'grp_GROUP_TOO_LONG' => 'Fout: De groepsnaam is te lang. De maximale lengte is {$maxLength} tekens.',
-'grp_ACCOUNT_CONFLICT' => 'Fout: de groep "{$group}" kan niet worden toegevoegd omdat er al een {$type} account met die naam bestaat.',
+'grp_GROUP_TOO_LONG' => 'Fout: De groepsnaam is te lang. De maximale lengte is [_1] tekens.',
+'grp_ACCOUNT_CONFLICT' => 'Fout: de groep "[_1]" kan niet worden toegevoegd omdat er al een [_2] account met die naam bestaat.',
 'grp_INVALID_GROUP_DESCRIPTION' => 'Fout: onverwachte of ontbrekende tekens in de groepsbeschrijving',
 'grp_NO_MEMBERS' => 'Fout: Geen groepsleden geselecteerd voor de groep. De groep is niet toegevoegd.',
 'grp_CREATED_GROUP' => 'Gebruikersgroep is met succes toegevoegd',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => 'Korte beschrijving/Windows groep pseudoniem',
 'grp_GROUP_DESC_EXPL' => 'Voer een korte groep beschrijving in het veld hieronder in. Dit veld bepaald ook de groepsnaam zichtbaar voor Windows gebruikers.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'De volgende informatiebaaien waren toegewezen aan deze groep en zullen worden veranderd in de beheerdersgroep (u kunt deze naderhand weer wijzigen):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Weet U zeker dat U deze groep wilt verwijderen?</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' Weet U zeker dat U deze groep wilt verwijderen?
 
   ',
-'grp_CURRENT_LIST' => '<p>Huidige lijst van gebruikersgroepen</p>
+'grp_CURRENT_LIST' => 'Huidige lijst van gebruikersgroepen
 
   ',
-'grp_DELETE_DESCRIPTION' => ' U staat op het punt om de gebruikersgroep "{$group}." te verwijderen ',
+'grp_DELETE_DESCRIPTION' => ' U staat op het punt om de gebruikersgroep "[_1]" te verwijderen ',

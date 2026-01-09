@@ -1,5 +1,5 @@
 'pf_FORM_TITLE' => 'Sett opp Port Videresending',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Du kan bruke dette panelet til å endre brannmur reglene som å åpne en spesifisert port på serveren, og videresende den til en annen port på en annen maskin. Ved å gjøre dette tillater du traffikken å få direkte tilgang til en maskin på det lokale nettverket. </p>
+'pf_FIRST_PAGE_DESCRIPTION' => '  Du kan bruke dette panelet til å endre brannmur reglene som å åpne en spesifisert port på serveren, og videresende den til en annen port på en annen maskin. Ved å gjøre dette tillater du traffikken å få direkte tilgang til en maskin på det lokale nettverket. 
 
   <p> ADVARSEL: Misbruk av denne funksjonen vil kan redusere sikkerheten på ditt nettverk. Bruk funksjonen med forsiktighet, og ikke bruk den hvis du ikke er helt sikker på hva du gjør. </p>
 
@@ -9,7 +9,7 @@
 'pf_SUMMARY_REMOVE_DESC' => 'Følgende oppsummerer port vidersenings reglen du er i ferd med å fjerne. Hvis du er sikker på at du vil fjerne reglen, klikker du på &quot;Fjerne&quot; knappen. Hvis ikke klikker du på &quot;Avbryt&quot; knappen.',
 'pf_SHOW_FORWARDS' => 'Under vil du finne en tabell med oppsummering over gjeldende port videresendings regler som er satt opp på serveren. Klikk på &quot;Fjern&quot; linken for å fjerne tilhørende regel.',
 'pf_NO_FORWARDS' => 'Det er ingen videresendte porter på systemet.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Velg protokollen, porten du vil videresende, mottakermaskinen, og porten hos mottakermaskinen du ønsker å videresende til. Hvis du ønsker å spesifisere et område, oppgir du nedre og øvre grense skilt med bindestrek. Mottakerens port kan stå blank, noe som vil gjøre at brannmuren ikke endrer på kildeporten.</p>
+'pf_CREATE_PAGE_DESCRIPTION' => ' Velg protokollen, porten du vil videresende, mottakermaskinen, og porten hos mottakermaskinen du ønsker å videresende til. Hvis du ønsker å spesifisere et område, oppgir du nedre og øvre grense skilt med bindestrek. Mottakerens port kan stå blank, noe som vil gjøre at brannmuren ikke endrer på kildeporten.
 
   ',
 'pf_LABEL_SOURCE_PORT' => 'Kildeport(er)',

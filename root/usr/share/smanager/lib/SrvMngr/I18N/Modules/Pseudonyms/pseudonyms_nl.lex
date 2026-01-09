@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Pseudoniem verwijderen',
 'pse_ABOUT_TO_REMOVE' => ' U staat op het punt de pseudoniem te verwijderen: Bent u zeker dat u verder wilt gaan? ',
 'pse_FORM_TITLE' => 'Pseudoniemen toevoegen, wijzigen of verwijderen',
-'pse_DESCRIPTION' => ' <p>De server voegt automatisch een e-mail pseudoniem toe voor elke groep. Voeg een groep toe indien U een e-mail pseudoniem wenst aan te maken voor een lijst van gebruikers. De lijst zal automatisch worden bijgehouden door de server.</p>
+'pse_DESCRIPTION' => ' De server voegt automatisch een e-mail pseudoniem toe voor elke groep. Voeg een groep toe indien U een e-mail pseudoniem wenst aan te maken voor een lijst van gebruikers. De lijst zal automatisch worden bijgehouden door de server.
 
   <p>Pseudoniemen laten u ook toe om andere namen aan te maken voor bestaande gebruikers of groepen. U kan bijvoorbeeld een pseudoniem "webmaster" maken voor een groep "webdevelopers" of een pseudoniem "joe" voor een gebruiker "joseph".</p>
 

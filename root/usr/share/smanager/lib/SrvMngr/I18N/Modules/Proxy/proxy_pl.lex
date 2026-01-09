@@ -8,3 +8,6 @@
 'prx_ERR_NO_SQUID_REC' => 'Błąd: Nie ma rekordu w bazie danych konfiguracji.',
 'prx_SUCCESS' => 'Nowe ustawienia proxy zostały ustawione pomyślnie.',
 'prx_BLOCKED' => 'Zablokowany',
+'prx_TITLE' => 'Ustawienia serwera proxy',
+'Proxy settings' => 'Ustawienia serwera proxy',
+'prx_Proxy' => 'Serwer proxy',

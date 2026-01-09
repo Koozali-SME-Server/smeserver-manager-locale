@@ -123,7 +123,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Fejl: Uventede eller manglende tegn i beskrivelsen',
 'FM_IP_NUMBER1' => 'Feltet skal indeholde en brugbar IPadresse og skal udfyldes.',
 'FM_IP_NUMBER2' => 'Ugyldig IP-adresse (forventet X.X.X.X)',
-'FM_IP_NUMBER3' => '{$octet} er større end 255',
+'FM_IP_NUMBER3' => '[_1] er større end 255',
 'FM_MAC_ADDRESS1' => 'Du skal skrive en MAC adresse.',
 'FM_MAC_ADDRESS2' => 'Den indtastede MAC adresse er ikke gyldig.',
 'FM_NONBLANK' => 'Dette felt må ikke være tomt',

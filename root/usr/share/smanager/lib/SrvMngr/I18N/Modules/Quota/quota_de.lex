@@ -1,6 +1,6 @@
 'quo_FORM_TITLE' => 'Anlegen, Ändern oder Entfernen von Speicherlimits von Benutzerkonten',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Es ist nicht möglich, die Kontendatenbank zu öffnen',
-'quo_QUOTA_DESC' => ' <p> Sie können die Speicherbelegung eines Benutzers auf Ihrem System begrenzen, indem Sie in der Zeile des Benutzers unter Aktion auf "Ändern" klicken. </p>
+'quo_QUOTA_DESC' => '  Sie können die Speicherbelegung eines Benutzers auf Ihrem System begrenzen, indem Sie in der Zeile des Benutzers unter Aktion auf "Ändern" klicken. 
 
   <p> Wenn ein Benutzer das "Limit mit Gnadenfrist" erreicht, wird eine Warnung erzeugt. Wird dieses Limit für mehr als eine Woche überschritten oder der Benutzer erreicht das "Absolute Limit", können von Ihm keine Dateien mehr gespeichert werden. Dieser Benutzer erhält auch keine E-Mails mehr. </p>
 

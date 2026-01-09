@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'Backup eller återställ serverdata',
 'bac_BACKUP_DESC' => ' <p>Serverns ger dig möjlighet till två sätt att ta backup och återställa din server: använd din lokala klient eller en bandstation.</p>
 
-  <p>Den första metoden skapar en kopia av din server konfiguration och användarnas datafiler, laddar ner det till din lokala klient via din webbläsare. För närvarande upptar din konfigurations- och datafiler totalt ungefär <b>[_3]</b>. Backup-filen kommer att bli något mindre än detta, beroende på hur komprimerad datat är. \"Verifiering av klientens backupfile\" inställning kan användas för att kontrollera integriteten på backupfilen.</p>
+  <p>Den första metoden skapar en kopia av din server konfiguration och användarnas datafiler, laddar ner det till din lokala klient via din webbläsare. För närvarande upptar din konfigurations- och datafiler totalt ungefär <b>[_3]</b>. Backup-filen kommer att bli något mindre än detta, beroende på hur komprimerad datat är. \\"Verifiering av klientens backupfile\\" inställning kan användas för att kontrollera integriteten på backupfilen.</p>
 
   <p>Backup med bandstation använder en mjukvara med namnet <i>[_1]</i> för att ta backup på hela hårddisken till band, varje natt. Detta kräver en bandstation som stöds och ett band som inte är skrivskyddat. Backupen körs automatiskt på vald tid varje natt (med en påminnelse som automatiskt e-postas till administratören under dagen). För närvarande innehåller din hårddisk <b>[_2]</b> av data.</p>
 
   <p>Båda återställningsmetoderna tillåter dig att återställa din konfiguration och användarnas datafiler. <b>Idealiskt är att återställningen sker på en nyinstallerad server</b>.</p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,9 +16,7 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Backup, konfiguration och status',
 'bac_TAPE_BACKUPS_ENABLED' => ' Backup med band är för närvarande valt. ',
 'bac_BACKUPS_RUN_AT' => 'Normal backup till band kommer att köras kl:',
@@ -79,7 +77,7 @@
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Klockslag för att ladda påminnelse om band (timmar/minuter)',
 'bac_AM/PM' => 'AM/PM',
 'bac_AM' => 'AM',
-'bac_PM' => 'PM',
+'bac_PM' => 'EM',
 'bac_UPDATE_CONF' => 'Uppdatera',
 'bac_UPDATING_TAPE_CONF' => 'Uppdaterar bandstationens konfiguration',
 'bac_ERR_INVALID_HOUR' => 'Fel: ogiltig timmangivelse för backup:',
@@ -111,7 +109,7 @@
 'bac_SERVER_REBOOT' => 'Omstart av server',
 'bac_SERVER_WILL_REBOOT' => 'Din server kommer nu att starta om.',
 'bac_NO_UID_FOR_NAME' => 'Kunde inte läsa uid för användare med namnet:',
-'bac_PAGE_REFRESH_IN' => ' Denna sida kommer att uppdatera statusen om {$sec} sekunder, eller klicka här. ',
+'bac_PAGE_REFRESH_IN' => ' Denna sida kommer att uppdatera statusen om [_1] sekunder, eller klicka här. ',
 'bac_Backup or restore' => 'Backup eller återställning',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Din server har för mycket data för en säker backup till din klient.  ',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' Backup till arbetsstation är ej aktiverat ',
@@ -156,7 +154,7 @@
 'bac_ERR_INVALID_FOLDER' => 'Ogiltigt namn på delningen',
 'bac_ERR_INVALID_LOGIN' => 'Ogiltig inloggning',
 'bac_ERR_INVALID_PASSWORD' => 'Ogiltigt lösenord',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'Säkerhetskopieringskatalogen är redan monterad',
 'bac_ERR_MOUNTING_SMBSHARE' => 'Kunde inte montera arbetsstationens delade mapp',
 'bac_ERR_NOT_MOUNTED' => 'Backupfilen inte funnen',
 'bac_WORKSTN_NOT_SET' => 'Du måste först konfigurerar din arbetsstation på ett korrekt sätt',
@@ -225,4 +223,9 @@
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'Lokal flyttbar disk',
 'bac_Mounted disk' => 'Monterad',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'Inga lämpliga lokala enheter hittades',
+'bac_TAPE_BACKUPS' => 'Bandkopior är',
+'Backup or restore' => 'Säkerhetskopiera eller återställ',
+'bac_WORKSTN_BACKUPS' => 'Säkerhetskopior av arbetsstationer är',
+'bac_ERR_EXTRACT' => 'Fel vid extrahering med Dar',

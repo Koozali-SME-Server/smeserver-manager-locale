@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'Fazer backup ou restaurar dados do servidor',
 'bac_BACKUP_DESC' => ' <p>Existem duas maneiras de fazer backup e restore do seu servidor: usando seu micro local, um drive de fita.</p>
 
-  <p>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>[_3]</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. A opção\"Verificar arquivo de backup para desktop\" pode ser usado para verificar a integridade de um arquivo de backup para o desktop.</p>
+  <p>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>[_3]</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. A opção\\"Verificar arquivo de backup para desktop\\" pode ser usado para verificar a integridade de um arquivo de backup para o desktop.</p>
 
   <p>O método de backup em fita usa um pacote de software chamado <i>[_1]</i> para fazer o backup de seu disco rígido inteiro para a fita todas as noites. Isto requer um drive de fita suportado e que a fita não esteja protegida contra gravação. O backup é feito automaticamente no horário selecionado a cada noite (com um lembrete sendo enviado automaticamente por e-mail ao administrador durante o dia). Atualmente seu disco rígido contém <b>[_2]</b> de dados.</p>
 
   <p>Todos métodos de restauração permitem que você restaure sua configuração e arquivos de dados dos usuários. O método de backup para micro da rede local permite um restauração de arquivos individuais. <b>Idealmente um backup completo deveria ser restaurado num servidor recém instalado.</b>.</p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,9 +16,7 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Configuração de backup e status',
 'bac_TAPE_BACKUPS_ENABLED' => ' O backup para fita está atualmente habilitado. ',
 'bac_BACKUPS_RUN_AT' => 'Um regular tape backup irá rodar as:',
@@ -111,7 +109,7 @@
 'bac_SERVER_REBOOT' => 'Reinicializar servidor',
 'bac_SERVER_WILL_REBOOT' => 'Seu servidor irá agora reinicializar.',
 'bac_NO_UID_FOR_NAME' => 'Incapaz de achar uid para usuário chamado:',
-'bac_PAGE_REFRESH_IN' => ' Esta página irá recarregar em {$sec} segundos, ou click aqui. ',
+'bac_PAGE_REFRESH_IN' => ' Esta página irá recarregar em [_1] segundos, ou click aqui. ',
 'Backup or restore' => 'Backup ou restauração',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Seu servidor tem muitos dados para que um backup para desktop seja confiável.',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' O backup para micro da rede local está desativado ',
@@ -156,7 +154,7 @@
 'bac_ERR_INVALID_FOLDER' => 'Nome do compartilhamento inválido',
 'bac_ERR_INVALID_LOGIN' => 'Login inválido',
 'bac_ERR_INVALID_PASSWORD' => 'Senha inválida',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'O diretório de backup já está montado',
 'bac_ERR_MOUNTING_SMBSHARE' => 'Incapaz de montar o compartilhamento do micro da rede local',
 'bac_ERR_NOT_MOUNTED' => 'Arquivo de backup não está montado',
 'bac_WORKSTN_NOT_SET' => 'Você precisa primeiro configurar corretamente o backup para micro da rede local',
@@ -214,15 +212,19 @@
 'bac_ERR_NO_USB_DISK' => 'Erro: Nenhum disco removível disponível. Por favor selecione outro tipo de backup ou conecte um disco removível.',
 'bac_ERR_NO_MOUNTED_DISK' => 'Erro: Nenhum disco removível disponível. Por favor selecione outro tipo de backup ou conecte um disco removível.',
 'bac_HOURS' => 'horas.',
-'bac_ERR_NO_FULL_BACKUP' => 'Aborting restore because needed full backup is missing or unreadable.',
-'bac_ERR_NO_INC_BACKUP' => 'Aborting restore because the set has missing or unreadable incremental backup number',
-'bac_CHECK_TO_VERIFY_FULL_RESTORE' => 'Check here to test integrity of all backups needed for a full restore with the selected backup',
-'bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE' => 'Testing all backups needed for a full restore with selected backup',
-'bac_TESTED_BACKUP' => 'Testing integrity of backup',
+'bac_ERR_NO_FULL_BACKUP' => '(en)Aborting restore because needed full backup is missing or unreadable.',
+'bac_ERR_NO_INC_BACKUP' => '(en)Aborting restore because the set has missing or unreadable incremental backup number',
+'bac_CHECK_TO_VERIFY_FULL_RESTORE' => '(en)Check here to test integrity of all backups needed for a full restore with the selected backup',
+'bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE' => '(en)Testing all backups needed for a full restore with selected backup',
+'bac_TESTED_BACKUP' => 'A testar a integridade da cópia de segurança',
 'bac_RESTORE_VERIFY_FAILED' => 'Falha na verificação da integridade',
-'bac_CHECK_INTEGRITY_WARNING' => 'Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.',
+'bac_CHECK_INTEGRITY_WARNING' => '(en)Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.',
 'bac_cifs' => 'cifs',
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'O Backup é feito no disco removível local',
 'bac_Mounted disk' => 'Montado',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'Não foram encontrados dispositivos locais adequados',
+'bac_TAPE_BACKUPS' => 'Os backups em fita são',
+'bac_WORKSTN_BACKUPS' => 'Os backups da estação de trabalho são',
+'bac_ERR_EXTRACT' => 'Erro ao extrair com Dar',

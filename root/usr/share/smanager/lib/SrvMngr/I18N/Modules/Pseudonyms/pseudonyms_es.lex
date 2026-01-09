@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Eliminar seudónimo',
 'pse_ABOUT_TO_REMOVE' => ' Esta usted a punto de eliminar el seudónimo: ¿Está seguro de que desea continuar? ',
 'pse_FORM_TITLE' => 'Crear, modificar, o eliminar seudónimos',
-'pse_DESCRIPTION' => ' <p>El servidor crea automáticamente un alias de e-mail para cada grupo. Si quiere definir un alias de e-mail para una lista de usuarios, simplemente cree un grupo y el servidor mantendrá la lista automáticamente.</p>
+'pse_DESCRIPTION' => ' El servidor crea automáticamente un alias de e-mail para cada grupo. Si quiere definir un alias de e-mail para una lista de usuarios, simplemente cree un grupo y el servidor mantendrá la lista automáticamente.
 
   <p>Los seudónimos le permiten crear otros nombres para usuarios o grupos existentes. Por ejemplo, usted desea crear un seudónimo "webmaster" para el grupo "webdevelopers" o un seudónimo "beto" para el usuario "alberto".</p>
 

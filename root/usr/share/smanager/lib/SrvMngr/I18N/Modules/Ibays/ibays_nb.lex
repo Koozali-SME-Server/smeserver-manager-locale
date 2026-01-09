@@ -1,41 +1,41 @@
 'iba_FORM_TITLE' => 'Opprett, endre eller fjern informasjonsgrupper',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Legg til i-bay</a> </p>
+'iba_FIRSTPAGE_DESC' => '  Legg til i-bay 
 
-  <p> Du kan fjerne en informasjons gruppe eller nulstille passordet ved å klikke på tilhørende link ved ønsket informasjonsgruppe. Hvis informasjonsgruppen vises i rødt, betyr det at passordet enda ikke er endret fra standard, og bør endres snarest. </p>
+   Du kan fjerne en informasjons gruppe eller nulstille passordet ved å klikke på tilhørende link ved ønsket informasjonsgruppe. Hvis informasjonsgruppen vises i rødt, betyr det at passordet enda ikke er endret fra standard, og bør endres snarest. 
 
   ',
 'iba_ADD_TITLE' => 'Opprett eller endre en informasjonsgruppe',
-'iba_NAME_FIELD_DESC' => 'Informasjonsgruppens navn kan bare inneholde små bokstaver, tall, punktum og understreker, og må starte med liten bokstav. For eksempel er "jonsen", intra", og "cust3.prj12" gyldige navn, mens "3part", Jon Jonsen" og "Bus!Partner" ikker er gyldige. Navnet er begrenset til en lengde på {$maxLength} tegn.',
+'iba_NAME_FIELD_DESC' => 'Informasjonsgruppens navn kan bare inneholde små bokstaver, tall, punktum og understreker, og må starte med liten bokstav. For eksempel er "jonsen", intra", og "cust3.prj12" gyldige navn, mens "3part", Jon Jonsen" og "Bus!Partner" ikker er gyldige. Navnet er begrenset til en lengde på [_1] tegn.',
 'iba_NAME_LABEL' => 'Informasjonsgruppe navn',
 'iba_USER_ACCESS' => 'Brukertilgang via fildeling eller bruker ftp',
 'iba_PUBLIC_ACCESS' => 'Offentlig tilgang via web eller anonym ftp',
 'iba_PUBLIC_ACCESS_DESCRIPTION' => 'Offentlig tilgangsmodus "passord påkrevd utenfor lokalt nettverk" er ikke støttet av FTP serveren. Hvis du velger denne modusen vil FTP serveren kreve passord både på innsiden og utsiden av det lokale nettverket for denne informasjonsgruppen.',
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Kjøring av dynamisk innhold (CGI, PHP, SSI)',
-'iba_HTTPS_Only' => 'Force secure connections',
+'iba_HTTPS_Only' => 'Tving sikre tilkoblinger',
 'iba_REMOVE_TITLE' => 'Fjerne informasjonsgruppe',
-'iba_REMOVE_DESC' => ' <p> Du er i ferd med å fjerne informasjonsgruppen "{$name}" ({$description}). </p>
+'iba_REMOVE_DESC' => '  Du er i ferd med å fjerne informasjonsgruppen "[_1]" ([_2]). 
 
-  <p> Alle filer som hører til gruppen vil bli slettet. </p>
+   Alle filer som hører til gruppen vil bli slettet. 
 
-  <p> Er du sikker på at du vil fjerne informasjonsgruppen? </p>
+   Er du sikker på at du vil fjerne informasjonsgruppen? 
 
   ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'En feil oppsto under opprettelsen av informasjonsgruppen.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Informasjonsgruppen er opprettet.',
 'iba_NO_IBAYS' => 'Ingen informasjonsgrupper er opprettet.',
-'iba_CANT_FIND_IBAY' => 'Kan ikke finne en konto for {$name} (eksisterer det?)',
-'iba_CANT_CREATE_IBAY' => 'Kan ikke opprette ny konto for {$name} (eksisterer det allerede?)',
+'iba_CANT_FIND_IBAY' => 'Kan ikke finne en konto for [_1] (eksisterer det?)',
+'iba_CANT_CREATE_IBAY' => 'Kan ikke opprette ny konto for [_1] (eksisterer det allerede?)',
 'iba_ERROR_WHILE_MODIFYING_IBAY' => 'En feil oppsto under endring av informasjonsgruppen.',
 'iba_SUCCESSFULLY_MODIFIED_IBAY' => 'Informasjonsgruppen er endret.',
 'iba_VIRTUAL_HOST_MESSAGE' => 'Følgende virituelle domener brukte denne informasjonsgruppens innhold, og de vil bli flyttet til hoved webstedet (du kan endre det til noe annet senere).',
 'iba_SUCCESSFULLY_DELETED_IBAY' => 'Informasjonsgruppen er slettet.',
 'iba_ERROR_WHILE_DELETING_IBAY' => 'En feil oppsto under sletting av informasjonsgruppen.',
-'iba_PASSWORD_DESC' => 'Du er i ferdi med å endre passordet for informasjonsgruppen {$name}.',
+'iba_PASSWORD_DESC' => 'Du er i ferdi med å endre passordet for informasjonsgruppen [_1].',
 'iba_IBAY_PASSWD_VALIDATION_ERROR' => 'Passordet kan kun inneholde bokstaver og tall.',
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Passordene er ikke like.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Passodet er nullstilt.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'En feil oppsto under nulstilling av passordet.',
-'iba_VHOST_MESSAGE' => ' Følgende virituelle domener brukte denne informasjonsgruppens innhold, og de vil bli flyttet til hoved webstedet (du kan endre det til noe annet senere): {$vhostList} ',
+'iba_VHOST_MESSAGE' => ' Følgende virituelle domener brukte denne informasjonsgruppens innhold, og de vil bli flyttet til hoved webstedet (du kan endre det til noe annet senere): [_1] ',
 'iba_Information bays' => 'Informasjonsgrupper',
 'iba_WGRG' => 'Skrive = gruppe, Lese = gruppe',
 'iba_WGRE' => 'Skrive = gruppe, Lese = alle',
@@ -47,7 +47,18 @@
 'iba_ENTIRE_INTERNET_PASSWORD' => 'Hele internett (passord påkrevd)',
 'iba_ENTIRE_INTERNET_PASSWORD_REMOTE' => 'Hele internett (passord påkrevd utenfor det lokale nettverket)',
 'iba_INVALID_IBAY_DESCRIPTION' => 'Feil: uventet Feil:uventet eller manglende tegn i informasjonsgruppe beskrivelsen',
-'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Informasjonsgruppens navn "{$acctName}" inneholder ugyldige tegn. Informasjonsgruppenavn må starte med liten bokstav og kun inneholde små bokstaver, tall og bindestreker.',
-'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Informasjonsgruppenavnet "{$name}" er for langt. maksimallengden er {$maxIbayNameLength} tegn.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Kontoen "{$acctName}" er i konflikt med pseudonym detaljene for {$acctType} kontoen "{$acct}". {$acctName} er et pseudonym for {$acct}. ',
-'iba_ACCOUNT_EXISTS' => 'Kontoen "{$acctName}" er en eksisterende {$acctType} konto.',
+'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'Informasjonsgruppens navn "[_1]" inneholder ugyldige tegn. Informasjonsgruppenavn må starte med liten bokstav og kun inneholde små bokstaver, tall og bindestreker.',
+'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'Informasjonsgruppenavnet "[_1]" er for langt. maksimallengden er [_1] tegn.',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Kontoen "[_1]" er i konflikt med pseudonym detaljene for [_2] kontoen "[_3]". [_1] er et pseudonym for [_3]. ',
+'iba_ACCOUNT_EXISTS' => 'Kontoen "[_1]" er en eksisterende [_2] konto.',
+'iba_ADD_IBAY' => 'Legg til i-bay',
+'WGRG' => '(en)Write = group, Read = group',
+'WGRE' => '(en)Write = group, Read = everyone',
+'WARG' => '(en)Write = admin, Read = group',
+'NONE' => 'Ingen tilgang',
+'LOCAL_NETWORK_NO_PASSWORD' => 'Lokalt nettverk (ingen passord kreves)',
+'LOCAL_NETWORK_PASSWORD' => 'Lokalt nettverk (passord kreves)',
+'ENTIRE_INTERNET_NO_PASSWORD' => 'Hele Internett (ingen passord kreves)',
+'ENTIRE_INTERNET_PASSWORD' => 'Hele Internett (passord kreves)',
+'ENTIRE_INTERNET_PASSWORD_REMOTE' => '(en)Entire Internet (password required outside local network)',
+'INVALID_IBAY_DESCRIPTION' => '(en)Error: unexpected or missing characters in i-bay description',

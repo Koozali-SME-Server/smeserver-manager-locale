@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Crea, modifica o rimuovi utenti',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Aggiungi utente</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Aggiungi utente</a> 
 
   <p> E\' possibile modificare, bloccare o rimuovere un utente o modificare la password facendo clic sul comando corrispondente a fianco dell\'utente. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Crea o modifica',
-'usr_CREATE_MODIFY_DESC' => ' <p> Il nome utente può contenere solo lettere minuscole, numeri, trattini, punti e underscore (_) e deve iniziare con una lettera minuscola. Per esempio "luisa", "mrossi" e "liu-jo" sono nomi utente validi, mentre "4amici", "Franco Neri" e "aldo/sbaglio" non lo sono. </p>
+'usr_CREATE_MODIFY_DESC' => '  Il nome utente può contenere solo lettere minuscole, numeri, trattini, punti e underscore (_) e deve iniziare con una lettera minuscola. Per esempio "luisa", "mrossi" e "liu-jo" sono nomi utente validi, mentre "4amici", "Franco Neri" e "aldo/sbaglio" non lo sono. 
 
   <p> Notare che verranno creati due pseudonimi speciali per ogni nuovo utente. Questi pseudonimi forniscono indirizzi email alternativi per l\'utente, creati unendo nome e cognome con un punto (.) e un underscore (_). L\'utente "mario" di nome "Mario" e cognome "Rossi" avrà due pseudonimi, mario.rossi e mario_rossi. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Modifica l\'utente admin',
 'usr_USER_CREATED' => 'Utente creato con successo.',
 'usr_USER_MODIFIED' => 'Utente modificato con successo.',
-'usr_CANNOT_MODIFY_USER' => 'Errore: errore interno durante la modifica dell\'utente: "{$acctName}".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Errore: errore interno durante la modifica del gruppo "{$group}" per l\'utente "{$acctName}".',
-'usr_TAINTED_USER' => 'Il nome utente "{$acctName}" contiene caratteri non validi.',
+'usr_CANNOT_MODIFY_USER' => 'Errore: errore interno durante la modifica dell\'utente: "[_1]".',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Errore: errore interno durante la modifica del gruppo "[_1]" per l\'utente "[_2]".',
+'usr_TAINTED_USER' => 'Il nome utente "[_1]" contiene caratteri non validi.',
 'usr_ACCOUNT_NAME' => 'Nome utente',
 'usr_FIRSTNAME' => 'Nome',
 'usr_LASTNAME' => 'Cognome',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'Inserire la password per l\'utente',
 'usr_RESET_DESC2' => 'Inserire la nuova password nei campi sottostanti',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Errore durante la modifica della password',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Password per l\'utente "{$acctName}" modificata con successo.',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Password per l\'utente "[_1]" modificata con successo.',
 'usr_LOCK_DESC' => 'Sta per essere bloccato l\'utente',
-'usr_LOCKED_ACCOUNT' => 'Utente "{$acctName}" bloccato con successo.',
-'usr_NO_SUCH_USER' => 'Errore: l\'utente "{$acctName}" non esiste.',
-'usr_PSEUDONYM_CLASH' => 'Errore: lo pseudonimo "{$pseudonym}" è già usato dall\'utente "{$clashName}". Per differenziare, aggiungere le iniziali a questo campo.',
+'usr_LOCKED_ACCOUNT' => 'Utente "[_1]" bloccato con successo.',
+'usr_NO_SUCH_USER' => 'Errore: l\'utente "[_1]" non esiste.',
+'usr_PSEUDONYM_CLASH' => 'Errore: lo pseudonimo "[_1]" è già usato dall\'utente "[_2]". Per differenziare, aggiungere le iniziali a questo campo.',
 'usr_LOCK_ACCOUNT' => 'Blocca utente',
 'usr_LOCK_ACCOUNT_TITLE' => 'Blocca utente',
 'usr_LOCK_DESC2' => ' L\'utente verrà bloccato. Questo significa che l\'utente non sarà in grado di effettuare il login e non potrà leggere la posta. La posta in arrivo continuerà a venire memorizzata e/o inoltrata ad un eventuale indirizzo esterno in base alla configurazione. L\'utente potrà essere riattivato in futuro impostando una nuova password. La password attuale non verrà salvata.   Siete sicuri di voler bloccare questo utente? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Blocca',
 'usr_NO_USER_ACCOUNTS' => 'Non ci sono utenti in questo sistema',
 'Users' => 'Utenti',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'L\'utente "{$acctName}" contiene caratteri non validi. I nomi utente devono iniziare con una lettera minuscola e possono contenere solo lettere minuscole, numeri, trattini, punti e underscore.',
-'usr_ACCOUNT_TOO_LONG' => 'Errore: il nome utente è troppo lungo. Il massimo è {$maxLength} caratteri.',
-'usr_ACCOUNT_CONFLICT' => 'Errore: l\'utente "{$account}" non può essere creato perché esiste già un {$type} con quel nome.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'L\'utente "[_1]" contiene caratteri non validi. I nomi utente devono iniziare con una lettera minuscola e possono contenere solo lettere minuscole, numeri, trattini, punti e underscore.',
+'usr_ACCOUNT_TOO_LONG' => 'Errore: il nome utente è troppo lungo. Il massimo è [_1] caratteri.',
+'usr_ACCOUNT_CONFLICT' => 'Errore: l\'utente "[_1]" non può essere creato perché esiste già un [_2] con quel nome.',
 'usr_ERR_OCCURRED_CREATING' => 'Errore durante la creazione dell\'utente',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Questo campo non può contenere spazi bianchi',
 'usr_UNACCEPTABLE_CHARS' => 'Questo campo deve contenere solo lettere, numeri, punti, trattini e underscore e iniziare con una lettera.',
@@ -70,3 +70,10 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Nuova password di sistema (verifica)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Carica certificato digitale nel client IPSec',
 'usr_ERR_OCCURRED_DELETING' => 'Errore durante l\'eliminazione dell\'utente.',
+'usr_ADD_USER' => 'Aggiungi account utente',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

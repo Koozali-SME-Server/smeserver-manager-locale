@@ -43,7 +43,7 @@
 'FM_ERR_UNEXPECTED_DESC' => '错误：描述中包含未知字符或缺少字符。',
 'FM_IP_NUMBER1' => '此字段必须包含一个有效的IP且不能留空。',
 'FM_IP_NUMBER2' => '无效的IP地址格式（例如X.X.X.X）',
-'FM_IP_NUMBER3' => '{$octet}大于255',
+'FM_IP_NUMBER3' => '[_1]大于255',
 'FM_MAC_ADDRESS1' => '您必须提供一个MAC地址。',
 'FM_MAC_ADDRESS2' => '您提供的MAC地址无效。',
 'FM_NONBLANK' => '此字段不能留空。',

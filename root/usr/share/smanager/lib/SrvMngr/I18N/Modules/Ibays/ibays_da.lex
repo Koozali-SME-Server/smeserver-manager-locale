@@ -1,11 +1,11 @@
 'iba_FORM_TITLE' => 'Oprette, ændre eller fjern i-bays',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Tilføj i-bay</a> </p>
+'iba_FIRSTPAGE_DESC' => '  Tilføj i-bay 
 
-  <p> Du kan ændre,fjerne eller skifte adgangskoden for en i-bay ved at klikke på det relevante link ud for pågældende i-bay. Vises navnet i rødt er adgangskoden ikke blevet skiftet. Det bør gøres snarest. </p>
+   Du kan ændre,fjerne eller skifte adgangskoden for en i-bay ved at klikke på det relevante link ud for pågældende i-bay. Vises navnet i rødt er adgangskoden ikke blevet skiftet. Det bør gøres snarest. 
 
   ',
 'iba_ADD_TITLE' => 'Oprete eller ændre en i-bay',
-'iba_NAME_FIELD_DESC' => 'I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal, punktum, bindestreger og understregningskoder. Fx "johnson", "intra", and "cust3.prj12" er alle lovlige navne, mens "3associates", "John Smith" og "Bus!Partner" ikke er. Navnet er begrænset til {$maxLength} anslag.',
+'iba_NAME_FIELD_DESC' => 'I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal, punktum, bindestreger og understregningskoder. Fx "johnson", "intra", and "cust3.prj12" er alle lovlige navne, mens "3associates", "John Smith" og "Bus!Partner" ikke er. Navnet er begrænset til [_1] anslag.',
 'iba_NAME_LABEL' => 'I-bay navn',
 'iba_USER_ACCESS' => 'Tillad bruger adgang via fildeling eller ftp',
 'iba_PUBLIC_ACCESS' => 'Åben adgang via web eller annonym ftp',
@@ -13,29 +13,29 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Udfør dynamisk indhold (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Gennemtving sikker forbindelse',
 'iba_REMOVE_TITLE' => 'Fjern i-bay',
-'iba_REMOVE_DESC' => ' <p> Du er ved at fjerne I-bay "{$name}" ({$description}). </p>
+'iba_REMOVE_DESC' => '  Du er ved at fjerne I-bay "[_1]" ([_2]). 
 
-  <p> Alle filer i denne i-bay vil blive slettet. </p>
+   Alle filer i denne i-bay vil blive slettet. 
 
-  <p> Er du sikker på du ønsker at slette denne i-bay? </p>
+   Er du sikker på du ønsker at slette denne i-bay? 
 
   ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Der opstod en fejl ved oprettelse af i-bay.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'I-bay oprettet med succes.',
 'iba_NO_IBAYS' => 'Der er ikke opsat nogen i-bays.',
-'iba_CANT_FIND_IBAY' => 'Kan ikke finde nogen konto for {$name} (eksisterer den?)',
-'iba_CANT_CREATE_IBAY' => 'Kan ikke oprette en ny konto for {$name} (eksisterer den i forvejen?)',
+'iba_CANT_FIND_IBAY' => 'Kan ikke finde nogen konto for [_1] (eksisterer den?)',
+'iba_CANT_CREATE_IBAY' => 'Kan ikke oprette en ny konto for [_1] (eksisterer den i forvejen?)',
 'iba_ERROR_WHILE_MODIFYING_IBAY' => 'Der opstod en fejl ved ændring af i-bay.',
 'iba_SUCCESSFULLY_MODIFIED_IBAY' => 'I-bay ændret.',
 'iba_VIRTUAL_HOST_MESSAGE' => 'Følgende virtuelle domæner hentede sit indhold fra denne i-bay. Det vil blive ændret til at hente indholdet fra den primære webside (du kan ændre dette senere).',
 'iba_SUCCESSFULLY_DELETED_IBAY' => 'I-bay slettet.',
 'iba_ERROR_WHILE_DELETING_IBAY' => 'Der opstod en fejl ved sletning af i-bay.',
-'iba_PASSWORD_DESC' => 'Du er ved at ændre adgangskoden for i-bay {$name}.',
+'iba_PASSWORD_DESC' => 'Du er ved at ændre adgangskoden for i-bay [_1].',
 'iba_IBAY_PASSWD_VALIDATION_ERROR' => 'Adgangskoden må kun indeholde bogstaver og tal.',
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'De indtastede adgangskoder er ikke ens.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Adgangskode skiftet.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Fejl under skift af adgangskode.',
-'iba_VHOST_MESSAGE' => ' Følgende virtuelt domæne hentede sit indhold denne i-bay. Det vil blive ændret til at hente indholdet fra den primære webside. (Du kan ændre dette senere): {$vhostList} ',
+'iba_VHOST_MESSAGE' => ' Følgende virtuelt domæne hentede sit indhold denne i-bay. Det vil blive ændret til at hente indholdet fra den primære webside. (Du kan ændre dette senere): [_1] ',
 'iba_Information bays' => 'I-bays',
 'iba_WGRG' => 'Skrive = gruppe, læse = gruppe',
 'iba_WGRE' => 'Skrive = gruppe, læse = alle',
@@ -47,7 +47,18 @@
 'iba_ENTIRE_INTERNET_PASSWORD' => 'Hele Internet (adgangskode påkrævet)',
 'iba_ENTIRE_INTERNET_PASSWORD_REMOTE' => 'Hele Internet (adgangskode påkrævet udenfor lokalnet)',
 'iba_INVALID_IBAY_DESCRIPTION' => 'Fejl: uventede eller manglende tegn i i-bay beskrivelse',
-'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'I-bay navnet "{$acctName}" indehold ulovlige tegn. I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal og bindestreger.',
-'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'I-bay navnet "{$name}" er for langt. maximum er {$maxIbayNameLength} tegn.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Kontoen "{$acctName}" er i konflikt med pseudonym detaljer for {$acctType} konto "{$acct}". {$acctName} er pseudonym for {$acct}. ',
-'iba_ACCOUNT_EXISTS' => 'Kontoen "{$acctName}" er en eksisterende {$acctType} konto.',
+'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'I-bay navnet "[_1]" indehold ulovlige tegn. I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal og bindestreger.',
+'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'I-bay navnet "[_1]" er for langt. maximum er [_1] tegn.',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' Kontoen "[_1]" er i konflikt med pseudonym detaljer for [_2] konto "[_3]". [_1] er pseudonym for [_3]. ',
+'iba_ACCOUNT_EXISTS' => 'Kontoen "[_1]" er en eksisterende [_2] konto.',
+'iba_ADD_IBAY' => 'Tilføj i-bay',
+'WGRG' => '(en)Write = group, Read = group',
+'WGRE' => '(en)Write = group, Read = everyone',
+'WARG' => '(en)Write = admin, Read = group',
+'NONE' => 'Ingen adgang',
+'LOCAL_NETWORK_NO_PASSWORD' => 'Lokalt netværk (ingen adgangskode kræves)',
+'LOCAL_NETWORK_PASSWORD' => 'Lokalt netværk (adgangskode påkrævet)',
+'ENTIRE_INTERNET_NO_PASSWORD' => 'Hele internettet (ingen adgangskode påkrævet)',
+'ENTIRE_INTERNET_PASSWORD' => 'Hele internettet (adgangskode kræves)',
+'ENTIRE_INTERNET_PASSWORD_REMOTE' => '(en)Entire Internet (password required outside local network)',
+'INVALID_IBAY_DESCRIPTION' => '(en)Error: unexpected or missing characters in i-bay description',

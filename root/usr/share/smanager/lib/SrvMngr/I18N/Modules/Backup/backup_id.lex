@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'Backup atau restore data server',
 'bac_BACKUP_DESC' => ' <p>Server menyediakan dua cara untuk membackup dan me-restore server: : menggunakan desktop lokal atau sebuah tape drive.</p>
 
-  <p>Metode pertama membuat salinan dari konfigurasi server dan file data pengguna, dan mengunduhnya pada desktop lokal anda melalui web browser anda. Saat ini total file konfigurasi dan data sekitar <b>[_3]</b>. File backup akan sedikit lebih kecil dari ini, tergantung seberapa bisa data dimampatkan . Pilihan \"Periksa file backup dekstop\" option dapat digunakanuntuk memeriksa integritas dari sebuah file backup.</p>
+  <p>Metode pertama membuat salinan dari konfigurasi server dan file data pengguna, dan mengunduhnya pada desktop lokal anda melalui web browser anda. Saat ini total file konfigurasi dan data sekitar <b>[_3]</b>. File backup akan sedikit lebih kecil dari ini, tergantung seberapa bisa data dimampatkan . Pilihan \\"Periksa file backup dekstop\\" option dapat digunakanuntuk memeriksa integritas dari sebuah file backup.</p>
 
   <p>Metode tape backup menggunakan paket perangkat lunak <i>[_1]</i> untuk membackup seluruh harddisk kedalam tape setiap malam. Ini memerlukan tape drive yang di-support dan sebuah tape yang tidak di write-protect. Backup dilakukan secara otomatis pada waktu yang ditentukan setiap malam (dengan reminder yang secara otomatis di e-mailed kepada administrator pada hari berikutnya). Saat ini harddisk anda berisi data <b>[_2]</b> .</p>
 
   <p>Kedua metode restore membolehkan anda untuk me-restore file konfigurasi dan data pengguna. <b>Sebaiknya, restore dilakukan pada server yang baru di-install</b>.</p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,9 +16,7 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Konfigurasi dan status backup',
 'bac_TAPE_BACKUPS_ENABLED' => ' Backup Tape saat ini di enabled. ',
 'bac_BACKUPS_RUN_AT' => 'Tape backup akan dijalankan secara teratur pada:',
@@ -110,10 +108,10 @@
 'bac_ERR_RESTORING_FROM_TAPE' => 'Gagal me-restore dari tape.',
 'bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE' => 'Gagal saat meng-update konfigurasi sistem setelah restore dari tape.',
 'bac_COULD_NOT_FORK' => 'Tidak dapat melakukan fork:',
-'bac_SERVER_REBOOT' => 'Server reboot',
+'bac_SERVER_REBOOT' => 'Mulai ulang server',
 'bac_SERVER_WILL_REBOOT' => 'Server akan reboot sekarang',
 'bac_NO_UID_FOR_NAME' => 'Tidak dapat mengambil uid untuk user:',
-'bac_PAGE_REFRESH_IN' => ' Halaman ini akan me-refresh ke display status dalam {$sec} detik, atau klikdi sini. ',
+'bac_PAGE_REFRESH_IN' => ' Halaman ini akan me-refresh ke display status dalam [_1] detik, atau klikdi sini. ',
 'bac_Backup or restore' => 'Backup atau restore',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Terlalu banyak data pada server untuk backup ke desktop.  ',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation backups di disabled ',
@@ -124,7 +122,7 @@
 'bac_WORKSTN_RESTORE' => 'Restore dari workstation',
 'bac_CONFIGURE_WORKSTN_BACKUP' => 'Pengaturan Workstation Backup',
 'bac_ENABLE_DISABLE_WORKSTN' => 'Enable/Disable Workstation Backup harian',
-'bac_ENABLE_WORKSTN_BACKUP' => 'Enable Workstation Backup',
+'bac_ENABLE_WORKSTN_BACKUP' => 'Aktifkan Pencadangan Workstation',
 'bac_WORKSTN_BACKUP_TIME' => 'Waktu melakukan Workstation backup (jam/menit)',
 'bac_UPDATING_WORKSTN_CONF' => 'Meng-update konfigurasi workstation backup',
 'bac_SUCCESSFULLY_ENABLED_WORKSTN' => 'Workstation backup berhasil diaktifkan',
@@ -150,15 +148,15 @@
 'bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE' => 'Gagal saat meng-update sistem konfigurasi setelah workstation restore.',
 'bac_WORKSTN_NAME' => 'IP atau hostname workstation.',
 'bac_WORKSTN_BACKUP_SETTINGS' => 'Setting Workstation Backup.',
-'bac_SHARED_FOLDER_NAME' => 'Backup Share',
-'bac_WORKSTN_LOGIN' => 'Login name',
+'bac_SHARED_FOLDER_NAME' => 'Bagikan Cadangan',
+'bac_WORKSTN_LOGIN' => 'Nama login',
 'bac_WORKSTATION_BACKUP_DEST' => 'Seting backup workstation',
 'bac_CONFIGURE_WORKSTN_BACKUP_DESC' => 'Anda dapat menentukan jumlah set backup untuk disimpan di workstation, dengan putaran otomatis. Setiap set mungkin berisi data yang disimpan untuk beberapa hari. Dalam hal ini, backup pertama adalah full backup, backup lainnya adalah incremental. Anda juga dapat menentukan batas waktu dari setiap sesi backup atau hanya untuk incremental backup saja. Jika batas waktu ini terlampaui, maka backup akan diberhentikan secara otomatis, dan incremental backup selanjutnya akan dilanjutkan dengan data selanjutnya.',
 'bac_ERR_INVALID_WORKSTN' => 'IP atau hostname Workstation tidak valid.',
 'bac_ERR_INVALID_FOLDER' => 'Nama share tidka valid',
 'bac_ERR_INVALID_LOGIN' => 'Login tidak valid',
 'bac_ERR_INVALID_PASSWORD' => 'Password tidak valid',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'Direktori cadangan sudah terpasang',
 'bac_ERR_MOUNTING_SMBSHARE' => 'Tidak dapat me-mount shared folder workstation',
 'bac_ERR_NOT_MOUNTED' => 'Berkas backup tidak ditemukan',
 'bac_WORKSTN_NOT_SET' => 'Anda harus mengkonfigurasi workstation backup secara benar terlebih dahulu',
@@ -227,4 +225,9 @@
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'Backup dilakukan pada USB disk lokal',
 'bac_Mounted disk' => 'Disk terpasang',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'Tidak ditemukan perangkat lokal yang sesuai',
+'bac_TAPE_BACKUPS' => 'Cadangan pita adalah',
+'Backup or restore' => 'Cadangkan atau pulihkan',
+'bac_WORKSTN_BACKUPS' => 'Cadangan workstation adalah',
+'bac_ERR_EXTRACT' => 'Kesalahan saat mengekstrak dengan Dar',

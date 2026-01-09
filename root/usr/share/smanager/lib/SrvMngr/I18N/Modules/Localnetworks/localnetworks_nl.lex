@@ -12,22 +12,27 @@
 'ln_REMOVE_CONFIRM' => 'Weet u zeker dat u dit netwerk wilt verwijderen?',
 'ln_DEFAULT' => 'standaard',
 'ln_NUMBER_OF_HOSTS' => 'Aantal hosts',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Fout: router adres {$networkRouter} is niet toegankelijk vanaf het lokale netwerk. Het netwerk is niet toegevoegd.',
-'ln_NETWORK_ALREADY_LOCAL' => 'Fout: netwerk {$network} (afgeleid van netwerk {$networkAddress} en subnet masker {$networkMask}) wordt al gezien als lokaal. Het netwerk is niet toegevoegd.',
-'ln_NETWORK_ALREADY_ADDED' => 'Fout: netwerk {$network} (afgeleid van netwerk {$networkAddress} en subnet masker {$networkMask}) is reeds aanwezig. Het netwerk is niet toegevoegd.',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Fout: router adres [_1] is niet toegankelijk vanaf het lokale netwerk. Het netwerk is niet toegevoegd.',
+'ln_NETWORK_ALREADY_LOCAL' => 'Fout: netwerk [_1] (afgeleid van netwerk [_2] en subnet masker [_3]) wordt al gezien als lokaal. Het netwerk is niet toegevoegd.',
+'ln_NETWORK_ALREADY_ADDED' => 'Fout: netwerk [_1] (afgeleid van netwerk [_2] en subnet masker [_3]) is reeds aanwezig. Het netwerk is niet toegevoegd.',
 'ln_ERROR_CREATING_NETWORK' => 'Fout tijdens het toevoegen van het netwerk.',
-'ln_SUCCESS' => 'Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd.',
-'ln_SUCCESS_SINGLE_ADDRESS' => 'Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan het enkele IP adres {$network}.',
-'ln_SUCCESS_NETWORK_RANGE' => 'Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan {$totalHosts} IP adressen in het bereik {$firstAddr} tot {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes toegevoegd. </p>
+'ln_SUCCESS' => 'Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd.',
+'ln_SUCCESS_SINGLE_ADDRESS' => 'Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan het enkele IP adres [_4].',
+'ln_SUCCESS_NETWORK_RANGE' => 'Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan [_4] IP adressen in het bereik [_5] tot [_6].',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd. 
 
-  <p> De server zal lokale toegangsprivileges toekennen aan {$totalHosts} IP adressen in het bereik {$firstAddr} tot {$lastAddr}. </p>
+  <p> De server zal lokale toegangsprivileges toekennen aan [_1] IP adressen in het bereik [_2] tot [_3]. </p>
 
-  <p> Waarschuwing: de ProFTPd FTP server herkent dit niet-standaard deelnetwerkmasker niet. De versimpelde specificatie <b>{$simpleMask}</b> zal in plaats hiervan worden gebruikt. </p>
+  <p> Waarschuwing: de ProFTPd FTP server herkent dit niet-standaard deelnetwerkmasker niet. De versimpelde specificatie <b>[_1]</b> zal in plaats hiervan worden gebruikt. </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => 'Netwerk {$network}/{$networkMask} via router {$networkRouter} is met succes verwijderd.',
+'ln_SUCCESS_REMOVED_NETWORK' => 'Netwerk [_1]/[_2] via router [_3] is met succes verwijderd.',
 'ln_ERROR_DELETING_NETWORK' => 'Er is een fout opgetreden tijdens het verwijderen van het netwerk.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Geen additionele netwerken',
 'ln_REMOVE_HOSTS_DESC' => 'Er zijn lokale hosts waargenomen die zijn geconfigureerd voor het netwerk waarvan u op het punt staat dit te verwijderen. Standaard worden deze eveneens verwijderd. De-selecteer dit aankruisvakje indien dit om enig reden niet gewenst is. Let op, ze zullen niet meer worden behandeld als lokaal en zijn mogelijk niet bereikbaar na het verwijderen van dit netwerk.',
 'ln_REMOVE_HOSTS_LABEL' => 'Verwijder hosts van netwerk',
+'Local networks' => 'Lokale netwerken',
+'ln_LOCALNETWORK_ADD' => 'Netwerk toevoegen',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] via router [_3]',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',

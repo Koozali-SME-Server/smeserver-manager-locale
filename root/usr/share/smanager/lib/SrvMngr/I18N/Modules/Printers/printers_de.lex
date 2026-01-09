@@ -3,7 +3,7 @@
 'prt_NO_PRINTERS' => 'Es sind keine Drucker am System angeschlossen.',
 'prt_CURRENT_LIST' => 'Aktuelle Liste der Drucker',
 'prt_REMOTE_ADDRESS' => 'Remote Adresse',
-'prt_REMOTE_NAME' => 'Remote Name',
+'prt_REMOTE_NAME' => 'Remote-Name',
 'prt_CREATE_NEW_PRINTER' => 'Neuen Drucker erstellen',
 'prt_CREATE_NEW_DESC' => ' Bitte wählen Sie einen unverwechselbaren Namen für Ihren Drucker und geben Sie eine Kurzbeschreibung ein. Der Druckername darf nur Kleinbuchstaben und Zahlen enthalten und sollte mit einem Kleinbuchstaben beginnen. Zum Beispiel sind "hplaser", "epsonlp" und "canonbj" erlaubt, jedoch wird "HP Laser Jet", "Canon BubbleJet" oder "HP JetDirect Printer" nicht akzeptiert. Vermeiden Sie Namen und Beschreibungen die die folgenden Terme enthalten: "offline", "disabled", "down", "off", "waiting", "jam", "paper", "error" und "responding". ',
 'prt_PRINTER_NAME' => 'Druckername',
@@ -34,3 +34,4 @@
 'prt_DELETED_SUCCESSFULLY' => 'Drucker wurde erfolgreich gelöscht:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Es muss ein gültiger Hostname oder eine gültige IP-Adresse sein',
 'Printers' => 'Drucker',
+'prt_INITIAL_BTN' => 'Drucker hinzufügen',

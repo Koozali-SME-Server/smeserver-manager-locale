@@ -29,3 +29,7 @@
 'rvw_NO_VIRTUAL_DOMAINS' => 'Виртуальные домены не определены',
 'rvw_NO_NETWORKS' => 'Дополнительные сети не заданы',
 'rvw_INTERNET_VISIBLE_ADDRESS' => 'Видимый в интернет IP адрес',
+'rvw_FORM_TITLE' => 'Проверить конфигурацию',
+'rvw_SERVER_MANAGER' => 'Диспетчер серверов',
+'rvw_USER_PASSWORD_PANEL' => 'Панель пароля пользователя',
+'Review configuration' => 'Проверить конфигурацию',

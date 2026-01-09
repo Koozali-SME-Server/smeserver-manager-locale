@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'Respaldar o restaurar los datos del servidor',
 'bac_BACKUP_DESC' => ' <p>El servidor provee dos maneras de respaldar y restaurar su servidor: usando su escritorio local o unidad de cinta.</p>
 
-  <p>El primer método crea una copia de los archivos de datos de usuario y de configuración del servidor y la descarga al escritorio local mediante el explorador Web. El total aproximado actual de los archivos de configuración y de datos es de <b>[_3]</b>. El archivo de respaldo será un poco menor, dependiendo de lo comprimibles que sean los datos. La opción \"Verificar archivo de respaldo de escritorio\" se puede utilizar para verificar la integridad de un archivo de respaldo de escritorio.</p>
+  <p>El primer método crea una copia de los archivos de datos de usuario y de configuración del servidor y la descarga al escritorio local mediante el explorador Web. El total aproximado actual de los archivos de configuración y de datos es de <b>[_3]</b>. El archivo de respaldo será un poco menor, dependiendo de lo comprimibles que sean los datos. La opción \\"Verificar archivo de respaldo de escritorio\\" se puede utilizar para verificar la integridad de un archivo de respaldo de escritorio.</p>
 
   <p>El método de respaldo en cinta utiliza un paquete de software llamado <i>[_1]</i> para respaldar en cinta el disco duro completo todas las noches. Esto requiere una unidad de cinta compatible y una cinta que no esté protegida contra-escritura. El respaldo se realiza automáticamente todas las noches a la hora seleccionada (enviándose automáticamente al administrador un recordatorio electrónico durante el día). Actualmente, el disco duro contiene <b>[_2]</b> de datos.</p>
 
   <p>Los dos métodos de restauración permiten restaurar los archivos de configuración y de datos de usuario. <b>Idealmente, la restauración se debe realizar en un servidor recién instalado</b>.</p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,9 +16,7 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Configuración y estado del respaldo',
 'bac_TAPE_BACKUPS_ENABLED' => ' Los respaldos en cinta están habilitados. ',
 'bac_BACKUPS_RUN_AT' => 'Los respaldos regulares en cinta se ejecutarán a las:',
@@ -78,8 +76,8 @@
 'bac_TAPE_BACKUP_TIME' => 'Hora del día para respaldo en cinta (hora/min)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Hora del día para recordatorio de carga de cinta (hora/min)',
 'bac_AM/PM' => 'AM/PM',
-'bac_AM' => 'AM',
-'bac_PM' => 'PM',
+'bac_AM' => 'a. m.',
+'bac_PM' => 'p. m.',
 'bac_UPDATE_CONF' => 'Actualizar',
 'bac_UPDATING_TAPE_CONF' => 'Actualización de la configuración del respaldo en cinta',
 'bac_ERR_INVALID_HOUR' => 'Error: hora de respaldo inválida:',
@@ -111,7 +109,7 @@
 'bac_SERVER_REBOOT' => 'Reinicio del servidor',
 'bac_SERVER_WILL_REBOOT' => 'Ahora se reiniciará el servidor.',
 'bac_NO_UID_FOR_NAME' => 'No se pudo obtener el uid para el usuario llamado:',
-'bac_PAGE_REFRESH_IN' => ' Esta página se actualizará a la pantalla de estado en {$sec} segundos o haga clic aquí. ',
+'bac_PAGE_REFRESH_IN' => ' Esta página se actualizará a la pantalla de estado en [_1] segundos o haga clic aquí. ',
 'Backup or restore' => 'Respaldar o restaurar',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Su servidor tiene demasiados datos para realizar un respaldo confiable al escritorio.',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' Los respaldos en ordenador remoto están deshabilitados ',
@@ -156,7 +154,7 @@
 'bac_ERR_INVALID_FOLDER' => 'Nombre compartido inválido',
 'bac_ERR_INVALID_LOGIN' => 'Nombre de usuario inválido',
 'bac_ERR_INVALID_PASSWORD' => 'Contraseña inválida',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'El directorio de copia de seguridad ya está montado',
 'bac_ERR_MOUNTING_SMBSHARE' => 'No se puede montar la carpeta compartida del ordenador remoto',
 'bac_ERR_NOT_MOUNTED' => 'Archivo de respaldo no encontrado',
 'bac_WORKSTN_NOT_SET' => 'Primero debe configurar correctamente su respaldo de ordenador remoto',
@@ -225,4 +223,8 @@
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'El respaldo esta hecho en un disco local USB',
 'bac_Mounted disk' => 'Montada',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'No se encontraron dispositivos locales adecuados',
+'bac_TAPE_BACKUPS' => 'Las copias de seguridad en cinta son',
+'bac_WORKSTN_BACKUPS' => 'Las copias de seguridad de la estación de trabajo son',
+'bac_ERR_EXTRACT' => 'Error al extraer con Dar',

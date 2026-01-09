@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => 'Anlegen, Ändern und Löschen von Benutzergruppen',
-'grp_GROUP_TOO_LONG' => 'FEHLER: Der Gruppenname ist zu lang. Die max. Länge ist {$maxLength} Zeichen.',
-'grp_ACCOUNT_CONFLICT' => 'FEHLER: Die Gruppe "{$group}" kann nicht angelegt werden, da bereits ein {$type} Konto mit dem gleichen Namen besteht.',
+'grp_GROUP_TOO_LONG' => 'FEHLER: Der Gruppenname ist zu lang. Die max. Länge ist [_1] Zeichen.',
+'grp_ACCOUNT_CONFLICT' => 'FEHLER: Die Gruppe "[_1]" kann nicht angelegt werden, da bereits ein [_2] Konto mit dem gleichen Namen besteht.',
 'grp_INVALID_GROUP_DESCRIPTION' => 'FEHLER: Ungültige oder fehlende Zeichen in der Gruppenbeschreibung',
 'grp_NO_MEMBERS' => 'FEHLER: Keine Mitglieder in der Gruppe. Neue Gruppe wurde nicht angelegt.',
 'grp_CREATED_GROUP' => 'Gruppe wurde erfolgreich angelegt',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => 'Kurzbeschreibung/Windows Gruppen Alias',
 'grp_GROUP_DESC_EXPL' => 'Geben Sie unten eine möglichst sinnvolle Kurzbeschreibung für diese Gruppe ein. Diese ist dann auch im Windows-Netzwerk sichtbar.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Die folgenden i-bays wurden dieser Gruppe hinzugefügt und werden auf die Administrator Gruppe geändert (Sie können dies später ändern):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Sind Sie sicher, daß Sie diese Gruppe löschen wollen?</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' Sind Sie sicher, daß Sie diese Gruppe löschen wollen?
 
   ',
-'grp_CURRENT_LIST' => ' <p> Aktuelle Liste der Benutzergruppen</p>
+'grp_CURRENT_LIST' => '  Aktuelle Liste der Benutzergruppen
 
   ',
-'grp_DELETE_DESCRIPTION' => ' Sie löschen gerade die Benutzergruppe "{$group}." ',
+'grp_DELETE_DESCRIPTION' => ' Sie löschen gerade die Benutzergruppe "[_1]" ',

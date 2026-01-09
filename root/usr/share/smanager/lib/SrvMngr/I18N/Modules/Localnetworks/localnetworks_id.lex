@@ -9,24 +9,30 @@
 'ln_REMOVE_TITLE' => 'Hapus jaringan lokal',
 'ln_REMOVE_DESC' => 'Anda akan menghapus jaringan lokal sebagai berikut',
 'ln_REMOVE_CONFIRM' => 'Anda yakin ingin menghapus jaringan ini?',
-'ln_DEFAULT' => 'default',
+'ln_DEFAULT' => 'bawaan',
 'ln_NUMBER_OF_HOSTS' => 'Jumlah host',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Error: alamat router {$networkRouter} tidak dapat diakses dari jaringan lokal. Jaringan tidak ditambah.',
-'ln_NETWORK_ALREADY_LOCAL' => 'Error: jaringan {$network} (diturunkan dari jaringan{$networkAddress} dan subnet mask {$networkMask}) telah dianggap lokal. Jaringan baru tidak ditambah.',
-'ln_NETWORK_ALREADY_ADDED' => 'Error: jaringan {$network} (diturunkan dari jaringan{$networkAddress} dan subnet mask {$networkMask}) sudah pernah ditambah. Jaringan baru tidak ditambah.',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Error: alamat router [_1] tidak dapat diakses dari jaringan lokal. Jaringan tidak ditambah.',
+'ln_NETWORK_ALREADY_LOCAL' => 'Error: jaringan [_1] (diturunkan dari jaringan[_2] dan subnet mask [_3]) telah dianggap lokal. Jaringan baru tidak ditambah.',
+'ln_NETWORK_ALREADY_ADDED' => 'Error: jaringan [_1] (diturunkan dari jaringan[_2] dan subnet mask [_3]) sudah pernah ditambah. Jaringan baru tidak ditambah.',
 'ln_ERROR_CREATING_NETWORK' => 'Gagal saat membuat jaringan',
-'ln_SUCCESS' => 'Berhasil menambah jaringan {$network}/{$networkMask} melalui router {$networkRouter}.',
-'ln_SUCCESS_SINGLE_ADDRESS' => 'Berhasil menambah jaringan {$network}/{$networkMask} melalui router {$networkRouter}. Server anda akan mengabulkan hak akses lokal ke alamat IP tunggal {$network}.',
-'ln_SUCCESS_NETWORK_RANGE' => 'Berhasil menambah jaringan {$network}/{$networkMask} melalui router {$networkRouter}. Server anda akan mengabulkan hak akses lokal ke {$totalHosts} alamat IP dalam range {$firstAddr} s.d {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Berhasil menambah jaringan {$network}/{$networkMask} melaluirouter {$networkRouter}. </p>
+'ln_SUCCESS' => 'Berhasil menambah jaringan [_1]/[_2] melalui router [_3].',
+'ln_SUCCESS_SINGLE_ADDRESS' => 'Berhasil menambah jaringan [_1]/[_2] melalui router [_3]. Server anda akan mengabulkan hak akses lokal ke alamat IP tunggal [_4].',
+'ln_SUCCESS_NETWORK_RANGE' => 'Berhasil menambah jaringan [_1]/[_2] melalui router [_3]. Server anda akan mengabulkan hak akses lokal ke [_4] alamat IP dalam range [_5] s.d [_6].',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  Berhasil menambah jaringan [_1]/[_2] melaluirouter [_3]. 
 
-  <p> Server anda akan mengabulkan hak akses lokal ke {$totalHosts} alamat IP dalam range {$firstAddr} s.d {$lastAddr}. </p>
+  <p> Server anda akan mengabulkan hak akses lokal ke [_1] alamat IP dalam range [_2] s.d [_3]. </p>
 
-  <p> Peringatan: Server FTP ProFTPd tidak dapat menangani subnet mask nonstandard ini. Spesifikasi yang lebih sederhana <b>{$simpleMask}</b> akan digunakan. </p>
+  <p> Peringatan: Server FTP ProFTPd tidak dapat menangani subnet mask nonstandard ini. Spesifikasi yang lebih sederhana <b>[_1]</b> akan digunakan. </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => 'Berhasil menghapus jaringan {$network}/{$networkMask} lewat router {$networkRouter}.',
+'ln_SUCCESS_REMOVED_NETWORK' => 'Berhasil menghapus jaringan [_1]/[_2] lewat router [_3].',
 'ln_ERROR_DELETING_NETWORK' => 'Terjadi error saat menghapus jaringan.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Tidak ada jaringan tambahan',
 'ln_REMOVE_HOSTS_DESC' => 'Host lokal yang ada dalam jaringan yang akan anda hapus telah terdeteksi. Secara default, mereka juga akan dihapus. Uncheck kotak ini jika, dengan beberapa alasan, anda tidak ingin hal ini terjadi. Harap dicatat bahwa mereka tidak akan diperlakukan sebagai lokal, bahkan mungkin tidak dapat dihubungi setelah network ini dihapus.',
 'ln_REMOVE_HOSTS_LABEL' => 'Hapus host dalam jaringan',
+'ln_LOCAL NETWORKS' => 'Jaringan lokal',
+'Local networks' => 'Jaringan lokal',
+'ln_LOCALNETWORK_ADD' => 'Tambahkan jaringan',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] melalui router [_3]',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',

@@ -8,3 +8,6 @@
 'prx_ERR_NO_SQUID_REC' => '错误：在配置数据库中暂无squid记录。',
 'prx_SUCCESS' => '新的代理设置已被应用。',
 'prx_BLOCKED' => '拦截',
+'prx_TITLE' => '代理设置',
+'Proxy settings' => '代理设置',
+'prx_Proxy' => '代理',

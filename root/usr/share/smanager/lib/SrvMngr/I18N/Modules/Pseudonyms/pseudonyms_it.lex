@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Rimuovi pseudonimo',
 'pse_ABOUT_TO_REMOVE' => ' Sta per essere rimosso lo pseudonimo: Siete sicuri di voler continuare ? ',
 'pse_FORM_TITLE' => 'Crea, modifica o rimuovi pseudonimi',
-'pse_DESCRIPTION' => ' <p>Il server crea automaticamente un alias di posta per ogni gruppo. Per definire un alias per una lista di utenti, creare un gruppo e la lista verrà automaticamente gestita dal server.</p>
+'pse_DESCRIPTION' => ' Il server crea automaticamente un alias di posta per ogni gruppo. Per definire un alias per una lista di utenti, creare un gruppo e la lista verrà automaticamente gestita dal server.
 
   <p>Gli pseudonimi permettono di creare nomi differenti per utenti o gruppi esistenti. Per esempio, potrebbe essere creato uno pseudonimo "webmaster" per il gruppo "sviluppo_web" oppure lo pseudonimo "gigi" per l\'utente "luigi".</p>
 

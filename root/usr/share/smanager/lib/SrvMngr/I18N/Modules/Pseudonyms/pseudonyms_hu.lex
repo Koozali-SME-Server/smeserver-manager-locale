@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Fedőnév eltávolítása',
 'pse_ABOUT_TO_REMOVE' => ' Ezen fedőnév eltávolítására készül: Biztos hogy folytatja? ',
 'pse_FORM_TITLE' => 'Fedőnevek létrehozása, módosítása, vagy eltávolítása',
-'pse_DESCRIPTION' => ' <p>A szerver minden csoport számára generál egy e-mail alias-t. Ha egy e-mail alias-t akar létrehozni a felhasználók egy csoportja számára, egyszerűen csak hozzon létre egy csoportot és a listát automatikusan a szerver fogja karbantartani.</p>
+'pse_DESCRIPTION' => ' A szerver minden csoport számára generál egy e-mail alias-t. Ha egy e-mail alias-t akar létrehozni a felhasználók egy csoportja számára, egyszerűen csak hozzon létre egy csoportot és a listát automatikusan a szerver fogja karbantartani.
 
   <p>A fedőnevek lehetővé teszik hogy más nevet hozzon létre a már létező felhasználók vagy csoportok számára. Például ha szeretne egy "webmaster" fedőnevet létrehozni a "webdevelopers" csoportja számára,vagy egy "joe" fedőnevet a "joseph" felhasználónak.</p>
 

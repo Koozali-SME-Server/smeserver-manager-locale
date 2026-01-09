@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'Lag sikkerhetskopi eller gjenopprett server data',
 'bac_BACKUP_DESC' => ' <p>Serveren har to mulige måter å sikkerhetskopiere og gjenopprette din server: Dit lokale skrivebord, eller tapestasjon.</p>
 
-  <p>Den første metoden oppretter en kopi av server oppsettet og brukernes datafiler, og lagerer den på skrivebordet ditt via nettleseren. Konfigurasjonsfilene og bruker datafilene er ca <b>[_3]</b> store. Backupfilen er noe mindre en dette avhengig av hvor komprimerbar dataene er. \"Verifiser skrivebord backup filen\" valget kan brukes til å sjekke integriteten til skrivebords backupfilen.</p>
+  <p>Den første metoden oppretter en kopi av server oppsettet og brukernes datafiler, og lagerer den på skrivebordet ditt via nettleseren. Konfigurasjonsfilene og bruker datafilene er ca <b>[_3]</b> store. Backupfilen er noe mindre en dette avhengig av hvor komprimerbar dataene er. \\"Verifiser skrivebord backup filen\\" valget kan brukes til å sjekke integriteten til skrivebords backupfilen.</p>
 
   <p>Tape backup metoden bruker et program kalt <i>[_1]</i> til å ta backup av hele harddisken til tape hver natt. Det krever en støttet tapestasjon og en tape som ikke er skrivebeskyttet. Backup blir kjørt automatisk til valgt tid hver natt (med en påminnelse automatisk sendt på e-post til administrator i løpet av dagen). Nå inneholder harddisken <b>[_2]</b> med data.</p>
 
   <p>Begge gjenopprettings metoder tillater å gjenopprette oppsett og bruker datafiler. <b>Ideelt, bør gjenoppretting foretas på en nyinstallert server</b>.</p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,9 +16,7 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Sikkerhetskopi oppsett og status',
 'bac_TAPE_BACKUPS_ENABLED' => ' sikkerhetskopi til bånd er for tiden aktiveret. ',
 'bac_BACKUPS_RUN_AT' => 'Sikkerhetskopi til tape vil foregå kl.:',
@@ -109,7 +107,7 @@
 'bac_SERVER_REBOOT' => 'ServerRestart',
 'bac_SERVER_WILL_REBOOT' => 'Din server vil starte på nytt.',
 'bac_NO_UID_FOR_NAME' => 'Kunne ikke finne brukerID for brukeren:',
-'bac_PAGE_REFRESH_IN' => ' Siden vil Gjenoppfiske statusvisningen om {$sec} sekunder, ellers klikk her. ',
+'bac_PAGE_REFRESH_IN' => ' Siden vil Gjenoppfiske statusvisningen om [_1] sekunder, ellers klikk her. ',
 'bac_Backup or restore' => 'sikkerhetskopi eller gjenoppretting',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Din server har for mye data til en pålitlig sikkerhetskopi til arbeidsstasjon.  ',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' sikkerhetskopi til lokalnett er deaktivert ',
@@ -150,7 +148,7 @@
 'bac_ERR_INVALID_FOLDER' => 'Ugyldigt navn på delt mappe',
 'bac_ERR_INVALID_LOGIN' => 'Ugyldigt brukernavn',
 'bac_ERR_INVALID_PASSWORD' => 'Ugyldig passord',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'Sikkerhetskopimappen er allerede montert',
 'bac_ERR_MOUNTING_SMBSHARE' => 'Var ikke i stand til å montere arbeidsstasjonens delte mappe',
 'bac_ERR_NOT_MOUNTED' => 'sikkerhetskopien ble ikke funnet',
 'bac_WORKSTN_NOT_SET' => 'Du må først sette opp sikkerhetskopien til lokalnettet korrekt',
@@ -219,4 +217,9 @@
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'sikkerhetskopi er opprettet på lokal USB-disk',
 'bac_Mounted disk' => 'Installerte disker',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'Ingen egnede lokale enheter funnet',
+'bac_TAPE_BACKUPS' => 'Sikkerhetskopier på bånd er',
+'Backup or restore' => 'Sikkerhetskopier eller gjenopprett',
+'bac_WORKSTN_BACKUPS' => 'Sikkerhetskopier av arbeidsstasjoner er',
+'bac_ERR_EXTRACT' => 'Feil ved utpakking med Dar',

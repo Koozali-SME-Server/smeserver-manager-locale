@@ -11,22 +11,28 @@
 'ln_REMOVE_CONFIRM' => 'Är du säker att du vill radera detta nätverk?',
 'ln_DEFAULT' => 'förvalt',
 'ln_NUMBER_OF_HOSTS' => 'Antal värdar',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Fel: router-adressen {$networkRouter} är inte tillgänglig på det lokala nätverket. Nätverket lades inte till.',
-'ln_NETWORK_ALREADY_LOCAL' => 'Fel: Nätverk {$network} (tagen ur nätverk {$networkAddress} och subnätmask {$networkMask}) anses redan vara lokal. Nätverket lades inte till.',
-'ln_NETWORK_ALREADY_ADDED' => 'Fel: Nätverk {$network} (tagen ur nätverk {$networkAddress} och subnätmask {$networkMask}) har redan lagts till. Nätverk lades inte till.',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Fel: router-adressen [_1] är inte tillgänglig på det lokala nätverket. Nätverket lades inte till.',
+'ln_NETWORK_ALREADY_LOCAL' => 'Fel: Nätverk [_1] (tagen ur nätverk [_2] och subnätmask [_3]) anses redan vara lokal. Nätverket lades inte till.',
+'ln_NETWORK_ALREADY_ADDED' => 'Fel: Nätverk [_1] (tagen ur nätverk [_2] och subnätmask [_3]) har redan lagts till. Nätverk lades inte till.',
 'ln_ERROR_CREATING_NETWORK' => 'Fel inträffade vid skapandet av nätverk.',
-'ln_SUCCESS' => 'Lagt till nätverket {$network}/{$networkMask} via router {$networkRouter}.',
-'ln_SUCCESS_SINGLE_ADDRESS' => 'Lagt till nätverket {$network}/{$networkMask} via router {$networkRouter}. Din server tillåter lokala åtkomstprivilegier till den enstaka nätverksadressen {$network}.',
-'ln_SUCCESS_NETWORK_RANGE' => 'Lagt till nätverket {$network}/{$networkMask} via router {$networkRouter}. Din server tillåter lokala åtkomstprivilegier till {$totalHosts} IP-adresser inom intervallet {$firstAddr} till {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Lagt till nätverk {$network}/{$networkMask} via router {$networkRouter}. </p>
+'ln_SUCCESS' => 'Lagt till nätverket [_1]/[_2] via router [_3].',
+'ln_SUCCESS_SINGLE_ADDRESS' => 'Lagt till nätverket [_1]/[_2] via router [_3]. Din server tillåter lokala åtkomstprivilegier till den enstaka nätverksadressen [_4].',
+'ln_SUCCESS_NETWORK_RANGE' => 'Lagt till nätverket [_1]/[_2] via router [_3]. Din server tillåter lokala åtkomstprivilegier till [_4] IP-adresser inom intervallet [_5] till [_6].',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  Lagt till nätverk [_1]/[_2] via router [_3]. 
 
-  <p> Din server tillåter lokala åtkomstprivilegier till {$totalHosts} IP-adresser inom intervallet {$firstAddr} till {$lastAddr}. </p>
+  <p> Din server tillåter lokala åtkomstprivilegier till [_1] IP-adresser inom intervallet [_2] till [_3]. </p>
 
-  <p> Varning: ProFTPd FTP-server kan inte hantera denna icke standardiserade nätverksmask. Den enklare specifikationen <b>{$simpleMask}</b> kommer att användas istället. </p>
+  <p> Varning: ProFTPd FTP-server kan inte hantera denna icke standardiserade nätverksmask. Den enklare specifikationen <b>[_1]</b> kommer att användas istället. </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => 'Radera nätverk {$network}/{$networkMask} via router {$networkRouter}.',
+'ln_SUCCESS_REMOVED_NETWORK' => 'Radera nätverk [_1]/[_2] via router [_3].',
 'ln_ERROR_DELETING_NETWORK' => 'Ett fel inträffade vid radering av nätverk.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Inga ytterligare nätverk',
 'ln_REMOVE_HOSTS_DESC' => 'Lokala värdar som är konfigurerade på nätverket och som du håller på att ta bort, har upptäckts. De kommer att bli raderade. Avmarkera denna ruta om du, av något skäl, inte vill att detta skall ske. Notera att de kommer att bli behandlade som lokala och att de kanske inte ens bli nåbara, efter det att detta nätverk har raderats.',
 'ln_REMOVE_HOSTS_LABEL' => 'Radera värdar på nätverket',
+'ln_LOCAL NETWORKS' => 'Lokala nätverk',
+'Local networks' => 'Lokala nätverk',
+'ln_LOCALNETWORK_ADD' => 'Lägg till nätverk',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] via routern $networkRouter.',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',

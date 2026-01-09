@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => '创建、修改或删除用户组。',
-'grp_GROUP_TOO_LONG' => '错误：组名太长，最大为{$maxLength}个字符。',
-'grp_ACCOUNT_CONFLICT' => '错误：组"{$group}"不能被删除，因为该组已有一个{$type}账号。',
+'grp_GROUP_TOO_LONG' => '错误：组名太长，最大为[_1]个字符。',
+'grp_ACCOUNT_CONFLICT' => '错误：组"[_1]"不能被删除，因为该组已有一个[_2]账号。',
 'grp_INVALID_GROUP_DESCRIPTION' => '错误：组描述中包含未知字符或缺少字符',
 'grp_NO_MEMBERS' => '错误：组中没有成员。不能创建新组。',
 'grp_CREATED_GROUP' => '已创建用户组',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => '简介/Windows组别名',
 'grp_GROUP_DESC_EXPL' => '在下面的位置中输入一个简短的组说明，这个位置也可被Windows客户端查看。',
 'grp_IBAYS_WILL_BE_CHANGED' => '以下i-bay已被分配到此组，并且将被指定为管理员组（您可以稍后修改它们）：',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>是否要删除这个组？</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' 是否要删除这个组？
 
   ',
-'grp_CURRENT_LIST' => '<p>当前用户组列表</p>
+'grp_CURRENT_LIST' => '当前用户组列表
 
   ',
-'grp_DELETE_DESCRIPTION' => ' 即将删除用户组 "{$group}。" ',
+'grp_DELETE_DESCRIPTION' => ' 即将删除用户组 "[_1]" ',

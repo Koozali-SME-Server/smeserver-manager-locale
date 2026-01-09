@@ -34,3 +34,5 @@
 'prt_DELETED_SUCCESSFULLY' => 'Принтер успешно удалён:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Должно быть правильное имя узла или IP адрес',
 'prt_Printers' => 'Принтеры',
+'prt_INITIAL_BTN' => 'Добавить принтер',
+'Printers' => 'Принтеры',

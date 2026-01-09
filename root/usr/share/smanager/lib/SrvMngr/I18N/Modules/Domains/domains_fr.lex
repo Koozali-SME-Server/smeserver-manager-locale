@@ -15,7 +15,7 @@
 'dom_NONEXISTENT_DOMAIN_ERROR' => 'ERREUR : le domaine "[_1]" est inexistant.',
 'dom_SUCCESSFULLY_MODIFIED' => 'Le domaine "[_1]" a été modifié avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu\'à la fin du redémarrage du service Web.',
 'dom_REMOVE_TITLE' => 'Supprimer le domaine',
-'dom_REMOVE_DESCRIPTION' => ' <p>Vous êtes sur le point de supprimer le domaine "[_1]" ([_2])..</p>
+'dom_REMOVE_DESCRIPTION' => ' Vous êtes sur le point de supprimer le domaine "[_1]" ([_2])..
 
   <p><b>Voulez-vous vraiment supprimer ce domaine ?</b></p>
 

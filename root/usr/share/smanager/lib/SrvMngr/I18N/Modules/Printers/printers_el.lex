@@ -1,5 +1,5 @@
 'prt_FORM_TITLE' => 'Προσθήκη ή διαγραφή εκτυπωτών',
-'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Προσθήκη εκτυπωτή</a></p>
+'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Προσθήκη εκτυπωτή</a>
 
   ',
 'prt_NO_PRINTERS' => 'Δεν υπάρχουν εκτυπωτές στο σύστημα.',
@@ -15,7 +15,7 @@
 'prt_NET_PRINTER' => 'Εκτυπωτής δικτύου ...',
 'prt_FIRST_USB_PRINTER' => 'Πρώτος εκτυπωτής συνδεδεμένος σε USB',
 'prt_SECOND_USB_PRINTER' => 'Δεύτερος εκτυπωτής συνδεδεμένος σε USB',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>Σφάλμα: μη-αναμενόμενοι χαρακτήρες στην ονομασία εκτυπωτή.</p>
+'prt_ERR_UNEXPECTED_NAME' => ' Σφάλμα: μη-αναμενόμενοι χαρακτήρες στην ονομασία εκτυπωτή.
 
   <p>Η ονομασία του εκτυπωτή πρέπει να περιέχει μόνο πεζά γράμματα και αριθμούς και να αρχίζει με πεζό γράμμα. Για παράδειγμα οι ονομασίες "hplaser", "epsonlp", καί "canonbj" αποτελούν έγκυρες επιλογές.</p>
 
@@ -40,3 +40,5 @@
 'prt_DELETED_SUCCESSFULLY' => 'Επιτυχής διαγραφή του εκτυπωτή:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Πρέπει να είναι μία έγκυρη δικτυακή ονομασία ή διεύθυνση IP',
 'prt_Printers' => 'Εκτυπωτές',
+'prt_INITIAL_BTN' => 'Προσθήκη εκτυπωτή',
+'Printers' => 'Εκτυπωτές',

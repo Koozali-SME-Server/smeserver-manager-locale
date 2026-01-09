@@ -7,3 +7,4 @@
 'clm_NEVER' => 'Nunca',
 'clm_DAILY' => 'Diariamente',
 'clm_SUCCESS' => 'As novas configurações do Antivírus ClamAV foram guardadas.',
+'clm_Antivirus (ClamAV)' => 'Antivírus (ClamAV)',

@@ -11,20 +11,26 @@
 'ln_REMOVE_CONFIRM' => 'Biztos benne, hogy eltávolítja ezt a hálózatot?',
 'ln_DEFAULT' => 'alapértelmezett',
 'ln_NUMBER_OF_HOSTS' => 'Gépek száma',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Hiba: a {$networkRouter} átjáró címe nem érhető el a helyi hálózatból. A hálózat hozzáadása sikertelen.',
-'ln_NETWORK_ALREADY_LOCAL' => 'Hiba: a {$network} hálózat ({$networkAddress} hálózati címből és {$networkMask} alhálózati maszkból képezve) már helyinek számít. A hálózat hozzáadása sikertelen.',
-'ln_NETWORK_ALREADY_ADDED' => 'Hiba: a {$network} hálózat ({$networkAddress} hálózati címből és {$networkMask} alhálózati maszkból képezve) már hozzá lett adva.A hálózat hozzáadása sikertelen.',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Hiba: a [_1] átjáró címe nem érhető el a helyi hálózatból. A hálózat hozzáadása sikertelen.',
+'ln_NETWORK_ALREADY_LOCAL' => 'Hiba: a [_1] hálózat ([_2] hálózati címből és [_3] alhálózati maszkból képezve) már helyinek számít. A hálózat hozzáadása sikertelen.',
+'ln_NETWORK_ALREADY_ADDED' => 'Hiba: a [_1] hálózat ([_2] hálózati címből és [_3] alhálózati maszkból képezve) már hozzá lett adva.A hálózat hozzáadása sikertelen.',
 'ln_ERROR_CREATING_NETWORK' => 'Hiba történt a hálózat létrehozásakor.',
-'ln_SUCCESS' => 'A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta.',
-'ln_SUCCESS_SINGLE_ADDRESS' => 'A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$network} IP címnek.',
-'ln_SUCCESS_NETWORK_RANGE' => 'A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$totalHosts} IP címeknek a {$firstAddr} -tól {$lastAddr} -ig terjedő címtartományban.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a {$totalHosts} IP címeknek a {$firstAddr} -tól {$lastAddr} -ig terjedő címtartományban.. </p>
+'ln_SUCCESS' => 'A [_1] átjárón keresztüli [_2]/[_3] hálózatot sikeresen hozzáadta.',
+'ln_SUCCESS_SINGLE_ADDRESS' => 'A [_1] átjárón keresztüli [_2]/[_3] hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a [_4] IP címnek.',
+'ln_SUCCESS_NETWORK_RANGE' => 'A [_1] átjárón keresztüli [_2]/[_3] hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a [_4] IP címeknek a [_5] -tól [_6] -ig terjedő címtartományban.',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  A [_1] átjárón keresztüli [_2]/[_3] hálózatot sikeresen hozzáadta. A szerver helyi jogosultságokat biztosít a [_4] IP címeknek a [_5] -tól [_6] -ig terjedő címtartományban.. 
 
-  <p> Figyelem: a ProFTPd FTP szerver nem tudja kezelni az ilyen fajta alhálózati maszkot. Az egyszerűbb <b>{$simpleMask}</b> lesz helyette használatban. </p>
+  <p> Figyelem: a ProFTPd FTP szerver nem tudja kezelni az ilyen fajta alhálózati maszkot. Az egyszerűbb <b>[_1]</b> lesz helyette használatban. </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => 'A {$networkRouter} átjárón keresztüli {$network}/{$networkMask} hálózatot sikeresen eltávolította.',
+'ln_SUCCESS_REMOVED_NETWORK' => 'A [_1] átjárón keresztüli [_2]/[_3] hálózatot sikeresen eltávolította.',
 'ln_ERROR_DELETING_NETWORK' => 'Hiba történt a hálózat eltávolításakor.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Nincsenek hozzáadott hálózatok',
 'ln_REMOVE_HOSTS_DESC' => 'Az a hálózat amelyet eltávolítani készül, konfigurált gépeket tartalmaz. Alapesetben ezek is eltávolításra kerülnek. Ha valamilyen okból azt akarja, hogy ez ne történjen meg, vegye ki a jelölést a négyzetből. Miután a hálózatot eltávolítja, ezeknek a gépeknek már nem lesznek helyi jogosultságaik, sőt lehetséges, hogy nem lesznek elérhetők.',
 'ln_REMOVE_HOSTS_LABEL' => 'A hálózat gépeinek eltávolítása',
+'ln_LOCAL NETWORKS' => 'Helyi hálózatok',
+'Local networks' => 'Helyi hálózatok',
+'ln_LOCALNETWORK_ADD' => 'Hálózat hozzáadása',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] a(z) [_3] routeren keresztül',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',

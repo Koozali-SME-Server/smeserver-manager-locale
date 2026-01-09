@@ -1,5 +1,5 @@
 'pf_FORM_TITLE' => 'Configuration du renvoi de port',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p>Cette page va vous permettre de modifier les règles de votre pare-feu afin d\'ouvrir un port spécifique de ce serveur et de le transférer à un autre port sur une autre machine. Ceci permettra au trafic entrant d\'accéder directement à un hôte de votre réseau privé.</p>
+'pf_FIRST_PAGE_DESCRIPTION' => ' Cette page va vous permettre de modifier les règles de votre pare-feu afin d\'ouvrir un port spécifique de ce serveur et de le transférer à un autre port sur une autre machine. Ceci permettra au trafic entrant d\'accéder directement à un hôte de votre réseau privé.
 
   <p>ATTENTION : une mauvaise utilisation de cette fonctionnalité peut compromettre gravement la sécurité de votre réseau. N\'utilisez pas cette fonction à la légère ou sans être pleinement conscient des conséquences de votre acte.</p>
 
@@ -9,7 +9,7 @@
 'pf_SUMMARY_REMOVE_DESC' => 'Le tableau ci-dessous résume la règle de renvoi de port que vous êtes sur le point de supprimer. Si vous voulez vraiment retirer la règle, cliquez sur le bouton "Supprimer". Dans le cas contraire, cliquez sur le bouton "Annuler".',
 'pf_SHOW_FORWARDS' => 'Le tableau ci-dessous résume les règles de renvoi de port actuellement définies sur ce serveur. Cliquez sur le lien "Supprimer" pour retirer la règle correspondante.',
 'pf_NO_FORWARDS' => 'Aucun renvoi de port n\'est actuellement défini sur le serveur.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Veuillez indiquer le protocole, le port à renvoyer, l\'hôte de destination et le port de cet hôte vers lequel vous souhaitez appliquer le renvoi. Si vous voulez indiquer un intervalle de ports, tapez les limites inférieure et supérieure des ports séparées par un trait d\'union. Le port de destination peut être vide : ainsi, le pare-feu utilisera la même valeur que pour le port source.</p>
+'pf_CREATE_PAGE_DESCRIPTION' => ' Veuillez indiquer le protocole, le port à renvoyer, l\'hôte de destination et le port de cet hôte vers lequel vous souhaitez appliquer le renvoi. Si vous voulez indiquer un intervalle de ports, tapez les limites inférieure et supérieure des ports séparées par un trait d\'union. Le port de destination peut être vide : ainsi, le pare-feu utilisera la même valeur que pour le port source.
 
   ',
 'pf_LABEL_SOURCE_PORT' => 'Port(s) source',

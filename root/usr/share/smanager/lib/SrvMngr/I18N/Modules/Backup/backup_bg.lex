@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'Резервно копиране и възстановяване на данните на сървъра',
 'bac_BACKUP_DESC' => ' <p>Сървърът предоставя два начина за резервното си копиране и възстановяване: коато използвате локалния компютър и чрез лентово устройство.</p>
 
-  <p>Първият метод създава копие на конфигурацията на сървъра и потребителските файлове с данни, и го сваля на локалния компютър чрез браузъра. В момента конфигурацията и файловете с данни са с приблизителен размер <b>[_3]</b>. Файлът с резервното копие ще бъде около или по-малко от това, в зависимост степента на компресия на данните. Можете да използвате \"Проверка на файл с резервно копие в компютъра\" за да проверите интегритета на файла с резервното копие в локалния компютър.</p>
+  <p>Първият метод създава копие на конфигурацията на сървъра и потребителските файлове с данни, и го сваля на локалния компютър чрез браузъра. В момента конфигурацията и файловете с данни са с приблизителен размер <b>[_3]</b>. Файлът с резервното копие ще бъде около или по-малко от това, в зависимост степента на компресия на данните. Можете да използвате \\"Проверка на файл с резервно копие в компютъра\\" за да проверите интегритета на файла с резервното копие в локалния компютър.</p>
 
   <p>Методът за резервно копиране на лента използва софтуерен пакет, наречен <i>[_1]</i> за да създаде резервно копие на целия твърд диск на лента всяка нощ. Това изисква използването на поддържано устройство за лента и касета с лента, която не е защитена срещу запис. Резервното копиране се извършва автоматично в избраното време всяка нощ (с напомняне, което се праща по електронната поща на администратора през деня). В момента твърдият диск съдържа <b>[_2]</b> данни.</p>
 
   <p>И двата метода за възстановяване позволяват връщането на конфигурацията и потребителските файлове с данни. <b>В идеалния случай възстановяването трябва да се извърши върху току що (прясно) инсталиран сървър</b>.</p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,9 +16,7 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Конфигурация и състояние на резервното копие',
 'bac_TAPE_BACKUPS_ENABLED' => ' Резервните копия върху лента са забранени ',
 'bac_BACKUPS_RUN_AT' => 'Редовните резервни копия на лента ще се бъдат създавани в:',
@@ -111,7 +109,7 @@
 'bac_SERVER_REBOOT' => 'Рестарт на сървъра',
 'bac_SERVER_WILL_REBOOT' => 'Сега сървъра ще се рестартира.',
 'bac_NO_UID_FOR_NAME' => 'Не може да се вземе uid на потребител с име:',
-'bac_PAGE_REFRESH_IN' => ' Тази страница ще се обнови за да покаже състоянието след {$sec} секунди, или щракнете тук. ',
+'bac_PAGE_REFRESH_IN' => ' Тази страница ще се обнови за да покаже състоянието след [_1] секунди, или щракнете тук. ',
 'bac_Backup or restore' => 'Резервно копиране или възстановяване',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Сървърът съдържа твърде много данни за надеждно копиране на локалния компютър.',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' Резервните копия върху лента са забранени ',
@@ -156,9 +154,9 @@
 'bac_ERR_INVALID_FOLDER' => 'Некоректно име на споделената папка',
 'bac_ERR_INVALID_LOGIN' => 'Некоректно име за влизане',
 'bac_ERR_INVALID_PASSWORD' => 'Некоректна парола',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'Директорията за резервни копия вече е монтирана',
 'bac_ERR_MOUNTING_SMBSHARE' => 'Невъзможно е да се монтира споделената папка от работната станция',
-'bac_ERR_NOT_MOUNTED' => 'Backup directory is not mounted',
+'bac_ERR_NOT_MOUNTED' => 'Директорията за резервни копия не е монтирана',
 'bac_WORKSTN_NOT_SET' => 'Най-напред трябва правилно да конфигурирате резервното копиране на работна станция',
 'bac_NO_BACKUPS_TO_RESTORE' => 'Няма комплект от резервни копия в споделената папка на настроената работна станция. Проверете настройките в конфигурацията.',
 'bac_NUMBER_OF_SETS' => 'Брой комплекти от резервни копия за въртене',
@@ -225,4 +223,9 @@
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'Резервното копие е направено на локален USB диск',
 'bac_Mounted disk' => 'Инсталирани дискове',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'Не са открити подходящи локални устройства',
+'bac_TAPE_BACKUPS' => 'Архивирането на лента е',
+'Backup or restore' => 'Архивиране или възстановяване',
+'bac_WORKSTN_BACKUPS' => 'Архивните копия на работната станция са',
+'bac_ERR_EXTRACT' => 'Грешка при извличане с Dar',

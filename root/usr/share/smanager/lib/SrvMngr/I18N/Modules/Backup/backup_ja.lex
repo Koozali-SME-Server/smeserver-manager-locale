@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'サーバーデータをバックアップ・復元',
 'bac_BACKUP_DESC' => ' <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>
 
-  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \"Verify desktop backup file\" option can be used to check the integrity of a desktop backup file.</p>
+  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\"Verify desktop backup file\\" option can be used to check the integrity of a desktop backup file.</p>
 
   <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
   <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,13 +16,11 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => '設定と状態をバックアップ',
 'bac_TAPE_BACKUPS_ENABLED' => ' 現在テープバックアップが有効になる. ',
 'bac_BACKUPS_RUN_AT' => 'ワークステーション バクアプ まで　の　時間：',
-'bac_REMINDER_MESSAGE_AT' => 'Reminder messages will be sent at:',
+'bac_REMINDER_MESSAGE_AT' => '(en)Reminder messages will be sent at:',
 'bac_TAPE_BACKUPS_DISABLED' => 'ワークステーション バクアプ　は　無能',
 'bac_DESKTOP_BACKUP' => 'デスクトップにバックアップを用意する',
 'bac_DESKTOP_RESTORE' => 'デスクトップから復元する',
@@ -45,8 +43,8 @@
 'bac_RESTORE_SERVER_CONFIG' => 'サーバーの設定を復元する',
 'bac_DESKTOP_RESTORE_DESC' => ' この作業は復元ファイルをデスクトップからサーバーへアップロードし、設定およびユーザのデータファイルを復元します。 復元は新規インストールされたサーバーにて行うことをおすすめします。. ',
 'bac_FREE_SPACE' => ' You have approximately $tmpfree free space on the server. Check that desktop backup file is less than $halffree before commencing the restore. ',
-'bac_MUST_REBOOT_AFTER_RESTORE' => 'After the restore completes you must reboot the server.',
-'bac_FILE_TO_RESTORE' => 'Backup file to restore from',
+'bac_MUST_REBOOT_AFTER_RESTORE' => '(en)After the restore completes you must reboot the server.',
+'bac_FILE_TO_RESTORE' => '復元元のバックアップファイル',
 'bac_VERIFY_BACKUP_DESC' => ' <p>この項目では以前作った全ての一日毎のワークステーションバックアップファイルの名前を表示する。この項目でバックアップの内容を確認できる。<b>確認したいバックアップを選ばなければならない。</b></p>
 
   <p>あなたが選んだ全てのバックアップファイルが見れる。</p>
@@ -54,28 +52,26 @@
   共有フォルダでバックアップファイルが確認できる : ',
 'bac_SELECT_BACKUP_FILE' => 'バックアップファイルを選択',
 'bac_VERIFY' => '認証',
-'bac_RESTORE_CANNOT_PROCEED' => 'Unable to proceed with restore of server configuration',
-'bac_ANOTHER_RESTORE_IN_PROGRESS' => 'Another restore is in progress. Please try again later.',
-'bac_RESTORE_IN_PROGRESS' => 'Restore in progress',
-'bac_RESTORE_IN_PROGRESS_DESC' => 'After the restore completes you must reboot the server. Your restore is complete when the words "Restore complete" appear at the bottom of your screen.',
+'bac_RESTORE_CANNOT_PROCEED' => '(en)Unable to proceed with restore of server configuration',
+'bac_ANOTHER_RESTORE_IN_PROGRESS' => '(en)Another restore is in progress. Please try again later.',
+'bac_RESTORE_IN_PROGRESS' => '復元中',
+'bac_RESTORE_IN_PROGRESS_DESC' => '(en)After the restore completes you must reboot the server. Your restore is complete when the words "Restore complete" appear at the bottom of your screen.',
 'bac_FILES_HAVE_BEEN_RESTORED' => '以下のファイルとディレクトリーは復元されました：',
-'bac_RESTORE_FAILED_MSG' => 'Restore failed! There was an error in reading the backup file.',
-'bac_RESTORE_COMPLETE' => 'Restore complete',
-'bac_ERR_RESTORING_GID' => 'Error occurred while restoring gid of \'www\'',
-'bac_ERR_RESTORING_INITIAL_GRP' => 'Error occurred while restoring initial group of \'www\'.',
-'bac_RESTORE_FAILED' => 'Restore failed! The backup file was incomplete.',
-'bac_COULD_NOT_EXEC_PIPELINE' => 'Could not execute backup pipeline:',
-'bac_COULD_NOT_DECODE' => 'Could not decode backup file:',
+'bac_RESTORE_FAILED_MSG' => '(en)Restore failed! There was an error in reading the backup file.',
+'bac_RESTORE_COMPLETE' => '復元完了',
+'bac_ERR_RESTORING_GID' => '(en)Error occurred while restoring gid of \'www\'',
+'bac_ERR_RESTORING_INITIAL_GRP' => '(en)Error occurred while restoring initial group of \'www\'.',
+'bac_RESTORE_FAILED' => '(en)Restore failed! The backup file was incomplete.',
+'bac_COULD_NOT_EXEC_PIPELINE' => 'バックアップパイプラインを実行できませんでした:',
+'bac_COULD_NOT_DECODE' => 'バックアップファイルをデコードできませんでした:',
 'bac_FILES_IN_BACKUP' => '以下のファイルとディレクトリーは復元されました：',
 'bac_VERIFY_COMPLETE' => '確認 が　終わりました',
 'bac_BACKUP_FILE_INCOMPLETE' => 'バクアプ　ファイル　が　不完全　でした',
 'bac_ERR_READING_FILE' => 'バクアプ　ファイル　読んでる　最中　エラー　が　でました',
 'bac_ENABLE_DISABLE_TAPE' => 'ナイトリ　テープ　バクアプ　を　可能／無能　に　する',
-'bac_TAPE_CONFIG_DESC' => ' <p>Select whether you wish to enable nightly backups. Then indicate the desired times for the backup and the load tape reminder.</p>
+'bac_TAPE_CONFIG_DESC' => '(en)<p>Select whether you wish to enable nightly backups. Then indicate the desired times for the backup and the load tape reminder.</p>
 
-  <p>The tape backup requires a supported tape drive. A warning message will be sent to the administrator at the designated reminder time if the tape drive is empty.</p>
-
-  ',
+  <p>The tape backup requires a supported tape drive. A warning message will be sent to the administrator at the designated reminder time if the tape drive is empty.</p>',
 'bac_ENABLE_TAPE_BACKUP' => 'テープ　バクアプ　を　可能',
 'bac_TAPE_BACKUP_TIME' => 'テープ　バクアプ　の　時間　(時／分）',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'ロード　テープ　備忘　の　時間　（時／分）',
@@ -113,7 +109,7 @@
 'bac_SERVER_REBOOT' => 'サーバー　リブート',
 'bac_SERVER_WILL_REBOOT' => 'サーバー　は　いま　リブート　します',
 'bac_NO_UID_FOR_NAME' => 'ユーザネーム　の　ため　の　UID が貰えませんでした',
-'bac_PAGE_REFRESH_IN' => 'この　ページ　は　{$sec} 秒 に　リフレシ　します、もしくわ　ここ　に　クリク　して下さい',
+'bac_PAGE_REFRESH_IN' => 'この　ページ　は　[_1] 秒 に　リフレシ　します、もしくわ　ここ　に　クリク　して下さい',
 'Backup or restore' => 'バクアプ、リストア',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'サーバー　に　データ　が　ありすぎて　ちゃんとした　バクアプ　が　出来ません',
 'bac_WORKSTN_BACKUPS_DISABLED' => 'ワークステーション バクアプ　は　無能',
@@ -153,14 +149,14 @@
 'bac_SHARED_FOLDER_NAME' => 'バックアップの共有',
 'bac_WORKSTN_LOGIN' => 'ログイン名',
 'bac_WORKSTATION_BACKUP_DEST' => 'ワークステーション設定をバックアップする',
-'bac_CONFIGURE_WORKSTN_BACKUP_DESC' => 'You can set the number of successive backup sets to keep on the workstation, with automatic rotation. Each set may contain saved data for several consecutive days. In this case first backup of the set is full backup, others daily backups are incremental. You can also set a time limit for each backup session or for incremental backups only. When this limit occurs, backup is cleanly stopped and the next incremental backup will safely continue with unsaved and modified datas.',
+'bac_CONFIGURE_WORKSTN_BACKUP_DESC' => '(en)You can set the number of successive backup sets to keep on the workstation, with automatic rotation. Each set may contain saved data for several consecutive days. In this case first backup of the set is full backup, others daily backups are incremental. You can also set a time limit for each backup session or for incremental backups only. When this limit occurs, backup is cleanly stopped and the next incremental backup will safely continue with unsaved and modified datas.',
 'bac_ERR_INVALID_WORKSTN' => '無効なワークステーションIP又はホスト名',
 'bac_ERR_INVALID_FOLDER' => '無効な共有名',
 'bac_ERR_INVALID_LOGIN' => '無効なログイン',
 'bac_ERR_INVALID_PASSWORD' => '無効なパスワード',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'バックアップディレクトリはすでにマウントされています',
 'bac_ERR_MOUNTING_SMBSHARE' => 'ワークステーション共有フォルダを認証できない',
-'bac_ERR_NOT_MOUNTED' => 'Backup directory is not mounted',
+'bac_ERR_NOT_MOUNTED' => 'バックアップディレクトリがマウントされていません',
 'bac_WORKSTN_NOT_SET' => 'まず最初にワークステーションバックアップを正しく設定しなければならない',
 'bac_NO_BACKUPS_TO_RESTORE' => 'ワークステーション共有フォルダにバックアップ設定が見つかりません。設定を確認してください。',
 'bac_NUMBER_OF_SETS' => '循環してるバックアップ設定の数',
@@ -195,36 +191,40 @@
 'bac_WORKSTN_BACKUP_NOT_CONFIGURED' => ' <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p>
 
   <p/> ',
-'bac_WORKSTN_BACKUP_ENABLED' => 'Backup is',
-'bac_WORKSTN_BACKUP_USB' => 'Backup is made on local removable disk',
-'bac_WORKSTN_BACKUP_MNT' => 'Backup is made on mounted disk',
-'bac_WORKSTN_BACKUP_HOST' => 'Backup is made on LAN workstation',
+'bac_WORKSTN_BACKUP_ENABLED' => 'バックアップは',
+'bac_WORKSTN_BACKUP_USB' => '(en)Backup is made on local removable disk',
+'bac_WORKSTN_BACKUP_MNT' => '(en)Backup is made on mounted disk',
+'bac_WORKSTN_BACKUP_HOST' => '(en)Backup is made on LAN workstation',
 'bac_WORKSTN_BACKUP_VFSTYPE' => 'via',
-'bac_WORKSTN_BACKUP_SHARE' => 'Destination backup share folder is',
-'bac_WORKSTN_BACKUP_TOD' => 'Daily backup occurs at',
-'bac_LOGIN' => 'Login is',
-'bac_PASSWORD' => 'Password is',
+'bac_WORKSTN_BACKUP_SHARE' => 'バックアップ先の共有フォルダーは',
+'bac_WORKSTN_BACKUP_TOD' => '毎日のバックアップは次の時刻に実行されます',
+'bac_LOGIN' => 'ログイン',
+'bac_PASSWORD' => 'パスワードは',
 'bac_WORKSTN_BACKUP_SETSNUM' => '循環してるバックアップ設定の数',
-'bac_WORKSTN_BACKUP_DAYSINSET' => 'Number of daily backups contained in each set is',
+'bac_WORKSTN_BACKUP_DAYSINSET' => '(en)Number of daily backups contained in each set is',
 'bac_WORKSTN_BACKUP_COMPRESSION' => 'バックアップ圧縮レベル[0-9]',
-'bac_WORKSTN_BACKUP_TIMEOUT' => 'Each daily backup session is cleanly timed out after',
-'bac_WORKSTN_BACKUP_INCONLY_TIMEOUT' => 'except full backups which are cleanly timed out after 24 hours',
-'bac_WORKSTN_FULL_BACKUP_EVERYDAY' => 'Full backup sessions (new backup set) are allowed everyday',
-'bac_WORKSTN_FULL_BACKUP_DAY' => 'Full backup session (new backup sets) is allowed only on',
-'bac_WORKSTATION_BACKUP_SETCONF' => 'Create or modify workstation backup configuration',
-'bac_SELECT_VFS_TYPE' => 'Select the type of share for backup destination',
-'bac_ERR_NO_USB_DISK' => 'Error : No removable disk available. Please connect a removable disk or select another type of workstation backup.',
-'bac_ERR_NO_MOUNTED_DISK' => 'Error : No mounted disk available. Please mount a disk or select another type of workstation backup.',
+'bac_WORKSTN_BACKUP_TIMEOUT' => '(en)Each daily backup session is cleanly timed out after',
+'bac_WORKSTN_BACKUP_INCONLY_TIMEOUT' => '(en)except full backups which are cleanly timed out after 24 hours',
+'bac_WORKSTN_FULL_BACKUP_EVERYDAY' => '(en)Full backup sessions (new backup set) are allowed everyday',
+'bac_WORKSTN_FULL_BACKUP_DAY' => '(en)Full backup session (new backup sets) is allowed only on',
+'bac_WORKSTATION_BACKUP_SETCONF' => '(en)Create or modify workstation backup configuration',
+'bac_SELECT_VFS_TYPE' => '(en)Select the type of share for backup destination',
+'bac_ERR_NO_USB_DISK' => '(en)Error : No removable disk available. Please connect a removable disk or select another type of workstation backup.',
+'bac_ERR_NO_MOUNTED_DISK' => '(en)Error : No mounted disk available. Please mount a disk or select another type of workstation backup.',
 'bac_HOURS' => 'hours.',
-'bac_ERR_NO_FULL_BACKUP' => 'Aborting restore because needed full backup is missing or unreadable.',
-'bac_ERR_NO_INC_BACKUP' => 'Aborting restore because the set has missing or unreadable incremental backup number',
-'bac_CHECK_TO_VERIFY_FULL_RESTORE' => 'Check here to test integrity of all backups needed for a full restore with the selected backup',
-'bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE' => 'Testing all backups needed for a full restore with selected backup',
-'bac_TESTED_BACKUP' => 'Testing integrity of backup',
-'bac_RESTORE_VERIFY_FAILED' => 'Verify integrity failed',
-'bac_CHECK_INTEGRITY_WARNING' => 'Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.',
+'bac_ERR_NO_FULL_BACKUP' => '(en)Aborting restore because needed full backup is missing or unreadable.',
+'bac_ERR_NO_INC_BACKUP' => '(en)Aborting restore because the set has missing or unreadable incremental backup number',
+'bac_CHECK_TO_VERIFY_FULL_RESTORE' => '(en)Check here to test integrity of all backups needed for a full restore with the selected backup',
+'bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE' => '(en)Testing all backups needed for a full restore with selected backup',
+'bac_TESTED_BACKUP' => 'バックアップの整合性をテスト中',
+'bac_RESTORE_VERIFY_FAILED' => '整合性の検証に失敗しました',
+'bac_CHECK_INTEGRITY_WARNING' => '(en)Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.',
 'bac_cifs' => 'cifs',
-'bac_nfs' => 'nfs',
-'bac_local removable disk' => 'Local removable disk',
-'bac_Mounted disk' => 'Mounted disk',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_nfs' => 'NFS',
+'bac_local removable disk' => 'ローカル リムーバブル ディスク',
+'bac_Mounted disk' => 'マウントされたディスク',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => '適切なローカルデバイスが見つかりません',
+'bac_TAPE_BACKUPS' => 'テープバックアップは',
+'bac_WORKSTN_BACKUPS' => 'ワークステーションのバックアップは',
+'bac_ERR_EXTRACT' => 'Dar で抽出中にエラーが発生しました',

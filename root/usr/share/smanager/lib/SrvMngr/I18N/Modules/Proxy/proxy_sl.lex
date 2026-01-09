@@ -7,4 +7,7 @@
 'prx_ERR_PROXY_UPDATE_FAILED' => 'NAPAKA: Pri posodobitvi nastavitev proxy streznika je prislo do napake.',
 'prx_ERR_NO_SQUID_REC' => 'NAPAKA: V konfiguracijski bazi ni nobenega zapisa.',
 'prx_SUCCESS' => 'Nastavitve proxy streznika so uspesno posodobljene.',
-'prx_BLOCKED' => 'Blocked',
+'prx_BLOCKED' => 'Blokirano',
+'prx_TITLE' => 'Nastavitve posredniškega strežnika',
+'Proxy settings' => 'Nastavitve posredniškega strežnika',
+'prx_Proxy' => 'Posrednik',

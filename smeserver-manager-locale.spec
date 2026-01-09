@@ -2,7 +2,7 @@ Summary: SME Server Manager localisation module (manager 2)
 %define name smeserver-manager-locale
 Name: %{name}
 %define version 11.0.0
-%define release 16
+%define release 17
 %define package_summary SME Server Manager localisation module
 %define group Applications/System
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
@@ -21,6 +21,12 @@ AutoReqProv: no
 SME Server Manager 2 localisation module (smeserver-manager)
 
 %changelog
+* Thu Dec 25 2025 Brian Read <brianr@koozali.org> 11.0.0-17.sme
+- Audit and translate where easy lex files in Useraccounts cnd Bugreport category [SME: 12950]
+- Take out all html <p> and <hs> and <br> tags except in multiline strings [SME: 12950]
+- Map meta vars in translations to [_1] etc [SME: 12950]
+- Add in missing lexical strings, review all panels and menu entries. [SME: 12950]
+
 * Mon Dec 22 2025 Brian Read <brianr@koozali.org> 11.0.0-16.sme
 - Audit and add translation for single words in general lex for all languages [SME: 12950]
 

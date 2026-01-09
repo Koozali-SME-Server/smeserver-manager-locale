@@ -1,5 +1,5 @@
 'initial_FORM_TITLE' => 'Välkommen till serverhanteraren',
-'initial_FRAMES_BODY' => ' <p> Välkommen till SME Server, den ledande Linux distributionen för små och medelstora företag. SME Server kommer från <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, ett icke vinstdrivande företag som finns för att ge marknadsföring och juridiskt stöd för SME Server. </p>
+'initial_FRAMES_BODY' => '  Välkommen till SME Server, den ledande Linux distributionen för små och medelstora företag. SME Server kommer från <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, ett icke vinstdrivande företag som finns för att ge marknadsföring och juridiskt stöd för SME Server. 
 
   <p> SME Server är fritt tillgänglig under GNU General Public License och är endast möjlig genom ansträngningar av SME Server community. Emellertid så är tillgängligheten och kvalitén på SME Server beroende av uppfyllnad av våra kostnader som exempelvis, hyra, serverhårdvara, etc. </p>
 
@@ -12,7 +12,7 @@
   <p> För att genomföra en administrativ åtgärd på systemet, klicka på en av länkarna i menyn till vänster. </p>
 
   ',
-'initial_NOFRAMES_BODY' => ' <p> Välkommen till SME Server. Denna mjukvara kommer med ABSOLUT INGEN GARANTI. <a href="/smanager/support" target="main">Klicka här</a> för att se detaljerad information om support, garanti och licensvillkor. </p>
+'initial_NOFRAMES_BODY' => '  Välkommen till SME Server. Denna mjukvara kommer med ABSOLUT INGEN GARANTI. <a href="/smanager/support" target="main">Klicka här</a> för att se detaljerad information om support, garanti och licensvillkor. 
 
   <p> <a href="/server-manager/noframes">Klicka här</a> för en lista över administratörsfunktioner. </p>
 

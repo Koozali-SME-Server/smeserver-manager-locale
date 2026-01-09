@@ -1,5 +1,5 @@
 'initial_FORM_TITLE' => 'Benvenuto nel server manager',
-'initial_FRAMES_BODY' => ' <p> Benvenuti in SME Server, la distribuzione Linux leader per la piccola e media impresa. SME Server è curato da <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, una organizzazione no-profit creata per gestire il marketing e il supporto legale allo SME Server. </p>
+'initial_FRAMES_BODY' => '  Benvenuti in SME Server, la distribuzione Linux leader per la piccola e media impresa. SME Server è curato da <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, una organizzazione no-profit creata per gestire il marketing e il supporto legale allo SME Server. 
 
   <p> SME Server è liberamente disponibile sotto licenza GPL (GNU General Public License) grazie all\'impegno della comunità di sviluppatori. Mantenere la qualità di SME Server comporta diverse spese, tra cui l\'hosting, l\'hardware dei server, etc. </p>
 
@@ -16,7 +16,7 @@
   <p> Per amministrare il sistema, fare clic su uno dei link nel menu alla sinistra dello schermo. </p>
 
   ',
-'initial_NOFRAMES_BODY' => ' <p> Benvenuto su SME Server. Questo software non ha NESSUNA GARANZIA. Fare clic <a href="cgi-bin/support/" target="main">qui</a> per avere informazioni dettagliate su supporto, garanzia e licenza. </p>
+'initial_NOFRAMES_BODY' => '  Benvenuto su SME Server. Questo software non ha NESSUNA GARANZIA. Fare clic <a href="cgi-bin/support/" target="main">qui</a> per avere informazioni dettagliate su supporto, garanzia e licenza. 
 
   <p> Fare clic <a href="/common/noframes">qui</a> per una lista delle funzioni di amministrazione. </p>
 

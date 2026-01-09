@@ -1,32 +1,33 @@
 'log_View log files' => '查看日志文件',
 'log_FIRSTPAGE_DESC' => '在这个面板，您可以查看或下载服务器的日志文件。',
 'log_LOG_FILE_SELECT_DESC' => '请选择要查看的日志文件',
-'log_FILTER_PATTERN_DESC' => ' <p>您可以随意指定一个过滤器以便从日志文件中只显示符合条件的行。若将此字段留空，则显示所有行。注意，当您要下载日志文件时，一般不用此选项。</p>
+'log_FILTER_PATTERN_DESC' => ' 您可以随意指定一个过滤器以便从日志文件中只显示符合条件的行。若将此字段留空，则显示所有行。注意，当您要下载日志文件时，一般不用此选项。
 
   ',
 'log_FILTER_PATTERN_LABEL' => '过滤器(可选)',
-'log_MATCH_PATTERN_DESC' => ' <p>您也可以随意指定高亮显示模式，以便从日志文件中以粗体标记符合条件的行。高亮显示模式适用于任何已过滤的行。 注意，当您要下载日志文件时，一般不用此选项。</p>
+'log_MATCH_PATTERN_DESC' => ' 您也可以随意指定高亮显示模式，以便从日志文件中以粗体标记符合条件的行。高亮显示模式适用于任何已过滤的行。 注意，当您要下载日志文件时，一般不用此选项。
 
   ',
 'log_MATCH_PATTERN_LABEL' => '高亮显示模式(可选)',
 'log_END_DESC' => '请注意，生成这些报表可能花费较长时间。',
 'log_VIEW' => '查看日志文件',
-'log_LOG_FILE_EMPTY' => '日志文件 "{$filename}" 是空的！',
-'log_VIEWING_TIME' => '在 {$time} 查看。',
-'log_MATCH_HEADER' => '显示匹配 "{$matchPattern}"的行。',
-'log_HIGHLIGHT_HEADER' => '高亮显示匹配"{$highlightPattern}"的行。',
+'log_LOG_FILE_EMPTY' => '日志文件 "[_1]" 是空的！',
+'log_VIEWING_TIME' => '在 [_1] 查看。',
+'log_MATCH_HEADER' => '显示匹配 "[_1]"的行。',
+'log_HIGHLIGHT_HEADER' => '高亮显示匹配"[_1]"的行。',
 'log_NO_MATCHING_LINES' => '没有匹配的行。',
-'log_FILENAME_ERROR' => ' <p>指定日志文件名称时出错。</p>
+'log_FILENAME_ERROR' => ' 指定日志文件名称时出错。
 
-  <p>无效的报表类型 "{$filename}"。</p>
+  <p>无效的报表类型 "[_1]"。</p>
 
   ',
 'log_REFRESH' => '刷新此日志文件',
-'log_OP_DESC' => ' <p>您必须选择是查看还是下载日志文件到您的电脑上。如果日志文件特别大，您或许要下载它而不是在浏览器中打开它。因为在某些浏览器上打开大文件会有一点麻烦。</p>
+'log_OP_DESC' => ' 您必须选择是查看还是下载日志文件到您的电脑上。如果日志文件特别大，您或许要下载它而不是在浏览器中打开它。因为在某些浏览器上打开大文件会有一点麻烦。
 
   ',
 'log_OP_LABEL' => '操作',
-'log_DOWNLOAD_PAGE_DESC' => ' <p>您要下载的日志文件已经准备好，请点击下面的 &quot;下一步&quot; 来执行下载,请确保您的浏览器允许弹出窗口。</p>
+'log_DOWNLOAD_PAGE_DESC' => ' 您要下载的日志文件已经准备好，请点击下面的 &quot;下一步&quot; 来执行下载,请确保您的浏览器允许弹出窗口。
 
   ',
-'log_DOWNLOAD_FILE' => '正在准备下载日志文件{$logfile}。',
+'log_DOWNLOAD_FILE' => '正在准备下载日志文件[_1]。',
+'log_FORM_TITLE' => '查看日志文件',

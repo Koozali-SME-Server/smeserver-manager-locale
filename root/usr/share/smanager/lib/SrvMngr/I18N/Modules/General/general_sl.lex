@@ -114,7 +114,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Napaka: v opisu je nepricakovan ali manjkajoci znak',
 'FM_IP_NUMBER1' => 'To polje mora vsebovati veljavno IP stevilko in ne sme ostati prazno.',
 'FM_IP_NUMBER2' => 'Napačen začetni IP naslov',
-'FM_IP_NUMBER3' => '{$octet} je vecji od 255',
+'FM_IP_NUMBER3' => '[_1] je vecji od 255',
 'FM_MAC_ADDRESS1' => 'Vnesti morate MAC naslov.',
 'FM_MAC_ADDRESS2' => 'Vnesli ste neveljaven MAC naslov.',
 'FM_NONBLANK' => 'To polje je obvezen vnos',

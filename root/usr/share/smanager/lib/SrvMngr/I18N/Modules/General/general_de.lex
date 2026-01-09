@@ -121,7 +121,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Fehler: Unzulässige oder fehlende Zeichen in der Beschreibung',
 'FM_IP_NUMBER1' => 'Dieses Feld muß eine gültige IP-Adresse enthalten und darf nicht leer sein.',
 'FM_IP_NUMBER2' => 'IP-Adresse hat ein ungültiges Format (erwartet X.X.X.X)',
-'FM_IP_NUMBER3' => '{$octet} ist größer als 255',
+'FM_IP_NUMBER3' => '[_1] ist größer als 255',
 'FM_MAC_ADDRESS1' => 'Sie müssen eine MAC-Adresse eingeben.',
 'FM_MAC_ADDRESS2' => 'Die eingegebene MAC-Adresse ist unzulässig.',
 'FM_NONBLANK' => 'Dieses Feld darf nicht leer bleiben',

@@ -1,5 +1,5 @@
 'pf_FORM_TITLE' => 'Configurazione Port Forwarding',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Utilizzando questo pannello è possibile modificare le regole del firewall per aprire una porta specifica su questo server e inoltrare il traffico ad un\'altra porta su un altro server. Sarà possibile accedere direttamente ad un server privato sulla rete locale. </p>
+'pf_FIRST_PAGE_DESCRIPTION' => '  Utilizzando questo pannello è possibile modificare le regole del firewall per aprire una porta specifica su questo server e inoltrare il traffico ad un\'altra porta su un altro server. Sarà possibile accedere direttamente ad un server privato sulla rete locale. 
 
   <p> ATTENZIONE: l\'uso improprio di questa funzione potrebbe compromettere seriamente la sicurezza della rete. Non utilizzare questa funzione con superficialità o senza comprenderne pienamente le implicazioni sulla sicurezza. </p>
 
@@ -9,7 +9,7 @@
 'pf_SUMMARY_REMOVE_DESC' => 'La tabella seguente mostra la regola di port-forwarding che sta per essere rimossa. Se siete sicuri di voler rimuovere la regola, fare clic sul pulsante &quot;Rimuovi&quot;. In caso contrario, fare clic sul pulsante &quot;Annulla&quot;.',
 'pf_SHOW_FORWARDS' => 'La tabella riassume le regole di port-forwarding installate sul server. Fare clic sul link &quot;Rimuovi&quot; per rimuovere la regola corrispondente.',
 'pf_NO_FORWARDS' => 'Non ci sono port-forwarding configurati nel sistema.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Selezionare il protocollo, la porta da inoltrare, l\'indirizzo di destinazione e la porta sul server di destinazione. Per specificare un range di porte, inserire la prima e l\'ultima separate da un trattino. La porta di destinazione può essere lasciata vuota per indicare al firewall di non cambiare la porta sorgente. ',
+'pf_CREATE_PAGE_DESCRIPTION' => ' Selezionare il protocollo, la porta da inoltrare, l\'indirizzo di destinazione e la porta sul server di destinazione. Per specificare un range di porte, inserire la prima e l\'ultima separate da un trattino. La porta di destinazione può essere lasciata vuota per indicare al firewall di non cambiare la porta sorgente. ',
 'pf_LABEL_SOURCE_PORT' => 'Porta/e Sorgente',
 'pf_LABEL_PROTOCOL' => 'Protocollo',
 'pf_LABEL_DESTINATION_PORT' => 'Porta/e Destinazione',

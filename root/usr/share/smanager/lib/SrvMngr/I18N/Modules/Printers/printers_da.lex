@@ -34,3 +34,5 @@
 'prt_DELETED_SUCCESSFULLY' => 'Har slettet printer:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Skal være gyldigt værtsnavn eller IP-nummer',
 'prt_Printers' => 'Printere',
+'prt_INITIAL_BTN' => 'Tilføj printer',
+'Printers' => 'Printere',

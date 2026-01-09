@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => 'Lisa, muuda või eemalda kasutajate gruppe',
-'grp_GROUP_TOO_LONG' => 'VIGA: grupi nimi on liiga pikk. Nimi võib olla {$maxLength} pikk.',
-'grp_ACCOUNT_CONFLICT' => 'Viga: gruppi "{$group}" ei saanud luua kuna on juba kasutajakonto {$type} sellise nimega.',
+'grp_GROUP_TOO_LONG' => 'VIGA: grupi nimi on liiga pikk. Nimi võib olla [_1] pikk.',
+'grp_ACCOUNT_CONFLICT' => 'Viga: gruppi "[_1]" ei saanud luua kuna on juba kasutajakonto [_2] sellise nimega.',
 'grp_INVALID_GROUP_DESCRIPTION' => 'VIGA: sobimatu sümbol grupi kirjelduses',
 'grp_NO_MEMBERS' => 'VIGA: pole liikmeid selles grupis. Uut gruppi ei loodud.',
 'grp_CREATED_GROUP' => 'Kasutajate grupp edukalt loodud',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => 'Brief Description/Windows Group Alias',
 'grp_GROUP_DESC_EXPL' => 'Input a brief group description in the field below. This field also designates the group name viewable by Windows clients.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'The following information bays were assigned to this group and will be changed to the Administrator group (you can change them to something else afterward):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Oled kindel, et tahad seda gruppi eemaldada?</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' Oled kindel, et tahad seda gruppi eemaldada?
 
   ',
-'grp_CURRENT_LIST' => '<p>Nimekiri olemasolevatest gruppidest</p>
+'grp_CURRENT_LIST' => 'Nimekiri olemasolevatest gruppidest
 
   ',
-'grp_DELETE_DESCRIPTION' => ' Oled kindel, et tahad gruppi "{$group}."kustutada ',
+'grp_DELETE_DESCRIPTION' => ' Oled kindel, et tahad gruppi "[_1]"kustutada ',

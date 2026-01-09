@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Hapus pseudonym',
 'pse_ABOUT_TO_REMOVE' => ' Anda akan menghapus pseudonym: Anda yakin ingin melanjutkan? ',
 'pse_FORM_TITLE' => 'Buat, ubah, atau hapus pseudonym',
-'pse_DESCRIPTION' => ' <p>TServer secara otomatis membuat sebuah e-mail untuk setiap grup. Jika anda ingin mendefinisikan sebuah email alias untuk sejumlah user, cukup buat sebuah grup dan list akan dikelola oleh server secara otomatis..</p>
+'pse_DESCRIPTION' => ' TServer secara otomatis membuat sebuah e-mail untuk setiap grup. Jika anda ingin mendefinisikan sebuah email alias untuk sejumlah user, cukup buat sebuah grup dan list akan dikelola oleh server secara otomatis..
 
   <p>Dengan Pseudonym anda bisa membuat nama lain dari user atau grup yang telah ada. Contohnya , anda ingin membuat pseudonym "webmaster" untuk grup "pengembangweb" atau pseudonym "joe" untuk pengguna "joseph".</p>
 

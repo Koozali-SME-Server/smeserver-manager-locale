@@ -7,3 +7,4 @@
 'clm_NEVER' => 'Nigdy',
 'clm_DAILY' => 'Codziennie',
 'clm_SUCCESS' => 'Nowe ustawienia ochrony antywirusowej zostały zapisane.',
+'clm_Antivirus (ClamAV)' => 'Antywirus (ClamAV)',

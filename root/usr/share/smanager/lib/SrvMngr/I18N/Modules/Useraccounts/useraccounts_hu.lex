@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Felhasználói fiókok létrehozása, módosítása, vagy eltávolítása',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Felhasználói fiók hozzáadása</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Felhasználói fiók hozzáadása</a> 
 
   <p> Módosíthat, zárolhat, eltávolíthat bármely fiókot, vagy megváltoztathatja a jelszavakat a fiókok neve mellett található parancsokra való kattintással . </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Létrehozás vagy módosítás',
-'usr_CREATE_MODIFY_DESC' => ' <p> A fióknév csak kisbetűket, számokat, kötőjeleket, pontokat, aláhúzásokat tartalmazhat és betűvel kezdődhet. Például "betty", "hjohnson", és "mary-jane" érvényes fióknevek, de a "3friends", "John Smith", és "henry:miller" már nem. </p>
+'usr_CREATE_MODIFY_DESC' => '  A fióknév csak kisbetűket, számokat, kötőjeleket, pontokat, aláhúzásokat tartalmazhat és betűvel kezdődhet. Például "betty", "hjohnson", és "mary-jane" érvényes fióknevek, de a "3friends", "John Smith", és "henry:miller" már nem. 
 
   <p> Két speciális fedőnév generálódik minden fiókhoz. Ezek a fedőnevek lehetővé teszik a felhasználó számára, hogy alternatív e-mail címük legyen, amely tartalmazza a kereszt és vezetéknevet ponttal és aláhúzással elválasztva. Így a"betty" fiók "Betty" keresztnévvel és "Rubble" vezetéknévvel két fedőnevet kap, úgy mint betty.rubble és betty_rubble. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Admin fiók módosítása',
 'usr_USER_CREATED' => 'Felhasználói fiók létrehozása sikeres.',
 'usr_USER_MODIFIED' => 'Felhasználói fiók módosítása sikeres.',
-'usr_CANNOT_MODIFY_USER' => 'Hiba: a "{$acctName}" felhasználó módosításakor belső hiba történt.',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Hiba: a "{$acctName}" felhasználó "{$group}" csoportjának módosításakor belső hiba történt.',
-'usr_TAINTED_USER' => 'A "{$acctName}" fióknév érvénytelen karaktereket tartalmaz.',
+'usr_CANNOT_MODIFY_USER' => 'Hiba: a "[_1]" felhasználó módosításakor belső hiba történt.',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Hiba: a "[_1]" felhasználó "[_2]" csoportjának módosításakor belső hiba történt.',
+'usr_TAINTED_USER' => 'A "[_1]" fióknév érvénytelen karaktereket tartalmaz.',
 'usr_ACCOUNT_NAME' => 'Fióknév',
 'usr_FIRSTNAME' => 'Keresztnév',
 'usr_LASTNAME' => 'Vezetéknév',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'A felhasználói fiók jelszavának megváltoztatására készül',
 'usr_RESET_DESC2' => 'Írja be az új jelszót a lenti mezőkbe',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Hiba történt a jelszó megváltoztatásakor',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'A "{$acctName}" nevű felhasználó jelszava megváltozott.',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'A "[_1]" nevű felhasználó jelszava megváltozott.',
 'usr_LOCK_DESC' => 'A felhasználói fiók zárolására készül',
-'usr_LOCKED_ACCOUNT' => 'A "{$acctName}" nevű felhasználó fiókja zárolásra került.',
-'usr_NO_SUCH_USER' => 'Hiba: a "{$acctName}" nevű felhasználói fiók nem létezik.',
-'usr_PSEUDONYM_CLASH' => 'Hiba: a "{$pseudonym}" fedőnevet már lefoglalta a "{$clashName}" felhasználó. Adjon monogramot a névhez, hogy különböző legyen.',
+'usr_LOCKED_ACCOUNT' => 'A "[_1]" nevű felhasználó fiókja zárolásra került.',
+'usr_NO_SUCH_USER' => 'Hiba: a "[_1]" nevű felhasználói fiók nem létezik.',
+'usr_PSEUDONYM_CLASH' => 'Hiba: a "[_1]" fedőnevet már lefoglalta a "[_2]" felhasználó. Adjon monogramot a névhez, hogy különböző legyen.',
 'usr_LOCK_ACCOUNT' => 'Fiók zárolása',
 'usr_LOCK_ACCOUNT_TITLE' => 'Felhasználói fiók zárolása',
 'usr_LOCK_DESC2' => ' Ez a felhasználói fiók zárolva lesz. Ez azt jelenti, hogy a felhasználó nem tud bejelentkezni, és nem fogadhat e-mailt. Minden beérkező levele eltárolásra kerül, vagy továbbítódik egy előre beállított e-mail címre. A fiók újra aktiválható új jelszó megadásával a jövőben. A jelenlegi jelszó törölve lesz.   Biztos benne, hogy zárolja ezt a fiókot? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Zárol',
 'usr_NO_USER_ACCOUNTS' => 'Nincsenek felhasználói fiókok ezen a rendszeren.',
 'usr_Users' => 'Felhasználók',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'A "{$acctName}" fiók neve érvénytelen karaktereket tartalmaz. A fiók nevének kis betűvel kell kezdődnie, és csak kisbetűket, számokat, kötőjeleket, aláhúzást és pontot tartalmazhat.',
-'usr_ACCOUNT_TOO_LONG' => 'Hiba: A fiók neve túl hosszú. Maximum {$maxLength} karakter hosszúságú lehet.',
-'usr_ACCOUNT_CONFLICT' => 'Hiba: a "{$account}" nevű fiók nem jött létre, mivel már van egy ilyen nevű {$type} fiók.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'A "[_1]" fiók neve érvénytelen karaktereket tartalmaz. A fiók nevének kis betűvel kell kezdődnie, és csak kisbetűket, számokat, kötőjeleket, aláhúzást és pontot tartalmazhat.',
+'usr_ACCOUNT_TOO_LONG' => 'Hiba: A fiók neve túl hosszú. Maximum [_1] karakter hosszúságú lehet.',
+'usr_ACCOUNT_CONFLICT' => 'Hiba: a "[_1]" nevű fiók nem jött létre, mivel már van egy ilyen nevű [_2] fiók.',
 'usr_ERR_OCCURRED_CREATING' => 'Hiba történt a felhasználó létrehozásakor.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Ez a mező nem tartalmazhat szóközt',
 'usr_UNACCEPTABLE_CHARS' => 'Ez a mező csak számokat, betűket, pontokat, kötőjeleket, aláhúzásokat tartalmazhat és betűvel kell kezdődnie.',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Új rendszerjelszó (ellenőrzés)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Tanúsítvány letöltése az IPSec klienshez',
 'usr_ERR_OCCURRED_DELETING' => 'Hiba történt a felhasználó törlésekor.',
+'usr_ADD_USER' => 'Felhasználói fiók hozzáadása',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'Felhasználók',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

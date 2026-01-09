@@ -8,3 +8,5 @@
 'prx_ERR_NO_SQUID_REC' => 'ERROR: No existe ningún registro squid en la base de datos de configuración.',
 'prx_SUCCESS' => 'La nueva configuración de proxy ha sido aplicada correctamente.',
 'prx_BLOCKED' => 'Bloqueado',
+'prx_TITLE' => 'Configuración del proxy',
+'prx_Proxy' => 'Proxy',

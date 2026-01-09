@@ -1,6 +1,6 @@
 'quo_FORM_TITLE' => 'Kullanıcı kotası oluştur, sil veya değiştir',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Hesaplar veritabanı açılamadı',
-'quo_QUOTA_DESC' => ' <p>Sistemdeki kullanıcıların kotalarını değiştirmek için kullanıcı adının yanındaki "Değiştir" butonunu kullanın. <p>Kullanıcı "süreli limiti" aşarsa ona uyarı gönderilecektir. Bu süre 1 haftadan daha uzun sürerse veya "kesin limit" aşılırsa kullanıcı daha fazla dosya depolayamayacaktır ve e-posta alamayacaktır. <p>İlgili kullanıcı için "0" limit değeri verilirse limit yok anlamına gelir. <p>Her kullanıcının kotası; kullanıcı ev dizini, e-posta ve sahip olduğu i-bayları içerir. ',
+'quo_QUOTA_DESC' => ' Sistemdeki kullanıcıların kotalarını değiştirmek için kullanıcı adının yanındaki "Değiştir" butonunu kullanın. Kullanıcı "süreli limiti" aşarsa ona uyarı gönderilecektir. Bu süre 1 haftadan daha uzun sürerse veya "kesin limit" aşılırsa kullanıcı daha fazla dosya depolayamayacaktır ve e-posta alamayacaktır. İlgili kullanıcı için "0" limit değeri verilirse limit yok anlamına gelir. Her kullanıcının kotası; kullanıcı ev dizini, e-posta ve sahip olduğu i-bayları içerir. ',
 'quo_CURRENT_USAGE_AND_SETTINGS' => 'Mevcut Kota Kullanımı ve Ayarları',
 'quo_LIMIT_WITH_GRACE' => 'Süreli limit',
 'quo_LIMIT_WITH_GRACE_MB' => 'Süreli limit (MB)',

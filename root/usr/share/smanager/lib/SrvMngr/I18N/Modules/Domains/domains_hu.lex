@@ -1,31 +1,31 @@
 'dom_FORM_TITLE' => 'Domain-ek kezelése',
-'dom_FORM_DESCRIPTION' => ' <p>Amikor létrehoz egy új domain-t, a szerver képes lesz az arra a domain-re küldött levelek fogadására, valamint weboldalt közzéteni az adott domain alatt az Interneten.</p>
+'dom_FORM_DESCRIPTION' => ' Amikor létrehoz egy új domain-t, a szerver képes lesz az arra a domain-re küldött levelek fogadására, valamint weboldalt közzéteni az adott domain alatt az Interneten.
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Domain hozzáadása</a> ',
 'dom_NO_VIRTUAL_DOMAINS' => 'Nincs domain beállítva a rendszerben.',
 'dom_CURRENT_LIST_OF_DOMAINS' => 'Domain-ek listája',
 'dom_PRIMARY_SITE' => 'elsődleges webhely',
-'dom_CONTENT' => '{$content} Adattár',
+'dom_CONTENT' => '[_1] Adattár',
 'dom_CREATE_TITLE' => 'Új domain létrehozása',
 'dom_CONTENT_FIELD_DESCRIPTION' => 'A weboldalhoz kiválaszthatja az elsődleges webhelyet, vagy bármely adattárat.',
-'dom_DOMAIN_NAME_VALIDATION_ERROR' => 'Hiba: Helytelen vagy hiányzó karakterek vannak a {$domainName} domain névben. A domain név egy vagy több betűt, számokat, pontokat és kötőjeleket tartalmazhat. A domain nem jött létre.',
-'dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR' => 'Hiba: Helytelen vagy hiányzó karakterek vannak a {$domainDesc} domain leírásában. A domain nem jött létre.',
-'dom_DOMAIN_IN_USE_ERROR' => 'Hiba: a {$domainName} domain név már használatban van. A domain nem jött létre.',
-'dom_SYSTEM_DOMAIN_ERROR' => 'Hiba: a {$domainName} domain az ön rendszerének a domain neve. Nem hozhat létre új domaint ugyanezzel a névvel. A domain nem jött létre.',
-'dom_SUCCESSFULLY_CREATED' => 'A {$domainName} domain sikeresen létrejött. A webszerver újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.',
+'dom_DOMAIN_NAME_VALIDATION_ERROR' => 'Hiba: Helytelen vagy hiányzó karakterek vannak a [_1] domain névben. A domain név egy vagy több betűt, számokat, pontokat és kötőjeleket tartalmazhat. A domain nem jött létre.',
+'dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR' => 'Hiba: Helytelen vagy hiányzó karakterek vannak a [_1] domain leírásában. A domain nem jött létre.',
+'dom_DOMAIN_IN_USE_ERROR' => 'Hiba: a [_1] domain név már használatban van. A domain nem jött létre.',
+'dom_SYSTEM_DOMAIN_ERROR' => 'Hiba: a [_1] domain az ön rendszerének a domain neve. Nem hozhat létre új domaint ugyanezzel a névvel. A domain nem jött létre.',
+'dom_SUCCESSFULLY_CREATED' => 'A [_1] domain sikeresen létrejött. A webszerver újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.',
 'dom_MODIFY_TITLE' => 'Domain módosítása',
-'dom_NONEXISTENT_DOMAIN_ERROR' => 'Hiba: A {$domainName} nem létező domain név.',
-'dom_SUCCESSFULLY_MODIFIED' => 'Sikeresen módosította a {$domainName} -nevű domain-t. A szerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.',
+'dom_NONEXISTENT_DOMAIN_ERROR' => 'Hiba: A [_1] nem létező domain név.',
+'dom_SUCCESSFULLY_MODIFIED' => 'Sikeresen módosította a [_1] -nevű domain-t. A szerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.',
 'dom_REMOVE_TITLE' => 'Domain eltávolítása',
-'dom_REMOVE_DESCRIPTION' => ' <p> Most készül eltávolítani a {$domain} ({$domainDesc}) nevű domain-t. </p>
+'dom_REMOVE_DESCRIPTION' => '  Most készül eltávolítani a [_1] ([_2]) nevű domain-t. 
 
   <p> <b>Biztos benne, hogy törölni akarja?</b> </p>
 
   ',
-'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Hiba: probléma a {$domain} domain eltávolításakor.',
-'dom_SUCCESSFULLY_DELETED' => 'Sikeresen törölte a {$domain} nevű domain-t. A webszerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.',
+'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Hiba: probléma a [_1] domain eltávolításakor.',
+'dom_SUCCESSFULLY_DELETED' => 'Sikeresen törölte a [_1] nevű domain-t. A webszerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' Vállalati DNS beállítások ',
-'dom_BUTTON_CORPORATE_DNS' => ' <p>Ha ennek a szervernek nincs kapcsolata az Internethez, vagy különleges követelményei vannak a DNS névfeloldással kapcsolatban, írja be ide a külső DNS szerver IP címét. Nem kell ide beírnia az Internet szolgáltatója DNS címét, mivel ez a szerver enélkül is fel tudja oldani az internetes DNS neveket.</p>
+'dom_BUTTON_CORPORATE_DNS' => ' Ha ennek a szervernek nincs kapcsolata az Internethez, vagy különleges követelményei vannak a DNS névfeloldással kapcsolatban, írja be ide a külső DNS szerver IP címét. Nem kell ide beírnia az Internet szolgáltatója DNS címét, mivel ez a szerver enélkül is fel tudja oldani az internetes DNS neveket.
 
   <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Vállalati DNS beállítások módosítása</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Ha ennek a szervernek nincs kapcsolata az Internethez, vagy különleges követelményei vannak a DNS névfeloldással kapcsolatban, írja be ide a külső DNS szerver IP címeit. Hagyja üresen ezeket a mezőket, ha nincs szüksége külső DNS szerverre. Nem kell ide beírnia az Internet szolgáltatója DNS címét sem, mivel ez a szerver enélkül is fel tudja oldani az internetes DNS neveket.',
@@ -38,3 +38,7 @@
 'dom_corporate' => 'Vállalati DNS szerver',
 'dom_REMOVE_DESC' => 'A következő domain-t készül eltávolítani:',
 'dom_REMOVE_DESC2' => 'Biztos benne, hogy eltávolítja ezt a domain-t?',
+'dom_ADD_DOMAIN' => 'Domain hozzáadása',
+'dom_CURRENT_DOMAINS' => 'A domainek aktuális listája',
+'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',
+'dom_DOMAINS_PAGE_CORPORATE_DNS' => 'Vállalati DNS-beállítások módosítása',

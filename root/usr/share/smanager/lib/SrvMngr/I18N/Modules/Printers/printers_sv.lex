@@ -34,3 +34,5 @@
 'prt_DELETED_SUCCESSFULLY' => 'Skrivare raderad:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Måste vara ett giltigt värdnamn eller IP-nummer',
 'prt_Printers' => 'Skrivare',
+'prt_INITIAL_BTN' => 'Lägg till skrivare',
+'Printers' => 'Skrivare',

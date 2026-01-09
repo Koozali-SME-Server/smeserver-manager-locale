@@ -1,5 +1,32 @@
-'pwd_DESCRIPTION' => ' <p> Za zamenjavo gesla vasemu uporabniskemu imenu, uporabite spodnji obrazec. vpisati boste morali vase <b>uporabnisko ime</b> vase sedanje geslo in zeljeno novo geslo. (Novo geslo morate zaradi varnosti vpisati dva krat.)</p>
+'pwd_DESCRIPTION' => '  Za zamenjavo gesla vasemu uporabniskemu imenu, uporabite spodnji obrazec. vpisati boste morali vase <b>uporabnisko ime</b> vase sedanje geslo in zeljeno novo geslo. (Novo geslo morate zaradi varnosti vpisati dva krat.)
 
   <p> Ce ste vase staro geslo pozabili in zaradi tega ne morete zamenjati gesla, vam lahko geslo ponastavi vas skrbnik streznika z uporabo <em>spletne nadzorne plosce</em>.</p>
 
   ',
+'pwd_TAINTED_USER' => '(en)The account name "[_1]" contains invalid characters.',
+'pwd_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'pwd_FIELDS_REQUIRED' => 'Vsa polja so obvezna',
+'pwd_ERROR_PASSWORD_CHANGE' => '(en)An error occurred while attempting to change your password. Please make sure that the old password entered is correct. Old and new passwords should be different.',
+'pwd_PASSWORD_CHANGE' => 'Spremeni geslo',
+'pwd_RESET_PASSWORD_TITLE' => 'Ponastavi uporabniško geslo',
+'pwd_ACCOUNT_PASSWORD_CHANGE' => 'Spremeni geslo računa',
+'pwd_PASSWORD_VERIFY_NEW' => 'Novo geslo (potrditev):',
+'pwd_PASSWORD_NEW' => 'Novo geslo:',
+'pwd_PASSWORD_OLD' => 'Staro geslo:',
+'pwd_PASSWORD_RESET' => 'Ponastavi geslo',
+'pwd_ACCOUNT_NAME_INVALID' => '(en)The account name entered is invalid.',
+'pwd_ACCOUNT_NAME_INVALID_CHARS' => '(en)The account name you entered contained invalid characters.',
+'pwd_PASSWORD_OLD_INVALID_CHARS' => '(en)The old password you entered contained invalid characters.',
+'pwd_PASSWORD_INVALID_CHARS' => '(en)The password you entered contained invalid characters.',
+'pwd_PASSWORD_VERIFY_ERROR' => '(en)The new passwords you entered did not match.',
+'pwd_ACCOUNT_USER_NONE' => '(en)There are no user accounts in the system.',
+'pwd_ACCOUNT_GROUP_NONE' => '(en)There are no user groups in the system.',
+'pwd_YOUR_ACCOUNT' => 'Vaš račun:',
+'pwd_YOUR_ACCOUNT_INVALID' => '(en)The account name entered is invalid.',
+'pwd_PASSWORD_CHANGE_SUCCESS' => '(en)Your password has been successfully changed.',
+'pwd_DESCRIPTION_RESET' => '(en)To reset your account password, please fill out the following form. You will need to provide your desired new password. (You must type it twice.)In cas of problem, your local system administrator can reset your password using the <EM>server manager</EM>.',
+'pwd_NONE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters.',
+'pwd_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'pwd_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'pwd_STRONG_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'pwd_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

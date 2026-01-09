@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'Αντιγραφή ασφαλείας ή επαναφορά των δεδομένων του διακομιστή',
 'bac_BACKUP_DESC' => ' <p>Ο διακομιστής προσφέρει δύο τρόπους αντιγραφής ασφαλείας και επαναφοράς του: χρησιμοποιώντας την τοπική σας επιφάνεια εργασίας ή έναν οδηγό μαγνητικής ταινίας.</p>
 
-  <p>Η πρώτη μέθοδος δημιουργεί ένα αντίγραφο των ρυθμίσεων παραμέτρων του διακομιστή σας και των αρχείων δεδομένων των χρηστών το οποίο αποστέλλει (downloads) στην τοπική επιφάνεια εργασίας σας μέσω του περιηγητή ιστοσελίδων σας (web browser). Επί του παρόντος οι ρυθμίσεις παραμέτρων και τα αρχεία δεδομένων των χρηστών ανέρχονται συνολικά σε περίπου <b>[_3]</b>. Το αντίγραφο ασφαλείας θα είναι κατά τι μικρότερο από αυτό, αναλόγως πόσο συμπιέσιμα είναι τα δεδομένα. Η επιλογή \"Επιβεβαίωση αντιγράφου ασφαλείας επιφάνειας εργασίας\" μπορεί να χρησιμοποιηθεί για τον έλεγχο της ακεραιότητας του αρχείου αντιγράφου ασφαλείας της επιφάνειας εργασίας.</p>
+  <p>Η πρώτη μέθοδος δημιουργεί ένα αντίγραφο των ρυθμίσεων παραμέτρων του διακομιστή σας και των αρχείων δεδομένων των χρηστών το οποίο αποστέλλει (downloads) στην τοπική επιφάνεια εργασίας σας μέσω του περιηγητή ιστοσελίδων σας (web browser). Επί του παρόντος οι ρυθμίσεις παραμέτρων και τα αρχεία δεδομένων των χρηστών ανέρχονται συνολικά σε περίπου <b>[_3]</b>. Το αντίγραφο ασφαλείας θα είναι κατά τι μικρότερο από αυτό, αναλόγως πόσο συμπιέσιμα είναι τα δεδομένα. Η επιλογή \\"Επιβεβαίωση αντιγράφου ασφαλείας επιφάνειας εργασίας\\" μπορεί να χρησιμοποιηθεί για τον έλεγχο της ακεραιότητας του αρχείου αντιγράφου ασφαλείας της επιφάνειας εργασίας.</p>
 
   <p>για να δημιουργεί κάθε βράδυ ένα αντίγραφο ασφαλείας ολόκληρου του σκληρού σας δίσκου σε ταινία. Τούτο απαιτεί την ύπαρξη ενός υποστηριζόμενου οδηγού ταινίας και μίας ταινίας χωρίς προστασία εγγραφής. Η αντιγραφή ασφαλείας εκτελείται αυτόματα την προεπιλεγμένη ώρα κάθε βράδυ (με μία υπενθύμιση που αυτόματα αποστέλλεται στον διαχειριστή μέσω ηλεκτρονικής αλληλογραφίας κατά την διάρκεια της ημέρας). Την στιγμή αυτή ο σκληρός σας δίσκος περιέχει <b>[_2]</b> δεδομένων.</p>
 
   <p>Και οι δύο μέθοδοι επαναφοράς σας επιτρέπουν να επαναφέρετε τα αρχεία ρυθμίσεων παραμέτρων και δεδομένων χρηστών. <b>Ιδανικά, η πλήρης επαναφορά θα πρέπει να εκτελείται σε διακομιστή πρόσφατα εγκατεστημένο.</b></p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,9 +16,7 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Ρύθμιση παραμέτρων και κατάστασης αντιγράφου ασφαλείας',
 'bac_TAPE_BACKUPS_ENABLED' => ' Η αντιγραφή ασφαλείας σε ταινία είναι επί του παρόντος ενεργοποιημένη. ',
 'bac_BACKUPS_RUN_AT' => 'Η τακτική αντιγραφή ασφαλείας θα αρχίζει στις:',
@@ -113,7 +111,7 @@
 'bac_SERVER_REBOOT' => 'Επανεκκίνηση του διακομιστή',
 'bac_SERVER_WILL_REBOOT' => 'Ο διακομιστής σας τώρα θα επανεκκινήσει.',
 'bac_NO_UID_FOR_NAME' => 'Αδύνατη η λήψη uid για το όνομα χρήστη:',
-'bac_PAGE_REFRESH_IN' => ' Αυτή η σελίδα θα ανανεωθεί σε οθόνη κατάστασης σε {$sec} δευτερόλεπτα, ή κάντε κλίκ εδώ. ',
+'bac_PAGE_REFRESH_IN' => ' Αυτή η σελίδα θα ανανεωθεί σε οθόνη κατάστασης σε [_1] δευτερόλεπτα, ή κάντε κλίκ εδώ. ',
 'bac_Backup or restore' => 'Αντιγραφή ασφαλείας ή επαναφορά',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Ο διακομιστής σας έχει πάρα πολλά δεδομένα για τη δημιουργία ενός αξιόπιστου αντιγράφου ασφαλείας στην επιφάνεια εργασίας.  ',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' Η αντιγραφή ασφαλείας σε σταθμό εργασίας είναι απενεργοποιημένη ',
@@ -158,9 +156,9 @@
 'bac_ERR_INVALID_FOLDER' => 'Μη-έγκυρο όνομα κοινόχρηστου χώρου',
 'bac_ERR_INVALID_LOGIN' => 'Μη-έγκυρο Login',
 'bac_ERR_INVALID_PASSWORD' => 'Μη-έγκυρος κωδικός',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'Ο κατάλογος αντιγράφων ασφαλείας είναι ήδη προσαρτημένος',
 'bac_ERR_MOUNTING_SMBSHARE' => 'Αδυναμία προσάρτησης του κοινόχρηστου φακέλου του σταθμού εργασίας',
-'bac_ERR_NOT_MOUNTED' => 'Backup directory is not mounted',
+'bac_ERR_NOT_MOUNTED' => 'Ο κατάλογος αντιγράφων ασφαλείας δεν είναι προσαρτημένος',
 'bac_WORKSTN_NOT_SET' => 'Πρέπει κατ\' αρχήν να ρυθμίσετε σωστά τις παραμέτρους δημιουργίας αντιγράφων ασφαλείας του σταθμού εργασίας σας',
 'bac_NO_BACKUPS_TO_RESTORE' => 'Δεν υπάρχει σετ αντιγράφων ασφαλείας στο καθορισμένο κοινόχρηστο φάκελο του σταθμού εργασίας. Επιβεβαιώστε τις ρυθμίσεις των παραμέτρων σας.',
 'bac_NUMBER_OF_SETS' => 'Πλήθος κυλιόμενων ομάδων αντιγράφων ασφαλείας',
@@ -216,15 +214,20 @@
 'bac_ERR_NO_USB_DISK' => 'Σφάλμα: Δεν υπάρχει διαθέσιμος USB δίσκος. Παρακαλώ συνδέστε έναν USB δίσκο ή επιλέξτε άλλον τύπο κοινόχρηστου μέσου αποθήκευσης του αντιγράφου ασφαλείας.',
 'bac_ERR_NO_MOUNTED_DISK' => 'Σφάλμα: Δεν υπάρχει διαθέσιμος USB δίσκος. Παρακαλώ συνδέστε έναν USB δίσκο ή επιλέξτε άλλον τύπο κοινόχρηστου μέσου αποθήκευσης του αντιγράφου ασφαλείας.',
 'bac_HOURS' => 'ώρες.',
-'bac_ERR_NO_FULL_BACKUP' => 'Aborting restore because needed full backup is missing or unreadable.',
-'bac_ERR_NO_INC_BACKUP' => 'Aborting restore because the set has missing or unreadable incremental backup number',
-'bac_CHECK_TO_VERIFY_FULL_RESTORE' => 'Check here to test integrity of all backups needed for a full restore with the selected backup',
-'bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE' => 'Testing all backups needed for a full restore with selected backup',
-'bac_TESTED_BACKUP' => 'Testing integrity of backup',
+'bac_ERR_NO_FULL_BACKUP' => '(en)Aborting restore because needed full backup is missing or unreadable.',
+'bac_ERR_NO_INC_BACKUP' => '(en)Aborting restore because the set has missing or unreadable incremental backup number',
+'bac_CHECK_TO_VERIFY_FULL_RESTORE' => '(en)Check here to test integrity of all backups needed for a full restore with the selected backup',
+'bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE' => '(en)Testing all backups needed for a full restore with selected backup',
+'bac_TESTED_BACKUP' => 'Έλεγχος ακεραιότητας του αντιγράφου ασφαλείας',
 'bac_RESTORE_VERIFY_FAILED' => 'Επιβεβαίωση ημερομηνίας και ώρας',
-'bac_CHECK_INTEGRITY_WARNING' => 'Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.',
+'bac_CHECK_INTEGRITY_WARNING' => '(en)Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.',
 'bac_cifs' => 'cifs',
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'Το αντίγραφο ασφαλείας δημιουργήθηκε σε τοπικό USB δίσκο',
-'bac_Mounted disk' => 'Mounted disk',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_Mounted disk' => 'Προσαρτημένος δίσκος',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'Δεν βρέθηκαν κατάλληλες τοπικές συσκευές',
+'bac_TAPE_BACKUPS' => 'Τα αντίγραφα ασφαλείας σε ταινία είναι',
+'Backup or restore' => 'Δημιουργία αντιγράφου ασφαλείας ή επαναφορά',
+'bac_WORKSTN_BACKUPS' => 'Τα αντίγραφα ασφαλείας σταθμών εργασίας είναι',
+'bac_ERR_EXTRACT' => 'Σφάλμα κατά την εξαγωγή με το Dar',

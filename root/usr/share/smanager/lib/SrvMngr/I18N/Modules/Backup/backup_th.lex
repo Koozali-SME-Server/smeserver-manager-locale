@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'สำรองหรือเรียกคืนข้อมูลของเซิร์ฟเวอร์',
 'bac_BACKUP_DESC' => ' <p>การสำรองข้อมูลและการนำข้อมูลสำรองของเซอร์ฟเวอร์กลับมาใช้มีสองวิธีคือ โดยใช้พื้นที่เดสก์ทอปบนเครื่องของคุณ และเทปแบคอัพ</p>
 
-  <p>ในวิธีแรกจะทำสำเนาการตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้ จากนั้นดาวน์โหลดลงมาที่เดสก์ทอปของคุณ ซึ่งจะทำผ่านเว็บเบราเซอร์ ปัจจุบันขนาดรวมของไฟล์การตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้มีอยู่ประมาณ <b>[_3]</b> โดยทั่วไปไฟล์แบคอัพจริงจะเล็กกว่านี้ ซึ่งขึ้นกับข้อมูลจะสามารถถูกบีบอัดลงได้มากแค่ใหน ตัวเลือก \"ตรวจทานไฟล์ของการสำรองไปเดสก์ทอป\" จะใช้เมื่อต้องหากการให้ทำการตรวจสอบความถูกต้องของไฟล์สำรองนั้นด้วย</p>
+  <p>ในวิธีแรกจะทำสำเนาการตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้ จากนั้นดาวน์โหลดลงมาที่เดสก์ทอปของคุณ ซึ่งจะทำผ่านเว็บเบราเซอร์ ปัจจุบันขนาดรวมของไฟล์การตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้มีอยู่ประมาณ <b>[_3]</b> โดยทั่วไปไฟล์แบคอัพจริงจะเล็กกว่านี้ ซึ่งขึ้นกับข้อมูลจะสามารถถูกบีบอัดลงได้มากแค่ใหน ตัวเลือก \\"ตรวจทานไฟล์ของการสำรองไปเดสก์ทอป\\" จะใช้เมื่อต้องหากการให้ทำการตรวจสอบความถูกต้องของไฟล์สำรองนั้นด้วย</p>
 
   <p>การสำรองโดยใช้เทปแบคอัพจะใช้ชุดโปรแกรมที่ชื่อ <i>[_1]</i> โดยจะทำการสำรองข้อมูลทั้งหมดทั้งฮาร์ดไดร์ลงเทป และทำทุกวัน (ทุกคืน) มันทำงานได้เฉพาะกับเครื่องเล่นเทปที่มันรู้จักและเทปต้องป้องกัน มันจะทำงานโดยอัตโนมัติเมื่อถึงเวลาที่ตั้งไว้ (รวมถึงทำการเตือนล่วงหน้าให้ใส่เทป โดยจะอีเมล์ไปที่ผู้ดูแลระบบของเซอร์ฟเวอร์นี้) ขณะนี้ฮาร์ดดิสมีข้อมูลทั้งหมดขนาดประมาณ <b>[_2]</b></p>
 
   <p>วิธีการทั้งสองแบบต่างก็สามารถเรียกคืนข้อมูลสำรองไว้ได้ <b>คำแนะนำ การเรียกคืนข้อมูลสำรองนี้ควรทำเฉพาะกับเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,9 +16,7 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'สถานะและการตั้งค่าของการสำรองข้อมูล',
 'bac_TAPE_BACKUPS_ENABLED' => ' ขณะนี้การสำรองข้อมูลลงเทปถูก เปิดใช้งาน ',
 'bac_BACKUPS_RUN_AT' => 'ปกติการสำรองลงเทปจะทำงานเวลา:',
@@ -77,7 +75,7 @@
 'bac_LOAD_TAPE_REMINDER_TIME' => 'เตือนให้ใส่เทป ณ. เวลา (ชั่วโมง/นาที)',
 'bac_AM/PM' => 'AM/PM',
 'bac_AM' => 'AM',
-'bac_PM' => 'PM',
+'bac_PM' => 'บ่าย',
 'bac_UPDATE_CONF' => 'บันทึกการแก้ไข',
 'bac_UPDATING_TAPE_CONF' => 'กำลังบันทึกการตั้งค่าเทปสำรองข้อมูล',
 'bac_ERR_INVALID_HOUR' => 'ข้อผิดพลาด: ชั่วโมงทำการสำรองข้อมูลที่ไม่ถูกต้อง:',
@@ -105,11 +103,11 @@
 'bac_NOW_RESTORING_FROM_TAPE' => 'การตั้งค่าของเซิร์ฟเวอร์ที่และไฟล์ข้อมูลของผู้ใช้กำลังถูกเรียกคืนจากเทปสำรองข้อมูล',
 'bac_ERR_RESTORING_FROM_TAPE' => 'เกิดข้อผิดพลาดเกิดขึ้นในการเรียกคืนข้อมูลจากเทป',
 'bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE' => 'เกิดข้อผิดพลาดขึ้นระหว่างการปรับปรุงการกำหนดค่าของระบบหลังจากเรียกคืนข้อมูลสำรองจากเทปแล้ว',
-'bac_COULD_NOT_FORK' => 'Could not fork:',
+'bac_COULD_NOT_FORK' => 'ไม่สามารถแยกโปรเซสได้:',
 'bac_SERVER_REBOOT' => 'รีบู๊ตเซอร์ฟเวอร์',
 'bac_SERVER_WILL_REBOOT' => 'เซอร์ฟเวอร์เริ่มต้นรีบู๊ต',
 'bac_NO_UID_FOR_NAME' => 'ไม่ได้สามารถระบุ uid ของ user ที่ชื่อ:',
-'bac_PAGE_REFRESH_IN' => ' หน้านี้จะรีเฟรชเพื่อแสดงสถานะล่าสุดใน {$sec} วินาที, หรือคลิ๊กที่นี่ ',
+'bac_PAGE_REFRESH_IN' => ' หน้านี้จะรีเฟรชเพื่อแสดงสถานะล่าสุดใน [_1] วินาที, หรือคลิ๊กที่นี่ ',
 'bac_Backup or restore' => 'สำรองหรือเรียกคืนข้อมูลสำรอง',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  เซิร์ฟเวอร์ของคุณมีข้อมูลมากเกินไปที่จะ สำรองข้อมูลไปเดสก์ทอป ได้อย่างน่าเชื่อถือได้ ',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' การสำรองข้อมูลไปเครื่องลูกข่ายถูก ปิดไม่ใช้งาน ',
@@ -154,9 +152,9 @@
 'bac_ERR_INVALID_FOLDER' => 'ชื่อพื้นที่จัดเก็บ (share name) ไม่ถูกต้อง',
 'bac_ERR_INVALID_LOGIN' => 'การล็อกอินไม่ถูกต้อง',
 'bac_ERR_INVALID_PASSWORD' => 'รหัสผ่านไม่ถูกต้อง',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'ไดเรกทอรีสำรองข้อมูลถูกเมานต์อยู่แล้ว',
 'bac_ERR_MOUNTING_SMBSHARE' => 'ไม่สามารถเมาท์ (mount) โฟล์เดอร์ของเครื่องลูกข่ายได้',
-'bac_ERR_NOT_MOUNTED' => 'Backup directory is not mounted',
+'bac_ERR_NOT_MOUNTED' => 'ไดเรกทอรีสำรองข้อมูลไม่ได้ถูกเมานต์',
 'bac_WORKSTN_NOT_SET' => 'คุณต้องตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่ายให้ถูกต้องก่อน',
 'bac_NO_BACKUPS_TO_RESTORE' => 'ไม่มีข้อมูล ชุดของการสำรองข้อมูล (backup set) ในโฟล์เดอร์ปลายทางที่เครื่องลูกข่าย ตรวจสอบการตั้งค่าของคุณอีกครั้ง',
 'bac_NUMBER_OF_SETS' => 'จำนวนการเวียนใช้ของ backup sets',
@@ -222,5 +220,10 @@
 'bac_cifs' => 'cifs',
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'อุปกรณ์บันทึกข้อมูลแบบถอดได้ที่เครื่องเซอร์ฟเวอร์ (local removable disk)',
-'bac_Mounted disk' => 'Mounted disk',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_Mounted disk' => 'ดิสก์ที่เมานต์แล้ว',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'ไม่พบอุปกรณ์ภายในเครื่องที่เหมาะสม',
+'bac_TAPE_BACKUPS' => 'การสำรองข้อมูลลงเทปคือ',
+'Backup or restore' => 'สำรองข้อมูลหรือกู้คืน',
+'bac_WORKSTN_BACKUPS' => 'การสำรองข้อมูลเวิร์กสเตชันคือ',
+'bac_ERR_EXTRACT' => 'เกิดข้อผิดพลาดขณะทำการแตกไฟล์ด้วย Dar',

@@ -1,14 +1,14 @@
 'bac_BACKUP_TITLE' => 'Sunucu verilerini yedekle veya geri yükle',
 'bac_BACKUP_DESC' => ' <p>Sunucunuz iki şekilde yedek alma ve geri yüklemeyi sağlar: yerel masaüstünüzü veya teyip sürücüsünü kullanarak.</p>
 
-  <p>İlk yöntem ayar ve kullanıcı dosyalarınızın yedeğini oluşturup, web gezginiyle masaüstünüze kaydetmeyi sağlar. Mevcut ayar ve kullanıcı dosyalarınız yaklaşık olarak <b>[_3]</b> yer kaplar. Yedekleme dosyası bundan daha az yer kaplar, ne kadar sıkıştırıldığına bağlı. \"Masaüstü yedeklemesini doğrula\" seçeneği masaüstünüze yüklenen yedeğin içeriğini bütünlüğünü doğrular.</p>
+  <p>İlk yöntem ayar ve kullanıcı dosyalarınızın yedeğini oluşturup, web gezginiyle masaüstünüze kaydetmeyi sağlar. Mevcut ayar ve kullanıcı dosyalarınız yaklaşık olarak <b>[_3]</b> yer kaplar. Yedekleme dosyası bundan daha az yer kaplar, ne kadar sıkıştırıldığına bağlı. \\"Masaüstü yedeklemesini doğrula\\" seçeneği masaüstünüze yüklenen yedeğin içeriğini bütünlüğünü doğrular.</p>
 
   <p>Teyip yedeklemesi ise <i>[_1]</i> programını kullanarak sunucunuzun yedeğini her gece teybe kaydetmek için kullanır . Bu işlem için tanımlanan bir teyip sürücüsü ve yazılabilir bir kaset gerekir. Yedekleme belirtilen saatte her gece otomatik olarak yapılır (hatırlatıcı kullanılırsa her gün yöneticiye hatırlatma e-postası gönderilir). Diskinizdeki mevcut veri iktarı <b>[_2]</b> .</p>
 
   <p>Her iki geri yükleme yöntemi hem sunucu ayarlarını hem de kullanıcı dosyalarını geri yüklemeyi sağlar. <b>En iyisi, geri yükleme işlemi yeni kurulum yapılmış sunucuda yapmaktır</b>.</p>
 
   ',
-'bac_BACKUP_DESC_DAR' => ' <p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
+'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
 
@@ -16,9 +16,7 @@
 
   <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>
 
-  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Yedekleme ayarları ve durumu',
 'bac_TAPE_BACKUPS_ENABLED' => ' Teyip yedeklemesi etkin. ',
 'bac_BACKUPS_RUN_AT' => 'Teyip yedeklemesi düzenli olarak bu saate gerçekleşecektir:',
@@ -78,7 +76,7 @@
 'bac_TAPE_BACKUP_TIME' => 'Günün, teyibe yedek alma saati (saat/dak)',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Teyibe bant yükleme hatırlatıcısının çalışma zamanı (saat/dak)',
 'bac_AM/PM' => 'AM/PM (ÖÖ/ÖS)',
-'bac_AM' => 'AM (ÖÖ)',
+'bac_AM' => 'ÖÖ (AM)',
 'bac_PM' => 'PM (ÖS)',
 'bac_UPDATE_CONF' => 'Güncelle',
 'bac_UPDATING_TAPE_CONF' => 'Teyip yedekleme ayarları güncelleniyor',
@@ -111,7 +109,7 @@
 'bac_SERVER_REBOOT' => 'Sunucuyu yeniden başlat',
 'bac_SERVER_WILL_REBOOT' => 'Sunucu yeniden başlatılıyor',
 'bac_NO_UID_FOR_NAME' => 'Bu kullanıcınn UID numarası bulunamadı:',
-'bac_PAGE_REFRESH_IN' => ' Bu sayfa {$sec} saniyede bir kendini yenileyerek ilerleme durumunu gösterir, veya buraya tıklayın. ',
+'bac_PAGE_REFRESH_IN' => ' Bu sayfa [_1] saniyede bir kendini yenileyerek ilerleme durumunu gösterir, veya buraya tıklayın. ',
 'bac_Backup or restore' => 'Yedek oluştur veya geri yükle',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Sunucunuzda, masaüstünüze yedeklenecek gerğinden fazla veri bulunmaktadır.  ',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' İş istasonu yedeklemesi devre dışı ',
@@ -156,7 +154,7 @@
 'bac_ERR_INVALID_FOLDER' => 'Geçersiz paylaşım adı',
 'bac_ERR_INVALID_LOGIN' => 'Geçersiz giriş',
 'bac_ERR_INVALID_PASSWORD' => 'Geçersiz şifre',
-'bac_ERR_ALREADY_MOUNTED' => 'Backup directory is already mounted',
+'bac_ERR_ALREADY_MOUNTED' => 'Yedekleme dizini zaten bağlı',
 'bac_ERR_MOUNTING_SMBSHARE' => 'İş istasyonu paylaşım klasörüne bağlanılamadı',
 'bac_ERR_NOT_MOUNTED' => 'Yedek dosyası bulunamadı',
 'bac_WORKSTN_NOT_SET' => 'Öncelikle iş istasyonu yedeklemesini doğru yapılandırmalısınız',
@@ -225,4 +223,9 @@
 'bac_nfs' => 'nfs',
 'bac_local removable disk' => 'Yedekleme yerel USB diske yapıldı',
 'bac_Mounted disk' => 'Bağlı',
-'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => '(en)The parameters have been saved, however the remote host is not reachable, please check your settings.',
+'bac_No suitable local devices found' => 'Uygun yerel cihaz bulunamadı',
+'bac_TAPE_BACKUPS' => 'Bant yedeklemeleri şunlardır',
+'Backup or restore' => 'Yedekle veya geri yükle',
+'bac_WORKSTN_BACKUPS' => 'İş istasyonu yedeklemeleri şunlardır',
+'bac_ERR_EXTRACT' => 'Dar ile çıkarma sırasında hata',

@@ -1,31 +1,31 @@
 'dom_FORM_TITLE' => '管理眾網域',
-'dom_FORM_DESCRIPTION' => ' <p>當您建立網域後，您的伺服器將能為該網域接收電郵，並且能為該網域建立網站。</p>
+'dom_FORM_DESCRIPTION' => ' 當您建立網域後，您的伺服器將能為該網域接收電郵，並且能為該網域建立網站。
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">增加網域</a> ',
 'dom_NO_VIRTUAL_DOMAINS' => '系統中並無網域。',
 'dom_CURRENT_LIST_OF_DOMAINS' => '當前的網域列表',
 'dom_PRIMARY_SITE' => '主站台',
-'dom_CONTENT' => '{$content} i-bay',
+'dom_CONTENT' => '[_1] i-bay',
 'dom_CREATE_TITLE' => '建立新網域',
 'dom_CONTENT_FIELD_DESCRIPTION' => '對於網站而言，您能選擇您的主要站台或任何 i-bay 以作為內容。',
-'dom_DOMAIN_NAME_VALIDATION_ERROR' => '錯誤: 在網域名稱 {$domainName} 中含未知或缺少字元。網域名稱應該包含單一或更多的字元、數字、句號與減號。無法建立新網域。',
-'dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR' => '錯誤: 在網域描述 {$domainDesc} 中含未知或缺少字元。無法建立新網域。',
-'dom_DOMAIN_IN_USE_ERROR' => '錯誤: 網域名稱 {$domainName} 正在使用中。無法建立新網域。',
-'dom_SYSTEM_DOMAIN_ERROR' => '錯誤: 網域名稱 {$domainName} 是您系統的網域名稱。您無法建立相同網域名稱。無法建立新網域。',
-'dom_SUCCESSFULLY_CREATED' => '成功建立了網域 {$domainName} 。您的網頁伺服器正重啟中。網頁伺服器重啟完畢前，此頁面上的連結都將會失效。',
+'dom_DOMAIN_NAME_VALIDATION_ERROR' => '錯誤: 在網域名稱 [_1] 中含未知或缺少字元。網域名稱應該包含單一或更多的字元、數字、句號與減號。無法建立新網域。',
+'dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR' => '錯誤: 在網域描述 [_1] 中含未知或缺少字元。無法建立新網域。',
+'dom_DOMAIN_IN_USE_ERROR' => '錯誤: 網域名稱 [_1] 正在使用中。無法建立新網域。',
+'dom_SYSTEM_DOMAIN_ERROR' => '錯誤: 網域名稱 [_1] 是您系統的網域名稱。您無法建立相同網域名稱。無法建立新網域。',
+'dom_SUCCESSFULLY_CREATED' => '成功建立了網域 [_1] 。您的網頁伺服器正重啟中。網頁伺服器重啟完畢前，此頁面上的連結都將會失效。',
 'dom_MODIFY_TITLE' => '修正網域',
-'dom_NONEXISTENT_DOMAIN_ERROR' => '錯誤: {$domainName}並非既有網域。',
-'dom_SUCCESSFULLY_MODIFIED' => '成功修正網域{$domainName}。您的網頁伺服器正將重啟。網站伺服器重啟完成後，本頁的連結將啟用。',
+'dom_NONEXISTENT_DOMAIN_ERROR' => '錯誤: [_1]並非既有網域。',
+'dom_SUCCESSFULLY_MODIFIED' => '成功修正網域[_1]。您的網頁伺服器正將重啟。網站伺服器重啟完成後，本頁的連結將啟用。',
 'dom_REMOVE_TITLE' => '移除網域',
-'dom_REMOVE_DESCRIPTION' => ' <p>您即將移除網域{$domain} ({$domainDesc})。</p>
+'dom_REMOVE_DESCRIPTION' => ' 您即將移除網域[_1] ([_2])。
 
   <p> <b>您確定要移除該網域？</b> </p>
 
   ',
-'dom_ERROR_WHILE_REMOVING_DOMAIN' => '錯誤: 移除網域{$domain}時出現內部錯誤。',
-'dom_SUCCESSFULLY_DELETED' => '成功刪除網域 {$domain} 。您的網頁伺服器將被重啟。網頁伺服器重啟完成後，本頁的連結將啟用。',
+'dom_ERROR_WHILE_REMOVING_DOMAIN' => '錯誤: 移除網域[_1]時出現內部錯誤。',
+'dom_SUCCESSFULLY_DELETED' => '成功刪除網域 [_1] 。您的網頁伺服器將被重啟。網頁伺服器重啟完成後，本頁的連結將啟用。',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' 組織DNS設定 ',
-'dom_BUTTON_CORPORATE_DNS' => ' <p>倘若此伺服器並不存取網際網路，亦或您的DNS解析有特別需求，請於此處輸入DNS伺服器的IP網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入ISP的DNS伺服器網址。</p>
+'dom_BUTTON_CORPORATE_DNS' => ' 倘若此伺服器並不存取網際網路，亦或您的DNS解析有特別需求，請於此處輸入DNS伺服器的IP網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入ISP的DNS伺服器網址。
 
   <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">修正組織DNS設定</a> ',
 'dom_DESC_CORPORATE_DNS' => '倘若此伺服器並不存取網際網路，亦或您的 DNS 解析有特別需求，請於此處輸入 DNS 伺服器的 IP 網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入 ISP 的 DNS 伺服器網址。',
@@ -37,6 +37,10 @@
 'dom_internet' => '網際網路 DNS 服务器',
 'dom_corporate' => '組織DNS服务器',
 'dom_REMOVE_DESC' => '您正要移除此網域',
-'dom_REMOVE_DESC2' => ' <p><b>您確定希望移除此網域？</b></p>
+'dom_REMOVE_DESC2' => ' <b>您確定希望移除此網域？</b>
 
   ',
+'dom_ADD_DOMAIN' => '新增網域',
+'dom_CURRENT_DOMAINS' => '目前的網域清單',
+'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',
+'dom_DOMAINS_PAGE_CORPORATE_DNS' => '修改公司 DNS 設定',

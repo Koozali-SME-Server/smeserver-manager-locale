@@ -7,3 +7,4 @@
 'clm_NEVER' => 'לעולם לא',
 'clm_DAILY' => 'יומי',
 'clm_SUCCESS' => 'הגדרות ClamAV החדשות נשמרו.',
+'clm_Antivirus (ClamAV)' => 'אנטי-וירוס (ClamAV)',

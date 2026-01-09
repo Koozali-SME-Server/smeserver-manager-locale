@@ -10,11 +10,11 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Exécution de contenu dynamique (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Forcer l\'utilisation de connexions sécurisées',
 'iba_REMOVE_TITLE' => 'Supprimer l\'i-bay',
-'iba_REMOVE_DESC' => ' <p>Vous êtes sur le point de supprimer l\'i-bay "[_1]" ([_2]).</p>
+'iba_REMOVE_DESC' => ' Vous êtes sur le point de supprimer l\'i-bay "[_1]" ([_2]).
 
-  <p>Tous les fichiers contenus dans cette i-bay seront supprimés.</p>
+  Tous les fichiers contenus dans cette i-bay seront supprimés.
 
-  <p><b>Voulez-vous vraiment supprimer cette i-bay ?</b></p>
+  <b>Voulez-vous vraiment supprimer cette i-bay ?</b>
 
   ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Une erreur s\'est produite lors de la création de cette i-bay.',
@@ -32,10 +32,10 @@
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Les mots de passe ne concordent pas.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Mot de passe réinitialisé avec succès.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Une erreur s\'est produite lors de la réinitialisation du mot de passe.',
-'iba_VHOST_MESSAGE' => ' <p>Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :</p>
+'iba_VHOST_MESSAGE' => ' Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :
 
   <ul>[_1]</ul> ',
-'Information bays' => 'I-bays',
+'iba_Information bays' => 'I-bays',
 'iba_WGRG' => 'Écriture=Groupe, Lecture=Groupe',
 'iba_WGRE' => 'Écriture=Groupe, Lecture=Tous',
 'iba_WARG' => 'Écriture=Admin, Lecture=Groupe',

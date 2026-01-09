@@ -8,3 +8,6 @@
 'prx_ERR_NO_SQUID_REC' => 'EROARE: NU există înregistrare squid în baza de configurări.',
 'prx_SUCCESS' => 'Setările noi de Proxy au fost aplicate cu succes.',
 'prx_BLOCKED' => 'Blocat',
+'prx_TITLE' => 'Setări proxy',
+'Proxy settings' => 'Setări proxy',
+'prx_Proxy' => 'Proxy',

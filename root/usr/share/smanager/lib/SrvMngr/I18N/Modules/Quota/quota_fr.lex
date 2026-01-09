@@ -1,6 +1,6 @@
 'quo_FORM_TITLE' => 'Gestion des quotas pour les comptes utilisateur',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Impossible d\'ouvrir la base de données des comptes.',
-'quo_QUOTA_DESC' => ' <p>Vous pouvez définir des quotas d\'espace disque sur le système de fichiers pour les utilisateurs de votre système en cliquant sur le bouton "Modifier", à côté de l\'utilisateur à mettre à jour.</p>
+'quo_QUOTA_DESC' => ' Vous pouvez définir des quotas d\'espace disque sur le système de fichiers pour les utilisateurs de votre système en cliquant sur le bouton "Modifier", à côté de l\'utilisateur à mettre à jour.
 
   <p>Si l\'utilisateur dépasse la "limite avec période de grâce", des avertissements lui seront envoyés. Si cette limite est dépassée pendant plus d\'une semaine ou si la "limite absolue" est atteinte, l\'utilisateur ne pourra plus stocker d\'autres fichiers ni recevoir d\'autres courriels.</p>
 

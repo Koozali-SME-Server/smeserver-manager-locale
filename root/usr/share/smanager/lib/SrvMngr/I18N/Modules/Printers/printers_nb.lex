@@ -34,3 +34,5 @@
 'prt_DELETED_SUCCESSFULLY' => 'Skriveren er fjernet:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Må være et gyldig maskinnavn eller IP adresse',
 'prt_Printers' => 'Skrivere',
+'prt_INITIAL_BTN' => 'Legg til skriver',
+'Printers' => 'Skrivere',

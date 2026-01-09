@@ -119,7 +119,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Feil: uventet eller manglende tegn i beskrivelsen',
 'FM_IP_NUMBER1' => 'Feltet må inneholde en gyldig IP adresse og kan ikke være tom.',
 'FM_IP_NUMBER2' => 'Ugyldig IP-adresse til DHCP-start',
-'FM_IP_NUMBER3' => '{$octet} er mer en 255',
+'FM_IP_NUMBER3' => '[_1] er mer en 255',
 'FM_MAC_ADDRESS1' => 'Du må oppgi MAC adresse.',
 'FM_MAC_ADDRESS2' => 'MAC adressen er ikke gyldig.',
 'FM_NONBLANK' => 'Feltet kan ikke være tomt',

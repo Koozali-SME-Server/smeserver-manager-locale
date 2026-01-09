@@ -118,7 +118,7 @@
 'FM_ERR_UNEXPECTED_DESC' => '(en)Error: unexpected or missing characters in description',
 'FM_IP_NUMBER1' => '(en)This field must contain a valid IP number and can not be left blank.',
 'FM_IP_NUMBER2' => '(en)Invalid IP address format (expected X.X.X.X)',
-'FM_IP_NUMBER3' => '{$octet} is more than 255',
+'FM_IP_NUMBER3' => '[_1] is more than 255',
 'FM_MAC_ADDRESS1' => '(en)You must provide a MAC address.',
 'FM_MAC_ADDRESS2' => '(en)The MAC address you provided was not valid.',
 'FM_NONBLANK' => '(en)This field must not be left blank',

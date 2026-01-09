@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'สร้าง แก้ไข หรือลบบัญชีผู้ใช้',
-'usr_FIRSTPAGE_DESC' => ' <p><a class="button-like" href="useraccounts?page=0&page_stack=&next=next">เพิ่มบัญชีผู้ใช้</a></p>
+'usr_FIRSTPAGE_DESC' => ' <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">เพิ่มบัญชีผู้ใช้</a>
 
   <p>คุณสามารถแก้ไข ล็อค ลบ หรือรีเซ็ตรหัสผ่านโดยการคลิ๊กคำสั่งที่อยู่ถัดจากชื่อบัญชี</p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'สร้างหรือแก้ไข',
-'usr_CREATE_MODIFY_DESC' => ' <p>ชื่อบัญชีต้องเป็นตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) และจะต้องเริ่มต้นด้วยตัวอักษรเท่านั้น ตัวอย่างชื่อบัญชีที่ถูกต้อง เช่น "betty", "hjohnson", และ "mary-jane" และตัวอย่างชื่อบัญชีที่ไม่ถูกต้อง เช่น "3friends", "John Smith", และ "henry:miller" เป็นต้น</p>
+'usr_CREATE_MODIFY_DESC' => ' ชื่อบัญชีต้องเป็นตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) และจะต้องเริ่มต้นด้วยตัวอักษรเท่านั้น ตัวอย่างชื่อบัญชีที่ถูกต้อง เช่น "betty", "hjohnson", และ "mary-jane" และตัวอย่างชื่อบัญชีที่ไม่ถูกต้อง เช่น "3friends", "John Smith", และ "henry:miller" เป็นต้น
 
   <p>หมายเหตุ: จะมีการสร้างนามแฝงให้บัญชีที่สร้างใหม่นี้ 2 ชื่อ นามแฝงเหล่านี้จะเป็นตัวเลือกสำหรับการระบุชื่อในการรับ/ส่งอีเมล์อีกทาง โดยจะสร้างจากการนำชื่อต้นมาต่อกับชื่อหลังโดยใช้เครื่องหมายจุด (.) คั่นกลาง ส่วนอีกนามแฝงจะคั่นด้วยยติภังค์ (_) เช่น บัญชีีชื่อ "betty" ที่มีชื่อต้นเป็น "Betty" และชื่อหลังเป็น "Rubble" นามแฝงทั้งสองจะเป็น betty.rubble และ betty_rubble</p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'แก้ไขบัญชีของผู้ดูแลระบบ (admin)',
 'usr_USER_CREATED' => 'สร้างบัญชีผู้ใช้เสร็จแล้ว',
 'usr_USER_MODIFIED' => 'แก้ไขบัญชีผู้ใช้เสร็จแล้ว',
-'usr_CANNOT_MODIFY_USER' => 'ผิดพลาด: เกิดผิดพลาดภายในขณะพยายามที่จะแก้ไขผู้ใช้ "{$acctName}"',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'ผิดพลาด: เกิดความผิดพลาดภายในขึ้นขณะที่พยายามจะแก้ไขกลุ่ม "{$group}" ของผู้ใช้ "{$acctName}"',
-'usr_TAINTED_USER' => 'ชื่อบัญชี "{$acctName}" มีอักขระต้องห้าม',
+'usr_CANNOT_MODIFY_USER' => 'ผิดพลาด: เกิดผิดพลาดภายในขณะพยายามที่จะแก้ไขผู้ใช้ "[_1]"',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'ผิดพลาด: เกิดความผิดพลาดภายในขึ้นขณะที่พยายามจะแก้ไขกลุ่ม "[_1]" ของผู้ใช้ "[_2]"',
+'usr_TAINTED_USER' => 'ชื่อบัญชี "[_1]" มีอักขระต้องห้าม',
 'usr_ACCOUNT_NAME' => 'ชื่อบัญชี',
 'usr_FIRSTNAME' => 'ชื่อ',
 'usr_LASTNAME' => 'นามสกุล',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'คุณกำลังจะเปลี่ยนรหัสผ่านสำหรับบัญชีผู้ใช้',
 'usr_RESET_DESC2' => 'ป้อนรหัสผ่านใหม่ในช่องด้านล่าง',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'เกิดข้อผิดพลาดขณะบันทึกการแก้ไขรหัสผ่าน',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'เสร็จสิ้นการเปลี่ยนรหัสผ่านของ "{$acctName}"',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'เสร็จสิ้นการเปลี่ยนรหัสผ่านของ "[_1]"',
 'usr_LOCK_DESC' => 'คุณกำลังจะล็อคบัญชีผู้ใช้',
-'usr_LOCKED_ACCOUNT' => 'เสร็จสิ้นการล็อคบัญชีผู้ใช้ของ "{$acctName}"',
-'usr_NO_SUCH_USER' => 'ผิดพลาด: ไม่มีบัญชีผู้ใช้ "{$acctName}" ',
-'usr_PSEUDONYM_CLASH' => 'ผิดพลาด: นามแฝง "{$pseudonym}" ถูกใช้ไปแล้วโดยผู้ใช้ "{$clashName}" การทำให้แตกต่างทำได้โดยเพิ่มชื่อย่อในฟิลด์นี้',
+'usr_LOCKED_ACCOUNT' => 'เสร็จสิ้นการล็อคบัญชีผู้ใช้ของ "[_1]"',
+'usr_NO_SUCH_USER' => 'ผิดพลาด: ไม่มีบัญชีผู้ใช้ "[_1]" ',
+'usr_PSEUDONYM_CLASH' => 'ผิดพลาด: นามแฝง "[_1]" ถูกใช้ไปแล้วโดยผู้ใช้ "[_2]" การทำให้แตกต่างทำได้โดยเพิ่มชื่อย่อในฟิลด์นี้',
 'usr_LOCK_ACCOUNT' => 'ล็อคบัญชี',
 'usr_LOCK_ACCOUNT_TITLE' => 'ล็อคบัญชีผู้ใช้',
 'usr_LOCK_DESC2' => ' บัญชีผู้ใช้นี้จะถูกล็อค ซึ่งหมายความว่าผู้ใช้รายนี้จะไม่สามารถเข้าสู่ระบบและจะไม่สามารถรับอีเมล์ได้ อีเมล์ใดๆ ที่เข้ามาจะถูกจัดเก็บไว้ และ/หรือ ส่งต่อไปยังที่อยู่ภายนอกหากได้ตั้งไว้ บัญชีอาจจะถูกเปิดใช้งานในอนาคตโดยการตั้งรหัสผ่านใหม่ ส่วนรหัสผ่านปัจจุบันจะไม่ถูกเก็บไว้แล้ว  คุณมั่นแล้วหรือที่จะทำการล็อคบัญชีผู้ใช้นี้? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'ล็อค',
 'usr_NO_USER_ACCOUNTS' => 'ไม่มีบัญชีผู้ใช้ในระบบนี้',
 'usr_Users' => 'ผู้ใช้',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'ชื่อบัญชี "{$acctName}" มีตัวอักษรที่ไม่ถูกต้อง ชื่อบัญชีต้องเริ่มต้นด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ), ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) เท่านั้น',
-'usr_ACCOUNT_TOO_LONG' => 'ผิดพลาด: ชื่อบัญชียาวเกินไป ความยาวสูงสุดที่มีได้คือ {$maxLength} ตัวอักษร',
-'usr_ACCOUNT_CONFLICT' => 'ผิดพลาด: ไม่สามารถสร้างบัญชี "{$account}" ได้ เนื่องจากชื่อนี้ได้ถูกใช้ไปแล้ว โดยเป็นเป็นชื่อของ {$type}',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'ชื่อบัญชี "[_1]" มีตัวอักษรที่ไม่ถูกต้อง ชื่อบัญชีต้องเริ่มต้นด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ), ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) เท่านั้น',
+'usr_ACCOUNT_TOO_LONG' => 'ผิดพลาด: ชื่อบัญชียาวเกินไป ความยาวสูงสุดที่มีได้คือ [_1] ตัวอักษร',
+'usr_ACCOUNT_CONFLICT' => 'ผิดพลาด: ไม่สามารถสร้างบัญชี "[_1]" ได้ เนื่องจากชื่อนี้ได้ถูกใช้ไปแล้ว โดยเป็นเป็นชื่อของ [_2]',
 'usr_ERR_OCCURRED_CREATING' => 'เกิดข้อผิดพลาดในการสร้างผู้ใช้',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'ฟิลด์นี้จะมีช่องว่างด้วยไม่ได้',
 'usr_UNACCEPTABLE_CHARS' => 'ฟิลด์นี้ต้องเป็นตัวอักษร (ภาษาอังกฤษ) ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) และเริ่มต้องต้นด้วยตัวอักษรเท่านั้น',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'รหัสผ่านใหม่ของระบบ (ยืนยัน)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'ดาวน์โหลด digital certificate ไป IPSec client',
 'usr_ERR_OCCURRED_DELETING' => 'เกิดข้อผิดพลาดขณะพยายามลบผู้ใช้',
+'usr_ADD_USER' => 'เพิ่มบัญชีผู้ใช้',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'ผู้ใช้',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

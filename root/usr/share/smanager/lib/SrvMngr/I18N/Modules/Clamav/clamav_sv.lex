@@ -7,3 +7,4 @@
 'clm_NEVER' => 'Aldrig',
 'clm_DAILY' => 'En gång varje dag',
 'clm_SUCCESS' => 'De nya inställningarna för clamav antivirus har sparats.',
+'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',

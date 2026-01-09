@@ -118,7 +118,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Fel: oväntade eller saknade tecken i beskrivningen',
 'FM_IP_NUMBER1' => 'Detta fält måste innehålla ett giltigt IP-nummer och kan inte lämnas tomt.',
 'FM_IP_NUMBER2' => 'Ogiltig IP-adress format (förväntat X.X.X.X)',
-'FM_IP_NUMBER3' => '{$octet} är mer än 255',
+'FM_IP_NUMBER3' => '[_1] är mer än 255',
 'FM_MAC_ADDRESS1' => 'Du måste ange en MAC-adress.',
 'FM_MAC_ADDRESS2' => 'MAC-adressen som du angav var inte giltig.',
 'FM_NONBLANK' => 'Detta fält får inte vara tomt',

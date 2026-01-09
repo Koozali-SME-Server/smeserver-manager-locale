@@ -1,5 +1,5 @@
 initial_FORM_TITLE => 'Bienvenue dans le gestionnaire du serveur',
-initial_FRAMES_BODY => '<p>Bienvenue dans SME Server, la distribution Linux dédiée aux petites  et moyennes entreprises. SME Server est mis à votre disposition par <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, organisation à but non lucratif dont l\'objectif est d\'assurer la promotion, le support et l\'existence légale de SME Server.</p>
+initial_FRAMES_BODY => 'Bienvenue dans SME Server, la distribution Linux dédiée aux petites  et moyennes entreprises. SME Server est mis à votre disposition par <a href="https://www.koozali.org/" target="_blank">Koozali Foundation, Inc.</a>, organisation à but non lucratif dont l\'objectif est d\'assurer la promotion, le support et l\'existence légale de SME Server.
 
   <p>SME Server est gratuitement exploitable, selon les termes de la Licence "GNU General Public License", et n\'existe que grâce aux efforts de la communauté formée autour de SME Server. Toutefois, la disponibilité et la qualité de SME Server dépendent de notre capacité à régler nos dépenses telles que les coûts liés à l\'hébergement, au serveur matériel, etc.</p>
 

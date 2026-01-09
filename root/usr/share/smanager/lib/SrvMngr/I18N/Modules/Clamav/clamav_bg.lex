@@ -7,3 +7,4 @@
 'clm_NEVER' => 'никога',
 'clm_DAILY' => 'ежедневно',
 'clm_SUCCESS' => 'Новите антивирусни настройки на clamav бяха съхранени.',
+'clm_Antivirus (ClamAV)' => 'Антивирус (ClamAV)',

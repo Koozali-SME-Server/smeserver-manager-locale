@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Odstrani vzdevek',
 'pse_ABOUT_TO_REMOVE' => ' Si tik pred tem, da odstranis vzdevek: Ali si preprican, da to zelis? ',
 'pse_FORM_TITLE' => 'Kreiraj, uredi ali odstrani vzdevek',
-'pse_DESCRIPTION' => ' <p>Streznik avtomatsko kreira e-postno ime za vsako skupino. Ce zelis dolociti e-postno ime za seznam uporabnikov enostavno kreiraj skupino in seznam bo avtomaticno vzdrzeva s strani streznika.</p>
+'pse_DESCRIPTION' => ' Streznik avtomatsko kreira e-postno ime za vsako skupino. Ce zelis dolociti e-postno ime za seznam uporabnikov enostavno kreiraj skupino in seznam bo avtomaticno vzdrzeva s strani streznika.
 
   <p>Vzdevek ti omogoca dodati imena za obstojece uporabnike ali skupine. Primer: Zelis kreirati vzdevek "primer" za skupino "primerskupina" ali vzdevek "test" za uporabnika "testiranec".</p>
 

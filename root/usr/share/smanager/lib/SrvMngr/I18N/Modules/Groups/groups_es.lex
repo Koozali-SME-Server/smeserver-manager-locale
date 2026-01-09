@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => 'Crear, modificar o eliminar grupos de usuarios',
-'grp_GROUP_TOO_LONG' => 'Error: el nombre del grupo es demasiado largo. El máximo es de {$maxLength} caracteres.',
-'grp_ACCOUNT_CONFLICT' => 'Error: el grupo "{$group}" no se puede crear porque ya hay una cuenta {$type} con ese nombre.',
+'grp_GROUP_TOO_LONG' => 'Error: el nombre del grupo es demasiado largo. El máximo es de [_1] caracteres.',
+'grp_ACCOUNT_CONFLICT' => 'Error: el grupo "[_1]" no se puede crear porque ya hay una cuenta [_2] con ese nombre.',
 'grp_INVALID_GROUP_DESCRIPTION' => 'Error: caracteres erróneos o faltantes en la descripción del grupo',
 'grp_NO_MEMBERS' => 'Error: no hay miembros en el grupo. No se creó el nuevo grupo.',
 'grp_CREATED_GROUP' => 'Se creó con éxito el grupo de usuario',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => 'Breve Descripción/Alias de Grupo de Windows',
 'grp_GROUP_DESC_EXPL' => 'Ingrese una breve descripción en el campo inferior. Este campo también designa el nombre de grupo visible por los clientes Windows.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Las siguientes bahías de información se asignaron a este grupo y se cambiarán al grupo del Administrador (puede cambiarlas posteriormente a otra cosa):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>¿Está seguro de que desea eliminar este grupo?</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' ¿Está seguro de que desea eliminar este grupo?
 
   ',
-'grp_CURRENT_LIST' => '<p>Lista actual de Grupos de Usuario</p>
+'grp_CURRENT_LIST' => 'Lista actual de Grupos de Usuario
 
   ',
-'grp_DELETE_DESCRIPTION' => ' Está a punto de eliminar el grupo de usuario "{$group}". ',
+'grp_DELETE_DESCRIPTION' => ' Está a punto de eliminar el grupo de usuario "[_1]". ',

@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Oprette, ændre eller fjerne brugerkonti',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Tilføj brugerkonto</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Tilføj brugerkonto</a> 
 
   <p> Du kan ændre, låse, fjerne brugerkonti eller skifte adgangskoden ved at klikke på den aktuelle kommando ud for brugernavnet. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Oprette eller ændre',
-'usr_CREATE_MODIFY_DESC' => ' <p> Brugernavnet må kun indeholde små bogstaver, tal, bindestreg, punktum, understregningskode og skal starte med lille bogstev. F.eks. er "betty", "hjohnson" og "mary-jane" alle gyldige brugernavne, mens "3venner", "John Smith" og "henry:miller" er ugyldige. </p>
+'usr_CREATE_MODIFY_DESC' => '  Brugernavnet må kun indeholde små bogstaver, tal, bindestreg, punktum, understregningskode og skal starte med lille bogstev. F.eks. er "betty", "hjohnson" og "mary-jane" alle gyldige brugernavne, mens "3venner", "John Smith" og "henry:miller" er ugyldige. 
 
   <p> Bemærk, at der vil blive dannet 2 specielle pseudonymer for hvert nyt brugernavn. Disse pseudonymer giver brugeren mulighed for alternative e-postadresser, som indeholder brugerens fornavn og efternavn, adskilt med et punktum (.) og et understregningstegn (_). For brugernavnet "betty" med fornavn "Betty" og efternavn "Rubble" dannes 2 pseudonymer, betty.rubble og betty_rubble. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Ændre administratorkonto',
 'usr_USER_CREATED' => 'Brugerkontoen er oprettet.',
 'usr_USER_MODIFIED' => 'Brugerkontoen er ændret.',
-'usr_CANNOT_MODIFY_USER' => 'FEJL: Der skete en intern fejl i forbindelse med forsøget på at ændre brugeren "{$acctName}".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'FEJL: Der er sket en intern fejl i forbindelse med forsøget på at ændre gruppen "{$group}" for brugeren "{$acctName}".',
-'usr_TAINTED_USER' => 'Brugernavnet "{$acctName}" indeholder ugyldige tegn.',
+'usr_CANNOT_MODIFY_USER' => 'FEJL: Der skete en intern fejl i forbindelse med forsøget på at ændre brugeren "[_1]".',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'FEJL: Der er sket en intern fejl i forbindelse med forsøget på at ændre gruppen "[_1]" for brugeren "[_2]".',
+'usr_TAINTED_USER' => 'Brugernavnet "[_1]" indeholder ugyldige tegn.',
 'usr_ACCOUNT_NAME' => 'Brugernavn',
 'usr_FIRSTNAME' => 'Fornavn',
 'usr_LASTNAME' => 'Efternavn',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'Du er ved at skifte adgangskoden for brugerkontoen',
 'usr_RESET_DESC2' => 'Indtast ny adgangskode i felterne nedenfor',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Der er sket en fejl under opdatering af adgangskoden',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Adgangskoden er skiftet for bruger "{$acctName}".',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Adgangskoden er skiftet for bruger "[_1]".',
 'usr_LOCK_DESC' => 'Du er ved at låse brugerkontoen',
-'usr_LOCKED_ACCOUNT' => 'Kontoen er låst for bruger "{$acctName}".',
-'usr_NO_SUCH_USER' => 'Fejl: Brugerkonto "{$acctName}" findes ikke.',
-'usr_PSEUDONYM_CLASH' => 'Fejl: Pseudonymet "{$pseudonym}" bruges allerede af brugerkonto "{$clashName}". For at lave en forskel kan du evt. tilføje initialer i dette felt.',
+'usr_LOCKED_ACCOUNT' => 'Kontoen er låst for bruger "[_1]".',
+'usr_NO_SUCH_USER' => 'Fejl: Brugerkonto "[_1]" findes ikke.',
+'usr_PSEUDONYM_CLASH' => 'Fejl: Pseudonymet "[_1]" bruges allerede af brugerkonto "[_2]". For at lave en forskel kan du evt. tilføje initialer i dette felt.',
 'usr_LOCK_ACCOUNT' => 'Lås konto',
 'usr_LOCK_ACCOUNT_TITLE' => 'Lås brugerkonto',
 'usr_LOCK_DESC2' => ' Denne brugerkonto vil blive låst, så brugeren ikke kan logge ind og ikke vil være i stand til at hente e-post. Post til brugeren vil blive gemt og/eller videresendt til en ekstern e-postadresse ifølge opsætningen. Kontoen aktiveres igen ved at skifte adgangskoden. Den aktuelle adgangskode vil ikke blive bevaret.   Er du sikker på, at du vil låse denne konto? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Lås',
 'usr_NO_USER_ACCOUNTS' => 'Der er ingen brugerkonti på dette system.',
 'usr_Users' => 'Brugere',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Brugerkontoen "{$acctName}" indeholder ugyldige tegn. Brugerkontoen skal starte med små bogstaver, og må kun indeholde små bogstaver, tal, punktum, bindestreg og understregningskode.',
-'usr_ACCOUNT_TOO_LONG' => 'Fejl: Kontonavnet er for langt. Maksimum er {$maxLength} tegn.',
-'usr_ACCOUNT_CONFLICT' => 'Fejl: Kontoen "{$account}" kan ikke oprettes. Der findes allerede en {$type} konto med det navn.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Brugerkontoen "[_1]" indeholder ugyldige tegn. Brugerkontoen skal starte med små bogstaver, og må kun indeholde små bogstaver, tal, punktum, bindestreg og understregningskode.',
+'usr_ACCOUNT_TOO_LONG' => 'Fejl: Kontonavnet er for langt. Maksimum er [_1] tegn.',
+'usr_ACCOUNT_CONFLICT' => 'Fejl: Kontoen "[_1]" kan ikke oprettes. Der findes allerede en [_2] konto med det navn.',
 'usr_ERR_OCCURRED_CREATING' => 'Der opstod en fejl under oprettelse af brugeren.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Dette felt må ikke indeholde mellemrum',
 'usr_UNACCEPTABLE_CHARS' => 'Dette felt skal starte med et bogstav, og må kun indeholde bogstaver, tal, punktum, bindestreg og understregningskode',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Ny systemadgangskode (bekræft)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Hent digitalt certifikat til IPSEC-klient',
 'usr_ERR_OCCURRED_DELETING' => 'Der opstod en fejl under forsøg på sletning af bruger.',
+'usr_ADD_USER' => 'Tilføj brugerkonto',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'Brugere',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

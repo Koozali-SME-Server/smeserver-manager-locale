@@ -1,29 +1,29 @@
 'dom_FORM_TITLE' => 'Gestione domini',
-'dom_FORM_DESCRIPTION' => ' <p>Creando un dominio, il server potrà ricevere e-mail per quel dominio e potrà anche ospitare il sito web di quel dominio.</p>
+'dom_FORM_DESCRIPTION' => ' Creando un dominio, il server potrà ricevere e-mail per quel dominio e potrà anche ospitare il sito web di quel dominio.
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Aggiungi dominio</a> ',
 'dom_NO_VIRTUAL_DOMAINS' => 'Non ci sono domini nel sistema.',
 'dom_CURRENT_LIST_OF_DOMAINS' => 'Lista domini',
 'dom_PRIMARY_SITE' => 'Sito principale',
-'dom_CONTENT' => 'I-bay per {$content}',
+'dom_CONTENT' => 'I-bay per [_1]',
 'dom_CREATE_TITLE' => 'Crea nuovo dominio',
 'dom_CONTENT_FIELD_DESCRIPTION' => 'Per il sito web, è possibile selezionare il sito principale o qualsiasi i-bay.',
-'dom_DOMAIN_NAME_VALIDATION_ERROR' => 'Errore: carattere inaspettato o mancante nel nome di dominio {$domainName}. Il nome può contenere uno o più lettere, numeri, punti e segni meno (trattino). Dominio non creato.',
-'dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR' => 'Errore: carattere inaspettato o mancante nella descrizione {$domainDesc}. Dominio non creato.',
-'dom_DOMAIN_IN_USE_ERROR' => 'Errore: dominio {$domainName} già in uso. Dominio non creato.',
-'dom_SYSTEM_DOMAIN_ERROR' => 'Errore: dominio {$domainName} è il dominio di sistema. Impossibile creare un dominio con lo stesso nome. Dominio non creato.',
-'dom_SUCCESSFULLY_CREATED' => 'Dominio {$domainName} creato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell\'operazione.',
+'dom_DOMAIN_NAME_VALIDATION_ERROR' => 'Errore: carattere inaspettato o mancante nel nome di dominio [_1]. Il nome può contenere uno o più lettere, numeri, punti e segni meno (trattino). Dominio non creato.',
+'dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR' => 'Errore: carattere inaspettato o mancante nella descrizione [_1]. Dominio non creato.',
+'dom_DOMAIN_IN_USE_ERROR' => 'Errore: dominio [_1] già in uso. Dominio non creato.',
+'dom_SYSTEM_DOMAIN_ERROR' => 'Errore: dominio [_1] è il dominio di sistema. Impossibile creare un dominio con lo stesso nome. Dominio non creato.',
+'dom_SUCCESSFULLY_CREATED' => 'Dominio [_1] creato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell\'operazione.',
 'dom_MODIFY_TITLE' => 'Modifica dominio',
-'dom_NONEXISTENT_DOMAIN_ERROR' => 'Errore: {$domainName} non è un dominio esistente.',
-'dom_SUCCESSFULLY_MODIFIED' => 'Dominio {$domainName} modificato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell\'operazione.',
+'dom_NONEXISTENT_DOMAIN_ERROR' => 'Errore: [_1] non è un dominio esistente.',
+'dom_SUCCESSFULLY_MODIFIED' => 'Dominio [_1] modificato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell\'operazione.',
 'dom_REMOVE_TITLE' => 'Rimuovi dominio',
-'dom_REMOVE_DESCRIPTION' => ' <p> Sta per essere rimosso il dominio {$domain} ({$domainDesc}). </p>
+'dom_REMOVE_DESCRIPTION' => '  Sta per essere rimosso il dominio [_1] ([_2]). 
 
   <p> <b>Siete sicuri di voler rimuovere questo dominio ?</b> </p>
 
   ',
-'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Errore: problema interno durante la rimozione del dominio {$domain}.',
-'dom_SUCCESSFULLY_DELETED' => 'Dominio {$domainName} eliminato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell\'operazione.',
+'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Errore: problema interno durante la rimozione del dominio [_1].',
+'dom_SUCCESSFULLY_DELETED' => 'Dominio [_1] eliminato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell\'operazione.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' Configurazione DNS ',
 'dom_BUTTON_CORPORATE_DNS' => ' Modifica la configurazione del DNS ',
 'dom_DESC_CORPORATE_DNS' => 'Se il server non ha accesso ad Internet o la risoluzione dei nomi è affidata ad altri server, inserire gli indirizzi IP dei server DNS nei campi sottostanti. Si consiglia di lasciarli vuoti e non inserire gli indirizzi dei DNS del provider perché il server è in grado di risolvere direttamente tutti i nomi di dominio Internet senza necessità di ulteriori configurazioni.',
@@ -36,3 +36,7 @@
 'dom_corporate' => 'Server DNS aziendale',
 'dom_REMOVE_DESC' => 'Sta per essere rimossa il dominio:',
 'dom_REMOVE_DESC2' => 'Siete sicuri di voler rimuovere questo dominio ?',
+'dom_ADD_DOMAIN' => 'Aggiungi dominio',
+'dom_CURRENT_DOMAINS' => 'Elenco attuale dei domini',
+'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',
+'dom_DOMAINS_PAGE_CORPORATE_DNS' => 'Modifica le impostazioni DNS aziendali',

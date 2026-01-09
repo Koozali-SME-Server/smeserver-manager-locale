@@ -1,4 +1,3 @@
-
 'clm_FORM_TITLE' => 'Configuration de l\'antivirus',
 'clm_LABEL_FILESYSTEM_SCAN_PERIOD' => 'Vérifier l\'intégralité du système de fichier',
 'clm_DESC_FILESYSTEM_SCAN_PERIOD' => ' Paramètres généraux Si cette option est activée alors le système de fichier sera intégralement soumis à une vérification antivirale. Un rapport de tous les virus détectés sera ensuite envoyé par courriel à l\'administrateur. ',
@@ -8,3 +7,4 @@
 'clm_NEVER' => 'Jamais',
 'clm_DAILY' => 'Chaque jour',
 'clm_SUCCESS' => 'Les nouveaux paramètres de l\'antivirus ClamAV ont été sauvegardés.',
+'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',

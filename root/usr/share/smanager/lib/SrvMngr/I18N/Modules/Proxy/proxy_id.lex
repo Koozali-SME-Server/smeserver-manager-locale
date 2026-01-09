@@ -7,4 +7,7 @@
 'prx_ERR_PROXY_UPDATE_FAILED' => 'ERROR: ada kesalahan pada event proxy-update .',
 'prx_ERR_NO_SQUID_REC' => 'ERROR: Tidak ada record squid dalam konfigurasi database.',
 'prx_SUCCESS' => 'Setting proxy telah berhasil diterapkan.',
-'prx_BLOCKED' => 'Blocked',
+'prx_BLOCKED' => 'Diblokir',
+'prx_TITLE' => 'Pengaturan proxy',
+'Proxy settings' => 'Pengaturan proxy',
+'prx_Proxy' => 'Proksi',

@@ -1,5 +1,5 @@
 'pf_FORM_TITLE' => 'Konfiguration der Port Weiterleitung',
-'pf_FIRST_PAGE_DESCRIPTION' => ' <p> Sie können diese Anzeige dazu verwenden, um Ihre Firewall Regeln zu verändern, so dass ein gewählter Port geöffnet und auf einen anderen Port auf einem anderen Host weitergeleitet wird. Dies erlaubt eingehendem Datenverkehr den direkten Zugriff auf den privaten Host in Ihrem LAN. </p>
+'pf_FIRST_PAGE_DESCRIPTION' => '  Sie können diese Anzeige dazu verwenden, um Ihre Firewall Regeln zu verändern, so dass ein gewählter Port geöffnet und auf einen anderen Port auf einem anderen Host weitergeleitet wird. Dies erlaubt eingehendem Datenverkehr den direkten Zugriff auf den privaten Host in Ihrem LAN. 
 
   <p> WARNUNG: Eine falsche Anwendung dieser Funktion stellt ein grosses Sicherheitsrisiko dar und setzt Ihr Netzwerk erheblichen Gefahren aus. Benutzen Sie diese Funktion nicht leichtfertig, ohne das Sie diese Funktion richtig verstehen. </p>
 
@@ -9,7 +9,7 @@
 'pf_SUMMARY_REMOVE_DESC' => 'Im Folgenden wird die Port-Weiterleitungsregel zusammengefaßt, die gelöscht werden soll. Wenn Sie sicher sind, dass Sie diese Regel entfernen wollen, drücken Sie den Button &quot;Remove&quot; . Wenn Sie nicht zufrieden sind, drücken Sie de Button &quot;Cancel&quot; .',
 'pf_SHOW_FORWARDS' => 'Unten finden Sie eine Liste der aktuell auf Ihrem Server installierten Port-Weiterleitungsregeln. Drücken Sie auf &quot;Remove&quot;, um die entsprechende Regel zu entfernen.',
 'pf_NO_FORWARDS' => 'Zur Zeit sind keine Port-Weiterleitungsregeln auf dem System eingerichtet.',
-'pf_CREATE_PAGE_DESCRIPTION' => ' <p>Wählen Sie ein Protokoll, den Port den Sie weiterleiten wollen, den Zielhost und den entsprechenden Port auf dem Zielhost. Wenn Sie einen Portbereich auswählen wollen, geben Sie die untere und obere Grenze getrennt durch einen Bindestrich ein. Der Zielport kann frei bleiben, was die Firewall veranlasst, den Ursprungsport unverändert zu lassen.</p>
+'pf_CREATE_PAGE_DESCRIPTION' => ' Wählen Sie ein Protokoll, den Port den Sie weiterleiten wollen, den Zielhost und den entsprechenden Port auf dem Zielhost. Wenn Sie einen Portbereich auswählen wollen, geben Sie die untere und obere Grenze getrennt durch einen Bindestrich ein. Der Zielport kann frei bleiben, was die Firewall veranlasst, den Ursprungsport unverändert zu lassen.
 
   ',
 'pf_LABEL_SOURCE_PORT' => 'Ursprungport(s)',

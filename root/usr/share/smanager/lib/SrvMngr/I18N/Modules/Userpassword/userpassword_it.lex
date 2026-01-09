@@ -1,5 +1,32 @@
-'pwd_DESCRIPTION' => ' <p>Per cambiare la propria password, compilare i campi seguenti. E\' necessario fornire il nome utente, la vecchia password e la nuova password scelta. (La nuova password va inserita due volte.)</p>
+'pwd_DESCRIPTION' => ' Per cambiare la propria password, compilare i campi seguenti. E\' necessario fornire il nome utente, la vecchia password e la nuova password scelta. (La nuova password va inserita due volte.)
 
   <p>In caso di perdita della vecchia password, l\'amministratore di sistema può impostare una nuova password utilizzando il <em>server-manager</em>.</p>
 
   ',
+'pwd_TAINTED_USER' => '(en)The account name "[_1]" contains invalid characters.',
+'pwd_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'pwd_FIELDS_REQUIRED' => 'Tutti i campi sono obbligatori',
+'pwd_ERROR_PASSWORD_CHANGE' => '(en)An error occurred while attempting to change your password. Please make sure that the old password entered is correct. Old and new passwords should be different.',
+'pwd_PASSWORD_CHANGE' => 'Cambia password',
+'pwd_RESET_PASSWORD_TITLE' => 'Reimposta la password dell’utente',
+'pwd_ACCOUNT_PASSWORD_CHANGE' => 'Cambia la password dell\'account',
+'pwd_PASSWORD_VERIFY_NEW' => 'Nuova password (verifica):',
+'pwd_PASSWORD_NEW' => 'Nuova password:',
+'pwd_PASSWORD_OLD' => 'Vecchia password:',
+'pwd_PASSWORD_RESET' => 'Reimposta la password',
+'pwd_ACCOUNT_NAME_INVALID' => '(en)The account name entered is invalid.',
+'pwd_ACCOUNT_NAME_INVALID_CHARS' => '(en)The account name you entered contained invalid characters.',
+'pwd_PASSWORD_OLD_INVALID_CHARS' => '(en)The old password you entered contained invalid characters.',
+'pwd_PASSWORD_INVALID_CHARS' => '(en)The password you entered contained invalid characters.',
+'pwd_PASSWORD_VERIFY_ERROR' => '(en)The new passwords you entered did not match.',
+'pwd_ACCOUNT_USER_NONE' => '(en)There are no user accounts in the system.',
+'pwd_ACCOUNT_GROUP_NONE' => '(en)There are no user groups in the system.',
+'pwd_YOUR_ACCOUNT' => 'Il tuo account:',
+'pwd_YOUR_ACCOUNT_INVALID' => '(en)The account name entered is invalid.',
+'pwd_PASSWORD_CHANGE_SUCCESS' => '(en)Your password has been successfully changed.',
+'pwd_DESCRIPTION_RESET' => '(en)To reset your account password, please fill out the following form. You will need to provide your desired new password. (You must type it twice.)In cas of problem, your local system administrator can reset your password using the <EM>server manager</EM>.',
+'pwd_NONE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters.',
+'pwd_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'pwd_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'pwd_STRONG_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'pwd_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Δημιουργία, τροποποίηση ή διαγραφή λογαριασμών χρηστών',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Προσθήκη λογαριασμού χρήστη</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Προσθήκη λογαριασμού χρήστη</a> 
 
   <p> Μπορείτε να τροποποιήσετε, κλειδώσετε ή διαγράψετε οποιονδήποτε λογαριασμό, ή να ρυθμίσετε εκ νέου τον κωδικό πρόσβασής του κάνοντας κλικ στην αντίστοιχη εντολή δίπλα στον λογαριασμό. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Δημιουργία ή τροποποίηση',
-'usr_CREATE_MODIFY_DESC' => ' <p> Η ονομασία λογαριασμού πρέπει να περιλαμβάνει μόνο πεζά γράμματα, αριθμούς, τελείες, παύλες, κάτω παύλες και ν΄αρχίζει με ένα πεζό γράμμα. Για παράδειγμα οι ονομασίες λογαριασμών "betty", "hjohnson" και "mary-jane" είναι έγκυρες σε αντίθεση με τις "John Smith" και "henry:miller" που δεν είναι. </p>
+'usr_CREATE_MODIFY_DESC' => '  Η ονομασία λογαριασμού πρέπει να περιλαμβάνει μόνο πεζά γράμματα, αριθμούς, τελείες, παύλες, κάτω παύλες και ν΄αρχίζει με ένα πεζό γράμμα. Για παράδειγμα οι ονομασίες λογαριασμών "betty", "hjohnson" και "mary-jane" είναι έγκυρες σε αντίθεση με τις "John Smith" και "henry:miller" που δεν είναι. 
 
   <p> Σημειώσατε ότι σε κάθε νέο λογαριασμό θα δημιουργηθούν δύο εξατομικευμένα ψευδώνυμα. Τα ψευδώνυμα αυτά παρέχουν την δυνατότητα στο χρήστη να έχει δύο εναλλακτικούς λογαριασμούς ηλεκτρονικής αλληλογραφίας οι οποίοι περιλαμβάνουν το όνομα και το επίθετό του χωρισμένα με μία τελεία και μία παύλα υπογράμμισης. Έτσι για τον λογαριασμό "betty" με όνομα "Betty" και επίθετο "Rubble" δημιουργούνται δύο ψευδώνυμα όπως betty.rubble και betty_rubble. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Τροποποίηση του λογαριασμού admin',
 'usr_USER_CREATED' => 'Επιτυχής δημιουργία λογαριασμού χρήστη.',
 'usr_USER_MODIFIED' => 'Επιτυχής τροποποίηση λογαριασμού χρήστη.',
-'usr_CANNOT_MODIFY_USER' => 'Σφάλμα: Παρουσιάστηκε εσωτερικό σφάλμα κατά την απόπειρα τροποποίησης του χρήστη "{$acctName}".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Σφάλμα: Παρουσιάστηκε εσωτερικό σφάλμα κατά την απόπειρα τροποποίησης της ομάδας "{$group}" για το χρήστη "{$acctName}".',
-'usr_TAINTED_USER' => 'Η ονομασία λογαριασμού "{$acctName}" περιλαμβάνει μη-έγκυρους χαρακτήρες.',
+'usr_CANNOT_MODIFY_USER' => 'Σφάλμα: Παρουσιάστηκε εσωτερικό σφάλμα κατά την απόπειρα τροποποίησης του χρήστη "[_1]".',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Σφάλμα: Παρουσιάστηκε εσωτερικό σφάλμα κατά την απόπειρα τροποποίησης της ομάδας "[_1]" για το χρήστη "[_2]".',
+'usr_TAINTED_USER' => 'Η ονομασία λογαριασμού "[_1]" περιλαμβάνει μη-έγκυρους χαρακτήρες.',
 'usr_ACCOUNT_NAME' => 'Ονομασία λογαριασμού',
 'usr_FIRSTNAME' => 'Όνομα',
 'usr_LASTNAME' => 'Επίθετο',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'Πρόκειται ν\' αλλάξετε τον κωδικό πρόσβασης για το λογαριασμό χρήστη',
 'usr_RESET_DESC2' => 'Πληκτρολογήστε τον νέο κωδικό πρόσβασης στα πεδία που ακολουθούν',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Σφάλμα κατά την διαδικασία επικαιροποίησης του κωδικού πρόσβασης',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Επιτυχής αλλαγή κωδικού πρόσβασης για τον χρήστη "{$acctName}".',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Επιτυχής αλλαγή κωδικού πρόσβασης για τον χρήστη "[_1]".',
 'usr_LOCK_DESC' => 'Πρόκειται να κλειδώσετε το λογαριασμό χρήστη',
-'usr_LOCKED_ACCOUNT' => 'Επιτυχές κλείδωμα του λογαριασμού του χρήστη "{$acctName}".',
-'usr_NO_SUCH_USER' => 'Σφάλμα: Δεν υφίσταται λογαριασμός χρήστη "{$acctName}".',
-'usr_PSEUDONYM_CLASH' => 'Σφάλμα: το ψευδώνυμο "{$pseudonym}" έχει ήδη παραχωρηθεί στον υπάρχοντα λογαριασμό χρήστη"{$clashName}". Για να διαφοροποιηθείτε, προσθέστε αρχικούς χαρακτήρες σ\' αυτό το πεδίο.',
+'usr_LOCKED_ACCOUNT' => 'Επιτυχές κλείδωμα του λογαριασμού του χρήστη "[_1]".',
+'usr_NO_SUCH_USER' => 'Σφάλμα: Δεν υφίσταται λογαριασμός χρήστη "[_1]".',
+'usr_PSEUDONYM_CLASH' => 'Σφάλμα: το ψευδώνυμο "[_1]" έχει ήδη παραχωρηθεί στον υπάρχοντα λογαριασμό χρήστη"[_2]". Για να διαφοροποιηθείτε, προσθέστε αρχικούς χαρακτήρες σ\' αυτό το πεδίο.',
 'usr_LOCK_ACCOUNT' => 'Κλείδωμα λογαριασμού',
 'usr_LOCK_ACCOUNT_TITLE' => 'Κλείδωμα λογαριασμού χρήστη',
 'usr_LOCK_DESC2' => ' Ο λογαριασμός αυτού του χρήστη θα κλειδωθεί. Αυτό σημαίνει ότι ο συγκεκριμένος χρήστης δεν θα μπορεί να συνδεθεί και να παραλάβει την ηλ. αλληλογραφία του. Κάθε μήνυμα ηλ. ταχυδρομείου που θα αφικνείται θα συνεχίζει να αποθηκεύεται και/ή να προωθείται προς έναν εξωτερικό λογαριασμό σύμφωνα με την ισχύουσα ρύθμιση. Ο λογαριασμός μπορεί να καταστεί ενεργός στο μέλλον μετά από νέα ρύθμιση του κωδικού πρόσβασης. Ο τωρινός κωδικός δεν θα διατηρηθεί.   Είστε σίγουροι ότι θέλετε να κλειδώσετε αυτόν το λογαριασμό; ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Κλείδωμα',
 'usr_NO_USER_ACCOUNTS' => 'Δεν υφίστανται λογαριασμοί χρηστών σ΄αυτό το σύστημα.',
 'usr_Users' => 'Χρήστες',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Η ονομασία του λογαριασμού "{$acctName}"περιλαμβάνει μη-αποδεκτούς χαρακτήρες. Οι ονομασίες λογαριασμών πρέπει ν\' αρχίζουν με πεζό γράμμα και να περιλαμβάνουν μόνο πεζά γράμματα, αριθμούς, hyphens, τελείες στίξης και μπάρες υπογράμμισης.',
-'usr_ACCOUNT_TOO_LONG' => 'Σφάλμα: ονομασία λογαριασμού μεγάλου μήκους. Το μέγιστο μήκος είναι {$maxLength} χαρακτήρες.',
-'usr_ACCOUNT_CONFLICT' => 'Σφάλμα: ο λογαριασμός "{$account}" δεν μπορεί να δημιουργηθεί διότι υπάρχει ήδη ένας λογαριασμός {$type}με την ίδια ονομασία.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'Η ονομασία του λογαριασμού "[_1]"περιλαμβάνει μη-αποδεκτούς χαρακτήρες. Οι ονομασίες λογαριασμών πρέπει ν\' αρχίζουν με πεζό γράμμα και να περιλαμβάνουν μόνο πεζά γράμματα, αριθμούς, hyphens, τελείες στίξης και μπάρες υπογράμμισης.',
+'usr_ACCOUNT_TOO_LONG' => 'Σφάλμα: ονομασία λογαριασμού μεγάλου μήκους. Το μέγιστο μήκος είναι [_1] χαρακτήρες.',
+'usr_ACCOUNT_CONFLICT' => 'Σφάλμα: ο λογαριασμός "[_1]" δεν μπορεί να δημιουργηθεί διότι υπάρχει ήδη ένας λογαριασμός [_2]με την ίδια ονομασία.',
 'usr_ERR_OCCURRED_CREATING' => 'Παρουσιάσθηκε σφάλμα κατά τη δημιουργία του χρήστη.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Το παρόν πεδίο δεν μπορεί να περιλαμβάνει "αόρατους" χαρακτήρες (spaces, tabs, newlines)',
 'usr_UNACCEPTABLE_CHARS' => 'Το παρόν πεδίο πρέπει να περιλαμβάνει μόνο γράμματα, αριθμούς, τελείες, παύλες και παύλες υπογράμμισης και να αρχίζει με ένα γράμμα',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Νέος κωδικός πρόσβασης συστήματος (επιβεβαίωση)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Αποστολή (download) ψηφιακού πιστοποιητικού σε πελάτη IPSec',
 'usr_ERR_OCCURRED_DELETING' => 'Παρουσιάστηκε σφάλμα κατά την απόπειρα διαγραφής του χρήστη.',
+'usr_ADD_USER' => 'Προσθήκη λογαριασμού χρήστη',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'Χρήστες',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

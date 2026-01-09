@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Kullanıcı hesabı oluştur, değiştir veya sil',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Kullanıcı hesabı ekle</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Kullanıcı hesabı ekle</a> 
 
   <p> Herhangi bir hesapta değişiklik yapmak, kilitlemek, şifresini değiştirmek veya şifresini sıfırlamak için ilgili hesabın sonundaki butonlara tıklayın. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Oluştur veya değiştir',
-'usr_CREATE_MODIFY_DESC' => ' <p> Hesap adı sadece küçük harf, rakam, tire aplçizgi ve noktadan oluşabilir ve küçük harfle başlamalıdır. Örneğin "betty", "hjohnson" ve "mary-jane" geçerli kullanıcı isimleridir, fakat "3friends", "John Smith", and "henry:miller" geçersizdir. </p>
+'usr_CREATE_MODIFY_DESC' => '  Hesap adı sadece küçük harf, rakam, tire aplçizgi ve noktadan oluşabilir ve küçük harfle başlamalıdır. Örneğin "betty", "hjohnson" ve "mary-jane" geçerli kullanıcı isimleridir, fakat "3friends", "John Smith", and "henry:miller" geçersizdir. 
 
   <p> Her yeni hesap için iki takma ad atandığını unutmayın. Bu takma adlar kullanıcı için alternatif e-posta kutuları oluşturur, kullanıcının adı ve soyadı arasında nokta (.) vealtçizgi (_) konarak oluşturulur. Örneğin "betty" kullanıcısını ilk adı "Betty" ve soyadı "Rubble" ise e-posta için iki takma ad oluşturulacaktır betty.rubble ve betty_rubble. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'admin hesabını değiştir',
 'usr_USER_CREATED' => 'Kullanıcı hesabı başarıyla oluşturuldu',
 'usr_USER_MODIFIED' => 'Kullanıcı hesabı başarıyla değiştirildi',
-'usr_CANNOT_MODIFY_USER' => 'Hata: "{$acctName}" isimli kullanıcının ayarları değiştirilirken hata meydana geldi.',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Hata: "{$acctName}" isimli kullanıcının bağlı olduğu gurubu değiştirilirken hata meydana geldi, ilgili rup "{$group}" .',
-'usr_TAINTED_USER' => 'Girilen hesap adı "{$acctName}" geçersiz karakterler içeriyor.',
+'usr_CANNOT_MODIFY_USER' => 'Hata: "[_1]" isimli kullanıcının ayarları değiştirilirken hata meydana geldi.',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Hata: "[_1]" isimli kullanıcının bağlı olduğu gurubu değiştirilirken hata meydana geldi, ilgili rup "[_2]" .',
+'usr_TAINTED_USER' => 'Girilen hesap adı "[_1]" geçersiz karakterler içeriyor.',
 'usr_ACCOUNT_NAME' => 'Hesap adı',
 'usr_FIRSTNAME' => 'Kullanıcı adı',
 'usr_LASTNAME' => 'Soayadı',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'Kullanıcı hesabının şifresini değiştirmek üzeresiniz',
 'usr_RESET_DESC2' => 'Aşağıdaki alanlara yeni şifrenizi girin',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Şifre güncellenirken hata oluştu',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => '{$acctName}" kullanıcısının şifresi başarıyla değiştirildi.',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => '[_1]" kullanıcısının şifresi başarıyla değiştirildi.',
 'usr_LOCK_DESC' => 'Kullanıcının hesabını kilitlemek üzeresiniz',
-'usr_LOCKED_ACCOUNT' => '{$acctName}" kullanıcısının hesabı başarıyla kilitlendi.',
-'usr_NO_SUCH_USER' => 'Hata: "{$acctName}" kullanıcısının hesabı bulunamadı.',
-'usr_PSEUDONYM_CLASH' => 'Hata: takma isim "{$pseudonym}" zaten var olan "{$clashName}" kullanıcının hesabı ile alınır . Farklılaştırmak için, bu alanın başına harfleri ekleyin.',
+'usr_LOCKED_ACCOUNT' => '[_1]" kullanıcısının hesabı başarıyla kilitlendi.',
+'usr_NO_SUCH_USER' => 'Hata: "[_1]" kullanıcısının hesabı bulunamadı.',
+'usr_PSEUDONYM_CLASH' => 'Hata: takma isim "[_1]" zaten var olan "[_2]" kullanıcının hesabı ile alınır . Farklılaştırmak için, bu alanın başına harfleri ekleyin.',
 'usr_LOCK_ACCOUNT' => 'Hesabı kilitle',
 'usr_LOCK_ACCOUNT_TITLE' => 'Kullanıcı hesabını kilitle',
 'usr_LOCK_DESC2' => ' Bu kullanıcının hesabı kilitlenecektir. Bu durumda bu kullanıcı sisteme giriş yapamayacaktır ve e-postalarına ulaşamayacaktır. Gelen e-postalar saklanacak ve / veya harici e-posta adresine yönlendirilecek, yapılandırılmış ise. Hesap, daha sonra şifre verilerek tekrar aktifleştirilebilir. Geçerli şifre korunmayacaktır.   Hesabı kiltlemek istediğinizden eminmisiniz? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Kilitli',
 'usr_NO_USER_ACCOUNTS' => 'Kullanıcı hesabı bulunamadı.',
 'usr_Users' => 'Kullanıcılar',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => '{$acctName}" kullancı adı geçersiz karakter içeriyor. Hesap adı küçük harfle başlamalı ve küçük harfler, rakamlar, tire, nokta ve alt çizgi içermelidir.',
-'usr_ACCOUNT_TOO_LONG' => 'Hata: kullanıcı adı çok uzun. En fazla {$maxLength} karakter kullanılabilir.',
-'usr_ACCOUNT_CONFLICT' => 'Hata: "{$account}" hesabı oluşturulamadı çünkü {$type} isimli bir hesap zaten mevcut.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => '[_1]" kullancı adı geçersiz karakter içeriyor. Hesap adı küçük harfle başlamalı ve küçük harfler, rakamlar, tire, nokta ve alt çizgi içermelidir.',
+'usr_ACCOUNT_TOO_LONG' => 'Hata: kullanıcı adı çok uzun. En fazla [_1] karakter kullanılabilir.',
+'usr_ACCOUNT_CONFLICT' => 'Hata: "[_1]" hesabı oluşturulamadı çünkü [_2] isimli bir hesap zaten mevcut.',
 'usr_ERR_OCCURRED_CREATING' => 'Kullanıcı oluşturulurken hata meydana geldi.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Bu alan boşluk içermemelidir',
 'usr_UNACCEPTABLE_CHARS' => 'Bu alan sadece harfler, sayılar, nokta, tire ve altçizgi içerebilir ve harfle başlamalıdır',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Sistemin yeni şifresi (doğrula)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Dijital sertifikaları IPSec istemcisine indir',
 'usr_ERR_OCCURRED_DELETING' => 'Kullanıcı silinirken hata oluştu',
+'usr_ADD_USER' => 'Kullanıcı hesabı ekle',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'Kullanıcılar',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

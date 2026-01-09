@@ -1,6 +1,6 @@
 'quo_FORM_TITLE' => 'Halda kasutajate kettakasutamist',
 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Ei saanud kasutajate db avada',
-'quo_QUOTA_DESC' => ' <p>Sa saad kasutajatele seada kettakasutuse limiidi kui klikid kasutajanime taga olevat linki "Muuda". <p>Kui kasutaja ületab hoiatuslimiidi, siis saab ta hoiatuskirja. Kui see limiit on ületatud kauem kui nädal või on ületatud absoluutne limiit, siis kasutaja ei saa süsteemi salvestada faile ega vastuvõtta e-posti. <p>Kui limiidiks on \'0\' siis see tähendab et limiit puudub <p>Kasutaja limiiti arvestatakse kasutajate kodukataloog, e-kirjad ja kõik failid mis kuuluvad antud kasutajale i-bay-des. ',
+'quo_QUOTA_DESC' => ' Sa saad kasutajatele seada kettakasutuse limiidi kui klikid kasutajanime taga olevat linki "Muuda". Kui kasutaja ületab hoiatuslimiidi, siis saab ta hoiatuskirja. Kui see limiit on ületatud kauem kui nädal või on ületatud absoluutne limiit, siis kasutaja ei saa süsteemi salvestada faile ega vastuvõtta e-posti. Kui limiidiks on \'0\' siis see tähendab et limiit puudub Kasutaja limiiti arvestatakse kasutajate kodukataloog, e-kirjad ja kõik failid mis kuuluvad antud kasutajale i-bay-des. ',
 'quo_CURRENT_USAGE_AND_SETTINGS' => 'Seatud limiidid, kasutus ja seaded',
 'quo_LIMIT_WITH_GRACE' => 'Hoiatuslimiit',
 'quo_LIMIT_WITH_GRACE_MB' => 'Hoiatuslimiit (MB)',

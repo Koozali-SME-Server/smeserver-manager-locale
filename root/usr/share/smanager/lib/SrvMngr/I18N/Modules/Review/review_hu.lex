@@ -29,3 +29,7 @@
 'rvw_NO_VIRTUAL_DOMAINS' => 'Nincsenek virtuális domének létrehozva',
 'rvw_NO_NETWORKS' => 'Nincsenek további hálózatok létrehozva',
 'rvw_INTERNET_VISIBLE_ADDRESS' => 'Interneten látható IP cím',
+'rvw_FORM_TITLE' => 'Konfiguráció áttekintése',
+'rvw_SERVER_MANAGER' => 'Szerverkezelő',
+'rvw_USER_PASSWORD_PANEL' => 'Felhasználói jelszó panel',
+'Review configuration' => 'Konfiguráció áttekintése',

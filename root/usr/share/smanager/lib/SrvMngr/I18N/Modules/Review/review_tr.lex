@@ -29,3 +29,7 @@
 'rvw_NO_VIRTUAL_DOMAINS' => 'Sanal etki alan adı tanımlanmadı',
 'rvw_NO_NETWORKS' => 'Ek ağ tanımlanmadı',
 'rvw_INTERNET_VISIBLE_ADDRESS' => 'İnternette görünen IP adresi',
+'rvw_FORM_TITLE' => 'Yapılandırmayı gözden geçir',
+'rvw_SERVER_MANAGER' => 'Sunucu yöneticisi',
+'rvw_USER_PASSWORD_PANEL' => 'Kullanıcı şifre paneli',
+'Review configuration' => 'Yapılandırmayı gözden geçir',

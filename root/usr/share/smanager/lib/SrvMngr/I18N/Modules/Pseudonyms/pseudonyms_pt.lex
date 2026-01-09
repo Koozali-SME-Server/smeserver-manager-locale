@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Remover psedônimo',
 'pse_ABOUT_TO_REMOVE' => ' Você está prestes a remover um pseudônimo: Você tem certeza que deseja continuar? ',
 'pse_FORM_TITLE' => 'Criar, modificar, ou remover pseudônimos',
-'pse_DESCRIPTION' => ' <p>O servidor cria automaticamente um e-mail pseudônimo para cada grupo. Se você deseja definir um e-mail pseudônimo para uma lista de usuários, simplesmente crie um grupo e a lista será mantida automaticamente pelo servidor. </p>
+'pse_DESCRIPTION' => ' O servidor cria automaticamente um e-mail pseudônimo para cada grupo. Se você deseja definir um e-mail pseudônimo para uma lista de usuários, simplesmente crie um grupo e a lista será mantida automaticamente pelo servidor. 
 
   <p>Isso permite você criar outros nomes para um usuário ou grupo de usuários existente. Por exemplo, você pode querer criar um pseudônimo "webmaster" para seu grupo "webdevelopers" ou o pseudônimo "ze" para o usuário "jose".</p>
 

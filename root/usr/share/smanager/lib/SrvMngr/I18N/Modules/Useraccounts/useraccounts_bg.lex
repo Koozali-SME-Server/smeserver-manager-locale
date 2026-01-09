@@ -1,5 +1,5 @@
 'usr_FORM_TITLE' => 'Създаване, промяна или изтриване на потребителски акаунти',
-'usr_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Добавяне на акаунт</a> </p>
+'usr_FIRSTPAGE_DESC' => '  <a class="button-like" href="useraccounts?page=0&page_stack=&next=next">Добавяне на акаунт</a> 
 
   <p> Можете да променяте, заключвате или изтривате всеки акаунт, както и да презадавате паролата за акаунта като кликвате върху линковете в съседство на акаунта. </p>
 
@@ -7,7 +7,7 @@
 
   ',
 'usr_P2_TITLE' => 'Създаване или промяна',
-'usr_CREATE_MODIFY_DESC' => ' <p> Потребителското име трябва да съдържа само малки букви, цифри, тирета, точки, знаци за подчертаване и трябва да започва с малка буква. Например, "betty", "hjohnson" и "mary-jane" са валидни потребителски имена, а "3friends", "John Smith" и "henry:miller" не са валидни. </p>
+'usr_CREATE_MODIFY_DESC' => '  Потребителското име трябва да съдържа само малки букви, цифри, тирета, точки, знаци за подчертаване и трябва да започва с малка буква. Например, "betty", "hjohnson" и "mary-jane" са валидни потребителски имена, а "3friends", "John Smith" и "henry:miller" не са валидни. 
 
   <p> Отбележете, че за всеки нов акаунт ще бъдат създадени по два специални псевдонима. Тези псевдоними предоставят възможността да имате алтернативни пощенски адреси за тези потребители, които включват името и фамилията им, разделени с точка (.) и знак за подчертаване (_). Така че за акаунтът "betty" с име "Betty" и фамилия "Rubble" ще бъдат създадени два псевдонима - betty.rubble и betty_rubble. </p>
 
@@ -17,9 +17,9 @@
 'usr_MODIFY_ADMIN_TITLE' => 'Промяна на акаунта на admin',
 'usr_USER_CREATED' => 'Потребителският акаунт беше успешно добавен.',
 'usr_USER_MODIFIED' => 'Потребителският акаунт е успешно променен.',
-'usr_CANNOT_MODIFY_USER' => 'Грешка: възникна вътрешна грешка по време на опита за промяна на потребителя "{$acctName}".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'Грешка: възникна вътрешна грешка по време на опита за промяна на групата "{$group}" за потребителя "{$acctName}".',
-'usr_TAINTED_USER' => 'Името на акаунта "{$acctName}" съдържа грешни символи.',
+'usr_CANNOT_MODIFY_USER' => 'Грешка: възникна вътрешна грешка по време на опита за промяна на потребителя "[_1]".',
+'usr_CANNOT_MODIFY_USER_GROUPS' => 'Грешка: възникна вътрешна грешка по време на опита за промяна на групата "[_1]" за потребителя "[_2]".',
+'usr_TAINTED_USER' => 'Името на акаунта "[_1]" съдържа грешни символи.',
 'usr_ACCOUNT_NAME' => 'потребителско име',
 'usr_FIRSTNAME' => 'име',
 'usr_LASTNAME' => 'фамилия',
@@ -37,11 +37,11 @@
 'usr_RESET_DESC' => 'На път сте да промените паролата за потребител',
 'usr_RESET_DESC2' => 'Въведете новата парола в полетата по-долу',
 'usr_ERR_OCCURRED_MODIFYING_PASSWORD' => 'Възникна грешка при актуализацията на паролата',
-'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Паролата на потребителя "{$acctName}" бе успешно променена.',
+'usr_PASSWORD_CHANGE_SUCCEEDED' => 'Паролата на потребителя "[_1]" бе успешно променена.',
 'usr_LOCK_DESC' => 'На път сте да заключите потребител',
-'usr_LOCKED_ACCOUNT' => 'Потребителят с име "{$acctName}" бе успешно заключен.',
-'usr_NO_SUCH_USER' => 'Грешка: потребителят с име "{$acctName}" не съществува.',
-'usr_PSEUDONYM_CLASH' => 'Грешка: псевдонима "{$pseudonym}" е вече зает от съществуващ потребител с име "{$clashName}". За да го направите различен добавете инициалите в това поле.',
+'usr_LOCKED_ACCOUNT' => 'Потребителят с име "[_1]" бе успешно заключен.',
+'usr_NO_SUCH_USER' => 'Грешка: потребителят с име "[_1]" не съществува.',
+'usr_PSEUDONYM_CLASH' => 'Грешка: псевдонима "[_1]" е вече зает от съществуващ потребител с име "[_2]". За да го направите различен добавете инициалите в това поле.',
 'usr_LOCK_ACCOUNT' => 'Заключване на потребител',
 'usr_LOCK_ACCOUNT_TITLE' => 'Заключи потребител',
 'usr_LOCK_DESC2' => ' Този потребител ще бъде заключен. Това означава, че този потребител няма да може да влиза в сървъра и няма да може да си чете пощата. Ел. съобщения, които пристигат ще продължават да се съхраняват и/или препращат към външен адрес за ел. поща, както е било зададено преди това. Потребителят може да бъде активиран в бъдеще като му се зададе нова парола. Текущата парола няма да бъде запазена.   Сигурни ли сте, че желаете да заключите този потребител? ',
@@ -51,9 +51,9 @@
 'usr_LOCK' => 'Заключи',
 'usr_NO_USER_ACCOUNTS' => 'Няма потребители в тази система.',
 'usr_Users' => 'Потребители',
-'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'В потребителското име "{$acctName}" има невалидни символи. Потребителските имена трябва да започват с малка буква и да съдържат само малки букви, цифри, тирета, точки и долни черти.',
-'usr_ACCOUNT_TOO_LONG' => 'Грешка: името на акаунта е прекалено дълго. Допустимият максимум е {$maxLength} знака.',
-'usr_ACCOUNT_CONFLICT' => 'Грешка: акаунтът "{$account}" не може да бъде създаден защото вече има акаунт с това име {$type}.',
+'usr_ACCT_NAME_HAS_INVALID_CHARS' => 'В потребителското име "[_1]" има невалидни символи. Потребителските имена трябва да започват с малка буква и да съдържат само малки букви, цифри, тирета, точки и долни черти.',
+'usr_ACCOUNT_TOO_LONG' => 'Грешка: името на акаунта е прекалено дълго. Допустимият максимум е [_1] знака.',
+'usr_ACCOUNT_CONFLICT' => 'Грешка: акаунтът "[_1]" не може да бъде създаден защото вече има акаунт с това име [_2].',
 'usr_ERR_OCCURRED_CREATING' => 'Появи се грешка при създаване на потребител.',
 'usr_CANNOT_CONTAIN_WHITESPACE' => 'Това поле не може да съдържа празни знаци',
 'usr_UNACCEPTABLE_CHARS' => 'Това поле трябва да съдържа само букви, числа, точки, тирета и подчертаващи знаци и да започва с буква',
@@ -70,3 +70,11 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Нова системна парола (проверка)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Зареждане на цифров сертификат в IPSec клиент',
 'usr_ERR_OCCURRED_DELETING' => 'Възникна грешка при опит за изтриване на потребителя.',
+'usr_ADD_USER' => 'Добавяне на потребителски акаунт',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'Users' => 'Потребители',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

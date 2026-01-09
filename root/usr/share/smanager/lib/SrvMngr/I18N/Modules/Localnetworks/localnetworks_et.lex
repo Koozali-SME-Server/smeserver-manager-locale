@@ -1,9 +1,9 @@
 'ln_Local networks' => 'Lokaalsed võrgud',
 'ln_FIRSTPAGE_DESC' => ' Turvalisuse tagamiseks on mõned teenused kättesaadvad ainult kohtvõrgus. Kui soovid teenuseid ja juurdepääsu teha kättesaadvaks ka mõnes teises võrgus, siis lisa need siia. Tavaliselt jäetakse see täiendamata. Lisa võrk ',
 'ln_ADD_TITLE' => 'Lisa lokaalne võrk',
-'ln_ADD_DESC' => ' Each parameter must be in the form #.#.#.# (each # is a number from 0 to 255). The server software will zero out the ending (host identifier) part of the network address according to the subnet mask, to ensure that the network address is valid.  "Router" should be the IP address of the router on your local network via which the additional network is reached. ',
+'ln_ADD_DESC' => '(en)Each parameter must be in the form #.#.#.# (each # is a number from 0 to 255). The server software will zero out the ending (host identifier) part of the network address according to the subnet mask, to ensure that the network address is valid.  "Router" should be the IP address of the router on your local network via which the additional network is reached.',
 'ln_NETWORK_ADDRESS' => 'Võrgu aadress',
-'ln_SUBNET_MASK' => 'Subnet mask',
+'ln_SUBNET_MASK' => 'Alamvõrgu mask',
 'ln_INVALID_IP_ADDRESS' => 'Sobimatu IP aadress',
 'ln_INVALID_SUBNET_MASK' => 'Sobimatu subnet mask',
 'ln_REMOVE_TITLE' => 'Eemalda lokaalne võrk',
@@ -11,22 +11,28 @@
 'ln_REMOVE_CONFIRM' => 'Oled kindel, et tahad seda võrku eemaldada?',
 'ln_DEFAULT' => 'Vaikimisi',
 'ln_NUMBER_OF_HOSTS' => 'Hostide arv',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Viga: ruuteri aadress {$networkRouter} pole kohtvõrgust kättesaadav. Võrku ei lisatud.',
-'ln_NETWORK_ALREADY_LOCAL' => 'Error: network {$network} (derived from network {$networkAddress} and subnet mask {$networkMask}) is already considered local. Did not add new network.',
-'ln_NETWORK_ALREADY_ADDED' => 'Error: network {$network} (derived from network {$networkAddress} and subnet mask {$networkMask}) has already been added. Did not add new network.',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Viga: ruuteri aadress [_1] pole kohtvõrgust kättesaadav. Võrku ei lisatud.',
+'ln_NETWORK_ALREADY_LOCAL' => 'Error: network [_1] (derived from network [_2] and subnet mask [_3]) is already considered local. Did not add new network.',
+'ln_NETWORK_ALREADY_ADDED' => 'Error: network [_1] (derived from network [_2] and subnet mask [_3]) has already been added. Did not add new network.',
 'ln_ERROR_CREATING_NETWORK' => 'Võrgu loomisel ilmnes viga.',
-'ln_SUCCESS' => 'Lisati järgminevõrk {$network}/{$networkMask} via router {$networkRouter}.',
-'ln_SUCCESS_SINGLE_ADDRESS' => 'Lisati järgmine võrk {$network}/{$networkMask} via router {$networkRouter}. Your server will grant local access privileges to the single IP address {$network}.',
-'ln_SUCCESS_NETWORK_RANGE' => 'Successfully added network {$network}/{$networkMask} via router {$networkRouter}. Your server will grant local access privileges to {$totalHosts} IP addresses in the range {$firstAddr} to {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Successfully added network {$network}/{$networkMask} via router {$networkRouter}. </p>
+'ln_SUCCESS' => 'Lisati järgminevõrk [_1]/[_2] via router [_3].',
+'ln_SUCCESS_SINGLE_ADDRESS' => 'Lisati järgmine võrk [_1]/[_2] via router [_3]. Your server will grant local access privileges to the single IP address [_4].',
+'ln_SUCCESS_NETWORK_RANGE' => '(en)Successfully added network [_1]/[_2] via router [_3]. Your server will grant local access privileges to [_4] IP addresses in the range [_5] to [_6].',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  Successfully added network [_1]/[_2] via router [_3]. 
 
-  <p> Your server will grant local access privileges to {$totalHosts} IP addresses in the range {$firstAddr} to {$lastAddr}. </p>
+  <p> Your server will grant local access privileges to [_1] IP addresses in the range [_2] to [_3]. </p>
 
-  <p> Warning: the ProFTPd FTP server cannot handle this nonstandard subnet mask. The simpler specification <b>{$simpleMask}</b> will be used instead. </p>
+  <p> Warning: the ProFTPd FTP server cannot handle this nonstandard subnet mask. The simpler specification <b>[_1]</b> will be used instead. </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => 'Kustutati järgmine võrk {$network}/{$networkMask} via router {$networkRouter}.',
+'ln_SUCCESS_REMOVED_NETWORK' => 'Kustutati järgmine võrk [_1]/[_2] via router [_3].',
 'ln_ERROR_DELETING_NETWORK' => 'Võrgu kustutamisel ilmnes viga.',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Pole täiendavaid võrke',
-'ln_REMOVE_HOSTS_DESC' => 'Local hosts configured on the network you are about to remove have been detected. By default, they will also be removed. Uncheck this box if, for some reason, you do not wish this to happen. Note that they will not be treated as local, and may not even be reachable, after this network is removed.',
+'ln_REMOVE_HOSTS_DESC' => '(en)Local hosts configured on the network you are about to remove have been detected. By default, they will also be removed. Uncheck this box if, for some reason, you do not wish this to happen. Note that they will not be treated as local, and may not even be reachable, after this network is removed.',
 'ln_REMOVE_HOSTS_LABEL' => 'Eemalda võrgust hoste',
+'ln_LOCAL NETWORKS' => 'Kohalikud võrgud',
+'Local networks' => 'Kohalikud võrgud',
+'ln_LOCALNETWORK_ADD' => 'Lisa võrk',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] ruuteri kaudu [_3]',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',

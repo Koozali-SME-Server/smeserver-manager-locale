@@ -1,11 +1,11 @@
 'iba_FORM_TITLE' => 'Criar, modificar ou remover pastas',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Adicionar compartilhamento</a> </p>
+'iba_FIRSTPAGE_DESC' => '  Adicionar compartilhamento 
 
-  <p> Você pode remover qualquer pasta ou resetar a senha clicando no comando correspondente próximo ao compartilhamento. Se o compartilhamento estiver em vermelho, isto significa que a senha ainda não foi definida, e deverá ser trocada tão logo possível. </p>
+   Você pode remover qualquer pasta ou resetar a senha clicando no comando correspondente próximo ao compartilhamento. Se o compartilhamento estiver em vermelho, isto significa que a senha ainda não foi definida, e deverá ser trocada tão logo possível. 
 
   ',
 'iba_ADD_TITLE' => 'Criar ou modificar um compartilhamento',
-'iba_NAME_FIELD_DESC' => 'O nome do compartilhamento deverá conter somente letras minúsculas, números, pontos, hífens e sublinhado e deverá iniciar com letra minúscula. Por exemplo "joao", "intra", e "cust3.prj12" são todos nomes válidos, mas "3associados", "Joao Silva" e "Parceiros!Comerciais" não são. O tamanho do nome está limitado a {$maxLength} caracteres.',
+'iba_NAME_FIELD_DESC' => 'O nome do compartilhamento deverá conter somente letras minúsculas, números, pontos, hífens e sublinhado e deverá iniciar com letra minúscula. Por exemplo "joao", "intra", e "cust3.prj12" são todos nomes válidos, mas "3associados", "Joao Silva" e "Parceiros!Comerciais" não são. O tamanho do nome está limitado a [_1] caracteres.',
 'iba_NAME_LABEL' => 'Nome da pasta',
 'iba_USER_ACCESS' => 'Acesso do usuário via compartilhamento de arquivos ou ftp',
 'iba_PUBLIC_ACCESS' => 'Acesso público via web ou ftp anônimo',
@@ -13,29 +13,29 @@
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Conteúdo de execução dinâmica (CGI, PHP, SSI)',
 'iba_HTTPS_Only' => 'Forçar uso de conexões seguras',
 'iba_REMOVE_TITLE' => 'Remover pasta',
-'iba_REMOVE_DESC' => ' <p> Você está prestes a remover a pasta "{$name}" ({$description}). </p>
+'iba_REMOVE_DESC' => '  Você está prestes a remover a pasta "[_1]" ([_2]). 
 
-  <p> Todos os arquivos pertencentes a esta pasta serão apagados. </p>
+   Todos os arquivos pertencentes a esta pasta serão apagados. 
 
-  <p> Você tem certeza que deseja remover esta pasta? </p>
+   Você tem certeza que deseja remover esta pasta? 
 
   ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'Ocorreu um erro enquanto criava o compartilhamento.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'Pasta criada com sucesso.',
 'iba_NO_IBAYS' => 'Não existe nenhuma pasta configurada.',
-'iba_CANT_FIND_IBAY' => 'Incapaz de encontrar conta para {$name} (isto existe?)',
-'iba_CANT_CREATE_IBAY' => 'Incapaz de criar conta para {$name} (isto já existe?)',
+'iba_CANT_FIND_IBAY' => 'Incapaz de encontrar conta para [_1] (isto existe?)',
+'iba_CANT_CREATE_IBAY' => 'Incapaz de criar conta para [_1] (isto já existe?)',
 'iba_ERROR_WHILE_MODIFYING_IBAY' => 'Ocorreu um erro quando modificava a pasta.',
 'iba_SUCCESSFULLY_MODIFIED_IBAY' => 'Pasta modificada com sucesso.',
 'iba_VIRTUAL_HOST_MESSAGE' => 'Os seguinte domínios virtuais estavam usando este compartilhamento como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde).',
 'iba_SUCCESSFULLY_DELETED_IBAY' => 'Pasta eliminada com sucesso.',
 'iba_ERROR_WHILE_DELETING_IBAY' => 'Um erro ocorreu enquanto eliminava a pasta.',
-'iba_PASSWORD_DESC' => 'Você está prestes a trocar a senha da pasta {$name}.',
+'iba_PASSWORD_DESC' => 'Você está prestes a trocar a senha da pasta [_1].',
 'iba_IBAY_PASSWD_VALIDATION_ERROR' => 'A senha deve conter apenas letras e números.',
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'As senhas que você entrou não são iguais.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Senha resetada com sucesso.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Erro enquanto resetava senha.',
-'iba_VHOST_MESSAGE' => ' Os seguinte domínios virtuais estavam usando esta pasta como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde): {$vhostList} ',
+'iba_VHOST_MESSAGE' => ' Os seguinte domínios virtuais estavam usando esta pasta como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde): [_1] ',
 'iba_Information bays' => 'Pastas',
 'iba_WGRG' => 'Escrever = grupo, Ler = grupo',
 'iba_WGRE' => 'Escrever = grupo, Ler = todos',
@@ -47,7 +47,18 @@
 'iba_ENTIRE_INTERNET_PASSWORD' => 'Toda a Internet (requer senha)',
 'iba_ENTIRE_INTERNET_PASSWORD_REMOTE' => 'Toda a Internet (requer senha para rede externa)',
 'iba_INVALID_IBAY_DESCRIPTION' => 'Erro: caracter inesperado ou ausente na descrição do compartilhamento',
-'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'O nome de compartilhamento "{$acctName}" contém caracteres inválidos. O nome do compartilhamento tem que iniciar com letra minúscula e conter somente letras minúsculas, números e hifens.',
-'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'O nome do compartilhamento "{$name}" é muito longo. O máximo é de {$maxIbayNameLength} caracteres.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A conta "{$acctName}" conflita com detalhes do pseudonimo para a conta "{$acct}" do tipo {$acctType}. {$acctName} é um pseudonimo para {$acct}. ',
-'iba_ACCOUNT_EXISTS' => 'A conta "{$acctName}" é uma conta do tipo {$acctType} já existente.',
+'iba_ACCT_NAME_HAS_INVALID_CHARS' => 'O nome de compartilhamento "[_1]" contém caracteres inválidos. O nome do compartilhamento tem que iniciar com letra minúscula e conter somente letras minúsculas, números e hifens.',
+'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'O nome do compartilhamento "[_1]" é muito longo. O máximo é de [_1] caracteres.',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' A conta "[_1]" conflita com detalhes do pseudonimo para a conta "[_3]" do tipo [_2]. [_1] é um pseudonimo para [_3]. ',
+'iba_ACCOUNT_EXISTS' => 'A conta "[_1]" é uma conta do tipo [_2] já existente.',
+'iba_ADD_IBAY' => 'Adicionar i-bay',
+'WGRG' => '(en)Write = group, Read = group',
+'WGRE' => '(en)Write = group, Read = everyone',
+'WARG' => '(en)Write = admin, Read = group',
+'NONE' => 'Sem acesso',
+'LOCAL_NETWORK_NO_PASSWORD' => 'Rede local (sem senha)',
+'LOCAL_NETWORK_PASSWORD' => 'Rede local (senha obrigatória)',
+'ENTIRE_INTERNET_NO_PASSWORD' => 'Internet inteira (sem senha)',
+'ENTIRE_INTERNET_PASSWORD' => 'Internet inteira (senha necessária)',
+'ENTIRE_INTERNET_PASSWORD_REMOTE' => '(en)Entire Internet (password required outside local network)',
+'INVALID_IBAY_DESCRIPTION' => '(en)Error: unexpected or missing characters in i-bay description',

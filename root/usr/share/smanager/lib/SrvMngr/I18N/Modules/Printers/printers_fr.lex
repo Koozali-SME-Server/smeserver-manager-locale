@@ -1,6 +1,6 @@
 'prt_FORM_TITLE' => 'Gestion des imprimantes',
 'prt_INITIAL_BTN' => 'Ajouter une imprimante',
-'prt_INITIAL_DESC' => ' <p><a class="button-like" href="printers?page=0&next=add">Ajouter une imprimante</a></p>
+'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Ajouter une imprimante</a>
 
   ',
 'prt_NO_PRINTERS' => 'Aucune imprimante n\'a été définie dans le système.',
@@ -16,7 +16,7 @@
 'prt_NET_PRINTER' => 'Imprimante réseau...',
 'prt_FIRST_USB_PRINTER' => 'Première imprimante raccordée à un port USB',
 'prt_SECOND_USB_PRINTER' => 'Seconde imprimante raccordée à un port USB',
-'prt_ERR_UNEXPECTED_NAME' => ' <p>ERREUR : caractères inattendus dans le nom de l\'imprimante.</p>
+'prt_ERR_UNEXPECTED_NAME' => ' ERREUR : caractères inattendus dans le nom de l\'imprimante.
 
   <p>Le nom de l\'imprimante doit commencer par une lettre minuscule et ne contenir que des lettres minuscules et des chiffres. Par exemple, "hplaser", "epsonlp" et "canonbj" sont des noms valides.</p>
 

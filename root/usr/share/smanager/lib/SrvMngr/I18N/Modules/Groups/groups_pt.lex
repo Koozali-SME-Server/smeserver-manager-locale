@@ -1,6 +1,6 @@
 'grp_FORM_TITLE' => 'Criar, modificar ou remover grupo de usuários',
-'grp_GROUP_TOO_LONG' => 'Erro: nome de grupo muito longo. O máximo é de {$maxLength} caracteres.',
-'grp_ACCOUNT_CONFLICT' => 'Erro: o grupo "{$group}" não pode ser criado porque já existe a conta {$type} com esse nome.',
+'grp_GROUP_TOO_LONG' => 'Erro: nome de grupo muito longo. O máximo é de [_1] caracteres.',
+'grp_ACCOUNT_CONFLICT' => 'Erro: o grupo "[_1]" não pode ser criado porque já existe a conta [_2] com esse nome.',
 'grp_INVALID_GROUP_DESCRIPTION' => 'Erro: caracter inesperado ou ausente na descrição do grupo',
 'grp_NO_MEMBERS' => 'Erro: grupo sem membros. Grupo não criado.',
 'grp_CREATED_GROUP' => 'Grupo de usuários criado com sucesso',
@@ -15,10 +15,10 @@
 'grp_GROUP_DESC' => 'Breve Descrição/Janela pseudônimo de grupo',
 'grp_GROUP_DESC_EXPL' => 'Entre com breve descrição do grupo no campo abaixo. Este campo tambem indica nome de grupo visto na janela do cliente.',
 'grp_IBAYS_WILL_BE_CHANGED' => 'Os seguintes compartilhamentos foram designados para este grupo e serão trocados para o grupo Administrador (e você poderá trocá-los para qualquer coisa diferente mais tarde):',
-'grp_CONFIRM_DELETE_GROUP' => ' <p><b>Tem certeza que deseja remover este grupo?</b></p>
+'grp_CONFIRM_DELETE_GROUP' => ' Tem certeza que deseja remover este grupo?
 
   ',
-'grp_CURRENT_LIST' => '<p>Lista atual de grupos de usuários</p>
+'grp_CURRENT_LIST' => 'Lista atual de grupos de usuários
 
   ',
-'grp_DELETE_DESCRIPTION' => ' Voce está para remover o grupo de usuários "{$group}." ',
+'grp_DELETE_DESCRIPTION' => ' Voce está para remover o grupo de usuários "[_1]" ',

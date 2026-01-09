@@ -110,7 +110,7 @@
 'FM_ERR_UNEXPECTED_DESC' => 'Error: caracteres erróneos o faltantes en la descripción',
 'FM_IP_NUMBER1' => 'Este campo debe contener un número de IP válido y no debe dejarse en blanco.',
 'FM_IP_NUMBER2' => 'Dirección IP inválida de inicio para DHCP',
-'FM_IP_NUMBER3' => '{$octet} es mas de 255',
+'FM_IP_NUMBER3' => '[_1] es mas de 255',
 'FM_MAC_ADDRESS1' => 'Debe proveer una dirección MAC.',
 'FM_MAC_ADDRESS2' => 'La dirección MAC suministrada no es válida.',
 'FM_NONBLANK' => 'Este campo no puede dejarse en blanco',

@@ -1,5 +1,5 @@
 'qma_FORM_TITLE' => 'Analyse des journaux de messagerie',
-'qma_INITIAL_DESC' => ' <p>L\'analyse des fichiers du journal de messagerie peut vous aider à comprendre le fonctionnement de votre système et à diagnostiquer des problèmes liés à la messagerie. Plusieurs rapports différents sont disponibles.</p>
+'qma_INITIAL_DESC' => ' L\'analyse des fichiers du journal de messagerie peut vous aider à comprendre le fonctionnement de votre système et à diagnostiquer des problèmes liés à la messagerie. Plusieurs rapports différents sont disponibles.
 
   <p>Veuillez noter que la génération de ces rapports peut prendre plusieurs minutes.</p>
 

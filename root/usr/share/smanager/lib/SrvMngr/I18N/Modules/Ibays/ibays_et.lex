@@ -1,41 +1,41 @@
 'iba_FORM_TITLE' => 'Lisa, muuda või kustuta i-bay-id',
-'iba_FIRSTPAGE_DESC' => ' <p> <a class="button-like" href="ibays?page=0&page_stack=&next=next&wherenext=createmodify">Lisa i-bay</a> </p>
+'iba_FIRSTPAGE_DESC' => '  Lisa i-bay 
 
-  <p> You can remove any information bay or reset its password by clicking on the corresponding command next to the information bay. If the information bay shows up in red, that means that the password has not yet been changed from the default, and should be changed soon. </p>
+   You can remove any information bay or reset its password by clicking on the corresponding command next to the information bay. If the information bay shows up in red, that means that the password has not yet been changed from the default, and should be changed soon. 
 
   ',
 'iba_ADD_TITLE' => 'Lisa või muuda i-bay-d',
-'iba_NAME_FIELD_DESC' => 'The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example "johnson", "intra", and "cust3.prj12" are all valid names, but "3associates", "John Smith" and "Bus!Partner" are not. The name is limited to {$maxLength} characters.',
+'iba_NAME_FIELD_DESC' => '(en)The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example "johnson", "intra", and "cust3.prj12" are all valid names, but "3associates", "John Smith" and "Bus!Partner" are not. The name is limited to [_1] characters.',
 'iba_NAME_LABEL' => 'I-bay nimi',
-'iba_USER_ACCESS' => 'User access via file sharing or user ftp',
-'iba_PUBLIC_ACCESS' => 'Public access via web or anonymous ftp',
-'iba_PUBLIC_ACCESS_DESCRIPTION' => 'The public access mode "password required outside local network" is not supported by the FTP server component. If you select this mode, the FTP server will require a password both inside and outside the local network for this i-bay.',
+'iba_USER_ACCESS' => '(en)User access via file sharing or user ftp',
+'iba_PUBLIC_ACCESS' => '(en)Public access via web or anonymous ftp',
+'iba_PUBLIC_ACCESS_DESCRIPTION' => '(en)The public access mode "password required outside local network" is not supported by the FTP server component. If you select this mode, the FTP server will require a password both inside and outside the local network for this i-bay.',
 'iba_ALLOW_DYNAMIC_CONTENT' => 'Dünaamilise sisu käivitamine (CGI, PHP, SSI)',
-'iba_HTTPS_Only' => 'Force secure connections',
+'iba_HTTPS_Only' => 'Nõua turvalisi ühendusi',
 'iba_REMOVE_TITLE' => 'Eemalda i- bay',
-'iba_REMOVE_DESC' => ' <p> You are about to remove the information bay "{$name}" ({$description}). </p>
+'iba_REMOVE_DESC' => '  You are about to remove the information bay "[_1]" ([_2]). 
 
-  <p> All files belonging to this information bay will be deleted. </p>
+   All files belonging to this information bay will be deleted. 
 
-  <p> Are you sure you wish to remove this information bay? </p>
+   Are you sure you wish to remove this information bay? 
 
   ',
 'iba_ERROR_WHILE_CREATING_IBAY' => 'I-bay loomisel ilmnes viga.',
 'iba_SUCCESSFULLY_CREATED_IBAY' => 'I-bay edukalt loodud.',
 'iba_NO_IBAYS' => 'Pole i-bay-sid mida seadistada.',
-'iba_CANT_FIND_IBAY' => 'Ei leia kontot {$name} (on see üldse olemas?)',
-'iba_CANT_CREATE_IBAY' => 'Ei saa luua uut kontot {$name} (selline on juba olemas?)',
+'iba_CANT_FIND_IBAY' => 'Ei leia kontot [_1] (on see üldse olemas?)',
+'iba_CANT_CREATE_IBAY' => 'Ei saa luua uut kontot [_1] (selline on juba olemas?)',
 'iba_ERROR_WHILE_MODIFYING_IBAY' => 'I-bay seadistamisel ilmnes viga.',
 'iba_SUCCESSFULLY_MODIFIED_IBAY' => 'I-bay seaded edukalt salvestatud.',
-'iba_VIRTUAL_HOST_MESSAGE' => 'The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward).',
+'iba_VIRTUAL_HOST_MESSAGE' => '(en)The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward).',
 'iba_SUCCESSFULLY_DELETED_IBAY' => 'I-bay edukalt kustutatud.',
 'iba_ERROR_WHILE_DELETING_IBAY' => 'I-bay kustutamisel ilmnes viga.',
-'iba_PASSWORD_DESC' => 'You are about to change the password for the i-bay {$name}.',
+'iba_PASSWORD_DESC' => '(en)You are about to change the password for the i-bay [_1].',
 'iba_IBAY_PASSWD_VALIDATION_ERROR' => 'PArool võib koosneda ainult tähtedest ja numbritest.',
 'iba_IBAY_PASSWD_VERIFY_ERROR' => 'Paroolid ei kattu.',
 'iba_SUCCESSFULLY_RESET_PASSWORD' => 'Parool edukalt muudetud.',
 'iba_ERROR_WHILE_RESETTING_PASSWORD' => 'Viga parooli muutmisel.',
-'iba_VHOST_MESSAGE' => ' The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): {$vhostList} ',
+'iba_VHOST_MESSAGE' => ' The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): [_1] ',
 'iba_Information bays' => 'I-bay-d',
 'iba_WGRG' => 'Write = group, Read = group',
 'iba_WGRE' => 'Write = group, Read = everyone',
@@ -47,7 +47,18 @@
 'iba_ENTIRE_INTERNET_PASSWORD' => 'Internetist (prooliga)',
 'iba_ENTIRE_INTERNET_PASSWORD_REMOTE' => 'Internetist (parooli nõutakse väljastpoolt kohtvõrku)',
 'iba_INVALID_IBAY_DESCRIPTION' => 'Viga: unexpected or missing characters in i-bay description',
-'iba_ACCT_NAME_HAS_INVALID_CHARS' => ' I-bay nimi "{$acctName}" sisaldab sobimatuid sümboleid. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens.',
-'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'I-bay nimi "{$name}" ion liiga pikk. Maksimum lubatud pikkus on {$maxIbayNameLength} märki.',
-'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' The account "{$acctName}" clashes with pseudonym details for {$acctType} account "{$acct}". {$acctName} is a pseudonym for {$acct}. ',
-'iba_ACCOUNT_EXISTS' => 'Konto"{$acctName}" on olemas {$acctType} kontona.',
+'iba_ACCT_NAME_HAS_INVALID_CHARS' => ' I-bay nimi "[_1]" sisaldab sobimatuid sümboleid. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens.',
+'iba_MAX_IBAY_NAME_LENGTH_ERROR' => 'I-bay nimi "[_1]" ion liiga pikk. Maksimum lubatud pikkus on [_1] märki.',
+'iba_ACCT_CLASHES_WITH_PSEUDONYM' => ' The account "[_1]" clashes with pseudonym details for [_2] account "[_3]". [_1] is a pseudonym for [_3]. ',
+'iba_ACCOUNT_EXISTS' => 'Konto"[_1]" on olemas [_2] kontona.',
+'iba_ADD_IBAY' => 'Lisa i-bay',
+'WGRG' => '(en)Write = group, Read = group',
+'WGRE' => '(en)Write = group, Read = everyone',
+'WARG' => '(en)Write = admin, Read = group',
+'NONE' => 'Juurdepääs puudub',
+'LOCAL_NETWORK_NO_PASSWORD' => 'Kohtvõrk (parooli pole vaja)',
+'LOCAL_NETWORK_PASSWORD' => 'Kohtvõrk (parool nõutav)',
+'ENTIRE_INTERNET_NO_PASSWORD' => 'Kogu internet (parooli pole vaja)',
+'ENTIRE_INTERNET_PASSWORD' => 'Kogu internet (parool nõutav)',
+'ENTIRE_INTERNET_PASSWORD_REMOTE' => '(en)Entire Internet (password required outside local network)',
+'INVALID_IBAY_DESCRIPTION' => '(en)Error: unexpected or missing characters in i-bay description',

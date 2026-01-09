@@ -1,7 +1,7 @@
 'bac_BACKUP_TITLE' => 'Fazer backup ou restaurar dados do servidor',
 'bac_BACKUP_DESC' => ' <p>Existem duas maneiras de fazer backup e restore do seu servidor: usando seu micro local ou um drive de fita.</p>
 
-  <p>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>[_3]</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. A opção\"Verificar arquivo de backup para desktop\" pode ser usado para verificar a integridade de um arquivo de backup para o desktop.</p>
+  <p>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>[_3]</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. A opção\\"Verificar arquivo de backup para desktop\\" pode ser usado para verificar a integridade de um arquivo de backup para o desktop.</p>
 
   <p>O método de backup em fita usa um pacote de software chamado <i>[_1]</i> para fazer o backup de seu disco rígido inteiro para a fita todas as noites. Isto requer um drive de fita suportado e que a fita não esteja protegida contra gravação. O backup é feito automaticamente no horário selecionado a cada noite (com um lembrete sendo enviado automaticamente por e-mail ao administrador durante o dia). Atualmente seu disco rígido contém <b>[_2]</b> de dados.</p>
 
@@ -111,7 +111,7 @@
 'bac_SERVER_REBOOT' => 'Reinicializar servidor',
 'bac_SERVER_WILL_REBOOT' => 'Seu servidor irá reinicializar agora.',
 'bac_NO_UID_FOR_NAME' => 'Incapaz de achar uid para usuário chamado:',
-'bac_PAGE_REFRESH_IN' => ' Esta página irá recarregar em {$sec} segundos, ou clique aqui. ',
+'bac_PAGE_REFRESH_IN' => ' Esta página irá recarregar em [_1] segundos, ou clique aqui. ',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Seu servidor tem muitos dados para que um backup para desktop seja confiável.',
 'bac_WORKSTN_BACKUPS_DISABLED' => ' O backup para micro da rede local está desativado ',
 'bac_WORKSTN_BACKUPS_ENABLED' => ' O backup para micro da rede local está atualmente habilitado. ',
@@ -226,3 +226,7 @@
 'bac_Mounted disk' => 'Montado',
 'bac_ERROR_WHEN_TESTING_REMOTE_SERVER' => 'Os parâmetros foram salvos, contudo o servidor remoto não foi encontrado, por favor verifique suas configurações.',
 'Backup or restore' => 'Backup ou restauração',
+'bac_No suitable local devices found' => 'Nenhum dispositivo local adequado encontrado',
+'bac_TAPE_BACKUPS' => 'Backups em fita são',
+'bac_WORKSTN_BACKUPS' => 'Os backups da estação de trabalho são',
+'bac_ERR_EXTRACT' => 'Erro ao extrair com Dar',

@@ -2,7 +2,7 @@
 'pse_REMOVE_PSEUDONYM' => 'Fjern pseudonym',
 'pse_ABOUT_TO_REMOVE' => ' Du er i ferd med å fjerne pseudonymet: Er du sikker på at du vil fortsette? ',
 'pse_FORM_TITLE' => 'Opprett, endre, eller fjerne pseudonymer',
-'pse_DESCRIPTION' => ' <p>Server oppretter automatisk et e-post alias for hver gruppe. Hvis du vil sette opp et e-post alias for en gruppe med brukere,oppretter du bare en gruppe, så blir den automatisk vedlikeholdt av serveren.</p>
+'pse_DESCRIPTION' => ' Server oppretter automatisk et e-post alias for hver gruppe. Hvis du vil sette opp et e-post alias for en gruppe med brukere,oppretter du bare en gruppe, så blir den automatisk vedlikeholdt av serveren.
 
   <p>Pseudonymer tillater deg å opprette andre navn på eksisterende brukere eller grupper. For eksempel, du ønsker kanskje å opprette et pseudonym "webmaster" for din "webutviklere" gruppe eller et pseudonym "jon" for brukeren"jonas".</p>
 
@@ -21,7 +21,7 @@
 'pse_CLICK_TO_CREATE' => 'Legg til pseudonym',
 'pse_PSEUDONYM' => 'Pseudonym',
 'pse_USER_OR_GROUP' => 'Bruker eller gruppe',
-'pse_CURRENT_PSEUDONYMS' => '<p>Gjeldende liste over Pseudonymer</p>
+'pse_CURRENT_PSEUDONYMS' => 'Gjeldende liste over Pseudonymer
 
   ',
 'pse_TITLE_CREATE' => 'Opprett et pseudonym',

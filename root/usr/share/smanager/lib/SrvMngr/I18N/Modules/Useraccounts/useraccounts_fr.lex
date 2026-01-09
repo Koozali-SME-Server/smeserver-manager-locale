@@ -1,16 +1,11 @@
 'usr_FORM_TITLE' => 'Gestion des comptes utilisateur',
-'usr_FIRSTPAGE_DESC' => '<p>You can modify, lock or remove any account or reset the account\'s password by clicking on the corresponding command next to the account. </p>
-
-  <p>If the account is marked as locked, that means that theuser\'s password needs to be reset. Please note that newly created accounts are automatically locked until the password is changed. </p>
-
-  ',
-'usr_FIRSTPAGE_DESC' => '<p>Vous pouvez modifier, verrouiller ou supprimer n\'importe quel compte ou bien réinitialiser le mot de passe d\'un compte en cliquant sur la commande correspondante à côté du compte.</p>
+'usr_FIRSTPAGE_DESC' => 'Vous pouvez modifier, verrouiller ou supprimer n\'importe quel compte ou bien réinitialiser le mot de passe d\'un compte en cliquant sur la commande correspondante à côté du compte.
 
   <p>Si le compte est marqué comme étant verrouillé, cela signifie qu\'il faut réinitialiser le mot de passe de l\'utilisateur. Veuillez noter que les comptes nouvellement créés sont automatiquement verrouillés jusqu\'à ce qu\'un mot de passe ait été saisi.</p>
 
   ',
 'usr_P2_TITLE' => 'Créer ou modifier',
-'usr_CREATE_MODIFY_DESC' => ' <p>Le nom du compte ne doit être composé que de lettres minuscules, de chiffres, de traits d\'union, de points et de tirets-bas (_) et doit commencer par une lettre minuscule. Par exemple "marie-line", "eireann.p" et "phoebe_p" sont tous des noms de compte valides, mais "3amis", "Jean" et "claude*francois" ne le sont pas.</p>
+'usr_CREATE_MODIFY_DESC' => ' Le nom du compte ne doit être composé que de lettres minuscules, de chiffres, de traits d\'union, de points et de tirets-bas (_) et doit commencer par une lettre minuscule. Par exemple "marie-line", "eireann.p" et "phoebe_p" sont tous des noms de compte valides, mais "3amis", "Jean" et "claude*francois" ne le sont pas.
 
   <p>Notez que deux pseudonymes spéciaux seront créés pour chaque nouveau compte. Ces pseudonymes donnent à l\'utilisateur la possibilité d\'avoir des comptes de messagerie supplémentaires composés de son prénom et de son nom, séparés par un point (.) et par un trait de soulignement (_). Ainsi, pour le compte "betty", avec "Betty" comme prénom et "Rubble" comme nom, deux pseudonymes sont créés, à savoir "betty.rubble" et "betty_rubble".</p>
 
@@ -47,14 +42,14 @@
 'usr_PSEUDONYM_CLASH' => 'ERREUR : le pseudonyme "[_1]" est déjà utilisé par le compte utilisateur "[_2]". Pour différencier ces pseudonymes, vous pouvez ajouter des initiales dans ce champ.',
 'usr_LOCK_ACCOUNT' => 'Verrouiller le compte',
 'usr_LOCK_ACCOUNT_TITLE' => 'Verrouiller le compte de l\'utilisateur',
-'usr_LOCK_DESC2' => ' <p>Une fois le compte verrouillé, l\'utilisateur ne pourra ni se connecter ni consulter ses courriels. Tout message arrivant sera stocké et/ou renvoyé à une adresse de courriel externe, conformément à la configuration du système. Ce compte pourra ultérieurement être réactivé en définissant un nouveau mot de passe. Le mot de passe actuel ne sera pas conservé.</p>
+'usr_LOCK_DESC2' => ' Une fois le compte verrouillé, l\'utilisateur ne pourra ni se connecter ni consulter ses courriels. Tout message arrivant sera stocké et/ou renvoyé à une adresse de courriel externe, conformément à la configuration du système. Ce compte pourra ultérieurement être réactivé en définissant un nouveau mot de passe. Le mot de passe actuel ne sera pas conservé.
 
   <p><b>Voulez-vous vraiment verrouiller ce compte ?</b></p>
 
   ',
 'usr_REMOVE_ACCOUNT_TITLE' => 'Supprimer le compte utilisateur',
 'usr_REMOVE_DESC' => 'Vous êtes sur le point de supprimer le compte de l\'utilisateur',
-'usr_REMOVE_DESC2' => ' <p>Tous les fichiers appartenant à ce compte seront supprimés, ainsi que tous les courriels lui étant destinés et encore stockés sur ce serveur (ie. qui n\'ont pas encore été récupérés par l\'utilisateur).</p>
+'usr_REMOVE_DESC2' => ' Tous les fichiers appartenant à ce compte seront supprimés, ainsi que tous les courriels lui étant destinés et encore stockés sur ce serveur (ie. qui n\'ont pas encore été récupérés par l\'utilisateur).
 
   <p><b>Voulez-vous vraiment supprimer ce compte ?</b></p>
 
@@ -81,4 +76,10 @@
 'usr_NEW_SYSTEM_PASSWORD_VERIFY' => 'Nouveau mot de passe système (vérification)',
 'usr_LABEL_IPSECRW_DOWNLOAD' => 'Télécharger le certificat numérique du client IPSec.',
 'usr_ERR_OCCURRED_DELETING' => 'Une erreur s\'est produite lors de la suppression de l\'utilisateur.',
-'usr_ADD_USER' => 'Créer un compte utilisateur',
+'usr_ADD_USER' => 'Ajouter un compte utilisateur',
+'usr_TAINTED_PASSWORD' => '(en)The new password starts with invalid characters.',
+'usr_NONE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters.',
+'usr_NORMAL_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters.',
+'usr_INTERMEDIATE_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check.',
+'usr_STRONG_PASSWORD_DESCRIPTION' => '(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check.',
+'usr_PASSWORD_WIKI' => '(en)If you want to know more about passwords, then please refer to the <a href=\'https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords\'>Wiki</a>',

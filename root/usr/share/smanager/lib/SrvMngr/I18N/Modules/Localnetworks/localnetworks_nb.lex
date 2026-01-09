@@ -11,20 +11,26 @@
 'ln_REMOVE_CONFIRM' => 'Er du sikker på atr du vil fjerne dette nettverket?',
 'ln_DEFAULT' => 'Standard',
 'ln_NUMBER_OF_HOSTS' => 'Antall maskiner',
-'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Feil: ruter adressen {$networkRouter} er ikke tilgjenglig fra det lokale nettverket. nettverket ble ikke lagt til.',
-'ln_NETWORK_ALREADY_LOCAL' => 'Feil: nettverket {$network} (avledet fra nettverket {$networkAddress} og subnettmasken {$networkMask})',
-'ln_NETWORK_ALREADY_ADDED' => 'Feil: nettverket {$network} (avledet fra nettverket {$networkAddress} og subnettmasken {$networkMask}) er allerede lagt til. Nettverket ble ikke lagt til.',
+'ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK' => 'Feil: ruter adressen [_1] er ikke tilgjenglig fra det lokale nettverket. nettverket ble ikke lagt til.',
+'ln_NETWORK_ALREADY_LOCAL' => 'Feil: nettverket [_1] (avledet fra nettverket [_2] og subnettmasken [_3])',
+'ln_NETWORK_ALREADY_ADDED' => 'Feil: nettverket [_1] (avledet fra nettverket [_2] og subnettmasken [_3]) er allerede lagt til. Nettverket ble ikke lagt til.',
 'ln_ERROR_CREATING_NETWORK' => 'En feil oppsto under opprettelse av nettverk.',
-'ln_SUCCESS' => 'Nettverket {$network}/{$networkMask} lagt til via ruteren {$networkRouter}.',
-'ln_SUCCESS_SINGLE_ADDRESS' => 'Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den enkle IP adressen {$network}.',
-'ln_SUCCESS_NETWORK_RANGE' => 'Nettverket{$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den {$totalHosts} IP adressene i området {$network}{$firstAddr} to {$lastAddr}.',
-'ln_SUCCESS_NONSTANDARD_RANGE' => ' <p> Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.Serveren din vil gi lokale privilegier til den {$totalHosts} IP adressene i området {$network} {$firstAddr} to {$lastAddr}.</p>
+'ln_SUCCESS' => 'Nettverket [_1]/[_2] lagt til via ruteren [_3].',
+'ln_SUCCESS_SINGLE_ADDRESS' => 'Nettverket [_1]/[_2] lagt til via router [_3].Serveren din vil gi lokale privilegier til den enkle IP adressen [_4].',
+'ln_SUCCESS_NETWORK_RANGE' => 'Nettverket[_1]/[_2] lagt til via router [_3].Serveren din vil gi lokale privilegier til den [_4] IP adressene i området [_5][_6] to [_7].',
+'ln_SUCCESS_NONSTANDARD_RANGE' => '  Nettverket [_1]/[_2] lagt til via router [_3].Serveren din vil gi lokale privilegier til den [_4] IP adressene i området [_5] [_6] to [_7].
 
-  <p> Advarsel: ProFTPd FTP serveren kan ikke håndtere ikke standardiserte subnetmasker. Den enklere spesifikasjonen<b>{$simpleMask}</b> blir brukt isteden. </p>
+  <p> Advarsel: ProFTPd FTP serveren kan ikke håndtere ikke standardiserte subnetmasker. Den enklere spesifikasjonen<b>[_1]</b> blir brukt isteden. </p>
 
   ',
-'ln_SUCCESS_REMOVED_NETWORK' => 'Nettverket {$network}/{$networkMask} lagt til via router {$networkRouter}.',
+'ln_SUCCESS_REMOVED_NETWORK' => 'Nettverket [_1]/[_2] lagt til via router [_3].',
 'ln_ERROR_DELETING_NETWORK' => 'En feil oppsto under sletting av nettverk. ',
 'ln_NO_ADDITIONAL_NETWORKS' => 'Ingen flere nettverk',
 'ln_REMOVE_HOSTS_DESC' => 'Lokale maskiner er satt opp på nettverket som du er i ferd med å fjerne. Som standard blir også disse fjernet. Hvis du av en eller annen grunn ikke vil fjerne disse fjerner du merket her. Merk at disse etterpå ikke vil bli sett på som lokale maskiner, og vil muligens ikke være tilgjenglige etter at nettverket er slettet.',
 'ln_REMOVE_HOSTS_LABEL' => 'Fjern maskiner på nettverket',
+'ln_LOCAL NETWORKS' => 'Lokale nettverk',
+'Local networks' => 'Lokale nettverk',
+'ln_LOCALNETWORK_ADD' => 'Legg til nettverk',
+'ln_NO_SUCH_NETWORK' => '(en)Network not found in network db',
+'ln_extra' => '[_1]/[_2] via ruter [_3]',
+'ln_Failed to find network in Db' => '(en)Failed to find network in Db',
