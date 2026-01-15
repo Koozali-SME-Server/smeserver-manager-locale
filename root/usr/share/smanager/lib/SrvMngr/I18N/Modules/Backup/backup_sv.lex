@@ -128,7 +128,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Verifiera backup till arbetsstation',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Denna inställning visar namnet på alla filer i den tidigare skapade dagliga backupen på arbetsstationen. Du kan använda denna inställning för att verifiera innehållet av backupen.<b>Du måste välja den backup som du vill verifiera</b></p>
 
-  <p>Endast filer markerade med [Sparad] finns i backupen.</p>
+  <p>Endast filer markerade med ~[Sparad~] finns i backupen.</p>
 
   <br/> Backupfilerna verifieras från den delade mappen : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Återställ serverkonfiguration från arbetsstationen',
@@ -175,12 +175,12 @@
 'bac_BACKUP_CHOICE' => 'Välj filer som skall visas',
 'bac_SELECT_DATE_BEFORE' => 'Återställ de senaste före',
 'bac_FILTER_EXPRESSION' => 'Namn filtrerade efter',
-'bac_READ_COMPLETE' => ' Du kan välja alla de mappar och filer du vill återställa i listan som visas (använd ctrl eller shift för flerval). Varning : Om du väljer en mapp kommer alla filer och underliggande mappar, att återställas. Förvalt är att den senaste versionen av valda filer återställs men om du anger ett datum i formatet [ [ [yyyy/]mm/]dd-]hh:mm[:ss] kommer processen att återställa den senaste versionen som är ändrad före det angivna datumet. ',
-'bac_ERR_INVALID_SELDATE' => 'Datumformat är ogiltigt eftersom det måste vara [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. exvis: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32',
+'bac_READ_COMPLETE' => ' Du kan välja alla de mappar och filer du vill återställa i listan som visas (använd ctrl eller shift för flerval). Varning : Om du väljer en mapp kommer alla filer och underliggande mappar, att återställas. Förvalt är att den senaste versionen av valda filer återställs men om du anger ett datum i formatet ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] kommer processen att återställa den senaste versionen som är ändrad före det angivna datumet. ',
+'bac_ERR_INVALID_SELDATE' => 'Datumformat är ogiltigt eftersom det måste vara ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. exvis: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Välj filer som skall återställas',
 'bac_ERR_WHILE_UNMOUNTING' => 'Fel uppstod vid avmontering av fjärrdelningen',
 'bac_ERR_DAR_CATALOG' => 'Fel vid användandet av Dar-katalogen',
-'bac_COMPRESSION_LEVEL' => 'Kompressionsnivå på backupen [0-9]',
+'bac_COMPRESSION_LEVEL' => 'Kompressionsnivå på backupen ~[0-9~]',
 'bac_FULL_ONLY_ON' => 'Fullständig backup är tillåten på',
 'bac_ERR_INVALID_COMPRESSION' => 'Kompressionsnivån måste vara mellan 0 (ingen kompression) och 9 (maximal kompression)',
 'bac_DOW' => 'Söndag Måndag Tisdag Onsdag Torsdag Fredag Lördag Alla_dagar',

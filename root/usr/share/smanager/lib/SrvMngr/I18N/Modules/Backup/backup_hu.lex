@@ -130,7 +130,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Hálózati mentés ellenőrzése',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Ez az opció kilistázza az előzőleg készült hálózati mentésben lévő fájlokat. Ennek az opciónak a segítségével ellenőrizheti a biztonsági mentés tartalmát.<b>Ki kell választania azt a mentést amelyet ellenőrizni kíván</b></p>
 
-  <p>Csak a [Saved] címkével jelölt fájlokat tartalmazza a mentés.</p>
+  <p>Csak a ~[Saved~] címkével jelölt fájlokat tartalmazza a mentés.</p>
 
   <br/>A biztonsági mentések a következő megosztáson lesznek ellenőrizve : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Szerver beállításainak helyreállítása hálózati mentésből',
@@ -177,12 +177,12 @@
 'bac_BACKUP_CHOICE' => 'Fájlok kiválasztása',
 'bac_SELECT_DATE_BEFORE' => 'A legutóbbiak helyreállítása',
 'bac_FILTER_EXPRESSION' => 'Nevek szűrése',
-'bac_READ_COMPLETE' => ' Bármely fájlt vagy könyvtárat helyreállíthat amely a listában van (használja a ctrl-t vagy a shift-et a többszörös kijelöléshez).  Figyelem! : Ha kiválaszt egy könyvtárat, akkor annak összes tartalma helyre lesz állítva. Alaphelyzetben a legfrissebb fájlok lesznek helyreállítva, de ha megad egy dátumot a következő formában [ [ [yyyy/]mm/]dd-]hh:mm[:ss] a folyamat csak a beállított dátum előtti fájlokat fogja helyreállítani. ',
-'bac_ERR_INVALID_SELDATE' => 'Érvénytelen dátum formátum! Így helyes: [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. Pl: 2005/12/31-08:23:32 vagy 10-08:32 vagy 08:32',
+'bac_READ_COMPLETE' => ' Bármely fájlt vagy könyvtárat helyreállíthat amely a listában van (használja a ctrl-t vagy a shift-et a többszörös kijelöléshez).  Figyelem! : Ha kiválaszt egy könyvtárat, akkor annak összes tartalma helyre lesz állítva. Alaphelyzetben a legfrissebb fájlok lesznek helyreállítva, de ha megad egy dátumot a következő formában ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] a folyamat csak a beállított dátum előtti fájlokat fogja helyreállítani. ',
+'bac_ERR_INVALID_SELDATE' => 'Érvénytelen dátum formátum! Így helyes: ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. Pl: 2005/12/31-08:23:32 vagy 10-08:32 vagy 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Visszaállítandó fájlok kiválasztása',
 'bac_ERR_WHILE_UNMOUNTING' => 'Hiba a távoli megosztás leválasztásakor ',
 'bac_ERR_DAR_CATALOG' => 'Hiba a Dar katalógus használatakor ',
-'bac_COMPRESSION_LEVEL' => 'Mentés tömörítésének szintje [0-9] ',
+'bac_COMPRESSION_LEVEL' => 'Mentés tömörítésének szintje ~[0-9~] ',
 'bac_FULL_ONLY_ON' => 'Teljes mentés engedélyezve: ',
 'bac_ERR_INVALID_COMPRESSION' => 'A tömörítési szintet 0 (nincs tömörítés) és 9 (maximális tömörítés) közötti értékben kell megadni',
 'bac_DOW' => 'Vasárnap Hétfő Kedd Szerda Csütörtök Péntek Szombat Mindennap',

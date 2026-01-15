@@ -130,7 +130,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Controleer werkstation backup',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Deze optie toont de namen van alle bestanden in eerder gemaakte dagelijkse werkstation backups. U kunt deze optie gebruiken om de inhoud van de backup te controleren.<b>U dient de backup te kiezen die u wilt controleren.</b></p>
 
-  <p>Alleen bestanden gemerkt met [Saved] zullen zich in de backup bevinden.</p>
+  <p>Alleen bestanden gemerkt met ~[Saved~] zullen zich in de backup bevinden.</p>
 
   Backup bestanden zijn gecontroleerd vanaf de gedeelde map : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Herstel server configuratie vanaf werkstation backup',
@@ -177,7 +177,7 @@
 'bac_BACKUP_CHOICE' => 'Selecteer bestanden om te tonen',
 'bac_SELECT_DATE_BEFORE' => 'Herstel meest recente voor',
 'bac_FILTER_EXPRESSION' => 'Namen gefilterd door',
-'bac_READ_COMPLETE' => ' U kunt de mappen en bestanden die hersteld moeten worden selecteren in de getoonde lijst (gebruik Ctrl of Shift voor veelvoudige keuze). Waarschuwing: Als een map worden geselecteerd, worden alle onderliggende mappen en bestanden hersteld.Als standaard instelling worden de meest recent versies van de geselecteerde bestanden hersteld, maar als een datum in het formaat [ [ [jjjj/]mm/]dd-]uu:mm[:ss] is gespecificeerd word alleen de meest recente versie voor de aangegeven datum herstelt. ',
+'bac_READ_COMPLETE' => ' U kunt de mappen en bestanden die hersteld moeten worden selecteren in de getoonde lijst (gebruik Ctrl of Shift voor veelvoudige keuze). Waarschuwing: Als een map worden geselecteerd, worden alle onderliggende mappen en bestanden hersteld.Als standaard instelling worden de meest recent versies van de geselecteerde bestanden hersteld, maar als een datum in het formaat ~[ ~[ ~[jjjj/~]mm/~]dd-~]uu:mm~[:ss~] is gespecificeerd word alleen de meest recente versie voor de aangegeven datum herstelt. ',
 'bac_ERR_INVALID_SELDATE' => 'Datum formaat is niet correct, gewenst formaat ~[ ~[ ~[jjjj/~]mm/~]dd-~]uu:mm~[:ss~]. bijvoorbeeld: 2005/12/31-08:23:32 of 10-08:32 of 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Selecteer bestanden om te herstellen',
 'bac_ERR_WHILE_UNMOUNTING' => 'Fout opgetreden bij het ontladen van gedeelde map',

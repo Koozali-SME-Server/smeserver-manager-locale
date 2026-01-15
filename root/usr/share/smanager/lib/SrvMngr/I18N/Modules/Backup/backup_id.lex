@@ -130,7 +130,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Periksa workstation backup',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Pilihan ini akan menampilkan semua nama file didalam berkas workstation backup yang telah dilakukan sebelumnya. Anda dapat menggunakan pilihan ini untuk memeriksa isi dari backup.<b>Anda harus memilih backup yang ingin anda periksa</b></p>
 
-  <p>Hanya file yang ditandai dengan [Saved] yang berada didalam backup.</p>
+  <p>Hanya file yang ditandai dengan ~[Saved~] yang berada didalam backup.</p>
 
   File backup diperiksa dari shared folder: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Restore konfigurasi server dari workstation backup',
@@ -177,12 +177,12 @@
 'bac_BACKUP_CHOICE' => 'Memilih file yang ditampilkan',
 'bac_SELECT_DATE_BEFORE' => 'Restore terbaru sebelum',
 'bac_FILTER_EXPRESSION' => 'Nama difilter dengan ',
-'bac_READ_COMPLETE' => ' Anda dapat memilih semua direktori dan file yang ingin ada restore pada daftar yang dipampilkan (gunakan ctrl atau shift untuk memilih lebih dari 1).  Peringatan : Jika anda memilih direktori, semua file dan direktori didalamnya akan di-restore. Secara default versi yang terbaru dari file yang dipilih akan di-restore, tetapi jika anda menentukan tanggal dalam format [ [ [yyyy/]mm/]dd-]hh:mm[:ss] proses akan me-restore hanya versi terbaru sebelum tanggal tersebut. ',
-'bac_ERR_INVALID_SELDATE' => 'Format Tanggal invalid, harus dalam format [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 atau 10-08:32 atau 08:32',
+'bac_READ_COMPLETE' => ' Anda dapat memilih semua direktori dan file yang ingin ada restore pada daftar yang dipampilkan (gunakan ctrl atau shift untuk memilih lebih dari 1).  Peringatan : Jika anda memilih direktori, semua file dan direktori didalamnya akan di-restore. Secara default versi yang terbaru dari file yang dipilih akan di-restore, tetapi jika anda menentukan tanggal dalam format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] proses akan me-restore hanya versi terbaru sebelum tanggal tersebut. ',
+'bac_ERR_INVALID_SELDATE' => 'Format Tanggal invalid, harus dalam format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 atau 10-08:32 atau 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Pilih file yang ingin di restore',
 'bac_ERR_WHILE_UNMOUNTING' => 'Gagal saat melakukan unmount pada share luar',
 'bac_ERR_DAR_CATALOG' => 'Error saat menggunakan Dar catalog',
-'bac_COMPRESSION_LEVEL' => 'Level kemampatan backup [0-9]',
+'bac_COMPRESSION_LEVEL' => 'Level kemampatan backup ~[0-9~]',
 'bac_FULL_ONLY_ON' => 'Full backup dibolehkan pada',
 'bac_ERR_INVALID_COMPRESSION' => 'Level kemampatan harus antara 0 (tanpa kompresi) dan 9 (kompresi maksimal)',
 'bac_DOW' => 'Minggu Senin Selasa rabu Kamis Jumat Sabtu Setiap-hari',

@@ -129,7 +129,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Verificar um backup para micro da rede local',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Esta opção mostrará o nome de todos os arquivos de backup para micro da rede local já criados. Você pode usar esta opção para verificar o conteúdo do backup.<b>Você deve escolher o backup que deseja verificar</b></p>
 
-  <p>Somente arquivos marcados com [Saved] estão contidos no backup.</p>
+  <p>Somente arquivos marcados com ~[Saved~] estão contidos no backup.</p>
 
   <br/>Arquivos de backup são verificados a partir do compartilhamento: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Restaurando configuração do servidor a partir do backup feito para micro da rede local',
@@ -176,12 +176,12 @@
 'bac_BACKUP_CHOICE' => 'Selecionando arquivos para mostrar',
 'bac_SELECT_DATE_BEFORE' => 'Restaurar arquivos mais recentes que',
 'bac_FILTER_EXPRESSION' => 'Nomes filtrados por',
-'bac_READ_COMPLETE' => ' Você pode escolher todos os diretórios e arquivos que você não quer restaurar na lista mostrada (use CTRL ou SHIFT para seleção múltipla).  ATENÇÃO : Se você selecionar um diretório, todos arquivos e subdiretórios contidos abaixo dele serão restaurados. O padrão é que somente a versão mais recente dos arquivos selecionados seja restaurada, mas se você especificar uma data no formato [ [ [yyyy/]mm/]dd-]hh:mm[:ss] o processo restaurará apenas a versão mais recente modificadaANTES da data fornecida. ',
-'bac_ERR_INVALID_SELDATE' => 'Formato de data inválido, deve ser[ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
+'bac_READ_COMPLETE' => ' Você pode escolher todos os diretórios e arquivos que você não quer restaurar na lista mostrada (use CTRL ou SHIFT para seleção múltipla).  ATENÇÃO : Se você selecionar um diretório, todos arquivos e subdiretórios contidos abaixo dele serão restaurados. O padrão é que somente a versão mais recente dos arquivos selecionados seja restaurada, mas se você especificar uma data no formato ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] o processo restaurará apenas a versão mais recente modificadaANTES da data fornecida. ',
+'bac_ERR_INVALID_SELDATE' => 'Formato de data inválido, deve ser~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Selecione arquivos para restaurar',
 'bac_ERR_WHILE_UNMOUNTING' => 'Ocorreu um erro quando desmontando o compartilhamento remoto',
 'bac_ERR_DAR_CATALOG' => 'Ocorreu um erro quando usando o catalogo do DAR',
-'bac_COMPRESSION_LEVEL' => 'Nivel de compressão do backup [0-9]',
+'bac_COMPRESSION_LEVEL' => 'Nivel de compressão do backup ~[0-9~]',
 'bac_FULL_ONLY_ON' => 'Backup completo é permitido em',
 'bac_ERR_INVALID_COMPRESSION' => 'O nível de compressão deve ser definido entre 0 (sem compressão) e 9 (compressão máxima)',
 'bac_DOW' => 'Domingo Segunda Terça Quarta Quinta Sexta Sábado TodosDias',

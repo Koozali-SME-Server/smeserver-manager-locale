@@ -128,7 +128,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'İş istasyonu yedeğini doğrula',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Bu seçenek daha önce oluşturulan masaüstü yedeklemelerinin içeriğini göstermektedir. Bunu yedeklemenin içeriğini teyid etmek için kullanabilirsiniz.<b>Doğrulamak istediğiniz yedeklemeyi seçebilirsiniz</b></p>
 
-  <p>Sadece [Kaydedildi] diye işaretlenen dosyalar yedekte yer almaktadır.</p>
+  <p>Sadece ~[Kaydedildi~] diye işaretlenen dosyalar yedekte yer almaktadır.</p>
 
   <br/>Yedek dosyaları paylaşılan bu klasörden kontrol edilecektir : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Sunucu ayarlarını masaüstü yedeğinden geri yükle',
@@ -175,12 +175,12 @@
 'bac_BACKUP_CHOICE' => 'Gösterilecek dosya seçimi',
 'bac_SELECT_DATE_BEFORE' => 'Önce en son yedeklemeyi geri yükle',
 'bac_FILTER_EXPRESSION' => 'Filtrelenen',
-'bac_READ_COMPLETE' => ' Geri yüklemek istediğiniz bütün dosya ve klasörleri listeden seçin (çoklu seçim için ctrl veya shift tuşunu basılı tutun).  Dikkat : Eğer klasör seçerseniz, onun içerdiğiğ tim dosya ve klasörler de geri yüklenecektir. Varsayılan olarak seçilen dosyaların sadece son versiyonu geri yüklenir, fakat belirli bir tarih belirtilirse [ [ [yyyy/]mm/]dd-]hh:mm[:ss] formatında sadece belitilen tarihten önceki yedekler geri yüklenir. ',
-'bac_ERR_INVALID_SELDATE' => 'Geçersiz tarih formatı, gerekli format [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. örn: 2005/12/31-08:23:32 veya 10-08:32 veya 08:32 olmalıdır',
+'bac_READ_COMPLETE' => ' Geri yüklemek istediğiniz bütün dosya ve klasörleri listeden seçin (çoklu seçim için ctrl veya shift tuşunu basılı tutun).  Dikkat : Eğer klasör seçerseniz, onun içerdiğiğ tim dosya ve klasörler de geri yüklenecektir. Varsayılan olarak seçilen dosyaların sadece son versiyonu geri yüklenir, fakat belirli bir tarih belirtilirse ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] formatında sadece belitilen tarihten önceki yedekler geri yüklenir. ',
+'bac_ERR_INVALID_SELDATE' => 'Geçersiz tarih formatı, gerekli format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. örn: 2005/12/31-08:23:32 veya 10-08:32 veya 08:32 olmalıdır',
 'bac_SELECT_FILES_TO_RESTORE' => 'Geri yüklenecek dosyaları seçin',
 'bac_ERR_WHILE_UNMOUNTING' => 'Uzaktaki paylaşımı ayırırken hata oluştu',
 'bac_ERR_DAR_CATALOG' => 'Dar kataloğu kullanılırken hata oluştu',
-'bac_COMPRESSION_LEVEL' => 'Yedekleme sıkıştırma oranı [0-9]',
+'bac_COMPRESSION_LEVEL' => 'Yedekleme sıkıştırma oranı ~[0-9~]',
 'bac_FULL_ONLY_ON' => 'Tam yedeklemeye izin veriliyor',
 'bac_ERR_INVALID_COMPRESSION' => 'Sıkıştırma oranı 0 (sıkıştırma yok) ile 9 (en fazla sıkıştırma) aralığında olmalıdır',
 'bac_DOW' => 'Pazar Pazartesi Salı Çarşamba Perşembe Cuma Cumartesi Hergün',

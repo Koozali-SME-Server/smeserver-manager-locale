@@ -130,7 +130,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => '驗證工作站備份',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => '<p>該選項將顯示之前工作站每日備份檔的所有檔名。您能使用該選項以驗證備份內容。<b>您必須選擇欲驗證的備份檔。</b></p>
 
-  <p>只有當檔案被標記為[Saved]時，才會被包含於備份中。</p>
+  <p>只有當檔案被標記為~[Saved~]時，才會被包含於備份中。</p>
 
   <br/>來自以下共享文件夾的檔案已經被驗證：',
 'bac_RESTORE_CONF_FROM_WORKSTN' => '從工作站備份中還原伺服器設定',
@@ -177,12 +177,12 @@
 'bac_BACKUP_CHOICE' => '顯示選定的檔案',
 'bac_SELECT_DATE_BEFORE' => '還原最近的備份',
 'bac_FILTER_EXPRESSION' => '名稱過濾乃依據',
-'bac_READ_COMPLETE' => '您可以在列表中選擇您想要還原的目錄和文件（使用ctrl鍵或shift鍵可多選）。 注意：倘若您選擇目錄，其所包含的檔案與目錄將被還原。 系統預設還原選訂檔案的最新版本，如果您指定日期[ [ [yyyy/]mm/]dd-]hh:mm[:ss]，程序將只會還原在指定日期之前異動的最新版本。 ',
-'bac_ERR_INVALID_SELDATE' => '錯誤的日期格式，必須為[ [ [yyyy/]mm/]dd-]hh:mm[:ss]，例如：2005/12/31-08:23:32或10-08:32或08:32',
+'bac_READ_COMPLETE' => '您可以在列表中選擇您想要還原的目錄和文件（使用ctrl鍵或shift鍵可多選）。 注意：倘若您選擇目錄，其所包含的檔案與目錄將被還原。 系統預設還原選訂檔案的最新版本，如果您指定日期~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]，程序將只會還原在指定日期之前異動的最新版本。 ',
+'bac_ERR_INVALID_SELDATE' => '錯誤的日期格式，必須為~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]，例如：2005/12/31-08:23:32或10-08:32或08:32',
 'bac_SELECT_FILES_TO_RESTORE' => '選擇欲還原的檔案',
 'bac_ERR_WHILE_UNMOUNTING' => '卸載遠端共享文件時發生錯誤',
 'bac_ERR_DAR_CATALOG' => '當使用Dar類別時發生錯誤',
-'bac_COMPRESSION_LEVEL' => '備份壓縮程度[0-9]',
+'bac_COMPRESSION_LEVEL' => '備份壓縮程度~[0-9~]',
 'bac_FULL_ONLY_ON' => '允許完整備份於',
 'bac_ERR_INVALID_COMPRESSION' => '壓縮程度必須設定介於0（無壓縮）或9（最大壓縮）',
 'bac_DOW' => '週日 週一 週二 週三 週四 週五 週六 每日',

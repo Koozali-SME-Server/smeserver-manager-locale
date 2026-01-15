@@ -130,7 +130,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Verifica il backup su workstation',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Questa opzione visualizzerà i nomi di tutti i file contenuti in un backup su workstation creato in precedenza. E\' possibile utilizzarla per verificare il contenuto del backup.<b>E\' necessario scegliere qualebackup si desidera verificare</b></p>
 
-  <p>Soltanto i file marcati [Saved] sono contenuti nel backup.</p>
+  <p>Soltanto i file marcati ~[Saved~] sono contenuti nel backup.</p>
 
   I file di backup saranno verificati dalla condivisione di rete: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Ripristina configurazione da backup su workstation',
@@ -177,7 +177,7 @@
 'bac_BACKUP_CHOICE' => 'Selezione dei file da mostrare in corso',
 'bac_SELECT_DATE_BEFORE' => 'Ripristina file aggiornati alla data',
 'bac_FILTER_EXPRESSION' => 'Nomi filtrati per',
-'bac_READ_COMPLETE' => ' Selezionare i file e le directory da ripristinare elencati nella lista (utilizzare ctrl o shift per selezioni multiple).  Attenzione : Selezionando una directory, tutti i file e le sottodirectory in essa contenuti verranno ripristinati. Per default sarà ripristinata la versione più recente dei file selezionati, ma indicando una data nel formato [ [ [yyyy/]mm/]dd-]hh:mm[:ss] verrà ripristinata la versione antecedente alla data indicata. ',
+'bac_READ_COMPLETE' => ' Selezionare i file e le directory da ripristinare elencati nella lista (utilizzare ctrl o shift per selezioni multiple).  Attenzione : Selezionando una directory, tutti i file e le sottodirectory in essa contenuti verranno ripristinati. Per default sarà ripristinata la versione più recente dei file selezionati, ma indicando una data nel formato ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] verrà ripristinata la versione antecedente alla data indicata. ',
 'bac_ERR_INVALID_SELDATE' => 'Il formato della data non è valido, deve essere ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. es.: 2005/12/31-08:23:32 oppure 10-08:32 oppure 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Selezionare i file da ripristinare',
 'bac_ERR_WHILE_UNMOUNTING' => 'Si è verificato un errore nell\'umount della condivisione remota',

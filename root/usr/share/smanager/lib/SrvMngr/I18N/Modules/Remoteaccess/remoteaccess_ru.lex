@@ -41,7 +41,7 @@
 'rma_TITLE_SSH' => 'Настройки Secure Shell',
 'rma_TITLE_FTP_ACCESS' => 'Настройки FTP',
 'rma_TITLE_PPTP' => 'Настройки PPTP',
-'rma_VALIDFROM_TITLE' => '[1]',
+'rma_VALIDFROM_TITLE' => '[_1]',
 'Remote access' => 'Удалённый доступ',
 'rma_TITLE_TELNET_ACCESS' => 'Настройки Telnet',
 'rma_TITLE_IPSECRW' => 'Настройки клиента IPSEC (Roadwarrior)',

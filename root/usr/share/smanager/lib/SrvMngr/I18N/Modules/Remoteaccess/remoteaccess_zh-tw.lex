@@ -41,7 +41,7 @@
 'rma_TITLE_SSH' => 'SSH 設定',
 'rma_TITLE_FTP_ACCESS' => 'FTP 設定',
 'rma_TITLE_PPTP' => 'PPTP 設定',
-'rma_VALIDFROM_TITLE' => '[1]',
+'rma_VALIDFROM_TITLE' => '[_1]',
 'Remote access' => '遠端存取',
 'rma_TITLE_TELNET_ACCESS' => 'Telnet 設定',
 'rma_TITLE_IPSECRW' => 'IPSEC 用戶端（Roadwarrior）設定',

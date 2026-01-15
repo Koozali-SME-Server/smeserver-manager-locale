@@ -122,7 +122,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Проверить резервную копию рабочей станции',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>This option will display the names of all files in a previously created workstation daily backup. You can use this option to verify the contents of the backup.<b>You must choose the backup you want to verify</b></p>
 
-  <p>Only files flagged with [Saved] are contained in the backup.</p>
+  <p>Only files flagged with ~[Saved~] are contained in the backup.</p>
 
   <br/>Backup files are verified from shared folder : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Восстановить конфигурацию сервера из резервной копии рабочей станции',
@@ -169,12 +169,12 @@
 'bac_BACKUP_CHOICE' => 'Выбор файлов для отображения',
 'bac_SELECT_DATE_BEFORE' => 'Восстановить последнее перед этим',
 'bac_FILTER_EXPRESSION' => 'Имена, фильтруемые по',
-'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format [ [ [yyyy/]mm/]dd-]hh:mm[:ss] the process will restore only the most recent version modified before the given date. ',
-'bac_ERR_INVALID_SELDATE' => 'Неверный формат даты, должен быть [ [ [гггг/]мм/]дд-]чч:мм[:сс]. т.е.: 2005/12/31-08:23:32 или 10-08:32 или 08:32',
+'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] the process will restore only the most recent version modified before the given date. ',
+'bac_ERR_INVALID_SELDATE' => 'Неверный формат даты, должен быть ~[ ~[ ~[гггг/~]мм/~]дд-~]чч:мм~[:сс~]. т.е.: 2005/12/31-08:23:32 или 10-08:32 или 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Выбрать файлы для восстановления',
 'bac_ERR_WHILE_UNMOUNTING' => 'Произошла ошибка при размонтировании удалённого общего ресурса',
 'bac_ERR_DAR_CATALOG' => 'Ошибка при использовании каталога Dar',
-'bac_COMPRESSION_LEVEL' => 'Уровень сжатия резервной копии [0-9]',
+'bac_COMPRESSION_LEVEL' => 'Уровень сжатия резервной копии ~[0-9~]',
 'bac_FULL_ONLY_ON' => 'Полная резервная копия разрешена на',
 'bac_ERR_INVALID_COMPRESSION' => 'Уровень сжатия должен быть установлен между 0 (без сжатия) и 9 (максимальное сжатие)',
 'bac_DOW' => 'Понедельник Вторник Среда Четверг Пятница Суббота Ежедневно',

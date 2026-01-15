@@ -41,7 +41,7 @@
 'rma_TITLE_SSH' => '安全 Shell 设置',
 'rma_TITLE_FTP_ACCESS' => 'FTP 设置',
 'rma_TITLE_PPTP' => 'PPTP 设置',
-'rma_VALIDFROM_TITLE' => '[1]',
+'rma_VALIDFROM_TITLE' => '[_1]',
 'Remote access' => '远程访问',
 'rma_TITLE_TELNET_ACCESS' => 'Telnet 设置',
 'rma_TITLE_IPSECRW' => 'IPSEC 客户端（移动用户）设置',

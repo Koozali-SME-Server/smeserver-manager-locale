@@ -126,7 +126,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Kontrolli tööjaama varundamist',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>This option will display the names of all files in a previously created workstation daily backup. You can use this option to verify the contents of the backup.<b>You must choose the backup you want to verify</b></p>
 
-  <p>Only files flagged with [Saved] are contained in the backup.</p>
+  <p>Only files flagged with ~[Saved~] are contained in the backup.</p>
 
   <br/>Backup files are verified from shared folder : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => '(en)Restore server configuration from workstation backup',
@@ -173,12 +173,12 @@
 'bac_BACKUP_CHOICE' => 'Kuvatavate failide valimine',
 'bac_SELECT_DATE_BEFORE' => 'Taasta viimane enne',
 'bac_FILTER_EXPRESSION' => 'Nimed filtreeritud:',
-'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format [ [ [yyyy/]mm/]dd-]hh:mm[:ss] the process will restore only the most recent version modified before the given date. ',
-'bac_ERR_INVALID_SELDATE' => 'Date format is invalid, must be [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
+'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] the process will restore only the most recent version modified before the given date. ',
+'bac_ERR_INVALID_SELDATE' => 'Date format is invalid, must be ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Vali failid mis tuleks taastada',
 'bac_ERR_WHILE_UNMOUNTING' => '(en)Error occurs when unmounting distant share',
 'bac_ERR_DAR_CATALOG' => 'Viga Dar kataloogi kasutamisel',
-'bac_COMPRESSION_LEVEL' => 'Backup compression level [0-9]',
+'bac_COMPRESSION_LEVEL' => 'Backup compression level ~[0-9~]',
 'bac_FULL_ONLY_ON' => 'Täielik varundamine on lubatud aadressil',
 'bac_ERR_INVALID_COMPRESSION' => '(en)Compression level must be set between 0 (no compression) and 9 (maximum compression)',
 'bac_DOW' => '(en)Sunday Monday Tuesday Wednesday Thursday Friday Saturday Everyday',

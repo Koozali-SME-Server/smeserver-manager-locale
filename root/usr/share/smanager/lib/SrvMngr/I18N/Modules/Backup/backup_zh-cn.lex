@@ -128,7 +128,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => '检查工作组备份',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>此选项将显示在以前创建的所有工作站的日常备份文件的名称。您可以使用此选项来检查备份的内容.<b>您必须选择您想要检查的备份</b></p>
 
-  <p>只有标记为 [Saved] 的文件才会包含在备份中。</p>
+  <p>只有标记为 ~[Saved~] 的文件才会包含在备份中。</p>
 
   <br/>备份文件已被检查，文件来自于共享文件夹 : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => '从工作组备份还原服务器配置',
@@ -175,12 +175,12 @@
 'bac_BACKUP_CHOICE' => '要显示的可选择文件',
 'bac_SELECT_DATE_BEFORE' => '从最近的备份还原',
 'bac_FILTER_EXPRESSION' => '过滤名称 通过',
-'bac_READ_COMPLETE' => ' 您可以在列表中选择您想要还原的目录和文件 (使用 ctrl 键 或者 shift 键可选择多项)。  警告: 如果您选择了一个目录，那么该目录所包含的文件和目录也将被一同还原。 系统默认选择最新的备份版本，如果您指定了一个日期 [ [ [yyyy/]mm/]dd-]hh:mm[:ss] ，那么将只会还原在指定日期之前被修改的文件。 ',
-'bac_ERR_INVALID_SELDATE' => '非法日期格式，必须为[ [ [yyyy/]mm/]dd-]hh:mm[:ss]，比如： 2005/12/31-08:23:32 或者 10-08:32 or 08:32',
+'bac_READ_COMPLETE' => ' 您可以在列表中选择您想要还原的目录和文件 (使用 ctrl 键 或者 shift 键可选择多项)。  警告: 如果您选择了一个目录，那么该目录所包含的文件和目录也将被一同还原。 系统默认选择最新的备份版本，如果您指定了一个日期 ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] ，那么将只会还原在指定日期之前被修改的文件。 ',
+'bac_ERR_INVALID_SELDATE' => '非法日期格式，必须为~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]，比如： 2005/12/31-08:23:32 或者 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => '选择要还原的文件',
 'bac_ERR_WHILE_UNMOUNTING' => '卸载远端共享时出错',
 'bac_ERR_DAR_CATALOG' => '使用Dar类别时出错',
-'bac_COMPRESSION_LEVEL' => '备份压缩等级[0-9]',
+'bac_COMPRESSION_LEVEL' => '备份压缩等级~[0-9~]',
 'bac_FULL_ONLY_ON' => '完整备份允许在',
 'bac_ERR_INVALID_COMPRESSION' => '压缩等级必须设置为0（不压缩）或者9（压缩最大化）',
 'bac_DOW' => '周日 周一 周二 周三 周三 周五 周六 每天',

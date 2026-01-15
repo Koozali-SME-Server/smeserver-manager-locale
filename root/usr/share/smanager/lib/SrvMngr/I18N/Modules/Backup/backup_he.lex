@@ -122,7 +122,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'בדיקת גיבוי לתחנת עבודה',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>אפשרות זו תציג את שמות כל הקבצים שנוצרו על ידי גיבוי יומי אל תחנת עבודה. ניתן להשתמש באפשרות זו כדי לבדוק את תוכן הגיבוי.<b>עליך לבחור את הגיבויאותו אתה מעוניין לבדוק</b></p>
 
-  <p>רק קבצים בעלי דגל [Saved] מאוכסנים בגיבוי.</p>
+  <p>רק קבצים בעלי דגל ~[Saved~] מאוכסנים בגיבוי.</p>
 
   <br/>קבצי גיבוי נבדקים מתוך תיקיית השיתוף: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'שחזור הגדרות שרת מגיבוי אל תחנת עבודה',
@@ -169,12 +169,12 @@
 'bac_BACKUP_CHOICE' => 'בחירת קבצים לתצוגה',
 'bac_SELECT_DATE_BEFORE' => 'שחזר את האחרון לפני',
 'bac_FILTER_EXPRESSION' => 'שמות מסוננים לפי',
-'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format [ [ [yyyy/]mm/]dd-]hh:mm[:ss] the process will restore only the most recent version modified before the given date. ',
-'bac_ERR_INVALID_SELDATE' => 'Date format is invalid, must be [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
+'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] the process will restore only the most recent version modified before the given date. ',
+'bac_ERR_INVALID_SELDATE' => 'Date format is invalid, must be ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'בחר קבצים לשחזור',
 'bac_ERR_WHILE_UNMOUNTING' => '(en)Error occurs when unmounting distant share',
 'bac_ERR_DAR_CATALOG' => 'שגיאה בעת שימוש בקטלוג Dar',
-'bac_COMPRESSION_LEVEL' => 'Backup compression level [0-9]',
+'bac_COMPRESSION_LEVEL' => 'Backup compression level ~[0-9~]',
 'bac_FULL_ONLY_ON' => 'גיבוי מלא מותר ב-',
 'bac_ERR_INVALID_COMPRESSION' => '(en)Compression level must be set between 0 (no compression) and 9 (maximum compression)',
 'bac_DOW' => '(en)Sunday Monday Tuesday Wednesday Thursday Friday Saturday Everyday',

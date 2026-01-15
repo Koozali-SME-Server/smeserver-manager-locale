@@ -130,7 +130,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Kontroller sikkerhedskopi på lokalnet',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Denne mulighed vil vise navnene på alle filer i en tidligere dannet sikkerhedskopi. Du kan bruge denne mulighed til at bekræfte sikkerhedskopiens indhold.<b> Du skal vælge den sikkerhedskopi du ønsker at undersøge</b></p>
 
-  <p>Kun filer markeret med [Saved] er sikkerhedskopieret.</p>
+  <p>Kun filer markeret med ~[Saved~] er sikkerhedskopieret.</p>
 
   <br/> Filerne i sikkerhedskopien bliver kontrolleret fra den delte mappe: ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Gendan fra lokalnet',
@@ -177,12 +177,12 @@
 'bac_BACKUP_CHOICE' => 'Vælg filer der skal vises',
 'bac_SELECT_DATE_BEFORE' => 'Gendan seneste inden',
 'bac_FILTER_EXPRESSION' => 'Navne filtreret efter',
-'bac_READ_COMPLETE' => ' Du kan vælge alle filer og mapper du ønsker gendannet fra den viste liste (brug ctrl og shift til massevalg).  Advarsel : Vælger du en mappe vil alle filer og mapper i mappen blive gendannet. I udgangspunkt vil de seneste versioner af de valgte filer blive gendannet, medmindre du specificerer en dato i formatet [ [ [åååå/]mm/]dd-]tt:mm[:ss] denne proces vil kun gendanne de seneste ændrede versioner inden den angivne dato. ',
-'bac_ERR_INVALID_SELDATE' => 'Ugyldigt datoformat, det skal være [ [ [åååå/]mm/]dd-]tt:mm[:ss]. F.eks.: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32',
+'bac_READ_COMPLETE' => ' Du kan vælge alle filer og mapper du ønsker gendannet fra den viste liste (brug ctrl og shift til massevalg).  Advarsel : Vælger du en mappe vil alle filer og mapper i mappen blive gendannet. I udgangspunkt vil de seneste versioner af de valgte filer blive gendannet, medmindre du specificerer en dato i formatet ~[ ~[ ~[åååå/~]mm/~]dd-~]tt:mm~[:ss~] denne proces vil kun gendanne de seneste ændrede versioner inden den angivne dato. ',
+'bac_ERR_INVALID_SELDATE' => 'Ugyldigt datoformat, det skal være ~[ ~[ ~[åååå/~]mm/~]dd-~]tt:mm~[:ss~]. F.eks.: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Vælg filer til gendannelse',
 'bac_ERR_WHILE_UNMOUNTING' => 'Der skete en fejl under afmonteringen af den delte fjernmappe',
 'bac_ERR_DAR_CATALOG' => 'Fejl under brug af Dar-kataloget',
-'bac_COMPRESSION_LEVEL' => 'Komprimeringsniveau [0-9]',
+'bac_COMPRESSION_LEVEL' => 'Komprimeringsniveau ~[0-9~]',
 'bac_FULL_ONLY_ON' => 'Fuld sikkerhedskopi er tilladt',
 'bac_ERR_INVALID_COMPRESSION' => 'Komprimeringsniveau skal være mellem 0 (ingen komprimering) og 9 (maksimal komprimering)',
 'bac_DOW' => 'Søndag Mandag Tirsdag Onsdag Torsdag Fredag Lørdag Dagligt',

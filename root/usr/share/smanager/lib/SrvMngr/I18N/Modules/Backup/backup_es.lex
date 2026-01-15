@@ -128,7 +128,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Verificar respaldo de ordenador remoto',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>Esta opción le mostrará los nombres de todos los archivos dentro de un respaldo previo diario en ordenador remoto. Puede utilizar esta opción para verificar los contenidos del respaldo.<b>Debe elegir el respaldo que desea verificar</b></p>
 
-  <p>Sólo los archivos marcados con [Guardado] están contenidos en el respaldo.</p>
+  <p>Sólo los archivos marcados con ~[Guardado~] están contenidos en el respaldo.</p>
 
   <br/>Los archivos de respaldo son verificados desde la carpeta compartida : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => 'Restaurar la configuración del servidor desde el respaldo en ordenador remoto',
@@ -175,7 +175,7 @@
 'bac_BACKUP_CHOICE' => 'Seleccionar archivos para ver',
 'bac_SELECT_DATE_BEFORE' => 'Restaurar el más reciente antes de',
 'bac_FILTER_EXPRESSION' => 'Nombres filtrados por',
-'bac_READ_COMPLETE' => ' Puede elegir todos los directorios y archivos que desee restaurar en la lista mostrada (use ctrl o shift para selecciones múltiples). Advertencia : Si selecciona un directorio, todos los archivos y directorios contenidos serán restaurados. Por defecto será restaurada la versión más reciente de los archivos seleccionados, pero si usted especifica una fecha en el formato [ [ [yyyy/]mm/]dd-]hh:mm[:ss] el proceso restaurará solamente la versión más recientemente modificada anterior a la fecha suministrada. ',
+'bac_READ_COMPLETE' => ' Puede elegir todos los directorios y archivos que desee restaurar en la lista mostrada (use ctrl o shift para selecciones múltiples). Advertencia : Si selecciona un directorio, todos los archivos y directorios contenidos serán restaurados. Por defecto será restaurada la versión más reciente de los archivos seleccionados, pero si usted especifica una fecha en el formato ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] el proceso restaurará solamente la versión más recientemente modificada anterior a la fecha suministrada. ',
 'bac_ERR_INVALID_SELDATE' => 'El formato de fecha es inválido, debe ser ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ej: 2005/12/31-08:23:32 o 10-08:32 o 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Seleccionar archivos para restaurar',
 'bac_ERR_WHILE_UNMOUNTING' => 'Ha ocurrido un error cuando se desmontaba el recurso compartido distante',

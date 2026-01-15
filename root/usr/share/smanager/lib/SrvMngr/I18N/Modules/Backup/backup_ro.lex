@@ -73,7 +73,7 @@
 
   ',
 'bac_ENABLE_TAPE_BACKUP' => 'Activați salvarea pe bandă',
-'bac_TAPE_BACKUP_TIME' => 'Ora de salvare pe bandă [oră/minut]',
+'bac_TAPE_BACKUP_TIME' => 'Ora de salvare pe bandă ~[oră/minut~]',
 'bac_LOAD_TAPE_REMINDER_TIME' => 'Oră reamintire incărcare bandă (oră/minut)',
 'bac_AM/PM' => 'AM (dimineață) / PM (dupăamiază)',
 'bac_AM' => 'AM (Dimineață)',
@@ -128,7 +128,7 @@
 'bac_VERIFY_WORKSTN_BACKUP_FILE' => 'Verificați salvările pe stația de lucru',
 'bac_VERIFY_WORKSTN_BACKUP_DESC' => ' <p>This option will display the names of all files in a previously created workstation daily backup. You can use this option to verify the contents of the backup.<b>You must choose the backup you want to verify</b></p>
 
-  <p>Only files flagged with [Saved] are contained in the backup.</p>
+  <p>Only files flagged with ~[Saved~] are contained in the backup.</p>
 
   <br/>Backup files are verified from shared folder : ',
 'bac_RESTORE_CONF_FROM_WORKSTN' => '(en)Restore server configuration from workstation backup',
@@ -175,12 +175,12 @@
 'bac_BACKUP_CHOICE' => 'Selectarea fișierelor de afișat',
 'bac_SELECT_DATE_BEFORE' => 'Restaurează cea mai recentă versiune anterioară',
 'bac_FILTER_EXPRESSION' => 'Nume filtrate după',
-'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format [ [ [yyyy/]mm/]dd-]hh:mm[:ss] the process will restore only the most recent version modified before the given date. ',
-'bac_ERR_INVALID_SELDATE' => 'Date format is invalid, must be [ [ [yyyy/]mm/]dd-]hh:mm[:ss]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
+'bac_READ_COMPLETE' => ' You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] the process will restore only the most recent version modified before the given date. ',
+'bac_ERR_INVALID_SELDATE' => 'Date format is invalid, must be ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32',
 'bac_SELECT_FILES_TO_RESTORE' => 'Selectați fișierele de restaurat',
 'bac_ERR_WHILE_UNMOUNTING' => '(en)Error occurs when unmounting distant share',
 'bac_ERR_DAR_CATALOG' => 'Eroare la utilizarea catalogului Dar',
-'bac_COMPRESSION_LEVEL' => 'Backup compression level [0-9]',
+'bac_COMPRESSION_LEVEL' => 'Backup compression level ~[0-9~]',
 'bac_FULL_ONLY_ON' => 'Este permisă copierea de rezervă completă pe',
 'bac_ERR_INVALID_COMPRESSION' => '(en)Compression level must be set between 0 (no compression) and 9 (maximum compression)',
 'bac_DOW' => '(en)Sunday Monday Tuesday Wednesday Thursday Friday Saturday Everyday',
