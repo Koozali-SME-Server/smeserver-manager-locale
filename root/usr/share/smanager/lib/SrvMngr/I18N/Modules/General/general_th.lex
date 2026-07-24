@@ -138,4 +138,4 @@
 'NO_PIPES_ALLOWED' => 'ไม่อณุญาตให้ใช้เครื่องหมายไปป์ (|) ในฟิลด์นี้',
 'info_dev_mode_and_public' => '(en)Warning: Development or debug mode enabled AND public access is offered !',
 'info_not_changed_password' => '(en)Warning: you have not yet changed the default system password.',
-'info_reconfigure_required' => '(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!',
+'info_reconfigure_required' => '(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!','Please_Wait' => '(en) Please Wait...',

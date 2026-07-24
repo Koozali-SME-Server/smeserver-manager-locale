@@ -138,3 +138,4 @@
 'info_dev_mode_and_public' => 'Attention : le mode développement ou débogage est activé ET un accès public est offert !',
 'info_not_changed_password' => 'Attention : vous n’avez pas encore modifié le mot de passe système par défaut.',
 'info_reconfigure_required' => 'Attention : une reconfiguration et un redémarrage sont nécessaires avant de continuer ! Ne pas le faire maintenant peut laisser votre système dans un état inconnu !',
+'Please_Wait' => 'Veuillez Patienter...',
