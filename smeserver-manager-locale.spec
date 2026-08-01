@@ -2,7 +2,7 @@ Summary: SME Server Manager localisation module (manager 2)
 %define name smeserver-manager-locale
 Name: %{name}
 %define version 11.0.0
-%define release 19
+%define release 20
 %define package_summary SME Server Manager localisation module
 %define group Applications/System
 %define package_locales bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
@@ -21,6 +21,9 @@ AutoReqProv: no
 SME Server Manager 2 localisation module (smeserver-manager)
 
 %changelog
+* Sat Aug 01 2026 Brian Read <brianr@koozali.org> 11.0.0-20.sme
+- Renamed I18N Module dir from Yum to Dnf [SME: 13635]
+
 * Fri Jul 24 2026 Brian Read <brianr@koozali.org> 11.0.0-19.sme
 - Add Please Wait to lex strings [SME: 13661]
 
