@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "Потребители"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "Грешка: акаунтът \"[_1]\" не може да бъде създаден защото вече има акаунт с това име [_2]."
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "потребителско име"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "Грешка: името на акаунта е прекалено дълго. Допустимият максимум е [_1] знака."
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "В потребителското име \"[_1]\" има невалидни символи. Потребителските имена трябва да започват с малка буква и да съдържат само малки букви, цифри, тирета, точки и долни черти."
+
+msgid "usr_ADD_USER"
+msgstr "Добавяне на потребителски акаунт"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "Това поле не може да съдържа празни знаци"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "Грешка: възникна вътрешна грешка по време на опита за промяна на потребителя \"[_1]\"."
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "град"
+
+msgid "usr_COMPANY"
+msgstr "фирма"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr "  Потребителското име трябва да съдържа само малки букви, цифри, тирета, точки, знаци за подчертаване и трябва да започва с малка буква. Например, \"betty\", \"hjohnson\" и \"mary-jane\" са валидни потребителски имена, а \"3friends\", \"John Smith\" и \"henry:miller\" не са валидни. \n\n  <p> Отбележете, че за всеки нов акаунт ще бъдат създадени по два специални псевдонима. Тези псевдоними предоставят възможността да имате алтернативни пощенски адреси за тези потребители, които включват името и фамилията им, разделени с точка (.) и знак за подчертаване (_). Така че за акаунтът \"betty\" с име \"Betty\" и фамилия \"Rubble\" ще бъдат създадени два псевдонима - betty.rubble и betty_rubble. </p>\n\n  <p> Информацията в директорията (отдел, фирма и т.н.) може да бъде променяна спрямо стойностите по подразбиране показани по-долу. Промените ще се отнасят само до този потребител. </p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "Текуща системна парола"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "едновремено доставяне локално и препращане"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "Локално доставяне на електронна поща"
+
+msgid "usr_DEPARTMENT"
+msgstr "отдел"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "доставяне на електронна поща"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "Появи се грешка при създаване на потребител."
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "Възникна грешка при опит за изтриване на потребителя."
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "Възникна грешка при актуализацията на паролата"
+
+msgid "usr_FIRSTNAME"
+msgstr "име"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">Добавяне на акаунт</a> \n\n  <p> Можете да променяте, заключвате или изтривате всеки акаунт, както и да презадавате паролата за акаунта като кликвате върху линковете в съседство на акаунта. </p>\n\n  <p> Ако акаунта е маркиран като заключен, това означава че трябва да се промени паролата му. Моля, отбележете че новосъздадение акаутни са автоматично заключени докато не се промени тяхната парола. </p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "Създаване, промяна или изтриване на потребителски акаунти"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "адрес за препращане"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "Препращане на електронна поща на следния адрес"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "Членство в групи"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "Зареждане на цифров сертификат в IPSec клиент"
+
+msgid "usr_LASTNAME"
+msgstr "фамилия"
+
+msgid "usr_LOCK"
+msgstr "Заключи"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "Потребителят с име \"[_1]\" бе успешно заключен."
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "Заключи потребител"
+
+msgid "usr_LOCK_DESC"
+msgstr "На път сте да заключите потребител"
+
+msgid "usr_LOCK_DESC2"
+msgstr " Този потребител ще бъде заключен. Това означава, че този потребител няма да може да влиза в сървъра и няма да може да си чете пощата. Ел. съобщения, които пристигат ще продължават да се съхраняват и/или препращат към външен адрес за ел. поща, както е било зададено преди това. Потребителят може да бъде активиран в бъдеще като му се зададе нова парола. Текущата парола няма да бъде запазена.   Сигурни ли сте, че желаете да заключите този потребител? "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "Член?"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "Промяна на акаунта на admin"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "Нова системна парола"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "Нова системна парола (проверка)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "Грешка: потребителят с име \"[_1]\" не съществува."
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "Няма потребители в тази система."
+
+msgid "usr_P2_TITLE"
+msgstr "Създаване или промяна"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "Паролата на потребителя \"[_1]\" бе успешно променена."
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "телефон"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "Грешка: псевдонима \"[_1]\" е вече зает от съществуващ потребител с име \"[_2]\". За да го направите различен добавете инициалите в това поле."
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "Премахни потребител"
+
+msgid "usr_REMOVE_DESC"
+msgstr "На път сте да премахнете потребител"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " Всички файлове принадлежащи на този потребител ще бъдат изтрити. Също, всички ел. съобщения за този потребител, които са все още на сървъра (напр. които не са изтеглени от потребителя) ще бъдат игнорирани/изтрити.   Сигурни ли сте, че искате да премахнете потребителя? "
+
+msgid "usr_RESET_DESC"
+msgstr "На път сте да промените паролата за потребител"
+
+msgid "usr_RESET_DESC2"
+msgstr "Въведете новата парола в полетата по-долу"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "адрес"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "Текущата парола е неправилна."
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "Системната парола беше променена."
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr " Някои от услугите на тази сървърна инсталация изискват потребителско име и парола (например тази страница с приложението за управление на сървъра). Потребителското име винаги е admin. Можете да промените системната парола като използвате полетата по-долу. "
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "Паролата трябва да съдържа само печатаеми символи"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "Двете пароли не са еднакви."
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "Името на акаунта \"[_1]\" съдържа грешни символи."
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "Това поле трябва да съдържа само букви, числа, точки, тирета и подчертаващи знаци и да започва с буква"
+
+msgid "usr_USER_CREATED"
+msgstr "Потребителският акаунт беше успешно добавен."
+
+msgid "usr_USER_MODIFIED"
+msgstr "Потребителският акаунт е успешно променен."
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "Достъп с клиент за VPN"

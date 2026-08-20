@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Quota module\n"
+"POT-Creation-Date: 2026-08-20 12:56+0100\n"
+"PO-Revision-Date: 2026-08-20 12:56+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+
+msgid "COULD_NOT_GET_UID"
+msgstr "(en) COULD_NOT_GET_UID"
+
+msgid "Quotas"
+msgstr "(en) Quotas"
+
+msgid "quo_ABS_LIMIT"
+msgstr "Limită absolută"
+
+msgid "quo_ABS_LIMIT_MB"
+msgstr "Limită absolută (MB)"
+
+msgid "quo_ACCOUNT_IS_TYPE"
+msgstr "Este un cont de tip:"
+
+msgid "quo_CURRENTLY_HAS"
+msgstr "actual are:"
+
+msgid "quo_CURRENT_USAGE"
+msgstr "Utilizare curentă (MB)"
+
+msgid "quo_CURRENT_USAGE_AND_SETTINGS"
+msgstr "Utilizare actuală quota și setări"
+
+msgid "quo_ERR_HARD_LT_SOFT"
+msgstr "Eroare: limita absolută trebuie să fie mai mare ca ce cu perioadă de grație."
+
+msgid "quo_ERR_MODIFYING"
+msgstr "O eroare a apărut la actualizarea utilizatorului."
+
+msgid "quo_ERR_NOT_A_USER_ACCT"
+msgstr "Eroare: contul nu este de tip utilizator:"
+
+msgid "quo_ERR_NO_SUCH_ACCT"
+msgstr "Eroare: nu există cont:"
+
+msgid "quo_FILES"
+msgstr "fișiere"
+
+msgid "quo_FORM_TITLE"
+msgstr "Crează, modifică sau sterge quota utilizatorilor"
+
+msgid "quo_HARD_VAL_MUST_BE_NUMBER"
+msgstr "Eroare: limitarea absolută trebuie să fie un număr, opțional urmat de unitatea de mărime K, M, G sau T."
+
+msgid "quo_INSTRUCTIONS"
+msgstr "Introduceți quota cu sufix opțional \"K\" pentru Kiloocteți, \"M\" pentru Megaocteți, \"G\" pentru Gigaocteți, \"T\" pentru Teraocteți. Unitatea implicită dacă nu se trece nici un sufix este Megaoctetul. Setarea cu 0 a ambelor dezactiveaza limitele pentru utilizatorul respectiv."
+
+msgid "quo_LIMIT_WITH_GRACE"
+msgstr "Limitare cu perioadă de grație"
+
+msgid "quo_LIMIT_WITH_GRACE_MB"
+msgstr "Limitare cu perioadă de grație (MB)"
+
+msgid "quo_MEGABYTES"
+msgstr "megaocteți"
+
+msgid "quo_MODIFY_USER_TITLE"
+msgstr "Modifică limitele de quota ale utilizatorului"
+
+msgid "quo_OCCUPYING"
+msgstr "ce ocupă:"
+
+msgid "quo_QUOTA_DESC"
+msgstr " Puteți seta quota de disk pentru utilizatori apăsând butonul \"Modifică\" de lângă utilizatorul dorit. Dacă utilizatorul depășeste \"Limita cu perioadă de grație\", un avertisment va fi generat. Dacă limita este incălcată pentru o perioadă mai mare de o săptamână sau dacă se atinge \"Limita absolută\", utilizatorul nu va mai putea salva alte fișiere sau să primeasca alte emailuri. Setarea '0' pentru ambele limite dezactiveaza limitele utilizatorului. Spațiul utilizat de utilizator include directorul home al lui, emailurile și toate fișierele deținute în ibay-uri.. "
+
+msgid "quo_SOFT_VAL_MUST_BE_NUMBER"
+msgstr "Eroare: limitarea cu perioadă de grație trebuie să fie un număr, opțional urmat de unitatea de mărime K, M, Gsau T."
+
+msgid "quo_SUCCESSFULLY_MODIFIED"
+msgstr "Quota modificată cu succes pentru utilizatorul:"
+
+msgid "quo_USER"
+msgstr "Utilizator:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "quo_COULD_NOT_GET_UID"
+#~ msgstr "Nu se poate determina UID-ul utilizatorului:"
+#~ msgid "quo_Quotas"
+#~ msgstr "Quote"
+#~ msgid "quo_UNABLE_TO_OPEN_ACCOUNTS"
+#~ msgstr "Nu s-a putut deschide baza de conturi"

@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "Kullanıcılar"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "Hata: \"[_1]\" hesabı oluşturulamadı çünkü [_2] isimli bir hesap zaten mevcut."
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "Hesap adı"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "Hata: kullanıcı adı çok uzun. En fazla [_1] karakter kullanılabilir."
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "[_1]\" kullancı adı geçersiz karakter içeriyor. Hesap adı küçük harfle başlamalı ve küçük harfler, rakamlar, tire, nokta ve alt çizgi içermelidir."
+
+msgid "usr_ADD_USER"
+msgstr "Kullanıcı hesabı ekle"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "Bu alan boşluk içermemelidir"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "Hata: \"[_1]\" isimli kullanıcının ayarları değiştirilirken hata meydana geldi."
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "Şehir"
+
+msgid "usr_COMPANY"
+msgstr "Şirket"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr "  Hesap adı sadece küçük harf, rakam, tire aplçizgi ve noktadan oluşabilir ve küçük harfle başlamalıdır. Örneğin \"betty\", \"hjohnson\" ve \"mary-jane\" geçerli kullanıcı isimleridir, fakat \"3friends\", \"John Smith\", and \"henry:miller\" geçersizdir. \n\n  <p> Her yeni hesap için iki takma ad atandığını unutmayın. Bu takma adlar kullanıcı için alternatif e-posta kutuları oluşturur, kullanıcının adı ve soyadı arasında nokta (.) vealtçizgi (_) konarak oluşturulur. Örneğin \"betty\" kullanıcısını ilk adı \"Betty\" ve soyadı \"Rubble\" ise e-posta için iki takma ad oluşturulacaktır betty.rubble ve betty_rubble. </p>\n\n  <p> Adres defteri bilgileri (departman, şirket vb.) aşağıda değiştirilebilri. Bu bilgiler sadece bu kullanıcı için geçerli olacaktır. </p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "Geçerli sistem şifresi"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "Hem yerel, hem de harici adrese yönlendir"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "E-posta dağıtımını bu sunucudan yap"
+
+msgid "usr_DEPARTMENT"
+msgstr "Departman"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "E-posta dağıtımı"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "Kullanıcı oluşturulurken hata meydana geldi."
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "Kullanıcı silinirken hata oluştu"
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "Şifre güncellenirken hata oluştu"
+
+msgid "usr_FIRSTNAME"
+msgstr "Kullanıcı adı"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">Kullanıcı hesabı ekle</a> \n\n  <p> Herhangi bir hesapta değişiklik yapmak, kilitlemek, şifresini değiştirmek veya şifresini sıfırlamak için ilgili hesabın sonundaki butonlara tıklayın. </p>\n\n  <p> Eğer kullanıcı durumu kiltli görünüyorsa, bu kullanıcının şifresi sıfırlanmalıdır. Yeni oluşturulan hesaplar, şifresi değiştirilene kadar kilitlidir. </p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "Kullanıcı hesabı oluştur, değiştir veya sil"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "Varış adresi"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "Aşağıdaki e-posta adresine ilet"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "Grup üyeleri"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "Dijital sertifikaları IPSec istemcisine indir"
+
+msgid "usr_LASTNAME"
+msgstr "Soayadı"
+
+msgid "usr_LOCK"
+msgstr "Kilitli"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "[_1]\" kullanıcısının hesabı başarıyla kilitlendi."
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "Kullanıcı hesabını kilitle"
+
+msgid "usr_LOCK_DESC"
+msgstr "Kullanıcının hesabını kilitlemek üzeresiniz"
+
+msgid "usr_LOCK_DESC2"
+msgstr " Bu kullanıcının hesabı kilitlenecektir. Bu durumda bu kullanıcı sisteme giriş yapamayacaktır ve e-postalarına ulaşamayacaktır. Gelen e-postalar saklanacak ve / veya harici e-posta adresine yönlendirilecek, yapılandırılmış ise. Hesap, daha sonra şifre verilerek tekrar aktifleştirilebilir. Geçerli şifre korunmayacaktır.   Hesabı kiltlemek istediğinizden eminmisiniz? "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "Üye?"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "admin hesabını değiştir"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "Sistemin yeni şifresi"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "Sistemin yeni şifresi (doğrula)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "Hata: \"[_1]\" kullanıcısının hesabı bulunamadı."
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "Kullanıcı hesabı bulunamadı."
+
+msgid "usr_P2_TITLE"
+msgstr "Oluştur veya değiştir"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "[_1]\" kullanıcısının şifresi başarıyla değiştirildi."
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "Telefon numarası"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "Hata: takma isim \"[_1]\" zaten var olan \"[_2]\" kullanıcının hesabı ile alınır . Farklılaştırmak için, bu alanın başına harfleri ekleyin."
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "Kullanıcı hesabını sil"
+
+msgid "usr_REMOVE_DESC"
+msgstr "Kullanıcı hesabını silmek üzeresiniz"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " Bu kullanıcı hesabına ait bütün dosyalar silinecektir. Sunucuda bu kullanıcıya ait bekleyen e-postalar da dahil (örn. kullanıcı tarafından henüz okunmamış mesajlar) iptal edilecektir.   Bu kullanıcı hesabını silmek istediğinizden eminmisiniz? "
+
+msgid "usr_RESET_DESC"
+msgstr "Kullanıcı hesabının şifresini değiştirmek üzeresiniz"
+
+msgid "usr_RESET_DESC2"
+msgstr "Aşağıdaki alanlara yeni şifrenizi girin"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "Adres"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "Mevcut şifre doğru girilmedi."
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "Sistem şifresi değiştirildi."
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr " Bu sunucudaki bazı servisler kullanıcı adı ve şifre gerktirir (örneğin sunucu yöneticisinin web erişimi için). Kullanıcı adı her zaman \"admin\" dir. Sistem şifresini aşaığdaki alanı kullanarak değiştirebilirsiniz. "
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "Şifre, sadece yazdırılabilir karakterlerden oluşmalıdır"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "İki şifre aynı değil."
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "Girilen hesap adı \"[_1]\" geçersiz karakterler içeriyor."
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "Bu alan sadece harfler, sayılar, nokta, tire ve altçizgi içerebilir ve harfle başlamalıdır"
+
+msgid "usr_USER_CREATED"
+msgstr "Kullanıcı hesabı başarıyla oluşturuldu"
+
+msgid "usr_USER_MODIFIED"
+msgstr "Kullanıcı hesabı başarıyla değiştirildi"
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "VPN Kullanıcı Erişimi"

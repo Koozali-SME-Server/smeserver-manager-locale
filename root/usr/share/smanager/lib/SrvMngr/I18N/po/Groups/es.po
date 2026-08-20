@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Groups module\n"
+"POT-Creation-Date: 2026-08-20 14:49+0100\n"
+"PO-Revision-Date: 2026-08-20 14:49+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "DELETE_ERROR"
+msgstr "(en) DELETE_ERROR"
+
+msgid "grp_ACCOUNT_CONFLICT"
+msgstr "Error: el grupo \"[_1]\" no se puede crear porque ya hay una cuenta [_2] con ese nombre."
+
+msgid "grp_CREATED_GROUP"
+msgstr "Se creó con éxito el grupo de usuario"
+
+msgid "grp_CREATE_ERROR"
+msgstr "Ocurrió un error al crear el grupo de usuario."
+
+msgid "grp_CURRENT_LIST"
+msgstr "Lista actual de Grupos de Usuario\n\n  "
+
+msgid "grp_DELETED_GROUP"
+msgstr "Se eliminó con éxito el grupo de usuario"
+
+msgid "grp_DELETE_DESCRIPTION"
+msgstr " Está a punto de eliminar el grupo de usuario \"[_1]\". "
+
+msgid "grp_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "grp_FORM_TITLE"
+msgstr "Crear, modificar o eliminar grupos de usuarios"
+
+msgid "grp_GROUP_DESC"
+msgstr "Breve Descripción/Alias de Grupo de Windows"
+
+msgid "grp_GROUP_DESC_EXPL"
+msgstr "Ingrese una breve descripción en el campo inferior. Este campo también designa el nombre de grupo visible por los clientes Windows."
+
+msgid "grp_GROUP_HAS_MEMBERS"
+msgstr "Este grupo contiene los siguientes miembros:"
+
+msgid "grp_GROUP_NAMING"
+msgstr " El nombre del grupo debe contener sólo letras minúsculas números, puntos, guiones y subguiones, y debe comenzar con una letra minúscula. Por ejemplo, \"ventas\", \"beta5\", y \"clientes_vip\" son todos nombres de grupo válidos, pero \"3asociados\", \"Juan Smith\" y \"Equipo de Marketing\" no lo son. "
+
+msgid "grp_GROUP_TOO_LONG"
+msgstr "Error: el nombre del grupo es demasiado largo. El máximo es de [_1] caracteres."
+
+msgid "grp_IBAYS_WILL_BE_CHANGED"
+msgstr "Las siguientes bahías de información se asignaron a este grupo y se cambiarán al grupo del Administrador (puede cambiarlas posteriormente a otra cosa):"
+
+msgid "grp_MODIFIED_GROUP"
+msgstr "Se modificó con éxito el grupo de usuario"
+
+msgid "grp_MODIFY_ERROR"
+msgstr "Ocurrió un error al modificar el grupo de usuario."
+
+msgid "grp_NOT_A_GROUP"
+msgstr "Error: Esa no es una cuenta de grupo existente."
+
+msgid "grp_NO_MEMBERS"
+msgstr "Error: no hay miembros en el grupo. No se creó el nuevo grupo."

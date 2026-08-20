@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "Kasutajad"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "Viga: Kasutajat \"[_1]\" ei saanud luua kuna on juba [_2] sellise nimega."
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "Kasutajanimi"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "VIGA: konto nimi on liiga pikk. Maksimum on [_1] sümbolit."
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "Kasutajanimi \"[_1]\" sisaldab sobimatuid sümboleid.Kasutajanimi peab algama väiketähega ja koosnema ainult väiketähtedest, numbritest, hyphens, periods ja underscores."
+
+msgid "usr_ADD_USER"
+msgstr "Lisa kasutajakonto"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "See väli ei tohi sisaldada tühikuid"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "Viga: süsteemi viga konto \"[_1]\" muutmisel"
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "Linn"
+
+msgid "usr_COMPANY"
+msgstr "Asutus"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr "  The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example \"betty\", \"hjohnson\", and \"mary-jane\" are all valid account names, but \"3friends\", \"John Smith\", and \"henry:miller\" are not. \n\n  <p> Note that two special pseudonyms will be created for each new account. These pseudonyms provide the ability to have alternative mail accounts for that user which include their first name and last name separated with a period (.) and underscore (_). So, for the account \"betty\" with first name \"Betty\" and last name \"Rubble\" two pseudonyms are created as betty.rubble and betty_rubble. </p>\n\n  <p> The directory information (department, company, etc.) can be changed from the defaults shown below. The changes will apply only to this user. </p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "Kehtiv süsteemi parool"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "Edasta ja jäta koopia"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "Edasta lokaalselt"
+
+msgid "usr_DEPARTMENT"
+msgstr "Osakond"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "E-posti saatmine"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "Kasutaja loomisel ilmnes viga."
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "Kasutaja kustutamisel ilmnes viga."
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "Parooli uuendamisel ilmnes viga"
+
+msgid "usr_FIRSTNAME"
+msgstr "Eesnimi"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">Lisa kasutajakonto</a> \n\n  <p> Kasutajakontosid saad muuta, lukustada ja kustutada kui klikid kasutajakonto taga olevaid linke. </p>\n\n  <p> Kui konto tga on kirjas et \"Konto on lukus\" siis avamiseks tuleb talle uus parool luua. Pane tähele, et uue kasutajakonto loomisel on ta automaatselt lukus, kuni talle parool luuakse. </p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "Lisa, muuda või eemalda kasutajakontosid"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "Aadress kuhu edastada"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "Edasta e-post aadressile"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "Grupi liige"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "(en)Download digital certificate to IPSec client"
+
+msgid "usr_LASTNAME"
+msgstr "Perenimi"
+
+msgid "usr_LOCK"
+msgstr "Lukusta"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "Konto \"[_1]\" on edukalt lukustatud."
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "Lukusta kasutajakonto"
+
+msgid "usr_LOCK_DESC"
+msgstr "Oled kindel, et tahad kasutajakonto lukustada"
+
+msgid "usr_LOCK_DESC2"
+msgstr " See kasutajakonto lukustatakse.See tähendab, et kasutaja ei saa sisse logida ja ta ei saa ka e-posti näha. Kuid kõik saabuvad kirjad salvestatakse ja/või saadetakse edasi muule aadressile, kui see on määratud. Seda kontot saab hiljem aktiveerida luues talle uue parooli.   Oled kindel et tahad siiski selle konto lukustada? "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "Liige?"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "Muuda admin-i kontot"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "Uus süsteemi parool"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "Uus süsteemi parool (korda uut parooli)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "Viga: kasutajakontot \"[_1]\" ei eksisteeri."
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "Selles serveris pole kasutajakontosid."
+
+msgid "usr_P2_TITLE"
+msgstr "Lisa või muuda"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "Kasutaja \"[_1]\". parool on edukalt muudetud."
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "Telefon"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "Viga:pseudonym \"[_1]\" is already taken by the existing user account \"[_2]\". To differentiate, add initials to this field."
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "Eemalda kasutajakonto"
+
+msgid "usr_REMOVE_DESC"
+msgstr "Oled kindel, et tahad kasutajakonto kustutada"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " Kõik failid mis kuuluvad sellele kasutajakontole kustutatakse. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded.   Oled kindel, et tahad seda kasutajakontot kustutada? "
+
+msgid "usr_RESET_DESC"
+msgstr "Oled kindel, et tahad kasutaja parooli muuta"
+
+msgid "usr_RESET_DESC2"
+msgstr "Sisesta uus parool allolevatele väljadele"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "Tänav"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "Kehtiv parool on vale."
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "Süsteemi parool on edukalt muudetud."
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr "(en) Certain services on this server installation require a username and password (for example this web page for the server manager application). The username is always admin. You can change the system password using the fields below. "
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "Parool peab koosnema ainult prinditavatest sümbolitest"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "Sisestatud paroolid ei ühti."
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "Kasutajanimi \"[_1]\" sisaldab sobimatuid sümboleid."
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "See väli tohib sisaldada ainult tähti, numbreid, punkte, hypens ja underscores ja algama tähega"
+
+msgid "usr_USER_CREATED"
+msgstr "Kasutajakonto on edukalt loodud."
+
+msgid "usr_USER_MODIFIED"
+msgstr "Kasutajakonto on edukalt muudetud."
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "VPN juurdepääs"

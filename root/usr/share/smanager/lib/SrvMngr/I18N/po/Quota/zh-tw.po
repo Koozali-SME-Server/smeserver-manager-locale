@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Quota module\n"
+"POT-Creation-Date: 2026-08-20 12:56+0100\n"
+"PO-Revision-Date: 2026-08-20 12:56+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
+
+msgid "COULD_NOT_GET_UID"
+msgstr "(en) COULD_NOT_GET_UID"
+
+msgid "Quotas"
+msgstr "(en) Quotas"
+
+msgid "quo_ABS_LIMIT"
+msgstr "底限"
+
+msgid "quo_ABS_LIMIT_MB"
+msgstr "底限(MB)"
+
+msgid "quo_ACCOUNT_IS_TYPE"
+msgstr "帳號類型為："
+
+msgid "quo_CURRENTLY_HAS"
+msgstr "目前有："
+
+msgid "quo_CURRENT_USAGE"
+msgstr "目前用量(MB)"
+
+msgid "quo_CURRENT_USAGE_AND_SETTINGS"
+msgstr "現有磁碟限額與設定"
+
+msgid "quo_ERR_HARD_LT_SOFT"
+msgstr "錯誤：絕對期限必須大於寬限期限。"
+
+msgid "quo_ERR_MODIFYING"
+msgstr "在編輯使用者時錯誤。"
+
+msgid "quo_ERR_NOT_A_USER_ACCT"
+msgstr "錯誤：此帳號非使用者帳號："
+
+msgid "quo_ERR_NO_SUCH_ACCT"
+msgstr "錯誤：無此帳號名稱："
+
+msgid "quo_FILES"
+msgstr "檔案"
+
+msgid "quo_FORM_TITLE"
+msgstr "建立、修正，或移除使用者帳號的限額"
+
+msgid "quo_HARD_VAL_MUST_BE_NUMBER"
+msgstr "錯誤：絕對期限必須是一個整數，單位字尾為K，M，G或T。"
+
+msgid "quo_INSTRUCTIONS"
+msgstr "Enter the quota with optional unit suffix of 'K' for kilobytes, 'M' for megabytes, 'G' for gigabytes or 'T' for terabytes. Entries with no suffix are assumed to be in megabytes. A setting of '0' for either limit disables that limit for the corresponding user."
+
+msgid "quo_LIMIT_WITH_GRACE"
+msgstr "寬限期"
+
+msgid "quo_LIMIT_WITH_GRACE_MB"
+msgstr "寬限期(MB)"
+
+msgid "quo_MEGABYTES"
+msgstr "百萬位元"
+
+msgid "quo_MODIFY_USER_TITLE"
+msgstr "Modify user quota limits"
+
+msgid "quo_OCCUPYING"
+msgstr "佔有："
+
+msgid "quo_QUOTA_DESC"
+msgstr " You can set filesystem quotas for users on your system by clicking the \"Modify\" button next to the user you wish to update. If the user exceeds the \"Limit with grace period\", warnings will be generated. If this limit is exceeded for longer than a week or if the \"Absolute limit\" is reached, the user will be unable to store any more files or receive any more e-mail. A setting of '0' for either limit disables that limit for the corresponding user. The disk space for each user includes the user's home directory, e-mail, and any files owned by the user in information bays. "
+
+msgid "quo_SOFT_VAL_MUST_BE_NUMBER"
+msgstr "錯誤：寬限期必須是一個整數，單位字尾為K，M，G或T。"
+
+msgid "quo_SUCCESSFULLY_MODIFIED"
+msgstr "成功修正使用者帳號的限額："
+
+msgid "quo_USER"
+msgstr "使用者："
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "quo_COULD_NOT_GET_UID"
+#~ msgstr "無法確定該使用者的uid："
+#~ msgid "quo_Quotas"
+#~ msgstr "限額"
+#~ msgid "quo_UNABLE_TO_OPEN_ACCOUNTS"
+#~ msgstr "無法開啟帳號資料庫"

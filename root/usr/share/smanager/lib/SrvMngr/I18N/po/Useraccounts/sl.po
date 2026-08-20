@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "Uporabniki"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "Napaka: Racuna \"[_1]\" ne mores kreirati ker tak racun [_2] ze obstaja."
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "Ime racuna"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "Napaka: Ime racuna je predolgo. Maximalna dolzina je [_1] znakov."
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "Naziv racuna \"[_1]\" vsebuje napacen znak. Ime racuna se mora zaceti z malo crko in vsebovati samo crke, stevilke in podcrtaj."
+
+msgid "usr_ADD_USER"
+msgstr "Dodaj uporabniški račun"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "To polje ne sme vsebovati presledka"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "Napaka: Prislo je do interne napake pri urejanju uporabnika \"[_1]\"."
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "Mesto"
+
+msgid "usr_COMPANY"
+msgstr "Podjetje"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr "  Racun lahko vsebuje samo male crke in stevilke, ter se mora obvezno zaceti z malo crko. Primer: \"betty\", \"polde\", \"janez-kranjski\" so vse pravilna imena racunov, toda \"3prijatelji\", Janez Kranjski\" in \"marjan_glavni\" niso pravilni. \n\n  <p> Pozor. Za vsak nov racun bosta kreirana dva vzdevka-naziva. Torej za racun \"glavni\" z imenom \"marjan\" in priimkom \"taglavni\" bosta kreirana vzdevka locena z piko (.) in podcrtajem (_) : \"marjan.taglavni\" in \"marjan_taglavni\" . </p>\n\n  <p> Uporbniski podatki (oddelek, podjetje, itd) se lahko popravijo iz osnovnih na podatke prikazane spodaj. Spremembe bodo vplivale samo na ta racun. </p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "Trenutno sistemsko geslo"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "Dostavi posto lokalno in na spodnji naslov"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "Dostavi posto lokalno"
+
+msgid "usr_DEPARTMENT"
+msgstr "Oddelek"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "Dostava e-poste"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "Pri kreiranju uporabnika je prislo do napake."
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "(en)An error occurred while trying to delete the user."
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "Prislo je do napake pri spremembi gesla!"
+
+msgid "usr_FIRSTNAME"
+msgstr "Ime"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">Dodaj uporabnika</a> \n\n  <p> Tu lahko popravis, zaklenes ali odstranis uporabnika in pa resetiras geslo uporabnika s pritiskom na gumb poleg imena uporabnika. </p>\n\n  <p> Ce je uporabnik oznacen kot zaklenjen, pomeni da je potrebno geslo uporabnika resetirati. Prosim, bodi pozoren ker je pri novih uporabnikih racun zaklenjen avtomatsko, dokler se ne vnese geslo. </p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "Ustvari, popravi ali odstrani uporabnika"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "Posto posreduj na"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "Preusmeri na spodnji naslov"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "Clan skupine"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "Prenesi digitalni certifikat na IPSec client"
+
+msgid "usr_LASTNAME"
+msgstr "Priimek"
+
+msgid "usr_LOCK"
+msgstr "Zakleni"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "Uspesno zaklenjen racun uporabnika \"[_1]\"."
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "Zakleni uporabniski racun"
+
+msgid "usr_LOCK_DESC"
+msgstr "Si pred tem, da zaklenes racun uporabnika"
+
+msgid "usr_LOCK_DESC2"
+msgstr " Ta uporabniski racun bo zakljenjen. To pomeni, da se uporabnik ne bo mogel prijaviti na svoj racun in pregledovati svoje e-poste. Vsa e-posta, ki bo prispela, bo shranjena in/ali posredovana na zunanji naslov e-poste ce je nastavljen. Racun se lahko ponovno aktivira z dodelitvijo novega gesla. Obstojece geslo ne bo obdrzano.   Ali si preprican, da zelis zakleniti ta racun? "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "Clan?"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "Uredi Admin racun"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "Novo sistemsko geslo"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "Novo sistemsko geslo (ponovno)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "Napaka: Uporabniski racun \"[_1]\" ne obstaja."
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "Uporabniski racun ne obstaja."
+
+msgid "usr_P2_TITLE"
+msgstr "Ustvari ali popravi"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "Uspesno spremenjeno geslo za racun \"[_1]\"."
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "Telefonska stevilka"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "Napaka: Vzdevek \"[_1]\" je ze v uporabi pri obsojecemu uporabniskemu racunu \"[_2]\". Za razlikovanje dodaj inicijalke v to polje.\""
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "Izbrisi uporabniski racun"
+
+msgid "usr_REMOVE_DESC"
+msgstr "Ali si preprican, da zelis izbrisati uporabniski racun"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " Vse datoteke, ki pripadajo uporabniku racuna bodo izbrisane. Tudi vsa e-posta, ki se ni bila prenesena z Streznika bo izbrisana.   Ali si preprican, da zelis izbrisati ta racun? "
+
+msgid "usr_RESET_DESC"
+msgstr "Si na tem, da spremenis uporabisko geslo"
+
+msgid "usr_RESET_DESC2"
+msgstr "Vpisi novo geslo v polje spodaj"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "Naslov"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "Trenutno geslo ni pravilno."
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "Sistemsko geslo je bilo spremenjeno"
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr " Nekateri servisi na tem Strezniku potrebujejo uporabnisko ime in geslo za dostop. Uporabnisko ime je vedno admin. Lahko pa spremenis sistemsko geslo v spodnjih poljih. "
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "Geslo mora vsebovati samo prave znake"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "Vneseni gesli nista enaki."
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "Uporabniski racun \"[_1]\" vsebuje neveljaven znak."
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "To polje lahko vsebuje smo crke, stevilke, pikoali podcrtaj in se zacne samo z crko."
+
+msgid "usr_USER_CREATED"
+msgstr "Uspesno narejen uporabniski racun."
+
+msgid "usr_USER_MODIFIED"
+msgstr "Uspesno popravljen uporabiski racun."
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "VPN dostop"

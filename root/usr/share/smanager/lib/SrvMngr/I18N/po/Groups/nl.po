@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Groups module\n"
+"POT-Creation-Date: 2026-08-20 14:49+0100\n"
+"PO-Revision-Date: 2026-08-20 14:49+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+
+msgid "DELETE_ERROR"
+msgstr "(en) DELETE_ERROR"
+
+msgid "grp_ACCOUNT_CONFLICT"
+msgstr "Fout: de groep \"[_1]\" kan niet worden toegevoegd omdat er al een [_2] account met die naam bestaat."
+
+msgid "grp_CREATED_GROUP"
+msgstr "Gebruikersgroep is met succes toegevoegd"
+
+msgid "grp_CREATE_ERROR"
+msgstr "Er is een fout opgetreden bij het toevoegen van de gebruikersgroep."
+
+msgid "grp_CURRENT_LIST"
+msgstr "Huidige lijst van gebruikersgroepen\n\n  "
+
+msgid "grp_DELETED_GROUP"
+msgstr "Gebruikersgroep is met succes verwijderd"
+
+msgid "grp_DELETE_DESCRIPTION"
+msgstr " U staat op het punt om de gebruikersgroep \"[_1]\" te verwijderen "
+
+msgid "grp_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "grp_FORM_TITLE"
+msgstr "Gebruikersgroepen toevoegen, wijzigen of verwijderen"
+
+msgid "grp_GROUP_DESC"
+msgstr "Korte beschrijving/Windows groep pseudoniem"
+
+msgid "grp_GROUP_DESC_EXPL"
+msgstr "Voer een korte groep beschrijving in het veld hieronder in. Dit veld bepaald ook de groepsnaam zichtbaar voor Windows gebruikers."
+
+msgid "grp_GROUP_HAS_MEMBERS"
+msgstr "Deze groep bevat de volgende leden:"
+
+msgid "grp_GROUP_NAMING"
+msgstr " De groepsnaam mag alleen kleine letters, nummers, koppeltekens, punten, en lage streepjes bevatten en moet met een kleine letter beginnen. Bijvoorbeeld \"verkoop\", \"beta5\", en \"verkoop_partners\" zijn allemaal correcte groepsnamen, maar \"3de-evenement\", \"Marketing Team\" en \"verloren&gevonden\" zijn dat niet. "
+
+msgid "grp_GROUP_TOO_LONG"
+msgstr "Fout: De groepsnaam is te lang. De maximale lengte is [_1] tekens."
+
+msgid "grp_IBAYS_WILL_BE_CHANGED"
+msgstr "De volgende informatiebaaien waren toegewezen aan deze groep en zullen worden veranderd in de beheerdersgroep (u kunt deze naderhand weer wijzigen):"
+
+msgid "grp_MODIFIED_GROUP"
+msgstr "Gebruikersgroep is met succes gewijzigd"
+
+msgid "grp_MODIFY_ERROR"
+msgstr "Er is een fout opgetreden bij het wijzigen van de gebruikersgroep."
+
+msgid "grp_NOT_A_GROUP"
+msgstr "Fout: Dat is niet een bestaande gebruikersgroep."
+
+msgid "grp_NO_MEMBERS"
+msgstr "Fout: Geen groepsleden geselecteerd voor de groep. De groep is niet toegevoegd."

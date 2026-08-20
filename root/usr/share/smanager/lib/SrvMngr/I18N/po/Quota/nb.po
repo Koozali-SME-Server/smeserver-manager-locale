@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Quota module\n"
+"POT-Creation-Date: 2026-08-20 12:56+0100\n"
+"PO-Revision-Date: 2026-08-20 12:56+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+
+msgid "COULD_NOT_GET_UID"
+msgstr "(en) COULD_NOT_GET_UID"
+
+msgid "Quotas"
+msgstr "(en) Quotas"
+
+msgid "quo_ABS_LIMIT"
+msgstr "Absolutt grense"
+
+msgid "quo_ABS_LIMIT_MB"
+msgstr "Absolutt grense (MB)"
+
+msgid "quo_ACCOUNT_IS_TYPE"
+msgstr "Kontotypen er:"
+
+msgid "quo_CURRENTLY_HAS"
+msgstr "har aktuelt:"
+
+msgid "quo_CURRENT_USAGE"
+msgstr "Aktuelt forbruk (MB)"
+
+msgid "quo_CURRENT_USAGE_AND_SETTINGS"
+msgstr "Aktuell kvote og innstillinger"
+
+msgid "quo_ERR_HARD_LT_SOFT"
+msgstr "Feil: Verdien for \"Absolutt grense\" skal være høyere enn Verdien for \"Henstandsperiode\"."
+
+msgid "quo_ERR_MODIFYING"
+msgstr "Det oppsto en feil under endringen."
+
+msgid "quo_ERR_NOT_A_USER_ACCT"
+msgstr "Feil: Følgende konto er ikke en brukerkonto:"
+
+msgid "quo_ERR_NO_SUCH_ACCT"
+msgstr "Feil: Det findes ikke noen konto med navn:"
+
+msgid "quo_FILES"
+msgstr "filer"
+
+msgid "quo_FORM_TITLE"
+msgstr "Opprette, Endre eller fjern kvota for bruker"
+
+msgid "quo_HARD_VAL_MUST_BE_NUMBER"
+msgstr "Feil: Absolutt grense skal være et heltall eventuelt fulgt av enhetsbetegnelse K, M eller G."
+
+msgid "quo_INSTRUCTIONS"
+msgstr "Skriv inn kvotaen som heltall etterfulgt af 'K' for kilobytes,' M' for megabytes, og 'G' for gigabytes. Inntastinger uten endelse antas å være megabytes. Innstillingen '0' for begge verdier opphever begrensningen."
+
+msgid "quo_LIMIT_WITH_GRACE"
+msgstr "Henstandsperiode"
+
+msgid "quo_LIMIT_WITH_GRACE_MB"
+msgstr "Henstandsperiode (MB)"
+
+msgid "quo_MEGABYTES"
+msgstr "megabytes"
+
+msgid "quo_MODIFY_USER_TITLE"
+msgstr "Endre brukerkvotagrenser"
+
+msgid "quo_OCCUPYING"
+msgstr "opptar:"
+
+msgid "quo_QUOTA_DESC"
+msgstr " Du kan opprette diskkvota for brukere på systemet ved å klikke \"Endre\"-knappen ut for brukeren. Hvis brukeren overskrider \"Henstandsperiode\", vil Det bli udsendt en advarsel. Overskrides denne grense i mer enn en uke eller hvis \"Absolutt grense\" blir nådd, vil brukeren ikke kunne lagre mer på serveren og heller ikke motta mer e-post. Indstilles begge Verdier til '0' vil det ikke være noen begrensning for brukeren. Diskplassen for hver bruker omfatter e-post, inneholdet i hjemmemappen, samt hva brukeren har lagret i diverse i-bays. "
+
+msgid "quo_SOFT_VAL_MUST_BE_NUMBER"
+msgstr "Feil: Henstandsperiode skal være et heltall eventuelt fulgt av enhetsbetegnelse K, M eller G."
+
+msgid "quo_SUCCESSFULLY_MODIFIED"
+msgstr "Har gjennomført endringen for bruker:"
+
+msgid "quo_USER"
+msgstr "Bruker:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "quo_COULD_NOT_GET_UID"
+#~ msgstr "Kunne ikke fastslå brukerID for bruker:"
+#~ msgid "quo_Quotas"
+#~ msgstr "Kvota"
+#~ msgid "quo_UNABLE_TO_OPEN_ACCOUNTS"
+#~ msgstr "Kan ikke åpne kontodatabasen"

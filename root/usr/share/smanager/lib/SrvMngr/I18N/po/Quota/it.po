@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Quota module\n"
+"POT-Creation-Date: 2026-08-20 12:56+0100\n"
+"PO-Revision-Date: 2026-08-20 12:56+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+
+msgid "COULD_NOT_GET_UID"
+msgstr "(en) COULD_NOT_GET_UID"
+
+msgid "Quotas"
+msgstr "Quota"
+
+msgid "quo_ABS_LIMIT"
+msgstr "Limite assoluto"
+
+msgid "quo_ABS_LIMIT_MB"
+msgstr "Limite assoluto (MB)"
+
+msgid "quo_ACCOUNT_IS_TYPE"
+msgstr "E' un account di tipo:"
+
+msgid "quo_CURRENTLY_HAS"
+msgstr "attualmente ha:"
+
+msgid "quo_CURRENT_USAGE"
+msgstr "Spazio utilizzato (MB)"
+
+msgid "quo_CURRENT_USAGE_AND_SETTINGS"
+msgstr "Situazione e Impostazioni Quota"
+
+msgid "quo_ERR_HARD_LT_SOFT"
+msgstr "Errore: il limite assoluto deve essere maggiore o uguale del limite di avvertimento."
+
+msgid "quo_ERR_MODIFYING"
+msgstr "Errore durante la modifica dell'utente."
+
+msgid "quo_ERR_NOT_A_USER_ACCT"
+msgstr "Errore: l'account non è un utente:"
+
+msgid "quo_ERR_NO_SUCH_ACCT"
+msgstr "Errore: non esiste l'account:"
+
+msgid "quo_FILES"
+msgstr " files, "
+
+msgid "quo_FORM_TITLE"
+msgstr "Crea, modifica o rimuovi quota utenti"
+
+msgid "quo_HARD_VAL_MUST_BE_NUMBER"
+msgstr "Errore: il limite assoluto deve essere un intero, opzionalmente seguito da una dei suffissi K, M, G o T."
+
+msgid "quo_INSTRUCTIONS"
+msgstr "Inserire la quota come un intero con un suffisso opzionale di 'K' per kilobyte, 'M' per megabyte , 'G' per gigabyte o 'T? per terabyte. Senza suffisso si intende megabyte. Il valore '0' per uno dei limiti disabilita quel limite per l'utente corrispondente."
+
+msgid "quo_LIMIT_WITH_GRACE"
+msgstr "Limite di avvertimento"
+
+msgid "quo_LIMIT_WITH_GRACE_MB"
+msgstr "Limite di avvertimento (MB)"
+
+msgid "quo_MEGABYTES"
+msgstr "megabyte"
+
+msgid "quo_MODIFY_USER_TITLE"
+msgstr "Modifica limiti quota utente"
+
+msgid "quo_OCCUPYING"
+msgstr "che occupano:"
+
+msgid "quo_QUOTA_DESC"
+msgstr " E' possibile impostare quote disco per gli utenti del sistema facendo clic sul pulsante \"Modifica\" a fianco dell'utente da modificare. Se l'utente supera il \"Limite di avvertimento\", verranno inviati degli avvisi. Se questo limite viene ecceduto per oltre una settimana o se viene raggiunto il \"Limite assoluto\", l'utente non potrà salvare nuovi file o ricevere posta. Impostando a '0' uno dei limiti disabiliterà quel limite per l'utente corrispondente. Lo spazio su disco di ogni utente include l'home directory, l'e-mail e tutti i file appartenenti all'utente nelle i-bay. "
+
+msgid "quo_SOFT_VAL_MUST_BE_NUMBER"
+msgstr "Errore: il limite di avvertimento deve essere un intero, opzionalmente seguito da una dei suffissi K, M, G o T."
+
+msgid "quo_SUCCESSFULLY_MODIFIED"
+msgstr "Quota modificata con successo per l'utente:"
+
+msgid "quo_USER"
+msgstr "L'utente:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "quo_COULD_NOT_GET_UID"
+#~ msgstr "Impossibile determinare l'uid per l'utente:"
+#~ msgid "quo_UNABLE_TO_OPEN_ACCOUNTS"
+#~ msgstr "Impossibile aprire il db accounts"

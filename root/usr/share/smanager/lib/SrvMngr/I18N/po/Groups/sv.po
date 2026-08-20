@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Groups module\n"
+"POT-Creation-Date: 2026-08-20 14:49+0100\n"
+"PO-Revision-Date: 2026-08-20 14:49+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+
+msgid "DELETE_ERROR"
+msgstr "(en) DELETE_ERROR"
+
+msgid "grp_ACCOUNT_CONFLICT"
+msgstr "Fel: gruppen \"[_1]\" kan inte skapas eftersom det redan finns ett [_2] konto med detta namn."
+
+msgid "grp_CREATED_GROUP"
+msgstr "Skapade en användargrupp"
+
+msgid "grp_CREATE_ERROR"
+msgstr "Ett fel inträffade vid skapandet av användargrupp."
+
+msgid "grp_CURRENT_LIST"
+msgstr "Aktuell lista över användargrupper\n\n  "
+
+msgid "grp_DELETED_GROUP"
+msgstr "Raderade användargrupp"
+
+msgid "grp_DELETE_DESCRIPTION"
+msgstr " Du är på väg att radera denna användargrupp \"[_1]\" "
+
+msgid "grp_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "grp_FORM_TITLE"
+msgstr "Skapa, ändra och radera användargrupper"
+
+msgid "grp_GROUP_DESC"
+msgstr "Kort beskrivning/Windows gruppalias"
+
+msgid "grp_GROUP_DESC_EXPL"
+msgstr "Ange en kort beskrivning i fältet nedan. Detta fält anger även gruppnamnet som syns Windows-klienter."
+
+msgid "grp_GROUP_HAS_MEMBERS"
+msgstr "Denna grupp innehåller följande medlemmar:"
+
+msgid "grp_GROUP_NAMING"
+msgstr " Gruppens namn får bara innehålla gemener, siffror, bindestreck, punkt, understreck och skall börja med en gemen. Exempelvis \"sales\", \"beta5\" och \"reseller_partners\" är alla tillåtna gruppnamn, ment \"3rd-event\", \"Marketing Team\" och \"lost&found\" är det inte. "
+
+msgid "grp_GROUP_TOO_LONG"
+msgstr "Fel: Gruppens namn är för långt. Maximal längd är [_1] tecken."
+
+msgid "grp_IBAYS_WILL_BE_CHANGED"
+msgstr "Följande informations bay var tilldelad denna grupp och kommer att ändras till Administratörsgruppen (du kan ändra dessa till något annat efteråt):"
+
+msgid "grp_MODIFIED_GROUP"
+msgstr "Ändrade användargrupp"
+
+msgid "grp_MODIFY_ERROR"
+msgstr "Ett fel uppstod vid ändring av användargrupp."
+
+msgid "grp_NOT_A_GROUP"
+msgstr "Fel: Detta är inte en existerande grupp."
+
+msgid "grp_NO_MEMBERS"
+msgstr "Fel: Inga medlemmar i denna grupp. Skapade ingen ny grupp."

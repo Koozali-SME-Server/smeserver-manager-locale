@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "Felhasználók"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "Hiba: a \"[_1]\" nevű fiók nem jött létre, mivel már van egy ilyen nevű [_2] fiók."
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "Fióknév"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "Hiba: A fiók neve túl hosszú. Maximum [_1] karakter hosszúságú lehet."
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "A \"[_1]\" fiók neve érvénytelen karaktereket tartalmaz. A fiók nevének kis betűvel kell kezdődnie, és csak kisbetűket, számokat, kötőjeleket, aláhúzást és pontot tartalmazhat."
+
+msgid "usr_ADD_USER"
+msgstr "Felhasználói fiók hozzáadása"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "Ez a mező nem tartalmazhat szóközt"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "Hiba: a \"[_1]\" felhasználó módosításakor belső hiba történt."
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "Település"
+
+msgid "usr_COMPANY"
+msgstr "Cégnév"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr "  A fióknév csak kisbetűket, számokat, kötőjeleket, pontokat, aláhúzásokat tartalmazhat és betűvel kezdődhet. Például \"betty\", \"hjohnson\", és \"mary-jane\" érvényes fióknevek, de a \"3friends\", \"John Smith\", és \"henry:miller\" már nem. \n\n  <p> Két speciális fedőnév generálódik minden fiókhoz. Ezek a fedőnevek lehetővé teszik a felhasználó számára, hogy alternatív e-mail címük legyen, amely tartalmazza a kereszt és vezetéknevet ponttal és aláhúzással elválasztva. Így a\"betty\" fiók \"Betty\" keresztnévvel és \"Rubble\" vezetéknévvel két fedőnevet kap, úgy mint betty.rubble és betty_rubble. </p>\n\n  <p> A címtár információk (részleg, cégnév, stb.) az alább látható alapértelmezettről, átállítható másra. A változtatás csak erre a felhasználóra lesz érvényes. </p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "Jelenlegi rendszerjelszó"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "Kézbesítés helyben is és továbbítás"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "Helyi kézbesítés"
+
+msgid "usr_DEPARTMENT"
+msgstr "Részleg"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "Email kézbesítés"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "Hiba történt a felhasználó létrehozásakor."
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "Hiba történt a felhasználó törlésekor."
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "Hiba történt a jelszó megváltoztatásakor"
+
+msgid "usr_FIRSTNAME"
+msgstr "Keresztnév"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">Felhasználói fiók hozzáadása</a> \n\n  <p> Módosíthat, zárolhat, eltávolíthat bármely fiókot, vagy megváltoztathatja a jelszavakat a fiókok neve mellett található parancsokra való kattintással . </p>\n\n  <p> Ha a fiók zároltra van jelölve, akkor az azt jelenti, hogy a felhasználónak jelszavat kell beállítani. Minden újonnan létrehozott fiók automatikusan zárolva van addig míg új jelszót be nem állítanak neki. </p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "Felhasználói fiókok létrehozása, módosítása, vagy eltávolítása"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "Továbbítás erre"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "Email továbbítása a következő címre"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "Csoporttagság"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "Tanúsítvány letöltése az IPSec klienshez"
+
+msgid "usr_LASTNAME"
+msgstr "Vezetéknév"
+
+msgid "usr_LOCK"
+msgstr "Zárol"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "A \"[_1]\" nevű felhasználó fiókja zárolásra került."
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "Felhasználói fiók zárolása"
+
+msgid "usr_LOCK_DESC"
+msgstr "A felhasználói fiók zárolására készül"
+
+msgid "usr_LOCK_DESC2"
+msgstr " Ez a felhasználói fiók zárolva lesz. Ez azt jelenti, hogy a felhasználó nem tud bejelentkezni, és nem fogadhat e-mailt. Minden beérkező levele eltárolásra kerül, vagy továbbítódik egy előre beállított e-mail címre. A fiók újra aktiválható új jelszó megadásával a jövőben. A jelenlegi jelszó törölve lesz.   Biztos benne, hogy zárolja ezt a fiókot? "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "Tag?"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "Admin fiók módosítása"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "Új rendszerjelszó"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "Új rendszerjelszó (ellenőrzés)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "Hiba: a \"[_1]\" nevű felhasználói fiók nem létezik."
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "Nincsenek felhasználói fiókok ezen a rendszeren."
+
+msgid "usr_P2_TITLE"
+msgstr "Létrehozás vagy módosítás"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "A \"[_1]\" nevű felhasználó jelszava megváltozott."
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "Telefonszám"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "Hiba: a \"[_1]\" fedőnevet már lefoglalta a \"[_2]\" felhasználó. Adjon monogramot a névhez, hogy különböző legyen."
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "Felhasználói fiók törlése"
+
+msgid "usr_REMOVE_DESC"
+msgstr "A felhasználói fiók eltávolítására készül"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " Minden fájl, amely ehhez a fiókhoz tartozik törlésre kerül. A felhasználó szerveren tárolt levelei (például azok, amelyeket még nem töltött le) szintén törlődnek.   Biztos benne, hogy törli ezt a fiókot? "
+
+msgid "usr_RESET_DESC"
+msgstr "A felhasználói fiók jelszavának megváltoztatására készül"
+
+msgid "usr_RESET_DESC2"
+msgstr "Írja be az új jelszót a lenti mezőkbe"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "Cím"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "A jelenlegi jelszó helytelen."
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "A rendszerjelszó megváltozott"
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr " Bizonyos szolgáltatásai a szervernek jelszó és felhasználónév megadását igénylik (például ennek a szerver kezelő weboldalnak). A felhasználónév mindig admin. A rendszer jelszavát az alábbi mezőkben változtathatja meg. "
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "A jelszó csak látható karaktereket tartalmazhat"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "A két jelszó nem egyezik."
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "A \"[_1]\" fióknév érvénytelen karaktereket tartalmaz."
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "Ez a mező csak számokat, betűket, pontokat, kötőjeleket, aláhúzásokat tartalmazhat és betűvel kell kezdődnie."
+
+msgid "usr_USER_CREATED"
+msgstr "Felhasználói fiók létrehozása sikeres."
+
+msgid "usr_USER_MODIFIED"
+msgstr "Felhasználói fiók módosítása sikeres."
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "VPN kliens hozzáférés"

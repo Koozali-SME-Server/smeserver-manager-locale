@@ -1,5 +1,5 @@
 'quo_FORM_TITLE' => 'Anlegen, Ändern oder Entfernen von Speicherlimits von Benutzerkonten',
-'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Es ist nicht möglich, die Kontendatenbank zu öffnen',
+# ORPHANED (no longer in quota_en.lex; kept for reference, commented out by lex-to-po.pl): 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Es ist nicht möglich, die Kontendatenbank zu öffnen',
 'quo_QUOTA_DESC' => '  Sie können die Speicherbelegung eines Benutzers auf Ihrem System begrenzen, indem Sie in der Zeile des Benutzers unter Aktion auf "Ändern" klicken. 
 
   <p> Wenn ein Benutzer das "Limit mit Gnadenfrist" erreicht, wird eine Warnung erzeugt. Wird dieses Limit für mehr als eine Woche überschritten oder der Benutzer erreicht das "Absolute Limit", können von Ihm keine Dateien mehr gespeichert werden. Dieser Benutzer erhält auch keine E-Mails mehr. </p>
@@ -15,7 +15,7 @@
 'quo_ABS_LIMIT' => 'Absolutes Limit',
 'quo_ABS_LIMIT_MB' => 'Absolutes Limit (MB)',
 'quo_CURRENT_USAGE' => 'Aktuell benutzt (MB)',
-'quo_COULD_NOT_GET_UID' => 'Die UID konnte nicht ermittelt für den Nutzer:',
+# ORPHANED (no longer in quota_en.lex; kept for reference, commented out by lex-to-po.pl): 'quo_COULD_NOT_GET_UID' => 'Die UID konnte nicht ermittelt für den Nutzer:',
 'quo_ERR_NO_SUCH_ACCT' => 'FEHLER: Sie haben kein Konto angegeben:',
 'quo_ERR_NOT_A_USER_ACCT' => 'FEHLER: das Konto ist kein Benutzerkonto:',
 'quo_ACCOUNT_IS_TYPE' => 'Dies ist ein Konto vom Typ:',

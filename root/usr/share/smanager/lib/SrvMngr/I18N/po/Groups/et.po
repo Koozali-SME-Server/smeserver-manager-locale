@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Groups module\n"
+"POT-Creation-Date: 2026-08-20 14:49+0100\n"
+"PO-Revision-Date: 2026-08-20 14:49+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et\n"
+
+msgid "DELETE_ERROR"
+msgstr "(en) DELETE_ERROR"
+
+msgid "grp_ACCOUNT_CONFLICT"
+msgstr "Viga: gruppi \"[_1]\" ei saanud luua kuna on juba kasutajakonto [_2] sellise nimega."
+
+msgid "grp_CREATED_GROUP"
+msgstr "Kasutajate grupp edukalt loodud"
+
+msgid "grp_CREATE_ERROR"
+msgstr "Kasutajate grupi loomisel ilmnes viga."
+
+msgid "grp_CURRENT_LIST"
+msgstr "Nimekiri olemasolevatest gruppidest\n\n  "
+
+msgid "grp_DELETED_GROUP"
+msgstr "Kasutajate grupp edukalt kustutatud"
+
+msgid "grp_DELETE_DESCRIPTION"
+msgstr " Oled kindel, et tahad gruppi \"[_1]\"kustutada "
+
+msgid "grp_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "grp_FORM_TITLE"
+msgstr "Lisa, muuda või eemalda kasutajate gruppe"
+
+msgid "grp_GROUP_DESC"
+msgstr "Brief Description/Windows Group Alias"
+
+msgid "grp_GROUP_DESC_EXPL"
+msgstr "Input a brief group description in the field below. This field also designates the group name viewable by Windows clients."
+
+msgid "grp_GROUP_HAS_MEMBERS"
+msgstr "Selles grupis on järgmised liikmed:"
+
+msgid "grp_GROUP_NAMING"
+msgstr " Grupi nimi võib sisaldada ainult väike tähti, numbreid, hyphens, periods, and underscores, ja peab algama väiketäehega. Näiteks \"müük\", \"beta5\", ja\"reseller_partners\" sobivad grupi nimeks aga \"3rd-event\", \"Müügi Grupp\" ja \"lost&found\" ei sobi. "
+
+msgid "grp_GROUP_TOO_LONG"
+msgstr "VIGA: grupi nimi on liiga pikk. Nimi võib olla [_1] pikk."
+
+msgid "grp_IBAYS_WILL_BE_CHANGED"
+msgstr "The following information bays were assigned to this group and will be changed to the Administrator group (you can change them to something else afterward):"
+
+msgid "grp_MODIFIED_GROUP"
+msgstr "Kasutajate grupp edukalt muudetud"
+
+msgid "grp_MODIFY_ERROR"
+msgstr "Kasutajate grupi muutmisel ilmnes viga."
+
+msgid "grp_NOT_A_GROUP"
+msgstr "Viga: That is not an existing group account."
+
+msgid "grp_NO_MEMBERS"
+msgstr "VIGA: pole liikmeid selles grupis. Uut gruppi ei loodud."

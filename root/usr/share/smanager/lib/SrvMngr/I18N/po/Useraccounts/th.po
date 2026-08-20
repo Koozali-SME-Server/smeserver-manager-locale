@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "ผู้ใช้"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "ผิดพลาด: ไม่สามารถสร้างบัญชี \"[_1]\" ได้ เนื่องจากชื่อนี้ได้ถูกใช้ไปแล้ว โดยเป็นเป็นชื่อของ [_2]"
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "ชื่อบัญชี"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "ผิดพลาด: ชื่อบัญชียาวเกินไป ความยาวสูงสุดที่มีได้คือ [_1] ตัวอักษร"
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "ชื่อบัญชี \"[_1]\" มีตัวอักษรที่ไม่ถูกต้อง ชื่อบัญชีต้องเริ่มต้นด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ), ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) เท่านั้น"
+
+msgid "usr_ADD_USER"
+msgstr "เพิ่มบัญชีผู้ใช้"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "ฟิลด์นี้จะมีช่องว่างด้วยไม่ได้"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "ผิดพลาด: เกิดผิดพลาดภายในขณะพยายามที่จะแก้ไขผู้ใช้ \"[_1]\""
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "เมือง"
+
+msgid "usr_COMPANY"
+msgstr "บริษัท"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr " ชื่อบัญชีต้องเป็นตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) และจะต้องเริ่มต้นด้วยตัวอักษรเท่านั้น ตัวอย่างชื่อบัญชีที่ถูกต้อง เช่น \"betty\", \"hjohnson\", และ \"mary-jane\" และตัวอย่างชื่อบัญชีที่ไม่ถูกต้อง เช่น \"3friends\", \"John Smith\", และ \"henry:miller\" เป็นต้น\n\n  <p>หมายเหตุ: จะมีการสร้างนามแฝงให้บัญชีที่สร้างใหม่นี้ 2 ชื่อ นามแฝงเหล่านี้จะเป็นตัวเลือกสำหรับการระบุชื่อในการรับ/ส่งอีเมล์อีกทาง โดยจะสร้างจากการนำชื่อต้นมาต่อกับชื่อหลังโดยใช้เครื่องหมายจุด (.) คั่นกลาง ส่วนอีกนามแฝงจะคั่นด้วยยติภังค์ (_) เช่น บัญชีีชื่อ \"betty\" ที่มีชื่อต้นเป็น \"Betty\" และชื่อหลังเป็น \"Rubble\" นามแฝงทั้งสองจะเป็น betty.rubble และ betty_rubble</p>\n\n  <p>ส่วนข้อมูลส่วนสังกัด (แผนก, บริษัท และอื่นๆ) สามารถแก้จากค่าปริยายที่ให้มาเป็นอย่างอื่นได้ ซึ่งจะส่งผลเฉพาะกับผู้ใช้รายนี้เท่านั้น</p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "รหัสผ่านปัจจุบันของระบบ"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "ทั้งส่งภายในและส่งต่อไปที่อยู่อื่น"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "ส่งอีเมล์ภายในเท่านั้น"
+
+msgid "usr_DEPARTMENT"
+msgstr "แผนก"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "การส่งต่ออีเมล์"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "เกิดข้อผิดพลาดในการสร้างผู้ใช้"
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "เกิดข้อผิดพลาดขณะพยายามลบผู้ใช้"
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "เกิดข้อผิดพลาดขณะบันทึกการแก้ไขรหัสผ่าน"
+
+msgid "usr_FIRSTNAME"
+msgstr "ชื่อ"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr " <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">เพิ่มบัญชีผู้ใช้</a>\n\n  <p>คุณสามารถแก้ไข ล็อค ลบ หรือรีเซ็ตรหัสผ่านโดยการคลิ๊กคำสั่งที่อยู่ถัดจากชื่อบัญชี</p>\n\n  <p>ถ้าบัญชีใดถูกล็อค คุณต้องทำการรีเซ็ตรหัสผ่านของบัญชีนั้นเพื่อปลดล็อค หมายเหตุ ทุกบัญชีที่ทำการสร้างใหม่จะถูกล็อคจนกว่าจะทำการรีเซ็ตรหัสผ่าน</p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "สร้าง แก้ไข หรือลบบัญชีผู้ใช้"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "ที่อยู่ส่งต่อ"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "ส่งต่ออีเมล์ไปที่อยู่ด้านล่าง"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "สมาชิกกลุ่ม"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "ดาวน์โหลด digital certificate ไป IPSec client"
+
+msgid "usr_LASTNAME"
+msgstr "นามสกุล"
+
+msgid "usr_LOCK"
+msgstr "ล็อค"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "เสร็จสิ้นการล็อคบัญชีผู้ใช้ของ \"[_1]\""
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "ล็อคบัญชีผู้ใช้"
+
+msgid "usr_LOCK_DESC"
+msgstr "คุณกำลังจะล็อคบัญชีผู้ใช้"
+
+msgid "usr_LOCK_DESC2"
+msgstr " บัญชีผู้ใช้นี้จะถูกล็อค ซึ่งหมายความว่าผู้ใช้รายนี้จะไม่สามารถเข้าสู่ระบบและจะไม่สามารถรับอีเมล์ได้ อีเมล์ใดๆ ที่เข้ามาจะถูกจัดเก็บไว้ และ/หรือ ส่งต่อไปยังที่อยู่ภายนอกหากได้ตั้งไว้ บัญชีอาจจะถูกเปิดใช้งานในอนาคตโดยการตั้งรหัสผ่านใหม่ ส่วนรหัสผ่านปัจจุบันจะไม่ถูกเก็บไว้แล้ว  คุณมั่นแล้วหรือที่จะทำการล็อคบัญชีผู้ใช้นี้? "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "เลือก"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "แก้ไขบัญชีของผู้ดูแลระบบ (admin)"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "รหัสผ่านใหม่ของระบบ"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "รหัสผ่านใหม่ของระบบ (ยืนยัน)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "ผิดพลาด: ไม่มีบัญชีผู้ใช้ \"[_1]\" "
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "ไม่มีบัญชีผู้ใช้ในระบบนี้"
+
+msgid "usr_P2_TITLE"
+msgstr "สร้างหรือแก้ไข"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "เสร็จสิ้นการเปลี่ยนรหัสผ่านของ \"[_1]\""
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "หมายเลขโทรศัพท์"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "ผิดพลาด: นามแฝง \"[_1]\" ถูกใช้ไปแล้วโดยผู้ใช้ \"[_2]\" การทำให้แตกต่างทำได้โดยเพิ่มชื่อย่อในฟิลด์นี้"
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "ลบบัญชีผู้ใช้"
+
+msgid "usr_REMOVE_DESC"
+msgstr "คุณกำลังจะลบบัญชีผู้ใช้"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " ทุกไฟล์เป็นของผู้ใช้นี้จะถูกลบ รวมถึงอีเมล์ที่ยังค้างอยู่ที่เซอร์ฟเวอร์ (กรณีผู้ใช้ยังไม่ได้เรียกเอาจากระบบ)  คุณมั่นแล้วหรือที่จะทำการลบบัญชีผู้ใช้นี้? "
+
+msgid "usr_RESET_DESC"
+msgstr "คุณกำลังจะเปลี่ยนรหัสผ่านสำหรับบัญชีผู้ใช้"
+
+msgid "usr_RESET_DESC2"
+msgstr "ป้อนรหัสผ่านใหม่ในช่องด้านล่าง"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "ถนน"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "รหัสผ่านเก่าไม่ถูกต้อง"
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "รหัสผ่านของระบบถูกเปลี่ยนแปลงแล้ว"
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr " การติดตั้งเซอร์วิสบางอย่างบนเซอร์ฟเวอร์นี้ต้องการชื่อผู้ใช้และรหัสผ่าน (เช่น หน้าเว็บที่ใช้จัดการงานของเซอร์ฟเวอร์ที่ใช้อยู่นี้) ชื่อผู้ใช้ที่ว่าคือ admin (เท่านั้น) และคุณสามารถเปลี่ยนรหัสโดยกรอกข้อมูลในช่องด้านล่างนี้ "
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "รหัสผ่านต้องเป็นตัวพิมพ์ (printable) เท่านั้น"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "รหัสผ่านทั้งสองไม่เหมือนกัน"
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "ชื่อบัญชี \"[_1]\" มีอักขระต้องห้าม"
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "ฟิลด์นี้ต้องเป็นตัวอักษร (ภาษาอังกฤษ) ตัวเลข, จุด, ยติภังค์ (-) และ ขีดล่าง (_) และเริ่มต้องต้นด้วยตัวอักษรเท่านั้น"
+
+msgid "usr_USER_CREATED"
+msgstr "สร้างบัญชีผู้ใช้เสร็จแล้ว"
+
+msgid "usr_USER_MODIFIED"
+msgstr "แก้ไขบัญชีผู้ใช้เสร็จแล้ว"
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "เปิดให้ใช้งาน VPN"

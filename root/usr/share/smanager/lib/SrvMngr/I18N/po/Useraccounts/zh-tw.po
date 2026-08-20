@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "使用者"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "錯誤：賬號\"[_1]\"無法建立，因為此帳號名稱[_2]已經存在。"
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "帳號名稱"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "錯誤：賬號名稱太長。最多[_1]個字元。"
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "此帳號名稱\"[_1]\"包含無效字元。帳號名稱必須以小寫字母起頭，而且僅能包含小寫字母、數字、連字符、句號和底線。"
+
+msgid "usr_ADD_USER"
+msgstr "新增使用者帳戶"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "此區塊無法留白"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "錯誤：當試著修正使用者\"[_1]\"時發生內部錯誤。"
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "城市"
+
+msgid "usr_COMPANY"
+msgstr "公司"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr " 使用者名稱必須僅包含小寫字母、數字、連字符、日期、底線，並且以小寫字母開頭。例如\"betty\"、\"hjohnson\"與\"mary-jane\"都是有效使用者名稱，但是\"3friends\"、\"John Smith\"與\"henry:miller\"則否。\n\n  <p>每個新帳號將建立兩個特殊的匿名。這些匿名具有可取代使用者由逗號(.)與底線(_)姓名所形成郵件帳號的能力。因此，對於帳號\"betty\"與名字\"Betty\"和姓氏\"Rubble\"建立這兩個匿名betty.rubble與betty_rubble。</p>\n\n  <p>此目錄訊息（部門、公司等）可從下方預設顯示處修正。此修正將套用到這位使用者。</p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "當前系統密碼"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "傳遞本地端電郵並轉遞"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "傳遞本地端電郵"
+
+msgid "usr_DEPARTMENT"
+msgstr "部門"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "電郵傳遞"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "建立使用者時發生錯誤。"
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "試著刪除使用者時發生錯誤。"
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "更新密碼時出現錯誤"
+
+msgid "usr_FIRSTNAME"
+msgstr "名"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">增加使用者帳號</a> \n\n  <p>您可以修改、鎖定或移除任何帳號，或者透過點擊帳號旁邊的命令來重置帳號密碼。</p>\n\n  <p>倘若帳號被標示為鎖定，表示使用者的密碼需要重新設定。請注意，新建立的帳號會自動鎖定直到密碼變更。</p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "建立、修改或移除使用者帳號"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "轉遞位址"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "轉遞電郵至以下位址"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "群組成員"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "下載數位簽章到IPSec客戶端"
+
+msgid "usr_LASTNAME"
+msgstr "姓"
+
+msgid "usr_LOCK"
+msgstr "鎖定"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "使用者 \"[_1]\" 的帳號鎖定成功。"
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "鎖定使用者帳號"
+
+msgid "usr_LOCK_DESC"
+msgstr "您正要鎖定使用者帳號"
+
+msgid "usr_LOCK_DESC2"
+msgstr "此使用者帳號將被鎖定。這表示這位使用者將無法登入，並且無法收集電郵。任何收到的電郵仍會被保留並或轉送給事先配置好的外部電郵地址。此帳號稍後在設定新密碼以後可被啟用。現有密碼將不被保留。  您確定您想要鎖定此帳號？ "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "成員？"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "修改管理員帳號"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "新的系統密碼"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "新的系統密碼（確認）"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "錯誤：使用者帳號 \"[_1]\" 不存在。"
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "此系統無使用者帳號。"
+
+msgid "usr_P2_TITLE"
+msgstr "建立或修正"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "使用者 \"[_1]\" 的密碼修改成功。"
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "電話"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "錯誤：此代號 \"[_1]\" 已經由既有的使用者 \"[_2]\" 所使用。 請重新填寫不同的代號到此區塊。"
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "移除使用者帳號"
+
+msgid "usr_REMOVE_DESC"
+msgstr "您正要移除此使用者帳號"
+
+msgid "usr_REMOVE_DESC2"
+msgstr "此使用者帳號的所有檔案將被刪除。而且，伺服器上此使用者帳號既有有的電郵（例如：尚未由使用者取回）將被遺棄。  您確定您想要移除此帳號？ "
+
+msgid "usr_RESET_DESC"
+msgstr "您正要修改使用者帳號的密碼"
+
+msgid "usr_RESET_DESC2"
+msgstr "請於下方區塊輸入密碼"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "地址"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "當前密碼錯誤。"
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "系統密碼已變更。"
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr "此系統安裝特定服務需要使用者名稱與密碼（例如伺服器管理應用程式的網頁）。使用者名稱總是管理者admin。您可於下方區塊修改系統密碼。"
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "密碼僅能涵蓋可列印字元"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "兩次密碼不相同。"
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "帳號名稱\"[_1]\"涵蓋無效字元。"
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "此區塊只能包含字母、數字、逗號、連字符和底線，並且要以字母開頭。"
+
+msgid "usr_USER_CREATED"
+msgstr "成功建立使用者帳號。"
+
+msgid "usr_USER_MODIFIED"
+msgstr "成功修改使用者帳號。"
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "VPN使用者端存取"

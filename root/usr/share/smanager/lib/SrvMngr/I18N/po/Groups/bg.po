@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Groups module\n"
+"POT-Creation-Date: 2026-08-20 14:49+0100\n"
+"PO-Revision-Date: 2026-08-20 14:49+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+
+msgid "DELETE_ERROR"
+msgstr "(en) DELETE_ERROR"
+
+msgid "grp_ACCOUNT_CONFLICT"
+msgstr "Грешка: групата \"[_1]\" не може да бъде създадена защото вече има [_2] акаунт с това име."
+
+msgid "grp_CREATED_GROUP"
+msgstr "Потребителската група беше успешно съзадена"
+
+msgid "grp_CREATE_ERROR"
+msgstr "Възникна грешка по време на създаването на потребителската група."
+
+msgid "grp_CURRENT_LIST"
+msgstr "Текущ списък на потребителските групи\n\n  "
+
+msgid "grp_DELETED_GROUP"
+msgstr "Успешно премахване на потребителската група"
+
+msgid "grp_DELETE_DESCRIPTION"
+msgstr " На път сте да премахнете потребителската група \"[_1]\" "
+
+msgid "grp_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "grp_FORM_TITLE"
+msgstr "Създаване, промяна или изтриване на потребителски групи"
+
+msgid "grp_GROUP_DESC"
+msgstr "Кратко описание/Псевдоним на Windows група"
+
+msgid "grp_GROUP_DESC_EXPL"
+msgstr "Въведете кратко описание на групата в полето по-долу. Това поле също определя името на групата, както ще го виждат клиентите с Windows."
+
+msgid "grp_GROUP_HAS_MEMBERS"
+msgstr "Групата съдържа следните членове:"
+
+msgid "grp_GROUP_NAMING"
+msgstr " Името на групата трябва да съдържа само малки букви, цифри, тирета, точки и знаци за подчертаване и трябва да започва с малка буква. Например, \"sales\", \"beta5\" и \"reseller_partners\" са валидни имена на група, а \"3rd-event\", \"Marketing Team\" и \"lost&found\" не са. "
+
+msgid "grp_GROUP_TOO_LONG"
+msgstr "Грешка: името на групата е твърде дълго. Максималният брой знаци е [_1]."
+
+msgid "grp_IBAYS_WILL_BE_CHANGED"
+msgstr "Следните информационни слотове бяха присвоени към тази група и ще бъдат променени за групата Administrator (можете да ги промените в нещо различно след това):"
+
+msgid "grp_MODIFIED_GROUP"
+msgstr "Потребителската група бе успешно променена"
+
+msgid "grp_MODIFY_ERROR"
+msgstr "Възникна грешка по време на промяната на потребителската група."
+
+msgid "grp_NOT_A_GROUP"
+msgstr "Грешка: Това не е съществуващ акаунт на група."
+
+msgid "grp_NO_MEMBERS"
+msgstr "Грешка: няма членове в групата. Новата група не бе създадена."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "grp_CONFIRM_DELETE_GROUP"
+#~ msgstr " Сигурни ли сте, че искате да премахнете тази група?\n\n  "
+#~ msgid "grp_DELETE_ERROR"
+#~ msgstr "Възникна грешка по време на премахването на потребителската група."
+#~ msgid "grp_INVALID_GROUP_DESCRIPTION"
+#~ msgstr "Грешка: неочаквани или липсващи символи в описанието на групата"

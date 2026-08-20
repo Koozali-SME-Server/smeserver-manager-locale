@@ -18,7 +18,7 @@
 'usr_USER_CREATED' => 'Benutzerkonto wurde erfolgreich angelegt.',
 'usr_USER_MODIFIED' => 'Benutzerkonto wurde erfolgreich geändert.',
 'usr_CANNOT_MODIFY_USER' => 'FEHLER: Ein interner Fehler ist beim Ändern des Benutzerkontos "[_1]" aufgetreten.',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'FEHLER: Ein interner Fehler ist beim Ändern der Benutzerguppe "[_1]" für den Benutzer "[_2]" aufgetreten.',
+# ORPHANED (no longer in useraccounts_en.lex; kept for reference, commented out by lex-to-po.pl): 'usr_CANNOT_MODIFY_USER_GROUPS' => 'FEHLER: Ein interner Fehler ist beim Ändern der Benutzerguppe "[_1]" für den Benutzer "[_2]" aufgetreten.',
 'usr_TAINTED_USER' => 'Das Konto "[_1]" enthält ungültige Zeichen.',
 'usr_ACCOUNT_NAME' => 'Kontoname',
 'usr_FIRSTNAME' => 'Vorname',
@@ -42,7 +42,7 @@
 'usr_LOCKED_ACCOUNT' => 'Das Benutzerkonto "[_1]" wurde gesperrt.',
 'usr_NO_SUCH_USER' => 'FEHLER: Das Benutzerkonto "[_1]" existiert nicht.',
 'usr_PSEUDONYM_CLASH' => 'FEHLER: Das Pseudonym "[_1]" wird bereits vom bestehenden Benutzerkonto "[_2]" verwendet. Fügen Sie beispielsweise Initialen ein, um die Namen zu differenzieren.',
-'usr_LOCK_ACCOUNT' => 'Konto sperren',
+# ORPHANED (no longer in useraccounts_en.lex; kept for reference, commented out by lex-to-po.pl): 'usr_LOCK_ACCOUNT' => 'Konto sperren',
 'usr_LOCK_ACCOUNT_TITLE' => 'Benutzerkonto sperren',
 'usr_LOCK_DESC2' => ' Dieses Benutzerkonto wird gesperrt. Das bedeutet, dass dieser Benutzer sich nicht mehr einloggen oder E-Mails empfangen kann. Alle ankommenden E-Mails werden weiterhin gespeichert und/oder an eine externe E-Mail Adresse weitergeleitet, wenn dies eingestellt wurde. Das Konto kann durch Eingabe eines neuen Kennworts wieder aktiviert werden. Das zuvor eingegebene Kennwort wird nicht erhalten. 
 
@@ -61,7 +61,7 @@
 'usr_UNACCEPTABLE_CHARS' => 'Dieses Feld darf nur Buchstaben, Zahlen, Punkte, Unterstriche und Bindestriche enthalten',
 'usr_MEMBER' => 'Mitglied?',
 'usr_VPN_CLIENT_ACCESS' => 'VPN Client Zugriff',
-'usr_SYSTEM_PASSWORD_FORM_TITLE' => 'Systemkennwort ändern',
+# ORPHANED (no longer in useraccounts_en.lex; kept for reference, commented out by lex-to-po.pl): 'usr_SYSTEM_PASSWORD_FORM_TITLE' => 'Systemkennwort ändern',
 'usr_SYSTEM_PASSWORD_DESCRIPTION' => ' Einige Dienste auf diesem Server benötigen einen Benutzernamen und ein Kennwort (zum Beispiel diese Webseite für den Server-Manager). Der Benutzername ist immer admin. Sie können das Systemkennwort in den Feldern unten geändert werden. ',
 'usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS' => 'Das Kennwort darf nur druckbare Zeichen enthalten',
 'usr_SYSTEM_PASSWORD_VERIFY_ERROR' => 'Die beiden Kennwörter sind nicht identisch.',

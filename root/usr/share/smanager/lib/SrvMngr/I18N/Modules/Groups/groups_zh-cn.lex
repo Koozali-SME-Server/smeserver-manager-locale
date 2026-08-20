@@ -1,13 +1,13 @@
 'grp_FORM_TITLE' => '创建、修改或删除用户组。',
 'grp_GROUP_TOO_LONG' => '错误：组名太长，最大为[_1]个字符。',
 'grp_ACCOUNT_CONFLICT' => '错误：组"[_1]"不能被删除，因为该组已有一个[_2]账号。',
-'grp_INVALID_GROUP_DESCRIPTION' => '错误：组描述中包含未知字符或缺少字符',
+# ORPHANED (no longer in groups_en.lex; kept for reference, commented out by lex-to-po.pl): 'grp_INVALID_GROUP_DESCRIPTION' => '错误：组描述中包含未知字符或缺少字符',
 'grp_NO_MEMBERS' => '错误：组中没有成员。不能创建新组。',
 'grp_CREATED_GROUP' => '已创建用户组',
 'grp_DELETED_GROUP' => '已删除用户组',
 'grp_MODIFIED_GROUP' => '已修改用户组',
 'grp_CREATE_ERROR' => '创建用户组时出错。',
-'grp_DELETE_ERROR' => '删除用户组时出错。',
+# ORPHANED (no longer in groups_en.lex; kept for reference, commented out by lex-to-po.pl): 'grp_DELETE_ERROR' => '删除用户组时出错。',
 'grp_MODIFY_ERROR' => '修改用户组时出错。',
 'grp_GROUP_NAMING' => '组名只能包含小写字母、数字、连接符和下划线,且以小写字母开头。例如 "sales", "beta5", 以及 "reseller_partners" 都是有效的组名，但是 "3rd-event"、"Marketing Team" 和 "lost&found" 都是无效的。',
 'grp_GROUP_HAS_MEMBERS' => '这个组包含如下成员：',
@@ -15,9 +15,9 @@
 'grp_GROUP_DESC' => '简介/Windows组别名',
 'grp_GROUP_DESC_EXPL' => '在下面的位置中输入一个简短的组说明，这个位置也可被Windows客户端查看。',
 'grp_IBAYS_WILL_BE_CHANGED' => '以下i-bay已被分配到此组，并且将被指定为管理员组（您可以稍后修改它们）：',
-'grp_CONFIRM_DELETE_GROUP' => ' 是否要删除这个组？
-
-  ',
+# ORPHANED (no longer in groups_en.lex; kept for reference, commented out by lex-to-po.pl): 'grp_CONFIRM_DELETE_GROUP' => ' 是否要删除这个组？
+#
+#  ',
 'grp_CURRENT_LIST' => '当前用户组列表
 
   ',

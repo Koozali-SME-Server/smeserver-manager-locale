@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "Pengguna"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "Error: Akun \"[_1]\" tidak dapat dibuat karena sudah ada [_2] akun yang menggunakan nama tersebut."
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "Nama Akun"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "Error : nama akun terlalu panjang. Maksimal [_1]karakter."
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "Nama pengguna \"[_1]\" mengandung karakter yang tidak valid. Nama akun harus dimulai dengan huruf kecil dan hanya boleh terdiri dari huruf kecil, angka, hyphen, titik dan garis bawah."
+
+msgid "usr_ADD_USER"
+msgstr "Tambahkan akun pengguna"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "Field ini tidak boleh berisi spasi kosong"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "Error: terjadi kesalahan internal saat mencoba mengubah user \"[_1]\"."
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "Kota"
+
+msgid "usr_COMPANY"
+msgstr "Perusahaan"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr "  Nama akun hanya boleh terdiri dari huruf kecil, angka, hyphen, titik, garis bawah, dan harus dimulai dengan huruf kecil. Contoh \"betty\", \"hjohnson\", and \"mary-jane\" adalah nama akun yang valid account , tetapi \"3friends\", \"John Smith\", and \"henry:miller\" tidak. \n\n  <p> Perhatikan bahwa dua nama pseudonym akan dibuat untuk setiap nama akun. Pseudonym tersebut dibuat agar terdapat akun email alternatif untuk user tersebut yaitu nama depan dan nama belakan yang terpisah dengan titik (.)dan garis bawah(_). Jadi untuk akun \"betty\" dengan nama depan\"Betty\" dan nama belakang \"Rubble\" dua pseudonym akan dibuat sebagai betty.rubble dan betty_rubble. </p>\n\n  <p> Informasi (department, perusahaan, etc.) dapat diganti dari nilai defaults dibawah ini. Perubahan hanya berlaku untuk user ini. </p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "Password system saat ini"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "Kirim secara lokal maupun teruskan"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "Kirim email secara lokal"
+
+msgid "usr_DEPARTMENT"
+msgstr "Departemen"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "Penyampaian email"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "Terjadi kesalahan saat membuat akun pengguna"
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "Terjadi kesalahan saat mencoba menghapus user."
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "Terjadi kesalahan saat meng-update password"
+
+msgid "usr_FIRSTNAME"
+msgstr "Nama depan"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">Buat akun pengguna</a> \n\n  <p> Anda dapat mengubah, mengunci atau menghapus akun atau me-reset password akun dengan mengklik perintah yang sesuai. </p>\n\n  <p> Jika akun telah ditandai sedang terkunci, artinya bahwa password pengguna perlu di-reset. Harap diingat bahwa akun yang baru dibuatsecara otomatis terkunci sampai password telah diganti. </p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "Buat, ubah, atau hapus akun pengguna"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "Alamat penerusan"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "Teruskan email ke alamat dibawah ini"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "Anggota grup"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "Unduh digital certificate ke client IPSec "
+
+msgid "usr_LASTNAME"
+msgstr "Nama belakang"
+
+msgid "usr_LOCK"
+msgstr "Kunci"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "Berhasil mengunci akun pengguna \"[_1]\"."
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "Kunci akun pengguna"
+
+msgid "usr_LOCK_DESC"
+msgstr "Anda akan mengunci akun pengguna"
+
+msgid "usr_LOCK_DESC2"
+msgstr " Akun pengguna ini akan dikunci. Artinya user ini tidak akan bisa login, dan tidak bisa mengambil e-mail. Semua e-mail yang masuk akan tetap disimpan maupun diteruskan kepada alamat email external, seperti yang telah dikonfigurasi. Akun dapat diaktifkan kembali dengan memasukkan password baru. Password yang sekarang tidak akan disimpan.   Anda yakin mengunci akun ini? "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "Anggota?"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "Ubah akun admin"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "Password system yang baru"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "Password system yang baru (verifikasi)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "Error : Akun \"[_1]\" tidak ada"
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "Tidak ada akun pengguna dalam sistem ini"
+
+msgid "usr_P2_TITLE"
+msgstr "Buat atau ubah"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "Berhasil mengubah password user \"[_1]\"."
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "Telepon"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "Error: pseudonym \"[_1]\" sudah digunakan oleh akun user \"[_2]\". Untuk membedakan, tambahkan inisial kedalam field ini."
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "Menghapus akun pengguna"
+
+msgid "usr_REMOVE_DESC"
+msgstr "Anda akan menghapus akun pengguna"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " Semua berkas milik user akun ini akan dihapus. Juga semua e-mail milik akun user ini yang berada di server akan dihapus.   Anda yakin menghapus akun ini? "
+
+msgid "usr_RESET_DESC"
+msgstr "Anda akan mengubah passwork untuk akun user"
+
+msgid "usr_RESET_DESC2"
+msgstr "masukkan password yang baru dibawah ini"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "Alamat"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "Password sekarang salah"
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "Password system telah berubah."
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr " Layanan tertentu dalam server ini memerlukan username dan password (contohnya halaman web ini untuk aplikasi server manager). Nama user adalah admin. Anda dapat mengganti password system menggunakan field dibawah. "
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "Password hanya boleh terdiri dari Password harus berisi hanya karakter bisa dicetak."
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "Kedua password tidak sama"
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "Nama akun \"[_1]\" mengandung karakter yang tidak valid."
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "Field ini hanya boleh terdiri atas huruf, angka, titik, hyphen, dan garis bawah dan dimulai dengan huruf"
+
+msgid "usr_USER_CREATED"
+msgstr "Berhasil membuat akun pengguna"
+
+msgid "usr_USER_MODIFIED"
+msgstr "Berhasil mengubah akun pengguna."
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "Akses VPN Client"

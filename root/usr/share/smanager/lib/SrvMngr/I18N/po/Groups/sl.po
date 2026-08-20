@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Groups module\n"
+"POT-Creation-Date: 2026-08-20 14:49+0100\n"
+"PO-Revision-Date: 2026-08-20 14:49+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "DELETE_ERROR"
+msgstr "(en) DELETE_ERROR"
+
+msgid "grp_ACCOUNT_CONFLICT"
+msgstr "Napaka: skupina uporabnikov z imenom \"[_1]\" ne morete dodati, saj ze obstaja uporabniski racun [_2] z enakim imenom."
+
+msgid "grp_CREATED_GROUP"
+msgstr "Uporabniska skupina je bila uspesno ustvarjena"
+
+msgid "grp_CREATE_ERROR"
+msgstr "Pri ustvarjanju uporabniske skupine je prislo do napake."
+
+msgid "grp_CURRENT_LIST"
+msgstr "Trenuten spisek uporabniskih skupin\n\n  "
+
+msgid "grp_DELETED_GROUP"
+msgstr "Uporabniska skupina je bila uspesno odstanjena"
+
+msgid "grp_DELETE_DESCRIPTION"
+msgstr " Ste tik pred tem, da boste odstranili uporabnisko skupino \"[_1]\" "
+
+msgid "grp_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "grp_FORM_TITLE"
+msgstr "Ustvari, posodobi ali odstrani skupine uporabnikov"
+
+msgid "grp_GROUP_DESC"
+msgstr "Kratek opis/Psevdonim za Windows skupino"
+
+msgid "grp_GROUP_DESC_EXPL"
+msgstr "Vpisite kratek opis v spodnje polje. To polje tudi predstavlja ime skupine, ki jo vidijo Windows odjemalci."
+
+msgid "grp_GROUP_HAS_MEMBERS"
+msgstr "Ta skupina vsebuje naslednje clane:"
+
+msgid "grp_GROUP_NAMING"
+msgstr " Ime uporabniske skupine lahko vsebuje samo majhne crke, stevilke, pomisljaje, pike in podpicja, ter se zacne z majno crko. Kot primer: \"prodaja\", beta\" in \"nadaljnja_prodaja\" so veljavna imena za skupine, \"3-delavnica\", \"Oddelek za trzenje\" in \"izgubljeno&najdeno\" pa ne. "
+
+msgid "grp_GROUP_TOO_LONG"
+msgstr "Napaka: ime skupine uporabnikov je predolgo. Maksimalna dolzina je [_1] znakov."
+
+msgid "grp_IBAYS_WILL_BE_CHANGED"
+msgstr "Naslednji informacijski listi so dodeljeni tej skupini in bodo spremenjeni v Skrbnikovo skupino (to lahko kasneje tudi spremenite):"
+
+msgid "grp_MODIFIED_GROUP"
+msgstr "Uporabniska skupina je bila uspesno posodobljena"
+
+msgid "grp_MODIFY_ERROR"
+msgstr "Pri posodabljanju uporabniske skupine je prislo do napake."
+
+msgid "grp_NOT_A_GROUP"
+msgstr "Napaka: To ni obstojeca skupina uporabnikov."
+
+msgid "grp_NO_MEMBERS"
+msgstr "Napaka: v skupini se ni nobenega uporabnika. Nobena skupina ni bila ustvarjena."

@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "Utilizatori"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "Error: the account \"[_1]\" can't be created because there is already a [_2] account of that name."
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "Nume cont"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "Error: account name is too long. The maximum is [_1] characters."
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "The account name \"[_1]\" contains invalid characters. Account names must start with a lower case letter and contain only lower case letters, numbers, hyphens, periods and underscores."
+
+msgid "usr_ADD_USER"
+msgstr "Adăugați un cont de utilizator"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "(en)This field cannot contain white-space"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "Error: an internal error occurred while attempting to modify the user \"[_1]\"."
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "Oraș"
+
+msgid "usr_COMPANY"
+msgstr "Companie"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr "  The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example \"betty\", \"hjohnson\", and \"mary-jane\" are all valid account names, but \"3friends\", \"John Smith\", and \"henry:miller\" are not. \n\n  <p> Note that two special pseudonyms will be created for each new account. These pseudonyms provide the ability to have alternative mail accounts for that user which include their first name and last name separated with a period (.) and underscore (_). So, for the account \"betty\" with first name \"Betty\" and last name \"Rubble\" two pseudonyms are created as betty.rubble and betty_rubble. </p>\n\n  <p> The directory information (department, company, etc.) can be changed from the defaults shown below. The changes will apply only to this user. </p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "(en)Current system password"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "Livrează și local și la adresa "
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "Livrează local"
+
+msgid "usr_DEPARTMENT"
+msgstr "Departament"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "Livrare e-mail"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "(en)An error occurred creating the user."
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "(en)An error occurred while trying to delete the user."
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "(en)An error occurred while updating the password"
+
+msgid "usr_FIRSTNAME"
+msgstr "Prenumele"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">Add user account</a> \n\n  <p> You can modify, lock or remove any account or reset the account's password by clicking on the corresponding command next to the account. </p>\n\n  <p> If the account is marked as locked, that means that the user's password needs to be reset. Please note that newly created accounts are automatically locked until the password is changed. </p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "(en)Create, modify, or remove user accounts"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "Adresă de redirecționare"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "(en)Forward email to address below"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "Apartenență la grupuri"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "(en)Download digital certificate to IPSec client"
+
+msgid "usr_LASTNAME"
+msgstr "Numele"
+
+msgid "usr_LOCK"
+msgstr "Blocare"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "Successfully locked account for user \"[_1]\"."
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "(en)Lock user account"
+
+msgid "usr_LOCK_DESC"
+msgstr "You are about to lock the user account"
+
+msgid "usr_LOCK_DESC2"
+msgstr " This user account will be locked. This means that this user will not be able to log in, and will not be able to collect e-mail. Any e-mail arriving will still be stored and/or forwarded to an external e-mail address, as configured. The account may be activated in the future by setting a new password. The current password will not be retained.   Are you sure you wish to lock this account? "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "Member?"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "(en)Modify the admin account"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "(en)New system password"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "(en)New system password (verify)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "Error: the user account \"[_1]\" does not exist."
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "(en)There are no user accounts on this system."
+
+msgid "usr_P2_TITLE"
+msgstr "(en)Create or modify"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "Successfully changed password for user \"[_1]\"."
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "Număr de telefon"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "Error: the pseudonym \"[_1]\" is already taken by the existing user account \"[_2]\". To differentiate, add initials to this field."
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "(en)Remove user account"
+
+msgid "usr_REMOVE_DESC"
+msgstr "You are about to remove the user account"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " All files belonging to this user account will be deleted. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded.   Are you sure you wish to remove this account? "
+
+msgid "usr_RESET_DESC"
+msgstr "You are about to change the password for the user account"
+
+msgid "usr_RESET_DESC2"
+msgstr "(en)Enter the new password in the fields below"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "Adresă (stradă)"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "(en)The current password is incorrect."
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "(en)The system password has been changed."
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr "(en) Certain services on this server installation require a username and password (for example this web page for the server manager application). The username is always admin. You can change the system password using the fields below. "
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "(en)Password must contain only printable characters"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "(en)The two passwords are not identical."
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "The account name \"[_1]\" contains invalid characters."
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "(en)This field must contain only letters, numbers, dots, hypens and underscores and start with a letter"
+
+msgid "usr_USER_CREATED"
+msgstr "(en)Successfully created user account."
+
+msgid "usr_USER_MODIFIED"
+msgstr "(en)Successfully modified user account."
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "(en)VPN Client Access"

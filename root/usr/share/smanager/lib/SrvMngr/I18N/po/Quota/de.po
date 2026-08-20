@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Quota module\n"
+"POT-Creation-Date: 2026-08-20 12:56+0100\n"
+"PO-Revision-Date: 2026-08-20 12:56+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "COULD_NOT_GET_UID"
+msgstr "(en) COULD_NOT_GET_UID"
+
+msgid "Quotas"
+msgstr "Speicherlimit (Quotas)"
+
+msgid "quo_ABS_LIMIT"
+msgstr "Absolutes Limit"
+
+msgid "quo_ABS_LIMIT_MB"
+msgstr "Absolutes Limit (MB)"
+
+msgid "quo_ACCOUNT_IS_TYPE"
+msgstr "Dies ist ein Konto vom Typ:"
+
+msgid "quo_CURRENTLY_HAS"
+msgstr "aktuell vergeben:"
+
+msgid "quo_CURRENT_USAGE"
+msgstr "Aktuell benutzt (MB)"
+
+msgid "quo_CURRENT_USAGE_AND_SETTINGS"
+msgstr "Aktuelle Speicherbelegung und Einstellungen"
+
+msgid "quo_ERR_HARD_LT_SOFT"
+msgstr "FEHLER: Das absolute Limit muß größer/gleich der Eingabe vom Limit mit Gnadenfrist sein."
+
+msgid "quo_ERR_MODIFYING"
+msgstr "Es ist ein Fehler beim ändern des Benutzers aufgetreten."
+
+msgid "quo_ERR_NOT_A_USER_ACCT"
+msgstr "FEHLER: das Konto ist kein Benutzerkonto:"
+
+msgid "quo_ERR_NO_SUCH_ACCT"
+msgstr "FEHLER: Sie haben kein Konto angegeben:"
+
+msgid "quo_FILES"
+msgstr "Dateien"
+
+msgid "quo_FORM_TITLE"
+msgstr "Anlegen, Ändern oder Entfernen von Speicherlimits von Benutzerkonten"
+
+msgid "quo_HARD_VAL_MUST_BE_NUMBER"
+msgstr "Fehler: Das \"Absolute Limit\" muss als ganze Zahl eingegeben werden und kann die Zusätze K, M, G oder T enthalten."
+
+msgid "quo_INSTRUCTIONS"
+msgstr "Geben Sie das Speicherlimit an, optional mit nachfolgendem Zeichen 'K' für Kilobytes, 'M' für Megabytes, 'G' für Gigabytes oder 'T' für Terabyte. Eingaben ohne zusätzliches Zeichen werden als Megabyte gewertet. Eingabe '0' schaltet das jeweilige Limit für diesen Benutzer ab."
+
+msgid "quo_LIMIT_WITH_GRACE"
+msgstr "Limit mit Gnadenfrist"
+
+msgid "quo_LIMIT_WITH_GRACE_MB"
+msgstr "Limit mit Gnadenfrist (MB)"
+
+msgid "quo_MEGABYTES"
+msgstr "Megabytes"
+
+msgid "quo_MODIFY_USER_TITLE"
+msgstr "Speicherlimits des Benutzers ändern"
+
+msgid "quo_OCCUPYING"
+msgstr "belegt:"
+
+msgid "quo_QUOTA_DESC"
+msgstr "  Sie können die Speicherbelegung eines Benutzers auf Ihrem System begrenzen, indem Sie in der Zeile des Benutzers unter Aktion auf \"Ändern\" klicken. \n\n  <p> Wenn ein Benutzer das \"Limit mit Gnadenfrist\" erreicht, wird eine Warnung erzeugt. Wird dieses Limit für mehr als eine Woche überschritten oder der Benutzer erreicht das \"Absolute Limit\", können von Ihm keine Dateien mehr gespeichert werden. Dieser Benutzer erhält auch keine E-Mails mehr. </p>\n\n  <p> Sobald '0' eingegeben wird, werden alle Limits für diesen Benutzer 'abgeschaltet'. </p>\n\n  <p> Der Speicherplatz für den Benutzer beinhaltet das Home-Verzeichnis, E-Mails und alle Dateien, die diesem Benutzer in den i-bays gehören. </p>\n\n  "
+
+msgid "quo_SOFT_VAL_MUST_BE_NUMBER"
+msgstr "Fehler: Das Limit mit Gnadenfrist muss als Zahl eingegeben werden und kann die Zusätze K, M, G oder T enthalten."
+
+msgid "quo_SUCCESSFULLY_MODIFIED"
+msgstr "Die Speicherbelegung für das Benutzerkonto wurde erfolgreich geändert:"
+
+msgid "quo_USER"
+msgstr "Benutzer:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "quo_COULD_NOT_GET_UID"
+#~ msgstr "Die UID konnte nicht ermittelt für den Nutzer:"
+#~ msgid "quo_UNABLE_TO_OPEN_ACCOUNTS"
+#~ msgstr "Es ist nicht möglich, die Kontendatenbank zu öffnen"

@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Quota module\n"
+"POT-Creation-Date: 2026-08-20 12:56+0100\n"
+"PO-Revision-Date: 2026-08-20 12:56+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "COULD_NOT_GET_UID"
+msgstr "(en) COULD_NOT_GET_UID"
+
+msgid "Quotas"
+msgstr "(en) Quotas"
+
+msgid "quo_ABS_LIMIT"
+msgstr "Maksimalni limit"
+
+msgid "quo_ABS_LIMIT_MB"
+msgstr "Maksimalni limit (MB)"
+
+msgid "quo_ACCOUNT_IS_TYPE"
+msgstr "To je racun tipa:"
+
+msgid "quo_CURRENTLY_HAS"
+msgstr "ima trenutno:"
+
+msgid "quo_CURRENT_USAGE"
+msgstr "Trenutna uporaba (MB)"
+
+msgid "quo_CURRENT_USAGE_AND_SETTINGS"
+msgstr "Trenutna uporaba prostora in nastavitve"
+
+msgid "quo_ERR_HARD_LT_SOFT"
+msgstr "Napaka: \"Maximalni limit\" mora biti vecji ali enak \"Limit pred maximumom\"."
+
+msgid "quo_ERR_MODIFYING"
+msgstr "Pri spremembi je prislo do napake."
+
+msgid "quo_ERR_NOT_A_USER_ACCT"
+msgstr "Napaka: ta racun ni uporabniski racun:"
+
+msgid "quo_ERR_NO_SUCH_ACCT"
+msgstr "Napaka: tu ni racuna z nazivom:"
+
+msgid "quo_FILES"
+msgstr "%d datoteke"
+
+msgid "quo_FORM_TITLE"
+msgstr "Kreiraj, spremeni ali odstrani delez prostora uporabiskega racuna"
+
+msgid "quo_HARD_VAL_MUST_BE_NUMBER"
+msgstr "Napaka: \"Maximalni limit\" mora vsebovati celo stevilo, ki mu sledi pripona \"K\", \"M\" ali \"G\"."
+
+msgid "quo_INSTRUCTIONS"
+msgstr "Vnesi vrednost v celem stevilu kot dodatno opcijo pa lahko uporabis \"K\" za KiloBajte, \"M\" za Mega Bajte ali \"G\" za Giga Bajte. Vrednost \"0\" v obeh poljih onemogoci limitiranje prostora za uporabnika."
+
+msgid "quo_LIMIT_WITH_GRACE"
+msgstr "Limit pred maksimumom"
+
+msgid "quo_LIMIT_WITH_GRACE_MB"
+msgstr "Limit pred maksimumom (MB)"
+
+msgid "quo_MEGABYTES"
+msgstr "MegaBajtov"
+
+msgid "quo_MODIFY_USER_TITLE"
+msgstr "Spremeni prostor namenjen uporabnikom"
+
+msgid "quo_OCCUPYING"
+msgstr "zasedeno:"
+
+msgid "quo_QUOTA_DESC"
+msgstr " Tu lahko dolocis koliko prostora na disku ima na razpolago uporabnik. S klikom na \"Spremeni\" poleg uporabnika, ki ga zelis spremeniti bos lahko spremenil nastavitve.. Ce uporabnik prekoraci \"Limit pred maximumom\", bo generirano opozorilo. Ce je limit presezen za dlje kot teden dni ali ce je dosezen \"Maximalni limit\" potem uporabnik ne bo mogel vec shranjevati datotek in prejemati e-poste. Nastavitev \"0\" pri obeh onemogoci limit za izbranega uporabnika. Prostor na disku zajema uporabniski domaci direktorij, e-postni predal in vse datoteke, ki so v uporabnikovi lasti (tudi vsebina informacijskih listov). "
+
+msgid "quo_SOFT_VAL_MUST_BE_NUMBER"
+msgstr "Napaka: \"Limit pred maximumom\" mora biti celo stevilo, ki mu sledi pripona \"K\", \"M\" ali \"G\"."
+
+msgid "quo_SUCCESSFULLY_MODIFIED"
+msgstr "Uspesno spremenjen prostor za uporabniski racun:"
+
+msgid "quo_USER"
+msgstr "Uporabnik:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "quo_COULD_NOT_GET_UID"
+#~ msgstr "Ne morem ugotoviti uid za uporabnika:"
+#~ msgid "quo_Quotas"
+#~ msgstr "Prostor"
+#~ msgid "quo_UNABLE_TO_OPEN_ACCOUNTS"
+#~ msgstr "Ne morem odpreti baze racuna"

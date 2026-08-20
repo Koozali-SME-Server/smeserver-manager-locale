@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "Users"
+
+msgid "Webmail"
+msgstr "Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "Error: the account \"[_1]\" can't be created because there is already a [_1] account of that name."
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "Account name"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "Error: account name is too long. The maximum is [_1] characters."
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "The account name \"[_1]\" contains invalid characters. Account names must start with a lower case letter and contain only lower case letters, numbers, hyphens, periods and underscores."
+
+msgid "usr_ADD_USER"
+msgstr "Add user account"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "This field cannot contain white-space"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "Error: an internal error occurred while attempting to modify the user \"[_1]\"."
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "City"
+
+msgid "usr_COMPANY"
+msgstr "Company"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr "The account name should contain only lower-case letters, numbers, hyphens, periods, underscores and should start with a lower-case letter. For example \"betty\",\"hjohnson\", and \"mary-jane\" are all valid account names, but \"3friends\", \"John Smith\", and \"henry:miller\" are not. Note that two special pseudonyms will be created for each new account. These pseudonyms provide the ability to have alternative mail accounts for that user which include their first name and last name separated with a period (.) and underscore (_). So, for the account \"betty\" with first name \"Betty\" and last name \"Rubble\" two pseudonyms are created as betty.rubble and betty_rubble.  The directory information (department, company, etc.) can be changed from the defaults shown below. The changes will apply only to this user.  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "Current system password"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "Both deliver locally and forward"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "Deliver email locally"
+
+msgid "usr_DEPARTMENT"
+msgstr "Department"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "Email delivery"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "An error occurred creating the user."
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "An error occurred while trying to delete the user."
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "An error occurred while updating the password"
+
+msgid "usr_FIRSTNAME"
+msgstr "First name"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "You can modify, lock or remove any account or reset the account's password by clicking on the corresponding command next to the account. If the account is marked as locked, that means that the user's password needs to be reset. Please note that newly created accounts are automatically locked until the password is changed. "
+
+msgid "usr_FORM_TITLE"
+msgstr "Create, modify, or remove user accounts"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "Forwarding address"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "Forward email to address below"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "Group memberships"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "Download digital certificate to IPSec client"
+
+msgid "usr_LASTNAME"
+msgstr "Last name"
+
+msgid "usr_LOCK"
+msgstr "Lock"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "Successfully locked account for user \"[_1]\"."
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "Lock user account"
+
+msgid "usr_LOCK_DESC"
+msgstr "You are about to lock the user account \"[_1]\" ([_2])"
+
+msgid "usr_LOCK_DESC2"
+msgstr "This user account will be locked. This means that this user will not be able to log in, and will not be able to collect e-mail. Any e-mail arriving will still be stored and/or forwarded to an external e-mail address, as configured. The account may be activated in the future by setting a new password. The current password will not be retained.<b>Are you sure you wish to lock this account?</b>"
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "Member?"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "Modify the admin account"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "New system password"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "New system password (verify)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "Error: the user account \"[_1]\" does not exist."
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "There are no user accounts on this system."
+
+msgid "usr_P2_TITLE"
+msgstr "Create or modify"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "Successfully changed password for user \"[_1]\"."
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "Phone number"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "Error: the pseudonym \"[_3]\" is already taken by the existing user account \"[_2]\".To differentiate, add initials to this field."
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "Remove user account"
+
+msgid "usr_REMOVE_DESC"
+msgstr "You are about to remove the user account \"[_1]\" ([_2])"
+
+msgid "usr_REMOVE_DESC2"
+msgstr "All files belonging to this user account will be deleted. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded. <b>Are you sure you wish to remove this account?</b>"
+
+msgid "usr_RESET_DESC"
+msgstr "You are about to change the password for the user account \"[_1]\" ([_2])"
+
+msgid "usr_RESET_DESC2"
+msgstr "Enter the new password in the fields below"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "Street address"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "The current password is incorrect."
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "The system password has been changed."
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr "Certain services on this server installation require a username and password (for example this web page for the server manager application). The username is always admin. You can change the system password using the fields below."
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "Password must contain only printable characters"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "The two passwords are not identical."
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "The account name \"[_1]\" contains invalid characters."
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "This field must contain only letters, numbers, dots, hypens and underscores and start with a letter"
+
+msgid "usr_USER_CREATED"
+msgstr "Successfully created user account. "
+
+msgid "usr_USER_MODIFIED"
+msgstr "Successfully modified user account. "
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "VPN Client Access"

@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Groups module\n"
+"POT-Creation-Date: 2026-08-20 14:49+0100\n"
+"PO-Revision-Date: 2026-08-20 14:49+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+
+msgid "DELETE_ERROR"
+msgstr "(en) DELETE_ERROR"
+
+msgid "grp_ACCOUNT_CONFLICT"
+msgstr "Feil: gruppen \"[_1]\" kan ikke opprettes fordi det allerede er en en [_2] konto med det navnet."
+
+msgid "grp_CREATED_GROUP"
+msgstr "Gruppen ble opprettet"
+
+msgid "grp_CREATE_ERROR"
+msgstr "En feil oppsto under opprettelsen av gruppen."
+
+msgid "grp_CURRENT_LIST"
+msgstr "Gjeldende liste over Brukergrupper\n\n  "
+
+msgid "grp_DELETED_GROUP"
+msgstr "Gruppen ble fjernet"
+
+msgid "grp_DELETE_DESCRIPTION"
+msgstr " Du er i ferd med å fjerne brukergruppen \"[_1]\" "
+
+msgid "grp_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "grp_FORM_TITLE"
+msgstr "Opprett, endre, eller fjerne brukergrupper"
+
+msgid "grp_GROUP_DESC"
+msgstr "Kort beskrivelse/Windows gruppe kallenavn"
+
+msgid "grp_GROUP_DESC_EXPL"
+msgstr "Skriv inn en kort beskrivelse i feltet nedenfor. Feltet blir også gruppenavnet som blir synlig for Windows klienter."
+
+msgid "grp_GROUP_HAS_MEMBERS"
+msgstr "Gruppen inneholder følgende medlemmer:"
+
+msgid "grp_GROUP_NAMING"
+msgstr " Gruppenavnet kan bare inneholde små bokstaver, tall, bindestreker, punktum, og understreker, og må starte med liten bokstav. For ekempel \"salg\", \"beta5\", and \"videresalg_partnere\" er gyldige gruppenavn, men \"3.-part\", \"Markeds Gruppe\" og \"tapt&funnet\" er ikke. "
+
+msgid "grp_GROUP_TOO_LONG"
+msgstr "Feil: gruppenavnet er for langt. maksimumslengden er [_1] tegn."
+
+msgid "grp_IBAYS_WILL_BE_CHANGED"
+msgstr "Følgene I-Bays er tilknyttet gruppen, og vil bli endret til Administratorgruppen (du kan bytte de til noe annet senere):"
+
+msgid "grp_MODIFIED_GROUP"
+msgstr "Gruppen ble endret"
+
+msgid "grp_MODIFY_ERROR"
+msgstr "En feil oppsto under endring av brukergruppen."
+
+msgid "grp_NOT_A_GROUP"
+msgstr "Feil: Dette er ikke en eksisterende gruppe konto."
+
+msgid "grp_NO_MEMBERS"
+msgstr "Feil: ingen medlemmer i gruppen. Gruppen ble ikke opprettet."

@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "Χρήστες"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "Σφάλμα: ο λογαριασμός \"[_1]\" δεν μπορεί να δημιουργηθεί διότι υπάρχει ήδη ένας λογαριασμός [_2]με την ίδια ονομασία."
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "Ονομασία λογαριασμού"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "Σφάλμα: ονομασία λογαριασμού μεγάλου μήκους. Το μέγιστο μήκος είναι [_1] χαρακτήρες."
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "Η ονομασία του λογαριασμού \"[_1]\"περιλαμβάνει μη-αποδεκτούς χαρακτήρες. Οι ονομασίες λογαριασμών πρέπει ν' αρχίζουν με πεζό γράμμα και να περιλαμβάνουν μόνο πεζά γράμματα, αριθμούς, hyphens, τελείες στίξης και μπάρες υπογράμμισης."
+
+msgid "usr_ADD_USER"
+msgstr "Προσθήκη λογαριασμού χρήστη"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "Το παρόν πεδίο δεν μπορεί να περιλαμβάνει \"αόρατους\" χαρακτήρες (spaces, tabs, newlines)"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "Σφάλμα: Παρουσιάστηκε εσωτερικό σφάλμα κατά την απόπειρα τροποποίησης του χρήστη \"[_1]\"."
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "Πόλη"
+
+msgid "usr_COMPANY"
+msgstr "Εταιρεία"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr "  Η ονομασία λογαριασμού πρέπει να περιλαμβάνει μόνο πεζά γράμματα, αριθμούς, τελείες, παύλες, κάτω παύλες και ν΄αρχίζει με ένα πεζό γράμμα. Για παράδειγμα οι ονομασίες λογαριασμών \"betty\", \"hjohnson\" και \"mary-jane\" είναι έγκυρες σε αντίθεση με τις \"John Smith\" και \"henry:miller\" που δεν είναι. \n\n  <p> Σημειώσατε ότι σε κάθε νέο λογαριασμό θα δημιουργηθούν δύο εξατομικευμένα ψευδώνυμα. Τα ψευδώνυμα αυτά παρέχουν την δυνατότητα στο χρήστη να έχει δύο εναλλακτικούς λογαριασμούς ηλεκτρονικής αλληλογραφίας οι οποίοι περιλαμβάνουν το όνομα και το επίθετό του χωρισμένα με μία τελεία και μία παύλα υπογράμμισης. Έτσι για τον λογαριασμό \"betty\" με όνομα \"Betty\" και επίθετο \"Rubble\" δημιουργούνται δύο ψευδώνυμα όπως betty.rubble και betty_rubble. </p>\n\n  <p> Οι πληροφορίες ευρετηρίου (υπηρεσία, εταιρεία, κ.λ.π.) μπορούν να μεταβληθούν σε σχέση με τις αρχικές που εμφανίζονται κατωτέρω. Οι αλλαγές θα έχουν εφαρμογή μόνο στον συγκεκριμένο χρήστη. </p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "Τρέχων κωδικός πρόσβασης συστήματος"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "Τοπική επίδοση και προώθηση"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "Τοπική επίδοση ηλεκτρονικής αλληλογραφίας"
+
+msgid "usr_DEPARTMENT"
+msgstr "Υπηρεσία"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "Επίδοση ηλεκτρονικής αλληλογραφίας"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "Παρουσιάσθηκε σφάλμα κατά τη δημιουργία του χρήστη."
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "Παρουσιάστηκε σφάλμα κατά την απόπειρα διαγραφής του χρήστη."
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "Σφάλμα κατά την διαδικασία επικαιροποίησης του κωδικού πρόσβασης"
+
+msgid "usr_FIRSTNAME"
+msgstr "Όνομα"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">Προσθήκη λογαριασμού χρήστη</a> \n\n  <p> Μπορείτε να τροποποιήσετε, κλειδώσετε ή διαγράψετε οποιονδήποτε λογαριασμό, ή να ρυθμίσετε εκ νέου τον κωδικό πρόσβασής του κάνοντας κλικ στην αντίστοιχη εντολή δίπλα στον λογαριασμό. </p>\n\n  <p> Αν ο λογαριασμός επισημαίνεται σαν κλειδωμένος αυτό σημαίνει ότι ο κωδικός πρόσβασης του χρήστη πρέπει να αρχικοποιηθεί (reset). Σημειώσατε ότι νεο-δημιουργημένοι λογαριασμοί κλειδώνονται αυτόματα μέχρις ότου αλλαχθεί ο κωδικός πρόσβασής των. </p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "Δημιουργία, τροποποίηση ή διαγραφή λογαριασμών χρηστών"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "Διεύθυνση προώθησης"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "Προώθηση ηλεκτρονικής αλληλογραφίας στην διεύθυνση που ακολουθεί"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "Συμμετοχή σε ομάδες"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "Αποστολή (download) ψηφιακού πιστοποιητικού σε πελάτη IPSec"
+
+msgid "usr_LASTNAME"
+msgstr "Επίθετο"
+
+msgid "usr_LOCK"
+msgstr "Κλείδωμα"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "Επιτυχές κλείδωμα του λογαριασμού του χρήστη \"[_1]\"."
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "Κλείδωμα λογαριασμού χρήστη"
+
+msgid "usr_LOCK_DESC"
+msgstr "Πρόκειται να κλειδώσετε το λογαριασμό χρήστη"
+
+msgid "usr_LOCK_DESC2"
+msgstr " Ο λογαριασμός αυτού του χρήστη θα κλειδωθεί. Αυτό σημαίνει ότι ο συγκεκριμένος χρήστης δεν θα μπορεί να συνδεθεί και να παραλάβει την ηλ. αλληλογραφία του. Κάθε μήνυμα ηλ. ταχυδρομείου που θα αφικνείται θα συνεχίζει να αποθηκεύεται και/ή να προωθείται προς έναν εξωτερικό λογαριασμό σύμφωνα με την ισχύουσα ρύθμιση. Ο λογαριασμός μπορεί να καταστεί ενεργός στο μέλλον μετά από νέα ρύθμιση του κωδικού πρόσβασης. Ο τωρινός κωδικός δεν θα διατηρηθεί.   Είστε σίγουροι ότι θέλετε να κλειδώσετε αυτόν το λογαριασμό; "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "Μέλος;"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "Τροποποίηση του λογαριασμού admin"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "Νέος κωδικός πρόσβασης συστήματος"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "Νέος κωδικός πρόσβασης συστήματος (επιβεβαίωση)"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "Σφάλμα: Δεν υφίσταται λογαριασμός χρήστη \"[_1]\"."
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "Δεν υφίστανται λογαριασμοί χρηστών σ΄αυτό το σύστημα."
+
+msgid "usr_P2_TITLE"
+msgstr "Δημιουργία ή τροποποίηση"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης για τον χρήστη \"[_1]\"."
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "Αριθμός τηλεφώνου"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "Σφάλμα: το ψευδώνυμο \"[_1]\" έχει ήδη παραχωρηθεί στον υπάρχοντα λογαριασμό χρήστη\"[_2]\". Για να διαφοροποιηθείτε, προσθέστε αρχικούς χαρακτήρες σ' αυτό το πεδίο."
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "Διαγραφή λογαριασμού χρήστη"
+
+msgid "usr_REMOVE_DESC"
+msgstr "Πρόκειται να διαγράψετε το λογαριασμό χρήστη"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " Όλα τα αρχεία που ανήκουν σε αυτό τον λογαριασμό χρήστη θα διαγραφούν. Επίσης, κάθε μήνυμα ηλ. ταχυδρομείου προς αυτόν τον λογαριασμό χρήστη που ευρίσκεται ακόμη στον διακομιστή (δηλαδή, που δεν έχει παραληφθεί από τον χρήστη) θα πεταχθεί.   Είστε σίγουροι ότι επιθυμείτε ν' αφαιρεθεί αυτός ο λογαριασμός; "
+
+msgid "usr_RESET_DESC"
+msgstr "Πρόκειται ν' αλλάξετε τον κωδικό πρόσβασης για το λογαριασμό χρήστη"
+
+msgid "usr_RESET_DESC2"
+msgstr "Πληκτρολογήστε τον νέο κωδικό πρόσβασης στα πεδία που ακολουθούν"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "Διεύθυνση"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "Ο τρέχων κωδικός πρόσβασης είναι λανθασμένος."
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "Ο κωδικός πρόσβασης συστήματος έχει αλλάξει."
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr " Ορισμένες υπηρεσίες του παρόντος διακομιστή απαιτούν όνομα χρήστη και κωδικό πρόσβασης (όπως αυτή η ιστοσελίδα της εφαρμογής διαχείρισης του διακομιστή). Το όνομα χρήστη είναι πάντοτε admin. Μπορείτε να αλλάξετε τον κωδικό πρόσβασης χρησιμοποιώντας τα παρακάτω πεδία. "
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "Ο κωδικός πρόσβασης πρέπει να περιέχει μόνο εκτυπώσιμους χαρακτήρες"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "Οι δύο κωδικοί πρόσβασης δεν είναι ταυτόσημοι."
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "Η ονομασία λογαριασμού \"[_1]\" περιλαμβάνει μη-έγκυρους χαρακτήρες."
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "Το παρόν πεδίο πρέπει να περιλαμβάνει μόνο γράμματα, αριθμούς, τελείες, παύλες και παύλες υπογράμμισης και να αρχίζει με ένα γράμμα"
+
+msgid "usr_USER_CREATED"
+msgstr "Επιτυχής δημιουργία λογαριασμού χρήστη."
+
+msgid "usr_USER_MODIFIED"
+msgstr "Επιτυχής τροποποίηση λογαριασμού χρήστη."
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "Πρόσβαση Πελατών VPN"

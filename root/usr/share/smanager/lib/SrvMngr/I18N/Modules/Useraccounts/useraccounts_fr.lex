@@ -16,7 +16,7 @@
 'usr_USER_CREATED' => 'Compte utilisateur créé avec succès.',
 'usr_USER_MODIFIED' => 'Compte utilisateur modifié avec succès.',
 'usr_CANNOT_MODIFY_USER' => 'ERREUR : une erreur s\'est produite lors de la tentative de modification de l\'utilisateur "[_1]".',
-'usr_CANNOT_MODIFY_USER_GROUPS' => 'ERREUR : une erreur s\'est produite lors de la tentative de modification du groupe "[_1]" pour l\'utilisateur "[_1]".',
+# ORPHANED (no longer in useraccounts_en.lex; kept for reference, commented out by lex-to-po.pl): 'usr_CANNOT_MODIFY_USER_GROUPS' => 'ERREUR : une erreur s\'est produite lors de la tentative de modification du groupe "[_1]" pour l\'utilisateur "[_1]".',
 'usr_TAINTED_USER' => 'Le nom du compte "[_1]" contient des caractères non valides.',
 'usr_ACCOUNT_NAME' => 'Nom du compte',
 'usr_FIRSTNAME' => 'Prénom',
@@ -40,7 +40,7 @@
 'usr_LOCKED_ACCOUNT' => 'Le compte "[_1]" a été verrouillé avec succès.',
 'usr_NO_SUCH_USER' => 'ERREUR : le compte utilisateur "[_1]" n\'existe pas.',
 'usr_PSEUDONYM_CLASH' => 'ERREUR : le pseudonyme "[_1]" est déjà utilisé par le compte utilisateur "[_2]". Pour différencier ces pseudonymes, vous pouvez ajouter des initiales dans ce champ.',
-'usr_LOCK_ACCOUNT' => 'Verrouiller le compte',
+# ORPHANED (no longer in useraccounts_en.lex; kept for reference, commented out by lex-to-po.pl): 'usr_LOCK_ACCOUNT' => 'Verrouiller le compte',
 'usr_LOCK_ACCOUNT_TITLE' => 'Verrouiller le compte de l\'utilisateur',
 'usr_LOCK_DESC2' => ' Une fois le compte verrouillé, l\'utilisateur ne pourra ni se connecter ni consulter ses courriels. Tout message arrivant sera stocké et/ou renvoyé à une adresse de courriel externe, conformément à la configuration du système. Ce compte pourra ultérieurement être réactivé en définissant un nouveau mot de passe. Le mot de passe actuel ne sera pas conservé.
 
@@ -65,7 +65,7 @@
 'usr_UNACCEPTABLE_CHARS' => 'Ce champ ne doit contenir que des lettres, des chiffres, des points, des traits d\'union et des traits de soulignement. Il doit commencer par une lettre.',
 'usr_MEMBER' => 'Membre?',
 'usr_VPN_CLIENT_ACCESS' => 'Accès par client VPN',
-'usr_SYSTEM_PASSWORD_FORM_TITLE' => 'Changer le mot de passe système',
+# ORPHANED (no longer in useraccounts_en.lex; kept for reference, commented out by lex-to-po.pl): 'usr_SYSTEM_PASSWORD_FORM_TITLE' => 'Changer le mot de passe système',
 'usr_SYSTEM_PASSWORD_DESCRIPTION' => 'L\'accès à certains services d\'administration de ce serveur requiert un nom d\'utilisateur et un mot de passe (comme par exemple cette interface Web du gestionnaire du serveur). Le nom de cet utilisateur est toujours "admin". Vous pouvez changer le mot de passe système à l\'aide des champs ci-dessous :',
 'usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS' => 'Le mot de passe ne doit contenir que des caractères imprimables.',
 'usr_SYSTEM_PASSWORD_VERIFY_ERROR' => 'Les deux mots de passe ne sont pas identiques.',

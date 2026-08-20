@@ -1,5 +1,5 @@
 'quo_FORM_TITLE' => 'Gestion des quotas pour les comptes utilisateur',
-'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Impossible d\'ouvrir la base de données des comptes.',
+# ORPHANED (no longer in quota_en.lex; kept for reference, commented out by lex-to-po.pl): 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'Impossible d\'ouvrir la base de données des comptes.',
 'quo_QUOTA_DESC' => ' Vous pouvez définir des quotas d\'espace disque sur le système de fichiers pour les utilisateurs de votre système en cliquant sur le bouton "Modifier", à côté de l\'utilisateur à mettre à jour.
 
   <p>Si l\'utilisateur dépasse la "limite avec période de grâce", des avertissements lui seront envoyés. Si cette limite est dépassée pendant plus d\'une semaine ou si la "limite absolue" est atteinte, l\'utilisateur ne pourra plus stocker d\'autres fichiers ni recevoir d\'autres courriels.</p>
@@ -15,7 +15,7 @@
 'quo_ABS_LIMIT' => 'Limite absolue',
 'quo_ABS_LIMIT_MB' => 'Limite absolue (Mo)',
 'quo_CURRENT_USAGE' => 'Utilisation actuelle (Mo)',
-'quo_COULD_NOT_GET_UID' => 'Impossible de déterminer l\'UID de l\'utilisateur',
+# ORPHANED (no longer in quota_en.lex; kept for reference, commented out by lex-to-po.pl): 'quo_COULD_NOT_GET_UID' => 'Impossible de déterminer l\'UID de l\'utilisateur',
 'quo_ERR_NO_SUCH_ACCT' => 'ERREUR : il n\'existe pas de compte avec le nom',
 'quo_ERR_NOT_A_USER_ACCT' => 'ERREUR : ce n\'est pas un compte utilisateur',
 'quo_ACCOUNT_IS_TYPE' => 'C\'est un compte de type',

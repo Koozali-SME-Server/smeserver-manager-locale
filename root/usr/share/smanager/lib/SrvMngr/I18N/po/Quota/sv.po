@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Quota module\n"
+"POT-Creation-Date: 2026-08-20 12:56+0100\n"
+"PO-Revision-Date: 2026-08-20 12:56+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+
+msgid "COULD_NOT_GET_UID"
+msgstr "(en) COULD_NOT_GET_UID"
+
+msgid "Quotas"
+msgstr "(en) Quotas"
+
+msgid "quo_ABS_LIMIT"
+msgstr "Absolut gräns"
+
+msgid "quo_ABS_LIMIT_MB"
+msgstr "Absolut gräns (MB)"
+
+msgid "quo_ACCOUNT_IS_TYPE"
+msgstr "Det är ett konto av typen:"
+
+msgid "quo_CURRENTLY_HAS"
+msgstr "har för närvarande:"
+
+msgid "quo_CURRENT_USAGE"
+msgstr "Nuvarande utnyttjande (MB)"
+
+msgid "quo_CURRENT_USAGE_AND_SETTINGS"
+msgstr "Nuvarande kvotanvändning och inställningar"
+
+msgid "quo_ERR_HARD_LT_SOFT"
+msgstr "Fel: absolut gräns måste vara större än anståndstiden."
+
+msgid "quo_ERR_MODIFYING"
+msgstr "Fel inträffade vid ändring av användare."
+
+msgid "quo_ERR_NOT_A_USER_ACCT"
+msgstr "Fel: kontot är inte ett användarkonto:"
+
+msgid "quo_ERR_NO_SUCH_ACCT"
+msgstr "Fel: det finns inget konto namngivet:"
+
+msgid "quo_FILES"
+msgstr "filer"
+
+msgid "quo_FORM_TITLE"
+msgstr "Skapa, ändra eller ta bort användarkontons kvoter"
+
+msgid "quo_HARD_VAL_MUST_BE_NUMBER"
+msgstr "Fel: Absolut gräns måste vare ett heltal med valbart efterföljande enhetssuffix K, M, G eller T."
+
+msgid "quo_INSTRUCTIONS"
+msgstr "Ange en kvot som ett heltal med valbart enhetssuffix 'K' för kilobytes, 'M' för megabytes, 'G' för gigabytes eller 'T' för Terabytes. Angivelser utan suffix antas vara i megabytes. Inställning med '0' för någon av gränserna tar bort begränsningen för angiven användare."
+
+msgid "quo_LIMIT_WITH_GRACE"
+msgstr "Gräns med anståndsperiod"
+
+msgid "quo_LIMIT_WITH_GRACE_MB"
+msgstr "Gräns med anståndsperiod (MB)"
+
+msgid "quo_MEGABYTES"
+msgstr "megabytes"
+
+msgid "quo_MODIFY_USER_TITLE"
+msgstr "Ändra användarkvotens gräns"
+
+msgid "quo_OCCUPYING"
+msgstr "använder:"
+
+msgid "quo_QUOTA_DESC"
+msgstr " Du kan ange filsystemskvot för användare på ditt system, genom att klicka på \"Ändra\"-knappen, vid sidan om den användare som du vill uppdatera. Om användaren överskrider \"gränsen för anståndsperioden\", kommer varning att generas. Om denna gräns överskrids med mer än en vecka eller om den \"Absoluta gränsen\" nås, kommer användaren ej att kunna spara med filer eller erhålla fler e-postmeddelanden. Inställningen '0' för någon av gränserna, tar bort just den gränsen för aktuell användare. Diskutrymmet för varje användare inkluderar användarens hem-mapp, e-post och alla filer som användaren äger i information bays. "
+
+msgid "quo_SOFT_VAL_MUST_BE_NUMBER"
+msgstr "Fel: Gräns för anståndsperiod måste vara ett heltal med valbart efterföljande enhetssuffix K, M, G eller T."
+
+msgid "quo_SUCCESSFULLY_MODIFIED"
+msgstr "Ändrat kvot för användarkonto:"
+
+msgid "quo_USER"
+msgstr "Användare:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "quo_COULD_NOT_GET_UID"
+#~ msgstr "Kunde inte bestämma uid för användare:"
+#~ msgid "quo_Quotas"
+#~ msgstr "Kvoter"
+#~ msgid "quo_UNABLE_TO_OPEN_ACCOUNTS"
+#~ msgstr "Kan ej öppna kontots db"

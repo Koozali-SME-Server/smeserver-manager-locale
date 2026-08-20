@@ -1,13 +1,13 @@
 'grp_FORM_TITLE' => 'สร้างแก้ไขหรือลบกลุ่มผู้ใช้',
 'grp_GROUP_TOO_LONG' => 'ข้อผิดพลาด: ชื่อกลุ่มยาวเกินไป ความยาวสูงสุดคือ [_1] ตัวอักษร',
 'grp_ACCOUNT_CONFLICT' => 'ผิดพลาด:ไม่สามารถสร้างกลุ่ม "[_1]" เนื่องจากมีบัญชีชนิด[_2] ที่มีชื่อนี้อยู่แล้ว',
-'grp_INVALID_GROUP_DESCRIPTION' => 'ผิดพลาด: มีสามารถตีความหรือไม่มีตัวอักษรในรายละเอียดของกลุ่ม',
+# ORPHANED (no longer in groups_en.lex; kept for reference, commented out by lex-to-po.pl): 'grp_INVALID_GROUP_DESCRIPTION' => 'ผิดพลาด: มีสามารถตีความหรือไม่มีตัวอักษรในรายละเอียดของกลุ่ม',
 'grp_NO_MEMBERS' => 'ผิดพลาด: ไม่มีสมาชิกในกลุ่ม ไม่ได้ทำการสร้างกลุ่มใหม่',
 'grp_CREATED_GROUP' => 'สร้างกลุ่มผู้ใช้เสร็จสิ้นแล้ว',
 'grp_DELETED_GROUP' => 'ลบกลุ่มผู้ใช้เสร็จสิ้นแล้ว',
 'grp_MODIFIED_GROUP' => 'แก้ไขกลุ่มผู้ใช้เสร็จสิ้นแล้ว',
 'grp_CREATE_ERROR' => 'เกิดข้อผิดพลาดขณะสร้างกลุ่มผู้ใช้',
-'grp_DELETE_ERROR' => 'เกิดข้อผิดพลาดขณะลบกลุ่มผู้ใช้',
+# ORPHANED (no longer in groups_en.lex; kept for reference, commented out by lex-to-po.pl): 'grp_DELETE_ERROR' => 'เกิดข้อผิดพลาดขณะลบกลุ่มผู้ใช้',
 'grp_MODIFY_ERROR' => 'เกิดข้อผิดพลาดขณะแก้ไขกลุ่มผู้ใช้',
 'grp_GROUP_NAMING' => ' ชื่อกลุ่มจะต้องมีเฉพาะตัวอักษรภาษาอังกฤษพิมพ์เล็ก ตัวเลข จุด ยติภังค์ (-) และขีดล่าง (_) และต้องเริ่มด้วยอักษร เช่น"sales", "beta5", และ "reseller_partners" ซึ่งถูกต้อง แต่ "3rd-event", "Marketing Team" และ "lost&found" จะใช้ไม่ได้',
 'grp_GROUP_HAS_MEMBERS' => 'กลุ่มนี้มีสมาชิกต่อไปนี้:',
@@ -15,9 +15,9 @@
 'grp_GROUP_DESC' => 'คำอธิบายโดยย่อ/Windows Group Alia',
 'grp_GROUP_DESC_EXPL' => 'ป้อนคำอธิบายกลุ่มสั้นในช่องด้านล่าง ฟิลด์นี้ยังกำหนดชื่อกลุ่มที่จะมองเห็นโดยเครื่องลูกที่เป็นระบบ Windows',
 'grp_IBAYS_WILL_BE_CHANGED' => 'information bays ที่ถูกกำหนดให้กับกลุ่มต่อไปนี้จะถูกเปลี่ยนให้เป็น "กลุ่มผู้ดูแลระบบ" (คุณสามารถเปลี่ยนให้อย่างอื่นได้ภายหลัง)',
-'grp_CONFIRM_DELETE_GROUP' => ' คุณแน่ใจหรือว่าต้องการลบกลุ่มนี้?
-
-  ',
+# ORPHANED (no longer in groups_en.lex; kept for reference, commented out by lex-to-po.pl): 'grp_CONFIRM_DELETE_GROUP' => ' คุณแน่ใจหรือว่าต้องการลบกลุ่มนี้?
+#
+#  ',
 'grp_CURRENT_LIST' => 'รายการกลุ่มของผู้ใช้ในปัจจุบัน
 
   ',

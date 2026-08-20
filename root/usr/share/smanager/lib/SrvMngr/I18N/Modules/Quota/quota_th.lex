@@ -1,5 +1,5 @@
 'quo_FORM_TITLE' => 'สร้าง แก้ไข หรือ ลบข้อมูลโควต้าของผู้ใช้',
-'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'ไม่สามารถเปิดฐานข้อมูลเก็บข้อมูลบัญชี',
+# ORPHANED (no longer in quota_en.lex; kept for reference, commented out by lex-to-po.pl): 'quo_UNABLE_TO_OPEN_ACCOUNTS' => 'ไม่สามารถเปิดฐานข้อมูลเก็บข้อมูลบัญชี',
 'quo_QUOTA_DESC' => ' คุณสามารถกำหนดโควต้าปริมาณพื้นที่ใช้งานในสำหรับผู้ใช้ในระบบได้โดยคลิ๊กที่ปุ่ม "แก้ไข" ที่อยู่ถัดจากรายการผู้ใช้ที่คุณต้องการแก้ไข
 
   <p>ถ้าผู้ใช้นั้นใช้งานพื้นที่จนถึงระดับ "จำกัดระยะผ่อนผัน" (Limit with grace period) ระบบก็จะเริ่มส่งคำเตือนให้ผู้ใช้นั้น ถ้าถูกเตือนอยู่นานเกินหนึ่งสัปดาห์ หรือถ้ามีการใช้จำนวนพื้นที่จนถึงระดับ "จำกัดสุทธิ" (Absolute limit) แล้ว ผู้ใช้นั้นจะไม่สามารถบันทึกไฟล์หรือรับเมล์ที่เข้ามาได้อีก</p>
@@ -13,7 +13,7 @@
 'quo_ABS_LIMIT' => 'จำกัดสุทธิ',
 'quo_ABS_LIMIT_MB' => 'จำกัดสุทธิ (MB)',
 'quo_CURRENT_USAGE' => 'จำนวนพื้นที่ที่ใช้อยู่ขณะนี้ (MB)',
-'quo_COULD_NOT_GET_UID' => 'ไม่สามารถหาค่า uid ของผู้ใช้ได้:',
+# ORPHANED (no longer in quota_en.lex; kept for reference, commented out by lex-to-po.pl): 'quo_COULD_NOT_GET_UID' => 'ไม่สามารถหาค่า uid ของผู้ใช้ได้:',
 'quo_ERR_NO_SUCH_ACCT' => 'ผิดพลาด: ไม่มีบัญชีชื่อนี้:',
 'quo_ERR_NOT_A_USER_ACCT' => 'ผิดพลาด: มันไม่ใช่ชื่อบัญชีผู้ใช้:',
 'quo_ACCOUNT_IS_TYPE' => 'It is an account of type:',
@@ -29,4 +29,4 @@
 'quo_ERR_HARD_LT_SOFT' => 'ผิดพลาด: จำนวนพื้นที่จำกัดสุทธิจะต้องมากกว่าจำนวนพื้นที่ระยะผ่อนผัน',
 'quo_ERR_MODIFYING' => 'เกิดข้อผิดพลาดขึ้นระหว่างการแก้ไขข้อมูลผู้ใช้',
 'quo_SUCCESSFULLY_MODIFIED' => 'แก้ไขโควต้าของผู้ใช้เรียบร้อยแล้ว:',
-'quo_Quotas' => 'โควต้า',
+# ORPHANED (no longer in quota_en.lex; kept for reference, commented out by lex-to-po.pl): 'quo_Quotas' => 'โควต้า',

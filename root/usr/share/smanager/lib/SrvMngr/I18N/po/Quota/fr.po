@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Quota module\n"
+"POT-Creation-Date: 2026-08-20 12:56+0100\n"
+"PO-Revision-Date: 2026-08-20 12:56+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "COULD_NOT_GET_UID"
+msgstr "(en) COULD_NOT_GET_UID"
+
+msgid "Quotas"
+msgstr "Quotas"
+
+msgid "quo_ABS_LIMIT"
+msgstr "Limite absolue"
+
+msgid "quo_ABS_LIMIT_MB"
+msgstr "Limite absolue (Mo)"
+
+msgid "quo_ACCOUNT_IS_TYPE"
+msgstr "C'est un compte de type"
+
+msgid "quo_CURRENTLY_HAS"
+msgstr "utilise actuellement"
+
+msgid "quo_CURRENT_USAGE"
+msgstr "Utilisation actuelle (Mo)"
+
+msgid "quo_CURRENT_USAGE_AND_SETTINGS"
+msgstr "Utilisation et paramètres actuels des quotas"
+
+msgid "quo_ERR_HARD_LT_SOFT"
+msgstr "ERREUR : la limite absolue doit être supérieure ou égale à la limite avec période de grâce."
+
+msgid "quo_ERR_MODIFYING"
+msgstr "Une erreur s'est produite lors de la modification de l'utilisateur."
+
+msgid "quo_ERR_NOT_A_USER_ACCT"
+msgstr "ERREUR : ce n'est pas un compte utilisateur"
+
+msgid "quo_ERR_NO_SUCH_ACCT"
+msgstr "ERREUR : il n'existe pas de compte avec le nom"
+
+msgid "quo_FILES"
+msgstr "fichiers"
+
+msgid "quo_FORM_TITLE"
+msgstr "Gestion des quotas pour les comptes utilisateur"
+
+msgid "quo_HARD_VAL_MUST_BE_NUMBER"
+msgstr "ERREUR : la limite absolue doit être un entier, suivi éventuellement par l'un des suffixes unitaire K, M , G ou T."
+
+msgid "quo_INSTRUCTIONS"
+msgstr "Tapez le quota sous la forme d'un entier auquel vous pouvez ajouter le suffixe unitaire \"K\" pour kilooctet, \"M\" pour mégaoctet, \"G\" pour gigaoctet ou \"T\" pour teraboctet . Si aucun suffixe n'est entré, l'unité par défaut sera le mégaoctet. Si l'une des limites est définie à \"0\", cette limite sera désactivée pour l'utilisateur correspondant."
+
+msgid "quo_LIMIT_WITH_GRACE"
+msgstr "Limite avec période de grâce"
+
+msgid "quo_LIMIT_WITH_GRACE_MB"
+msgstr "Limite avec période de grâce (Mo)"
+
+msgid "quo_MEGABYTES"
+msgstr "Megaoctets."
+
+msgid "quo_MODIFY_USER_TITLE"
+msgstr "Modifier les limites de quotas utilisateur"
+
+msgid "quo_OCCUPYING"
+msgstr "qui occupent"
+
+msgid "quo_QUOTA_DESC"
+msgstr " Vous pouvez définir des quotas d'espace disque sur le système de fichiers pour les utilisateurs de votre système en cliquant sur le bouton \"Modifier\", à côté de l'utilisateur à mettre à jour.\n\n  <p>Si l'utilisateur dépasse la \"limite avec période de grâce\", des avertissements lui seront envoyés. Si cette limite est dépassée pendant plus d'une semaine ou si la \"limite absolue\" est atteinte, l'utilisateur ne pourra plus stocker d'autres fichiers ni recevoir d'autres courriels.</p>\n\n  <p>La valeur \"0\" pour l'une ou l'autre des limites désactive cette limite pour l'utilisateur correspondant.</p>\n\n  <p>L'espace disque utilisé par l'utilisateur comprend son répertoire personnel, ses courriels, ainsi que tous les fichiers dont il est propriétaire dans les différentes i-bays.</p>\n\n  "
+
+msgid "quo_SOFT_VAL_MUST_BE_NUMBER"
+msgstr "ERREUR : la limite avec période de grâce doit être un entier, suivi éventuellement par l'un des suffixes unitaire K, M , G ou T."
+
+msgid "quo_SUCCESSFULLY_MODIFIED"
+msgstr "Modification réussie du quota pour compte utilisateur"
+
+msgid "quo_USER"
+msgstr "L'utilisateur"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "quo_COULD_NOT_GET_UID"
+#~ msgstr "Impossible de déterminer l'UID de l'utilisateur"
+#~ msgid "quo_UNABLE_TO_OPEN_ACCOUNTS"
+#~ msgstr "Impossible d'ouvrir la base de données des comptes."

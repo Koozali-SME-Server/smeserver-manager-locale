@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Useraccounts module\n"
+"POT-Creation-Date: 2026-08-18 07:58+0100\n"
+"PO-Revision-Date: 2026-08-18 07:58+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-cn\n"
+
+msgid "Error occurred while modifying password for admin."
+msgstr "(en) Error occurred while modifying password for admin."
+
+msgid "LOCK_ACCOUNT"
+msgstr "(en) LOCK_ACCOUNT"
+
+msgid "Users"
+msgstr "用户"
+
+msgid "Webmail"
+msgstr "(en) Webmail"
+
+msgid "usr_ACCOUNT_CONFLICT"
+msgstr "错误：账号\"[_1]\"不能被创建，因为同名[_2] 账号已存在。"
+
+msgid "usr_ACCOUNT_NAME"
+msgstr "账号名称"
+
+msgid "usr_ACCOUNT_TOO_LONG"
+msgstr "错误：账号名称太长，最大为[_1]个字符。"
+
+msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "账号名称\"[_1]\"中包含无效的字符。账户名必须由小写字母、数字、连接符、句点和下划线组成并且以小写字母开头。"
+
+msgid "usr_ADD_USER"
+msgstr "添加用户账户"
+
+msgid "usr_CANNOT_CONTAIN_WHITESPACE"
+msgstr "此字段不能包含空白字符"
+
+msgid "usr_CANNOT_MODIFY_USER"
+msgstr "错误：尝试修改用户\"[_1]\"时出现内部错误。"
+
+msgid "usr_CANNOT_MODIFY_USER_GROUPS"
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+
+msgid "usr_CITY"
+msgstr "城市"
+
+msgid "usr_COMPANY"
+msgstr "公司"
+
+msgid "usr_CREATE_MODIFY_DESC"
+msgstr " 账户名必须由小写字母、数字、连字符、日期、着重号组合而成，且以小写字母开头。例如“betty”,“hjohnson”,和“mary-jane”都是有效地账户名,但“3friends”、“John Smith”和“henry:miller”无效。\n\n  <p> 注意，每个新账户会有两个别名。这些别名可以替代邮件账号（包含姓名的那种）。因此账户\"betty\"（姓\"Betty\"，名\"Rubble\"）的两个别名是“betty.rubble”和“betty_rubble”。</p>\n\n  <p> 目录信息(部门、公司等)可以在下面更改。更改只对该用户有效。</p>\n\n  "
+
+msgid "usr_CURRENT_SYSTEM_PASSWORD"
+msgstr "当前系统密码"
+
+msgid "usr_DELIVER_AND_FORWARD"
+msgstr "投递到本地电子邮件并转发"
+
+msgid "usr_DELIVER_EMAIL_LOCALLY"
+msgstr "投递到本地电子邮件"
+
+msgid "usr_DEPARTMENT"
+msgstr "部门"
+
+msgid "usr_EMAIL_DELIVERY"
+msgstr "电子邮件投递"
+
+msgid "usr_ERR_OCCURRED_CREATING"
+msgstr "创建用户时出错。"
+
+msgid "usr_ERR_OCCURRED_DELETING"
+msgstr "尝试删除用户时出错。"
+
+msgid "usr_ERR_OCCURRED_LOCKING"
+msgstr "(en) Err occurred locking"
+
+msgid "usr_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "更新密码时出错"
+
+msgid "usr_FIRSTNAME"
+msgstr "名字"
+
+msgid "usr_FIRSTPAGE_DESC"
+msgstr "  <a class=\"button-like\" href=\"useraccounts?page=0&page_stack=&next=next\">增加用户账号</a> \n\n  <p> 您可以修改、锁定或者移除任何账号，或者通过点击账号边上的相应命令来重置账号密码。 </p>\n\n  <p> 如果账号标记为被锁，就意味着该需要重置该用户的密码。请注意，新建账号会自动锁定，直至其密码变更。 </p>\n\n  "
+
+msgid "usr_FORM_TITLE"
+msgstr "创建、修改或者移除用户账号"
+
+msgid "usr_FORWARDING_ADDRESS"
+msgstr "转发地址"
+
+msgid "usr_FORWARD_EMAIL"
+msgstr "转发电子邮件到以下地址"
+
+msgid "usr_GROUP_MEMBERSHIPS"
+msgstr "群组成员"
+
+msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "usr_LABEL_IPSECRW_DOWNLOAD"
+msgstr "下载数字证书到IPSec客户端"
+
+msgid "usr_LASTNAME"
+msgstr "姓氏"
+
+msgid "usr_LOCK"
+msgstr "锁定"
+
+msgid "usr_LOCKED_ACCOUNT"
+msgstr "成功锁定了用户\"[_1]\"的账号"
+
+msgid "usr_LOCK_ACCOUNT"
+msgstr "(en) Lock account"
+
+msgid "usr_LOCK_ACCOUNT_TITLE"
+msgstr "锁定用户账号"
+
+msgid "usr_LOCK_DESC"
+msgstr "您正要锁定用户账号"
+
+msgid "usr_LOCK_DESC2"
+msgstr " 此用户账户将被锁定。意味着此用户将不能登录和收发邮件。任何收到的邮件仍会被存储并且（或者）转发给事先配置好的外部电子邮件地址。 此账户以后可以在重置密码后被激活，但当前密码不会保留。   您确定锁定此账户吗? "
+
+msgid "usr_MAX_user_NAME_LENGTH_ERROR"
+msgstr "(en) Max user name length error"
+
+msgid "usr_MEMBER"
+msgstr "成员？"
+
+msgid "usr_MODIFY_ADMIN_TITLE"
+msgstr "修改管理员账号"
+
+msgid "usr_NEW_SYSTEM_PASSWORD"
+msgstr "新的系统密码"
+
+msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
+msgstr "新的系统密码（确认）"
+
+msgid "usr_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+
+msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "usr_NO_SUCH_USER"
+msgstr "错误：用户账号\"[_1]\"不存在。"
+
+msgid "usr_NO_USER_ACCOUNTS"
+msgstr "此系统中暂无用户账号。"
+
+msgid "usr_P2_TITLE"
+msgstr "创建或修改"
+
+msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
+msgstr "成功修改了用户\"[_1]\"的密码。"
+
+msgid "usr_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "usr_PHONE_NUMBER"
+msgstr "电话号码"
+
+msgid "usr_PSEUDONYM_CLASH"
+msgstr "错误：假名\"[_1]\" 已被用户\"[_2]\"使用。需使用不同的假名，请重新填写此字段。"
+
+msgid "usr_REMOVE_ACCOUNT_TITLE"
+msgstr "移除用户账户"
+
+msgid "usr_REMOVE_DESC"
+msgstr "您正要移除此用户账号"
+
+msgid "usr_REMOVE_DESC2"
+msgstr " 此账户的所有文件将被删除，现有的电子邮件（比如未读邮件）也会被丢弃。  确认删除此账户吗? "
+
+msgid "usr_RESET_DESC"
+msgstr "您正要修改用户的密码"
+
+msgid "usr_RESET_DESC2"
+msgstr "在下面输入新密码"
+
+msgid "usr_STREET_ADDRESS"
+msgstr "地址"
+
+msgid "usr_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "usr_SUCCESSFULLY_DELETED_USER"
+msgstr "(en) Successfully deleted user"
+
+msgid "usr_SYSTEM_PASSWORD_AUTH_ERROR"
+msgstr "当前密码错误。"
+
+msgid "usr_SYSTEM_PASSWORD_CHANGED"
+msgstr "系统密码已经变更。"
+
+msgid "usr_SYSTEM_PASSWORD_DESCRIPTION"
+msgstr "系统上的某些特定服务需要用户名和密码（比如server manager)。用户名常常是admin。您可以在下方更改系统密码。"
+
+msgid "usr_SYSTEM_PASSWORD_FORM_TITLE"
+msgstr "(en) Change system password"
+
+msgid "usr_SYSTEM_PASSWORD_UNPRINTABLES_IN_PASS"
+msgstr "密码只能包含可打印的字符"
+
+msgid "usr_SYSTEM_PASSWORD_VERIFY_ERROR"
+msgstr "两次密码输入不一致。"
+
+msgid "usr_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "usr_TAINTED_USER"
+msgstr "账号名称\"[_1]\"包含非法字符。"
+
+msgid "usr_UNACCEPTABLE_CHARS"
+msgstr "此地段只能包含字母、数字、句点、连接符和下划线，并且要以字母开头。"
+
+msgid "usr_USER_CREATED"
+msgstr "成功创建用户账号。"
+
+msgid "usr_USER_MODIFIED"
+msgstr "成功修改用户账号。"
+
+msgid "usr_VPN_CLIENT_ACCESS"
+msgstr "VPN客户端访问"
