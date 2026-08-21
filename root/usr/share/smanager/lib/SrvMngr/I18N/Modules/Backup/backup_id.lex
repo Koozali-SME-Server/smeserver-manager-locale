@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Backup atau restore data server',
-'bac_BACKUP_DESC' => ' <p>Server menyediakan dua cara untuk membackup dan me-restore server: : menggunakan desktop lokal atau sebuah tape drive.</p>
-
-  <p>Metode pertama membuat salinan dari konfigurasi server dan file data pengguna, dan mengunduhnya pada desktop lokal anda melalui web browser anda. Saat ini total file konfigurasi dan data sekitar <b>[_3]</b>. File backup akan sedikit lebih kecil dari ini, tergantung seberapa bisa data dimampatkan . Pilihan \\"Periksa file backup dekstop\\" option dapat digunakanuntuk memeriksa integritas dari sebuah file backup.</p>
-
-  <p>Metode tape backup menggunakan paket perangkat lunak <i>[_1]</i> untuk membackup seluruh harddisk kedalam tape setiap malam. Ini memerlukan tape drive yang di-support dan sebuah tape yang tidak di write-protect. Backup dilakukan secara otomatis pada waktu yang ditentukan setiap malam (dengan reminder yang secara otomatis di e-mailed kepada administrator pada hari berikutnya). Saat ini harddisk anda berisi data <b>[_2]</b> .</p>
-
-  <p>Kedua metode restore membolehkan anda untuk me-restore file konfigurasi dan data pengguna. <b>Sebaiknya, restore dilakukan pada server yang baru di-install</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>Server menyediakan dua cara untuk membackup dan me-restore server: : menggunakan desktop lokal atau sebuah tape drive.</p>
+#
+#  <p>Metode pertama membuat salinan dari konfigurasi server dan file data pengguna, dan mengunduhnya pada desktop lokal anda melalui web browser anda. Saat ini total file konfigurasi dan data sekitar <b>[_3]</b>. File backup akan sedikit lebih kecil dari ini, tergantung seberapa bisa data dimampatkan . Pilihan \\"Periksa file backup dekstop\\" option dapat digunakanuntuk memeriksa integritas dari sebuah file backup.</p>
+#
+#  <p>Metode tape backup menggunakan paket perangkat lunak <i>[_1]</i> untuk membackup seluruh harddisk kedalam tape setiap malam. Ini memerlukan tape drive yang di-support dan sebuah tape yang tidak di write-protect. Backup dilakukan secara otomatis pada waktu yang ditentukan setiap malam (dengan reminder yang secara otomatis di e-mailed kepada administrator pada hari berikutnya). Saat ini harddisk anda berisi data <b>[_2]</b> .</p>
+#
+#  <p>Kedua metode restore membolehkan anda untuk me-restore file konfigurasi dan data pengguna. <b>Sebaiknya, restore dilakukan pada server yang baru di-install</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
@@ -18,10 +18,10 @@
 
   <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Konfigurasi dan status backup',
-'bac_TAPE_BACKUPS_ENABLED' => ' Backup Tape saat ini di enabled. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Backup Tape saat ini di enabled. ',
 'bac_BACKUPS_RUN_AT' => 'Tape backup akan dijalankan secara teratur pada:',
 'bac_REMINDER_MESSAGE_AT' => 'Pesan pengingat akan dikirim pada:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Backups Tape di disabled ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Backups Tape di disabled ',
 'bac_DESKTOP_BACKUP' => 'Backup ke desktop',
 'bac_DESKTOP_RESTORE' => 'Restore dari desktop',
 'bac_DESKTOP_VERIFY' => 'Verifikasi file backup desktop',
@@ -112,10 +112,10 @@
 'bac_SERVER_WILL_REBOOT' => 'Server akan reboot sekarang',
 'bac_NO_UID_FOR_NAME' => 'Tidak dapat mengambil uid untuk user:',
 'bac_PAGE_REFRESH_IN' => ' Halaman ini akan me-refresh ke display status dalam [_1] detik, atau klikdi sini. ',
-'bac_Backup or restore' => 'Backup atau restore',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => 'Backup atau restore',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Terlalu banyak data pada server untuk backup ke desktop.  ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation backups di disabled ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation backups saat ini di enabled. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation backups di disabled ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation backups saat ini di enabled. ',
 'bac_WKBACKUPS_RUN_AT' => 'Workstation Backup secara teratur dilakukan pada:',
 'bac_WORKSTN_CONFIGURE' => 'Pengaturan workstation backup',
 'bac_WORKSTN_VERIFY' => 'Periksa workstation backup',

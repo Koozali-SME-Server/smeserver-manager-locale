@@ -10,8 +10,8 @@
   <p>Para realizar uma função administrativa, clique em um dos links no menu na esquerda desta tela.</p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Esta é uma versão de desenvolvimento e sem suporte do Servidor Mitel Networks SME Este software vem SEM ABSOLUTAMENTE NENHUMA GARANTIA. Favor <a href="/smanager/support" target="main">click aqui</a> para ver detalhado suporte, garantia e informações de licença. 
-
-  <p> <a href="/server-manager/noframes">Click aquie</a> para uma lista de funções de administração do sistema. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Esta é uma versão de desenvolvimento e sem suporte do Servidor Mitel Networks SME Este software vem SEM ABSOLUTAMENTE NENHUMA GARANTIA. Favor <a href="/smanager/support" target="main">click aqui</a> para ver detalhado suporte, garantia e informações de licença. 
+#
+#  <p> <a href="/server-manager/noframes">Click aquie</a> para uma lista de funções de administração do sistema. </p>
+#
+#  ',

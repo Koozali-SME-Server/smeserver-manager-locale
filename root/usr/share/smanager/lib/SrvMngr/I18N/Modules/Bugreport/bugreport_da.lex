@@ -20,5 +20,5 @@
 'bugr_CONSIDER_DONATING' => 'Vælgj venligst at donere til projektet ved at klikke på billedet nedenfor:',
 'bugr_THANK_YOU' => 'Tak for din støtte!',
 'bugr_Download this report' => 'Hent denne rapport!',
-'bugr_Report a bug' => 'Rapportér en fejl',
+# ORPHANED (no longer in bugreport_en.lex; kept for reference, commented out by lex-to-po.pl): 'bugr_Report a bug' => 'Rapportér en fejl',
 'bugr_PREVIOUS_SERVER_MODE' => '(en)Previous server mode',

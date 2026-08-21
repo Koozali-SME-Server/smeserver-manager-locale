@@ -1,0 +1,602 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Backup o ripristino"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Tutti i backup"
+
+msgid "bac_AM"
+msgstr "AM"
+
+msgid "bac_AM/PM"
+msgstr "AM/PM"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "Altro ripristino in corso. Riprovare in seguito."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "I backup su nastro inizieranno alle:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Selezione dei file da mostrare in corso"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Configurazione e stato del backup"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr " <p>E' possibile fare il backup ed il restore del server in tre modi: utilizzando una unità nastro, una connessione di rete o un disco rimovibile locale, o utilizzando il desktop locale. </p>\n\n  <p>Backup su nastro. Questo metodo utilizza il software <i>[_1]</i> per salvare l'intero contenuto del disco su nastro ogni notte. Il metodo richiede una unità nastro supportatta e un nastro non protetto da scrittura. Il backup viene eseguito automaticamente all'ora selezionata ogni notte (con un avviso inviato automaticamente all'amministratore durante la giornata). Attualmente il server contiene <b>[_2]</b> di dati.</p>\n\n  <p>Workstation backup. Questo metodo usa un software denominato <i>dar</i> per salvare la configurazione del server ed i dati su una condivisione di rete o su un disco rimovibile locale come ad esempio un disco USB. Si può configurare il numero di backup completi da conservare (a rotazione), e quanti backup incrementali eseguire per ogni backup completo conservato. Il backup viene eseguito automaticamente ogni giorno nell'orario selezionato. Attualmente configurazione e dati occupano approssimativamente <b>[_3]</b> non compressi. Sul dispositivo di backup deve essere disponibile uno spazio libero pari ad almeno il doppio dello spazio occupato dai dati compressi.</p>\n\n  <p>Backup su Desktop. Questo metodo crea una copia della configurazione del server e dei dati e la salva sul desktop locale attraverso il browser web. Attualmente configurazione e dati occupano approssimativamente <b>[_3]</b>. Il file di backup risulterà più piccolo di questa dimensione, in funzione di quanto siano comprimibili i filesalvati. Il file può essere utilizzato per ripristinare il server dalla console dopo averlo copiato su un supporto rimovibile locale come un disco USB.</p>\n\n  <p>Tutti i metodi di backup consentono il ripristino completo di dati e configurazione. Il backup su workstation consente il ripristino di singoli file. <b>In linea di principio il restore completo va utilizzato su un server di nuova installazione.</b>.</p>\n\n  "
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "Il server ha una quantità di dati superiore alla capacità del backup su desktop."
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "Il file di backup era incompleto"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Backup o ripristino dei dati del server"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Selezionare un'ora compresa tra 0 e 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Selezionare un minuto compreso tra 0 e 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "Attenzione: per backup voluminosi, il controllo di integrità può richiedere molto tempo; si consiglia di disabilitare il backup giornaliero prima di procedere."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "Selezionare per verificare l'integrità di tutti i backup necessari per un restore completo in base al backup selezionato"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Livello di compressione del backup ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Configurare le impostazioni di backup."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Configura backup su nastro"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Configura il backup su workstation"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "Configurare il numero dei backup successivi da mantenere sulla workstation, una rotazione automatica sovrascriverà i più vecchi. Ogni set può contenere i dati per molti giorni successivi. In questo modo il primo backup verrà effettuato completamente (full backup), i successivi saranno incrementali. Si può anche configurare un tempo limite massimo per ogni sessione di backup o di backup incrementale. Quando questo limite viene superato il backup viene interrotto senza perdita di dati, il processo di backup successivo continuerà da quel punto."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Impossibile decodificare il file di backup:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Impossibile eseguire backup pipeline:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Errore fork:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Backup su desktop"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Ripristino da desktop"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Questa procedura caricherà un file di backup dal desktop locale al server e ripristinerà la configurazione e i dati degli utenti.  Il ripristino dovrebbe essere effettuato su un server appena installato.. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Verifica desktop backup"
+
+msgid "bac_DOW"
+msgstr "Domenica Lunedì Martedì Mercoledì Giovedì Venerdì Sabato Sempre"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Abilita/Disabilita Backup notturno su nastro"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Abilita/Disabilita il backup quotidiano su workstation"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Abilita backup su nastro"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Abilita il backup su workstation"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Errore nella lettura dei file da"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "I parametri son ostati salvati ma l'host remoto non è raggiungibile; controllare le impostazioni."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "La cartella di salvataggio è già montata"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Errore durante la configurazione del backup."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Si è verificato un errore usando Dar"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Errore durante l'estrazione con Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "Il livello di compressione deve essere impostato tra 0 (nessuna compressione) e 9 (massima compressione)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "Questo numero deve essere maggiore o uguale a 1. Il primo backup sarà completo, gli altri saranno incrementali"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Nome della condivisione non valido"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Errore: ora non valida:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Nome di login non valido"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Errore: minuto non valido:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Password non valida"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Errore: ora promemoria non valida:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Errore: minuto promemoria non valido:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Il formato della data non è valido, deve essere ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. es.: 2005/12/31-08:23:32 oppure 10-08:32 oppure 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "Il numero di set deve essere uguale o maggiore di 1"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "Il tempo limite di backup deve essere compreso tra 1 e 24 ore"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "Indirizzo Ip o hostname della workstation non validi"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "Impossibile montare la condivisione della workstation"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "La cartella di salvataggio non è montata"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "Annullamento del ripristino perchè il backup completo necessario è mancante o illeggibile"
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "Nessuna directory di backup per questo server presente nella condivisione di rete. L'hostname potrebbe essere differente da quello utilizzato per il backup."
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "Annullamento del ripristino: nel set manca o è illeggibile il backup incrementale numero"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "Errore: nessun disco montato è disponibile. Montare un disco o selezionare un altro tipo di backup su workstation."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "Errore: nessun disco USB è disponibile. Connettere un disco USB o selezionare un altro tipo di backup su workstation."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Errore durante le operazioni successive al backup."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Errore durante le operazioni precedenti il backup."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Errore durante le operazioni precedenti il ripristino."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Errore durante la lettura del file di backup."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Errore durante il ripristino da nastro."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "Errore durante il ripristino da workstation."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Errore durante il ripristino del GID di 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Errore durante il ripristino del gruppo iniziale di 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Errore durante l'aggiornamento della configurazione di sistema al termine del ripristino."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "Errore durante l'aggiornamento della configurazione di sistema al termine del ripristino."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "Si è verificato un errore nell'umount della condivisione remota"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "I seguenti file e cartelle sono stati ripristinati:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "I seguenti file sono contenuti nel file di backup:"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "File di backup da cui ripristinare"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Nomi filtrati per"
+
+msgid "bac_FINISHED_AT"
+msgstr "fine:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Attualmente, lo spazio libero sul server è approssimativamente $tmpfree. Controllare che il file del backup su desktop sia più piccolo di $halffree prima di iniziare il ripristino. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "È possibile effettuare un backup completo"
+
+msgid "bac_HOURS"
+msgstr "ore."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Non limitare il tempo delle sessioni di backup completo"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Orario promemoria (ore/min)"
+
+msgid "bac_LOGIN"
+msgstr "La login è"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Al termine del ripristino è necessario riavviare il server."
+
+msgid "bac_Mounted disk"
+msgstr "Disco montato"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "La configurazione del server e i dati utente vengono ripristinati da nastro."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "La configurazione del server e i dati utente vengono ripristinati da workstation."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "Non è presente nessun set di backup nella condivisione di rete configurata. Verificare la configurazione."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "Impossibile ottenere l'uid per l'utente:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Backup giornalieri per ogni set"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Numero di set di backup"
+
+msgid "bac_No suitable local devices found"
+msgstr "Nessun dispositivo locale adatto trovato"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Aggiornamento automatico ogni [_1] secondi, o fare clic qui. "
+
+msgid "bac_PASSWORD"
+msgstr "La password è"
+
+msgid "bac_PM"
+msgstr "PM"
+
+msgid "bac_READ_COMPLETE"
+msgstr " Selezionare i file e le directory da ripristinare elencati nella lista (utilizzare ctrl o shift per selezioni multiple).  Attenzione : Selezionando una directory, tutti i file e le sottodirectory in essa contenuti verranno ripristinati. Per default sarà ripristinata la versione più recente dei file selezionati, ma indicando una data nel formato ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] verrà ripristinata la versione antecedente alla data indicata. "
+
+msgid "bac_REBOOT"
+msgstr "Riavvia"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Aggiorna"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "Il promemoria verrà inviato alle:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Impossibile proseguire il ripristino"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Ripristino completato"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Ripristino completato"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Ripristina configurazione da nastro"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>La procedura ripristinerà la configurazione e i dati utente da un backup su nastro. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</p>\n\n  <p>Assicurarsi di aver inserito il nastro desiderato nell'unità prima di procedere.</p>\n\n  <p>Al termine del ripristino sarà necessario riavviare il server.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Ripristina configurazione da backup su workstation"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>La procedura ripristinerà la configurazione e i dati utente da un backup su workstation. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</p>\n\n  <p>Assicurarsi di scegliere dalla lista il backup corretto da ripristinare prima di procedere.</p>\n\n  <p>Al termine del ripristino sarà necessario riavviare il server.</p>\n\n  "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Ripristino fallito! Il file di backup era incompleto."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Ripristino fallito! Errore durante la lettura del file di backup."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Ripristino da Nastro"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Ripristina da workstation"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Ripristino in corso"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Ripristino in corso. Inizio:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Al termine del ripristino sarà necessario riavviare il server. Il ripristino sarà completato quando la dicitura \"Ripristino completato\" apparirà in fondo allo schermo."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Ripristino configurazione server"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Verifica dell'integrità fallita"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Ripristino da Nastro in corso"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Ripristino da workstation in corso"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Selezionare un'azione"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Selezionare il file di backup"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Ripristina file aggiornati alla data"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Selezionare i file da ripristinare"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "Seleziona il tipo di condivisione di destinazione per il backup"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Riavvio Server"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Il server ora si riavvierà."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Condivisione di backup"
+
+msgid "bac_STARTED_AT"
+msgstr "Inizio:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Backup su nastro disabilitato con successo"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Backup su workstation disabilitato con successo"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Backup su nastro abilitato con successo"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Backup su workstation abilitato con successo"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "I backup su nastro sono"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Orario backup (ore/min)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Configura backup su nastro"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Abilitare/disabilitare i backup notturni su nastro e indicare l'orario desiderato per il backup e il promemoria di inserimento nastro.</p>\n\n  <p> Il backup su nastro richiede un'unità nastro supportata. L'amministratore riceverà una mail di avvertimento all'orario del promemoria se l'unità nastro è vuota.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Ripristina da nastro"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Verifica dell'integrità del backup in corso"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "Verifica in corso di tutti i backup necessari per un restore completo in base al backup selezionato"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Impossibile ripristinare la configurazione"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Aggiorna"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Aggiornamento configurazione backup su nastro in corso"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Aggiornamento configurazione backup workstation in corso"
+
+msgid "bac_VERIFY"
+msgstr "Verifica"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Questa opzione mostra i nomi di tutti i file contenuti in un backup su desktop precedentemente creato. Utilizzarla per verificare il contenuto di un file di backup su desktop.</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Verifica completata"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Questa opzione visualizzerà i nomi di tutti i file contenuti in un backup su workstation creato in precedenza. E' possibile utilizzarla per verificare il contenuto del backup.<b>E' necessario scegliere qualebackup si desidera verificare</b></p>\n\n  <p>Soltanto i file marcati ~[Saved~] sono contenuti nel backup.</p>\n\n  I file di backup saranno verificati dalla condivisione di rete: "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Verifica il backup su workstation"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "alle:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "e promemoria alle:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "I backup su workstation inizieranno alle:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Configurazione backup su workstation"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "Crea o modifica la configurazione del backup su workstation"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "I backup delle workstation sono"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "Il livello di compressione del backup ~[0-9~] è"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "Il numero di backup giornalieri contenuti in ogni set è"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>Questa pagina mostra le impostazioni correnti per il backup su workstation. E' possibile effettuare modifiche in questa pagina e nella prossima.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Il backup è "
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "Il backup è effettuato su una workstation in LAN"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr " eccetto i backup full che scadono dopo 24 ore"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "Il backup viene effettuato su un disco montato"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Al momento, il backup su worstation non è configurato. E' possibile configurarlo in questa pagina e nella prossima.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "Numero di set di backup"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Configurazione del backup su workstation"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "La condivisione remota di destinazione per il backup è"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "Orario backup workstation (ore/min)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "Ogni sessione di backup giornaliero scade normalmente dopo"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Il backup giornaliero ha luogo alle"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "Il backup viene effettuato su un disco USB locale"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "attraverso"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Configura il backup su workstation"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "Il backup completo (nei nuovi set di backup) è permesso solo il"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "Le sessioni di full backup (nel caso di nuovo set di backup) sono permesse tutti i giorni"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Nome da utilizzare per il login"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "Indirizzo Ip o hostname della workstation "
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "E' necessario configurare correttamente il backup su workstation"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Ripristino da workstation"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Restore selettivo dei file da workstation"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Restore selettivo dei file da workstation"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " Questo processo ripristinerà solo i file e le cartelle selezionati. Deve prima essere scelto il set di backup da cui saranno ripristinati i file. Se non è noto in quale backup sono contenuti i file richiesti selezionare l'opzione \"Tutti i backup\".  Il prossimo pannello mostrerà i file e le cartelle disponibili per poter scegliere quelli da ripristinare. Per limitare il numero di file e cartelle mostrati è possibile introdurre un filtro, applicato come una espressione regolare ai nomi visualizzati. E' cura dell'utente non ripristinare file che potrebbero pregiudicare il corretto funzionamento del server. I file saranno ripristinati da: "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Limite massimo di tempo per la sessione di backup (ore)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Verifica il backup su workstation"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X Backup o ripristino server data"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "E' necessario riavviare il server per attivare le modifiche alla configurazione successivamente al ripristino."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "Disco rimovibile locale"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr "<p>Il server fornisce due sistemi di backup e ripristino dei dati: il desktop locale o un'unità a nastro.</p>\n\n  <p>Il primo metodo crea una copia della configurazione e dei dati degli utenti e lo invia al desktop locale attraverso il browser. In questo momento, configurazione e dati occupano approssimativamente <b>[_3]</b>. Il file di backup avrà dimensioni inferiori per merito della compressione. L'opzione \\\"Verifica desktop backup\\\" può essere utilizzata per verificare l'integrità del file di backup.</p>\n\n  <p>Il backup su nastro utilizza un software chiamato <i>[_1]</i> per copiare l'intero disco fisso su nastro ogni notte. Questa opzione richiede un'unità nastro supportata e un nastro non protetto da scrittura. Il backup viene effettuato automaticamente all'ora selezionata ogni notte (durante il giorno l'amministratore riceve una email con un promemoria per l'inserimento del nastro). Attualmente il disco fisso contiene <b>[_2]</b> di dati.</p>\n\n  <p>Entrambi i sistemi ripristinano la configurazione e i dati. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</p>\n\n  "
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Il backup su nastro è disabilitato. "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Il backup su nastro è abilitato. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " I backup su workstation sono disabilitati. "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " I backup su workstation sono attualmente abilitati. "

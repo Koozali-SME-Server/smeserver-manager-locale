@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Pseudonyms module\n"
+"POT-Creation-Date: 2026-08-21 11:09+0100\n"
+"PO-Revision-Date: 2026-08-21 11:09+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "Pseudonyms"
+msgstr "(en) Pseudonyms"
+
+msgid "pse_ABOUT_TO_REMOVE"
+msgstr " Si tik pred tem, da odstranis vzdevek: Ali si preprican, da to zelis? "
+
+msgid "pse_ACCOUNT_PSEUDONYM_NONE"
+msgstr "(en) No Pseudonyms found for this account"
+
+msgid "pse_CLICK_TO_CREATE"
+msgstr "Dodaj vzdevek"
+
+msgid "pse_CREATE_SUCCEEDED"
+msgstr "Uspesno kreiran vzdevek"
+
+msgid "pse_CURRENT_PSEUDONYMS"
+msgstr "Trenutni seznam vzdevkov"
+
+msgid "pse_DESCRIPTION"
+msgstr " Streznik avtomatsko kreira e-postno ime za vsako skupino. Ce zelis dolociti e-postno ime za seznam uporabnikov enostavno kreiraj skupino in seznam bo avtomaticno vzdrzeva s strani streznika.\n\n  <p>Vzdevek ti omogoca dodati imena za obstojece uporabnike ali skupine. Primer: Zelis kreirati vzdevek \"primer\" za skupino \"primerskupina\" ali vzdevek \"test\" za uporabnika \"testiranec\".</p>\n\n  <p>Streznik avtomatsko generira vzdevek po vzorcu ime.priimek in ime_priimek za vsakega uporabnika in vzdevek \"everyone\" ki vsebuje vse uporabnike v sistemu</p>\n\n  <p>Za urejanje ali brisanje vzdevka pritisni na ustrezni napis poleg vzdevka.</p>\n\n  "
+
+msgid "pse_DESC_PSEUDONYM_NAME"
+msgstr "Prosim izberi obstojeci racun ali skupino za vzdevek z menuja spodaj"
+
+msgid "pse_EVERYONE"
+msgstr "Everyone"
+
+msgid "pse_FORM_TITLE"
+msgstr "Kreiraj, uredi ali odstrani vzdevek"
+
+msgid "pse_LOCAL_ONLY"
+msgstr "(samo lokalno omrezje)"
+
+msgid "pse_MODIFY_PSEUDONYM"
+msgstr "Uredi vzdevek"
+
+msgid "pse_MODIFY_SUCCEEDED"
+msgstr "Uspesno urejen vzdevek"
+
+msgid "pse_NAME_IN_USE"
+msgstr "Napaka: To ime je v uporabi in ne mores kreirati vzdevka z tem imenom."
+
+msgid "pse_NOT_A_PSEUDONYM"
+msgstr "Ta racun ni vzdevek"
+
+msgid "pse_PSEUDONYM"
+msgstr "Vzdevek"
+
+msgid "pse_PSEUDONYM_INVALID_DOMAIN"
+msgstr "That domain is not hosted on this server"
+
+msgid "pse_PSEUDONYM_INVALID_SAMEACCT"
+msgstr "A pseudonym cannot point to the same account"
+
+msgid "pse_PSEUDONYM_NAME"
+msgstr "Ime vzdevka"
+
+msgid "pse_REMOVE_PSEUDONYM"
+msgstr "Odstrani vzdevek"
+
+msgid "pse_REMOVE_SUCCEEDED"
+msgstr "Uspesno odstranjen vzdevek"
+
+msgid "pse_SELECT_ACCOUNT"
+msgstr "Izberi racun ali skupino"
+
+msgid "pse_SELECT_INTERNAL"
+msgstr "(samo lokalno omrezje)"
+
+msgid "pse_TITLE_CREATE"
+msgstr "Kreiraj vzdevek"
+
+msgid "pse_USER_OR_GROUP"
+msgstr "Uporabnik ali skupina"
+
+msgid "pse_VALID_PSEUDONYM_NAMES"
+msgstr " Vzdevek lahko vsebuje samo male crke, stevilke, pike in podcrtaje in se mora zaceti z malo crko ali stevilko. Na primer \"prodaja\", \"marjan.glavni\", \"123\" in \"eposta-administrator\" so vse pravilni vzdevki. Vzdevki Marjan Glavni in Streznik Zavse pa niso pravilni. "

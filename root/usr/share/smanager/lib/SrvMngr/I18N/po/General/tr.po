@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+
+msgid "ACCESS"
+msgstr "Giriş"
+
+msgid "ACCOUNT"
+msgstr "Hesap"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "Kullanıcı grubu bulunamadı."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Hesap kilitli"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "Girilen hesap adı geçersiz!"
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "Girilen hesap adı geçersiz karakterler içeriyor."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Hesap şifresini değiştir"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "Kullanıcı hesabı bulunamadı."
+
+msgid "ACTION"
+msgstr "Eylem"
+
+msgid "ADD"
+msgstr "Ekle"
+
+msgid "APRIL"
+msgstr "Nisan"
+
+msgid "AUGUST"
+msgstr "Ağustos"
+
+msgid "Administration"
+msgstr "Yönetim"
+
+msgid "All rights reserved"
+msgstr "Tüm Hakları Saklıdır"
+
+msgid "BACK"
+msgstr "Geri"
+
+msgid "BACKUP"
+msgstr "Yedekleme"
+
+msgid "CANCEL"
+msgstr "İptal"
+
+msgid "COMMENT"
+msgstr "Açıklama"
+
+msgid "CONTENT"
+msgstr "İçerik"
+
+msgid "CREATE"
+msgstr "Oluştur"
+
+msgid "CREATE_GROUP"
+msgstr "Kullanıcı gurubu oluştur"
+
+msgid "Collaboration"
+msgstr "Uyum (İşbirliği)"
+
+msgid "Configuration"
+msgstr "Konfigürasyon"
+
+msgid "DECEMBER"
+msgstr "Aralık"
+
+msgid "DESCRIPTION"
+msgstr "Açıklama"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Kısa açıklama"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "Hedef"
+
+msgid "DISABLED"
+msgstr "Etkin değil"
+
+msgid "DOMAIN"
+msgstr "Etki alanı"
+
+msgid "DOMAINS"
+msgstr "Etki alanları"
+
+msgid "DOMAIN_NAME"
+msgstr "Alan adı"
+
+msgid "DOWNLOAD"
+msgstr "İndirme"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Etkin"
+
+msgid "END_OF_REPORT"
+msgstr "Rapor Sonu"
+
+msgid "ERROR_BELOW"
+msgstr "HATA: Bu sayfanın doğrulanmasında bir hata oluştu. Lütfen önce sayfanın aşağısına bakıp sorunu belirleyin."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Açıklamada geçersiz karakterler bulundu."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Şifrenizi değiştirmeye çalışırken bir hata oluştu. Lütfen eski şifrenizi doğru girdiğinizden emin olun."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Sistem ayarları güncellenirken hata oluştu."
+
+msgid "FEBRUARY"
+msgstr "Şubat"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Hata: açıklama geçersiz karakter içeriyor"
+
+msgid "FM_IP_NUMBER1"
+msgstr "Bu alan geçerli bir IP adresi içermelidir boş bırakılamaz."
+
+msgid "FM_IP_NUMBER2"
+msgstr "Standart DHCP için geçersiz adres"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] 255 ten büyüktür"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "MAC adresi belirtmelisiniz."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "Tanımladığınız MAC adresi geçerli değildir."
+
+msgid "FM_NONBLANK"
+msgstr "Bu alan boş bırakılmamalı"
+
+msgid "FRIDAY"
+msgstr "Cuma"
+
+msgid "GROUP"
+msgstr "Grup"
+
+msgid "GROUPS"
+msgstr "Gruplar"
+
+msgid "GROUP_ADD"
+msgstr "Grup ekle"
+
+msgid "GROUP_MEMBERS"
+msgstr "Grup Üyeleri"
+
+msgid "GROUP_NAME"
+msgstr "Grup Adı"
+
+msgid "IP_ADDRESS"
+msgstr "IP Adresi"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "IP Adresi veya FQDN"
+
+msgid "JANUARY"
+msgstr "Ocak"
+
+msgid "JULY"
+msgstr "Temmuz"
+
+msgid "JUNE"
+msgstr "Haziran"
+
+msgid "LOCAL"
+msgstr "Yerel"
+
+msgid "LOCATION"
+msgstr "Konum"
+
+msgid "MARCH"
+msgstr "Mart"
+
+msgid "MAY"
+msgstr "Mayıs"
+
+msgid "MB"
+msgstr "Mb"
+
+msgid "MODIFY"
+msgstr "Değiştir"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Kullanıcı gurubunu değiştir"
+
+msgid "MONDAY"
+msgstr "Pazartesi"
+
+msgid "Miscellaneous"
+msgstr "Çeşitli"
+
+msgid "NAME"
+msgstr "İsim"
+
+msgid "NETWORK"
+msgstr "Ağ"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Sadece yerel ağadan erişime izin ver"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Her yerden erişime izin ver (bütün internet)"
+
+msgid "NEXT"
+msgstr "İleri"
+
+msgid "NO"
+msgstr "Hayır"
+
+msgid "NOVEMBER"
+msgstr "Kasım"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "Boru sembolü ( | ) bu alanda kullanılamaz"
+
+msgid "OCTOBER"
+msgstr "Ekim"
+
+msgid "OFF"
+msgstr "Kapat"
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "ON"
+msgstr "Aç"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "İşlem durum raporu"
+
+msgid "PASSWORD"
+msgstr "Şifre"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Parolayı Değiştir"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Şifreniz başarıyla değiştirildi."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "Girilen şifre geçersiz karakterler içeriyor."
+
+msgid "PASSWORD_NEW"
+msgstr "Yeni şifre:"
+
+msgid "PASSWORD_OLD"
+msgstr "Eski şifre"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "Girilen eski şifre geçersiz karakterler içeriyor."
+
+msgid "PASSWORD_RESET"
+msgstr "Şifreyi sıfırla"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "Girilen şifreler uyşmadı."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Yeni şifre (doğrulayın):"
+
+msgid "PERFORM"
+msgstr "Uygula"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Yeniden yapılandır"
+
+msgid "REMOTE"
+msgstr "Uzaktan"
+
+msgid "REMOVE"
+msgstr "Kaldır"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Kullanıcı gurubunu sil"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Kullanıcı şifresini sıfırla"
+
+msgid "RESTORE"
+msgstr "Eski haline getir"
+
+msgid "ROUTER"
+msgstr "Yönlendirici"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Cumartesi"
+
+msgid "SAVE"
+msgstr "Kaydet"
+
+msgid "SELF"
+msgstr "Kendi"
+
+msgid "SEPTEMBER"
+msgstr "Eylül"
+
+msgid "SHUTDOWN"
+msgstr "Kapat"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Başarılı"
+
+msgid "SUNDAY"
+msgstr "Pazar"
+
+msgid "Security"
+msgstr "Güvenlik"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Perşembe"
+
+msgid "TUESDAY"
+msgstr "Salı"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Geçersiz kullanıcı"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Mevcut kullanıcıların listesi"
+
+msgid "USER_NAME"
+msgstr "Kullanıcı Adı"
+
+msgid "User password"
+msgstr "Kullanıcı parolası"
+
+msgid "WEDNESDAY"
+msgstr "Çarşamba"
+
+msgid "YES"
+msgstr "Evet"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Hesabınız:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "Girilen hesap adı geçersiz!"
+
+msgid "Your Settings"
+msgstr "Ayarlarınız"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "İptal"
+
+msgid "del"
+msgstr "sil"
+
+msgid "edit"
+msgstr "düzenle"
+
+msgid "exit"
+msgstr "Çıkış"
+
+msgid "hello"
+msgstr "merhaba"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

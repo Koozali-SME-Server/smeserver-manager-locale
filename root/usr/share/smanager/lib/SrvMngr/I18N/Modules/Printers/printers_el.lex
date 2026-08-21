@@ -1,7 +1,7 @@
 'prt_FORM_TITLE' => 'Προσθήκη ή διαγραφή εκτυπωτών',
-'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Προσθήκη εκτυπωτή</a>
-
-  ',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Προσθήκη εκτυπωτή</a>
+#
+#  ',
 'prt_NO_PRINTERS' => 'Δεν υπάρχουν εκτυπωτές στο σύστημα.',
 'prt_CURRENT_LIST' => 'Τρέχουσα λίστα εκτυπωτών',
 'prt_REMOTE_ADDRESS' => 'Απομακρυσμένη διεύθυνση',
@@ -24,10 +24,10 @@
 'prt_ERR_EXISTS' => 'Σφάλμα: Υπάρχει λογαριασμός με την ίδια ονομασία και με τύπο:',
 'prt_ERR_INVALID_ADDRESS' => 'Σφάλμα: μη-έγκυρη δικτυακή διεύθυνση. Δεν δημιουργήθηκε νέος εκτυπωτής.',
 'prt_ERR_INVALID_REMOTE_NAME' => 'Σφάλμα: μη-έγκυρο όνομα εκτυπωτή δικτύου. Δεν δημιουργήθηκε νέος εκτυπωτής.',
-'prt_ERR_CREATING' => 'Παρουσιάσθηκε σφάλμα κατά τη δημιουργία του εκτυπωτή.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_CREATING' => 'Παρουσιάσθηκε σφάλμα κατά τη δημιουργία του εκτυπωτή.',
 'prt_CREATED_SUCCESSFULLY' => 'Επιτυχής δημιουργία εκτυπωτή:',
 'prt_CREATE_NETWORK_PRINTER' => 'Δημιουργήστε έναν νέο εκτυπωτή δικτύου',
-'prt_ERR_OPENING_DB' => 'Παρουσιάσθηκε σφάλμα κατά το άνοιγμα της βάσης δεδομένων των λογαριασμών.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_OPENING_DB' => 'Παρουσιάσθηκε σφάλμα κατά το άνοιγμα της βάσης δεδομένων των λογαριασμών.',
 'prt_CREATE_NETWORK_DESC' => 'Παρακαλώ εισάγετε τη διεύθυνση και την ονομασία του εκτυπωτή δικτύου',
 'prt_HOSTNAME_OR_IP' => 'Δικτυακή ονομασία ή IP διεύθυνση του εκτυπωτή δικτύου',
 'prt_REMOTE_NAME_DESC' => ' Ονομασία εκτυπωτή δικτύου (εάν δεν είστε σίγουροι, εισάγετε raw) ',
@@ -36,9 +36,9 @@
 'prt_SPOOL_FILE_WARNING' => 'Όλα τα αρχεία εκτυπώσεων για το συγκεκριμένο εκτυπωτή θα διαγραφούν.',
 'prt_ARE_YOU_SURE' => 'Είστε σίγουροι ότι επιθυμείτε να αφαιρέσετε το συγκεκριμένο εκτυπωτή;',
 'prt_ERR_INTERNAL_FAILURE' => 'Σφάλμα: εσωτερική αποτυχία κατά την αφαίρεση του εκτυπωτή:',
-'prt_ERR_DELETING' => 'Παρουσιάσθηκε σφάλμα κατά τη διαγραφή του εκτυπωτή.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_DELETING' => 'Παρουσιάσθηκε σφάλμα κατά τη διαγραφή του εκτυπωτή.',
 'prt_DELETED_SUCCESSFULLY' => 'Επιτυχής διαγραφή του εκτυπωτή:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Πρέπει να είναι μία έγκυρη δικτυακή ονομασία ή διεύθυνση IP',
-'prt_Printers' => 'Εκτυπωτές',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_Printers' => 'Εκτυπωτές',
 'prt_INITIAL_BTN' => 'Προσθήκη εκτυπωτή',
 'Printers' => 'Εκτυπωτές',

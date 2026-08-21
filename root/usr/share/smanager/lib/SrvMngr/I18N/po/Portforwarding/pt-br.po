@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Portforwarding module\n"
+"POT-Creation-Date: 2026-08-21 10:21+0100\n"
+"PO-Revision-Date: 2026-08-21 10:21+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt-br\n"
+
+msgid "Port forwarding"
+msgstr "(en) Port forwarding"
+
+msgid "pf_ALLOW_HOSTS"
+msgstr "Hosts Permitidos"
+
+msgid "pf_CREATE_RULE"
+msgstr "Criar regra de redirecionamento de porta"
+
+msgid "pf_ERR_BADAHOST"
+msgstr "Não parece que você tenha digitado uma lista de endereços IP válida. Exemplo: 192.168.0.1,192.168.1.1/24"
+
+msgid "pf_ERR_BADIP"
+msgstr "Isso não parece ser um endereço IP. Você tem que usar a notação padrão de IP (xxx.xxx.xxx.xxx), e cada um dos 4 números deve ser menor que 256. Exemplo: 192.168.0.5"
+
+msgid "pf_ERR_BADPORT"
+msgstr "As portas tem que ser um inteiro positivo menor que 65536."
+
+msgid "pf_ERR_NONZERO_RETURN_EVENT"
+msgstr "Evento retornou um valor de retorno diferente de zero."
+
+msgid "pf_ERR_PORT_COLLISION"
+msgstr "ERRO: Esta porta ou faixa de portas conflita com uma das regras já existentes. Favor modificar esta regra ou eliminar a regra antiga."
+
+msgid "pf_FIRST_PAGE_DESCRIPTION"
+msgstr "  Você pode usar esse painel para modificar as regras de seu firewall abrindo uma porta específica e redirecionando para outra porta em outro host. Fazendo isso voce vai permitir trafego externo acessar um host privado em sua rede. \n\n  <p> AVISO: O mau uso deste recurso pode comprometer seriamente a segurança de sua rede. Não use esse recurso levianamente ou sem uma compreensão profunda das implicações de suas ações. </p>\n\n  "
+
+msgid "pf_FORM_TITLE"
+msgstr "Configurar redirecionamento de porta"
+
+msgid "pf_IN_SERVERONLY"
+msgstr "Este servidor está atuando no modo Somente Servidor assim o redirecinamento de portas não é possível."
+
+msgid "pf_LABEL_DESTINATION_HOST"
+msgstr "Endereço IP do Host de Destino"
+
+msgid "pf_LABEL_DESTINATION_PORT"
+msgstr "Porta(s) de Destino"
+
+msgid "pf_LABEL_PROTOCOL"
+msgstr "Protocolo"
+
+msgid "pf_LABEL_SOURCE_PORT"
+msgstr "Porta(s) de Origem(ns)"
+
+msgid "pf_NO_FORWARDS"
+msgstr "No momento não existe nenhum redirecionamento de portas no sistema."
+
+msgid "pf_RULE_COMMENT"
+msgstr "Comentário da Regra"
+
+msgid "pf_SHOW_FORWARDS"
+msgstr "Abaixo você encontrará uma tabela atual resumindo as regras de redirecionamento de portas deste servidor. Clique no link &quot;Remover&quot; para remover a regra corrrespondente."
+
+msgid "pf_SUCCESS"
+msgstr "Sua alteração na regra de redirecionamento de porta foi salva com sucesso."
+
+msgid "pf_SUMMARY_ADD_DESC"
+msgstr "O seguinte resume a regra de redirecionamento de porta que você está para adicionar. Se você está satisfeito com a regra, clique o botão &quot;Adicionar&quot; . Se você não está, clique o botão &quot;Cancelar&quot; ."
+
+msgid "pf_SUMMARY_REMOVE_DESC"
+msgstr "O seguinte resume a regra de redirecionamento de portas que você está para eliminar. Se você tem certeza de que deseja eliminar a regra, clique o botão &quot;Remover&quot;. Senão clique o botão &quot;Cancelar&quot;."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "pf_CREATE_PAGE_DESCRIPTION"
+#~ msgstr " Selecione o protocolo, a porta que deseja redirecionar, o host de destino e a porta no host de destino a qual você deseja redirecionar. Se você deseja especificar uma faixa de portas, entre com o valor mais baixo e mais alto do limite separados por um hífen. A porta de destino pode ser deixada em branco, o que instruirá o firewall para deixar a porta origem inalterada.\n\n  "
+#~ msgid "pf_ERR_CANNOT_REMOVE_NORULE"
+#~ msgstr "Incapaz de remover regras inexistentes."
+#~ msgid "pf_ERR_DUPRULE"
+#~ msgstr "Esta regra já foi adicionada e não pode ser adicionada duas vezes."
+#~ msgid "pf_ERR_NO_MASQ_RECORD"
+#~ msgstr "Incapaz de recuperar a configuração do registro de máscara do banco de dados."
+#~ msgid "pf_ERR_UNSUPPORTED_MODE"
+#~ msgstr "Modo não suportado."
+#~ msgid "pf_LABEL_ALLOW_HOSTS"
+#~ msgstr "Hosts Permitidos"
+#~ msgid "pf_LABEL_RULE_COMMENT"
+#~ msgstr "Comentário da Regra"
+#~ msgid "pf_Port forwarding"
+#~ msgstr "Redirecionamento de porta"

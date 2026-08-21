@@ -21,4 +21,4 @@
 'bugr_CONSIDER_DONATING' => 'Merci de faire un don pour le projet en cliquant sur l\'image ci-dessous :',
 'bugr_THANK_YOU' => 'Merci pour votre soutien !',
 'bugr_Download this report' => 'Télécharger ce rapport !',
-'Report a bug' => 'Rapporter un bogue',
+# ORPHANED (no longer in bugreport_en.lex; kept for reference, commented out by lex-to-po.pl): 'Report a bug' => 'Rapporter un bogue',

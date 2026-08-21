@@ -7,4 +7,4 @@
 'rbo_DESC_SHUTDOWN' => 'V osmih sekundah bo streznik pricel postopek zaustavitve. Proces lahko traja kar nekaj casa po katerem lahko izkljucis napajanje racunalnika.',
 'rbo_LABEL_REBOOT' => 'Izberi zaustavitev ali ponovni zagon',
 'rbo_DESCRIPTION' => ' Na tem ekranu lahko izvedes zaustavitev ali ponovni zagon streznika. Predno streznik ugasnes moras izvesti proceduro zaustavitve. Obe proceduri lahko trajata nekaj minut. Ko pritisnes gumb Izvedi se bo procedura zacela izvajati, bodite pripravljeni! ',
-'rbo_Reboot or shutdown' => 'Ponovni zagon ali zaustavitev',
+# ORPHANED (no longer in reboot_en.lex; kept for reference, commented out by lex-to-po.pl): 'rbo_Reboot or shutdown' => 'Ponovni zagon ali zaustavitev',

@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'De nya förvalda LDAP-inställningarna har sparats.',
 'dir_LEAVE' => 'Lämna som de är',
 'dir_UPDATE' => 'Uppdatera med de nya förvalda inställningarna',
-'dir_Directory' => 'Katalog',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Katalog',

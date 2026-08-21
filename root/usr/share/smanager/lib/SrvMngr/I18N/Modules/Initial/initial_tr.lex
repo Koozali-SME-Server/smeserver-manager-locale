@@ -12,8 +12,8 @@
   <p> Sistemi yönetmeye başlamak için ekranın solundaki menüden bir linke tıklayın. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  SME Sunucusuna Hoşheldiniz. Bu yazılımın KESİNLİKE GARANTİSİ YOKTUR. Lütfen <a href="/smanager/support" target="main">buraya tıklayarak</a> destek, garanti ve lisans bilgilerine gözatın. 
-
-  <p> Sistem Yönetim paneli için<a href="/server-manager/noframes">buraya tıklayın</a>. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  SME Sunucusuna Hoşheldiniz. Bu yazılımın KESİNLİKE GARANTİSİ YOKTUR. Lütfen <a href="/smanager/support" target="main">buraya tıklayarak</a> destek, garanti ve lisans bilgilerine gözatın. 
+#
+#  <p> Sistem Yönetim paneli için<a href="/server-manager/noframes">buraya tıklayın</a>. </p>
+#
+#  ',

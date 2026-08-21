@@ -1,4 +1,4 @@
-'prx_Proxy settings' => 'Proxy indstillinger',
+# ORPHANED (no longer in proxy_en.lex; kept for reference, commented out by lex-to-po.pl): 'prx_Proxy settings' => 'Proxy indstillinger',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Denne sider tillader opsætning af serverens proxy-indstillinger. Serveren indeholder en transparent proxy og cache for HTTP-trafik. Den er tændt i udgangspunkt, men ikke påkrævet hvis serveren er i &quot;Kun server&quot; tilstand. Hvis denne server fungerer som e-post-server, vil forbindelser fra lokalnettet til eksterne SMTP-servere blive omdirigeret til den lokale e-postserver.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'Serverens HTTP-proxy fungerer som et mellemlager for nyligt besøgte sider, så fornyet kald af siderne henter dem fra serveren og ikke fra Internet, hvilket øger hastigheden. Den er usynlig for webbrowseren der bruger serveren som gateway. Tænd eller sluk for denne funktion med den følgende omskifter.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'HTTP-proxy status',

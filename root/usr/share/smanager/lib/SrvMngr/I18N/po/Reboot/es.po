@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Reboot module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "Reboot or shutdown"
+msgstr "Reiniciar o apagar"
+
+msgid "rbo_DESCRIPTION"
+msgstr " Puede reiniciar, apagar el servidor o realizar una reconfiguración completa del sistema desde esta pantalla. Debe realizar el apagado antes de desconectar la alimentación. Todas estas funciones demoran varios minutos en finalizar. Cuando haga click en ejecutar, la operación se iniciará inmediatamente, por lo que debe estar atento. "
+
+msgid "rbo_DESC_REBOOT"
+msgstr "Su servidor ha comenzado el proceso de reinicio."
+
+msgid "rbo_DESC_RECONFIGURE"
+msgstr "Su servidor ha comenzado la reconfiguración completa del sistema y reinicio."
+
+msgid "rbo_DESC_SHUTDOWN"
+msgstr "Su servidor ha comenzado el proceso de apagado. El proceso tomará varios minutos en completarse, luego del cual usted podrá desconectar la alimentación."
+
+msgid "rbo_FORM_TITLE"
+msgstr "Apagar o reiniciar"
+
+msgid "rbo_LABEL_REBOOT"
+msgstr "Seleccione Apagar, Reiniciar o Reconfigurar"
+
+msgid "rbo_REBOOT"
+msgstr "Reiniciar"
+
+msgid "rbo_REBOOT_SUCCEEDED"
+msgstr "Petición de reinicio iniciada con éxito."
+
+msgid "rbo_RECONFIGURE_SUCCEEDED"
+msgstr "Petición de reconfiguración iniciada con éxito."
+
+msgid "rbo_SHUTDOWN_SUCCEEDED"
+msgstr "(en) Shutdown request initiated successfully."

@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Printers module\n"
+"POT-Creation-Date: 2026-08-21 10:21+0100\n"
+"PO-Revision-Date: 2026-08-21 10:21+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+
+msgid "Printers"
+msgstr "Skrivare"
+
+msgid "prt_ABOUT_TO_REMOVE"
+msgstr "Du är på väg att radera skrivaren:"
+
+msgid "prt_ARE_YOU_SURE"
+msgstr "Är du säker på att du vill radera denna skrivare?"
+
+msgid "prt_CREATED_SUCCESSFULLY"
+msgstr "Skrivare skapad:"
+
+msgid "prt_CREATE_NETWORK_DESC"
+msgstr "Ange en adress och ett namn på nätverksskrivaren"
+
+msgid "prt_CREATE_NETWORK_PRINTER"
+msgstr "Skapa en ny nätverksskrivare"
+
+msgid "prt_CREATE_NEW_DESC"
+msgstr "Välj ett unikt namn för skrivaren och ange en kort beskrivning. Skrivarnamnet får bara bestå av gemener och siffror och skall börja med en gemen. Exempelvis \"hplaser\", \"epsonlp\", eller \"canonbj\" är godkända namn, medan \"HP Laser Jet\", \"Canon BubbleJet\" och \"HP JetDirect Printer\" inte är godkända namn. Undvik namn och beskrivningar som innehåller följande ord \"offline\", \"disabled\", \"down\", \"off\", \"waiting\", \"jam\", \"paper\", \"error\" och \"responding\"."
+
+msgid "prt_CREATE_NEW_PRINTER"
+msgstr "Skapa en ny skrivare"
+
+msgid "prt_CURRENT_LIST"
+msgstr "Aktuell lista över skrivare"
+
+msgid "prt_DELETED_SUCCESSFULLY"
+msgstr "Skrivare raderad:"
+
+msgid "prt_ERR_EXISTS"
+msgstr "Fel: Ett konto med samma namn existerar av typen:"
+
+msgid "prt_ERR_INTERNAL_FAILURE"
+msgstr "Fel: ett internt fel uppstod vi radering av skrivaren:"
+
+msgid "prt_ERR_INVALID_ADDRESS"
+msgstr "Fel: Ogiltig nätverksadress. Skapade inte en ny skrivare."
+
+msgid "prt_ERR_INVALID_REMOTE_NAME"
+msgstr "Fel: Ogiltigt namn på nätverksskrivaren. Skapade inte en ny skrivare."
+
+msgid "prt_ERR_UNEXPECTED_DESC"
+msgstr "Fel: Otillåtet eller avsaknad av tecken i beskrivningen. Skapade inte en ny skrivare."
+
+msgid "prt_ERR_UNEXPECTED_NAME"
+msgstr " Fel: Fel i skrivarnamnet. Skrivarnamnet för endast innehålla gemener och siffror och måste börja med en gemen. Exempelvis \"hplaser\", \"epsonlp\" eller \"canonbj\" är godkända namn. "
+
+msgid "prt_FIRST_USB_PRINTER"
+msgstr "Första anslutna USB-skrivaren"
+
+msgid "prt_FORM_TITLE"
+msgstr "Lägg till eller radera skrivare"
+
+msgid "prt_HOSTNAME_OR_IP"
+msgstr "Värdnamn eller IP-adress till nätverksskrivaren"
+
+msgid "prt_INITIAL_BTN"
+msgstr "Lägg till skrivare"
+
+msgid "prt_LOCAL_PRINTER_0"
+msgstr "Lokal skrivarport 0 (LPT1)"
+
+msgid "prt_LOCAL_PRINTER_1"
+msgstr "Lokal skrivarport 1 (LPT2)"
+
+msgid "prt_LOCAL_PRINTER_2"
+msgstr "Lokal skrivarport 2 (LPT3)"
+
+msgid "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgstr "Måste vara ett giltigt värdnamn eller IP-nummer"
+
+msgid "prt_NET_PRINTER"
+msgstr "Nätverksskrivare ..."
+
+msgid "prt_NO_PRINTERS"
+msgstr "Det finns inga skrivare i systemet."
+
+msgid "prt_PRINTER_NAME"
+msgstr "Skrivarnamn"
+
+msgid "prt_REMOTE_ADDRESS"
+msgstr "Fjärradress"
+
+msgid "prt_REMOTE_NAME"
+msgstr "Fjärrnamn"
+
+msgid "prt_REMOTE_NAME_DESC"
+msgstr " Namnet på nätverksskrivare (skriv raw om du inte är säker) "
+
+msgid "prt_REMOVE_PRINTER"
+msgstr "Radera skrivare"
+
+msgid "prt_SECOND_USB_PRINTER"
+msgstr "Andra anslutna USB-skrivaren"
+
+msgid "prt_SPOOL_FILE_WARNING"
+msgstr "Alla spool-filer för denna skrivare kommer att raderas."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prt_ERR_CREATING"
+#~ msgstr "Ett fel inträffade vid skapandet av skrivare."
+#~ msgid "prt_ERR_DELETING"
+#~ msgstr "Ett fel inträffade vid borttagning av skrivare."
+#~ msgid "prt_ERR_OPENING_DB"
+#~ msgstr "Ett fel inträffade vid öppning av kontodatabasen."
+#~ msgid "prt_INITIAL_DESC"
+#~ msgstr " Lägg till skrivare "
+#~ msgid "prt_Printers"
+#~ msgstr "Skrivare"

@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "Οι ρυθμίσεις πρόσβασης email αποθηκεύτηκαν με επιτυχία"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Εξατομικευμένη"
+
+msgid "mai_DEFAULT"
+msgstr "Προεπιλογή"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "Οι ρυθμίσεις παράδοσης email αποθηκεύτηκαν με επιτυχία"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Μπορείτε να εμποδίσετε τη λήψη ηλεκτρονικών μηνυμάτων με εκτελέσιμα συνημμένα αρχεία υποδεικνύοντας τους τύπους των εκτελέσιμων συνημμένων που θα θέλατε να εμποδίζονται. Μηνύματα που περιέχουν συνημμένα τέτοιου είδους θα επιστρέφονται αυτόματα στον παραλήπτη τους."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Ανάθεση λειτουργιών διακομιστή αλληλογραφίας Ο διακομιστής σας περιλαμβάνει έναν διακομιστή αλληλογραφίας με όλες τις δυνατότητες. Ωστόσο, εάν για οποιονδήποτε λόγο, επιθυμείτε να αναθέσετε τη λειτουργία επεξεργασίας ηλεκτρονικής αλληλογραφίας σε άλλο σύστημα, ορίστε την διεύθυνση IP του εν λόγω συστήματος εδώ. Για κανονική λειτουργία, αφήστε αυτό το πεδίο κενό. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "Για λειτουργίες ETRN ή multi-drop, μπορείτε να ελέγξετε πόσο συχνά ο συγκεκριμένος διακομιστής θα επικοινωνεί με τον δευτερεύοντα διακομιστή αλληλογραφίας για να λάβει τα μηνύματα. Συχνότερες συνδέσεις συνεπάγονται ταχύτερη λήψη των μηνυμάτων σας, αλλά επίσης και συχνότερη αποστολή αιτημάτων προς το διαδίκτυο, αυξάνοντας ενδεχομένως το λογαριασμό του τηλεφώνου και του πρόσβασης."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "Μπορείτε να ελέγξετε την πρόσβαση του IMAP διακομιστή. Η επιλογή 'Επιτρέπεται η ιδιωτική πρόσβαση δηλαδή μόνον από τοπικά δίκτυα' επιτρέπει πρόσβαση του IMAP μόνο από το τοπικό σας δίκτυο(α). Η IMAPS επιλογή μπορεί να χρησιμοποιηθεί για την παροχή κρυπτογραφημένης εξωτερικής πρόσβασης στο διακομιστή IMAP. Συνιστάται να αφεθεί η ρύθμιση της παραμέτρου αυτής στο 'Επιτρέπεται η πρόσβαση μόνον από τοπικά δίκτυα', εκτός εάν υπάρχει συγκεκριμένος λόγος για το αντίθετο."
+
+msgid "mai_DESC_MODE"
+msgstr "Η κατάσταση λειτουργίας συλλογής ηλεκτρονικής αλληλογραφίας μπορεί να ρυθμισθεί σαν standard (για μόνιμη σύνδεση στο Internet), ETRN (συνιστάται για συνδέσεις dialup), ή multi-drop (για συνδέσεις dialup αν το ETRN δεν υποστηρίζεται από τον πάροχο διαδικτύου σας). Σημειώστε ότι η κατάσταση λειτουργίας multi-drop είναι η μοναδική διαθέσιμη επιλογή όταν ο διακομιστής είναι ρυθμισμένος για λειτουργία σαν ιδιωτικού διακομιστή (private server) και πύλης (gateway)."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "Μπορείτε να ελέγξετε την πρόσβαση στο διακομιστή POP3. Η επιλογή 'Επιτρέπεται η ιδιωτική πρόσβαση δηλαδή μόνον από τοπικά δίκτυα' επιτρέπει πρόσβαση στον POP3 μόνο από το τοπικό σας δίκτυο(α). Η ρύθμιση POP3S μπορεί να χρησιμοποιηθεί για την παροχή κρυπτογραφημένης εξωτερικής πρόσβασης στο διακομιστή POP3. Συνιστάται να αφεθεί η ρύθμιση της παραμέτρου αυτής στο 'Επιτρέπεται η πρόσβαση μόνον από τοπικά δίκτυα', εκτός εάν υπάρχει συγκεκριμένος λόγος για το αντίθετο."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " Ρυθμίσεις λειτουργίας ETRN ή multi-drop Για λειτουργία ETRN ή multi-drop, ορίστε τη δικτυακή ονομασία του διακομιστή ή την διεύθυνση IP του δευτερεύοντος διακομιστή αλληλογραφίας. (Αν χρησιμοποιείτε τη συνήθη εγκατάσταση ηλεκτρονικής αλληλογραφίας, αυτό το πεδίο μπορεί να αφεθεί κενό.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " Ο διακομιστής SMTP μπορεί να παραδώσει τα εξερχόμενα μηνύματα απευθείας στους προορισμούς τους (συνιστάται στις περισσότερες περιπτώσεις) ή μέσω του διακομιστή SMTP του παρόχου διαδικτύου σας (συνιστάται αν έχετε μια μη αξιόπιστη σύνδεση στο διαδίκτυο ή χρησιμοποιείτε μία οικιακή υπηρεσία διαδικτύου). Εάν χρησιμοποιείτε τον διακομιστή SMTP του παρόχου διαδικτύου σας, προσδιορίστε τη δικτυακή ονομασία του Η/Υ ή την διεύθυνση IP παρακάτω. Διαφορετικά, αφήστε αυτό το πεδίο κενό. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires all users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "Μπορείτε να ελέγχετε τα μηνύματα για ανεπιθύμητα. Εάν το φιλτράρισμα των ανεπιθύμητων είναι ενεργοποιημένο, προστίθεται μία κεφαλίδα κατάστασης X-Spam-Status: σε κάθε μήνυμα, η οποία μπορεί να χρησιμοποιηθεί για το φιλτράρισμα των ανεπιθύμητων. Μπορείτε να προσαρμόσετε την ευαισθησία ανίχνευσης ανεπιθύμητων αλλάζοντας την προεπιλεγμένη ρύθμιση \"μεσαία\". Για λεπτομερέστερο έλεγχο, μπορείτε να ορίσετε την ευαισθησία των ανεπιθύμητων στο \"Εξατομικευμένη\" (\"Custom\") και κατόπιν να επιλέξετε το εξατομικευμένο επίπεδο σήμανσης (tagging) και, προαιρετικά, το επίπεδο πάνω από το οποίο επιθυμείτε την απόρριψη του μηνύματος."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "(en)You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " Αλλαγή ρυθμίσεων πρόσβασης ηλεκτρονικής αλληλογραφίας "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " Αλλαγή ρυθμίσεων αποστολής ηλεκτρονικής αλληλογραφίας "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " Αλλαγή ρυθμίσεων φιλτραρίσματος ηλεκτρονικής αλληλογραφίας "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " Αλλαγή ρυθμίσεων λήψης ηλεκτρονικής αλληλογραφίας "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Άγνωστοι χρήστες Με την επιλογή \"Απόρριψη\" (συνιστώμενη επιλογή) ο διακομιστής θα ρυθμιστεί ώστε να αποδέχεται μηνύματα μόνο προς έγκυρες διευθύνσεις ηλεκτρονικής αλληλογραφίας (π.χ. χρήστες, ομάδες, ψευδώνυμα). Μηνύματα προς άλλες διευθύνσεις θα απορρίπτονται. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "Μπορείτε να ανιχνεύετε την εισερχόμενη και εξερχόμενη ηλεκτρονική αλληλογραφία για ύπαρξη ιών. Εάν η ανίχνευση είναι ενεργοποιημένη και εντοπισθεί κάποιος ιός, τότε το συγκεκριμένο μήνυμα θα απορριφθεί και θα επιστραφεί στον αποστολέα."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "Μπορείτε να ενεργοποιήσετε ή να απενεργοποιήσετε την αλληλογραφία μέσω ιστοσελίδας (webmail) στο συγκεκριμένο σύστημα. Το webmail επιτρέπει στους χρήστες να έχουν πρόσβαση στην ηλεκτρονική αλληλογραφία τους μέσα από ένα κοινό περιηγητή ιστοσελίδων, εισάγοντας στον περιηγητή την διεύθυνση https://[_1]/webmail, και συνδεόμενοι στον λογαριασμό τους."
+
+msgid "mai_E-Mail"
+msgstr "Email"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "Επιτρέπεται με ασφάλεια HTTPS"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP με αίτημα πελάτη)"
+
+msgid "mai_EVERY15MIN"
+msgstr "Κάθε 15 λεπτά"
+
+msgid "mai_EVERY2HRS"
+msgstr "Κάθε 2 ώρες"
+
+msgid "mai_EVERY30MIN"
+msgstr "Κάθε 30 λεπτά"
+
+msgid "mai_EVERY5MIN"
+msgstr "Κάθε 5 λεπτά"
+
+msgid "mai_EVERYHOUR"
+msgstr "Κάθε ώρα"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "Οι ρυθμίσεις φιλτραρίσματος email αποθηκεύτηκαν με επιτυχία"
+
+msgid "mai_FORWARD_TO"
+msgstr "Αποστολή προς"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "Αποστολή στον διαχειριστή"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Υψηλή"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "Επιτρέπεται IMAP και IMAPS"
+
+msgid "mai_INSECURE_POP3"
+msgstr "Επιτρέπεται POP3 και POP3S"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "Η δικτυακή ονομασία Η/Υ που δώσατε δεν αποτελεί έγκυρη διαδικτυακή ονομασία τομέα ούτε έχει αφεθεί κενή"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Εμποδισμός εκτελέσιμου περιεχομένου"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Περιεχόμενο για εμποδισμό"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Διεύθυνση του εσωτερικού διακομιστή αλληλογραφίας"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "Εντός ωρών γραφείου (8:00 πμ έως 6:00 μμ) τις καθημερινές"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "Εκτός ωρών γραφείου (6:00 μμ έως 8:00 πμ) τις καθημερινές"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "Κατά το Σαββατοκύριακο"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "Πρόσβαση διακομιστή IMAP"
+
+msgid "mai_LABEL_MODE"
+msgstr "Κατάσταση λειτουργίας συλλογής ηλεκτρονικής αλληλογραφίας"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "Πρόσβαση διακομιστή POP3"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "Λογαριασμός χρήστη POP (για multi-drop)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "Κωδικός πρόσβασης χρήστη POP (για multi-drop)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "Δευτερεύων διακομιστής αλληλογραφίας"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "Διεύθυνση του διακομιστή αλληλογραφίας του παρόχου διαδικτύου σας"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Κωδικός πρόσβασης διακομιστή ταχυδρομείου"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "Πιστοποίηση γνησιότητας SMTP παρόχου διαδικτύου"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "Ταυτότητα χρήστη στον διακομιστή ταχυδρομείου"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Ταξινόμησε τα spam στο φάκελο απορριπτέων μηνυμάτων (junkmail)"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "Επιλογή κεφαλίδας ταξινόμησης (για multi-drop)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Επιλογή μεθόδου ταξινόμησης (για multi-drop)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Εξατομικευμένο επίπεδο απόρριψης ανεπιθύμητων spam"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Φιλτράρισμα ανεπιθύμητης αλληλογραφίας"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Ευαισθησία σε ανεπιθύμητα μηνύματα (spam)"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "Πρόθεμα θέματος SPAM"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "Τροποποίηση του θέματος του ανεπιθύμητου μηνύματος spam"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Εξατομικευμένο επίπεδο σήμανσης ανεπιθύμητων spam"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "Ηλεκτρονική αλληλογραφία προς άγνωστους χρήστες"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Ανίχνευση ιών"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Πρόσβαση σε ηλεκτρονική αλληλογραφία μέσω ιστοσελίδων"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Χαμηλή"
+
+msgid "mai_MEDIUM"
+msgstr "Μεσαία"
+
+msgid "mai_MULTIDROP"
+msgstr "λειτουργία multi-drop"
+
+msgid "mai_NEVER"
+msgstr "καθόλου"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "Επιτρέπετε πρόσβασή μόνο απο το τοπικό δίκτυο"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "Οι ρυθμίσεις λήψης email αποθηκεύτηκαν με επιτυχία"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Απόρριψη"
+
+msgid "mai_SECURE_IMAP"
+msgstr "Επιτρέπεται η ιδιωτική και δημόσια (με ασφάλεια IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "Επιτρέπεται η ιδιωτική και δημόσια (με ασφάλεια POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "Επιτρέπεται με ασφάλεια SSMTP"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Καθορίστε παρακάτω"
+
+msgid "mai_STANDARD"
+msgstr "Πρότυπο (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "Κατάσταση θύρας υποβολής %u:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Εξυπηρετητές αλληλογραφίας κατ' εξουσιοδότηση"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "Ρυθμίσεις ETRN ή multi-drop"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "Διακομιστής SMTP"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Άγνωστοι χρήστες"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "Το παρόν πεδίο δεν μπορεί να παραμείνει κενό εάν είναι ενεργοποιημένη η πιστοποίηση γνησιότητας στον SMTP."
+
+msgid "mai_VERYHIGH"
+msgstr "Πολύ υψηλή"
+
+msgid "mai_VERYLOW"
+msgstr "Πολύ χαμηλή"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Επιτρέπεται η ιδιωτική"
+#~ msgid "mai_AUTO"
+#~ msgstr "Αυτόματο"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "Για λειτουργία ηλεκτρονικής αλληλογραφίας τύπου multi-drop, ορίστε τον λογαριασμό χρήστη POP και τον κωδικό πρόσβασης. (Εάν χρησιμοποιείτε κλασική ή ETRN λειτουργία ηλεκτρονικής αλληλογραφίας, αυτά τα πεδία μπορούν να αφεθούν κενά.) Επίσης, για λειτουργία multi-drop και όσον αφορά την ταξινόμηση της αλληλογραφίας, μπορείτε είτε να χρησιμοποιείτε την προεπιλεγμένη μέθοδο, ή να ορίσετε μια συγκεκριμένη κεφαλίδα μηνύματος βάσει της οποίας θα γίνεται η ταξινόμηση."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " Πρόσβαση στην ηλεκτρονική αλληλογραφία "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " Αποστολή ηλεκτρονικής αλληλογραφίας "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " Λήψη ηλεκτρονικής αλληλογραφίας "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Επιτρέπεται HTTP και HTTPS"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "Ρυθμίσεις ηλεκτρονικής αλληλογραφίας"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "Επιτρέπονται SMTP και SSMTP"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Πρωτόκολλο (για multi-drop)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Τούνελ με χρήση SSL (για multi-drop)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "Πιστοποίηση γνησιότητας SMTP"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "Οι νέες ρυθμίσεις ηλεκτρονικής αλληλογραφίας έχουν αποθηκευθεί."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "Αυτό το πεδίο απαιτεί μία έγκυρη διεύθυνση ηλεκτρονικής αλληλογραφίας που θα περιλαμβάνει το σύμβολο @ και μία ονομασία τομέα."

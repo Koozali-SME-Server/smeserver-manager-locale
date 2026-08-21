@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Pseudonyms module\n"
+"POT-Creation-Date: 2026-08-21 11:09+0100\n"
+"PO-Revision-Date: 2026-08-21 11:09+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+
+msgid "Pseudonyms"
+msgstr "Pseudonimi"
+
+msgid "pse_ABOUT_TO_REMOVE"
+msgstr " Sta per essere rimosso lo pseudonimo: Siete sicuri di voler continuare ? "
+
+msgid "pse_ACCOUNT_PSEUDONYM_NONE"
+msgstr "(en) No Pseudonyms found for this account"
+
+msgid "pse_CLICK_TO_CREATE"
+msgstr "Aggiungi pseudonimo"
+
+msgid "pse_CREATE_SUCCEEDED"
+msgstr "Pseudonimo creato con successo"
+
+msgid "pse_CURRENT_PSEUDONYMS"
+msgstr "Lista degli pseudonimi"
+
+msgid "pse_DESCRIPTION"
+msgstr " Il server crea automaticamente un alias di posta per ogni gruppo. Per definire un alias per una lista di utenti, creare un gruppo e la lista verrà automaticamente gestita dal server.\n\n  <p>Gli pseudonimi permettono di creare nomi differenti per utenti o gruppi esistenti. Per esempio, potrebbe essere creato uno pseudonimo \"webmaster\" per il gruppo \"sviluppo_web\" oppure lo pseudonimo \"gigi\" per l'utente \"luigi\".</p>\n\n  <p>Il server crea automaticamente pseudonimi nella forma nome.cognome e nome_cognome per ogni utente del sistema e uno pseudonimo \"everyone\" che comprende tutti gli utenti del sistema.</p>\n\n  <p>Gli pseudonimi permettono anche di creare alias per domini (virtuali) e utenti. Per esempio, è possibile inoltrare \"info@dominio-virtuale1.it\" all'utente \"maria\" e \"info@dominio-virtuale2.com\" all'utente \"luigi\". Domini e utenti dovranno essere creati prima della creazione degli alias.</p>\n\n  <p>Gli pseudonimi possono inoltre puntare ad altri pseudonimi, limitatamente ad un solo livello di inoltro. Per esempio l'alias \"webmaster\" può puntare allo pseudonimo \"support\" che a sua volta inoltra l'email all'utente \"paolo\". Utile quando un utente ha più ruoli all'interno dell'azienda perché evita di cambiare lo pseudomino associato all'utente nel caso in cui la persona lasci l'azienda.</p>\n\n  <p>Per modificare o rimuovere uno pseudonimo fare clic sul corrispondente comando a fianco dello pseudonimo.</p>\n\n  "
+
+msgid "pse_DESC_PSEUDONYM_NAME"
+msgstr "Selezionare un utente o gruppo esistente per lo pseudonimo dal menu sottostante"
+
+msgid "pse_EVERYONE"
+msgstr "Tutti"
+
+msgid "pse_FORM_TITLE"
+msgstr "Crea, modifica o rimuovi pseudonimi"
+
+msgid "pse_LOCAL_ONLY"
+msgstr "(solo rete locale)"
+
+msgid "pse_MODIFY_PSEUDONYM"
+msgstr "Modifica pseudonimo"
+
+msgid "pse_MODIFY_SUCCEEDED"
+msgstr "Pseudonimo modificato con successo"
+
+msgid "pse_NAME_IN_USE"
+msgstr "Errore: Nome in uso. Non è possibile creare uno pseudonimo con quel nome."
+
+msgid "pse_NOT_A_PSEUDONYM"
+msgstr "L'account non è uno pseudonimo"
+
+msgid "pse_PSEUDONYM"
+msgstr "Pseudonimo"
+
+msgid "pse_PSEUDONYM_INVALID_DOMAIN"
+msgstr "Il dominio non è configurato su questo server"
+
+msgid "pse_PSEUDONYM_INVALID_SAMEACCT"
+msgstr "Un pseudonimo non può puntare allo stesso utente"
+
+msgid "pse_PSEUDONYM_NAME"
+msgstr "Nome pseudonimo"
+
+msgid "pse_REMOVE_PSEUDONYM"
+msgstr "Rimuovi pseudonimo"
+
+msgid "pse_REMOVE_SUCCEEDED"
+msgstr "Pseudonimo rimosso con successo"
+
+msgid "pse_SELECT_ACCOUNT"
+msgstr "Selezionare utente o gruppo"
+
+msgid "pse_SELECT_INTERNAL"
+msgstr "(solo rete locale)"
+
+msgid "pse_TITLE_CREATE"
+msgstr "Crea uno pseudonimo"
+
+msgid "pse_USER_OR_GROUP"
+msgstr "Utente o gruppo"
+
+msgid "pse_VALID_PSEUDONYM_NAMES"
+msgstr " Lo pseudonimo può contenere solo lettere minuscole, numeri, punti, trattini e underscore e devono iniziare con una lettera minuscola o un numero. Per esempio \"vendite\", \"filippo.olanda\", \"123\" e \"sys-admin\" sono tutti pseudonimi validi, mentre \"Giovanni Stecchino\" e \"Mario Luzi\" non lo sono. E' anche possibile creare alias di posta per utenti di domini (virtuali). Per esempio \"franco@dominio-due.it\" può essere inoltrato a \"mario\" (o a qualsiasi utente esistente). "

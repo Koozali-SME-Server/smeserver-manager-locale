@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Cadangkan atau pulihkan"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Semua backup"
+
+msgid "bac_AM"
+msgstr "AM"
+
+msgid "bac_AM/PM"
+msgstr "AM/PM"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "Proses restore sedang berlangsung. Silakan coba lagi nanti."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "Tape backup akan dijalankan secara teratur pada:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Memilih file yang ditampilkan"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Konfigurasi dan status backup"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr "(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>\n\n  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>\n\n  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>\n\n  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>"
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "  Terlalu banyak data pada server untuk backup ke desktop.  "
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "File backup tidak lengkap"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Backup atau restore data server"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Pilih jam antara 0 dan 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Silakan pilih menit antara 0 dan 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "Peringatan: Untuk backup berukuran besar, proses pemeriksaan integritas mungkin memakan waktu lama dan harus dilakukan dengan backup workstation harian di disable"
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "Check disini untuk mengetest integritas dari semua backup yang diperlukan untuk full restore dengan backup yang dipilih"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Level kemampatan backup ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Harap meng-konfigurasi setting backup"
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Konfigurasi pita backup"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Pengaturan Workstation Backup"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "Anda dapat menentukan jumlah set backup untuk disimpan di workstation, dengan putaran otomatis. Setiap set mungkin berisi data yang disimpan untuk beberapa hari. Dalam hal ini, backup pertama adalah full backup, backup lainnya adalah incremental. Anda juga dapat menentukan batas waktu dari setiap sesi backup atau hanya untuk incremental backup saja. Jika batas waktu ini terlampaui, maka backup akan diberhentikan secara otomatis, dan incremental backup selanjutnya akan dilanjutkan dengan data selanjutnya."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Tidak dapat men-dekode file backup:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Tidak dapat menjalankan backup pipeline:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Tidak dapat melakukan fork:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Backup ke desktop"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Restore dari desktop"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Proses ini akan meng-upload filebackup dari desktop lokal anda ke server dan me-restore konfigurasi dan data pengguna.Restore harus dilakukan pada server yang baru diinstall. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Verifikasi file backup desktop"
+
+msgid "bac_DOW"
+msgstr "Minggu Senin Selasa rabu Kamis Jumat Sabtu Setiap-hari"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Enable/Disable Backup Pita Malam Hari"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Enable/Disable Workstation Backup harian"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Enable backup pita"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Aktifkan Pencadangan Workstation"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Gagal membaca file dari"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "Direktori cadangan sudah terpasang"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Terjadi kesalahan pada event conf-backup."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Error saat menggunakan Dar catalog"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Kesalahan saat mengekstrak dengan Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "Level kemampatan harus antara 0 (tanpa kompresi) dan 9 (kompresi maksimal)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "Angka ini harus 1 atau lebih besar dari 1. Backup set pertama adalah full backup selanjutnya adalah incremental backup"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Nama share tidka valid"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Error: jam backup salah:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Login tidak valid"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Error: Menit backup salah:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Password tidak valid"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Error: jam pengingat salah:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Error: menit pengingat salah:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Format Tanggal invalid, harus dalam format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 atau 10-08:32 atau 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "Jumlah set harus 1 atau lebih"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "Waktu backup maksimal harus antara 1 dan 24 jam."
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "IP atau hostname Workstation tidak valid."
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "Tidak dapat me-mount shared folder workstation"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Berkas backup tidak ditemukan"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "Restore dibatalkan karena full backup yang diperlukan hilang atau tidak terbaca"
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "Tidak ada direktori untuk host anda di shared folder. Mungkin nama host anda berbeda dari yang ada pada backup."
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "Restore dibatalkan karena set backup ada yang hilang atau nomor backup incremental tidak terbaca"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "Error: tidak ada USB disk. Silakan sambungkan USB disk atau pilih jenis backup share yang lain."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "Error: tidak ada USB disk. Silakan sambungkan USB disk atau pilih jenis backup share yang lain."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Terjadi kesalahan saat melakuka post-backup."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Terjadi kesalahan saat melakukan pre-backup."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Error terjadi saat melakukan pre-restore."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Terjadi kesalahan membaca file backup."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Gagal me-restore dari tape."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "Gagal merestore file dari workstation."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Terjadi kesalahan saat me-restore gid dari 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Terjadi kesalahan saat me-restore initial group dari 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Gagal saat meng-update konfigurasi sistem setelah restore dari tape."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "Gagal saat meng-update sistem konfigurasi setelah workstation restore."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "Gagal saat melakukan unmount pada share luar"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "File dan direktori berikut telah di-restore"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "File berikut ini terdapat dalam file backup:"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "File backup yang akan direstore dari"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Nama difilter dengan "
+
+msgid "bac_FINISHED_AT"
+msgstr "dan selesai pada:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Anda memiliki ruang kosong sekitar $tmpfree di server. Periksa kembali apakah file backup dekstop lebih kecil dari $halffree sebelum menjalankan restore. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Full backup dibolehkan pada"
+
+msgid "bac_HOURS"
+msgstr "jam"
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Sesi full backup jangan di-timeout"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Waktu Pengingat load pita (jam/menit)"
+
+msgid "bac_LOGIN"
+msgstr "Login adalah"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Setelah restore selesai anda harus me-reboot server"
+
+msgid "bac_Mounted disk"
+msgstr "Disk terpasang"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "Konfigurasi server dan berkas data pengguna sedang di-restore dari tape."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "Konfigurasi server anda dan berkas data pengguna sedang di-restore dari shared folder workstation."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "Tidak ada backup set di shared folder pada workstation. Periksa kembali setting konfigurasi anda."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "Tidak dapat mengambil uid untuk user:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Jumlah hari pada tiap set"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Jumlah putaran set backup"
+
+msgid "bac_No suitable local devices found"
+msgstr "Tidak ditemukan perangkat lokal yang sesuai"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Halaman ini akan me-refresh ke display status dalam [_1] detik, atau klikdi sini. "
+
+msgid "bac_PASSWORD"
+msgstr "Password adalah"
+
+msgid "bac_PM"
+msgstr "PM"
+
+msgid "bac_READ_COMPLETE"
+msgstr " Anda dapat memilih semua direktori dan file yang ingin ada restore pada daftar yang dipampilkan (gunakan ctrl atau shift untuk memilih lebih dari 1).  Peringatan : Jika anda memilih direktori, semua file dan direktori didalamnya akan di-restore. Secara default versi yang terbaru dari file yang dipilih akan di-restore, tetapi jika anda menentukan tanggal dalam format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] proses akan me-restore hanya versi terbaru sebelum tanggal tersebut. "
+
+msgid "bac_REBOOT"
+msgstr "Re-boot"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Refresh display ini"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "Pesan pengingat akan dikirim pada:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Tidak dapat menjalankan restore konfigurasi server."
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Restore selesai"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Sistem restore telah selesai"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Restore konfigurasi server dari tape backup"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>Proses ini akan me-restore konfigurasi dan data pengguna dari sebuah backup tape. <b>Restore harus dilakukan pada server yang baru saja di-install.</b>.</p>\n\n  <p>Pastikan bahwa anda sudah memasukkan backup tape yang benar kedalam tape drive sebelum melanjutkan.</p>\n\n  <p>Setelah proses restore selesai, anda harus me-reboot server.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Restore konfigurasi server dari workstation backup"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>Proses ini akan mengembalikan konfigurasi dan berkas data pengguna dari backup server. <b>Proses ini harus dilakukan pada server yang baru di install</b>.</p>\n\n  <p>Pastikan anda telah memilih backup yang benar yang akan dikembalikan sebelum melanjutkan proses.</p>\n\n  <p>Setelah proses restore selesai anda harus me-reboot server.</p>\n\n  "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Restore gagal! File backup tidak lengkap."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Restore gagal! Terjadi kesalahan dalam membaca file backup."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Restore Dari Tape"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Restore dari Workstation"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Restore sedang berlangsung"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Sistem restore sedang berlangsung. Dimulai pada:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Setelah proses restore selesai anda harus me-reboot server. Proses restore selesai saat /etc/smbpasswd telah di restore dan tampak tulisan \"Restore selesai\"di bagian bawah layar anda."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Restore konfigurasi server"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Verifikasi integritas gagal"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Sedang me-restore dari Tape"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Sedang me-restore dari Workstation"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Pilih aksi"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Pilih file backup"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Restore terbaru sebelum"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Pilih file yang ingin di restore"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "Pilih jenis dari share untuk tujuan backup"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Mulai ulang server"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Server akan reboot sekarang"
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Bagikan Cadangan"
+
+msgid "bac_STARTED_AT"
+msgstr "Dimulai pada:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Berhasil men-disable tape backup"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Berhasil men-disable workstation backup"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Tape backup berhasil diaktifkan"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Workstation backup berhasil diaktifkan"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Cadangan pita adalah"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Waktu melakukan backup (Jam/Menit)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Konfigurasi pita backup"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Pilih apakan anda ingin meng-enable backup tiap malam. Kemudian tentukan jam untuk mem-backup dan reminder untuk memasang pita.</p>\n\n  <p>Tape backup memerlukan tape drive yang didukung. Pesan peringatan akan dikirim kepada administrator pada saat yang ditentukan jika tape drive kosong.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Restore dari pita"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Mengetest integritas dari backup"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "Sedang mengetest semua backup yang diperlukan untuk full restore dengan backup yang dipilih"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Tidak dapat me-restore konfigurasi server"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Update"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Meng-update konfigurasi tape backup"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Meng-update konfigurasi workstation backup"
+
+msgid "bac_VERIFY"
+msgstr "Verifikasi"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Pilihan ini akan menampilkan nama dari semua file di dalam file backup yang telah dibuat sebelumnya. Anda dapat menggunakan opsi ini untuk memeriksa isi dari file backup.</p>\n\n  <p>File terakhir yang ada didalam file backup adalah file yang bernama \"smbpasswd\".</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Verifikasi selesai"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Pilihan ini akan menampilkan semua nama file didalam berkas workstation backup yang telah dilakukan sebelumnya. Anda dapat menggunakan pilihan ini untuk memeriksa isi dari backup.<b>Anda harus memilih backup yang ingin anda periksa</b></p>\n\n  <p>Hanya file yang ditandai dengan ~[Saved~] yang berada didalam backup.</p>\n\n  File backup diperiksa dari shared folder: "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Periksa workstation backup"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "dengan waktu backup:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "dan waktu pengingat load pita:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "Workstation Backup secara teratur dilakukan pada:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Seting backup workstation"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "Buat atau ubah konfigurasi workstation backup"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "Cadangan workstation adalah"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "Tingkat kemampatan (0-9) backup adalah"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "Jumlah backup harian dalam tiap set adalah"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>Panel ini menampilkan konfigurasi workstation backup saat ini. Anda dapat mengubahnya pada panel ini dan panel selanjutnya.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Backup adalah"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "Backup dibuat pada workstation LAN"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "kecuali full backup yang akan time-out setelah 24 jam"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "Backup dilakukan pada USB disk lokal"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Saat ini, workstation backup belum di konfigurasi. Anda dapat mengatur konfigurasi dengan panel ini dan panel selanjutnya.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "Jumlah putaran set backup adalah"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Setting Workstation Backup."
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "Folder tujuan backup adalah"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "Waktu melakukan Workstation backup (jam/menit)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "Backup harian setiap hari timeout setelah "
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Waktu backup harian pada "
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "Backup dilakukan pada USB disk lokal"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "via"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Pengaturan workstation backup"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "Full backup (set backup baru) dibolehkan hanya pada "
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "Sesi full backup (set backup baru) dibolehkan setiap hari"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Nama login"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "IP atau hostname workstation."
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "Anda harus mengkonfigurasi workstation backup secara benar terlebih dahulu"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Restore dari workstation"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Restore secara selektif dari workstation"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Restore secara selektif dari workstation"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " Proses ini akan merestore hanya file dan direktori yang anda tentukan. Anda harus memilih backup asal dari mana file tersebut akan di-restore. Jika anda tidak tahu backup yang mana yang berisi file yang anda inginkan, anda dapat memilih 'Semua backup' .  Panel berikut akan menampilkan semua file dan direktori, sehingga anda dapat memilih yang anda ingin restore. Untuk membatasi jumlah file dan direktori yang ditampilkan pada panel ini, anda dapat memberi filtering expression, yang akan diterapkan sebagai regular expression pada nama yang ditampilkan. Anda bertanggung jawab untuk tidak merestore file yang dapat menyebabkan fungsi server anda rusak.. Saat ini, file akan di-restore dari : "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Waktu timeout sesi backup (Opsional)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Periksa workstation backup"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X Backup atau restore data server"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "Anda harus tutup-padam server untuk meng-aktivasi perubahan konfigurasi yang telah terjadi sebagai akibat dari sistem restore."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "Backup dilakukan pada USB disk lokal"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>Server menyediakan dua cara untuk membackup dan me-restore server: : menggunakan desktop lokal atau sebuah tape drive.</p>\n\n  <p>Metode pertama membuat salinan dari konfigurasi server dan file data pengguna, dan mengunduhnya pada desktop lokal anda melalui web browser anda. Saat ini total file konfigurasi dan data sekitar <b>[_3]</b>. File backup akan sedikit lebih kecil dari ini, tergantung seberapa bisa data dimampatkan . Pilihan \\\"Periksa file backup dekstop\\\" option dapat digunakanuntuk memeriksa integritas dari sebuah file backup.</p>\n\n  <p>Metode tape backup menggunakan paket perangkat lunak <i>[_1]</i> untuk membackup seluruh harddisk kedalam tape setiap malam. Ini memerlukan tape drive yang di-support dan sebuah tape yang tidak di write-protect. Backup dilakukan secara otomatis pada waktu yang ditentukan setiap malam (dengan reminder yang secara otomatis di e-mailed kepada administrator pada hari berikutnya). Saat ini harddisk anda berisi data <b>[_2]</b> .</p>\n\n  <p>Kedua metode restore membolehkan anda untuk me-restore file konfigurasi dan data pengguna. <b>Sebaiknya, restore dilakukan pada server yang baru di-install</b>.</p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "Backup atau restore"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Backups Tape di disabled "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Backup Tape saat ini di enabled. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " Workstation backups di disabled "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " Workstation backups saat ini di enabled. "

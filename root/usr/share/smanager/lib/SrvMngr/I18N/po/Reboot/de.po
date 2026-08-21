@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Reboot module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "Reboot or shutdown"
+msgstr "Neustart oder Herunterfahren"
+
+msgid "rbo_DESCRIPTION"
+msgstr " Hier können Sie den Server herunterfahren, neu starten oder eine volle System-Rekonfigurierung durchführen. Bevor Sie die Spannungsversorgung ausschalten, müssen Sie den Server herunterfahren. Alle Funktionen benötigen einige Minuten, bis sie abgeschlossen sind. Wenn Sie auf Ausführen drücken, wird die gewählte Funktion gestartet, seien Sie bereit! "
+
+msgid "rbo_DESC_REBOOT"
+msgstr "Der Server hat den Neustart angestoßen."
+
+msgid "rbo_DESC_RECONFIGURE"
+msgstr "Ihr Server hat eine volle System-Rekonfiguration und Neustart angestoßen."
+
+msgid "rbo_DESC_SHUTDOWN"
+msgstr "Ihr Server wird heruntergefahren. Dies dauert einige Minuten, danach können Sie die Stromversorgung ausschalten."
+
+msgid "rbo_FORM_TITLE"
+msgstr "Herunterfahren oder Neustart"
+
+msgid "rbo_LABEL_REBOOT"
+msgstr "Wählen Sie Herunterfahren, Neustart oder Rekonfigurieren"
+
+msgid "rbo_REBOOT"
+msgstr "Neustart"
+
+msgid "rbo_REBOOT_SUCCEEDED"
+msgstr "Neustart ist erfiolgreich angestoßen worden."
+
+msgid "rbo_RECONFIGURE_SUCCEEDED"
+msgstr "Rekonfiguration erfolgreich angestoßen."
+
+msgid "rbo_SHUTDOWN_SUCCEEDED"
+msgstr "(en) Shutdown request initiated successfully."

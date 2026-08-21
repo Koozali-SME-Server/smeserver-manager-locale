@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+
+msgid "ACCESS"
+msgstr "Πρόσβαση"
+
+msgid "ACCOUNT"
+msgstr "Λογαριασμός"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "Δεν υφίστανται ομάδες χρηστών στο σύστημα."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Ο Λογαριασμός είναι κλειδωμένος"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "Η ονομασία λογαριασμού που πληκτρολογήσατε δεν είναι έγκυρη."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "Η ονομασία του λογαριασμού που πληκτρολογήσατε περιλαμβάνει μη-έγκυρους χαρακτήρες."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Αλλαγή κωδικού πρόσβασης λογαριασμού"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "Δεν υφίστανται λογαριασμοί χρηστών στο σύστημα."
+
+msgid "ACTION"
+msgstr "Ενέργεια"
+
+msgid "ADD"
+msgstr "Προσθήκη"
+
+msgid "APRIL"
+msgstr "Απρίλιος"
+
+msgid "AUGUST"
+msgstr "Αύγουστος"
+
+msgid "Administration"
+msgstr "Διαχείριση"
+
+msgid "All rights reserved"
+msgstr "Όλα τα δικαιώματα διατηρούνται"
+
+msgid "BACK"
+msgstr "Πίσω"
+
+msgid "BACKUP"
+msgstr "Αντίγραφο Ασφαλείας"
+
+msgid "CANCEL"
+msgstr "Ακύρωση"
+
+msgid "COMMENT"
+msgstr "Σχόλιο"
+
+msgid "CONTENT"
+msgstr "Περιεχόμενο"
+
+msgid "CREATE"
+msgstr "Δημιουργία"
+
+msgid "CREATE_GROUP"
+msgstr "Δημιουργία ομάδας χρηστών"
+
+msgid "Collaboration"
+msgstr "Συνεργασία"
+
+msgid "Configuration"
+msgstr "Ρύθμιση παραμέτρων συστήματος"
+
+msgid "DECEMBER"
+msgstr "Δεκέμβριος"
+
+msgid "DESCRIPTION"
+msgstr "Περιγραφή"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Σύντομη περιγραφή"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "Προορισμός"
+
+msgid "DISABLED"
+msgstr "Απενεργοποιημένος/η/ο"
+
+msgid "DOMAIN"
+msgstr "Τομέας"
+
+msgid "DOMAINS"
+msgstr "Τομείς"
+
+msgid "DOMAIN_NAME"
+msgstr "Όνομα τομέα"
+
+msgid "DOWNLOAD"
+msgstr "Λήψη"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Ενεργοποιήθηκε"
+
+msgid "END_OF_REPORT"
+msgstr "Τέλος της αναφοράς"
+
+msgid "ERROR_BELOW"
+msgstr "ΣΦΑΛΜΑ: Συνέβη κάποιο σφάλμα στην επικύρωση της παρούσας σελίδας. Παρακαλώ κάντε κύλιση της οθόνη προς τα κάτω για να βρείτε το συγκεκριμένο πρόβλημα."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Μη-αναμενόμενοι χαρακτήρες στην περιγραφή."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Παρουσιάσθηκε κάποιο σφάλμα κατά την διάρκεια αλλαγής του κωδικού πρόσβασης. Παρακαλώ σιγουρευτείτε ότι έγινε σωστή εισαγωγή του παλιού κωδικού πρόσβασης."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Σφάλμα συνέβη κατά την ενημέρωση των ρυθμίσεων παραμέτρων συστήματος."
+
+msgid "FEBRUARY"
+msgstr "Φεβρουάριος"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Σφάλμα: μη αναμενόμενοι ή ελλείποντες χαρακτήρες στην περιγραφή"
+
+msgid "FM_IP_NUMBER1"
+msgstr "Αυτό το πεδίο πρέπει να περιέχει μία έγκυρη διεύθυνση IP και δεν μπορεί να αφεθεί κενό."
+
+msgid "FM_IP_NUMBER2"
+msgstr "Invalid IP address format (expected X.X.X.X)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] είναι μεγαλύτερο από 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "Πρέπει να δώσετε μια MAC διεύθυνση."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "Η MAC διεύθυνση που δώσατε δεν είναι έγκυρη."
+
+msgid "FM_NONBLANK"
+msgstr "Αυτό το πεδίο δεν πρέπει ν΄αφεθεί κενό"
+
+msgid "FRIDAY"
+msgstr "Παρασκευή"
+
+msgid "GROUP"
+msgstr "Ομάδα"
+
+msgid "GROUPS"
+msgstr "Ομάδες"
+
+msgid "GROUP_ADD"
+msgstr "Προσθήκη ομάδας"
+
+msgid "GROUP_MEMBERS"
+msgstr "Μέλη ομάδας"
+
+msgid "GROUP_NAME"
+msgstr "Όνομα ομάδας"
+
+msgid "IP_ADDRESS"
+msgstr "Διεύθυνση IP"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "Διεύθυνση IP"
+
+msgid "JANUARY"
+msgstr "Ιανουάριος"
+
+msgid "JULY"
+msgstr "Ιούλιος"
+
+msgid "JUNE"
+msgstr "Ιούνιος"
+
+msgid "LOCAL"
+msgstr "Τοπικό"
+
+msgid "LOCATION"
+msgstr "Τοποθεσία"
+
+msgid "MARCH"
+msgstr "Μάρτιος"
+
+msgid "MAY"
+msgstr "Μάιος"
+
+msgid "MB"
+msgstr "Mb"
+
+msgid "MODIFY"
+msgstr "Τροποποίηση"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Τροποποίηση ομάδας χρηστών"
+
+msgid "MONDAY"
+msgstr "Δευτέρα"
+
+msgid "Miscellaneous"
+msgstr "Διάφορα"
+
+msgid "NAME"
+msgstr "Όνομα"
+
+msgid "NETWORK"
+msgstr "Δίκτυο"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Επιτρέπεται η πρόσβαση μόνον από τοπικά δίκτυα"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Επιτρέπεται η δημόσια πρόσβαση (από ολόκληρο το Διαδίκτυο)"
+
+msgid "NEXT"
+msgstr "Επόμενο"
+
+msgid "NO"
+msgstr "Όχι"
+
+msgid "NOVEMBER"
+msgstr "Νοέμβριος"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "Το σύμβολο της κατακόρυφης μπάρας (|) δεν επιτρέπεται σ΄ετούτο το πεδίο"
+
+msgid "OCTOBER"
+msgstr "Οκτώβριος"
+
+msgid "OFF"
+msgstr "Εκτός"
+
+msgid "OK"
+msgstr "Εντάξει"
+
+msgid "ON"
+msgstr "Εντός"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Αναφορά κατάστασης λειτουργίας"
+
+msgid "PASSWORD"
+msgstr "Κωδικός πρόσβασης"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Αλλαγή κωδικού πρόσβασης"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Ο κωδικός πρόσβασής σας άλλαξε επιτυχώς."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "Ο κωδικός πρόσβασης που πληκτρολογήσατε περιέχει μη-έγκυρους χαρακτήρες."
+
+msgid "PASSWORD_NEW"
+msgstr "Νέος κωδικός πρόσβασης:"
+
+msgid "PASSWORD_OLD"
+msgstr "Παλαιός κωδικός πρόσβασης:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "Ο παλαιός κωδικός πρόσβασης που πληκτρολογήσατε περιέχει μη-έγκυρους χαρακτήρες."
+
+msgid "PASSWORD_RESET"
+msgstr "Αρχικοποίηση κωδικού πρόσβασης"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "Οι κωδικοί πρόσβασης που πληκτρολογήσατε δεν ταυτίζονται."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Νέος κωδικός πρόσβασης (επαλήθευση)"
+
+msgid "PERFORM"
+msgstr "Εκτέλεση"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Επαναρύθμιση παραμέτρων"
+
+msgid "REMOTE"
+msgstr "Απομακρυσμένο"
+
+msgid "REMOVE"
+msgstr "Διαγραφή"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Διαγραφή ομάδας χρηστών"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Αρχικοποίηση (reset) αρχικού κωδικού πρόσβασης χρήστη"
+
+msgid "RESTORE"
+msgstr "Επαναφορά"
+
+msgid "ROUTER"
+msgstr "Δρομολογητής"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Σάββατο"
+
+msgid "SAVE"
+msgstr "Αποθήκευση"
+
+msgid "SELF"
+msgstr "Ίδιο"
+
+msgid "SEPTEMBER"
+msgstr "Σεπτέμβριος"
+
+msgid "SHUTDOWN"
+msgstr "Τερματισμός"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Επιτυχής"
+
+msgid "SUNDAY"
+msgstr "Κυριακή"
+
+msgid "Security"
+msgstr "Ασφάλεια"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Πέμπτη"
+
+msgid "TUESDAY"
+msgstr "Τρίτη"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Μη-έγκυρος χρήστης"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Τρέχουσα λίστα χρηστών"
+
+msgid "USER_NAME"
+msgstr "Όνομα χρήστη"
+
+msgid "User password"
+msgstr "Κωδικός πρόσβασης χρήστη"
+
+msgid "WEDNESDAY"
+msgstr "Τετάρτη"
+
+msgid "YES"
+msgstr "Ναι"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Ο λογαριασμός σας:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "Η ονομασία λογαριασμού που πληκτρολογήσατε δεν είναι έγκυρη."
+
+msgid "Your Settings"
+msgstr "Οι ρυθμίσεις σας"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Ακύρωση"
+
+msgid "del"
+msgstr "διαγραφή"
+
+msgid "edit"
+msgstr "επεξεργασία"
+
+msgid "exit"
+msgstr "Έξοδος"
+
+msgid "hello"
+msgstr "Γεια σας"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

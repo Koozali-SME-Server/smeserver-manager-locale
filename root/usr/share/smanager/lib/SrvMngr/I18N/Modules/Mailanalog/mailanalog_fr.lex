@@ -1,0 +1,25 @@
+'mai_FORM_TITLE' => 'Analyse des journaux de messagerie',
+'mai_INITIAL_DESC' => ' L\'analyse des fichiers du journal de messagerie peut vous aider à comprendre le fonctionnement de votre système et à diagnostiquer des problèmes liés à la messagerie. Plusieurs rapports différents sont disponibles.
+#
+#  <p>Veuillez noter que la génération de ces rapports peut prendre plusieurs minutes.</p>
+#
+#  ',
+'mai_REPORT_TYPE' => 'Type de rapport',
+'mai_GENERATE_REPORT' => 'Générer le rapport',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_LIST_OUTGOING' => 'Dresser la liste des courriels sortants et des destinataires',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SUMMARIZE_QUEUE' => 'Résumer l\'état de la file d\'attente des courriels',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SUCCESSFUL_DELIVERY_DELAY' => 'Envois réussis de courriels avec délais de diffusion',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_DEFERRAL' => 'Raisons du report',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_FAILURE' => 'Raisons de l\'échec',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_BASIC_STATS' => 'Statistiques de base',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_STATS' => 'Statistiques relatives aux destinataires',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_HOSTS' => 'Hôtes de destination',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_ORDERED' => 'Destinataires triés pour les listes d\'envoi',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDER_STATS' => 'Statistiques relatives à l\'expéditeur',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDMAIL_STYLE' => 'Journal au format "sendmail"',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_SUCCESS' => 'Raisons du succès',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDER_UIDS' => 'UIDs des expéditeurs',
+'mai_INVALID_REPORT_TYPE' => 'Type de rapport non valide :',
+'mai_REPORT_GENERATED' => 'Rapport généré le',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_END_OF_REPORT' => 'Fin du rapport.',
+'Mail log file analysis' => 'Journaux de messagerie',

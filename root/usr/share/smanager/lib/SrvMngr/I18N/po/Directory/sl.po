@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Directory module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "Directory"
+msgstr "(en) Directory"
+
+msgid "dir_CITY"
+msgstr "Privzeto mesto"
+
+msgid "dir_COMPANY"
+msgstr "Privzeto podjetje"
+
+msgid "dir_DEPARTMENT"
+msgstr "Privzeti oddelek"
+
+msgid "dir_DESCRIPTION"
+msgstr "LDAP streznik omogoca mrezni seznam uporabniskih imen in skupin na vasem strezniku in lahko do njega dostopamo z uporabo LDAP odjemalca, kot je Address Book v Outlook Expressu. Nastavite odjemalca z lokalnim IP naslovom, st. porta 389 in naslednjimi parametri:"
+
+msgid "dir_DESC_DEPARTMENT"
+msgstr "Ta polja so privzeta polja LDAP streznika za vaso organizacijo. Ko ustvarite novega uporabnika, bose morali vpisati vsa ta polja (ki so za vsakega uporabnika lahko drugacne), vendar se bodo podatki vpisani tukaj videli, kot privzeti. Na ta nacin omogocimo hitrejse dodajanje uporabniskih racunov."
+
+msgid "dir_DESC_DIRECTORY_ACCESS"
+msgstr "Dostop no vasega LDAP directorija: privatne nastavitve bodo dovolile dostop samo z lokalnega omrezja, javne nastavitve pa dostop od bilokje na Internetu."
+
+msgid "dir_DESC_EXISTING"
+msgstr "Vase obstojece uporabnike lahko pustite nesppremenjene z teminastavitvemi, ali pa uporabite zgornje nastavitve za vse uporabnike."
+
+msgid "dir_DIRECTORY_ACCESS"
+msgstr "Dostop do LDAP directorija"
+
+msgid "dir_EXISTING"
+msgstr "Obstojeci uporabniki"
+
+msgid "dir_FORM_TITLE"
+msgstr "Spremenite LDAP nastavitve"
+
+msgid "dir_LABEL_ROOT"
+msgstr "Korenina (root) streznika"
+
+msgid "dir_LEAVE"
+msgstr "Pustite nespremenjene"
+
+msgid "dir_PHONE"
+msgstr "(en) dir_PHONE"
+
+msgid "dir_PHONENUMBER"
+msgstr "Privzeta telefonska stevilka"
+
+msgid "dir_STREET"
+msgstr "Privzeti naslov"
+
+msgid "dir_SUCCESS"
+msgstr "Nove privzete nastavitve LDAP streznika so bile shranjene."
+
+msgid "dir_UPDATE"
+msgstr "Posodobite z novimi nastavitvami"
+
+msgid "dom_FORM_TITLE"
+msgstr "(en) dom_FORM_TITLE"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dir_Directory"
+#~ msgstr "Directory"

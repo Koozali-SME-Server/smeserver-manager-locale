@@ -7,4 +7,4 @@
 'rbo_DESC_SHUTDOWN' => 'Sunucunuz kapanma sürecine başlamıştır. Bu sürecin tamamlanması birkaç dakika sürebilir, süreç tamamlandıktan sonra bilgisayarınızı kapatma düğmesinden kapatabilirsiniz.',
 'rbo_LABEL_REBOOT' => 'Kapatma, Yeniden Başlatma veya Yeniden Yapılandırma seçiniz.',
 'rbo_DESCRIPTION' => ' Bu sayfadan sistemi kapatabilir, yeniden başlatabilir veya yeniden yapılandırabilirsiniz. Bilgisayarın kapatma düğmesine basmadan önce kapatma işlemini seçmelisiniz. Bu işlemlerin tamamlanması birkaç dakika alabilir. perform düğmesine bastığınız zaman işlem hemen başlatılacaktır! ',
-'rbo_Reboot or shutdown' => 'Yeniden Başlatma veya Kapatma',
+# ORPHANED (no longer in reboot_en.lex; kept for reference, commented out by lex-to-po.pl): 'rbo_Reboot or shutdown' => 'Yeniden Başlatma veya Kapatma',

@@ -7,4 +7,4 @@
 'clm_NEVER' => 'ไม่ต้อง',
 'clm_DAILY' => 'รายวัน',
 'clm_SUCCESS' => 'การตั้งค่าของตัวป้องกันไวรัส Clamav ได้รับการบันทึกแล้ว',
-'clm_Antivirus (ClamAV)' => 'โปรแกรมป้องกันไวรัส (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'โปรแกรมป้องกันไวรัส (ClamAV)',

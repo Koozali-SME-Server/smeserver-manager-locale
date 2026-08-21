@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
+
+msgid "ACCESS"
+msgstr "存取"
+
+msgid "ACCOUNT"
+msgstr "帳號"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "系統中無使用者群組。"
+
+msgid "ACCOUNT_LOCKED"
+msgstr "帳號鎖定"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "輸入的帳號名稱無效。"
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "您輸入的帳號名稱包含無效字元。"
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "修改帳號密碼"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "系統中無使用者帳號。"
+
+msgid "ACTION"
+msgstr "動作"
+
+msgid "ADD"
+msgstr "新增"
+
+msgid "APRIL"
+msgstr "4月"
+
+msgid "AUGUST"
+msgstr "8月"
+
+msgid "Administration"
+msgstr "管理"
+
+msgid "All rights reserved"
+msgstr "版權所有"
+
+msgid "BACK"
+msgstr "返回"
+
+msgid "BACKUP"
+msgstr "備份"
+
+msgid "CANCEL"
+msgstr "取消"
+
+msgid "COMMENT"
+msgstr "備註"
+
+msgid "CONTENT"
+msgstr "內容"
+
+msgid "CREATE"
+msgstr "建立"
+
+msgid "CREATE_GROUP"
+msgstr "建立使用者群組"
+
+msgid "Collaboration"
+msgstr "協作"
+
+msgid "Configuration"
+msgstr "設定組態"
+
+msgid "DECEMBER"
+msgstr "12月"
+
+msgid "DESCRIPTION"
+msgstr "介紹"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "簡介"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "目的地"
+
+msgid "DISABLED"
+msgstr "禁用"
+
+msgid "DOMAIN"
+msgstr "網域"
+
+msgid "DOMAINS"
+msgstr "眾網域"
+
+msgid "DOMAIN_NAME"
+msgstr "網域名稱"
+
+msgid "DOWNLOAD"
+msgstr "下載"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "啟用"
+
+msgid "END_OF_REPORT"
+msgstr "報告結束"
+
+msgid "ERROR_BELOW"
+msgstr "錯誤：網頁驗證時存在錯誤。請下拉頁面並找到指定錯誤。"
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "描述涵蓋未預期字元。"
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "試圖變更您的密碼時發生錯誤。請確認輸入的舊密碼是否正確。"
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "更新系統設定時錯誤。"
+
+msgid "FEBRUARY"
+msgstr "二月"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "錯誤：描述中涵蓋未知字元或遺失字元。"
+
+msgid "FM_IP_NUMBER1"
+msgstr "此區段必須包含一個有效的IP位址且不能留白。"
+
+msgid "FM_IP_NUMBER2"
+msgstr "無效的IP位址格式（例如X.X.X.X）"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1]大於255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "您需提供MAC位址。"
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "您提供的MAC位址無效。"
+
+msgid "FM_NONBLANK"
+msgstr "此區塊不能留白。"
+
+msgid "FRIDAY"
+msgstr "星期五"
+
+msgid "GROUP"
+msgstr "群組"
+
+msgid "GROUPS"
+msgstr "群組"
+
+msgid "GROUP_ADD"
+msgstr "增加群組"
+
+msgid "GROUP_MEMBERS"
+msgstr "群組成員"
+
+msgid "GROUP_NAME"
+msgstr "群組名稱"
+
+msgid "IP_ADDRESS"
+msgstr "IP 地址"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "IP地址或FQDN"
+
+msgid "JANUARY"
+msgstr "1月"
+
+msgid "JULY"
+msgstr "7月"
+
+msgid "JUNE"
+msgstr "6月"
+
+msgid "LOCAL"
+msgstr "本機"
+
+msgid "LOCATION"
+msgstr "位置"
+
+msgid "MARCH"
+msgstr "3月"
+
+msgid "MAY"
+msgstr "五月"
+
+msgid "MB"
+msgstr "百萬位元(Mb)"
+
+msgid "MODIFY"
+msgstr "修改"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "修正使用者群組"
+
+msgid "MONDAY"
+msgstr "星期一"
+
+msgid "Miscellaneous"
+msgstr "雜項"
+
+msgid "NAME"
+msgstr "名稱"
+
+msgid "NETWORK"
+msgstr "網絡"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "僅限區域網路存取"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "允許公開存取（全部網際網路）"
+
+msgid "NEXT"
+msgstr "下一步"
+
+msgid "NO"
+msgstr "否"
+
+msgid "NOVEMBER"
+msgstr "11月"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "管線符號（|）在此區塊中是不允許的"
+
+msgid "OCTOBER"
+msgstr "10月"
+
+msgid "OFF"
+msgstr "關閉"
+
+msgid "OK"
+msgstr "確定"
+
+msgid "ON"
+msgstr "開啟"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "運作狀態回報"
+
+msgid "PASSWORD"
+msgstr "密碼"
+
+msgid "PASSWORD_CHANGE"
+msgstr "改變密碼"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "您的密碼已修改成功。"
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "您輸入的密碼包含無效字元。"
+
+msgid "PASSWORD_NEW"
+msgstr "新密碼："
+
+msgid "PASSWORD_OLD"
+msgstr "舊密碼："
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "您輸入的舊密碼包含無效字元。"
+
+msgid "PASSWORD_RESET"
+msgstr "重設密碼"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "您輸入的密碼不符。"
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "新密碼（驗證）："
+
+msgid "PERFORM"
+msgstr "執行"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "重新設定"
+
+msgid "REMOTE"
+msgstr "遠端"
+
+msgid "REMOVE"
+msgstr "移除"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "移除使用者群組"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "重設使用者密碼"
+
+msgid "RESTORE"
+msgstr "還原"
+
+msgid "ROUTER"
+msgstr "路由器"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "星期六"
+
+msgid "SAVE"
+msgstr "儲存"
+
+msgid "SELF"
+msgstr "自己"
+
+msgid "SEPTEMBER"
+msgstr "9月"
+
+msgid "SHUTDOWN"
+msgstr "關閉系統"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "成功"
+
+msgid "SUNDAY"
+msgstr "星期日"
+
+msgid "Security"
+msgstr "安全性"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "星期四"
+
+msgid "TUESDAY"
+msgstr "星期二"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "無效使用者"
+
+msgid "USER_LIST_CURRENT"
+msgstr "當前使用者列表"
+
+msgid "USER_NAME"
+msgstr "使用者名稱"
+
+msgid "User password"
+msgstr "使用者密碼"
+
+msgid "WEDNESDAY"
+msgstr "星期三"
+
+msgid "YES"
+msgstr "是"
+
+msgid "YOUR_ACCOUNT"
+msgstr "您的帳號："
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "輸入的帳號名稱無效。"
+
+msgid "Your Settings"
+msgstr "您的設定"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "取消"
+
+msgid "del"
+msgstr "刪除"
+
+msgid "edit"
+msgstr "編輯"
+
+msgid "exit"
+msgstr "結束"
+
+msgid "hello"
+msgstr "你好"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

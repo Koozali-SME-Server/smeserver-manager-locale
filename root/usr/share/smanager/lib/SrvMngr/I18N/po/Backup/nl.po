@@ -1,0 +1,602 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Backup of herstel"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Alle backups"
+
+msgid "bac_AM"
+msgstr "VM"
+
+msgid "bac_AM/PM"
+msgstr "VM/NM"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "Een ander herstel is lopend. Probeer op een ander moment opnieuw."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "Geautomatiseerde tape backups starten om:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Selecteer bestanden om te tonen"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Backup configuratie en status"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr " <p>Er worden drie methoden aangeboden om uw server te backuppen en herstellen: gebruik maken van een tape drive, gebruik maken van een gedeelde netwerkschijf of een lokale verwisselbare schijf, of gebruik maken van je lokale bureaublad.</p>\n\n  <p>Tape Backup: Deze methode maakt gebruik van een software pakket genaamd <i>[_1]</i> om uw gehele harddisk elke nacht naar tape te schrijven. Hiervoor is een ondersteunde tape drive nodig en een tape welke niet schrijfbeveiligd is. De backup wordt elke nacht automatisch op de geselecteerde tijd uitgevoerd (met een automatische herinnering welke gedurende de dag per e-mail aan de beheerder gestuurd wordt). Momenteel bevat uw hard disk <b>[_2]</b> aan gegevens.</p>\n\n  <p>Werkstation Backup: Deze methode maakt gebruik van een software pakket genaamd <i>dar</i> om uw configuratie- en gegevensbestanden elke nacht naar een gedeelde netwerkschijf of een lokale verwisselbare schijf zoals een USB schijf. U kunt instellen hoeveel roterende backup sets worden bewaard, en hoeveel incrementele backups er in elke set zijn. De backup wordt dagelijks automatisch uitgevoerd op de geselecteerde tijd. De huidige ongecomprimeerde configuratie- en gegevensbestandgrootte is ongeveer <b>[_3]</b>. Op de gedeelde backup schijf moet ongeveer twee maal de gecomprimeerde gegevensgrootte beschikbaar zijn.</p>\n\n  <p>Backup naar Bureaublad: Deze methode maakt een kopie van uw configuratie- en gegevensbestanden, en download deze naar uw lokale desktop via uw webbrowser. De huidige configuratie- en gegevensbestandsgrootte is ongeveer <b>[_3]</b>. Het backup bestand zal iets kleiner zijn, afhankelijk van de comprimeerbaarheid van de gegevens. Dit bestand kan gebruikt worden om uw server te herstellen vanaf het console wanneer u het bestand kopieert naar een lokale verwisselbare schijf, zoals een USB-schijf.</p>\n\n  <p>Alle backup methoden maken het mogelijk uw configuratie en gegevensbestanden te herstellen. Werkstation Backup biedt daarnaast ook de mogelijkheid individuele bestanden te herstellen. <b>Bij voorkeur dient U een volledig herstel uit te voeren op een schoon geïnstalleerde server</b>.</p>\n\n  "
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "Uw server heeft te veel data voor een betrouwbare backup naar bureaublad."
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "Het backup bestand is onvolledig"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Backup of herstel server data"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Kies een uur tussen 0 en 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Kies een minuut tussen 0 en 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "Waarschuwing: Voor grote backups kan de integriteits controle lang duren en zou alleen gedaan moeten worden terwijl de dagelijkse werkstation backup uit staat."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "Tik hier om de integriteit van alle backups die benodigd zijn voor een volledig herstel door middel van de geselecteerde backup te controleren."
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Backup compressie level ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "A.u.b. de backup instellingen configureren."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Configureer tape backup"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Configureer Werkstation Backup"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "U kan het aantal succesvolle backups die worden bijgehouden op het werkstation instellen met automatische rotatie. Elke backup kan opgeslagen data voor meerdere dagen bevatten. In dit geval is de eerste backup een volledige backup, en de volgenden een dagelijkse incrementele backup. U kan tevens een tijdslimiet instellen voor elke backup sessie of enkel voor incrementele backups. Wanneer deze limiet wordt bereikt wordt de backup netjes gestopt en zal de volgende incrementele backup veilig verder gaan met niet opgeslagen en gewijzigde data."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Kan backup bestand niet decoderen:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Kan backup pipeline niet uitvoeren:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Kan niet splitsen:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Backup naar bureaublad"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Herstellen vanaf bureaublad"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Dit proces laadt een server backup bestand van uw lokale computer naar uw server en herstelt de configuratie en gebruikers data. Het herstel kan best uitgevoerd worden op een nieuw geïnstalleerde server. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Controleer bureaublad backup bestand"
+
+msgid "bac_DOW"
+msgstr "Zondag Maandag Dinsdag Woensdag Donderdag Vrijdag Zaterdag Alle dagen"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Activeer/De-activeer Nachtelijke Tape Backup"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Activeer/De-activeer Dagelijkse Werkstation Backup"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Activeer tape backup"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Activeer Werkstation backup"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Fout bij het lezen van bestanden vanaf"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "Backup directory is reeds gemonteerd"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Fout opgetreden tijdens conf-backup actie."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Fout bij het gebruiken van Dar cataloog"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Fout bij het uitpakken met Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "Compressie level moet zich tussen 0 (geen compressie) en 9 (maximum compressie) bevinden"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "Dit getal moet groter of gelijk zijn aan 1. De eerste backup in de set is volledig de andere zijn incrementeel"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Foute gedeelde map naam"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Fout: foutief backup uur:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Foute Gebruikersnaam"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Fout: foutieve backup minuut:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Fout Wachtwoord"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Fout: foutief herinneringsuur:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Fout: foutieve herinneringsminuut:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Datum formaat is niet correct, gewenst formaat ~[ ~[ ~[jjjj/~]mm/~]dd-~]uu:mm~[:ss~]. bijvoorbeeld: 2005/12/31-08:23:32 of 10-08:32 of 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "Sets aantal moet groter of gelijk zijn aan 1"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "Maximum backup tijd moet zich tussen 1 en 24 uur bevinden"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "Fout Werkstation IP of Hostnaam"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "Niet mogelijk om werkstation gedeelde map te laden"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Backup directory is niet gemonteerd"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "Herstel is afgebroken omdat het benodigde backup bestand niet bestaat of onleesbaar is."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "Geen map voor uw host in gedeelde map. Misschien is uw hostnaam verschillend van de backup hostnaam"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "Herstel is afgebroken omdat het incrementele backup nummer niet bestaat of onleesbaar is."
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "Fout: Geen gemonteerde schijf beschikbaar. Monteer een schijf of selecteer een ander type werkstation backup."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "Fout: Geen verwijderbare schijf beschikbaar. Plaats een verwijderbare schijf of selecteer een ander type werkstation backup."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Fout opgetreden tijdens na-backup acties."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Fout opgetreden tijdens pre-backup acties."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Er is een fout opgetreden tijdens de voorbereiding van herstel acties."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Er is een fout bij het lezen van het backup bestand."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Fout opgetreden bij het herstellen van bestanden vanaf tape."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "Fout opgetreden tijdens het herstellen vanaf werkstation."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Fout opgetreden tijdens herstellen van gid voor 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Fout opgetreden tijdens herstellen initiële groep van 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Er is een fout opgetreden bij het wijzigen van de systeemconfiguratie na het herstel van tape."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "Er is een fout opgetreden bij het wijzigen van de systeemconfiguratie na het herstel vanaf een werkstation."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "Fout opgetreden bij het ontladen van gedeelde map"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "De volgende bestanden en mappen zijn hersteld:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "De volgende bestanden komen in de back-up:"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "Backup bestand om van te herstellen"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Namen gefilterd door"
+
+msgid "bac_FINISHED_AT"
+msgstr "en is voltooid om:"
+
+msgid "bac_FREE_SPACE"
+msgstr " U heeft ongeveer $tmpfree vrije schijfruimte op de server. Controleer dat het bureaublad backup bestand kleiner is dan $halffree voordat U het herstel start. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Volledige backup is toegelaten op"
+
+msgid "bac_HOURS"
+msgstr "uren."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Geen tijdsstop voor volledige backup sessies"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Laad tape herinnering tijdstip (uur/min)"
+
+msgid "bac_LOGIN"
+msgstr "Gebruikersnaam is"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Nadat het herstel voltooid is moet u de server herstarten."
+
+msgid "bac_Mounted disk"
+msgstr "Gemonteerde schijf"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "Uw server configuratie en gebruikers data bestanden worden nu hersteld vanaf tape."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "Uw server configuratie en gebruikers data bestanden worden nu hersteld vanaf de gedeelde map van het werkstation."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "Er is geen backup ingesteld op de geconfigureerde werkstation gedeelde map. Controleer uw configuratie instellingen."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "Kan uid niet vinden voor gebruiker:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Dagelijkse backups in elke set"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Aantal sets rotatie backups"
+
+msgid "bac_No suitable local devices found"
+msgstr "Geen geschikte lokale apparaten gevonden"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Deze pagina vernieuwt naar het status scherm binnen [_1] seconden, of klik hier. "
+
+msgid "bac_PASSWORD"
+msgstr "Wachtwoord is"
+
+msgid "bac_PM"
+msgstr "NM"
+
+msgid "bac_READ_COMPLETE"
+msgstr " U kunt de mappen en bestanden die hersteld moeten worden selecteren in de getoonde lijst (gebruik Ctrl of Shift voor veelvoudige keuze). Waarschuwing: Als een map worden geselecteerd, worden alle onderliggende mappen en bestanden hersteld.Als standaard instelling worden de meest recent versies van de geselecteerde bestanden hersteld, maar als een datum in het formaat ~[ ~[ ~[jjjj/~]mm/~]dd-~]uu:mm~[:ss~] is gespecificeerd word alleen de meest recente versie voor de aangegeven datum herstelt. "
+
+msgid "bac_REBOOT"
+msgstr "Herstarten"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Vernieuw het scherm"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "Herinneringsberichten worden verzonden naar:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Kan server configuratie niet verder herstellen"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Herstel voltooid"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Een systeemherstel is voltooid"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Herstel server configuratie van tape backup"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>Dit proces zal de configuratie en gebruikers data herstellen van een server tape backup. <b>Het herstel moet uitgevoerd worden op een nieuw geïnstalleerde server</b>.</p>\n\n  <p>Kijk na of u de benodigde backup tape in het tape station heeft geplaatst vooraleer te starten.</p>\n\n  <p>Nadat het herstel voltooid is moet u de server herstarten.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Herstel server configuratie vanaf werkstation backup"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>Dit proces zal de configuratie en gebruikers bestanden herstellen van een Server werkstation backup. <b>Het herstel moet uitgevoerd worden op een nieuw geinstalleerde server</b>.</p>\n\n  <p>Controleer dat u de juiste backup selecteert vooraleer door te gaan.</p>\n\n  <p>Nadat het herstel voltooid is moet u de server herstarten.</p>\n\n  Backup wordt hersteld vanaf : "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Herstel mislukt! Het backup bestand is niet volledig."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Herstel mislukt! Er was een fout bij het lezen van het backup bestand."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Herstellen Vanaf Tape"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Herstel Vanaf Werkstation"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Herstel is lopend"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Er is een systeemherstel gestart. Het begon om:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Nadat het herstel is voltooid moet u de server herstarten. Uw herstel is voltooid wanneer de woorden \"Herstel voltooid\" onder op uw scherm verschijnen."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Server configuratie herstellen"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Verifiëren van integriteit gefaald"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Aan het herstellen vanaf Tape"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Aan het herstellen vanaf werkstation"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Selecteer een actie"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Selecteer backup bestand"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Herstel meest recente voor"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Selecteer bestanden om te herstellen"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "Selecteer het type van gedeelde map voor de backup's bestemming"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Server herstart"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Uw server zal nu herstarten."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Backup gedeelde map"
+
+msgid "bac_STARTED_AT"
+msgstr "Het begon om:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Tape backups zijn met succes gedeactiveerd"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Werkstation backups zijn met succes gedeactiveerd"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Tape backups zijn met succes geactiveerd"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Werkstation backups zijn met succes geactiveerd"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Tape-back-ups zijn"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Tape backup tijdstip (uur/min)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Configureer tape backup"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Selecteer of u nachtelijke backups wil activeren. Geef daarna de tijdstippen aan voor de backup en de herinnering om de tape te plaatsen.</p>\n\n  <p>De tape backup heeft een ondersteund tape station nodig. Een opgelet bericht zal naar de administrator verzonden worden op het vastgestelde herinneringstijdstip als het tape station leeg is.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Herstellen vanaf tape"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Testen van backup integriteit"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "Testen van alle backups benodigd voor een volledig herstel met de geselecteerde backup"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Niet mogelijk om server configuratie te herstellen"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Wijzigen"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Past tape backup configuratie aan"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Werkstation backup configuratie aan het wijzigen"
+
+msgid "bac_VERIFY"
+msgstr "Controleer"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Deze optie toont de namen van alle bestanden in een eerder gemaakt bureaublad backup bestand. U kan deze optie gebruiken om de inhoud van het backup bestand te verifieren.</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Verificatie is voltooid"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Deze optie toont de namen van alle bestanden in eerder gemaakte dagelijkse werkstation backups. U kunt deze optie gebruiken om de inhoud van de backup te controleren.<b>U dient de backup te kiezen die u wilt controleren.</b></p>\n\n  <p>Alleen bestanden gemerkt met ~[Saved~] zullen zich in de backup bevinden.</p>\n\n  Backup bestanden zijn gecontroleerd vanaf de gedeelde map : "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Controleer werkstation backup"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "met backup tijd:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "en laad tape herinneringstijd:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "Werkstation backups starten om:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Backup werkstation instellingen"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "Werkstation backup configuratie toevoegen or wijzigen"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "Werkstationback-ups zijn"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "Compressie level (0-9) van backup is"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "Aantal dagelijkse backups die zich in elke set bevinden zijn"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>Dit paneel toont de huidige workstation backup configuratie. U kan deze wijzigen in dit en het volgende paneel.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Back-up is"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "Backup is gemaakt op LAN werkstation"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "uitgezonderd volledige backups die veilig worden gestopt na 24 uren"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "Backup is gemaakt op gemonteerde schijf"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Op dit moment is werkstation backup niet geconfigureerd. U kan dit instellen in dit en het volgende paneel.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "Aantal geroteerde backup sets is"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Werkstation Backup Instellingen"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "De bestemming van de backup gedeelde map is"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "Werkstation backup tijdstip (uur/min)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "Elke dagelijkse backup sessie wordt veilig gestopt na"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Dagelijkse backup vindt plaats op"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "Backup is gemaakt op lokale verwijderbare schijf"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "met"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Configureer werkstation backup"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "Volledige backup sessie (nieuwe backup sets) is enkel toegelaten op"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "Volledige backup sessies (nieuwe backup set) zijn alle dagen toegelaten"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Gebruikersnaam"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "Werkstation IP of hostnaam"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "U moet eerst uw werkstation backup correct configureren"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Herstel vanaf werkstation"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Werkstation bestandsselectie herstel"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Bestandsselectie herstel vanaf werkstation"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " Dit proces herstelt enkel geselecteerde bestanden en mappen. U moet eerst de juiste backup selecteren van waar u wil herstellen. Als u niet weet in welke backup de bestanden zich bevinden, kan u de 'alle backups' optie selecteren.  Het volgende paneel toont beschikbare bestanden en mappen zodat u diegene kan selecteren die u nodig heeft. Om het aantal bestanden en mappen te beperken kan u nu een filter ingeven, toegepast als een reguliere expressie op de getoonde namen. U heeft de verantwoordelijkheid om bestanden die het functioneren van uw systeem te beschadigen niet te herstellen.Momenteel worden bestanden hersteld vanaf: "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Optionele backup sessie tijdsstop (uren)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Controleer werkstation backup"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X Backup of herstel server data"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "U moet de server omwille van het systeemherstel herstarten om configuratie wijzigingen die gemaakt zijn te activeren."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "Lokale verwijderbare schijf"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>De server heeft twee manieren van backup en herstellen van uw server.</p>\n\n  <p>De eerste methode creëert een kopie van de server configuratie en gebruikers bestanden en download het naar het bureaublad over uw webbrowser. Op dit moment is de omvang van uw configuratie en gebruikers bestanden ongeveer <b>[_3]</b>. Het backup bestand zal wat kleiner zijn afhankelijk van hoe de bestanden te comprimeren zijn. De \\\"Controleer bureaublad backup bestand\\\" optie kan gebruikt worden om de integriteit van het backup bestand te testen.</p>\n\n  <p>De tape backup methode gebruikt een software pakket genaamd <i>[_1]</i> om elke nacht de volledige harddisk naar tape te schrijven. Dit vereist een een ondersteunde tape drive en een tape die niet beveiligd is tegen schrijven. De backup wordt automatisch uitgevoerd op de ingestelde tijd 's nachts (met een herinnering e-mail naar de beheerder gedurende de dag). Op dit moment bevat uw vaste schijfstation <b>[_2]</b> aan data.</p>\n\n  <p>Beide methodes maken herstellen van configuratie en gebruikers bestanden mogelijk. <b>Het verdient de voorkeur de herstel operatie uit te voeren op een vers geïnstalleerde server</b>.</p>\n\n  "
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Tape backups zijn niet geactiveerd "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Tape backups zijn momenteel geactiveerd. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " Werkstation backups zijn niet geactiveerd "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " Werkstation backups zijn geactiveerd. "

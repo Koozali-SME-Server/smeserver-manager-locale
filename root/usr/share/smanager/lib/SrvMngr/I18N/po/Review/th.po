@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Review module\n"
+"POT-Creation-Date: 2026-08-21 11:02+0100\n"
+"PO-Revision-Date: 2026-08-21 11:02+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "Review configuration"
+msgstr "ตรวจสอบการกำหนดค่า"
+
+msgid "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgstr "เครือข่ายท้องถิ่น (local) เพิ่มเติม"
+
+msgid "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgstr "หมายเลขแรกของช่วงหมายเลข DHCP"
+
+msgid "rvw_DESCRIPTION"
+msgstr "นี่เป็นรายงานสรุปข้อมูลเครือข่าย เซิร์ฟเวอร์ และพารามิเตอร์ของโดเมนของเซิร์ฟเวอร์นี้ที่จะเกี่ยวข้องกับการกำหนดค่าของเครื่องลูกข่าย (client) ของเครือข่ายของคุณ คุณอาจต้องการพิมพ์หน้านี้เพื่อใช้เป็นข้อมูลอ้างอิง"
+
+msgid "rvw_DHCP_SERVER"
+msgstr "เซิร์ฟเวอร์ DHCP"
+
+msgid "rvw_DNS_SERVER"
+msgstr "เซิร์ฟเวอร์ DNS"
+
+msgid "rvw_DOMAIN_INFORMATION"
+msgstr "ข้อมูลโดเมน"
+
+msgid "rvw_EMAIL_ADDRESSES"
+msgstr "ที่อยู่อีเมล"
+
+msgid "rvw_EMAIL_FIRSTNAME"
+msgstr "ชื่อ"
+
+msgid "rvw_EMAIL_LASTNAME"
+msgstr "นามสกุล"
+
+msgid "rvw_EMAIL_USERACCOUNT"
+msgstr "บัญชีผู้ใช้"
+
+msgid "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgstr "หมายเลขสุดท้ายของช่วงหมายเลข DHCP"
+
+msgid "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "หมายเลขภายนอกของ IP address / subnet mask"
+
+msgid "rvw_FORM_TITLE"
+msgstr "ตรวจสอบการกำหนดค่า"
+
+msgid "rvw_FTP_SERVER"
+msgstr "เซิร์ฟเวอร์ FTP"
+
+msgid "rvw_GATEWAY"
+msgstr "เกตเวย์"
+
+msgid "rvw_INTERNET_VISIBLE_ADDRESS"
+msgstr "หมายเลข IP ที่ใช้ได้บนอินเทอร์เน็ต"
+
+msgid "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "หมายเลขภายใน (local) ของ IP / subnet mask"
+
+msgid "rvw_NETWORKING_PARAMS"
+msgstr "พารามิเตอร์ของเครือข่าย"
+
+msgid "rvw_NO_NETWORKS"
+msgstr "ไม่พบข้อมูลเครือข่ายอื่น"
+
+msgid "rvw_NO_VIRTUAL_DOMAINS"
+msgstr "(en) rvw_NO_VIRTUAL_DOMAINS"
+
+msgid "rvw_PRIMARY_DOMAIN"
+msgstr "โดเมนหลัก"
+
+msgid "rvw_PRIMARY_WEB_SITE"
+msgstr "เว็บไซต์หลัก (primary)"
+
+msgid "rvw_PROXY_SERVER"
+msgstr "พร็อกซี่เซิร์ฟเวอร์"
+
+msgid "rvw_SERVER_MANAGER"
+msgstr "ตัวจัดการเซิร์ฟเวอร์"
+
+msgid "rvw_SERVER_MODE"
+msgstr "โหมดของเซอร์ฟเวอร์"
+
+msgid "rvw_SERVER_NAMES"
+msgstr "ชื่อเซิร์ฟเวอร์"
+
+msgid "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgstr "เซิร์ฟเวอร์เมล์ SMTP, POP, และ IMAP"
+
+msgid "rvw_USER_PASSWORD_PANEL"
+msgstr "แผงรหัสผ่านผู้ใช้"
+
+msgid "rvw_VIRTUAL_DOMAINS"
+msgstr "โดเมนเสมือน (virtual domains)"
+
+msgid "rvw_WEB_SERVER"
+msgstr "เว็บเซิร์ฟเวอร์"

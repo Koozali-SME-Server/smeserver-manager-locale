@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "Konto \"[_1]\" jest obecnym kontem [_2]."
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " Konto „[_1]” koliduje ze szczegółami pseudonimu [_2] dla konta „[_3]”.  [_4] to pseudonim dla [_5]. "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "Magazyn \"[_1]\" zawiera nieprawidłowe znaki. Nazwa magazynu musi zaczynać się od małej litery i zawierać tylko litery, cyfry i łączniki."
+
+msgid "iba_ADD_IBAY"
+msgstr "Dodaj i-bay"
+
+msgid "iba_ADD_TITLE"
+msgstr "Utwórz lub zmodyfikuj magazyn"
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "Uruchamiaj dynamiczną zawartość (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "Nie udało się utworzyć nowego konta dla [_1](czy już istnieje?)"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "Nie udało się znaleźć konta dla [_1](czy istnieje?)"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "Internet (nie wymagaj hasła)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "Internet (wymagaj hasła)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "Internet (wymagaj hasła poza siecią lokalną)"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "Wystąpił błąd podczas tworzenia magazynu."
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "Wystąpił błąd podczas usuwania magazynu."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "Wystąpił błąd podczas modyfikowania magazynu."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "Wystąpił błąd podczas resetowania hasła."
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "  Dodaj magazyn \n\n   Możesz usunąć każdy magazyn lub zresetować hasło klikając w odpowiednie polecenie w obok magazynu. Jeśli magazyn pojawi się na czerwono, oznacza to, że hasło nie zostało zmienione z domyślnej wartości i powinny zostać zmienione.\n\n  "
+
+msgid "iba_FORM_TITLE"
+msgstr "Utwórz, modyfikuj lub usuń magazyn"
+
+msgid "iba_HTTPS_Only"
+msgstr "Wymuś bezpieczne połączenia"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "Hasła nie zgadzają się."
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "Sieć lokalna (nie wymaga hasła)"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "Sieć lokalna (wymagaj hasła)"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "Nazwa magazynu \"[_1]\" jest za długa. Maksymalna długość wynosi [_1] znaków."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "Nazwa magazynu informacji powinna zawierać tylko małe litery, cyrfry, myślniki i podkreślniki oraz powinna zaczynać się od małej litery. Na przykład \"dane\", \"faktury\" i \"dokumenty.2009\" są poprawnymi nazwamy, ale \"11wnioski\", \"Dane klientów\" i \"Ważne!dokumenty\" nie są poprawne. Nazwa magazynu jest ograniczona do [_1] znaków."
+
+msgid "iba_NAME_LABEL"
+msgstr "Nazwa magazynu"
+
+msgid "iba_NONE"
+msgstr "Brak dostępu"
+
+msgid "iba_NO_IBAYS"
+msgstr "Nie ma żadnych obecnie skonfigurowanych magazynów."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "Masz zamiar zmienić hasło dla magzynu [_1]."
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "Dostęp powszechny przez sieć web lub anonimowy ftp"
+
+msgid "iba_REMOVE_DESC"
+msgstr "  Zamierzasz usunąć magazyn \"[_1]\" ([_2]). \n\n   Wszystkie dane należące do tego magazynu zostaną usunięte. \n\n   Czy jesteś pewien, że chcesz usunąć ten magazyn danych? \n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "Usuń magazyn informacji"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "Pomyślnie utworzono magazyn."
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "Pomyślnie usunięto magazyn."
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "Pomyślnie zmodyfikowano magazyn."
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "Pomyślnie zresetowano hasło."
+
+msgid "iba_USER_ACCESS"
+msgstr "Dostęp użytkowników przez udostępnianie lub ftp"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie): [_1] "
+
+msgid "iba_WARG"
+msgstr "Zapis = administrator, Odczyt = grupa"
+
+msgid "iba_WGRE"
+msgstr "Zapis = grupa, Odczyt = wszyscy"
+
+msgid "iba_WGRG"
+msgstr "Zapis = grupa, Odczyt = grupa"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "ENTIRE_INTERNET_NO_PASSWORD"
+#~ msgstr "Cały Internet (hasło nie jest wymagane)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD"
+#~ msgstr "Cały Internet (wymagane hasło)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD_REMOTE"
+#~ msgstr "(en)Entire Internet (password required outside local network)"
+#~ msgid "INVALID_IBAY_DESCRIPTION"
+#~ msgstr "(en)Error: unexpected or missing characters in i-bay description"
+#~ msgid "LOCAL_NETWORK_NO_PASSWORD"
+#~ msgstr "Sieć lokalna (hasło nie jest wymagane)"
+#~ msgid "LOCAL_NETWORK_PASSWORD"
+#~ msgstr "Sieć lokalna (wymagane hasło)"
+#~ msgid "NONE"
+#~ msgstr "Brak dostępu"
+#~ msgid "WARG"
+#~ msgstr "(en)Write = admin, Read = group"
+#~ msgid "WGRE"
+#~ msgstr "(en)Write = group, Read = everyone"
+#~ msgid "WGRG"
+#~ msgstr "(en)Write = group, Read = group"
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "Hasło może zawierać tylko litery i cyfry."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "Błąd: niespodziewane lub nieprawidłowe znaki w opisie magazynu"
+#~ msgid "iba_Information bays"
+#~ msgstr "Magazyn danych"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "Tryb powszechnego dostępu \"wymagaj hasła poza siecią lokalną\" nie jest zgodny z komponentem FTP serwera. Jeżeli wybrałeś ten tryb, serwer FTP będzie wymagał hasła zarówno w sieci Internet, jak i lokalnej."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr "Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie)."

@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Viewlogfiles module\n"
+"POT-Creation-Date: 2026-08-21 10:25+0100\n"
+"PO-Revision-Date: 2026-08-21 10:25+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+
+msgid "LOG_LIVESTREAM"
+msgstr "(en) Live stream"
+
+msgid "log_END_DESC"
+msgstr "Raporları oluşturmak zaman alabilir."
+
+msgid "log_ERR_NOEXIST_FILE"
+msgstr "(en) Err noexist file"
+
+msgid "log_ERR_NOOPEN_FILE"
+msgstr "(en) Err noopen file"
+
+msgid "log_FILENAME_ERROR"
+msgstr " Log dosyasının adı yanlış.\n\n  <p> \"[_1]\" dosyası geçersiz log içeriyor.</p>\n\n  "
+
+msgid "log_FILTER_PATTERN_DESC"
+msgstr " Görmek istediğiniz kelimeleri içeren satırları filtreleyebilirsiniz. Bir kelime belirtmediğiniz zaman log dosyasının tamamı görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.\n\n  "
+
+msgid "log_FILTER_PATTERN_HINT"
+msgstr "(en) The pattern is case insensitive, but enclosing it in \"/\" will result in it being treated as a regex."
+
+msgid "log_FILTER_PATTERN_LABEL"
+msgstr "Filtrelenecek kelime (isteğe bağlı)"
+
+msgid "log_FIRSTPAGE_DESC"
+msgstr " Bu panel, sunucuda çalışan hizmetlerin log dosyalarını görüntülemeyi ve indirmeyi sağlar. "
+
+msgid "log_FORM_TITLE"
+msgstr "Günlük dosyalarını görüntüle"
+
+msgid "log_HIGHLIGHT_HEADER"
+msgstr " \"[_1]\" ile eşleşip vurgulanan satırlar."
+
+msgid "log_LOG_FILE_EMPTY"
+msgstr "[_1]\" dosyası boş!"
+
+msgid "log_LOG_FILE_SELECT_DESC"
+msgstr "Görmek istediğiniz log dosyasını seçin"
+
+msgid "log_MATCH_HEADER"
+msgstr " \"[_1]\" ile eşleşen satırlar."
+
+msgid "log_MATCH_PATTERN_DESC"
+msgstr " Ayrıca isteğe bağlı olarak vurgulamak istediğiniz kelimeyle eşleşen log dosyası satırı, kalın bir hat olarak görüntülemek için belirtebilirsiniz. Filtre ile eşleşen satırlar kalın bir hat olarak görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.\n\n  "
+
+msgid "log_MATCH_PATTERN_LABEL"
+msgstr "Kelimeyi Vurgula (isteğe bağlı)"
+
+msgid "log_NO_MATCHING_LINES"
+msgstr "Eşleşen satır yok."
+
+msgid "log_OP_DESC"
+msgstr " Log dosyalarını görüntülemek veya indirmeyi seçebilirsiniz. Görmek istediğiniz log dosyası çok büyük ise görüntülemek yerine indirmeniz önerilir, çünkü büyük dosyaları görüntülemek bazı web tarayıcılarında sorunlara neden olabilir.\n\n  "
+
+msgid "log_OP_LABEL"
+msgstr "İşlem"
+
+msgid "log_REFRESH"
+msgstr "Log dosyasını yenile"
+
+msgid "log_VIEW"
+msgstr "Log dosyasını görüntüle"
+
+msgid "log_VIEWING_TIME"
+msgstr "Görüntülenme zamanı [_1]."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "log_DOWNLOAD_FILE"
+#~ msgstr "Log dosyası indirme için hazırlanıyor [_1]."
+#~ msgid "log_DOWNLOAD_PAGE_DESC"
+#~ msgstr " Log dosyası indirmek için hazır. İndirmek için &quot;Next&quot; butonuna tıkladığınızda, dosya indirme pencersi belirecektir, dosyayı istediğiniz yere yükleyebilirsiniz.\n\n  "
+#~ msgid "log_View log files"
+#~ msgstr "Log dosyalarını görüntüle"

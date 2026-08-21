@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Pseudonyms module\n"
+"POT-Creation-Date: 2026-08-21 11:09+0100\n"
+"PO-Revision-Date: 2026-08-21 11:09+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "Pseudonyms"
+msgstr "Pseudonymes"
+
+msgid "pse_ABOUT_TO_REMOVE"
+msgstr " Vous êtes sur le point de supprimer le pseudonyme. Voulez-vous vraiment continuer ? "
+
+msgid "pse_ACCOUNT_PSEUDONYM_NONE"
+msgstr "(en) No Pseudonyms found for this account"
+
+msgid "pse_CLICK_TO_CREATE"
+msgstr "Ajouter un pseudonyme"
+
+msgid "pse_CREATE_SUCCEEDED"
+msgstr "Pseudonyme créé avec succès."
+
+msgid "pse_CURRENT_PSEUDONYMS"
+msgstr " Liste actuelle des pseudonymes "
+
+msgid "pse_DESCRIPTION"
+msgstr " Le serveur crée automatiquement un alias de courriel pour chaque groupe. Si vous voulez définir un alias de courriel pour une liste d'utilisateurs, il suffit simplement de créer un groupe contenant l'ensemble des utilisateurs de la liste et celle-ci sera automatiquement gérée par le serveur.\n\n  <p>Les pseudonymes vous permettent de créer d'autres noms pour des utilisateurs ou des groupes existants. Par exemple, vous pouvez créer le pseudonyme \"webmestre\" pour le groupe \"concepteurs Web\" ou le pseudonyme \"joe\" pour l'utilisateur \"joseph\".</p>\n\n  <p>Le serveur crée automatiquement des pseudonymes de la forme prénom.nom et prénom_nom pour chaque utilisateur du système et le pseudonyme \"everyone\", qui contient tous les utilisateurs du système.</p>\n\n  <p>Les pseudonymes vous permettent également de créer des alias de courriel pour des domaines (virtuels) et des utilisateurs existants. Vous pouvez, par exemple, associer \"ventes@virtualdomain1.com\" à l'utilisateur \"marie\" et \"ventes@virtualdomain2.com\" à l'utilisateur \"jean\". Vous devrez créer les domaines et les comptes utilisateurs avant la création de ces alias de messagerie.</p>\n\n  <p>Un pseudonyme peut également pointer vers un autre pseudonyme, dans la limite d'un niveau d'association. Par exemple, le pseudonyme \"webmestre\" peut pointer vers le pseudonyme \"support_tech\" qui renvoie lui-même vers l'utilisateur \"raymond\". Ceci est très pratique dans le cas où une personne, responsable de plusieurs fonctions, venait à quitter votre organisation : cela permettrait d'éviter de changer l'association de tous les pseudonymes qui auraient été associés directement à cet utilisateur.</p>\n\n  <p>Vous pouvez modifier ou supprimer un pseudonyme en cliquant sur la commande correspondante à côté du pseudonyme.</p>\n\n  "
+
+msgid "pse_DESC_PSEUDONYM_NAME"
+msgstr "Sélectionnez, dans le menu déroulant ci-dessous, un compte ou un groupe existant pour le pseudonyme :"
+
+msgid "pse_EVERYONE"
+msgstr "Tout le monde"
+
+msgid "pse_FORM_TITLE"
+msgstr "Gestion des pseudonymes"
+
+msgid "pse_LOCAL_ONLY"
+msgstr "(réseau local seulement)"
+
+msgid "pse_MODIFY_PSEUDONYM"
+msgstr "Modifier le pseudonyme"
+
+msgid "pse_MODIFY_SUCCEEDED"
+msgstr "Pseudonyme modifié avec succès."
+
+msgid "pse_NAME_IN_USE"
+msgstr "ERREUR : impossible de créer un pseudonyme avec ce nom car il est en cours d'utilisation."
+
+msgid "pse_NOT_A_PSEUDONYM"
+msgstr "Ce compte n'est pas un pseudonyme."
+
+msgid "pse_PSEUDONYM"
+msgstr "Pseudonyme"
+
+msgid "pse_PSEUDONYM_INVALID_DOMAIN"
+msgstr "Ce domaine n'est pas géré par votre serveur."
+
+msgid "pse_PSEUDONYM_INVALID_SAMEACCT"
+msgstr "Un pseudonyme ne peut pas pointer sur le même compte."
+
+msgid "pse_PSEUDONYM_NAME"
+msgstr "Pseudonyme"
+
+msgid "pse_REMOVE_PSEUDONYM"
+msgstr "Supprimer le pseudonyme"
+
+msgid "pse_REMOVE_SUCCEEDED"
+msgstr "Pseudonyme supprimé avec succès."
+
+msgid "pse_SELECT_ACCOUNT"
+msgstr "Compte ou groupe"
+
+msgid "pse_SELECT_INTERNAL"
+msgstr "(réseau local seulement)"
+
+msgid "pse_TITLE_CREATE"
+msgstr "Créer un pseudonyme"
+
+msgid "pse_USER_OR_GROUP"
+msgstr "Utilisateur ou groupe"
+
+msgid "pse_VALID_PSEUDONYM_NAMES"
+msgstr " Le pseudonyme doit commencer par une lettre minuscule ou un chiffre et ne contenir que des minuscules, chiffres, points, traits d'union et traits de soulignement. Par exemple, \"ventes\", \"john.holland\", \"123\" et \"courriel-administrateur\" sont des pseudonymes valides, mais pas \"John Smith\" ni \"Henry Miller\". Vous pouvez également créer des alias de courriel pour des domaines (virtuels) et des utilisateurs existants. Vous pouvez, par exemple, associer \"ventes@virtualdomain1.com\" à l'utilisateur \"marie\" (ou tout utilisateur existant). "

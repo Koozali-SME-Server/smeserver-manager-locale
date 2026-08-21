@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Workgroup module\n"
+"POT-Creation-Date: 2026-08-21 10:47+0100\n"
+"PO-Revision-Date: 2026-08-21 10:47+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "Workgroup"
+msgstr "Grupo de Trabajo"
+
+msgid "wkg_DESC_PDC"
+msgstr "¿Este servidor debe funcionar como el grupo de trabajo y controlador de dominio en la red de Windows? Debe configurar este equipo en No si otro servidor ya está realizando esta función en la red."
+
+msgid "wkg_DESC_ROAM"
+msgstr " ¿Este servidor debe ser compatible con perfiles de roaming? Debe configurar este equipo en la opción No predeterminada, a menos que tenga experiencia en la administración de perfiles roaming de Windows basados en servidor y que tenga conocimiento de que esta opción es necesaria. "
+
+msgid "wkg_DESC_SERVERNAME"
+msgstr "Ingrese el nombre que debe usar este servidor para compartir archivos de Windows y Macintosh."
+
+msgid "wkg_DESC_WORKGROUP"
+msgstr " Introduzca el nombre del grupo de trabajo Windows en el que este servidor debe aparecer. "
+
+msgid "wkg_ERROR_UPDATING"
+msgstr "(en) An error has occurred while updating the workgroup"
+
+msgid "wkg_FORM_TITLE"
+msgstr "Cambiar la configuración del grupo de trabajo"
+
+msgid "wkg_INVALID_SERVERNAME"
+msgstr "El nombre del servidor debe comenzar con una letra (mayúscula o minúscula), seguido de cualquier combinación de letras, números, guiones bajos y guiones."
+
+msgid "wkg_INVALID_WORKGROUP"
+msgstr "El nombre del grupo de trabajo debe comenzar con una letra (mayúscula o minúscula), seguido de cualquier combinación de letras, números, guiones bajos, puntos y guiones."
+
+msgid "wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME"
+msgstr "El nombre del servidor y del grupo de trabajo coinciden cuando se comparan en minúsculas. Estos valores deben ser diferentes para que se active la función de compartir archivos."
+
+msgid "wkg_LABEL_PDC"
+msgstr "Grupo de Trabajo y Controlador de Dominio"
+
+msgid "wkg_LABEL_ROAM"
+msgstr "Perfiles roaming"
+
+msgid "wkg_LABEL_SERVERNAME"
+msgstr "Nombre del Servidor"
+
+msgid "wkg_LABEL_WORKGROUP"
+msgstr "Grupo de trabajo de Windows"
+
+msgid "wkg_SUCCESS"
+msgstr "Se guardó la nueva configuración del grupo de trabajo"

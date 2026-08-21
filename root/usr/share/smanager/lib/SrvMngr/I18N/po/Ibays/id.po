@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "Akun \"[_1]\" adalah akun[_2] yang telah ada."
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " Akun \"[_1]\" bentrok dengan detail pseudonym untuk [_2] akun \"[_3]\". [_1] adalah pseudonym untuk [_3]. "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "Nama i-bay\"[_1]\" mengandung karakter yang tidak dibolehkan. Nama I-bay harus dimulai dengan huruf kecil dan hanya mengandung huruf kecil, angka, dan hyphen (tanda minus)."
+
+msgid "iba_ADD_IBAY"
+msgstr "Tambahkan i-bay"
+
+msgid "iba_ADD_TITLE"
+msgstr "Buat atau mengubah i-bay."
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "Jalankan konten dinamis (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "Tak dapat membuat akun baru dengan nama [_1] (apakah nama tsb sudah ada?)"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "Tidak ditemukan akun [_1] (apakah benar ada?)"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "Seluruh Internet (tidak perlu password)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "Seluruh Internet (password diperlukan)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "Seluruh password (password diperlukan diluar jaringan lokal)"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "Error saat membuat i-bay"
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "Error saat menghapus i-bay."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "Error saat mengubah i-bay."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "Error saat mengubah password."
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "  Buat i-bay \n\n   Anda dapat menghapus information bay atau me-reset password-nya dengan meng-klik pada command yang ada di sebelah information bay. Jika warna information bay adalah merah, itu berarti password belum diubah dari default, dan harus diubah secepatnya. \n\n  "
+
+msgid "iba_FORM_TITLE"
+msgstr "Buat, ubah atau hapus i-bay."
+
+msgid "iba_HTTPS_Only"
+msgstr "Paksa koneksi aman"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "Password tidak sama."
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "Jaringan lokal (tidak perlu password)"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "Jaringan lokal (password diperlukan)"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "Nama i-bay \"[_1]\" terlalu panjang. Maksimum adalah [_1] karakter."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "Nama information bay hanya boleh berisi huruf kecil, angka, titik, min (hyphen), dan garis bawah (underscore), dan harus dimulai dengan huruf kecil. Contoh yang benar :\"johnson\",\"intra\" dan \"cust3.prj12\". Sedangkan \"3associates\",\"John Smith\" dan \"Bus!Partner\" adalah salah. Panjang nama dibatasi [_1] karakter."
+
+msgid "iba_NAME_LABEL"
+msgstr "Nama Information Bay"
+
+msgid "iba_NONE"
+msgstr "Tanpa akses"
+
+msgid "iba_NO_IBAYS"
+msgstr "Tidak ada i-bay yang dikonfigurasi saat ini."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "Anda akan mengubah password i-bay [_1]."
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "Akses umum melalui web atau ftp anonim"
+
+msgid "iba_REMOVE_DESC"
+msgstr "  Anda akan manghapus information bay \"[_1]\" ([_2]). \n\n   Semua file pada information bay ini akan dihapus. \n\n   Anda yakin menghapus information bay ini? \n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "Hapus information bay"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "Berhasil membuat i-bay."
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "Berhasil menghapus i-bay."
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "Berhasil mengubah i-bay."
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "Berhasil mengubah password."
+
+msgid "iba_USER_ACCESS"
+msgstr "Akses pengguna melalui file sharing atau pengguna ftp"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):\n\n  <ul>[_1]</ul> "
+
+msgid "iba_WARG"
+msgstr "Write = admin, Read = group"
+
+msgid "iba_WGRE"
+msgstr "Write = group, Read = everyone"
+
+msgid "iba_WGRG"
+msgstr "Write = group, Read = group"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "ENTIRE_INTERNET_NO_PASSWORD"
+#~ msgstr "Seluruh Internet (tanpa kata sandi)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD"
+#~ msgstr "Seluruh Internet (kata sandi diperlukan)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD_REMOTE"
+#~ msgstr "(en)Entire Internet (password required outside local network)"
+#~ msgid "INVALID_IBAY_DESCRIPTION"
+#~ msgstr "(en)Error: unexpected or missing characters in i-bay description"
+#~ msgid "LOCAL_NETWORK_NO_PASSWORD"
+#~ msgstr "Jaringan lokal (tidak memerlukan kata sandi)"
+#~ msgid "LOCAL_NETWORK_PASSWORD"
+#~ msgstr "Jaringan lokal (kata sandi diperlukan)"
+#~ msgid "NONE"
+#~ msgstr "Tidak ada akses"
+#~ msgid "WARG"
+#~ msgstr "(en)Write = admin, Read = group"
+#~ msgid "WGRE"
+#~ msgstr "(en)Write = group, Read = everyone"
+#~ msgid "WGRG"
+#~ msgstr "(en)Write = group, Read = group"
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "Password hanya boleh berisi huruf dan angka."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "Error: karakter tak diharapkan atau hilang pada keterangan i-bay"
+#~ msgid "iba_Information bays"
+#~ msgstr "Ruang informasi"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "Mode akses publik \"password diperlukan diluar jaringan lokal\" tidak didukung oleh komponen FTP server. Jika anda memilih mode ini, , server FTP server akan diperlukan password baik didalam maupun diluar jaringan lokal untuk i-bay ini."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr " Virtual domain berikut ini menggunakan information bay ini sebagai konten dan akan diubah ke primary web (anda dapat mengubahnya kelak):\n\n  <ul>[_1]</ul> "

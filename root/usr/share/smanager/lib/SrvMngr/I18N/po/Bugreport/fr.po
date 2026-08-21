@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Bugreport module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "bugr_ALTERED_EVENTS"
+msgstr "Une liste des événements SME qui ont été altérés sur votre serveur par rapport à une installation de base"
+
+msgid "bugr_ALTERED_TEMPLATES"
+msgstr "Une liste des gabarits SME qui ont été altérés sur votre serveur par rapport à une installation de base"
+
+msgid "bugr_AWARE_SME"
+msgstr "Vous savez probablement que SME Serveur est développé et maintenu par une communauté de volontaires du monde entier. Bien que SME Serveur est libre à télécharger et à utiliser, maintenir son infrastructure en arrière du projet (incluant héberger les forums, wiki, fournir les dépôts de téléchargement ou les serveurs de fabrication des paquets logiciels) n'est pas gratuit, et nécessite vraiment de l'argent."
+
+msgid "bugr_CONSIDER_DONATING"
+msgstr "Merci de faire un don pour le projet en cliquant sur l'image ci-dessous :"
+
+msgid "bugr_CREATE_REPORT"
+msgstr "Créer un rapport de configuration"
+
+msgid "bugr_DESCRIPTION"
+msgstr "(en) Description"
+
+msgid "bugr_DONATING"
+msgstr "Avez-vous considéré faire une donation ?"
+
+msgid "bugr_DO_NOT_PANIC"
+msgstr "Ne paniquez pas !"
+
+msgid "bugr_Download this report"
+msgstr "Télécharger ce rapport !"
+
+msgid "bugr_FOLLOWING_REPORT_MIGHT_HELP"
+msgstr "Cela aidera aussi si vous fournissez des informations importantes sur la configuration de votre Serveur SME dans votre rapport de bogue. En cliquant sur le bouton \"Créer un rapport de configuration\" ci-dessous, vous pouvez créer et télécharger un fichier texte contenant ces informations. Merci d'attacher ce fichier à votre rapport de bogue."
+
+msgid "bugr_FORM_TITLE"
+msgstr "Rapporter un bogue"
+
+msgid "bugr_INSTALLED_RPMS"
+msgstr "Une liste des RPMs additionnels installés sur votre serveur"
+
+msgid "bugr_KERNEL_AND_ARCH"
+msgstr "Version chargée du kernel et architecture"
+
+msgid "bugr_PLEASE_REPORT_HERE"
+msgstr "Afin d'aider les développeurs à diagnostiquer et résoudre votre problème, merci d'utiliser un des gabarits suivant, remplissez le et collez le tout dans votre rapport de bogue à "
+
+msgid "bugr_PREVIOUS_SERVER_MODE"
+msgstr "Mode d’installation précédent du serveur"
+
+msgid "bugr_PRIVACY"
+msgstr "Aucune donnée compromettant votre vie privée n'est incluse (comme vos utilisateurs, mots de passe ou adresses IP). "
+
+msgid "bugr_REPORT_CONTENT"
+msgstr "Le rapport contiendra les informations suivantes "
+
+msgid "bugr_SERVER_MODE"
+msgstr "Mode d’installation du serveur"
+
+msgid "bugr_SME_EXPERIENCE"
+msgstr "Il n'y a malheureusement aucun logiciel sans bogues, et vous en avez probablement rencontré un avec votre Serveur SME pour consulter cette page."
+
+msgid "bugr_SME_VERSION"
+msgstr "Version du Serveur Koozali SME"
+
+msgid "bugr_THANK_YOU"
+msgstr "Merci pour votre soutien !"
+
+msgid "bugr_USE_TEMPLATE"
+msgstr "Merci de vous référer à ce lien sur comment rapporter efficacement un bogue et utilisez le comme un gabarit "
+
+msgid "bugr_YOUR_HELP"
+msgstr "De la même façon que vous avez besoin de nous pour votre problème, nous avons besoin de VOTRE aide pour garder ce projet actif!"
+
+msgid "bugr_YUM_REPOS"
+msgstr "Une liste des dépôts logiciels qui ont été configurés sur votre serveur"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "Report a bug"
+#~ msgstr "Rapporter un bogue"

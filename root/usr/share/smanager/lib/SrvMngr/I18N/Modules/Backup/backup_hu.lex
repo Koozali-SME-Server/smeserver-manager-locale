@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'A szerver adatainak biztonsági mentése, vagy helyreállítása',
-'bac_BACKUP_DESC' => ' <p>A szerver kétféle biztonsági mentést tesz lehetővé: az asztali mentést, vagy a szalagos mentést.</p>
-
-  <p>Az első módszerrel a szerver másolatot készít a konfigurációs fájlokról és a felhasználói adatokról, majd letölti azt a helyi munkaasztalra a webböngészőn keresztül. Jelenleg az ön konfigurációs és felhasználói adatainak mérete <b>[_3]</b>. Az elkészült biztonsági mentés valamivel kisebb lesz ennél, attól függően, hogy az adatok mennyire tömöríthetők. Az \\"Asztali mentés ellenőrzése\\" opcióval ellenőrizheti az asztali mentés fájl integritását.</p>
-
-  <p>A szalagos mentés egy <i>[_1]</i>-nevű szoftvercsomagot használ, amellyel minden éjjel lementi szalagra a merevlemez teljes tartalmát. Ehhez támogatott szalagos meghajtó és nem írásvédett szalagok kellenek. A biztonsági mentés minden éjjel automatikusan történik (A rendszergazda automatikus figyelmeztető email-t kap előtte a nap folyamán). Jelenleg a merevlemez <b>[_2]</b> adatot tartalmaz.</p>
-
-  <p>Mindkét biztonsági mentés lehetővé teszi, hogy a konfigurációs fájlokat és felhasználói adatokat helyreállítsa.<b>Teljes rendszer-helyreállítást frissen telepített rendszeren érdemes végrehajtani.</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>A szerver kétféle biztonsági mentést tesz lehetővé: az asztali mentést, vagy a szalagos mentést.</p>
+#
+#  <p>Az első módszerrel a szerver másolatot készít a konfigurációs fájlokról és a felhasználói adatokról, majd letölti azt a helyi munkaasztalra a webböngészőn keresztül. Jelenleg az ön konfigurációs és felhasználói adatainak mérete <b>[_3]</b>. Az elkészült biztonsági mentés valamivel kisebb lesz ennél, attól függően, hogy az adatok mennyire tömöríthetők. Az \\"Asztali mentés ellenőrzése\\" opcióval ellenőrizheti az asztali mentés fájl integritását.</p>
+#
+#  <p>A szalagos mentés egy <i>[_1]</i>-nevű szoftvercsomagot használ, amellyel minden éjjel lementi szalagra a merevlemez teljes tartalmát. Ehhez támogatott szalagos meghajtó és nem írásvédett szalagok kellenek. A biztonsági mentés minden éjjel automatikusan történik (A rendszergazda automatikus figyelmeztető email-t kap előtte a nap folyamán). Jelenleg a merevlemez <b>[_2]</b> adatot tartalmaz.</p>
+#
+#  <p>Mindkét biztonsági mentés lehetővé teszi, hogy a konfigurációs fájlokat és felhasználói adatokat helyreállítsa.<b>Teljes rendszer-helyreállítást frissen telepített rendszeren érdemes végrehajtani.</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => ' <p> A szerver biztonsági mentésének és visszaállításának három módja van: szalagos meghajtó használata, hálózati megosztás vagy helyi cserélhető lemez használata, vagy a helyi asztali számítógép használata. </p>
 
   <p> Szalagos biztonsági mentés . Ez a módszer a <i> $ modul </i> nevű szoftvercsomagot használja a teljes merevlemez biztonsági mentéséhez minden este. Ehhez egy támogatott szalagmeghajtóra és egy olyan szalagra van szükség, amely nem írásvédett. A mentés minden este automatikusan történik a kiválasztott időpontban (az emlékeztetőt automatikusan elküldi a rendszergazdának a nap folyamán). Jelenleg a merevlemez <b> $ dumpsize </b> adatot tartalmaz. </p>
@@ -20,10 +20,10 @@
 
   ',
 'bac_BACKUP_CONFIG_STATUS' => 'Biztonsági mentés beállítása és állapota',
-'bac_TAPE_BACKUPS_ENABLED' => ' Szalagra mentés engedélyezve. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Szalagra mentés engedélyezve. ',
 'bac_BACKUPS_RUN_AT' => 'Rendszeres mentés szalagra ekkor: ',
 'bac_REMINDER_MESSAGE_AT' => 'Emlékeztető küldése ekkor: ',
-'bac_TAPE_BACKUPS_DISABLED' => ' Szalagra mentés letiltva ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Szalagra mentés letiltva ',
 'bac_DESKTOP_BACKUP' => 'Mentés asztalra',
 'bac_DESKTOP_RESTORE' => 'Helyreállítás asztalról',
 'bac_DESKTOP_VERIFY' => 'Asztali mentés ellenőrzése',
@@ -112,10 +112,10 @@
 'bac_SERVER_WILL_REBOOT' => 'A szerver most újraindul.',
 'bac_NO_UID_FOR_NAME' => 'Nincs meg az uid a következő felhasználóhoz:',
 'bac_PAGE_REFRESH_IN' => ' Ez az oldal [_1] másodperc múlva frissül, vagy kattintson ide. ',
-'bac_Backup or restore' => 'Biztonsági mentés',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => 'Biztonsági mentés',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Az ön szervere túl sok adatot tartalmaz ahhoz, hogy asztali mentést lehessen készíteni.  ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Hálózati mentés letiltva ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Hálózati mentés jelenleg engedélyezve. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Hálózati mentés letiltva ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Hálózati mentés jelenleg engedélyezve. ',
 'bac_WKBACKUPS_RUN_AT' => 'Rendszeres hálózati mentések készítésének időpontja:',
 'bac_WORKSTN_CONFIGURE' => 'Hálózati mentés beállítása',
 'bac_WORKSTN_VERIFY' => 'Hálózati mentés ellenőrzése',

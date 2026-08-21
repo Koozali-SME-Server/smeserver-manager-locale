@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Remoteaccess module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+
+msgid "Remote access"
+msgstr "Fjerntilgang"
+
+msgid "rma_DESC_FTP_ACCESS"
+msgstr " FTP Innstillinger du kan også kontrollere FTP tilgang til serveren. Vi anbefaler å la denne innstillingen til 'ingen tilgang' med mindre du har spesifikke grunner til å gjøre annet.  Merk: disse innstillingene begrenser tilgangen til serveren og overstyrer andre innstillinger, inkludert de for individuell informasjon bays. "
+
+msgid "rma_DESC_FTP_LOGIN"
+msgstr " Du kan også kontrollere autentisert FTP tilgang til informasjon bays og brukerkontoer. Vi anbefaler på det sterkeste å la disse innstillingene stå til privat med mindre du har spesifikke grunner til å gjøre noe annet.  Merk: en sikker shell sftp klient kan også brukes for tilgang til serveren, hvis fjerntilgang via sikker shell er på. Denne tilgangs metoden beskytter passordene og dataene i FTP sessjonen, hvor standard FTP ikke gir noen beskyttelse. "
+
+msgid "rma_DESC_IPSECRW"
+msgstr " IPSEC Client (Roadwarrior) Innstillinger Du kan tillate IPSEC klient tilgang til serveren, autentisert av digitale sertifikater. Du bør la denne være slått av ved å sette den til 0 med mindre det kreves IPSEC klient tilgang. "
+
+msgid "rma_DESC_IPSECRW_RESET"
+msgstr "Hvis du øpnsker å nullstille alle digitale sertifikater, kan du gjøre det her.Ett hvert gammelt sertifikat vil ikke lenger autentisere mot serveren, så alle IPSEC klienter vil trenge å importere et nytt sertifikat!. "
+
+msgid "rma_DESC_PPTP"
+msgstr " PPTP Innstillinger Du kan tillate PPTP tilgang til serveren. Du bør la denne muligheten være av ved å sette verdien til 0 med mindre det kreves PPTP tilgang. "
+
+msgid "rma_DESC_SSH"
+msgstr "  Sikker Shell InnstillingerDu kan kontrollere Sikker Shell tilgang til serveren. Offentlig innstilling bør bare brukes av erfarne administratorer for fjern problem diagnostisering og løsning. Vi anbefaler å la denne innstillingen stå på \"Ingen tilgang\" med mindre du har en spesifikk grunn til å gjøre annet. "
+
+msgid "rma_DESC_TELNET_ACCESS"
+msgstr " Telnet Innstillinger ADVARSEL: Telnet er mulig, men denne muligheten er ikke lenger støttet. Telnet er usikkert og bør bare brukes under omstendigheter hvor ingen andre muligheter finnes. Du bør endre dette til [_1] og bruke sikkert shell hvis fjerntilgang er påkrevd. Når dette blir slått av, vil ikke lenger telnet vises på denne skjermen. "
+
+msgid "rma_DESC_VALID_FROM_ENTRIES"
+msgstr "For å legge til et nytt fjern administrasjonsnettverk, skriver du inn detaljene nedenfor."
+
+msgid "rma_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "rma_ERR_INVALID_PARAMS"
+msgstr "Du må enten oppgi både nettverk og subnett maske, eller la begge feltene stå tomme."
+
+msgid "rma_FORM_TITLE"
+msgstr "Endre fjerntilgang innstillinger"
+
+msgid "rma_INVALID_SUBNET_MASK"
+msgstr "Ugyldig lokal subnettmaske"
+
+msgid "rma_LABEL_FTP_ACCESS"
+msgstr "FTP tilgang"
+
+msgid "rma_LABEL_FTP_LOGIN"
+msgstr "FTP passord tilgang"
+
+msgid "rma_LABEL_IPSECRW_RESET"
+msgstr "Nulstill digitale sertifikater"
+
+msgid "rma_LABEL_IPSECRW_SESS"
+msgstr "Antall IPSEC klienter"
+
+msgid "rma_LABEL_PPTP"
+msgstr "Antall PPTP klienter"
+
+msgid "rma_LABEL_SSH"
+msgstr "Sikker shell tilgang"
+
+msgid "rma_LABEL_SSH_ADMIN"
+msgstr "Tillat administrativ kommandolinje tilgang over sikker shell"
+
+msgid "rma_LABEL_SSH_PASSWORD_ACCESS"
+msgstr "Tillat sikker shell tilgang ved å bruke standard passord"
+
+msgid "rma_LABEL_SSH_PORT"
+msgstr "TCP porter for sikker shell tilgang"
+
+msgid "rma_LABEL_TELNET_ACCESS"
+msgstr "Telnet tilgang"
+
+msgid "rma_NO_ACCESS"
+msgstr "Ingen tilgang"
+
+msgid "rma_NO_ENTRIES_YET"
+msgstr "Det er ingen lagt til enda"
+
+msgid "rma_NUMBER_OF_PPTP_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE"
+msgstr "(en)The number of pptp clients is greater than the number of reserved IP for DHCP. You should take a smaller number."
+
+msgid "rma_NUM_OF_HOSTS"
+msgstr "Antall maskiner"
+
+msgid "rma_PASSWORD_LOGIN_PRIVATE"
+msgstr "Tillat passord bare fra lokale nettverk"
+
+msgid "rma_PASSWORD_LOGIN_PUBLIC"
+msgstr "Tillat passor fra hvor som helst"
+
+msgid "rma_REMOTE_MANAGEMENT"
+msgstr "Fjern administrasjon"
+
+msgid "rma_SUBNET_MASK"
+msgstr "Subnett maske"
+
+msgid "rma_SUCCESS"
+msgstr "De nye fjerntilgang innstillinger er lagret."
+
+msgid "rma_TITLE_FTP_ACCESS"
+msgstr "FTP-innstillinger"
+
+msgid "rma_TITLE_IPSECRW"
+msgstr "IPSEC-klientinnstillinger (Roadwarrior)"
+
+msgid "rma_TITLE_PPTP"
+msgstr "PPTP-innstillinger"
+
+msgid "rma_TITLE_SSH"
+msgstr "Secure Shell-innstillinger"
+
+msgid "rma_TITLE_TELNET_ACCESS"
+msgstr "Telnet-innstillinger"
+
+msgid "rma_VALIDFROM_DESC"
+msgstr " [_1] Det er mulig å tillate maskiner på fjerne nettverk å få tilgang til server manager ved å skrive inn nettverkene her. Bruk en subnett maske på 255.255.255.255 for å begrense tilgangen til en spesifikk maskin. Enhver maskin innenfor det spesifiserte område vil ha tilgang til server manager ved å bruke HTTPS. "
+
+msgid "rma_VALIDFROM_TITLE"
+msgstr "[_1]"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rma_DESCRIPTION"
+#~ msgstr "For hver av valgene nedenfor, privat innstilling tillater alle på ditt lokale nettverk tilgang til serveren. Offentlig innstilling tillater alle fra hele internett. Ingen tilgang innstilling slår av all tilgang.Du bør lese brukermanual seksjonen om fjerntilgang for å forstå hvilken innvirkning på sikkerheten det har å endre på disse innstillingene."
+#~ msgid "rma_DESC_SERIAL_CONSOLE_ACCESS"
+#~ msgstr " Seriell konsoll Du kan tillate tilgang til server console fra en terminal koblet til en serieport."
+#~ msgid "rma_ERR_NO_RECORD"
+#~ msgstr "Ikke mulig å finne httpd-admin oppføring i oppsettsdatabasen"
+#~ msgid "rma_LABEL_PPTP_ACCESS"
+#~ msgstr "PPTP standard bruker tilgang"
+#~ msgid "rma_LABEL_SERIAL_CONSOLE_ACCESS"
+#~ msgstr "Seriell konsoll"
+#~ msgid "rma_PORT1_ENABLED"
+#~ msgstr "Slått på på serieport 1"
+#~ msgid "rma_PORT2_ENABLED"
+#~ msgstr "Slått på på serieport 2"
+#~ msgid "rma_Remote access"
+#~ msgstr "Fjernadministrasjon"
+#~ msgid "rma_VALUE_ZERO_OR_POSITIVE"
+#~ msgstr "Verdien må være null eller et positivt heltall"

@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Datetime module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. COULD_NOT_OPEN_TZ_FILE
+msgid "COULD_NOT_OPEN_TZ_FILE"
+msgstr ""
+
+#. Date and time
+msgid "Date and time"
+msgstr ""
+
+#. Day:
+msgid "Day:"
+msgstr ""
+
+#. Hour:
+msgid "Hour:"
+msgstr ""
+
+#. Minute:
+msgid "Minute:"
+msgstr ""
+
+#. Month:
+msgid "Month:"
+msgstr ""
+
+#. Second:
+msgid "Second:"
+msgstr ""
+
+#. Year:
+msgid "Year:"
+msgstr ""
+
+#. dat_BETWEEN_0_AND_23
+msgid "dat_BETWEEN_0_AND_23"
+msgstr ""
+
+#. Please choose a minute between 0 and 59.
+msgid "dat_BETWEEN_0_AND_59"
+msgstr ""
+
+#. Date and time configuration
+msgid "dat_FORM_TITLE"
+msgstr ""
+
+#. This is where you configure the date and time of this server. You may use an existing network time server or\nmanually set the date and time for your time zone.
+msgid "dat_INITIAL_DESC"
+msgstr ""
+
+#. Error: invalid hour: 
+msgid "dat_INVALID_HOUR"
+msgstr ""
+
+#. Error: invalid minute: 
+msgid "dat_INVALID_MINUTE"
+msgstr ""
+
+#. Invalid NTP server, the server <b>will not</b> try to synchronize from a time server.
+msgid "dat_INVALID_NTP_SERVER"
+msgstr ""
+
+#. Error: invalid second
+msgid "dat_INVALID_SECOND"
+msgstr ""
+
+#. Invalid date
+msgid "dat_Invalid_date"
+msgstr ""
+
+#. The server is periodically synchronizing the system clock to the network time protocol (NTP) server specified below. To synchronize to a different NTP server, enter a different hostname or IP address in the field below.
+msgid "dat_NTP_CONFIGURE_DESC"
+msgstr ""
+
+#. Choose this option to stop syncronizing the system clock to the NTP\nserver.When the NTP service is disabled, you can set the system date and time manually from this page.
+msgid "dat_NTP_DISABLE_DESC"
+msgstr ""
+
+#. The server can periodically synchronize the system clock to a network time protocol (NTP) server. If you select this option, enter the hostname or IP address of the NTP server below.
+msgid "dat_NTP_ENABLE_DESC"
+msgstr ""
+
+#. NTP Server URL:
+msgid "dat_NTP_Server_URL"
+msgstr ""
+
+#. Network time server setting changed successfully
+msgid "dat_SETTINGS_CHANGED"
+msgstr ""
+
+#. Time zone:
+msgid "dat_TZ"
+msgstr ""
+
+#. Test NTP Server
+msgid "dat_Test_Server"
+msgstr ""
+
+#. The time is currently:
+msgid "dat_The_time_is_currently"
+msgstr ""
+
+#. Time Configuration
+msgid "dat_Time_Configuration"
+msgstr ""
+
+#. Time Setting Mode
+msgid "dat_Time_Setting_Mode"
+msgstr ""
+
+#. System clock is being updated
+msgid "dat_UPDATING_CLOCK"
+msgstr ""
+
+#. Set manually
+msgid "dat_manually_set"
+msgstr ""
+
+#. NTP server
+msgid "dat_ntp_server"
+msgstr ""
+
+#. Set Date and Time:
+msgid "dat_set_manually"
+msgstr ""

@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Proxy module\n"
+"POT-Creation-Date: 2026-08-21 10:22+0100\n"
+"PO-Revision-Date: 2026-08-21 10:22+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "Proxy settings"
+msgstr "การตั้งค่าพร็อกซี"
+
+msgid "prx_BLOCKED"
+msgstr "ถูกบล็อก"
+
+msgid "prx_ERR_NO_SQUID_REC"
+msgstr "ผิดพลาด: ไม่มีข้อมูลการตั้งค่า squid ในฐานข้อมูล"
+
+msgid "prx_ERR_PROXY_UPDATE_FAILED"
+msgstr "ผิดพลาด: proxy-update event รายงานความผิดพลาดกลับมา"
+
+msgid "prx_FIRST_PAGE_DESCRIPTION"
+msgstr "หน้าเพจนี้จะเป็นการตั้งค่า proxy ของเซอร์ฟเวอร์นี้ เซิร์ฟเวอร์นี้มีคุณสมบัติ transparent proxy และแคชข้อมูลสำหหรับข้อมูล HTTP มันจะถูกเปิดใช้งานแล้วโดยปริยาย แต่จะไม่มีผลกับโหมดทำงานแบบ &quot;serveronly&quot; หากให้เซิร์ฟเวอร์นี้ทำหน้าที่เป็นอีเมล์เซอร์ฟเวอร์ด้วย การเชื่อมต่อจากเครื่องลูกที่อยู่ในเครือข่ายภายในที่ติดต่อไปยังเซอร์เวอร์ SMTP ภายนอก จะถูกเบี่ยงทิศทาง (redirect) ไปยังอีเมล์เซอร์เวอร์ภายในแทน (local e-mail server) โดยปริยาย"
+
+msgid "prx_HTTP_PROXY_STATUS_DESCRIPTION"
+msgstr "HTTP proxy เซิร์ฟเวอร์จะทำหน้าที่ลดปริมาณข้อมูลที่ส่งออก โดยจะทำการแคชหน้าเข้าชมเมื่อเร็วๆ นี้เอาไว้ทำให้แสดงผลข้อมูลหน้านี้ได้เร็วขึ้น แต่จะไม่มีผลกระทบอย่างอื่นกับเว็บเบราเซอร์ที่ใช้เซิร์ฟเวอร์นี้เป็นเกตเวย์ การจะใช้หรือไม่ใช้มันทำโดยเลือกทางเลือกต่อไปนี้"
+
+msgid "prx_HTTP_PROXY_STATUS_LABEL"
+msgstr "สถานะของ HTTP proxy"
+
+msgid "prx_Proxy"
+msgstr "พร็อกซี"
+
+msgid "prx_SMTP_PROXY_STATUS_DESCRIPTION"
+msgstr "เซอร์ฟเวอร์ประเภท transparent SMTP proxy นั้นจะทำหน้าที่ลดปริมาณข้อมูลที่เกิดจากเครื่องลูกข่ายที่ติดไวรัส โดยเมื่อเมื่อทำการเปิดใช้งาน (enabled) มันจะบังคับให้การส่งข้อมูล SMTP ต้องผ่านเซอร์ฟเวอร์นี้เท่านั้น แต่ถ้าหากคุณใช้เซอร์ฟเวอร์ SMTP เครื่องอื่นทำหน้าที่นี้แล้ว และมีเซอร์ฟเวอร์นี้ทำหน้าที่เป็นเกตเวย์ส่งผ่านข้อมูลไปให้ และค่าตั้งต้นของรายการนี้คือให้ปิดกั้น (disabled) proxy ซึ่งจะไม่ให้ข้อมูล SMTP ทั้งหมดถูกส่งต่อไปเซร์ฟเวอร์อื่น ตัว proxy นี้จะรองรับเฉพาะพอร์ต smtp ปกติที่ใช้ทั่วไป (พอร์ต 25) เท่านั้น"
+
+msgid "prx_SMTP_PROXY_STATUS_LABEL"
+msgstr "สถานะของ SMTP proxy"
+
+msgid "prx_SUCCESS"
+msgstr "ค่าพร็อกซี่ที่ตั้งใหม่ถูกนำมาใช้แล้ว"
+
+msgid "prx_TITLE"
+msgstr "การตั้งค่าพร็อกซี"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prx_Proxy settings"
+#~ msgstr "การตั้งค่า proxy"

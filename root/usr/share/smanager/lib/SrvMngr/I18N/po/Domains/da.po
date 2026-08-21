@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Domains module\n"
+"POT-Creation-Date: 2026-08-21 10:15+0100\n"
+"PO-Revision-Date: 2026-08-21 10:15+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+
+msgid "dom_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this domain ?"
+
+msgid "dom_ADD_DOMAIN"
+msgstr "Tilføj domæne"
+
+msgid "dom_CONTENT"
+msgstr "[_1] i-bay"
+
+msgid "dom_CONTENT_FIELD_DESCRIPTION"
+msgstr "Som kilde for websideindholdet kan du vælge enten serverens primære webside eller en i-bay."
+
+msgid "dom_CREATE_TITLE"
+msgstr "Opret nyt domæne"
+
+msgid "dom_CURRENT_DOMAINS"
+msgstr "Nuværende liste over domæner"
+
+msgid "dom_DESC_CORPORATE_DNS"
+msgstr "Hvis din server ikke har adgang til Internet, eller du har specielle krav til DNS-opslag så angiv DNSserverens IPadresse her. Efterlad disse felter tomme medmindre du har specielle grunde til at opsætte en anden DNS server. Det er ikke internetudbyderens DNSserver der skal angives. Denne server er fuldt ud i stand til selv at omsætte Internet DNS uden yderligere opsætning."
+
+msgid "dom_DESC_CORPORATE_DNS_CURRENT"
+msgstr " Virksomheds DNS indstillinger "
+
+msgid "dom_DESC_NAMESERVERS"
+msgstr "Du kan indstille hvorvidt dette domæne slås op lokalt, på firma DNS serveren eller på Internet DNS serverne. Det forudindstillede skulle fungere for de fleste netværker."
+
+msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
+msgstr "Rediger virksomhedens DNS-indstillinger"
+
+msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
+msgstr "Fejl: uventede eller manglende tegn i domænebeskrivelsen [_1]. Domænet blev ikke oprettet."
+
+msgid "dom_DOMAIN_IN_USE_ERROR"
+msgstr "Fejl: domænenavn [_1] er allerede i brug. Domænet blev ikke oprettet."
+
+msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
+msgstr "Fejl: uventede eller manglende tegn i domænenavn [_1]. Domænenavnet skal indeholde et eller flere bogstaver, tal, punktum eller bindestreger. Domænet blev ikke oprettet."
+
+msgid "dom_ERROR_CREATING_DOMAIN"
+msgstr "(en) Error creating domain"
+
+msgid "dom_ERROR_MODIFYING_DOMAIN"
+msgstr "(en) Error modifying domain"
+
+msgid "dom_ERROR_UPDATING"
+msgstr "(en) Error updating"
+
+msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
+msgstr "Fejl: intern fejl under fjernelse af domæne [_1]."
+
+msgid "dom_FORM_DESCRIPTION"
+msgstr " Når du opsætter et virtuelt domæne, vil serveren være i stand til at modtage post, være vært for webstedet og lig. for dette domæne.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Tilføj domæne</a> "
+
+msgid "dom_FORM_TITLE"
+msgstr "Administrer domæner"
+
+msgid "dom_LABEL_CORPORATE_DNS_PRIMARY"
+msgstr "Primær firma DNS server"
+
+msgid "dom_LABEL_CORPORATE_DNS_SECONDARY"
+msgstr "Sekundær firma DNS server"
+
+msgid "dom_LABEL_NAMESERVERS"
+msgstr "Domæne DNS servere"
+
+msgid "dom_MODIFY_TITLE"
+msgstr "Ændre virtuelt domæne"
+
+msgid "dom_NONEXISTENT_DOMAIN_ERROR"
+msgstr "Fejl: [_1] findes ikke."
+
+msgid "dom_PRIMARY_SITE"
+msgstr "primært websted"
+
+msgid "dom_REMOVE_DESCRIPTION"
+msgstr "  Du er ved at fjerne domænet [_1] ([_2]). \n\n  <p> <b>Er du sikker på du ønsker at fjerne domænet?</b> </p>\n\n  "
+
+msgid "dom_REMOVE_TITLE"
+msgstr "Remove virtual domain"
+
+msgid "dom_SUCCESSFULLY_CREATED"
+msgstr "Virtuelt domæne [_1] er oprettet. Webserveren vil blive gensartet. Genvejene på denne side vil ikke være inaktive indtil webserveren kører igen."
+
+msgid "dom_SUCCESSFULLY_DELETED"
+msgstr "Domæne [_1] er slettet. Webserveren vil blive genstartet. Genvejene på denne side vil være inaktive indtil webserveren kører igen."
+
+msgid "dom_SUCCESSFULLY_MODIFIED"
+msgstr "Virtuelt domæne [_1] er ændret. Webserveren vil blive gensartet. Genvejene på denne side vil være inaktive indtil webserveren kører igen."
+
+msgid "dom_SYSTEM_DOMAIN_ERROR"
+msgstr "Fejl: domænenavn [_1] er dit systems domænenavn. Du kan ikke have flere domæner med samme navn. Domænet blev ikke oprettet."
+
+msgid "dom_corporate"
+msgstr "Firma DNS server"
+
+msgid "dom_internet"
+msgstr "Internet DNS servere"
+
+msgid "dom_localhost"
+msgstr "Slå op lokalt"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dom_BUTTON_CORPORATE_DNS"
+#~ msgstr " Hvis din server ikke har adgang til Internet, eller du har specielle krav til DNS-opslag så angiv DNSserverens IPadresse her. Det er ikke internetudbyderens DNSserver der skalangives. Denne server er fuldt ud i stand til selv at omsætte Internet DNS uden yderligere opsætning.\n\n  <p> <a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns\">Ændre firma DNS opsætning</a> "
+#~ msgid "dom_CURRENT_LIST_OF_DOMAINS"
+#~ msgstr "Liste over domæner"
+#~ msgid "dom_NO_VIRTUAL_DOMAINS"
+#~ msgstr "Der er ikke oprettet nogen virtuelle domæner på serveren."
+#~ msgid "dom_REMOVE_DESC"
+#~ msgstr "Du er ved at fjerne domænet"
+#~ msgid "dom_REMOVE_DESC2"
+#~ msgstr "Er du sikker på du vil fjerne dette domæne?"

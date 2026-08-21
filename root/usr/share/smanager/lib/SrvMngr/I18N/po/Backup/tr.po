@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Yedekle veya geri yükle"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Bütün yedeklemeler"
+
+msgid "bac_AM"
+msgstr "ÖÖ (AM)"
+
+msgid "bac_AM/PM"
+msgstr "AM/PM (ÖÖ/ÖS)"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "Başka bir geri yükleme devam ediyor. Lütfen daha sonra tekrar deneyin."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "Teyip yedeklemesi düzenli olarak bu saate gerçekleşecektir:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Gösterilecek dosya seçimi"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Yedekleme ayarları ve durumu"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr "(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>\n\n  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>\n\n  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>\n\n  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>"
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "  Sunucunuzda, masaüstünüze yedeklenecek gerğinden fazla veri bulunmaktadır.  "
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "Yedekleme dosyası tamamlanamadı"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Sunucu verilerini yedekle veya geri yükle"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Lütfen 1 ile 12 arası bir saat belirtin."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Lüthen 0 ile 59 arası bir dakika belirtin."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "Dikkat: Büyük yedekler için, doğrulama işlemi uzun sürebilir ve bunun için iş istasyonu yedeklemesi devre dışı bırakılmalıdır."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "Seçilen yedek ile tam geri yükleme yapılabilmesi için bütün yedeklemeleri doğrula"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Yedekleme sıkıştırma oranı ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Lütfen yedekleme ayarlarını yapın"
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Yedekleme teyibini yapılandır"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "İş istasyonu yedeklemesi ayarları"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "İş istasyonunda yedeklenecek kayıt sayısını, otomatik bönüşümlü olacak şekilde ayarlayabilirsiniz. Her seri birkaç günlük kayıt içerebilir. Bu durumda ilk kayıt tam yedeklemeyi içerir, diğerleri günlük deüşümleri içerir. Aynı zamanda yakıt için zanan sınırlaması konulabilir. Bu durumda yedekleme süresi aşıldığında, yedekleme durdurulacak ve bir sonraki ana yedeklemede tam yedek oluşturulacaktır."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Yedekleme dosyası deşifre edilemedi:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Geri yükleme linkleri oluşturulamıyor:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Çatallaşma olmamalı:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Masaüstüne yedekle"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Masaüstünden geri yükle"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Bu işlem sunucu masaüstündeki yedekleme dosyası, sunucuya geri yüklenecek ve sistem yarları ve kullanıcı bilgileri geri yüklenecek. Geri yükleme yeni kurulmuş sistem üzerinde yüklenmelidir. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Masaüstündeki yedeği doğrula"
+
+msgid "bac_DOW"
+msgstr "Pazar Pazartesi Salı Çarşamba Perşembe Cuma Cumartesi Hergün"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Gece Yedek Almayı Etkinleştir/Devre Dışı Bırak"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Günlük iş istasyonu yedeklemesini etkinleştir/devre dışı bırak"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Teyip yedeklemesini etkileştir"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "İş istasyonu yedeklemesini etkinleştir"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Buradan dosyalar okunurken hata oluştu"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "Yedekleme dizini zaten bağlı"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Yedek oluşturma konfigürasyonu oluşturulurken hata meydana geldi."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Dar kataloğu kullanılırken hata oluştu"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Dar ile çıkarma sırasında hata"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "Sıkıştırma oranı 0 (sıkıştırma yok) ile 9 (en fazla sıkıştırma) aralığında olmalıdır"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "Bu sayı 1 veya daha fazla olmalıdır. Setteki ilk yedekleme tam diğerleri artandır"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Geçersiz paylaşım adı"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Hata: geçersiz yedekleme saati:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Geçersiz giriş"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Hata: geçersiz yedekleme dakikası:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Geçersiz şifre"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Hata: geçersiz hatırlatma saati:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Hata: geçersiz hatırlatma dakikası:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Geçersiz tarih formatı, gerekli format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. örn: 2005/12/31-08:23:32 veya 10-08:32 veya 08:32 olmalıdır"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "Set sayısı 1 veya daha fazla olmalı"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "En fazla yedekleme süresi 1 ile 24 saat arasında olmalıdır"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "Geçersiz iş istasyonu IP veya alan adı"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "İş istasyonu paylaşım klasörüne bağlanılamadı"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Yedek dosyası bulunamadı"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "Geri yükleme iptal edildi çünkü tam yedek bulunamadı veya okunamadı."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "Alan adında paylaştırılmış klasör bulunamadı. Alan adı, yedeklenecek olanından farklı olabilir."
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "Geri yükleme iptal edildi çünkü set yok veya okunamayan parçalar var"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "Hata: USB diski bulunmadı. Lütfen USB diskini bağlayın veya başka yedekleme türü seçin."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "Hata: USB diski bulunmadı. Lütfen USB diskini bağlayın veya başka yedekleme türü seçin."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Yedekleme sonrası hata oluştu"
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Yedekleme öncesi hazırlık aşamasında hata oluştu."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Geri yükleme hazırlık aşamasında hata oluştu."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Yedekleme dosyasını okunurken hata oluştu"
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Teyipteki dosyalar geri yüklenirken hata oluştu"
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "İş istasyonundan dosyalar geri yüklenirken hata oluştu"
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "'www' klasörü geri yüklenirken hata oluştu"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "'www' gurubu geri yüklenirken hata oluştu."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Teyipten yapılan geri gükleme sonrası, sunucu ayarları güncellenirken hata oluştu."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "İş istasyonundan yapılan geri gükleme sonrası, sunucu ayarları güncellenirken hata oluştu."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "Uzaktaki paylaşımı ayırırken hata oluştu"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "Geri yüklenecek klasör ve dosyalar:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "Yedeklemeye alınan dosyalar:"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "Geri yüklenecek yedekleme dosyası"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Filtrelenen"
+
+msgid "bac_FINISHED_AT"
+msgstr "bitiş zamanı:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Sunucunuzda yaklaşık olarak $tmpfree boş alan bulunuyor. Geri yüklenecek masaüstü yedeklemesi boyutunun $halffree daha az olmasına dikkat edin. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Tam yedeklemeye izin veriliyor"
+
+msgid "bac_HOURS"
+msgstr "saat."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Tam yedekleme süresini sınırlama"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Teyibe bant yükleme hatırlatıcısının çalışma zamanı (saat/dak)"
+
+msgid "bac_LOGIN"
+msgstr "Giriş adı"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Geri yükleme işlemi bitince sunucuyu yeniden başlatmak gerekmektedir."
+
+msgid "bac_Mounted disk"
+msgstr "Bağlı"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "Sunucu ayarları ve dosyaları şimdi geri yüklenecek"
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "Sunucu ayarları ve kullanıcı dosyaları şimdi iş istasyonunnun paylaştırılmış klasöründen geri yüklenecek."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "İş istasyonunda yedek kayıtları bulunamadı. Ayarlarınızı kontrol edin."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "Bu kullanıcınn UID numarası bulunamadı:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Yedekleme setinin günlük adedi"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Yedeklemele setinini adedi"
+
+msgid "bac_No suitable local devices found"
+msgstr "Uygun yerel cihaz bulunamadı"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Bu sayfa [_1] saniyede bir kendini yenileyerek ilerleme durumunu gösterir, veya buraya tıklayın. "
+
+msgid "bac_PASSWORD"
+msgstr "Şifre"
+
+msgid "bac_PM"
+msgstr "PM (ÖS)"
+
+msgid "bac_READ_COMPLETE"
+msgstr " Geri yüklemek istediğiniz bütün dosya ve klasörleri listeden seçin (çoklu seçim için ctrl veya shift tuşunu basılı tutun).  Dikkat : Eğer klasör seçerseniz, onun içerdiğiğ tim dosya ve klasörler de geri yüklenecektir. Varsayılan olarak seçilen dosyaların sadece son versiyonu geri yüklenir, fakat belirli bir tarih belirtilirse ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] formatında sadece belitilen tarihten önceki yedekler geri yüklenir. "
+
+msgid "bac_REBOOT"
+msgstr "Yeniden Başlat"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Görünümü yenile"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "Hatırlatma mesajı gönderme zamanı:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Sunucu yapılandırması geri yüklenemiyor"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Geri Yükleme Tamamlandı"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Sistem geri yüklemesi tamamlandı"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Sunucu ayarlarını, teyip yedeklemesinden geri yükle"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>Bu işlem teyip yedeklemesini sunucuya geri yükler. <b>Geri yükleme yeni kurulmuş sisteme uygulanmalıdır.</b>.</p>\n\n  <p>İstenen yedekleme bantını teyibe yerleştirdiğinizden emin olun.</p>\n\n  <p>Geri yükleme tamamlandıktan sonra sunucuyu yeniden başlatmanız gerekmektedir.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Sunucu ayarlarını masaüstü yedeğinden geri yükle"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>Bu işlem sunucu ayarlarını ve kullanıcı dosyalarını masaüstü yedeklemesinden geri yükler. <b>Geri yükleme yeni kurulmuş sisteme uygulanmalıdır</b>.</p>\n\n  <p>Geri yükleme yapmadan önce doğru yedeklemeyi seçtiğinizden emin olun.</p>\n\n  <p>Geri yükleme tamamlandıktan sonra sunucuyu yeniden başlatmanız gerekmektedir.</p>\n\n  Geri yüklenecek yedek : "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Geri yükleme başarısız oldu! Yedekleme dosyası tamamlanmamış."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Geri yükleme başarısız oldu! Yedekleme dosyası okunurken hata oluştu."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Teyipten Geri Yükle"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "İş istasyonundan geri yükle"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Geri yükleme devam ediyor"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Sistem geri yükleniyor. Başlama zamanı:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Geri yükleme işlemi tamamlanınca sunucuyu yeniden başlatmak gerkmektedir. Ekranın alt kısmında \"Geri Yükleme Tamamlandı\" yazısını gödüğünüzde geri yükleme tamamlanmıştır."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Sunucu ayarlarını geri yükle"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Yedeklerin doğruluğu hatalı"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Teyipten Geri Yükleniyor"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "İş istasyonundan geri yükleniyor"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "İşlemi seçin"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Yedekleme dosyasını seçin"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Önce en son yedeklemeyi geri yükle"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Geri yüklenecek dosyaları seçin"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "Yedekleme için paylaşım türünü belirtin"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Sunucuyu yeniden başlat"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Sunucu yeniden başlatılıyor"
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Yedekleme paylaşımı"
+
+msgid "bac_STARTED_AT"
+msgstr "Başlama zamanı:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Teyip yedeklemesi başarıyla devre dışı bırakıldı."
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "İş istasyonu yedeklemesi başarıyla devre dışı bırakıldı."
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Teyip yedeklemesi başarıyla etkinleştirildi"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "İş istasyonu yedeklemesi başarıyla etkinleştirildi"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Bant yedeklemeleri şunlardır"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Günün, teyibe yedek alma saati (saat/dak)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Yedekleme teyibini yapılandır"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Gece yedek almayı etkinleştirmek isterseniz. Teyip yükleme hatırlatıcısının çalıştırılacağı saatleri belirtmelisiniz.</p>\n\n  <p>Teyip sürücüsüne desteklediği bant tipini yerleştirmeniz gerkmektedir. Teyip sürücüsü boş olursa hatırlatıcı, sistem yöneticisini bant yerleştirmesi için uyaracaktır.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Yedeklemeyi teyipten geri yükle"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Yedeklerin doğruluğu test ediliyor"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "Seçilen yedek ile tam geri yükleme yapılabilmesi için bütün yedeklemeleri doğrulanıyor"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Sunucu ayarları geri yüklenemiyor"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Güncelle"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Teyip yedekleme ayarları güncelleniyor"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "İş istasyonu yedekleme ayarları güncelleniyor"
+
+msgid "bac_VERIFY"
+msgstr "Doğrula"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Bu seçenek, daha önce oluşturulmuş masaüstü yedek dosyasındaki tüm dosyaların adlarını görüntüler. Yedek dosyanın içeriğini doğrulamak için bu seçeneği kullanabilirsiniz.</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Doğrulama tamamlandı"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Bu seçenek daha önce oluşturulan masaüstü yedeklemelerinin içeriğini göstermektedir. Bunu yedeklemenin içeriğini teyid etmek için kullanabilirsiniz.<b>Doğrulamak istediğiniz yedeklemeyi seçebilirsiniz</b></p>\n\n  <p>Sadece ~[Kaydedildi~] diye işaretlenen dosyalar yedekte yer almaktadır.</p>\n\n  <br/>Yedek dosyaları paylaşılan bu klasörden kontrol edilecektir : "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "İş istasyonu yedeğini doğrula"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "yedekleme zamanı:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "teyibi yerleştirmek için hatırlatma zamanı:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "İş istasyonu yedeklemesi düzenli olarak bu saate gerçekleşecektir:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "İş istasyonu yedekleme arlarını kaydet"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "İş istasyonu yedekleme ayarı oluştur veya değiştir"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "İş istasyonu yedeklemeleri şunlardır"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "Yedekleme sıkıştırma oranı (0-9)"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "Günlük yedekleme setlerinin sayısı"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>Bu sayfa mevcut iş istasyonu yedekleme ayarlarını gösterir. Bu ayarları buradan veya sonraki sayfadan değiştirilebilir.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Yedekleme"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "Yedekleme ağdaki iş istasyonuna yapıldı"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "tam yedekleme 24 saat sonra zaman aşımına uğramaya ayarlandı"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "Yedekleme yerel USB diske yapıldı"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>İş istasyonu yedeklemesi, hala ayarlı değil. Bu ayarları buradan veya sonraki sayfadan değiştirilebilir.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "Yedekleme setlerinin sayısı"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "İş istasyonu Yedekeleme Ayarları"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "Yedekleme için paylaştırılmış klasör hedefi"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "İş istasyonu yedekleme zamanı (saat/dak)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "Günlük yedekleme zaman aşımı"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Günlük yedekleme saati"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "Yedekleme yerel USB diske yapıldı"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "ile"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "İş istasyonu yedeklemesi ayarları"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "Tam yedekleme (yeni yedek seti) zamanı"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "Tam yedekleme (yeni yedek seti) her gün için ayarlandı"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Giriş adı"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "İş istasyonu IP veya alan adı"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "Öncelikle iş istasyonu yedeklemesini doğru yapılandırmalısınız"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "İş istasyonundan geri yükle"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "İş istasyonundan seçimli geri yükleme"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "İş istasyonundan seçimli geri yükleme"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " Bu işlem belirli dosya ve klasörleri geri yükler. Önce geri yüklenecek yedeği seçmelisiniz. İstediğiniz dosyanın hangi yedekte bulunduğunu bilmiyorsanız 'Bütün yedeklemeler' seçeneğini işaretleyebilirsiniz.  Sonraki panel dosya ve klasör isimlerini size gösterecektir, geri yüklemek istediğinizi seçiniz. Gösterilecek dosya ve klasör sayısını kısıtlamak için, sonuçlara ifade filtreleme yapabilirsiniz, gösterilecek isimler düzenli ifaderle sınırlandırılabilir . Suncunuzun çalışmasını bozacak dosyaları geri yükleme sorumluluğu sizdedir. Geri yüklenecek, dosyaların yeri : "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "İsteğe bağlı yedekleme zaman limiti (saat)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "İş istasyonu yedeğini doğrula"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X Yedekle veya geri yükle"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "Geri yükleme sonucu oluşan değişiklikleri etkinleştirmek için, sistemin yeniden başlatılması gerekiyor."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "Yedekleme yerel USB diske yapıldı"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>Sunucunuz iki şekilde yedek alma ve geri yüklemeyi sağlar: yerel masaüstünüzü veya teyip sürücüsünü kullanarak.</p>\n\n  <p>İlk yöntem ayar ve kullanıcı dosyalarınızın yedeğini oluşturup, web gezginiyle masaüstünüze kaydetmeyi sağlar. Mevcut ayar ve kullanıcı dosyalarınız yaklaşık olarak <b>[_3]</b> yer kaplar. Yedekleme dosyası bundan daha az yer kaplar, ne kadar sıkıştırıldığına bağlı. \\\"Masaüstü yedeklemesini doğrula\\\" seçeneği masaüstünüze yüklenen yedeğin içeriğini bütünlüğünü doğrular.</p>\n\n  <p>Teyip yedeklemesi ise <i>[_1]</i> programını kullanarak sunucunuzun yedeğini her gece teybe kaydetmek için kullanır . Bu işlem için tanımlanan bir teyip sürücüsü ve yazılabilir bir kaset gerekir. Yedekleme belirtilen saatte her gece otomatik olarak yapılır (hatırlatıcı kullanılırsa her gün yöneticiye hatırlatma e-postası gönderilir). Diskinizdeki mevcut veri iktarı <b>[_2]</b> .</p>\n\n  <p>Her iki geri yükleme yöntemi hem sunucu ayarlarını hem de kullanıcı dosyalarını geri yüklemeyi sağlar. <b>En iyisi, geri yükleme işlemi yeni kurulum yapılmış sunucuda yapmaktır</b>.</p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "Yedek oluştur veya geri yükle"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Teyip yedeklemesi devredışı "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Teyip yedeklemesi etkin. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " İş istasonu yedeklemesi devre dışı "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " İş istasonu yedeklemesi etkin. "

@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Reboot module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+
+msgid "Reboot or shutdown"
+msgstr "(en) Reboot or shutdown"
+
+msgid "rbo_DESCRIPTION"
+msgstr " Du kan restarte , slå av serveren, eller sette i gang en ful rekonfigurasjon fra dette vinduet. Du må utføre avsluttningsprosedyren før du slår av strømmen. Alle disse funksjonene vil ta flere minutter å fullføre. Når du trykker utfør vil valget bli satt i gang umiddelbart, så vær klar! "
+
+msgid "rbo_DESC_REBOOT"
+msgstr "Serveren har satt i gang restart prosessen"
+
+msgid "rbo_DESC_RECONFIGURE"
+msgstr "Serveren har satt i gang en full system rekonfigurasjon og restart."
+
+msgid "rbo_DESC_SHUTDOWN"
+msgstr "Serveren har satt i gang avsluttnings prosessen. Prosessen vil ta flere minutter. etter det kan du slå av strømmen."
+
+msgid "rbo_FORM_TITLE"
+msgstr "Slå av eller restart"
+
+msgid "rbo_LABEL_REBOOT"
+msgstr "Velg Slå av,Restart, eller Rekonfigurere"
+
+msgid "rbo_REBOOT"
+msgstr "Restart"
+
+msgid "rbo_REBOOT_SUCCEEDED"
+msgstr "Restart forespørsel satt i gang "
+
+msgid "rbo_RECONFIGURE_SUCCEEDED"
+msgstr "Rekonfigurasjon forespørsel satt i gang"
+
+msgid "rbo_SHUTDOWN_SUCCEEDED"
+msgstr "(en) Shutdown request initiated successfully."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rbo_Reboot or shutdown"
+#~ msgstr "Restart, eller avslutt"

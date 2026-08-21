@@ -2,8 +2,8 @@
 'dom_FORM_DESCRIPTION' => ' Κατά τη δημιουργία ενός τομέα, ο διακομιστής σας θα μπορεί να λαμβάνει ηλεκτρονική αλληλογραφία και επίσης να φιλοξενεί ιστοτόπους για τον τομέα αυτό.
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Προσθήκη τομέα</a> ',
-'dom_NO_VIRTUAL_DOMAINS' => 'Δεν υπάρχουν τομείς στο σύστημα.',
-'dom_CURRENT_LIST_OF_DOMAINS' => 'Τρέχουσα λίστα τομέων',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_NO_VIRTUAL_DOMAINS' => 'Δεν υπάρχουν τομείς στο σύστημα.',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_CURRENT_LIST_OF_DOMAINS' => 'Τρέχουσα λίστα τομέων',
 'dom_PRIMARY_SITE' => 'πρωτεύων τόπος',
 'dom_CONTENT' => '[_1] i-bay',
 'dom_CREATE_TITLE' => 'Δημιουργία νέου τομέα',
@@ -25,9 +25,9 @@
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Σφάλμα: εσωτερική αστοχία κατά την διαγραφή του τομέα [_1].',
 'dom_SUCCESSFULLY_DELETED' => 'Επιτυχής διαγραφή τομέα [_1]. Ο διακομιστής ιστοσελίδων σας εκτελεί επανεκκίνηση. Οι σύνδεσμοι στην παρούσα σελίδα θα παραμείνουν ανενεργοί έως ότου ολοκληρωθεί η επανεκκίνηση.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' Ρυθμίσεις Εταιρικού Διακομιστή DNS ',
-'dom_BUTTON_CORPORATE_DNS' => ' Εάν ο συγκεκριμένος διακομιστής δεν έχει πρόσβαση στο Διαδίκτυο ή έχετε ειδικές απαιτήσεις για την επίλυση της ονομασίας DNS, πληκτρολογήστε την IP διεύθυνση του διακομιστή εδώ. Δεν πρέπει να πληκτρολογήσετε την διεύθυνση του διακομιστή DNS του παρόχου συνδεσιμότητας διαδικτύου (ISP), μιας και ο διακομιστής είναι ικανός να επιλύει όλες τις διαδικτυακές ονομασίες DNS χωρίς αυτήν την πρόσθετη ρύθμιση παραμέτρων συστήματος. 
-
-  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Τροποποίηση ρυθμίσεων εταιρικού DNS</a> ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_BUTTON_CORPORATE_DNS' => ' Εάν ο συγκεκριμένος διακομιστής δεν έχει πρόσβαση στο Διαδίκτυο ή έχετε ειδικές απαιτήσεις για την επίλυση της ονομασίας DNS, πληκτρολογήστε την IP διεύθυνση του διακομιστή εδώ. Δεν πρέπει να πληκτρολογήσετε την διεύθυνση του διακομιστή DNS του παρόχου συνδεσιμότητας διαδικτύου (ISP), μιας και ο διακομιστής είναι ικανός να επιλύει όλες τις διαδικτυακές ονομασίες DNS χωρίς αυτήν την πρόσθετη ρύθμιση παραμέτρων συστήματος. 
+#
+#  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Τροποποίηση ρυθμίσεων εταιρικού DNS</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Εάν ο συγκεκριμένος διακομιστής δεν έχει πρόσβαση στο διαδίκτυο ή έχετε ειδικές απαιτήσεις για την επίλυση της ονομασίας DNS, πληκτρολογήστε την IP διεύθυνση του διακομιστή εδώ. Τα πεδία αυτά θα πρέπει να παραμείνουν κενά εκτός αν έχετε κάποιον ειδικό λόγο να ορίσετε άλλους διακομιστές DNS. Δεν πρέπει να πληκτρολογήσετε την διεύθυνση του διακομιστή DNS του παρόχου σας συνδεσιμότητας διαδικτύου (ISP) μιας και ο διακομιστής είναι ικανός να επιλύει όλες τις διαδικτυακές ονομασίες DNS χωρίς αυτήν την πρόσθετη ρύθμιση παραμέτρων συστήματος.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Πρωτεύων εταιρικός διακομιστής DNS',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Δευτερεύων εταιρικός διακομιστής DNS',
@@ -36,8 +36,8 @@
 'dom_localhost' => 'Επίλυση ονόματος τοπικά',
 'dom_internet' => 'Διαδικτυακοί διακομιστές DNS',
 'dom_corporate' => 'Εταιρικός διακομιστής DNS',
-'dom_REMOVE_DESC' => 'Πρόκειται να αφαιρέσετε τον εκτυπωτή:',
-'dom_REMOVE_DESC2' => 'Είστε σίγουροι ότι επιθυμείτε να αφαιρέσετε το συγκεκριμένο εκτυπωτή;',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC' => 'Πρόκειται να αφαιρέσετε τον εκτυπωτή:',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC2' => 'Είστε σίγουροι ότι επιθυμείτε να αφαιρέσετε το συγκεκριμένο εκτυπωτή;',
 'dom_ADD_DOMAIN' => 'Προσθήκη τομέα',
 'dom_CURRENT_DOMAINS' => 'Τρέχουσα λίστα τομέων',
 'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',

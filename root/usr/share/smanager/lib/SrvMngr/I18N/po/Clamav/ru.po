@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Clamav module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "clm_DAILY"
+msgstr "Ежедневно"
+
+msgid "clm_DESC_FILESYSTEM_SCAN_PERIOD"
+msgstr " Основные настройки Если эта опция включена файловая система будет проверятся на вирусы. Отчёт о найденных вирусах будет отправлен администратору по электронной почте."
+
+msgid "clm_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "clm_FORM_TITLE"
+msgstr "Настройки антивируса"
+
+msgid "clm_LABEL_CLAM_VERSIONS"
+msgstr "Версии ClamAV и db"
+
+msgid "clm_LABEL_FILESYSTEM_SCAN_PERIOD"
+msgstr "Сканировать файловую систему"
+
+msgid "clm_LABEL_QUARANTINE"
+msgstr "Помещать зараженные файлы на карантин"
+
+msgid "clm_NEVER"
+msgstr "Никогда"
+
+msgid "clm_SUCCESS"
+msgstr "Новые настройки антивируса clamav сохранены."
+
+msgid "clm_WEEKLY"
+msgstr "Еженедельно"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "clm_Antivirus (ClamAV)"
+#~ msgstr "Антивирус (ClamAV)"

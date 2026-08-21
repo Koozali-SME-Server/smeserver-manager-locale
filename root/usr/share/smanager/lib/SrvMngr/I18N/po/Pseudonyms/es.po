@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Pseudonyms module\n"
+"POT-Creation-Date: 2026-08-21 11:09+0100\n"
+"PO-Revision-Date: 2026-08-21 11:09+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "Pseudonyms"
+msgstr "Seudónimos"
+
+msgid "pse_ABOUT_TO_REMOVE"
+msgstr " Esta usted a punto de eliminar el seudónimo: ¿Está seguro de que desea continuar? "
+
+msgid "pse_ACCOUNT_PSEUDONYM_NONE"
+msgstr "(en) No Pseudonyms found for this account"
+
+msgid "pse_CLICK_TO_CREATE"
+msgstr "Agregar seudónimo"
+
+msgid "pse_CREATE_SUCCEEDED"
+msgstr "Seudónimo creado con éxito"
+
+msgid "pse_CURRENT_PSEUDONYMS"
+msgstr "Lista Actual de Seudónimos"
+
+msgid "pse_DESCRIPTION"
+msgstr " El servidor crea automáticamente un alias de e-mail para cada grupo. Si quiere definir un alias de e-mail para una lista de usuarios, simplemente cree un grupo y el servidor mantendrá la lista automáticamente.\n\n  <p>Los seudónimos le permiten crear otros nombres para usuarios o grupos existentes. Por ejemplo, usted desea crear un seudónimo \"webmaster\" para el grupo \"webdevelopers\" o un seudónimo \"beto\" para el usuario \"alberto\".</p>\n\n  <p>El servidor crea automáticamente seudónimos en la forma nombre.apellido y nombre_apellido para cada usuario en el sistema y un seudónimo \"everyone\" que contiene a todos los usuarios del sistema.</p>\n\n  <p>Los seudónimos también le permitirán crear un alias de e-mail para los dominios (virtuales) y usuarios. Por ejemplo puede redirigir \"ventas@dominiovirtual1.com\" al usuario \"maria\" y \"ventas@dominiovirtual2.com\" al usuario \"juan\". Usted debe crear los dominios y cuentas de usuarios antes de crear los alias de e-mail.</p>\n\n  <p>Los seudónimos también pueden ser redirigidos a otros seudónimos, aunque esto es limitado a un solo nivel más. Por ejemplo el seudónimo \"webmaster\" puede redirigirse al seudónimo \"techsupport\" el cual luego es redirigido a un usuario específico \"pablo\". Esto es de suma utilidad cuando un usuario es responsable de múltiples roles y ahorra de tener que cambiar el seudónimo asociado con ese usuario muchas veces en el caso de que el usuario no pertenezca mas a la organización.</p>\n\n  <p>Usted puede modificar o eliminar un seudónimo al hacer click sobre el correspondiente comando seguido al seudónimo.</p>\n\n  "
+
+msgid "pse_DESC_PSEUDONYM_NAME"
+msgstr "Seleccione una cuenta o un grupo existente para el seudónimo desde el menú desplegable inferior"
+
+msgid "pse_EVERYONE"
+msgstr "Todos"
+
+msgid "pse_FORM_TITLE"
+msgstr "Crear, modificar, o eliminar seudónimos"
+
+msgid "pse_LOCAL_ONLY"
+msgstr "(sólo red local)"
+
+msgid "pse_MODIFY_PSEUDONYM"
+msgstr "Modificar Seudónimo"
+
+msgid "pse_MODIFY_SUCCEEDED"
+msgstr "Seudónimo modificado con éxito"
+
+msgid "pse_NAME_IN_USE"
+msgstr "Error: Este nombre está ocupado No puede crear un seudónimo con ese nombre."
+
+msgid "pse_NOT_A_PSEUDONYM"
+msgstr "Esa cuenta no es un seudónimo"
+
+msgid "pse_PSEUDONYM"
+msgstr "Seudónimo"
+
+msgid "pse_PSEUDONYM_INVALID_DOMAIN"
+msgstr "Ese dominio no está alojado en este servidor"
+
+msgid "pse_PSEUDONYM_INVALID_SAMEACCT"
+msgstr "Un seudónimo no puede apuntar a la misma cuenta"
+
+msgid "pse_PSEUDONYM_NAME"
+msgstr "Nombre de seudónimo"
+
+msgid "pse_REMOVE_PSEUDONYM"
+msgstr "Eliminar seudónimo"
+
+msgid "pse_REMOVE_SUCCEEDED"
+msgstr "Seudónimo eliminado con éxito"
+
+msgid "pse_SELECT_ACCOUNT"
+msgstr "Seleccionar cuenta o grupo"
+
+msgid "pse_SELECT_INTERNAL"
+msgstr "Sólo red local"
+
+msgid "pse_TITLE_CREATE"
+msgstr "Crear un seudónimo"
+
+msgid "pse_USER_OR_GROUP"
+msgstr "Usuario o grupo"
+
+msgid "pse_VALID_PSEUDONYM_NAMES"
+msgstr " El seudónimo debe contener sólo letras minúsculas, números, puntos, guiones y guiones bajos y debe comenzar con una letra minúscula o con un número. Por ejemplo, \"ventas\", \"juan.arancibia\", \"123\" y \"administrador-correo-electrónico\" son seudónimos válidos, pero \"Juan Arancibia\" y \"Enrique Morales\" no lo son. Puede también crear un alias de e-mail para cuentas y dominios (virtuales) que sean válidos en este servidor. Por ejemplo \"fred@virtualdomain.com\" puede redirigirse a \"mary\" (u otra cuenta de usuario válida). "

@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+
+msgid "ACCESS"
+msgstr "Toegang"
+
+msgid "ACCOUNT"
+msgstr "Account"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "Er zijn geen gebruikersgroepen op dit systeem."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "De account is vergrendeld"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "De ingegeven accountnaam is ongeldig."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "De ingegeven accountnaam bevat ongeldige tekens."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Account wachtwoord wijzigen"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "Er zijn geen gebruikeraccounts op dit systeem."
+
+msgid "ACTION"
+msgstr "Actie"
+
+msgid "ADD"
+msgstr "Toevoegen"
+
+msgid "APRIL"
+msgstr "April"
+
+msgid "AUGUST"
+msgstr "Augustus"
+
+msgid "Administration"
+msgstr "Beheer"
+
+msgid "All rights reserved"
+msgstr "Alle rechten voorbehouden"
+
+msgid "BACK"
+msgstr "Terug"
+
+msgid "BACKUP"
+msgstr "Veilig stellen"
+
+msgid "CANCEL"
+msgstr "Annuleer"
+
+msgid "COMMENT"
+msgstr "Commentaar"
+
+msgid "CONTENT"
+msgstr "Inhoud"
+
+msgid "CREATE"
+msgstr "Toevoegen"
+
+msgid "CREATE_GROUP"
+msgstr "Gebruikersgroep toevoegen"
+
+msgid "Collaboration"
+msgstr "Samenwerken"
+
+msgid "Configuration"
+msgstr "Configuratie"
+
+msgid "DECEMBER"
+msgstr "December"
+
+msgid "DESCRIPTION"
+msgstr "Beschrijving"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Korte beschrijving"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "Bestemming"
+
+msgid "DISABLED"
+msgstr "Inactief"
+
+msgid "DOMAIN"
+msgstr "Domein"
+
+msgid "DOMAINS"
+msgstr "Domeinen"
+
+msgid "DOMAIN_NAME"
+msgstr "Domeinnaam"
+
+msgid "DOWNLOAD"
+msgstr "Ophalen"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Actief"
+
+msgid "END_OF_REPORT"
+msgstr "Einde van het rapport"
+
+msgid "ERROR_BELOW"
+msgstr "FOUT: Er is een fout opgetreden in de validatie van deze pagina. Blader naar onderen om het specifieke probleem te vinden."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Onverwachte tekens in de beschrijving."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Er is een fout opgetreden tijdens het wijzigen van uw wachtwoord. Zorg er voor dat uw huidige wachtwoord correct is ingevoerd."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Er is een fout opgetreden bij het wijzigen van de systeemconfiguratie."
+
+msgid "FEBRUARY"
+msgstr "Februari"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Fout: onverwachte of ontbrekende tekens in de beschrijving"
+
+msgid "FM_IP_NUMBER1"
+msgstr "Dit veld moet een geldig IP nummer bevatten en kan niet leeg worden gelaten."
+
+msgid "FM_IP_NUMBER2"
+msgstr "Ongeldig IP adres (geldig formaat X.X.X.X)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] is meer dan 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "U moet een MAC adres opgeven."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "Het MAC adres dat u opgaf is niet geldig."
+
+msgid "FM_NONBLANK"
+msgstr "Dit veld mag niet leeg worden gelaten"
+
+msgid "FRIDAY"
+msgstr "Vrijdag"
+
+msgid "GROUP"
+msgstr "Groep"
+
+msgid "GROUPS"
+msgstr "Groepen"
+
+msgid "GROUP_ADD"
+msgstr "Groep toevoegen"
+
+msgid "GROUP_MEMBERS"
+msgstr "Groepsleden"
+
+msgid "GROUP_NAME"
+msgstr "Groepsnaam"
+
+msgid "IP_ADDRESS"
+msgstr "IP adres"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "IP adres of FQDN"
+
+msgid "JANUARY"
+msgstr "Januari"
+
+msgid "JULY"
+msgstr "Juli"
+
+msgid "JUNE"
+msgstr "Juni"
+
+msgid "LOCAL"
+msgstr "Lokaal"
+
+msgid "LOCATION"
+msgstr "Locatie"
+
+msgid "MARCH"
+msgstr "Maart"
+
+msgid "MAY"
+msgstr "Mei"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "MODIFY"
+msgstr "Wijzigen"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Gebruikersgroep wijzigen"
+
+msgid "MONDAY"
+msgstr "Maandag"
+
+msgid "Miscellaneous"
+msgstr "Diversen"
+
+msgid "NAME"
+msgstr "Naam"
+
+msgid "NETWORK"
+msgstr "Netwerk"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Alleen toegang accepteren vanaf lokale netwerken"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Publieke toegang toestaan (volledig internet)"
+
+msgid "NEXT"
+msgstr "Volgende"
+
+msgid "NO"
+msgstr "Nee"
+
+msgid "NOVEMBER"
+msgstr "November"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "Pijplijn symbolen (|) zijn niet toegestaan in dit veld"
+
+msgid "OCTOBER"
+msgstr "Oktober"
+
+msgid "OFF"
+msgstr "Uit"
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "ON"
+msgstr "Aan"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Operationeel status rapport"
+
+msgid "PASSWORD"
+msgstr "Wachtwoord"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Wachtwoord wijzigen"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Uw wachtwoord is met succes gewijzigd."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "Het ingegeven wachtwoord bevat ongeldige tekens."
+
+msgid "PASSWORD_NEW"
+msgstr "Nieuw wachtwoord:"
+
+msgid "PASSWORD_OLD"
+msgstr "Huidig wachtwoord:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "Het ingegeven huidige wachtwoord bevat ongeldige tekens."
+
+msgid "PASSWORD_RESET"
+msgstr "Wachtwoord wijzigen"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "De ingegeven wachtwoorden komen niet overeen."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Nieuw wachtwoord (verificatie):"
+
+msgid "PERFORM"
+msgstr "Uitvoeren"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Herconfigureren"
+
+msgid "REMOTE"
+msgstr "Elders"
+
+msgid "REMOVE"
+msgstr "Verwijderen"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Gebruikersgroep verwijderen"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Gebruikerswachtwoord opnieuw instellen"
+
+msgid "RESTORE"
+msgstr "Herstellen"
+
+msgid "ROUTER"
+msgstr "Router"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Zaterdag"
+
+msgid "SAVE"
+msgstr "Opslaan"
+
+msgid "SELF"
+msgstr "Zelf"
+
+msgid "SEPTEMBER"
+msgstr "September"
+
+msgid "SHUTDOWN"
+msgstr "Afsluiten"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Succes"
+
+msgid "SUNDAY"
+msgstr "Zondag"
+
+msgid "Security"
+msgstr "Beveiliging"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Donderdag"
+
+msgid "TUESDAY"
+msgstr "Dinsdag"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Ongeldige gebruiker"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Huidige lijst met gebruikers"
+
+msgid "USER_NAME"
+msgstr "Gebruikersnaam"
+
+msgid "User password"
+msgstr "Gebruikerswachtwoord"
+
+msgid "WEDNESDAY"
+msgstr "Woensdag"
+
+msgid "YES"
+msgstr "Ja"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Uw account:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "De ingegeven accountnaam is ongeldig."
+
+msgid "Your Settings"
+msgstr "Uw instellingen"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Annuleren"
+
+msgid "del"
+msgstr "verwijderen"
+
+msgid "edit"
+msgstr "bewerken"
+
+msgid "exit"
+msgstr "Afsluiten"
+
+msgid "hello"
+msgstr "hallo"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

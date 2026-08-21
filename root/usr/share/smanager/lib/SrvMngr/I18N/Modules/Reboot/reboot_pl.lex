@@ -7,4 +7,4 @@
 'rbo_DESC_SHUTDOWN' => 'Twój serwer jest w trakcie procesu zamykania systemu. Proces ten może potrwać parę minut, potem możesz wyłączyć zasilanie.',
 'rbo_LABEL_REBOOT' => 'Wybierz: wyłączenie, ponowne uruchomienie lub rekonfiguracja',
 'rbo_DESCRIPTION' => ' W tym miejscu możesz zdalnie wyłączyć, uruchomić ponownie lub skonfigurować ponownie serwer.Musisz wyłączyć komputer z tego miejsca, zanim odłączysz zasilanie. Wszystkie z podanych zadań mogą potrwać minutę lub dłużej. Gdy naciśniesz przycisk wykonaj , żądana operacja zostanie wykonana. ',
-'rbo_Reboot or shutdown' => 'Wyłącz lub uruchom ponownie',
+# ORPHANED (no longer in reboot_en.lex; kept for reference, commented out by lex-to-po.pl): 'rbo_Reboot or shutdown' => 'Wyłącz lub uruchom ponownie',

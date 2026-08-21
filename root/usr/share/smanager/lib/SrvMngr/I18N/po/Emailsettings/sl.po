@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "Nastavitve dostopa do e-pošte so bile uspešno shranjene"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Poljubna"
+
+msgid "mai_DEFAULT"
+msgstr "Privzeto"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "Nastavitve dostave e-pošte so bile uspešno shranjene"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Blokirate lahko izvrsljive datoteke v priponkah tako, da oznacite tipe izvrsljivih datotek, ki jih zelite prepreciti. E-maili s taksnimi sporocili bodo samodejno vrnjeni k posiljatelju."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Privzeti mail streznik Vas streznik vsebuje kompleten, e-mail streznik z vsemi funkcijami, vendar ce bi vseeno iz katerega koli razloga zeleli procesiranje e-poste preusmeriti na drugi streznik, navedite tukaj IP naslov privzetega mail streznika. za normalno uporabo pustite to polje prazno. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "Za ETRN ali multi-drop lahko izberete kako pogosto bo vas streznik vzpostavil povezavo z vasim sekundarnim streznikom in iz njega povlece e-mail. Pogostejse povezovanje pomeni, da boste e-mail prejemali pogosteje, vendar bodo pogostejse povezave z Internetnim ponudnikom povisale stroske povezave."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "IMAP dostop lahko kontrolirate. Nastavitev 'Dovoli privaten' (priporocljiva nastavitev), bo IMAP dostop omogocen samo iz lokalnega omrezja. Za zunanji dostop do streznika lahko uporabite IMAPS, ki je kodiran."
+
+msgid "mai_DESC_MODE"
+msgstr "Nacin E-mail prevzemanja je lahko nastavljen na: Standardno (za stalne Internetne povezave), ETRN (za povezave na klic), ali multi-drop (za klicne povezave, ce ETRN ni podprto s strani Internetnega ponudnika). OPOMBA: multi-drop nacin je edina opcija, ki je na voljo, ko streznik deluje v nacinu: izolirani streznik in prehod."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "POP3 dostop lahko kontrolirate. Nastavitev 'Dovoli privaten' (priporocljiva nastavitev), bo POP3 dostop omogocen samo iz lokalnega omrezja. Za zunanji dostop do streznika lahko uporabite POP3S, ki je kodiran."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " ETRN ali multi-drop nastavitve Za ETRN ali multi-drop, morate navesti ime streznika ali njegov IP naslov. (Ce uporabljate standardne e-mail nastavitve, lahko to polje ostane prazno.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr "Streznik lahko poslje izhodna sporocila direktno na njihov naslov (priporocena nastavitev) ali jih poslje s posredovanjem SMTP streznika ponudnika vasega Internetnega ponudnika (priporocamo, ce je vasa internetna povezava nezanesljiva). V tem primeru boste morali spodaj vpisati ime streznika ali njegov IP naslov, sicer pustite to polje prazno."
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires all users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "E-mail lahko preičete če vsebuje spam. Ce je spam filtriranje omogoceno, doda streznik v glavo sporocila vrstico: X-Spam-Status, ki jo nato uporabimo za filtriranje spam-a. Obcutljivost spam filtra lahko nastavljamo med privzeto in srednjo. Ce zelimo nastavitev natancneje definirati, imamo moznost izbirate nivoja pri katerem bo streznik zavrnil sporocilo, kot spam."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "(en)You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " Spremeni dostop do e-mail(a) "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " Spremeni dostavo e-mail(a) "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " Spremeni filtriranje e-mail(a) "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " Spremeni nastavitve sprejemanja "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Definirajte, kaj naj streznik naredi s sporocili poslanimi nepoznanim uporabnikom. Izberite vrni posiljatelju (priporoceno) da vrne sporocilo posiljatelju z porocilom o napaki. Izberite Poslji k ... in sporocilo bo poslano k temu uporabniku. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "E-mail lahko preiscete ce vsebuje virus in ga nato zavrnete ali posljete v karanteno."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "Uporabo Webmail-a na tem sistemu lahko omogocite ali onemogocite. Webmail omogoca uporabnikom branje elektronske poste z navadnim spletnim brskalnikom in sicer na naslovu https://[_1]/webmail in vpisom svojega uporabniskega imena in gesla."
+
+msgid "mai_E-Mail"
+msgstr "E-pošta"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "Dovoli samo HTTPS (varno)"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP z zahtevo odjemalca)"
+
+msgid "mai_EVERY15MIN"
+msgstr "vsakih 15 minut"
+
+msgid "mai_EVERY2HRS"
+msgstr "Vsaki 2 uri"
+
+msgid "mai_EVERY30MIN"
+msgstr "vsakih 30 minut"
+
+msgid "mai_EVERY5MIN"
+msgstr "vsakih 5 minut"
+
+msgid "mai_EVERYHOUR"
+msgstr "Vsako uro"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "Nastavitve filtriranja e-pošte so bile uspešno shranjene"
+
+msgid "mai_FORWARD_TO"
+msgstr "Poslji na"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "Poslji administratorju"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Visoka"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "Dovoli oba IMAP in IMAPS"
+
+msgid "mai_INSECURE_POP3"
+msgstr "Dovoli oboje POP3 in POP3S"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "Ime racunalnika, ki ste ga vnesli ni veljavno ali pa ni prazno."
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Izvrsi blokiranje vsebine"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Vsebina, ki naj bo blokirana"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Naslov internega postnega streznika"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "Med delavnim casom (od 8:00 do 18:00) med tednom"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "Izven delavnega casa (od 18:00 do 8:00) med tednom"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "Konec tedna"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "IMAP dostop do streznika"
+
+msgid "mai_LABEL_MODE"
+msgstr "Nacin E-mail prevzemanja"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "POP3 dostop do streznika"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "POP uporabnik (za multi-drop)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "POP uporabnik in geslo (za multi-drop)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "Sekundarni mail streznik"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "Naslov mail streznika ponudnika Internetnega dostopa"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Geslo za mail streznik"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "SMTP avtentikacija za ISP"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "Uporabnisko ime za uporabnika"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Premekni spam v junkmail mapo"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "Izberite sortiranje z headerjem (za multi-drop)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Izberite metodo sortiranja (za multi-drop)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Nivo za zavrnitev sporocila"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Spam filtriranje"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Obcutljivost za spam"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "Predpona zadeve za SPAM"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "Spremeni zadevo sporocil oznacenih za spam"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Nivo po zelji"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "E-mail nepoznanim uporabnikom"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Ciscenje virusov"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Dostop do Webmail-a"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Nizka"
+
+msgid "mai_MEDIUM"
+msgstr "Srednja"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "nikoli"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "Dovoli dostop samo s strani lokalnega omrezja"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "Nastavitve prejemanja e-pošte so bile uspešno shranjene"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Vrni posiljatelju"
+
+msgid "mai_SECURE_IMAP"
+msgstr "Dovoli privaten in javen dosrop (varen IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "Dovoli privaten in jeven dostop (varen POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "Dovoli SSMTP (varen)"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Spodnje nastavitve"
+
+msgid "mai_STANDARD"
+msgstr "Standardno (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "Stanje vrat za oddajo %u:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Delegirani poštni strežniki"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "Nastavitve ETRN ali večtočkovne dostave"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "Strežnik SMTP"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Neznani uporabniki"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "To polje ne smete pustiti prazno, ce ste omogocili SMTP avtentikacijo."
+
+msgid "mai_VERYHIGH"
+msgstr "Zelo visoka"
+
+msgid "mai_VERYLOW"
+msgstr "Zelo nizka"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Dovoli zasebno"
+#~ msgid "mai_AUTO"
+#~ msgstr "Samodejno"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "Za multi-drop navedite POP uporabniski racun in geslo. (Ce uporabljate standard ali ETRN, pustite ta polja prazna.) Za multi-drop lahko uporabite tudi metodo privzetega sortiranja poste, ali navedete zeljeno glavo sporocila (message header) za sortiranje."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " E-mail dostop "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " Dostava E-mail(a) "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " Sprejemanje E-mail(a) "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Dovoli oboje HTTP in HTTPS"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "E-posta"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "Dovoli oba SMTP in SSMTP"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Protokol (za multi-drop)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Tunel cez SSL (za multi-drop)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "SMTP avtentikacija"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "Nove e-mail nastavitve so bile shanjene."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "To polje lahko vsebuje samo crke, stevilke, pike, pomisljaje in podpicja, ter se zacnejo s crko."

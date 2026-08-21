@@ -12,8 +12,8 @@
   <p> För att genomföra en administrativ åtgärd på systemet, klicka på en av länkarna i menyn till vänster. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Välkommen till SME Server. Denna mjukvara kommer med ABSOLUT INGEN GARANTI. <a href="/smanager/support" target="main">Klicka här</a> för att se detaljerad information om support, garanti och licensvillkor. 
-
-  <p> <a href="/server-manager/noframes">Klicka här</a> för en lista över administratörsfunktioner. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Välkommen till SME Server. Denna mjukvara kommer med ABSOLUT INGEN GARANTI. <a href="/smanager/support" target="main">Klicka här</a> för att se detaljerad information om support, garanti och licensvillkor. 
+#
+#  <p> <a href="/server-manager/noframes">Klicka här</a> för en lista över administratörsfunktioner. </p>
+#
+#  ',

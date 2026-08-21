@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Printers module\n"
+"POT-Creation-Date: 2026-08-21 10:21+0100\n"
+"PO-Revision-Date: 2026-08-21 10:21+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+
+msgid "Printers"
+msgstr "Skrivere"
+
+msgid "prt_ABOUT_TO_REMOVE"
+msgstr "Du er i ferd med å fjerne skriveren:"
+
+msgid "prt_ARE_YOU_SURE"
+msgstr "Er du sikker på at du vil slette skriveren?"
+
+msgid "prt_CREATED_SUCCESSFULLY"
+msgstr "Skriveren er opprettet:"
+
+msgid "prt_CREATE_NETWORK_DESC"
+msgstr "Skriv inn adressen og navnet til nettverksskriveren"
+
+msgid "prt_CREATE_NETWORK_PRINTER"
+msgstr "Opprett en ny nettverksskriver"
+
+msgid "prt_CREATE_NEW_DESC"
+msgstr "Velg et unikt navn på skriveren, og oppgi en kort beskrivelse. Skrivernavnet kan bare bestå av små bokstaver og tall, og må starte med en liten bokstav. f.eks. er \"hplaser\", \"epsonlp\" og \"canonbj\" gyldige navn, mens \"HP Laser Jet\", Canon BubbleJet\" og \"HP Jetdirect Printer\" ikke er det. unngå navn og beskrivelser som inneholder følgende uttrykk, \"offline\", \"disabled\", \"down\", \"off\", \"waiting\", \"jam\", \"paper\", \"error\" og \"responding\". tilsvarende ord på andre språk bør også unngås."
+
+msgid "prt_CREATE_NEW_PRINTER"
+msgstr "Opprett en ny skriver"
+
+msgid "prt_CURRENT_LIST"
+msgstr "Gjeldende liste over skrivere"
+
+msgid "prt_DELETED_SUCCESSFULLY"
+msgstr "Skriveren er fjernet:"
+
+msgid "prt_ERR_EXISTS"
+msgstr "Feil: en konto med det samme navnet eksisterer med type:"
+
+msgid "prt_ERR_INTERNAL_FAILURE"
+msgstr "Feil: Intern feil under fjerning av skriveren."
+
+msgid "prt_ERR_INVALID_ADDRESS"
+msgstr "Feil: ugyldig nettverksadresse. Skriveren ble ikke opprettet"
+
+msgid "prt_ERR_INVALID_REMOTE_NAME"
+msgstr "Feil: ugyldig skrivernavm. Skriveren ble ikke opprettet"
+
+msgid "prt_ERR_UNEXPECTED_DESC"
+msgstr "Feil: uventet eller manglende tegn i beskrivelsen. Skriveren ble ikke lagt til."
+
+msgid "prt_ERR_UNEXPECTED_NAME"
+msgstr " Feil: uventede tegn i skrivernavnet. Skrivernavnet kan bare inneholde små bokstaver og tall, og må starte med en liten bokstav. F.eks. er \"hplaser\", \"epsonlp\", og \"canonbj\" gyldige navn. "
+
+msgid "prt_FIRST_USB_PRINTER"
+msgstr "Første tilkoblede USB skriver"
+
+msgid "prt_FORM_TITLE"
+msgstr "Legg til eller fjern skrivere"
+
+msgid "prt_HOSTNAME_OR_IP"
+msgstr "Maskinnavn eller IP adressen til nettverksskriveren"
+
+msgid "prt_INITIAL_BTN"
+msgstr "Legg til skriver"
+
+msgid "prt_LOCAL_PRINTER_0"
+msgstr "Lokal skriverport 0 (LPT1)"
+
+msgid "prt_LOCAL_PRINTER_1"
+msgstr "Lokal skriverport 1 (LPT2)"
+
+msgid "prt_LOCAL_PRINTER_2"
+msgstr "Lokal skriverport 2 (LPT3)"
+
+msgid "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgstr "Må være et gyldig maskinnavn eller IP adresse"
+
+msgid "prt_NET_PRINTER"
+msgstr "Nettverksskriver ..."
+
+msgid "prt_NO_PRINTERS"
+msgstr "Det er ingen skrivere på systemet."
+
+msgid "prt_PRINTER_NAME"
+msgstr "Skrivernavn"
+
+msgid "prt_REMOTE_ADDRESS"
+msgstr "Fjernadresse"
+
+msgid "prt_REMOTE_NAME"
+msgstr "Fjernnavn"
+
+msgid "prt_REMOTE_NAME_DESC"
+msgstr " Nettverk skrivernavn (bruk raw hvis du er usikker) "
+
+msgid "prt_REMOVE_PRINTER"
+msgstr "Fjern skriver"
+
+msgid "prt_SECOND_USB_PRINTER"
+msgstr "Andre tilkoblede USB skriver"
+
+msgid "prt_SPOOL_FILE_WARNING"
+msgstr "Alle utskriftskøer til skriveren vil bli slettet."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prt_ERR_CREATING"
+#~ msgstr "En feil oppsto uder opprettelsen av printeren."
+#~ msgid "prt_ERR_DELETING"
+#~ msgstr "En feil oppsto uder fjerning av printeren."
+#~ msgid "prt_ERR_OPENING_DB"
+#~ msgstr "En feil oppsto under åpning av konto databasen."
+#~ msgid "prt_INITIAL_DESC"
+#~ msgstr " Legg til skriver "
+#~ msgid "prt_Printers"
+#~ msgstr "Skrivere"

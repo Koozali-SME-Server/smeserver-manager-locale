@@ -1,7 +1,7 @@
 'prt_FORM_TITLE' => 'Dodaj ali odstrani tiskalnik',
-'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Dodaj tiskalnik</a>
-
-  ',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Dodaj tiskalnik</a>
+#
+#  ',
 'prt_NO_PRINTERS' => 'V sistemu ni nobenega tiskalnika.',
 'prt_CURRENT_LIST' => 'Trenutni seznam tiskalnikov',
 'prt_REMOTE_ADDRESS' => 'Oddaljen naslov',
@@ -24,10 +24,10 @@
 'prt_ERR_EXISTS' => 'Napaka: Racun z enakim imenom ze obstaja:',
 'prt_ERR_INVALID_ADDRESS' => 'Napaka: Napacen mrezni maslov. Nov tiskalnik ni dodan.',
 'prt_ERR_INVALID_REMOTE_NAME' => 'Napaka: Napacno ime mreznega tiskalnika. Nov tiskalnik ni dodan.',
-'prt_ERR_CREATING' => 'Prislo je do napake pri kreiranju novega tiskalnika.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_CREATING' => 'Prislo je do napake pri kreiranju novega tiskalnika.',
 'prt_CREATED_SUCCESSFULLY' => 'Nov tiskalnik uspesno dodan:',
 'prt_CREATE_NETWORK_PRINTER' => 'Dodaj nov mrezni tiskalnik',
-'prt_ERR_OPENING_DB' => 'Prislo je do napake pri odpiranju uporabniske baze.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_OPENING_DB' => 'Prislo je do napake pri odpiranju uporabniske baze.',
 'prt_CREATE_NETWORK_DESC' => 'Prosim vnesi naslov in ime mreznega tiskalnika',
 'prt_HOSTNAME_OR_IP' => 'Hostname ali IP stevilka mreznega tiskalnika',
 'prt_REMOTE_NAME_DESC' => ' Ime mreznega tiskalnika (vnesti surovo ime, ce nisi preprican) ',
@@ -36,9 +36,9 @@
 'prt_SPOOL_FILE_WARNING' => 'Vse datoteke, ki so v bazi bodo izbrisane.',
 'prt_ARE_YOU_SURE' => 'Ali si preprican, da zelis odstraniti tiskalnik?',
 'prt_ERR_INTERNAL_FAILURE' => 'Napaka: Interna napaka pri brisanju tiskalnika:',
-'prt_ERR_DELETING' => 'Napaka occurred while deleting printer.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_DELETING' => 'Napaka occurred while deleting printer.',
 'prt_DELETED_SUCCESSFULLY' => 'Uspesno izbrisan tiskalnik:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Mora biti veljavno ime gostitelja ali IP stevilka',
-'prt_Printers' => 'Tiskalniki',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_Printers' => 'Tiskalniki',
 'prt_INITIAL_BTN' => 'Dodaj tiskalnik',
 'Printers' => 'Tiskalniki',

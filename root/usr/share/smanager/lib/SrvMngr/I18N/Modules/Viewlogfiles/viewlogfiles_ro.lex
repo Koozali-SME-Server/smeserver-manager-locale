@@ -1,4 +1,4 @@
-'log_View log files' => 'Vizualizează log',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => 'Vizualizează log',
 'log_FIRSTPAGE_DESC' => 'Acest panou vă permite să vizualizați sau descărcați fișierele de log generate de server. ',
 'log_LOG_FILE_SELECT_DESC' => 'Alege un fișier de evidență',
 'log_FILTER_PATTERN_DESC' => ' Puteți opta pentru un anume model de filtru în fișierul de evidență, numai liniile ce au modelul impus vor fi afișate . Dacă nu completați nimic toate înregistrările din fișierul de evidență vor fi afișate. Luați aminte că această opțiune nu este utilizată daca optați pentu tranferul fișierului.
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'Operație',
-'log_DOWNLOAD_PAGE_DESC' => ' Fișierul de evidență este pregătit. Tranferul va contiuna imediat ce se apasă butonul &quot;Next&quot; de mai jos și veti accepta ferestrele de confirmare ce vor apare în browserului dumneavoastră.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Pregtire tranfer fișier de evidență [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Fișierul de evidență este pregătit. Tranferul va contiuna imediat ce se apasă butonul &quot;Next&quot; de mai jos și veti accepta ferestrele de confirmare ce vor apare în browserului dumneavoastră.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Pregtire tranfer fișier de evidență [_1].',
 'log_FORM_TITLE' => 'Vizualizați fișierele jurnal',

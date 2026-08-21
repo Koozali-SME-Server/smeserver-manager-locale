@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Hostentries module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "Hostnames and addresses"
+msgstr "Nama host dan alamat"
+
+msgid "hos_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this hostname?"
+
+msgid "hos_ADDR_IN_DHCP_RANGE"
+msgstr "Alamat berada dalam jangkauan alamat yang telah ditentukan bagi alamat dinamis DHCP."
+
+msgid "hos_ADD_HOSTNAME"
+msgstr " Buat hostname "
+
+msgid "hos_CREATE_OR_MODIFY_SUCCEEDED"
+msgstr "(en) Create or modify succeeded"
+
+msgid "hos_CREATE_TITLE"
+msgstr "Buat atau ubah hostname"
+
+msgid "hos_CREATE_TYPE"
+msgstr "(en) Create type"
+
+msgid "hos_CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN"
+msgstr "Daftar hostname saat ini untuk [_1]"
+
+msgid "hos_ERROR_CREATING_HOST"
+msgstr "(en) Error creating host"
+
+msgid "hos_ERROR_MODIFYING_HOST"
+msgstr "(en) Error modifying host"
+
+msgid "hos_ERROR_WHILE_CREATING_HOST"
+msgstr "Terjadi kesalahan pada saat membuat hostname."
+
+msgid "hos_ERROR_WHILE_DELETING_HOST"
+msgstr "Terjadi kesalahan pada saat menghapus hostname."
+
+msgid "hos_ERROR_WHILE_MODIFYING_HOST"
+msgstr "Terjadi kesalahan pada saat mengubah hostname."
+
+msgid "hos_ERROR_WHILE_REMOVING_HOST"
+msgstr "(en) Error while removing host"
+
+msgid "hos_ERR_IP_IS_LOCAL_OR_GATEWAY"
+msgstr "Error: IP tidak boleh alamat IP server atau alamat IP Gateway."
+
+msgid "hos_ERR_IP_NOT_LOCAL"
+msgstr "Error : Alamat IP ini tidak termasuk dalam jaringan lokal ini."
+
+msgid "hos_ETHERNET_ADDRESS"
+msgstr "Alamat Ethernet"
+
+msgid "hos_ETHERNET_ADDRESS_DESCRIPTION"
+msgstr "Alamat ethernet adalah opsional dan akan menyebabkan server DHCP memberikan alamat IP lokal tersebut secara tetap kepada komputer yang memiliki alamat ethernet ini. Jika diisi, harus dalam format \"AA:BB:CC:DD:EE:FF\" dan hanya boleh berisi angka0-9 dan huruf A-F."
+
+msgid "hos_FORM_TITLE"
+msgstr "Nama host dan alamat"
+
+msgid "hos_HOSTNAME"
+msgstr "Nama host"
+
+msgid "hos_HOSTNAME_COMMENT_ERROR"
+msgstr "Error: karakter yang tidak diperbolehkan dalam host name: \"[_1].[_2]\". nama host hanya boleh terdiri dari huruf, angka, dan hyphens harus dimulai dengan huruf atau angka."
+
+msgid "hos_HOSTNAME_DESCRIPTION"
+msgstr "Hostname hanya boleh terdiri dari huruf, angka, hyphen dan harus dimulai dengan huruf dan angka."
+
+msgid "hos_HOSTNAME_EXISTS_ERROR"
+msgstr "Error: akun [_1] adalah nama host[_2] yang sudah ada."
+
+msgid "hos_HOSTNAME_IN_USE_ERROR"
+msgstr "(en) Hostname in use error"
+
+msgid "hos_HOSTNAME_VALIDATOR_ERROR"
+msgstr "Error: karakter yang tidak diperbolehkan dalam host name: \"[_1].[_2]\". nama host hanya boleh terdiri dari huruf, angka, dan hyphens harus dimulai dengan huruf atau angka."
+
+msgid "hos_HOSTTYPE"
+msgstr "Lokasi"
+
+msgid "hos_LOCAL_IP"
+msgstr "IP Lokal"
+
+msgid "hos_LOCAL_IP_DESCRIPTION"
+msgstr "Alamat IP adalah alamt IP computer lain didalam jaringan lokal. Silakan isi alamat IP yang valid dalam format \"aaa.bbb.ccc.ddd\"."
+
+msgid "hos_LOCAL_PAGE_DESCRIPTION"
+msgstr "Silakan masukkan detil tambahan berikut pada local host:"
+
+msgid "hos_MODIFY_SUCCEEDED"
+msgstr "(en) Modify succeeded"
+
+msgid "hos_MODIFY_TITLE"
+msgstr "Ubah nama host"
+
+msgid "hos_MODIFY_TYPE"
+msgstr "(en) Modify type"
+
+msgid "hos_NONEXISTENT_HOSTNAME_ERROR"
+msgstr "(en) Nonexistent hostname error"
+
+msgid "hos_NONEXISTENT_HOST_ERROR"
+msgstr "(en) Nonexistent host error"
+
+msgid "hos_REMOTE_PAGE_DESCRIPTION"
+msgstr "Silakan masukkan detil tambahan berikut pada remote host:"
+
+msgid "hos_REMOVE_PAGE_DESCRIPTION"
+msgstr " Anda akan menghapus nama host \"[_1].[_2]\".   Anda yakin menghapus hostname ini? "
+
+msgid "hos_REMOVE_SUCCEEDED"
+msgstr "(en) Remove succeeded"
+
+msgid "hos_REMOVE_TITLE"
+msgstr "Hapus nama host"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "hos_CONFIRM_DESCRIPTION"
+#~ msgstr "Silakan konfirmasi detil berikut ini."
+#~ msgid "hos_CREATE_LOCAL_HOST_TITLE"
+#~ msgstr "Buat nama host yang baru"
+#~ msgid "hos_CREATE_REMOTE_HOST_TITLE"
+#~ msgstr "Buat hostname baru yang mereferensikan pada remote host"
+#~ msgid "hos_CURRENT_HOSTNAMES_FOR_DOMAIN"
+#~ msgstr "Daftar hostname saat ini untuk [_1]."
+#~ msgid "hos_DIDNT_ENTER_LOCAL_IP"
+#~ msgstr "Error: Anda tidak mengisi alamat IP lokal. Alamat IP harus terdiri dari angka dan titik dalam format \"aaa.bbb.ccc.ddd\". Hostname tidak dibuat."
+#~ msgid "hos_DNS_FORWARDER_ENABLED"
+#~ msgstr "DNS forwarder telah terkonfigurasi. Artinya bahwa semua pencarian DNS akan dilakukan oleh DNS forwarder. Nama host dan alamat didalam server ini tidak bisa diubah selama DNS forwarder terkonfigurasi."
+#~ msgid "hos_DOMAIN_VALIDATION_ERROR"
+#~ msgstr "Error: karakter yang tidak diinginkan atau hilang dalam nama domain [_1]. Nama domain hanya boleh terdiri dari huruf, angka, titik, dan tanda minus. Domain baru tidak dibuat."
+#~ msgid "hos_HOSTNAME_LENGTH_ERROR"
+#~ msgstr "Error: nama akun [_1] terlalu panjang. Maksimal 32 karakter."
+#~ msgid "hos_HOSTNAME_VALIDATION_ERROR"
+#~ msgstr "Error: karakter yang tidak diperbolehkan dalam host name: \"[_1]\". nama host hanya boleh terdiri dari huruf, angka, dan hyphens harus dimulai dengan huruf atau angka."
+#~ msgid "hos_Hostnames and addresses"
+#~ msgstr "Hostname dan alamat-alamat"
+#~ msgid "hos_IP_VALIDATION_ERROR"
+#~ msgstr "Error: Alamat IP lokal [_1] tidak valid . Alamat IP harus terdiri dari angka dan titik dalam format \"aaa.bbb.ccc.ddd\". Hostname tidak dibuat."
+#~ msgid "hos_MAC_ADDRESS_VALIDATION_ERROR"
+#~ msgstr "Error: Alamat Ethernet [_1] tidak valid. Alamat Ethernet harus dalam format \"AA:BB:CC:DD:EE:FF\" dan hanya boleh terdiri dari angka 0-9 dan huruf A-F. Hostname tidak dibuat."
+#~ msgid "hos_MUST_BE_VALID_HOSTNAME_OR_IP"
+#~ msgstr "Harus hostname atau alamat IP yang valid"
+#~ msgid "hos_NO_HOSTNAMES_FOR_LOCAL_DOMAIN"
+#~ msgstr "tidak ada hostname dalam system untuk [_1]"
+#~ msgid "hos_NO_HOSTNAMES_FOR_SERVICENAME"
+#~ msgstr "Tidak ada hostname dalam system untuk [_1]."
+#~ msgid "hos_NO_HOSTS_FOR_THIS_DOMAIN"
+#~ msgstr "Tidak ada host untuk domain ini."
+#~ msgid "hos_STATIC_HOST_MESSAGE"
+#~ msgstr "- Host ini mewakili nama system anda dan tidak bisa diubah atau dihapus."
+#~ msgid "hos_SUCCESSFULLY_CREATED"
+#~ msgstr "Berhasil membuat hostname"
+#~ msgid "hos_SUCCESSFULLY_DELETED"
+#~ msgstr "Berhasil menghapus host."
+#~ msgid "hos_SUCCESSFULLY_MODIFIED"
+#~ msgstr "Berhasil mengubah host."
+#~ msgid "hos_UNABLE_TO_OPEN_CONFIGDB"
+#~ msgstr "Tidak dapat membuka database konfigurasi"

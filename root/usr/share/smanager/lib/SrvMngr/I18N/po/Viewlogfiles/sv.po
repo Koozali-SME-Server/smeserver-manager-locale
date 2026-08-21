@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Viewlogfiles module\n"
+"POT-Creation-Date: 2026-08-21 10:25+0100\n"
+"PO-Revision-Date: 2026-08-21 10:25+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+
+msgid "LOG_LIVESTREAM"
+msgstr "(en) Live stream"
+
+msgid "log_END_DESC"
+msgstr "Notera att det tar ett tag att generera dessa rapporter."
+
+msgid "log_ERR_NOEXIST_FILE"
+msgstr "(en) Err noexist file"
+
+msgid "log_ERR_NOOPEN_FILE"
+msgstr "(en) Err noopen file"
+
+msgid "log_FILENAME_ERROR"
+msgstr " Fel vid angivandet av namnet på loggfilen.\n\n  <p>Ogiltig rapporttyp \"[_1]\".</p>\n\n  "
+
+msgid "log_FILTER_PATTERN_DESC"
+msgstr " Du har även möjligheten att ange ett filtermönster för att visa endast de rader från loggfilen som matchar detta mönster. Om du lämnar fältet tomt kommer alla tillgängliga rader att visas. Observera att denna möjlighet inte går att använda vid nerladdning av loggfilen.\n\n  "
+
+msgid "log_FILTER_PATTERN_HINT"
+msgstr "(en) The pattern is case insensitive, but enclosing it in \"/\" will result in it being treated as a regex."
+
+msgid "log_FILTER_PATTERN_LABEL"
+msgstr "Filtermönster (option)"
+
+msgid "log_FIRSTPAGE_DESC"
+msgstr " Denna panel tillåter dig att granska eller ladda ner loggfiler som genererats av tjänster som körs på din server. "
+
+msgid "log_FORM_TITLE"
+msgstr "Visa loggfiler"
+
+msgid "log_HIGHLIGHT_HEADER"
+msgstr "Highlighta rader som matchar: \"[_1]\"."
+
+msgid "log_LOG_FILE_EMPTY"
+msgstr "Loggfilen \"[_1]\" är tom!"
+
+msgid "log_LOG_FILE_SELECT_DESC"
+msgstr "Välj en loggfil för granskning"
+
+msgid "log_MATCH_HEADER"
+msgstr "Visar rader som matchar: \"[_1]\"."
+
+msgid "log_MATCH_PATTERN_DESC"
+msgstr " Du kan också ange ett mönster för att markera rader i fet stil i loggfilen, som matchar mönstret. Mönstret för markeringen appliceras på alla rader som tidigare har matchat filtermönstret. Observera att denna funktion inte används om du laddar ner loggfilen.\n\n  "
+
+msgid "log_MATCH_PATTERN_LABEL"
+msgstr "Highlightmönster (option)"
+
+msgid "log_NO_MATCHING_LINES"
+msgstr "Inga matchande linjer visas."
+
+msgid "log_OP_DESC"
+msgstr " Du måste välja mellan att granska denna loggfil i din webbläsare eller att ladda ner filen till din dator. Om loggfilen är onormalt stor kanske du vill ladda ner istället för att försöka öppna filen i din webbläsare, speciellt eftersom detta kan vara ett problem för visa webbläsare.\n\n  "
+
+msgid "log_OP_LABEL"
+msgstr "Åtgärd"
+
+msgid "log_REFRESH"
+msgstr "Uppdatera denna loggfil"
+
+msgid "log_VIEW"
+msgstr "Granska loggfil"
+
+msgid "log_VIEWING_TIME"
+msgstr "Granskad kl [_1]."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "log_DOWNLOAD_FILE"
+#~ msgstr "Förbereder att ladda ner loggfilen [_1]."
+#~ msgid "log_DOWNLOAD_PAGE_DESC"
+#~ msgstr " Din loggfil förbereds nu. Processen kommer att fortsätta så snart du klickar på &quot;Nästa&quot;-knappen nedan och du tillåter din webbläsare att ladda ner filen via det pop-up fönster som kommer fram.\n\n  "
+#~ msgid "log_View log files"
+#~ msgstr "Granska loggfil"

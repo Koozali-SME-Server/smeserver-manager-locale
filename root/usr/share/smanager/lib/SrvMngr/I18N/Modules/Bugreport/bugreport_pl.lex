@@ -20,5 +20,5 @@
 'bugr_CONSIDER_DONATING' => 'Proszę rozważyć darowiznę na rzecz projektu, klikając poniższy obrazek z odnośnikiem:',
 'bugr_THANK_YOU' => 'Dziękuję za Twoje wsparcie!',
 'bugr_Download this report' => 'Pobierz ten raport!',
-'bugr_Report a bug' => 'Zgłoś błąd',
+# ORPHANED (no longer in bugreport_en.lex; kept for reference, commented out by lex-to-po.pl): 'bugr_Report a bug' => 'Zgłoś błąd',
 'bugr_PREVIOUS_SERVER_MODE' => '(en)Previous server mode',

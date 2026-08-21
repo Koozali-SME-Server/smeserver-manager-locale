@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Viewlogfiles module\n"
+"POT-Creation-Date: 2026-08-21 10:25+0100\n"
+"PO-Revision-Date: 2026-08-21 10:25+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt-br\n"
+
+msgid "LOG_LIVESTREAM"
+msgstr "(en) Live stream"
+
+msgid "log_END_DESC"
+msgstr "Por favor note que poderá levar algum tempo para gerar esse relatório."
+
+msgid "log_ERR_NOEXIST_FILE"
+msgstr "(en) Err noexist file"
+
+msgid "log_ERR_NOOPEN_FILE"
+msgstr "(en) Err noopen file"
+
+msgid "log_FILENAME_ERROR"
+msgstr " Erro enquanto especificava nome do arquivo de log.\n\n  <p>Tipo de relatório inválido \"[_1]\".</p>\n\n  "
+
+msgid "log_FILTER_PATTERN_DESC"
+msgstr " Você pode opcionalmente especificar um modelo de filtro para mostrar somente as linhas do arquivo de log que coincidirem com o filtro. Se você deixar esse campo em branco, todas as linhas disponíveis no arquivo de log serão mostradas. Note que essa opção não é usada se você baixar o arquivo de log.\n\n  "
+
+msgid "log_FILTER_PATTERN_HINT"
+msgstr "(en) The pattern is case insensitive, but enclosing it in \"/\" will result in it being treated as a regex."
+
+msgid "log_FILTER_PATTERN_LABEL"
+msgstr "Modelo de filtro (opcional)"
+
+msgid "log_FIRSTPAGE_DESC"
+msgstr " Este painel lhe permite visualizar ou baixar os arquivos de log gerados pelos serviços que estão rodando no seu servidor "
+
+msgid "log_FORM_TITLE"
+msgstr "Ver arquivos de log"
+
+msgid "log_HIGHLIGHT_HEADER"
+msgstr "Destacando linhas que coincidem: \"[_1]\"."
+
+msgid "log_LOG_FILE_EMPTY"
+msgstr "Arquivo log \"[_1]\" está em branco!"
+
+msgid "log_LOG_FILE_SELECT_DESC"
+msgstr "Escolher o arquivo de log para visualizar"
+
+msgid "log_MATCH_HEADER"
+msgstr "Mostrando linhas que coincidem com: \"[_1]\"."
+
+msgid "log_MATCH_PATTERN_DESC"
+msgstr " Você pode também opcionalmente especificar um modelo de destaque para marcar em negrito qualquer linha do arquivo de log que coincida com o modelo destacado. O modelo destacado é aplicado para qualquer linha que já tenha coincidido com modelo de filtro. Note que esta opção não é usada se você baixar o arquivo de log.\n\n  "
+
+msgid "log_MATCH_PATTERN_LABEL"
+msgstr "Modelo de destaque (opcional)"
+
+msgid "log_NO_MATCHING_LINES"
+msgstr "Linhas que não coincidem mostradas."
+
+msgid "log_OP_DESC"
+msgstr " Você tem que escolher entre visualizar o arquivo de log ou baixar o arquivo de log para seu computador. Se o arquivo de log é particularmente grande, você pode querer baixá-lo ao invés de tentar visualizar em seu navegador, tendo em conta que isso é um problema para alguns navegadores.\n\n  "
+
+msgid "log_OP_LABEL"
+msgstr "Operação"
+
+msgid "log_REFRESH"
+msgstr "Atualizar este arquivo de log"
+
+msgid "log_VIEW"
+msgstr "Visualizar arquivo de log"
+
+msgid "log_VIEWING_TIME"
+msgstr "Visualizado as [_1]."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "log_DOWNLOAD_FILE"
+#~ msgstr "Preparando para baixar o arquivo de log [_1]."
+#~ msgid "log_DOWNLOAD_PAGE_DESC"
+#~ msgstr " O download do arquivo de log está pronto. Será processado assim que você clicar no botão &quot;Next&quot; abaixo e instruir seu browser para aceitar o download na janela que aparecerá.\n\n  "
+#~ msgid "log_View log files"
+#~ msgstr "Visualizar arquivos de log"

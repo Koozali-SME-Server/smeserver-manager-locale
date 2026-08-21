@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Directory module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+
+msgid "Directory"
+msgstr "Diretório"
+
+msgid "dir_CITY"
+msgstr "Cidade padrão"
+
+msgid "dir_COMPANY"
+msgstr "Companhia padrão"
+
+msgid "dir_DEPARTMENT"
+msgstr "Departamento padrão"
+
+msgid "dir_DESCRIPTION"
+msgstr "O servidor LDAP disponibiliza uma lista de usuários e grupos disponíveis na rede em seu servidor, e pode ser acessado usando um cliente LDAP como o Livro de endereços do Netscape Comunicator. Configure seu cliente LDAP com o endereço IP local de seu servidor, porta número 389, e parametro de servidor root mostrado abaixo."
+
+msgid "dir_DESC_DEPARTMENT"
+msgstr "Estes campos são os padrões LDAP para sua organização. Toda vez que criar uma nova conta de usuário, você deverá preencher todos esses campos (podem ser diferentes para cada usuário) mas os valores configurados aqui serão mostrados como padrão. Este é um método conveniente de se criar contas de usuários."
+
+msgid "dir_DESC_DIRECTORY_ACCESS"
+msgstr "Você pode controlar o acesso ao seu diretório LDAP: a configuração privada permite acesso somente da rede local; a pública permite acesso de qualquer lugar da Internet."
+
+msgid "dir_DESC_EXISTING"
+msgstr "Você pode deixar as contas existentes como estão, usando o padrão acima somente para novos usuários, ou voce pode aplicar a configuração padrão acima para todos os usuários."
+
+msgid "dir_DIRECTORY_ACCESS"
+msgstr "Acesso ao diretório LDAP"
+
+msgid "dir_EXISTING"
+msgstr "Usuários existentes"
+
+msgid "dir_FORM_TITLE"
+msgstr "Trocar configuração do diretório LDAP"
+
+msgid "dir_LABEL_ROOT"
+msgstr "Servidor root"
+
+msgid "dir_LEAVE"
+msgstr "Deixe como estão"
+
+msgid "dir_PHONE"
+msgstr "(en) dir_PHONE"
+
+msgid "dir_PHONENUMBER"
+msgstr "Telefone padrão"
+
+msgid "dir_STREET"
+msgstr "Endereço padrão"
+
+msgid "dir_SUCCESS"
+msgstr "A configuração LDAP padrão foi salva."
+
+msgid "dir_UPDATE"
+msgstr "Atualizar com os novos padrões"
+
+msgid "dom_FORM_TITLE"
+msgstr "(en) dom_FORM_TITLE"

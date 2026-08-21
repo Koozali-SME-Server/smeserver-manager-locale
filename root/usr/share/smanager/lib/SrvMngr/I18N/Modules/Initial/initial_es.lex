@@ -12,8 +12,8 @@
   <p> Para realizar tareas administrativas, haga click en uno de los enlaces del menú de la izquierda de su pantalla. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Bienvenido al SME Server. Este software no ofrece NINGUN TIPO DE GARANTIA. Haga <a href="/smanager/support" target="main">click aquí</a> para ver un detallado informe de soporte, garantía y concesión de licencias. 
-
-  <p> <a href="/server-manager/noframes">Click aquí</a> para obtener un listado de las funciones de administración del sistema. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Bienvenido al SME Server. Este software no ofrece NINGUN TIPO DE GARANTIA. Haga <a href="/smanager/support" target="main">click aquí</a> para ver un detallado informe de soporte, garantía y concesión de licencias. 
+#
+#  <p> <a href="/server-manager/noframes">Click aquí</a> para obtener un listado de las funciones de administración del sistema. </p>
+#
+#  ',

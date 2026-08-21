@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Kopia zapasowa lub przywracanie"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Wszystkie kopie zapasowe"
+
+msgid "bac_AM"
+msgstr "AM (przed południem)"
+
+msgid "bac_AM/PM"
+msgstr "AM/PM (przed południem / po południu)"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "Inny proces przywracania w toku. Spróbuj ponownie później."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "(en)Regular tape backups will run at:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Wybór plików do wyświetlenia"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Konfiguracja kopii zapasowej i status"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr " <p> Istnieją trzy sposoby tworzenia kopii zapasowej i przywracania serwera: za pomocą napędu taśmowego, przy użyciu udziału sieciowego lub lokalnego dysku wymiennego lub przy użyciu lokalnego pulpitu. </p>\n\n  <p> Kopia zapasowa taśmy . Ta metoda wykorzystuje pakiet oprogramowania o nazwie <i> $module </i> do tworzenia kopii zapasowych całego dysku twardego na taśmę każdej nocy. Wymaga to obsługiwanego napędu taśmowego i taśmy, która nie jest chroniona przed zapisem. Kopia zapasowa jest wykonywana automatycznie w wybranym czasie każdej nocy (z przypomnieniem automatycznie wysyłanym e-mailem do administratora w ciągu dnia). Obecnie twój dysk twardy zawiera <b> $dumpsize </b> danych. </p>\n\n  <p> Kopia zapasowa stacji roboczej. Ta metoda wykorzystuje pakiet oprogramowania o nazwie <i>dar</i> do tworzenia kopii zapasowej konfiguracji serwera i plików danych na udziale sieciowym lub lokalnym dysku wymiennym, takim jak dysk USB. Możesz zarządzać liczbą przechowywanych zestawów kopii zapasowych i liczbą przyrostowych kopii zapasowych w każdym zestawie. Kopia zapasowa jest wykonywana automatycznie o wybranej godzinie każdego dnia. Obecnie konfiguracja i pliki danych są w przybliżeniu <b>[_3]</b> nieskompresowane. Ponadto w udziale sieciowym lub na lokalnym dysku wymiennym musi być wystarczająca ilość miejsca, aby pomieścić skompresowane dane. </p>\n\n  <p> Kopia zapasowa na pulpit. Ta metoda tworzy kopię konfiguracji serwera i plików danych użytkownika i pobiera ją na lokalny pulpit za pomocą przeglądarki internetowej. Obecnie twoja konfiguracja i pliki danych są w przybliżeniu <b>[_3]</b>. Plik kopii zapasowej będzie nieco mniejszy, w zależności od stopnia kompresji danych. Tego pliku można użyć do przywrócenia serwera z konsoli, jeśli skopiujesz go na lokalny dysk wymienny, taki jak dysk USB. </p>\n\n  <p> Wszystkie metody tworzenia kopii zapasowych umożliwiają przywrócenie konfiguracji i plików danych użytkownika. Kopia zapasowa stacji roboczej zapewnia indywidualne przywracanie plików. <b> Idealnie, pełne przywracanie powinno być wykonane na świeżo zainstalowanym serwerze </b>. </p>\n\n  "
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "(en)Your server has too much data for a reliable backup to desktop."
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "Plik kopii zapasowej był niekompletny"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Wykonaj kopię zapasową lub przywróć dane serwera"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Proszę wybrać godzinę między 0 a 12"
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Proszę wybrać minutę między 0 a 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "(en)Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "(en)Check here to test integrity of all backups needed for a full restore with the selected backup"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Backup compression level ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Skonfiguruj ustawienia kopii zapasowej."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Skonfiguruj kopię zapasową na taśmie."
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Skonfiguruj kopię zapasową stacji roboczej"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "(en)You can set the number of successive backup sets to keep on the workstation, with automatic rotation. Each set may contain saved data for several consecutive days. In this case first backup of the set is full backup, others daily backups are incremental. You can also set a time limit for each backup session or for incremental backups only. When this limit occurs, backup is cleanly stopped and the next incremental backup will safely continue with unsaved and modified datas."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Nie można odkodować pliku kopii zapasowej:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Nie można wykonać procedury tworzenia kopii zapasowej:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Nie można utworzyć procesu potomnego:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Stwórz kopię zapasową na pulpicie."
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Odtwórz kopię zapasową z pulpitu."
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Ten proces spowoduje przesłanie pliku kopii zapasowej serwera z lokalnego pulpitu na serwer i przywrócenie konfiguracji i plików danych użytkownika.Przywracanie powinno być przeprowadzone na świeżo zainstalowanym serwerze.. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Sprawdź plik kopii zapasowej na pulpicie"
+
+msgid "bac_DOW"
+msgstr "(en)Sunday Monday Tuesday Wednesday Thursday Friday Saturday Everyday"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Włącz / wyłącz nocne tworzenie kopii zapasowej na taśmie"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Włącz/wyłącz codzienną kopię zapasową stacji roboczej"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Włącz kopię zapasową na taśmie"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Włącz kopię zapasową stacji roboczej"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Błąd podczas odczytu plików z"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "Katalog kopii zapasowej jest już zamontowany"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Wystąpił błąd podczas zdarzenia conf-backup."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Błąd podczas korzystania z katalogu Dar"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Błąd podczas wyodrębniania za pomocą Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "(en)Compression level must be set between 0 (no compression) and 9 (maximum compression)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "This number must be 1 or greater. First backup in set is full others are incrementals"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Nieprawidłowa nazwa udziału"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Błąd: nieprawidłowa godzina kopii zapasowej:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Nieprawidłowy login"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Błąd: nieprawidłowa minuta kopii zapasowej:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Nieprawidłowe hasło"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Błąd: nieprawidłowa godzina przypomnienia:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Błąd: nieprawidłowa minuta przypomnienia:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Date format is invalid, must be ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "(en)Sets number must be 1 or greater"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "(en)Maximum backup time must be set between 1 and 24 hours"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "Nieprawidłowy adres IP lub nazwa hosta stacji roboczej"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "(en)Unable to mount workstation shared folder"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Katalog kopii zapasowej nie jest zamontowany"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "(en)Aborting restore because needed full backup is missing or unreadable."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "(en)No directory for your host in shared folder. Maybe your host name is different from backup ones"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "(en)Aborting restore because the set has missing or unreadable incremental backup number"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "(en)Error : No mounted disk available. Please mount a disk or select another type of workstation backup."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "(en)Error : No removable disk available. Please connect a removable disk or select another type of workstation backup."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Wystąpił błąd podczas działań po wykonaniu kopii zapasowej."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Wystąpił błąd podczas przygotowywania wykonania kopii zapasowej."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Wystąpił błąd podczas wykonywania zadań przed przywróceniem danych."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Wystąpił błąd podczas odczytu pliku kopii zapasowej."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "(en)Error occurred restoring files from tape."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "(en)Error occurred restoring files from workstation."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Wystąpił błąd podczas przywracania identyfikatora grupy „www”"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Wystąpił błąd podczas przywracania grupy początkowej 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "(en)Error occurred while updating system configuration after tape restore."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "(en)Error occurred while updating system configuration after workstation restore."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "(en)Error occurs when unmounting distant share"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "Następujące pliki i katalogi zostały przywrócone:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "Następujące pliki są uwzględniane w kopii zapasowej:"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "Plik kopii zapasowej do przywrócenia"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Nazwy filtrowane według"
+
+msgid "bac_FINISHED_AT"
+msgstr "i zakończy się o:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Masz około $tmpfree wolnego miejsca na serwerze. Sprawdź, czy plik kopii zapasowej na pulpicie jest mniejszy niż $halffree przed rozpoczęciem przywracania. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Pełna kopia zapasowa jest dozwolona w dniu"
+
+msgid "bac_HOURS"
+msgstr "hours."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Nie przerywaj pełnych sesji kopii zapasowej z powodu limitu czasu"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Czas przypomnienia o załadowaniu taśmy (godzina / minuta)"
+
+msgid "bac_LOGIN"
+msgstr "Logowanie to"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Po zakończeniu przywracania należy ponownie uruchomić serwer."
+
+msgid "bac_Mounted disk"
+msgstr "Zainstalowane dyski"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "(en)Your server configuration and user data files are now being restored from tape."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "(en)Your server configuration and user data files are now being restored from workstation shared folder."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "(en)There is no backup set on configured workstation shared folder. Verify your configuration settings."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "(en)Could not get uid for user named:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Codzienne kopie zapasowe w każdym zestawie"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Liczba rotacyjnych zestawów kopii zapasowych"
+
+msgid "bac_No suitable local devices found"
+msgstr "Nie znaleziono odpowiednich urządzeń lokalnych"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " This page will refresh to the status display in [_1] seconds, or click here. "
+
+msgid "bac_PASSWORD"
+msgstr "Hasło to"
+
+msgid "bac_PM"
+msgstr "PM (po południu)"
+
+msgid "bac_READ_COMPLETE"
+msgstr " You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] the process will restore only the most recent version modified before the given date. "
+
+msgid "bac_REBOOT"
+msgstr "Uruchom ponownie"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Odśwież ekran."
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "(en)Reminder messages will be sent at:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Nie można kontynuować przywracania konfiguracji serwera"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Przywracanie zakończone"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Przywracanie systemu zostało zakończone."
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "(en)Restore server configuration from tape backup"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr "(en)<p>This process will restore the configuration and user data files from a server tape backup. <b>The restore should be performed on a freshly installed server</b>.</p>\n\n  <p>Ensure that you have loaded the desired backup tape into the tape drive before proceeding.</p>\n\n  <p>After the restore completes you must reboot the server.</p>"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "(en)Restore server configuration from workstation backup"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr "(en)<p>This process will restore the configuration and user data files from a Server workstation backup. <b>The restore should be performed on a freshly installed Server</b>.</p>\n\n  <p>Ensure that choose the right backup to restore below before proceeding.</p>\n\n  <p>After the restore completes you must reboot the server.</p>\n\n  Backup will be restored from :"
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Przywracanie nie powiodło się! Plik kopii zapasowej był niekompletny."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Przywracanie nie powiodło się! Wystąpił błąd podczas odczytu pliku kopii zapasowej."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Przywróć z taśmy"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Przywróć ze stacji roboczej"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Przywracanie w toku"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Trwa przywracanie systemu, które rozpoczęło się o:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Po zakończeniu przywracania należy ponownie uruchomić serwer. Przywracanie jest zakończone, gdy u dołu ekranu pojawią się słowa „Przywracanie kompletne”."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Przywróć konfigurację serwera."
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Weryfikacja integralności nie powiodła się"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Przywracanie z taśmy"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Przywracanie ze stacji roboczej"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Wybierz akcję"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Wybierz plik kopii zapasowej"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Przywróć najnowszą wersję sprzed"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Wybierz pliki do przywrócenia"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "(en)Select the type of share for backup destination"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Ponowne uruchomienie serwera"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Serwer zostanie teraz uruchomiony ponownie."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Udział kopii zapasowej"
+
+msgid "bac_STARTED_AT"
+msgstr "Rozpoczęło się o:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Pomyślnie wyłączono kopie zapasowe na taśmach"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Pomyślnie wyłączono kopie zapasowe stacji roboczych"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Pomyślnie włączono kopie zapasowe na taśmie"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Pomyślnie włączono kopie zapasowe stacji roboczych"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Kopie zapasowe na taśmach to"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Czas wykonania kopii zapasowej na taśmie (godzina / min)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Skonfiguruj kopię zapasową na taśmie."
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p> Wybierz, czy chcesz włączyć nocne kopie zapasowe. Następnie wyznacz czas wykonania kopii zapasowej i czas przypomnienia o załadowaniu taśmy. </p>\n\n  <p> Kopia zapasowa taśmy wymaga obsługiwanego napędu taśm. Komunikat ostrzegawczy zostanie wysłany do administratora o wyznaczonym czasie, jeśli napęd taśmowy jest pusty. </p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Odtwórz kopię zapasową z taśmy."
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Testowanie integralności kopii zapasowej"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "(en)Testing all backups needed for a full restore with selected backup"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Nie można przywrócić konfiguracji serwera"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Aktualizuj"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Aktualizacja konfiguracji kopii zapasowej na taśmie"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Aktualizowanie konfiguracji kopii zapasowej stacji roboczej"
+
+msgid "bac_VERIFY"
+msgstr "Sprawdź"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p> Ta opcja wyświetli nazwy wszystkich plików w uprzednio utworzonym pliku kopii zapasowej pulpitu. Możesz użyć tej opcji, aby zweryfikować zawartość pliku kopii zapasowej. </p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Weryfikacja została zakończona"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>This option will display the names of all files in a previously created workstation daily backup. You can use this option to verify the contents of the backup.<b>You must choose the backup you want to verify</b></p>\n\n  <p>Only files flagged with ~[Saved~] are contained in the backup.</p>\n\n  <br/>Backup files are verified from shared folder : "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Zweryfikuj kopię zapasową stacji roboczej"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "z czasem tworzenia kopii zapasowej:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "i wczytaj czas przypomnienia o taśmie:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "(en)Regular workstation backups will run at:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Utwórz kopię zapasową ustawień stacji roboczej"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "(en)Create or modify workstation backup configuration"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "Kopie zapasowe stacji roboczych są"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "(en)Compression level (0-9) of backup is"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "(en)Number of daily backups contained in each set is"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>This panel displays the present workstation backup configuration. You can change it in this panel and the next one.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Kopia zapasowa to"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "(en)Backup is made on LAN workstation"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "(en)except full backups which are cleanly timed out after 24 hours"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "(en)Backup is made on mounted disk"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "(en)Number of rotating backup sets is"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Ustawienia kopii zapasowej stacji roboczej"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "Folder udziału docelowej kopii zapasowej to"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "(en)Workstation backup time of day (hour/min)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "(en)Each daily backup session is cleanly timed out after"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Codzienna kopia zapasowa odbywa się o"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "(en)Backup is made on local removable disk"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "via"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Skonfiguruj kopię zapasową stacji roboczej"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "(en)Full backup session (new backup sets) is allowed only on"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "(en)Full backup sessions (new backup set) are allowed everyday"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Nazwa logowania"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "Adres IP lub nazwa hosta stacji roboczej"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "(en)You must first correctly configure your workstation backup"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Przywróć ze stacji roboczej"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Selektywne przywracanie plików na stacji roboczej"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Selektywne przywracanie plików ze stacji roboczej"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don't know in which backup are the required files, you can select 'All backups' option.  The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names. You have the responsibility not to restore files which could break the functioning of your server. Currently, files will be restored from : "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Opcjonalny limit czasu sesji kopii zapasowej (godziny)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Zweryfikuj kopię zapasową stacji roboczej"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "Wykonaj kopię zapasową lub przywróć dane serwera."
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "Musisz ponownie uruchomić serwer, aby aktywować wszelkie zmiany konfiguracji, które zostały wprowadzone w rezultacie przywrócenia systemu."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "Lokalny dysk wymienny"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>\n\n  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\\"Verify desktop backup file\\\" option can be used to check the integrity of a desktop backup file.</p>\n\n  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "Kopia zapasowa lub przywracanie"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Tape backups are disabled "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Tape backups are currently enabled. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " Workstation backups are disabled "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " Workstation backups are currently enabled. "

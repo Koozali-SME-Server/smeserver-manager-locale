@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Pseudonyms module\n"
+"POT-Creation-Date: 2026-08-21 11:09+0100\n"
+"PO-Revision-Date: 2026-08-21 11:09+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "Pseudonyms"
+msgstr "(en) Pseudonyms"
+
+msgid "pse_ABOUT_TO_REMOVE"
+msgstr " คุณกำลังจะลบนามแฝง: คุณแน่ใจที่จะทำการลบนี้หรือไม่ ? "
+
+msgid "pse_ACCOUNT_PSEUDONYM_NONE"
+msgstr "(en) No Pseudonyms found for this account"
+
+msgid "pse_CLICK_TO_CREATE"
+msgstr "เพิ่มนามแฝง"
+
+msgid "pse_CREATE_SUCCEEDED"
+msgstr "สร้างนามแฝงสำเร็จแล้ว"
+
+msgid "pse_CURRENT_PSEUDONYMS"
+msgstr "รายการนามแฝงขณะนี้"
+
+msgid "pse_DESCRIPTION"
+msgstr " เซิร์ฟเวอร์จะสร้างอีเมล์ให้กลุ่มแต่ละกลุ่ม หากคุณต้องการกำหนดอีเมล์ให้ผู้ใช้จำนวนหนึ่ง วิธีการง่ายๆ คือให้สร้างกลุ่มขึ้น และการสร้างอีเมล์ใช้แทนนั้นจะถูกจัดการให้เองโดยเซอร์ฟเวอร์\n\n  <p>นามแฝงเปิดโอกาสให้คุณสร้างชื่อเรียกอื่นให้แก่ผู้ใช้หรือกลุ่มที่มีอยู่ เช่น คุณอาจต้องการสร้างนามแฝง \"webmaster\" ให้แก่กลุ่ม \"webdevelopers\" หรือ สร้างนามแฝง \"joe\" ให้กับผู้ใช้ \"joseph\" เป็นต้น</p>\n\n  <p>ปกติเซอร์ฟเวอร์จะสร้างนามแฝงอัตโนมัติในชื่อ firstname.lastname และ firstname_lastname ให้กับทุกรายผู้ใช้อยู่แล้ว รวมถึงมีนามแฝง \"everyone\" ที่หมายถึงผู้ใช้ทุกคนในระบบอีกชื่อ</p>\n\n  <p>นามแฝงเ้ปิดโอกาสให้คุณสร้างนามแฝงเป็นอีเมล์แทนให้ \"ผู้ใช้ของโดเมนเสมือน (virtual domains)\" ต่างๆ ที่มีอยู่ในเซอร์ฟเวอร์นี้ได้ด้วย เช่น คุณสามารถส่งผ่านอีเมล์ที่เข้ามาถึง \"sales@virtualdomain1.com\" ไปยังผู้ใช้ชื่อ \"mary\" และ \"sales@virtualdomain2.com\" ไปยังผู้ใช้ชื่อ \"john\" เป็นต้น โดยคุณจะต้องสร้างโดเมนและผู้ใช้ขึ้นก่อนการสร้างอีเมล์แทนนี้</p>\n\n  <p>และสามารถส่งผ่านจากนามแฝงสามารถไปยังนามแฝงได้ด้วยอื่นได้ด้วย เพียงแต่มันจำกัดไว้ให้ทำการส่งผ่านทำได้เพียงชั้นเดียวเท่านั้น เช่น นามแฝง \"webmaster\" สามารถส่งผ่านไปยัง \"techsupport\" แล้วค่อยส่งผ่านไปยังผู้ใช้ \"ray\" อีกที ความสามารถนี้มีประโยชน์ที่ทำให้สามารถสร้างกฎเกณฑ์ได้หลายอย่างให้ผู้ใช้หนึ่งราย ทำให้สามารถเปลี่ยนนามแฝงแก่ผู้ใช้รายเดิมได้หลายครั้ง เช่น กรณีผู้ใช้มีการเปลี่ยนแผนกหรือสังกัดเป็นต้น</p>\n\n  <p>คุณสามารถแก้ไขหรือลบนามแฝงโดยคลิ๊กลิงค์คำสั่งที่อยู่ถัดจากนามแฝงนั้นๆ</p>\n\n  "
+
+msgid "pse_DESC_PSEUDONYM_NAME"
+msgstr "กรุณาเลือกบัญชีหรือกลุ่มสำหรับนามแฝงนี้จากตัวเลือกด้านล่าง"
+
+msgid "pse_EVERYONE"
+msgstr "ทุกคน"
+
+msgid "pse_FORM_TITLE"
+msgstr "สร้างแก้ไขหรือลบนามแฝง"
+
+msgid "pse_LOCAL_ONLY"
+msgstr "(เฉพาะ local network)"
+
+msgid "pse_MODIFY_PSEUDONYM"
+msgstr "แก้ไขนามแฝง"
+
+msgid "pse_MODIFY_SUCCEEDED"
+msgstr "แก้ไขนามแฝงสำเร็จแล้ว"
+
+msgid "pse_NAME_IN_USE"
+msgstr "ผิดพลาด: ชื่อนี้ถูกใช้ไปแล้ว คุณไม่สามารถสร้างนามแฝงมีชื่อนี้ได้"
+
+msgid "pse_NOT_A_PSEUDONYM"
+msgstr "ชื่อ (บัญชี) นี้ไม่ใช่นามแฝง"
+
+msgid "pse_PSEUDONYM"
+msgstr "นามแฝง"
+
+msgid "pse_PSEUDONYM_INVALID_DOMAIN"
+msgstr "โดเมนที่ระบุไม่ได้อยู่บนเซิร์ฟเวอร์นี้"
+
+msgid "pse_PSEUDONYM_INVALID_SAMEACCT"
+msgstr "นามแฝงไม่สามารถชี้ไปยังบัญชีเดียวกันได้"
+
+msgid "pse_PSEUDONYM_NAME"
+msgstr "ชื่อนามแฝง"
+
+msgid "pse_REMOVE_PSEUDONYM"
+msgstr "ลบนามแฝง"
+
+msgid "pse_REMOVE_SUCCEEDED"
+msgstr "ลบนามแฝงสำเร็จแล้ว"
+
+msgid "pse_SELECT_ACCOUNT"
+msgstr "เลือกบัญชีหรือกลุ่ม"
+
+msgid "pse_SELECT_INTERNAL"
+msgstr "เฉพาะ local network"
+
+msgid "pse_TITLE_CREATE"
+msgstr "สร้างนามแฝง"
+
+msgid "pse_USER_OR_GROUP"
+msgstr "ผู้ใช้หรือกลุ่มผู้ใช้"
+
+msgid "pse_VALID_PSEUDONYM_NAMES"
+msgstr " นามแฝงต้องเป็นตัวอักษรอังกฤษตัวพิมพ์เล็ก, ตัวเลข, จุด, ยัติภังค์ (-) และเส้นขีดล่าง (_) เท่านั้น และต้องเริ่มต้นด้วยตัวอักษรหรือตัวเลข ตัวอย่างที่ถูกต้อง เช่น \"sales\", \"john.holland\", \"123\" และ \"email-administrator\" แต่ \"John Smith\" และ \"Henry Miller\" ไม่ถูกต้องและใช้ไม่ได้คุณยังสามารถสร้างนามแฝงเพื่อเป็น \"อีเมลของโดเมนเสมือน (virtual domain)\" ต่างๆ ที่อยู่ในเซอร์ฟเวอร์นี้ได้ด้วย เช่น\"fred@virtualdomain.com\" ให้ส่งอีเมลผ่านต่อไปยัง \"mary\" (หรือบัญชีชื่ออื่นที่มีอยู่จริง) "

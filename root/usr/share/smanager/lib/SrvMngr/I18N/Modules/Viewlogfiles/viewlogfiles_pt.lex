@@ -1,4 +1,4 @@
-'View log files' => 'Visualizar arquivos de log',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'View log files' => 'Visualizar arquivos de log',
 'log_FIRSTPAGE_DESC' => ' Este painel permite a você visualizar ou baixar os arquivos de log gerados pelos serviços que estão rodando no seu servidor. ',
 'log_LOG_FILE_SELECT_DESC' => 'Escolher o arquivo de log para visualizar',
 'log_FILTER_PATTERN_DESC' => ' Você pode opcionalmente especificar um modelo de filtro para mostrar somente as linhas do arquivo de log que coincidirem com o filtro. Se você deixar esse campo em branco, todas as linhas disponíveis no arquivo de log serão mostradas. Note que essa opção não é usada se você baixar o arquivo de log.
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'Operação',
-'log_DOWNLOAD_PAGE_DESC' => ' Seu arquivo para baixar não está pronto. Será processado assim que voce clicar em &quot;Next&quot; abaixo, e instruir seu browser para aceitar baixar da janela que irá aparecer.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Preparando para baixar o arquivo de log [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Seu arquivo para baixar não está pronto. Será processado assim que voce clicar em &quot;Next&quot; abaixo, e instruir seu browser para aceitar baixar da janela que irá aparecer.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Preparando para baixar o arquivo de log [_1].',
 'log_FORM_TITLE' => 'Ver ficheiros de registo',

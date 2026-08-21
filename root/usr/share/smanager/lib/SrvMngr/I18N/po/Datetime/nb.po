@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Datetime module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+
+msgid "COULD_NOT_OPEN_TZ_FILE"
+msgstr "(en) COULD_NOT_OPEN_TZ_FILE"
+
+msgid "Date and time"
+msgstr "Dato og klokkeslett"
+
+msgid "Day:"
+msgstr "(en) Day:"
+
+msgid "Hour:"
+msgstr "(en) Hour:"
+
+msgid "Minute:"
+msgstr "(en) Minute:"
+
+msgid "Month:"
+msgstr "(en) Month:"
+
+msgid "Second:"
+msgstr "(en) Second:"
+
+msgid "Year:"
+msgstr "(en) Year:"
+
+msgid "dat_BETWEEN_0_AND_23"
+msgstr "(en) dat_BETWEEN_0_AND_23"
+
+msgid "dat_BETWEEN_0_AND_59"
+msgstr "Velg et minutt mellom 0 og 59."
+
+msgid "dat_FORM_TITLE"
+msgstr "Dato og tidsinnstillinger"
+
+msgid "dat_INITIAL_DESC"
+msgstr "Dette er hvor du setter opp dato og tid for serveren. Du kan bruke en eksisterende tidsserver eller sette dato og tid for din tidssone manuelt."
+
+msgid "dat_INVALID_HOUR"
+msgstr "Feil: ugyldig time:"
+
+msgid "dat_INVALID_MINUTE"
+msgstr "Feil: ugyldig minutt:"
+
+msgid "dat_INVALID_NTP_SERVER"
+msgstr " Ugyldig NTP server, serveren vil ikke forsøke å synkronisere med en tidserver. "
+
+msgid "dat_INVALID_SECOND"
+msgstr "Feil: ugyldig sekund"
+
+msgid "dat_Invalid_date"
+msgstr "Ugyldig dato"
+
+msgid "dat_NTP_CONFIGURE_DESC"
+msgstr "Serveren synkroniserer systemklokken periodisk med NTP serveren spesifisert ovenfor. for å endre NTP server, skriver du inn et annet maskinnavn eller IP adresse nedenfor."
+
+msgid "dat_NTP_DISABLE_DESC"
+msgstr "Her kan du velge å stoppe synkronisering av systemklokken mot NTP serveren. Når dette er slått av, kan du stille dato og tid manuelt fra denne siden."
+
+msgid "dat_NTP_ENABLE_DESC"
+msgstr "Serveren kan periodisk synkronisere systemklokken med en nettverks tids protokoll (NTP) server. hvis du velger det, må du oppgi maskinnavn eller IP adressen til NTP serveren nedenfor."
+
+msgid "dat_NTP_Server_URL"
+msgstr "NTP-server-URL:"
+
+msgid "dat_SETTINGS_CHANGED"
+msgstr "Nettverk tidserver innstillinger lagret."
+
+msgid "dat_TZ"
+msgstr "Tidssone:"
+
+msgid "dat_Test_Server"
+msgstr "Test NTP-server"
+
+msgid "dat_The_time_is_currently"
+msgstr "Klokken er nå:"
+
+msgid "dat_Time_Configuration"
+msgstr "Tidsoppsett"
+
+msgid "dat_Time_Setting_Mode"
+msgstr "Tidsinnstillingsmodus"
+
+msgid "dat_UPDATING_CLOCK"
+msgstr " System klokken blir oppdatert. Vent noen sekunder før du klikker her for å bekrefte endringene. "
+
+msgid "dat_manually_set"
+msgstr "Angi manuelt"
+
+msgid "dat_ntp_server"
+msgstr "NTP-server"
+
+msgid "dat_set_manually"
+msgstr "Angi dato og klokkeslett:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dat_AM/PM_AND_TZ"
+#~ msgstr "AM/PM og tidssone"
+#~ msgid "dat_BETWEEN_1_AND_12"
+#~ msgstr "Velg en time mellom 1 og 12."
+#~ msgid "dat_BETWEEN_1_AND_31"
+#~ msgstr "Velg en dag mellom 1 og 31."
+#~ msgid "dat_COULD_NOT_OPEN_TZ_FILE"
+#~ msgstr "Feil: kunne ikke åpne tidsonefilen for lesing:"
+#~ msgid "dat_CURRENT_SETTING"
+#~ msgstr "Nåværende innstillinger"
+#~ msgid "dat_Date and time"
+#~ msgstr "Dato og tid"
+#~ msgid "dat_ERR_CHANGING_TS"
+#~ msgstr "En feil oppsto når nettverks tidserver instillingene ble endret"
+#~ msgid "dat_ERR_SETTING_CLOCK"
+#~ msgstr "En feil oppsto når systemtid og serverens klokke skulle lagres."
+#~ msgid "dat_FOUR_DIGIT_YEAR"
+#~ msgstr "Velg et firesifret år mellom 1900 og 2200."
+#~ msgid "dat_INVALID_DAY"
+#~ msgstr "Feil: ugyldig dag i måneden:"
+#~ msgid "dat_INVALID_MONTH"
+#~ msgstr "(en)Error: invalid month"
+#~ msgid "dat_INVALID_NTP_ADDR"
+#~ msgstr "Ugyldig NTP server adresse:"
+#~ msgid "dat_INVALID_YEAR"
+#~ msgstr "Feil: ugyldig år:"
+#~ msgid "dat_MONTH_BETWEEN_1_AND_12"
+#~ msgstr "(en)Please choose a month value between 1 and 12."
+#~ msgid "dat_NETWORK_TIME_SERVER"
+#~ msgstr "Nettverk tidserver"
+#~ msgid "dat_NEW_DATE_AND_TIME"
+#~ msgstr "Ny dato og tids innstillinger"
+#~ msgid "dat_NEW_H/M/S"
+#~ msgstr "Ny time/minutt/sekund:"
+#~ msgid "dat_NEW_M/D/Y"
+#~ msgstr "Ny måned/dag/år:"
+#~ msgid "dat_NTP_CONFIGURE_TITLE"
+#~ msgstr "Sett opp nettverk tidserver"
+#~ msgid "dat_NTP_DISABLE_TITLE"
+#~ msgstr "Slå av nettverk tidserver"
+#~ msgid "dat_NTP_ENABLE_TITLE"
+#~ msgstr "Slå på Nettverk tidserver"
+#~ msgid "dat_NTP_SERVER"
+#~ msgstr "NTP-server"
+#~ msgid "dat_SERVER_DISABLED"
+#~ msgstr "Nettverks tidserver er slått av"
+#~ msgid "dat_SERVER_DISABLED_DESC"
+#~ msgstr " Du har slått av denne tjenesten: Serveren vil bruke den interne klokken ogvil ikke prøve å synkronisere med en tidserver. "
+#~ msgid "dat_SETTING_DATE_AND_TIME"
+#~ msgstr "Setter dato og tid"
+#~ msgid "dat_SET_DATE_TITLE"
+#~ msgstr "Sett Dato og Tid"
+#~ msgid "dat_SYNC_WITH"
+#~ msgstr "Serveren er nå satt opp til å synkronisere periodisk (via internett) med:"
+#~ msgid "dat_VERIFY_DATE_AND_TIME"
+#~ msgstr "Bekreft dato og tid"

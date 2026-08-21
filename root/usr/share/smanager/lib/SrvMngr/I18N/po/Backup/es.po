@@ -1,0 +1,602 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Respaldar o restaurar"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Todos los respaldos"
+
+msgid "bac_AM"
+msgstr "a. m."
+
+msgid "bac_AM/PM"
+msgstr "AM/PM"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "Hay otra restauración en curso. Vuelva a intentarlo más tarde."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "Los respaldos regulares en cinta se ejecutarán a las:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Seleccionar archivos para ver"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Configuración y estado del respaldo"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr "(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>\n\n  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>\n\n  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>\n\n  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>"
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "Su servidor tiene demasiados datos para realizar un respaldo confiable al escritorio."
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "El archivo de respaldo estaba incompleto"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Respaldar o restaurar los datos del servidor"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Escoja una hora entre 0 y 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Escoja un minuto entre 0 y 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "Advertencia : En respaldos grandes, la verificación de integridad puede tomar bastante tiempo y debe hacerse deshabilitando el respaldo diario en ordenador remoto."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "Tilde aquí para probar la integridad de todos los respaldos necesarios para una restauración completa con el respaldo seleccionado"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Nivel de compresión del respaldo ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Por favor, configure los ajustes de respaldo."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Configurar respaldo en cinta"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Configurar Respaldo en Ordenador Remoto"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "Usted puede fijar el número sucesivo de juego de respaldos para mantener en el ordenador remoto, rotando automáticamente. Cada juego puede contener datos guardados de varios días consecutivos. En este caso el primer respaldo es un respaldo completo, los demás días son incrementales. Usted también puede fijar un tiempo límite para cada sesión de respaldo o solo para respaldos incrementales. Cuando éste límite sea alcanzado, el respaldo será detenido limpiamente y el siguiente respaldo incremental continuará de forma segura con los datos modificados o sin guardar."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "No se pudo decodificar el archivo de respaldo:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "No se pudo ejecutar la canalización de respaldo:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "No se pudo bifurcar:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Respaldo al escritorio"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Restaurar desde el escritorio"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Este proceso cargará un archivo de respaldo del servidor desde el escritorio local al servidor y restaurará los archivos de configuración y de datos de usuario. La restauración se debe realizar sobre una instalación nueva de servidor. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Verificar archivo de respaldo de escritorio"
+
+msgid "bac_DOW"
+msgstr "Domingo Lunes Martes Miércoles Jueves Viernes Sábado Diario"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Habilitar/Deshabilitar Respaldo Nocturno en Cinta"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Habilitar/Deshabilitar Respaldo Diario en Ordenador Remoto"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Habilitar respaldo en cinta"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Habilitar Respaldo de Ordenador Remoto"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Error al leer archivos de"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "El directorio de copia de seguridad ya está montado"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Ocurrió un error durante el evento conf-backup."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Ocurrió un error cuando se estaba utilizando el catálogo Dar"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Error al extraer con Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "El nivel de compresión debe fijarse entre 0 (sin compresión) y 9 (compresión máxima)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "Este número debe ser 1 o mayor. El primer respaldo en el juego debe ser completo, los otros son incrementales"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Nombre compartido inválido"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Error: hora de respaldo inválida:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Nombre de usuario inválido"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Error: minuto de respaldo inválido:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Contraseña inválida"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Error: hora de recordatorio inválida:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Error: minuto de recordatorio inválido:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "El formato de fecha es inválido, debe ser ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ej: 2005/12/31-08:23:32 o 10-08:32 o 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "El número fijado debe ser 1 o mayor"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "El tiempo máximo de respaldo debe estar fijado entre 1 y 24 horas"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "IP o Nombre de Host inválido de ordenador remoto"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "No se puede montar la carpeta compartida del ordenador remoto"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Archivo de respaldo no encontrado"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "Abortando la restauración porque el respaldo completo no se encuentra o es ilegible."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "Sin directorio para su host en la carpeta compartida. Tal vez el nombre de su host es diferente del de respaldo"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "Abortando la restauración porque el juego ha perdido o es ilegible el número de respaldo incremental"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "Error: Sin disco USB disponible. Por favor, conecte un disco USB o seleccione otro tipo de recurso compartido para el respaldo."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "Error: Sin disco USB disponible. Por favor, conecte un disco USB o seleccione otro tipo de recurso compartido para el respaldo."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Ocurrió un error durante las acciones post-backup."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Ocurrió un error durante las acciones pre-backup."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Ocurrió un error durante las acciones pre-restore."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Ocurrió un error en la lectura del archivo de respaldo."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Ocurrió un error al restaurar los archivos desde la cinta."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "Ocurrió un error al restaurar los archivos desde el ordenador remoto."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Ocurrió un error mientras se restauraba el gid de 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Ocurrió un error mientras se restauraba el grupo inicial de 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Ocurrió un error mientras se actualizaba la configuración del sistema después de la restauración desde la cinta."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "Ocurrió un error mientras se actualizaba la configuración del sistema después de la restauración desde el ordenador remoto."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "Ha ocurrido un error cuando se desmontaba el recurso compartido distante"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "Se restauraron los siguientes archivos y directorios:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "Los siguientes archivos están considerados en el respaldo :"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "Archivo de respaldo desde el cual restaurar"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Nombres filtrados por"
+
+msgid "bac_FINISHED_AT"
+msgstr "y finalizó a las:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Usted tiene aproximadamente $tmpfree de espacio libre en el servidor. Verifique que el archivo de respaldo de escritorio sea menor a $halffree antes de comenzar con la restauración. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Respaldos completos son permitidos en"
+
+msgid "bac_HOURS"
+msgstr "horas."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Sin tiempo de espera en las sesiones de respaldo completo"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Hora del día para recordatorio de carga de cinta (hora/min)"
+
+msgid "bac_LOGIN"
+msgstr "Usuario es"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Luego de que finalice la restauración, debe reiniciar el servidor."
+
+msgid "bac_Mounted disk"
+msgstr "Montada"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "Ahora, se están restaurando desde la cinta los archivos de configuración del servidor y de datos de usuario."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "Ahora, se están restaurando desde la carpeta compartida del ordenador remoto los archivos de configuración del servidor y de datos de usuario."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "No hay juego de respaldos configurados en la carpeta compartida del ordenador remoto. Verifique su configuración."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "No se pudo obtener el uid para el usuario llamado:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Respaldos diarios en cada juego"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Cantidad de rotaciones de los juegos de respaldos"
+
+msgid "bac_No suitable local devices found"
+msgstr "No se encontraron dispositivos locales adecuados"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Esta página se actualizará a la pantalla de estado en [_1] segundos o haga clic aquí. "
+
+msgid "bac_PASSWORD"
+msgstr "La contraseña es"
+
+msgid "bac_PM"
+msgstr "p. m."
+
+msgid "bac_READ_COMPLETE"
+msgstr " Puede elegir todos los directorios y archivos que desee restaurar en la lista mostrada (use ctrl o shift para selecciones múltiples). Advertencia : Si selecciona un directorio, todos los archivos y directorios contenidos serán restaurados. Por defecto será restaurada la versión más reciente de los archivos seleccionados, pero si usted especifica una fecha en el formato ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] el proceso restaurará solamente la versión más recientemente modificada anterior a la fecha suministrada. "
+
+msgid "bac_REBOOT"
+msgstr "Reiniciar"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Actualizar esta pantalla"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "Los mensajes recordatorios se enviarán a las:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "No se puede continuar con la restauración de la configuración del servidor"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Restauración completa"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Se ha completado la restauración del sistema"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Restaurar la configuración del servidor desde el respaldo en cinta"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>Este proceso restaurará los archivos de configuración y de datos de usuario desde un respaldo en cinta del servidor. <b>La restauración se debe realizar en un servidor recién instalado</b>.</p>\n\n  <p>Antes de continuar, asegúrese de haber cargado la cinta de respaldo deseada en la unidad de cinta.</p>\n\n  <p>Luego de que finalice la restauración, debe reiniciar el servidor.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Restaurar la configuración del servidor desde el respaldo en ordenador remoto"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>Este proceso restaurará los archivos de configuración y de datos de usuario desde un respaldo del Servidor en el ordenador remoto. <b>La restauración se debe realizar en un servidor recién instalado</b>.</p>\n\n  <p>Antes de continuar, asegúrese de haber elegido debajo el respaldo correcto que desea restaurar.</p>\n\n  <p>Luego de que finalice la restauración, debe reiniciar el servidor.</p>\n\n  El respaldo será restaurado desde : "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "¡La restauración falló! El archivo de respaldo estaba incompleto."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "¡La restauración falló! Ocurrió un error en la lectura del archivo de respaldo."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Restaurar Desde Cinta"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Restaurar Desde Ordenador Remoto"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Restauración en curso"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Hay una restauración del sistema en curso. Comenzó a las:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Luego de que finalice la restauración, debe reiniciar el servidor. La restauración estará completa cuando las palabras \"Restauración completa\" aparezcan en la parte inferior de su pantalla."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Restaurar la configuración del servidor"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Verificación de integridad fallida"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Restauración Desde Cinta"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Restauración Desde Ordenador Remoto"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Seleccionar una acción"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Seleccionar archivo de respaldo"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Restaurar el más reciente antes de"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Seleccionar archivos para restaurar"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "Seleccione el tipo de recurso compartido para el destino del respaldo"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Reinicio del servidor"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Ahora se reiniciará el servidor."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Unidad compartida"
+
+msgid "bac_STARTED_AT"
+msgstr "Comenzó a las:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Respaldos en cinta deshabilitados correctamente"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Respaldos en ordenador remoto deshabilitados correctamente"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Respaldos en cinta habilitados correctamente"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Respaldos en ordenador remoto habilitados correctamente"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Las copias de seguridad en cinta son"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Hora del día para respaldo en cinta (hora/min)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Configurar respaldo en cinta"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Seleccione si desea habilitar los respaldos nocturnos. Luego, indique las horas deseadas para el respaldo y el recordatorio de carga de cinta.</p>\n\n  <p>El respaldo en cinta requiere una unidad de cinta compatible. Si la unidad de cinta está vacía, se enviará un mensaje de advertencia al administrador a la hora de recordatorio designada.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Restaurar desde la cinta"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Probando la integridad del respaldo"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "Probando todos los respaldos necesarios para una restauración completa con el respaldo seleccionado"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "No se puede restaurar la configuración del servidor"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Actualizar"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Actualización de la configuración del respaldo en cinta"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Actualizando la configuración del respaldo en ordenador remoto"
+
+msgid "bac_VERIFY"
+msgstr "Verificar"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Esta opción mostrará los nombres de todos los archivoscontenidos en archivo de respaldo de escritorio creado previamente. Puede utilizar esta opción para verificar el contenido del archivo de respaldo.</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "La verificación está completa"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Esta opción le mostrará los nombres de todos los archivos dentro de un respaldo previo diario en ordenador remoto. Puede utilizar esta opción para verificar los contenidos del respaldo.<b>Debe elegir el respaldo que desea verificar</b></p>\n\n  <p>Sólo los archivos marcados con ~[Guardado~] están contenidos en el respaldo.</p>\n\n  <br/>Los archivos de respaldo son verificados desde la carpeta compartida : "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Verificar respaldo de ordenador remoto"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "con hora de respaldo:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "y hora de recordatorio de carga de cinta:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "Los respaldos regulares en ordenador remoto se ejecutarán a las:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Configuraciones del respaldo de ordenador remoto"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "Crear o modificar configuración de respaldo en ordenador remoto"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "Las copias de seguridad de la estación de trabajo son"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "El nivel de compresión (0-9) de los respaldos es"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "La cantidad de respaldos diarios contenidos en cada juego son"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>Esta panel muestra la configuración actual de respaldo de ordenador remoto. Puede cambiarla en este panel y en el siguiente.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Respaldo es"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "El respaldo esta hecho en un ordenador remoto LAN"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "salvo respaldos completos los cuales son limpiados el tiempo de espera luego de 24 horas"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "El respaldo esta hecho en un disco local USB"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Actualmente, el respaldo de ordenador remoto no esta configurado. Puede configurarlo con este panel y el siguiente.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "La cantidad de rotaciones de los juegos de respaldo son"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Configuraciones de Respaldo de Ordenador Remoto"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "La carpeta compartida de destino es"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "Hora del día para respaldo en ordenador remoto (hora/min)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "Cada sesión diaria de respaldo es limpiado el tiempo de espera luego de"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "El respaldo diario ocurre a las"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "El respaldo esta hecho en un disco local USB"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "vía"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Configurar respaldo en ordenador remoto"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "Sesión de respaldo completo (nuevos juegos de respaldo) solamente son permitidos en"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "Sesiones de respaldo completo (nuevo juego de respaldos) son permitidas cada día"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Nombre de usuario"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "Nombre de host o IP del ordenador remoto"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "Primero debe configurar correctamente su respaldo de ordenador remoto"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Restaurar desde ordenador remoto"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Restauración selectiva de archivos de ordenador remoto"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Restauración selectiva de archivos desde ordenador remoto"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " Este proceso restaurará solamente los archivos y directorios especificados. Primero debe elegir el respaldo desde el cual los archivos serán restaurados. Si no sabe en cuál respaldo están los archivos requeridos, puede seleccionar la opción 'Todos los respaldos'.  El siguiente panel le mostrará los archivos y directorios disponibles, entonces usted podrá elegir los que desee restaurar. Para restringir la cantidad de archivos y directorios mostrados en este panel, tiene la opción de suministrar ahora una expresión de filtrado, aplicada como expresión regular sobre los nombres mostrados. Usted tiene la responsabilidad de no restaurar los archivos que puedan romper el funcionamiento de su servidor.Actualmente, los archivos serán restaurados desde : "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Tiempo opcional de espera de sesión de respaldo (horas)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Verificar respaldo de ordenador remoto"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X Respaldar o restaurar los datos del servidor"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "Debe reiniciar el servidor para activar cualquier cambio en la configuración realizada como resultado de esta restauración."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "El respaldo esta hecho en un disco local USB"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>El servidor provee dos maneras de respaldar y restaurar su servidor: usando su escritorio local o unidad de cinta.</p>\n\n  <p>El primer método crea una copia de los archivos de datos de usuario y de configuración del servidor y la descarga al escritorio local mediante el explorador Web. El total aproximado actual de los archivos de configuración y de datos es de <b>[_3]</b>. El archivo de respaldo será un poco menor, dependiendo de lo comprimibles que sean los datos. La opción \\\"Verificar archivo de respaldo de escritorio\\\" se puede utilizar para verificar la integridad de un archivo de respaldo de escritorio.</p>\n\n  <p>El método de respaldo en cinta utiliza un paquete de software llamado <i>[_1]</i> para respaldar en cinta el disco duro completo todas las noches. Esto requiere una unidad de cinta compatible y una cinta que no esté protegida contra-escritura. El respaldo se realiza automáticamente todas las noches a la hora seleccionada (enviándose automáticamente al administrador un recordatorio electrónico durante el día). Actualmente, el disco duro contiene <b>[_2]</b> de datos.</p>\n\n  <p>Los dos métodos de restauración permiten restaurar los archivos de configuración y de datos de usuario. <b>Idealmente, la restauración se debe realizar en un servidor recién instalado</b>.</p>\n\n  "
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Los respaldos en cinta están deshabilitados "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Los respaldos en cinta están habilitados. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " Los respaldos en ordenador remoto están deshabilitados "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " Los respaldos en ordenador remoto están habilitados. "

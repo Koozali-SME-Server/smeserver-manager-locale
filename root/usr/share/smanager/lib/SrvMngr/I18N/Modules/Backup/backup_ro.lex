@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Salvare sau restaurare date server',
-'bac_BACKUP_DESC' => ' <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>
-
-  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\"Verify desktop backup file\\" option can be used to check the integrity of a desktop backup file.</p>
-
-  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
-
-  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>
+#
+#  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\"Verify desktop backup file\\" option can be used to check the integrity of a desktop backup file.</p>
+#
+#  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+#
+#  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
@@ -18,10 +18,10 @@
 
   <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Configurația și starea copiei de rezervă',
-'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently enabled. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently enabled. ',
 'bac_BACKUPS_RUN_AT' => '(en)Regular tape backups will run at:',
 'bac_REMINDER_MESSAGE_AT' => '(en)Reminder messages will be sent at:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups are disabled ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups are disabled ',
 'bac_DESKTOP_BACKUP' => 'Salvare pe desktop',
 'bac_DESKTOP_RESTORE' => 'Restaurare din desktop',
 'bac_DESKTOP_VERIFY' => 'Verificare fisier salvat in desktop',
@@ -110,10 +110,10 @@
 'bac_SERVER_WILL_REBOOT' => 'Serverul dumneavoastră reporneste acum.',
 'bac_NO_UID_FOR_NAME' => 'Nu pot obține UID-ul utilizatorului:',
 'bac_PAGE_REFRESH_IN' => ' Această pagină se va reactualiza în [_1] secunde, sau apăsînd aici. ',
-'bac_Backup or restore' => 'Salvare sau restaurare',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => 'Salvare sau restaurare',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Serverul dumneavoastră conține prea multe date pentru o salvare de încredere pe calculatorul dumneavoastră.  ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Salvările pe stația de lucru sunt dezactivate ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Salvările pe stația de lucru sunt în acest momentactivate. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Salvările pe stația de lucru sunt dezactivate ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Salvările pe stația de lucru sunt în acest momentactivate. ',
 'bac_WKBACKUPS_RUN_AT' => 'Salvările regulate pe stația de lucru vor începe la:',
 'bac_WORKSTN_CONFIGURE' => 'Configurați salvările pe stația de lucru',
 'bac_WORKSTN_VERIFY' => 'Verificați salvările pe stația de lucru',

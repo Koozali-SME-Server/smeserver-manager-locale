@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Noile setări LDAP implicite au fost salvate.',
 'dir_LEAVE' => 'Lăsați-i asa cum sunt',
 'dir_UPDATE' => 'Modifică noile valori implicite',
-'dir_Directory' => 'Director',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Director',

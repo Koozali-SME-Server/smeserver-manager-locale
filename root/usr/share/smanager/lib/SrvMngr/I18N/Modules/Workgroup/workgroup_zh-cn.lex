@@ -11,4 +11,4 @@
 'wkg_INVALID_WORKGROUP' => '工作组名称必须以字母开头（大写或小写），由任意的字母组合，数字，下划线，句号和连字符组成。',
 'wkg_INVALID_SERVERNAME' => '服务器名称必须以字母开头（不区分大小写），由任意的字母组合，数字，下划线和连字符组成。',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => '使用小写字母时，服务器和工作组名称应互相匹配。为了打开文件共享功能，这些值必须不相同。',
-'wkg_Workgroup' => '工作组',
+# ORPHANED (no longer in workgroup_en.lex; kept for reference, commented out by lex-to-po.pl): 'wkg_Workgroup' => '工作组',

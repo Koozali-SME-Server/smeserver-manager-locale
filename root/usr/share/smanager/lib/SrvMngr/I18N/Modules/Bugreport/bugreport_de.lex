@@ -20,6 +20,6 @@
 'bugr_CONSIDER_DONATING' => 'Bitte denken Sie über eine Spende an das Projekt nach, indem Sie auf den Link im Bild unten klicken:',
 'bugr_THANK_YOU' => 'Vielen Dank für Ihre Unterstützung!',
 'bugr_Download this report' => 'Laden Sie diesen Report herunter!',
-'Report a bug' => 'Fehler berichten',
+# ORPHANED (no longer in bugreport_en.lex; kept for reference, commented out by lex-to-po.pl): 'Report a bug' => 'Fehler berichten',
 'bugr_PREVIOUS_SERVER_MODE' => '(en)Previous server mode',
-'bugr_Report a bug' => 'Einen Fehler melden',
+# ORPHANED (no longer in bugreport_en.lex; kept for reference, commented out by lex-to-po.pl): 'bugr_Report a bug' => 'Einen Fehler melden',

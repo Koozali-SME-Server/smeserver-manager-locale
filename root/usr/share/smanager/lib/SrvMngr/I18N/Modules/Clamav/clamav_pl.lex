@@ -7,4 +7,4 @@
 'clm_NEVER' => 'Nigdy',
 'clm_DAILY' => 'Codziennie',
 'clm_SUCCESS' => 'Nowe ustawienia ochrony antywirusowej zostały zapisane.',
-'clm_Antivirus (ClamAV)' => 'Antywirus (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'Antywirus (ClamAV)',

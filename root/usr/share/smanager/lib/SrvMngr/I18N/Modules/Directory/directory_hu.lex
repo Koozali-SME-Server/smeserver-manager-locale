@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Az új LDAP alapértelmezések le lettek mentve.',
 'dir_LEAVE' => 'Változatlanul hagyni',
 'dir_UPDATE' => 'Az új beállítások használata',
-'dir_Directory' => 'Címtár',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Címtár',

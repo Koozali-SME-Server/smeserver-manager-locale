@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Domains module\n"
+"POT-Creation-Date: 2026-08-21 10:15+0100\n"
+"PO-Revision-Date: 2026-08-21 10:15+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-cn\n"
+
+msgid "dom_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this domain ?"
+
+msgid "dom_ADD_DOMAIN"
+msgstr "添加域名"
+
+msgid "dom_CONTENT"
+msgstr "[_1] i-bay"
+
+msgid "dom_CONTENT_FIELD_DESCRIPTION"
+msgstr "对于web站点，您可以选择您的主站点或者i-bay作为网站的内容。"
+
+msgid "dom_CREATE_TITLE"
+msgstr "创建一个新域名"
+
+msgid "dom_CURRENT_DOMAINS"
+msgstr "当前域名列表"
+
+msgid "dom_DESC_CORPORATE_DNS"
+msgstr "如果服务器没有接入因特网，或者对于DNS解析有特别的需要，请在此处输入DNS服务器的IP地址。除非有特别的原因，这些字段应该留空。您不需要在此处输入ISP的DNS服务器，因为本服务器可以解析所有因特网域名而不需要额外设置。"
+
+msgid "dom_DESC_CORPORATE_DNS_CURRENT"
+msgstr " Corporate DNS 设置 "
+
+msgid "dom_DESC_NAMESERVERS"
+msgstr "域名解析既可以通过本地缓存外部DNS服务器，也可以直接被外部DNS服务器解析。默认值适用于大多数网络。"
+
+msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
+msgstr "修改企业 DNS 设置"
+
+msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
+msgstr "错误：在domain名称[_1]中缺少必要的字符。未能创建新域。"
+
+msgid "dom_DOMAIN_IN_USE_ERROR"
+msgstr "错误：domain [_1] 已在使用中。未能创建新域。"
+
+msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
+msgstr "错误：在domain名称[_1]中缺少必要的字符。此domain名称应该包含一个或者多个字母、数字、句点和分隔号。未能创建新domain。"
+
+msgid "dom_ERROR_CREATING_DOMAIN"
+msgstr "(en) Error creating domain"
+
+msgid "dom_ERROR_MODIFYING_DOMAIN"
+msgstr "(en) Error modifying domain"
+
+msgid "dom_ERROR_UPDATING"
+msgstr "(en) Error updating"
+
+msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
+msgstr "错误：删除域名 [_1] 时出现内部错误。"
+
+msgid "dom_FORM_DESCRIPTION"
+msgstr " 每当创建一个域名，服务器将会收到一份该域名的邮件，并可以为此域名建立网站。\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">添加域名</a> "
+
+msgid "dom_FORM_TITLE"
+msgstr "域名管理"
+
+msgid "dom_LABEL_CORPORATE_DNS_PRIMARY"
+msgstr "主DNS服务器"
+
+msgid "dom_LABEL_CORPORATE_DNS_SECONDARY"
+msgstr "第二DNS服务器"
+
+msgid "dom_LABEL_NAMESERVERS"
+msgstr "DNS服务器"
+
+msgid "dom_MODIFY_TITLE"
+msgstr "修改domain"
+
+msgid "dom_NONEXISTENT_DOMAIN_ERROR"
+msgstr "错误: [_1] 已经存在。"
+
+msgid "dom_PRIMARY_SITE"
+msgstr "主站点"
+
+msgid "dom_REMOVE_DESCRIPTION"
+msgstr "  即将删除域名 [_1] ([_2]). \n\n  <p> <b>是否真的要删除这个域名？</b> </p>\n\n  "
+
+msgid "dom_REMOVE_TITLE"
+msgstr "删除域名"
+
+msgid "dom_SUCCESSFULLY_CREATED"
+msgstr "成功修改了域[_1]。您的web服务器现正重新启动。此页面上的链接将会失效，直到web服务器重启完毕。"
+
+msgid "dom_SUCCESSFULLY_DELETED"
+msgstr "成功删除域名[_1]。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。"
+
+msgid "dom_SUCCESSFULLY_MODIFIED"
+msgstr "成功修改了域名[_1]。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。"
+
+msgid "dom_SYSTEM_DOMAIN_ERROR"
+msgstr "错误：域 [_1]是您系统的域名。您不能创建一个同名域。未能创建新域。"
+
+msgid "dom_corporate"
+msgstr "外部DNS服务器"
+
+msgid "dom_internet"
+msgstr "外部DNS服务器"
+
+msgid "dom_localhost"
+msgstr "本地解析"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dom_BUTTON_CORPORATE_DNS"
+#~ msgstr " 如果服务器不访问因特网，或者您对于DNS解析有特别的需要，请在此处输入DNS服务器IP地址。您不需要在此处输入ISP的DNS服务器地址，因为本服务器可以解析所有因特网域名而不需要附加设置。\n\n  <p> <a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns\">修改DNS设置</a> "
+#~ msgid "dom_CURRENT_LIST_OF_DOMAINS"
+#~ msgstr "当前域名列表"
+#~ msgid "dom_NO_VIRTUAL_DOMAINS"
+#~ msgstr "系统中暂时还没有域名。"
+#~ msgid "dom_REMOVE_DESC"
+#~ msgstr "即将删除域："
+#~ msgid "dom_REMOVE_DESC2"
+#~ msgstr "您真的要删除这个域吗？"

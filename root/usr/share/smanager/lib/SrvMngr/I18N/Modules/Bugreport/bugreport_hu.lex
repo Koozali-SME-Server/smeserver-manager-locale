@@ -20,5 +20,5 @@
 'bugr_CONSIDER_DONATING' => 'Kérjük, fontolja meg a projekthez való anyagi hozzájárulást az alábbi képre kattintva:',
 'bugr_THANK_YOU' => 'Köszönjük a támogatását!',
 'bugr_Download this report' => 'Töltse le ezt a jelentést !',
-'bugr_Report a bug' => 'Hiba bejelentése',
+# ORPHANED (no longer in bugreport_en.lex; kept for reference, commented out by lex-to-po.pl): 'bugr_Report a bug' => 'Hiba bejelentése',
 'bugr_PREVIOUS_SERVER_MODE' => '(en)Previous server mode',

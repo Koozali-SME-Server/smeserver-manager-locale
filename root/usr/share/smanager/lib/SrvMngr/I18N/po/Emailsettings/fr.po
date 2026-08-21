@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "Paramètres d’accès à l’e-mail enregistrés avec succès"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Personnalisé"
+
+msgid "mai_DEFAULT"
+msgstr "Par défaut"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "Paramètres de livraison des e-mails enregistrés avec succès"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Vous pouvez bloquer les pièces jointes exécutables contenues dans les courriels en sélectionnant les types de pièces jointes que vous souhaitez bloquer. Les courriels contenant ces types de fichiers attachés seront automatiquement renvoyés à l'expéditeur."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Serveurs de messagerie électronique délégués Votre serveur inclut un serveur de messagerie électronique complet et doté de toutes les fonctionnalités. Cependant, si, pour une raison quelconque, vous souhaitez déléguer le traitement des courriels à un autre système, veuillez indiquer ici le nom d'hôte ou l'adresse IP du système délégué. Pour un fonctionnement normal, vous pouvez laisser ce champ vide. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "Pour les modes de récupération ETRN ou multipoint, vous pouvez contrôler la fréquence à laquelle ce serveur contacte votre serveur de messagerie électronique secondaire pour récupérer les courriels. Des connexions plus fréquentes signifient que vous recevrez vos courriels plus rapidement. Toutefois, cela va engendrer des envois plus fréquents de requêtes sur Internet, ce qui risque d'augmenter vos frais de téléphonie et d'Internet."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "Vous pouvez contrôler les accès au serveur IMAP. La valeur \"Autoriser l'accès privé\" n'autorise l'accès que depuis les réseaux locaux. Le réglage IMAPS permet d'offrir un accès externe crypté à votre serveur IMAP. Nous vous recommandons de conserver la valeur \"Autoriser l'accès privé\" si vous n'avez pas un besoin spécifique de procéder différemment."
+
+msgid "mai_DESC_MODE"
+msgstr "La méthode de récupération des courriels peut être définie à \"standard\" (pour les connexions Internet dédiées), \"ETRN\" (recommandé pour les connexions par ligne téléphonique commutée) ou \"multipoint\" (pour les connexions par ligne téléphonique commutée si ETRN n'est pas pris en charge par votre Fournisseur d'Accès à Internet). Veuillez noter que le mode multipoint est la seule option disponible lorsque le serveur est configuré en mode serveur privé et passerelle."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "Habituellement 25, 587 ou 467. Si laissé vide, la valeur part défaut 25 sera utilisée."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "Vous pouvez contrôler les accès au serveur POP3. La valeur \"Autoriser l'accès privé\" n'autorise l'accès que depuis les réseaux locaux. Le réglage POP3S peut être utilisé pour offrir un accès externe crypté à votre serveur POP3. Nous vous recommandons de conserver la valeur \"Autoriser l'accès privé\" si vous n'avez pas un besoin spécifique de procéder différemment."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " Paramètres ETRN ou multipoint Pour les modes de récupération ETRN ou multipoint, veuillez taper ci-dessous le nom d'hôte ou l'adresse IP de votre serveur de messagerie électronique secondaire. Si vous utilisez une configuration standard pour votre messagerie, vous pouvez laisser ce champ vide. "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " Serveur SMTP Le serveur peut envoyer les courriels sortants directement à leur destinataire (recommandé dans la plupart des cas) ou bien les transmettre en passant par le serveur SMTP de votre fournisseur d'accès (recommandé si votre connexion Internet n'est pas fiable ou si votre accès Internet est filtré). Si vous souhaitez exploiter le serveur SMTP de votre fournisseur d'accès, veuillez taper son nom d'hôte ou son adresse IP ci-dessous. Sinon, laissez ce champ vide. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " Vous pouvez fournir un accès avec authentification à votre serveur SMTP, ou désactiver cette option. Les réglages SSMTP nécessitent que tous utilisateurs utilisent une authentification SSL/TLS. L'option SMTP/SSMTP permettent aussi l'utilisation de STARTTLS pour permettre une authentification sécurisée. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "Le système permet de filtrer les pourriels. Si le filtre de pourriel est activé, un en-tête X-Spam-Status: est ajouté dans chaque courriel. Cet en-tête pourra ensuite être utilisé pour filtrer les pourriels. Vous pouvez ajuster la sensibilité du processus de filtrage des pourriels, la valeur par défaut correspondant à une sensibilité moyenne. Pour un contrôle plus fin, vous pouvez adapter la sensibilité et choisir un niveau de marquage personnalisé et éventuellement un niveau à partir duquel les courriels doivent être rejetés."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "Vous pouvez autoriser l'ajout d'un préfixe au sujet de tout courriel identifié comme pourriel. Vous pouvez définir ce préfixe ci-dessous."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr "Modifier les paramètres d'accès à la messagerie"
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr "Modifier les paramètres de livraison des courriels"
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr "Modifier les paramètres de filtrage des courriels"
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr "Modifier les paramètres de réception des courriels"
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Destinataires Inconnus Veuillez définir le comportement que doit avoir le serveur face à des courriels destinés à des destinataires inconnus. Sélectionnez \"Refuser les courriels\" (valeur recommandé pour n'accepter que des courriels pour des destinataires valides (utilisateurs, groupes, pseudonymes). Le serveur renverra alors un message d'erreur à l'expéditeur. Si vous sélectionnez \"Envoyer à..\", ces courriels seront transmis à l'utilisateur spécifié. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "Le système peut rechercher la présence de virus dans les courriels et soit rejeter soit mettre en quarantaine ceux qui sont infectés."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "Vous pouvez activer ou désactiver l'accès à la messagerie par interface Web sur ce système. La messagerie Web permet aux utilisateurs d'accéder à leurs courriels à l'aide d'un navigateur Web standard. Pour cela, il leur suffit de taper l'adresse https://[_1]/webmail et de se connecter avec leurs paramètres de compte."
+
+msgid "mai_E-Mail"
+msgstr "Courriel"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "Autoriser HTTPS (accès sécurisé uniquement)"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP avec requête client)"
+
+msgid "mai_EVERY15MIN"
+msgstr "Toutes les 15 minutes"
+
+msgid "mai_EVERY2HRS"
+msgstr "Toutes les 2 heures"
+
+msgid "mai_EVERY30MIN"
+msgstr "Toutes les 30 minutes"
+
+msgid "mai_EVERY5MIN"
+msgstr "Toutes les 5 minutes"
+
+msgid "mai_EVERYHOUR"
+msgstr "Toutes les heures"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "Paramètres de filtrage des e-mails enregistrés avec succès"
+
+msgid "mai_FORWARD_TO"
+msgstr "Envoyer à"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "Envoyer à l'administrateur"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Haut"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "Autoriser IMAP et IMAPS en accès privé et public"
+
+msgid "mai_INSECURE_POP3"
+msgstr "Autoriser POP3 et POP3S en accès privé et public"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "Le nom d'hôte que vous avez tapé n'est pas un nom de domaine valide et ce champ ne doit pas être laissé vide."
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Blocage des pièces jointes exécutables"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Pièces jointes à bloquer"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Adresse du serveur de messagerie délégué"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "Pendant les heures de bureau (08h00 à 18h00) en semaine"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "En dehors des heures de bureau (18h00 à 08h00) en semaine"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "Pendant le week-end"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "Accès au serveur IMAP"
+
+msgid "mai_LABEL_MODE"
+msgstr "Méthode de récupération des courriels"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "Accès au serveur POP3"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "Nom du compte POP (pour le mode multipoint)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "Mot de passe du compte POP (pour le mode multipoint)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "Serveur de messagerie électronique secondaire"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "Adresse du serveur de messagerie du FAI (ISP)"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Mot de passe de messagerie"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "Port du serveur de messagerie du FAI (ISP)"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "Authentification SMTP auprès du FAI (ISP)"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "Compte de messagerie"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Envoyer les pourriels dans la corbeille"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "En-tête de tri (pour le mode multipoint)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Méthode de tri (pour le mode multipoint)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Niveau de rejet personnalisé"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Filtre anti pourriel"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Sensibilité du filtre"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "Préfixe du sujet des pourriels"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "Modifier le sujet des pourriels"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Niveau personnalisé de marquage"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "Courriels destinés à des utilisateurs inconnus"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Détection de virus"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Accès à l'interface de messagerie Web"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Bas"
+
+msgid "mai_MEDIUM"
+msgstr "Moyen"
+
+msgid "mai_MULTIDROP"
+msgstr "Multipoint"
+
+msgid "mai_NEVER"
+msgstr "Jamais"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "Autoriser HTTPS (sécuritaire) depuis les réseaux locaux"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "Paramètres de réception des e-mails enregistrés avec succès"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Refuser les courriels"
+
+msgid "mai_SECURE_IMAP"
+msgstr "Autoriser uniquement IMAPS (sécurisé) en accès privé et public"
+
+msgid "mai_SECURE_POP3"
+msgstr "Autoriser uniquement POP3S (sécurisé) en accès privé et public"
+
+msgid "mai_SECURE_SMTP"
+msgstr "Autoriser uniquement SSMTP (securisé) en accès privé et public"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Spécifiez ci-dessous"
+
+msgid "mai_STANDARD"
+msgstr "Standard (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "État du port de soumission %u :"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Déléguer les serveurs de messagerie"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "Paramètres ETRN ou multi-drop"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "Serveur SMTP"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Utilisateurs inconnus"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "Ce champ ne peut pas être laissé vide si l'authentification SMTP est activée."
+
+msgid "mai_VERYHIGH"
+msgstr "Très haut"
+
+msgid "mai_VERYLOW"
+msgstr "Très bas"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "E-mail"
+#~ msgstr "Messagerie électronique"
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Autoriser accès privé"
+#~ msgid "mai_AUTO"
+#~ msgstr "Automatique"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "Pour la récupération multipoint des courriels, veuillez indiquer le nom et le mot de passe du compte POP. Si vous utilisez une méthode de récupération standard ou ETRN, vous pouvez laisser ces champs vides. De plus, pour la récupération des courriels en mode multipoint, vous pouvez utiliser le mode de tri par défaut du serveur ou bien spécifier un en-tête spécifique de message qui sera utilisé pour trier les courriels."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " Accès à la messagerie "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " Envoi des courriels "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " Réception des courriels "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Autoriser HTTP et HTTPS"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "Configuration de la messagerie électronique"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "Autoriser SMTP et SSMTP en accès privé et public"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Protocole (pour le mode multipoint)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Tunnel SSL (pour le mode multipoint)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "Authentification SMTP"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "Les nouveaux paramètres de messagerie électronique ont été enregistrés."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "Ce champ doit contenir une adresse de courriel valide composée du caractère @ et d'un nom de domaine."

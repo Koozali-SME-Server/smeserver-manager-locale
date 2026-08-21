@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "備份或還原"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "所有的備份"
+
+msgid "bac_AM"
+msgstr "上午"
+
+msgid "bac_AM/PM"
+msgstr "上午／下午"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "其他還原進行中...請稍後再試。"
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "定期磁帶備份將執行於："
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "顯示選定的檔案"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "備份的設定與狀態"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr " <p>提供三種方法來備份和還原您的伺服器：使用磁帶機、使用網路分享磁碟、本機可移除式磁碟，或區網桌機。</p>\n\n  <p>磁帶備份。此法使用的軟體套件稱為<i>[_1]</i>用以每夜備份整顆硬碟到磁帶。這需要支援的磁帶機與非寫入保護的磁帶。此備份自動運作於每夜特定的時間（伴隨著白天寄給管理者的自動提醒電郵）。此時您的硬碟涵蓋<b>[_2]</b>的資料。</p>\n\n  <p>工作站備份。此法使用的軟體套件稱為<i>dar</i>用以備份您伺服器的設定檔與資料檔到網路分享空間或如同USB碟的可移除式磁碟。您可管理備份的滾動式設定組有多少被保留，以及每個設定組擁有多少增量式備份。此備份自動運作於每日特定的時間。當下您的設定與資料檔案全部接近<b>[_3]</b>未壓縮量。兩次壓縮數據的大小需在分享空間容量內。</p>\n\n  <p>備份到桌機。此法複製您伺服器設定檔與使用者資料，並透過網路瀏覽器下載到您的本地端桌機。當下您的設定與資料檔案全部接近<b>[_3]</b>。備份資料將稍微小於此量，這是根據有多少資料可被壓縮而來。倘若您複製到本地端可移除式磁碟如USB隨身碟，此檔可透過終端機被用來還原伺服器。</p>\n\n  <p>所有的備份方法允許您還原您的設定檔與使用者資料檔。工作站備份提供個別檔案的還原。<b>實際上，完全還原應該運用於新安裝的伺服器</b>。</p>\n\n  "
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "您的伺服器有太多資料，以至於無法可靠地備份到桌機。 "
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "備份檔不完整"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "備份或還原伺服器資料"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "請選擇0到12小時。"
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "請選擇0到59分鐘。"
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "注意：對於大量備份，驗證完整性可能耗時冗長，而且極有可能導致每日工作站備份暫時取消。"
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "點選此處以測試所選備份檔，進行完全還原所需之完全備份的完整性"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "備份壓縮程度~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "請設定備份設定檔。"
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "設定磁帶備份"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "設定工作站備份"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "您能設定工作站上後繼自動循環的備份設定之次數。每一設定可包含幾個連續數日的儲存資料。在此例中，第一次備份設定是完全備份，其餘每日備份則是屬於增量備份。您也可為一般備份或僅針對增量備份設定時間限制。當時間限制一到，一般備份只是很單純的直接停止，增量備份則是可以在下次備份執行時，繼續備份上次未儲存與後續異動的資料。"
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "不能解碼備份檔："
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "不能執行備份管線："
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "無法產生子行程："
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "備份到桌機"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "從桌機還原"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr "該程序將從本地桌機上傳伺服器備份檔到您的伺服器，並將還原覆蓋設定檔與使用者資料檔。本還原應當被執行於全新安裝的伺服器。"
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "檢查桌機的備份檔"
+
+msgid "bac_DOW"
+msgstr "週日 週一 週二 週三 週四 週五 週六 每日"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "啟用／禁用夜間磁帶備份"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "啟用／禁止每日工作站備份"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "啟用磁帶備份"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "啟用工作站備份"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "讀取檔案時出錯，檔案來自"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "參數已被儲存，然而遠端主機無法聯繫，請檢視您的設定。"
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "備份目錄已經掛載"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "當設置備份事件時發生錯誤。"
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "當使用Dar類別時發生錯誤"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "使用 Dar 解壓縮時發生錯誤"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "壓縮程度必須設定介於0（無壓縮）或9（最大壓縮）"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "數量必須大於等於1。設定中的第一次備份是完整備份其餘則是增量備份"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "錯誤的共享名稱"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "錯誤：無效的備份小時數目："
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "錯誤的登入"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "錯誤：無效的備份分鐘數目："
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "錯誤的密碼"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "錯誤：無效的提醒小時數目："
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "錯誤：無效的提醒分鐘數目："
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "錯誤的日期格式，必須為~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]，例如：2005/12/31-08:23:32或10-08:32或08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "設定的數量必須大於等於1"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "最大備份時間必須設定介於1到24小時"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "錯誤的工作站位址或主機名稱"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "無法掛載工作站共享資料夾"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "備份目錄尚未掛載"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "還原終止乃肇因於所需的完整備份遺失或無法讀取。"
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "您主機的共享文件夾無目錄，也許您的主機名稱與備份的不同"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "還原終止乃肇因於所需的設備遺失或無法讀取增量備份數目"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "錯誤：無可用磁碟。請連接磁碟或選擇其他備份類型。"
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "錯誤：沒有可移除磁碟。請連接可移除磁碟或選擇其他備份類型。"
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "備份結束時發生錯誤。"
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "初始化備份時發生錯誤。"
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "初始化還原時發生錯誤。"
+
+msgid "bac_ERR_READING_FILE"
+msgstr "讀取備份檔時發生錯誤。"
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "從磁帶還原檔案時發生錯誤。"
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "從工作站還原檔案時發生錯誤。"
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "還原'www'的gid時發生錯誤"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "還原'www'的初始化群組時發生錯誤。"
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "磁帶還原後，更新系統設定檔發生錯誤。"
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "工作站還原後，更新系統設定時發生錯誤。"
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "卸載遠端共享文件時發生錯誤"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "下列檔案與目錄已還原："
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "下列檔案被認為是備份檔案："
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "欲還原的備份檔源自"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "名稱過濾乃依據"
+
+msgid "bac_FINISHED_AT"
+msgstr "結束於："
+
+msgid "bac_FREE_SPACE"
+msgstr " 您的伺服器大約還剩 $tmpfree 空間。還原前，請檢查桌機備份檔是否小於 $halffree 。 "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "允許完整備份於"
+
+msgid "bac_HOURS"
+msgstr "小時。"
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "請勿結束完全備份"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "每日載入磁帶的提醒時間（時／分）"
+
+msgid "bac_LOGIN"
+msgstr "登入者是"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "系統還原後，您必須重啟伺服器。"
+
+msgid "bac_Mounted disk"
+msgstr "已掛載磁碟"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "您的伺服器設定與使用者檔案資料正從磁帶還原中。"
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "您的伺服器設定與使用者檔案資料現正從工作站分享文件夾中還原。"
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "已設置的工作站分享文件夾沒有備份設定。請驗證您的設定。"
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "該使用者無法獲得uid："
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "每一設定中的每日備份"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "循環備份設定的數量"
+
+msgid "bac_No suitable local devices found"
+msgstr "找不到合適的本機裝置"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " 此頁面將在 [_1] 秒內更新， 或點選此處。"
+
+msgid "bac_PASSWORD"
+msgstr "密碼是"
+
+msgid "bac_PM"
+msgstr "下午"
+
+msgid "bac_READ_COMPLETE"
+msgstr "您可以在列表中選擇您想要還原的目錄和文件（使用ctrl鍵或shift鍵可多選）。 注意：倘若您選擇目錄，其所包含的檔案與目錄將被還原。 系統預設還原選訂檔案的最新版本，如果您指定日期~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]，程序將只會還原在指定日期之前異動的最新版本。 "
+
+msgid "bac_REBOOT"
+msgstr "重新啟動"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "更新顯示"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "提醒訊息將被送出於："
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "無法還原伺服器的設定檔"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "系統還原完成"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "系統還原已完成"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "從磁帶備份中還原伺服器設定"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr "<p>該程序將從伺服器的磁帶備份中還原設定檔與使用者資料。<b>該還原應當執行於全新安裝的伺服器</b>。</p>\n\n  <p>執行前，請確認您已載入想要還原的磁帶於磁帶機中。</p>\n\n  <p>還原完成後，您必須重啟伺服器。</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "從工作站備份中還原伺服器設定"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr "<p>該程序將從伺服器的工作站備份中還原設定檔與使用者資料。<b>該還原應當執行於全新安裝的伺服器</b>。</p>\n\n  <p>還原前，請確認您已選擇正確的備份檔。</p>\n\n  <p>還原完成後，您必須重啟伺服器。</p>\n\n  備份文件將還原自："
+
+msgid "bac_RESTORE_FAILED"
+msgstr "系統還原失敗！備份檔不完整。"
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "系統還原失敗！讀取備份檔時發生錯誤。"
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "從磁帶還原"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "從工作站還原"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "系統還原進行中..."
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "系統還原進行中。其開始於："
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "系統還原後，您必須重啟伺服器。當螢幕顯示「還原完畢」時，表示您的還原操作已經完成。"
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "還原伺服器設定"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "完整性驗證發生錯誤"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "從磁帶還原進行中"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "正從工作站還原中"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "選擇一項操作"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "選擇備份檔"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "還原最近的備份"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "選擇欲還原的檔案"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "為備份目標選擇共享類型"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "重啟伺服器"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "您的伺服器將重啟。"
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "備份共享"
+
+msgid "bac_STARTED_AT"
+msgstr "其開始於："
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "成功禁用磁帶備份"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "成功禁用工作站備份"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "成功啟用磁帶備份"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "成功啟用工作站備份"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "磁帶備份是"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "每日磁帶備份時間（時／分）"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "設定磁帶備份"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>選擇是否啟用夜間備份功能，然後指定欲備份與載入磁帶的時間。</p>\n\n  <p>磁帶備份需要受支援的磁帶機。倘若磁帶機是空的，警示訊息將在指定的提醒時間傳送給管理員。</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "從磁帶還原"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "測試備份的完整性"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "測試所選備份檔，進行完全還原所需之完全備份的完整性"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "無法還原伺服器設定"
+
+msgid "bac_UPDATE_CONF"
+msgstr "更新"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "更新磁帶備份設定"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "更新工作站備份設定"
+
+msgid "bac_VERIFY"
+msgstr "確認"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>該選項顯示先前桌機備份檔所使用過的名稱。您可使用該選項以驗證備份內容。</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "驗證完成"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr "<p>該選項將顯示之前工作站每日備份檔的所有檔名。您能使用該選項以驗證備份內容。<b>您必須選擇欲驗證的備份檔。</b></p>\n\n  <p>只有當檔案被標記為~[Saved~]時，才會被包含於備份中。</p>\n\n  <br/>來自以下共享文件夾的檔案已經被驗證："
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "驗證工作站備份"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "備份時間："
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "載入磁帶提醒時間："
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "定期工作站備份將執行於："
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "備份工作站設定"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "新增或變更工作站的備份設定"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "工作站備份為："
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "備份的壓縮程度（0-9）是"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "每一設定包含的每日備份數量為"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>此介面顯示當前工作站備份設定。您可在此介面與下個介面修改。</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "備份乃"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "備份到LAN的工作站"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "除了24小時以後超時的完全備份之外"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "備份已經完成於掛載的硬碟"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>此時，工作站備份尚未被設定。您可以在此介面與下個介面中設定。</p>\n\n  <p/>"
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "循環備份的設定數量為"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "工作站備份設定"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "備份共享文件夾的目的地為"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "每日工作站備份時間（時／分）"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "每一個每日備份階段完全超時的時間為"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "每日的備份發生於"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "備份到本地的USB碟。"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "透過"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "設定工作站備份"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "完整備份階段（新備份設定）僅允許在"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "完整備份階段（新備份設定）允許每日執行"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "登入名稱"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "工作站位址或主機名稱"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "您必須先正確設定您的工作站備份"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "從工作站還原"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "工作站選定的還原檔案"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "來自工作站選定的還原檔案"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " 該程序將還原指定的文件和目錄。您必須先選擇要還原的備份文件。倘若您不知道要選擇哪個備份文件，您可以選擇 「完全備份」選項。 下個介面將會顯示可用的文件和目錄，您可以選擇需要還原的項目。為了限制介面中顯示的文件和目錄數量，您有一個過濾選項，可用來規範所顯示的名稱。 您有義務不因還原檔案而中斷伺服器的工作。 現在，文件將還原自："
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "選擇性備份時間結束（小時）"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "驗證工作站備份"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X備份或還原伺服器資料"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "您必須重啟伺服器，以便啟動因系統還原而導致的系統設定異動。"
+
+msgid "bac_cifs"
+msgstr "網路芳鄰"
+
+msgid "bac_local removable disk"
+msgstr "本地的可移除磁碟"
+
+msgid "bac_nfs"
+msgstr "網路檔案系統"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>伺服器提供兩種方式以備份與還原您的伺服器：使用桌機或磁帶。</p>\n\n  <p>第一種方式是建立伺服器設定與使用者資料檔的副本，然後透過網路瀏覽器下載到本地桌機。當前全部的設定檔與資料檔的容量大約<b>[_3]</b>。實際備份檔案將略小於此數字，這取決於壓縮比例。\\\"驗證桌機備份檔\\\" 選項用於檢查桌機備份檔的完整性。</p>\n\n  <p>磁帶備份方式是在每天晚上使用<i>[_1]</i>的軟體套件備份整個硬碟到磁帶。這需要受支援的磁帶機與未被寫入保護的磁帶。備份將在每晚指定的時間自動執行（白天會自動電郵以提醒管理員）。目前您的硬碟包含<b>[_2]</b>容量的資料。</p>\n\n  <p>兩種還原方式皆允許您還原您的設定檔與使用者資料檔。<b>理論上，還原應當執行於全新安裝的伺服器</b>。</p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "備份或是還原"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " 磁帶備份 被禁止 "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr "目前磁帶備份被啟用。"
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " 工作站備份 無法啟用 "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " 工作站備份當下已啟用。"

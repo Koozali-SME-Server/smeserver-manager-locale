@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Viewlogfiles module\n"
+"POT-Creation-Date: 2026-08-21 10:25+0100\n"
+"PO-Revision-Date: 2026-08-21 10:25+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+
+msgid "LOG_LIVESTREAM"
+msgstr "(en) Live stream"
+
+msgid "log_END_DESC"
+msgstr "Имайте предвид, че може да отнеме доста време за създаването на тези отчети."
+
+msgid "log_ERR_NOEXIST_FILE"
+msgstr "(en) Err noexist file"
+
+msgid "log_ERR_NOOPEN_FILE"
+msgstr "(en) Err noopen file"
+
+msgid "log_FILENAME_ERROR"
+msgstr " Грешка при задаване на име на файла с журнал.\n\n  <p>Невалиден тип на отчета \"[_1]\".</p>\n\n  "
+
+msgid "log_FILTER_PATTERN_DESC"
+msgstr " Можете по желание да зададете шаблон за филтриране за да покажете само редовете от файла с журнала, които отговарят на шаблона. Ако оставите тов аполе празно, ще се покажат всички редове от файла с журнала. Имайте предвид, че тази възможност не важи при сваляне на файловете с журнали.\n\n  "
+
+msgid "log_FILTER_PATTERN_HINT"
+msgstr "(en) The pattern is case insensitive, but enclosing it in \"/\" will result in it being treated as a regex."
+
+msgid "log_FILTER_PATTERN_LABEL"
+msgstr "Шаблон за филтриране (по желание)"
+
+msgid "log_FIRSTPAGE_DESC"
+msgstr " Този панел позволява прегледа и свалянето на файловете с журнали, създадени от услугите, работещи на сървъра "
+
+msgid "log_FORM_TITLE"
+msgstr "Преглед на лог файлове"
+
+msgid "log_HIGHLIGHT_HEADER"
+msgstr "Показване на редовете отговарящи на: \"[_1]\"."
+
+msgid "log_LOG_FILE_EMPTY"
+msgstr "Файлът с журнал \"[_1]\" е празен!"
+
+msgid "log_LOG_FILE_SELECT_DESC"
+msgstr "Изберете файл с журнал за разглеждане"
+
+msgid "log_MATCH_HEADER"
+msgstr "Показване на редовете отговарящи на: \"[_1]\"."
+
+msgid "log_MATCH_PATTERN_DESC"
+msgstr " Можете също ако желаете да зададете шаблон за засветяване за да отбележите с получерно редовете от файла с журнал, които отговарят на шаблона за засветяване. Шаблонът за засветяване се прилага към всеки ред, който вече отговаря на шаблона за филтриране. Имайте предвид, че тази възможност не се използва при сваляне на файловете с журнали.\n\n  "
+
+msgid "log_MATCH_PATTERN_LABEL"
+msgstr "Шаблон за засветяване (по желание)"
+
+msgid "log_NO_MATCHING_LINES"
+msgstr "Няма отговарящи редове."
+
+msgid "log_OP_DESC"
+msgstr " Трябва да изберете между разглеждане на файла с журнал в браузъра и свалянето му в компютъра. Ако файла е особено голям, можете да го свалите вместо да се опитвате да го отворите в браузъра, защото това е проблем за някои от браузърите.\n\n  "
+
+msgid "log_OP_LABEL"
+msgstr "действие"
+
+msgid "log_REFRESH"
+msgstr "Обновяване на този файл с журнал."
+
+msgid "log_VIEW"
+msgstr "Разглеждане на файл с журнал"
+
+msgid "log_VIEWING_TIME"
+msgstr "Показан в [_1]."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "log_DOWNLOAD_FILE"
+#~ msgstr "Подготвя се свалянето на файл с журнал [_1]."
+#~ msgid "log_DOWNLOAD_PAGE_DESC"
+#~ msgstr " Подготвя се свалянето на файловете с журнали. То ще продължи след като натиснете бутона &quot;Продължи&quot; по-долу, и укажете на браузъра да започне свалянето в прозореца, който ще изкочи.\n\n  "
+#~ msgid "log_View log files"
+#~ msgstr "Разглеждане на файловете с журнали"

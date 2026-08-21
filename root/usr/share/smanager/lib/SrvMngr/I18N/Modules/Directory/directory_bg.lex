@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Новите подразбиращи се настройки на LDAP бяха записани.',
 'dir_LEAVE' => 'Да останат както са',
 'dir_UPDATE' => 'Актуализане с новите подразбиращи',
-'dir_Directory' => 'директория',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'директория',

@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Varnostno kopiranje ali obnovitev"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Vse varnostne kopije"
+
+msgid "bac_AM"
+msgstr "DOP"
+
+msgid "bac_AM/PM"
+msgstr "DOP/POP"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "Neko drugo restavriranje je trenutno v teku. Prosimo poizkusite se enkrat kasneje."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "Vsakodnevno arhiviranje bo izvrseno ob:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Izbiranje datotek za prikaz"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Konfiguracija arhiviranja in njegov status"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr "(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>\n\n  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>\n\n  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>\n\n  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>"
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "(en)Your server has too much data for a reliable backup to desktop."
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "Arhivska datoteka je bila nepopolna"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Arhiviranje ali restavriranje podatkov streznika"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Prosimo izberite uro med 0 in 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Prosimo izberite minute med 0 in 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "(en)Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "(en)Check here to test integrity of all backups needed for a full restore with the selected backup"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Backup compression level ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Prosim, potrdite podrobnosti."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Konfiguriraj arhiviranje na trak"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Nastavi varnostno kopiranje delovne postaje"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "(en)You can set the number of successive backup sets to keep on the workstation, with automatic rotation. Each set may contain saved data for several consecutive days. In this case first backup of the set is full backup, others daily backups are incremental. You can also set a time limit for each backup session or for incremental backups only. When this limit occurs, backup is cleanly stopped and the next incremental backup will safely continue with unsaved and modified datas."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Ne morem dekodirati arhivske datoteke:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Ne morem izvrsiti arhiviranja:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Traku ne morem naloziti:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Arhiviranje na osebni racunalnik"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Restavriranje z osebnega racunalnika"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Ta proces bo nalozil arhivirane podatke in konfiguracijo streznika iz arhivske datoteke na vasem osebnem racunalniku. Restavriranje bi se naj izvedlo na novo instaliranem strezniku. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Preveri arhivsko datoteko na osebnem racunalniku"
+
+msgid "bac_DOW"
+msgstr "(en)Sunday Monday Tuesday Wednesday Thursday Friday Saturday Everyday"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Omogoci/Onemogoci nocno arhiviranje na trak"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Omogoči/onemogoči dnevno varnostno kopiranje delovne postaje"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Omogoci arhiviranje na trak"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Omogoči varnostno kopiranje delovne postaje"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Napaka pri branju datotek iz"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "Imenik za varnostne kopije je že priklopljen"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Pri konfiguraciji arhiviranja je prislo do napake."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Napaka pri uporabi kataloga Dar"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Napaka pri ekstrakciji z Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "(en)Compression level must be set between 0 (no compression) and 9 (maximum compression)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "This number must be 1 or greater. First backup in set is full others are incrementals"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Neveljavno ime skupne rabe"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Napaka: napacno izbrana ura arhiviranja:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Neveljavna prijava"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Napaka: napacno izbrana minuta arhiviranja:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Neveljavno geslo"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Napaka: napacno izbrana ura opomnika:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Napaka: napacno izbrana minuta opomnika:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Date format is invalid, must be ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "(en)Sets number must be 1 or greater"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "(en)Maximum backup time must be set between 1 and 24 hours"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "Neveljaven IP naslov delovne postaje ali ime gostitelja"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "(en)Unable to mount workstation shared folder"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Imenik za varnostne kopije ni priklopljen"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "(en)Aborting restore because needed full backup is missing or unreadable."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "(en)No directory for your host in shared folder. Maybe your host name is different from backup ones"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "(en)Aborting restore because the set has missing or unreadable incremental backup number"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "(en)Error : No mounted disk available. Please mount a disk or select another type of workstation backup."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "(en)Error : No removable disk available. Please connect a removable disk or select another type of workstation backup."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Po izvedbi arhiviranja je prislo do napake."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Pred izvedbo arhiviranja je prislo do napake."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Pred izvedbo restavriranja je prislo do napake."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Pri branju arhivske datoteke je prislo do napake."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Pri restavriranju datotek s traku je prislo do napake."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "Pri restavriranju datotek s traku je prislo do napake."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Pri restavriranju gid od 'www' je prislo do napake."
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Pri restavriranju skupine 'www' je prislo do zacetne napake."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Pri posodabljanju konfiguracijskih datotek iz ariva je prislo do napake."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "Pri posodabljanju konfiguracijskih datotek iz ariva je prislo do napake."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "(en)Error occurs when unmounting distant share"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "Naslednje datoteke in mape so bile restavrirane:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "Naslednje datoteke so vkljucene v arhivski datoteki:"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "Datoteka za restavriranje ..."
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Imena filtrirana po"
+
+msgid "bac_FINISHED_AT"
+msgstr "in koncalo ob:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Na strezniku imate na voljo $tmpfree prostora. Preverite, da je vasa arivska datoteka na osebnem racunalniku manjsa od $halffree , preden zacnete z restavriranjem. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Popolna varnostna kopija je dovoljena na"
+
+msgid "bac_HOURS"
+msgstr "ur"
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Ne prekinjajte sej popolne varnostne kopije zaradi časovne omejitve"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Opomnik za prazno tracno enoto (ura/min)"
+
+msgid "bac_LOGIN"
+msgstr "Prijava je"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Po koncanem restavriranju morate streznik ponovno zagnati."
+
+msgid "bac_Mounted disk"
+msgstr "Priklopljen disk"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "Restavriranje konfiguracije streznika in uporaniskih datotek se izvaja."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "Restavriranje konfiguracije streznika in uporaniskih datotek se izvaja."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "(en)There is no backup set on configured workstation shared folder. Verify your configuration settings."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "Ne morem pridobiti UID-ja za uporabnisko ime:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Dnevne varnostne kopije v vsakem naboru"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Število rotirajočih se naborov varnostnih kopij"
+
+msgid "bac_No suitable local devices found"
+msgstr "Ni najdenih primernih lokalnih naprav"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Ta stran se bo osvezila v [_1] sekundah. Ce se ne bo, kliknite tukaj. "
+
+msgid "bac_PASSWORD"
+msgstr "Geslo je"
+
+msgid "bac_PM"
+msgstr "POP"
+
+msgid "bac_READ_COMPLETE"
+msgstr " You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] the process will restore only the most recent version modified before the given date. "
+
+msgid "bac_REBOOT"
+msgstr "Ponoven zagon"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Osvezi ta zaslon"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "Opomnik bo poslan ob:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Z restavriranjem konfiguracije streznika ne morem nadaljevati"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Restavriranje je koncano"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Restavriranje je koncano"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Restavriraj konfiguracijo streznika s tracne enote"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>Ta proces bo prepisal vse podatke in konfiguracijske datoteke s tistimi iz arhivske datoteke. <b>Restavriranje se lahko izvede samo na sveze instaliranem strezniku</b>.</p>\n\n  <p>Zagotovite, da je v tracni enoti ustrezna arhivska kaseta, preden nadaljujete.</p>\n\n  <p>Po koncanem arhiviranju morate streznik ponovno zagnati.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Restavriraj konfiguracijo streznika s tracne enote"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>Ta proces bo prepisal vse podatke in konfiguracijske datoteke s tistimi iz arhivske datoteke. <b>Restavriranje se lahko izvede samo na sveze instaliranem strezniku</b>.</p>\n\n  <p>Zagotovite, da je v tracni enoti ustrezna arhivska kaseta, preden nadaljujete.</p>\n\n  <p>Po koncanem arhiviranju morate streznik ponovno zagnati.</p>\n\n  "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Restavracija je spodletela! Arhivska datoteka je bila nepopolna."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Restavriranje je spodletelo! Pri branju arhivske datoteke je prislo do napake."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Restavriranje s tracne enote"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Obnovi z delovne postaje"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Restavriranje je v teku"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Restavriranje je v teku. Zacelo se je ob:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Po koncanem restavriranju morate streznik ponovno zagnati. Restavriranje je koncano, ko je restavrirana datoteka /etc/smbpasswd in vidite napis \"Restavriranje je koncano\" na dnu vasega zaslona."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Restavriranje konfiguracije streznika"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Preveri datum in uro"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Restavriranje s tracne enote"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Obnavljanje iz delovne postaje"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Izberite ukrep"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Izberite arhivsko datoteko"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Obnovi najnovejšo pred tem"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Izberite datoteke za obnovitev"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "(en)Select the type of share for backup destination"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Ponoven zagon streznika"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Streznik se bo sedaj ponovno zagnal."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Skupna raba varnostne kopije"
+
+msgid "bac_STARTED_AT"
+msgstr "Zacelo se je ob:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Tracno arhiviranje je bilo onemogoceno"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Tracno arhiviranje je bilo onemogoceno"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Tracno arhiviranje je bilo uspesno aktivirano"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Tracno arhiviranje je bilo uspesno aktivirano"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Varnostne kopije na traku so"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Cas arhiviranja na trak (ura/min)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Konfiguriraj arhiviranje na trak"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Izberite, ce zelite omogociti nocno arhiviranje. Nato dolocite zeljeno uro za arhiviranje in zazenite opomnik za trak.</p>\n\n  <p>Arhiviranje na trak zahteva podprto tracno enoto. Na administratorjev naslov bo poslano opozorilo, v kolikor bo tracna enota prazna.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Restavriranje s traku"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Preverjanje celovitosti varnostne kopije"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "(en)Testing all backups needed for a full restore with selected backup"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Konfiguracije streznika ne morem restavrirati"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Posodobi"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Posodobi nastavitve za tracno arhiviranje"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Posodobi nastavitve za tracno arhiviranje"
+
+msgid "bac_VERIFY"
+msgstr "Preverjaj"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Ta opcija bo izpisala imena vseh datotek v predhodno narejenih arhivskih datotekah na osebnem racunalniku. To opcijo lako uporabite za preverjanje vsebine arhivske datoteke.</p>\n\n  <p>Zadnja datoteka v arhivu, bi morala biti datoteka z imenom \"smbpasswd\". </p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Preverjanje je koncano"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Ta opcija bo izpisala imena vseh datotek v predhodno narejenih arhivskih datotekah na osebnem racunalniku. To opcijo lako uporabite za preverjanje vsebine arhivske datoteke.</p>\n\n  <p>Zadnja datoteka v arhivu, bi morala biti datoteka z imenom \"smbpasswd\". </p>\n\n  "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Preveri varnostno kopijo delovne postaje"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "s casom arhiviranja:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "in opomnikom za prazno tracno enoto:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "Vsakodnevno arhiviranje bo izvrseno ob:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Varnostno kopiraj nastavitve delovne postaje"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "(en)Create or modify workstation backup configuration"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "Varnostne kopije delovnih postaj so"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "(en)Compression level (0-9) of backup is"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "(en)Number of daily backups contained in each set is"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>This panel displays the present workstation backup configuration. You can change it in this panel and the next one.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Varnostna kopija je"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "(en)Backup is made on LAN workstation"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "(en)except full backups which are cleanly timed out after 24 hours"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "(en)Backup is made on mounted disk"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "(en)Number of rotating backup sets is"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Nastavitve varnostnega kopiranja delovne postaje"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "Ciljna mapa v skupni rabi za varnostno kopiranje je"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "Cas arhiviranja na trak (ura/min)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "(en)Each daily backup session is cleanly timed out after"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Dnevno varnostno kopiranje se izvede ob"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "(en)Backup is made on local removable disk"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "via"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Nastavi varnostno kopiranje delovne postaje"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "(en)Full backup session (new backup sets) is allowed only on"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "(en)Full backup sessions (new backup set) are allowed everyday"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Uporabniško ime"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "IP ali ime gostitelja delovne postaje"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "(en)You must first correctly configure your workstation backup"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Obnovi z delovne postaje"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Selektivna obnovitev datotek delovne postaje"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Selektivna obnovitev datotek z delovne postaje"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don't know in which backup are the required files, you can select 'All backups' option.  The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names. You have the responsibility not to restore files which could break the functioning of your server. Currently, files will be restored from : "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Izbirna časovna omejitev seje varnostnega kopiranja (ure)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Preveri varnostno kopijo delovne postaje"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X Arhiviranje ali restavriranje podatkov s streznika"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "Streznik bo potrebno ponovno zagnati, da bodo stopile v veljavo spremembe, ki so rezultat spremenjenih konfigiracijskih datotek zaradi restavriranja."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "Krajevni odstranljivi disk"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>\n\n  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\\"Verify desktop backup file\\\" option can be used to check the integrity of a desktop backup file.</p>\n\n  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "Varnostno kopiranje ali obnovitev"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Arhiviranje na trak je trenutno onemogoceno "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Arhiviranje na trak je trenutno omogoceno. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " Arhiviranje na trak je trenutno onemogoceno "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " Arhiviranje na trak je trenutno omogoceno. "

@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "ACCESS"
+msgstr "Accès"
+
+msgid "ACCOUNT"
+msgstr "Compte"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "Il n'y a aucun groupe d'utilisateurs défini dans le système."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Le compte est verrouillé"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "Le nom d'utilisateur que vous avez tapé n'est pas valide."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "Le nom d'utilisateur que vous avez tapé contient des caractères non valides."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Changer le mot de passe du compte"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "Aucun compte utilisateur n'a été défini dans le système."
+
+msgid "ACTION"
+msgstr "Action"
+
+msgid "ADD"
+msgstr "Ajouter"
+
+msgid "APRIL"
+msgstr "Avril"
+
+msgid "AUGUST"
+msgstr "Août"
+
+msgid "Administration"
+msgstr "Administration"
+
+msgid "All rights reserved"
+msgstr "Tous droits réservés"
+
+msgid "BACK"
+msgstr "Retour"
+
+msgid "BACKUP"
+msgstr "Sauvegarde"
+
+msgid "CANCEL"
+msgstr "Annuler"
+
+msgid "COMMENT"
+msgstr "Commentaire"
+
+msgid "CONTENT"
+msgstr "Contenu"
+
+msgid "CREATE"
+msgstr "Créer"
+
+msgid "CREATE_GROUP"
+msgstr "Créer un groupe d'utilisateurs"
+
+msgid "Collaboration"
+msgstr "Collaboration"
+
+msgid "Configuration"
+msgstr "Configuration"
+
+msgid "DECEMBER"
+msgstr "Décembre"
+
+msgid "DESCRIPTION"
+msgstr "Description"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Brève description"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "Destination"
+
+msgid "DISABLED"
+msgstr "Désactivé"
+
+msgid "DOMAIN"
+msgstr "Domaine"
+
+msgid "DOMAINS"
+msgstr "Domaines"
+
+msgid "DOMAIN_NAME"
+msgstr "Nom de Domaine"
+
+msgid "DOWNLOAD"
+msgstr "Télécharger"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Activé"
+
+msgid "END_OF_REPORT"
+msgstr "(en)End of Report"
+
+msgid "ERROR_BELOW"
+msgstr "ERREUR : Une erreur s'est produite lors de la validation de cette page. Vous trouverez ci-dessous les raisons de ce problème :"
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Caractères inattendus dans la description."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Une erreur s'est produite pendant la modification de votre mot de passe. Veuillez vous assurer de l'exactitude de l'ancien mot de passe tapé."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Une erreur s'est produite pendant la mise à jour de la configuration du serveur."
+
+msgid "FEBRUARY"
+msgstr "Février"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "ERREUR : caractères invalides ou manquants dans la description."
+
+msgid "FM_IP_NUMBER1"
+msgstr "Ce champ doit contenir une adresse IP valide et ne doit pas être vide."
+
+msgid "FM_IP_NUMBER2"
+msgstr "Format d'adresse IP incorrect (X.X.X.X attendu)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "La valeur [_1] dépasse 255."
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "Vous devez taper une adresse Ethernet."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "L'adresse Ethernet que vous avez tapé n'est pas valide."
+
+msgid "FM_NONBLANK"
+msgstr "Ce champ ne doit pas être vide."
+
+msgid "FRIDAY"
+msgstr "Vendredi"
+
+msgid "GROUP"
+msgstr "Groupe"
+
+msgid "GROUPS"
+msgstr "Groupes"
+
+msgid "GROUP_ADD"
+msgstr "Ajouter un groupe"
+
+msgid "GROUP_MEMBERS"
+msgstr "Membres du groupe"
+
+msgid "GROUP_NAME"
+msgstr "Nom du groupe"
+
+msgid "IP_ADDRESS"
+msgstr "Adresse IP"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "Adresse IP ou FQDN"
+
+msgid "JANUARY"
+msgstr "Janvier"
+
+msgid "JULY"
+msgstr "Juillet"
+
+msgid "JUNE"
+msgstr "Juin"
+
+msgid "LOCAL"
+msgstr "Local"
+
+msgid "LOCATION"
+msgstr "Emplacement"
+
+msgid "MARCH"
+msgstr "Mars"
+
+msgid "MAY"
+msgstr "Mai"
+
+msgid "MB"
+msgstr "Mo"
+
+msgid "MODIFY"
+msgstr "Modifier"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Modifier le groupe d'utilisateurs"
+
+msgid "MONDAY"
+msgstr "Lundi"
+
+msgid "Miscellaneous"
+msgstr "Divers"
+
+msgid "NAME"
+msgstr "Nom"
+
+msgid "NETWORK"
+msgstr "Réseau"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "N'autoriser l'accès que depuis les réseaux locaux"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Autoriser l'accès complet (LAN et Internet)"
+
+msgid "NEXT"
+msgstr "Suivant"
+
+msgid "NO"
+msgstr "Non"
+
+msgid "NOVEMBER"
+msgstr "Novembre"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "La barre verticale \"|\" (pipe) n'est pas autorisée dans ce champ."
+
+msgid "OCTOBER"
+msgstr "Octobre"
+
+msgid "OFF"
+msgstr "Désactivé"
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "ON"
+msgstr "Activé"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Rapport d'état de l'opération"
+
+msgid "PASSWORD"
+msgstr "Mot de passe"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Changer le mot de passe"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Le mot de passe a été modifié avec succès."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "Le mot de passe que vous avez tapé contient des caractères non valides."
+
+msgid "PASSWORD_NEW"
+msgstr "Nouveau mot de passe"
+
+msgid "PASSWORD_OLD"
+msgstr "Ancien mot de passe"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "L'ancien mot de passe que vous avez tapé contient des caractères non valides."
+
+msgid "PASSWORD_RESET"
+msgstr "Réinitialiser le mot de passe"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "Les mots de passe ne concordent pas."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Nouveau mot de passe (vérification)"
+
+msgid "PERFORM"
+msgstr "Exécuter"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "Veuillez Patienter..."
+
+msgid "RECONFIGURE"
+msgstr "Reconfigurer"
+
+msgid "REMOTE"
+msgstr "Distant"
+
+msgid "REMOVE"
+msgstr "Supprimer"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Supprimer le groupe d'utilisateurs"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Réinitialiser le mot de passe de l'utilisateur"
+
+msgid "RESTORE"
+msgstr "Restaurer"
+
+msgid "ROUTER"
+msgstr "Routeur"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Samedi"
+
+msgid "SAVE"
+msgstr "Enregistrer"
+
+msgid "SELF"
+msgstr "Ce serveur"
+
+msgid "SEPTEMBER"
+msgstr "Septembre"
+
+msgid "SHUTDOWN"
+msgstr "Arrêter"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Opération réussie"
+
+msgid "SUNDAY"
+msgstr "Dimanche"
+
+msgid "Security"
+msgstr "Sécurité"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Jeudi"
+
+msgid "TUESDAY"
+msgstr "Mardi"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Utilisateur non autorisé"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Liste des utilisateurs"
+
+msgid "USER_NAME"
+msgstr "Nom d'utilisateur"
+
+msgid "User password"
+msgstr "Mot de passe utilisateur"
+
+msgid "WEDNESDAY"
+msgstr "Mercredi"
+
+msgid "YES"
+msgstr "Oui"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Votre compte utilisateur:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "Le nom d'utilisateur que vous avez tapé n'est pas valide."
+
+msgid "Your Settings"
+msgstr "Vos paramètres"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Annuler"
+
+msgid "del"
+msgstr "supprimer"
+
+msgid "edit"
+msgstr "modifier"
+
+msgid "exit"
+msgstr "Quitter"
+
+msgid "hello"
+msgstr "bonjour"
+
+msgid "info_dev_mode_and_public"
+msgstr "Attention : le mode développement ou débogage est activé ET un accès public est offert !"
+
+msgid "info_not_changed_password"
+msgstr "Attention : vous n’avez pas encore modifié le mot de passe système par défaut."
+
+msgid "info_reconfigure_required"
+msgstr "Attention : une reconfiguration et un redémarrage sont nécessaires avant de continuer ! Ne pas le faire maintenant peut laisser votre système dans un état inconnu !"

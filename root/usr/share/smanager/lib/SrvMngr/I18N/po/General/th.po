@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "ACCESS"
+msgstr "สิทธิการเข้าถึง"
+
+msgid "ACCOUNT"
+msgstr "บัญชีผู้ใช้"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "ไม่มีกลุ่มผู้ใช้นี้ในระบบ"
+
+msgid "ACCOUNT_LOCKED"
+msgstr "บัญชีถูกล็อค"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "ชื่อบัญชีที่ป้อนไม่ถูกต้อง"
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "ชื่อบัญชีที่ป้อนมีตัวอักษรที่ห้ามนำมาใช้"
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "เปลี่ยนรหัสผ่าน"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "ไม่มีบัญชีผู้ใช้นี้ในระบบ"
+
+msgid "ACTION"
+msgstr "การดำเนินการ"
+
+msgid "ADD"
+msgstr "เพิ่ม"
+
+msgid "APRIL"
+msgstr "เมษายน"
+
+msgid "AUGUST"
+msgstr "สิงหาคม"
+
+msgid "Administration"
+msgstr "การบริหาร"
+
+msgid "All rights reserved"
+msgstr "สงวนลิขสิทธิ์ทั้งหมด"
+
+msgid "BACK"
+msgstr "ย้อนกลับ"
+
+msgid "BACKUP"
+msgstr "สำรองข้อมูล"
+
+msgid "CANCEL"
+msgstr "ยกเลิก"
+
+msgid "COMMENT"
+msgstr "บันทึกเพิ่มเติม"
+
+msgid "CONTENT"
+msgstr "เนื้อหา"
+
+msgid "CREATE"
+msgstr "สร้าง"
+
+msgid "CREATE_GROUP"
+msgstr "สร้างกลุ่มผู้ใช้"
+
+msgid "Collaboration"
+msgstr "การรวบรวม"
+
+msgid "Configuration"
+msgstr "การตั้งค่าของระบบ"
+
+msgid "DECEMBER"
+msgstr "ธันวาคม"
+
+msgid "DESCRIPTION"
+msgstr "รายละเอียด"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "คำอธิบายโดยย่อ"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "ปลายทาง"
+
+msgid "DISABLED"
+msgstr "ปิดไม่ใช้งาน"
+
+msgid "DOMAIN"
+msgstr "โดเมน"
+
+msgid "DOMAINS"
+msgstr "โดเมนส์"
+
+msgid "DOMAIN_NAME"
+msgstr "ชื่อโดเมน"
+
+msgid "DOWNLOAD"
+msgstr "ดาวน์โหลด"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "เปิดใช้งาน"
+
+msgid "END_OF_REPORT"
+msgstr "สิ้นสุดรายงาน"
+
+msgid "ERROR_BELOW"
+msgstr "ผิดพลาด: ตรวจพบข้อมูลที่ไม่ถูกต้องในหน้านี้ กรุณาเลื่อนลงเพื่อดูรายการข้อผิดพลาด"
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "มีบางตัวอักษรที่นำมาใช้ไม่ได้อยู่ในเนื้อหาของ \"รายละเอียด\""
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "เกิดข้อผิดพลาดขณะทำการเปลี่ยนรหัสผ่าน โปรดตรวจสอบว่ากรอกหัสผ่านเก่าถูกต้องแล้ว"
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "เกิดข้อผิดพลาดขึ้นระหว่างการปรับปรุงค่าของระบบ"
+
+msgid "FEBRUARY"
+msgstr "กุมภาพันธ์"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "ข้อผิดพลาด: ไม่ได้กรอกรายละเอียด"
+
+msgid "FM_IP_NUMBER1"
+msgstr "ฟิลด์นี้จะต้องใส่หมายเลข IP ที่ถูกต้องและไม่สามารถเว้นว่างไว้"
+
+msgid "FM_IP_NUMBER2"
+msgstr "รูปแบบหมายเลข IP ไม่ถูกต้อง (รูปแบบคือ X.X.X.X)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "ตัวเลขของชุด [_1] มีค่าเกิน 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "คุณต้องระบุ MAC address"
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "MAC address ที่ระบุไม่ถูกต้อง"
+
+msgid "FM_NONBLANK"
+msgstr "ฟิลด์นี้จะต้องไม่เว้นว่างไว้"
+
+msgid "FRIDAY"
+msgstr "ศุกร์"
+
+msgid "GROUP"
+msgstr "กลุ่มผู้ใช้"
+
+msgid "GROUPS"
+msgstr "รายชื่อกลุ่มผู้ใช้"
+
+msgid "GROUP_ADD"
+msgstr "เพิ่มกลุ่มผู้ใช้"
+
+msgid "GROUP_MEMBERS"
+msgstr "สมาชิกของกลุ่ม"
+
+msgid "GROUP_NAME"
+msgstr "ชื่อของกลุ่ม"
+
+msgid "IP_ADDRESS"
+msgstr "หมายเลข IP"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "หมายเลข IP หรือ FQDN"
+
+msgid "JANUARY"
+msgstr "มกราคม"
+
+msgid "JULY"
+msgstr "กรกฎาคม"
+
+msgid "JUNE"
+msgstr "มิถุนายน"
+
+msgid "LOCAL"
+msgstr "เครือข่ายภายใน"
+
+msgid "LOCATION"
+msgstr "สถานที่"
+
+msgid "MARCH"
+msgstr "มีนาคม"
+
+msgid "MAY"
+msgstr "พฤษภาคม"
+
+msgid "MB"
+msgstr "เมกะไบต์"
+
+msgid "MODIFY"
+msgstr "แก้ไข"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "ปรับปรุงกลุ่มผู้ใช้"
+
+msgid "MONDAY"
+msgstr "จันทร์"
+
+msgid "Miscellaneous"
+msgstr "เบ็ดเตล็ด"
+
+msgid "NAME"
+msgstr "ชื่อ"
+
+msgid "NETWORK"
+msgstr "เครือข่าย"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "ให้เข้าถึงได้เฉพาะจากเครือข่ายท้องถิ่นเท่านั้น"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "ให้สามารถเข้าถึงได้จากทุกที่ (ทั้งอินเทอร์เน็ต)"
+
+msgid "NEXT"
+msgstr "ถัดไป"
+
+msgid "NO"
+msgstr "ไม่"
+
+msgid "NOVEMBER"
+msgstr "พฤศจิกายน"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "ไม่อณุญาตให้ใช้เครื่องหมายไปป์ (|) ในฟิลด์นี้"
+
+msgid "OCTOBER"
+msgstr "ตุลาคม"
+
+msgid "OFF"
+msgstr "ปิด"
+
+msgid "OK"
+msgstr "ตกลง"
+
+msgid "ON"
+msgstr "เปิด"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "รายงานสถานะการทำงาน"
+
+msgid "PASSWORD"
+msgstr "รหัสผ่าน"
+
+msgid "PASSWORD_CHANGE"
+msgstr "เปลี่ยนรหัสผ่าน"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "ระบบได้ทำการเปลี่ยนรหัสผ่านของคุณให้แล้ว"
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "รหัสผ่านที่ป้อนมีตัวอักษรที่ห้ามนำมาใช้"
+
+msgid "PASSWORD_NEW"
+msgstr "รหัสผ่านใหม่:"
+
+msgid "PASSWORD_OLD"
+msgstr "รหัสผ่านเก่า:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "รหัสผ่านเก่าที่ป้อนมีตัวอักษรที่ห้ามนำมาใช้"
+
+msgid "PASSWORD_RESET"
+msgstr "รีเซ็ตรหัสผ่าน"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "รหัสผ่านที่คุณใส่ไม่ตรงกัน"
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "รหัสผ่านใหม่ (ยืนยัน):"
+
+msgid "PERFORM"
+msgstr "ดำเนินงาน"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "กำหนดค่าใหม่"
+
+msgid "REMOTE"
+msgstr "การรีโมทจากภายนอก"
+
+msgid "REMOVE"
+msgstr "ลบ"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "ลบกลุ่มผู้ใช้"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "รีเซ็ตรหัสผ่านของผู้ใช้"
+
+msgid "RESTORE"
+msgstr "นำข้อมูลสำรองมาใช้"
+
+msgid "ROUTER"
+msgstr "เราเตอร์"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "วันเสาร์"
+
+msgid "SAVE"
+msgstr "บันทึก"
+
+msgid "SELF"
+msgstr "ตัวเอง"
+
+msgid "SEPTEMBER"
+msgstr "กันยายน"
+
+msgid "SHUTDOWN"
+msgstr "ปิดเครื่อง"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "เป็นผลสำเร็จ"
+
+msgid "SUNDAY"
+msgstr "วันอาทิตย์"
+
+msgid "Security"
+msgstr "ความปลอดภัย"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "พฤหัสบดี"
+
+msgid "TUESDAY"
+msgstr "วันอังคาร"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "ชื่อผู้ใช้ไม่ถูกต้อง"
+
+msgid "USER_LIST_CURRENT"
+msgstr "รายชื่อผู้ใช้ที่มีอยู่ในปัจจุบัน"
+
+msgid "USER_NAME"
+msgstr "ชื่อผู้ใช้"
+
+msgid "User password"
+msgstr "รหัสผ่านผู้ใช้"
+
+msgid "WEDNESDAY"
+msgstr "วันพุธ"
+
+msgid "YES"
+msgstr "ใช่"
+
+msgid "YOUR_ACCOUNT"
+msgstr "บัญชีของคุณ:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "ชื่อบัญชีที่ป้อนไม่ถูกต้อง"
+
+msgid "Your Settings"
+msgstr "ค่าที่คุณตั้ง"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "ยกเลิก"
+
+msgid "del"
+msgstr "ลบ"
+
+msgid "edit"
+msgstr "แก้ไข"
+
+msgid "exit"
+msgstr "ออก"
+
+msgid "hello"
+msgstr "สวัสดี"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

@@ -1,4 +1,4 @@
-'View log files' => 'Ver archivos de registro',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'View log files' => 'Ver archivos de registro',
 'log_FIRSTPAGE_DESC' => ' Este panel le permite ver o descargar los archivos de registro generados por los servicios que se ejecutan en el servidor. ',
 'log_LOG_FILE_SELECT_DESC' => 'Elija el archivo de registro que desea ver',
 'log_FILTER_PATTERN_DESC' => ' Opcionalmente, puede especificar un patrón de filtro para mostrar sólo las líneas del archivo de registro que coincidan con este patrón. Si deja este campo en blanco, se mostrarán todas las líneas disponibles del archivo de registro. Tenga presente que esta opción no tiene ningún efecto si usted elige descargar el archivo.
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'Operación',
-'log_DOWNLOAD_PAGE_DESC' => ' La descarga del archivo de registro ya está preparada. Ésta se realizará una vez que haga clic en el botón &quot;Siguiente&quot; que está más abajo, y le indique a su navegador que acepte la descarga a través de la ventana emergente que aparecerá.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Preparando la descarga del archivo de registro [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' La descarga del archivo de registro ya está preparada. Ésta se realizará una vez que haga clic en el botón &quot;Siguiente&quot; que está más abajo, y le indique a su navegador que acepte la descarga a través de la ventana emergente que aparecerá.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Preparando la descarga del archivo de registro [_1].',
 'log_FORM_TITLE' => 'Ver archivos de registro',

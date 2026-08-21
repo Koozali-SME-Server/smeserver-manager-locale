@@ -7,4 +7,4 @@
 'clm_NEVER' => 'Tidak pernah',
 'clm_DAILY' => 'Setiap hari',
 'clm_SUCCESS' => 'Setting anti virus clamav terbaru telah disimpan.',
-'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',

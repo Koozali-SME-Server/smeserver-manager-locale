@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "ACCESS"
+msgstr "Zugriff"
+
+msgid "ACCOUNT"
+msgstr "Benutzerkonto"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "Es sind keine Benutzergruppen auf dem System vorhanden."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Konto ist gesperrt"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "Der eingegebene Kontoname ist ungültig."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "Der eingegebene Kontoname enthält ungültige Zeichen."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Konto-Kennwort ändern"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "Es gibt keine Benutzerkonten auf diesem System."
+
+msgid "ACTION"
+msgstr "Aktion"
+
+msgid "ADD"
+msgstr "Hinzufügen"
+
+msgid "APRIL"
+msgstr "April"
+
+msgid "AUGUST"
+msgstr "August"
+
+msgid "Administration"
+msgstr "Verwaltung"
+
+msgid "All rights reserved"
+msgstr "Alle Rechte vorbehalten"
+
+msgid "BACK"
+msgstr "Zurück"
+
+msgid "BACKUP"
+msgstr "Sichern"
+
+msgid "CANCEL"
+msgstr "Abbrechen"
+
+msgid "COMMENT"
+msgstr "Kommentar"
+
+msgid "CONTENT"
+msgstr "Inhalt"
+
+msgid "CREATE"
+msgstr "Erstellen"
+
+msgid "CREATE_GROUP"
+msgstr "Benutzergruppe anlegen"
+
+msgid "Collaboration"
+msgstr "Zusammenarbeit"
+
+msgid "Configuration"
+msgstr "Konfiguration"
+
+msgid "DECEMBER"
+msgstr "Dezember"
+
+msgid "DESCRIPTION"
+msgstr "Beschreibung"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Kurzbeschreibung"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "Ziel"
+
+msgid "DISABLED"
+msgstr "Deaktiviert"
+
+msgid "DOMAIN"
+msgstr "Domäne"
+
+msgid "DOMAINS"
+msgstr "Domänen"
+
+msgid "DOMAIN_NAME"
+msgstr "Domänenname"
+
+msgid "DOWNLOAD"
+msgstr "Herunterladen"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Aktiviert"
+
+msgid "END_OF_REPORT"
+msgstr "Ende des Berichts"
+
+msgid "ERROR_BELOW"
+msgstr "FEHLER: Es gab einen Fehler mit der Gültigkeitsprüfung auf dieser Seite. Bitte navigieren Sie durch diese Seite und finden Sie das Problem."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Unzulässige oder fehlende Zeichen in der Beschreibung"
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Es ist ein Fehler aufgetreten bei dem Versuch Ihr Kennwort zu ändern. Bitte stellen Sie sicher\\, dass das alte Kennwort\\, das Sie eingegeben haben\\, richtig ist."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Es ist ein Fehler bei der Systemaktualisierung aufgetreten."
+
+msgid "FEBRUARY"
+msgstr "Februar"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Fehler: Unzulässige oder fehlende Zeichen in der Beschreibung"
+
+msgid "FM_IP_NUMBER1"
+msgstr "Dieses Feld muß eine gültige IP-Adresse enthalten und darf nicht leer sein."
+
+msgid "FM_IP_NUMBER2"
+msgstr "IP-Adresse hat ein ungültiges Format (erwartet X.X.X.X)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] ist größer als 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "Sie müssen eine MAC-Adresse eingeben."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "Die eingegebene MAC-Adresse ist unzulässig."
+
+msgid "FM_NONBLANK"
+msgstr "Dieses Feld darf nicht leer bleiben"
+
+msgid "FRIDAY"
+msgstr "Freitag"
+
+msgid "GROUP"
+msgstr "Benutzergruppe"
+
+msgid "GROUPS"
+msgstr "Gruppen"
+
+msgid "GROUP_ADD"
+msgstr "Gruppe anlegen"
+
+msgid "GROUP_MEMBERS"
+msgstr "Gruppenmitglieder"
+
+msgid "GROUP_NAME"
+msgstr "Gruppenname"
+
+msgid "IP_ADDRESS"
+msgstr "IP-Adresse"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "IP-Adresse oder voll qualifizierter Domänenname"
+
+msgid "JANUARY"
+msgstr "Januar"
+
+msgid "JULY"
+msgstr "Juli"
+
+msgid "JUNE"
+msgstr "Juni"
+
+msgid "LOCAL"
+msgstr "Lokal"
+
+msgid "LOCATION"
+msgstr "Standort"
+
+msgid "MARCH"
+msgstr "März"
+
+msgid "MAY"
+msgstr "Mai"
+
+msgid "MB"
+msgstr "Mb"
+
+msgid "MODIFY"
+msgstr "Ändern"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Benutzergruppe ändern"
+
+msgid "MONDAY"
+msgstr "Montag"
+
+msgid "Miscellaneous"
+msgstr "Verschiedenes"
+
+msgid "NAME"
+msgstr "Name"
+
+msgid "NETWORK"
+msgstr "Netzwerk"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Zugriff nur von lokalen Netzwerken aus erlauben"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Öffentlichen Zugriff erlauben (gesamtes Internet)"
+
+msgid "NEXT"
+msgstr "Weiter"
+
+msgid "NO"
+msgstr "Nein"
+
+msgid "NOVEMBER"
+msgstr "November"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "Pipe-Symbole (|) sind in diesem Feld nicht erlaubt"
+
+msgid "OCTOBER"
+msgstr "Oktober"
+
+msgid "OFF"
+msgstr "Aus"
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "ON"
+msgstr "Aktiviert"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Statusbericht"
+
+msgid "PASSWORD"
+msgstr "Passwort"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Kennwort ändern"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Ihr Kennwort wurde erfolgreich geändert."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "Das eingegebene Kennwort enthält ungültige Zeichen."
+
+msgid "PASSWORD_NEW"
+msgstr "Neues Kennwort:"
+
+msgid "PASSWORD_OLD"
+msgstr "Altes Kennwort:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "Das alte eingegebene Kennwort enthält ungültige Zeichen."
+
+msgid "PASSWORD_RESET"
+msgstr "Kennwort zurücksetzen"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "Die eingegebenen Kennwörter stimmen nicht überein."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Neues Kennwort (bestätigen):"
+
+msgid "PERFORM"
+msgstr "Ausführen"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "Bitte Warten..."
+
+msgid "RECONFIGURE"
+msgstr "Rekonfigurieren"
+
+msgid "REMOTE"
+msgstr "Fernzugriff"
+
+msgid "REMOVE"
+msgstr "Entfernen"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Benutzergruppe löschen"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Benutzerkennwort zurücksetzen"
+
+msgid "RESTORE"
+msgstr "Wiederherstellen"
+
+msgid "ROUTER"
+msgstr "Router"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Samstag"
+
+msgid "SAVE"
+msgstr "Speichern"
+
+msgid "SELF"
+msgstr "Selbst"
+
+msgid "SEPTEMBER"
+msgstr "September"
+
+msgid "SHUTDOWN"
+msgstr "Herunterfahren"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Erfolg"
+
+msgid "SUNDAY"
+msgstr "Sonntag"
+
+msgid "Security"
+msgstr "Sicherheit"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Donnerstag"
+
+msgid "TUESDAY"
+msgstr "Dienstag"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Ungültiger Benutzer"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Aktuelle Liste der Benutzer"
+
+msgid "USER_NAME"
+msgstr "Benutzername"
+
+msgid "User password"
+msgstr "Passwort vergessen"
+
+msgid "WEDNESDAY"
+msgstr "Mittwoch"
+
+msgid "YES"
+msgstr "Ja"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Ihr Benutzerkonto:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "Der eingegebene Kontoname ist ungültig."
+
+msgid "Your Settings"
+msgstr "Ihre Einstellungen"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Abbrechen"
+
+msgid "del"
+msgstr "löschen"
+
+msgid "edit"
+msgstr "Bearbeiten"
+
+msgid "exit"
+msgstr "Beenden"
+
+msgid "hello"
+msgstr "Hallo"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

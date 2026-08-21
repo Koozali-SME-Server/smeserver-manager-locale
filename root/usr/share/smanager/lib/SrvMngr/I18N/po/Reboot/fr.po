@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Reboot module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "Reboot or shutdown"
+msgstr "Arrêt et redémarrage"
+
+msgid "rbo_DESCRIPTION"
+msgstr " Vous pouvez arrêter, redémarrer ou effectuer une reconfiguration complète de votre serveur à partir de cette page. Vous devez lancer la séquence d'arrêt avant de couper l'alimentation. L'exécution de ces fonctions peut durer quelques minutes. Lorsque vous cliquerez sur \"Exécuter\" l'opération se lancera immédiatement, alors soyez prêt ! "
+
+msgid "rbo_DESC_REBOOT"
+msgstr "Votre serveur a commencé le processus de redémarrage."
+
+msgid "rbo_DESC_RECONFIGURE"
+msgstr "Votre serveur a commencé le processus de reconfiguration et de redémarrage."
+
+msgid "rbo_DESC_SHUTDOWN"
+msgstr "Votre serveur a commencé le processus d'arrêt. L'exécution complète de ce processus pourra durer quelques minutes, après lesquelles vous pourrez couper l'alimentation."
+
+msgid "rbo_FORM_TITLE"
+msgstr "Arrêt, redémarrage ou reconfiguration du serveur"
+
+msgid "rbo_LABEL_REBOOT"
+msgstr "Action"
+
+msgid "rbo_REBOOT"
+msgstr "Redémarrer"
+
+msgid "rbo_REBOOT_SUCCEEDED"
+msgstr "Lancement réussi de la requête de redémarrage."
+
+msgid "rbo_RECONFIGURE_SUCCEEDED"
+msgstr "Lancement réussi de la requête de reconfiguration."
+
+msgid "rbo_SHUTDOWN_SUCCEEDED"
+msgstr "Lancement réussi de la requête d'arrêt."

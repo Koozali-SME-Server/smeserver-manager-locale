@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Remoteaccess module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+
+msgid "Remote access"
+msgstr "Toegang op afstand"
+
+msgid "rma_DESC_FTP_ACCESS"
+msgstr " FTP instellingen U kunt de FTP toegang tot uw server beheren. Wij raden u aan deze instellingen op 'Geen toegang' te laten staan tenzij u een specifieke reden hebt om dit niet te doen.  Merk op dat deze instellingen de toegang tot de server beperken en andere instellingen overschrijven, inclusief deze voor afzonderlijke informatie-baaien. "
+
+msgid "rma_DESC_FTP_LOGIN"
+msgstr " U kan ook de geauthenticeerde FTP toegang tot informatie-baaien en gebruikersaccounts beheren. We raden u sterk aan om deze instelling op \"privé\" te laten staan tenzij u een specifieke reden hebt om dit niet te doen.  Merk op dat u ook een beveiligde shell SFTP client kan gebruiken indien de toegang op afstand is ingeschakeld. Deze methode beveiligd de wachwoorden en gegevens van de FTP sessie, waar dit bij een standaard FTP sessie niet het geval is. "
+
+msgid "rma_DESC_IPSECRW"
+msgstr " IPSEC Client (Roadwarrior) instellingen U kunt IPSEC toegang tot uw server verlenen aan clienten, geauthenticeerd met digitale certificaten. Tenzij u IPSEC toegang nodig hebt, laat u deze optie uitgeschakeld door als waarde het getal 0 op te geven. "
+
+msgid "rma_DESC_IPSECRW_RESET"
+msgstr "Indien u alle digitale certificaten opnieuw wenst in te stellen dan kunt u dat hier doen. Alle oude certificaten zullen niet langer geauthenticeerd worden door deze server. Dus alle IPSEC clienten zullen een nieuw certificaat moeten importeren!. "
+
+msgid "rma_DESC_PPTP"
+msgstr " PPTP instellingen U kunt via PPTP toegang tot uw server verlenen. Tenzij u PPTP toegang nodig heeft, laat u deze optie het beste uitgeschakeld door als waarde het getal 0 in te geven. "
+
+msgid "rma_DESC_SSH"
+msgstr " Beveiligde shell instellingenU kunt de beveiligde shell toegang tot uw server beheren. Publieke toegang mag alleen door ervaren systeembeheerders worden ingeschakeld voor probleemoplossingen op afstand. We raden aan om deze instelling op \"Geen toegang\" te laten staan tenzij u een specifieke reden hebt om dit te niet te doen. "
+
+msgid "rma_DESC_TELNET_ACCESS"
+msgstr " Telnet instellingen WAARSCHUWING: Telnet is momenteel ingeschakeld, maar deze optie wordt niet langer ondersteund. Telnet is onveilig en mag alleen worden gebruikt indien er praktisch gezien geen alternatieven bestaan. Het is aan te raden de optie te wijzigen in [_1] en gebruik te maken van beveiligde shell indien toegang op afstand noodzakelijk is. Eenmaal uitgeschakeld, zal telnet niet meer op dit scherm verschijnen. "
+
+msgid "rma_DESC_VALID_FROM_ENTRIES"
+msgstr "Voer hieronder de details in van een nieuw op afstand beheer netwerk."
+
+msgid "rma_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "rma_ERR_INVALID_PARAMS"
+msgstr "Geef zowel een netwerk als een subnet masker op of laat beide velden leeg."
+
+msgid "rma_FORM_TITLE"
+msgstr "Wijzig de instellingen van toegang op afstand"
+
+msgid "rma_INVALID_SUBNET_MASK"
+msgstr "Ongeldig subnet masker"
+
+msgid "rma_LABEL_FTP_ACCESS"
+msgstr "FTP toegang"
+
+msgid "rma_LABEL_FTP_LOGIN"
+msgstr "FTP wachtwoord toegang"
+
+msgid "rma_LABEL_IPSECRW_RESET"
+msgstr "Digitale certificaten opnieuw instellen"
+
+msgid "rma_LABEL_IPSECRW_SESS"
+msgstr "Aantal IPSEC clienten"
+
+msgid "rma_LABEL_PPTP"
+msgstr "Aantal PPTP clienten"
+
+msgid "rma_LABEL_SSH"
+msgstr "Beveiligde shell toegang"
+
+msgid "rma_LABEL_SSH_ADMIN"
+msgstr "Administratieve commandoregel toestaan via beveiligde shell"
+
+msgid "rma_LABEL_SSH_PASSWORD_ACCESS"
+msgstr "Beveiligde shell toegang via standaard wachtwoorden toestaan"
+
+msgid "rma_LABEL_SSH_PORT"
+msgstr "TCP poort voor beveiligde shell toegang"
+
+msgid "rma_LABEL_TELNET_ACCESS"
+msgstr "Telnet toegang"
+
+msgid "rma_NO_ACCESS"
+msgstr "Geen toegang"
+
+msgid "rma_NO_ENTRIES_YET"
+msgstr "Er zijn nog geen gegevens"
+
+msgid "rma_NUMBER_OF_PPTP_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE"
+msgstr "Het ingestelde aantal PPTP toegangen is meer dan het aantal gereserveerde IP adressen van DHCP. Neem een kleiner aantal."
+
+msgid "rma_NUM_OF_HOSTS"
+msgstr "Aantal hosts"
+
+msgid "rma_PASSWORD_LOGIN_PRIVATE"
+msgstr "Alleen wachtwoorden accepteren vanaf lokale netwerken"
+
+msgid "rma_PASSWORD_LOGIN_PUBLIC"
+msgstr "Wachtwoorden accepteren vanaf overal"
+
+msgid "rma_REMOTE_MANAGEMENT"
+msgstr "Beheer op afstand"
+
+msgid "rma_SUBNET_MASK"
+msgstr "Subnet masker"
+
+msgid "rma_SUCCESS"
+msgstr "De nieuwe toegang op afstand instellingen zijn opgeslagen."
+
+msgid "rma_TITLE_FTP_ACCESS"
+msgstr "FTP-instellingen"
+
+msgid "rma_TITLE_IPSECRW"
+msgstr "IPsec-client (Roadwarrior)-instellingen"
+
+msgid "rma_TITLE_PPTP"
+msgstr "PPTP-instellingen"
+
+msgid "rma_TITLE_SSH"
+msgstr "Secure Shell-instellingen"
+
+msgid "rma_TITLE_TELNET_ACCESS"
+msgstr "Telnet-instellingen"
+
+msgid "rma_VALIDFROM_DESC"
+msgstr " [_1] De mogelijkheid bestaat om hosts op een extern netwerk toegang te geven tot de Server Manager door deze netwerken hier in te geven. Gebruik het subnet masker 255.255.255.255 om de toegang te beperken tot de gespecificeerde host. Elke host binnen het opgegeven bereik zal via HTTPS toegang kunnen verkrijgen tot de Server Manager. "
+
+msgid "rma_VALIDFROM_TITLE"
+msgstr "[_1]"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rma_DESCRIPTION"
+#~ msgstr "Voor elk van de opties hieronder, laat de privé toegang toe zodat iedereen vanaf het lokale netwerk toegang heeft tot uw server. De publieke toegang laat toegang toe van overal op het internet. De geen toegang schakelt toegang uit. U dient de sectie over toegang op afstand in de gebruikershandleiding te lezen om goed de veiligheidsimplicaties te kunnen begrijpen van deze opties."
+#~ msgid "rma_DESC_SERIAL_CONSOLE_ACCESS"
+#~ msgstr " Seriële console U kunt toegang verlenen tot de server console vanaf een terminal die is aangesloten op een seriële poort van de server."
+#~ msgid "rma_ERR_NO_RECORD"
+#~ msgstr "Kan het httpd-admin record niet vinden in de configuratie database"
+#~ msgid "rma_LABEL_PPTP_ACCESS"
+#~ msgstr "Standaard PPTP gebruikerstoegang"
+#~ msgid "rma_LABEL_SERIAL_CONSOLE_ACCESS"
+#~ msgstr "Seriële console"
+#~ msgid "rma_PORT1_ENABLED"
+#~ msgstr "Geactiveerd op seriële poort 1"
+#~ msgid "rma_PORT2_ENABLED"
+#~ msgstr "Geactiveerd op seriële poort 2"
+#~ msgid "rma_VALUE_ZERO_OR_POSITIVE"
+#~ msgstr "Waarde moet nul zijn of een positief geheel getal"

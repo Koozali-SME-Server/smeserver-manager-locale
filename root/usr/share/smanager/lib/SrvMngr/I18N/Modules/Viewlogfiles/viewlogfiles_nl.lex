@@ -1,4 +1,4 @@
-'View log files' => 'Logbestanden bekijken',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'View log files' => 'Logbestanden bekijken',
 'log_FIRSTPAGE_DESC' => ' Dit paneel laat u toe om de log bestanden die worden gegenereerd door de diensten op uw server te bekijken of op te halen. ',
 'log_LOG_FILE_SELECT_DESC' => 'Kies een logbestand om te bekijken',
 'log_FILTER_PATTERN_DESC' => ' U kan er voor kiezen om een filterpatroon op te geven om alleen de regels uit het logbestand te tonen die overeenkomen met dit patroon. Alle regels uit het logbestand zullen worden weergegeven indien u dit vakje leeg laat. Merk op: deze optie is niet van toepassing als u het logbestand dowloadt.
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'Handeling',
-'log_DOWNLOAD_PAGE_DESC' => ' Uw logbestand is klaar om te worden gedownload. De download start als u op de &quot;Volgende&quot; knop hieronder klikt en u uw browser opdracht geeft om de download op te slaan in het dialoogvenster dat zal verschijnen.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Bezig met het voorbereiden van het logbestand[_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Uw logbestand is klaar om te worden gedownload. De download start als u op de &quot;Volgende&quot; knop hieronder klikt en u uw browser opdracht geeft om de download op te slaan in het dialoogvenster dat zal verschijnen.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Bezig met het voorbereiden van het logbestand[_1].',
 'log_FORM_TITLE' => 'Logbestanden bekijken',

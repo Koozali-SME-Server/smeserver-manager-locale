@@ -1,0 +1,602 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "バクアプ、リストア"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "すべてのバックアップ"
+
+msgid "bac_AM"
+msgstr "午前"
+
+msgid "bac_AM/PM"
+msgstr "午前／夕"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "(en)Another restore is in progress. Please try again later."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "ワークステーション バクアプ まで　の　時間："
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "ファイルを選択して表示させる"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "設定と状態をバックアップ"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr "(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>\n\n  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>\n\n  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>\n\n  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>"
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "サーバー　に　データ　が　ありすぎて　ちゃんとした　バクアプ　が　出来ません"
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "バクアプ　ファイル　が　不完全　でした"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "サーバーデータをバックアップ・復元"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "時　を　セット　する　とき　０-１２　を　 撰んで　下さい"
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "分　を　セット　する　とき　０-59　を　 撰んで　下さい"
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "(en)Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "(en)Check here to test integrity of all backups needed for a full restore with the selected backup"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "バックアップ圧縮レベル~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "バックアップ設定をしてください"
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "テープバックアップを管理する"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "ワークステーション バクアプ　を　せてい"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "(en)You can set the number of successive backup sets to keep on the workstation, with automatic rotation. Each set may contain saved data for several consecutive days. In this case first backup of the set is full backup, others daily backups are incremental. You can also set a time limit for each backup session or for incremental backups only. When this limit occurs, backup is cleanly stopped and the next incremental backup will safely continue with unsaved and modified datas."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "バックアップファイルをデコードできませんでした:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "バックアップパイプラインを実行できませんでした:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "フォーク　出来ませんでした"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "デスクトップにバックアップを用意する"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "デスクトップから復元する"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " この作業は復元ファイルをデスクトップからサーバーへアップロードし、設定およびユーザのデータファイルを復元します。 復元は新規インストールされたサーバーにて行うことをおすすめします。. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "デスクトップのバックアップを認証する"
+
+msgid "bac_DOW"
+msgstr "日曜　月曜　火曜　水曜　木曜　金曜　土曜　毎日"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "ナイトリ　テープ　バクアプ　を　可能／無能　に　する"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "毎日　の　ワークステーション バクアプ　可能／無能 "
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "テープ　バクアプ　を　可能"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "ワークステーション バクアプ　可能／無能 "
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "ファイル読み込み中にエラー発生"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "バックアップディレクトリはすでにマウントされています"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "コンフィグーバクアプ　する　時　エラー　が　おこりました"
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Darカタログ使用中にエラー発生"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Dar で抽出中にエラーが発生しました"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "圧縮レベルは0(無圧縮)-9(最高圧縮)の間でなければならない"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "この数字は１より大きくなければならない。最初のセットのバックアップは満他のは増加"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "無効な共有名"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "エラー：　時　が　不当"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "無効なログイン"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "エラー：　分　が　不当"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "無効なパスワード"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "エラー：　時　が　不当"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "エラー：　分　が　不当"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "無効なデータフォーマット。こうでなければならない~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. 例: 2005/12/31-08:23:32 or 10-08:32 or 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "セットの数字は１より大きくなければならない"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "最大限度のバックアップ時間は１から２４時間の間に設定しなければならない"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "無効なワークステーションIP又はホスト名"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "ワークステーション共有フォルダを認証できない"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "バックアップディレクトリがマウントされていません"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "(en)Aborting restore because needed full backup is missing or unreadable."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "このホストでは共有フォルダにディレクトリがない。もしかしたらあなたのホスト名はバックアップしたのと違うかもしれない"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "(en)Aborting restore because the set has missing or unreadable incremental backup number"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "(en)Error : No mounted disk available. Please mount a disk or select another type of workstation backup."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "(en)Error : No removable disk available. Please connect a removable disk or select another type of workstation backup."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "バックアップ作業を行った後にエラーが発生しました"
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "バックアップ作業を行う前にエラーが発生しました"
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "復元作業を行う前にエラーが発生しました"
+
+msgid "bac_ERR_READING_FILE"
+msgstr "バクアプ　ファイル　読んでる　最中　エラー　が　でました"
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "テープより復元中にエラー発生。"
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "ワークステーションより復元中にエラー発生。"
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "(en)Error occurred while restoring gid of 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "(en)Error occurred while restoring initial group of 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "システムコンフィグレーシオン　より復元後、アップデート中にエラー発生。"
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "ワークステーションより復元後、アップデート中にエラー発生。"
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "ヂスタント　シェア　を　アンマウント　する　とき　に　エラー　が　派生　します"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "以下のファイルとディレクトリーは復元されました："
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "以下のファイルとディレクトリーは復元されました："
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "復元元のバックアップファイル"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "名前フィルター："
+
+msgid "bac_FINISHED_AT"
+msgstr "終了時刻は:"
+
+msgid "bac_FREE_SPACE"
+msgstr " You have approximately $tmpfree free space on the server. Check that desktop backup file is less than $halffree before commencing the restore. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "完全のバックアップは許可されてる"
+
+msgid "bac_HOURS"
+msgstr "hours."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "フルバックアップセッションを中断させない"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "ロード　テープ　備忘　の　時間　（時／分）"
+
+msgid "bac_LOGIN"
+msgstr "ログイン"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "(en)After the restore completes you must reboot the server."
+
+msgid "bac_Mounted disk"
+msgstr "マウントされたディスク"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "サーバー　コンフィグレーシオン　と　ユーサー　データ　は　今　リストア　されてます"
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "ワークステーション共有フォルダからサーバー設定とユーザーのデータファイルを現在復元している。"
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "ワークステーション共有フォルダにバックアップ設定が見つかりません。設定を確認してください。"
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "ユーザネーム　の　ため　の　UID が貰えませんでした"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "各セットにある一日毎のバックアップ"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "循環してるバックアップ設定の数"
+
+msgid "bac_No suitable local devices found"
+msgstr "適切なローカルデバイスが見つかりません"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr "この　ページ　は　[_1] 秒 に　リフレシ　します、もしくわ　ここ　に　クリク　して下さい"
+
+msgid "bac_PASSWORD"
+msgstr "パスワードは"
+
+msgid "bac_PM"
+msgstr "夕"
+
+msgid "bac_READ_COMPLETE"
+msgstr " You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] the process will restore only the most recent version modified before the given date. "
+
+msgid "bac_REBOOT"
+msgstr "再起動"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "画面を更新する"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "(en)Reminder messages will be sent at:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "(en)Unable to proceed with restore of server configuration"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "復元完了"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "システムの復元が完了しました"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "テープバックアップファイルからサーバー設定を復元する"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>この工程でサーバーワークステーションバックアップファイルから設定とユーザーのデータファイルを復元する。<b>この復元は新しくインストールされたサーバーにされる</b>,</p>\n\n  <p>始める前に正しいバックアップファイルを選ぶように注意する</p>\n\n  <p>復元が終わったらサーバーを再起動しなければならない。</p>\n\n  復元するバックアップファイルはここに : "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "ワークステーションバックアップファイルからサーバー設定を復元する"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>この工程でサーバーワークステーションバックアップファイルから設定とユーザーのデータファイルを復元する。<b>この復元は新しくインストールされたサーバーにされる</b>,</p>\n\n  <p>始める前に正しいバックアップファイルを選ぶように注意する</p>\n\n  <p>復元が終わったらサーバーを再起動しなければならない。</p>\n\n  復元するバックアップファイルはここに : "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "(en)Restore failed! The backup file was incomplete."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "(en)Restore failed! There was an error in reading the backup file."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "テープから復元する"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "ワークステーションから復元する"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "復元中"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "システムの復元中です。復元開始時刻は"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "(en)After the restore completes you must reboot the server. Your restore is complete when the words \"Restore complete\" appear at the bottom of your screen."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "サーバーの設定を復元する"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "整合性の検証に失敗しました"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "テープ　から　リストア"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "ワークステーションから復元中"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "実行する作業を指定してください"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "バックアップファイルを選択"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "一番新しいのを復元する"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "復元するファイルを選択する"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "(en)Select the type of share for backup destination"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "サーバー　リブート"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "サーバー　は　いま　リブート　します"
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "バックアップの共有"
+
+msgid "bac_STARTED_AT"
+msgstr "開始時刻は"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "テープバックアップの無効化に成功"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "ワークステーションバックアップの無効化に成功"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "テープのバックアップの有効化に成功"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "ワークステーションのバックアップの有効化に成功"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "テープバックアップは"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "テープ　バクアプ　の　時間　(時／分）"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "テープバックアップを管理する"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr "(en)<p>Select whether you wish to enable nightly backups. Then indicate the desired times for the backup and the load tape reminder.</p>\n\n  <p>The tape backup requires a supported tape drive. A warning message will be sent to the administrator at the designated reminder time if the tape drive is empty.</p>"
+
+msgid "bac_TAPE_RESTORE"
+msgstr "テープから復元する"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "バックアップの整合性をテスト中"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "(en)Testing all backups needed for a full restore with selected backup"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "サーバー　コンフィグレーシオン　を　レストア　する　こと　が　出来ません"
+
+msgid "bac_UPDATE_CONF"
+msgstr "更新"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "テープ　バクアプ　コンフィグレーション　を　更新　してます"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "バックアップしたワークステーションの設定をアップデートする"
+
+msgid "bac_VERIFY"
+msgstr "認証"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>この項目では以前作った全ての一日毎のワークステーションバックアップファイルの名前を表示する。この項目でバックアップの内容を確認できる。<b>確認したいバックアップを選ばなければならない。</b></p>\n\n  <p>あなたが選んだ全てのバックアップファイルが見れる。</p>\n\n  共有フォルダでバックアップファイルが確認できる : "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "確認 が　終わりました"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>この項目では以前作った全ての一日毎のワークステーションバックアップファイルの名前を表示する。この項目でバックアップの内容を確認できる。<b>確認したいバックアップを選ばなければならない。</b></p>\n\n  <p>あなたが選んだ全てのバックアップファイルが見れる。</p>\n\n  共有フォルダでバックアップファイルが確認できる : "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "ワークステーションバックアップのチェック"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "バックアップ　時間："
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "ロード　テープ　リマインダー　時間"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "ワークステーション バクアプ まで　の　時間："
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "ワークステーション設定をバックアップする"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "(en)Create or modify workstation backup configuration"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "ワークステーションのバックアップは"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "バックアップ圧縮レベル~[0-9~]"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "(en)Number of daily backups contained in each set is"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>このパネルは現在のバックアップ設定を表示しています。あなたはこのパネルと次のを変更することが出来ます。</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "バックアップは"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "(en)Backup is made on LAN workstation"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "(en)except full backups which are cleanly timed out after 24 hours"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "(en)Backup is made on mounted disk"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "循環してるバックアップ設定の数"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "ワークステーションバックアップ設定"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "バックアップ先の共有フォルダーは"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "ワークステーション バクアプ　の　時間　(時／分）"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "(en)Each daily backup session is cleanly timed out after"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "毎日のバックアップは次の時刻に実行されます"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "(en)Backup is made on local removable disk"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "via"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "ワークステーション バクアプ　を　せてい"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "(en)Full backup session (new backup sets) is allowed only on"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "(en)Full backup sessions (new backup set) are allowed everyday"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "ログイン名"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "ワークステーションのIP又はホスト名"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "まず最初にワークステーションバックアップを正しく設定しなければならない"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "ワークステーションから復元する"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "ワークステーションの選択されたファイルが復元する"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "ワークステーションより選択されたファイルを復元"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don't know in which backup are the required files, you can select 'All backups' option.  The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names. You have the responsibility not to restore files which could break the functioning of your server. Currently, files will be restored from : "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "任意のバックアップセッション時間切れ(時)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "ワークステーションバックアップのチェック"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X サーバーデータをバックアップ・復元"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "システム復元による変更を反映するにはサーバーの再起動が必要です。"
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "ローカル リムーバブル ディスク"
+
+msgid "bac_nfs"
+msgstr "NFS"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>\n\n  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\\"Verify desktop backup file\\\" option can be used to check the integrity of a desktop backup file.</p>\n\n  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>\n\n  "
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr "ワークステーション バクアプ　は　無能"
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " 現在テープバックアップが有効になる. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr "ワークステーション バクアプ　は　無能"
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " ワークステーションテープバックアップが有効になる. "

@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Säkerhetskopiera eller återställ"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Alla backuper"
+
+msgid "bac_AM"
+msgstr "AM"
+
+msgid "bac_AM/PM"
+msgstr "AM/PM"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "En annan återställning pågår. Försök igen senare."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "Normal backup till band kommer att köras kl:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Välj filer som skall visas"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Backup, konfiguration och status"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr "(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>\n\n  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>\n\n  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>\n\n  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>"
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "  Din server har för mycket data för en säker backup till din klient.  "
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "Backupfilen var inte komplett"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Backup eller återställ serverdata"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Välj ett klockslag mellan 0 och 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Välj en minut mellan 0 och 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "Varning: För stora backup:er, kontrollering av integriteten kan vara en stor och lång uppgift som skall göras med den dagliga backupen till arbetsstationen avaktiverad."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "Markera här för att prova integriteten av alla backup:er som behövs för fullständig återställning av den valda backup:en"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Kompressionsnivå på backupen ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Konfigurera inställningarna för backup."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Konfigurera bandbackup"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Konfigurera backup till arbetsstation"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "Du kan ange antalet efterföljande backuper som skall sparas på arbetsstationen, men automatisk rotation. Varje uppsättning av backuper kan innehålla sparad data för flera efteröljande dagar. I detta fall är den första backupen en fullständig backup, de efterföljande dagarnas backuper är inkrementella. Du kan också ange en tidsgräns för varje backupsession eller endast för de inkrementella. När gränsen uppnås stoppas backupen och den nästa inkrementella backupen kommer på ett säkert sätt att fortsätta med ej sparad och modifierad data."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Kunde inte dekoda backupfilen:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Kunde inte exekvera backup pipeline:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Kunde inte dela:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Backup till klient"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Återställ från klient"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Denna process kommer att ladda upp serverns backupfil från din lokal klient till servern och återställa konfigurationen och användarnas datafiler. Återställning bör genomföras på en nyinstallerad server. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Verifiera klientens backupfil"
+
+msgid "bac_DOW"
+msgstr "Söndag Måndag Tisdag Onsdag Torsdag Fredag Lördag Alla_dagar"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Tillåt/Tillåt inte nattlig backup till band"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Aktivera/avaktivera daglig backup till arbetsstation"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Tillåt bandbackup"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Aktivera backup till arbetsstation"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Fel vid läsning av filer från"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "Säkerhetskopieringskatalogen är redan monterad"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Ett fel inträffade under conf-backup-händelsen."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Fel vid användandet av Dar-katalogen"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Fel vid extrahering med Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "Kompressionsnivån måste vara mellan 0 (ingen kompression) och 9 (maximal kompression)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "Siffran måste vara 1 eller större. Första backupen i uppsättningen är full de andra är inkrementella"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Ogiltigt namn på delningen"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Fel: ogiltig timmangivelse för backup:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Ogiltig inloggning"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Fel: ogiltig minutangivelse för backup:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Ogiltigt lösenord"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Fel: ogiltigt timmangivelse för påminnelse:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Fel: ogiltig minutangivelse för påminnelse:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Datumformat är ogiltigt eftersom det måste vara ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. exvis: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "Antalet uppsättningar måste vara 1 eller större"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "Maximal backuptid måste vara mellan 1 och 24 timmar"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "Ogiltig IP-adress eller värdnamn för arbetsstationen"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "Kunde inte montera arbetsstationens delade mapp"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Backupfilen inte funnen"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "Avbryter återställning eftersom den fullständiga backup som krävs saknas eller är ej läsbar."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "Det finns ingen mapp för din värd i den delade mappen. Ditt värdnamn är kanske annorlunda i förhållande till de i backupen"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "Avbryter återställning eftersom uppsättningen saknar eller har oläsligt inkremitelt backupnummer"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "Fel: Ingen flyttbar disk tillgänglig. Anslut en flyttbar disk eller välj en annan typ av delning för backupen."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "Fel: Ingen flyttbar disk tillgänglig. Anslut en flyttbar disk eller välj en annan typ av delning för backupen."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Ett fel inträffade under de efterföljande åtgärderna efter backup."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Ett fel inträffade under de förberedande åtgärderna för backup."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Ett fel inträffade under de förberedande åtgärderna för återställning."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Det inträffade ett fel vid läsning av backupfilen."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Ett fel inträffade vid återställning av filer från band."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "Ett fel inträffade vid återställning av filer från arbetsstation."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Ett fel inträffade vid återställning av gid av 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Ett fel inträffade vid återställning av den initiala gruppen 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Ett fel inträffade under uppdateringen av systemets konfigurationsfiler efter återställning med band."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "Ett fel inträffade under uppdateringen av systemets konfigurationsfiler efter återställning från arbetsstation."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "Fel uppstod vid avmontering av fjärrdelningen"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "Följande filer och mappar har blivit återställda:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "Följande filer finns i backupfilen :"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "Backupfil att återställa från"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Namn filtrerade efter"
+
+msgid "bac_FINISHED_AT"
+msgstr "och avslutades kl:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Du har ungefär $tmpfree fritt utrymme på servern. Kontrollera att klientens backupfil är mindre än $halffree före påbörjandet av återställning. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Fullständig backup är tillåten på"
+
+msgid "bac_HOURS"
+msgstr "timmar."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Gör ej timeout för fullsändiga backupsessioner"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Klockslag för att ladda påminnelse om band (timmar/minuter)"
+
+msgid "bac_LOGIN"
+msgstr "Inloggning är"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Efter återställningen är genomförd måste du starta om din server."
+
+msgid "bac_Mounted disk"
+msgstr "Monterad"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "Din servers konfigurering och användarnas datafiler återställs nu från band."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "Din servers konfigurering och användarnas datafiler återställs nu från arbetsstationen."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "Det finns inget backupuppsättning konfigurerad på din arbetsstations delade mapp. Verifiera dina inställningar."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "Kunde inte läsa uid för användare med namnet:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Dagliga backuper i varje uppsättning"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Antal roterande backupuppsättningar"
+
+msgid "bac_No suitable local devices found"
+msgstr "Inga lämpliga lokala enheter hittades"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Denna sida kommer att uppdatera statusen om [_1] sekunder, eller klicka här. "
+
+msgid "bac_PASSWORD"
+msgstr "Lösenordet är"
+
+msgid "bac_PM"
+msgstr "EM"
+
+msgid "bac_READ_COMPLETE"
+msgstr " Du kan välja alla de mappar och filer du vill återställa i listan som visas (använd ctrl eller shift för flerval). Varning : Om du väljer en mapp kommer alla filer och underliggande mappar, att återställas. Förvalt är att den senaste versionen av valda filer återställs men om du anger ett datum i formatet ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] kommer processen att återställa den senaste versionen som är ändrad före det angivna datumet. "
+
+msgid "bac_REBOOT"
+msgstr "Starta om"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Uppdatera detta fönster"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "E-post med påminnelse kommer att skickas kl:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Kan inte fortsätta med återställandet av serverns konfiguration"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Återställning genomförd"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "En systemåterställning är genomförd"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Återställ serverkonfiguration från bandbackup"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>Denna processs kommer att återställa konfigurationen och användarnas datafiler från ett backupband från servern. <b>Återställningen bör ske på en nyinstallerad server</b>.</p>\n\n  <p>Försäkra dig om att du har laddad det önskade bandet i bandstationen innan du fortsätter.</p>\n\n  <p>Efter det att återställningen är klar måste du starta om servern.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Återställ serverkonfiguration från arbetsstationen"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>Denna processs kommer att återställa konfigurationen och användarnas datafiler från ett backup gjord på en arbetsstation ansluten till LAN. <b>Återställningen bör ske på en nyinstallerad server</b>.</p>\n\n  <p>Försäkra dig om att du har valt den önskade backupen innan du fortsätter.</p>\n\n  <p>Efter det att återställningen är klar måste du starta om servern.</p>\n\n  Backupen kommer att återställas från : "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Återställning misslyckades! Backupfilen var inte komplett."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Återställningen misslyckades! Det blev ett fel vid läsning av backupfilen."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Återställ från band"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Återställ från arbetsstation"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Återställning pågår"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "En systemåterställning pågår. Den påbörjades kl:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Efter det att återställningen är klar måste du starta om servern. Din återställning är klar när \"Återställning genomförd\" visas i nederkanten på din skärm."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Återställ serverkonfiguration"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Verifiering av integriteten misslyckades"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Återställning från band"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Återställer från arbetsstation"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Välj en åtgärd"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Välj backupfil"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Återställ de senaste före"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Välj filer som skall återställas"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "Välj typ av delning för backupens destination"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Omstart av server"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Din server kommer nu att starta om."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Delat utrymme för backup"
+
+msgid "bac_STARTED_AT"
+msgstr "Den startade kl:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Bandbackup ej tillåten"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Avaktiverat backup till arbetsstation"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Bandbackup tillåten"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Aktiverat backup till arbetsstation"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Bandkopior är"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Klockslag för bandbackup (timmar/minuter)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Konfigurera bandbackup"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Välj om du vill tillåta nattlig backup. Indikera därefter den önskade tiden för backup och ladda påminnelsen om band.</p>\n\n  <p>Bandbackupen kräver ett bandstation som stöds. Ett varningsmeddelande kommer att skickas till administratören på den angivna påminnelsetiden om bandstationen inte har något band.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Återställ från band"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Testar integriteten av backup:en"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "Testar alla backup:er som behövs för en fullständig återställning av den valda backup:en"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Kunde inte återställa serverns konfiguration"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Uppdatera"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Uppdaterar bandstationens konfiguration"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Uppdaterar konfigurationen för backup till arbetsstation"
+
+msgid "bac_VERIFY"
+msgstr "Verifiera"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Detta val kommer att visa namnet på alla filer i den förut skapade backupfilen som ligger på klienten. Du kan använda detta val till att verifiera innehållet på backupfilen.</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Verifiering är genomförd"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Denna inställning visar namnet på alla filer i den tidigare skapade dagliga backupen på arbetsstationen. Du kan använda denna inställning för att verifiera innehållet av backupen.<b>Du måste välja den backup som du vill verifiera</b></p>\n\n  <p>Endast filer markerade med ~[Sparad~] finns i backupen.</p>\n\n  <br/> Backupfilerna verifieras från den delade mappen : "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Verifiera backup till arbetsstation"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "med backuptid:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "och tid för laddning av påminnelse om band:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "Normal backup till arbetsstation kommer att köras kl:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Inställningar för backup till arbetsstation"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "Skapa eller ändra inställningen för backup via arbetsstationen"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "Säkerhetskopior av arbetsstationer är"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "Kompressionsnivån (0-9) av backup är"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "Antalet dagliga backuper som finns i varje uppsättning är"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>Detta fönster visar nuvarande inställningar för arbetsstationens backup. Du kan ändra det i detta fönster och nästa.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Backupen är"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "Backupen görs på arbetsstationen som är ansluten till LAN"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "utom fullständiga backuper vilka avslutas efter 24 timmar"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "Backupen görs på en lokal flyttbar USB-disk"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Just nu är inte arbetsstationens backup konfigurerad. Du kan göra dessa inställningar i detta och nästa fönster.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "Antalet roterande backupuppsättningar är"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Arbetsstationens backupinställningar"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "Destinationens delade backupmapp är"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "Klockslag för backup till arbetsstation (timmar/minuter)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "Varje daglig backupsession avslutas efter"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Daglig backup körs kl"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "Backupen görs på en lokal flyttbar USB-disk"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "via"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Konfigurera backup till arbetsstation"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "Fullständig session (nya backupuppsättningar) är endast tillåtna på"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "Fullständiga backupsessioner (nya backupuppsättningar) är tillåtna varje dag"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Inloggningsnamn"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "Arbetstationens IP eller värdnamn"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "Du måste först konfigurerar din arbetsstation på ett korrekt sätt"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Återställ från arbetsstation"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Återställning av valda filer från arbetsstationen"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Selektiv återställning av filer från arbetsstationen"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " Denna process kommer att återskapa endast de angivna filerna och mapparna. Du måste först välja den backup från vilken filerna skall återställas. Om du inte vet vilken backup som innehåller de önskade filerna kan du välja 'Alla filer'.  Nästa fönster kommer att visa tillgängliga filer och mappar och du kan därefter välja de som du vill återställa. För att minska antalet filer och mappar som visas i nästa fönster kan du nu ange ett filter, som anges som ett vanligt uttryck till de visade namnen. Det är ditt ansvar så att du inte återställer några filer som förhindrar funktionen på din server.Filerna återställs från: "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Valfri inställning, timeout för backupens session (timmar)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Verifiera backup till arbetsstation"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X Backup eller återställ serverdata"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "Du måste starta om servern för att aktivera de eventuella ny konfigurationer som blev resultatet av denna återställning."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "Lokal flyttbar disk"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>Serverns ger dig möjlighet till två sätt att ta backup och återställa din server: använd din lokala klient eller en bandstation.</p>\n\n  <p>Den första metoden skapar en kopia av din server konfiguration och användarnas datafiler, laddar ner det till din lokala klient via din webbläsare. För närvarande upptar din konfigurations- och datafiler totalt ungefär <b>[_3]</b>. Backup-filen kommer att bli något mindre än detta, beroende på hur komprimerad datat är. \\\"Verifiering av klientens backupfile\\\" inställning kan användas för att kontrollera integriteten på backupfilen.</p>\n\n  <p>Backup med bandstation använder en mjukvara med namnet <i>[_1]</i> för att ta backup på hela hårddisken till band, varje natt. Detta kräver en bandstation som stöds och ett band som inte är skrivskyddat. Backupen körs automatiskt på vald tid varje natt (med en påminnelse som automatiskt e-postas till administratören under dagen). För närvarande innehåller din hårddisk <b>[_2]</b> av data.</p>\n\n  <p>Båda återställningsmetoderna tillåter dig att återställa din konfiguration och användarnas datafiler. <b>Idealiskt är att återställningen sker på en nyinstallerad server</b>.</p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "Backup eller återställning"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Backup till band är ej valt "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Backup med band är för närvarande valt. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " Backup till arbetsstation är ej aktiverat "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " Backup till arbetsstation är för närvarande valt. "

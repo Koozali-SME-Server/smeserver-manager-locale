@@ -7,4 +7,4 @@
 'clm_NEVER' => 'Mitte kunagi',
 'clm_DAILY' => 'Päevas',
 'clm_SUCCESS' => 'Uued antiviiruse seadistused salvestatud.',
-'clm_Antivirus (ClamAV)' => 'Viirusetõrje (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'Viirusetõrje (ClamAV)',

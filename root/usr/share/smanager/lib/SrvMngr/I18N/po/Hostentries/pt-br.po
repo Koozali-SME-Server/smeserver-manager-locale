@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Hostentries module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt-br\n"
+
+msgid "Hostnames and addresses"
+msgstr "Nomes de host e endereços"
+
+msgid "hos_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this hostname?"
+
+msgid "hos_ADDR_IN_DHCP_RANGE"
+msgstr "O endereço está contido na faixa dinâmica do DHCP"
+
+msgid "hos_ADD_HOSTNAME"
+msgstr " Adicionar nomes de host "
+
+msgid "hos_CREATE_OR_MODIFY_SUCCEEDED"
+msgstr "(en) Create or modify succeeded"
+
+msgid "hos_CREATE_TITLE"
+msgstr "Criar ou modificar o nome de host"
+
+msgid "hos_CREATE_TYPE"
+msgstr "(en) Create type"
+
+msgid "hos_CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN"
+msgstr "Lista atual de nome de hosts para [_1]"
+
+msgid "hos_ERROR_CREATING_HOST"
+msgstr "(en) Error creating host"
+
+msgid "hos_ERROR_MODIFYING_HOST"
+msgstr "(en) Error modifying host"
+
+msgid "hos_ERROR_WHILE_CREATING_HOST"
+msgstr "Ocorreu erro quando criava nome de host."
+
+msgid "hos_ERROR_WHILE_DELETING_HOST"
+msgstr "Ocorreu erro quando eliminava nome de host."
+
+msgid "hos_ERROR_WHILE_MODIFYING_HOST"
+msgstr "Ocorreu erro quando modificava nome de host."
+
+msgid "hos_ERROR_WHILE_REMOVING_HOST"
+msgstr "(en) Error while removing host"
+
+msgid "hos_ERR_IP_IS_LOCAL_OR_GATEWAY"
+msgstr "Erro: IP não pode ser o IP do servidor ou o IP do gateway."
+
+msgid "hos_ERR_IP_NOT_LOCAL"
+msgstr "Erro: Este endereço IP não está em nenhuma rede local."
+
+msgid "hos_ETHERNET_ADDRESS"
+msgstr "Endereço ethernet"
+
+msgid "hos_ETHERNET_ADDRESS_DESCRIPTION"
+msgstr "O endereço ethernet é opcional e faz com que o servidor DHCP designe permanentemente o endereço IP ao computador com esse endereço ethernet. Se especificado, deve estar no formato \"AA:BB:CC:DD:EE:FF\" e conter somente números de 0-9 e letras de A-F."
+
+msgid "hos_FORM_TITLE"
+msgstr "Nomes de host e endereços"
+
+msgid "hos_HOSTNAME"
+msgstr "Nome de host"
+
+msgid "hos_HOSTNAME_COMMENT_ERROR"
+msgstr "Erro: caracteres inesperados noo comentário do nome de host \"[_1].[_2]\". O comentário deve conter somente letras, números, sublinhado e hifens e tem que iniciar com uma letra ou um número."
+
+msgid "hos_HOSTNAME_DESCRIPTION"
+msgstr "O nome de host tem que conter somente letras, números e hifens e deve iniciar com uma letra ou número."
+
+msgid "hos_HOSTNAME_EXISTS_ERROR"
+msgstr "Erro: conta [_1] é um nome de host [_2] existente."
+
+msgid "hos_HOSTNAME_IN_USE_ERROR"
+msgstr "(en) Hostname in use error"
+
+msgid "hos_HOSTNAME_VALIDATOR_ERROR"
+msgstr "Erro: caracteres inesperados no nome de host: \"[_1].[_2]\". O nome de host deve conter somente letras, números e hifens e tem que iniciar com uma letra ou um número."
+
+msgid "hos_HOSTTYPE"
+msgstr "Localização"
+
+msgid "hos_LOCAL_IP"
+msgstr "IP local"
+
+msgid "hos_LOCAL_IP_DESCRIPTION"
+msgstr "O endereço IP local é o endereço de uma outra máquina na rede local. Por favor entre com um endereço IP válido no formato \"aaa.bbb.ccc.ddd\"."
+
+msgid "hos_LOCAL_PAGE_DESCRIPTION"
+msgstr "Favor entrar com os seguintes detalhes adicionais para o host local:"
+
+msgid "hos_MODIFY_SUCCEEDED"
+msgstr "(en) Modify succeeded"
+
+msgid "hos_MODIFY_TITLE"
+msgstr "Modificar o nome do host"
+
+msgid "hos_MODIFY_TYPE"
+msgstr "(en) Modify type"
+
+msgid "hos_NONEXISTENT_HOSTNAME_ERROR"
+msgstr "(en) Nonexistent hostname error"
+
+msgid "hos_NONEXISTENT_HOST_ERROR"
+msgstr "(en) Nonexistent host error"
+
+msgid "hos_REMOTE_PAGE_DESCRIPTION"
+msgstr "Favor entrar com os seguintes detalhes adicionais para o host remoto:"
+
+msgid "hos_REMOVE_PAGE_DESCRIPTION"
+msgstr " Você está prestes a remover o nome de host \"[_1].[_2]\".   Você tem certeza que deseja remover este nome de host? "
+
+msgid "hos_REMOVE_SUCCEEDED"
+msgstr "(en) Remove succeeded"
+
+msgid "hos_REMOVE_TITLE"
+msgstr "Remover nome do host"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "hos_CONFIRM_DESCRIPTION"
+#~ msgstr "Por favor, confirme os seguintes detalhes."
+#~ msgid "hos_CREATE_LOCAL_HOST_TITLE"
+#~ msgstr "Criar um novo nome de host com referência ao host local."
+#~ msgid "hos_CREATE_REMOTE_HOST_TITLE"
+#~ msgstr "Criar um novo nome de host referenciando um host remoto"
+#~ msgid "hos_CURRENT_HOSTNAMES_FOR_DOMAIN"
+#~ msgstr "Lista atual de nome de hosts para [_1]."
+#~ msgid "hos_DIDNT_ENTER_LOCAL_IP"
+#~ msgstr "Erro: Voce não especificou um endereço IP local. Endereços IP devem conter somente números e pontos e ter o formato \"aaa.bbb.ccc.ddd\". Nome de host não criado."
+#~ msgid "hos_DNS_FORWARDER_ENABLED"
+#~ msgstr "Um DNS forwarder foi configurado. Isto significa que busca em DNS serão tratadas pelo DNS forwarder. Nome de hosts e endereços não podem ser modificados neste servidor enquanto um DNS forwarder estiver configurado."
+#~ msgid "hos_DOMAIN_VALIDATION_ERROR"
+#~ msgstr "Erro: caracter inesperado ou ausente no nome de domínio [_1]. O nome de domínio deve conter uma ou mais letras, números, pontos e sinais de menos. Novo domínio não criado."
+#~ msgid "hos_HOSTNAME_LENGTH_ERROR"
+#~ msgstr "Erro: nome de conta [_1] muito longa. O maximo é de 32 caracteres."
+#~ msgid "hos_HOSTNAME_VALIDATION_ERROR"
+#~ msgstr "Erro: caracteres inesperados no nome de host: \"[_1]\". O nome de host deve conter somente letras, números e hifens e tem que iniciar com uma letra ou um número."
+#~ msgid "hos_Hostnames and addresses"
+#~ msgstr "Hosts e endereços"
+#~ msgid "hos_IP_VALIDATION_ERROR"
+#~ msgstr "Erro: O endereço IP [_1] é inválido. Endereços IP devem conter somente números e pontos e ter o formato \"aaa.bbb.ccc.ddd\". Nome de host não criado."
+#~ msgid "hos_MAC_ADDRESS_VALIDATION_ERROR"
+#~ msgstr "Erro: O endereço Ethernet [_1] é inválido. O endereço Ethernet deve estar no formato \"AA:BB:CC:DD:EE:FF\" e somente conter números de 0-9 e letras de A-F. Nome de host não criado."
+#~ msgid "hos_MUST_BE_VALID_HOSTNAME_OR_IP"
+#~ msgstr "Deve ser um endereço IP ou nome de host válido"
+#~ msgid "hos_NO_HOSTNAMES_FOR_LOCAL_DOMAIN"
+#~ msgstr "Não existe nome de host no sistema para [_1]."
+#~ msgid "hos_NO_HOSTNAMES_FOR_SERVICENAME"
+#~ msgstr "Não existe nome de host no sistema para [_1]."
+#~ msgid "hos_NO_HOSTS_FOR_THIS_DOMAIN"
+#~ msgstr "Não existem hosts para esse domínio."
+#~ msgid "hos_STATIC_HOST_MESSAGE"
+#~ msgstr "- Este host representa seu sistema e não pode ser modificado ou removido."
+#~ msgid "hos_SUCCESSFULLY_CREATED"
+#~ msgstr "Nome de host criado com sucesso."
+#~ msgid "hos_SUCCESSFULLY_DELETED"
+#~ msgstr "Host eliminado com sucesso."
+#~ msgid "hos_SUCCESSFULLY_MODIFIED"
+#~ msgstr "Host modificado com sucesso."
+#~ msgid "hos_UNABLE_TO_OPEN_CONFIGDB"
+#~ msgstr "Incapaz de abrir banco de dados de configuração"

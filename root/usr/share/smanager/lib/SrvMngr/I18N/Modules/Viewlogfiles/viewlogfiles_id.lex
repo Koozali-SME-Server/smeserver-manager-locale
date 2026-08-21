@@ -1,4 +1,4 @@
-'log_View log files' => 'Lihat log file',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => 'Lihat log file',
 'log_FIRSTPAGE_DESC' => ' Panel ini berfungsi untuk melihat atau men-download log file yang dibuat oleh layanan yang berjalan di server anda. ',
 'log_LOG_FILE_SELECT_DESC' => 'Pilih sebuah log file untuk dilihat',
 'log_FILTER_PATTERN_DESC' => ' Anda dapat secara opsional menentukan sebuah pattern filter untuk menampilkan hanya baris -baris dari log file yang cocok dengan pattern ini. Jika anda membiarkan field ini kosong, semua baris dari log file akan ditampilkan. Harap catat bahwa pilihan ini tidak berlaku jika anda mendownload logfile tersebut.
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'Operasi',
-'log_DOWNLOAD_PAGE_DESC' => ' Logfile download sedang disiapkan. Saat anda klik &quot;Next&quot; tombol dibawah ini proses segera dijalankan, dan instruksikan browser anda untuk menerima download lewat pop-up yang akan muncul.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Mempersiapkan untuk download logfile [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Logfile download sedang disiapkan. Saat anda klik &quot;Next&quot; tombol dibawah ini proses segera dijalankan, dan instruksikan browser anda untuk menerima download lewat pop-up yang akan muncul.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Mempersiapkan untuk download logfile [_1].',
 'log_FORM_TITLE' => 'Lihat file log',

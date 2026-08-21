@@ -7,4 +7,4 @@
 'clm_NEVER' => 'לעולם לא',
 'clm_DAILY' => 'יומי',
 'clm_SUCCESS' => 'הגדרות ClamAV החדשות נשמרו.',
-'clm_Antivirus (ClamAV)' => 'אנטי-וירוס (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'אנטי-וירוס (ClamAV)',

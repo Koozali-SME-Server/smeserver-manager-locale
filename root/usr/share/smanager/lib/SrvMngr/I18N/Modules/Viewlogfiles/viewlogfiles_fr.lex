@@ -1,4 +1,4 @@
-'View log files' => 'Visualisation des fichiers journaux',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'View log files' => 'Visualisation des fichiers journaux',
 'log_FORM_TITLE' => 'Visualisation des fichiers journaux',
 'log_FIRSTPAGE_DESC' => ' Cette page vous permet de visualiser ou de télécharger les fichiers journaux générés par les services en cours de fonctionnement sur votre serveur. ',
 'log_LOG_FILE_SELECT_DESC' => 'Choisissez le fichier journal à afficher',
@@ -25,7 +25,7 @@
 'log_REFRESH' => 'Régénérer ce fichier journal',
 'log_OP_DESC' => 'Vous avez la possibilité d\'afficher le fichier journal dans votre navigateur ou de le télécharger sur votre ordinateur. Si le fichier journal est particulièrement volumineux, il peut être préférable de le télécharger sur votre ordinateur. En effet, certains navigateurs peuvent éprouver des difficultés à afficher de trop gros fichiers.',
 'log_OP_LABEL' => 'Action',
-'log_DOWNLOAD_PAGE_DESC' => ' Votre fichier journal est prêt à être téléchargé. Le téléchargement commencera dès que vous aurez cliqué sur le bouton "Suivant" ci-dessous et que vous aurez indiqué à votre navigateur d\'accepter l\'opération dans la boîte de dialogue qui s\'affichera.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Préparation du téléchargement du fichier journal "[_1]".',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Votre fichier journal est prêt à être téléchargé. Le téléchargement commencera dès que vous aurez cliqué sur le bouton "Suivant" ci-dessous et que vous aurez indiqué à votre navigateur d\'accepter l\'opération dans la boîte de dialogue qui s\'affichera.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Préparation du téléchargement du fichier journal "[_1]".',

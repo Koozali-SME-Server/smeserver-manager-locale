@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Remoteaccess module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+
+msgid "Remote access"
+msgstr "Fjernadgang"
+
+msgid "rma_DESC_FTP_ACCESS"
+msgstr " FTP-indstillinger Du kan styre FTP adgang til serveren. Vi anbefaler indstillingen Ingen adgang medmindre du har specielle grunde til at gøre andet.  Bemærk: Disse indstillinger begænser adgangen til serveren og overskiver andre indstillinger, også de individuelle indstillinger for i-bays. "
+
+msgid "rma_DESC_FTP_LOGIN"
+msgstr " Du kan også styre brugergodkendt FTP-adgang til i-bays og brugerkonti. Vi vil på det bestemteste anbefale et efterlade denne indstilling på privat, medmindre du har specifikke grunde til at gøre andet.  Bemærk: secure shell sftp klienten kan også bruges til at få adgang til serveren, når fjernadgang via secure shell er slået til. Denne form for adgang beskytter adgangskoder og data for FTP-sessionen, mens standard FTP ikke yder nogen beskyttelse. "
+
+msgid "rma_DESC_IPSECRW"
+msgstr " IPSEC klient (Roadwarrior) indstillinger Du kan tillade IPSEC klientadgang til din server, brugergodkendt med digitale certifikater. Du bør efterlade denne indstilling slukket, ved at sætte værdien til tallet 0, medmindre du har behov for IPSEC klientadgang. "
+
+msgid "rma_DESC_IPSECRW_RESET"
+msgstr "Ønsker du at nulstille alle digitale certifikater, kan du gøre det her.Samtlige gamle certifikater vil ikke kunne brugergodkende på denne server, så alle IPSEC klienter må importere et nyt certifikat!. "
+
+msgid "rma_DESC_PPTP"
+msgstr " VPNadgang Du kan tillade VPNadgang til din server. Du bør efterlade denne funktion deaktiveret ved at sætte værdien til tallet 0, medmindre du har behov for VPNadgang. "
+
+msgid "rma_DESC_SSH"
+msgstr "  'Secure Shell' indstillingerDu kan styre Secure Shell adgang til serveren. Offentlig adgang bør kun gives af erfarne administratorer til fjern fejlsøgning og fejlretning. Vi anbefaler indstillingen \"Ingen adgang\" medmindre du har specielle grunde til andet. "
+
+msgid "rma_DESC_TELNET_ACCESS"
+msgstr " Telnet indstillinger ADVARSEL: Telnet er pt. tændt, men denne funktion er ikke længere understøttet. Telnet er grundlæggende usikker og bør kun anvendes når der ikke er andre alternativer. Du bør ændre indstillingen til [_1] og bruge secure shell når fjernadgang er påkrævet. Slås funktionen fra, vil telnet ikke længere dukke op på dette skærmbillede. "
+
+msgid "rma_DESC_VALID_FROM_ENTRIES"
+msgstr "For at tilføje et nyt netværk til fjernadministration, angiv detaljer nedenfor."
+
+msgid "rma_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "rma_ERR_INVALID_PARAMS"
+msgstr "Angiv både en netværksadresse og en subnetmaske, eller efterlad begge felter tomme."
+
+msgid "rma_FORM_TITLE"
+msgstr "Fjernadgang"
+
+msgid "rma_INVALID_SUBNET_MASK"
+msgstr "Ugyldig subnetmaske"
+
+msgid "rma_LABEL_FTP_ACCESS"
+msgstr "FTP adgang"
+
+msgid "rma_LABEL_FTP_LOGIN"
+msgstr "FTP adgang med adgangskode"
+
+msgid "rma_LABEL_IPSECRW_RESET"
+msgstr "Nulstil digitale certifikater"
+
+msgid "rma_LABEL_IPSECRW_SESS"
+msgstr "Antal IPSEC-klienter"
+
+msgid "rma_LABEL_PPTP"
+msgstr "Antal VPNklienter"
+
+msgid "rma_LABEL_SSH"
+msgstr "Secure shell adgang"
+
+msgid "rma_LABEL_SSH_ADMIN"
+msgstr "Tillad administrativ komandolinie-adgang over secure shell"
+
+msgid "rma_LABEL_SSH_PASSWORD_ACCESS"
+msgstr "Tillad secure shell adgang med standard adgangskoder"
+
+msgid "rma_LABEL_SSH_PORT"
+msgstr "TCP-port for secure shell adgang"
+
+msgid "rma_LABEL_TELNET_ACCESS"
+msgstr "Telnet adgang"
+
+msgid "rma_NO_ACCESS"
+msgstr "Ingen adgang"
+
+msgid "rma_NO_ENTRIES_YET"
+msgstr "Der er ingen noter endnu"
+
+msgid "rma_NUMBER_OF_PPTP_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE"
+msgstr "Antallet af pptp klienter er større end antallet af reserverede ip numre for DHCP. Du skal vælge et mindre antal."
+
+msgid "rma_NUM_OF_HOSTS"
+msgstr "Antal værter"
+
+msgid "rma_PASSWORD_LOGIN_PRIVATE"
+msgstr "Accepter kun adgangskoder fra lokalnet"
+
+msgid "rma_PASSWORD_LOGIN_PUBLIC"
+msgstr "Accepter adgangskoder både fra lokalnet og Internet"
+
+msgid "rma_REMOTE_MANAGEMENT"
+msgstr "Fjernadministration"
+
+msgid "rma_SUBNET_MASK"
+msgstr "Subnetmaske"
+
+msgid "rma_SUCCESS"
+msgstr "De nye fjernadgangsindstillinger er gemt."
+
+msgid "rma_TITLE_FTP_ACCESS"
+msgstr "FTP-indstillinger"
+
+msgid "rma_TITLE_IPSECRW"
+msgstr "Indstillinger for IPSEC-klient (Roadwarrior)"
+
+msgid "rma_TITLE_PPTP"
+msgstr "PPTP-indstillinger"
+
+msgid "rma_TITLE_SSH"
+msgstr "Secure Shell-indstillinger"
+
+msgid "rma_TITLE_TELNET_ACCESS"
+msgstr "Telnet-indstillinger"
+
+msgid "rma_VALIDFROM_DESC"
+msgstr " [_1] Det er muligt, at tillade værter på fjerne netværker adgang til Serverstyringen, ved at tilføje disse netværker her. Enhver vært indenfor det angivne område vil være i stand til at få adgang til Serverstyringen ved at bruge HTTPS. Brug subnetmaske 255.255.255.255 for at begrænse adgangen til en bestemt vært. "
+
+msgid "rma_VALIDFROM_TITLE"
+msgstr "[_1]"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rma_DESCRIPTION"
+#~ msgstr "For hver af mulighederne nedenfor, giver indstillingen Privat, at enhver fra lokalnettet har adgang. Indstilligen Offentlig tillader adgang fra hele Internet. Ingen adgang lukker for adgang. Før du ændre disse indstillinger bør du af sikkerhedsmæssige grunde læse brugermanualens afsnit om fjernadgang."
+#~ msgid "rma_DESC_SERIAL_CONSOLE_ACCESS"
+#~ msgstr " Seriel konsol Du kan tillade adgang til serverkonsollen fra en terminal tilsluttet serverens serielle port."
+#~ msgid "rma_ERR_NO_RECORD"
+#~ msgstr "Er ikke i stand til at lokalisere en http-admin optegnelse i konfigurationsdatabasen"
+#~ msgid "rma_LABEL_PPTP_ACCESS"
+#~ msgstr "Grundlæggende VPNbrugeradgang"
+#~ msgid "rma_LABEL_SERIAL_CONSOLE_ACCESS"
+#~ msgstr "Seriel konsol"
+#~ msgid "rma_PORT1_ENABLED"
+#~ msgstr "Tilladt på seriel port 1"
+#~ msgid "rma_PORT2_ENABLED"
+#~ msgstr "Tilladt på seriel port 2"
+#~ msgid "rma_VALUE_ZERO_OR_POSITIVE"
+#~ msgstr "Værdien skal være et helt positivt tal eller 0"

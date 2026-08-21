@@ -1,0 +1,782 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. ALL_BACKUPS
+msgid "ALL_BACKUPS"
+msgstr ""
+
+#. Backup or restore
+msgid "Backup or restore"
+msgstr ""
+
+#. Mounted disk
+msgid "Mounted disk"
+msgstr ""
+
+#. All backups
+msgid "bac_ALL_BACKUPS"
+msgstr ""
+
+#. AM
+msgid "bac_AM"
+msgstr ""
+
+#. AM/PM
+msgid "bac_AM/PM"
+msgstr ""
+
+#. Another restore is in progress. Please try again later.
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr ""
+
+#. Regular tape backups will run at: 
+msgid "bac_BACKUPS_RUN_AT"
+msgstr ""
+
+#. Selecting files to display
+msgid "bac_BACKUP_CHOICE"
+msgstr ""
+
+#. Backup configuration and status
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr ""
+
+#. <P>Three ways are provided to back up and restore your \nserver: using a tape drive, using a network share or a local \nremovable disk, or using your local desktop.</P>\n<P>Tape Backup. This method uses a software package called <I>[_1]</I>\nto back up your entire hard disk to tape every night. This requires a\nsupported tape drive and a tape that is not write-protected. The backup\nis performed automatically at the selected time every night (with a\nreminder automatically e-mailed to the administrator during the day).\nCurrently your hard disk contains <b>[_2]</b> of data.</P>\n<P>Workstation backup. This method uses a software package called <I>dar</I>\nto back up your server configuration and data files to a network share \nor a local removable disk such as a USB disk. \nYou can manage how many rotating sets of backups are kept,\nand how many incremental backups to have in each set. \nThe backup is performed automatically at the selected time every day. Currently \nconfiguration and data files total approximately <b>[_3]</b> uncompressed.\nTwice the compressed data size must be available on the backup share.</P>\n<P>Backup to Desktop. This method creates a copy of your server \nconfiguration and user data files, and downloads it to your \nlocal desktop via your web browser.\nCurrently your configuration and data files total approximately\n<b>[_3]</b>. The backup file will be somewhat less than this,\ndepending on how much the data can be compressed. \nThis file can be used to restore the server from the console if you H\ncopy it to a local removable disk such as a USB disk.</P>\n<P>All backup methods allow you to restore your configuration and user\ndata files. Workstation backup provides individual file restore. <b>Ideally, \nfull restore should be performed on a freshly installed server</b>.</P>
+msgid "bac_BACKUP_DESC_DAR"
+msgstr ""
+
+#. Your server has too much data for a reliable backup to desktop.
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr ""
+
+#. The backup file was incomplete
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr ""
+
+#. Backup or restore server data
+msgid "bac_BACKUP_TITLE"
+msgstr ""
+
+#. Please choose an hour between 0 and 12.
+msgid "bac_BETWEEN_0_AND_12"
+msgstr ""
+
+#. Please choose a minute between 0 and 59.
+msgid "bac_BETWEEN_0_AND_59"
+msgstr ""
+
+#. Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled.
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr ""
+
+#. Check here to test integrity of all backups needed for a full restore with the selected backup 
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr ""
+
+#. Backup compression level ~[0-9~]
+msgid "bac_COMPRESSION_LEVEL"
+msgstr ""
+
+#. Please configure the backup settings.
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr ""
+
+#. Configure tape backup
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr ""
+
+#. Configure Workstation Backup
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr ""
+
+#. You can set the number of \nsuccessive backup sets to keep on the workstation, with automatic rotation. \nEach set may contain saved data for several consecutive days.\nIn this case first backup of the set is full backup, others daily backups are \nincremental. You can also set a time limit for each backup session or for incremental \nbackups only. When this limit occurs, backup is cleanly stopped and the next \nincremental backup will safely continue with unsaved and modified datas.
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr ""
+
+#. Could not decode backup file: 
+msgid "bac_COULD_NOT_DECODE"
+msgstr ""
+
+#. Could not execute backup pipeline: 
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr ""
+
+#. Could not fork: 
+msgid "bac_COULD_NOT_FORK"
+msgstr ""
+
+#. Backup to desktop
+msgid "bac_DESKTOP_BACKUP"
+msgstr ""
+
+#. Restore from desktop
+msgid "bac_DESKTOP_RESTORE"
+msgstr ""
+
+#. This process will upload a server backup file from your local desktop to your server and restore the configuration and user data files. <B>The restore should be performed on a freshly installed server</B>.
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr ""
+
+#. Verify desktop backup file
+msgid "bac_DESKTOP_VERIFY"
+msgstr ""
+
+#. Sunday Monday Tuesday Wednesday Thursday Friday Saturday Everyday
+msgid "bac_DOW"
+msgstr ""
+
+#. Enable/Disable Nightly Tape Backup
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr ""
+
+#. Enable/Disable Daily Workstation Backup
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr ""
+
+#. Enable tape backup
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr ""
+
+#. Enable Workstation Backup
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr ""
+
+#. Error while reading files from
+msgid "bac_ERROR_READING_FILE"
+msgstr ""
+
+#. Error updating configuration
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr ""
+
+#. The parameters have been saved, however the remote host is not reachable, please check your settings.
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr ""
+
+#. Backup directory is already mounted
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr ""
+
+#. Error occurred during conf-backup event.
+msgid "bac_ERR_CONF_BACKUP"
+msgstr ""
+
+#. Error when using Dar catalog
+msgid "bac_ERR_DAR_CATALOG"
+msgstr ""
+
+#. Error when extracting with Dar
+msgid "bac_ERR_EXTRACT"
+msgstr ""
+
+#. Compression level must be set between 0 (no compression) and 9 (maximum compression)
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr ""
+
+#. This number must be 1 or greater. First backup in set is <b>full</b> others are <b>incrementals</b>
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr ""
+
+#. Invalid share name
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr ""
+
+#. Error: invalid backup hour: 
+msgid "bac_ERR_INVALID_HOUR"
+msgstr ""
+
+#. Invalid Login
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr ""
+
+#. Error: invalid backup minute: 
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr ""
+
+#. Invalid Password
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr ""
+
+#. Error: invalid reminder hour: 
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr ""
+
+#. Error: invalid reminder minute: 
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr ""
+
+#. Date format is invalid, must be ~[~[~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 or \n10-08:32 or 08:32
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr ""
+
+#. Sets number must be 1 or greater
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr ""
+
+#. Err invalid sets numberfolder
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr ""
+
+#. Maximum backup time must be set between 1 and 24 hours
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr ""
+
+#. Invalid Workstation IP or Hostname 
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr ""
+
+#. Unable to mount workstation shared folder
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr ""
+
+#. Backup directory is not mounted
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr ""
+
+#. Aborting restore because needed full backup is missing or unreadable.
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr ""
+
+#. No directory for your host in shared folder. Maybe your host name is different from backup ones
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr ""
+
+#. Aborting restore because the set has missing or unreadable incremental backup number
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr ""
+
+#. Error : No mounted disk available. Please mount a disk or select another type of workstation backup.
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr ""
+
+#. Error : No removable disk available. Please connect a removable disk or select another type of workstation backup.
+msgid "bac_ERR_NO_USB_DISK"
+msgstr ""
+
+#. Error occurred during post-backup actions.
+msgid "bac_ERR_POST_BACKUP"
+msgstr ""
+
+#. Error occurred during pre-backup actions.
+msgid "bac_ERR_PRE_BACKUP"
+msgstr ""
+
+#. Error occurred during pre-restore actions.
+msgid "bac_ERR_PRE_RESTORE"
+msgstr ""
+
+#. There was an error in reading the backup file.
+msgid "bac_ERR_READING_FILE"
+msgstr ""
+
+#. Error occurred restoring files from tape.
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr ""
+
+#. Error occurred restoring files from workstation.
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr ""
+
+#. Error occurred while restoring gid of 'www'
+msgid "bac_ERR_RESTORING_GID"
+msgstr ""
+
+#. Error occurred while restoring initial group of 'www'.
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr ""
+
+#. Error occurred while updating system configuration after tape \nrestore.
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr ""
+
+#. Error occurred while updating system configuration after workstation \nrestore.
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr ""
+
+#. Error occurs when unmounting distant share
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr ""
+
+#. The following files and directories have been restored:
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr ""
+
+#. The following files are considered in the backup :
+msgid "bac_FILES_IN_BACKUP"
+msgstr ""
+
+#. Backup file to restore from
+msgid "bac_FILE_TO_RESTORE"
+msgstr ""
+
+#. Names filtered by
+msgid "bac_FILTER_EXPRESSION"
+msgstr ""
+
+#. and finished at: 
+msgid "bac_FINISHED_AT"
+msgstr ""
+
+#. You have approximately [_1] free space on the server.\nCheck that desktop backup file is less than [_2] before\ncommencing the restore.
+msgid "bac_FREE_SPACE"
+msgstr ""
+
+#. Full backup is allowed on
+msgid "bac_FULL_ONLY_ON"
+msgstr ""
+
+#. hours.
+msgid "bac_HOURS"
+msgstr ""
+
+#. Don't timeout full backup sessions
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr ""
+
+#. Invalid function
+msgid "bac_INVALID_FUNCTION"
+msgstr ""
+
+#. Load tape reminder time of day (hour/min)
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr ""
+
+#. Login is 
+msgid "bac_LOGIN"
+msgstr ""
+
+#. After the restore completes you must reboot the server.
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr ""
+
+#. Mounted disk
+msgid "bac_Mounted disk"
+msgstr ""
+
+#. Your server configuration and user data\nfiles are now being restored from tape.
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr ""
+
+#. Your server configuration and user data\nfiles are now being restored from workstation shared folder.
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr ""
+
+#. There is no backup set on configured workstation shared folder. Verify your configuration settings.
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr ""
+
+#. Could not get uid for user named: 
+msgid "bac_NO_UID_FOR_NAME"
+msgstr ""
+
+#. Daily backups in each set
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr ""
+
+#. Number of rotating backup sets
+msgid "bac_NUMBER_OF_SETS"
+msgstr ""
+
+#. No suitable local devices found
+msgid "bac_No suitable local devices found"
+msgstr ""
+
+#. Operation status report
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr ""
+
+#. This page will refresh to the status display in [_1] seconds, or\nclick <a href=\"/server-manager/cgi-bin/backup\">here</a>.
+msgid "bac_PAGE_REFRESH_IN"
+msgstr ""
+
+#. Password is 
+msgid "bac_PASSWORD"
+msgstr ""
+
+#. PM
+msgid "bac_PM"
+msgstr ""
+
+#. You can choose all the directories and files you want to restore in the displayed list \n(use ctrl or shift for multiple selection). <br/> <b>Warning :</b> If you select a directory, \nall contained files and directories will be restored.<p/>\nBy default the most recent version of selected files is restored, but if you specify a date \nin the format <i>~[~[~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]</i> the process \nwill restore only the most recent version modified <b>before the given date</b>.
+msgid "bac_READ_COMPLETE"
+msgstr ""
+
+#. Reboot
+msgid "bac_REBOOT"
+msgstr ""
+
+#. Refresh this display
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr ""
+
+#. Reminder messages will be sent at: 
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr ""
+
+#. Unable to proceed with restore of server configuration
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr ""
+
+#. Restore complete
+msgid "bac_RESTORE_COMPLETE"
+msgstr ""
+
+#. A system restore has completed
+msgid "bac_RESTORE_COMPLETED"
+msgstr ""
+
+#. Restore server configuration from tape backup
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr ""
+
+#. <P>This process will restore the configuration and user data files from a\n server tape backup. <B>The restore should be performed on a freshly installed server</B>.</P>\n <P>Ensure that you have loaded the desired backup tape into the tape drive\n before proceeding.</P>\n <P>After the restore completes you must reboot the server.</P>
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr ""
+
+#. Restore server configuration from workstation backup
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr ""
+
+#. <p>This process will restore the configuration and user data files from a\nServer workstation backup. <b>The restore\nshould be performed on a freshly installed Server</b>.</p>\n<p>Ensure that choose the right backup to restore below\nbefore proceeding.</p>\n<p>After the restore completes you must reboot the server.</p>\nBackup will be restored from : 
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr ""
+
+#. Restore failed! The backup file was incomplete.
+msgid "bac_RESTORE_FAILED"
+msgstr ""
+
+#. Restore failed! There was an error in reading the backup file.
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr ""
+
+#. Restore From Tape
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr ""
+
+#. Restore From Workstation
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr ""
+
+#. Restore in progress
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr ""
+
+#. A system restore is in progress. It began at: 
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr ""
+
+#. After the restore completes you must reboot the server. Your restore is\ncomplete when the words \"Restore complete\" appear at the bottom of your screen.\n
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr ""
+
+#. Restore server configuration
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr ""
+
+#. Verify integrity failed
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr ""
+
+#. Restoring From Tape
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr ""
+
+#. Restoring From Workstation
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr ""
+
+#. Select an action
+msgid "bac_SELECT_AN_ACTION"
+msgstr ""
+
+#. Select backup file
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr ""
+
+#. Restore most recent before
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr ""
+
+#. Select files to restore
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr ""
+
+#. Select the type of share for backup destination
+msgid "bac_SELECT_VFS_TYPE"
+msgstr ""
+
+#. Server reboot
+msgid "bac_SERVER_REBOOT"
+msgstr ""
+
+#. Your server will now reboot.
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr ""
+
+#. Backup share
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr ""
+
+#. It began at: 
+msgid "bac_STARTED_AT"
+msgstr ""
+
+#. Success
+msgid "bac_SUCCESS"
+msgstr ""
+
+#. Successfully disabled tape backups
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr ""
+
+#. Successfully disabled workstation backups
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr ""
+
+#. Successfully enabled tape backups
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr ""
+
+#. Successfully enabled workstation backups
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr ""
+
+#. Tape backups are 
+msgid "bac_TAPE_BACKUPS"
+msgstr ""
+
+#. Tape backup time of day (hour/min)
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr ""
+
+#. Configure tape backup
+msgid "bac_TAPE_CONFIGURE"
+msgstr ""
+
+#. <p>Select whether you wish to enable nightly backups. Then indicate the\n desired times for the backup and the load tape reminder.</p> <p>The tape\n backup requires a supported tape drive. A warning message will be sent to\n the administrator at the designated reminder time if the tape drive is\n empty.</p>
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr ""
+
+#. Restore from tape
+msgid "bac_TAPE_RESTORE"
+msgstr ""
+
+#. Testing integrity of backup
+msgid "bac_TESTED_BACKUP"
+msgstr ""
+
+#. Testing all backups needed for a full restore with selected backup
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr ""
+
+#. Unable to restore server configuration
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr ""
+
+#. Update
+msgid "bac_UPDATE_CONF"
+msgstr ""
+
+#. Updating tape backup configuration
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr ""
+
+#. Updating workstation backup configuration
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr ""
+
+#. Verify
+msgid "bac_VERIFY"
+msgstr ""
+
+#. \n<p>This option will display the names of all files\nin a previously created desktop backup file. You\ncan use this option to verify the contents of the\nbackup file.</p> 
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr ""
+
+#. Verification is complete
+msgid "bac_VERIFY_COMPLETE"
+msgstr ""
+
+#. <p>This option will display the names of all files\nin a previously created workstation daily backup. You\ncan use this option to verify the contents of the\nbackup.<b>You must choose the backup you want to verify</b></p>\n<p>Only files flagged with (Saved)  are contained in the backup.</p>\n<br/>Backup files are verified from shared folder :
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr ""
+
+#. Verify workstation backup
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr ""
+
+#. with backup time: 
+msgid "bac_WITH_BACKUP_TIME"
+msgstr ""
+
+#. and load tape reminder time: 
+msgid "bac_WITH_REMINDER_TIME"
+msgstr ""
+
+#. Regular workstation backups will run at: 
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr ""
+
+#. Backup workstation settings
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr ""
+
+#. Create or modify workstation backup configuration
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr ""
+
+#. Workstation backups are 
+msgid "bac_WORKSTN_BACKUPS"
+msgstr ""
+
+#. Compression level (0-9) of backup is 
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr ""
+
+#. Number of daily backups contained in each set is 
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr ""
+
+#. <p>This panel displays the present workstation backup configuration. You can \nchange it in this panel and the next one.</p><p/>
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr ""
+
+#. Backup is 
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr ""
+
+#. Backup is made on LAN workstation 
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr ""
+
+#. except full backups which are cleanly timed out after 24 hours
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr ""
+
+#. Backup is made on mounted disk
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr ""
+
+#. <p>Presently, workstation backup is not configured. You can set this configuration\nwith this panel and the next one.</p><p/>
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr ""
+
+#. Number of rotating backup sets is 
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr ""
+
+#. Workstation Backup Settings
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr ""
+
+#. Destination backup share folder is 
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr ""
+
+#. Workstation backup time of day (hour/min)
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr ""
+
+#. Each daily backup session is cleanly timed out after 
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr ""
+
+#. Daily backup occurs at 
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr ""
+
+#. Backup is made on local removable disk
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr ""
+
+#.  via 
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr ""
+
+#. Configure workstation backup
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr ""
+
+#. Full backup session (new backup sets) is allowed only on
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr ""
+
+#. Full backup sessions (new backup set) are allowed everyday
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr ""
+
+#. Login name
+msgid "bac_WORKSTN_LOGIN"
+msgstr ""
+
+#. Workstation IP or hostname
+msgid "bac_WORKSTN_NAME"
+msgstr ""
+
+#. You must first correctly configure your workstation backup
+msgid "bac_WORKSTN_NOT_SET"
+msgstr ""
+
+#. Restore from workstation
+msgid "bac_WORKSTN_RESTORE"
+msgstr ""
+
+#. Workstation selective file restore
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr ""
+
+#. Selective file restore from workstation
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr ""
+
+#. This process will restore only specified files and directories. You must first choose \nthe backup from which the files will be restored. If you don't know in which backup \nare the required files, you can select 'All backups' option. <br/><br/>\nThe next panel will display available files and directories\\, \nso you can choose the ones to restore. To restrict the number of files and directories \ndisplayed in this panel, you have the option to give now a filtering expression, \napplied as a regular expression to the displayed names.<br/><br/>\nYou have the responsibility not to restore files which could break the\nfunctioning of your server.<br/> <br/>Currently, files will be restored from :
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr ""
+
+#. Optional backup session timeout (hours)
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr ""
+
+#. Verify workstation backup
+msgid "bac_WORKSTN_VERIFY"
+msgstr ""
+
+#. X Backup or restore server data
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr ""
+
+#. You must reboot the server to activate any configuration changes that were\nmade as a result of this restore.
+msgid "bac_YOU_MUST_REBOOT"
+msgstr ""
+
+#. cifs
+msgid "bac_cifs"
+msgstr ""
+
+#. Local removable disk
+msgid "bac_local removable disk"
+msgstr ""
+
+#. nfs
+msgid "bac_nfs"
+msgstr ""
+
+#. cifs
+msgid "cifs"
+msgstr ""
+
+#. local removable disk
+msgid "local removable disk"
+msgstr ""
+
+#. nfs
+msgid "nfs"
+msgstr ""

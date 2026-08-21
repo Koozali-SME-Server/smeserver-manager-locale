@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Dnf module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+
+msgid "Groups"
+msgstr "(en) Groups"
+
+msgid "Packages"
+msgstr "(en) Packages"
+
+msgid "Start"
+msgstr "(en) Start"
+
+msgid "yum_1DAILY"
+msgstr "Daglig"
+
+msgid "yum_2WEEKLY"
+msgstr "Ugentlig"
+
+msgid "yum_3MONTHLY"
+msgstr "Månedlig"
+
+msgid "yum_AutoInstallUpdates"
+msgstr "(en) Autoinstallupdates"
+
+msgid "yum_BUTTON_CONFIGURATION"
+msgstr "Ændr indstillinger for softwareinstallationsprogrammet"
+
+msgid "yum_BUTTON_INSTALL_AVAILABLE"
+msgstr "Installer yderligere software"
+
+msgid "yum_BUTTON_INSTALL_UPDATES"
+msgstr "Vis tilgængelige opdateringer"
+
+msgid "yum_BUTTON_REMOVE"
+msgstr "Fjern installeret software"
+
+msgid "yum_DESC_AVAILABLE_GROUPS"
+msgstr "Vælg programgrupper til installation fra listen nedenfor."
+
+msgid "yum_DESC_AVAILABLE_PACKAGES"
+msgstr "Du kan også vælge individuelle pakker til installation fra listen nedenfor."
+
+msgid "yum_DESC_AVAILABLE_UPDATES"
+msgstr "Følgende opdateringer til dit system er tilgængelige. Normalt bør du installere alle tilgængelige opdateringer. Er der opdateringer du ikke ønsker at installere, fravælg dem på listen nedenfor."
+
+msgid "yum_DESC_ENABLED_REPOSITORIES"
+msgstr "Programinstallationen kan ske fra ethvert af de aktiverede datalagre. For at aktivere et datalager, vælg det fra listen. For at fjerne det, fra-vælg det fra listen. Som udgangspunkt er kun stabile og afprøvede programmer tilgængelige for installation."
+
+msgid "yum_DESC_INSTALLED_GROUPS"
+msgstr "Du kan vælge programgrupper til fjernelse fra serveren fra listen nedenfor."
+
+msgid "yum_DESC_INSTALLED_PACKAGES"
+msgstr "Du kan også vælge individuelle pakker til fjernelse fra serveren fra listen nedenfor."
+
+msgid "yum_DESC_UPDATES_AVAILABLE"
+msgstr "Der er opdateringer tilgængelig for dit system. Disse bør installeres snarest muligt."
+
+msgid "yum_DESC_UPTODATE"
+msgstr "Alle opdateringer er installeret."
+
+msgid "yum_DESC_YUM_AUTOINSTALLUPDATES"
+msgstr "(en)If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page."
+
+msgid "yum_DESC_YUM_DELTARPMPROCESS"
+msgstr "(en)A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles"
+
+msgid "yum_DESC_YUM_PACKAGEFUNCTIONS"
+msgstr "Programinstallationen kan håndtere grupper af beslægtede pakker eller individuelle pakker. I udgangspunkt vises kun programgrupper. Ønsker du at håndtere individuelle pakker slå denne funktion til. Dette bør kun gøres af erfarne administratorer."
+
+msgid "yum_DeltaRpmProcess"
+msgstr "(en) Deltarpmprocess"
+
+msgid "yum_DownloadOnly"
+msgstr "(en) Downloadonly"
+
+msgid "yum_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "yum_FORM_TITLE"
+msgstr "Installationsprogram til software"
+
+msgid "yum_HEADER_AVAILABLE_SOFTWARE"
+msgstr "Følgende programmer er tilgængelige til installation på dit system. Du bør kun installere yderligere programmer på systemet, hvis du er opmærksom på konsekvenserne heraf."
+
+msgid "yum_HEADER_INSTALLED_SOFTWARE"
+msgstr "Følgende programmer er installeret på systemet. Du bør kun fjerne programmer fra systemet hvis du er opmærksom på konsekvenserne heraf."
+
+msgid "yum_HEADER_POSTUPGRADE_REQUIRED"
+msgstr " Systemet skal omkonfigureres efter tilføjelse eller fjernelse af programmer eller tilføjelse af opdateringer.<p> Venligst klik på knappen Omkonfigurer nederst på siden for at starte omkonfigureringen. <b>Automatisk genstart af serveren vil blive udført som en del af denne omkonfigurering</b> </p> "
+
+msgid "yum_INSTALL_SOFTWARE"
+msgstr "Installer"
+
+msgid "yum_INSTALL_UPDATES"
+msgstr "Installer valgte opdateringer"
+
+msgid "yum_LABEL_AVAILABLE_GROUPS"
+msgstr "Tilgængelige grupper"
+
+msgid "yum_LABEL_AVAILABLE_PACKAGES"
+msgstr "Tilgængelige pakker"
+
+msgid "yum_LABEL_AVAILABLE_UPDATES"
+msgstr "Tilgængelige opdateringer "
+
+msgid "yum_LABEL_ENABLED_REPOSITORIES"
+msgstr "Aktiverede datalagre"
+
+msgid "yum_LABEL_INSTALLED_GROUPS"
+msgstr "Installerede grupper"
+
+msgid "yum_LABEL_INSTALLED_PACKAGES"
+msgstr "Installerede pakker"
+
+msgid "yum_LABEL_YUM_AUTOINSTALLUPDATES"
+msgstr "Installere opdateringer automatisk"
+
+msgid "yum_LABEL_YUM_DELTARPMPROCESS"
+msgstr "Forskels RPM opdatering"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY"
+msgstr "Download opdateringer på forhånd"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION"
+msgstr "(en)The rpm updates can be downloaded during the night, this will ease and give faster the dnf update process (only enabled repositories will be used)."
+
+msgid "yum_LABEL_YUM_PACKAGEFUNCTIONS"
+msgstr "Håndter individuelle pakker"
+
+msgid "yum_LABEL_YUM_STATUS"
+msgstr "Søg efter opdateringer"
+
+msgid "yum_MULTI_SELECT"
+msgstr "(en) <strong>Ctrl/Cmd-click</strong> toggles individual items and <strong>Shift-click</strong> selects ranges.\n<br /><strong>Case-insensitive</strong> search unless you enter a <strong>regex</strong> in <i>/pattern/flags</i> form (e.g. /maria.*client/i).."
+
+msgid "yum_Please_Wait_-_dnf_Running"
+msgstr "Vent venligst – dnf kører"
+
+msgid "yum_SUCCESS"
+msgstr "De nye indstillinger er gemt."
+
+msgid "yum_UPDATE_SUCCESS"
+msgstr "(en)The requested changes have been successfully implemented."
+
+msgid "yum_check4updates"
+msgstr "(en) Check4updates"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "yum_SYSTEM_BEING_RECONFIGURED"
+#~ msgstr "Dit system bliver genstartet automatisk for at fuldføre omkonfigurationen."
+#~ msgid "yum_Software Installer"
+#~ msgstr "Installationsprogram til software"

@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Dnf module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "Groups"
+msgstr "(en) Groups"
+
+msgid "Packages"
+msgstr "(en) Packages"
+
+msgid "Start"
+msgstr "(en) Start"
+
+msgid "yum_1DAILY"
+msgstr "Dnevno"
+
+msgid "yum_2WEEKLY"
+msgstr "Tedensko"
+
+msgid "yum_3MONTHLY"
+msgstr "Monthly"
+
+msgid "yum_AutoInstallUpdates"
+msgstr "(en) Autoinstallupdates"
+
+msgid "yum_BUTTON_CONFIGURATION"
+msgstr "Spremeni nastavitve namestitvenega programa programske opreme"
+
+msgid "yum_BUTTON_INSTALL_AVAILABLE"
+msgstr "Namestite dodatno programsko opremo"
+
+msgid "yum_BUTTON_INSTALL_UPDATES"
+msgstr "Seznam razpoložljivih posodobitev"
+
+msgid "yum_BUTTON_REMOVE"
+msgstr "Odstrani nameščeno programsko opremo"
+
+msgid "yum_DESC_AVAILABLE_GROUPS"
+msgstr "S spodnjega seznama lahko izberete skupine programske opreme, ki se naj namesti."
+
+msgid "yum_DESC_AVAILABLE_PACKAGES"
+msgstr "Namestitev individualnih paketov lahko izbirate iz spodnjega seznama."
+
+msgid "yum_DESC_AVAILABLE_UPDATES"
+msgstr "Na voljo so naslednje posodobitve. Namestitete jih popolnoma obicajno, kot vsako drugo. Ce katere izmed teh ne zelite namestiti, je ne oznacite na seznamu."
+
+msgid "yum_DESC_ENABLED_REPOSITORIES"
+msgstr "Sistem za namescanje programske opreme lahko namesti programsko opremo z bilo katerega izmed omogocenih repozitorijev. Pred uporabo morate repozitorij izbrati iz seznama repozitorija. Ce zelite repozitorij izkljuciti, ga izbrisite iz seznama repozitorijev. Na seznamu so samo stabilni in preverjeni repozitoriji."
+
+msgid "yum_DESC_INSTALLED_GROUPS"
+msgstr "Izberete lahko programske skupine, ki jih zelite odstraniti iz sistema."
+
+msgid "yum_DESC_INSTALLED_PACKAGES"
+msgstr "Izberete lahko individualne pakete s spodnjega seznama, ce jih zelite odstraniti."
+
+msgid "yum_DESC_UPDATES_AVAILABLE"
+msgstr "  Za vas sistem so na voljo nove posodobitve. Prirocamo vam, jih namestite cim prej."
+
+msgid "yum_DESC_UPTODATE"
+msgstr "Vse posodobitve so nameščene."
+
+msgid "yum_DESC_YUM_AUTOINSTALLUPDATES"
+msgstr "(en)If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page."
+
+msgid "yum_DESC_YUM_DELTARPMPROCESS"
+msgstr "(en)A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles"
+
+msgid "yum_DESC_YUM_PACKAGEFUNCTIONS"
+msgstr "Sistem za namescanje programske opreme lahko upravlja skupino sorodnih ali posameznih paketov. Privzeta nastavitev je nastavljena na upravljanje sorodnih paketov. Ce zelite upravljati s posameznimi paketi, omogocite to opcijo. To opcijo priporocamo samo iskusenim skrbnikom."
+
+msgid "yum_DeltaRpmProcess"
+msgstr "(en) Deltarpmprocess"
+
+msgid "yum_DownloadOnly"
+msgstr "(en) Downloadonly"
+
+msgid "yum_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "yum_FORM_TITLE"
+msgstr "Namestilnik programske opreme"
+
+msgid "yum_HEADER_AVAILABLE_SOFTWARE"
+msgstr "Naslednja programska oprema je pripravljena za namestitev v vaš strežnik. Dodatno programsko opremo namestite v vas strežnik samo, če se zavedate posledic namestitve."
+
+msgid "yum_HEADER_INSTALLED_SOFTWARE"
+msgstr "Naslednja programska oprema je namescena na tem sistemu. Programsko opremo lahko odstranite, vendar se zavedajte posledic tega dejanja."
+
+msgid "yum_HEADER_POSTUPGRADE_REQUIRED"
+msgstr "Po spreminjanju nastavitev, dodajanju ali odstranjevanju programske opreme, boste morali sistem ponovno konfigurirati. po konfiguraciji sistema ga boste morali ponovno zagnati."
+
+msgid "yum_INSTALL_SOFTWARE"
+msgstr "Namesti"
+
+msgid "yum_INSTALL_UPDATES"
+msgstr "Namesti oznacene posodobitve"
+
+msgid "yum_LABEL_AVAILABLE_GROUPS"
+msgstr "Skupine, ki so na voljo"
+
+msgid "yum_LABEL_AVAILABLE_PACKAGES"
+msgstr "Programski paketi"
+
+msgid "yum_LABEL_AVAILABLE_UPDATES"
+msgstr "Na voljo so nove posodobitve"
+
+msgid "yum_LABEL_ENABLED_REPOSITORIES"
+msgstr "Omogoci repozitorije"
+
+msgid "yum_LABEL_INSTALLED_GROUPS"
+msgstr "Namescene programske skupine"
+
+msgid "yum_LABEL_INSTALLED_PACKAGES"
+msgstr "Namesceni paketi"
+
+msgid "yum_LABEL_YUM_AUTOINSTALLUPDATES"
+msgstr "Samodejno namesti posodobitve"
+
+msgid "yum_LABEL_YUM_DELTARPMPROCESS"
+msgstr "Posodobitev razlike vrt/min"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY"
+msgstr "Osebni podatki so bili shranjeni"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION"
+msgstr "(en)The rpm updates can be downloaded during the night, this will ease and give faster the dnf update process (only enabled repositories will be used)."
+
+msgid "yum_LABEL_YUM_PACKAGEFUNCTIONS"
+msgstr "Upravljaj s posameznimi paketi"
+
+msgid "yum_LABEL_YUM_STATUS"
+msgstr "Vsakodnevno preveri posodobitve"
+
+msgid "yum_MULTI_SELECT"
+msgstr "(en) <strong>Ctrl/Cmd-click</strong> toggles individual items and <strong>Shift-click</strong> selects ranges.\n<br /><strong>Case-insensitive</strong> search unless you enter a <strong>regex</strong> in <i>/pattern/flags</i> form (e.g. /maria.*client/i).."
+
+msgid "yum_Please_Wait_-_dnf_Running"
+msgstr "Prosimo, počakajte – dnf se izvaja"
+
+msgid "yum_SUCCESS"
+msgstr "Nove nastavitve so bile shranjene."
+
+msgid "yum_UPDATE_SUCCESS"
+msgstr "(en)The requested changes have been successfully implemented."
+
+msgid "yum_check4updates"
+msgstr "(en) Check4updates"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "yum_SYSTEM_BEING_RECONFIGURED"
+#~ msgstr "(en)Your system is being automatically rebooted to complete the reconfiguraton process."
+#~ msgid "yum_Software Installer"
+#~ msgstr "Namestilnik programske opreme"

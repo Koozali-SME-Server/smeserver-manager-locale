@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "電子郵件存取設定已成功儲存"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "自訂"
+
+msgid "mai_DEFAULT"
+msgstr "預設"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "電子郵件傳送設定已成功儲存"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "藉由高亮凸顯您欲鎖定的附件類型，您能鎖定電子郵件中附件的可執行內容。包含這些附件的電子郵件將會自動地回寄給寄件者。"
+
+msgid "mai_DESC_DELEGATE"
+msgstr " 委任郵件伺服器您的伺服器涵蓋完整、全功能的電郵伺服器。然而，倘若基於某些理由您欲委任電郵處理程序給其他系統，請於此處指定欲委任系統的網路位址。一般操作下，此欄位請留白。"
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "對於ETRN或者multi-drop而言，您可以控制此伺服器從次電郵伺服器取得郵件的頻率。連結頻率越多意味著接收電郵越快，但會導致網絡請求過多，很可能會增加您的電話和網絡使用費用。"
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "您能控制IMAP伺服器的存取。設定項目＂僅允許從區網存取＂僅允許從您的區網存取IMAP伺服器。設定項目IMAPS可用來提供加密外部存取您的POP3伺服器。我們建議保留此設定項目＂僅允許從區網存取＂，除非您有特別的理由不如此做。"
+
+msgid "mai_DESC_MODE"
+msgstr "電郵檢索模式可以設定為標準（對專線連接）、ETRN（對撥號連接），或multi-drop（對撥號連接，倘若您的ISP不支持ETRN）。請注意multi-drop模式是唯一選項，當伺服器被設定為私有伺服器和閘道模式時。"
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "您能控制POP3伺服器的存取。設定項目＂僅允許從區網存取＂僅允許從您的區網存取POP3伺服器。設定項目POP3S可用來提供加密外部存取您的POP3伺服器。我們建議保留此設定項目＂僅允許從區網存取＂，除非您有特別的理由不如此做。"
+
+msgid "mai_DESC_SECONDARY"
+msgstr " ETRN或multi-drop設定對於ETRN或multi-drop，請指定次要郵件伺服器的主機名稱或者網路位址。（倘若使用標準設定，此欄位請留白。"
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " SMTP伺服器此伺服器能直接傳遞出站訊息至目的地（建議用於大部分情況）或者能透過您網際網路提供者的SMTP伺服器來傳遞這些訊息（建議用於倘若您有不可靠的網際網路連線或家用網際網路服務）。倘若使用您網際網路提供者的SMTP伺服器，請於下方設定其主機名稱或IP位址。要不然，此區域請留白。"
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr "您可對您的SMTP伺服器提供已認證的存取，或者禁用它。此SSMTP設定需要所有使用者們使用SSL/TLS認證。此SMTP與SSMTP選項還允許STARTTLS被使用來確認安全認證。"
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "您可掃瞄電郵中的垃圾郵件。倘若垃圾郵件過濾啟用，每封電郵將被加入X-Spam-Status表頭，此能被用來過濾垃圾郵件。您能調整預設為中度敏感的垃圾郵件檢查敏感度。對於微調控制，您能客製設定垃圾郵件敏感度，然後選擇客製標籤等級，進一步選擇性地拒絕郵件。"
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "您可啟用增加標籤到每封電郵的表頭以界定垃圾郵件。此標籤值可於下方定義。"
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " 修改電郵存取設定 "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " 修改電郵傳遞設定 "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " 修改電郵過濾設定 "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " 修改電郵接收設定 "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " 未知使用者選擇拒絕（推薦設定）將伺服器設定為只接受有效郵件位址的電郵（例如使用者、群組、假名）。其他位址的電郵將被拒絕。"
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "您可掃描傳入與傳出郵件中的病毒。倘若啟用掃瞄並偵測到病毒，該電郵將被拒絕並回傳給寄件者。"
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "您可啟用或禁用此系統上的webmail。webmail允許使用者們透過正規網際瀏覽器存取其郵件，藉由點選瀏覽器到https://[_1]/webmail，並且登入到其帳號。"
+
+msgid "mai_E-Mail"
+msgstr "電子郵件"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "允許https（加密的http）"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN（用戶端要求的 SMTP）"
+
+msgid "mai_EVERY15MIN"
+msgstr "每15分鐘"
+
+msgid "mai_EVERY2HRS"
+msgstr "每2小時"
+
+msgid "mai_EVERY30MIN"
+msgstr "每30分鐘"
+
+msgid "mai_EVERY5MIN"
+msgstr "每5分鐘"
+
+msgid "mai_EVERYHOUR"
+msgstr "每小時"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "電子郵件篩選設定已成功儲存"
+
+msgid "mai_FORWARD_TO"
+msgstr "寄給"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "寄給管理員"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "高"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "同時允許IMAP和IMAPS"
+
+msgid "mai_INSECURE_POP3"
+msgstr "同時允許pop3和pop3s"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "您輸入的智慧型主機名稱並非有效的網際網路名稱亦非空白。"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "鎖定可執行內容"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "內容鎖定"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "內部郵件伺服器地址"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "在工作日的辦公時間內（上午8:00至下午6:00）"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "在工作日的辦公時間外（下午6:00至上午8:00）"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "在週末"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "IMAP伺服器存取"
+
+msgid "mai_LABEL_MODE"
+msgstr "電郵檢索模式"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "POP3伺服器存取"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "POP使用者帳戶（multi-drop）"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "POP使用者密碼（multi-drop）"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "次郵件伺服器"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "ISP的郵件伺服器地址"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "郵件伺服器密碼"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "網際網路提供者的SMTP驗證"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "郵件伺服器使用者id"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "整理垃圾郵件到垃圾文件夾"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "選擇排序字首（multi-drop）"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "選擇排序方式（multi-drop）"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "自訂垃圾郵件拒絕等級"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "垃圾郵件過濾"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "垃圾郵件敏感度"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "垃圾郵件主題字首"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "修改垃圾郵件主題"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "自訂垃圾郵件標記等級"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "電郵給未知使用者"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "病毒掃瞄"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "存取網路郵件"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "低"
+
+msgid "mai_MEDIUM"
+msgstr "中"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "一點也不"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "允許HTTPS（加密模式）僅限區域網路存取"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "電子郵件接收設定已成功儲存"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "拒絕"
+
+msgid "mai_SECURE_IMAP"
+msgstr "允許私人和公開(加密的IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "允許私人和公開(加密的POP3)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "允許SSMTP（加密的SMTP）"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "指定如下"
+
+msgid "mai_STANDARD"
+msgstr "標準（SMTP）"
+
+msgid "mai_Submission_port"
+msgstr "提交連接埠 %u 狀態："
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "委派郵件伺服器"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "ETRN 或多點設定"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "SMTP 伺服器"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "未知使用者"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "倘若啟用SMTP驗證，此區塊不能留白。"
+
+msgid "mai_VERYHIGH"
+msgstr "非常高"
+
+msgid "mai_VERYLOW"
+msgstr "非常低"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "允許私人"
+#~ msgid "mai_AUTO"
+#~ msgstr "自動"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "對於multi-drop電郵而言，請指定POP使用者帳戶和密碼。（如果使用標準或ETRN e-mail，這些區域可以留白。）此外，對於multi-drop電郵而言，你既可使用預設的郵件排序方式，或者亦可指定一個特定用於郵件排序的訊息表頭。"
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " 電郵存取 "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " 電子郵件傳遞 "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " 電郵接收 "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "同時允許http和https"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "電郵設定"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "同時允許SMTP和SSMTP"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "協定（multi-drop）"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "SSL安全通道（multi-drop）"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "SMTP驗證"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "新電郵設定已被儲存。"
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "此區塊要求一個有效的電郵位址，其需包含符號@和一個網域名稱。"

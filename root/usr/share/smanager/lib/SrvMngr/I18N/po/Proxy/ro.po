@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Proxy module\n"
+"POT-Creation-Date: 2026-08-21 10:22+0100\n"
+"PO-Revision-Date: 2026-08-21 10:22+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+
+msgid "Proxy settings"
+msgstr "Setări proxy"
+
+msgid "prx_BLOCKED"
+msgstr "Blocat"
+
+msgid "prx_ERR_NO_SQUID_REC"
+msgstr "EROARE: NU există înregistrare squid în baza de configurări."
+
+msgid "prx_ERR_PROXY_UPDATE_FAILED"
+msgstr "EROARE: Evenimentul de actualizare Proxy a returnat o eroare."
+
+msgid "prx_FIRST_PAGE_DESCRIPTION"
+msgstr "Această pagină permite configurarea setărilor de Proxy. Serverul conține un Proxy transparent și cache pentru traficul HTTP. Acesta este activ implicit, dar nu este activ pentur configurarea serverului în mod &quot;serveronly&quot;. Dacă acest server funționează ca server de mail, toate mailuriel utilizatorilor vor trece prin serverul intern."
+
+msgid "prx_HTTP_PROXY_STATUS_DESCRIPTION"
+msgstr "Proxy-ul serverului este menit să reducă utilizarea totală a accesului prin păstrarea paginilor recent vizitate. Este transparent pentru clientii de internet ce utilizează acest server ca releu. Activați sau dezactivați proxy-ul prin comutatorul următor."
+
+msgid "prx_HTTP_PROXY_STATUS_LABEL"
+msgstr "Statutul HTTP proxy"
+
+msgid "prx_Proxy"
+msgstr "Proxy"
+
+msgid "prx_SMTP_PROXY_STATUS_DESCRIPTION"
+msgstr "Proxy-ul SMTP transparent lucreaza pentru a reduce traficul de virusi de la clienti infectați prin forțarea totală a traficului prin serverul SMTP intern de ieșire dacă este setat pe \"activ\". Dacă doriți utilizarea altui server SMTP și acest server este releul dumneavoastră, setați pe \"dezactivat\". Setarea pe \"blocat\" (modul implicit) previne orice trafic către serverele de mail. Serverul lucrează doar pe portul normal de mail 25."
+
+msgid "prx_SMTP_PROXY_STATUS_LABEL"
+msgstr "Statut Proxy SMTP"
+
+msgid "prx_SUCCESS"
+msgstr "Setările noi de Proxy au fost aplicate cu succes."
+
+msgid "prx_TITLE"
+msgstr "Setări proxy"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prx_Proxy settings"
+#~ msgstr "Setări Proxy"

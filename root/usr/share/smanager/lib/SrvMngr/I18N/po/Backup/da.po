@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Sikkerhedskopier eller gendan"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Alle sikkerhedskopier"
+
+msgid "bac_AM"
+msgstr "AM (før middag)"
+
+msgid "bac_AM/PM"
+msgstr "AM (før middag) / PM (efter middag)"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "En anden gendannelse er i gang. Venligst forsøg igen senere."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "Sikkerhedskopi til bånd vil foregå kl.:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Vælg filer der skal vises"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Sikkerhedskopiopsætning og status"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr " <p>Serveren tilbyder tre forskellige muligheder for sikkerhedskopi og gendannelse: Sikkerhedskopi til bånd, til et netværksshare eller flytbart medie, eller din lokale desktop.</p>\n\n  <p>Bånd backup. Bruger en programpakke ved navn <i>[_1]</i> til at sikkerhedskopiere hele din disk til bånd hver nat. Det forudsætter en understøttet båndstation og et bånd der ikke er skrivebeskyttet. Sikkerhedskopien udføres automatisk på et fastlagt tidspunkt hver nat (og der sendes automatisk en påmindelse til administrator i løbet af dagen). Aktuelt indeholder din disk <b>[_2]</b> af data.</p>\n\n  <p>Netværkshare eller flytbart medie. Bruger en programpakke ved navn <i>dar</i> til at sikkerhedskopiere serveropsætning og data til netværksshare eller et lokalt flytbart medie som f.eks. en USB-disk. Du kan indstille antallet af roterende sikkerhedskopier du ønsker at bevare, og antallet af ændringsbackup i hvert sæt. Sikkerhedskopien udføres dagligt på det fastsatte tidspunkt. Aktuelt fylder serveropsætning og data <b>[_3]</b> ukomprimeret. Der skal være plads til det dobbelte af den komprimerede datamængde på backup mediet.</p>\n\n  <p>Backup til pc. Denne metode opretter en kopi af serveropsætning og brugerdata og henter dem til din pc via din web-browser. Aktuelt fylder opsætning og data i alt ca. <b>[_3]</b>. Sikkerhedskopien vil være lidt mindre afhængig af hvor meget data kan komprimeres. Denne fil kan bruges til gendannelse af serveren fra konsollen, hvis du kopierer filen til et flytbart medie, som f.eks. en USB-disk.</p>\n\n  <p>Alle 3 muligheder vil kunne gendanne serveropsætning og data på serveren. Backup til netshare eller flytbart medie kan desuden bruges til at gendanne individuelle filer fra sikkerhedskopien. <b>En fuld gendannelse bør udføres på en nyinstalleret server.</b>.</p>\n\n  "
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "Din server har for mange data til en pålidelig sikkerhedskopi til arbejdsstation."
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "Sikkerhedskopien var ikke komplet"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Lav sikkerhedskopi eller gendan server data"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Vælg venligst en time mellem 0 og 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Vælg et minut mellem 0 og 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "Advarsel: For store sikkerhedskopier, kan kontrollen af integriteten være langvarig og bør være fravalgt ved daglig backup."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "Marker her for at teste integriteten af alle nødvendige sikkerhedskopier til en fuld gendannelse med den valgte sikkerhedskopi"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Komprimeringsniveau ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Venligst angiv indstillinger for sikkerhedskopi."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Opsætning af sikkerhedskopi til bånd"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Opsæt sikkerhedskopi til lokalnet"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "Du kan indstille et antal sikkerhedskopisæt med automatisk rotation. Hvert sikkerhedskopisæt indeholder data for en række på hinanden følgende dage. Den første sikkerhedskopi i et sæt indeholder en fuld sikkerhedskopi, mens efterfølgende daglige kopier kun indeholder ændrede eller tilføjede data. Der kan sættes tidsgrænse for sikkerhedskopisæt eller for antallet af tilføjede dage. Når denne grænse nås stoppes sikkerhedskopisættet og det næste sikkerhedskopisæt vil fortsætte først med en fuld kopi og dernæst med nye og ændrede data."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Kunne ikke afkode sikkerhedskopien:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Kunne ikke udføre sikkerhedskopi-forbindelseslinie:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Følgende kunne ikke deles ud:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Sikkerhedskopi til arbejdsstation"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Gendan fra arbejdsstation"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Denne proces vil hente en sikkerhedskopi fra din arbejdsstation til serveren og gendanne serveropsætning og brugerdata. Gendannelsen bør udføres på en nyinstalleret server. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Undersøg sikkerhedskopi til arbejdsstation"
+
+msgid "bac_DOW"
+msgstr "Søndag Mandag Tirsdag Onsdag Torsdag Fredag Lørdag Dagligt"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Tænd/Sluk natlig sikkerhedskopi til bånd"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Aktiver/deaktiver daglig sikkerhedskopi til lokalnet"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Tænd for sikkerhedskopi til bånd"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Aktiver sikkerhedskopi til lokalnet"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Fejl under læsning fra"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "Parametrene er blevet gemt, men den eksterne vært kan ikke nås, kontroller venligst din opsætning."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "Backup mediet er allerede tilsluttet"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Der skete en fejl under conf-backup begivenheden."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Fejl under brug af Dar-kataloget"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Fejl ved udtrækning med Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "Komprimeringsniveau skal være mellem 0 (ingen komprimering) og 9 (maksimal komprimering)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "Antallet skal være mindst 1. Første sikkerhedskopi i sættet er fuld følgende indeholder kun ændrede/tilføjede data"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Ugyldigt navn på delt mappe"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Fejl: Ulovlig sikkerhedskopi time:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Ugyldigt brugernavn"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Fejl: Ulovligt sikkerhedskopi minut:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Ugyldig adgangskode"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Fejl: Ulovlig påmindelsestime:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Fejl: Ulovligt påmindelsesminut:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Ugyldigt datoformat, det skal være ~[ ~[ ~[åååå/~]mm/~]dd-~]tt:mm~[:ss~]. F.eks.: 2005/12/31-08:23:32 eller 10-08:32 eller 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "Sæt-antallet skal være mindst 1"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "Maksimal sikkerhedskopi-tid skal være mellem 1 og 24 timer"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "Ugyldig IPadresse eller værtsnavn for arbejdsstation"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "Var ikke i stand til at montere arbejdsstationens delte mappe"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Backup mediet er ikke tilsluttet"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "Afbryder gendannelse, da den nødvendige fulde backup mangler eller er ulæsbar."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "Ingen mappe for din vært i delte mapper. Måske er dit værtsnavn forskelligt fra sikkerhedskopiens"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "Afbryder gendannelse fordi sikkerhedskopien har manglende eller ulæsbar ændringsbackup"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "Fejl: Ingen flytbar disk er tilgængelig. Tilslut venligst en disk eller vælg en anden form for sikkerhedskopi."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "Fejl: Ingen flytbar disk er tilgængelig. Tilslut venligst en flytbar disk eller vælg en anden form for sikkerhedskopi."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Der skete en fejl under efterbehandling af sikkerhedskopien."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Der skete en fejl under klargøring af sikkerhedskopien."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Der skete en fejl under klargøring af gendannelsen."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Der opstod en fejl under læsning af sikkerhedskopien."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Der er sket en fejl under gendannelsen fra bånd."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "Der er sket en fej under gendannelse fra lokalnet."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Fejl under gendannelse af gid for 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Fejl under gendannelse af indledende gruppe 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Der er sket en fejl under opdatering af serveropsætningen efter båndgendannelsen."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "Der er sket en fejl under serveropsætningen efter genindlæsning af sikkerhedskopien fra lokalnet."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "Der skete en fejl under afmonteringen af den delte fjernmappe"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "Følgende filer og biblioteker er blevet gendannet:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "Sikkerhedskopien indeholder følgende filer:"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "Hent sikkerhedskopien fra"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Navne filtreret efter"
+
+msgid "bac_FINISHED_AT"
+msgstr "sluttid:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Du har omtrent $tmpfree fri plads på serveren. Kontroller at sikkerhedskopien er mindre end $halffree inden du begynder gendannelsen. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Fuld sikkerhedskopi er tilladt"
+
+msgid "bac_HOURS"
+msgstr "timer."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Ingen udløbstid for fulde sikkerhedskopier"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Tidspunkt for udsendelse af påmindelse (time(0-11)/min(0-59))"
+
+msgid "bac_LOGIN"
+msgstr "Brugernavn er"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Efter at gendannelsen er gennemført, skal du genstarte serveren."
+
+msgid "bac_Mounted disk"
+msgstr "Tilsluttet disk"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "Serveropsætning og brugerdata bliver gendannet fra bånd."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "Din serveropsætning og brugerdata er ved at blive indlæst fra en delt mappe på lokalnet."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "Der er ikke opsat nogen sikkerhedskopisæt til delte mapper på lokalnet. Kontroller din opsætning."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "Kunne ikke finde brugerID for brugeren:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Antal daglige kopier i hvert sæt"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Antal roterende sikkerhedssæt"
+
+msgid "bac_No suitable local devices found"
+msgstr "Ingen egnede lokale enheder fundet"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Siden vil genopfiske statusvisningen om [_1] sekunder, ellers klik her. "
+
+msgid "bac_PASSWORD"
+msgstr "Adgangskode er"
+
+msgid "bac_PM"
+msgstr "PM (eftermiddag)"
+
+msgid "bac_READ_COMPLETE"
+msgstr " Du kan vælge alle filer og mapper du ønsker gendannet fra den viste liste (brug ctrl og shift til massevalg).  Advarsel : Vælger du en mappe vil alle filer og mapper i mappen blive gendannet. I udgangspunkt vil de seneste versioner af de valgte filer blive gendannet, medmindre du specificerer en dato i formatet ~[ ~[ ~[åååå/~]mm/~]dd-~]tt:mm~[:ss~] denne proces vil kun gendanne de seneste ændrede versioner inden den angivne dato. "
+
+msgid "bac_REBOOT"
+msgstr "Genstart"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Genopfrisk skærm"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "En påmindelse vil blive sendt:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Kan ikke fortsætte med gendannelse af serveropsætningen"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Gendannelse gennemført"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Systemgendannelsen er fuldført"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Gendan fra bånd"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>Denne proces vil gendanne serveropsætning og brugerdata fra en sikkerhedskopi på bånd. <b>Gendannelsen bør foregå på en nyinstalleret server</b>.</p>\n\n  <p>Du må sikre dig dig, at det rette bånd er indsat i båndstationen inden gendannelse.</p>\n\n  <p>Efter gendannelsen skal serveren genstartes.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Gendan fra lokalnet"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>Denne proces vil gendanne opsætning og brugerdata fra en sikkerhedskopi på lokalnetet. <b>Gendannelsen bør udføres på en nyinstalleret server</b>.</p>\n\n  <p>Du må sikre dig at du vælger den rigtige sikkerhedskopi inden du fortsætter.</p>\n\n  <p>Efter gendannelsen skal serveren genstartes.</p>\n\n  Gendannelsen vil ske fra: "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Gendannelsen fejlede! Sikkerhedskopien var ikke komplet."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Gendannelsen fejlede! Der opstod en fejl under læsning af sikkerhedskopien."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Gendan fra bånd"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Gendan fra lokalnet"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Gendannelse er i gang"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Gendannelsen er i gang. Den startede:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Efter at gendannelsen er udført skal du genstarte serveren. Gendannelsen er gennemført når ordene \"Gendannelse gennemført\" dukker op i bunden af skærmen."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Gendan serveropsætning"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Verifikationen af integriteten fejlede"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Gendanner fra bånd"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Gendanner fra lokalnet"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Vælg en aktivitet"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Vælg sikkerhedskopi"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Gendan seneste inden"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Vælg filer til gendannelse"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "Vælg typen af delte drev som er mål for sikkerhedskopien"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Servergenstart"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Din server vil nu genstarte."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Delte mappe for sikkerhedskopi"
+
+msgid "bac_STARTED_AT"
+msgstr "Starttid:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Der blev slukket for sikkerhedskopi til bånd"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Sikkerhedskopi til lokalnet er deaktiveret"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Opsætning af sikkerhedskopi til bånd lykkedes"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Sikkerhedskopi til lokalnet er aktiveret"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Båndsikkerhedskopier er"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Tidspunkt for sikkerhedskopiering (timer(0-11)/min(0-59))"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Opsætning af sikkerhedskopi til bånd"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Vælg om du ønsker natlige sikkerhedskopier og angiv det ønskede tidspunk og også et tidspunk for påmindelse om at isætte et bånd.</p>\n\n  <p>Båndsikkerhedskopiering forudsætter en understøttet båndstation. En advarsel bliver sendt til administrator på det fastlagte tidspunkt, hvis der ikke er bånd i båndstationen.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Gendan fra bånd"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Tester integriteten af sikkerhedskopien"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "Tester alle nødvendige sikkerhedskopier for en fuldstændig gendannelse med den valgte sikkerhedskopi"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Kan ikke gendanne serveropsætningen"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Opdater"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Opdaterer opsætning af sikkerhedskopi til bånd"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Opdaterer indstillinger for sikkerhedskopi"
+
+msgid "bac_VERIFY"
+msgstr "Kontroller"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Denne mulighed viser alle filnavne i den tidligere dannede sikkerhedskopi. Du kan bruge denne mulighed til at kontrollere indholdet i sikkerhedskopien.</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Kontrollen er gennemført"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Denne mulighed vil vise navnene på alle filer i en tidligere dannet sikkerhedskopi. Du kan bruge denne mulighed til at bekræfte sikkerhedskopiens indhold.<b> Du skal vælge den sikkerhedskopi du ønsker at undersøge</b></p>\n\n  <p>Kun filer markeret med ~[Saved~] er sikkerhedskopieret.</p>\n\n  <br/> Filerne i sikkerhedskopien bliver kontrolleret fra den delte mappe: "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Kontroller sikkerhedskopi på lokalnet"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "med tidspunktet:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "med udsendelse af påmindelse kl.:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "Sikkerhedskopi til lokalnet vil foregå kl.:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Indstillinger for sikkerhedskopi til lokalnet"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "Oprette eller ændre opsætning af sikkerhedskopi til lokalnet"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "Backup af arbejdsstationer er"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "Komprimeringsgrad (0-9) for sikkerhedskopien er"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "Antal daglige sikkerhedskopier i hvert sæt er"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>Dette panel viser opsætning for den aktuelle sikkerhedskopi til lokalnet. Du kan ændre opsætningen i dette og næste panel.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Sikkerhedskopi er"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "Sikkerhedskopi er lavet på lokalnet"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "undtaget er fulde sikkerhedskopijobs som bliver afsluttet rent efter 24 timer"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "Sikkerhedskopi dannes på tilsluttet disk"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Der er aktuelt ikke opsat nogen sikkerhedskopi til lokalnet. Du kan lave en opsætning i dette og følgende paneler.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "Antal roterende sikkerhedskopisæt er"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Indstillinger for sikkerhedskopi"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "Mål-mappen for sikkerhedskopien er"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "Tidspunkt for sikkerhedskopi (time/min)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "Hvert dagligt sikkerhedskopi-job bliver afsluttet rent efter"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Daglig sikkerhedskopi udføres kl.:"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "Sikkerhedskopi er lavet på lokal flytbar disk"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "via"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Opsætning af sikkerhedskopi til lokalnet"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "Fulde (nye) sikkerhedskopisæt er kun tilladt på"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "Fulde (nye) sikkerhedskopisæt er tilladt dagligt"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Brugernavn"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "Arbejdsstationens IP-adresse eller værtsnavn"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "Du skal først opsætte sikkerhedskopien til lokalnet korrekt"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Gendan fra lokalnet"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Selektiv gendannelse fra lokalnet"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Selektiv gendannelse fra lokalnet"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " Denne proces vil kun gendanne udpegede filer og mapper. Du skal først vælge den sikkerhedskopi hvorfra filer skal gendannes. Ved du ikke hvilken sikkerhedskopi du skal bruge, kan du vælge 'Alle sikkerhedskopier'. Det næste panel vil vise filer og mapper, så du kan vælge dem, der skal gendannes. For at begrænse antallet af viste filer og mapper kan du angive et filterudtryk, tilføjet som regulært udtryk for de viste navne. Du har ansvaret for ikke at gendanne filer, der vil kunne ødelægge din servers funktioner. Aktuelt vil filerne gendannes fra: "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Mulig udløbstid for sikkerhedskopier (i timer)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Kontroller sikkerhedskopi på lokalnet"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X Lav sikkerhedskopi eller gendan server data"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "Du skal genstarte serveren for at aktivere ændringerne fra gendannelsen."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "Lokal flytbar disk"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p> Denne server giver 2 muligheder for at sikkerhedskopiere eller gendanne din server: Sikkerhedskopi til arbejdsstation og sikkerhedskopi til bånd.</p>\n\n  <p>Den første metode danner en kopi af din serverkonfiguration og brugerdata, og giver dig mulighed for gemme sikkerhedskopien på din arbejdsstation via en browser. Dine nuværende serveropsætning og brugerdate fylder ca. <b>[_3]</b>. Sikkerhedskopien vil være en smule mindre, afhængig af hvor meget data kan komprimeres. Valgmuligheden \\\"Undersøg sikkerhedskopi til arbejdsstation\\\" kan bruges til at kontrollere sikkerhedskopien.</p>\n\n  <p> Sikkerhedskopi til bånd anvender programmet <i>[_1]</i> til at lave en sikkerhedskopi af hele harddisken hver nat. Det kræver en understøttet båndstation og et isat bånd, der ikke er skrivebeskyttet. Sikkerhedskopien dannes automatisk på det valgte tidspunkt hver nat (der sendes automatisk en påmindelse til administrator om dagen). P.t. indeholder din hardisk <b>[_2]</b> data. </p>\n\n  <p>Begge metoder giver dig mulighed for at gendanne dine serveropsætning og dine brugerdata. <b>Ideelt set bør sikkerhedskopien indlæses på en nyinstalleret server</b>.</p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "Sikkerhedskopi eller gendannelse"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Sikkerhedskopi til bånd er deaktiveret "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Sikkerhedskopi til bånd er for tiden aktiveret. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " Sikkerhedskopi til lokalnet er deaktiveret "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " Sikkerhedskopi til lokalnet er aktiveret. "

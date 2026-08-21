@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Backup o ripristino dei dati del server',
-'bac_BACKUP_DESC' => '<p>Il server fornisce due sistemi di backup e ripristino dei dati: il desktop locale o un\'unità a nastro.</p>
-
-  <p>Il primo metodo crea una copia della configurazione e dei dati degli utenti e lo invia al desktop locale attraverso il browser. In questo momento, configurazione e dati occupano approssimativamente <b>[_3]</b>. Il file di backup avrà dimensioni inferiori per merito della compressione. L\'opzione \\"Verifica desktop backup\\" può essere utilizzata per verificare l\'integrità del file di backup.</p>
-
-  <p>Il backup su nastro utilizza un software chiamato <i>[_1]</i> per copiare l\'intero disco fisso su nastro ogni notte. Questa opzione richiede un\'unità nastro supportata e un nastro non protetto da scrittura. Il backup viene effettuato automaticamente all\'ora selezionata ogni notte (durante il giorno l\'amministratore riceve una email con un promemoria per l\'inserimento del nastro). Attualmente il disco fisso contiene <b>[_2]</b> di dati.</p>
-
-  <p>Entrambi i sistemi ripristinano la configurazione e i dati. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => '<p>Il server fornisce due sistemi di backup e ripristino dei dati: il desktop locale o un\'unità a nastro.</p>
+#
+#  <p>Il primo metodo crea una copia della configurazione e dei dati degli utenti e lo invia al desktop locale attraverso il browser. In questo momento, configurazione e dati occupano approssimativamente <b>[_3]</b>. Il file di backup avrà dimensioni inferiori per merito della compressione. L\'opzione \\"Verifica desktop backup\\" può essere utilizzata per verificare l\'integrità del file di backup.</p>
+#
+#  <p>Il backup su nastro utilizza un software chiamato <i>[_1]</i> per copiare l\'intero disco fisso su nastro ogni notte. Questa opzione richiede un\'unità nastro supportata e un nastro non protetto da scrittura. Il backup viene effettuato automaticamente all\'ora selezionata ogni notte (durante il giorno l\'amministratore riceve una email con un promemoria per l\'inserimento del nastro). Attualmente il disco fisso contiene <b>[_2]</b> di dati.</p>
+#
+#  <p>Entrambi i sistemi ripristinano la configurazione e i dati. <b>Il ripristino dovrebbe essere effettuato su un server appena installato</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => ' <p>E\' possibile fare il backup ed il restore del server in tre modi: utilizzando una unità nastro, una connessione di rete o un disco rimovibile locale, o utilizzando il desktop locale. </p>
 
   <p>Backup su nastro. Questo metodo utilizza il software <i>[_1]</i> per salvare l\'intero contenuto del disco su nastro ogni notte. Il metodo richiede una unità nastro supportatta e un nastro non protetto da scrittura. Il backup viene eseguito automaticamente all\'ora selezionata ogni notte (con un avviso inviato automaticamente all\'amministratore durante la giornata). Attualmente il server contiene <b>[_2]</b> di dati.</p>
@@ -20,10 +20,10 @@
 
   ',
 'bac_BACKUP_CONFIG_STATUS' => 'Configurazione e stato del backup',
-'bac_TAPE_BACKUPS_ENABLED' => ' Il backup su nastro è abilitato. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Il backup su nastro è abilitato. ',
 'bac_BACKUPS_RUN_AT' => 'I backup su nastro inizieranno alle:',
 'bac_REMINDER_MESSAGE_AT' => 'Il promemoria verrà inviato alle:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Il backup su nastro è disabilitato. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Il backup su nastro è disabilitato. ',
 'bac_DESKTOP_BACKUP' => 'Backup su desktop',
 'bac_DESKTOP_RESTORE' => 'Ripristino da desktop',
 'bac_DESKTOP_VERIFY' => 'Verifica desktop backup',
@@ -114,8 +114,8 @@
 'bac_PAGE_REFRESH_IN' => ' Aggiornamento automatico ogni [_1] secondi, o fare clic qui. ',
 'Backup or restore' => 'Backup o ripristino',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Il server ha una quantità di dati superiore alla capacità del backup su desktop.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' I backup su workstation sono disabilitati. ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' I backup su workstation sono attualmente abilitati. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' I backup su workstation sono disabilitati. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' I backup su workstation sono attualmente abilitati. ',
 'bac_WKBACKUPS_RUN_AT' => 'I backup su workstation inizieranno alle:',
 'bac_WORKSTN_CONFIGURE' => 'Configura il backup su workstation',
 'bac_WORKSTN_VERIFY' => 'Verifica il backup su workstation',

@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "Az e-mail-hozzáférési beállítások sikeresen mentve"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Egyéni"
+
+msgid "mai_DEFAULT"
+msgstr "Alapértelmezett"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "Az e-mail kézbesítési beállítások sikeresen mentve"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Blokkolhatja a végrehajtható fájlokat az e-mailek mellékleteiben, ha kiválasztja a listából azokat a fájltípusokat amelyeket blokkolni kíván. Az ilyen mellékleteket tartalmazó leveleket a szerver visszadobja a feladónak."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Levelezőszerver delegálása A szervere egy teljes funkcionalitású e-mail szervert tartalmaz. Azonban, ha valamilyen okból másik rendszerre akarja bízni az e-mail-ek feldolgozását, adja meg a delegált rendszer IP címét. Normál esetben hagyja ezt a mezőt üresen. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "Az ETRN vagy multi-drop szolgáltatásnál beállíthatja, hogy az ön szervere milyen gyakran kapcsolódjon a másodlagos e-mail szerverhez a levelek letöltéséhez. Minél gyakoribb csatlakozást állít be, annál gyakrabban frissülnek a postafiókok, viszont annál több internetes forgalom generálódik, amelynek bizonyos esetben nagyobb költségei lehetnek."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "Beállíthatja az IMAP szerver hozzáférését, hogy csak a belső hálózatban adjon hozzáférést. Az IMAPS beállítás lehetővé teszi a biztonságos külső hozzáférést az IMAP szerverhez. Javasolt az alapbeállítás használata, hacsak nincs szükség a külső hozzáférésre."
+
+msgid "mai_DESC_MODE"
+msgstr "Az e-mail fogadási mód beállítható szabványosra (állandó Internet kapcsolat esetén), ETRN-re (betárcsázós kapcsolatnál), vagy multi-drop-ra (ha betárcsázós a kapcsolat és az ETRN-t nem támogatja a szolgáltató). Ha a szerver egyedülálló szerver és átjáróként van konfigurálva, akkor csak a multi drop mód választható."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "Beállíthatja a POP3 szerver hozzáférését, hogy csak a belső hálózatban adjon hozzáférést. A POP3S beállítás lehetővé teszi a biztonságos külső hozzáférést a POP3 szerverhez. Javasolt az alapbeállítás használata, hacsak nincs szükség a külső hozzáférésre."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " ETRN vagy multi-drop beállítás ETRN vagy multi-drop használata esetén adja meg a másodlagos levelezőszerver nevét, vagy IP címét. (Szabványos e-mail beállítás esetén hagyja üresen ezt a mezőt.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " SMTP szerver A szerver saját maga is továbbítani tudja a leveleket a címzetteknek (ez a beállítás ajánlott a legtöbb esetben) vagy pedig az internet szolgáltatója SMTP szerverén keresztül történhet a továbbítás (ez akkor ajánlott, ha megbízhatatlan, vagy betárcsázós Internet kapcsolata van). Ha a szolgáltatója SMTP szerverét kívánja használni, az alábbi mezőben adja meg annak nevét, vagy IP címét. Más esetben hagyja azt üresen. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " Hitelesített hozzáférést biztosíthat az SMTP-kiszolgálóhoz, vagy letilthatja. Az SSMTP-beállításhoz minden felhasználónak használnia kell az SSL / TLS hitelesítést. Az SMTP és az SSMTP opció lehetővé teszi a STARTTLS használatát a biztonságos hitelesítés biztosítására. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "Alkalmazhat spamszűrést a levelekre. Ha a spamszűrést engedélyezi egy X-Spam-Status: fejléc adódik minden levélhez, ami alapján a spamszűrés történik. A szűrés érzékenységét az alapértelmezett közepesről átállíthatja. A még finomabb szűréshez a szűrés érzékenységét egyénire is állíthatja és egyéni osztályozási szintet választhat, valamint olyan szintet, ahol a levél eldobásra kerül."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "Engedélyezheti egy jelölés hozzáadását minden SPAM-nek minősített levél tárgysorához. A jelölő beállítását itt végezheti el."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " E-mail hozzáférés beállításának változtatása "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " E-mail kézbesítés beállításának változtatása "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " E-mail szűrés beállításának változtatása "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " E-mail fogadás beállításának változtatása "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Ismeretlen felhasználók Az eldobás választása esetén (ajánlott beállítás) a szerver csak létező e-mail címekre jövő leveleket fogad el (például felhasználók, csoportok, álnevek). Más címekre érkező levelek elutasításra kerülnek. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "Kereshet vírusokat a ki és bejövő levelekben. Ha a víruskeresés engedélyezve van, és vírust észlel, a levél vissza lesz dobva a feladónak."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "Engedélyezheti a rendszer webes levelező felületét. A webmail lehetővé teszi a felhasználóknak, hogy web-böngésző segítségével hozzáférjenek a levelezésükhöz a https://[_1]/webmail címen."
+
+msgid "mai_E-Mail"
+msgstr "E-mail"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "Engedélyezve HTTPS (biztonságos)"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP kliens kérelemmel)"
+
+msgid "mai_EVERY15MIN"
+msgstr "Minden 15 percben"
+
+msgid "mai_EVERY2HRS"
+msgstr "Kétóránként"
+
+msgid "mai_EVERY30MIN"
+msgstr "Minden 30 percben"
+
+msgid "mai_EVERY5MIN"
+msgstr "Minden 5 percben"
+
+msgid "mai_EVERYHOUR"
+msgstr "Minden órában"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "Az e-mail szűrési beállítások sikeresen mentve."
+
+msgid "mai_FORWARD_TO"
+msgstr "Küldés:"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "Küldés: rendszergazda"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Nagy"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "Engedélyezve IMAP és IMAPS"
+
+msgid "mai_INSECURE_POP3"
+msgstr "Engedélyezve POP3 és POP3S"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "A beírt smarthost név nem érvényes internet domén név"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Végrehajtható tartalom blokkolása"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Blokkolandó tartalom"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Belső levelezőszerver címe"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "Munkaidőben (reggel 8-tól este 6-ig) hétköznap"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "Munkaidőn kívül (este 6-tól reggel 8-ig) hétköznap"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "Hétvégén"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "IMAP szerver hozzáférés"
+
+msgid "mai_LABEL_MODE"
+msgstr "E-mail fogadási mód"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "POP3 szerver hozzáférés"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "POP felhasználónév (multi-drop-hoz)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "POP jelszó (multi-drop-hoz)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "Másodlagos levelezőszerver"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "Az internet szolgáltató levelezőszerverének címe"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Levelezőszerver jelszó"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "SMTP hitelesítés az Internet szolgáltatóhoz"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "Levelezőszerver felhasználói azonosító"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Helyezze a spam-eket a levélszemét mappába"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "Egyedi fejléc (multi-drop-hoz)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Leválogatási mód (multi-drop-hoz)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Egyéni spam eldobási szint"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Spamszűrés"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Szűrés érzékenysége"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "SPAM tárgy előtag"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "A spam üzenetek tárgyának módosítása"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Egyéni spam osztályozási szint"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "E-mail ismeretlen felhasználóknak"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Víruskeresés"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Webmail hozzáférés"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Kicsi"
+
+msgid "mai_MEDIUM"
+msgstr "Közepes"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "egyáltalán nem"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "Biztonságos HTTPS engedélyezése a helyi hálózatokból"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "Az e-mail fogadási beállítások sikeresen mentve lettek"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Eldobás"
+
+msgid "mai_SECURE_IMAP"
+msgstr "Engedélyezve hálózaton belül és kívül (biztonságos IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "Engedélyezve hálózaton belül és kívül (biztonságos POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "Engedélyezve SSMTP (biztonságos)"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Lentebb meghatározva"
+
+msgid "mai_STANDARD"
+msgstr "Szabványos (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "Beküldési port %u állapota:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Levelezőszerverek delegálása"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "ETRN vagy multi-drop beállítások"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "SMTP-kiszolgáló"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Ismeretlen felhasználók"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "Ez a mező nem lehet üres, ha az SMTP hitelesítés engedélyezve van."
+
+msgid "mai_VERYHIGH"
+msgstr "Nagyon nagy"
+
+msgid "mai_VERYLOW"
+msgstr "Nagyon kicsi"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Engedélyezve hálózaton belül"
+#~ msgid "mai_AUTO"
+#~ msgstr "Automatikus"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "A multi-drop e-mail esetében állítsa be a POP felhasználónevet és jelszót. (Ha ETRN-el tölti le a leveleket, hagyja üresen ezeket a mezőket.) Továbbá a multi-drop esetében használhatja az alapértelmezett levélválogatási módszert, vagy meghatározhat egy egyéni üzenet fejlécet a levelek leválogatásához."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " E-mail hozzáférés "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " E-mail kézbesítés "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " E-mail fogadás "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Engedélyezve HTTP és HTTPS"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "E-mail beállítások"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "Engedélyezve SMTP és SSMTP"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Protokoll (multi-drop-hoz)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Tunnel over SSL (multi-drop-hoz)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "SMTP hitelesítés"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "Az új e-mail beállítások lementődtek."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "Ennek a mezőnek érvényes e-mail címet kell tartalmaznia @ jellel és domén névvel."

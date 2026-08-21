@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "[_1]\" hesabı [_2] hesabıyla çeşidindedir."
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " \"[_1]\" hesabı, [_2] hesap çeşidi \"[_3]\" takma adıyla çakışıyor . [_1], [_3] nın takma adıdır. "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "i-bay adı \"[_1]\" geçersiz karakter içeriyor. i-bay isimleri küçük harf veya rakalma başlamalı ve küçük harf, rakam ve nokta içerebilir."
+
+msgid "iba_ADD_IBAY"
+msgstr "i-bay ekle"
+
+msgid "iba_ADD_TITLE"
+msgstr "i-bay oluştur veya değiştir"
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "Dinamik içerik yürütmesi (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "[_1] hesabı oluşturulamadı (mevcut olabilir)"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "[_1] hesabı bulunamadı (mevcut mu kontrol edin)"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "Bütün internet (şifre grekmez)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "Bütün internet (şifre grekir)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "Bütün internet (yerel ağ hariçi şifre gerekir)"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "i-bay oluşturulurken hata meydana geldi."
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "i-bay silinirken hata oluştu."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "i-bay yapılandırılırken hata oluştu."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "Şifre resetlenirken hata oluştu."
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "  i-bay ekle \n\n   Herhangi bir i-bay'ı silmek için, o i-bayın sonundaki komutları seçmelisiniz. Eğer i-bay kırmızı renkte gösteriliyorsa, standart şifre değerinin değiştirilmediğini göstermektedir, en yakın zamanda şifrenin değiştirilmesi gerekmektedir. \n\n  "
+
+msgid "iba_FORM_TITLE"
+msgstr "i-bay oluştur, değiştir veya kaldır"
+
+msgid "iba_HTTPS_Only"
+msgstr "Güvenli bağlantıları zorunlu kıl"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "Şifreler eşleşmedi."
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "Yerel ağ (şifre grekmez)"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "Yerel ağ (şifre grekir)"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "i-bay adı \"[_1]\" çok uzun. En fazla [_1] karakterden oluşmalıdır."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "i-bay adı sadece küçük harfer, rakamlar, tire altçizgi ve nokta içermelidir, sadece üçük harfle başlamalıdır. Örneğin \"johnson\", \"intra\" ve \"cust3.prj12\" geçerli, fakat \"3associates\", \"John Smith\" and \"Bus!Partner\" geçersizdir. İsimler en fazla [_1] karakterden oluşmaktadır."
+
+msgid "iba_NAME_LABEL"
+msgstr "i-bay (bilgi yuvası) adı"
+
+msgid "iba_NONE"
+msgstr "Erişim yok"
+
+msgid "iba_NO_IBAYS"
+msgstr "Yapılandırılmış i-bay yok."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "[_1] isimli i-bay şifresi başarıyla değiştirildi."
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "web veya anonim ftp yoluyla kamu erişimi"
+
+msgid "iba_REMOVE_DESC"
+msgstr "  \"[_1]\" ([_2]) isimli i-bay kaldırılacak. \n\n   bu i-baydaki bütün bilgiler silinecektir. \n\n   Bu i-bay'ı silmek istediğinizden eminmisiniz? \n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "i-bay kaldır"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "i-bay başarıyla oluşturuldu."
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "i-bay başarıyla silindi."
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "i-bay başarıyla yapılandırıldı."
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "Şifre başarıyla resetlendi."
+
+msgid "iba_USER_ACCESS"
+msgstr "Kullanıcı, erişim dosya paylaşımı veya ftp üzerinden yapılabilir"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " Aşaığdaki alan adları bu i-bay'ı kullanmaktadır ve içeriği birincil i-bay'a taşınacaktır (daha sonra bunları değiştirebilirsiniz): [_1] "
+
+msgid "iba_WARG"
+msgstr "Yazma = admin, Okuma = grup"
+
+msgid "iba_WGRE"
+msgstr "Yazma = grup, Okuma = herkes"
+
+msgid "iba_WGRG"
+msgstr "Yazma = grup, Okuma = grup"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "ENTIRE_INTERNET_NO_PASSWORD"
+#~ msgstr "Tüm İnternet (parola gerekmez)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD"
+#~ msgstr "Tüm İnternet (parola gerekli)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD_REMOTE"
+#~ msgstr "(en)Entire Internet (password required outside local network)"
+#~ msgid "INVALID_IBAY_DESCRIPTION"
+#~ msgstr "(en)Error: unexpected or missing characters in i-bay description"
+#~ msgid "LOCAL_NETWORK_NO_PASSWORD"
+#~ msgstr "Yerel ağ (parola gerekmez)"
+#~ msgid "LOCAL_NETWORK_PASSWORD"
+#~ msgstr "Yerel ağ (parola gerekli)"
+#~ msgid "NONE"
+#~ msgstr "Erişim yok"
+#~ msgid "WARG"
+#~ msgstr "(en)Write = admin, Read = group"
+#~ msgid "WGRE"
+#~ msgstr "(en)Write = group, Read = everyone"
+#~ msgid "WGRG"
+#~ msgstr "(en)Write = group, Read = group"
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "Şifre sadece harfler ve rakamlardan oluşmalıdır."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "Hata: i-bay açıklamasında geçersiz karakter bulunuyor"
+#~ msgid "iba_Information bays"
+#~ msgstr "i-bay (bilgi yuvaları)"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "Genel erişim modu \"yerel ağ dışında şifre gerekir\" FTP sunucusu bileşeni tarafından desteklenmemektedir şifre gereklidir. Bu modu seçerseniz, FTP sunucusuna parola gerek içeriden ve dışarıdan bu i-bay'a erişebilirsiniz."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr "Bazı alan adları bu i-bay'ı kullanıyor, silindiğinde bunu kullanan alan adları birincil i-bay'a bağlanacaktır (daha sonra onları istediğiniz başka birine bağlayabilirsiniz)."

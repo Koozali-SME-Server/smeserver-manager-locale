@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Printers module\n"
+"POT-Creation-Date: 2026-08-21 10:21+0100\n"
+"PO-Revision-Date: 2026-08-21 10:21+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+
+msgid "Printers"
+msgstr "Printers"
+
+msgid "prt_ABOUT_TO_REMOVE"
+msgstr "U verwijderd op deze manier de printer:"
+
+msgid "prt_ARE_YOU_SURE"
+msgstr "Weet u zeker dat u deze printer wilt verwijderen?"
+
+msgid "prt_CREATED_SUCCESSFULLY"
+msgstr "Printer is met succes toegevoegd:"
+
+msgid "prt_CREATE_NETWORK_DESC"
+msgstr "Geef het adres en de naam van de netwerk printer"
+
+msgid "prt_CREATE_NETWORK_PRINTER"
+msgstr "Netwerk printer toevoegen"
+
+msgid "prt_CREATE_NEW_DESC"
+msgstr "Kies een unieke naam voor de printer en geef een korte beschrijving. De printernaam mag alleen uit kleine letters en cijfers bestaan. Bijvoorbeeld \"hplaser\", \"epsonlp\" en \"canonbj\" zijn geldige keuzes. \"HP Laser Jet\", \"Canon BubbleJet\" en \"HP JetDirect Printer\" zijn geen geldige namen. Vermijd namen en omschrijvingen met deze termen: \"offline\", \"disabled\", \"down\", \"off\", \"waiting\", \"jam\", \"paper\", \"error\" en \"responding\"."
+
+msgid "prt_CREATE_NEW_PRINTER"
+msgstr "Printer toevoegen"
+
+msgid "prt_CURRENT_LIST"
+msgstr "Huidige lijst met printers"
+
+msgid "prt_DELETED_SUCCESSFULLY"
+msgstr "Printer is met succes verwijderd:"
+
+msgid "prt_ERR_EXISTS"
+msgstr "Fout: Een account met dezelfde naam bestaat al met type:"
+
+msgid "prt_ERR_INTERNAL_FAILURE"
+msgstr "Fout: interne fout tijdens verwijderen van printer:"
+
+msgid "prt_ERR_INVALID_ADDRESS"
+msgstr "Fout: ongeldig netwerk adres. Geen nieuwe printer toegevoegd."
+
+msgid "prt_ERR_INVALID_REMOTE_NAME"
+msgstr "Fout: Ongeldige netwerk printernaam. Geen nieuwe printer toegevoegd."
+
+msgid "prt_ERR_UNEXPECTED_DESC"
+msgstr "Fout: Onverwachte of ontbrekende tekens in de beschrijving. Geen nieuwe printer toegevoegd."
+
+msgid "prt_ERR_UNEXPECTED_NAME"
+msgstr " Fout: onverwachte tekens in de printernaam. De printernaam mag alleen kleine letters en cijfers bevatten en moet met een kleine letter beginnen. Bijvoorbeeld: \"hplaser\", \"epsonlp\" en \"canonbj\" zijn geldige namen. "
+
+msgid "prt_FIRST_USB_PRINTER"
+msgstr "Eerste USB aangesloten printer"
+
+msgid "prt_FORM_TITLE"
+msgstr "Printers toevoegen of verwijderen"
+
+msgid "prt_HOSTNAME_OR_IP"
+msgstr "Hostnaam of IP adres van de netwerk printer"
+
+msgid "prt_INITIAL_BTN"
+msgstr "Printer toevoegen"
+
+msgid "prt_LOCAL_PRINTER_0"
+msgstr "Lokale printerpoort 0 (LPT1)"
+
+msgid "prt_LOCAL_PRINTER_1"
+msgstr "Lokale printerpoort 1 (LPT2)"
+
+msgid "prt_LOCAL_PRINTER_2"
+msgstr "Lokale printerpoort 2 (LPT3)"
+
+msgid "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgstr "Moet een geldige hostnaam of IP adres zijn"
+
+msgid "prt_NET_PRINTER"
+msgstr "Netwerk printer ..."
+
+msgid "prt_NO_PRINTERS"
+msgstr "Er zijn geen printers op dit systeem."
+
+msgid "prt_PRINTER_NAME"
+msgstr "Printernaam"
+
+msgid "prt_REMOTE_ADDRESS"
+msgstr "Adres elders"
+
+msgid "prt_REMOTE_NAME"
+msgstr "Naam elders"
+
+msgid "prt_REMOTE_NAME_DESC"
+msgstr " Netwerk printernaam (geef ongeveer als u het niet zeker weet) "
+
+msgid "prt_REMOVE_PRINTER"
+msgstr "Verwijder printer"
+
+msgid "prt_SECOND_USB_PRINTER"
+msgstr "Tweede USB aangesloten printer"
+
+msgid "prt_SPOOL_FILE_WARNING"
+msgstr "Alle opdracht-bestanden voor de printer worden verwijderd."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prt_ERR_CREATING"
+#~ msgstr "Fout tijdens het toevoegen van de printer."
+#~ msgid "prt_ERR_DELETING"
+#~ msgstr "Fout opgetreden tijdens verwijderen van de printer."
+#~ msgid "prt_ERR_OPENING_DB"
+#~ msgstr "Fout opgetreden tijdens het openen van de accounts database."
+#~ msgid "prt_INITIAL_DESC"
+#~ msgstr " Printer toevoegen "

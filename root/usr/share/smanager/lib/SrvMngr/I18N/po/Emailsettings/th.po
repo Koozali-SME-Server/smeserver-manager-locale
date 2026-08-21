@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "บันทึกการตั้งค่าการเข้าถึงอีเมลเรียบร้อยแล้ว"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "กำหนดเอง"
+
+msgid "mai_DEFAULT"
+msgstr "ค่าปริยาย"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "บันทึกการตั้งค่าการส่งอีเมลเรียบร้อยแล้ว"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "คุณสามารถบล็อคโปรแกรมทำงาน (executable) ที่ถูกแนบมากับอีเมล์ได้โดยการเลือกทำไฮไลท์ชนิดโปรแกรมที่คุณต้องการบล็อคจากรายการ อีเมล์ที่มีไฟล์แนบตามรายการที่เลือกจะถูกตีกลับไปยังผู้ส่ง"
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Delegate mail serversเซิร์ฟเวอร์ของคุณมีคุณสมบัติของเมล์เซอร์ฟเวอร์ที่ครบสมบูรณ์ อย่างไรก็ตาม คุณยังมีบางเหตุผลที่ทำให้คุณต้องเลือกส่งงานจัดการอีเมล์ไปยังเซิร์ฟเวอร์ตัวอื่น ให้ระบุหมายเลข IP ของเซิร์ฟเวอร์ที่จะทำงานนี้แทนที่นี่ โดยปกติการใช้งานทั้่วไปแล้วจะไม่ต้องกรอกข้อมูลช่องนี้ "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "สำหรับ ETRN หรือ multi-drop คุณสามารถควบคุมอัตราความถี่ที่เซอร์ฟเวอร์นี้จะทำการติดต่อกับเซอร์ฟเวอร์อีเมล์ที่สองในการเรียกรับอีเมล์ ความถี่สูงขึ้น หมายถึงคุณจะได้รับอีเมล์ที่เข้ามาเร็วขึ้น แต่การส่งคำขอที่บ่อยขึ้นอาจทำให้ค่าโทรศัพท์และค่าอินเตอร์เน็ตสูงขึ้นในบางกรณี"
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "คุณสามารถควบคุมการเข้าถึงบริการของเซิร์เวอร์ IMAP ได้ การตั้งค่า 'Allow access only from local networks' จะเป็นการอนุญาตให้ใช้บริการนี้ได้เฉพาะจากภายในเครือข่ายท้องถิ่นของคุณเท่านั้น การให้บริการนี้สามารถที่จะตั้งให้สามารถใช้บริการจากภายนอกโดยผ่านการเชื่อมต่อแบบเข้ารหัสข้อมูลได้ด้วย เราแนะนำให้คุณปล่อยการตั้งค่านี้ให้เป็นแบบ 'Allow access only from local networks' เอาไว้หากไม่มีความประสงค์อย่างอื่น"
+
+msgid "mai_DESC_MODE"
+msgstr "โหมดการรับอีเมล์สามารถตัวเป็น แบบมาตรฐาน (สำหับการเชื่อมต่ออินเตอร์เน็ตแบบถาวร) หรือ ETRN (แนะนำให้ใช้สำหรับการเชื่อมต่อแบบไดอัลอัพ) หรือ multi-drop (สำหรับการเชื่อมต่อแบบไดอัลอัพกรณีที่ผู้ให้บริการอินเตอร์เน็ตของคุณไม่รองรับ) หมายเหตุ จะมีเพียงโหมด multi-drop ให้เลือกเท่านั้นเมื่อเซิร์ฟเวอร์ของคุณถูกตั้งให้ทำงานในโหมด private server และโหมด gateway"
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "คุณสามารถควบคุมการเข้าถึงบริการของเซิร์เวอร์ POP3 ได้ การตั้งค่า 'Allow access only from local networks' จะเป็นการอนุญาตให้ใช้บริการนี้ได้เฉพาะจากภายในเครือข่ายท้องถิ่นของคุณเท่านั้น การให้บริการนี้สามารถที่จะตั้งให้สามารถใช้บริการจากภายนอกโดยผ่านการเชื่อมต่อแบบเข้ารหัสข้อมูลได้ด้วย เราแนะนำให้คุณปล่อยการตั้งค่านี้ให้เป็นแบบ 'Allow access only from local networks' เอาไว้หากไม่มีความประสงค์อย่างอื่น"
+
+msgid "mai_DESC_SECONDARY"
+msgstr " ตั้งค่า ETRN หรือ multi-drop สำหรับ ETRN หรือ multi-drop ให้ระบุชื่อโฮสต์หรือหมายเลข IP ของเมล์เซิร์ฟเวอร์สำรองของคุณ (หากเลือใช้แบบมาตรฐานสามารถปล่อยฟิลด์นี้ว่างไว้ได้) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " เซิร์ฟเวอร์ SMTPเซิร์ฟเวอร์สามารถส่งข้อความไปยังปลายทางต่างๆ ได้เอง (แนะนำให้ใช้ในกรณีทั่วไป) หรือให้ส่งผ่านเซิร์ฟเวอร์ SMPT ของผู้ให้บริการอินเตอร์เน็ต (ISP) ของคุณ (แนะนำให้ใช้หากคุณใช้การเชื่อมต่อที่ไม่ค่อยเสถียรหรือใช้บริการอินเตอร์เน็ตสำหรับบ้านพักอาศัย) หากคุณเลือกใช้การส่งผ่านเซิร์ฟเวอร์ SMPT ของผู้ให้บริการอินเตอร์เน็ต ให้คุณระบุชื่อโฮสต์หรือ IP ของเซอร์ฟเวอร์ของผู้บริการนั้นด้านล่าง หากไม่ใช่ให้ปล่อยว่างไว้ "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires all users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "คุณสามารถให้ทำการแสกนเพื่อตรวจจับจดหมายขยะได้หากเปิดใช้การกรองจดหมายขยะ จะมีสถานะ X-Spam-Status:header เพิ่มเข้าไปในทุกฉบับเพื่อจะใช้ประโยชน์ในการตรวจจับ คุณสามารถเลือกตั้งความไวของตัวตรวจจับซึ่งปกติตั้งไว้ที่ ปานกลาง เพื่อควบคุมระดับการป้องกันได้ คุณสามารถตั้งความไวเป็น Custom แล้วตั้ง custom tagging level เอง และเลือกตัวเลือกระดับของการปฎิเสธจดหมายได้"
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "คุณสามารถกำหนดให้เพิ่มข้อความ (tag) หน้าหัวข้อของจดหมาย (subject) ในทุกๆ ฉบับที่ตรวจสอบแล้วว่าเป็นสแปม ข้อความ (tag) นั้น กำหนดได้ด้านล่างนี้"
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " เปลี่ยนการตั้งค่าการเข้าถึงอีเมล์ "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " เปลี่ยนการตั้งค่าการรับส่งอีเมล์ "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " เปลี่ยนการตั้งค่าการกรองอีเมล์ "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " เปลี่ยนการตั้งค่าการรับอีเมล์ "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " ผู้ใช้ที่ไม่รู้จักการเลือกปฏิเสธ (แนะนำให้ใช้) จะเป็นการตั้งให้เซิร์ฟเวอร์รับเฉพาะอีเมล์ที่ส่งถึงที่อยู่มีอยู่จริง (ตัวอย่างเช่น ผู้ใช้, กลุ่มผู้ใช้, นามแฝง) ส่วนนอกนั้นจะถูกปฏิเสธ "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "คุณสามารถให้สแกนหาไวรัสในอีเมล์เข้าออกได้ ถ้าเลือกให้ทำการแสกนและพบไวรัส อีเมล์นั้นจะปฏิเสธการส่งต่อและตีกลับไปยังผู้ส่ง"
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "คุณสามารถเลือกเปิดหรือปิดการให้บริการเว็บเมล์ได้ บริการเว็บเมล์จะทำให้ผู้ใช้สามารถเข้าถึงอีเมล์ของเขาผ่านเว็บเบราว์เซอร์ โดยการระบุที่อยู่เว็บบนเบราว์เซอร์มาที่ https://[_1]/webmail และล็อกอินเข้าสู่บัญชีของเขา"
+
+msgid "mai_E-Mail"
+msgstr "อีเมล"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "อนุญาต HTTPS (secure)"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP พร้อมคำขอจากไคลเอนต์)"
+
+msgid "mai_EVERY15MIN"
+msgstr "ทุกๆ 15 นาที"
+
+msgid "mai_EVERY2HRS"
+msgstr "ทุกๆ 2 ชั่วโมง"
+
+msgid "mai_EVERY30MIN"
+msgstr "ทุกๆ 30 นาที"
+
+msgid "mai_EVERY5MIN"
+msgstr "ทุกๆ 5 นาที"
+
+msgid "mai_EVERYHOUR"
+msgstr "ทุกๆ ชั่วโมง"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "บันทึกการตั้งค่าการกรองอีเมลเรียบร้อยแล้ว"
+
+msgid "mai_FORWARD_TO"
+msgstr "ส่งให้"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "ส่งให้ผู้ดูแลระบบ"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "สูง"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "อนุญาตทั้ง IMAP และ IMAPS"
+
+msgid "mai_INSECURE_POP3"
+msgstr "อนุญาตทั้ง POP3 และ POP3S"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "ชื่อ smarthost ที่คุณกรอกไม่ใช่ชื่ออินเทอร์เน็ตโดเมน และจะปล่อยว่างไว้ไม่ได้"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "ไม่รวมเนื้อหาที่ถูกบล็อค"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "เนื้อหาที่จะบล๊อก"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "ที่อยู่ของ internal mail server"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "ระหว่างเวลาราชการ (8:00 AM ถึง 6:00 PM) ในวันธรรมดา"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "นอกเวลาราชการ (6:00 AM ถึง 8:00 PM) ในวันธรรมดา"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "ในช่วงวันหยุดสุดสัปดาห์"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "การเข้าถึง IMAP เซอร์ฟเวอร์"
+
+msgid "mai_LABEL_MODE"
+msgstr "โหมดการรับอีเมล์"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "การเข้าถึง POP3 เซอร์ฟเวอร์"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "ชื่อบัญชื่อ POP ของผู้ใช้ (สำหรับ multi-drop)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "รหัสผ่าน POP ของผู้ใช้ (สำหรับ multi-drop)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "เมล์เซิร์ฟเวอร์สำรอง"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "ที่อยู่เมล์เซิร์ฟเวอร์ของผู้ให้บริการอินเตอร์เน็ต"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "รหัสผ่านของเมล์เซอร์เวอร์"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "ข้อมูลในการตรวจสอบสิทธิ์ SMTP ที่จะใช้กับผู้ให้บริการอินเตอร์เน็ต (ISP)"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "ชื่อผู้ใช้ของเมล์เซอร์เวอร์"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "ส่งจดหมายขยะลงไปที่โฟล์เดอร์ junkmail"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "จัดเรียงด้วยเฮดเดอร์ (สำหรับ multi-drop)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "เลือกการเรียงลำดับจดหมาย (สำหรับ multi-drop)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "ระดับการการปฏิเสธจดหมายขยะแบบกำหนดเอง"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "การกรองจดหมายขยะ"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "ระดับความไวต่อจดหมายขยะ"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "เติมข้อความหน้าหัวข้อ (subject) ของจดหมายที่เป็นสแปม"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "การแก้ไขหัวข้อ (subject) ของจดหมายขยะ"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "ระดับ spam tagging แบบกำหนดเอง"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "อีเมล์ถึงผู้ใช้ที่ไม่รู้จัก"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "การสแกนไวรัส"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "การเข้าถึงเว็บเมล์"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "ต่ำ"
+
+msgid "mai_MEDIUM"
+msgstr "ปานกลาง"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "ไม่ทั้งหมด"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "ให้เข้าถึงได้เฉพาะจากเครือข่ายท้องถิ่นเท่านั้น"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "บันทึกการตั้งค่าการรับอีเมลเรียบร้อยแล้ว"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "ไม่รับ"
+
+msgid "mai_SECURE_IMAP"
+msgstr "อนุญาตแบบ private และแบบ public (secure IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "อนุญาตแบบ private และแบบ public (secure POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "อนุญาต SSMTP (secure)"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "ระบุึด้านล่าง"
+
+msgid "mai_STANDARD"
+msgstr "แบบมาตรฐาน (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "สถานะพอร์ตการส่ง %u:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "มอบหมายเซิร์ฟเวอร์อีเมล"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "การตั้งค่า ETRN หรือมัลติดรอป"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "เซิร์ฟเวอร์ SMTP"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "ผู้ใช้ที่ไม่รู้จัก"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "ฟิลด์นี้ไม่สามารถปล่อยว่างไว้หากเลือกเปิดใช้การตรวจสอบสิทธิ์ของ SMTP"
+
+msgid "mai_VERYHIGH"
+msgstr "สูงมาก"
+
+msgid "mai_VERYLOW"
+msgstr "ต่ำมาก"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "อนุญาตแบบ private"
+#~ msgid "mai_AUTO"
+#~ msgstr "อัตโนมัติ"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "สำหรับอีเมล์แบบ multi-drop ให้กรอกชื่อผู้ใช้และรหัสผ่านของ POP (ถ้าใช้อีเมล์แบบมาตรฐานหรือ ETRN ข้อมูลเหล่านี้สามารถปล่อยว่างไว้) สำหรับระบบ multi-drop คุณสามารถเลือกการเรียงสำดับอีเมล์แบบมาตรฐาน หรือเลือกกำหนดให้ใช้ข้อความหัวจดหมายในการจัดเรียงได้"
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " การเข้าถึงอีเมล์ "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr "การส่งอีเมล"
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " การรับอีเมล์ "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "อนุญาตทั้ง HTTP และ HTTPS"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "ตั้งค่าอีเมล์"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "อนุญาตทั้ง SMTP และ SSMTP"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "โปรโตคอล (สำหรับ multi-drop)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Tunnel over SSL (สำหรับ multi-drop)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "การตรวจสอบสิทธิ์ SMTP"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "การตั้งค่าอีเมลใหม่ได้รับการบันทึก"
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "ฟิลด์นี้ต้องเป็นข้อมูลชื่ออีเมล์ที่ถูกต้อง ซึ่งต้องประกอบด้วยเครื่องหมาย @ และชื่อโดเมน"

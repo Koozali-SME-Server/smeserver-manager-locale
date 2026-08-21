@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "ACCESS"
+msgstr "Доступ"
+
+msgid "ACCOUNT"
+msgstr "Учётная запись"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "В системе нет групп пользователей."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Учётная запись заблокирована"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "Введено недопустимое имя учетной записи."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "Введённое вами имя учетной записи содержит недопустимые символы."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Изменить пароль учётной записи"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "В системе нет учетных записей пользователей."
+
+msgid "ACTION"
+msgstr "Действие"
+
+msgid "ADD"
+msgstr "Добавить"
+
+msgid "APRIL"
+msgstr "Апрель"
+
+msgid "AUGUST"
+msgstr "Август"
+
+msgid "Administration"
+msgstr "Администрирование"
+
+msgid "All rights reserved"
+msgstr "Все права защищены"
+
+msgid "BACK"
+msgstr "Назад"
+
+msgid "BACKUP"
+msgstr "Резервная копия"
+
+msgid "CANCEL"
+msgstr "Отмена"
+
+msgid "COMMENT"
+msgstr "Комментарий"
+
+msgid "CONTENT"
+msgstr "Содержимое"
+
+msgid "CREATE"
+msgstr "Создать"
+
+msgid "CREATE_GROUP"
+msgstr "Создать группу пользователей"
+
+msgid "Collaboration"
+msgstr "Совместная работа"
+
+msgid "Configuration"
+msgstr "Конфигурация"
+
+msgid "DECEMBER"
+msgstr "Декабрь"
+
+msgid "DESCRIPTION"
+msgstr "Описание"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Короткое описание"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "Назначение"
+
+msgid "DISABLED"
+msgstr "Отключен"
+
+msgid "DOMAIN"
+msgstr "Домен"
+
+msgid "DOMAINS"
+msgstr "Домены"
+
+msgid "DOMAIN_NAME"
+msgstr "Имя домена"
+
+msgid "DOWNLOAD"
+msgstr "Скачать"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Включен"
+
+msgid "END_OF_REPORT"
+msgstr "Конец отчёта"
+
+msgid "ERROR_BELOW"
+msgstr "ERROR: Ошибка проверки этой страницы. Пожалуйста, пролистайте вниз и найдите конкретную проблему."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Непредвиденные символы в описании."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Произошла ошибка при попытке изменить ваш пароль. Пожалуйста, удостоверьтесь, что введенный старый пароль правилен."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Произошла ошибка во время обновлении конфигурации системы."
+
+msgid "FEBRUARY"
+msgstr "Февраль"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Ошибка: непредвиденные или отсутствующие символы в описании"
+
+msgid "FM_IP_NUMBER1"
+msgstr "Это поле должно содержать действительный IP адрес и не может быть оставлено пустым."
+
+msgid "FM_IP_NUMBER2"
+msgstr "Невеный формат IP-адреса (ожидался X.X.X.X)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] больше чем 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "Вы должны указать MAC адрес."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "Недействительный MAC адрес."
+
+msgid "FM_NONBLANK"
+msgstr "Это поле не может быть пустым"
+
+msgid "FRIDAY"
+msgstr "Пятница"
+
+msgid "GROUP"
+msgstr "Группа"
+
+msgid "GROUPS"
+msgstr "Группы"
+
+msgid "GROUP_ADD"
+msgstr "Добавить группу"
+
+msgid "GROUP_MEMBERS"
+msgstr "Члены группы"
+
+msgid "GROUP_NAME"
+msgstr "Имя группы"
+
+msgid "IP_ADDRESS"
+msgstr "IP адрес"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "IP адрес или FQDN"
+
+msgid "JANUARY"
+msgstr "Январь"
+
+msgid "JULY"
+msgstr "Июль"
+
+msgid "JUNE"
+msgstr "Июнь"
+
+msgid "LOCAL"
+msgstr "Локальный"
+
+msgid "LOCATION"
+msgstr "Расположение"
+
+msgid "MARCH"
+msgstr "Март"
+
+msgid "MAY"
+msgstr "Май"
+
+msgid "MB"
+msgstr "Мб"
+
+msgid "MODIFY"
+msgstr "Изменить"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Изменить группу пользователей"
+
+msgid "MONDAY"
+msgstr "Понедельник"
+
+msgid "Miscellaneous"
+msgstr "Разное"
+
+msgid "NAME"
+msgstr "Название"
+
+msgid "NETWORK"
+msgstr "Сеть"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Разрешить доступ только из локальных сетей"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Разрешить свободный доступ (весь Интернет)"
+
+msgid "NEXT"
+msgstr "Далее"
+
+msgid "NO"
+msgstr "Нет"
+
+msgid "NOVEMBER"
+msgstr "Ноябрь"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "Символы конвейеризации (|) не допустимы в этом поле"
+
+msgid "OCTOBER"
+msgstr "Октябрь"
+
+msgid "OFF"
+msgstr "Выкл."
+
+msgid "OK"
+msgstr "ОК"
+
+msgid "ON"
+msgstr "Вкл."
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Данные о состоянии функционирования"
+
+msgid "PASSWORD"
+msgstr "Пароль"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Изменить пароль"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Ваш пароль успешно изменён."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "Введённый вами пароль содержит недопустимые символы."
+
+msgid "PASSWORD_NEW"
+msgstr "Новый пароль:"
+
+msgid "PASSWORD_OLD"
+msgstr "Старый пароль:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "Введённый вами старый пароль содержит недопустимые символы."
+
+msgid "PASSWORD_RESET"
+msgstr "Сбросить пароль"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "Введённые пароли не совпадают."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Новый пароль (ещё раз):"
+
+msgid "PERFORM"
+msgstr "Выполнить"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Реконфигурировать"
+
+msgid "REMOTE"
+msgstr "Удалённый"
+
+msgid "REMOVE"
+msgstr "Удалить"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Удалить группу пользователей"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Сброс пароля пользователя"
+
+msgid "RESTORE"
+msgstr "Восстановить"
+
+msgid "ROUTER"
+msgstr "Маршрутизатор"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Суббота"
+
+msgid "SAVE"
+msgstr "Сохранить"
+
+msgid "SELF"
+msgstr "Лично"
+
+msgid "SEPTEMBER"
+msgstr "Сентябрь"
+
+msgid "SHUTDOWN"
+msgstr "Выключение"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Успешно"
+
+msgid "SUNDAY"
+msgstr "Воскресенье"
+
+msgid "Security"
+msgstr "Безопасность"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Четверг"
+
+msgid "TUESDAY"
+msgstr "Вторник"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Неверный пользователь"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Текущий список пользователей"
+
+msgid "USER_NAME"
+msgstr "Имя пользователя"
+
+msgid "User password"
+msgstr "Пароль пользователя"
+
+msgid "WEDNESDAY"
+msgstr "Среда"
+
+msgid "YES"
+msgstr "Да"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Ваша учётная запись:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "Введено недопустимое имя учетной записи."
+
+msgid "Your Settings"
+msgstr "Ваши настройки"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Отмена"
+
+msgid "del"
+msgstr "удалить"
+
+msgid "edit"
+msgstr "редактировать"
+
+msgid "exit"
+msgstr "Выход"
+
+msgid "hello"
+msgstr "привет"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

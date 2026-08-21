@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'De nye grundlæggende LDAPindstillinger er gemt.',
 'dir_LEAVE' => 'Efterlad som de er',
 'dir_UPDATE' => 'Opdater med nye indstillinger',
-'dir_Directory' => 'LDAPliste',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'LDAPliste',

@@ -7,4 +7,4 @@
 'clm_NEVER' => 'Niciodata',
 'clm_DAILY' => 'Zilnic',
 'clm_SUCCESS' => 'Noile setari pentru antivirusul clamav au fost salvate.',
-'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',

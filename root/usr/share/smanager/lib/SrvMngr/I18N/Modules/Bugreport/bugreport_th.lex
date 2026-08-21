@@ -20,5 +20,5 @@
 'bugr_CONSIDER_DONATING' => '(en)Please consider donating to the project by clicking on the image link below:',
 'bugr_THANK_YOU' => '(en)Thank you for your support!',
 'bugr_Download this report' => '(en)Download this report !',
-'bugr_Report a bug' => 'รายงานข้อบกพร่อง',
+# ORPHANED (no longer in bugreport_en.lex; kept for reference, commented out by lex-to-po.pl): 'bugr_Report a bug' => 'รายงานข้อบกพร่อง',
 'bugr_PREVIOUS_SERVER_MODE' => '(en)Previous server mode',

@@ -7,4 +7,4 @@
 'clm_NEVER' => 'Ποτέ',
 'clm_DAILY' => 'Καθημερινά',
 'clm_SUCCESS' => 'Οι νέες ρυθμίσεις του λογισμικού ανίχνευσης ιών clamav έχουν αποθηκευθεί.',
-'clm_Antivirus (ClamAV)' => 'Αντιϊός (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'Αντιϊός (ClamAV)',

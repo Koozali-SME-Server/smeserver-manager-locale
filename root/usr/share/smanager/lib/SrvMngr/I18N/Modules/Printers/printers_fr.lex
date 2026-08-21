@@ -1,8 +1,8 @@
 'prt_FORM_TITLE' => 'Gestion des imprimantes',
 'prt_INITIAL_BTN' => 'Ajouter une imprimante',
-'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Ajouter une imprimante</a>
-
-  ',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Ajouter une imprimante</a>
+#
+#  ',
 'prt_NO_PRINTERS' => 'Aucune imprimante n\'a été définie dans le système.',
 'prt_CURRENT_LIST' => 'Liste actuelle des imprimantes',
 'prt_REMOTE_ADDRESS' => 'Adresse distante',
@@ -25,10 +25,10 @@
 'prt_ERR_EXISTS' => 'ERREUR : un compte existe déjà sous ce nom avec le type',
 'prt_ERR_INVALID_ADDRESS' => 'ERREUR : l\'adresse réseau n\'est pas valide. L\'imprimante n\'a pas été créée.',
 'prt_ERR_INVALID_REMOTE_NAME' => 'ERREUR : le nom de l\'imprimante réseau n\'est pas valide. L\'imprimante n\'a pas été créée.',
-'prt_ERR_CREATING' => 'Une erreur est survenue lors de la création de l\'imprimante.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_CREATING' => 'Une erreur est survenue lors de la création de l\'imprimante.',
 'prt_CREATED_SUCCESSFULLY' => 'L\'imprimante a été créée avec succès.',
 'prt_CREATE_NETWORK_PRINTER' => 'Créer une nouvelle imprimante réseau',
-'prt_ERR_OPENING_DB' => 'Une erreur est survenue lors de l\'ouverture de la base de données de comptes.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_OPENING_DB' => 'Une erreur est survenue lors de l\'ouverture de la base de données de comptes.',
 'prt_CREATE_NETWORK_DESC' => 'Veuillez taper l\'adresse et le nom de l\'imprimante réseau :',
 'prt_HOSTNAME_OR_IP' => 'Nom d\'hôte ou adresse IP de l\'imprimante réseau',
 'prt_REMOTE_NAME_DESC' => ' Nom de l\'imprimante réseau (tapez "raw" en cas d\'incertitude) ',
@@ -37,7 +37,7 @@
 'prt_SPOOL_FILE_WARNING' => 'La file d\'impression de cette imprimante va être supprimée.',
 'prt_ARE_YOU_SURE' => 'Voulez-vous vraiment supprimer cette imprimante ?',
 'prt_ERR_INTERNAL_FAILURE' => 'ERREUR : une erreur s\'est produite lors de la suppression de l\'imprimante.',
-'prt_ERR_DELETING' => 'Erreur pendant la suppression de l\'imprimante.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_DELETING' => 'Erreur pendant la suppression de l\'imprimante.',
 'prt_DELETED_SUCCESSFULLY' => 'Imprimante supprimée avec succès.',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'La valeur doit être un nom d\'hôte ou une adresse IP valide',
 'Printers' => 'Imprimantes',

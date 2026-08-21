@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Domains module\n"
+"POT-Creation-Date: 2026-08-21 10:15+0100\n"
+"PO-Revision-Date: 2026-08-21 10:15+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "dom_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this domain ?"
+
+msgid "dom_ADD_DOMAIN"
+msgstr "Domain hinzufügen"
+
+msgid "dom_CONTENT"
+msgstr "[_1] i-bay"
+
+msgid "dom_CONTENT_FIELD_DESCRIPTION"
+msgstr "Für die Webseite können Sie als Inhalt entweder die primäre Seite oder ein i-bay auswählen."
+
+msgid "dom_CREATE_TITLE"
+msgstr "Neue Domäne erstellen"
+
+msgid "dom_CURRENT_DOMAINS"
+msgstr "Aktuelle Domänenliste"
+
+msgid "dom_DESC_CORPORATE_DNS"
+msgstr "Wenn dieser Server keinen Internetzugang hat oder aber Sie besondere Anforderungen für die DNS-Namensauflösungen haben, geben Sie hier bitte die IP-Adresse des DNS-Server ein. Diese Felder sollten leer bleiben, wenn Sie keine besonderen Gründe zur Konfiguration anderer DNS-Server haben. Geben Sie bitte nicht die IP-Adresse des DNS-Servers ein, der Ihnen von Ihrem Internet Service Provider zugewiesen wurde, denn Ihr Server ist in der Lage, alle Internet DNS-Anfragen ohne diese zusätzliche Konfigurationen aufzulösen."
+
+msgid "dom_DESC_CORPORATE_DNS_CURRENT"
+msgstr " Zentrale DNS-Einstellungen "
+
+msgid "dom_DESC_NAMESERVERS"
+msgstr "Sie können auswählen, ob diese Domäne lokal aufgelöst, an die zentralen DNS-Server weitergereicht, oder durch externe Internet DNS-Server aufgelöst wird. Die Standardeinstellung wird für die meisten Netzwerke richtig sein."
+
+msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
+msgstr "DNS-Einstellungen des Unternehmens ändern"
+
+msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
+msgstr "FEHLER: Ungültiges oder fehlendes Zeichen in der Domänenbeschreibung [_1]. Neue Domäne wurde nicht erstellt."
+
+msgid "dom_DOMAIN_IN_USE_ERROR"
+msgstr "FEHLER: Domäne [_1] ist bereits vorhanden. Neue Domäne wurde nicht erstellt."
+
+msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
+msgstr "FEHLER: Ungültiges oder fehlendes Zeichen im Domänen-Namen [_1]. Der Domänen-Name darf nur Buchstaben, Nummern, Punkte oder Bindestriche enthalten. Neue Domäne wurde nicht erstellt."
+
+msgid "dom_ERROR_CREATING_DOMAIN"
+msgstr "(en) Error creating domain"
+
+msgid "dom_ERROR_MODIFYING_DOMAIN"
+msgstr "(en) Error modifying domain"
+
+msgid "dom_ERROR_UPDATING"
+msgstr "(en) Error updating"
+
+msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
+msgstr "FEHLER: interner Fehler beim Entfernen der Domäne [_1]."
+
+msgid "dom_FORM_DESCRIPTION"
+msgstr " Wenn Sie eine Domäne anlegen, wird der Server in der Lage sein, Emails für diese Domäne zu empfangen sowie eine Website für diese Domäne zu hosten. <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next?wherenext=domains_page_create\">Domäne hinzufügen</a></p> "
+
+msgid "dom_FORM_TITLE"
+msgstr "Domänen verwalten"
+
+msgid "dom_LABEL_CORPORATE_DNS_PRIMARY"
+msgstr "Erster zentraler DNS-Server"
+
+msgid "dom_LABEL_CORPORATE_DNS_SECONDARY"
+msgstr "Zweiter zentraler DNS-Server"
+
+msgid "dom_LABEL_NAMESERVERS"
+msgstr "Domänen DNS Server"
+
+msgid "dom_MODIFY_TITLE"
+msgstr "Domäne ändern"
+
+msgid "dom_NONEXISTENT_DOMAIN_ERROR"
+msgstr "FEHLER: [_1] ist keine existierende Domäne."
+
+msgid "dom_PRIMARY_SITE"
+msgstr "Primäre Seite"
+
+msgid "dom_REMOVE_DESCRIPTION"
+msgstr "  Sie sind dabei, die Domäne [_1] ([_2]) zu entfernen. <p> <b>Sind Sie sicher, dass Sie die Domäne entfernen wollen ?</b> </p> "
+
+msgid "dom_REMOVE_TITLE"
+msgstr "Domäne entfernen"
+
+msgid "dom_SUCCESSFULLY_CREATED"
+msgstr "Die Domäne [_1] wurde erfolgreich erstellt. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist."
+
+msgid "dom_SUCCESSFULLY_DELETED"
+msgstr "Die Domäne [_1] wurde erfolgreich entfernt. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist."
+
+msgid "dom_SUCCESSFULLY_MODIFIED"
+msgstr "Die Domäne [_1] wurde erfolgreich geändert. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist."
+
+msgid "dom_SYSTEM_DOMAIN_ERROR"
+msgstr "FEHLER: Diese Domäne [_1] ist Ihre Haupt-Domäne. Es ist nicht möglich, eine Domäne mit dem gleichen Namen zu erstellen. Neue Domäne wurde nicht erstellt."
+
+msgid "dom_corporate"
+msgstr "Zentrale DNS-Server"
+
+msgid "dom_internet"
+msgstr "Internet DNS-Auflösung"
+
+msgid "dom_localhost"
+msgstr "Lokale DNS-Auflösung"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dom_BUTTON_CORPORATE_DNS"
+#~ msgstr " Wenn dieser Server keinen Internetzugang hat oder wenn Sie spezielle Anforderungen für die DNS-Auflösung haben, geben Sie hier die DNS-Server IP-Adresse ein. Sie sollten hier nicht die IP-Adresse des DNS-Servers Ihres Internet Service Providers angeben, weil der Server alle Internet-Adressen auch ohne diese Konfiguration auflösen kann. <p> <a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns\">Ändere zentrale DNS-Einstellungen</a> "
+#~ msgid "dom_CURRENT_LIST_OF_DOMAINS"
+#~ msgstr "Aktuelle Liste aller Domänen"
+#~ msgid "dom_NO_VIRTUAL_DOMAINS"
+#~ msgstr "Es sind keine Domänen auf dem System."
+#~ msgid "dom_REMOVE_DESC"
+#~ msgstr "Sie sind dabei, die Domäne zu entfernen"
+#~ msgid "dom_REMOVE_DESC2"
+#~ msgstr "Sind Sie sicher, dass Sie diese Domäne entfernen wollen?"

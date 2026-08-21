@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Proxy module\n"
+"POT-Creation-Date: 2026-08-21 10:22+0100\n"
+"PO-Revision-Date: 2026-08-21 10:22+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+msgid "Proxy settings"
+msgstr "Ustawienia serwera proxy"
+
+msgid "prx_BLOCKED"
+msgstr "Zablokowany"
+
+msgid "prx_ERR_NO_SQUID_REC"
+msgstr "Błąd: Nie ma rekordu w bazie danych konfiguracji."
+
+msgid "prx_ERR_PROXY_UPDATE_FAILED"
+msgstr "Błąd: Zdarzenie aktualizacji proxy zwróciło błąd."
+
+msgid "prx_FIRST_PAGE_DESCRIPTION"
+msgstr "Ta strona umożliwia konfigurowanie ustawień serwera proxy. Serwer zawiera transparentny proxy i cache dla ruchu HTTP. Serwer jest domyślnie włączony, ale nie działa prawidłowo, jeśli serwer jest w ustawiony w trybie &quot;serwera&quot;. Jeśli serwer działa jako serwer e-mail, połączenia z klientów sieci lokalnej do serwerów SMTP będą domyślnie przekierowywane do lokalnego serwera e-mail."
+
+msgid "prx_HTTP_PROXY_STATUS_DESCRIPTION"
+msgstr "Serwer proxy HTTP działa na zasadzie zmniejszenia ogólnego użytkowania sieci poprzez buforowanie ostatnio odwiedzanych stron. Jest niewidoczny dla przeglądarek internetowych za pomocą którego łączą się poprzez ten serwer. Możesz włączyć lub wyłączyć serwer proxy następującymi przełącznikami."
+
+msgid "prx_HTTP_PROXY_STATUS_LABEL"
+msgstr "Status proxy HTTP"
+
+msgid "prx_Proxy"
+msgstr "Serwer proxy"
+
+msgid "prx_SMTP_PROXY_STATUS_DESCRIPTION"
+msgstr "Transparentny serwer proxy SMTP serwera działa w celu zmniejszenia ruchu wirusów z zainfekowanych hostów klientów, wymuszając cały wychodzący ruch SMTP przez ten serwer, jeśli jest ustawiony na „włączony”. Jeśli chcesz użyć alternatywnego serwera SMTP, a ten serwer jest Twoją bramą do niego, ustaw ten serwer proxy na „wyłączony”. Ustawienie proxy na „zablokowane” uniemożliwia cały ruch SMTP do innych serwerach, jest to ustawienie domyślne. Serwer proxy przechwytuje / blokuje tylko zwykły protokół smtp (port 25)"
+
+msgid "prx_SMTP_PROXY_STATUS_LABEL"
+msgstr "Status proxy SMTP"
+
+msgid "prx_SUCCESS"
+msgstr "Nowe ustawienia proxy zostały ustawione pomyślnie."
+
+msgid "prx_TITLE"
+msgstr "Ustawienia serwera proxy"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prx_Proxy settings"
+#~ msgstr "Ustawienia proxy"

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Remoteaccess module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+
+msgid "Remote access"
+msgstr "Uzaktan erişim"
+
+msgid "rma_DESC_FTP_ACCESS"
+msgstr " FTP Ayarları Sunucunuzun FTP erişimini kontrol edebilirsiniz. Bir zorunluluk olmadığı sürece 'erişim yok' seçeneğini seçmenizi öneririz .  Not: bu ayarlar sunucu erişimini sınırlar ve diğer erişim ayarlarını etkiler, özgün i-bayları da kapsar. "
+
+msgid "rma_DESC_FTP_LOGIN"
+msgstr "i-bay ve kullanıcı hesapları için yetkilendirilmiş FTP erişimini kontrol edebilirsiniz. Bir zorunluluk olmadığı sürece buradaki ayarları özel olarak seçmenizi öneririz.  Not: güvenli sftp kullanıcıları bu sunucuya erişebilir, eğer ssh erişimi etkinse. Bu yönetm FTP erişiminizin şifre ve verilerini korur, oysa standard FTP güvenlik sağlamaz. "
+
+msgid "rma_DESC_IPSECRW"
+msgstr " IPSEC İstemci (Roadwarrior) Ayarları IPSEC istemcilerin bu sunucuya erişimini aktifleştirebilirsiniz, girişler dijital sertifikalarla doğrulanır. IPSEC istemcilerinini erişimine izin vermek istemiyorsanız buradaki ayarı 0 yapmanız yeterlidir. "
+
+msgid "rma_DESC_IPSECRW_RESET"
+msgstr "Bütün dijital sertifikaları sıfırlamak için, burayı kullanabilirsiniz.Herhangi eski bir sertifikanın geçerliliği kalmayacaktır, bütün IPSEC istemcileri yeni sertifikaları edinmelidir!. "
+
+msgid "rma_DESC_PPTP"
+msgstr " PPTP Ayarları Sunucunuza PPTP erişimine izin verebilirsiniz. Eğer PPTP erişimi vermek istemiyorsanız 0 değerini vermeniz yeterlidir. "
+
+msgid "rma_DESC_SSH"
+msgstr "  ssh AyarlarıSunucunuza ssh erişimini kontrol edebilirsiniz. Genel erişim sadece deneyimli yneticilerin sorun tespit ve çözümleri için aktifleştirilmelidir. Geçerli bir sebep yoksa \"Erişim yok\" olarak ayarlamanız önerilir. "
+
+msgid "rma_DESC_TELNET_ACCESS"
+msgstr " Telnet Ayarları DİKKAT: Telnet erişimi etkin, fakat bu özellik artık kullanılmayacaktır. Telnet güvenli olmadığı için sadece başka bir alternatif bulunmadığında kullanılmalıdır. Seçimi [_1] olarak değiştirip bağlantı için ssh kullanılmalıdır. Telnet inaktif edildiğinde, artık bu sayfa görünmeyecektir. "
+
+msgid "rma_DESC_VALID_FROM_ENTRIES"
+msgstr "Uzaktan yönetim ağı tanımlamak için ayrıntıları aşağıya girin."
+
+msgid "rma_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "rma_ERR_INVALID_PARAMS"
+msgstr "Hem ağı hem de alt ağ maskesini girin, veya ikisini de boş bırakın."
+
+msgid "rma_FORM_TITLE"
+msgstr "Uzaktan erişim ayarlarını değiştir"
+
+msgid "rma_INVALID_SUBNET_MASK"
+msgstr "Geçersiz alt ağ maskesi"
+
+msgid "rma_LABEL_FTP_ACCESS"
+msgstr "FTP erişimi"
+
+msgid "rma_LABEL_FTP_LOGIN"
+msgstr "Şifreli FTP erişimi"
+
+msgid "rma_LABEL_IPSECRW_RESET"
+msgstr "Dijital sertifikaları sıfırla"
+
+msgid "rma_LABEL_IPSECRW_SESS"
+msgstr "IPSEC İstemci Sayısı"
+
+msgid "rma_LABEL_PPTP"
+msgstr "PPTP istemci sayısı"
+
+msgid "rma_LABEL_SSH"
+msgstr "ssh erişimi"
+
+msgid "rma_LABEL_SSH_ADMIN"
+msgstr "ssh üzerinden yönetim komutlarını kabul et"
+
+msgid "rma_LABEL_SSH_PASSWORD_ACCESS"
+msgstr "Standart şifreyle ssh üzerinden bağlanmaya izin ver"
+
+msgid "rma_LABEL_SSH_PORT"
+msgstr "ssh erişimi için TCP Portu"
+
+msgid "rma_LABEL_TELNET_ACCESS"
+msgstr "Telnet erişimi"
+
+msgid "rma_NO_ACCESS"
+msgstr "Erişim yok"
+
+msgid "rma_NO_ENTRIES_YET"
+msgstr "Henüz bir giriş yok"
+
+msgid "rma_NUMBER_OF_PPTP_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE"
+msgstr "(en)The number of pptp clients is greater than the number of reserved IP for DHCP. You should take a smaller number."
+
+msgid "rma_NUM_OF_HOSTS"
+msgstr "Etki alanı sayısı"
+
+msgid "rma_PASSWORD_LOGIN_PRIVATE"
+msgstr "Sadece yerel ağdan şifre girişlerini kabul et"
+
+msgid "rma_PASSWORD_LOGIN_PUBLIC"
+msgstr "Her yerden şifre girişlerini kabul et"
+
+msgid "rma_REMOTE_MANAGEMENT"
+msgstr "Uzaktan Yönetim"
+
+msgid "rma_SUBNET_MASK"
+msgstr "Alt ağ maskesi"
+
+msgid "rma_SUCCESS"
+msgstr "Yeni uzaktan erişim ayarları kaydedildi."
+
+msgid "rma_TITLE_FTP_ACCESS"
+msgstr "FTP Ayarları"
+
+msgid "rma_TITLE_IPSECRW"
+msgstr "IPSEC İstemcisi (Roadwarrior) Ayarları"
+
+msgid "rma_TITLE_PPTP"
+msgstr "PPTP Ayarları"
+
+msgid "rma_TITLE_SSH"
+msgstr "SSH Ayarları"
+
+msgid "rma_TITLE_TELNET_ACCESS"
+msgstr "Telnet Ayarları"
+
+msgid "rma_VALIDFROM_DESC"
+msgstr " [_1] Uzaktaki bir sistemden, yönetim arabirime erişim izni verebilirsiniz. Alt ağ maskesi olarak 255.255.255.255 girin. HTTPS kullanarak belirtilen ağ aralığındaki herhangi bir sistemden erişim sağlanabilir. "
+
+msgid "rma_VALIDFROM_TITLE"
+msgstr "[_1]"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rma_DESCRIPTION"
+#~ msgstr "Aşağıdaki ayarlar, genel erişim ayarları herhangi bir kullanıcının yerel ağdan sunucunuza bağlanmasına olanak sağlar. Genel erişim ayarları herhengi bir ağdan ve internetten erişim sağlar. Erişim yok ayarı ise erişimie izin vermez. Varsayılan ayarları değiştirmenin güvenlik üzerinde etkilerini anlamak için, kullanıcı klavuzunun uzaktan erişim bölümünü okuyunuz."
+#~ msgid "rma_DESC_SERIAL_CONSOLE_ACCESS"
+#~ msgstr " Konsol Sunucuya seri porttan bağlı bir terminalden konsol erişimi verebilirsiniz."
+#~ msgid "rma_ERR_NO_RECORD"
+#~ msgstr "httpd-admin kayıtları ayar veritabanında bulunamadı"
+#~ msgid "rma_LABEL_PPTP_ACCESS"
+#~ msgstr "PPTP varsayılan kullanıcı erişimi"
+#~ msgid "rma_LABEL_SERIAL_CONSOLE_ACCESS"
+#~ msgstr "Konsol"
+#~ msgid "rma_PORT1_ENABLED"
+#~ msgstr "1 seri porttan erişimi etkin"
+#~ msgid "rma_PORT2_ENABLED"
+#~ msgstr "2 seri porttan erişimi etkin"
+#~ msgid "rma_Remote access"
+#~ msgstr "Uzaktan erişim"
+#~ msgid "rma_VALUE_ZERO_OR_POSITIVE"
+#~ msgstr "Değer sıfır veya pozitif tam sayı olmalıdır"

@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+
+msgid "ACCESS"
+msgstr "Åtkomst"
+
+msgid "ACCOUNT"
+msgstr "Konto"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "Det finns inga användargrupper i systemet."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Kontot är låst"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "Kontonamnet som angivits är ogiltigt."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "Kontonamnet du angav innehåller ogiltiga tecken."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Ändra lösenord för konto"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "Det finns inga användarkonton på detta system."
+
+msgid "ACTION"
+msgstr "Verkställ"
+
+msgid "ADD"
+msgstr "Lägg till"
+
+msgid "APRIL"
+msgstr "April"
+
+msgid "AUGUST"
+msgstr "Augusti"
+
+msgid "Administration"
+msgstr "Administration"
+
+msgid "All rights reserved"
+msgstr "Alla rättigheter förbehållna"
+
+msgid "BACK"
+msgstr "Tillbaka"
+
+msgid "BACKUP"
+msgstr "Säkerhetskopia"
+
+msgid "CANCEL"
+msgstr "Avbryt"
+
+msgid "COMMENT"
+msgstr "Kommentar"
+
+msgid "CONTENT"
+msgstr "Innehåll"
+
+msgid "CREATE"
+msgstr "Skapa"
+
+msgid "CREATE_GROUP"
+msgstr "Skapa användargrupp"
+
+msgid "Collaboration"
+msgstr "Samarbete"
+
+msgid "Configuration"
+msgstr "Konfiguration"
+
+msgid "DECEMBER"
+msgstr "December"
+
+msgid "DESCRIPTION"
+msgstr "Beskrivning"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Kort beskrivning"
+
+msgid "DESC_SECTIONBAR"
+msgstr ""
+
+msgid "DESTINATION"
+msgstr "Destination"
+
+msgid "DISABLED"
+msgstr "Ej tillåten"
+
+msgid "DOMAIN"
+msgstr "Domän"
+
+msgid "DOMAINS"
+msgstr "Domäner"
+
+msgid "DOMAIN_NAME"
+msgstr "Domännamn"
+
+msgid "DOWNLOAD"
+msgstr "Ladda ner"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Tillåten"
+
+msgid "END_OF_REPORT"
+msgstr "Slut på rapport"
+
+msgid "ERROR_BELOW"
+msgstr "FEL: Det blev ett fel vid valideringen av denna sida. Skrolla ner på sidan och sök efter problemet."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Otillåtna tecken i beskrivningen."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Et fel uppstod vid försök att ändra ditt lösenord. Kontrollera att det gamla lösenordet som du angav är korrekt."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Ett fel inträffade under uppdateringen av systemets konfiguration."
+
+msgid "FEBRUARY"
+msgstr "Februari"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Fel: oväntade eller saknade tecken i beskrivningen"
+
+msgid "FM_IP_NUMBER1"
+msgstr "Detta fält måste innehålla ett giltigt IP-nummer och kan inte lämnas tomt."
+
+msgid "FM_IP_NUMBER2"
+msgstr "Ogiltig IP-adress format (förväntat X.X.X.X)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] är mer än 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "Du måste ange en MAC-adress."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "MAC-adressen som du angav var inte giltig."
+
+msgid "FM_NONBLANK"
+msgstr "Detta fält får inte vara tomt"
+
+msgid "FRIDAY"
+msgstr "Fredag"
+
+msgid "GROUP"
+msgstr "Grupp"
+
+msgid "GROUPS"
+msgstr "Grupper"
+
+msgid "GROUP_ADD"
+msgstr "Lägg till grupp"
+
+msgid "GROUP_MEMBERS"
+msgstr "Gruppmedlemmar"
+
+msgid "GROUP_NAME"
+msgstr "Gruppnamn"
+
+msgid "IP_ADDRESS"
+msgstr "IP-adress"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "IP-adress eller FQDN"
+
+msgid "JANUARY"
+msgstr "Januari"
+
+msgid "JULY"
+msgstr "Juli"
+
+msgid "JUNE"
+msgstr "Juni"
+
+msgid "LOCAL"
+msgstr "Lokal"
+
+msgid "LOCATION"
+msgstr "Placering"
+
+msgid "MARCH"
+msgstr "Mars"
+
+msgid "MAY"
+msgstr "Maj"
+
+msgid "MB"
+msgstr "Mb"
+
+msgid "MODIFY"
+msgstr "Ändra"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Ändra användargrupp"
+
+msgid "MONDAY"
+msgstr "Måndag"
+
+msgid "Miscellaneous"
+msgstr "Övrigt"
+
+msgid "NAME"
+msgstr "Namn"
+
+msgid "NETWORK"
+msgstr "Nätverk"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Acceptera endast åtkomst från lokala nätverk"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Tillåt publik åtkomst (hela Internet)"
+
+msgid "NEXT"
+msgstr "Nästa"
+
+msgid "NO"
+msgstr "Nej"
+
+msgid "NOVEMBER"
+msgstr "november"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "Pipe symboler (\\|) är inte tillåtna i detta fält"
+
+msgid "OCTOBER"
+msgstr "Oktober"
+
+msgid "OFF"
+msgstr "Av"
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "ON"
+msgstr "Aktiverad"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Statusrapport över operationerna"
+
+msgid "PASSWORD"
+msgstr "Lösenord"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Ändra lösenord"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Ditt lösenord har ändrats."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "Lösenordet som du angav innehåller ogiltiga tecken."
+
+msgid "PASSWORD_NEW"
+msgstr "Nytt lösenord:"
+
+msgid "PASSWORD_OLD"
+msgstr "Gammalt lösenord:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "Det gamla lösenordet som du angav innehåller ogiltiga tecken."
+
+msgid "PASSWORD_RESET"
+msgstr "Återställ lösenord"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "Lösenorden du angav stämmer inte överens."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Nytt lösenord (verifiering):"
+
+msgid "PERFORM"
+msgstr "Verkställ"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Omkonfigurera"
+
+msgid "REMOTE"
+msgstr "Fjärr"
+
+msgid "REMOVE"
+msgstr "Radera"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Radera användargrupp"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Återställ användarens lösenord"
+
+msgid "RESTORE"
+msgstr "Återställ"
+
+msgid "ROUTER"
+msgstr "Router"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Lördag"
+
+msgid "SAVE"
+msgstr "Spara"
+
+msgid "SELF"
+msgstr "Själv"
+
+msgid "SEPTEMBER"
+msgstr "september"
+
+msgid "SHUTDOWN"
+msgstr "Stäng av"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Genomfört"
+
+msgid "SUNDAY"
+msgstr "Söndag"
+
+msgid "Security"
+msgstr "Säkerhet"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Torsdag"
+
+msgid "TUESDAY"
+msgstr "tisdag"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Otillåten användare"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Aktuell lista över användare"
+
+msgid "USER_NAME"
+msgstr "Användarnamn"
+
+msgid "User password"
+msgstr "Användarlösenord"
+
+msgid "WEDNESDAY"
+msgstr "onsdag"
+
+msgid "YES"
+msgstr "Ja"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Ditt konto:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "Kontonamnet som angivits är ogiltigt."
+
+msgid "Your Settings"
+msgstr "Dina inställningar"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Avbryt"
+
+msgid "del"
+msgstr "radera"
+
+msgid "edit"
+msgstr "redigera"
+
+msgid "exit"
+msgstr "Avsluta"
+
+msgid "hello"
+msgstr "hej"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

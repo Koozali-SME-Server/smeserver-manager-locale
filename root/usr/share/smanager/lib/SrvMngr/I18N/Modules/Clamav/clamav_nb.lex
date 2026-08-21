@@ -7,4 +7,4 @@
 'clm_NEVER' => 'Aldri',
 'clm_DAILY' => 'Daglig',
 'clm_SUCCESS' => 'De nye innstillingene for clamav antivirus er lagret.',
-'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'Antivirus (ClamAV)',

@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'ได้บันทึกการแก้ไขค่าปริยายของ LDAP แล้ว',
 'dir_LEAVE' => 'ปล่อยไว้เช่นเดิม',
 'dir_UPDATE' => 'ปรับปรุงให้เป็นไปตามค่าปริยายที่แก้ไขใหม่',
-'dir_Directory' => 'ไดเรกทอรี่',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'ไดเรกทอรี่',

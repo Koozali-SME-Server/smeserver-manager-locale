@@ -2,8 +2,8 @@
 'dom_FORM_DESCRIPTION' => ' Когато създавате домейн сървърът ще може да получава елелктронна поща за този домейн и ще може да съдържа web сайт за него.
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Добави домейн</a> ',
-'dom_NO_VIRTUAL_DOMAINS' => 'В системата няма домейни.',
-'dom_CURRENT_LIST_OF_DOMAINS' => 'Списък на домейните',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_NO_VIRTUAL_DOMAINS' => 'В системата няма домейни.',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_CURRENT_LIST_OF_DOMAINS' => 'Списък на домейните',
 'dom_PRIMARY_SITE' => 'основен сайт',
 'dom_CONTENT' => '[_1] инфо-раздел',
 'dom_CREATE_TITLE' => 'Създаване на нов домейн',
@@ -25,9 +25,9 @@
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Грешка: вътрешен проблем по време на премахването на домейна [_1].',
 'dom_SUCCESSFULLY_DELETED' => '[_1] беше успешно изтрит. Вашия web сървър се рестартира в момента. Връзките на страницата ще бъдат неактивни докато рестартирането на web сървъра не завърши.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' Настройки на фирмения DNS ',
-'dom_BUTTON_CORPORATE_DNS' => ' Ако този сървър няма достъп до интернет или имате специални изисквания за към DNS преобразуването, въведете IP адреса на DNS сървъра тук. Не трябва да въвеждате адресите на DNS сървърите на Вашия доставчик, защото сървърът може да преобразува имената от интернет без допълнителни настройки.
-
-  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Промяна на фирмените DNS настройки</a> ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_BUTTON_CORPORATE_DNS' => ' Ако този сървър няма достъп до интернет или имате специални изисквания за към DNS преобразуването, въведете IP адреса на DNS сървъра тук. Не трябва да въвеждате адресите на DNS сървърите на Вашия доставчик, защото сървърът може да преобразува имената от интернет без допълнителни настройки.
+#
+#  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Промяна на фирмените DNS настройки</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Ако този сървър няма достъп до интернет или имате специални изисквания за към DNS преобразуването, въведете IP адреса на DNS сървъра тук. Тези полета трябва да останат празни, освен ако нямате причина да настройвате други DNS сървъри. Не трябва да въвеждате адресите на DNS сървърите на Вашия доставчик, защото сървърът може да преобразува имената от интернет без допълнителни настройки.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Основен фирмен сървър за DNS',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Допълнителен фирмен сървър за DNS',
@@ -36,8 +36,8 @@
 'dom_localhost' => 'Преобразуване на имената локално',
 'dom_internet' => 'Интернет сървъри за DNS',
 'dom_corporate' => 'Фирмени сървъри за DNS',
-'dom_REMOVE_DESC' => 'Смятате да премахнете домейна',
-'dom_REMOVE_DESC2' => 'Наистина ли искате да изтриете този домейн?',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC' => 'Смятате да премахнете домейна',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC2' => 'Наистина ли искате да изтриете този домейн?',
 'dom_ADD_DOMAIN' => 'Добавяне на домейн',
 'dom_CURRENT_DOMAINS' => 'Текущ списък с домейни',
 'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',

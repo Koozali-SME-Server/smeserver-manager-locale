@@ -11,4 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'Ime DelovneSkupine se mora zaceti z crko (malo ali veliko) in nadaljuje z kombinacijo crk in stevilk.',
 'wkg_INVALID_SERVERNAME' => 'Ime Streznika se mora zaceti z crko (veliko ali malo) in nadaljuje z kombinacijo crk in stevilk.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'Ime Streznika in DelovneSkupine sta enaka v primeru malih crk. Imeni morata biti razlicni, da se lahko vkljuci deljenje datotek.',
-'wkg_Workgroup' => 'DelovnaSkupina',
+# ORPHANED (no longer in workgroup_en.lex; kept for reference, commented out by lex-to-po.pl): 'wkg_Workgroup' => 'DelovnaSkupina',

@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Mailanalog module\n"
+"POT-Creation-Date: 2026-08-21 12:03+0100\n"
+"PO-Revision-Date: 2026-08-21 12:03+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-cn\n"
+
+msgid "Mail log file analysis"
+msgstr "(en) Mail log file analysis"
+
+msgid "mai_Authentication Analysis"
+msgstr "(en) Authentication Analysis"
+
+msgid "mai_Bounce Rate Analysis"
+msgstr "(en) Bounce Rate Analysis"
+
+msgid "mai_Comparison Reports"
+msgstr "(en) Comparison Reports"
+
+msgid "mai_Customized Reports"
+msgstr "(en) Customized Reports"
+
+msgid "mai_Daily_Summary_Report_all"
+msgstr "(en) Summary report for all time up to now"
+
+msgid "mai_Daily_Summary_Report_today"
+msgstr "(en) Summary report for today up to now"
+
+msgid "mai_Daily_Summary_Report_yesterday"
+msgstr "(en) Summary report for yesterday"
+
+msgid "mai_Delivery Status Report"
+msgstr "(en) Delivery Status Report"
+
+msgid "mai_Error Reporting"
+msgstr "(en) Error Reporting"
+
+msgid "mai_FORM_TITLE"
+msgstr "邮件日志文件分析"
+
+msgid "mai_GENERATE_REPORT"
+msgstr "生成报表"
+
+msgid "mai_Geographic Analysis of Email"
+msgstr "(en) Geographic Analysis of Email"
+
+msgid "mai_INITIAL_DESC"
+msgstr " 分析邮件系统日志文件不但有助于了解您系统的运行状况，也有助于诊断投递问题。有一些不同的报表可用。 请注意，生成这些报表可能要花费一些时间。 "
+
+msgid "mai_INVALID_REPORT_TYPE"
+msgstr "非法报表类型："
+
+msgid "mai_REPORT_GENERATED"
+msgstr "已生成报表："
+
+msgid "mai_REPORT_TYPE"
+msgstr "选择一个报表类型"
+
+msgid "mai_Spam and Virus Filtering Report"
+msgstr "(en) Spam and Virus Filtering Report"
+
+msgid "mai_Top Senders and Recipients"
+msgstr "(en) Top Senders and Recipients"
+
+msgid "mai_Traffic Analysis"
+msgstr "(en) Traffic Analysis"
+
+msgid "mai_User Activity Report"
+msgstr "(en) User Activity Report"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_BASIC_STATS"
+#~ msgstr "基本统计"
+#~ msgid "mai_END_OF_REPORT"
+#~ msgstr "报表结尾"
+#~ msgid "mai_LIST_OUTGOING"
+#~ msgstr "列出出站信息和接收者"
+#~ msgid "mai_Mail log file analysis"
+#~ msgstr "邮件日志文件分析"
+#~ msgid "mai_REASONS_DEFERRAL"
+#~ msgstr "延期原因"
+#~ msgid "mai_REASONS_FAILURE"
+#~ msgstr "失败原因"
+#~ msgid "mai_REASONS_SUCCESS"
+#~ msgstr "成功原因"
+#~ msgid "mai_RECIP_HOSTS"
+#~ msgstr "接受者主机"
+#~ msgid "mai_RECIP_ORDERED"
+#~ msgstr "在邮寄列表的最佳顺序中的接受者"
+#~ msgid "mai_RECIP_STATS"
+#~ msgstr "接受者统计"
+#~ msgid "mai_SENDER_STATS"
+#~ msgstr "发送者统计"
+#~ msgid "mai_SENDER_UIDS"
+#~ msgstr "发送者uid"
+#~ msgid "mai_SENDMAIL_STYLE"
+#~ msgstr "Sendmail类型日志"
+#~ msgid "mai_SUCCESSFUL_DELIVERY_DELAY"
+#~ msgstr "成功递送延迟分发"
+#~ msgid "mai_SUMMARIZE_QUEUE"
+#~ msgstr "邮件队列状态概况"

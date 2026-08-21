@@ -1,4 +1,4 @@
-'log_View log files' => 'ดู log files',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => 'ดู log files',
 'log_FIRSTPAGE_DESC' => ' แผงควบคุมนี้สำหรับให้คุณเลือกดูหรือดาวน์โหลด log files ที่ถูกสร้างโดยเซอร์วิสที่ทำงานบนเซอร์ฟเวอร์ของคุณ ',
 'log_LOG_FILE_SELECT_DESC' => 'เลือก log file ที่ต้องกาีรดู',
 'log_FILTER_PATTERN_DESC' => ' คุณอาจตั้งแพทเทิร์นการแสดงผลเพิ่มเติมเพื่อให้กรองเฉพาะบรรทัดจาก log file ที่ตรงกับแพทเทิร์นนั้น การปล่อยฟิลด์นี้ให้ว่างไว้จะเป็นการให้แสดงทุกบรรทัดที่มี หมายเหตุ:แพทเทิร์นนี้จะไม่มีผล หากเป็นการเลือกดาวน์โหลด
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'ดำเนินการ ',
-'log_DOWNLOAD_PAGE_DESC' => ' ขณะนี้ได้เสร็จสิ้นการเตรียมการ logfile ที่คุณต้องการดาวน์โหลดแล้ว การดำเนินการจะเริ่มทันทีที่คุณคลิกที่ปุ่ม &quot;ถัดไป&quot; ด้านล่าง และคุณต้องสั่งบราวเซอร์ของคุณยอมรับการถามดาวน์โหลดจะที่ปรากฎขึ้นในหน้าต่างป๊อปอัพ
-
-  ',
-'log_DOWNLOAD_FILE' => 'เตรียมการดาวน์โหลด logfile [_1]',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' ขณะนี้ได้เสร็จสิ้นการเตรียมการ logfile ที่คุณต้องการดาวน์โหลดแล้ว การดำเนินการจะเริ่มทันทีที่คุณคลิกที่ปุ่ม &quot;ถัดไป&quot; ด้านล่าง และคุณต้องสั่งบราวเซอร์ของคุณยอมรับการถามดาวน์โหลดจะที่ปรากฎขึ้นในหน้าต่างป๊อปอัพ
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'เตรียมการดาวน์โหลด logfile [_1]',
 'log_FORM_TITLE' => 'ดูไฟล์บันทึก',

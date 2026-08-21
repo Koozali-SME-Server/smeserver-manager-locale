@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => '备份或还原服务器数据',
-'bac_BACKUP_DESC' => ' <p>服务器提供两种备份还原方式: 使用本地工作站或磁带。</p>
-
-  <p>第一种方法是通过浏览器，创建一份服务器和用户配置的副本，然后下载到本地工作站。当前配置和数据文件一共大约 <b>[_3]</b>。备份文件会实际略小于此数字，这取决于压缩比例。 \\"检查备份文件\\" 选项用于检查备份文件的完整性。 </p>
-
-  <p>磁带备份是在每天晚上使用一个叫<i>[_1]</i>的软件包备份整个硬盘。这要求使用未被写保护的磁带。在每天晚上的指定时间，备份就会自动运行。(白天会自动发送邮件提醒给管理员). 当前硬盘的数据大小共计<b>[_2]</b> 。</p>
-
-  <p>两种还原方式都可以把您的配置和用户数据还原。 <b>理论上，还原操作只应该发生在新安装系统的裸机上。</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>服务器提供两种备份还原方式: 使用本地工作站或磁带。</p>
+#
+#  <p>第一种方法是通过浏览器，创建一份服务器和用户配置的副本，然后下载到本地工作站。当前配置和数据文件一共大约 <b>[_3]</b>。备份文件会实际略小于此数字，这取决于压缩比例。 \\"检查备份文件\\" 选项用于检查备份文件的完整性。 </p>
+#
+#  <p>磁带备份是在每天晚上使用一个叫<i>[_1]</i>的软件包备份整个硬盘。这要求使用未被写保护的磁带。在每天晚上的指定时间，备份就会自动运行。(白天会自动发送邮件提醒给管理员). 当前硬盘的数据大小共计<b>[_2]</b> 。</p>
+#
+#  <p>两种还原方式都可以把您的配置和用户数据还原。 <b>理论上，还原操作只应该发生在新安装系统的裸机上。</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => ' <p>提供三种办法来备份/还原服务器：使用磁带，网络共享，本地可插拔硬盘或者直接备份到您的桌面。</p>
 
   <p>磁带备份。这种方法使用软件包<i>[_1]</i> 每天夜里备份整个硬盘到磁带去。需要一个驱动支持且未被写保护的磁带。备份会在每天选定的时间自动运行 (白天会有一个自动邮件提醒发往管理员)。 当前硬盘数据量为 <b>[_2]</b> 。</p>
@@ -20,10 +20,10 @@
 
   ',
 'bac_BACKUP_CONFIG_STATUS' => '备份配置和状态',
-'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently 启用. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently 启用. ',
 'bac_BACKUPS_RUN_AT' => '定期磁带备份将运行于：',
 'bac_REMINDER_MESSAGE_AT' => '提醒信息将被发送于：',
-'bac_TAPE_BACKUPS_DISABLED' => ' 磁带备份被禁用 ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' 磁带备份被禁用 ',
 'bac_DESKTOP_BACKUP' => '备份到桌面',
 'bac_DESKTOP_RESTORE' => '从桌面还原',
 'bac_DESKTOP_VERIFY' => '校验桌面备份文件',
@@ -110,10 +110,10 @@
 'bac_SERVER_WILL_REBOOT' => '服务器即将重启。',
 'bac_NO_UID_FOR_NAME' => '不能获取用户id，名称为：',
 'bac_PAGE_REFRESH_IN' => ' 此页面将在 [_1] 秒内重新加载， 或者点击 此处. ',
-'bac_Backup or restore' => '备份或者还原',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => '备份或者还原',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  服务器有太多数据需要备份到桌面。  ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作组备份被禁用 ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' 当前工作组备份被 启用. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作组备份被禁用 ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' 当前工作组备份被 启用. ',
 'bac_WKBACKUPS_RUN_AT' => '定期工作组备份将运行于：',
 'bac_WORKSTN_CONFIGURE' => '工作组备份配置',
 'bac_WORKSTN_VERIFY' => '检查工作组备份',

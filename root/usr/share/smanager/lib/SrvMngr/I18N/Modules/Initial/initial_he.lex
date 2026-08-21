@@ -16,8 +16,8 @@
   <p> To perform a system administration function, click one of the links in the menu on the left of your screen. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Welcome to the SME Server. This software comes with ABSOLUTELY NO WARRANTY. Please <a href="/smanager/support" target="main">click here</a> to view detailed support, warranty and licensing information. 
-
-  <p> <a href="/server-manager/noframes">Click here</a> for a list of system administration functions. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Welcome to the SME Server. This software comes with ABSOLUTELY NO WARRANTY. Please <a href="/smanager/support" target="main">click here</a> to view detailed support, warranty and licensing information. 
+#
+#  <p> <a href="/server-manager/noframes">Click here</a> for a list of system administration functions. </p>
+#
+#  ',

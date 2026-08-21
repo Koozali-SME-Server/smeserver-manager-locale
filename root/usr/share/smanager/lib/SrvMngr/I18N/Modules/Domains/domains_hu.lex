@@ -2,8 +2,8 @@
 'dom_FORM_DESCRIPTION' => ' Amikor létrehoz egy új domain-t, a szerver képes lesz az arra a domain-re küldött levelek fogadására, valamint weboldalt közzéteni az adott domain alatt az Interneten.
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Domain hozzáadása</a> ',
-'dom_NO_VIRTUAL_DOMAINS' => 'Nincs domain beállítva a rendszerben.',
-'dom_CURRENT_LIST_OF_DOMAINS' => 'Domain-ek listája',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_NO_VIRTUAL_DOMAINS' => 'Nincs domain beállítva a rendszerben.',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_CURRENT_LIST_OF_DOMAINS' => 'Domain-ek listája',
 'dom_PRIMARY_SITE' => 'elsődleges webhely',
 'dom_CONTENT' => '[_1] Adattár',
 'dom_CREATE_TITLE' => 'Új domain létrehozása',
@@ -25,9 +25,9 @@
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Hiba: probléma a [_1] domain eltávolításakor.',
 'dom_SUCCESSFULLY_DELETED' => 'Sikeresen törölte a [_1] nevű domain-t. A webszerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' Vállalati DNS beállítások ',
-'dom_BUTTON_CORPORATE_DNS' => ' Ha ennek a szervernek nincs kapcsolata az Internethez, vagy különleges követelményei vannak a DNS névfeloldással kapcsolatban, írja be ide a külső DNS szerver IP címét. Nem kell ide beírnia az Internet szolgáltatója DNS címét, mivel ez a szerver enélkül is fel tudja oldani az internetes DNS neveket.
-
-  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Vállalati DNS beállítások módosítása</a> ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_BUTTON_CORPORATE_DNS' => ' Ha ennek a szervernek nincs kapcsolata az Internethez, vagy különleges követelményei vannak a DNS névfeloldással kapcsolatban, írja be ide a külső DNS szerver IP címét. Nem kell ide beírnia az Internet szolgáltatója DNS címét, mivel ez a szerver enélkül is fel tudja oldani az internetes DNS neveket.
+#
+#  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Vállalati DNS beállítások módosítása</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Ha ennek a szervernek nincs kapcsolata az Internethez, vagy különleges követelményei vannak a DNS névfeloldással kapcsolatban, írja be ide a külső DNS szerver IP címeit. Hagyja üresen ezeket a mezőket, ha nincs szüksége külső DNS szerverre. Nem kell ide beírnia az Internet szolgáltatója DNS címét sem, mivel ez a szerver enélkül is fel tudja oldani az internetes DNS neveket.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Elsődleges vállalati DNS szerver',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Másodlagos vállalati DNS szerver',
@@ -36,8 +36,8 @@
 'dom_localhost' => 'Helyi névfeloldás',
 'dom_internet' => 'Internetes névfeloldás',
 'dom_corporate' => 'Vállalati DNS szerver',
-'dom_REMOVE_DESC' => 'A következő domain-t készül eltávolítani:',
-'dom_REMOVE_DESC2' => 'Biztos benne, hogy eltávolítja ezt a domain-t?',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC' => 'A következő domain-t készül eltávolítani:',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC2' => 'Biztos benne, hogy eltávolítja ezt a domain-t?',
 'dom_ADD_DOMAIN' => 'Domain hozzáadása',
 'dom_CURRENT_DOMAINS' => 'A domainek aktuális listája',
 'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',

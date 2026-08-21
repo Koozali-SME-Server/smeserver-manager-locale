@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Dnf module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
+
+msgid "Groups"
+msgstr "(en) Groups"
+
+msgid "Packages"
+msgstr "(en) Packages"
+
+msgid "Start"
+msgstr "(en) Start"
+
+msgid "yum_1DAILY"
+msgstr "每天"
+
+msgid "yum_2WEEKLY"
+msgstr "每星期"
+
+msgid "yum_3MONTHLY"
+msgstr "每月"
+
+msgid "yum_AutoInstallUpdates"
+msgstr "(en) Autoinstallupdates"
+
+msgid "yum_BUTTON_CONFIGURATION"
+msgstr "變更軟體安裝程式設定"
+
+msgid "yum_BUTTON_INSTALL_AVAILABLE"
+msgstr "安裝其他軟體"
+
+msgid "yum_BUTTON_INSTALL_UPDATES"
+msgstr "列出可用更新"
+
+msgid "yum_BUTTON_REMOVE"
+msgstr "移除已安裝的軟體"
+
+msgid "yum_DESC_AVAILABLE_GROUPS"
+msgstr "您可從以下列表中選擇要安裝的軟體群組。"
+
+msgid "yum_DESC_AVAILABLE_PACKAGES"
+msgstr "您可從以下列表中選擇要安裝的個別套件。"
+
+msgid "yum_DESC_AVAILABLE_UPDATES"
+msgstr "您的系統可更新如下。您通常需要安裝所有可用更新。如果有些更新您不希望安裝，請在以下列表中取消選擇即可。"
+
+msgid "yum_DESC_ENABLED_REPOSITORIES"
+msgstr "軟體安裝管理員可以從任何可用套件庫安裝軟體。要啟用一個套件庫，只要在列表中選擇即可。要禁用一個套件庫，也只要在列表中選擇即可。通常只有穩定與已測試過的軟體可以獲得安裝。"
+
+msgid "yum_DESC_INSTALLED_GROUPS"
+msgstr "您可從以下列表中選擇要移除的軟體群組。"
+
+msgid "yum_DESC_INSTALLED_PACKAGES"
+msgstr "您可從以下列表中選擇要移除的單一套件。"
+
+msgid "yum_DESC_UPDATES_AVAILABLE"
+msgstr " 您的系統可更新，這些更新需盡快處理。"
+
+msgid "yum_DESC_UPTODATE"
+msgstr " 所有更新皆已安裝。"
+
+msgid "yum_DESC_YUM_AUTOINSTALLUPDATES"
+msgstr "(en)If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page."
+
+msgid "yum_DESC_YUM_DELTARPMPROCESS"
+msgstr "(en)A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles"
+
+msgid "yum_DESC_YUM_PACKAGEFUNCTIONS"
+msgstr "軟體安裝管理員可以管理相關套件群組或個別套件。根據預設值，只會顯示套件群組。倘若您希望管理單一套件，啟動本選項。這應由熟練的管理員來執行。"
+
+msgid "yum_DeltaRpmProcess"
+msgstr "(en) Deltarpmprocess"
+
+msgid "yum_DownloadOnly"
+msgstr "(en) Downloadonly"
+
+msgid "yum_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "yum_FORM_TITLE"
+msgstr "軟體安裝程式"
+
+msgid "yum_HEADER_AVAILABLE_SOFTWARE"
+msgstr "下列軟體可被安裝到您的系統。倘若您知道如此處理的後續結果，您可以只安裝附加軟體到此系統。"
+
+msgid "yum_HEADER_INSTALLED_SOFTWARE"
+msgstr "下列軟體已被安裝到此系統。倘若您知道如此處理的後續結果，您可以從此系統移除軟體。"
+
+msgid "yum_HEADER_POSTUPGRADE_REQUIRED"
+msgstr " 當新增、移除或更新軟體之後，系統需要重新設定。請按下本頁底的重置鍵以執行重置程序。 <b>自動重啟為此重置程序的一部份。</b> </p> "
+
+msgid "yum_INSTALL_SOFTWARE"
+msgstr "安裝"
+
+msgid "yum_INSTALL_UPDATES"
+msgstr "安裝選定的更新"
+
+msgid "yum_LABEL_AVAILABLE_GROUPS"
+msgstr "可用的軟體群組"
+
+msgid "yum_LABEL_AVAILABLE_PACKAGES"
+msgstr "可用套件"
+
+msgid "yum_LABEL_AVAILABLE_UPDATES"
+msgstr "可用更新"
+
+msgid "yum_LABEL_ENABLED_REPOSITORIES"
+msgstr "啟用套件庫"
+
+msgid "yum_LABEL_INSTALLED_GROUPS"
+msgstr "已安裝的軟體群組"
+
+msgid "yum_LABEL_INSTALLED_PACKAGES"
+msgstr "已安裝的套件"
+
+msgid "yum_LABEL_YUM_AUTOINSTALLUPDATES"
+msgstr "自動安裝更新"
+
+msgid "yum_LABEL_YUM_DELTARPMPROCESS"
+msgstr "Delta Rpm 更新"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY"
+msgstr "預載更新"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION"
+msgstr "(en)The rpm updates can be downloaded during the night, this will ease and give faster the dnf update process (only enabled repositories will be used)."
+
+msgid "yum_LABEL_YUM_PACKAGEFUNCTIONS"
+msgstr "管理單一套件"
+
+msgid "yum_LABEL_YUM_STATUS"
+msgstr "檢查更新"
+
+msgid "yum_MULTI_SELECT"
+msgstr "(en) <strong>Ctrl/Cmd-click</strong> toggles individual items and <strong>Shift-click</strong> selects ranges.\n<br /><strong>Case-insensitive</strong> search unless you enter a <strong>regex</strong> in <i>/pattern/flags</i> form (e.g. /maria.*client/i).."
+
+msgid "yum_Please_Wait_-_dnf_Running"
+msgstr "請稍候 - dnf 執行中"
+
+msgid "yum_SUCCESS"
+msgstr "新設定已保存。"
+
+msgid "yum_UPDATE_SUCCESS"
+msgstr "(en)The requested changes have been successfully implemented."
+
+msgid "yum_check4updates"
+msgstr "(en) Check4updates"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "yum_SYSTEM_BEING_RECONFIGURED"
+#~ msgstr "您的系統將自動重啟以便完成重置程序。"
+#~ msgid "yum_Software Installer"
+#~ msgstr "軟體安裝程式"

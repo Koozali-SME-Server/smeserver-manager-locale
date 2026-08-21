@@ -7,4 +7,4 @@
 'clm_NEVER' => 'Soha',
 'clm_DAILY' => 'Naponta',
 'clm_SUCCESS' => 'Az vírusírtó új beállításai lementődtek.',
-'clm_Antivirus (ClamAV)' => 'Antivírus (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'Antivírus (ClamAV)',

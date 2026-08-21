@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Initial module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "initial_FORM_TITLE"
+msgstr "ยินดีต้อนรับสู่ระบบบริหารเซิร์ฟเวอร์"
+
+msgid "initial_FRAMES_BODY"
+msgstr " ยินดีต้อนรับสู่ SME Server, ลีนุกซ์ดิสโทรชั่นชั้นนำในด้านซอร์ฟแวร์สำหรับเซอร์ฟเวอร์ขององค์กรขนาดกลางและขนาดย่อม SME Server นี้ถูกนำเสนอแก่ทุกท่านโดย <a href=\"https://www.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a> ซึ่งเป็นองค์กรที่ไม่ได้ประกอบธุระกิจเพื่อแสวงหาผลกำไร แต่ถูกจัดตั้งขึ้นเพื่อทำการเผยแพร่และเพื่อการบริการอย่างเป็นทางการสำหรับซอร์ฟแวร์ SME Server นี้\n\n  <p>SME Server ถือกำเนิดขึ้นภายใต้ \"โลกแห่งอิสระ\" ของลิขสิทธิ์แบบ GNU General Public License และจะเป็นแบบเดียวเท่านั้นที่มันจะเป็น และโดยการอุทิศความอุตสาหะพยายามของบรรดาผู้คนในสังคมของ SME Server. อย่างไรก็ตาม คุณสมบัติและคุณภาพของ SME Server ก็สัมพันธ์กับความสามารถในการจ่ายค่าใช้จ่ายต่างๆเช่น ค่าเช่าโฮส ค่าอุปกรณ์เซอร์ฟเวอร์ และอื่นๆ </p>\n\n  <p>โดยเหตุนี้ เราจึงเปิดรับและขอการสนับสนุนโดยการบริจาค ซึ่งไม่ต้องจำเป็นต้องเป็นเงินจำนวนที่มากมาย เพื่อใช้จ่ายในเรื่องเหล่านี้ และเพื่อเป็นทุนในการพัฒนาต่อๆ ไปในอนาคต </p>\n\n  <p><b>โปรดเข้าไปที่ <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\">https://wiki.koozali.org/Donate</a> เพื่อให้การบริจาคสนับสนุนแก่เรา</b></p>\n\n  <p>ซอร์ฟแวร์นี้ไม่มีการรับประกันการใช้งานใดๆ โปรด <a href=\"/smanager/support\" target=\"main\">คลิกที่นี่</a> เพื่อดูข้อมูลในการสนับสนุนการใช้งาน รายละเอียดการรับประกัน และเงื่อนไขลิขสิทธิ์</p>\n\n  <p>เลือกงานระบบที่ต้องการจัดการ ทำโดยคลิ๊กลิงค์ที่เมนูด้านซ้ายของคุณ</p>\n\n  "
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "initial_NOFRAMES_BODY"
+#~ msgstr "  ยินดีต้อนรับสู่ SME Server ซอฟต์แวร์นี้เป็นซอร์ฟแวร์แบบไม่มีการรับประกัน โปรด <a href=\"/smanager/support\" target=\"main\">คลิกที่นี่</a> เพื่อดูรายละเอียดการสนับสนุนการใช้งาน, ข้อมูลเกี่ยวกับการรับประกันและลิขสิทธิ์\n\n  <p> <a href=\"/server-manager/noframes\">คลิกที่นี่</a> เพื่อดูรายการงานที่ผู้บริหารระบสามารถจัดการได้ </p>\n\n  "

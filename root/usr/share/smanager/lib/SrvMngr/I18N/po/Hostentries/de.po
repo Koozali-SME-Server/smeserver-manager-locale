@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Hostentries module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "Hostnames and addresses"
+msgstr "Hostnamen und Adressen"
+
+msgid "hos_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this hostname?"
+
+msgid "hos_ADDR_IN_DHCP_RANGE"
+msgstr "Die Adresse ist innerhalb des durch DHCP festgelegten dynamischen Bereichs"
+
+msgid "hos_ADD_HOSTNAME"
+msgstr " Hostnamen hinzufügen "
+
+msgid "hos_CREATE_OR_MODIFY_SUCCEEDED"
+msgstr "(en) Create or modify succeeded"
+
+msgid "hos_CREATE_TITLE"
+msgstr "Hostname erstellen oder ändern"
+
+msgid "hos_CREATE_TYPE"
+msgstr "(en) Create type"
+
+msgid "hos_CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN"
+msgstr "Aktuelle Liste der Hostnamen für [_1]"
+
+msgid "hos_ERROR_CREATING_HOST"
+msgstr "(en) Error creating host"
+
+msgid "hos_ERROR_MODIFYING_HOST"
+msgstr "(en) Error modifying host"
+
+msgid "hos_ERROR_WHILE_CREATING_HOST"
+msgstr "Es ist ein Fehler beim Erstellen des Hostnamens aufgetreten."
+
+msgid "hos_ERROR_WHILE_DELETING_HOST"
+msgstr "Es ist ein Fehler beim Löschen des Hostnamens aufgetreten."
+
+msgid "hos_ERROR_WHILE_MODIFYING_HOST"
+msgstr "Es ist ein Fehler beim Ändern des Hostnamens aufgetreten."
+
+msgid "hos_ERROR_WHILE_REMOVING_HOST"
+msgstr "(en) Error while removing host"
+
+msgid "hos_ERR_IP_IS_LOCAL_OR_GATEWAY"
+msgstr "Fehler: Die IP-Adresse darf nicht mit der des Servers oder des Gateways identisch sein."
+
+msgid "hos_ERR_IP_NOT_LOCAL"
+msgstr "Fehler: Diese IP-Adresse liegt außerhalb unserer lokalen Netzwerke."
+
+msgid "hos_ETHERNET_ADDRESS"
+msgstr "MAC-Adresse"
+
+msgid "hos_ETHERNET_ADDRESS_DESCRIPTION"
+msgstr "Die Angabe der MAC-Adresse ist optional, bei Hinterlegung der MAC-Adresse vergibt der DHCP-Server eine fest vergebene lokale IP-Adresse and das Gerät mit dieser MAC-Adresse. Wenn angegeben muß die MAC-Adresse in Form von Hex Zeichen \"AA:BB:CC:DD:EE:FF\" vorliegen, wobei nur Nummern von 0-9 und Buchstaben von A-F verwendet werden dürfen."
+
+msgid "hos_FORM_TITLE"
+msgstr "Hostnamen und Adressen"
+
+msgid "hos_HOSTNAME"
+msgstr "Hostname"
+
+msgid "hos_HOSTNAME_COMMENT_ERROR"
+msgstr "FEHLER: Ungültige Zeichen im Hostnamen: \"[_1].[_2]\". Der Hostname darf nur Buchstaben, Zahlen und Bindestriche enthalten und muß mit einem Buchstaben oder einer Zahl beginnen."
+
+msgid "hos_HOSTNAME_DESCRIPTION"
+msgstr "Der Hostname darf nur Buchstaben, Zahlen und Bindestriche enthalten und muß mit einem Buchstaben oder einer Zahl beginnen."
+
+msgid "hos_HOSTNAME_EXISTS_ERROR"
+msgstr "FEHLER: Das Hostkonto [_1] ist ein bestehender [_2] Hostname."
+
+msgid "hos_HOSTNAME_IN_USE_ERROR"
+msgstr "(en) Hostname in use error"
+
+msgid "hos_HOSTNAME_VALIDATOR_ERROR"
+msgstr "FEHLER: Ungültige Zeichen im Hostnamen: \"[_1].[_2]\". Der Hostname sollte nur Buchstaben, Zahlen und Bindestriche enthalten und muß mit einem Buchstaben oder einer Zahl beginnen."
+
+msgid "hos_HOSTTYPE"
+msgstr "Standort"
+
+msgid "hos_LOCAL_IP"
+msgstr "Lokale IP"
+
+msgid "hos_LOCAL_IP_DESCRIPTION"
+msgstr "Die lokale IP-Adresse ist die IP-Adresse eines anderen Systems in Ihren lokalem Netz. Bitte geben Sie eine gültige IP-Adresse in der Form von \"aaa.bbb.ccc.ddd\" ein."
+
+msgid "hos_LOCAL_PAGE_DESCRIPTION"
+msgstr "Bitte geben Sie die folgenden zusätzlichen Informationen für den lokalen Host an:"
+
+msgid "hos_MODIFY_SUCCEEDED"
+msgstr "(en) Modify succeeded"
+
+msgid "hos_MODIFY_TITLE"
+msgstr "Hostname ändern"
+
+msgid "hos_MODIFY_TYPE"
+msgstr "(en) Modify type"
+
+msgid "hos_NONEXISTENT_HOSTNAME_ERROR"
+msgstr "(en) Nonexistent hostname error"
+
+msgid "hos_NONEXISTENT_HOST_ERROR"
+msgstr "(en) Nonexistent host error"
+
+msgid "hos_REMOTE_PAGE_DESCRIPTION"
+msgstr "Bitte geben Sie die folgenden zusätzlichen Informationen für den Remote Host an:"
+
+msgid "hos_REMOVE_PAGE_DESCRIPTION"
+msgstr " Sie sind dabei, den Hostnamen \"[_1].[_2]\" zu entfernen. Sind Sie sicher, dass Sie den Hostnamen entfernen wollen? "
+
+msgid "hos_REMOVE_SUCCEEDED"
+msgstr "(en) Remove succeeded"
+
+msgid "hos_REMOVE_TITLE"
+msgstr "Hostname entfernen"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "hos_CONFIRM_DESCRIPTION"
+#~ msgstr "Bitte bestätigen Sie die folgenden Informationen."
+#~ msgid "hos_CREATE_LOCAL_HOST_TITLE"
+#~ msgstr "Neuen Hostnamen in Bezug zum lokalem Host erstellen."
+#~ msgid "hos_CREATE_REMOTE_HOST_TITLE"
+#~ msgstr "Einen neuen Hostnamen in Bezug zu einem \"Remote Host\" erstellen."
+#~ msgid "hos_CURRENT_HOSTNAMES_FOR_DOMAIN"
+#~ msgstr "Aktuelle Liste der Hostnamen für [_1]."
+#~ msgid "hos_DIDNT_ENTER_LOCAL_IP"
+#~ msgstr "FEHLER: Sie haben keine lokale IP-Adresse angegeben. Die IP-Adresse muß in Form von \"aaa.bbb.ccc.ddd\" eingegeben werden und darf nur Nummen und Punkte enthalten. Der Hostname wurde nicht erstellt."
+#~ msgid "hos_DNS_FORWARDER_ENABLED"
+#~ msgstr "Eine DNS-Weiterleitung wurde eingerichtet. Dies bedeutet, daß alle DNS-Anfragen von der DNS-Weiterleitung bearbeitet werden. Hostnamen und Adressen können auf diesem Server nicht mehr geändert werden, solange die DNS-Weiterleitung eingerichtet ist."
+#~ msgid "hos_DOMAIN_VALIDATION_ERROR"
+#~ msgstr "FEHLER: Ungültige oder fehlende Zeichen im Domänen-Namen [_1]. Der Domänen-Name muß einen oder mehr Buchstaben sowie Nummern, Punkte und Bindestriche enthalten. Neue Domäne wurde nicht erstellt."
+#~ msgid "hos_HOSTNAME_LENGTH_ERROR"
+#~ msgstr "FEHLER: Der Hostname [_1] ist zu lang. Die maximale Länge beträgt 32 Zeichen."
+#~ msgid "hos_HOSTNAME_VALIDATION_ERROR"
+#~ msgstr "FEHLER: Ungültige Zeichen im Hostnamen: \"[_1]\". Der Hostname darf nur Buchstaben, Zahlen und Bindestriche enthalten und muß mit einem Buchstaben oder einer Zahl beginnen."
+#~ msgid "hos_IP_VALIDATION_ERROR"
+#~ msgstr "FEHLER: Die IP-Adresse [_1] ist ungültig. Die IP-Adresse muß in Form von \"aaa.bbb.ccc.ddd\" eingegeben werden und darf nur Nummen und Punkte enthalten. Der Hostname wurde nicht erstellt."
+#~ msgid "hos_MAC_ADDRESS_VALIDATION_ERROR"
+#~ msgstr "FEHLER: Die MAC-Adresse ist ungültig. Die MAC-Adresse muß in Form von \"AA:BB:CC:DD:EE:FF\" eingegeben werden und darf nur Nummern 0-9 und die Buchstaben A-F enthalten. Der Hostname wurde nicht erstellt."
+#~ msgid "hos_MUST_BE_VALID_HOSTNAME_OR_IP"
+#~ msgstr "Es muss ein gültiger Hostname oder eine gültige IP-Adresse sein"
+#~ msgid "hos_NO_HOSTNAMES_FOR_LOCAL_DOMAIN"
+#~ msgstr "Es gibt keine Hostnamen auf dem Server für [_1]."
+#~ msgid "hos_NO_HOSTNAMES_FOR_SERVICENAME"
+#~ msgstr "Es sind keine Hostnamen auf dem Server für [_1] vorhanden."
+#~ msgid "hos_NO_HOSTS_FOR_THIS_DOMAIN"
+#~ msgstr "Es gibt keine Hosts für diese Domäne."
+#~ msgid "hos_STATIC_HOST_MESSAGE"
+#~ msgstr "- Dieser Host steht für Ihren Systemnamen und kann weder geändert noch entfernt werden."
+#~ msgid "hos_SUCCESSFULLY_CREATED"
+#~ msgstr "Hostname erfolgreich erstellt."
+#~ msgid "hos_SUCCESSFULLY_DELETED"
+#~ msgstr "Host wurde erfolgreich gelöscht."
+#~ msgid "hos_SUCCESSFULLY_MODIFIED"
+#~ msgstr "Host wurde erfolgreich geändert."
+#~ msgid "hos_UNABLE_TO_OPEN_CONFIGDB"
+#~ msgstr "Es ist nicht möglich, die Datenbank für die Einstellungen zu öffnen"

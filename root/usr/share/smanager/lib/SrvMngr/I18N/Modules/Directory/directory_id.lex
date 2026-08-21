@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Setting default LDAP telah disimpan.',
 'dir_LEAVE' => 'Biarkan',
 'dir_UPDATE' => 'Mutakhirkan dengan nilai default',
-'dir_Directory' => 'Direktori',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Direktori',

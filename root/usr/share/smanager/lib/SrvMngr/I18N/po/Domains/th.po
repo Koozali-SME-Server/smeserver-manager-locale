@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Domains module\n"
+"POT-Creation-Date: 2026-08-21 10:15+0100\n"
+"PO-Revision-Date: 2026-08-21 10:15+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "dom_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this domain ?"
+
+msgid "dom_ADD_DOMAIN"
+msgstr "เพิ่มโดเมน"
+
+msgid "dom_CONTENT"
+msgstr "[_1] ไอ-เบย์"
+
+msgid "dom_CONTENT_FIELD_DESCRIPTION"
+msgstr "สำหรับเว็บไซต์ คุณอาจเลือกเว็บไซต์หลักของคุณ หรือ i-bay อื่นๆ"
+
+msgid "dom_CREATE_TITLE"
+msgstr "สร้างโดเมนใหม่"
+
+msgid "dom_CURRENT_DOMAINS"
+msgstr "รายการโดเมนปัจจุบัน"
+
+msgid "dom_DESC_CORPORATE_DNS"
+msgstr "ถ้าเซิร์ฟเวอร์นี้ใช้อินเตอร์เน็ตไม่ได้ หรือคุณมีต้องการตั้งค่า DNS เป็นพิเศษ ใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ที่นี่ ช่องเหล่านี้ควรเว้นว่างไว้ ยกเว้นหากคุณถ้าคุณต้องการตั้งให้ไปใช้ DNS เซิร์ฟเวอร์ตัวอื่น แต่คุณไม่ควรใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ของ ISP ของคุณลงที่นี่ เพราะเซิร์ฟเวอร์นี้สามารถให้บริการค้นที่อยู่จากชื่อโดเมนแก่เครื่องลูก ข่ายได้อย่างถูกต้องโดยไม่ต้องตั้งค่าพิเศษใดๆ อยู่แล้ว"
+
+msgid "dom_DESC_CORPORATE_DNS_CURRENT"
+msgstr " ตั้งค่า DNS ขององค์กร "
+
+msgid "dom_DESC_NAMESERVERS"
+msgstr "คุณสามารถเลือกว่าการการร้องขอบริการโดเมนของเครื่องลูกข่ายนั้นจะได้รับการบริการจากที่นี่ (เซิร์ฟเวอร์นี้) จาก DNS เซิร์ฟเวอร์ขององค์กร หรือจาก DNS เซิร์ฟเวอร์บนอินเตอร์เน็ต ซึ่งปกติค่า มาตรฐานที่ตั้งมาสามารถใช้ได้กับเครือข่ายโดยทั่วไปอยู่แล้ว"
+
+msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
+msgstr "แก้ไขการตั้งค่า DNS ขององค์กร"
+
+msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
+msgstr "ผิดพลาด: รายละเอียดของโดเมน [_1] ไม่ถูกต้อง โดเมนใหม่ไม่ถูกสร้าง"
+
+msgid "dom_DOMAIN_IN_USE_ERROR"
+msgstr "ผิดพลาด: ชื่อโดเมน [_1] ถูกใช้ไปแล้ว โดเมนใหม่ไม่ถูกสร้าง"
+
+msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
+msgstr "ผิดพลาด: ชื่อโดเมน [_1] ไม่ถูกต้องตามหลักการตั้งชื่อโดเมน ชื่อโดเมนต้องยาวอย่างน้อยหนึ่งตัว และต้องเป็นตัวอักษร, ตัวเลข, จุด และ ครื่องหมายลบเท่านั้น โดเมนใหม่ไม่ถูกสร้าง"
+
+msgid "dom_ERROR_CREATING_DOMAIN"
+msgstr "(en) Error creating domain"
+
+msgid "dom_ERROR_MODIFYING_DOMAIN"
+msgstr "(en) Error modifying domain"
+
+msgid "dom_ERROR_UPDATING"
+msgstr "(en) Error updating"
+
+msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
+msgstr "ข้อผิดพลาด: เกิดความผิดพลาดภายในขณะลบโดเมน[_1]"
+
+msgid "dom_FORM_DESCRIPTION"
+msgstr " เมื่อคุณ ได้สร้างโดเมนแล้ว เซิร์ฟเวอร์จะสามารถรับอีเมล์และใช้เป็นโฮสต์ของเว็บสำหรับโดเมนที่สร้างนั้นได้\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">สร้างโดเมน</a></p>\n\n  "
+
+msgid "dom_FORM_TITLE"
+msgstr "จัดการโดเมน"
+
+msgid "dom_LABEL_CORPORATE_DNS_PRIMARY"
+msgstr "Primary DNS server ขององค์กร"
+
+msgid "dom_LABEL_CORPORATE_DNS_SECONDARY"
+msgstr "Secondary DNS server ขององค์กร"
+
+msgid "dom_LABEL_NAMESERVERS"
+msgstr "เซิร์ฟเวอร์ DNS ของโดเมน"
+
+msgid "dom_MODIFY_TITLE"
+msgstr "แก้ไขโดเมน"
+
+msgid "dom_NONEXISTENT_DOMAIN_ERROR"
+msgstr "ข้อผิดพลาด: ไม่มีโดเมน [_1]"
+
+msgid "dom_PRIMARY_SITE"
+msgstr "ไซต์หลัก"
+
+msgid "dom_REMOVE_DESCRIPTION"
+msgstr "  คุณกำลังจะลบโดเมน [_1] ([_2]). \n\n  <p><b>คุณแน่ใจหรือว่าต้องการลบโดเมนนี้?</b></p>\n\n  "
+
+msgid "dom_REMOVE_TITLE"
+msgstr "ลบโดเมน"
+
+msgid "dom_SUCCESSFULLY_CREATED"
+msgstr "โดเมน [_1] ถูกสร้างแล้ว เว็บเซิร์ฟเวอร์จะทำการรี สตาร์ท ลิ๊งค์ต่างๆ บนหน้านี้จะใช้การไม่ได้จนกว่าเว็บเซิร์ฟเวอร์จะทำการรีสตาร์ทเสร็จ"
+
+msgid "dom_SUCCESSFULLY_DELETED"
+msgstr "ลบโดเมน[_1]แล้ว เว็บเซอร์ฟเวอร์จะทำการรีสตาร์ท ลิ๊งต่างๆ ในหน้าจอนี้จะใช้การไม่ได้จนกว่าการรีสตาร์ทจะเสร็จสิ้น"
+
+msgid "dom_SUCCESSFULLY_MODIFIED"
+msgstr "ลบโดเมน [_1] แล้ว เว็บเซอร์ฟเวอร์จะทำการรีสตาร์ท ลิ๊งต่างๆ ในหน้าจอนี้จะใช้การไม่ได้จนกว่าการรีสตาร์ทจะเสร็จสิ้น"
+
+msgid "dom_SYSTEM_DOMAIN_ERROR"
+msgstr "ผิดพลาด: ชื่อโดเมน [_1] เป็นชื่อโดเมนของระบบ คุณไม่สามารถสร้างโดเมนที่มีชื่อซ้ำกัน โดเมนใหม่ไม่ถูกสร้าง"
+
+msgid "dom_corporate"
+msgstr "จาก DNS เซิร์ฟเวอร์ขององค์กร"
+
+msgid "dom_internet"
+msgstr "จาก DNS เซิร์ฟเวอร์บนอินเตอร์เน็ต"
+
+msgid "dom_localhost"
+msgstr "จากที่นี่ (เซิร์ฟเวอร์นี้)"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dom_BUTTON_CORPORATE_DNS"
+#~ msgstr " ถ้าเซิร์ฟเวอร์นี้ใช้อินเตอร์เน็ตไม่ได้ หรือคุณมีต้องการตั้งค่า DNS เป็นพิเศษ ใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ที่นี่ แต่คุณไม่ควรใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ของ ISP ของคุณลงที่นี่ เพราะเซิร์ฟเวอร์นี้สามารถให้บริการค้นที่อยู่จากชื่อโดเมนแก่เครื่องลูกข่ายได้อย่างถูกต้องโดยไม่ต้องตั้งค่าพิเศษใดๆ อยู่แล้ว\n\n  <p> <a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns\">แก้ไขค่า DNS ขององค์กร</a> "
+#~ msgid "dom_CURRENT_LIST_OF_DOMAINS"
+#~ msgstr "รายชื่อโดเมนที่มี"
+#~ msgid "dom_NO_VIRTUAL_DOMAINS"
+#~ msgstr "ไม่มีโดเมนในระบบนี้"
+#~ msgid "dom_REMOVE_DESC"
+#~ msgstr "คุณกำลังจะลบเครื่องพิมพ์:"
+#~ msgid "dom_REMOVE_DESC2"
+#~ msgstr "คุณแน่ใจหรือว่าต้องการลบเครื่องพิมพ์นี้?"

@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "Le nom de compte \"[_1]\" est un compte [_2] existant."
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " Le compte \"[_1]\" entre en conflit avec un pseudonyme du compte \"[_2]\". \"[_3]\" est un pseudonyme de \"[_4]\". "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "Le nom de l'i-bay \"[_1]\" contient des caractères non valides. Le nom de l'i-bay doit commencer par une minuscule et contenir uniquement des lettres minuscules, des chiffres et des traits d'union."
+
+msgid "iba_ADD_IBAY"
+msgstr "Créer une i-bay"
+
+msgid "iba_ADD_TITLE"
+msgstr "Créer ou modifier une i-bay"
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "Exécution de contenu dynamique (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "Impossible de créer un compte pour [_1] (existe-t'il déjà ?)"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "Compte introuvable pour [_1] (existe-t'il ?)"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "Tout Internet (aucun mot de passe requis)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "Tout Internet (mot de passe requis)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "Tout Internet (mot de passe requis en dehors des réseaux locaux)"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "Une erreur s'est produite lors de la création de cette i-bay."
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "Une erreur s'est produite lors de la suppression de l'i-bay."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "Une erreur s'est produite lors de la modification de l'i-bay."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "Une erreur s'est produite lors de la réinitialisation du mot de passe."
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "Vous pouvez supprimer n'importe quelle i-bay ou réinitialiser son mot de passe en cliquant sur le lien correspondant à côté du nom de l'i-bay. Si l'i-bay apparaît en rouge, cela signifie que son mot de passe n'a pas été défini et qu'il faudrait le faire rapidement. "
+
+msgid "iba_FORM_TITLE"
+msgstr "Gestion des i-bays"
+
+msgid "iba_HTTPS_Only"
+msgstr "Forcer l'utilisation de connexions sécurisées"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "Les mots de passe ne concordent pas."
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "Réseau local (aucun mot de passe requis)"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "Réseau local (mot de passe requis)"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "Le nom de l'i-bay \"[_1]\" est trop long. Le nombre maximum de caractères est de [_2]."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "Le nom de l'i-bay doit contenir uniquement des lettres minuscules, des chiffres, des traits d'union, des points, des traits de soulignement et commencer par une minuscule. Par exemple, \"johnson\", \"intra\" et \"cust3.prj12\" sont tous des noms valides, mais pas \"3amis\", \"Pierre Leblanc\" ni \"Bus!Partner\". Le nom ne peut contenir que [_1] caractères."
+
+msgid "iba_NAME_LABEL"
+msgstr "Nom de l'i-bay"
+
+msgid "iba_NONE"
+msgstr "Aucun accès"
+
+msgid "iba_NO_IBAYS"
+msgstr "Aucune i-bay n'est configurée actuellement."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "Veuillez taper le mot de passe de l'i-bay \"[_1]\" :"
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "Accès public par le Web ou le protocole FTP anonyme"
+
+msgid "iba_REMOVE_DESC"
+msgstr " Vous êtes sur le point de supprimer l'i-bay \"[_1]\" ([_2]).\n\n  Tous les fichiers contenus dans cette i-bay seront supprimés.\n\n  <b>Voulez-vous vraiment supprimer cette i-bay ?</b>\n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "Supprimer l'i-bay"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "i-bay créée avec succès."
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "i-bay supprimée avec succès."
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "i-bay modifiée avec succès."
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "Mot de passe réinitialisé avec succès."
+
+msgid "iba_USER_ACCESS"
+msgstr "Accès authentifié par le partage de fichiers ou le protocole FTP"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :\n\n  <ul>[_1]</ul> "
+
+msgid "iba_WARG"
+msgstr "Écriture=Admin, Lecture=Groupe"
+
+msgid "iba_WGRE"
+msgstr "Écriture=Groupe, Lecture=Tous"
+
+msgid "iba_WGRG"
+msgstr "Écriture=Groupe, Lecture=Groupe"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "Le mot de passe ne peut contenir que des lettres et des chiffres."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "ERREUR : caractères inattendus ou manquants dans la description de l'i-bay."
+#~ msgid "iba_Information bays"
+#~ msgstr "I-bays"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "Le mode d'accès public \"Mot de passe obligatoire en dehors du réseau local\" n'est pas pris en charge par le service FTP. Si vous sélectionnez ce mode, le serveur FTP exigera dans tous les cas un mot de passe pour cette i-bay."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr "Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :"

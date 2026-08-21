@@ -1,4 +1,4 @@
-'prx_Proxy settings' => 'Ustawienia proxy',
+# ORPHANED (no longer in proxy_en.lex; kept for reference, commented out by lex-to-po.pl): 'prx_Proxy settings' => 'Ustawienia proxy',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Ta strona umożliwia konfigurowanie ustawień serwera proxy. Serwer zawiera transparentny proxy i cache dla ruchu HTTP. Serwer jest domyślnie włączony, ale nie działa prawidłowo, jeśli serwer jest w ustawiony w trybie &quot;serwera&quot;. Jeśli serwer działa jako serwer e-mail, połączenia z klientów sieci lokalnej do serwerów SMTP będą domyślnie przekierowywane do lokalnego serwera e-mail.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'Serwer proxy HTTP działa na zasadzie zmniejszenia ogólnego użytkowania sieci poprzez buforowanie ostatnio odwiedzanych stron. Jest niewidoczny dla przeglądarek internetowych za pomocą którego łączą się poprzez ten serwer. Możesz włączyć lub wyłączyć serwer proxy następującymi przełącznikami.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'Status proxy HTTP',

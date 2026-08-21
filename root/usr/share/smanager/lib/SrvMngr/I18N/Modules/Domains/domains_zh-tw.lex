@@ -2,8 +2,8 @@
 'dom_FORM_DESCRIPTION' => ' 當您建立網域後，您的伺服器將能為該網域接收電郵，並且能為該網域建立網站。
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">增加網域</a> ',
-'dom_NO_VIRTUAL_DOMAINS' => '系統中並無網域。',
-'dom_CURRENT_LIST_OF_DOMAINS' => '當前的網域列表',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_NO_VIRTUAL_DOMAINS' => '系統中並無網域。',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_CURRENT_LIST_OF_DOMAINS' => '當前的網域列表',
 'dom_PRIMARY_SITE' => '主站台',
 'dom_CONTENT' => '[_1] i-bay',
 'dom_CREATE_TITLE' => '建立新網域',
@@ -25,9 +25,9 @@
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => '錯誤: 移除網域[_1]時出現內部錯誤。',
 'dom_SUCCESSFULLY_DELETED' => '成功刪除網域 [_1] 。您的網頁伺服器將被重啟。網頁伺服器重啟完成後，本頁的連結將啟用。',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' 組織DNS設定 ',
-'dom_BUTTON_CORPORATE_DNS' => ' 倘若此伺服器並不存取網際網路，亦或您的DNS解析有特別需求，請於此處輸入DNS伺服器的IP網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入ISP的DNS伺服器網址。
-
-  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">修正組織DNS設定</a> ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_BUTTON_CORPORATE_DNS' => ' 倘若此伺服器並不存取網際網路，亦或您的DNS解析有特別需求，請於此處輸入DNS伺服器的IP網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入ISP的DNS伺服器網址。
+#
+#  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">修正組織DNS設定</a> ',
 'dom_DESC_CORPORATE_DNS' => '倘若此伺服器並不存取網際網路，亦或您的 DNS 解析有特別需求，請於此處輸入 DNS 伺服器的 IP 網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入 ISP 的 DNS 伺服器網址。',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => '主要的組織DNS伺服器',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => '次級的組織DNS伺服器',
@@ -36,10 +36,10 @@
 'dom_localhost' => '本地解析',
 'dom_internet' => '網際網路 DNS 服务器',
 'dom_corporate' => '組織DNS服务器',
-'dom_REMOVE_DESC' => '您正要移除此網域',
-'dom_REMOVE_DESC2' => ' <b>您確定希望移除此網域？</b>
-
-  ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC' => '您正要移除此網域',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC2' => ' <b>您確定希望移除此網域？</b>
+#
+#  ',
 'dom_ADD_DOMAIN' => '新增網域',
 'dom_CURRENT_DOMAINS' => '目前的網域清單',
 'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',

@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Localnetworks module\n"
+"POT-Creation-Date: 2026-08-21 11:19+0100\n"
+"PO-Revision-Date: 2026-08-21 11:19+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "Local networks"
+msgstr "เครือข่ายท้องถิ่น"
+
+msgid "ln_ADD_DESC"
+msgstr " พารามิเตอร์ต่างๆ ต้องอยู่ในรูปแบบ #.#.#.# (# คือ 0 ถึง 255) เซอร์ฟเวอร์จะเติม 0 ต่อท้ายหมายเลขเหล่านี้ให้เต็มตามรูปแบบ (หมายเลขโฮสท์)ตามที่ตีความได้จาก subnet mask เพื่อให้มันเป็นหมายเลขที่ถูกต้องตามข้อกำหนด\"เราเตอร์\" ต้องเป็นหมายเลข IP ของเราเตอร์ในฝั่งเครือข่ายของคุณ ซึ่งเป็นจุดที่เครือข่ายใหม่นั้นจะเชื่อมผ่านเข้ามา "
+
+msgid "ln_ADD_TITLE"
+msgstr "เพิ่ม local network"
+
+msgid "ln_ERROR_CREATING_NETWORK"
+msgstr "เกิดผิดพลาดขึ้นระหว่างการสร้างเครือข่าย"
+
+msgid "ln_ERROR_DELETING_NETWORK"
+msgstr "ข้อผิดพลาดขึ้นระหว่างการลบเครือข่าย"
+
+msgid "ln_FIRSTPAGE_DESC"
+msgstr " ด้วยเหตุผลด้านความปลอดภัย การให้บริการงานหลายอย่างของเซอร์เวอร์นี้จะให้บริการเฉพาะกับเครืองในเครือข่ายของมันเท่านั้น อย่างไรก็ตาม คุณสามารถอนุมัติสิทธิการเข้าถึงให้แก่เครือข่ายอื่นๆ ของคุณที่มีได้โดยการการเพิ่มข้อมูลลงในรายการด้านล่าง ซึ่งโดยปกติการใช้งานทั่วไป จะไม่มีข้อมูลใดๆ ในรายการนี้ เพิ่มเครือข่าย "
+
+msgid "ln_Failed to find network in Db"
+msgstr "(en)Failed to find network in Db"
+
+msgid "ln_INVALID_IP_ADDRESS"
+msgstr "หมายเลข IP ไม่ถูกต้อง"
+
+msgid "ln_INVALID_SUBNET_MASK"
+msgstr "subnet mask ไม่ถูกต้อง"
+
+msgid "ln_LOCAL NETWORKS"
+msgstr "เครือข่ายท้องถิ่น"
+
+msgid "ln_LOCALNETWORK_ADD"
+msgstr "เพิ่มเครือข่าย"
+
+msgid "ln_LOCAL_NETWORK_NONE"
+msgstr "(en) No Local networks found"
+
+msgid "ln_NETWORK_ALREADY_ADDED"
+msgstr "ผิดพลาด: เครือข่าย[_1] (มาจากเครือข่าย [_2] และ subnet mask [_3]) ถูกเพิ่มเข้าไปแล้ว ไม่เกิดการเพิ่มเครือข่ายใหม่"
+
+msgid "ln_NETWORK_ALREADY_LOCAL"
+msgstr "ผิดพลาด: เครือข่าย[_1] (มาจากเครือข่าย [_2] และ subnet mask [_3]) ซึ่งถือว่าอยู่ในท้องถิ่นอยู่แล้ว ไม่เกิดการเพิ่มเครือข่ายใหม่"
+
+msgid "ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK"
+msgstr "ผิดพลาด: หมายเลขเราเตอร์ [_1] ไม่สามารถเข้าถึงได้จากเครือข่ายท้องถิ่น ไม่เกิดการเพิ่มเครือข่ายใหม่"
+
+msgid "ln_NO_SUCH_NETWORK"
+msgstr "(en)Network not found in network db"
+
+msgid "ln_NUMBER_OF_HOSTS"
+msgstr "จำนวนของโฮสท์"
+
+msgid "ln_REMOVE_DESC"
+msgstr "คุณกำลังจะทำการลบเครือข่ายท้องถิ่น"
+
+msgid "ln_REMOVE_HOSTS_DESC"
+msgstr "ตรวจพบโฮสในเครือข่ายที่คุณกำลังจะสั่งลบ ซึ่้งโดยปกติแล้วมันไม่ควรจะมีอยู่ แต่ก็มีบางกรณีที่เป็นข้อยกเว้น ยกเลิกการเลือกเลือกตัวเลือกนี้หากคุณไม่ได้เจตนาให้เกิดขึ้น หมายเหต: หากคุณเลือกที่จะลบเครือข่ายนี้ออกไปแล้วเซอร์ฟเวอร์นี้จะไม่นับบรรดาเครื่องที่อยู่ในเครือข่ายนั้นว่าเป็นเครื่องในเครือข่ายภายในอีก แม้ว่ามันจะยังถูกมองเห็นหรือยังเข้าถึงได้ก็ตาม"
+
+msgid "ln_REMOVE_HOSTS_LABEL"
+msgstr "ลบโฮสท์ในเครือข่าย"
+
+msgid "ln_REMOVE_TITLE"
+msgstr "ลบเครือข่ายท้องถิ่น"
+
+msgid "ln_SUBNET_MASK"
+msgstr "ซับเน็ตมาสก์"
+
+msgid "ln_SUCCESS_NETWORK_RANGE"
+msgstr "เพิ่มเครือข่ายเสร็จแล้ว [_1]/[_2] ผ่านเราเตอร์ที่ [_3]. เซิร์ฟเวอร์ของคุณจะให้สิทธิ์การเข้าถึงบริการภายในแก่ [_4] โฮสท์ ที่มีหมายเลข IP ที่อยู่ในข่าย จาก [_5] ถึง [_6] เท่านั้น"
+
+msgid "ln_SUCCESS_NONSTANDARD_RANGE"
+msgstr " เพิ่มเครือข่ายเสร็จแล้ว [_1]/[_2] ผ่านเราเตอร์ที่[_3]\n\n  <p> เซิร์ฟเวอร์ของคุณจะให้สิทธิ์การเข้าถึงบริการภายในแก่หมายเลข IP จำนวน [_1] หมายเลข คือหมายเลขจาก [_2] ถึง [_3]</p>\n\n  <p> คำเตือน: โปรแกรม ProFTPd FTP server ไม่สามารถเข้าใจ subnet mask ที่ไม่เข้ามาตรฐานนี้ตัวเลือกที่ไม่ยุ่งยากที่น่าจะใช้แทนได้คือ <b>[_1]</b></p>\n\n  "
+
+msgid "ln_SUCCESS_REMOVED_NETWORK"
+msgstr "ลบเครือข่ายเสร็จแล้ว :เครือข่าย [_1]/[_2] ผ่านเราเตอร์ที่ [_3]."
+
+msgid "ln_SUCCESS_SINGLE_ADDRESS"
+msgstr "เพิ่มเครือข่ายเสร็จแล้ว [_1]/[_2] ผ่านเราเตอร์ที่ [_3] เซิร์ฟเวอร์ของคุณจะให้สิทธิ์การเข้าถึงบริการภายในกับเฉพาะหมายเลข IP [_4] หมายเลขเดียว"

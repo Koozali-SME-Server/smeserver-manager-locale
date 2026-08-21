@@ -11,4 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'The workgroup name must begin with a letter (upper or lower case), followed by any combination of letters, numbers, underscores, periods and hyphens.',
 'wkg_INVALID_SERVERNAME' => 'The server name must begin with a letter (upper or lower case), followed by any combination of letters, numbers, underscores and hyphens.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'The server and workgroup names match, when compared in lower case. These values must be different in order for filesharing to be turned on.',
-'wkg_Workgroup' => 'Workgroup',
+# ORPHANED (no longer in workgroup_en.lex; kept for reference, commented out by lex-to-po.pl): 'wkg_Workgroup' => 'Workgroup',

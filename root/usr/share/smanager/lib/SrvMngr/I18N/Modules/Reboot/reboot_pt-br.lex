@@ -7,4 +7,4 @@
 'rbo_DESC_SHUTDOWN' => 'Seu servidor iniciou o processo de desligamento. O processo levará alguns minutos para completar, depois você poderá desligar o computador. Ou este poderá já ser desligado automaticamente pelo processo.',
 'rbo_LABEL_REBOOT' => 'Selecione Desligar, Reiniciar ou Reconfigurar',
 'rbo_DESCRIPTION' => ' Você pode reiniciar ou desligar seu servidor dessa tela. Você tem que desligar o software linux do servidor antes de desligar o computador. Mas ao mandar o linux desligar, pode ser que o equipamento já seja desligado na sequência. Ambas as funções levam vários minutos para completar. Quando você clicar em executar a operação irá iniciar imediatamente, então esteja pronto! ',
-'rbo_Reboot or shutdown' => 'Reiniciar ou desligar',
+# ORPHANED (no longer in reboot_en.lex; kept for reference, commented out by lex-to-po.pl): 'rbo_Reboot or shutdown' => 'Reiniciar ou desligar',

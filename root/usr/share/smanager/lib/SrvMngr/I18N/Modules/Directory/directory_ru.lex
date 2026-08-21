@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Новые настройки LDAP по умолчанию сохранены.',
 'dir_LEAVE' => 'Оставить как есть',
 'dir_UPDATE' => 'Обновить новыми настройками по умолчанию',
-'dir_Directory' => 'Каталог',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Каталог',

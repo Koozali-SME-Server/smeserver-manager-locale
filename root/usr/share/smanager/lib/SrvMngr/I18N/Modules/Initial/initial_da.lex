@@ -16,8 +16,8 @@
   <p> For at udføre system administration, klik på et af linkene i menuen i venstre side af skærmen. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Velkommen til SME Server. Denne software leveres UDEN NOGEN FORM FOR GARANTI. Klik venligst<a href="/smanager/support" target="main">her</a> for at få vist detaljerede oplysninger om support, garanti og licensinformation. 
-
-  <p> <a href="/server-manager/noframes">Klik her</a> for at få vist en liste over system administrations funktioner. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Velkommen til SME Server. Denne software leveres UDEN NOGEN FORM FOR GARANTI. Klik venligst<a href="/smanager/support" target="main">her</a> for at få vist detaljerede oplysninger om support, garanti og licensinformation. 
+#
+#  <p> <a href="/server-manager/noframes">Klik her</a> for at få vist en liste over system administrations funktioner. </p>
+#
+#  ',

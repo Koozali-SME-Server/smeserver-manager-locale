@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Initial module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "initial_FORM_TITLE"
+msgstr "Selamat datang di server manager"
+
+msgid "initial_FRAMES_BODY"
+msgstr "  Selamat datang di SME Server, pemimpin distribusi linux untuk perusahaan kecil dan menengah. SME Server dipersembahkan bagi anda oleh <a href=\"https://www.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a>, sebuah korporasi nirlaba yang eksis untuk menyediakan dukungan pemasaran dan hukum untuk SME Server. \n\n  <p> SME Server tersedia secara bebas dibawah GNU General Public License dan hanya mungkin tercipta melalui usaha dari Komunitas SME Server. Walau demikian, ketersediaan dan kualitas dari SME Server adalah tergantung dari adanya pembiayaan, seperti biaya hosting, perangkat keras server , dll. </p>\n\n  <p> Karena itu, kami meminta sedikit donasi untuk menutupi cost dan membiayai pengembangan lebih lanjut. </p>\n\n  <p> <b> Kunjungi <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\">https://wiki.koozali.org/Donate</a> untuk menyumbang. </b></p>\n\n  <p> Software ini SAMA SEKALI TIDAK DIGARANSI. Silakan <a href=\"/smanager/support\" target=\"main\">klik disini</a> untuk melihat dukungan yang lebih terperinci, garansi dan informasi lisensi. </p>\n\n  <p> Untuk menjalankan fungsi pengaturan sistem, klik satu dari link menu disebelah kiri layar anda. </p>\n\n  "
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "initial_NOFRAMES_BODY"
+#~ msgstr "  Selamat datang di SME Server. Software ini SAMA SEKALI TIDAK DIGARANSI. Silakan <a href=\"/smanager/support\" target=\"main\">klik disini</a> untuk melihat informasi secara terperinci tentang dukungan, garansi dan lisensi. \n\n  <p> <a href=\"/server-manager/noframes\">Click here</a> for a list of system administration functions. </p>\n\n  "

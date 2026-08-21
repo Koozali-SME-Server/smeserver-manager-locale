@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Localnetworks module\n"
+"POT-Creation-Date: 2026-08-21 11:19+0100\n"
+"PO-Revision-Date: 2026-08-21 11:19+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+
+msgid "Local networks"
+msgstr "Lokale netwerken"
+
+msgid "ln_ADD_DESC"
+msgstr " Elke parameter dient in de vorm #.#.#.# te zijn (elk # is een getal van 0 tot 255). De server software zal het eind gedeelte door een nul vervangen (host herkenningsteken) afhankelijk van het deelnetwerkmasker om er voor te zorgen dat het een geldig netwerkadres betreft.  \"Router\" dient het IP adres van de router op het lokale netwerk te zijn via welke het additionele netwerk te bereiken is. "
+
+msgid "ln_ADD_TITLE"
+msgstr "Een lokaal netwerk toevoegen"
+
+msgid "ln_ERROR_CREATING_NETWORK"
+msgstr "Fout tijdens het toevoegen van het netwerk."
+
+msgid "ln_ERROR_DELETING_NETWORK"
+msgstr "Er is een fout opgetreden tijdens het verwijderen van het netwerk."
+
+msgid "ln_FIRSTPAGE_DESC"
+msgstr " Om veiligheidsredenen zijn diverse diensten op de server enkel beschikbaar voor het lokale netwerk. U kunt deze lokale toegangsrechten echter wel toekennen aan additionele netwerken indien ze hieronder worden toegevoegd. Voor de meeste installaties zal deze lijst echter leeg worden gelaten. Netwerk toevoegen "
+
+msgid "ln_Failed to find network in Db"
+msgstr "(en)Failed to find network in Db"
+
+msgid "ln_INVALID_IP_ADDRESS"
+msgstr "Ongeldig IP adres"
+
+msgid "ln_INVALID_SUBNET_MASK"
+msgstr "Ongeldig subnet masker"
+
+msgid "ln_LOCAL NETWORKS"
+msgstr "Lokale netwerken"
+
+msgid "ln_LOCALNETWORK_ADD"
+msgstr "Netwerk toevoegen"
+
+msgid "ln_LOCAL_NETWORK_NONE"
+msgstr "(en) No Local networks found"
+
+msgid "ln_NETWORK_ALREADY_ADDED"
+msgstr "Fout: netwerk [_1] (afgeleid van netwerk [_2] en subnet masker [_3]) is reeds aanwezig. Het netwerk is niet toegevoegd."
+
+msgid "ln_NETWORK_ALREADY_LOCAL"
+msgstr "Fout: netwerk [_1] (afgeleid van netwerk [_2] en subnet masker [_3]) wordt al gezien als lokaal. Het netwerk is niet toegevoegd."
+
+msgid "ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK"
+msgstr "Fout: router adres [_1] is niet toegankelijk vanaf het lokale netwerk. Het netwerk is niet toegevoegd."
+
+msgid "ln_NO_SUCH_NETWORK"
+msgstr "(en)Network not found in network db"
+
+msgid "ln_NUMBER_OF_HOSTS"
+msgstr "Aantal hosts"
+
+msgid "ln_REMOVE_DESC"
+msgstr "U staat op het punt het volgende lokale netwerk te verwijderen."
+
+msgid "ln_REMOVE_HOSTS_DESC"
+msgstr "Er zijn lokale hosts waargenomen die zijn geconfigureerd voor het netwerk waarvan u op het punt staat dit te verwijderen. Standaard worden deze eveneens verwijderd. De-selecteer dit aankruisvakje indien dit om enig reden niet gewenst is. Let op, ze zullen niet meer worden behandeld als lokaal en zijn mogelijk niet bereikbaar na het verwijderen van dit netwerk."
+
+msgid "ln_REMOVE_HOSTS_LABEL"
+msgstr "Verwijder hosts van netwerk"
+
+msgid "ln_REMOVE_TITLE"
+msgstr "Lokale netwerk verwijderen"
+
+msgid "ln_SUBNET_MASK"
+msgstr "Subnet masker"
+
+msgid "ln_SUCCESS_NETWORK_RANGE"
+msgstr "Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan [_4] IP adressen in het bereik [_5] tot [_6]."
+
+msgid "ln_SUCCESS_NONSTANDARD_RANGE"
+msgstr "  Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd. \n\n  <p> De server zal lokale toegangsprivileges toekennen aan [_1] IP adressen in het bereik [_2] tot [_3]. </p>\n\n  <p> Waarschuwing: de ProFTPd FTP server herkent dit niet-standaard deelnetwerkmasker niet. De versimpelde specificatie <b>[_1]</b> zal in plaats hiervan worden gebruikt. </p>\n\n  "
+
+msgid "ln_SUCCESS_REMOVED_NETWORK"
+msgstr "Netwerk [_1]/[_2] via router [_3] is met succes verwijderd."
+
+msgid "ln_SUCCESS_SINGLE_ADDRESS"
+msgstr "Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan het enkele IP adres [_4]."

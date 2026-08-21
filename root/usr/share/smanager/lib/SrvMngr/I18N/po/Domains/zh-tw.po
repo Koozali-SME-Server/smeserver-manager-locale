@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Domains module\n"
+"POT-Creation-Date: 2026-08-21 10:15+0100\n"
+"PO-Revision-Date: 2026-08-21 10:15+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
+
+msgid "dom_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this domain ?"
+
+msgid "dom_ADD_DOMAIN"
+msgstr "新增網域"
+
+msgid "dom_CONTENT"
+msgstr "[_1] i-bay"
+
+msgid "dom_CONTENT_FIELD_DESCRIPTION"
+msgstr "對於網站而言，您能選擇您的主要站台或任何 i-bay 以作為內容。"
+
+msgid "dom_CREATE_TITLE"
+msgstr "建立新網域"
+
+msgid "dom_CURRENT_DOMAINS"
+msgstr "目前的網域清單"
+
+msgid "dom_DESC_CORPORATE_DNS"
+msgstr "倘若此伺服器並不存取網際網路，亦或您的 DNS 解析有特別需求，請於此處輸入 DNS 伺服器的 IP 網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入 ISP 的 DNS 伺服器網址。"
+
+msgid "dom_DESC_CORPORATE_DNS_CURRENT"
+msgstr " 組織DNS設定 "
+
+msgid "dom_DESC_NAMESERVERS"
+msgstr "您可選擇由本組織伺服器解析本地網域，亦或由網際網路上的DNS來解析。預設值將適用於大多數的網路。"
+
+msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
+msgstr "修改公司 DNS 設定"
+
+msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
+msgstr "錯誤: 在網域描述 [_1] 中含未知或缺少字元。無法建立新網域。"
+
+msgid "dom_DOMAIN_IN_USE_ERROR"
+msgstr "錯誤: 網域名稱 [_1] 正在使用中。無法建立新網域。"
+
+msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
+msgstr "錯誤: 在網域名稱 [_1] 中含未知或缺少字元。網域名稱應該包含單一或更多的字元、數字、句號與減號。無法建立新網域。"
+
+msgid "dom_ERROR_CREATING_DOMAIN"
+msgstr "(en) Error creating domain"
+
+msgid "dom_ERROR_MODIFYING_DOMAIN"
+msgstr "(en) Error modifying domain"
+
+msgid "dom_ERROR_UPDATING"
+msgstr "(en) Error updating"
+
+msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
+msgstr "錯誤: 移除網域[_1]時出現內部錯誤。"
+
+msgid "dom_FORM_DESCRIPTION"
+msgstr " 當您建立網域後，您的伺服器將能為該網域接收電郵，並且能為該網域建立網站。\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">增加網域</a> "
+
+msgid "dom_FORM_TITLE"
+msgstr "管理眾網域"
+
+msgid "dom_LABEL_CORPORATE_DNS_PRIMARY"
+msgstr "主要的組織DNS伺服器"
+
+msgid "dom_LABEL_CORPORATE_DNS_SECONDARY"
+msgstr "次級的組織DNS伺服器"
+
+msgid "dom_LABEL_NAMESERVERS"
+msgstr "網域DNS伺服器"
+
+msgid "dom_MODIFY_TITLE"
+msgstr "修正網域"
+
+msgid "dom_NONEXISTENT_DOMAIN_ERROR"
+msgstr "錯誤: [_1]並非既有網域。"
+
+msgid "dom_PRIMARY_SITE"
+msgstr "主站台"
+
+msgid "dom_REMOVE_DESCRIPTION"
+msgstr " 您即將移除網域[_1] ([_2])。\n\n  <p> <b>您確定要移除該網域？</b> </p>\n\n  "
+
+msgid "dom_REMOVE_TITLE"
+msgstr "移除網域"
+
+msgid "dom_SUCCESSFULLY_CREATED"
+msgstr "成功建立了網域 [_1] 。您的網頁伺服器正重啟中。網頁伺服器重啟完畢前，此頁面上的連結都將會失效。"
+
+msgid "dom_SUCCESSFULLY_DELETED"
+msgstr "成功刪除網域 [_1] 。您的網頁伺服器將被重啟。網頁伺服器重啟完成後，本頁的連結將啟用。"
+
+msgid "dom_SUCCESSFULLY_MODIFIED"
+msgstr "成功修正網域[_1]。您的網頁伺服器正將重啟。網站伺服器重啟完成後，本頁的連結將啟用。"
+
+msgid "dom_SYSTEM_DOMAIN_ERROR"
+msgstr "錯誤: 網域名稱 [_1] 是您系統的網域名稱。您無法建立相同網域名稱。無法建立新網域。"
+
+msgid "dom_corporate"
+msgstr "組織DNS服务器"
+
+msgid "dom_internet"
+msgstr "網際網路 DNS 服务器"
+
+msgid "dom_localhost"
+msgstr "本地解析"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dom_BUTTON_CORPORATE_DNS"
+#~ msgstr " 倘若此伺服器並不存取網際網路，亦或您的DNS解析有特別需求，請於此處輸入DNS伺服器的IP網址。由於本伺服器足堪解析所有網際網路的網域名稱而無需額外設定，您不應於此處輸入ISP的DNS伺服器網址。\n\n  <p> <a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns\">修正組織DNS設定</a> "
+#~ msgid "dom_CURRENT_LIST_OF_DOMAINS"
+#~ msgstr "當前的網域列表"
+#~ msgid "dom_NO_VIRTUAL_DOMAINS"
+#~ msgstr "系統中並無網域。"
+#~ msgid "dom_REMOVE_DESC"
+#~ msgstr "您正要移除此網域"
+#~ msgid "dom_REMOVE_DESC2"
+#~ msgstr " <b>您確定希望移除此網域？</b>\n\n  "

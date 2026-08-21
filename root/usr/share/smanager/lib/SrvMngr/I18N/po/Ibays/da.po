@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "Kontoen \"[_1]\" er en eksisterende [_2] konto."
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " Kontoen \"[_1]\" er i konflikt med pseudonym detaljer for [_2] konto \"[_3]\". [_1] er pseudonym for [_3]. "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "I-bay navnet \"[_1]\" indehold ulovlige tegn. I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal og bindestreger."
+
+msgid "iba_ADD_IBAY"
+msgstr "Tilføj i-bay"
+
+msgid "iba_ADD_TITLE"
+msgstr "Oprete eller ændre en i-bay"
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "Udfør dynamisk indhold (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "Kan ikke oprette en ny konto for [_1] (eksisterer den i forvejen?)"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "Kan ikke finde nogen konto for [_1] (eksisterer den?)"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "Hele Internet (ingen adgangskode påkrævet)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "Hele Internet (adgangskode påkrævet)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "Hele Internet (adgangskode påkrævet udenfor lokalnet)"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "Der opstod en fejl ved oprettelse af i-bay."
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "Der opstod en fejl ved sletning af i-bay."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "Der opstod en fejl ved ændring af i-bay."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "Fejl under skift af adgangskode."
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "  Tilføj i-bay \n\n   Du kan ændre,fjerne eller skifte adgangskoden for en i-bay ved at klikke på det relevante link ud for pågældende i-bay. Vises navnet i rødt er adgangskoden ikke blevet skiftet. Det bør gøres snarest. \n\n  "
+
+msgid "iba_FORM_TITLE"
+msgstr "Oprette, ændre eller fjern i-bays"
+
+msgid "iba_HTTPS_Only"
+msgstr "Gennemtving sikker forbindelse"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "De indtastede adgangskoder er ikke ens."
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "Lokalt netværk (ingen adgangskode påkrævet)"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "Lokalt netværk (adgangskode påkrævet)"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "I-bay navnet \"[_1]\" er for langt. maximum er [_1] tegn."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal, punktum, bindestreger og understregningskoder. Fx \"johnson\", \"intra\", and \"cust3.prj12\" er alle lovlige navne, mens \"3associates\", \"John Smith\" og \"Bus!Partner\" ikke er. Navnet er begrænset til [_1] anslag."
+
+msgid "iba_NAME_LABEL"
+msgstr "I-bay navn"
+
+msgid "iba_NONE"
+msgstr "Ingen adgang"
+
+msgid "iba_NO_IBAYS"
+msgstr "Der er ikke opsat nogen i-bays."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "Du er ved at ændre adgangskoden for i-bay [_1]."
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "Åben adgang via web eller annonym ftp"
+
+msgid "iba_REMOVE_DESC"
+msgstr "  Du er ved at fjerne I-bay \"[_1]\" ([_2]). \n\n   Alle filer i denne i-bay vil blive slettet. \n\n   Er du sikker på du ønsker at slette denne i-bay? \n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "Fjern i-bay"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "I-bay oprettet med succes."
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "I-bay slettet."
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "I-bay ændret."
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "Adgangskode skiftet."
+
+msgid "iba_USER_ACCESS"
+msgstr "Tillad bruger adgang via fildeling eller ftp"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " Følgende virtuelt domæne hentede sit indhold denne i-bay. Det vil blive ændret til at hente indholdet fra den primære webside. (Du kan ændre dette senere): [_1] "
+
+msgid "iba_WARG"
+msgstr "Skrive = admin, læse = gruppe"
+
+msgid "iba_WGRE"
+msgstr "Skrive = gruppe, læse = alle"
+
+msgid "iba_WGRG"
+msgstr "Skrive = gruppe, læse = gruppe"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "ENTIRE_INTERNET_NO_PASSWORD"
+#~ msgstr "Hele internettet (ingen adgangskode påkrævet)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD"
+#~ msgstr "Hele internettet (adgangskode kræves)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD_REMOTE"
+#~ msgstr "(en)Entire Internet (password required outside local network)"
+#~ msgid "INVALID_IBAY_DESCRIPTION"
+#~ msgstr "(en)Error: unexpected or missing characters in i-bay description"
+#~ msgid "LOCAL_NETWORK_NO_PASSWORD"
+#~ msgstr "Lokalt netværk (ingen adgangskode kræves)"
+#~ msgid "LOCAL_NETWORK_PASSWORD"
+#~ msgstr "Lokalt netværk (adgangskode påkrævet)"
+#~ msgid "NONE"
+#~ msgstr "Ingen adgang"
+#~ msgid "WARG"
+#~ msgstr "(en)Write = admin, Read = group"
+#~ msgid "WGRE"
+#~ msgstr "(en)Write = group, Read = everyone"
+#~ msgid "WGRG"
+#~ msgstr "(en)Write = group, Read = group"
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "Adgangskoden må kun indeholde bogstaver og tal."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "Fejl: uventede eller manglende tegn i i-bay beskrivelse"
+#~ msgid "iba_Information bays"
+#~ msgstr "I-bays"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "Offentlig adgangsformen \"adgangskode påkrævet udenfor lokalnet\" er ikke understøttet af FTP-serveren. Vælger du denne form vil adgangskode være påkrævet både indenfor og udenfor lokalnettet for denne i-bay."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr "Følgende virtuelle domæner hentede sit indhold fra denne i-bay. Det vil blive ændret til at hente indholdet fra den primære webside (du kan ændre dette senere)."

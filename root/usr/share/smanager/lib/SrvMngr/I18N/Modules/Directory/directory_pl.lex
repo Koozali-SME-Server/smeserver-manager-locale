@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Nowe ustawienia katalogu LDAP zostały zapisane.',
 'dir_LEAVE' => 'pozostaw',
 'dir_UPDATE' => 'zaktualizuj z nowymi ustawieniami',
-'dir_Directory' => 'Katalog',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Katalog',

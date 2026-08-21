@@ -1,4 +1,4 @@
-'log_View log files' => 'Naplófájlok megtekintése',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => 'Naplófájlok megtekintése',
 'log_FIRSTPAGE_DESC' => ' Ez a panel lehetővé teszi, hogy megtekintse, vagy letöltse a szolgáltatások által generált naplófájlokat. ',
 'log_LOG_FILE_SELECT_DESC' => 'Válasszon egy naplófájlt a megtekintéshez',
 'log_FILTER_PATTERN_DESC' => ' Opcionálisan meghatározhat egy szűrési feltételt, hogy csak azok a sorok látszódjanak a naplófájlból amelyek megfelelnek a szűrési feltételnek. Ha ezt a mezőt üresen hagyja, minden sor látható lesz. Ez az opció nem működik a naplófájl letöltésekor.
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'Használat',
-'log_DOWNLOAD_PAGE_DESC' => ' A naplófájl letöltése elő lett készítve. Kattintson a lenti &quot;Tovább&quot; gombra, és a böngésző segítségével töltse le a fájlt.
-
-  ',
-'log_DOWNLOAD_FILE' => 'A [_1] naplófájl letöltésének előkészítése.',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' A naplófájl letöltése elő lett készítve. Kattintson a lenti &quot;Tovább&quot; gombra, és a böngésző segítségével töltse le a fájlt.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'A [_1] naplófájl letöltésének előkészítése.',
 'log_FORM_TITLE' => 'Naplófájlok megtekintése',

@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+
+msgid "ACCESS"
+msgstr "Hozzáférés"
+
+msgid "ACCOUNT"
+msgstr "Felhasználói fiók"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "Nincsenek felhasználói csoportok ebben a rendszerben."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Fiók zárolva"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "A megadott fióknév érvénytelen."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "A megadott fióknév érvénytelen karaktereket tartalmaz."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Fiók jelszó változtatás"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "Nincsenek felhasználói fiókok ebben a rendszerben."
+
+msgid "ACTION"
+msgstr "Művelet"
+
+msgid "ADD"
+msgstr "Hozzáad"
+
+msgid "APRIL"
+msgstr "Április"
+
+msgid "AUGUST"
+msgstr "Augusztus"
+
+msgid "Administration"
+msgstr "Adminisztráció"
+
+msgid "All rights reserved"
+msgstr "Minden jog fenntartva"
+
+msgid "BACK"
+msgstr "Vissza"
+
+msgid "BACKUP"
+msgstr "Biztonsági mentés"
+
+msgid "CANCEL"
+msgstr "Mégsem"
+
+msgid "COMMENT"
+msgstr "Megjegyzés"
+
+msgid "CONTENT"
+msgstr "Tartalom"
+
+msgid "CREATE"
+msgstr "Létrehoz"
+
+msgid "CREATE_GROUP"
+msgstr "Felhasználói csoport létrehozása"
+
+msgid "Collaboration"
+msgstr "Csoportmunka"
+
+msgid "Configuration"
+msgstr "Konfiguráció"
+
+msgid "DECEMBER"
+msgstr "December"
+
+msgid "DESCRIPTION"
+msgstr "Leírás"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Rövid leírás"
+
+msgid "DESC_SECTIONBAR"
+msgstr " "
+
+msgid "DESTINATION"
+msgstr "Cél"
+
+msgid "DISABLED"
+msgstr "Letiltva"
+
+msgid "DOMAIN"
+msgstr "Domén"
+
+msgid "DOMAINS"
+msgstr "Domének"
+
+msgid "DOMAIN_NAME"
+msgstr "Domén név"
+
+msgid "DOWNLOAD"
+msgstr "Letöltés"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Engedélyezve"
+
+msgid "END_OF_REPORT"
+msgstr "Jelentés vége"
+
+msgid "ERROR_BELOW"
+msgstr "HIBA: Hiba történt ennek az oldalnak az érvényesítése során. Kérem görgessen lejjebb és keresse meg a problémát."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Érvénytelen karakterek a leírásban."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Hiba történt a jelszava megváltoztatása során. Kérem bizonyosodjon meg arról, hogy a régi jelszavát helyesen írta be."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Hiba történt a rendszer beállításainak frissítésekor."
+
+msgid "FEBRUARY"
+msgstr "Február"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Hiba: Érvénytelen, vagy hiányzó karakterek a leírásban"
+
+msgid "FM_IP_NUMBER1"
+msgstr "Ennek a mezőnek egy érvényes IP címet kell tartalmaznia és nem hagyható üresen."
+
+msgid "FM_IP_NUMBER2"
+msgstr "Érvénytelen IP cím formátum (X.X.X.X az elfogadott)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "A [_1] nagyobb mint 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "Meg kell adnia egy MAC címet."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "A megadott MAC cím érvénytelen volt."
+
+msgid "FM_NONBLANK"
+msgstr "Ez a mező nem maradhat üresen."
+
+msgid "FRIDAY"
+msgstr "Péntek"
+
+msgid "GROUP"
+msgstr "Csoport"
+
+msgid "GROUPS"
+msgstr "Csoportok"
+
+msgid "GROUP_ADD"
+msgstr "Csoport létrehozása"
+
+msgid "GROUP_MEMBERS"
+msgstr "Csoporttagok"
+
+msgid "GROUP_NAME"
+msgstr "Csoportnév"
+
+msgid "IP_ADDRESS"
+msgstr "IP cím"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "IP cím vagy FQDN"
+
+msgid "JANUARY"
+msgstr "Január"
+
+msgid "JULY"
+msgstr "Július"
+
+msgid "JUNE"
+msgstr "Június"
+
+msgid "LOCAL"
+msgstr "Helyi"
+
+msgid "LOCATION"
+msgstr "Hely"
+
+msgid "MARCH"
+msgstr "Március"
+
+msgid "MAY"
+msgstr "Május"
+
+msgid "MB"
+msgstr "Mb"
+
+msgid "MODIFY"
+msgstr "Módosítás"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Felhasználói csoport módosítása"
+
+msgid "MONDAY"
+msgstr "Hétfő"
+
+msgid "Miscellaneous"
+msgstr "Egyéb"
+
+msgid "NAME"
+msgstr "Név"
+
+msgid "NETWORK"
+msgstr "Hálózat"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Hozzáférés csak helyi hálózatból"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Puplikus hozzáférés engedélyezése (Internet)"
+
+msgid "NEXT"
+msgstr "Következő"
+
+msgid "NO"
+msgstr "Nem"
+
+msgid "NOVEMBER"
+msgstr "November"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "A cső jelek (|) nem engedélyezettek ebben a mezőben"
+
+msgid "OCTOBER"
+msgstr "Október"
+
+msgid "OFF"
+msgstr "Ki"
+
+msgid "OK"
+msgstr "Rendben"
+
+msgid "ON"
+msgstr "Be"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Használati jelentés"
+
+msgid "PASSWORD"
+msgstr "Jelszó"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Jelszó változtatás"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "A jelszava megváltozott."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "A megadott jelszó érvénytelen karaktereket tartalmaz."
+
+msgid "PASSWORD_NEW"
+msgstr "Új jelszó:"
+
+msgid "PASSWORD_OLD"
+msgstr "Régi jelszó:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "A megadott régi jelszó érvénytelen karaktereket tartalmaz."
+
+msgid "PASSWORD_RESET"
+msgstr "Jelszó megváltoztatása"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "A két jelszó nem egyezik"
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Új jelszó (ellenőrzés):"
+
+msgid "PERFORM"
+msgstr "Végrehajtás"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Újrakonfigurálás"
+
+msgid "REMOTE"
+msgstr "Távoli"
+
+msgid "REMOVE"
+msgstr "Eltávolít"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Felhasználói csoport törlése"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Felhasználói jelszó megváltoztatása"
+
+msgid "RESTORE"
+msgstr "Helyreállítás"
+
+msgid "ROUTER"
+msgstr "Átjáró"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Szombat"
+
+msgid "SAVE"
+msgstr "Mentés"
+
+msgid "SELF"
+msgstr "Saját"
+
+msgid "SEPTEMBER"
+msgstr "Szeptember"
+
+msgid "SHUTDOWN"
+msgstr "Leállítás"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Kész"
+
+msgid "SUNDAY"
+msgstr "Vasárnap"
+
+msgid "Security"
+msgstr "Biztonság"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Csütörtök"
+
+msgid "TUESDAY"
+msgstr "Kedd"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Érvénytelen felhasználó"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Felhasználók listája"
+
+msgid "USER_NAME"
+msgstr "Felhasználónév"
+
+msgid "User password"
+msgstr "Felhasználói jelszó"
+
+msgid "WEDNESDAY"
+msgstr "Szerda"
+
+msgid "YES"
+msgstr "Igen"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Az ön fiókja:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "A megadott fióknév érvénytelen."
+
+msgid "Your Settings"
+msgstr "Az ön beállításai"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Mégse"
+
+msgid "del"
+msgstr "törlés"
+
+msgid "edit"
+msgstr "szerkesztés"
+
+msgid "exit"
+msgstr "Kilépés"
+
+msgid "hello"
+msgstr "helló"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

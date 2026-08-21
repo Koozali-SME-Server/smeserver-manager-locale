@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Pseudonyms module\n"
+"POT-Creation-Date: 2026-08-21 11:09+0100\n"
+"PO-Revision-Date: 2026-08-21 11:09+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+
+msgid "Pseudonyms"
+msgstr "(en) Pseudonyms"
+
+msgid "pse_ABOUT_TO_REMOVE"
+msgstr " Ще премахнете псевдоним: Сигурни ли сте, че искате да продължите? "
+
+msgid "pse_ACCOUNT_PSEUDONYM_NONE"
+msgstr "(en) No Pseudonyms found for this account"
+
+msgid "pse_CLICK_TO_CREATE"
+msgstr "Добавяне на псевдоним"
+
+msgid "pse_CREATE_SUCCEEDED"
+msgstr "Успешно създаден псевдоним"
+
+msgid "pse_CURRENT_PSEUDONYMS"
+msgstr "Текущ списък на псевдонимите"
+
+msgid "pse_DESCRIPTION"
+msgstr " Сървъра автоматично създава псевдоними за електронна поща за всяка група. Ако искате да зададете псевдоним за електронна поща за списък с потребители, просто създайте група и списъкът ще бъде автоматично поддържан от сървъра.\n\n  <p>Псевдонимите позволяват да задавате други имена за съществуващи потребители или групи. Например, можете зададете псевдоним \"webmaster\" за групата \"webdevelopers\" или псевдоним \"joe\" за потребителя \"joseph\".</p>\n\n  <p>Сървърът автоматично създава псевдоними от вида име.фамилия и име_фамилия за всеки потребител в системата и псевдоним \"everyone\", който съдържа всички потребители в системата.</p>\n\n  <p>Псевдонимите също така позволяват да създавате псевдоними за електронна поща на валидни (виртуални) домейни и потребители. Например, можете да пренасочите \"sales@virtualdomain1.com\" към потребителя \"mary\" и \"sales@virtualdomain2.com\"към потребителя \"john\". Трябва да създадете домейн или домейни и акаунти на потребителите, преди да създавате псевдоними. </p>\n\n  <p> Псевдонимите могат да сочат към други псевдоними, но това е ограничено само до едно ниво. Например, псевдонимът \"webmaster\" може да сочи към псевдонима \"techsupport\", който след това да сочи към потребителя \"ray\". Это полезно, когда один пользователь отвечает за многочисленные функции и сохраняет необходимость изменить псевдонимы, связанные с этим пользователем не раз в том случае, если пользователь уходит из организации.</p>\n\n  <p>Вы можете изменить или удалить псевдоним, нажав на соответствующую команду рядом с псевдонимом.</p>\n\n  "
+
+msgid "pse_DESC_PSEUDONYM_NAME"
+msgstr "Моля, изберете съществуващ акаунт или група за псевдонима от долното меню"
+
+msgid "pse_EVERYONE"
+msgstr "Всеки"
+
+msgid "pse_FORM_TITLE"
+msgstr "Създаване, промяна и премахване на псевдоними"
+
+msgid "pse_LOCAL_ONLY"
+msgstr "(само в локалната мрежа)"
+
+msgid "pse_MODIFY_PSEUDONYM"
+msgstr "Промяна на псевдоним"
+
+msgid "pse_MODIFY_SUCCEEDED"
+msgstr "Успешно променен псевдоним"
+
+msgid "pse_NAME_IN_USE"
+msgstr "Грешка: Това име се използва. Не можете да създавате псевдоним за това име."
+
+msgid "pse_NOT_A_PSEUDONYM"
+msgstr "Този акаунт не е псевдоним"
+
+msgid "pse_PSEUDONYM"
+msgstr "Псевдоним"
+
+msgid "pse_PSEUDONYM_INVALID_DOMAIN"
+msgstr "Този домейн не се държи от този сървър"
+
+msgid "pse_PSEUDONYM_INVALID_SAMEACCT"
+msgstr "Псевдонимът не може да сочи на същия акаунт"
+
+msgid "pse_PSEUDONYM_NAME"
+msgstr "Име на пседоним"
+
+msgid "pse_REMOVE_PSEUDONYM"
+msgstr "Премахване на псевдоним"
+
+msgid "pse_REMOVE_SUCCEEDED"
+msgstr "Успешно премахнат псевдоним"
+
+msgid "pse_SELECT_ACCOUNT"
+msgstr "Изберете акаунт или група"
+
+msgid "pse_SELECT_INTERNAL"
+msgstr "Само в локалната мрежа"
+
+msgid "pse_TITLE_CREATE"
+msgstr "Създаване на псевдоним"
+
+msgid "pse_USER_OR_GROUP"
+msgstr "Потребител или група"
+
+msgid "pse_VALID_PSEUDONYM_NAMES"
+msgstr " Псевдонимът трябва да съдържа само малки букви, цифри, точки, тирета и подчерти и да започва с малка буква или цифра. Например, \"sales\", \"john.holland\", \"123\" и \"email-administrator\" са правилни псевдоними, а \"John Smith\" и \"Henry Miller\" - не са. Можете също да създавате псевдоними за електронна поща за акаунтите и (виртуалните) домейни, които се държат от този сървър. Например, \"fred@virtualdomain.com\" може да бъде насочен към \"mary\" (или друг допустим потребител). "

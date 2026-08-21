@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Workgroup module\n"
+"POT-Creation-Date: 2026-08-21 10:47+0100\n"
+"PO-Revision-Date: 2026-08-21 10:47+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+
+msgid "Workgroup"
+msgstr "(en) Workgroup"
+
+msgid "wkg_DESC_PDC"
+msgstr "Θα έπρεπε αυτός ο διακομιστής να εκτελεί καθήκοντα ελεγκτή ομάδας εργασίας (workgroup) και τομέα (domain) στο δίκτυο των Windows σας; Θα πρέπει ν' αφήσετε αυτή την επιλογή στο Όχι εάν ένας άλλος διακομιστής έχει ήδη αναλάβει αυτό τον ρόλο στο δίκτυό σας."
+
+msgid "wkg_DESC_ROAM"
+msgstr " Πρέπει αυτός ο διακομιστής να υποστηρίζει προφίλ περιαγώμενων (roaming) χρηστών; Αφήστε την αρχική ρύθμιση Όχι εκτός εάν διαθέτετε εμπειρία στη διαχείριση προφίλ περιαγώμενων χρηστών σε περιβάλλον διακομιστών Windows και γνωρίζετε ότι απαιτείται το χαρακτηριστικό αυτό. "
+
+msgid "wkg_DESC_SERVERNAME"
+msgstr "Πληκτρολογήστε το όνομα το οποίο πρέπει να χρησιμοποιεί αυτός ο διακομιστής για την ανταλλαγή αρχείων με άλλους σε περιβάλλον Windows και Macintosh."
+
+msgid "wkg_DESC_WORKGROUP"
+msgstr " Πληκτρολογήστε το όνομα της ομάδας εργασίας των Windows στην οποία ο διακομιστής αυτός πρέπει να εμφανισθεί. "
+
+msgid "wkg_ERROR_UPDATING"
+msgstr "(en) An error has occurred while updating the workgroup"
+
+msgid "wkg_FORM_TITLE"
+msgstr "Αλλαγή ρυθμίσεων ομάδας εργασίας"
+
+msgid "wkg_INVALID_SERVERNAME"
+msgstr "Το όνομα του διακομιστή πρέπει ν' αρχίζει με ένα γράμμα (κεφαλαίο ή πεζό), ακολουθούμενο από οποιονδήποτε συνδυασμό από γράμματα,αριθμούς,παύλες και κάτω παύλες."
+
+msgid "wkg_INVALID_WORKGROUP"
+msgstr "Το όνομα της ομάδας εργασίας πρέπει ν' αρχίζει με ένα γράμμα (κεφαλαίο ή πεζό), ακολουθούμενο από οποιονδήποτε συνδυασμό από γράμματα,αριθμούς,τελείες, παύλες και κάτω παύλες."
+
+msgid "wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME"
+msgstr "Το όνομα του διακομιστή ταυτίζεται με αυτό της ομάδας εργασίας, αν συγκριθούν σε επίπεδο πεζών χαρακτήρων. Αυτές οι δύο τιμές πρέπει να διαφέρουν προκειμένου να ξεκινήσει η ανταλλαγή αρχείων."
+
+msgid "wkg_LABEL_PDC"
+msgstr "Ελεγκτής ομάδας εργασίας και τομέα"
+
+msgid "wkg_LABEL_ROAM"
+msgstr "Προφίλ περιαγώμενων χρηστών"
+
+msgid "wkg_LABEL_SERVERNAME"
+msgstr "Όνομα διακομιστή"
+
+msgid "wkg_LABEL_WORKGROUP"
+msgstr "Ομάδα εργασίας των Windows"
+
+msgid "wkg_SUCCESS"
+msgstr "Οι νέες ρυθμίσεις της ομάδας εργασίας αποθηκεύτηκαν"

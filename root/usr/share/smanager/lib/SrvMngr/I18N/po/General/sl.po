@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "ACCESS"
+msgstr "Ni dostopa"
+
+msgid "ACCOUNT"
+msgstr "Racun"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "V sistemu ni nobene skupine uporabnikov."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Racun je zaklenjen"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "Vneseno uporabnisko ime je napacno."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "Pri vnosu uporabniskega imena ste vnesli neveljavne znake."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Spreminjanje gesla za uporabnisko ime"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "Ta uporabniski racun ne obstaja."
+
+msgid "ACTION"
+msgstr "Izvedi"
+
+msgid "ADD"
+msgstr "Dodaj"
+
+msgid "APRIL"
+msgstr "April"
+
+msgid "AUGUST"
+msgstr "Avgust"
+
+msgid "Administration"
+msgstr "Administracija"
+
+msgid "All rights reserved"
+msgstr "Vse pravice pridržane"
+
+msgid "BACK"
+msgstr "Nazaj"
+
+msgid "BACKUP"
+msgstr "Nazaj"
+
+msgid "CANCEL"
+msgstr "Preklici"
+
+msgid "COMMENT"
+msgstr "Komentar"
+
+msgid "CONTENT"
+msgstr "Vsebina"
+
+msgid "CREATE"
+msgstr "Kreiraj"
+
+msgid "CREATE_GROUP"
+msgstr "Ustvari novo skupino uporabnikov"
+
+msgid "Collaboration"
+msgstr "Upravljanje"
+
+msgid "Configuration"
+msgstr "Konfiguracija"
+
+msgid "DECEMBER"
+msgstr "December"
+
+msgid "DESCRIPTION"
+msgstr "Opis"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Kratek opis"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "St. ciljnih vrat"
+
+msgid "DISABLED"
+msgstr "Onemogoceno"
+
+msgid "DOMAIN"
+msgstr "Domena"
+
+msgid "DOMAINS"
+msgstr "Domene"
+
+msgid "DOMAIN_NAME"
+msgstr "Ime domene"
+
+msgid "DOWNLOAD"
+msgstr "Prenesi LOG datoteko"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Omogoceno"
+
+msgid "END_OF_REPORT"
+msgstr "Konec poročila"
+
+msgid "ERROR_BELOW"
+msgstr "NAPAKA: Pri preverjanju te strani je prislo do napake. Prosimo premaknite se po strani navzdol in poiscite vzrok za napako."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Nepricakovani znaki so v opisu."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Pri zamenjavi gesla je prislo do napake. Prosimo preverite, ce ste staro geslo vpisali pravilno."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Pri posodabljanju konfiguracijskih datotek iz ariva je prislo do napake."
+
+msgid "FEBRUARY"
+msgstr "Februar"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Napaka: v opisu je nepricakovan ali manjkajoci znak"
+
+msgid "FM_IP_NUMBER1"
+msgstr "To polje mora vsebovati veljavno IP stevilko in ne sme ostati prazno."
+
+msgid "FM_IP_NUMBER2"
+msgstr "Napačen začetni IP naslov"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] je vecji od 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "Vnesti morate MAC naslov."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "Vnesli ste neveljaven MAC naslov."
+
+msgid "FM_NONBLANK"
+msgstr "To polje je obvezen vnos"
+
+msgid "FRIDAY"
+msgstr "Petek"
+
+msgid "GROUP"
+msgstr "Skupina"
+
+msgid "GROUPS"
+msgstr "Skupine"
+
+msgid "GROUP_ADD"
+msgstr "Dodaj skupino"
+
+msgid "GROUP_MEMBERS"
+msgstr "Clani skupine"
+
+msgid "GROUP_NAME"
+msgstr "Ime skupine"
+
+msgid "IP_ADDRESS"
+msgstr "IP naslov"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "IP naslov"
+
+msgid "JANUARY"
+msgstr "Januar"
+
+msgid "JULY"
+msgstr "Julij"
+
+msgid "JUNE"
+msgstr "Junij"
+
+msgid "LOCAL"
+msgstr "Lokalno"
+
+msgid "LOCATION"
+msgstr "Lokacija"
+
+msgid "MARCH"
+msgstr "Marec"
+
+msgid "MAY"
+msgstr "Maj"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "MODIFY"
+msgstr "Uredi"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Posodobi skupino uporabnikov"
+
+msgid "MONDAY"
+msgstr "Ponedeljek"
+
+msgid "Miscellaneous"
+msgstr "Mesano"
+
+msgid "NAME"
+msgstr "Ime"
+
+msgid "NETWORK"
+msgstr "Omrezje"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Sprejmi geslo samo z lokalnega omrezja"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "(en)Allow public access (entire Internet)"
+
+msgid "NEXT"
+msgstr "Naprej"
+
+msgid "NO"
+msgstr "Ne"
+
+msgid "NOVEMBER"
+msgstr "November"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "Simboli, kot je (|) niso dovoljeni vnos v tem polju"
+
+msgid "OCTOBER"
+msgstr "Oktober"
+
+msgid "OFF"
+msgstr "Izklopljeno"
+
+msgid "OK"
+msgstr "V redu"
+
+msgid "ON"
+msgstr "Vklopljeno"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Porocilo o delovanju"
+
+msgid "PASSWORD"
+msgstr "Geslo"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Zamenjaj geslo"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Vase geslo je bilo uspesno spremenjeno."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "Vneseno geslo vsebuje neveljavne znake."
+
+msgid "PASSWORD_NEW"
+msgstr "Novo geslo:"
+
+msgid "PASSWORD_OLD"
+msgstr "Staro geslo:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "Pri vnosu starega gesla ste vnesli neveljavne znake."
+
+msgid "PASSWORD_RESET"
+msgstr "Resetiraj uporabnisko geslo"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "Gesli se ne ujemata."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Novo geslo (se enkrat):"
+
+msgid "PERFORM"
+msgstr "Izvedi"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Spremeni nastavitve"
+
+msgid "REMOTE"
+msgstr "Odstrani"
+
+msgid "REMOVE"
+msgstr "Odstrani"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Odstrani skupino uporabnikov"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Resetiraj uporabnisko geslo"
+
+msgid "RESTORE"
+msgstr "Restavriraj"
+
+msgid "ROUTER"
+msgstr "Usmerjevalnik"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Sobota"
+
+msgid "SAVE"
+msgstr "Shrani"
+
+msgid "SELF"
+msgstr "Jaz"
+
+msgid "SEPTEMBER"
+msgstr "September"
+
+msgid "SHUTDOWN"
+msgstr "Zaustavitev ali ponovni zagon"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Ni dostopa"
+
+msgid "SUNDAY"
+msgstr "Nedelja"
+
+msgid "Security"
+msgstr "Varnost"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Četrtek"
+
+msgid "TUESDAY"
+msgstr "Torek"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Nepravilno ime strežnika"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Trenutni seznam tiskalnikov"
+
+msgid "USER_NAME"
+msgstr "Uporabnisko ime"
+
+msgid "User password"
+msgstr "Uporabniško geslo"
+
+msgid "WEDNESDAY"
+msgstr "Sreda"
+
+msgid "YES"
+msgstr "Da"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Uporabnisko ime:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "Vneseno uporabnisko ime je napacno."
+
+msgid "Your Settings"
+msgstr "Vaše nastavitve"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Prekliči"
+
+msgid "del"
+msgstr "izbriši"
+
+msgid "edit"
+msgstr "uredi"
+
+msgid "exit"
+msgstr "Izhod"
+
+msgid "hello"
+msgstr "zdravo"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

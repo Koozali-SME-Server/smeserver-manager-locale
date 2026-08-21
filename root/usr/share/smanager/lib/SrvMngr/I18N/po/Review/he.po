@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Review module\n"
+"POT-Creation-Date: 2026-08-21 11:02+0100\n"
+"PO-Revision-Date: 2026-08-21 11:02+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+
+msgid "Review configuration"
+msgstr "סקירת תצורה"
+
+msgid "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgstr "רשתות מקומיות נוספות"
+
+msgid "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgstr "תחילת טווח כתובות DHCP"
+
+msgid "rvw_DESCRIPTION"
+msgstr "(en)This report summarizes the networking, server, and domain parameters on this server relevant to configuring the client computers on your network. You may wish to print this page and use it as a reference."
+
+msgid "rvw_DHCP_SERVER"
+msgstr "שרת DHCP"
+
+msgid "rvw_DNS_SERVER"
+msgstr "שרת DNS"
+
+msgid "rvw_DOMAIN_INFORMATION"
+msgstr "מידע על הדומיין"
+
+msgid "rvw_EMAIL_ADDRESSES"
+msgstr "כתובות דוא״ל"
+
+msgid "rvw_EMAIL_FIRSTNAME"
+msgstr "firstname"
+
+msgid "rvw_EMAIL_LASTNAME"
+msgstr "lastname"
+
+msgid "rvw_EMAIL_USERACCOUNT"
+msgstr "useraccount"
+
+msgid "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgstr "סוף טווח כתובות DHCP"
+
+msgid "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "(en)External IP address / subnet mask"
+
+msgid "rvw_FORM_TITLE"
+msgstr "סקירת תצורה"
+
+msgid "rvw_FTP_SERVER"
+msgstr "שרת FTP"
+
+msgid "rvw_GATEWAY"
+msgstr "שער כניסה"
+
+msgid "rvw_INTERNET_VISIBLE_ADDRESS"
+msgstr "כתובת IP ציבורית גלויה באינטרנט"
+
+msgid "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "(en)Local IP address / subnet mask"
+
+msgid "rvw_NETWORKING_PARAMS"
+msgstr "פרמטרי רשת"
+
+msgid "rvw_NO_NETWORKS"
+msgstr "לא הוגדרו רשתות נוספות"
+
+msgid "rvw_NO_VIRTUAL_DOMAINS"
+msgstr "(en) rvw_NO_VIRTUAL_DOMAINS"
+
+msgid "rvw_PRIMARY_DOMAIN"
+msgstr "דומיין ראשי"
+
+msgid "rvw_PRIMARY_WEB_SITE"
+msgstr "אתר אינטרנט ראשי"
+
+msgid "rvw_PROXY_SERVER"
+msgstr "שרת פרוקסי"
+
+msgid "rvw_SERVER_MANAGER"
+msgstr "מנהל השרתים"
+
+msgid "rvw_SERVER_MODE"
+msgstr "מצב שרת"
+
+msgid "rvw_SERVER_NAMES"
+msgstr "שמות שרתים"
+
+msgid "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgstr "(en)SMTP, POP, and IMAP mail servers"
+
+msgid "rvw_USER_PASSWORD_PANEL"
+msgstr "לוח סיסמת המשתמש"
+
+msgid "rvw_VIRTUAL_DOMAINS"
+msgstr "דומיינים וירטואליים"
+
+msgid "rvw_WEB_SERVER"
+msgstr "שרת אינטרנט"

@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "สำรองข้อมูลหรือกู้คืน"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "ทุกการสำรอง"
+
+msgid "bac_AM"
+msgstr "AM"
+
+msgid "bac_AM/PM"
+msgstr "AM/PM"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "กำลังมีการเรียกคืนข้อมูลสำรองอยู่ที่อื่น โปรดลองอีกครั้งในภายหลัง"
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "ปกติการสำรองลงเทปจะทำงานเวลา:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "เลือกไฟล์ที่จะแสดง"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "สถานะและการตั้งค่าของการสำรองข้อมูล"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr "(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>\n\n  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>\n\n  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>\n\n  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>"
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "  เซิร์ฟเวอร์ของคุณมีข้อมูลมากเกินไปที่จะ สำรองข้อมูลไปเดสก์ทอป ได้อย่างน่าเชื่อถือได้ "
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "แฟ้มสำรองไม่สมบูรณ์"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "สำรองหรือเรียกคืนข้อมูลของเซิร์ฟเวอร์"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "โปรดเลือกตัวเลขระหว่าง 0 ถึง 12"
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "โปรดระบุตัวเลขนาทีระหว่าง 0 และ 59"
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "คำเตือน: สำหรับการสำรองข้อมูลขนาดใหญ่ ตรวจสอบความสมบูรณ์อาจใช้นาน ควรทำเมื่อการทำสำรองข้อมูลไปเครื่องลูกข่ายถูกปิดการทำงานอยู่"
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "เลือกที่นี่ เพื่อให้ทดสอบความสมบูรณ์ของแฟ้มสำรองข้อมูลทั้งหมดที่จะถูกใช้ตามตัวเลือกเรียกคืนฯ ที่เลือกด้วย"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "ระดับการบีบอัดของข้อมูลสำรอง"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "กรุณาตั้งค่าการสำรองข้อมูล"
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "ตั้งค่าเทปสำรองข้อมูล"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "การตั้งค่าการสำรองข้อมูลกับเครื่องลูกข่าย"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "คุณสามารถกำหนดจำนวนของชุดงานสำรองข้อมูลที่จะเก็บที่เครื่องลูกข่าย ซึ่งจะมีการเวียนใช้ภายในอัตโนมัติแต่ละชุดอาจ (มักจะ) เป็นการบันทึกข้อมูลที่หลายวันๆ ติดต่อกันในกรณีการสำรองข้อมูลครั้งแรก จะเป็นการเก็บสำรองข้อมูลทั้งหมด ส่วนครั้งถัดไปจะเป็นการสำรองเฉพาะข้อมูลที่ต่างไปจากครั้งแรก คุณยังสามารถกำหนดระยะเวลาสำหรับแต่ละช่วงกระทำการ หรือทำเฉพาะเมื่อข้อมูลเปลี่ยนแปลงก็ได้ เมื่อการทำงานหยุดลงตามกำหนดที่ระบุไว้ มันก็จะเริ่มสร้างชุดงานลักษณะเดียวกันนี้ใหม่ต่อๆ ไป โดยข้อมูลชุดที่หยุดลงนั้นจะมีข้อมูลเฉพาะถึงเวลาที่มันจบงานลง ไม่รวมข้อมูลที่เปลี่ยนแปลงหลังจากนั้นอีก"
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "ไม่สามารถถอดรหัสไฟล์สำรองข้อมูล:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "ไม่สามารถเรียกใช้ pipeline ของงานสำรองข้อมูล"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "ไม่สามารถแยกโปรเซสได้:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "สำรองข้อมูลส่งไปเดสก์ทอป"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "นำข้อมูลสำรองจากเดสก์ทอปมาใช้"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " กระบวนการนี้จะอัพโหลดแฟ้มสำรองข้อมูลจากเดสก์ทอปของคุณขึ้นเซิร์ฟเวอร์ และย้อนการตั้งค่าและแฟ้มต่างๆ ของผู้ใช้กลับไปการกระทำนี้ควรเฉพาะทำกับเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่ "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "ตรวจทานแฟ้มสำรองข้อมูลของเดสก์ทอป"
+
+msgid "bac_DOW"
+msgstr "วันอาทิตย์ วันจันทร์ วันอังคาร วันพุธ วันพฤหัสบดี วันศุกร์ วันเสาร์ ทุกวัน"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "เปิดใช้/ปิดไม่ใช้ การสำรองลงเทปเวลากลางคืน (Nightly Tape Backup)"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "เปิดใช้/ปิดไม่ใช้ การสำรองข้อมูลไปเครื่องลูกข่าย แบบรายวัน"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "เปิดการใช้งานระบบเทปสำรองข้อมูล"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "เปิดใช้การสำรองข้อมูลไปเครื่องลูกข่าย"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "เกิดข้อผิดพลาดขณะอ่านไฟล์จาก"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "ไดเรกทอรีสำรองข้อมูลถูกเมานต์อยู่แล้ว"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "เกิดผิดพลาดขึ้นใน event ของ conf-backup"
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "เกิดข้อผิดพลาดเมื่อเรียกใช้ Dar catalog"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "เกิดข้อผิดพลาดขณะทำการแตกไฟล์ด้วย Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "ระดับการบีบอัดต้องอยู่ระหว่าง 0 (ไม่บีบอัด) และ 9 (บีบอัดให้มากที่สุด)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "ตัวเลขนี้ต้องเป็นเลข 1 หรือมากกว่า การสำรองครั้งแรกจะเป็นการสำรองแบบเต็ม ถัดมาจะเป็นข้อมูลเฉพาะที่แตกต่าง"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "ชื่อพื้นที่จัดเก็บ (share name) ไม่ถูกต้อง"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "ข้อผิดพลาด: ชั่วโมงทำการสำรองข้อมูลที่ไม่ถูกต้อง:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "การล็อกอินไม่ถูกต้อง"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "ข้อผิดพลาด:นาทีทำการสำรองข้อมูลที่ไม่ถูกต้อง:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "รหัสผ่านไม่ถูกต้อง"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "ข้อผิดพลาด: ตัวเลขชั่วโมงแจ้งเตือนไม่ถูกต้อง:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "ข้อผิดพลาด: ตัวเลขนาทีแจ้งเตือนไม่ถูกต้อง:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "วันที่ที่ถูกต้องต้องอยู่ในรูปแบบ ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] เช่น: 2005/12/31-08:23:32 หรือ 10-08:32 หรือ 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "ตัวเลขชุดต้องเป็นเลข 1 หรือมากกว่า"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "ระยะเวลาสูงสุดที่จะให้ใช้ในการทำสำรอง ต้องอยู่ระหว่าง 1 ถึง 24 ชั่วโมง"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "หมายเลข IP หรือชื่อโฮสต์ของเครื่องลูกข่ายไม่ถูกต้อง"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "ไม่สามารถเมาท์ (mount) โฟล์เดอร์ของเครื่องลูกข่ายได้"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "ไดเรกทอรีสำรองข้อมูลไม่ได้ถูกเมานต์"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "เกิดการยกเลิกการคืนข้อมูลสำรองเพราะไม่พบหรือไม่สามารถอ่านแฟ้มสำรองขั้นต้น (แบบเต็ม) ที่ต้องใช้"
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "ไม่มีไดเรกทอรีของโฮสต์ของคุณที่โฟลเดอร์ปลายทาง ชื่อโฮสต์ของคุณอาจแตกต่างจากข้อมูลของแฟ้มสำรอง"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "เกิดการยกเลิกการคืนข้อมูลสำรองเพราะไม่พบหรือไม่สามารถอ่านแฟ้มสำรองตัวลูก (เก็บเฉพาะข้อมูลที่เปลี่ยนแปลง) หมายเลข"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "ผิดพลาด: ไม่พบ removable disk โปรดทำการเชื่อมต่อ removable disk หรือเลือกประเภทการสำรองข้อมูลแบบอื่น"
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "ผิดพลาด: ไม่พบ removable disk โปรดทำการเชื่อมต่อ removable disk หรือเลือกประเภทการสำรองข้อมูลแบบอื่น"
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "ข้อผิดพลาดเกิดขึ้นระหว่างขั้นตอนหลังการสำรองข้อมูล"
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "ข้อผิดพลาดเกิดขึ้นระหว่างการเตรียมการสำรองข้อมูล"
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "ข้อผิดพลาดเกิดขึ้นระหว่างการเตรียมการนำข้อมูลสำรองมาใช้"
+
+msgid "bac_ERR_READING_FILE"
+msgstr "มีข้อผิดพลาดในการอ่านแฟ้มสำรองข้อมูล"
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "เกิดข้อผิดพลาดเกิดขึ้นในการเรียกคืนข้อมูลจากเทป"
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "เกิดข้อผิดพลาดขึ้นขณะกำลังเรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย"
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "ข้อผิดพลาดขึ้นระหว่างคืนค่า gid ของ 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "ข้อผิดพลาดขึ้นระหว่างคืนการตั้งค่า group ของ 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "เกิดข้อผิดพลาดขึ้นระหว่างการปรับปรุงการกำหนดค่าของระบบหลังจากเรียกคืนข้อมูลสำรองจากเทปแล้ว"
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "เกิดข้อผิดพลาดขึ้นขณะกำลังย้อนคืนการตั้งค่า หลังการเรียกคืนข้อมูลสำรอง"
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "เกิดข้อผิดพลาดขึ้นเมื่อทำการ unmount พื้นที่ปลายทาง"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "แฟ้มและไดเรกทอรีต่อไปนี้ถูกเรียกคืนกลับมา:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "แฟ้มต่อไปนี้ถูกเลือกทำการเก็บสำรอง :"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "จะใช้แฟ้มข้อมูลสำรองจาก"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "ชื่อที่ถูกกรองโดยเงื่อนไข"
+
+msgid "bac_FINISHED_AT"
+msgstr "และสิ้นสุดที่:"
+
+msgid "bac_FREE_SPACE"
+msgstr " คุณมีพื้นที่ว่างบนเซอร์ฟเวอร์ประมาณ $tmpfree ตรวจสอบแฟ้มสำรองข้อมูลที่เครื่องเดสก์ทอปของคุณก่อนว่ามีขนาดไม่ใหญ่กว่า$halffree ก่อนที่นำข้อมูลสำรองมาใช้ "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "การสำรองข้อมูลแบบเต็มได้รับอนุญาตให้ใช้กับ"
+
+msgid "bac_HOURS"
+msgstr "ชั่วโมง"
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "ไม่ให้การสำรองแบบเต็มมีการหมดเวลา"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "เตือนให้ใส่เทป ณ. เวลา (ชั่วโมง/นาที)"
+
+msgid "bac_LOGIN"
+msgstr "ผู้ล็อกอินคือ"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "หลังจากเรียกคืนข้อมูลสำรองเสร็จ คุณจะต้องรีบู๊ตเซิร์ฟเวอร์ใหม่"
+
+msgid "bac_Mounted disk"
+msgstr "ดิสก์ที่เมานต์แล้ว"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "การตั้งค่าของเซิร์ฟเวอร์ที่และไฟล์ข้อมูลของผู้ใช้กำลังถูกเรียกคืนจากเทปสำรองข้อมูล"
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "กำลังเริ่มการเรียกคืนข้อมูลสำรองการตั้งค่าและไฟล์ข้อมูลของผู้ใช้จากแหล่งที่เก็บบนเครื่องลูกข่าย"
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "ไม่มีข้อมูล ชุดของการสำรองข้อมูล (backup set) ในโฟล์เดอร์ปลายทางที่เครื่องลูกข่าย ตรวจสอบการตั้งค่าของคุณอีกครั้ง"
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "ไม่ได้สามารถระบุ uid ของ user ที่ชื่อ:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "ในแต่ละชุดเป็นการสำรองข้อมูลรายวัน"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "จำนวนการเวียนใช้ของ backup sets"
+
+msgid "bac_No suitable local devices found"
+msgstr "ไม่พบอุปกรณ์ภายในเครื่องที่เหมาะสม"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " หน้านี้จะรีเฟรชเพื่อแสดงสถานะล่าสุดใน [_1] วินาที, หรือคลิ๊กที่นี่ "
+
+msgid "bac_PASSWORD"
+msgstr "รหัสผ่านคือ"
+
+msgid "bac_PM"
+msgstr "บ่าย"
+
+msgid "bac_READ_COMPLETE"
+msgstr " คุณสามารถเลือกไดเรกทอรีและไฟล์ที่คุณต้องการเรียกคืนในรายการที่แสดง (ใช้ ctrl หรือ shiftเพื่อเลือกหลายๆ รายการ) คำเตือน: ถ้าคุณเลือกไดเรกทอรี ทุกไฟล์และไดเรกทอรีที่ข้างในจะถูกเลือกใช้ โดยค่าเริ่มต้น ทุกอย่างของเวอร์ชันล่าสุดของไฟล์ที่ถูกเลือกจะถูกเรียกคืนทั้งหมด แต่ถ้าคุณระบุวันที่ในรูปแบบ ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] กระบวนการจะเรียกคืนเฉพาะรายการที่ถูกแก้ไขล่าสุด ก่อนวันที่ที่ระบุ "
+
+msgid "bac_REBOOT"
+msgstr "รีบูต"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "เรียกให้แสดงผลนี้ใหม่"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "ข้อความเตือนจะถูกส่งไปที่:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "ไม่สามารถดำเนินการเรียกคืน การตั้งค่าของเซิร์ฟเวอร์"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "นำข้อมูลสำรองกลับมาใช้เสร็จสมบูรณ์"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "ระบบการนำข้อมูลสำรองมาใช้ทำงานเสร็จแล้ว"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "คืนข้อมูลสำรองของการตั้งค่าของเซอร์เวอร์จากเทปสำรองข้อมูล"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>กระบวนการนี้จะเรียกคืนการตั้งค่าและไฟล์ข้อมูลผู้ใช้จากเซิร์ฟเวอร์เทปสำรองข้อมูล <b>การเรียกคืนข้อมูลแบบนี้ควรทำกับเฉพาะเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></p>\n\n  <p>ให้แน่ใจว่าคุณได้ใส่เทปสำรองข้อมูลที่ต้องการในเครื่องอ่านเทปก่อนที่จะดำเนินการต่อ</p>\n\n  <p>หลังจากเรียกคืนเสร็จสมบูรณ์คุณจะต้องรีบู๊ตเซิร์ฟเวอร์</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "เรียกคืนข้อมูลการตั้งค่าของเซอร์ฟเวอร์จากเครื่องลูกข่าย"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>กระบวนการนี้จะเรียกคืนการตั้งค่าและไฟล์ข้อมูลของผู้ใช้จากเครื่องลูกข่ายที่รับเก็บมูลสำรองไว้ <b>การเรียกคืนนี้ควรทำกับเฉพาะเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></p>\n\n  <p>ให้เลือกการไฟล์ข้อมูลสำรองที่ถูกต้องเพื่อดำเนินการด้านล่างนี้</p>\n\n  <p>หลังจากการเรียกคืนข้อมูลสำรองเสร็จสมบูรณ์ คุณจะต้องรูบู๊ตเซิร์ฟเวอร์</p>\n\n  เรียกคืนข้อมูลสำรองจาก : "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "การเรียกคืนข้อมูลสำรองล้มเหลว! แฟ้มสำรองข้อมูลไม่สมบูรณ์"
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "การนำข้อมูลสำรองกลับมาใช้ล้มเหลว! มีข้อผิดพลาดในการอ่านแฟ้มสำรองข้อมูล"
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "เรียกคืนข้อมูลสำรองจากเทป"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "เรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "การเรียกคืนข้อมูลสำรองกำลังทำงาน"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "ระบบการนำข้อมูลสำรองมาใช้กำลังทำงาน เริ่มต้นที่:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "เมื่อขั้นตอนการเรียกคืนข้อมูลสำรอง (restore) เสร็จสิ้น คุณจะต้องรีบู๊ตเครื่อง การเรียกคืนข้อมูลสำรองจะสมบูรณ์จริงๆ เมื่อไฟล์ /etc/smbpasswd ถูกนำกลับมา และข้อความ \"นำข้อมูลสำรองกลับมาใช้เสร็จสมบูรณ์\" ปรากฎขึ้นที่บรรทัดล่างสุดของจอ"
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "นำข้อมูลการตั้งค่าของเซิร์ฟเวอร์ที่สำรองไว้กลับมาใช้"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "ไม่ผ่านการทดสอบความสมบูรณ์ (ไม่สมบูรณ์)"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "กำลังเรียกคืนข้อมูลสำรองจากเทป"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "กำลังเรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "เลือกดำเนินการอย่างใดอย่างหนึ่ง"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "เลือก ไฟล์สำรองข้อมูล"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "เรียกคืนข้อมูลทั้งหมด ณ. เวลาก่อน"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "เลือกไฟล์ที่จะเรียกคืน"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "เลือกประเภทการแชร์ของปลายทางที่จะใช้เก็บข้อมูลสำรอง"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "รีบู๊ตเซอร์ฟเวอร์"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "เซอร์ฟเวอร์เริ่มต้นรีบู๊ต"
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "ที่เก็บข้อมูลสำรอง"
+
+msgid "bac_STARTED_AT"
+msgstr "เริ่มต้นที่:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "ปิดการใช้งานระบบเทปสำรองข้อมูลเสร็จแล้ว"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "ปิดไม่ใช้งานการสำรองข้อมูลไปเครื่องลูกข่ายเสร็จแล้ว"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "เปิดใช้งานระบบเทปสำรองข้อมูลเสร็จแล้ว"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "เปิดใช้งานการสำรองข้อมูลไปเครื่องลูกข่ายเสร็จแล้ว"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "การสำรองข้อมูลลงเทปคือ"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "สำรองลงเทป ณ. เวลา (ชั่วโมง/นาที)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "ตั้งค่าเทปสำรองข้อมูล"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>เลือกว่าคุณต้องการเปิดใช้การสำรองข้อมูลเวลากลางคืนหรือไม่ แล้วระบุเวลาแจ้งเตือนให้ใส่เทปสำรองข้อมูล</p>\n\n  <p>คุณต้องมีเครื่องบันทึกเทปสำรองข้อมูลที่ระบบรู้จัก และข้อความแจ้งเตือนจะถูกส่งไปยังผู้ดูแลระบบเมื่อถึงเวลาตั้งเตือนตามที่กำหนดหากตรวจพบว่าไม่มีเทปอยู่ในเครื่องบันทึก</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "นำข้อมูลจากเทปสำรองข้อมูลมาใช้"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "กำลังทดสอบความสมบูรณ์ของแฟ้มสำรองข้อมูล"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "กำลังทดสอบความสมบูรณ์ของแฟ้มสำรองข้อมูลทั้งหมดที่จะถูกใช้ตามตัวเลือกเรียกคืนฯ ที่เลือก"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "ไม่สามารถเรียกคืนการตั้งค่าเซิร์ฟเวอร์"
+
+msgid "bac_UPDATE_CONF"
+msgstr "บันทึกการแก้ไข"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "กำลังบันทึกการตั้งค่าเทปสำรองข้อมูล"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "กำลังบันทึกการแก้ไขการตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่าย"
+
+msgid "bac_VERIFY"
+msgstr "ตรวจทาน"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " ตัวเลือกนี้จะแสดงชื่อไฟล์ทั้งหมดของแฟ้มสำรองข้อมูลบนเดสก์ทอปที่สร้างไปก่อนหน้านี้ คุณสามารถใช้ตัวเลือกนี้เพื่อตรวจสอบเนื้อหาของแฟ้มสำรองข้อมูลไฟล์สุดท้ายที่อยู่ในแฟ้มนั้นๆ ควรเป็นไฟล์ชื่อ \"smbpasswd\" "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "การตรวจทานเสร็จสมบูรณ์"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>ตัวเลือกนี้จะแสดงชื่อของไฟล์ทั้งหมดที่เคยสร้างไปของของการสำรองไปเครื่องลูกข่ายรายวัน คุณสามารถใช้ตัวเลือกนี้เพื่อตรวจสอบความถูกต้องของไฟล์ <b>โดยให้เลือกไฟล์ที่คุณต้องการตรวจสอบ</b></p>\n\n  <p>เฉพาะไฟล์ที่มีการทำเครื่องหมาย~[บันทึก~] อยู่ข้างใน</p>\n\n  <br/>จะการตรวจสอบนี้จะทำกับไฟล์ที่เก็บไว้ที่ : "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "ตรวจทานข้อมูลของการ สำรองข้อมูลไปเครื่องลูกข่าย"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "เมื่อเวลาสำรอง:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "และเวลาแจ้งเตือนให้ใส่เทป:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "การสำรองข้อมูลไปเครื่องลูกข่ายจะเริ่มทำงานตามปกติ ณ. เวลา"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "ตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่าย"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "สร้างหรือแก้ไขค่าการทำสำรองไปเครื่องลูกข่าย"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "การสำรองข้อมูลเวิร์กสเตชันคือ"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "ระดับการบีบอัด (0-9) ของการสำรองคือ"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "จำนวนวันสำรองที่อยู่ในแต่ละชุดคือ"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>หน้าจอนี้จะแสดงข้อมูลปัจจุบันของการตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่าย คุณสามารถแก้ไขค่าต่างๆ ที่หน้าจอนี้ และในหน้าจอถัดไป</p>\n\n  "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "การสำรองคือ"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "จะทำการสำรองไปที่เครื่องลูกข่ายในระบบ LAN"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "ยกเว้นการสำรองแบบเต็มที่ทำภายใน 24 ชั่วโมงหลังที่เกิดการใช้เวลาเกินคาบเวลาที่กำหนด (time out)"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "ทำการสำรองลงที่ local removable disk"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>ขณะนี้ การสำรองไปเครื่องลูกข่ายไม่ได้ถูกตั้งค่า คุณสามารถตั้งค่าในหน้าจอนี้และหน้าจอถัดไป</p>\n\n  "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "ตัวเลขจำนวนการเวียนใช้ในชุดคือ"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "ตั้งค่าเครื่องลูกข่ายสำหรับการสำรองข้อมูล"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "โฟลเดอร์ปลายทางที่จะเก็บข้อมูลสำรองคือ"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "สำรองข้อมูลไปเครื่องลูกข่าย ณ. เวลา (ชั่วโมง/นาที)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "การสำรองรายวันเริ่มใช้เวลาเกินช่วงคาบที่อนุญาต (time out) ที่กำหนดไว้ตั้งแต่"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "จะเกิดการสำรองรายวันเมื่อเวลา"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "ทำการสำรองลงที่ local removable disk"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "โดย"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "ตั้งค่า สำรองข้อมูลไปเครื่องลูกข่าย"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "อนุญาตให้มีการทำการสำรองแบบเต็ม (งานสำรองชุดใหม่) เฉพาะกับ"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "อนุญาตให้มีการทำการสำรองแบบเต็มทุกวัน (งานสำรองชุดใหม่)"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "ชื่อล็อกอิน"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "ชื่อโฮสก์หรือหมายเลข IP ของเครื่องลูกข่าย"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "คุณต้องตั้งค่าการสำรองข้อมูลไปเครื่องลูกข่ายให้ถูกต้องก่อน"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "เรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "ไฟล์ที่ทำการเลือกให้เรียกคืนข้อมูลสำรองจากเครื่องลูกข่าย"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "ทำการเลือกไฟล์ที่จะเรียกคืนจากเครื่องลูกข่าย"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " กระบวนการนี้จะเรียกคืนแฟ้มและไดเรกทอรีที่ระบุเท่านั้น คุณต้องเลือกไฟล์สำรองที่จะให้กู้คืน ถ้าคุณไม่ทราบที่ว่าไฟล์ใดที่จะต้องเรียกคืนให้ใช้ตัวเลือก 'ทุกๆ การสำรอง (All backups)' หน้าจอถัดไปจะมีการแสดงไฟล์และไดเรกทอรีเพื่อจะให้คุณระบุสิ่งที่ต้องเรียกคืน คุณสามารถจำกัดจำนวนไฟล์และไดเรกทอรีที่ปรากฏในหน้าจอนั้นโดยการตั้งเงื่อนไขข้อมูลที่จะให้แสดง, applied as a regular expression to the displayed names.เป็นสิ่งที่พึงระวังและคุณต้องรับทราบความเสี่ยงว่า การเรียกคืนข้อมูลเช่นนี้นี้อาจทำให้เซอร์ฟเวอร์ทำงานผิดปกติ หรือไม่สามารถทำงานได้ ขณะนี้ จะเป็นการเรียกคืนไฟล์ข้อมูลสำรองจาก : "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "ตัวเลือกเพิ่มเติม ระยะเวลาสูงสุดที่ให้ใช้ในการทำการสำรอง (เป็นชั่วโมง)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "ตรวจทานข้อมูลของการ สำรองข้อมูลไปเครื่องลูกข่าย"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X สำรองข้อมูล หรือนำข้อมูลสำรองของเซิร์ฟเวอร์กลับมาใช้"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "คุณต้องรีบูตเครื่องเซิร์ฟเวอร์เพื่อให้ค่าต่างๆ เปลี่ยนย้อนกลับไปเป็นเหมือนเมื่อตอนที่ได้ทำการสำรองข้อมูลสำรองส่งผล"
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "อุปกรณ์บันทึกข้อมูลแบบถอดได้ที่เครื่องเซอร์ฟเวอร์ (local removable disk)"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>การสำรองข้อมูลและการนำข้อมูลสำรองของเซอร์ฟเวอร์กลับมาใช้มีสองวิธีคือ โดยใช้พื้นที่เดสก์ทอปบนเครื่องของคุณ และเทปแบคอัพ</p>\n\n  <p>ในวิธีแรกจะทำสำเนาการตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้ จากนั้นดาวน์โหลดลงมาที่เดสก์ทอปของคุณ ซึ่งจะทำผ่านเว็บเบราเซอร์ ปัจจุบันขนาดรวมของไฟล์การตั้งค่าของเซอร์ฟเวอร์และข้อมูลของผู้ใช้มีอยู่ประมาณ <b>[_3]</b> โดยทั่วไปไฟล์แบคอัพจริงจะเล็กกว่านี้ ซึ่งขึ้นกับข้อมูลจะสามารถถูกบีบอัดลงได้มากแค่ใหน ตัวเลือก \\\"ตรวจทานไฟล์ของการสำรองไปเดสก์ทอป\\\" จะใช้เมื่อต้องหากการให้ทำการตรวจสอบความถูกต้องของไฟล์สำรองนั้นด้วย</p>\n\n  <p>การสำรองโดยใช้เทปแบคอัพจะใช้ชุดโปรแกรมที่ชื่อ <i>[_1]</i> โดยจะทำการสำรองข้อมูลทั้งหมดทั้งฮาร์ดไดร์ลงเทป และทำทุกวัน (ทุกคืน) มันทำงานได้เฉพาะกับเครื่องเล่นเทปที่มันรู้จักและเทปต้องป้องกัน มันจะทำงานโดยอัตโนมัติเมื่อถึงเวลาที่ตั้งไว้ (รวมถึงทำการเตือนล่วงหน้าให้ใส่เทป โดยจะอีเมล์ไปที่ผู้ดูแลระบบของเซอร์ฟเวอร์นี้) ขณะนี้ฮาร์ดดิสมีข้อมูลทั้งหมดขนาดประมาณ <b>[_2]</b></p>\n\n  <p>วิธีการทั้งสองแบบต่างก็สามารถเรียกคืนข้อมูลสำรองไว้ได้ <b>คำแนะนำ การเรียกคืนข้อมูลสำรองนี้ควรทำเฉพาะกับเซอร์ฟเวอร์ที่ติดตั้งโปรแกรมใหม่</b></p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "สำรองหรือเรียกคืนข้อมูลสำรอง"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " การทำสำรองข้อมูลลงเทปถูก ปิดการทำงาน "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " ขณะนี้การสำรองข้อมูลลงเทปถูก เปิดใช้งาน "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " การสำรองข้อมูลไปเครื่องลูกข่ายถูก ปิดไม่ใช้งาน "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " ขณะนี้การ สำรองข้อมูลไปเครื่องลูกข่าย ถูก เปิดใช้งาน "

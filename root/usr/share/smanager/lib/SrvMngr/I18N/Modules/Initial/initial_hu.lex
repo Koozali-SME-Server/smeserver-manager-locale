@@ -12,8 +12,8 @@
   <p> A rendszer adminisztrálásához kattintson a képernyő bal oldalán lévő oszlop valamely menüpontjára.</p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Üdvözli az SME szerver. Ez a szoftver SEMMILYEN GARANCIÁT NEM TARTALMAZ. Kérjük <a href="/smanager/support" target="main">kattintson ide</a> a részletes terméktámogatási, garancia és licensz információkért. 
-
-  <p> <a href="/server-manager/noframes">Kattintson ide</a> a rendszer adminisztrációs funkciók listájának megtekintéséhez. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Üdvözli az SME szerver. Ez a szoftver SEMMILYEN GARANCIÁT NEM TARTALMAZ. Kérjük <a href="/smanager/support" target="main">kattintson ide</a> a részletes terméktámogatási, garancia és licensz információkért. 
+#
+#  <p> <a href="/server-manager/noframes">Kattintson ide</a> a rendszer adminisztrációs funkciók listájának megtekintéséhez. </p>
+#
+#  ',

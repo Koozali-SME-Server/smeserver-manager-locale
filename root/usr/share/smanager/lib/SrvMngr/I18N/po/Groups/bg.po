@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Groups module\n"
-"POT-Creation-Date: 2026-08-20 14:49+0100\n"
-"PO-Revision-Date: 2026-08-20 14:49+0100\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -66,11 +66,3 @@ msgstr "Грешка: Това не е съществуващ акаунт на 
 
 msgid "grp_NO_MEMBERS"
 msgstr "Грешка: няма членове в групата. Новата група не бе създадена."
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "grp_CONFIRM_DELETE_GROUP"
-#~ msgstr " Сигурни ли сте, че искате да премахнете тази група?\n\n  "
-#~ msgid "grp_DELETE_ERROR"
-#~ msgstr "Възникна грешка по време на премахването на потребителската група."
-#~ msgid "grp_INVALID_GROUP_DESCRIPTION"
-#~ msgstr "Грешка: неочаквани или липсващи символи в описанието на групата"

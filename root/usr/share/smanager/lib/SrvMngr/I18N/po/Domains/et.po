@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Domains module\n"
+"POT-Creation-Date: 2026-08-21 10:15+0100\n"
+"PO-Revision-Date: 2026-08-21 10:15+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et\n"
+
+msgid "dom_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this domain ?"
+
+msgid "dom_ADD_DOMAIN"
+msgstr "Lisa domeen"
+
+msgid "dom_CONTENT"
+msgstr "[_1] i-bay"
+
+msgid "dom_CONTENT_FIELD_DESCRIPTION"
+msgstr "(en)For the web site, you may choose your primary web site or any i-bay as the content."
+
+msgid "dom_CREATE_TITLE"
+msgstr "Loo uus domeen"
+
+msgid "dom_CURRENT_DOMAINS"
+msgstr "Domeenide praegune loend"
+
+msgid "dom_DESC_CORPORATE_DNS"
+msgstr "(en)If this server does not have access to the Internet, or you have special requirements for DNS resolution, enter the DNS server IP addresses here. These fields should be left blank unless you have a specific reason to configure other DNS servers. You should not enter the address of your ISP's DNS servers here, as the server is capable of resolving all Internet DNS names without this additional configuration."
+
+msgid "dom_DESC_CORPORATE_DNS_CURRENT"
+msgstr " Asutuse DNS seaded "
+
+msgid "dom_DESC_NAMESERVERS"
+msgstr "(en)You can select whether this domain is resolved locally, passed to the corporate DNS servers, or resolved by the Internet DNS servers. The default will be correct for most networks."
+
+msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
+msgstr "Muuda ettevõtte DNS-i sätteid"
+
+msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
+msgstr "(en)Error: unexpected or missing characters in domain description [_1]. Did not create new domain."
+
+msgid "dom_DOMAIN_IN_USE_ERROR"
+msgstr "(en)Error: domain [_1] is already in use. Did not create new domain."
+
+msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
+msgstr "Error: unexpected or missing characters in domain name [_1]. The domain name should contain one or more letters, numbers, periods and minus signs. Did not create new domain."
+
+msgid "dom_ERROR_CREATING_DOMAIN"
+msgstr "(en) Error creating domain"
+
+msgid "dom_ERROR_MODIFYING_DOMAIN"
+msgstr "(en) Error modifying domain"
+
+msgid "dom_ERROR_UPDATING"
+msgstr "(en) Error updating"
+
+msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
+msgstr "Viga: sisemine viga domeeni [_1] eemaldamisel."
+
+msgid "dom_FORM_DESCRIPTION"
+msgstr " When you create a domain, your server will be able to receive e-mail for that domain and will also be able to host a web site for that domain.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Add domain</a> "
+
+msgid "dom_FORM_TITLE"
+msgstr "Domeenide haldamine"
+
+msgid "dom_LABEL_CORPORATE_DNS_PRIMARY"
+msgstr "Peamine asutuse DNS server"
+
+msgid "dom_LABEL_CORPORATE_DNS_SECONDARY"
+msgstr "Teine asutuse DNS server"
+
+msgid "dom_LABEL_NAMESERVERS"
+msgstr "Domeeni DNS serverid"
+
+msgid "dom_MODIFY_TITLE"
+msgstr "Muuda domeeni"
+
+msgid "dom_NONEXISTENT_DOMAIN_ERROR"
+msgstr "(en)Error: [_1] is not an existing domain."
+
+msgid "dom_PRIMARY_SITE"
+msgstr "esmane sait"
+
+msgid "dom_REMOVE_DESCRIPTION"
+msgstr "  You are about to remove the domain [_1] ([_2]). \n\n  <p> <b>Are you sure you wish to remove this domain?</b> </p>\n\n  "
+
+msgid "dom_REMOVE_TITLE"
+msgstr "Eemalda domeen"
+
+msgid "dom_SUCCESSFULLY_CREATED"
+msgstr "Domeen [_1] edukalt kustutatud. Sinu veebiserver taaskäivitatakse. See link pole aktiivne seni kuni veebiserveri taaskäivitus on lõpetatud."
+
+msgid "dom_SUCCESSFULLY_DELETED"
+msgstr "Domeen [_1] edukalt kustutatud. Sinu weebiserver taaskäivitatakse. See link pole aktiivne seni kuni weebiserveri taaskäivitus on lõpetatud."
+
+msgid "dom_SUCCESSFULLY_MODIFIED"
+msgstr "Domeen [_1] edukalt kustutatud. Sinu weebiserver taaskäivitatakse. See link pole aktiivne seni kuni weebiserveri taaskäivitus on lõpetatud."
+
+msgid "dom_SYSTEM_DOMAIN_ERROR"
+msgstr "(en)Error: domain [_1] is your system domain name. You cannot have a domain with the same name. Did not create new domain."
+
+msgid "dom_corporate"
+msgstr "Asutuse DNS serveid"
+
+msgid "dom_internet"
+msgstr "Interneti DNS serverid"
+
+msgid "dom_localhost"
+msgstr "Lahenda lokaalselt"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dom_BUTTON_CORPORATE_DNS"
+#~ msgstr " If this server does not have access to the Internet, or you have special requirements for DNS resolution, enter the DNS server IP address here. You should not enter the address of your ISP's DNS servers here, as the server is capable of resolving all Internet DNS names without this additional configuration.\n\n  <p> <a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns\">Modify corporate DNS settings</a> "
+#~ msgid "dom_CURRENT_LIST_OF_DOMAINS"
+#~ msgstr "Loend olemasolevatest domeenidest"
+#~ msgid "dom_NO_VIRTUAL_DOMAINS"
+#~ msgstr "Süsteemis pole domeene."
+#~ msgid "dom_REMOVE_DESC"
+#~ msgstr "Soovid eemaldada printeri:"
+#~ msgid "dom_REMOVE_DESC2"
+#~ msgstr "Oled kindel, et tahad seda printerit eemaldada?"

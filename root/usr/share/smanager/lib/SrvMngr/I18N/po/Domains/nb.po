@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Domains module\n"
+"POT-Creation-Date: 2026-08-21 10:15+0100\n"
+"PO-Revision-Date: 2026-08-21 10:15+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+
+msgid "dom_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this domain ?"
+
+msgid "dom_ADD_DOMAIN"
+msgstr "Legg til domene"
+
+msgid "dom_CONTENT"
+msgstr "[_1] i-bay"
+
+msgid "dom_CONTENT_FIELD_DESCRIPTION"
+msgstr "For webstedet kan du velge å bruke hovedsiden eller en annen i-bay som innehold."
+
+msgid "dom_CREATE_TITLE"
+msgstr "Opprett et nytt domene"
+
+msgid "dom_CURRENT_DOMAINS"
+msgstr "Gjeldende liste over domener"
+
+msgid "dom_DESC_CORPORATE_DNS"
+msgstr "Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Feltene bør stå tomme med mindre du har spesifikke grunner til å sette opp andre DNS servere. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner."
+
+msgid "dom_DESC_CORPORATE_DNS_CURRENT"
+msgstr " Felles DNS Instillinger "
+
+msgid "dom_DESC_NAMESERVERS"
+msgstr "Du kan velge om dette domenet løses lokalt, sendes til felles DNS servere, eller om den skal løses av internet DNS servere. Det forhåndsvalgte er riktig for de fleste nettverk."
+
+msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
+msgstr "Endre bedriftens DNS-innstillinger"
+
+msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
+msgstr "Feil: uventede eller manglene tegn i domenebeskrivelsen [_1]. Domenet erikke opprettet."
+
+msgid "dom_DOMAIN_IN_USE_ERROR"
+msgstr "Feil: domenet [_1] er allerede i bruk. Domenet er ikke opprettet."
+
+msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
+msgstr "Feil: uventede eller manglende tegn i domenenavnet [_1]. Domenenavnet skal inneholde en eller flere bokstaver, tall, punktum, og minustegn. Domenet er ikke opprettet."
+
+msgid "dom_ERROR_CREATING_DOMAIN"
+msgstr "(en) Error creating domain"
+
+msgid "dom_ERROR_MODIFYING_DOMAIN"
+msgstr "(en) Error modifying domain"
+
+msgid "dom_ERROR_UPDATING"
+msgstr "(en) Error updating"
+
+msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
+msgstr "Feil: Intern feil ved forsøk på å fjerne domenet [_1]."
+
+msgid "dom_FORM_DESCRIPTION"
+msgstr " Når du oppretter et domene, vil serveren din kunne motta e-post for det domene og vil også kunne vise en webside for domenet.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Legg til domene</a> "
+
+msgid "dom_FORM_TITLE"
+msgstr "Administrer domener"
+
+msgid "dom_LABEL_CORPORATE_DNS_PRIMARY"
+msgstr "Første felles DNS server"
+
+msgid "dom_LABEL_CORPORATE_DNS_SECONDARY"
+msgstr "Andre felles DNS server"
+
+msgid "dom_LABEL_NAMESERVERS"
+msgstr "Domene DNS servere"
+
+msgid "dom_MODIFY_TITLE"
+msgstr "Endre domene"
+
+msgid "dom_NONEXISTENT_DOMAIN_ERROR"
+msgstr "Feil: [_1] eksisterer ikke."
+
+msgid "dom_PRIMARY_SITE"
+msgstr "Hoved side"
+
+msgid "dom_REMOVE_DESCRIPTION"
+msgstr "  Du holder på å fjerne domenet [_1] ([_2]). \n\n  <p> <b>Er du sikker på at du vil fjerne dette domenet?</b> </p>\n\n  "
+
+msgid "dom_REMOVE_TITLE"
+msgstr "Fjerne domene"
+
+msgid "dom_SUCCESSFULLY_CREATED"
+msgstr "Domenet [_1] er opprettet. Webserveren blir nå restartet. Linkene på denne siden er inaktive inntil webserverens restart er fullført"
+
+msgid "dom_SUCCESSFULLY_DELETED"
+msgstr "Domenet [_1] er slettet.Webserverne restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig."
+
+msgid "dom_SUCCESSFULLY_MODIFIED"
+msgstr "Domenet [_1] er oppdatert. Web serveren restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig."
+
+msgid "dom_SYSTEM_DOMAIN_ERROR"
+msgstr "Feil: domenet [_1] er systemets domenenavn. Du kan ikke ha et domene med det samme navnet. Domenet er ikke opprettet."
+
+msgid "dom_corporate"
+msgstr "Felles DNS servere"
+
+msgid "dom_internet"
+msgstr "Internet DNS servere"
+
+msgid "dom_localhost"
+msgstr "Løse lokalt"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dom_BUTTON_CORPORATE_DNS"
+#~ msgstr " Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner.\n\n  <p> <a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns\">Endre felles DNS innstillinger</a> "
+#~ msgid "dom_CURRENT_LIST_OF_DOMAINS"
+#~ msgstr "Gjeldende liste over domener"
+#~ msgid "dom_NO_VIRTUAL_DOMAINS"
+#~ msgstr "Det er ingen domener i systemet."
+#~ msgid "dom_REMOVE_DESC"
+#~ msgstr "Du er i ferd med å fjerne skriveren:"
+#~ msgid "dom_REMOVE_DESC2"
+#~ msgstr "Er du sikker på at du vil slette skriveren?"

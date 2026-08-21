@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Datetime module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "COULD_NOT_OPEN_TZ_FILE"
+msgstr "(en) COULD_NOT_OPEN_TZ_FILE"
+
+msgid "Date and time"
+msgstr "Datum in čas"
+
+msgid "Day:"
+msgstr "(en) Day:"
+
+msgid "Hour:"
+msgstr "(en) Hour:"
+
+msgid "Minute:"
+msgstr "(en) Minute:"
+
+msgid "Month:"
+msgstr "(en) Month:"
+
+msgid "Second:"
+msgstr "(en) Second:"
+
+msgid "Year:"
+msgstr "(en) Year:"
+
+msgid "dat_BETWEEN_0_AND_23"
+msgstr "(en) dat_BETWEEN_0_AND_23"
+
+msgid "dat_BETWEEN_0_AND_59"
+msgstr "Prosimo izberite minute med 0 in 59."
+
+msgid "dat_FORM_TITLE"
+msgstr "Nastavitev datuma in ure"
+
+msgid "dat_INITIAL_DESC"
+msgstr "Tukaj nastavite datum in uro tega streznika. Uporabite lahko obstojeci casovni streznik ali rocno nastavite datum in uro rocno."
+
+msgid "dat_INVALID_HOUR"
+msgstr "Napaka: napacna ura:"
+
+msgid "dat_INVALID_MINUTE"
+msgstr "Napaka: napacne minute:"
+
+msgid "dat_INVALID_NTP_SERVER"
+msgstr " Napacen NTP streznik. Streznik se ne bo skusal sinhronizirati s casovnim streznikom. "
+
+msgid "dat_INVALID_SECOND"
+msgstr "Napaka: napacne sekunde"
+
+msgid "dat_Invalid_date"
+msgstr "Neveljaven datum"
+
+msgid "dat_NTP_CONFIGURE_DESC"
+msgstr "Streznik samodejno sinhronizira sistemsko uro z mreznim casovnim protokolom, ki je podaj zapisan. Ce zelite sinhronizacijo z drugim streznikom, vpisite novo ime oz. IP naslov v spodnje polje."
+
+msgid "dat_NTP_DISABLE_DESC"
+msgstr "To opcijo izberite, ce zelite preklicati samodejno sinhronizacijo ure z NTP streznikom. Ko je NTP storitev preklicana, lahko na tej strani rocno vpisete datum in uro."
+
+msgid "dat_NTP_ENABLE_DESC"
+msgstr "Streznik lahko samodejno sinhronizira sistemsko uro z mreznim casovnim protokolom (NTP streznik). Ce izberete to opcijo, vpisite spodaj ime racunalnika ali IP naslov NTP streznika."
+
+msgid "dat_NTP_Server_URL"
+msgstr "URL strežnika NTP:"
+
+msgid "dat_SETTINGS_CHANGED"
+msgstr "Nastavitve NTP streznika so bile uspesno spremenjene"
+
+msgid "dat_TZ"
+msgstr "Časovni pas:"
+
+msgid "dat_Test_Server"
+msgstr "Preizkusi strežnik NTP"
+
+msgid "dat_The_time_is_currently"
+msgstr "Trenutni čas je:"
+
+msgid "dat_Time_Configuration"
+msgstr "Nastavitev časa"
+
+msgid "dat_Time_Setting_Mode"
+msgstr "Način nastavitve časa"
+
+msgid "dat_UPDATING_CLOCK"
+msgstr " Sistemska ura je bila posodobljena. Prosimo pocakajte par sekund, potem pa kliknite tukaj in preverite spremembe. "
+
+msgid "dat_manually_set"
+msgstr "Nastavi ročno"
+
+msgid "dat_ntp_server"
+msgstr "Strežnik NTP"
+
+msgid "dat_set_manually"
+msgstr "Nastavi datum in čas:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dat_AM/PM_AND_TZ"
+#~ msgstr "DOP/POP in casovni pas:"
+#~ msgid "dat_BETWEEN_1_AND_12"
+#~ msgstr "Prosimo izberite uro med 1 in 12."
+#~ msgid "dat_BETWEEN_1_AND_31"
+#~ msgstr "Prosimo izberite dan med 1 in 31."
+#~ msgid "dat_COULD_NOT_OPEN_TZ_FILE"
+#~ msgstr "Napaka: ne morem odpreti datoteke za casovni pas:"
+#~ msgid "dat_CURRENT_SETTING"
+#~ msgstr "Trenutne nastavitve"
+#~ msgid "dat_Date and time"
+#~ msgstr "Datum in čas"
+#~ msgid "dat_ERR_CHANGING_TS"
+#~ msgstr "Pri menjavi nastavitev casovnega streznika je prislo do napake"
+#~ msgid "dat_ERR_SETTING_CLOCK"
+#~ msgstr "Pri nastavitvi sistemske in strojne ure, je prislo do napake!"
+#~ msgid "dat_FOUR_DIGIT_YEAR"
+#~ msgstr "Prosimo izberite leto med 1900 in 2200."
+#~ msgid "dat_INVALID_DAY"
+#~ msgstr "Napaka: napacen dan"
+#~ msgid "dat_INVALID_MONTH"
+#~ msgstr "(en)Error: invalid month"
+#~ msgid "dat_INVALID_NTP_ADDR"
+#~ msgstr "Napacen naslov NTP streznika:"
+#~ msgid "dat_INVALID_YEAR"
+#~ msgstr "Napaka: napacno leto:"
+#~ msgid "dat_MONTH_BETWEEN_1_AND_12"
+#~ msgstr "(en)Please choose a month value between 1 and 12."
+#~ msgid "dat_NETWORK_TIME_SERVER"
+#~ msgstr "Mrezni casovni streznik"
+#~ msgid "dat_NEW_DATE_AND_TIME"
+#~ msgstr "Novi datum in nastavitev ure:"
+#~ msgid "dat_NEW_H/M/S"
+#~ msgstr "Nova ura/min/sek:"
+#~ msgid "dat_NEW_M/D/Y"
+#~ msgstr "Novi mesec/dan/leto:"
+#~ msgid "dat_NTP_CONFIGURE_TITLE"
+#~ msgstr "Omogoci mrezni casovni streznik"
+#~ msgid "dat_NTP_DISABLE_TITLE"
+#~ msgstr "Preklici mrezni casovni streznik"
+#~ msgid "dat_NTP_ENABLE_TITLE"
+#~ msgstr "Omogoci mrezni casovni streznik"
+#~ msgid "dat_NTP_SERVER"
+#~ msgstr "NTP streznik"
+#~ msgid "dat_SERVER_DISABLED"
+#~ msgstr "NTP streznik je bil uspesno preklican"
+#~ msgid "dat_SERVER_DISABLED_DESC"
+#~ msgstr " Pravkar ste preklicali ta servis: Streznik se bo sedaj zanasal na svojo notranjo uro in se ne bo sinhroniziral s casovnim streznikom. "
+#~ msgid "dat_SETTING_DATE_AND_TIME"
+#~ msgstr "Nastavitev datuma in sistemske ure"
+#~ msgid "dat_SET_DATE_TITLE"
+#~ msgstr "Nastavi datum in uro"
+#~ msgid "dat_SYNC_WITH"
+#~ msgstr "Streznik je sedaj nastavljen na samodejno posodobitev ure (cez Internet) z:"
+#~ msgid "dat_VERIFY_DATE_AND_TIME"
+#~ msgstr "Preveri datum in uro"

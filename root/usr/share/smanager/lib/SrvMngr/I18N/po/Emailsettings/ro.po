@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "Setările de acces la e-mail au fost salvate cu succes"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Personalizat"
+
+msgid "mai_DEFAULT"
+msgstr "Implicit"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "Setările de livrare a e-mailurilor au fost salvate cu succes"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "(en)You can block executable content in e-mail attachments by highlighting the executable attachment types you wish to block. E-mail containing these attachment types will be automatically returned to the sender."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Delegate mail servers Your server includes a complete, full-featured e-mail server. However, if for some reason you wish to delegate e-mail processing to another system, specify the IP address of the delegate system here. For normal operation, leave this field blank. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "(en)For ETRN or multi-drop, you can control how frequently this server contacts your secondary e-mail server to fetch e-mail. More frequent connections mean that you receive your e-mail more quickly, but also cause Internet requests to be sent more often, possibly increasing your phone and Internet charges."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "(en)You can control IMAP server access. The setting 'Allow access only from local networks' allows IMAP access only from your local network(s). The IMAPS setting can be used to provide encrypted external access to your IMAP server. We recommend leaving this setting 'Allow access only from local networks' unless you have a specific reason to do otherwise."
+
+msgid "mai_DESC_MODE"
+msgstr "(en)The e-mail retrieval mode can be set to standard (for dedicated Internet connections), ETRN (recommended for dialup connections), or multi-drop (for dialup connections if ETRN is not supported by your Internet provider). Note that multi-drop mode is the only option available when the server is configured in private server and gateway mode."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "(en)You can control POP3 server access. The setting 'Allow access only from local networks' allows POP3 access only from your local network(s). The POP3S setting can be used to provide encrypted external access to your POP3 server. We recommend leaving this setting 'Allow access only from local networks' unless you have a specific reason to do otherwise."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " ETRN or multi-drop settings For ETRN or multi-drop, specify the hostname or IP address of your secondary mail server. (If using the standard e-mail setup, this field can be left blank.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " SMTP server The server can deliver outgoing messages directly to their destination (recommended in most cases) or can deliver them via your Internet provider's SMTP server (recommended if you have an unreliable Internet connection or are using a residential Internet service). If using your Internet provider's SMTP server, specify its hostname or IP address below. Otherwise leave this field blank. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires all users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "(en)You can scan e-mail for spam. If Spam filtering is enabled, an X-Spam-Status: header is added to each message, which can be used for filtering spam. You can adjust the sensitivity of the Spam detection process from the default of medium. For fine-grained control, you can set the Spam sensitivity to Custom and then choose a custom tagging level, and optionally a level at which to reject the message."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "(en)You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr "Schimbați setările de acces la e-mail"
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr "Schimbați setările de livrare a e-mailurilor"
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr "Schimbați setările de filtrare a e-mailurilor"
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr "Schimbați setările de primire a e-mailurilor"
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Unknown Users Selecting Reject (recommended setting) will configure the server to only accept mail for valid email addresses (for example users, groups, pseudonyms). Mail for other addresses will be rejected. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "(en)You can scan incoming and outgoing e-mail for viruses. If scanning is enabled and a virus is detected, the e-mail will be rejected and returned to the sender."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "You can enable or disable webmail on this system. Webmail allows users to access their mail through a regular web browser by pointing the browser to https://[_1]/webmail, and logging in to their account."
+
+msgid "mai_E-Mail"
+msgstr "E-mail"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "Permite HTTPS (sigur)"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP cu solicitare din partea clientului)"
+
+msgid "mai_EVERY15MIN"
+msgstr "La fiecare 15 minute"
+
+msgid "mai_EVERY2HRS"
+msgstr "La fiecare 2 ore"
+
+msgid "mai_EVERY30MIN"
+msgstr "La fiecare 30 de minute"
+
+msgid "mai_EVERY5MIN"
+msgstr "La fiecare 5 minute"
+
+msgid "mai_EVERYHOUR"
+msgstr "În fiecare oră"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "Setările de filtrare a e-mailurilor au fost salvate cu succes"
+
+msgid "mai_FORWARD_TO"
+msgstr "Trimite către"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "Trimite administratorului"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Ridicat"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "Permite atât IMAP, cât și IMAPS"
+
+msgid "mai_INSECURE_POP3"
+msgstr "Permite atât POP3, cât și POP3S"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "(en)The smarthost name you entered is not a valid internet domain name and is not blank"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Blocarea conținutului executabil"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Conținut de blocat"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Address of internal mail server"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "(en)During office hours (8:00 AM to 6:00 PM) on weekdays"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "(en)Outside office hours (6:00 PM to 8:00 AM) on weekdays"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "În weekend"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "Acces la serverul IMAP"
+
+msgid "mai_LABEL_MODE"
+msgstr "Mod de preluare a e-mailurilor"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "Acces la serverul POP3"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "Cont de utilizator POP (pentru multi-drop)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "Parolă utilizator POP (pentru multi-drop)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "Server de e-mail secundar"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "(en)Address of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Parola serverului de e-mail"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "Autentificare SMTP pentru furnizorul de internet"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "ID utilizator server de e-mail"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Sortează spamul în dosarul de mesaje nedorite"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "Selectați antetul de sortare (pentru glisare multiplă)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Selectați metoda de sortare (pentru multi-drop)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Nivel personalizat de respingere a spamului"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Filtrare spam"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Sensibilitate la spam"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "Prefix subiect SPAM"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "Modifică subiectul mesajelor spam"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Nivel personalizat de etichetare a spamului"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "E-mail către utilizatori necunoscuți"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Scanare antivirus"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Acces la webmail"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Scăzut"
+
+msgid "mai_MEDIUM"
+msgstr "Mediu"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "deloc"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "(en)Allow HTTPS (secure) from local networks"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "Setările de primire a e-mailurilor au fost salvate cu succes"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Respinge"
+
+msgid "mai_SECURE_IMAP"
+msgstr "(en)Allow private and public (secure IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "(en)Allow private and public (secure POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "Permite SSMTP (securizat)"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Specificați mai jos"
+
+msgid "mai_STANDARD"
+msgstr "Standard (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "Stare port de trimitere %u:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Servere de e-mail delegate"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "Setări ETRN sau multi-drop"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "Server SMTP"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Utilizatori necunoscuți"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "This field cannot be left blank if SMTP Authentication is enabled."
+
+msgid "mai_VERYHIGH"
+msgstr "Foarte ridicat"
+
+msgid "mai_VERYLOW"
+msgstr "Foarte scăzut"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Permite privat"
+#~ msgid "mai_AUTO"
+#~ msgstr "Automatic"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "(en)For multi-drop e-mail, specify the POP user account and password. (If using standard or ETRN e-mail, these fields can be blank.) Also, for multi-drop, you can either use the default mail sorting method, or you can specify a particular message header to use for mail sorting."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr "Acces la e-mail"
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr "Livrare prin e-mail"
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr "Recepționare e-mail"
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Permite atât HTTP, cât și HTTPS"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "Setări e-mail"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "Permite atât SMTP, cât și SSMTP"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Protocol (pentru multi-drop)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Tunel peste SSL (pentru multi-drop)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "Autentificare SMTP"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "(en)The new e-mail settings have been saved."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "(en)This field requires a valid e-mail address, which must include the @ symbol and a domain name."

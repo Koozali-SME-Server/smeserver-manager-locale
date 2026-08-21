@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "גיבוי או שחזור"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "כל הגיבויים"
+
+msgid "bac_AM"
+msgstr "לפנה״צ"
+
+msgid "bac_AM/PM"
+msgstr "AM/PM"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "שחזור אחר נמצא כעת בתהליך. אנא נסה שנית מאוחר יותר."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "(en)Regular tape backups will run at:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "בחירת קבצים לתצוגה"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "תצורת גיבוי ומצב"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr "(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>\n\n  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>\n\n  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>\n\n  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>"
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "  בשרת שלך יש יותר מדי נתונים ולכן לא יתאפשר גיבוי אמין לשולחן העבודה.  "
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "קובץ הגיבוי לא היה שלם"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "גיבוי או שחזור מידע שרת"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "נא לבחור שעה בין 0 לבין 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "נא לבחור דקות בין 0 לבין 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "(en)Warning : For large backups, checking integrity may be a long task and should be made with daily workstation backup disabled."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "(en)Check here to test integrity of all backups needed for a full restore with the selected backup"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Backup compression level ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "נא להגדיר את הגדרות הגיבוי."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "הגדרות טייפ גיבוי"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "הגדרת גיבוי אל תחנת עבודה"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "(en)You can set the number of successive backup sets to keep on the workstation, with automatic rotation. Each set may contain saved data for several consecutive days. In this case first backup of the set is full backup, others daily backups are incremental. You can also set a time limit for each backup session or for incremental backups only. When this limit occurs, backup is cleanly stopped and the next incremental backup will safely continue with unsaved and modified datas."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "אין אפשרות לפענח את קובץ הגיבוי:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "אין אפשרות לבצע את תהליך הגיבוי:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "לא הצלחתי לפצל:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "גיבוי לשולחן העבודה"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "שחזור משולחן העבודה"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr "תהליך זה יעלה קובץ גיבוי שרת משולחן העבודה המקומי שלך אל השרת שלך וישחזר את התצורה ואת קבצי הנתונים של המשתמשים.  השחזור צריך להתבצע על שרת מותקן נקי . "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "בדוק תקינות קובץ גיבוי לשולחן עבודה"
+
+msgid "bac_DOW"
+msgstr "(en)Sunday Monday Tuesday Wednesday Thursday Friday Saturday Everyday"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "אפשר\\נטרל גיבוי טייפ לילי"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "הפעל או בטל גיבוי יומי אל תחנת עבודה"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "אפשר גיבוי לטייפ"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "הפעל גיבוי אל תחנת עבודה"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "שגיאה בעת קריאת קבצים מ-"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "ספריית הגיבוי כבר מחוברת"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "שגיאה התרחשה במהלך אירוע conf-backup."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "שגיאה בעת שימוש בקטלוג Dar"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "שגיאה בעת חילוץ באמצעות Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "(en)Compression level must be set between 0 (no compression) and 9 (maximum compression)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "This number must be 1 or greater. First backup in set is full others are incrementals"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "שם שיתוף לא חוקי"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "שגיאה : שעת גיבוי לא תקינה:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "התחברות לא תקינה"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "שגיאה: שעת גיבוי לא תקינה דקות:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "סיסמה לא תקינה"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "שגיאה : שעת שליחת תזכורת לא תקינה:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "שגיאה: זמן תזכורת לא חוקי בדקות:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Date format is invalid, must be ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. ie: 2005/12/31-08:23:32 or 10-08:32 or 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "(en)Sets number must be 1 or greater"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "(en)Maximum backup time must be set between 1 and 24 hours"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "כתובת ה-IP או שם המארח של תחנת העבודה אינם תקינים"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "(en)Unable to mount workstation shared folder"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "ספריית הגיבוי אינה מחוברת"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "(en)Aborting restore because needed full backup is missing or unreadable."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "(en)No directory for your host in shared folder. Maybe your host name is different from backup ones"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "(en)Aborting restore because the set has missing or unreadable incremental backup number"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "(en)Error : No mounted disk available. Please mount a disk or select another type of workstation backup."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "(en)Error : No removable disk available. Please connect a removable disk or select another type of workstation backup."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "שגיאה התרחשה במהלך פעולת לאחר-גיבוי."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "שגיאה התרחשה במהלך פעולת טרום-גיבוי."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "שגיאה התרחשה במהלך פעולת טרום-שחזור."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "ארעה שגיאה בקריאת קובץ הגיבוי."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "קרתה שגיאה במהלך שחזור קבצים מטייפ."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "(en)Error occurred restoring files from workstation."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "אירעה שגיאה בעת שחזור gid של 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "אירעה שגיאה בעת החזרת הקבוצה הראשונית של 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "התגלתה שגיאה בזמן עדכון תצורת המערכת לאחר שחזור מטייפ."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "(en)Error occurred while updating system configuration after workstation restore."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "(en)Error occurs when unmounting distant share"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "הקבצים והתקיות הבאים שוחזרו:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "הקבצים הבאים נלקחו בחשבון בגיבוי :"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "קובץ גיבוי לשחזר ממנו"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "שמות מסוננים לפי"
+
+msgid "bac_FINISHED_AT"
+msgstr "והסתיים ב:"
+
+msgid "bac_FREE_SPACE"
+msgstr "יש לך כ $tmpfree שטח פנוי בשרת. בדוק כי קובץ גיבוי שולחן העבודה הוא פחות מ $halffree לפני תחילת השחזור. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "גיבוי מלא מותר ב-"
+
+msgid "bac_HOURS"
+msgstr "hours."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "אל תגרום לפסק זמן של הפעלות גיבוי מלא"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "זמן ביום למשלוח תזכורת להכנסת קלטת לטייפ הגיבוי (שעה/דקות)"
+
+msgid "bac_LOGIN"
+msgstr "כניסה"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "לאחר שהשחזור הושלם עליך לאתחל את השרת."
+
+msgid "bac_Mounted disk"
+msgstr "מעוגן אל"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "תצורת השרת שלך וקבצי נתוני המשתמש משוחזרים עכשיו מהקלטת."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "(en)Your server configuration and user data files are now being restored from workstation shared folder."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "(en)There is no backup set on configured workstation shared folder. Verify your configuration settings."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "לא הצלחתי לקבל את הuid עבור משתמש בשם:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "גיבויים יומיים בכל קבוצה"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "מספר ערכות הגיבוי המתחלפות"
+
+msgid "bac_No suitable local devices found"
+msgstr "לא נמצאו התקנים מקומיים מתאימים"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " דף זה ירענן את תצוגת הסטטוס בתוך [_1] שניות, או לחץ עלרענון. "
+
+msgid "bac_PASSWORD"
+msgstr "הסיסמה היא"
+
+msgid "bac_PM"
+msgstr "אחה״צ"
+
+msgid "bac_READ_COMPLETE"
+msgstr " You can choose all the directories and files you want to restore in the displayed list (use ctrl or shift for multiple selection).  Warning : If you select a directory, all contained files and directories will be restored. By default the most recent version of selected files is restored, but if you specify a date in the format ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~] the process will restore only the most recent version modified before the given date. "
+
+msgid "bac_REBOOT"
+msgstr "הפעלה מחדש"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "רענן תצוגה זו"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "(en)Reminder messages will be sent at:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "לא ניתן להמשיך עם שחזור הגדרות שרת"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "שחזור בוצע"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "שחזור מערכת הושלם"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "שחזר הגדרות שרת מגיבוי טייפ"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr "<p> תהליך זה ישחזר את התצורה וגם את קבצי המשתמש מגיבוי קלטת בשרת. <b> השחזור צריך להתבצע על שרת מותקן נקי </b>. </p>\n\n  <p> אנא ודא כי קלטת הגיבוי הוכנסה אל טייפ הגיבוי לפני שתמשיך. </p>\n\n  אחרי השלמת השחזור עליך לאתחל את השרת. </p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "שחזור הגדרות שרת מגיבוי אל תחנת עבודה"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr "(en)<p>This process will restore the configuration and user data files from a Server workstation backup. <b>The restore should be performed on a freshly installed Server</b>.</p>\n\n  <p>Ensure that choose the right backup to restore below before proceeding.</p>\n\n  <p>After the restore completes you must reboot the server.</p>\n\n  Backup will be restored from :"
+
+msgid "bac_RESTORE_FAILED"
+msgstr "שחזור נכשל! קובץ הגיבוי לא היה שלם."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "השחזור נכשל ! תקלה בקריאת קובץ הגיבוי."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "שחזור מטייפ"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "שחזר מתחנת עבודה"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "שחזור בתהליך כעת"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "שחזור מערכת נמצא בתהליך פעולה. השחזור החל ב:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "לאחר השלמת השחזור עליך לאתחל את השרת. השחזור יושלם כאשר המילים \"שחזור בוצע\" מופיע בתחתית המסך."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "שחזר הגדרות שרת"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "אימות השלמות נכשל"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "משחזר מטייפ"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "משחזר מתחנת עבודה"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "בחר פעולה"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "בחר קובץ גיבוי"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "שחזר את האחרון לפני"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "בחר קבצים לשחזור"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "(en)Select the type of share for backup destination"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "הפעלה מחדש לשרת"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "השרת יופעל מחדש עכשיו."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "שיתוף גיבוי"
+
+msgid "bac_STARTED_AT"
+msgstr "הוא החל ב:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "גיבויי טייפ נוטרלו בהצלחה"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "גיבוי אל שולחן עבודה בוטל בהצלחה"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "גיבויי טייפ אופשרו בהצלחה"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "גיבוי אל שולחן עבודה הופעל בהצלחה"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "גיבויי קלטת הם"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "זמן ביום לביצוע גיבוי לטייפ (שעה/דקות)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "הגדרות טייפ גיבוי"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr "<p> בחר אם אתה רוצה להפעיל גיבויים לילים. אחר כך ציין את הזמנים הרצוים לגיבוי ולתזכורת הכנסת קלטת. </ p> הגיבוי לטייפ דורש כונן קלטות נתמך. הודעת אזהרה תישלח לאדמין במועד התזכורת שנקבעה במידה והטייפ ריק. </ p>"
+
+msgid "bac_TAPE_RESTORE"
+msgstr "שחזור מטייפ גיבוי"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "בודק את תקינות הגיבוי"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "(en)Testing all backups needed for a full restore with selected backup"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "לא ניתן לשחזר הגדרות שרת"
+
+msgid "bac_UPDATE_CONF"
+msgstr "עדכון"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "מעדכן את הגדרות הגיבוי לטייפ"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "עדכון גיבוי אל שולחן עבודה"
+
+msgid "bac_VERIFY"
+msgstr "בדיקה"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr "<p> אפשרות זו תציג את השמות של כל הקבצים בתוך קובץ גיבוי שנוצר בעבר בשולחן העבודה. ניתן להשתמש באפשרות זו כדי לבדוק את תוכנו של קובץ הגיבוי. </ p>"
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "בדיקה הושלמה"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>אפשרות זו תציג את שמות כל הקבצים שנוצרו על ידי גיבוי יומי אל תחנת עבודה. ניתן להשתמש באפשרות זו כדי לבדוק את תוכן הגיבוי.<b>עליך לבחור את הגיבויאותו אתה מעוניין לבדוק</b></p>\n\n  <p>רק קבצים בעלי דגל ~[Saved~] מאוכסנים בגיבוי.</p>\n\n  <br/>קבצי גיבוי נבדקים מתוך תיקיית השיתוף: "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "בדיקת גיבוי לתחנת עבודה"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "עם זמן גיבוי:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "וזמן שליחת תזכורת להכנסת קלטת גיבוי לטייפ ב:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "גיבוי רגיל לתחנת עבודה יופעל ב:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "גיבוי הגדרות תחנת העבודה"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "(en)Create or modify workstation backup configuration"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "גיבויי תחנות עבודה הם"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "(en)Compression level (0-9) of backup is"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "(en)Number of daily backups contained in each set is"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>This panel displays the present workstation backup configuration. You can change it in this panel and the next one.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "הגיבוי הוא"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "(en)Backup is made on LAN workstation"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "(en)except full backups which are cleanly timed out after 24 hours"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "(en)Backup is made on mounted disk"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Presently, workstation backup is not configured. You can set this configuration with this panel and the next one.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "(en)Number of rotating backup sets is"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "הגדרות גיבוי תחנת עבודה"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "תיקיית השיתוף של גיבוי היעד היא"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "השעה בה יתבצע גיבוי אל תחנת עבודה (שעות/דקות)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "(en)Each daily backup session is cleanly timed out after"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "גיבוי יומי מתבצע בשעה"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "(en)Backup is made on local removable disk"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "via"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "הגדרת גיבוי לתחנת עבודה"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "(en)Full backup session (new backup sets) is allowed only on"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "(en)Full backup sessions (new backup set) are allowed everyday"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "שם משתמש"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "כתובת IP או שם מארח של תחנת עבודה"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "(en)You must first correctly configure your workstation backup"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "שחזור מתחנת עבודה"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "שחזור קבצים סלקטיבי בתחנת עבודה"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "שחזור סלקטיבי של קבצים מתחנת עבודה"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " This process will restore only specified files and directories. You must first choose the backup from which the files will be restored. If you don't know in which backup are the required files, you can select 'All backups' option.  The next panel will display available files and directories, so you can choose the ones to restore. To restrict the number of files and directories displayed in this panel, you have the option to give now a filtering expression, applied as a regular expression to the displayed names. You have the responsibility not to restore files which could break the functioning of your server. Currently, files will be restored from : "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "פסק זמן אופציונלי של הפעלת גיבוי (שעות)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "בדיקת גיבוי לתחנת עבודה"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X גיבוי או שחזור מידע שרת"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "אתה חייב לאתחל את השרת כדי להפעיל את כל שינויי התצורה שנעשו כתוצאה מהשחזור הזה."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "דיסק נשלף מקומי"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>\n\n  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\\"Verify desktop backup file\\\" option can be used to check the integrity of a desktop backup file.</p>\n\n  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "גיבוי או שחזור"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Tape backups are disabled "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Tape backups are currently enabled. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " גיבוי לתחנת עבודהמנוטרל "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " גיבוי לתחנת עבודהמופעל. "

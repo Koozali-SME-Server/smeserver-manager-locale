@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+
+msgid "ACCESS"
+msgstr "גישה"
+
+msgid "ACCOUNT"
+msgstr "חשבון"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "(en)There are no user groups in the system."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "(en)Account is locked"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "(en)The account name entered is invalid."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "(en)The account name you entered contained invalid characters."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "(en)Change account password"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "(en)There are no user accounts in the system."
+
+msgid "ACTION"
+msgstr "פעולה"
+
+msgid "ADD"
+msgstr "הוסף"
+
+msgid "APRIL"
+msgstr "אפריל"
+
+msgid "AUGUST"
+msgstr "אוגוסט"
+
+msgid "Administration"
+msgstr "ניהול"
+
+msgid "All rights reserved"
+msgstr "כל הזכויות שמורות"
+
+msgid "BACK"
+msgstr "חזרה"
+
+msgid "BACKUP"
+msgstr "גיבוי"
+
+msgid "CANCEL"
+msgstr "ביטול"
+
+msgid "COMMENT"
+msgstr "תגובה"
+
+msgid "CONTENT"
+msgstr "תוכן"
+
+msgid "CREATE"
+msgstr "צור"
+
+msgid "CREATE_GROUP"
+msgstr "(en)Create user group"
+
+msgid "Collaboration"
+msgstr "שיתוף פעולה"
+
+msgid "Configuration"
+msgstr "קונפיגורציה"
+
+msgid "DECEMBER"
+msgstr "דצמבר"
+
+msgid "DESCRIPTION"
+msgstr "תיאור"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "(en)Brief description"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "יעד"
+
+msgid "DISABLED"
+msgstr "מושבת"
+
+msgid "DOMAIN"
+msgstr "דומיין"
+
+msgid "DOMAINS"
+msgstr "דומיינים"
+
+msgid "DOMAIN_NAME"
+msgstr "(en)Domain name"
+
+msgid "DOWNLOAD"
+msgstr "הורד"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "מופעל"
+
+msgid "END_OF_REPORT"
+msgstr "סוף הדו\"ח"
+
+msgid "ERROR_BELOW"
+msgstr "(en)ERROR: There was an error in the validation of this page. Please scroll down and find the specific problem."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "(en)Unexpected characters in description."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "(en)An error occurred while attempting to change your password. Please make sure that the old password entered is correct."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "(en)Error occurred while updating system configuration."
+
+msgid "FEBRUARY"
+msgstr "פברואר"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "(en)Error: unexpected or missing characters in description"
+
+msgid "FM_IP_NUMBER1"
+msgstr "(en)This field must contain a valid IP number and can not be left blank."
+
+msgid "FM_IP_NUMBER2"
+msgstr "(en)Invalid IP address format (expected X.X.X.X)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] is more than 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "(en)You must provide a MAC address."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "(en)The MAC address you provided was not valid."
+
+msgid "FM_NONBLANK"
+msgstr "(en)This field must not be left blank"
+
+msgid "FRIDAY"
+msgstr "יום שישי"
+
+msgid "GROUP"
+msgstr "קבוצה"
+
+msgid "GROUPS"
+msgstr "קבוצות"
+
+msgid "GROUP_ADD"
+msgstr "(en)Add group"
+
+msgid "GROUP_MEMBERS"
+msgstr "(en)Group Members"
+
+msgid "GROUP_NAME"
+msgstr "(en)Group Name"
+
+msgid "IP_ADDRESS"
+msgstr "כתובת IP"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "(en)IP Address or FQDN"
+
+msgid "JANUARY"
+msgstr "ינואר"
+
+msgid "JULY"
+msgstr "יולי"
+
+msgid "JUNE"
+msgstr "יוני"
+
+msgid "LOCAL"
+msgstr "מקומי"
+
+msgid "LOCATION"
+msgstr "מיקום"
+
+msgid "MARCH"
+msgstr "מרץ"
+
+msgid "MAY"
+msgstr "מאי"
+
+msgid "MB"
+msgstr "מגה בייט"
+
+msgid "MODIFY"
+msgstr "שנה"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "(en)Modify user group"
+
+msgid "MONDAY"
+msgstr "יום שני"
+
+msgid "Miscellaneous"
+msgstr "שונות"
+
+msgid "NAME"
+msgstr "שם"
+
+msgid "NETWORK"
+msgstr "רשת"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "(en)Allow access only from local networks"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "(en)Allow public access (entire Internet)"
+
+msgid "NEXT"
+msgstr "הבא"
+
+msgid "NO"
+msgstr "לא"
+
+msgid "NOVEMBER"
+msgstr "נובמבר"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "(en)Pipe symbols (|) are not permitted in this field"
+
+msgid "OCTOBER"
+msgstr "אוקטובר"
+
+msgid "OFF"
+msgstr "כבוי"
+
+msgid "OK"
+msgstr "בסדר"
+
+msgid "ON"
+msgstr "פעיל"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "(en)Operation status report"
+
+msgid "PASSWORD"
+msgstr "סיסמה"
+
+msgid "PASSWORD_CHANGE"
+msgstr "(en)Change Password"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "(en)Your password has been successfully changed."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "(en)The password you entered contained invalid characters."
+
+msgid "PASSWORD_NEW"
+msgstr "(en)New password:"
+
+msgid "PASSWORD_OLD"
+msgstr "(en)Old password:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "(en)The old password you entered contained invalid characters."
+
+msgid "PASSWORD_RESET"
+msgstr "(en)Reset password"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "(en)The passwords you entered did not match."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "(en)New password (verify):"
+
+msgid "PERFORM"
+msgstr "בצע"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "הגדר מחדש"
+
+msgid "REMOTE"
+msgstr "הסרה"
+
+msgid "REMOVE"
+msgstr "הסרה"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "(en)Remove user group"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "(en)Reset user password"
+
+msgid "RESTORE"
+msgstr "שחזר"
+
+msgid "ROUTER"
+msgstr "נתב"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "שבת"
+
+msgid "SAVE"
+msgstr "שמור"
+
+msgid "SELF"
+msgstr "עצמי"
+
+msgid "SEPTEMBER"
+msgstr "ספטמבר"
+
+msgid "SHUTDOWN"
+msgstr "כיבוי"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "הצלחה"
+
+msgid "SUNDAY"
+msgstr "יום ראשון"
+
+msgid "Security"
+msgstr "אבטחה"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "יום חמישי"
+
+msgid "TUESDAY"
+msgstr "יום שלישי"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "(en)Invalid user"
+
+msgid "USER_LIST_CURRENT"
+msgstr "(en)Current list of users"
+
+msgid "USER_NAME"
+msgstr "(en)User Name"
+
+msgid "User password"
+msgstr "סיסמת משתמש"
+
+msgid "WEDNESDAY"
+msgstr "יום רביעי"
+
+msgid "YES"
+msgstr "כן"
+
+msgid "YOUR_ACCOUNT"
+msgstr "(en)Your account:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "(en)The account name entered is invalid."
+
+msgid "Your Settings"
+msgstr "(en)Your Settings"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "ביטול"
+
+msgid "del"
+msgstr "מחק"
+
+msgid "edit"
+msgstr "עריכה"
+
+msgid "exit"
+msgstr "יציאה"
+
+msgid "hello"
+msgstr "שלום"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

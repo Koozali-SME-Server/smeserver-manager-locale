@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "ACCESS"
+msgstr "Access"
+
+msgid "ACCOUNT"
+msgstr "Account"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "There are no user groups in the system."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Account is locked"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "The account name entered is invalid."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "The account name you entered contained invalid characters."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Change account password"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "There are no user accounts in the system."
+
+msgid "ACTION"
+msgstr "Action"
+
+msgid "ADD"
+msgstr "Add"
+
+msgid "APRIL"
+msgstr "April"
+
+msgid "AUGUST"
+msgstr "August"
+
+msgid "Administration"
+msgstr "Administration"
+
+msgid "All rights reserved"
+msgstr "All Rights Reserved"
+
+msgid "BACK"
+msgstr "Back"
+
+msgid "BACKUP"
+msgstr "Backup"
+
+msgid "CANCEL"
+msgstr "Cancel"
+
+msgid "COMMENT"
+msgstr "Comment"
+
+msgid "CONTENT"
+msgstr "Content"
+
+msgid "CREATE"
+msgstr "Create"
+
+msgid "CREATE_GROUP"
+msgstr "Create user group"
+
+msgid "Collaboration"
+msgstr "Collaboration"
+
+msgid "Configuration"
+msgstr "Configuration"
+
+msgid "DECEMBER"
+msgstr "December"
+
+msgid "DESCRIPTION"
+msgstr "Description"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Brief description"
+
+msgid "DESC_SECTIONBAR"
+msgstr "<hr class=\"sectionbar\"/>"
+
+msgid "DESTINATION"
+msgstr "Destination"
+
+msgid "DISABLED"
+msgstr "Disabled"
+
+msgid "DOMAIN"
+msgstr "Domain"
+
+msgid "DOMAINS"
+msgstr "Domains"
+
+msgid "DOMAIN_NAME"
+msgstr "Domain name"
+
+msgid "DOWNLOAD"
+msgstr "Download"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "E-Mail"
+msgstr "E-Mail"
+
+msgid "ENABLED"
+msgstr "Enabled"
+
+msgid "END_OF_REPORT"
+msgstr "End of Report"
+
+msgid "ERROR_BELOW"
+msgstr "ERROR: There was an error in the validation of this page. Please scroll down and find the specific problem."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Unexpected characters in description."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "An error occurred while attempting to change your password. Please make sure that the old password entered is correct."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Error occurred while updating system configuration."
+
+msgid "FEBRUARY"
+msgstr "February"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Error: unexpected or missing characters in description"
+
+msgid "FM_IP_NUMBER1"
+msgstr "This field must contain a valid IP number and can not be left blank."
+
+msgid "FM_IP_NUMBER2"
+msgstr "Invalid IP address format (expected X.X.X.X)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] is more than 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "You must provide a MAC address."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "The MAC address you provided was not valid."
+
+msgid "FM_NONBLANK"
+msgstr "This field must not be left blank"
+
+msgid "FRIDAY"
+msgstr "Friday"
+
+msgid "GROUP"
+msgstr "Group"
+
+msgid "GROUPS"
+msgstr "Groups"
+
+msgid "GROUP_ADD"
+msgstr "Add group"
+
+msgid "GROUP_MEMBERS"
+msgstr "Group Members"
+
+msgid "GROUP_NAME"
+msgstr "Group Name"
+
+msgid "IP_ADDRESS"
+msgstr "IP Address"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "IP Address or FQDN"
+
+msgid "JANUARY"
+msgstr "January"
+
+msgid "JULY"
+msgstr "July"
+
+msgid "JUNE"
+msgstr "June"
+
+msgid "LOCAL"
+msgstr "Local"
+
+msgid "LOCATION"
+msgstr "Location"
+
+msgid "MARCH"
+msgstr "March"
+
+msgid "MAY"
+msgstr "May"
+
+msgid "MB"
+msgstr "Mb"
+
+msgid "MODIFY"
+msgstr "Modify"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Modify user group"
+
+msgid "MONDAY"
+msgstr "Monday"
+
+msgid "Miscellaneous"
+msgstr "Miscellaneous"
+
+msgid "NAME"
+msgstr "Name"
+
+msgid "NETWORK"
+msgstr "Network"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Allow access only from local networks"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Allow public access (entire Internet)"
+
+msgid "NEXT"
+msgstr "Next"
+
+msgid "NO"
+msgstr "No"
+
+msgid "NOVEMBER"
+msgstr "November"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "Pipe symbols (|) are not permitted in this field"
+
+msgid "OCTOBER"
+msgstr "October"
+
+msgid "OFF"
+msgstr "Off"
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "ON"
+msgstr "On"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Operation status report"
+
+msgid "PASSWORD"
+msgstr "Password"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Change Password"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Your password has been successfully changed."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "The password you entered contained invalid characters."
+
+msgid "PASSWORD_NEW"
+msgstr "New password:"
+
+msgid "PASSWORD_OLD"
+msgstr "Old password:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "The old password you entered contained invalid characters."
+
+msgid "PASSWORD_RESET"
+msgstr "Reset password"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "The passwords you entered did not match."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "New password (verify):"
+
+msgid "PERFORM"
+msgstr "Perform"
+
+msgid "PHONE_VALIDATION"
+msgstr "Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Reconfigure"
+
+msgid "REMOTE"
+msgstr "Remote"
+
+msgid "REMOVE"
+msgstr "Remove"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Remove user group"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Reset user password"
+
+msgid "RESTORE"
+msgstr "Restore"
+
+msgid "ROUTER"
+msgstr "Router"
+
+msgid "Report a bug"
+msgstr "Report a bug"
+
+msgid "SATURDAY"
+msgstr "Saturday"
+
+msgid "SAVE"
+msgstr "Save"
+
+msgid "SELF"
+msgstr "Self"
+
+msgid "SEPTEMBER"
+msgstr "September"
+
+msgid "SHUTDOWN"
+msgstr "Shutdown"
+
+msgid "STRING_VALIDATION"
+msgstr "String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Success"
+
+msgid "SUNDAY"
+msgstr "Sunday"
+
+msgid "Security"
+msgstr "Security"
+
+msgid "THEME"
+msgstr "Theme"
+
+msgid "THURSDAY"
+msgstr "Thursday"
+
+msgid "TUESDAY"
+msgstr "Tuesday"
+
+msgid "Time"
+msgstr "Time"
+
+msgid "USER_INVALID"
+msgstr "Invalid user"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Current list of users"
+
+msgid "USER_NAME"
+msgstr "User Name"
+
+msgid "User password"
+msgstr "User password"
+
+msgid "WEDNESDAY"
+msgstr "Wednesday"
+
+msgid "YES"
+msgstr "Yes"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Your account:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "The account name entered is invalid."
+
+msgid "Your Settings"
+msgstr "Your Settings"
+
+msgid "acs_ADMIN"
+msgstr "Please login"
+
+msgid "cancel"
+msgstr "Cancel"
+
+msgid "del"
+msgstr "del"
+
+msgid "edit"
+msgstr "edit"
+
+msgid "exit"
+msgstr "Exit"
+
+msgid "hello"
+msgstr "hello"
+
+msgid "info_dev_mode_and_public"
+msgstr "Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

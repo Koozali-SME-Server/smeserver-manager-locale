@@ -16,8 +16,8 @@
   <p> Om systeem administratie taken uit te voeren klik op een van de items uit het menu aan de linker zijde van het scherm. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Welkom bij de SME Server. Deze software komt met ABSOLUUT GEEN GARANTIE. <a href="/smanager/support" target="main">Klik hier</a> voor een gedetailleerd rapport, garantie- en licentie informatie. 
-
-  <p> <a href="/server-manager/noframes">Klik hier</a> voor een lijst met systeem administratieve functies. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Welkom bij de SME Server. Deze software komt met ABSOLUUT GEEN GARANTIE. <a href="/smanager/support" target="main">Klik hier</a> voor een gedetailleerd rapport, garantie- en licentie informatie. 
+#
+#  <p> <a href="/server-manager/noframes">Klik hier</a> voor een lijst met systeem administratieve functies. </p>
+#
+#  ',

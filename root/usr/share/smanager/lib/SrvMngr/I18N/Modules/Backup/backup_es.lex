@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Respaldar o restaurar los datos del servidor',
-'bac_BACKUP_DESC' => ' <p>El servidor provee dos maneras de respaldar y restaurar su servidor: usando su escritorio local o unidad de cinta.</p>
-
-  <p>El primer método crea una copia de los archivos de datos de usuario y de configuración del servidor y la descarga al escritorio local mediante el explorador Web. El total aproximado actual de los archivos de configuración y de datos es de <b>[_3]</b>. El archivo de respaldo será un poco menor, dependiendo de lo comprimibles que sean los datos. La opción \\"Verificar archivo de respaldo de escritorio\\" se puede utilizar para verificar la integridad de un archivo de respaldo de escritorio.</p>
-
-  <p>El método de respaldo en cinta utiliza un paquete de software llamado <i>[_1]</i> para respaldar en cinta el disco duro completo todas las noches. Esto requiere una unidad de cinta compatible y una cinta que no esté protegida contra-escritura. El respaldo se realiza automáticamente todas las noches a la hora seleccionada (enviándose automáticamente al administrador un recordatorio electrónico durante el día). Actualmente, el disco duro contiene <b>[_2]</b> de datos.</p>
-
-  <p>Los dos métodos de restauración permiten restaurar los archivos de configuración y de datos de usuario. <b>Idealmente, la restauración se debe realizar en un servidor recién instalado</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>El servidor provee dos maneras de respaldar y restaurar su servidor: usando su escritorio local o unidad de cinta.</p>
+#
+#  <p>El primer método crea una copia de los archivos de datos de usuario y de configuración del servidor y la descarga al escritorio local mediante el explorador Web. El total aproximado actual de los archivos de configuración y de datos es de <b>[_3]</b>. El archivo de respaldo será un poco menor, dependiendo de lo comprimibles que sean los datos. La opción \\"Verificar archivo de respaldo de escritorio\\" se puede utilizar para verificar la integridad de un archivo de respaldo de escritorio.</p>
+#
+#  <p>El método de respaldo en cinta utiliza un paquete de software llamado <i>[_1]</i> para respaldar en cinta el disco duro completo todas las noches. Esto requiere una unidad de cinta compatible y una cinta que no esté protegida contra-escritura. El respaldo se realiza automáticamente todas las noches a la hora seleccionada (enviándose automáticamente al administrador un recordatorio electrónico durante el día). Actualmente, el disco duro contiene <b>[_2]</b> de datos.</p>
+#
+#  <p>Los dos métodos de restauración permiten restaurar los archivos de configuración y de datos de usuario. <b>Idealmente, la restauración se debe realizar en un servidor recién instalado</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
@@ -18,10 +18,10 @@
 
   <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Configuración y estado del respaldo',
-'bac_TAPE_BACKUPS_ENABLED' => ' Los respaldos en cinta están habilitados. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Los respaldos en cinta están habilitados. ',
 'bac_BACKUPS_RUN_AT' => 'Los respaldos regulares en cinta se ejecutarán a las:',
 'bac_REMINDER_MESSAGE_AT' => 'Los mensajes recordatorios se enviarán a las:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Los respaldos en cinta están deshabilitados ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Los respaldos en cinta están deshabilitados ',
 'bac_DESKTOP_BACKUP' => 'Respaldo al escritorio',
 'bac_DESKTOP_RESTORE' => 'Restaurar desde el escritorio',
 'bac_DESKTOP_VERIFY' => 'Verificar archivo de respaldo de escritorio',
@@ -112,8 +112,8 @@
 'bac_PAGE_REFRESH_IN' => ' Esta página se actualizará a la pantalla de estado en [_1] segundos o haga clic aquí. ',
 'Backup or restore' => 'Respaldar o restaurar',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Su servidor tiene demasiados datos para realizar un respaldo confiable al escritorio.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Los respaldos en ordenador remoto están deshabilitados ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Los respaldos en ordenador remoto están habilitados. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Los respaldos en ordenador remoto están deshabilitados ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Los respaldos en ordenador remoto están habilitados. ',
 'bac_WKBACKUPS_RUN_AT' => 'Los respaldos regulares en ordenador remoto se ejecutarán a las:',
 'bac_WORKSTN_CONFIGURE' => 'Configurar respaldo en ordenador remoto',
 'bac_WORKSTN_VERIFY' => 'Verificar respaldo de ordenador remoto',

@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "ACCESS"
+msgstr "Akses"
+
+msgid "ACCOUNT"
+msgstr "Akun"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "Tidak ada grup pengguna dalam sistem."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "Akun dikunci"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "Nama akun anda invalid"
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "Nama akun anda mengandung karakter yang tidak diperkenankan"
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Ganti password akun"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "Tidak ada akun pengguna dalam sistem ini."
+
+msgid "ACTION"
+msgstr "Aksi"
+
+msgid "ADD"
+msgstr "Tambah"
+
+msgid "APRIL"
+msgstr "April"
+
+msgid "AUGUST"
+msgstr "Agustus"
+
+msgid "Administration"
+msgstr "Administrasi"
+
+msgid "All rights reserved"
+msgstr "Hak Cipta Dilindungi Undang-Undang"
+
+msgid "BACK"
+msgstr "Kembali"
+
+msgid "BACKUP"
+msgstr "Cadangkan"
+
+msgid "CANCEL"
+msgstr "Batal"
+
+msgid "COMMENT"
+msgstr "Komentar"
+
+msgid "CONTENT"
+msgstr "Isi"
+
+msgid "CREATE"
+msgstr "Buat"
+
+msgid "CREATE_GROUP"
+msgstr "Buat grup pengguna"
+
+msgid "Collaboration"
+msgstr "Kolaborasi"
+
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+msgid "DECEMBER"
+msgstr "Desember"
+
+msgid "DESCRIPTION"
+msgstr "Gambaran"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Deskripsi singkat"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "Tujuan"
+
+msgid "DISABLED"
+msgstr "Dinonaktifkan"
+
+msgid "DOMAIN"
+msgstr "Domain"
+
+msgid "DOMAINS"
+msgstr "Domain-domain"
+
+msgid "DOMAIN_NAME"
+msgstr "Nama domain"
+
+msgid "DOWNLOAD"
+msgstr "Unduh"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Diaktifkan"
+
+msgid "END_OF_REPORT"
+msgstr "Akhir Laporan"
+
+msgid "ERROR_BELOW"
+msgstr "ERROR: Terjadi kesalahan dalam validasi halaman ini. Silakan gulung kebawah dan temukan masalah tersebut."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "Karakter yang tidak diharapkan dalam deskripsi"
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "Terjadi kesalahan saat mencoba mengganti password. Pastikan bahwa anda sudah mengisikan password lama dengan benar."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "Terjadi kesalahan saat memutakhirkan konfigurasi sistem."
+
+msgid "FEBRUARY"
+msgstr "Februari"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "Error: karakter yang tidak diharapkan atau hilang dalam deskripsi"
+
+msgid "FM_IP_NUMBER1"
+msgstr "Field ini harus berisi nomor IP yang valid dan tidak boleh dikosongkan"
+
+msgid "FM_IP_NUMBER2"
+msgstr "Alamat IP tidak valid untuk memulai DHCP"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] lebih dari 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "Anda harus mengisikan alamat MAC"
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "Alamat MAC yang anda sediakan tidak valid."
+
+msgid "FM_NONBLANK"
+msgstr "Field ini tidak boleh dikosongkan"
+
+msgid "FRIDAY"
+msgstr "Jumat"
+
+msgid "GROUP"
+msgstr "Grup"
+
+msgid "GROUPS"
+msgstr "Grup"
+
+msgid "GROUP_ADD"
+msgstr "Tambah Grup"
+
+msgid "GROUP_MEMBERS"
+msgstr "Anggota Grup"
+
+msgid "GROUP_NAME"
+msgstr "Nama Grup"
+
+msgid "IP_ADDRESS"
+msgstr "Alamat IP"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "Alamat IP"
+
+msgid "JANUARY"
+msgstr "Januari"
+
+msgid "JULY"
+msgstr "Juli"
+
+msgid "JUNE"
+msgstr "Juni"
+
+msgid "LOCAL"
+msgstr "Lokal"
+
+msgid "LOCATION"
+msgstr "Lokasi"
+
+msgid "MARCH"
+msgstr "Maret"
+
+msgid "MAY"
+msgstr "Mei"
+
+msgid "MB"
+msgstr "Mb"
+
+msgid "MODIFY"
+msgstr "Ubah"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "Ubah grup pengguna"
+
+msgid "MONDAY"
+msgstr "Senin"
+
+msgid "Miscellaneous"
+msgstr "Lain-lain"
+
+msgid "NAME"
+msgstr "Nama"
+
+msgid "NETWORK"
+msgstr "Jaringan"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "Bolehkan akses hanya dari jaringan lokal"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "Bolehkan akses publik (seluruh internet)"
+
+msgid "NEXT"
+msgstr "Selanjutnya"
+
+msgid "NO"
+msgstr "Tidak"
+
+msgid "NOVEMBER"
+msgstr "November"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "Simbol 'pipe' (|) tidak diperbolehkan dalam field ini"
+
+msgid "OCTOBER"
+msgstr "Oktober"
+
+msgid "OFF"
+msgstr "Padam"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "ON"
+msgstr "Hidup"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Laporan status operasi"
+
+msgid "PASSWORD"
+msgstr "Kata kunci"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Ganti password"
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "Password anda telah berhasil diubah"
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "Password anda mengandung karakter yang tidak diperkenankan"
+
+msgid "PASSWORD_NEW"
+msgstr "Password baru:"
+
+msgid "PASSWORD_OLD"
+msgstr "Password lama:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "Password lama anda mengandung karakter yang tidak diperkenankan"
+
+msgid "PASSWORD_RESET"
+msgstr "Atur Ulang Kata Sandi"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "Password yang anda masukkan tidak sama."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "Password baru(verifikasi):"
+
+msgid "PERFORM"
+msgstr "Jalankan"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Rekonfigurasi"
+
+msgid "REMOTE"
+msgstr "Jarak jauh"
+
+msgid "REMOVE"
+msgstr "Hapus"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "Hapus grup pengguna"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "Reset Password user"
+
+msgid "RESTORE"
+msgstr "Kembalikan"
+
+msgid "ROUTER"
+msgstr "Router"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Sabtu"
+
+msgid "SAVE"
+msgstr "Simpan"
+
+msgid "SELF"
+msgstr "Sendiri"
+
+msgid "SEPTEMBER"
+msgstr "September"
+
+msgid "SHUTDOWN"
+msgstr "Tutup padam"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Berhasil"
+
+msgid "SUNDAY"
+msgstr "Minggu"
+
+msgid "Security"
+msgstr "Keamanan"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Kamis"
+
+msgid "TUESDAY"
+msgstr "Selasa"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Pengguna Invalid"
+
+msgid "USER_LIST_CURRENT"
+msgstr "Daftar pengguna"
+
+msgid "USER_NAME"
+msgstr "Nama pengguna"
+
+msgid "User password"
+msgstr "Kata sandi pengguna"
+
+msgid "WEDNESDAY"
+msgstr "Rabu"
+
+msgid "YES"
+msgstr "Ya"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Akun anda:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "Nama akun anda invalid"
+
+msgid "Your Settings"
+msgstr "Pengaturan anda"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Batal"
+
+msgid "del"
+msgstr "hapus"
+
+msgid "edit"
+msgstr "edit"
+
+msgid "exit"
+msgstr "Keluar"
+
+msgid "hello"
+msgstr "halo"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

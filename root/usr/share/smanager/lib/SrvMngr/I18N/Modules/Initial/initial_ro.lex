@@ -12,8 +12,8 @@
   <p> Pentru a utiliza o functie de administrare apăsați unul din linkurile din meniul din stânga ecranului. </p>
 
   ',
-'initial_NOFRAMES_BODY' => ' Bine ați venit la SME Server. Acest software vine cu ABSOLUT NICI O GARANȚIE. <a href="/smanager/support" target="main">Apăsați aici</a> pentru a vedea detaliile de suport, garanție și licentțiere. 
-
-  <p> <a href="/server-manager/noframes">Apăsați aici</a> pentru o listă a funțiilor de administrare. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => ' Bine ați venit la SME Server. Acest software vine cu ABSOLUT NICI O GARANȚIE. <a href="/smanager/support" target="main">Apăsați aici</a> pentru a vedea detaliile de suport, garanție și licentțiere. 
+#
+#  <p> <a href="/server-manager/noframes">Apăsați aici</a> pentru o listă a funțiilor de administrare. </p>
+#
+#  ',

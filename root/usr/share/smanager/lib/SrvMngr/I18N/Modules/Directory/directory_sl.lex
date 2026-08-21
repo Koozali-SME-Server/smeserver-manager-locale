@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Nove privzete nastavitve LDAP streznika so bile shranjene.',
 'dir_LEAVE' => 'Pustite nespremenjene',
 'dir_UPDATE' => 'Posodobite z novimi nastavitvami',
-'dir_Directory' => 'Directory',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Directory',

@@ -1,11 +1,11 @@
 'bac_BACKUP_TITLE' => 'Sichern oder Wiederherstellen der Serverdaten',
-'bac_BACKUP_DESC' => ' <p>Der Server bietet zwei Möglichkeiten, den Server zu sichern und wiederherzustellen: entweder auf dem lokalen Desktop oder auf ein Bandlaufwerk.</p>
-
-  <p>Die erste Methode erzeugt eine Kopie der Servereinstellungen sowie der Benutzerdaten und lädt diese über den Webbrowser auf den Arbeitsplatzrechner herunter. Im Moment beträgt die Größe Ihrer Einstellungen und Benutzerdaten ungefähr<b>[_3]</b>. Die Sicherungsdatei wird etwas kleiner als dieser Wert, abhängig davon wie die Daten komprimierbar sind. Mit \\"Überprüfung der Sicherungsdatei\\" kann die Datei noch einmal auf Integrität überprüft werden.</p>
-
-  <p>Die Bandsicherungmethode benutzt ein Softwarepaket mit dem Namen <i>[_1]</i>, um die Daten der Festplatte jede Nacht zu sichern. Dafür wird ein Bandsicherungslaufwerk und ein nicht schreibgeschütztes Band benötigt. Die Sicherung wird automatisch zu der angegebenen Zeit jede Nacht durchgeführt (sowie im Laufe des Tages eine E-Mail an den Administrator geschickt). Aktuell sind auf Festplatten Ihres Servers <b>[_2]</b> an Daten gespeichert. <b>Im Idealfall sollte die Wiederherstellung auf einem frisch installierten Server durchgeführt werden.</b></p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>Der Server bietet zwei Möglichkeiten, den Server zu sichern und wiederherzustellen: entweder auf dem lokalen Desktop oder auf ein Bandlaufwerk.</p>
+#
+#  <p>Die erste Methode erzeugt eine Kopie der Servereinstellungen sowie der Benutzerdaten und lädt diese über den Webbrowser auf den Arbeitsplatzrechner herunter. Im Moment beträgt die Größe Ihrer Einstellungen und Benutzerdaten ungefähr<b>[_3]</b>. Die Sicherungsdatei wird etwas kleiner als dieser Wert, abhängig davon wie die Daten komprimierbar sind. Mit \\"Überprüfung der Sicherungsdatei\\" kann die Datei noch einmal auf Integrität überprüft werden.</p>
+#
+#  <p>Die Bandsicherungmethode benutzt ein Softwarepaket mit dem Namen <i>[_1]</i>, um die Daten der Festplatte jede Nacht zu sichern. Dafür wird ein Bandsicherungslaufwerk und ein nicht schreibgeschütztes Band benötigt. Die Sicherung wird automatisch zu der angegebenen Zeit jede Nacht durchgeführt (sowie im Laufe des Tages eine E-Mail an den Administrator geschickt). Aktuell sind auf Festplatten Ihres Servers <b>[_2]</b> an Daten gespeichert. <b>Im Idealfall sollte die Wiederherstellung auf einem frisch installierten Server durchgeführt werden.</b></p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => ' <p>Drei Möglichkeiten sind vorgesehen, um Ihren Server zu sichern und wiederherzustellen: mit einem Bandlaufwerk, mit einer Netzwerkfreigabe oder mit Hilfe Ihres lokalen Arbeitsplatzrechners.</p>
 
   <p>Bandsicherung. Diese Methode verwendet ein Software-Paket namens <i>[_1]</i>, um jede Nacht die gesamte Server-Festplatte auf Band zu sichern. Dies erfordert ein unterstütztes Bandlaufwerk und ein nicht schreibgeschütztes Band. Die Sicherung wird automatisch zur gewählten Zeit in der Nacht durchgeführt (eine Erinnerung wird automatisch während des Tages an den Administrator gemailt). Zur Zeit enthält Ihre Festplatte <b>[_2]</b> an Daten.</p>
@@ -18,10 +18,10 @@
 
   ',
 'bac_BACKUP_CONFIG_STATUS' => 'Sichern von Konfiguration und Status',
-'bac_TAPE_BACKUPS_ENABLED' => ' Bandsicherung ist im Moment aktiviert. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Bandsicherung ist im Moment aktiviert. ',
 'bac_BACKUPS_RUN_AT' => 'Die normale Bandsicherung läuft um:',
 'bac_REMINDER_MESSAGE_AT' => 'Erinnerungsmitteilung wird gesendet um:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Bandsicherungen sind deaktiviert ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Bandsicherungen sind deaktiviert ',
 'bac_DESKTOP_BACKUP' => 'Sicherung auf den Arbeitsplatzrechner',
 'bac_DESKTOP_RESTORE' => 'Wiederherstellen vom Arbeitsplatzrechner',
 'bac_DESKTOP_VERIFY' => 'Überprüfung der Sicherungsdatei',
@@ -112,8 +112,8 @@
 'bac_PAGE_REFRESH_IN' => ' Diese Seite wird in [_1] Sekunden mit der Statusanzeige erneuert, oder drücken Sie hier. ',
 'Backup or restore' => 'Sichern oder Wiederherstellen',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Auf Ihrem Server befinden sich zu viele Daten, um eine verläßliche Sicherung auf den lokalen Arbeitsplatz durchführen zu können.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation Backups sind deaktiviert ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation Backups sind im Moment aktiviert. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation Backups sind deaktiviert ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation Backups sind im Moment aktiviert. ',
 'bac_WKBACKUPS_RUN_AT' => 'Das normale Workstation Backup wird laufen um:',
 'bac_WORKSTN_CONFIGURE' => 'Konfiguriere Workstation Backup',
 'bac_WORKSTN_VERIFY' => 'Workstation Backup überprüfen',

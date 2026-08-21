@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Printers module\n"
+"POT-Creation-Date: 2026-08-21 10:21+0100\n"
+"PO-Revision-Date: 2026-08-21 10:21+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "Printers"
+msgstr "Impresoras"
+
+msgid "prt_ABOUT_TO_REMOVE"
+msgstr "Está a punto de eliminar la impresora:"
+
+msgid "prt_ARE_YOU_SURE"
+msgstr "¿Está seguro de que desea eliminar esta impresora?"
+
+msgid "prt_CREATED_SUCCESSFULLY"
+msgstr "Impresora creada con éxito:"
+
+msgid "prt_CREATE_NETWORK_DESC"
+msgstr "Introduzca la dirección y el nombre de la impresora de red"
+
+msgid "prt_CREATE_NETWORK_PRINTER"
+msgstr "Crear una nueva impresora de red"
+
+msgid "prt_CREATE_NEW_DESC"
+msgstr "Escoja un nombre único para la impresora y escriba una breve descripción. El nombre de la impresora sólo debe contener números y letras minúsculas, y debe comenzar con una minúscula. Por ejemplo, \"hplaser\", \"epsonlp\" y \"canonbj\" son opciones válidas, pero \"HP Laser Jet\", \"Canon BubbleJet\" e \"Impresora HP JetDirect\" no lo son. Evite nombres y descripciones que contengan estos términos, \"offline\", \"disabled\", \"down\", \"off\", \"waiting\", \"jam\", \"paper\", \"error\" y \"responding\"."
+
+msgid "prt_CREATE_NEW_PRINTER"
+msgstr "Crear una nueva impresora"
+
+msgid "prt_CURRENT_LIST"
+msgstr "Lista actual de impresoras"
+
+msgid "prt_DELETED_SUCCESSFULLY"
+msgstr "Impresora eliminada con éxito:"
+
+msgid "prt_ERR_EXISTS"
+msgstr "Error: Una cuenta con el mismo nombre existe con el tipo:"
+
+msgid "prt_ERR_INTERNAL_FAILURE"
+msgstr "Error: error interno al eliminar la impresora:"
+
+msgid "prt_ERR_INVALID_ADDRESS"
+msgstr "Error: dirección de red no válida. No se creó la impresora nueva."
+
+msgid "prt_ERR_INVALID_REMOTE_NAME"
+msgstr "Error: nombre de impresora de red inválido. No se creó la impresora nueva."
+
+msgid "prt_ERR_UNEXPECTED_DESC"
+msgstr "Error: caracteres erróneos o faltantes en la descripción. No se creó la impresora nueva."
+
+msgid "prt_ERR_UNEXPECTED_NAME"
+msgstr " Error: caracteres erróneos en el nombre de la impresora. El nombre de la impresora sólo debe contener números y letras minúsculas, y debe comenzar con una minúscula. Por ejemplo \"hplaser\", \"epsonlp\", y \"canonbj\" son nombres válidos. "
+
+msgid "prt_FIRST_USB_PRINTER"
+msgstr "Primera impresora USB conectada"
+
+msgid "prt_FORM_TITLE"
+msgstr "Agregar o eliminar impresoras"
+
+msgid "prt_HOSTNAME_OR_IP"
+msgstr "Nombre de host o dirección IP de la impresora de red"
+
+msgid "prt_INITIAL_BTN"
+msgstr "Añadir impresora"
+
+msgid "prt_LOCAL_PRINTER_0"
+msgstr "Puerto 0 (LPT1) de impresora local"
+
+msgid "prt_LOCAL_PRINTER_1"
+msgstr "Puerto 1 (LPT2) de impresora local"
+
+msgid "prt_LOCAL_PRINTER_2"
+msgstr "Puerto 2 (LPT3) de impresora local"
+
+msgid "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgstr "Debe ser un nombre de host o número de IP válidos"
+
+msgid "prt_NET_PRINTER"
+msgstr "Impresora de red ..."
+
+msgid "prt_NO_PRINTERS"
+msgstr "No hay impresoras en el sistema."
+
+msgid "prt_PRINTER_NAME"
+msgstr "Nombre de la impresora"
+
+msgid "prt_REMOTE_ADDRESS"
+msgstr "Dirección remota"
+
+msgid "prt_REMOTE_NAME"
+msgstr "Nombre remoto"
+
+msgid "prt_REMOTE_NAME_DESC"
+msgstr " Nombre de impresora de red (si no esta seguro introduzca el nombre como aparece) "
+
+msgid "prt_REMOVE_PRINTER"
+msgstr "Eliminar impresora"
+
+msgid "prt_SECOND_USB_PRINTER"
+msgstr "Segunda impresora USB conectada"
+
+msgid "prt_SPOOL_FILE_WARNING"
+msgstr "Se borrarán todos los archivos de la cola de impresión para esta impresora."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prt_ERR_CREATING"
+#~ msgstr "Ocurrió un error durante la creación de la impresora."
+#~ msgid "prt_ERR_DELETING"
+#~ msgstr "Ocurrió un error durante la eliminación de la impresora."
+#~ msgid "prt_ERR_OPENING_DB"
+#~ msgstr "Ocurrió un error al abrir la base de datos de las cuentas."
+#~ msgid "prt_INITIAL_DESC"
+#~ msgstr " <a class=\"button-like\" href=\"printers?page=0&next=add\">Agregar impresora</a>\n\n  "

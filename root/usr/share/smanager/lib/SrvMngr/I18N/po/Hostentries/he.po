@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Hostentries module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+
+msgid "Hostnames and addresses"
+msgstr "שמות מארחים וכתובות"
+
+msgid "hos_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this hostname?"
+
+msgid "hos_ADDR_IN_DHCP_RANGE"
+msgstr "(en)Address is inside the DHCP assigned dynamic range"
+
+msgid "hos_ADD_HOSTNAME"
+msgstr "הוסף שם מארח"
+
+msgid "hos_CREATE_OR_MODIFY_SUCCEEDED"
+msgstr "(en) Create or modify succeeded"
+
+msgid "hos_CREATE_TITLE"
+msgstr "צור או שנה שם מארח"
+
+msgid "hos_CREATE_TYPE"
+msgstr "(en) Create type"
+
+msgid "hos_CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN"
+msgstr "(en)Current list of hostnames for [_1]"
+
+msgid "hos_ERROR_CREATING_HOST"
+msgstr "(en) Error creating host"
+
+msgid "hos_ERROR_MODIFYING_HOST"
+msgstr "(en) Error modifying host"
+
+msgid "hos_ERROR_WHILE_CREATING_HOST"
+msgstr "אירעה שגיאה בעת יצירת שם המארח."
+
+msgid "hos_ERROR_WHILE_DELETING_HOST"
+msgstr "אירעה שגיאה בעת מחיקת שם המארח."
+
+msgid "hos_ERROR_WHILE_MODIFYING_HOST"
+msgstr "אירעה שגיאה בעת שינוי שם המארח."
+
+msgid "hos_ERROR_WHILE_REMOVING_HOST"
+msgstr "(en) Error while removing host"
+
+msgid "hos_ERR_IP_IS_LOCAL_OR_GATEWAY"
+msgstr "(en)Error: IP cannot be server IP or Gateway IP."
+
+msgid "hos_ERR_IP_NOT_LOCAL"
+msgstr "(en)Error: This IP address is not on any of our local networks."
+
+msgid "hos_ETHERNET_ADDRESS"
+msgstr "כתובת Ethernet"
+
+msgid "hos_ETHERNET_ADDRESS_DESCRIPTION"
+msgstr "(en)The ethernet address is optional and causes the DHCP server to statically bind the local IP address to the computer with this ethernet address. If specified, it must be of the form \"AA:BB:CC:DD:EE:FF\" and must contain only the numbers 0-9 and the letters A-F."
+
+msgid "hos_FORM_TITLE"
+msgstr "שמות מארחים וכתובות"
+
+msgid "hos_HOSTNAME"
+msgstr "שם מארח"
+
+msgid "hos_HOSTNAME_COMMENT_ERROR"
+msgstr "Error: unexpected characters in the comment of \"[_1].[_2]\". The comment must contain only letters, spaces, numbers, dots, commas, undescores, hyphens and must start with a letter or number."
+
+msgid "hos_HOSTNAME_DESCRIPTION"
+msgstr "(en)The hostname must contain only letters, numbers, and hyphens, and must start with a letter or number."
+
+msgid "hos_HOSTNAME_EXISTS_ERROR"
+msgstr "Error: account [_1] is an existing [_2] hostname."
+
+msgid "hos_HOSTNAME_IN_USE_ERROR"
+msgstr "(en) Hostname in use error"
+
+msgid "hos_HOSTNAME_VALIDATOR_ERROR"
+msgstr "Error: unexpected characters in host name: \"[_1].[_2]\". The host name should contain only letters, numbers, and hyphens and must start with a letter or a number."
+
+msgid "hos_HOSTTYPE"
+msgstr "Location"
+
+msgid "hos_LOCAL_IP"
+msgstr "כתובת IP מקומית"
+
+msgid "hos_LOCAL_IP_DESCRIPTION"
+msgstr "(en)The Local IP address is the IP address of another machine on the local network. Please enter a valid IP address in the format \"aaa.bbb.ccc.ddd\"."
+
+msgid "hos_LOCAL_PAGE_DESCRIPTION"
+msgstr "Please enter the following additional details for a local host:"
+
+msgid "hos_MODIFY_SUCCEEDED"
+msgstr "(en) Modify succeeded"
+
+msgid "hos_MODIFY_TITLE"
+msgstr "שנה את שם המארח"
+
+msgid "hos_MODIFY_TYPE"
+msgstr "(en) Modify type"
+
+msgid "hos_NONEXISTENT_HOSTNAME_ERROR"
+msgstr "(en) Nonexistent hostname error"
+
+msgid "hos_NONEXISTENT_HOST_ERROR"
+msgstr "(en) Nonexistent host error"
+
+msgid "hos_REMOTE_PAGE_DESCRIPTION"
+msgstr "Please enter the following additional details for a remote host:"
+
+msgid "hos_REMOVE_PAGE_DESCRIPTION"
+msgstr " You are about to remove the hostname \"[_1].[_2]\".   Are you sure you wish to remove this hostname? "
+
+msgid "hos_REMOVE_SUCCEEDED"
+msgstr "(en) Remove succeeded"
+
+msgid "hos_REMOVE_TITLE"
+msgstr "הסר שם מארח"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "hos_CONFIRM_DESCRIPTION"
+#~ msgstr "נא לאשר את הפרטים הבאים."
+#~ msgid "hos_CREATE_LOCAL_HOST_TITLE"
+#~ msgstr "(en)Create a new hostname referring to a local host."
+#~ msgid "hos_CREATE_REMOTE_HOST_TITLE"
+#~ msgstr "(en)Create a new hostname referring to a remote host"
+#~ msgid "hos_CURRENT_HOSTNAMES_FOR_DOMAIN"
+#~ msgstr "(en)Current list of hostnames for [_1]."
+#~ msgid "hos_DIDNT_ENTER_LOCAL_IP"
+#~ msgstr "Error: You did not specify a Local IP address. IP addresses must contain only numbers and periods and be in the form \"aaa.bbb.ccc.ddd\". Did not create hostname."
+#~ msgid "hos_DNS_FORWARDER_ENABLED"
+#~ msgstr "(en)A DNS forwarder has been configured. This means that all DNS lookups will be handled by the DNS forwarder. Hostnames and addresses cannot be modified on this server while a DNS forwarder is configured."
+#~ msgid "hos_DOMAIN_VALIDATION_ERROR"
+#~ msgstr "(en)Error: unexpected or missing characters in domain name [_1]. The domain name should contain one or more letters, numbers, periods and minus signs. Did not create new domain."
+#~ msgid "hos_HOSTNAME_LENGTH_ERROR"
+#~ msgstr "(en)Error: account name [_1] is too long. The maximum is 32 characters."
+#~ msgid "hos_HOSTNAME_VALIDATION_ERROR"
+#~ msgstr "(en)Error: unexpected characters in host name: \"[_1]\". The host name should contain only letters, numbers, and hyphens and must start with a letter or a number."
+#~ msgid "hos_Hostnames and addresses"
+#~ msgstr "שמות מארחים וכתובות"
+#~ msgid "hos_IP_VALIDATION_ERROR"
+#~ msgstr "Error: IP Address [_1] is invalid. IP Addresses must contain only numbers and periods and be in the form \"aaa.bbb.ccc.ddd\". Did not create hostname."
+#~ msgid "hos_MAC_ADDRESS_VALIDATION_ERROR"
+#~ msgstr "(en)Error: Ethernet address [_1] is invalid. Ethernet addresses must be in the form \"AA:BB:CC:DD:EE:FF\" and only contain the numbers 0-9 and the letters A-F. Did not create hostname."
+#~ msgid "hos_MUST_BE_VALID_HOSTNAME_OR_IP"
+#~ msgstr "יש להזין כתובת מארח או כתובת IP תקפה"
+#~ msgid "hos_NO_HOSTNAMES_FOR_LOCAL_DOMAIN"
+#~ msgstr "(en)There are no hostnames in the system for [_1]."
+#~ msgid "hos_NO_HOSTNAMES_FOR_SERVICENAME"
+#~ msgstr "(en)There are no hostnames in the system for [_1]."
+#~ msgid "hos_NO_HOSTS_FOR_THIS_DOMAIN"
+#~ msgstr "(en)There are no hosts for this domain."
+#~ msgid "hos_STATIC_HOST_MESSAGE"
+#~ msgstr "- This host represents your system name and cannot be modified or removed."
+#~ msgid "hos_SUCCESSFULLY_CREATED"
+#~ msgstr "שם המארח נוצר בהצלחה."
+#~ msgid "hos_SUCCESSFULLY_DELETED"
+#~ msgstr "המארח נמחק בהצלחה."
+#~ msgid "hos_SUCCESSFULLY_MODIFIED"
+#~ msgstr "המארח שונה בהצלחה."
+#~ msgid "hos_UNABLE_TO_OPEN_CONFIGDB"
+#~ msgstr "לא ניתן לפתוח את מסד הנתונים של התצורה"

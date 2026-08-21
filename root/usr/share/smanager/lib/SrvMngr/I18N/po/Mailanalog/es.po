@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Mailanalog module\n"
+"POT-Creation-Date: 2026-08-21 12:03+0100\n"
+"PO-Revision-Date: 2026-08-21 12:03+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "Mail log file analysis"
+msgstr "Análisis del archivo de registro de correo"
+
+msgid "mai_Authentication Analysis"
+msgstr "(en) Authentication Analysis"
+
+msgid "mai_Bounce Rate Analysis"
+msgstr "(en) Bounce Rate Analysis"
+
+msgid "mai_Comparison Reports"
+msgstr "(en) Comparison Reports"
+
+msgid "mai_Customized Reports"
+msgstr "(en) Customized Reports"
+
+msgid "mai_Daily_Summary_Report_all"
+msgstr "(en) Summary report for all time up to now"
+
+msgid "mai_Daily_Summary_Report_today"
+msgstr "(en) Summary report for today up to now"
+
+msgid "mai_Daily_Summary_Report_yesterday"
+msgstr "(en) Summary report for yesterday"
+
+msgid "mai_Delivery Status Report"
+msgstr "(en) Delivery Status Report"
+
+msgid "mai_Error Reporting"
+msgstr "(en) Error Reporting"
+
+msgid "mai_FORM_TITLE"
+msgstr "Análisis del Archivo de Registro de Correo"
+
+msgid "mai_GENERATE_REPORT"
+msgstr "Generar informe"
+
+msgid "mai_Geographic Analysis of Email"
+msgstr "(en) Geographic Analysis of Email"
+
+msgid "mai_INITIAL_DESC"
+msgstr " Al analizar los archivos de registro del sistema de correo, se puede entender cómo se está ejecutando el sistema, permitiendo diagnosticar problemas de entrega. Están disponibles varios informes distintos.\n#\n#  <p>Observe que puede demorar varios minutos en generar esos informes</p>\n#\n#  "
+
+msgid "mai_INVALID_REPORT_TYPE"
+msgstr "Tipo de informe inválido:"
+
+msgid "mai_REPORT_GENERATED"
+msgstr "Informe generado:"
+
+msgid "mai_REPORT_TYPE"
+msgstr "Elegir un tipo de informe"
+
+msgid "mai_Spam and Virus Filtering Report"
+msgstr "(en) Spam and Virus Filtering Report"
+
+msgid "mai_Top Senders and Recipients"
+msgstr "(en) Top Senders and Recipients"
+
+msgid "mai_Traffic Analysis"
+msgstr "(en) Traffic Analysis"
+
+msgid "mai_User Activity Report"
+msgstr "(en) User Activity Report"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_BASIC_STATS"
+#~ msgstr "Estadística básica"
+#~ msgid "mai_END_OF_REPORT"
+#~ msgstr "Fin de Informe"
+#~ msgid "mai_LIST_OUTGOING"
+#~ msgstr "Lista de mensajes salientes y destinatarios"
+#~ msgid "mai_REASONS_DEFERRAL"
+#~ msgstr "Razones de la postergación"
+#~ msgid "mai_REASONS_FAILURE"
+#~ msgstr "Razones de la falla"
+#~ msgid "mai_REASONS_SUCCESS"
+#~ msgstr "Razones para el éxito"
+#~ msgid "mai_RECIP_HOSTS"
+#~ msgstr "Hosts destinatarios"
+#~ msgid "mai_RECIP_ORDERED"
+#~ msgstr "Destinatarios en el mejor orden para listas de correo"
+#~ msgid "mai_RECIP_STATS"
+#~ msgstr "Estadística de los destinatarios"
+#~ msgid "mai_SENDER_STATS"
+#~ msgstr "Estadísticas del remitente"
+#~ msgid "mai_SENDER_UIDS"
+#~ msgstr "UIDs del remitente"
+#~ msgid "mai_SENDMAIL_STYLE"
+#~ msgstr "Registro al estilo de Sendmail"
+#~ msgid "mai_SUCCESSFUL_DELIVERY_DELAY"
+#~ msgstr "Distribución exitosa del retardo de la entrega"
+#~ msgid "mai_SUMMARIZE_QUEUE"
+#~ msgstr "Resumir el estado de la cola de correo"

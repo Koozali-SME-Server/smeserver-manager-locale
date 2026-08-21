@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "Inställningarna för e-poståtkomst har sparats utan problem"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Egen inställning"
+
+msgid "mai_DEFAULT"
+msgstr "Förvalt"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "Inställningarna för e-postleverans har sparats utan problem"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Du kan blockera exekverbart innehåll i bihang till e-post genom att markera de exekverbara bihang som du önskar blockera. E-post som innehåller dessa bihang kommer automatiskt att returneras till avsändaren."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Delegering av mailserver Din server innehåller en komplett, fullfjädrad mailserver. Om du av någon orsak vill delegera e-posthanteringen till ett annan server , specificera IP-adressen på detta system här. För normalt användande, lämna detta fält tomt. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "För ETRN eller multi-drop, kan du kontrollera hur ofta denna server skall kontakta din sekundära mailserver för att hämta e-post. Ju oftare servern kopplar upp sig desto snabbare mottager du de e-postmeddelanden som skickas till dig, men detta betyder också att du troligtvis får högre telefon- eller Internetkostnader."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "Du kan kontrollera IMAP-serverns åtkomst. Inställningen 'Tillåt endast från lokalt nätverk' ´tillåter IMAP-åtkomst endast från ditt lokala nätverk. IMAPS-inställningen kan användas för att ge en krypterad extern åtkomst till din IMAP-server. Vi rekommenderar att du anger 'Tillåt endast åtkomst från lokalt nätverk' om du inte har ett särskilt skäl att göra annorlunda."
+
+msgid "mai_DESC_MODE"
+msgstr "Hämtningemetoden för e-post kan anges till standard (för fast Internetuppkoppling), ETRN (rekommenderas för uppringd förbindelse), eller multi-drop (för uppringd förbindelse om ETRN inte stöds av din Internetleverantör). Notera att multi-drop mod endast är ett alternativ som är valbart när servern är konfigurerad som privata server och gateway-mod."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "Du kan kontrollera POP3-serverns åtkomst. Inställningen 'Tillåt endast åtkomst från lokalt nätverk' möjliggör POP3-åtkomst endast från ditt lokala nätverk. POP3S-inställningen kan användas för att ge en krypterad extern åtkomst till din POP3-server. Vi rekommenderar att du anger 'Tillåt endast åtkomst från lokalt nätverk' såvida du inte har ett särskilt skäl att göra annorlunda."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " ETRN eller multi-drop-inställningar För ETRN eller multi-drop, specificera värdnamnet eller IP-adress för din sekundära mailserver. (Om du använder standardinställningarna för e-post, kan detta fält lämnas tomt.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " SMTP server Servern kan leverera utgående meddelanden direkt till deras destination (rekommenderas i de flesta fall) eller så kan de skickas via din Internetleverantörs SMTP-server (rekommenderas om du har en instabil Internetförbindelse eller använder en bostadsrättsförenings Internettjänst). Om du använder dig av din Internetleverantörs SMTP-server, ange dess värdnamn eller IP-adress nedan, annars lämna detta fält tomt. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " Du kan ange att autentisering krävs till din SMTP server, eller inte. SSMTP inställningarna kräver att alla användare använder SSL/TLS autentisering. SMTP och SSMTP inställningarna tillåter även att STARTTLS används för ge säker autentisering. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "Du kan söka igenom e-post efter spam. Om spam-filtrering är tillåten, kommer ett X-Spam-Status: huvud att adderas till varje meddelade, som sedan kan användas för att filtrar bort spam. Du kan justera känsligheten för spam-detektion från den förvalda nivån, medel. För finkänslig inställning kan du ställa in spam-känsligheten till Egen och därefter välja en egen nivå för markering av spam i meddelandehuvudet samt nivå för förkastande av meddelande."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "Du kan tillåta att en tag läggs till ämnet i varje meddelande som klassificeras SPAM. Värdet för denna tag anges nedan."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " Ändra inställningar för e-poståtkomst "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " Ändra inställningarna för e-postleverans "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " Ändra inställning för e-postfiltrering "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " Ändra inställningarna för e-postmottagning "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Okända användare Genom att välja Förhindra (rekommenderad inställning) kommer du att konfigurera servern att endast acceptera e-post för giltiga e-postadresser (exempelvis användare, grupper, pseudonymer). E-post för andra adresser kommer att förhindras. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "Du kan söka igenom inkommande och utgående e-post efter virus. Om genomsökning är tillåten och ett virus upptäckts kommer e-postmeddelandet att förkastas och returneras till avsändaren."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "Du kan tillåta eller ej tillåta webbmail på detta system. Webbmail tillåter åtkomst för användare till deras e-post genom en vanlig webbläsare genom adressen https://[_1]/webmail och därefter inloggning på deras konto."
+
+msgid "mai_E-Mail"
+msgstr "E-post"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "Tillåt HTTPS (säker)"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP med klientbegäran)"
+
+msgid "mai_EVERY15MIN"
+msgstr "Var 15:e minut"
+
+msgid "mai_EVERY2HRS"
+msgstr "Varannan timme"
+
+msgid "mai_EVERY30MIN"
+msgstr "Var 30:e minut"
+
+msgid "mai_EVERY5MIN"
+msgstr "Var 5:e minut"
+
+msgid "mai_EVERYHOUR"
+msgstr "Varje timme"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "Inställningarna för e-postfiltrering har sparats utan problem"
+
+msgid "mai_FORWARD_TO"
+msgstr "Skicka till"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "Skicka till administratör"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Hög"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "Tillåt både IMAP och IMAPS"
+
+msgid "mai_INSECURE_POP3"
+msgstr "Tillåt både POP3 och POP3S"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "Smarthostnamnet du angav är inte ett giltigt domännamn eller så är det inte tomt"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Exekvera innehållsblockering"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Innehåll att blockera"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Adress till intern mailserver"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "Under kontorstid (08:00 till 18:00) under veckodagar"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "Utanför kontorstid (18:00 till 08:00) under veckodagar"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "Under helger"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "IMAP serveråtkomst"
+
+msgid "mai_LABEL_MODE"
+msgstr "Hämtningsmetod e-post"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "POP3 serveråtkomst"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "POP användarnamn (för multi-drop)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "POP användarlösenord (för multi-drop)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "Sekundär mailserver"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "Adress till Internetleverantörens mailserver"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Mail-serverns lösenord"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "SMTP-autenticiering för Internetleverantör"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "Mail-serverns användar-id"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Sortera spam i mappen för junkmail"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "Välj sorteringshuvud (för multi-drop)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Välj sorteringsmetod (för multi-drop)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Egen inställning av nivå för förkastning av meddelande"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Spam-filtrering"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Spam-känslighet"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "Prefix i ämnet för SPAM"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "Ändra ämnet på spam-meddelanden"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Egen inställning av nivån för markering av spam"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "E-post till okända användare"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Virussökning"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Åtkomst webbmail"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Låg"
+
+msgid "mai_MEDIUM"
+msgstr "Medel"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "aldrig"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "Tillåt åtkomst endast från lokalt nätverk"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "Inställningarna för mottagning av e-post har sparats utan problem"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Förkasta"
+
+msgid "mai_SECURE_IMAP"
+msgstr "Tillåt privat och publik (säker IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "Tillåt privat och publik (säker POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "Tillåt SSMTP (säker)"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Ange nedan"
+
+msgid "mai_STANDARD"
+msgstr "Standard (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "Status för inlämningsport %u:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Delegera e-postservrar"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "ETRN- eller multi-drop-inställningar"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "SMTP-server"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Okända användare"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "Detta fält får inte lämnas tomt om SMTP-autenticiering är tillåten."
+
+msgid "mai_VERYHIGH"
+msgstr "Mycket hög"
+
+msgid "mai_VERYLOW"
+msgstr "Mycket låg"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Tillåt privata"
+#~ msgid "mai_AUTO"
+#~ msgstr "Automatisk"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "För multi-drop av e-post, ange POP användarkonto och lösenord. (Vid användning av standard eller ETRN e-post, Kan dessa fält lämnas tomma.) Vid multi-drop, kan du antingen använda det förvalda sorteringssättet för e-post eller så kan du ange ett speciellt meddelandehuvud som används vid e-postsortering."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " E-poståtkomst "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " E-postleverans "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " E-postmottagning "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Tillåt både HTTP och HTTPS"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "E-postinställningar"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "Tillåt både SMTP och SSMTP"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Protokoll (för multi-drop)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Tunnla över SSL (för multi-drop)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "SMTP autenticiering"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "De nya e-postinställningarna har sparats."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "Detta fält kräver en giltig e-postadress, som måste innehålla @-symbolen och ett domännamn."

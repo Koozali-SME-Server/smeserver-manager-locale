@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Printers module\n"
+"POT-Creation-Date: 2026-08-21 10:21+0100\n"
+"PO-Revision-Date: 2026-08-21 10:21+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "Printers"
+msgstr "Tiskalniki"
+
+msgid "prt_ABOUT_TO_REMOVE"
+msgstr "Ali si preprican, da zelis odstraniti tiskalnik:"
+
+msgid "prt_ARE_YOU_SURE"
+msgstr "Ali si preprican, da zelis odstraniti tiskalnik?"
+
+msgid "prt_CREATED_SUCCESSFULLY"
+msgstr "Nov tiskalnik uspesno dodan:"
+
+msgid "prt_CREATE_NETWORK_DESC"
+msgstr "Prosim vnesi naslov in ime mreznega tiskalnika"
+
+msgid "prt_CREATE_NETWORK_PRINTER"
+msgstr "Dodaj nov mrezni tiskalnik"
+
+msgid "prt_CREATE_NEW_DESC"
+msgstr "Prosim izberi unikatno ime za tiskalnik in kratek opis. Ime tiskalnika lahko vsebuje samo male crke naprimer \"hplaser\" ali \"canonbj\", imena kot so \"HP Laser\" ali \"Canon BJ\" pa niso pravilna."
+
+msgid "prt_CREATE_NEW_PRINTER"
+msgstr "Kreiraj nov tiskalnik"
+
+msgid "prt_CURRENT_LIST"
+msgstr "Trenutni seznam tiskalnikov"
+
+msgid "prt_DELETED_SUCCESSFULLY"
+msgstr "Uspesno izbrisan tiskalnik:"
+
+msgid "prt_ERR_EXISTS"
+msgstr "Napaka: Racun z enakim imenom ze obstaja:"
+
+msgid "prt_ERR_INTERNAL_FAILURE"
+msgstr "Napaka: Interna napaka pri brisanju tiskalnika:"
+
+msgid "prt_ERR_INVALID_ADDRESS"
+msgstr "Napaka: Napacen mrezni maslov. Nov tiskalnik ni dodan."
+
+msgid "prt_ERR_INVALID_REMOTE_NAME"
+msgstr "Napaka: Napacno ime mreznega tiskalnika. Nov tiskalnik ni dodan."
+
+msgid "prt_ERR_UNEXPECTED_DESC"
+msgstr "Napaka: Nepricakovan ali manjkajoc znak v opisu tiskalnika. Novi tiskalnik ni dodan."
+
+msgid "prt_ERR_UNEXPECTED_NAME"
+msgstr " Napaka: V imenu tiskalnika so nepravi znaki-crke. \n\n  <p>Ime tiskalnika lahko vsebuje samo male crke in stevilke naprimer \"hplaser\" ali \"canonbj\" in se mora zaceti z malo crko. </p>\n\n  "
+
+msgid "prt_FIRST_USB_PRINTER"
+msgstr "Prvi USB tiskalnik"
+
+msgid "prt_FORM_TITLE"
+msgstr "Dodaj ali odstrani tiskalnik"
+
+msgid "prt_HOSTNAME_OR_IP"
+msgstr "Hostname ali IP stevilka mreznega tiskalnika"
+
+msgid "prt_INITIAL_BTN"
+msgstr "Dodaj tiskalnik"
+
+msgid "prt_LOCAL_PRINTER_0"
+msgstr "Lokalni tiskalniski port 0 (LPT1)"
+
+msgid "prt_LOCAL_PRINTER_1"
+msgstr "Lokalni tiskalniski port 1 (LPT2)"
+
+msgid "prt_LOCAL_PRINTER_2"
+msgstr "Lokalni tiskalniski port 2 (LPT3)"
+
+msgid "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgstr "Mora biti veljavno ime gostitelja ali IP stevilka"
+
+msgid "prt_NET_PRINTER"
+msgstr "Mrezni tiskalnik ..."
+
+msgid "prt_NO_PRINTERS"
+msgstr "V sistemu ni nobenega tiskalnika."
+
+msgid "prt_PRINTER_NAME"
+msgstr "Ime tiskalnika"
+
+msgid "prt_REMOTE_ADDRESS"
+msgstr "Oddaljen naslov"
+
+msgid "prt_REMOTE_NAME"
+msgstr "Oddaljeno ime"
+
+msgid "prt_REMOTE_NAME_DESC"
+msgstr " Ime mreznega tiskalnika (vnesti surovo ime, ce nisi preprican) "
+
+msgid "prt_REMOVE_PRINTER"
+msgstr "Odstrani tiskalnik"
+
+msgid "prt_SECOND_USB_PRINTER"
+msgstr "Drugi USB tiskalnik"
+
+msgid "prt_SPOOL_FILE_WARNING"
+msgstr "Vse datoteke, ki so v bazi bodo izbrisane."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prt_ERR_CREATING"
+#~ msgstr "Prislo je do napake pri kreiranju novega tiskalnika."
+#~ msgid "prt_ERR_DELETING"
+#~ msgstr "Napaka occurred while deleting printer."
+#~ msgid "prt_ERR_OPENING_DB"
+#~ msgstr "Prislo je do napake pri odpiranju uporabniske baze."
+#~ msgid "prt_INITIAL_DESC"
+#~ msgstr " <a class=\"button-like\" href=\"printers?page=0&next=add\">Dodaj tiskalnik</a>\n\n  "
+#~ msgid "prt_Printers"
+#~ msgstr "Tiskalniki"

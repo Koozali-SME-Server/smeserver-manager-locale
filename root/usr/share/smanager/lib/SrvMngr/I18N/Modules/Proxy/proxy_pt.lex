@@ -1,4 +1,4 @@
-'prx_Proxy settings' => 'Configuração do proxy',
+# ORPHANED (no longer in proxy_en.lex; kept for reference, commented out by lex-to-po.pl): 'prx_Proxy settings' => 'Configuração do proxy',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Esta página permite fazer as configurações do servidor proxy. Este servidor inclui um proxy transparente e um cache para tráfego HTTP. Isto é habilitado por padrão, a não se que, esteja configurado no modo &quot;somente servidor&quot; . Se este servidor estiver agindo como servidor de correio, conexões de clientes da rede local para servidores SMTP externos serão por padrão redirecionadas para servidor de correio local.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'Servidores proxy HTTP trabalham para reduzir a sobrecarga de acessos armazenando as páginas recentemente visitadas. Isto é transparente a navegadores que usam esse servidor como gateway. Habilitar ou desabilitar este proxy com a caixa a seguir.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'Status do proxy HTTP ',

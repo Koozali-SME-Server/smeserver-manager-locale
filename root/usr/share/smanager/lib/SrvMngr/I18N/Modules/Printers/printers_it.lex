@@ -1,7 +1,7 @@
 'prt_FORM_TITLE' => 'Aggiungi o rimuovi stampanti',
-'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Aggiungi stampante</a>
-
-  ',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Aggiungi stampante</a>
+#
+#  ',
 'prt_NO_PRINTERS' => 'Non ci sono stampanti nel sistema.',
 'prt_CURRENT_LIST' => 'Lista delle stampanti',
 'prt_REMOTE_ADDRESS' => 'Indirizzo remoto',
@@ -24,10 +24,10 @@
 'prt_ERR_EXISTS' => 'Errore: esiste un account con lo stesso nome di tipo:',
 'prt_ERR_INVALID_ADDRESS' => 'Errore: indirizzo di rete non valido. Stampante non creata.',
 'prt_ERR_INVALID_REMOTE_NAME' => 'Errore: nome stampante di rete non valido. Stampante non creata.',
-'prt_ERR_CREATING' => 'Errore durante la creazione della stampante.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_CREATING' => 'Errore durante la creazione della stampante.',
 'prt_CREATED_SUCCESSFULLY' => 'Stampante creata con successo:',
 'prt_CREATE_NETWORK_PRINTER' => 'Crea una stampante di rete',
-'prt_ERR_OPENING_DB' => 'Errore durante l\'apertura del database accounts',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_OPENING_DB' => 'Errore durante l\'apertura del database accounts',
 'prt_CREATE_NETWORK_DESC' => 'Inserire nome e indirizzo della stampante di rete',
 'prt_HOSTNAME_OR_IP' => 'Nome host o indirizzo IP della stampante di rete',
 'prt_REMOTE_NAME_DESC' => ' Nome stampante di rete (selezionare raw se non si é sicuri) ',
@@ -36,7 +36,7 @@
 'prt_SPOOL_FILE_WARNING' => 'Tutti i file in spool di questa stampante saranno cancellati.',
 'prt_ARE_YOU_SURE' => 'Siete sicuri di voler rimuovere questa stampante ?',
 'prt_ERR_INTERNAL_FAILURE' => 'Errore: problema interno durante la rimozione della stampante:',
-'prt_ERR_DELETING' => 'Errore durante la rimozione della stampante.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_DELETING' => 'Errore durante la rimozione della stampante.',
 'prt_DELETED_SUCCESSFULLY' => 'Stampante rimossa con successo:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Deve essere un nome host valido o un indirizzo IP',
 'Printers' => 'Stampanti',

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Remoteaccess module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+
+msgid "Remote access"
+msgstr "Acesso remoto"
+
+msgid "rma_DESC_FTP_ACCESS"
+msgstr " Configurar FTP Você pode também controlar o acesso FTP para o seu servidor. Nós recomendamos deixar esse parâmetro configurado para 'acesso negado' a não ser que você tenha uma razão específica para fazer o contrário.  Nota: essas configurações limitam o acesso ao servidor e sobrepõem-se outras configurações, incluindo aquelas para compartilhamentos individuais. "
+
+msgid "rma_DESC_FTP_LOGIN"
+msgstr " Você também pode controlar autenticação de acesso FTP para compartilhamentos e conta de usuários. Nós recomendamos fortementedeixar esses parametros configurados para privados, a não ser que exista uma razão específica para fazer o contrário.  Nota: o cliente de shell segura sftp também pode ser usado para acessar o servidor, se o acesso remoto via shell segura estiver habilitado. Este método de acesso protege a senha e os dados da seção FTP, ao passo que FTP padrão não suporta nenhuma proteção. "
+
+msgid "rma_DESC_IPSECRW"
+msgstr " Configuração (Roadwarrior) Clientes IPSEC Você pode permitir acesso de clientes IPSEC para o seu servidor, autenticado por certificado digital. Você deve deixar esta opção desabilitada configurando o valor numérico para 0 a não ser que voce deseje acesso de clientes IPSEC. "
+
+msgid "rma_DESC_IPSECRW_RESET"
+msgstr "Se voce deseja apagar todos os certificados digitais, você pode fazê-lo aqui.Qualquer certificado antigo não mais funcionará mais para este servidor, então todos os clientes IPSEC terão que importar um novo certificado!. "
+
+msgid "rma_DESC_PPTP"
+msgstr " Configurar PPTP Você pode habilitar acesso PPTP ao seu servidor. Você deve deixar este configuração desabilitada entrando com o número 0 (zero) a não ser que precise de acesso PPPT. "
+
+msgid "rma_DESC_SSH"
+msgstr " Configuração de shell seguraVocê pode controlar acesso ao Shell Seguro para seu servidor. A configuração pública deve somente ser habilitada por administradores experientes para resolução e diagnóstico de problemas. Nós recomendamos deixar este parâmetro configurado para \"Acesso negado\" a não ser que voce tenha uma razão específica para fazer o contrário. "
+
+msgid "rma_DESC_TELNET_ACCESS"
+msgstr " Configuraração telnet AVISO: Telnet está atualmente habilitada, mas esta opção não é mas suportada. Telnet é inerentemente insegura e somente deve ser usada numa circunstância onde uma prática alternativa não exista. Você deve trocar essa opção para [_1] e usar shell segura se acesso remoto for necessário. Uma vez desabilitada, telnet não irá mais aparecer nessa tela. "
+
+msgid "rma_DESC_VALID_FROM_ENTRIES"
+msgstr "Para adicionar um novo gerenciador remoto da rede, entre com os detalhes abaixo."
+
+msgid "rma_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "rma_ERR_INVALID_PARAMS"
+msgstr "Escolha entre fornecer ambos, uma rede e máscara de subrede, ou deixar ambos os campos em branco."
+
+msgid "rma_FORM_TITLE"
+msgstr "Trocar configuração de acesso remoto"
+
+msgid "rma_INVALID_SUBNET_MASK"
+msgstr "Máscara de subrede inválida"
+
+msgid "rma_LABEL_FTP_ACCESS"
+msgstr "Acesso FTP"
+
+msgid "rma_LABEL_FTP_LOGIN"
+msgstr "Senha de acesso FTP"
+
+msgid "rma_LABEL_IPSECRW_RESET"
+msgstr "Apagar certificados digitais"
+
+msgid "rma_LABEL_IPSECRW_SESS"
+msgstr "Número de clientes IPSEC"
+
+msgid "rma_LABEL_PPTP"
+msgstr "Número de clientes PPTP"
+
+msgid "rma_LABEL_SSH"
+msgstr "Acesso seguro shell"
+
+msgid "rma_LABEL_SSH_ADMIN"
+msgstr "Permite acesso a linhas de comando administrativos sobre shell segura"
+
+msgid "rma_LABEL_SSH_PASSWORD_ACCESS"
+msgstr "Permite acesso seguro ao shell usando senhas padrão"
+
+msgid "rma_LABEL_SSH_PORT"
+msgstr "Porta TCP para acesso via shell segura"
+
+msgid "rma_LABEL_TELNET_ACCESS"
+msgstr "Acesso telnet"
+
+msgid "rma_NO_ACCESS"
+msgstr "Acesso negado"
+
+msgid "rma_NO_ENTRIES_YET"
+msgstr "Não existe entradas ainda"
+
+msgid "rma_NUMBER_OF_PPTP_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE"
+msgstr "(en)The number of pptp clients is greater than the number of reserved IP for DHCP. You should take a smaller number."
+
+msgid "rma_NUM_OF_HOSTS"
+msgstr "Número de hosts"
+
+msgid "rma_PASSWORD_LOGIN_PRIVATE"
+msgstr "Aceitar senhas apenas da rede local"
+
+msgid "rma_PASSWORD_LOGIN_PUBLIC"
+msgstr "Aceitar senhas de qualquer lugar"
+
+msgid "rma_REMOTE_MANAGEMENT"
+msgstr "Gerenciamento remoto"
+
+msgid "rma_SUBNET_MASK"
+msgstr "Máscara de subrede"
+
+msgid "rma_SUCCESS"
+msgstr "A nova configuração de acesso remoto foi salva."
+
+msgid "rma_TITLE_FTP_ACCESS"
+msgstr "Configurações de FTP"
+
+msgid "rma_TITLE_IPSECRW"
+msgstr "Configurações do Cliente IPSEC (Roadwarrior)"
+
+msgid "rma_TITLE_PPTP"
+msgstr "Configurações de PPTP"
+
+msgid "rma_TITLE_SSH"
+msgstr "Configurações do Secure Shell"
+
+msgid "rma_TITLE_TELNET_ACCESS"
+msgstr "Configurações de Telnet"
+
+msgid "rma_VALIDFROM_DESC"
+msgstr " [_1] É possível permitir que hosts em uma rede remota acessem o gerenciador do servidor entrando essas redes aqui. Use uma máscara de subrede de 255.255.255.255 para limitar o acesso a um determinado host. Qualquer host dentro da faixa especificada estará habilitado a acessar o gerenciador do servidor usando HTTPS. "
+
+msgid "rma_VALIDFROM_TITLE"
+msgstr "[_1]"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rma_DESCRIPTION"
+#~ msgstr "Para cada uma das opções abaixo, a configuração privada permite qualquer um de sua rede local acessar seu servidor. O modo público permite acesso de qualquer ponto da Internet. O modo acesso negado desabilita o acesso. Para entender as implicações de segurança na troca de configuração dessas opções padrão, voce deverá ler no guia do usuário a seção sbre acesso remoto."
+#~ msgid "rma_DESC_SERIAL_CONSOLE_ACCESS"
+#~ msgstr " Console serial Você pode permitir o acesso ao console do servidor de um terminal conectado a porta serial."
+#~ msgid "rma_ERR_NO_RECORD"
+#~ msgstr "Incapaz de localizar registro httpd-admin na configuração do banco de dados"
+#~ msgid "rma_LABEL_PPTP_ACCESS"
+#~ msgstr "Acesso padrão de usuário PPTP"
+#~ msgid "rma_LABEL_SERIAL_CONSOLE_ACCESS"
+#~ msgstr "Console serial"
+#~ msgid "rma_PORT1_ENABLED"
+#~ msgstr "Habilitar na porta serial 1"
+#~ msgid "rma_PORT2_ENABLED"
+#~ msgstr "Habilitar na porta serial 2"
+#~ msgid "rma_Remote access"
+#~ msgstr "Acesso remoto"
+#~ msgid "rma_VALUE_ZERO_OR_POSITIVE"
+#~ msgstr "Valor tem que ser 0 ou um inteiro positivo"

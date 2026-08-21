@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "メールアクセス設定が正常に保存されました"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "カスタム"
+
+msgid "mai_DEFAULT"
+msgstr "デフォルト"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "メール配信設定が正常に保存されました"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "(en)You can block executable content in e-mail attachments by highlighting the executable attachment types you wish to block. E-mail containing these attachment types will be automatically returned to the sender."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Delegate mail servers Your server includes a complete, full-featured e-mail server. However, if for some reason you wish to delegate e-mail processing to another system, specify the IP address of the delegate system here. For normal operation, leave this field blank. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "(en)For ETRN or multi-drop, you can control how frequently this server contacts your secondary e-mail server to fetch e-mail. More frequent connections mean that you receive your e-mail more quickly, but also cause Internet requests to be sent more often, possibly increasing your phone and Internet charges."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "(en)You can control IMAP server access. The setting 'Allow access only from local networks' allows IMAP access only from your local network(s). The IMAPS setting can be used to provide encrypted external access to your IMAP server. We recommend leaving this setting 'Allow access only from local networks' unless you have a specific reason to do otherwise."
+
+msgid "mai_DESC_MODE"
+msgstr "(en)The e-mail retrieval mode can be set to standard (for dedicated Internet connections), ETRN (recommended for dialup connections), or multi-drop (for dialup connections if ETRN is not supported by your Internet provider). Note that multi-drop mode is the only option available when the server is configured in private server and gateway mode."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "(en)You can control POP3 server access. The setting 'Allow access only from local networks' allows POP3 access only from your local network(s). The POP3S setting can be used to provide encrypted external access to your POP3 server. We recommend leaving this setting 'Allow access only from local networks' unless you have a specific reason to do otherwise."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " ETRN or multi-drop settings For ETRN or multi-drop, specify the hostname or IP address of your secondary mail server. (If using the standard e-mail setup, this field can be left blank.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " SMTP server The server can deliver outgoing messages directly to their destination (recommended in most cases) or can deliver them via your Internet provider's SMTP server (recommended if you have an unreliable Internet connection or are using a residential Internet service). If using your Internet provider's SMTP server, specify its hostname or IP address below. Otherwise leave this field blank. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires all users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "(en)You can scan e-mail for spam. If Spam filtering is enabled, an X-Spam-Status: header is added to each message, which can be used for filtering spam. You can adjust the sensitivity of the Spam detection process from the default of medium. For fine-grained control, you can set the Spam sensitivity to Custom and then choose a custom tagging level, and optionally a level at which to reject the message."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "(en)You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr "メールアクセス設定を変更"
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr "メール配信設定を変更"
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr "メールフィルタリング設定を変更"
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr "メール受信設定の変更"
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Unknown Users Selecting Reject (recommended setting) will configure the server to only accept mail for valid email addresses (for example users, groups, pseudonyms). Mail for other addresses will be rejected. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "(en)You can scan incoming and outgoing e-mail for viruses. If scanning is enabled and a virus is detected, the e-mail will be rejected and returned to the sender."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "You can enable or disable webmail on this system. Webmail allows users to access their mail through a regular web browser by pointing the browser to https://[_1]/webmail, and logging in to their account."
+
+msgid "mai_E-Mail"
+msgstr "メールアドレス"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "HTTPS（安全）を許可"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN（クライアント要求付きSMTP）"
+
+msgid "mai_EVERY15MIN"
+msgstr "15分ごと"
+
+msgid "mai_EVERY2HRS"
+msgstr "2時間ごと"
+
+msgid "mai_EVERY30MIN"
+msgstr "30分ごと"
+
+msgid "mai_EVERY5MIN"
+msgstr "5分ごと"
+
+msgid "mai_EVERYHOUR"
+msgstr "1時間ごと"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "メールフィルタリング設定が正常に保存されました"
+
+msgid "mai_FORWARD_TO"
+msgstr "送信先"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "管理者に送信"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "高い"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "IMAP と IMAPS の両方を許可"
+
+msgid "mai_INSECURE_POP3"
+msgstr "POP3 と POP3S の両方を許可"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "(en)The smarthost name you entered is not a valid internet domain name and is not blank"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "実行可能コンテンツのブロック"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "ブロックするコンテンツ"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Address of internal mail server"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "(en)During office hours (8:00 AM to 6:00 PM) on weekdays"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "(en)Outside office hours (6:00 PM to 8:00 AM) on weekdays"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "週末中"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "IMAPサーバーアクセス"
+
+msgid "mai_LABEL_MODE"
+msgstr "メール取得モード"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "POP3サーバーへのアクセス"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "POPユーザーアカウント（マルチドロップ用）"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "POPユーザーパスワード（マルチドロップ用）"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "セカンダリメールサーバー"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "(en)Address of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "メールサーバーのパスワード"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "インターネットプロバイダーのSMTP認証"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "メールサーバーのユーザーID"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "スパムを迷惑メールフォルダーに振り分ける"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "並べ替えヘッダーを選択（複数ドロップ用）"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "並べ替え方法を選択（マルチドロップ用）"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "カスタムスパム拒否レベル"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "スパムフィルタリング"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "スパム感度"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "迷惑メール件名プレフィックス"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "スパムメッセージの件名を変更"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "カスタムスパムタグ付けレベル"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "不明なユーザーへのメール"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "ウイルススキャン"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "ウェブメールへのアクセス"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "低い"
+
+msgid "mai_MEDIUM"
+msgstr "中"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "まったくそうではありません"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "(en)Allow HTTPS (secure) from local networks"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "メール受信設定が正常に保存されました"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "拒絶"
+
+msgid "mai_SECURE_IMAP"
+msgstr "(en)Allow private and public (secure IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "(en)Allow private and public (secure POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "SSMTP（セキュア）を許可"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "以下で指定してください"
+
+msgid "mai_STANDARD"
+msgstr "標準（SMTP）"
+
+msgid "mai_Submission_port"
+msgstr "送信ポート %u のステータス:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "メールサーバーを委任"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "ETRNまたはマルチドロップ設定"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "SMTPサーバー"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "不明なユーザー"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "This field cannot be left blank if SMTP Authentication is enabled."
+
+msgid "mai_VERYHIGH"
+msgstr "非常に高い"
+
+msgid "mai_VERYLOW"
+msgstr "非常に低い"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "プライベートを許可"
+#~ msgid "mai_AUTO"
+#~ msgstr "Automatic"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "(en)For multi-drop e-mail, specify the POP user account and password. (If using standard or ETRN e-mail, these fields can be blank.) Also, for multi-drop, you can either use the default mail sorting method, or you can specify a particular message header to use for mail sorting."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr "メールアクセス"
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr "メール配信"
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr "メール受信"
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "HTTP と HTTPS の両方を許可"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "メール設定"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "SMTP と SSMTP の両方を許可"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "プロトコル（マルチドロップ用）"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "SSL経由のトンネル（マルチドロップ用）"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "SMTP認証"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "(en)The new e-mail settings have been saved."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "(en)This field requires a valid e-mail address, which must include the @ symbol and a domain name."

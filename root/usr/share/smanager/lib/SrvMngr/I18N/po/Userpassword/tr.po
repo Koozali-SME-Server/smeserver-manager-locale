@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Userpassword module\n"
+"POT-Creation-Date: 2026-08-21 10:55+0100\n"
+"PO-Revision-Date: 2026-08-21 10:55+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+
+msgid "NO_SUCH_USER"
+msgstr "(en) There does not appear to be any such user"
+
+msgid "pwd_ACCOUNT_PASSWORD_CHANGE"
+msgstr "Hesap parolasını değiştir"
+
+msgid "pwd_DESCRIPTION"
+msgstr " Hesap şifrenizi değiştirmek için lütfen aşağıdaki formu doldurun. Gerkli bilgiler kullanıcı adınız, eski şifreniz, belirleyeceğiniz yeni şifreniz. (Yeni şifrenizi iki kez girmeniz gerekecek.) Eski şifrenizi unuttuysanız yeni şifre atayamazsınız, sistem yöneticiniz sistem yönetimi. "
+
+msgid "pwd_DESCRIPTION_RESET"
+msgstr "(en)To reset your account password, please fill out the following form. You will need to provide your desired new password. (You must type it twice.)In cas of problem, your local system administrator can reset your password using the <EM>server manager</EM>."
+
+msgid "pwd_ERROR_PASSWORD_CHANGE"
+msgstr "(en)An error occurred while attempting to change your password. Please make sure that the old password entered is correct. Old and new passwords should be different."
+
+msgid "pwd_ERR_OCCURRED_MODIFYING_PASSWORD"
+msgstr "(en) Err occurred modifying password"
+
+msgid "pwd_FIELDS_REQUIRED"
+msgstr "Tüm alanlar zorunludur"
+
+msgid "pwd_INTERMEDIATE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+
+msgid "pwd_INVALID_REQUEST"
+msgstr "(en) Invalid request"
+
+msgid "pwd_NONE_PASSWORD_DESCRIPTION"
+msgstr "(en)The password must be composed of at least [_1] characters."
+
+msgid "pwd_NORMAL_PASSWORD_DESCRIPTION"
+msgstr "(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters."
+
+msgid "pwd_OK_FOR_RESET"
+msgstr "(en) Ok for reset"
+
+msgid "pwd_PASSWORD_CHANGE"
+msgstr "Şifre Değiştir"
+
+msgid "pwd_PASSWORD_CHANGE_SUCCESS"
+msgstr "(en)Your password has been successfully changed."
+
+msgid "pwd_PASSWORD_INVALID_CHARS"
+msgstr "(en)The password you entered contained invalid characters."
+
+msgid "pwd_PASSWORD_NEW"
+msgstr "Yeni şifre:"
+
+msgid "pwd_PASSWORD_OLD"
+msgstr "Eski şifre:"
+
+msgid "pwd_PASSWORD_OLD_INVALID_CHARS"
+msgstr "(en)The old password you entered contained invalid characters."
+
+msgid "pwd_PASSWORD_RESET"
+msgstr "Şifreyi sıfırla"
+
+msgid "pwd_PASSWORD_VERIFY_ERROR"
+msgstr "(en)The new passwords you entered did not match."
+
+msgid "pwd_PASSWORD_VERIFY_NEW"
+msgstr "Yeni şifre (doğrulayın):"
+
+msgid "pwd_PASSWORD_WIKI"
+msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
+
+msgid "pwd_STRONG_PASSWORD_DESCRIPTION"
+msgstr "(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+
+msgid "pwd_TAINTED_PASSWORD"
+msgstr "(en)The new password starts with invalid characters."
+
+msgid "pwd_TAINTED_USER"
+msgstr "(en)The account name \"[_1]\" contains invalid characters."
+
+msgid "pwd_YOUR_ACCOUNT"
+msgstr "Hesabınız:"

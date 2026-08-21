@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Quota module\n"
-"POT-Creation-Date: 2026-08-20 12:56+0100\n"
-"PO-Revision-Date: 2026-08-20 12:56+0100\n"
+"POT-Creation-Date: 2026-08-21 10:22+0100\n"
+"PO-Revision-Date: 2026-08-21 10:22+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -84,11 +84,3 @@ msgstr "Kasutajakonto kettaruumi kasutamine edukalt muudetud:"
 
 msgid "quo_USER"
 msgstr "Kasutaja:"
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "quo_COULD_NOT_GET_UID"
-#~ msgstr "Ei suutnud määrata kasutaja uid:"
-#~ msgid "quo_Quotas"
-#~ msgstr "Kettakasutus"
-#~ msgid "quo_UNABLE_TO_OPEN_ACCOUNTS"
-#~ msgstr "Ei saanud kasutajate db avada"

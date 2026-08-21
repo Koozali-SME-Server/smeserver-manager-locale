@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Remoteaccess module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+
+msgid "Remote access"
+msgstr "Távoli hozzáférés"
+
+msgid "rma_DESC_FTP_ACCESS"
+msgstr " FTP beállítások Az FTP hozzáférést is szabályozhatja a szerveren. Ajánlatos ezt a paramétert 'Nincs hozzáférés' -re állítani, hacsak nincs rá oka hogy másképp tegyen.  Figyelem: ezek a beállítások korlátozzák a hozzáférést a szerverhez és felülírnak más beállításokat, beleértve az egyedi adattárak beállításait. "
+
+msgid "rma_DESC_FTP_LOGIN"
+msgstr " Szabályozhatja a biztonságos FTP hozzáférést az adattárakhoz és a felhasználói fiókokhoz. Ajánlatos ezt a paramétertprivate-ra állítani, hacsak nincs rá oka hogy másképp tegyen.  Figyelem: egy secure shell sftp kliens használható a szerverhez való hozzáféréshez, ha a távoli hozzáférés secure shellen keresztül engedélyezve van. Ez a módszer védi a jelszavakat és az adatokat az FTP kapcsolat során, míg a hagyományos FTP nem biztosít védelmet. "
+
+msgid "rma_DESC_IPSECRW"
+msgstr " IPSEC kliens (Roadwarrior) beállítások Engedélyezheti a digitális tanúsitvánnyal azonosított IPSEC kliensek számára a hozzáférést ehhez a szerverhez. Ha nincs szüksége az IPSEC kliens hozzáférésre, a 0 érték beállításával kikapcsolhatja azt. "
+
+msgid "rma_DESC_IPSECRW_RESET"
+msgstr "Ha meg akarja változtatni a digitális tanusítványokat, azt itt teheti meg.Egyik régi tanúsítvánnyal sem lehet majd bejelentkezni, ezért minden IPSEC kliensnek be kell szereznie egy új tanúsítványt!. "
+
+msgid "rma_DESC_PPTP"
+msgstr " PPTP beállítások Engedélyezheti a PPTP hozzáférést a szerveréhez. Ha nincs szüksége a PPTP hozzáférésre, a 0 érték beállításával kikapcsolhatja azt. "
+
+msgid "rma_DESC_SSH"
+msgstr "  Secure Shell beállításokSzabályozhatja a Secure Shell hozzáférést a szerverhez. A nyilvános beállítást csak tapasztalt rendszergazdák alkalmazzák távoli hibaelhárításhoz. Ha nincs rá különösebb oka ezt használni, akkor ajánlott ezt a beállítást a \"Nincs hozzáférés\" -re állítani. "
+
+msgid "rma_DESC_TELNET_ACCESS"
+msgstr " Telnet beállítások Figyelem: A telnet jelenleg engedélyezett, de ez a szolgáltatás többé nem támogatott. A telnet alapvetően nem biztonságos és csak olyan körülmények között használja, ahol nem létezik más alternatíva. Állítsa ezt az opciót[_1] -re és használjon secure shell-t ha távoli hozzáférésre van szüksége. Miután letiltja, a telnet nem jelenik meg többé ezen az oldalon. "
+
+msgid "rma_DESC_VALID_FROM_ENTRIES"
+msgstr "Távoli hálózat hozzáadásához, adja meg az alábbi adatokat."
+
+msgid "rma_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "rma_ERR_INVALID_PARAMS"
+msgstr "Adja meg a hálózatot és az alhálózati maszkot is, vagy hagyja mindkét mezőt üresen."
+
+msgid "rma_FORM_TITLE"
+msgstr "Távoli hozzáférés beállításainak módosítása"
+
+msgid "rma_INVALID_SUBNET_MASK"
+msgstr "Érvénytelen alhálózati maszk"
+
+msgid "rma_LABEL_FTP_ACCESS"
+msgstr "FTP hozzáférés"
+
+msgid "rma_LABEL_FTP_LOGIN"
+msgstr "FTP jelszó hozzáférés"
+
+msgid "rma_LABEL_IPSECRW_RESET"
+msgstr "Digitális tanúsítványok megváltoztatása"
+
+msgid "rma_LABEL_IPSECRW_SESS"
+msgstr "IPSEC kliensek száma"
+
+msgid "rma_LABEL_PPTP"
+msgstr "PPTP kliensek száma"
+
+msgid "rma_LABEL_SSH"
+msgstr "Secure shell hozzáférés"
+
+msgid "rma_LABEL_SSH_ADMIN"
+msgstr "Rendszergazdai parancsok fogadása secure shell-en keresztül"
+
+msgid "rma_LABEL_SSH_PASSWORD_ACCESS"
+msgstr "Secure shell hozzáférés engedélyezése hagyományos jelszavakkal"
+
+msgid "rma_LABEL_SSH_PORT"
+msgstr "A secure shell hozzáférés TCP portja"
+
+msgid "rma_LABEL_TELNET_ACCESS"
+msgstr "Telnet hozzáférés"
+
+msgid "rma_NO_ACCESS"
+msgstr "Nincs hozzáférés"
+
+msgid "rma_NO_ENTRIES_YET"
+msgstr "Nincsenek még bejegyzések"
+
+msgid "rma_NUMBER_OF_PPTP_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE"
+msgstr "A pptp-ügyfelek száma nagyobb, mint a DHCP által fenntartott IP-címek száma. Kisebb számot kell megadni."
+
+msgid "rma_NUM_OF_HOSTS"
+msgstr "Gépek száma"
+
+msgid "rma_PASSWORD_LOGIN_PRIVATE"
+msgstr "Csak helyi hálózatokból fogad el jelszavakat"
+
+msgid "rma_PASSWORD_LOGIN_PUBLIC"
+msgstr "Bárhonnan elfogadja a jelszavakat"
+
+msgid "rma_REMOTE_MANAGEMENT"
+msgstr "Távoli hozzáférés"
+
+msgid "rma_SUBNET_MASK"
+msgstr "Alhálózati maszk"
+
+msgid "rma_SUCCESS"
+msgstr "Az új távoli hozzáférés beállítások lementődtek."
+
+msgid "rma_TITLE_FTP_ACCESS"
+msgstr "FTP beállítások"
+
+msgid "rma_TITLE_IPSECRW"
+msgstr "IPSEC kliens (Roadwarrior) beállításai"
+
+msgid "rma_TITLE_PPTP"
+msgstr "PPTP beállítások"
+
+msgid "rma_TITLE_SSH"
+msgstr "Secure Shell beállítások"
+
+msgid "rma_TITLE_TELNET_ACCESS"
+msgstr "Telnet beállítások"
+
+msgid "rma_VALIDFROM_DESC"
+msgstr " [_1] Lehetséges engedélyezni a távoli hálózatokban lévő gépeknek a szerver kezelőhöz való hozzáférést azok hálózatának bejegyzésével. Használja a 255.255.255.255 alhálózati maszkot a gépek hozzáférésének korlátozásához. Az alhálózati maszk által meghatározott címtartományban minden gép HTTPS használatával hozzáférhet a szerver kezelőhöz. "
+
+msgid "rma_VALIDFROM_TITLE"
+msgstr "[_1]"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rma_DESCRIPTION"
+#~ msgstr "Az alábbi minden egyes opciónál, a magán beállítás bárkinek a helyi hálózatból engedélyezi a hozzáférést a szerverhez. A nyilvános beállítás az egész Internetről engedélyezi a hozzáférést. A nincs hozzáférés beállítás letiltja a hozzáférést. Hogy megértse a biztonsági vonatkozásait ezen a beállítások megváltoztatásának, olvassa el a felhasználói kézikönyvben az ide vonatkozó részt."
+#~ msgid "rma_DESC_SERIAL_CONSOLE_ACCESS"
+#~ msgstr " Soros konzol Engedélyezheti a hozzáférést a szerver konzolhoz egy szerverre kapcsolt soros terminálon keresztül."
+#~ msgid "rma_ERR_NO_RECORD"
+#~ msgstr "Nem lehet megtalálni a http-admin rekordot a konfigurációs adatbázisban"
+#~ msgid "rma_LABEL_PPTP_ACCESS"
+#~ msgstr "PPTP alapértelmezett hozzáférés"
+#~ msgid "rma_LABEL_SERIAL_CONSOLE_ACCESS"
+#~ msgstr "Soros konzol"
+#~ msgid "rma_PORT1_ENABLED"
+#~ msgstr "Engedélyezve az 1. soros porton"
+#~ msgid "rma_PORT2_ENABLED"
+#~ msgstr "Engedélyezve az 2. soros porton"
+#~ msgid "rma_Remote access"
+#~ msgstr "Távoli hozzáférés"
+#~ msgid "rma_VALUE_ZERO_OR_POSITIVE"
+#~ msgstr "Az értéknek 0-nak vagy pozitív egész számnak kell lennie"

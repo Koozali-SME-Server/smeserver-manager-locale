@@ -11,4 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'O nome do grupo de trabalho tem começar com uma letra (maiúscula ou minúscula), seguida de qualquer combinação de letras, números, barras em baixo, pontos e hifens.',
 'wkg_INVALID_SERVERNAME' => 'O nome do servidor tem que começar com uma letra (maiúscula ou minúscula), seguida de qualquer combinação de letras, números, barras em baixo, pontos e hifens.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'Os nomes do grupo de trabalho e servidor coincidem, quando comparados em letras minúsculas. Esses valores tem que ser diferentes para que o compartilhamento de arquivos seja ligado.',
-'wkg_Workgroup' => 'Grupo de trabalho',
+# ORPHANED (no longer in workgroup_en.lex; kept for reference, commented out by lex-to-po.pl): 'wkg_Workgroup' => 'Grupo de trabalho',

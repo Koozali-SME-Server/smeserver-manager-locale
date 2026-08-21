@@ -1,4 +1,4 @@
-'log_View log files' => 'Poglej LOG datoteko',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => 'Poglej LOG datoteko',
 'log_FIRSTPAGE_DESC' => ' Ta funkcija ti omogoca pregled ali prenos LOG datotek, ki so jih zapisali procesi, ki tecejo na Strezniku. ',
 'log_LOG_FILE_SELECT_DESC' => 'Izberi LOG datoteko za ogled',
 'log_FILTER_PATTERN_DESC' => ' Tu lahko dolocis nastavitve filtra, ki ti izpise samo zapise, ki se ujemajo z besedami v filtru. Ce ostane to polje prazno bodo prikazani vsi zapisi v datoteki. Pazi pri opciji prenosa LOG datoteke ta opcija ne velja. 
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'Postopek',
-'log_DOWNLOAD_PAGE_DESC' => ' Tvoja LOG datoteka je pripravljena za prenos. Prenos sledi takoj ko bos kliknil na gubm &quot;Next&quot; ki je spodaj in potrdil prenos datoteke.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Pripravljam prenos LOG datoteke [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Tvoja LOG datoteka je pripravljena za prenos. Prenos sledi takoj ko bos kliknil na gubm &quot;Next&quot; ki je spodaj in potrdil prenos datoteke.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Pripravljam prenos LOG datoteke [_1].',
 'log_FORM_TITLE' => 'Ogled dnevniških datotek',

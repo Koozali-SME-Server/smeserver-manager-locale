@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "Учётная запись \"[_1]\" - существующая [_2] учётная запись."
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " Учётная запись \"[_1]\" конфликтует с деталями псевдонима [_2] учётной записи \"[_3]\". [_1] - псевдоним для [_3]. "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "Имя и-блока \"[_1]\" содержит неверные символы. Имена и-блоков должны начинаться с прописной буквы и содержать только прописные буквы, цифры и дефисы."
+
+msgid "iba_ADD_IBAY"
+msgstr "Добавить i-bay"
+
+msgid "iba_ADD_TITLE"
+msgstr "Создание или изменение и-блока"
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "Выполнение динамического содержимого (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "Невозможно создать новую учётную запись [_1] (она уже существует?)"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "Невозможно найти учётную запись [_1] (она существует?)"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "Интернет (пароль не требуется)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "Интернет (требуется пароль)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "Интернет (пароль требуется при доступе извне локальной сети)"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "Произошла ошибка при создании и-блока."
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "Произошла ошибка при удалении и-блока."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "Произошла ошибка при изменении и-блока."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "Ошибка при сбросе пароля."
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "  Добавить и-блок \n\n   Вы можете удалить любой информационный блок или сбосить его пароль, нажав на соответствующую команду, рядом с информационным блоком. Если информационный блок выделен красным, это означает, что не был и должен быть изменён стандартный пароль. \n\n  "
+
+msgid "iba_FORM_TITLE"
+msgstr "Создать, измененить или удалить и-блок"
+
+msgid "iba_HTTPS_Only"
+msgstr "Использовать безопасные соединения"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "Пароли не совпадают."
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "Локальная сеть (пароль не требуется)"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "Локальная сеть (требуется пароль)"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "Имя и-блока \"[_1]\" слишком длинное. Максимум - [_1] символов."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "Имя информационного блока должны содержать только прописные буквы, цифры, дефисы, точки и подчёркивания и начинаться с прописной буквы. Например, \"johnson\", \"intra\" и \"cust3.prj12\" - правильные имена, а \"3associates\", \"John Smith\" и \"Bus!Partner\" - нет. Длина имени ограничена [_1] символами."
+
+msgid "iba_NAME_LABEL"
+msgstr "Название информационного блока"
+
+msgid "iba_NONE"
+msgstr "Нет доступа"
+
+msgid "iba_NO_IBAYS"
+msgstr "Ни один и-блок сейчас не настроен."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "Вы собираетесь изменить пароль для и-блока [_1]."
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "Свободный доступ через веб или анонимный FTP"
+
+msgid "iba_REMOVE_DESC"
+msgstr "  Вы собираетесь удалить информационный блок \"[_1]\" ([_2]). \n\n   Все файлы принадлежащие этому информационному блоку будут удалены. \n\n   Вы действительно хотите удалить этот информационный блок ? \n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "Удалить информационный блок"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "И-блок успешно создан."
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "И-блок успешно удалён."
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "И-блок успешно изменён."
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "Пароль успешно сброшен."
+
+msgid "iba_USER_ACCESS"
+msgstr "Пользовательский доступ через общие файлы или ftp пользователя"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " Следующие виртуальные домены используют этот информационный блок, как их содержимое и будут изменены на основной веб-сайт (вы можете изменить их на что-то другое позже): [_1] "
+
+msgid "iba_WARG"
+msgstr "Запись = admin, Чтение = group"
+
+msgid "iba_WGRE"
+msgstr "Запись = group, Чтение = everyone"
+
+msgid "iba_WGRG"
+msgstr "Запись = group, Чтение = group"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "ENTIRE_INTERNET_NO_PASSWORD"
+#~ msgstr "Весь Интернет (пароль не требуется)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD"
+#~ msgstr "Весь Интернет (требуется пароль)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD_REMOTE"
+#~ msgstr "(en)Entire Internet (password required outside local network)"
+#~ msgid "INVALID_IBAY_DESCRIPTION"
+#~ msgstr "(en)Error: unexpected or missing characters in i-bay description"
+#~ msgid "LOCAL_NETWORK_NO_PASSWORD"
+#~ msgstr "Локальная сеть (пароль не требуется)"
+#~ msgid "LOCAL_NETWORK_PASSWORD"
+#~ msgstr "Локальная сеть (требуется пароль)"
+#~ msgid "NONE"
+#~ msgstr "Нет доступа"
+#~ msgid "WARG"
+#~ msgstr "(en)Write = admin, Read = group"
+#~ msgid "WGRE"
+#~ msgstr "(en)Write = group, Read = everyone"
+#~ msgid "WGRG"
+#~ msgstr "(en)Write = group, Read = group"
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "Пароль может состоять только из цифр и латинских букв."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "Ошибка: непредвиденные или отсутствующие символы в описании и-блока"
+#~ msgid "iba_Information bays"
+#~ msgstr "Информационные блоки"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "Режим свободного доступа \"пароль требуется только при подключении извне локальной сети\" не поддерживается компонентами FTP сервера. Если вы выберите этот режим, FTP сервер будет требовать ввода пароля для этого и-блока при подключении как из локальной сети, так и извне неё."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr "Следующие виртуальные домены используют этот информационный блок, как их содержимое и будут изменены на основной веб-сайт (вы можете изменить их на что-то другое позже)."

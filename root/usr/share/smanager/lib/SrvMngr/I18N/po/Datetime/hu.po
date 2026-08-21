@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Datetime module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+
+msgid "COULD_NOT_OPEN_TZ_FILE"
+msgstr "(en) COULD_NOT_OPEN_TZ_FILE"
+
+msgid "Date and time"
+msgstr "Dátum és idő"
+
+msgid "Day:"
+msgstr "(en) Day:"
+
+msgid "Hour:"
+msgstr "(en) Hour:"
+
+msgid "Minute:"
+msgstr "(en) Minute:"
+
+msgid "Month:"
+msgstr "(en) Month:"
+
+msgid "Second:"
+msgstr "(en) Second:"
+
+msgid "Year:"
+msgstr "(en) Year:"
+
+msgid "dat_BETWEEN_0_AND_23"
+msgstr "(en) dat_BETWEEN_0_AND_23"
+
+msgid "dat_BETWEEN_0_AND_59"
+msgstr "Kérem, válasszon percet 0 és 59 között."
+
+msgid "dat_FORM_TITLE"
+msgstr "Dátum és idő beállítása"
+
+msgid "dat_INITIAL_DESC"
+msgstr "Itt állíthatja be a dátumot és az időt a szerveren. Használhat egy létező hálózati időszervert, vagy manuálisan állítsa be a dátumot, az időt és az időzónát."
+
+msgid "dat_INVALID_HOUR"
+msgstr "Hiba: helytelenül megadott óra"
+
+msgid "dat_INVALID_MINUTE"
+msgstr "Hiba: helytelenül megadott perc"
+
+msgid "dat_INVALID_NTP_SERVER"
+msgstr " Érvénytelen NTP szerver. A szervernem fog szinkronizálni a távoli időszerverrel. "
+
+msgid "dat_INVALID_SECOND"
+msgstr "Hiba: helytelenül megadott másodperc"
+
+msgid "dat_Invalid_date"
+msgstr "Érvénytelen dátum"
+
+msgid "dat_NTP_CONFIGURE_DESC"
+msgstr "A szerver rendszeresen szinkronizálja a rendszerórát az alább megadott időszerverrel. Ha másik NTP időszervert kíván használni, adja meg annak hálózatnevét, vagy IP címét az alábbi mezőben."
+
+msgid "dat_NTP_DISABLE_DESC"
+msgstr "Válassza ezt az opciót, ha le akarja állítani a rendszeróra szinkronizálását az NTP szerverrel. Ha az NTP szolgáltatás le van tiltva, ezen az oldalon állíthatja be manuálisan a rendszeridőt."
+
+msgid "dat_NTP_ENABLE_DESC"
+msgstr "A szerver időközönként szinkronizálni tudja az óráját egy hálózati időszerverrel (NTP). Ha kiválasztja ezt az opciót, akkor adja meg az időszerver hálózatnevét, vagy IP címét."
+
+msgid "dat_NTP_Server_URL"
+msgstr "NTP-kiszolgáló URL-címe:"
+
+msgid "dat_SETTINGS_CHANGED"
+msgstr "Hálózati időszerver sikeresen beállítva"
+
+msgid "dat_TZ"
+msgstr "Időzóna:"
+
+msgid "dat_Test_Server"
+msgstr "NTP-kiszolgáló tesztelése"
+
+msgid "dat_The_time_is_currently"
+msgstr "A pontos idő:"
+
+msgid "dat_Time_Configuration"
+msgstr "Időbeállítások"
+
+msgid "dat_Time_Setting_Mode"
+msgstr "Időbeállítási mód"
+
+msgid "dat_UPDATING_CLOCK"
+msgstr " A rendszeróra most be lesz állítva. Kérem várjon néhány másodpercet, aztán kattintson ide a változtatások ellenőrzéséhez. "
+
+msgid "dat_manually_set"
+msgstr "Kézi beállítás"
+
+msgid "dat_ntp_server"
+msgstr "NTP-kiszolgáló"
+
+msgid "dat_set_manually"
+msgstr "Dátum és idő beállítása:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dat_AM/PM_AND_TZ"
+#~ msgstr "DE/DU és időzóna:"
+#~ msgid "dat_BETWEEN_1_AND_12"
+#~ msgstr "Kérem, válasszon órát 1 és 12 között."
+#~ msgid "dat_BETWEEN_1_AND_31"
+#~ msgstr "Kérem, válasszon napot 1 és 31 között."
+#~ msgid "dat_COULD_NOT_OPEN_TZ_FILE"
+#~ msgstr "Hiba: Nem olvasható az időzóna fájl:"
+#~ msgid "dat_CURRENT_SETTING"
+#~ msgstr "Jelenlegi beállítások"
+#~ msgid "dat_Date and time"
+#~ msgstr "Dátum és idő"
+#~ msgid "dat_ERR_CHANGING_TS"
+#~ msgstr "Hiba történt a hálózati időszerver beállításakor"
+#~ msgid "dat_ERR_SETTING_CLOCK"
+#~ msgstr "Hiba történt a rendszeridő beállításakor."
+#~ msgid "dat_FOUR_DIGIT_YEAR"
+#~ msgstr "Kérem, válasszon évszámot 1900 és 2200 között."
+#~ msgid "dat_INVALID_DAY"
+#~ msgstr "Hiba: helytelenül megadott nap"
+#~ msgid "dat_INVALID_MONTH"
+#~ msgstr "(en)Error: invalid month"
+#~ msgid "dat_INVALID_NTP_ADDR"
+#~ msgstr "Érvénytelen NTP szerver cím:"
+#~ msgid "dat_INVALID_YEAR"
+#~ msgstr "Hiba: helytelenül megadott év"
+#~ msgid "dat_MONTH_BETWEEN_1_AND_12"
+#~ msgstr "(en)Please choose a month value between 1 and 12."
+#~ msgid "dat_NETWORK_TIME_SERVER"
+#~ msgstr "Hálózati időszerver"
+#~ msgid "dat_NEW_DATE_AND_TIME"
+#~ msgstr "Új dátum és idő:"
+#~ msgid "dat_NEW_H/M/S"
+#~ msgstr "Új óra/perc/mp:"
+#~ msgid "dat_NEW_M/D/Y"
+#~ msgstr "Új hónap/nap/év:"
+#~ msgid "dat_NTP_CONFIGURE_TITLE"
+#~ msgstr "Hálózati időszerver megadása"
+#~ msgid "dat_NTP_DISABLE_TITLE"
+#~ msgstr "Hálózati időszerver letiltása"
+#~ msgid "dat_NTP_ENABLE_TITLE"
+#~ msgstr "Hálózati időszerver engedélyezése"
+#~ msgid "dat_NTP_SERVER"
+#~ msgstr "NTP Szerver"
+#~ msgid "dat_SERVER_DISABLED"
+#~ msgstr "Hálózati időszerver letiltva"
+#~ msgid "dat_SERVER_DISABLED_DESC"
+#~ msgstr " Letiltotta ezt a szolgáltatást: A szerver a belső órát tekinti időforrásnak és nem fog szinkronizálni külső időszerverrel. "
+#~ msgid "dat_SETTING_DATE_AND_TIME"
+#~ msgstr "Idő és dátum beállítása"
+#~ msgid "dat_SET_DATE_TITLE"
+#~ msgstr "Dátum és idő beállítása"
+#~ msgid "dat_SYNC_WITH"
+#~ msgstr "A szerver által jelenleg használt internetes időszerver:"
+#~ msgid "dat_VERIFY_DATE_AND_TIME"
+#~ msgstr "Dátum és idő ellenőrzése"

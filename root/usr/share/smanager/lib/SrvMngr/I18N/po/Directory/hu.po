@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Directory module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+
+msgid "Directory"
+msgstr "(en) Directory"
+
+msgid "dir_CITY"
+msgstr "Alapértelmezett település"
+
+msgid "dir_COMPANY"
+msgstr "Alapértelmezett cégnév"
+
+msgid "dir_DEPARTMENT"
+msgstr "Alapértelmezett részleg"
+
+msgid "dir_DESCRIPTION"
+msgstr "Az LDAP szerver a hálózat számára információkat szolgáltat a szerver felhasználóiról és felhasználói csoportjairól, amelyek egy LDAP kliens segítségével jeleníthetők meg. Ilyen például a Netscape Communicator címjegyzék szolgáltatása. Állítsa be az LDAP kliensében a szerver IP címét, a 389 porton, valamint az alábbi szerver paramétereket."
+
+msgid "dir_DESC_DEPARTMENT"
+msgstr "Ezek a mezők az ön szervezetének alapértelmezett adatait tartalmazzák. Mikor új felhasználót hoz létre, ugyanezen mezőkben meg kell adnia a felhasználó adatait (minden felhasználóé lehet más), de alapértelmezetten az itt beállított értékek fognak megjelenni a mezőkben. Ez csak egy segítség a felhasználói fiókok gyorsabb létrehozásához."
+
+msgid "dir_DESC_DIRECTORY_ACCESS"
+msgstr "Szabályozhatja az LDAP címtárhoz való hozzáférést: A private beállítás csak a helyi hálózatból teszi elérhetővé a címtárat, míg a public beállítás az internetről is hozzáférhetővé teszi."
+
+msgid "dir_DESC_EXISTING"
+msgstr "Változatlanul hagyhatja a meglévő felhasználói fiókokat, a fenti alapértelmezéseket csak az új felhasználóknál használja, vagy pedig az összes felhasználóra beállíthatja az alapértelmezéseket."
+
+msgid "dir_DIRECTORY_ACCESS"
+msgstr "LDAP címtár hozzáférés"
+
+msgid "dir_EXISTING"
+msgstr "Létező felhasználók"
+
+msgid "dir_FORM_TITLE"
+msgstr "LDAP címtár beállításainak módosítása"
+
+msgid "dir_LABEL_ROOT"
+msgstr "Szerver gyökér"
+
+msgid "dir_LEAVE"
+msgstr "Változatlanul hagyni"
+
+msgid "dir_PHONE"
+msgstr "(en) dir_PHONE"
+
+msgid "dir_PHONENUMBER"
+msgstr "Alapértelmezett telefonszám"
+
+msgid "dir_STREET"
+msgstr "Alapértelmezett cím"
+
+msgid "dir_SUCCESS"
+msgstr "Az új LDAP alapértelmezések le lettek mentve."
+
+msgid "dir_UPDATE"
+msgstr "Az új beállítások használata"
+
+msgid "dom_FORM_TITLE"
+msgstr "(en) dom_FORM_TITLE"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dir_Directory"
+#~ msgstr "Címtár"

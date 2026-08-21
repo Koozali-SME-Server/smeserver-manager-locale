@@ -1,4 +1,4 @@
-'log_View log files' => 'Vis loggfiler',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => 'Vis loggfiler',
 'log_FIRSTPAGE_DESC' => ' Dette panelet gir deg muligheten til å se eller laste ned loggfiler generert av tjenester som kjører på serveren. ',
 'log_LOG_FILE_SELECT_DESC' => 'Velg en loggfil å vise',
 'log_FILTER_PATTERN_DESC' => ' Du kan velge å spesifisere et filtrengings mønster, som gjør at bare linjer fra loggfilen vises som stemmer med filteret. Hvis du lar dette feltet stå tomt, vil alle linjene vises. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'Funksjon',
-'log_DOWNLOAD_PAGE_DESC' => ' Din loggfil nedlasting blir forberedt. Det vil fortsette så snart du klikker på &quot;Neste&quot; knappen nedenfor, og gi nettleseren din beskjed om å godta nedlastingen via pop-up vinduet som vil komme.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Forbereder å laste ned loggfilen [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Din loggfil nedlasting blir forberedt. Det vil fortsette så snart du klikker på &quot;Neste&quot; knappen nedenfor, og gi nettleseren din beskjed om å godta nedlastingen via pop-up vinduet som vil komme.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Forbereder å laste ned loggfilen [_1].',
 'log_FORM_TITLE' => 'Vis loggfiler',

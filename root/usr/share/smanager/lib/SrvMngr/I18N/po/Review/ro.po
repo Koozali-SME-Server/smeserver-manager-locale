@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Review module\n"
+"POT-Creation-Date: 2026-08-21 11:02+0100\n"
+"PO-Revision-Date: 2026-08-21 11:02+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+
+msgid "Review configuration"
+msgstr "Revizuire configurație"
+
+msgid "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgstr "Rețele locale adiționale"
+
+msgid "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgstr "Început adrese DHCP"
+
+msgid "rvw_DESCRIPTION"
+msgstr "Acest raport însumează setările de rețea, server și parametrii de domeniupentru a configura calculatoarele client în rețeaua dumenavoastră. Puteți imprima această pagină pentru referințe."
+
+msgid "rvw_DHCP_SERVER"
+msgstr "Server DHCP"
+
+msgid "rvw_DNS_SERVER"
+msgstr "Server DNS"
+
+msgid "rvw_DOMAIN_INFORMATION"
+msgstr "Informații domeniu"
+
+msgid "rvw_EMAIL_ADDRESSES"
+msgstr "Adresă Email"
+
+msgid "rvw_EMAIL_FIRSTNAME"
+msgstr "Prenume"
+
+msgid "rvw_EMAIL_LASTNAME"
+msgstr "Nume (familie)"
+
+msgid "rvw_EMAIL_USERACCOUNT"
+msgstr "Cont utilizator"
+
+msgid "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgstr "Sfârșit adrese DHCP"
+
+msgid "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "Adresă externă / mască subrețea"
+
+msgid "rvw_FORM_TITLE"
+msgstr "Revizuire configurație"
+
+msgid "rvw_FTP_SERVER"
+msgstr "server FTP"
+
+msgid "rvw_GATEWAY"
+msgstr "Poartă (gateway)"
+
+msgid "rvw_INTERNET_VISIBLE_ADDRESS"
+msgstr "Adresa IP vizibilă Internet"
+
+msgid "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "Adresa locală IP / mască subrețea"
+
+msgid "rvw_NETWORKING_PARAMS"
+msgstr "Paramentrii rețea"
+
+msgid "rvw_NO_NETWORKS"
+msgstr "Nici o rețea adițională definită"
+
+msgid "rvw_NO_VIRTUAL_DOMAINS"
+msgstr "(en) rvw_NO_VIRTUAL_DOMAINS"
+
+msgid "rvw_PRIMARY_DOMAIN"
+msgstr "Domeniu primar"
+
+msgid "rvw_PRIMARY_WEB_SITE"
+msgstr "Site web primar"
+
+msgid "rvw_PROXY_SERVER"
+msgstr "Proxy server"
+
+msgid "rvw_SERVER_MANAGER"
+msgstr "Manager de server"
+
+msgid "rvw_SERVER_MODE"
+msgstr "Tip server"
+
+msgid "rvw_SERVER_NAMES"
+msgstr "Nume server"
+
+msgid "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgstr "servere de mail SMTP, POP și IMAP"
+
+msgid "rvw_USER_PASSWORD_PANEL"
+msgstr "Panoul parolei utilizatorului"
+
+msgid "rvw_VIRTUAL_DOMAINS"
+msgstr "Domenii virtuale"
+
+msgid "rvw_WEB_SERVER"
+msgstr "server Web"

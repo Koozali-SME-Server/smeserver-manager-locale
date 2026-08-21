@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Workgroup module\n"
+"POT-Creation-Date: 2026-08-21 10:47+0100\n"
+"PO-Revision-Date: 2026-08-21 10:47+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
+
+msgid "Workgroup"
+msgstr "(en) Workgroup"
+
+msgid "wkg_DESC_PDC"
+msgstr "此伺服器是否將在您的Windows網路中扮演群組與網域控制器？ 倘若您網路中的其它伺服器已經扮演此角色，您應該保留此設定為 No 。"
+
+msgid "wkg_DESC_ROAM"
+msgstr "此伺服器是否支援漫遊使用者設定檔？ 除非您有管理基於Windows漫遊使用者設定檔的經驗，並且知道此功能是需要的，否則您應當保留此設定的預設值為 No 。"
+
+msgid "wkg_DESC_SERVERNAME"
+msgstr "請輸入讓 Windows 系統和 Mac 系統得以文件共享的名稱。"
+
+msgid "wkg_DESC_WORKGROUP"
+msgstr " 輸入伺服器所在的Windows群組名稱。 "
+
+msgid "wkg_ERROR_UPDATING"
+msgstr "(en) An error has occurred while updating the workgroup"
+
+msgid "wkg_FORM_TITLE"
+msgstr "改變群組的各設定"
+
+msgid "wkg_INVALID_SERVERNAME"
+msgstr "伺服器名稱必須以字母開頭（大寫或小寫），接著由任意的字母 、 數字 、 底線和連字號組成。"
+
+msgid "wkg_INVALID_WORKGROUP"
+msgstr "群組名稱必須以字母開頭（大寫或小寫），接著由任意的字母 、 數字 、 底線 、 句號和連字號組成。"
+
+msgid "wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME"
+msgstr "當以小寫字母對照伺服器與群組名稱時，為了打開文件分享功能，這些值必須不同。"
+
+msgid "wkg_LABEL_PDC"
+msgstr "群組與網域控制台"
+
+msgid "wkg_LABEL_ROAM"
+msgstr "漫遊使用者設定檔"
+
+msgid "wkg_LABEL_SERVERNAME"
+msgstr "伺服器的名稱"
+
+msgid "wkg_LABEL_WORKGROUP"
+msgstr "Windows 群組"
+
+msgid "wkg_SUCCESS"
+msgstr "新群組的設定已經被保存"

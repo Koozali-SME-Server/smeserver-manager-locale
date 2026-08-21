@@ -2,8 +2,8 @@
 'dom_FORM_DESCRIPTION' => ' När du skapar en domän kommer din server att kunna ta emot e-post för denna domän men också kunna vara värd för en webbplats för denna domän.
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Lägg till domän</a> ',
-'dom_NO_VIRTUAL_DOMAINS' => 'Det finns inte domäner i systemet.',
-'dom_CURRENT_LIST_OF_DOMAINS' => 'Aktuell lista över domäner',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_NO_VIRTUAL_DOMAINS' => 'Det finns inte domäner i systemet.',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_CURRENT_LIST_OF_DOMAINS' => 'Aktuell lista över domäner',
 'dom_PRIMARY_SITE' => 'primär plats',
 'dom_CONTENT' => 'i-bay',
 'dom_CREATE_TITLE' => 'Skapa en ny domän',
@@ -25,9 +25,9 @@
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Fel: internt fel vid radering av den domänen [_1].',
 'dom_SUCCESSFULLY_DELETED' => 'Domänen [_1] är raderad. Din webbserver startas nu om. Länkarna på denna sida är inaktiva tills webbserverns omstart är klar.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' Företagets DNS-inställningar ',
-'dom_BUTTON_CORPORATE_DNS' => ' Om denna server inte har åtkomst till eller om du har särskilda krav på din DNS-uppslagning, ange DNS-serverns IP-adress här. Du bör inte ange din ISP\'s DNS-servrar här eftersom denna server klarar av att slå upp alla Internet DNS-namn utan denna extra konfiguration.
-
-  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Ändra företagets DNS-inställningar</a> ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_BUTTON_CORPORATE_DNS' => ' Om denna server inte har åtkomst till eller om du har särskilda krav på din DNS-uppslagning, ange DNS-serverns IP-adress här. Du bör inte ange din ISP\'s DNS-servrar här eftersom denna server klarar av att slå upp alla Internet DNS-namn utan denna extra konfiguration.
+#
+#  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Ändra företagets DNS-inställningar</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Om denna server inte har Internetåtkomst eller om du har specifika krav på DNS-uppslagning, ange DNS-serverns IP-adresser här. Dessa fält bör lämnas tomma om du inte har särskilda skäl för att konfigurera andra DNS-servrar. De bör inte ange adressen för din ISP\'s DNS-servrar här, eftersom denna server klarar av att slå upp alla Internet DNS-namn utan denna extra konfiguration.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Primär företags DNS-server',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Sekundär företags DNS-server',
@@ -36,8 +36,8 @@
 'dom_localhost' => 'Lokal uppslagning',
 'dom_internet' => 'Internets DNS-servrar',
 'dom_corporate' => 'Företagets DNS-servrar',
-'dom_REMOVE_DESC' => 'Du är på väg att radera skrivaren:',
-'dom_REMOVE_DESC2' => 'Är du säker på att du vill radera denna skrivare?',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC' => 'Du är på väg att radera skrivaren:',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC2' => 'Är du säker på att du vill radera denna skrivare?',
 'dom_ADD_DOMAIN' => 'Lägg till domän',
 'dom_CURRENT_DOMAINS' => 'Aktuell lista över domäner',
 'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',

@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => '備份或還原伺服器資料',
-'bac_BACKUP_DESC' => ' <p>伺服器提供兩種方式以備份與還原您的伺服器：使用桌機或磁帶。</p>
-
-  <p>第一種方式是建立伺服器設定與使用者資料檔的副本，然後透過網路瀏覽器下載到本地桌機。當前全部的設定檔與資料檔的容量大約<b>[_3]</b>。實際備份檔案將略小於此數字，這取決於壓縮比例。\\"驗證桌機備份檔\\" 選項用於檢查桌機備份檔的完整性。</p>
-
-  <p>磁帶備份方式是在每天晚上使用<i>[_1]</i>的軟體套件備份整個硬碟到磁帶。這需要受支援的磁帶機與未被寫入保護的磁帶。備份將在每晚指定的時間自動執行（白天會自動電郵以提醒管理員）。目前您的硬碟包含<b>[_2]</b>容量的資料。</p>
-
-  <p>兩種還原方式皆允許您還原您的設定檔與使用者資料檔。<b>理論上，還原應當執行於全新安裝的伺服器</b>。</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>伺服器提供兩種方式以備份與還原您的伺服器：使用桌機或磁帶。</p>
+#
+#  <p>第一種方式是建立伺服器設定與使用者資料檔的副本，然後透過網路瀏覽器下載到本地桌機。當前全部的設定檔與資料檔的容量大約<b>[_3]</b>。實際備份檔案將略小於此數字，這取決於壓縮比例。\\"驗證桌機備份檔\\" 選項用於檢查桌機備份檔的完整性。</p>
+#
+#  <p>磁帶備份方式是在每天晚上使用<i>[_1]</i>的軟體套件備份整個硬碟到磁帶。這需要受支援的磁帶機與未被寫入保護的磁帶。備份將在每晚指定的時間自動執行（白天會自動電郵以提醒管理員）。目前您的硬碟包含<b>[_2]</b>容量的資料。</p>
+#
+#  <p>兩種還原方式皆允許您還原您的設定檔與使用者資料檔。<b>理論上，還原應當執行於全新安裝的伺服器</b>。</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => ' <p>提供三種方法來備份和還原您的伺服器：使用磁帶機、使用網路分享磁碟、本機可移除式磁碟，或區網桌機。</p>
 
   <p>磁帶備份。此法使用的軟體套件稱為<i>[_1]</i>用以每夜備份整顆硬碟到磁帶。這需要支援的磁帶機與非寫入保護的磁帶。此備份自動運作於每夜特定的時間（伴隨著白天寄給管理者的自動提醒電郵）。此時您的硬碟涵蓋<b>[_2]</b>的資料。</p>
@@ -20,10 +20,10 @@
 
   ',
 'bac_BACKUP_CONFIG_STATUS' => '備份的設定與狀態',
-'bac_TAPE_BACKUPS_ENABLED' => '目前磁帶備份被啟用。',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => '目前磁帶備份被啟用。',
 'bac_BACKUPS_RUN_AT' => '定期磁帶備份將執行於：',
 'bac_REMINDER_MESSAGE_AT' => '提醒訊息將被送出於：',
-'bac_TAPE_BACKUPS_DISABLED' => ' 磁帶備份 被禁止 ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' 磁帶備份 被禁止 ',
 'bac_DESKTOP_BACKUP' => '備份到桌機',
 'bac_DESKTOP_RESTORE' => '從桌機還原',
 'bac_DESKTOP_VERIFY' => '檢查桌機的備份檔',
@@ -112,10 +112,10 @@
 'bac_SERVER_WILL_REBOOT' => '您的伺服器將重啟。',
 'bac_NO_UID_FOR_NAME' => '該使用者無法獲得uid：',
 'bac_PAGE_REFRESH_IN' => ' 此頁面將在 [_1] 秒內更新， 或點選此處。',
-'bac_Backup or restore' => '備份或是還原',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => '備份或是還原',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '您的伺服器有太多資料，以至於無法可靠地備份到桌機。 ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作站備份 無法啟用 ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' 工作站備份當下已啟用。',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' 工作站備份 無法啟用 ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' 工作站備份當下已啟用。',
 'bac_WKBACKUPS_RUN_AT' => '定期工作站備份將執行於：',
 'bac_WORKSTN_CONFIGURE' => '設定工作站備份',
 'bac_WORKSTN_VERIFY' => '驗證工作站備份',

@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "A \"[_1]\" nevű fiók egy létező [_2] fiók."
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " A \"[_1]\" nevű fiók ütközik az [_2]\"[_3]\" fiók álnevével. A[_1] az [_3] álneve. "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "A \"[_1]\" adattár neve érvénytelen karaktereket tartalmaz. Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. "
+
+msgid "iba_ADD_IBAY"
+msgstr "i-bay hozzáadása"
+
+msgid "iba_ADD_TITLE"
+msgstr "Adattár létrehozása vagy módosítása."
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "Dinamikus tartalom engedélyezése (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "A [_1] névhez nem lehet fiókot létrehozni (már létezik?)"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "A [_1] névhez nem található felhasználói fiók (létezik?)"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "Az egész Internet (nem kell jelszó)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "Az egész Internet (jelszó kell)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "Az egész Internet (jelszó kell a helyi hálózaton kívül)"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "Hiba történt az adattár létrehozásakor."
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "Hiba történt az adattár törlésekor."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "Hiba történt az adattár módosításakor."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "Hiba történt a jelszó megváltoztatásakor."
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "  Adattár létrehozása \n\n   Eltávolíthatja bármelyik adattárat, vagy megváltoztathatja azok jelszavát. Ha az adattár neve piros színű, az azt jelenti, hogy az adattár alapértelmezett jelszava még nem lett megváltoztatva és hamarosan el kell végezni az új jelszó beállítását. \n\n  "
+
+msgid "iba_FORM_TITLE"
+msgstr "Adattárak létrehozása, módosítása vagy törlése."
+
+msgid "iba_HTTPS_Only"
+msgstr "Biztonságos kapcsolatok kikényszerítése"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "A jelszavak nem egyeznek"
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "Helyi hálózat (nem kell jelszó)"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "Helyi hálózat (jelszó kell)"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "A \"[_1]\" adattár neve túl hosszú. Maximum [_1] karakter hosszú lehet."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. Például \"johnson\", \"intra\", and \"cust3.prj12\" használható nevek, de az \"3associates\", \"John Smith\" and \"Bus!Partner\" nevek nem. A név [_1] karakter hosszú lehet."
+
+msgid "iba_NAME_LABEL"
+msgstr "Adattár neve"
+
+msgid "iba_NONE"
+msgstr "Nincs hozzáférés"
+
+msgid "iba_NO_IBAYS"
+msgstr "Nincsenek adattárak beállítva."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "Most készül megváltoztatni a [_1] nevű adattár jelszavát."
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "Publikus hozzáférés web-en, vagy névtelen ftp-n keresztül"
+
+msgid "iba_REMOVE_DESC"
+msgstr "  Most készül eltávolítani a \"[_1]\" ([_2]) adattárat. \n\n   Minden fájl, amit az adattár tartalmaz, megsemmisül. \n\n   Biztos benne, hogy törli az adattárat? \n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "Adattár eltávolítása"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "Az adattár sikeresen létrejött."
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "Az adattár sikeresen törölve"
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "Az adattár sikeresen módosult."
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "A jelszó megváltozott."
+
+msgid "iba_USER_ACCESS"
+msgstr "Felhasználói hozzáférés fájlmegosztáson, vagy ftp-n keresztül"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " A következő virtuális domének ezt az adattárat használták tartalomként, ezért ezek ezentúl az elsődleges webhelyet jelenítik meg (később ezek átállíthatók másra): [_1] "
+
+msgid "iba_WARG"
+msgstr "Írás = admin, Olvasás = csoport"
+
+msgid "iba_WGRE"
+msgstr "Irás = csoport, Olvasás = mindenki"
+
+msgid "iba_WGRG"
+msgstr "Irás = csoport, Olvasás = csoport"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "ENTIRE_INTERNET_NO_PASSWORD"
+#~ msgstr "Teljes internet (jelszó nem szükséges)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD"
+#~ msgstr "Teljes internet (jelszó szükséges)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD_REMOTE"
+#~ msgstr "(en)Entire Internet (password required outside local network)"
+#~ msgid "INVALID_IBAY_DESCRIPTION"
+#~ msgstr "(en)Error: unexpected or missing characters in i-bay description"
+#~ msgid "LOCAL_NETWORK_NO_PASSWORD"
+#~ msgstr "Helyi hálózat (nem szükséges jelszó)"
+#~ msgid "LOCAL_NETWORK_PASSWORD"
+#~ msgstr "Helyi hálózat (jelszó szükséges)"
+#~ msgid "NONE"
+#~ msgstr "Nincs hozzáférés"
+#~ msgid "WARG"
+#~ msgstr "(en)Write = admin, Read = group"
+#~ msgid "WGRE"
+#~ msgstr "(en)Write = group, Read = everyone"
+#~ msgid "WGRG"
+#~ msgstr "(en)Write = group, Read = group"
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "A jelszó csak betűket és számokat tartalmazhat."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "Hiba: helytelen, vagy hiányzó karakter az adattár leírásában"
+#~ msgid "iba_Information bays"
+#~ msgstr "Adattárak"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "A \"jelszó kell a helyi hálózaton kívül\" publikus hozzáférési módot nem támogatja az FTP szerver komponens. Ha ezt a módot válassza, az FTP szerver mind külső, mind belső hálózatból jelszó megadását kéri ehhez az adattárhoz való hozzáféréshez."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr "A következő virtuális domének ezt az adattárat használták tartalomként, ezért ezek ezentúl az elsődleges webhelyet jelenítik meg (később ezek átállíthatók másra)."

@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Hostentries module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-cn\n"
+
+msgid "Hostnames and addresses"
+msgstr "主机名和地址"
+
+msgid "hos_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this hostname?"
+
+msgid "hos_ADDR_IN_DHCP_RANGE"
+msgstr "地址是DHCP内部动态分配的范围"
+
+msgid "hos_ADD_HOSTNAME"
+msgstr " 添加主机名 "
+
+msgid "hos_CREATE_OR_MODIFY_SUCCEEDED"
+msgstr "(en) Create or modify succeeded"
+
+msgid "hos_CREATE_TITLE"
+msgstr "创建或修改主机名"
+
+msgid "hos_CREATE_TYPE"
+msgstr "(en) Create type"
+
+msgid "hos_CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN"
+msgstr "当前[_1]的主机名列表。"
+
+msgid "hos_ERROR_CREATING_HOST"
+msgstr "(en) Error creating host"
+
+msgid "hos_ERROR_MODIFYING_HOST"
+msgstr "(en) Error modifying host"
+
+msgid "hos_ERROR_WHILE_CREATING_HOST"
+msgstr "创建主机名时出错。"
+
+msgid "hos_ERROR_WHILE_DELETING_HOST"
+msgstr "删除主机名时出错。"
+
+msgid "hos_ERROR_WHILE_MODIFYING_HOST"
+msgstr "编辑主机名时出错。"
+
+msgid "hos_ERROR_WHILE_REMOVING_HOST"
+msgstr "(en) Error while removing host"
+
+msgid "hos_ERR_IP_IS_LOCAL_OR_GATEWAY"
+msgstr "错误：IP地址不能为服务器IP或者网关IP。"
+
+msgid "hos_ERR_IP_NOT_LOCAL"
+msgstr "错误：此IP地址不在本地网络范围内。"
+
+msgid "hos_ETHERNET_ADDRESS"
+msgstr "以太网地址"
+
+msgid "hos_ETHERNET_ADDRESS_DESCRIPTION"
+msgstr "Mac地址是可选的，通过它可以用DHCP服务器静态绑定本地的IP地址。如果指定了，它的格式必须是：\"AA:BB:CC:DD:EE:FF\"，并且只能包含数字0-9和字母A-F。"
+
+msgid "hos_FORM_TITLE"
+msgstr "主机名和地址"
+
+msgid "hos_HOSTNAME"
+msgstr "主机名"
+
+msgid "hos_HOSTNAME_COMMENT_ERROR"
+msgstr "错误：在\"[_1].[_2]\"的备注中出现非法字符。内容只应该包含字母、空格、数字、句号、逗号、下划线和连字符，并且必须以字母或者数字开头。"
+
+msgid "hos_HOSTNAME_DESCRIPTION"
+msgstr "主机名只能包含字母、数字和连接符，并且以字母或者数字开头。"
+
+msgid "hos_HOSTNAME_EXISTS_ERROR"
+msgstr "错误：账号[_1]是一个已存在的[_2]主机名。"
+
+msgid "hos_HOSTNAME_IN_USE_ERROR"
+msgstr "(en) Hostname in use error"
+
+msgid "hos_HOSTNAME_VALIDATOR_ERROR"
+msgstr "错误：在\"[_1].[_2]\"的备注中出现无效字符。主机名应该只包含字母、数字和连接符，并且必须以字母或者数字开头。"
+
+msgid "hos_HOSTTYPE"
+msgstr "位置"
+
+msgid "hos_LOCAL_IP"
+msgstr "本地IP"
+
+msgid "hos_LOCAL_IP_DESCRIPTION"
+msgstr "此IP地址是本地网络中其他机器的IP地址。请输入一个有效的IP地址，格式为\"aaa.bbb.ccc.ddd\"。"
+
+msgid "hos_LOCAL_PAGE_DESCRIPTION"
+msgstr "请为本地主机输入其他细节："
+
+msgid "hos_MODIFY_SUCCEEDED"
+msgstr "(en) Modify succeeded"
+
+msgid "hos_MODIFY_TITLE"
+msgstr "修改主机名"
+
+msgid "hos_MODIFY_TYPE"
+msgstr "(en) Modify type"
+
+msgid "hos_NONEXISTENT_HOSTNAME_ERROR"
+msgstr "(en) Nonexistent hostname error"
+
+msgid "hos_NONEXISTENT_HOST_ERROR"
+msgstr "(en) Nonexistent host error"
+
+msgid "hos_REMOTE_PAGE_DESCRIPTION"
+msgstr "请为远程主机输入其他细节："
+
+msgid "hos_REMOVE_PAGE_DESCRIPTION"
+msgstr " 将要删除主机名 \"[_1].[_2]\".   是否真的要删除这个主机名？ "
+
+msgid "hos_REMOVE_SUCCEEDED"
+msgstr "(en) Remove succeeded"
+
+msgid "hos_REMOVE_TITLE"
+msgstr "删除主机名"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "hos_CONFIRM_DESCRIPTION"
+#~ msgstr "请确认如下细节。"
+#~ msgid "hos_CREATE_LOCAL_HOST_TITLE"
+#~ msgstr "创建新的本地主机名"
+#~ msgid "hos_CREATE_REMOTE_HOST_TITLE"
+#~ msgstr "创建新的远程主机名"
+#~ msgid "hos_CURRENT_HOSTNAMES_FOR_DOMAIN"
+#~ msgstr "当前[_1]的主机名列表。"
+#~ msgid "hos_DIDNT_ENTER_LOCAL_IP"
+#~ msgstr "错误：您还没有指定本地IP地址。IP地址只允许包含数字和点号，并且格式为\"aaa.bbb.ccc.ddd\"。未能创建主机名。"
+#~ msgid "hos_DNS_FORWARDER_ENABLED"
+#~ msgstr "DNS转发器已被配置。这意味着所有的DNS查询将由此DNS转发器来处理。一旦DNS转发器被配置了，那么在服务器上，主机名和地址不能被修改。"
+#~ msgid "hos_DOMAIN_VALIDATION_ERROR"
+#~ msgstr "错误：在域名[_1]中含有意外字符。域名应该包含一个或多个字母、数字、点号和分隔符。未能创建新域。"
+#~ msgid "hos_HOSTNAME_LENGTH_ERROR"
+#~ msgstr "错误：账号名称[_1]太长，最大为32个字符。"
+#~ msgid "hos_HOSTNAME_VALIDATION_ERROR"
+#~ msgstr "错误：在主机名\"[_1]\"出现非预期字符。主机名应该只包含字母、数字和连接符，并且以一个字母或者数字开头。"
+#~ msgid "hos_Hostnames and addresses"
+#~ msgstr "主机名和地址"
+#~ msgid "hos_IP_VALIDATION_ERROR"
+#~ msgstr "错误：IP地址[_1]无效。IP地址只能包含数字和点号，并且格式为\"aaa.bbb.ccc.ddd\"。未能创建主机名。"
+#~ msgid "hos_MAC_ADDRESS_VALIDATION_ERROR"
+#~ msgstr "错误：mac地址[_1]无效。mac地址格式必须为\"AA:BB:CC:DD:EE:FF\"，并且只能包含数字0-9和字母A-F。未能创建主机名。"
+#~ msgid "hos_MUST_BE_VALID_HOSTNAME_OR_IP"
+#~ msgstr "必须是一个合法的主机名或IP"
+#~ msgid "hos_NO_HOSTNAMES_FOR_LOCAL_DOMAIN"
+#~ msgstr "系统中[_1]暂无主机名。"
+#~ msgid "hos_NO_HOSTNAMES_FOR_SERVICENAME"
+#~ msgstr "系统中[_1]暂无主机名。"
+#~ msgid "hos_NO_HOSTS_FOR_THIS_DOMAIN"
+#~ msgstr "此域暂无主机。"
+#~ msgid "hos_STATIC_HOST_MESSAGE"
+#~ msgstr " - 此主机代表您的系统名称，不能被修改或者移除。"
+#~ msgid "hos_SUCCESSFULLY_CREATED"
+#~ msgstr "主机名创建成功。"
+#~ msgid "hos_SUCCESSFULLY_DELETED"
+#~ msgstr "主机删除成功。"
+#~ msgid "hos_SUCCESSFULLY_MODIFIED"
+#~ msgstr "主机修改成功。"
+#~ msgid "hos_UNABLE_TO_OPEN_CONFIGDB"
+#~ msgstr "无法打开配置数据库。"

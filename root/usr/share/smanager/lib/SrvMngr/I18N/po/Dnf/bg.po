@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Dnf module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+
+msgid "Groups"
+msgstr "(en) Groups"
+
+msgid "Packages"
+msgstr "(en) Packages"
+
+msgid "Start"
+msgstr "(en) Start"
+
+msgid "yum_1DAILY"
+msgstr "ежедневно"
+
+msgid "yum_2WEEKLY"
+msgstr "седмично"
+
+msgid "yum_3MONTHLY"
+msgstr "Месечно"
+
+msgid "yum_AutoInstallUpdates"
+msgstr "(en) Autoinstallupdates"
+
+msgid "yum_BUTTON_CONFIGURATION"
+msgstr "Промяна на настройките на инсталатора на софтуера"
+
+msgid "yum_BUTTON_INSTALL_AVAILABLE"
+msgstr "Инсталиране на допълнителен софтуер"
+
+msgid "yum_BUTTON_INSTALL_UPDATES"
+msgstr "Списък на наличните актуализации"
+
+msgid "yum_BUTTON_REMOVE"
+msgstr "Премахване на инсталиран софтуер"
+
+msgid "yum_DESC_AVAILABLE_GROUPS"
+msgstr "Можете да изберете групи софтуер за инсталиране от списъка по-долу."
+
+msgid "yum_DESC_AVAILABLE_PACKAGES"
+msgstr "Също така можете да изберете отделни пакети за инсталация от списъка по-долу."
+
+msgid "yum_DESC_AVAILABLE_UPDATES"
+msgstr "Следните актуализации са достъпни за тази система. По принцип трябва да инсталирате всички актуализации. Ако има актуализации, които не искате да сложите, махнете селекцията от тях в списъка по-долу."
+
+msgid "yum_DESC_ENABLED_REPOSITORIES"
+msgstr "Инсталаторът може да инсталира софтуер от всяко разрешено хранилище. За да разрешите дадено хранилище го изберете от списъка. За да го изключите, махнете селекцията от него в списъка. По подразбиране за инсталация са налични само стабилните и тествани софтуери."
+
+msgid "yum_DESC_INSTALLED_GROUPS"
+msgstr "Можете да изберете групи софтуер за премахване от списъка по-долу."
+
+msgid "yum_DESC_INSTALLED_PACKAGES"
+msgstr "Можете също да избирате отделни пакети за премахване от списъка по-долу."
+
+msgid "yum_DESC_UPDATES_AVAILABLE"
+msgstr "Има налични актуализации за системата. Тези актуализации трябва да се сложат възможно най-скоро."
+
+msgid "yum_DESC_UPTODATE"
+msgstr "Всички актуализации са сложени."
+
+msgid "yum_DESC_YUM_AUTOINSTALLUPDATES"
+msgstr "(en)If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page."
+
+msgid "yum_DESC_YUM_DELTARPMPROCESS"
+msgstr "(en)A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles"
+
+msgid "yum_DESC_YUM_PACKAGEFUNCTIONS"
+msgstr "Инсталаторът може да управлява групи от свързани пакети или отделни пакети. По подразбиране се показват само групите пакети. Ако желаете да управлявате отделни пакети включете тази настройка. Това трябва да се прави само от опитни администратори."
+
+msgid "yum_DeltaRpmProcess"
+msgstr "(en) Deltarpmprocess"
+
+msgid "yum_DownloadOnly"
+msgstr "(en) Downloadonly"
+
+msgid "yum_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "yum_FORM_TITLE"
+msgstr "Инсталатор на софтуер"
+
+msgid "yum_HEADER_AVAILABLE_SOFTWARE"
+msgstr "Следния софтуер е наличен за инсталиране на системата. Трябва да инсталирате допълнителен софтуер на тази система, ако сте наясно от последиците за това."
+
+msgid "yum_HEADER_INSTALLED_SOFTWARE"
+msgstr "Следния софтуер е инсталиран на системата. Трябва да махате софтуер от системата само ако сте наясно от последиците за това."
+
+msgid "yum_HEADER_POSTUPGRADE_REQUIRED"
+msgstr " Системата изисква преконфигурация след инсталиране и махане на софтуер или след слагане на актуализации. <p> Моля, натиснете бутона Преконфигурация от долу, за да започне процеса по преконфигурация . <b>По време на преконфигурацията ще бъде направено автоматично рестартиране.</b> </p> "
+
+msgid "yum_INSTALL_SOFTWARE"
+msgstr "Инсталиране"
+
+msgid "yum_INSTALL_UPDATES"
+msgstr "Инсталиране на избраните актуализации"
+
+msgid "yum_LABEL_AVAILABLE_GROUPS"
+msgstr "Налични групи"
+
+msgid "yum_LABEL_AVAILABLE_PACKAGES"
+msgstr "Налични пакети"
+
+msgid "yum_LABEL_AVAILABLE_UPDATES"
+msgstr "Налични актуализации"
+
+msgid "yum_LABEL_ENABLED_REPOSITORIES"
+msgstr "Разрешени хранилища"
+
+msgid "yum_LABEL_INSTALLED_GROUPS"
+msgstr "Инсталирани групи"
+
+msgid "yum_LABEL_INSTALLED_PACKAGES"
+msgstr "Инсталирани пакети"
+
+msgid "yum_LABEL_YUM_AUTOINSTALLUPDATES"
+msgstr "Автоматично инсталиране на актуализации"
+
+msgid "yum_LABEL_YUM_DELTARPMPROCESS"
+msgstr "Актуализация на делта обороти/мин"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY"
+msgstr "Личните данни са обновени"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION"
+msgstr "(en)The rpm updates can be downloaded during the night, this will ease and give faster the dnf update process (only enabled repositories will be used)."
+
+msgid "yum_LABEL_YUM_PACKAGEFUNCTIONS"
+msgstr "Управление на отделни пакети"
+
+msgid "yum_LABEL_YUM_STATUS"
+msgstr "Проверка за актуализации"
+
+msgid "yum_MULTI_SELECT"
+msgstr "(en) <strong>Ctrl/Cmd-click</strong> toggles individual items and <strong>Shift-click</strong> selects ranges.\n<br /><strong>Case-insensitive</strong> search unless you enter a <strong>regex</strong> in <i>/pattern/flags</i> form (e.g. /maria.*client/i).."
+
+msgid "yum_Please_Wait_-_dnf_Running"
+msgstr "Моля, изчакайте – dnf се изпълнява"
+
+msgid "yum_SUCCESS"
+msgstr "Новите настройки бяха запазени."
+
+msgid "yum_UPDATE_SUCCESS"
+msgstr "(en)The requested changes have been successfully implemented."
+
+msgid "yum_check4updates"
+msgstr "(en) Check4updates"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "yum_SYSTEM_BEING_RECONFIGURED"
+#~ msgstr "Системата се рестартира автоматично за да завърши процеса по преконфигурация."
+#~ msgid "yum_Software Installer"
+#~ msgstr "Инсталатор на софтуер"

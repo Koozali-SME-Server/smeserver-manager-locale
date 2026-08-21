@@ -11,4 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'Nazwa grupy roboczej musi zaczynać się od litery (wielkie lub małe litery), a następnie dowolną kombinacją liter, cyfr, podkreśleń, okresów i łączników.',
 'wkg_INVALID_SERVERNAME' => 'Nazwa serwera musi zaczynać się od litery (wielkie lub małe litery), a następnie dowolną kombinacją liter, cyfr, podkreśleń i myślników.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'Nazwa serwera i grupy roboczej powinna być różna. Wartości te muszą być inne w celu udostępniania plików, którą ten serwer pełni rolę.',
-'wkg_Workgroup' => 'Grupa robocza',
+# ORPHANED (no longer in workgroup_en.lex; kept for reference, commented out by lex-to-po.pl): 'wkg_Workgroup' => 'Grupa robocza',

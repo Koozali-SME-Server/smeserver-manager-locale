@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Bugreport module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+msgid "bugr_ALTERED_EVENTS"
+msgstr "Lista zdarzeń serwera SME, które zostały zmienione na Twoim serwerze od czasu instalacji podstawowej"
+
+msgid "bugr_ALTERED_TEMPLATES"
+msgstr "Lista szablonów serwera SME, które zostały zmienione na serwerze od czasu instalacji podstawowej"
+
+msgid "bugr_AWARE_SME"
+msgstr "Prawdopodobnie wiesz, że serwer SME jest rozwijany i wspierany przez współpracującą ze sobą społeczność wolontariuszy z całego świata. Podczas gdy serwer SME jest darmowy do pobrania i użytkowania, utrzymanie infrastruktury projektu (np. hosting forów i wikipedii, udostępnianie repozytoriów i tworzenie serwerów itp.) kosztuje prawdziwe pieniądze w rzeczywistym świecie."
+
+msgid "bugr_CONSIDER_DONATING"
+msgstr "Proszę rozważyć darowiznę na rzecz projektu, klikając poniższy obrazek z odnośnikiem:"
+
+msgid "bugr_CREATE_REPORT"
+msgstr "Utwórz raport konfiguracji"
+
+msgid "bugr_DESCRIPTION"
+msgstr "(en) Description"
+
+msgid "bugr_DONATING"
+msgstr "Czy rozważałeś darowiznę?"
+
+msgid "bugr_DO_NOT_PANIC"
+msgstr "Nie panikuj!"
+
+msgid "bugr_Download this report"
+msgstr "Pobierz ten raport!"
+
+msgid "bugr_FOLLOWING_REPORT_MIGHT_HELP"
+msgstr "Pomocne będzie również, jeśli podasz jakieś istotne informacje na temat konfiguracji twojego serwera SME w swoim raporcie o błędzie. Klikając przycisk „Utwórz raport konfiguracji” poniżej, możesz utworzyć i pobrać plik tekstowy zawierający te informacje. Proszę również dołączyć ten plik do swojego raportu o błędzie."
+
+msgid "bugr_FORM_TITLE"
+msgstr "Zgłoś błąd"
+
+msgid "bugr_INSTALLED_RPMS"
+msgstr "Lista dodatkowych pakietów RPM zainstalowanych na twoim serwerze"
+
+msgid "bugr_KERNEL_AND_ARCH"
+msgstr "Bieżąca wersja jądra i architektura"
+
+msgid "bugr_PLEASE_REPORT_HERE"
+msgstr "Aby pomóc programistom w zdiagnozowaniu i naprawieniu problemu, pobierz jeden z następujących szablonów tekstowych, wypełnij go i wklej do raportu o błędzie w"
+
+msgid "bugr_PREVIOUS_SERVER_MODE"
+msgstr "(en)Previous server mode"
+
+msgid "bugr_PRIVACY"
+msgstr "Żadne prywatne dane (np. Użytkownicy, hasła, adresy IP) nie zostaną uwzględnione w raporcie."
+
+msgid "bugr_REPORT_CONTENT"
+msgstr "Raport będzie zawierał następujące informacje"
+
+msgid "bugr_SERVER_MODE"
+msgstr "Tryb serwera"
+
+msgid "bugr_SME_EXPERIENCE"
+msgstr "Niestety, nie ma oprogramowania bez błędów i prawdopodobnie trafiłeś na tę stronę z powodu problemu, z którym zetknąłeś się podczas instalacji serwera SME."
+
+msgid "bugr_SME_VERSION"
+msgstr "Wersja serwera SME (Koozali)"
+
+msgid "bugr_THANK_YOU"
+msgstr "Dziękuję za Twoje wsparcie!"
+
+msgid "bugr_USE_TEMPLATE"
+msgstr "Zapoznaj się z poniższym linkiem, aby dowiedzieć się, jak zgłosić skutecznie błąd używając szablonu"
+
+msgid "bugr_YOUR_HELP"
+msgstr "W taki sam sposób, w jaki potrzebujesz, abyśmy zajęli się Twoim bieżącym problemem, potrzebujemy TWOJEJ pomocy, aby utrzymać ten projekt przy życiu!"
+
+msgid "bugr_YUM_REPOS"
+msgstr "Lista dodatkowych repozytoriów oprogramowania skonfigurowanych na serwerze"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bugr_Report a bug"
+#~ msgstr "Zgłoś błąd"

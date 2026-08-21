@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Backup of herstel server data',
-'bac_BACKUP_DESC' => ' <p>De server heeft twee manieren van backup en herstellen van uw server.</p>
-
-  <p>De eerste methode creëert een kopie van de server configuratie en gebruikers bestanden en download het naar het bureaublad over uw webbrowser. Op dit moment is de omvang van uw configuratie en gebruikers bestanden ongeveer <b>[_3]</b>. Het backup bestand zal wat kleiner zijn afhankelijk van hoe de bestanden te comprimeren zijn. De \\"Controleer bureaublad backup bestand\\" optie kan gebruikt worden om de integriteit van het backup bestand te testen.</p>
-
-  <p>De tape backup methode gebruikt een software pakket genaamd <i>[_1]</i> om elke nacht de volledige harddisk naar tape te schrijven. Dit vereist een een ondersteunde tape drive en een tape die niet beveiligd is tegen schrijven. De backup wordt automatisch uitgevoerd op de ingestelde tijd \'s nachts (met een herinnering e-mail naar de beheerder gedurende de dag). Op dit moment bevat uw vaste schijfstation <b>[_2]</b> aan data.</p>
-
-  <p>Beide methodes maken herstellen van configuratie en gebruikers bestanden mogelijk. <b>Het verdient de voorkeur de herstel operatie uit te voeren op een vers geïnstalleerde server</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>De server heeft twee manieren van backup en herstellen van uw server.</p>
+#
+#  <p>De eerste methode creëert een kopie van de server configuratie en gebruikers bestanden en download het naar het bureaublad over uw webbrowser. Op dit moment is de omvang van uw configuratie en gebruikers bestanden ongeveer <b>[_3]</b>. Het backup bestand zal wat kleiner zijn afhankelijk van hoe de bestanden te comprimeren zijn. De \\"Controleer bureaublad backup bestand\\" optie kan gebruikt worden om de integriteit van het backup bestand te testen.</p>
+#
+#  <p>De tape backup methode gebruikt een software pakket genaamd <i>[_1]</i> om elke nacht de volledige harddisk naar tape te schrijven. Dit vereist een een ondersteunde tape drive en een tape die niet beveiligd is tegen schrijven. De backup wordt automatisch uitgevoerd op de ingestelde tijd \'s nachts (met een herinnering e-mail naar de beheerder gedurende de dag). Op dit moment bevat uw vaste schijfstation <b>[_2]</b> aan data.</p>
+#
+#  <p>Beide methodes maken herstellen van configuratie en gebruikers bestanden mogelijk. <b>Het verdient de voorkeur de herstel operatie uit te voeren op een vers geïnstalleerde server</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => ' <p>Er worden drie methoden aangeboden om uw server te backuppen en herstellen: gebruik maken van een tape drive, gebruik maken van een gedeelde netwerkschijf of een lokale verwisselbare schijf, of gebruik maken van je lokale bureaublad.</p>
 
   <p>Tape Backup: Deze methode maakt gebruik van een software pakket genaamd <i>[_1]</i> om uw gehele harddisk elke nacht naar tape te schrijven. Hiervoor is een ondersteunde tape drive nodig en een tape welke niet schrijfbeveiligd is. De backup wordt elke nacht automatisch op de geselecteerde tijd uitgevoerd (met een automatische herinnering welke gedurende de dag per e-mail aan de beheerder gestuurd wordt). Momenteel bevat uw hard disk <b>[_2]</b> aan gegevens.</p>
@@ -20,10 +20,10 @@
 
   ',
 'bac_BACKUP_CONFIG_STATUS' => 'Backup configuratie en status',
-'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups zijn momenteel geactiveerd. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups zijn momenteel geactiveerd. ',
 'bac_BACKUPS_RUN_AT' => 'Geautomatiseerde tape backups starten om:',
 'bac_REMINDER_MESSAGE_AT' => 'Herinneringsberichten worden verzonden naar:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups zijn niet geactiveerd ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups zijn niet geactiveerd ',
 'bac_DESKTOP_BACKUP' => 'Backup naar bureaublad',
 'bac_DESKTOP_RESTORE' => 'Herstellen vanaf bureaublad',
 'bac_DESKTOP_VERIFY' => 'Controleer bureaublad backup bestand',
@@ -114,8 +114,8 @@
 'bac_PAGE_REFRESH_IN' => ' Deze pagina vernieuwt naar het status scherm binnen [_1] seconden, of klik hier. ',
 'Backup or restore' => 'Backup of herstel',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Uw server heeft te veel data voor een betrouwbare backup naar bureaublad.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Werkstation backups zijn niet geactiveerd ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Werkstation backups zijn geactiveerd. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Werkstation backups zijn niet geactiveerd ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Werkstation backups zijn geactiveerd. ',
 'bac_WKBACKUPS_RUN_AT' => 'Werkstation backups starten om:',
 'bac_WORKSTN_CONFIGURE' => 'Configureer werkstation backup',
 'bac_WORKSTN_VERIFY' => 'Controleer werkstation backup',

@@ -1,0 +1,602 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Sichern oder Wiederherstellen"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Alle Sicherungen"
+
+msgid "bac_AM"
+msgstr "AM (Vormittag)"
+
+msgid "bac_AM/PM"
+msgstr "AM (Vormittag)/PM (Nachmittag)"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "Eine andere Wiederherstellung wird gerade ausgeführt. Versuchen Sie es später noch einmal."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "Die normale Bandsicherung läuft um:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Dateien für Anzeige auswählen"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Sichern von Konfiguration und Status"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr " <p>Drei Möglichkeiten sind vorgesehen, um Ihren Server zu sichern und wiederherzustellen: mit einem Bandlaufwerk, mit einer Netzwerkfreigabe oder mit Hilfe Ihres lokalen Arbeitsplatzrechners.</p>\n\n  <p>Bandsicherung. Diese Methode verwendet ein Software-Paket namens <i>[_1]</i>, um jede Nacht die gesamte Server-Festplatte auf Band zu sichern. Dies erfordert ein unterstütztes Bandlaufwerk und ein nicht schreibgeschütztes Band. Die Sicherung wird automatisch zur gewählten Zeit in der Nacht durchgeführt (eine Erinnerung wird automatisch während des Tages an den Administrator gemailt). Zur Zeit enthält Ihre Festplatte <b>[_2]</b> an Daten.</p>\n\n  <p>Workstation-Sicherung. Diese Methode verwendet ein Software-Paket namens <i>dar</i>, um Ihre Server-Konfiguration und Daten auf eine Netzwerkfreigabe oder eine lokale Wechselfestplatte, z.B. eine USB-Festplatte, zu sichern. Sie können bestimmen, wie viele rotierende Sätze der Sicherungen aufbewahrt werden und wie viele inkrementelle Sicherungen in jedem Satz enthalten sind. Die Sicherung wird automatisch täglich zu der ausgewählten Zeit durchgeführt. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>[_3]</b>. Die doppelte Größe muß frei auf der Netzwerkfreigabe zur Verfügung stehen.</p>\n\n  <p>Sicherung auf lokalem Arbeitsplatzrechner. Diese Methode erstellt eine Kopie der Serverkonfiguration und Benutzerdaten und lädt diese mit Hilfe des Web-Browsers auf Ihren lokalen Arbeitsplatzrechner herunter. Die derzeitige Gesamtgröße der Konfigurationsdateien und Daten ist unkomprimiert etwa <b>[_3]</b>. Die Sicherungsdatei kann je nach Komprimierungsgrad etwas kleiner sein. Diese Datei kann verwendet werden, um die Serverdaten von der Konsole wiederherstellen, wenn die Datei auf ein lokales Wechselmedium, z.B. lokale USB-Festplatte, kopiert wird.</p>\n\n  <p>Mit allen Sicherungsmethoden können Sie Ihre Konfigurations- und Benutzerdateien wiederherstellen. Die Workstation-Sicherung ermöglicht es individuelle Dateien wiederherzustellen. <b>Im Idealfall sollte eine vollständige Rücksicherung auf einem frisch installierten Server durchgeführt werden</b>.</p>\n\n  "
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "Auf Ihrem Server befinden sich zu viele Daten, um eine verläßliche Sicherung auf den lokalen Arbeitsplatz durchführen zu können."
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "Die Sicherungsdatei ist unvollständig"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Sichern oder Wiederherstellen der Serverdaten"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Bitte wählen Sie eine Stunde zwischen 0 - 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Bitte wählen Sie eine Minute zwischen 0 - 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "Warnung: Bei großen Sicherungen kann die Überprüfung der Integrität eine langwierige Sache werden und sollte bei täglichem Workstation Backup deaktiviert sein."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "Hier ankreuzen, um die Integrität aller Sicherungen für eine vollständige Wiederherstellung mit der gewählten Sicherung zu prüfen"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Komprimierungsgrad ~[0-9~] für das Backup"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Bitte konfigurieren Sie die Backup Einstellungen."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Bandsicherung konfigurieren"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Workstation-Backup konfigurieren"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "Sie können eine Anzahl von sukzessiven, automatisch rollierenden Backup-Sätzen auf der Workstation vorgeben. Jeder Backup-Satz kann gesicherte Daten für mehrere aufeinanderfolgende Tage enthalten. Jeder erste Backup-Satz ist ein Voll-Backup, alle anderen täglichen Backups sind nur inkrementell. Sie können außerdem ein Zeitlimit für jeden Backup-Prozess setzen, oder auch nur für inkrementelle Backups. Wenn dieses Limit erreicht wird, wird der Backup-Prozess ordnungsgemäß beendet, und das nächste inkrementelle Backup setzt das Sichern der ungesicherten und veränderten Daten fort."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Kann die Sicherungsdatei nicht dekodieren:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Kann die Sicherungsverbindung nicht ausführen:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Prozess konnte nicht gestartet werden:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Sicherung auf den Arbeitsplatzrechner"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Wiederherstellen vom Arbeitsplatzrechner"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Dieser Prozess wird eine Sicherungsdatei von Ihrem Arbeitsplatzrechner auf Ihren Server hochladen und stellt die Einstellungen sowie die Benutzerdaten wieder her. Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Überprüfung der Sicherungsdatei"
+
+msgid "bac_DOW"
+msgstr "Sonntag Montag Dienstag Mittwoch Donnerstag Freitag Samstag Täglich"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Aktivieren/Deaktivieren der nächtlichen Bandsicherung"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Tägliches Workstation-Backup aktivieren/deaktivieren"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Aktivieren der Bandsicherung"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Workstation Backup aktivieren"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Fehler beim Lesen der Dateien von"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "Die Parameter wurden gespeichert, aber der entfernte Host ist nicht erreichbar, bitte überprüfen Sie die Einstellungen."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "Sicherungsverzeichnis ist bereits eingebunden"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Fehler während des Events des conf-backup."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Fehler bei der Nutzung des Dar-Kataloges"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Fehler beim Extrahieren mit Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "Der Komprimierungsgrad muss zwischen 0 (keine) und 9 (maximale Komprimierung) eingestellt sein"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "Diese Zahl muss größer oder gleich 1 sein. Das Erste Backup ist ein Vollbackup alle anderen sind inkrementell"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Ungültiger Freigabename"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Fehler: ungültige Stundeneingabe:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Ungültige Anmeldung"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Fehler: ungültige Backup Minuteneingabe:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Ungültiges Kennwort"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Fehler: Ungültige Stundeneingabe für Erinnerung:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Fehler: Ungültige Minuteneingabe für Erinnerung:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Das Datumsformat ist ungültig, es muß wie folgt angegeben werden ~[ ~[ ~[yyyy/~]mm/~]dd-~]hh:mm~[:ss~]. Das bedeutet: 2005/12/31-08:23:32 or 10-08:32 or 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "Die Anzahl der Datensicherungssätze muss 1 oder größer sein"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "Die maximale Datensicherungszeit muss zwischen 1 und 24 Stunden betragen"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "Ungültige Workstation IP-Adresse oder Hostname"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "Keine Verbindung mit Freigabe auf der Workstation möglich"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Sicherungsverzeichnis ist nicht eingebunden"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "Wiederherstellung wird abgebrochen, da die benötigte Gesamtsicherung fehlt oder nicht lesbar ist."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "Es existiert kein Verzeichnis für Ihren Host im freigegebenen Ordner. Möglicherweise unterscheidet sich Ihr Hostname von denen im Backup"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "Wiederherstellung wird abgebrochen, weil das Sicherungsset fehlende oder unlesbare inkrementelle Sicherungsnummern enthält"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "Fehler: Kein Wechseldatenträger eingebunden. Binden Sie diesen ein oder wählen Sie einen anderen Typ eines Workstation Backup."
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "Fehler: Kein Wechseldatenträger vorhanden. Schließen Sie diesen an oder wählen Sie einen anderen Typ eines Workstation Backup."
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Es ist ein Fehler während der Post-Backup Aktionen aufgetreten."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Es ist ein Fehler während der Pre-Backup Aktionen aufgetreten."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Es ist ein Fehler während der Pre-Restore Aktionen aufgetreten."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Es ist ein Fehler beim Lesen der Sicherungsdatei aufgetreten."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Es ist ein Fehler beim Wiederherstellen vom Band aufgetreten."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "Es ist ein Fehler beim Wiederherstellen aus dem Workstation Backup aufgetreten."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Es ist ein Fehler bei der Wiederherstellung der GID von 'www' aufgetreten"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Es ist ein Fehler bei der Wiederherstellung der ursprünglichen Gruppe 'www' aufgetreten."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Es ist ein Fehler bei der Systemaktualisierung nach dem Wiederherstellen vom Band aufgetreten."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "Es ist ein Fehler bei der Systemaktualisierung nach dem Wiederherstellen aus dem Workstation Backup aufgetreten."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "Fehler bei der Trennung entfernter Freigaben"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "Die folgenden Dateien und Verzeichnisse wurden wieder hergestellt:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "Die folgenden Dateien werden in der Sicherung berücksichtigt:"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "Sicherungsdatei aus der wiederhergestellt werden soll"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Namen gefiltert nach"
+
+msgid "bac_FINISHED_AT"
+msgstr "und endete um:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Sie haben ungefähr $tmpfree freien Speicherplatz auf Ihrem Server. Prüfen Sie, ob die Sicherungsdatei kleiner als $halffree ist, bevor Sie mit der Wiederherstellung beginnen. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Gesamtsicherung erlaubt auf"
+
+msgid "bac_HOURS"
+msgstr "Stunden."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Kein Timeout für Vollsicherungen"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Banderinnerung laden am Tag (Stunde/Minute)"
+
+msgid "bac_LOGIN"
+msgstr "Login lautet"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "Nach Beendigung der Wiederherstellung müssen Sie Ihren Server neu starten."
+
+msgid "bac_Mounted disk"
+msgstr "Eingebunder Datenträger"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "Ihre Servereinstellungen und Benutzerdaten wurden vom Band wiederhergestellt."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "Ihre Servereinstellungen und Benutzerdaten wurden aus dem Workstation Backup wiederhergestellt."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "Es gibt keinen Backupsatz auf der konfigurierten Workstation Freigabe. Prüfen Sie Ihre Konfigurationseinstellungen."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "Kann keine UID für den Benutzer mit dem folgenden Namen bekommen:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Anzahl der täglichen Backups in jedem Satz"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Anzahl der rotierenden Backup-Sets"
+
+msgid "bac_No suitable local devices found"
+msgstr "Keine geeigneten lokalen Geräte gefunden"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Diese Seite wird in [_1] Sekunden mit der Statusanzeige erneuert, oder drücken Sie hier. "
+
+msgid "bac_PASSWORD"
+msgstr "Das Passwort lautet"
+
+msgid "bac_PM"
+msgstr "PM (Nachmittag)"
+
+msgid "bac_READ_COMPLETE"
+msgstr " Sie können alle Verzeichnisse und Dateien, die Sie wiederherstellen möchten in der angezeigten Liste auswählen (benutzen Sie Strg oder Shift für Mehrfachselektionen). Warnung: Wenn Sie ein Verzeichnis selektieren, werden alle enthaltenen Dateien und Verzeichnisse wiederhergestellt. Standardmäßig wird die neueste Version der ausgewählten Dateien wiederhergestellt, falls Sie aber ein Datum im Format ~[ ~[ ~[yyyy/~]mm/~]tt-~]hh:mm~[:ss~] angeben, wird der Prozess nur die neueste vor dem gegebenen Datum geänderte Version wiederherstellen. "
+
+msgid "bac_REBOOT"
+msgstr "Neustart"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Anzeige neu laden"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "Erinnerungsmitteilung wird gesendet um:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Es ist nicht möglich, mit der Wiederherstellung der Servereinstellungen fortzufahren"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Wiederherstellung durchgeführt"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Die Systemwiederherstellung wurde beendet"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Servereinstellungen vom Band wiederherstellen"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>Dieser Prozess stellt die Konfigurations- und Benutzerdaten von Ihrem Bandlaufwerk wieder her. <b>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</b></p>\n\n  <p>Vergewissern Sie sich, dass das richtige Band im Bandlaufwerk eingelegt wurde, bevor Sie beginnen. </p>\n\n  <p>Nach der Wiederherstellung muss der Server neu gestartet werden.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Server Einstellungen aus Workstation Backup wiederherstellen"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>Dieser Prozess stellt die Konfigurations- und Benutzerdaten aus Ihrem Workstation Backup wieder her. <b>Die Wiederherstellung sollte auf einem neu installierten Server durchgeführt werden.</b></p>\n\n  <p>Vergewissern Sie sich, dass das richtige Band eingelegt wurde, bevor Sie beginnen.</p>\n\n  <p>Nach der Wiederherstellung muß der Server neu gestartet werden.</p>\n\n  Wiederherstellung von: "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Wiederherstellung fehlgeschlagen! Die Sicherungsdatei ist unvollständig."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Wiederherstellung fehlgeschlagen! Es ist ein Fehler beim Lesen der Sicherungsdatei aufgetreten."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Wiederherstellen vom Band"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Wiederherstellung aus Workstation Backup"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Wiederherstellung im Gange"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Es läuft gerade eine Systemwiederherstellung. Diese wurde begonnen um:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "Nach dem Wiederherstellen muss der Server neu gestartet werden. Ihre Wiederherstellung ist komplett, wenn \"Wiederherstellung durchgeführt\" unten auf der Seite angezeigt wird."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Wiederherstellen der Server Einstellungen"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Prüfung der Integrität ist fehlgeschlagen"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Wiederherstellung vom Band"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Wiederherstellung aus Workstation Backup läuft"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Wählen Sie eine Aktion"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Sicherungsdatei auswählen"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Wiederherstellung der letzten Änderungen vor"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Dateien für Wiederherstellung auswählen"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "Wählen Sie den Typ der Freigabe für die Datensicherung"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Server Neustart"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Der Server wird jetzt neu gestartet."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Ordner für die Datensicherung"
+
+msgid "bac_STARTED_AT"
+msgstr "Sie begann um:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Bandsicherung erfolgreich aktiviert"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Workstation Backups erfolgreich deaktiviert"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Bandsicherung wurde erfolgreich aktiviert"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Workstation Backups wurden erfolgreich aktiviert"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Bandsicherungen sind"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Bandsicherungszeit am Tag (Stunde/Minute)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Bandsicherung konfigurieren"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Auswählen ob die nächtliche Bandsicherung durchgeführt werden soll. Danach die gewünschte Zeit und die Erinnerungsmeldung zum Laden des Bandes eingeben.</p>\n\n  <p>Die Bandsicherung benötigt ein unterstütztes Bandlaufwerk. Sollte das Bandlaufwerk leer sein, wird eine Warnmeldung zum gesetzten Zeitpunkt an den Administrator gesendet.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Wiederherstellen vom Band"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Überprüfe die Integrität der Sicherung"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "Alle Backups, die für eine Vollsicherung benötigt werden, aus ausgewähltem Backup prüfen"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Es ist nicht möglich, die Konfiguration des Servers wiederherzustellen"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Aktualisieren"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Bandsicherungseinstellungen aktualisieren"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Aktualisieren der Workstation Backup Einstellungen"
+
+msgid "bac_VERIFY"
+msgstr "Bestätigen"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Diese Option zeigt Ihnen die Namen aller erzeugten lokalen Sicherungsdateien an. Sie können diese Option dazu verwenden, den Inhalt Ihrer Sicherungsdateien zu überprüfen.</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Die Überprüfung ist beendet"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Mit dieser Option werden Ihnen alle Dateinamen in einer erstellten Workstation Sicherung angezeigt. Sie können damit den Inhalt der Sicherung überprüfen. <b>Wählen Sie die Sicherung aus, die Sie prüfen möchten.</b></p>\n\n  <p>Nur Dateien gekennzeichnet mit ~[Saved~] sind in der Sicherung enthalten.</p>\n\n  <br/>Sicherungsdateien aus folgendem Verzeichnis werden geprüft: "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Workstation Backup überprüfen"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "mit Sicherungszeit:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "und Zeit um an das Laden des Bands zu erinnern:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "Das normale Workstation Backup wird laufen um:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Einstellungen für Workstation Backup"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "Erstellen oder Ändern der Workstation Backup Einstellungen"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "Workstation-Backups sind"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "Kompressionsgrad (0-9) des Backup ist"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "Die Anzahl der täglichen Sicherungen in jedem Einstellungsset beträgt"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>Diese Seite zeigt die aktuelle Workstation-Backup Konfiguration. Sie können diese hier und auf der folgenden Seite ändern.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Sicherung ist"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "Die Sicherung wird auf einer Workstation im LAN erstellt"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "außer Vollsicherungen mit einer Zeitüberschreitung nach 24 Stunden"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "Sicherung wird auf einem eingebundenen Datenträger erstellt"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>Keine aktuelle Konfiguration für Workstation Backup vorhanden. Sie können diese hier und auf der folgenden Seite vornehmen.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "Die Anzahl der rotierenden Datensicherungs-Sets ist"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Einstellungen für Workstation Backup"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "Ziel-Ordner für Backup ist"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "Workstation Backup Zeit am Tag (Stunde/Minute)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "Jede tägliche Sicherung wird ordentlich beendet nach"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Die tägliche Sicherung erfolgt um"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "Das Backup wird auf einem lokalen Wechseldatenträger erstellt"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "über"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Konfiguriere Workstation Backup"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "Gesamtsicherung (neue Sicherungseinstellungen) ist nur erlaubt auf"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "Gesamtsicherungen (neue Sicherungssätze) sind täglich erlaubt"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Anmeldename"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "Workstation-IP-Adresse oder Hostename"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "Bitte konfigurieren Sie zuerst die Einstellungen für die Datensicherung auf der Workstation"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Wiederherstellung aus Workstation"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Gezielte Wiederherstellung einzelner Dateien aus dem Workstation Backup"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Gezielte Wiederherstellung einzelner Dateien aus dem Workstation Backup"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " Dieser Vorgang stellt nur ausgewählte Dateien und Verzeichnisse wieder her. Wählen Sie zuerst die Sicherung, aus der Dateien wiederhergestellt werden sollen. Falls Sie nicht wissen, in welchem Backup sich die benötigten Dateien befinden, können Sie 'Alle Sicherungen' auswählen. Die nächste Seite zeigt Ihnen die verfügbaren Dateien und Verzeichnisse, aus denen Sie die zu wiederherstellenden auswählen können. Um die Anzahl der angezeigten Dateien und Verzeichnisse zu beschränken, können Sie Filterausdrücke erstellen, die auf die anzuzeigenden Namen wirken.Achtung: Schließen Sie Dateien aus der Wiederherstellung aus, die für Funktion des Servers benötigt werden.Aktuell werden die Dateien zurückgesichert von: "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Optionales Backup Session Timeout (Stunden)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Workstation Backup überprüfen"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X Sichern oder Wiederherstellen der Serverdaten"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "Sie müssen den Server neu starten, um die Änderungen zu aktivieren, die durch das Wiederherstellen übertragen wurden."
+
+msgid "bac_cifs"
+msgstr "CIFS"
+
+msgid "bac_local removable disk"
+msgstr "Lokaler Wechseldatenträger"
+
+msgid "bac_nfs"
+msgstr "NFS"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>Der Server bietet zwei Möglichkeiten, den Server zu sichern und wiederherzustellen: entweder auf dem lokalen Desktop oder auf ein Bandlaufwerk.</p>\n\n  <p>Die erste Methode erzeugt eine Kopie der Servereinstellungen sowie der Benutzerdaten und lädt diese über den Webbrowser auf den Arbeitsplatzrechner herunter. Im Moment beträgt die Größe Ihrer Einstellungen und Benutzerdaten ungefähr<b>[_3]</b>. Die Sicherungsdatei wird etwas kleiner als dieser Wert, abhängig davon wie die Daten komprimierbar sind. Mit \\\"Überprüfung der Sicherungsdatei\\\" kann die Datei noch einmal auf Integrität überprüft werden.</p>\n\n  <p>Die Bandsicherungmethode benutzt ein Softwarepaket mit dem Namen <i>[_1]</i>, um die Daten der Festplatte jede Nacht zu sichern. Dafür wird ein Bandsicherungslaufwerk und ein nicht schreibgeschütztes Band benötigt. Die Sicherung wird automatisch zu der angegebenen Zeit jede Nacht durchgeführt (sowie im Laufe des Tages eine E-Mail an den Administrator geschickt). Aktuell sind auf Festplatten Ihres Servers <b>[_2]</b> an Daten gespeichert. <b>Im Idealfall sollte die Wiederherstellung auf einem frisch installierten Server durchgeführt werden.</b></p>\n\n  "
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Bandsicherungen sind deaktiviert "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Bandsicherung ist im Moment aktiviert. "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " Workstation Backups sind deaktiviert "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " Workstation Backups sind im Moment aktiviert. "

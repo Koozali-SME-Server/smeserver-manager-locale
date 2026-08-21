@@ -10,8 +10,8 @@
   <p> Aby przygotować funkcję administracji systemem, kliknij na jeden z hiperłączy w menu po lewej stronie monitora. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Witamy w SME Server. To oprogramowanie jest rozprowadzane BEZ ŻADNEJ GWARANCJI. Proszę <a href="/smanager/support" target="main">tutaj kliknąć</a>, aby wyświetlić szczegóły wsparcia, gwarancji i licencji.
-
-  <p> <a href="/server-manager/noframes">Kliknij tutaj</a> aby zobaczyć listę funkcji administracji systemem. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Witamy w SME Server. To oprogramowanie jest rozprowadzane BEZ ŻADNEJ GWARANCJI. Proszę <a href="/smanager/support" target="main">tutaj kliknąć</a>, aby wyświetlić szczegóły wsparcia, gwarancji i licencji.
+#
+#  <p> <a href="/server-manager/noframes">Kliknij tutaj</a> aby zobaczyć listę funkcji administracji systemem. </p>
+#
+#  ',

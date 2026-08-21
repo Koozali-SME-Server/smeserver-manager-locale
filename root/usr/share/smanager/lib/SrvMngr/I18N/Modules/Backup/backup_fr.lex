@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Sauvegarde et restauration des données du serveur',
-'bac_BACKUP_DESC' => ' <p>Vous disposez de deux méthodes pour sauvegarder et restaurer votre serveur : à distance sur un ordinateur du réseau local ou sur un lecteur/enregistreur de bande magnétique.</p>
-
-  <p>La première méthode crée une archive des fichiers de configuration du serveur et des données des utilisateurs et la télécharge sur un ordinateur de votre réseau local à l\'aide d\'un navigateur Internet. Actuellement, vos fichiers de configuration et de données totalisent environ <b>[_2]</b>. La taille du fichier de sauvegarde sera quelque peu inférieure à cela, en fonction du degré de compressibilité des données. L\'option \"Vérifier le fichier de sauvegarde de l\'ordinateur\" peut être utilisée pour vérifier l\'intégrité d\'un fichier de sauvegarde stocké sur l\'ordinateur local.</p>
-
-  <p>La méthode de sauvegarde sur bande utilise le programme <i>[_1]</i> pour sauvegarder quotidiennement tout votre disque dur. Ceci nécessite que le lecteur/enregistreur de bande magnétique soit pris en charge et que la bande ne soit pas protégée contre l\'écriture. La sauvegarde est exécutée automatiquement chaque jour à l\'heure sélectionnée, (avec un rappel envoyé à l\'administrateur dans la journée par courriel.<br>Actuellement, votre disque dur contient <b>[_2]</b> de données.</p>
-
-  <p>Les deux méthodes de restauration vous permettent de restaurer vos fichiers de configuration et les données des utilisateurs.<br><b>Idéalement, la restauration ne devrait se faire que sur un serveur nouvellement installé</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>Vous disposez de deux méthodes pour sauvegarder et restaurer votre serveur : à distance sur un ordinateur du réseau local ou sur un lecteur/enregistreur de bande magnétique.</p>
+#
+#  <p>La première méthode crée une archive des fichiers de configuration du serveur et des données des utilisateurs et la télécharge sur un ordinateur de votre réseau local à l\'aide d\'un navigateur Internet. Actuellement, vos fichiers de configuration et de données totalisent environ <b>[_2]</b>. La taille du fichier de sauvegarde sera quelque peu inférieure à cela, en fonction du degré de compressibilité des données. L\'option \"Vérifier le fichier de sauvegarde de l\'ordinateur\" peut être utilisée pour vérifier l\'intégrité d\'un fichier de sauvegarde stocké sur l\'ordinateur local.</p>
+#
+#  <p>La méthode de sauvegarde sur bande utilise le programme <i>[_1]</i> pour sauvegarder quotidiennement tout votre disque dur. Ceci nécessite que le lecteur/enregistreur de bande magnétique soit pris en charge et que la bande ne soit pas protégée contre l\'écriture. La sauvegarde est exécutée automatiquement chaque jour à l\'heure sélectionnée, (avec un rappel envoyé à l\'administrateur dans la journée par courriel.<br>Actuellement, votre disque dur contient <b>[_2]</b> de données.</p>
+#
+#  <p>Les deux méthodes de restauration vous permettent de restaurer vos fichiers de configuration et les données des utilisateurs.<br><b>Idéalement, la restauration ne devrait se faire que sur un serveur nouvellement installé</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => ' <p>Vous disposez de trois méthodes de sauvegarde et de restauration de votre serveur : sur votre ordinateur local, un lecteur/enregistreur de bandes ou un ordinateur distant sur votre réseau local.</p>
 
   <p>La première méthode crée une copie de la configuration du serveur et des données utilisateur puis les transfère sur votre ordinateur local, via votre navigateur Internet. Actuellement, la taille totale de ces données représente approximativement <b>[_2]</b>. La taille du fichier de sauvegarde sera légèrement inférieure à ceci, en fonction de la compressibilité de ces données. Ce fichier peut être utilisé pour restaurer votre serveur depuis la console si vous le copiez sur un média de stockage tel qu\'un disque amovible.</p>
@@ -20,10 +20,10 @@
 
   ',
 'bac_BACKUP_CONFIG_STATUS' => 'Configuration et état de la sauvegarde',
-'bac_TAPE_BACKUPS_ENABLED' => ' Les sauvegardes sur bande sont actuellement activées. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Les sauvegardes sur bande sont actuellement activées. ',
 'bac_BACKUPS_RUN_AT' => 'Les sauvegardes régulières sur bande seront exécutées à:',
 'bac_REMINDER_MESSAGE_AT' => 'Les courriels de rappel seront envoyés à:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Les sauvegardes sur bande sont actuellement désactivées. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Les sauvegardes sur bande sont actuellement désactivées. ',
 'bac_DESKTOP_BACKUP' => 'Sauvegarder sur l\'ordinateur local',
 'bac_DESKTOP_RESTORE' => 'Restaurer depuis l\'ordinateur local',
 'bac_DESKTOP_VERIFY' => 'Vérifier le fichier de sauvegarde sur l\'ordinateur local',
@@ -114,8 +114,8 @@
 'bac_PAGE_REFRESH_IN' => ' Cette page s\'actualisera dans [_1] secondes pour afficher l\'état de l\'opération en cours. Vous pouvez également actualiser la page en cliquant ici. ',
 'Backup or restore' => 'Sauvegarde et restauration',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Le volume de données stockées sur votre serveur est trop important pour assurer la fiabilité de la sauvegarde sur l\'ordinateur local.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Les sauvegardes sur un ordinateur distant sont actuellement désactivées. ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Les sauvegardes sur un ordinateur distant sont actuellement activées. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Les sauvegardes sur un ordinateur distant sont actuellement désactivées. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Les sauvegardes sur un ordinateur distant sont actuellement activées. ',
 'bac_WKBACKUPS_RUN_AT' => 'Les sauvegardes quotidiennes sur un ordinateur distant seront exécutées à',
 'bac_WORKSTN_CONFIGURE' => 'Configurer les sauvegardes sur un ordinateur distant',
 'bac_WORKSTN_VERIFY' => 'Vérifier les sauvegardes sur un ordinateur distant',

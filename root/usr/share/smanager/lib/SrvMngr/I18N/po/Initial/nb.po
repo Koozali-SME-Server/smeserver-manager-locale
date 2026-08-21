@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Initial module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+
+msgid "initial_FORM_TITLE"
+msgstr "Velkommen til serverkonsollen!"
+
+msgid "initial_FRAMES_BODY"
+msgstr "  Velkommen til SME Serveren, den ledende Linux distribusjon for små og medium foretak. SME Serveren er levert av <a href=\"https://www.kooali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a>, et non-profit selskap som eksisterer for å gi markeds og juridisk støtte til SME Server. \n\n  <p> SME Server er fritt tilgjenglig under GNU General Public License og er bare mulig gjennom insatsen fra SME Server felleskapet. Ikke desto minder er tilgjengligheten og kvaliteten på SME Server avhengig av økonomisk støtte for utgifter til hosting, server maskiner osv. </p>\n\n  <p> Derfor ber vi om at du avser en liten donasjon for å bidra til fremtidig utvikling. </p>\n\n  <p> <b> Vennligst besøk <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\">https://wiki.koozali.org/Donate</a> for å donere. </b></p>\n\n  <p> Programmet kommer uten noen form for garanti. Vennligst <a href=\"/smanager/support\" target=\"main\">klikk her</a> for å se detaljert støtte, garanti og lisensinformasjon. </p>\n\n  <p> For å utføre en systemadministrasjon funksjon, klikk på en av linkene i menyen på venstre siden av skjermen. </p>\n\n  "
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "initial_NOFRAMES_BODY"
+#~ msgstr "  Velkommen til SME Serveren. Dette programmet kommer uten noen form for garanti. Vennligst <a href=\"/smanager/support\" target=\"main\">klikk her</a> for å se detaljert støtte, garanti, og listensinformasjon. \n\n  <p> <a href=\"/server-manager/noframes\">Klikk her</a> for en oversikt over systemadministrasjon funksjoner. </p>\n\n  "

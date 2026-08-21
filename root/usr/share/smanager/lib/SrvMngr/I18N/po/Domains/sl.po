@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Domains module\n"
+"POT-Creation-Date: 2026-08-21 10:15+0100\n"
+"PO-Revision-Date: 2026-08-21 10:15+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+
+msgid "dom_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this domain ?"
+
+msgid "dom_ADD_DOMAIN"
+msgstr "Dodaj domeno"
+
+msgid "dom_CONTENT"
+msgstr "[_1] i-lista"
+
+msgid "dom_CONTENT_FIELD_DESCRIPTION"
+msgstr "Za spletno stran te domene lahko izberete primarno ali vsebino katerega koli informacijskega lista."
+
+msgid "dom_CREATE_TITLE"
+msgstr "Dodaj novo navidezno domeno"
+
+msgid "dom_CURRENT_DOMAINS"
+msgstr "Trenutni seznam domen"
+
+msgid "dom_DESC_CORPORATE_DNS"
+msgstr "Ce ta streznik nima dostopa do Interneta, imate posebne zahteve po DNS zapisih, vpisite ta DNS streznik ali IP naslov tukaj. Ta polja lahko pustite prazna, razen ce nimate posebnega razloga za to. Tukaj ne vpisujte DNS streznikov vasega Internetnega ponudnika, saj streznik prevede vsa Internetna DNS imena brez dodatnih nastavitev."
+
+msgid "dom_DESC_CORPORATE_DNS_CURRENT"
+msgstr " Splosne DNS nastavitve streznika "
+
+msgid "dom_DESC_NAMESERVERS"
+msgstr "Izberete lahko ali bo ta domena prevajana lokalno z uporabo lokalnih DNS streznikov, ali z uprabo Internetnih DNS streznikov. Privzeto nastavitev lahko uporabite v vecini primerih."
+
+msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
+msgstr "Spremeni korporativne nastavitve DNS-ja"
+
+msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
+msgstr "Napaka: v polju opisa domene [_1] so nepricakovani ali manjkajoci znaki. Nova domena ni bila dodana."
+
+msgid "dom_DOMAIN_IN_USE_ERROR"
+msgstr "Napaka: domena [_1] je ze uporabljena. Nova domena ni bila dodana."
+
+msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
+msgstr "Napaka: v domeni [_1] so nepricakovani ali manjakjoci znaki. Domena lahko vsebuje eno ali vec crk, stevilk, pik ali minus znakov. Nova domena ni bila dodana."
+
+msgid "dom_ERROR_CREATING_DOMAIN"
+msgstr "(en) Error creating domain"
+
+msgid "dom_ERROR_MODIFYING_DOMAIN"
+msgstr "(en) Error modifying domain"
+
+msgid "dom_ERROR_UPDATING"
+msgstr "(en) Error updating"
+
+msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
+msgstr "Napaka: pri odstranjevanju navidezne domene [_1] je prislo do notranje napake."
+
+msgid "dom_FORM_DESCRIPTION"
+msgstr " Ko ustvarite navidezno domeno, bo vas streznik lahko skrbel za elektronsko posto te domene in gostil spletne strani zanjo.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Dodaj domeno</a> "
+
+msgid "dom_FORM_TITLE"
+msgstr "Upravljaj z domenami"
+
+msgid "dom_LABEL_CORPORATE_DNS_PRIMARY"
+msgstr "Primarni DNS streznik v lokalnem omrezju"
+
+msgid "dom_LABEL_CORPORATE_DNS_SECONDARY"
+msgstr "Sekundarni DNS streznik v lokalnem omrezju"
+
+msgid "dom_LABEL_NAMESERVERS"
+msgstr "DNS strezniki"
+
+msgid "dom_MODIFY_TITLE"
+msgstr "Uredi navidezno domeno"
+
+msgid "dom_NONEXISTENT_DOMAIN_ERROR"
+msgstr "Napaka: [_1] ni obstojeca domena."
+
+msgid "dom_PRIMARY_SITE"
+msgstr "primarna spletna stran"
+
+msgid "dom_REMOVE_DESCRIPTION"
+msgstr "  Ste tik pred tem, da odstranite navidezno domeno [_1] ([_2]). \n\n  <p> <b>Ste prepricani, da zelite odstraniti to domeno?</b> </p>\n\n  "
+
+msgid "dom_REMOVE_TITLE"
+msgstr "Odstrani navidezno domeno"
+
+msgid "dom_SUCCESSFULLY_CREATED"
+msgstr "Nova domena z imenom [_1] je bila dodana. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven."
+
+msgid "dom_SUCCESSFULLY_DELETED"
+msgstr "Navidezno domeno [_1] ste uspesno odstranili. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven."
+
+msgid "dom_SUCCESSFULLY_MODIFIED"
+msgstr "Navidezna domena [_1] je bila uspesno posodobljena. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven."
+
+msgid "dom_SYSTEM_DOMAIN_ERROR"
+msgstr "Napaka: domena [_1] je vasa primarna domena. Ne morete imeti navidezne domene z enakim imenom. Nova domena ni bila dodana."
+
+msgid "dom_corporate"
+msgstr "Lokalni DNS strezniki"
+
+msgid "dom_internet"
+msgstr "Internetni DNS strezniki"
+
+msgid "dom_localhost"
+msgstr "Prevajaj lokalno"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dom_BUTTON_CORPORATE_DNS"
+#~ msgstr " Uredite DNS nastavitve streznika "
+#~ msgid "dom_CURRENT_LIST_OF_DOMAINS"
+#~ msgstr "Trenuten seznam domen"
+#~ msgid "dom_NO_VIRTUAL_DOMAINS"
+#~ msgstr "V sistemu ni nobene navidezne domene."
+#~ msgid "dom_REMOVE_DESC"
+#~ msgstr "Ali si preprican, da zelis odstraniti tiskalnik:"
+#~ msgid "dom_REMOVE_DESC2"
+#~ msgstr "Ali si preprican, da zelis odstraniti tiskalnik?"

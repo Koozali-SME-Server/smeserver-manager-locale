@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "E-posta erişim ayarları başarıyla kaydedildi"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Özel"
+
+msgid "mai_DEFAULT"
+msgstr "Varsayılan"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "E-posta teslimat ayarları başarıyla kaydedildi"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "E-posta eki olarak gönderilen çalıştırılabilir içeriği engellemek için listeden doya tipini seçebilirsiniz. Belirtilen içeriğe sahip e-postalar göndericiye otomatik olarak geri yollanır."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Atanmış posta sunucuları Sunucunuz, eksiksiz bir e-posta sunucusunun tüm özelliklerine sahiptir . Ancak başka bir mail sunucusu atamak isterseniz IP adresini burada yazılmalıdır. Normal işlemler için boş bırakın. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "ETRN için, bu sunucunun ikinci e-posta sunucuyla mesajları almak için hangi sıklıkta bağlantı sağladını kontrol edebilirsiniz. Daha sık bağlantı e-postaların daha çabuk alındığını gösterir, bu internet bağalantınızın daha sık kullanılmasını gerktirir."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "IMAP sunucu erişimini kontrol edebilirsiniz. 'Sadece yerel ağdan erişime izin ver' seçildiğinde sadece bağlı bulunduğunuz ağdaki bilgisayarlardan bağlantıları kabul eder.IMAPS ayarları, IMAP sunucunuza şifrelenmiş harici erişim sağlar.Zorunlu olmadıkça 'Sadece yerel ağdan erişime izin ver' seçmenizi öneririz."
+
+msgid "mai_DESC_MODE"
+msgstr "E-posta alma modu standart olarak ayarlanabilir (kiralık hatlı internet bağlantıları için), ETRN (çevirmeli bağlantılar için önerilir), veya multi-drop (çevirmeli bağlantılarda sevis sağlayıcı ETRN desteklemiyorsa kullanılabilir). multi-drop modu sadece sunucunuz özel sunucu ve ağ geçidi modunda yapılandırılmış olduğunda kullanılabili."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "POP3 sunucu erişimini kontrol edebilirsiniz. 'Sadece yerel ağdan erişime izin ver' seçildiğinde sadece bağlı bulunduğunuz ağdaki bilgisayarlardan bağlantıları kabul eder. POP3S ayarları, POP3 sunucunuza şifrelenmiş harici erişim sağlar. Zorunlu olmadıkça 'Sadece yerel ağdan erişime izin ver' seçmenizi öneririz."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " ETRN veya multi-drop ayarları ETRN veya multi-drop kullanmak için, ikincil e-posta sunucusunun alan adını veya IP adresini belirtin. (Standart ayarlar kullanılacaksa bu alan boş bırakılmalıdır.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " SMTP sunucu Sunucu gönderilen mesajları kendi üzerinden yollar (çoğu durumda önerilir) veya ISPnisin SMTP sunucusu yoluyla iletilir (bu seçenek güvenilir olmayan internet bağlantınız varsa, sürekli kopmalar oluyorsa ve iyi bir ISPye sahipseniz tercih edebilirsiniz).Eğer ISPnizin SMTP sunucusunu kullanacaksanız alan adını veya IP sini aşağıya yazın. Yoksa boş bırakın. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires all users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "E-postaları spam için tarayabilirisiniz. Spam filtreleme açıksa, X-Spam-Durumu: başlığı her mesaj için aktifleşir, bununla spamlar filtrelenebilir. Spam algılama sürecinin hassasiyetini arttırabilirsiniz, varsayılan olarak orta seviyededir. İnce ayar için, Özel dyarlılığı seçip oradan özel etiketleme düzeyi seçip, isteğe bağlı olarak hangi mesajın red edileceğini ayarlayabilirsiniz."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "Her iletinin konu başlığında SPAM etiketi eklemek için etkinleştirebilirsiniz.Bu etiketin değeri aşağıda tanımlanmıştır."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " E-posta erişim ayarları "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " E-posta yönlendirme ayarları "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " E-posta filtreleme ayarları "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " E-posta alım ayarları "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Bilinmeyen Kullanıcılar Reddet (önerilen) sunucuuyu yalnızca geçerli e-posta adreslerini kabul etmek için yapılandırır (örneğin lullanıcılar, gruplar, takma isimler). Diğer adreslerden gelen e-postalar reddedilir. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "Gelen ve giden e-postalarını virüse karşı tarayabilirsiniz. Virüs tespit edilirse, e-pota göndericiye geli yollanır."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "Bu sistemdeki webmail etkinleştirilebilir veya devre dışı bırakılabilri. Webmail kullanıcıları kendi e-postalarına web gezginini https://[_1]/webmail adresine yönlendirerek hesaplarına giriş yapabilirler."
+
+msgid "mai_E-Mail"
+msgstr "E-posta"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "HTTPS için izin ver (güvenli)"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP istemci isteği ile)"
+
+msgid "mai_EVERY15MIN"
+msgstr "Her 15 dakikada"
+
+msgid "mai_EVERY2HRS"
+msgstr "Her 2 saatte"
+
+msgid "mai_EVERY30MIN"
+msgstr "Her 30 dakikada"
+
+msgid "mai_EVERY5MIN"
+msgstr "Her 5 dakikada"
+
+msgid "mai_EVERYHOUR"
+msgstr "Her saat"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "E-posta filtreleme ayarları başarıyla kaydedildi"
+
+msgid "mai_FORWARD_TO"
+msgstr "Gönder"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "Yöneticiye gönder"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Yüksek"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "IMAP ve IMAPS için izin ver"
+
+msgid "mai_INSECURE_POP3"
+msgstr "POP3 ve POP3S için izin ver."
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "Girdiğiniz ana bilgisayar adı, geçerli bir internet etki alanı adı değildir ve boş değil"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Çalıştırılabilir içerik engelleme"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Engellenecek içerik"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Yerel e-posta sunucusu adresi"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "Hafta içi çalışma saatleri (8:00 - 18:00)"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "Hafta içi mesai saatleri dışı (18:00 - 8:00)"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "Hafta sonu boyunca"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "IMAP sunucu erişimi"
+
+msgid "mai_LABEL_MODE"
+msgstr "E-posta alım şekli"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "POP3 sunucu erişimi"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "POP kullanıcı hesabı (çoklu e-posta için)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "POP kullanıcı şifresi (çoklu e-posta için)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "İkincil e-posta sunucusu"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "İnternet sağlayıcınızın e-posta adresi"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Posta sunucusu şifresi"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "İnternet sağlayıcı için SMTP doğrulama"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "Posta sunucusu kullanıcı adı"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Spam mesajları gereksiz kutusuna taşı"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "Mesaj başlığına göre (çoklu e-posta için)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Sıralama şeklini seçin (çoklu e-posta için)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Özel spam red seviyesi"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Spam filtreleme"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Spam duyarlılığı"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "SPAM konu öneki"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "Spam mesajların konu başlığını değiştir"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Özel spam düzeyi etiketleme"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "Bilinmeyen kullanıcıya e-posta"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Virus taranıyor"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Webmail girişi"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Düşük"
+
+msgid "mai_MEDIUM"
+msgstr "Orta"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "hiç biri"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "Sadece yerel ağadan erişime izin ver"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "E-posta alma ayarları başarıyla kaydedildi"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Reddet"
+
+msgid "mai_SECURE_IMAP"
+msgstr "Özele ve genele izin ver (güvenli IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "Özele ve genele izin ver (güvenli POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "SSMTP için izin ver (güvenli SSMTP)"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Aşağıda belirtin"
+
+msgid "mai_STANDARD"
+msgstr "Standart (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "Gönderim portu %u durumu:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Posta sunucularını devret"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "ETRN veya multi-drop ayarları"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "SMTP sunucusu"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Bilinmeyen Kullanıcılar"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "SMTP doğrulama etkinse bu alan boş bırakılamaz."
+
+msgid "mai_VERYHIGH"
+msgstr "Çok yüksek"
+
+msgid "mai_VERYLOW"
+msgstr "Çok düşük"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Özele izin ver"
+#~ msgid "mai_AUTO"
+#~ msgstr "Otomatik"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "Çoklu e-posta için; POP kullanıcı adı ve şifresini belirtin. (standart ve ETRN e-posta için boş bırakın.) Çoklu e-posta için varsayılan sıralama metodunu kullanabilirsiniz veya mesaj başlığına göre sıralamasını belirtebilirsiniz."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " E-posta erişimi "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " E-posta yönlendirme "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " E-posta alımı "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Hem HTTP hem HTTPS için izin ver"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "E-posta ayarları"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "SMTP ve SSMTP için izin ver"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Protokol (çoklu e-posta için)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "SSL ile tünelle (çoklu e-posta için)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "SMTP kimlik doğrulama"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "Yeni e-posta ayarları kaydedildi."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "Geçerli bir e-posta adresi girini, içerisinde @ ve geçerli alan adı olmalı."

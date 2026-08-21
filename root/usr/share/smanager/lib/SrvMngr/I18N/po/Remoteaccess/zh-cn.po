@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Remoteaccess module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-cn\n"
+
+msgid "Remote access"
+msgstr "远程访问"
+
+msgid "rma_DESC_FTP_ACCESS"
+msgstr " FTP设置 您可以控制服务器的 FTP 访问。 除非您有特别的理由，否则建议此处设置为\"无法访问\"。  注意: 此设置会限制访问服务器，同时会覆盖包括个人信息港的其他设置。 "
+
+msgid "rma_DESC_FTP_LOGIN"
+msgstr " 您可以控制到信息港和用户账号的FTP验证访问。除非您有特别的理由，强烈建议此处设置为私有。 注意：如果启用了远程的ssh访问，那么您可以使用ssh ftp 即sftp客户端来访问服务器。这种访问方式能为FTP会话的用户密码和传输的数据提供加密，然而标准的FTP不能提供。 "
+
+msgid "rma_DESC_IPSECRW"
+msgstr " IPSEC客户端设置 通过数字证书验证的方式，可以允许IPSEC客户端访问服务器。 除非您真的需要IPSEC客户端,否则请设置为0，禁用该特性。 "
+
+msgid "rma_DESC_IPSECRW_RESET"
+msgstr "如果您要重置所有数字证书，请在此处处理。旧的证书将不能通过服务器的验证，因此 所有IPSEC客户端需要重新导入新的证书！. "
+
+msgid "rma_DESC_PPTP"
+msgstr " PPTP设置 您可以允许PPTP访问服务器。除非您需要PPTP访问，否则请将其参数设置为0，禁用此功能。 "
+
+msgid "rma_DESC_SSH"
+msgstr "  SSH设置您可以控制服务器的SSH访问。为了进行远程故障诊断和解决，开放设置只应由有经验的管理员来启用。除非您有特别的理由，否则建议此处设置为\"无法访问\"。"
+
+msgid "rma_DESC_TELNET_ACCESS"
+msgstr " Telnet设置 警告: Telnet当前被启用，但此特性已不被支持了。Telnet本来就是不安全的，仅仅在没有可替代方案的情况下使用。您应该设置为 [_1] ，如果远程需要访问，请使用SSH。一旦禁用，telnet将不会在屏幕上出现。 "
+
+msgid "rma_DESC_VALID_FROM_ENTRIES"
+msgstr "要添加远程管理网络，请在下面输入。"
+
+msgid "rma_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "rma_ERR_INVALID_PARAMS"
+msgstr "请同时添加网络和子网掩码，或者全部留空。"
+
+msgid "rma_FORM_TITLE"
+msgstr "变更远程访问设置"
+
+msgid "rma_INVALID_SUBNET_MASK"
+msgstr "无效的子网掩码"
+
+msgid "rma_LABEL_FTP_ACCESS"
+msgstr "FTP访问"
+
+msgid "rma_LABEL_FTP_LOGIN"
+msgstr "FTP密码访问"
+
+msgid "rma_LABEL_IPSECRW_RESET"
+msgstr "重置数字证书"
+
+msgid "rma_LABEL_IPSECRW_SESS"
+msgstr "IPSEC客户端数量"
+
+msgid "rma_LABEL_PPTP"
+msgstr "PPTP客户端数量"
+
+msgid "rma_LABEL_SSH"
+msgstr "SSH访问"
+
+msgid "rma_LABEL_SSH_ADMIN"
+msgstr "允许在命令行通过SSH访问"
+
+msgid "rma_LABEL_SSH_PASSWORD_ACCESS"
+msgstr "允许SSH使用标准密码访问"
+
+msgid "rma_LABEL_SSH_PORT"
+msgstr "SSH访问的TCP端口"
+
+msgid "rma_LABEL_TELNET_ACCESS"
+msgstr "Telnet访问"
+
+msgid "rma_NO_ACCESS"
+msgstr "无法访问"
+
+msgid "rma_NO_ENTRIES_YET"
+msgstr "暂无项目。"
+
+msgid "rma_NUMBER_OF_PPTP_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE"
+msgstr "pptp客户端数量大于DHCP服务范围。您应该选择一个小点的数字。"
+
+msgid "rma_NUM_OF_HOSTS"
+msgstr "主机数量"
+
+msgid "rma_PASSWORD_LOGIN_PRIVATE"
+msgstr "只接受来自本地网络的密码"
+
+msgid "rma_PASSWORD_LOGIN_PUBLIC"
+msgstr "接受来自任何地方的密码"
+
+msgid "rma_REMOTE_MANAGEMENT"
+msgstr "远程管理"
+
+msgid "rma_SUBNET_MASK"
+msgstr "子网掩码"
+
+msgid "rma_SUCCESS"
+msgstr "远程访问设置已被保存。"
+
+msgid "rma_TITLE_FTP_ACCESS"
+msgstr "FTP 设置"
+
+msgid "rma_TITLE_IPSECRW"
+msgstr "IPSEC 客户端（移动用户）设置"
+
+msgid "rma_TITLE_PPTP"
+msgstr "PPTP 设置"
+
+msgid "rma_TITLE_SSH"
+msgstr "安全 Shell 设置"
+
+msgid "rma_TITLE_TELNET_ACCESS"
+msgstr "Telnet 设置"
+
+msgid "rma_VALIDFROM_DESC"
+msgstr " [_1] 在下面输入外部网络的主机IP，将允许这些主机远程访问server manager。使用子网掩码255.255.255.255以允许指定主机的访问。任何指定范围内的主机均通过使用HTTPS来访问server manager。 "
+
+msgid "rma_VALIDFROM_TITLE"
+msgstr "[_1]"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rma_DESCRIPTION"
+#~ msgstr "对于下面的每一个选项，私有设置允许本地网络中的任何人访问服务器，开放设置允许因特网上的任何地方的任何人访问。无法访问设置则将禁止访问。要了解改变这些默认设置带来的安全隐患，您应该阅读用户手册的远程访问章节。"
+#~ msgid "rma_DESC_SERIAL_CONSOLE_ACCESS"
+#~ msgstr " 串口控制台 您可以允许一个终端通过串口连接来访问系统控制台。"
+#~ msgid "rma_ERR_NO_RECORD"
+#~ msgstr "无法在配置数据库中找到httpd-admin记录"
+#~ msgid "rma_LABEL_PPTP_ACCESS"
+#~ msgstr "PPTP默认用户访问"
+#~ msgid "rma_LABEL_SERIAL_CONSOLE_ACCESS"
+#~ msgstr "串口控制台"
+#~ msgid "rma_PORT1_ENABLED"
+#~ msgstr "在串口1启用"
+#~ msgid "rma_PORT2_ENABLED"
+#~ msgstr "串口2启用"
+#~ msgid "rma_Remote access"
+#~ msgstr "远程访问"
+#~ msgid "rma_VALUE_ZERO_OR_POSITIVE"
+#~ msgstr "数值必须为零或一个正整数"

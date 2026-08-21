@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Datetime module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+
+msgid "COULD_NOT_OPEN_TZ_FILE"
+msgstr "(en) COULD_NOT_OPEN_TZ_FILE"
+
+msgid "Date and time"
+msgstr "Data e hora"
+
+msgid "Day:"
+msgstr "(en) Day:"
+
+msgid "Hour:"
+msgstr "(en) Hour:"
+
+msgid "Minute:"
+msgstr "(en) Minute:"
+
+msgid "Month:"
+msgstr "(en) Month:"
+
+msgid "Second:"
+msgstr "(en) Second:"
+
+msgid "Year:"
+msgstr "(en) Year:"
+
+msgid "dat_BETWEEN_0_AND_23"
+msgstr "(en) dat_BETWEEN_0_AND_23"
+
+msgid "dat_BETWEEN_0_AND_59"
+msgstr "Favor escolher um minuto entre 0 e 59."
+
+msgid "dat_FORM_TITLE"
+msgstr "Configuração de data e hora"
+
+msgid "dat_INITIAL_DESC"
+msgstr "Aqui é onde voce configura a data e hora desse servidor. Voce pode usar um servidor de horas da rede ou manualmente configurar a data e a hora para sua zona."
+
+msgid "dat_INVALID_HOUR"
+msgstr "Erro: hora inválida:"
+
+msgid "dat_INVALID_MINUTE"
+msgstr "Erro: minuto inválido:"
+
+msgid "dat_INVALID_NTP_SERVER"
+msgstr " Servidor NTP inválido, o servidor não irá tentar sincronizar com o servidor de tempo. "
+
+msgid "dat_INVALID_SECOND"
+msgstr "Erro: segundos inválidos"
+
+msgid "dat_Invalid_date"
+msgstr "Data inválida"
+
+msgid "dat_NTP_CONFIGURE_DESC"
+msgstr "O servidor está periodicamente sincronizando o tempo por meio do servidor NTP especificado abaixo. Para sincronizar com um diferente servidor NTPerver, entre um diferente nome de host ou endereço IP no campo abaixo."
+
+msgid "dat_NTP_DISABLE_DESC"
+msgstr "Escolha esta opção para parar a sincronização de horário com o servidor NTP Quando o seviço for desabilitado, voce poderá ajustar a data e hora do sistema manualmente usando esta página."
+
+msgid "dat_NTP_ENABLE_DESC"
+msgstr "O sevidor periodicamente pode sincronizar o relógio com um servidor de tempo (NTP). Se voce selecionar esta opção, entre con o nome do host ou o endereço IP do servidor NTP abaixo."
+
+msgid "dat_NTP_Server_URL"
+msgstr "URL do servidor NTP:"
+
+msgid "dat_SETTINGS_CHANGED"
+msgstr "Sucesso na troca na configuração de servidor de tempo da rede"
+
+msgid "dat_TZ"
+msgstr "Fuso horário:"
+
+msgid "dat_Test_Server"
+msgstr "Testar servidor NTP"
+
+msgid "dat_The_time_is_currently"
+msgstr "A hora atual é:"
+
+msgid "dat_Time_Configuration"
+msgstr "Configuração de hora"
+
+msgid "dat_Time_Setting_Mode"
+msgstr "Modo de configuração da hora"
+
+msgid "dat_UPDATING_CLOCK"
+msgstr " Relógio do sistema está sendo atualizado. Favor esperar alguns segundos, então click aqui para verificar trocas. "
+
+msgid "dat_manually_set"
+msgstr "Definir manualmente"
+
+msgid "dat_ntp_server"
+msgstr "Servidor NTP"
+
+msgid "dat_set_manually"
+msgstr "Definir data e hora:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dat_AM/PM_AND_TZ"
+#~ msgstr "AM/PM e zona:"
+#~ msgid "dat_BETWEEN_1_AND_12"
+#~ msgstr "Favor escolher uma hora entre 1 e 12."
+#~ msgid "dat_BETWEEN_1_AND_31"
+#~ msgstr "Favor escolher um dia entre 1 e 31."
+#~ msgid "dat_COULD_NOT_OPEN_TZ_FILE"
+#~ msgstr "Erro: Incapaz de abrir o arquivo de timezone para leitura:"
+#~ msgid "dat_CURRENT_SETTING"
+#~ msgstr "Configuração atual"
+#~ msgid "dat_Date and time"
+#~ msgstr "Data e hora"
+#~ msgid "dat_ERR_CHANGING_TS"
+#~ msgstr "Erro enquanto trocava configuração do servidor dr tempo da rede"
+#~ msgid "dat_ERR_SETTING_CLOCK"
+#~ msgstr "Ocorreu um erro quanto configurava tempo do sistema e relógio."
+#~ msgid "dat_FOUR_DIGIT_YEAR"
+#~ msgstr "Favor escolher ano de quatro dígitos entre 1900 e 2200."
+#~ msgid "dat_INVALID_DAY"
+#~ msgstr "Erro: dia do mês inválido:"
+#~ msgid "dat_INVALID_MONTH"
+#~ msgstr "(en)Error: invalid month"
+#~ msgid "dat_INVALID_NTP_ADDR"
+#~ msgstr "Endereço de servidor NTP inválido:"
+#~ msgid "dat_INVALID_YEAR"
+#~ msgstr "Erro: ano inválido:"
+#~ msgid "dat_MONTH_BETWEEN_1_AND_12"
+#~ msgstr "(en)Please choose a month value between 1 and 12."
+#~ msgid "dat_NETWORK_TIME_SERVER"
+#~ msgstr "Servidor de Tempo de Rede"
+#~ msgid "dat_NEW_DATE_AND_TIME"
+#~ msgstr "Configurando nova data e hora:"
+#~ msgid "dat_NEW_H/M/S"
+#~ msgstr "Nova hora /min/sec:"
+#~ msgid "dat_NEW_M/D/Y"
+#~ msgstr "Novo mês/dia/ano:"
+#~ msgid "dat_NTP_CONFIGURE_TITLE"
+#~ msgstr "Configurar Servidor de Tempo de Rerde"
+#~ msgid "dat_NTP_DISABLE_TITLE"
+#~ msgstr "Desabilitar Servidor de Tempo de Rede"
+#~ msgid "dat_NTP_ENABLE_TITLE"
+#~ msgstr "Habilitar Servidor de Tempo de Rede"
+#~ msgid "dat_NTP_SERVER"
+#~ msgstr "Servidor NTP"
+#~ msgid "dat_SERVER_DISABLED"
+#~ msgstr "Servidor de hora de rede desabilitado com sucesso"
+#~ msgid "dat_SERVER_DISABLED_DESC"
+#~ msgstr " Voce desabilitou esse serviço: O servidor irá usar seu relógio interno, e não irá tentar sincronizar com um servidor de tempo. "
+#~ msgid "dat_SETTING_DATE_AND_TIME"
+#~ msgstr "Configurar data e hora"
+#~ msgid "dat_SET_DATE_TITLE"
+#~ msgstr "Configurar data e hora"
+#~ msgid "dat_SYNC_WITH"
+#~ msgstr "Este servidor está agora configurado para sincronizar periodicamente (via Internet) com:"
+#~ msgid "dat_VERIFY_DATE_AND_TIME"
+#~ msgstr "Verificar data e hora"

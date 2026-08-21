@@ -11,4 +11,4 @@
 'wkg_INVALID_WORKGROUP' => 'Töörühma nimi peab algama tähega (upper or lower case), followed by any combination of letters, numbers, underscores, periods and hyphens.',
 'wkg_INVALID_SERVERNAME' => 'Serveri nimi peab algama tähega (upper or lower case), followed by any combination of letters, numbers, underscores and hyphens.',
 'wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME' => 'The server and workgroup names match, when compared in lower case. These values must be different in order for filesharing to be turned on.',
-'wkg_Workgroup' => 'Töörühm',
+# ORPHANED (no longer in workgroup_en.lex; kept for reference, commented out by lex-to-po.pl): 'wkg_Workgroup' => 'Töörühm',

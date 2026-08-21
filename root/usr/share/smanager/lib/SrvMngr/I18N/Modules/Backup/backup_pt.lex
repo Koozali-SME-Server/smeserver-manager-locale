@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Fazer backup ou restaurar dados do servidor',
-'bac_BACKUP_DESC' => ' <p>Existem duas maneiras de fazer backup e restore do seu servidor: usando seu micro local, um drive de fita.</p>
-
-  <p>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>[_3]</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. A opção\\"Verificar arquivo de backup para desktop\\" pode ser usado para verificar a integridade de um arquivo de backup para o desktop.</p>
-
-  <p>O método de backup em fita usa um pacote de software chamado <i>[_1]</i> para fazer o backup de seu disco rígido inteiro para a fita todas as noites. Isto requer um drive de fita suportado e que a fita não esteja protegida contra gravação. O backup é feito automaticamente no horário selecionado a cada noite (com um lembrete sendo enviado automaticamente por e-mail ao administrador durante o dia). Atualmente seu disco rígido contém <b>[_2]</b> de dados.</p>
-
-  <p>Todos métodos de restauração permitem que você restaure sua configuração e arquivos de dados dos usuários. O método de backup para micro da rede local permite um restauração de arquivos individuais. <b>Idealmente um backup completo deveria ser restaurado num servidor recém instalado.</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>Existem duas maneiras de fazer backup e restore do seu servidor: usando seu micro local, um drive de fita.</p>
+#
+#  <p>O primeiro método cria uma cópia da configuração de seu servidor e arquivos de dados dos usuários e permite o download deles para seu micro local via um navegador internet. Atualmente sua configuração e dados totalizam aproximadamente <b>[_3]</b>. O arquivo de backup será algo menor que isso, dependendo de quão comprimível seus dados forem. A opção\\"Verificar arquivo de backup para desktop\\" pode ser usado para verificar a integridade de um arquivo de backup para o desktop.</p>
+#
+#  <p>O método de backup em fita usa um pacote de software chamado <i>[_1]</i> para fazer o backup de seu disco rígido inteiro para a fita todas as noites. Isto requer um drive de fita suportado e que a fita não esteja protegida contra gravação. O backup é feito automaticamente no horário selecionado a cada noite (com um lembrete sendo enviado automaticamente por e-mail ao administrador durante o dia). Atualmente seu disco rígido contém <b>[_2]</b> de dados.</p>
+#
+#  <p>Todos métodos de restauração permitem que você restaure sua configuração e arquivos de dados dos usuários. O método de backup para micro da rede local permite um restauração de arquivos individuais. <b>Idealmente um backup completo deveria ser restaurado num servidor recém instalado.</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
@@ -18,10 +18,10 @@
 
   <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Configuração de backup e status',
-'bac_TAPE_BACKUPS_ENABLED' => ' O backup para fita está atualmente habilitado. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' O backup para fita está atualmente habilitado. ',
 'bac_BACKUPS_RUN_AT' => 'Um regular tape backup irá rodar as:',
 'bac_REMINDER_MESSAGE_AT' => 'Mensagem de advertência irá ser enviada as:',
-'bac_TAPE_BACKUPS_DISABLED' => ' O tape backup eatá desativado ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' O tape backup eatá desativado ',
 'bac_DESKTOP_BACKUP' => 'Backup para o desktop',
 'bac_DESKTOP_RESTORE' => 'Restaurar do desktop',
 'bac_DESKTOP_VERIFY' => 'Verificar arquivos de bakup do desktop',
@@ -112,8 +112,8 @@
 'bac_PAGE_REFRESH_IN' => ' Esta página irá recarregar em [_1] segundos, ou click aqui. ',
 'Backup or restore' => 'Backup ou restauração',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Seu servidor tem muitos dados para que um backup para desktop seja confiável.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' O backup para micro da rede local está desativado ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' O backup para micro da rede local está atualmente habilitado. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' O backup para micro da rede local está desativado ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' O backup para micro da rede local está atualmente habilitado. ',
 'bac_WKBACKUPS_RUN_AT' => 'Backup para micro da rede local será executado às:',
 'bac_WORKSTN_CONFIGURE' => 'Configure o backup para micro da rede local',
 'bac_WORKSTN_VERIFY' => 'Verificar um backup para micro da rede local',

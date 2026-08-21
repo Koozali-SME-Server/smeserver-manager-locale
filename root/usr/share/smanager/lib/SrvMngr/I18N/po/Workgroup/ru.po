@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Workgroup module\n"
+"POT-Creation-Date: 2026-08-21 10:47+0100\n"
+"PO-Revision-Date: 2026-08-21 10:47+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "Workgroup"
+msgstr "(en) Workgroup"
+
+msgid "wkg_DESC_PDC"
+msgstr "Должен этот сервер выступать в качестве контроллера рабочей группы и домена в вашей сети Windows? Вы должны оставить эту настройку в Нет, если другой сервер уже выполняет эту роль в вашей сети."
+
+msgid "wkg_DESC_ROAM"
+msgstr " Должен этот сервер поддерживать перемещаемые профили? Вы должны оставить эту настройку по умолчанию в Нет пока у вас недостаточно опыта администрирования перемещаемых профилей на основе сервера Windows и знания, что эта функция необходима. "
+
+msgid "wkg_DESC_SERVERNAME"
+msgstr "Введите имя, которое этот сервер должен использовать для общего доступа к файлам Windows и Macintosh."
+
+msgid "wkg_DESC_WORKGROUP"
+msgstr " Введите имя рабочей группы Windows в которую должен входить этот сервер. "
+
+msgid "wkg_ERROR_UPDATING"
+msgstr "(en) An error has occurred while updating the workgroup"
+
+msgid "wkg_FORM_TITLE"
+msgstr "Изменить настройки рабочей группы"
+
+msgid "wkg_INVALID_SERVERNAME"
+msgstr "Имя сервера должно начинаться с буквы (верхнего или нижнего регистра), за ней может следовать комбинация букв, цифр, подчёркиваний и дефисов."
+
+msgid "wkg_INVALID_WORKGROUP"
+msgstr "Имя рабочей группы должно начинаться с буквы (верхнего или нижнего регистра), за ней может следовать комбинация букв, цифр, подчёркиваний, точек и дефисов."
+
+msgid "wkg_INVALID_WORKGROUP_MATCHES_SERVERNAME"
+msgstr "Имя сервера и рабочей группы совпадают при сравнении в нижнем регистре. Эти значения должны различаться для включения совместного доступа к файлам."
+
+msgid "wkg_LABEL_PDC"
+msgstr "Контроллер домена и рабочая группа"
+
+msgid "wkg_LABEL_ROAM"
+msgstr "Перемещаемый профиль"
+
+msgid "wkg_LABEL_SERVERNAME"
+msgstr "Имя сервера"
+
+msgid "wkg_LABEL_WORKGROUP"
+msgstr "Рабочая группа Windows"
+
+msgid "wkg_SUCCESS"
+msgstr "Новые настройки рабочей группы сохранены"

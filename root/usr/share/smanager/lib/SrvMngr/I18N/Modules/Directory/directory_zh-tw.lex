@@ -14,4 +14,4 @@
 'dir_SUCCESS' => '新的LDAP預設值已存檔',
 'dir_LEAVE' => '維持原貌',
 'dir_UPDATE' => '新的預設值更新',
-'dir_Directory' => '目錄',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => '目錄',

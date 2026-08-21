@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Datetime module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "COULD_NOT_OPEN_TZ_FILE"
+msgstr "(en) COULD_NOT_OPEN_TZ_FILE"
+
+msgid "Date and time"
+msgstr "Дата и время"
+
+msgid "Day:"
+msgstr "(en) Day:"
+
+msgid "Hour:"
+msgstr "(en) Hour:"
+
+msgid "Minute:"
+msgstr "(en) Minute:"
+
+msgid "Month:"
+msgstr "(en) Month:"
+
+msgid "Second:"
+msgstr "(en) Second:"
+
+msgid "Year:"
+msgstr "(en) Year:"
+
+msgid "dat_BETWEEN_0_AND_23"
+msgstr "(en) dat_BETWEEN_0_AND_23"
+
+msgid "dat_BETWEEN_0_AND_59"
+msgstr "Пожалуйста, выберите минуту между 0 и 59."
+
+msgid "dat_FORM_TITLE"
+msgstr "Настройка даты и времени"
+
+msgid "dat_INITIAL_DESC"
+msgstr "Здесь вы можете настроить дату и время на этом сервере. Вы можете использовать существующий сервер сетевого времени или вручную задать дату и время для вашего часового пояса."
+
+msgid "dat_INVALID_HOUR"
+msgstr "Ошибка: некорректный час:"
+
+msgid "dat_INVALID_MINUTE"
+msgstr "Ошибка: некорректная минута:"
+
+msgid "dat_INVALID_NTP_SERVER"
+msgstr " Неверный NTP сервер, сервер не станет пытаться синхронизироваться с сервером времени. "
+
+msgid "dat_INVALID_SECOND"
+msgstr "Ошибка: некорректная секунда"
+
+msgid "dat_Invalid_date"
+msgstr "Недопустимая дата"
+
+msgid "dat_NTP_CONFIGURE_DESC"
+msgstr "Сервер периодически синхронизирует системные часы с сервером сетевого времени (NTP), указанным ниже. Чтобы синхронизироваться с другим NTP сервером, введите его имя или IP адрес в поле ниже."
+
+msgid "dat_NTP_DISABLE_DESC"
+msgstr "Выберите эту опцию чтобы прекратить синхронизацию системных часов с NTP сервером. Когда служба NTP отключена, вы можете устанавливать системные дату и время вручную на этой странице."
+
+msgid "dat_NTP_ENABLE_DESC"
+msgstr "Сервер может периодически синхронизировать системные часы с сервером сетевого времени (NTP). Если вы выбрали эту опцию, введите имя или IP адрес NTP сервера ниже."
+
+msgid "dat_NTP_Server_URL"
+msgstr "URL NTP-сервера:"
+
+msgid "dat_SETTINGS_CHANGED"
+msgstr "Настройки сервера сетевого времени успешно изменены"
+
+msgid "dat_TZ"
+msgstr "Часовой пояс:"
+
+msgid "dat_Test_Server"
+msgstr "Проверить NTP-сервер"
+
+msgid "dat_The_time_is_currently"
+msgstr "Текущее время:"
+
+msgid "dat_Time_Configuration"
+msgstr "Настройка времени"
+
+msgid "dat_Time_Setting_Mode"
+msgstr "Режим настройки времени"
+
+msgid "dat_UPDATING_CLOCK"
+msgstr " Системное время актуализировано. Пожалуйста, подождите несколько секунд и нажмите здесь чтобы проверить изменения. "
+
+msgid "dat_manually_set"
+msgstr "Установить вручную"
+
+msgid "dat_ntp_server"
+msgstr "Сервер NTP"
+
+msgid "dat_set_manually"
+msgstr "Установить дату и время:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dat_AM/PM_AND_TZ"
+#~ msgstr "AM/PM и часовой пояс:"
+#~ msgid "dat_BETWEEN_1_AND_12"
+#~ msgstr "Пожалуйста, выберите час между 1 и 12."
+#~ msgid "dat_BETWEEN_1_AND_31"
+#~ msgstr "Пожалуйста, выберите день между 1 и 31."
+#~ msgid "dat_COULD_NOT_OPEN_TZ_FILE"
+#~ msgstr "Ошибка: Невозможно открыть для чтения файл часовых поясов:"
+#~ msgid "dat_CURRENT_SETTING"
+#~ msgstr "Текущие настройки"
+#~ msgid "dat_Date and time"
+#~ msgstr "Дата и время"
+#~ msgid "dat_ERR_CHANGING_TS"
+#~ msgstr "Ошибка при изменении настроек сервера сетевого времени"
+#~ msgid "dat_ERR_SETTING_CLOCK"
+#~ msgstr "Произошла ошибка во время установки системного времени и аппаратных часов."
+#~ msgid "dat_FOUR_DIGIT_YEAR"
+#~ msgstr "Пожалуйста, выберите год между 1900 и 2200."
+#~ msgid "dat_INVALID_DAY"
+#~ msgstr "Ошибка: некорректный день месяца:"
+#~ msgid "dat_INVALID_MONTH"
+#~ msgstr "(en)Error: invalid month"
+#~ msgid "dat_INVALID_NTP_ADDR"
+#~ msgstr "Неверный адрес NTP сервера:"
+#~ msgid "dat_INVALID_YEAR"
+#~ msgstr "Ошибка: некорректный год:"
+#~ msgid "dat_MONTH_BETWEEN_1_AND_12"
+#~ msgstr "(en)Please choose a month value between 1 and 12."
+#~ msgid "dat_NETWORK_TIME_SERVER"
+#~ msgstr "Сервер сетевого времени"
+#~ msgid "dat_NEW_DATE_AND_TIME"
+#~ msgstr "Установите новые дату и время:"
+#~ msgid "dat_NEW_H/M/S"
+#~ msgstr "Новые час/мин/сек:"
+#~ msgid "dat_NEW_M/D/Y"
+#~ msgstr "Новые месяц/день/год:"
+#~ msgid "dat_NTP_CONFIGURE_TITLE"
+#~ msgstr "Настроить сервер сетевого времени"
+#~ msgid "dat_NTP_DISABLE_TITLE"
+#~ msgstr "Отключить сервер сетевого времени"
+#~ msgid "dat_NTP_ENABLE_TITLE"
+#~ msgstr "Включить сервер сетевого времени"
+#~ msgid "dat_NTP_SERVER"
+#~ msgstr "NTP сервер"
+#~ msgid "dat_SERVER_DISABLED"
+#~ msgstr "Сервер сетевого времени успешно отключен"
+#~ msgid "dat_SERVER_DISABLED_DESC"
+#~ msgstr " Вы отключили эту службу: Сервер рассчитывает на свои внутренние часы и не станет пытаться синхронизироваться с сервером времени. "
+#~ msgid "dat_SETTING_DATE_AND_TIME"
+#~ msgstr "Установка даты и времени"
+#~ msgid "dat_SET_DATE_TITLE"
+#~ msgstr "Задайте дату и время"
+#~ msgid "dat_SYNC_WITH"
+#~ msgstr "Этот сервер настроен периодически синхронизировать (через интернет) с:"
+#~ msgid "dat_VERIFY_DATE_AND_TIME"
+#~ msgstr "Проверьте дату и время"

@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Lag sikkerhetskopi eller gjenopprett server data',
-'bac_BACKUP_DESC' => ' <p>Serveren har to mulige måter å sikkerhetskopiere og gjenopprette din server: Dit lokale skrivebord, eller tapestasjon.</p>
-
-  <p>Den første metoden oppretter en kopi av server oppsettet og brukernes datafiler, og lagerer den på skrivebordet ditt via nettleseren. Konfigurasjonsfilene og bruker datafilene er ca <b>[_3]</b> store. Backupfilen er noe mindre en dette avhengig av hvor komprimerbar dataene er. \\"Verifiser skrivebord backup filen\\" valget kan brukes til å sjekke integriteten til skrivebords backupfilen.</p>
-
-  <p>Tape backup metoden bruker et program kalt <i>[_1]</i> til å ta backup av hele harddisken til tape hver natt. Det krever en støttet tapestasjon og en tape som ikke er skrivebeskyttet. Backup blir kjørt automatisk til valgt tid hver natt (med en påminnelse automatisk sendt på e-post til administrator i løpet av dagen). Nå inneholder harddisken <b>[_2]</b> med data.</p>
-
-  <p>Begge gjenopprettings metoder tillater å gjenopprette oppsett og bruker datafiler. <b>Ideelt, bør gjenoppretting foretas på en nyinstallert server</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>Serveren har to mulige måter å sikkerhetskopiere og gjenopprette din server: Dit lokale skrivebord, eller tapestasjon.</p>
+#
+#  <p>Den første metoden oppretter en kopi av server oppsettet og brukernes datafiler, og lagerer den på skrivebordet ditt via nettleseren. Konfigurasjonsfilene og bruker datafilene er ca <b>[_3]</b> store. Backupfilen er noe mindre en dette avhengig av hvor komprimerbar dataene er. \\"Verifiser skrivebord backup filen\\" valget kan brukes til å sjekke integriteten til skrivebords backupfilen.</p>
+#
+#  <p>Tape backup metoden bruker et program kalt <i>[_1]</i> til å ta backup av hele harddisken til tape hver natt. Det krever en støttet tapestasjon og en tape som ikke er skrivebeskyttet. Backup blir kjørt automatisk til valgt tid hver natt (med en påminnelse automatisk sendt på e-post til administrator i løpet av dagen). Nå inneholder harddisken <b>[_2]</b> med data.</p>
+#
+#  <p>Begge gjenopprettings metoder tillater å gjenopprette oppsett og bruker datafiler. <b>Ideelt, bør gjenoppretting foretas på en nyinstallert server</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
@@ -18,10 +18,10 @@
 
   <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Sikkerhetskopi oppsett og status',
-'bac_TAPE_BACKUPS_ENABLED' => ' sikkerhetskopi til bånd er for tiden aktiveret. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' sikkerhetskopi til bånd er for tiden aktiveret. ',
 'bac_BACKUPS_RUN_AT' => 'Sikkerhetskopi til tape vil foregå kl.:',
 'bac_REMINDER_MESSAGE_AT' => 'Påminnelses e-post vil bli sendt:',
-'bac_TAPE_BACKUPS_DISABLED' => ' sikkerhetskopi til tape er deaktiveret ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' sikkerhetskopi til tape er deaktiveret ',
 'bac_DESKTOP_BACKUP' => 'Sikkerhetskopi til arbeidsstasjon',
 'bac_DESKTOP_RESTORE' => 'Gjenopprett fra arbeidsstasjon',
 'bac_DESKTOP_VERIFY' => 'Undersøk sikkerhetskopi til arbeidsstasjon',
@@ -108,10 +108,10 @@
 'bac_SERVER_WILL_REBOOT' => 'Din server vil starte på nytt.',
 'bac_NO_UID_FOR_NAME' => 'Kunne ikke finne brukerID for brukeren:',
 'bac_PAGE_REFRESH_IN' => ' Siden vil Gjenoppfiske statusvisningen om [_1] sekunder, ellers klikk her. ',
-'bac_Backup or restore' => 'sikkerhetskopi eller gjenoppretting',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => 'sikkerhetskopi eller gjenoppretting',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Din server har for mye data til en pålitlig sikkerhetskopi til arbeidsstasjon.  ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' sikkerhetskopi til lokalnett er deaktivert ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' sikkerhetskopi til lokalnett er aktivert. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' sikkerhetskopi til lokalnett er deaktivert ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' sikkerhetskopi til lokalnett er aktivert. ',
 'bac_WKBACKUPS_RUN_AT' => 'sikkerhetskopi til lokalnett vil foregå kl.:',
 'bac_WORKSTN_CONFIGURE' => 'Oppsett av sikkerhetskopi til lokalnett',
 'bac_WORKSTN_VERIFY' => 'Kontroller sikkerhetskopi på lokalnett',

@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Review module\n"
+"POT-Creation-Date: 2026-08-21 11:02+0100\n"
+"PO-Revision-Date: 2026-08-21 11:02+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "Review configuration"
+msgstr "Tinjau konfigurasi"
+
+msgid "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgstr "Jaringan lokal tambahan"
+
+msgid "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgstr "Awal rentang alamat DHCP"
+
+msgid "rvw_DESCRIPTION"
+msgstr "Laporan ini meringkaskan jaringan, server, dan parameter domain pada server ini yang berhubungan dengan mengatur komputer klien pada jaringan anda. Anda mungkin ingin mencetak halaman ini dan menggunakannya sebagai referensi."
+
+msgid "rvw_DHCP_SERVER"
+msgstr "Server DHCP"
+
+msgid "rvw_DNS_SERVER"
+msgstr "DNS Server"
+
+msgid "rvw_DOMAIN_INFORMATION"
+msgstr "Informasi domain"
+
+msgid "rvw_EMAIL_ADDRESSES"
+msgstr "Alamat Email"
+
+msgid "rvw_EMAIL_FIRSTNAME"
+msgstr "Nama depan"
+
+msgid "rvw_EMAIL_LASTNAME"
+msgstr "Nama belakang"
+
+msgid "rvw_EMAIL_USERACCOUNT"
+msgstr "Akun pengguna"
+
+msgid "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgstr "Akhir rentang alamat DHCP"
+
+msgid "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "Alamat IP Eksternal / Subnet Mask"
+
+msgid "rvw_FORM_TITLE"
+msgstr "Tinjau konfigurasi"
+
+msgid "rvw_FTP_SERVER"
+msgstr "Server FTP"
+
+msgid "rvw_GATEWAY"
+msgstr "Gateway"
+
+msgid "rvw_INTERNET_VISIBLE_ADDRESS"
+msgstr "Alamat IP terhubung Internet"
+
+msgid "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "Alamat IP Lokal/Subnet Mask"
+
+msgid "rvw_NETWORKING_PARAMS"
+msgstr "Parameter Jaringan"
+
+msgid "rvw_NO_NETWORKS"
+msgstr "Tidak ada jaringan tambahan yang didefinisikan"
+
+msgid "rvw_NO_VIRTUAL_DOMAINS"
+msgstr "(en) rvw_NO_VIRTUAL_DOMAINS"
+
+msgid "rvw_PRIMARY_DOMAIN"
+msgstr "Domain Utama"
+
+msgid "rvw_PRIMARY_WEB_SITE"
+msgstr "Situs web utama"
+
+msgid "rvw_PROXY_SERVER"
+msgstr "Proksi server"
+
+msgid "rvw_SERVER_MANAGER"
+msgstr "Manajer server"
+
+msgid "rvw_SERVER_MODE"
+msgstr "Mode Server"
+
+msgid "rvw_SERVER_NAMES"
+msgstr "Nama-nama server"
+
+msgid "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgstr "Server SMTP, POP, dan IMAP "
+
+msgid "rvw_USER_PASSWORD_PANEL"
+msgstr "Panel kata sandi pengguna"
+
+msgid "rvw_VIRTUAL_DOMAINS"
+msgstr "Domain maya"
+
+msgid "rvw_WEB_SERVER"
+msgstr "Server Web"

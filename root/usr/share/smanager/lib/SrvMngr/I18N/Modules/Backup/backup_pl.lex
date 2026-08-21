@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Wykonaj kopię zapasową lub przywróć dane serwera',
-'bac_BACKUP_DESC' => ' <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>
-
-  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\"Verify desktop backup file\\" option can be used to check the integrity of a desktop backup file.</p>
-
-  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
-
-  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>
+#
+#  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\"Verify desktop backup file\\" option can be used to check the integrity of a desktop backup file.</p>
+#
+#  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+#
+#  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => ' <p> Istnieją trzy sposoby tworzenia kopii zapasowej i przywracania serwera: za pomocą napędu taśmowego, przy użyciu udziału sieciowego lub lokalnego dysku wymiennego lub przy użyciu lokalnego pulpitu. </p>
 
   <p> Kopia zapasowa taśmy . Ta metoda wykorzystuje pakiet oprogramowania o nazwie <i> $module </i> do tworzenia kopii zapasowych całego dysku twardego na taśmę każdej nocy. Wymaga to obsługiwanego napędu taśmowego i taśmy, która nie jest chroniona przed zapisem. Kopia zapasowa jest wykonywana automatycznie w wybranym czasie każdej nocy (z przypomnieniem automatycznie wysyłanym e-mailem do administratora w ciągu dnia). Obecnie twój dysk twardy zawiera <b> $dumpsize </b> danych. </p>
@@ -20,10 +20,10 @@
 
   ',
 'bac_BACKUP_CONFIG_STATUS' => 'Konfiguracja kopii zapasowej i status',
-'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently enabled. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Tape backups are currently enabled. ',
 'bac_BACKUPS_RUN_AT' => '(en)Regular tape backups will run at:',
 'bac_REMINDER_MESSAGE_AT' => '(en)Reminder messages will be sent at:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups are disabled ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Tape backups are disabled ',
 'bac_DESKTOP_BACKUP' => 'Stwórz kopię zapasową na pulpicie.',
 'bac_DESKTOP_RESTORE' => 'Odtwórz kopię zapasową z pulpitu.',
 'bac_DESKTOP_VERIFY' => 'Sprawdź plik kopii zapasowej na pulpicie',
@@ -110,10 +110,10 @@
 'bac_SERVER_WILL_REBOOT' => 'Serwer zostanie teraz uruchomiony ponownie.',
 'bac_NO_UID_FOR_NAME' => '(en)Could not get uid for user named:',
 'bac_PAGE_REFRESH_IN' => ' This page will refresh to the status display in [_1] seconds, or click here. ',
-'bac_Backup or restore' => 'Kopia zapasowa lub przywracanie',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => 'Kopia zapasowa lub przywracanie',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '(en)Your server has too much data for a reliable backup to desktop.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation backups are disabled ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation backups are currently enabled. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Workstation backups are disabled ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Workstation backups are currently enabled. ',
 'bac_WKBACKUPS_RUN_AT' => '(en)Regular workstation backups will run at:',
 'bac_WORKSTN_CONFIGURE' => 'Skonfiguruj kopię zapasową stacji roboczej',
 'bac_WORKSTN_VERIFY' => 'Zweryfikuj kopię zapasową stacji roboczej',

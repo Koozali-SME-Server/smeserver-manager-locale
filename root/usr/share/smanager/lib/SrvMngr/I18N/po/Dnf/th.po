@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Dnf module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "Groups"
+msgstr "(en) Groups"
+
+msgid "Packages"
+msgstr "(en) Packages"
+
+msgid "Start"
+msgstr "(en) Start"
+
+msgid "yum_1DAILY"
+msgstr "รายวัน"
+
+msgid "yum_2WEEKLY"
+msgstr "รายสัปดาห์"
+
+msgid "yum_3MONTHLY"
+msgstr "รายเดือน"
+
+msgid "yum_AutoInstallUpdates"
+msgstr "(en) Autoinstallupdates"
+
+msgid "yum_BUTTON_CONFIGURATION"
+msgstr "เปลี่ยนการตั้งค่าตัวติดตั้งซอฟต์แวร์"
+
+msgid "yum_BUTTON_INSTALL_AVAILABLE"
+msgstr "ติดตั้งซอฟต์แวร์เพิ่มเติม"
+
+msgid "yum_BUTTON_INSTALL_UPDATES"
+msgstr "แสดงรายการอัปเดตที่มีอยู่"
+
+msgid "yum_BUTTON_REMOVE"
+msgstr "ถอนการติดตั้งซอฟต์แวร์ที่ติดตั้งแล้ว"
+
+msgid "yum_DESC_AVAILABLE_GROUPS"
+msgstr "คุณสามารถเลือกติดตั้งกลุ่มของซอฟต์แวร์ตามรายการด้านล่างนี้"
+
+msgid "yum_DESC_AVAILABLE_PACKAGES"
+msgstr "คุณยังสามารถเลือกแพ็คเกจที่จะติดตั้งจากรายการด้านล่างนี้ได้อย่างอิสระ"
+
+msgid "yum_DESC_AVAILABLE_UPDATES"
+msgstr "มีรายการอัพเดตใหม่สำหรับระบบของคุณ ปกติคุณควรติดตั้งทั้งหมดที่มีการอัพเดต หากมีรายการอัพเดตที่คุณไม่ต้องการติดตั้ง ให้ทำการไม่เลือกจากรายการที่แสดงด้านล่าง"
+
+msgid "yum_DESC_ENABLED_REPOSITORIES"
+msgstr "ตัวติดตั้งซอฟต์แวร์สามารถติดตั้งซอฟต์แวร์จาก repository ใดก็ได้ที่ถูกเปิดให้ใช้งาน การเปิดใช้ repository ให้เลือกที่ต้องการจากรายการที่แสดง การปิดไม่ใช้งานก็โดยไม่ต้องเลือกจากรายการนั้น โดยค่าปริยาย เฉพาะ stable, test software เท่านั้นที่มีให้เลือกติดตั้ง"
+
+msgid "yum_DESC_INSTALLED_GROUPS"
+msgstr "คุณสามารถเลือกกลุ่มของซอฟต์แวร์ที่จะลบออกจากรายการด้านล่างนี้"
+
+msgid "yum_DESC_INSTALLED_PACKAGES"
+msgstr "คุณยังสามารถเลือกแพ็คเกจที่คุณต้องการลบจากรายการด้านล่างนี้อย่างอิสระ"
+
+msgid "yum_DESC_UPDATES_AVAILABLE"
+msgstr "มีรายการอัพเดตใหม่สำหรับระบบของคุณ อัพเดตเหล่านั้นควรถูกติดตั้งให้เร็วที่สุดเท่าที่เป็นไปได้ "
+
+msgid "yum_DESC_UPTODATE"
+msgstr "  รายการอัพเดตทั้งหมดถูกติดตั้งเรียบร้อยแล้ว "
+
+msgid "yum_DESC_YUM_AUTOINSTALLUPDATES"
+msgstr "(en)If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page."
+
+msgid "yum_DESC_YUM_DELTARPMPROCESS"
+msgstr "(en)A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles"
+
+msgid "yum_DESC_YUM_PACKAGEFUNCTIONS"
+msgstr "ในการติดตั้งซอฟต์แวร์ ตัวติดตั้งสามารถจัดการกับของกลุ่มของแพคเกจที่ทำงานร่วมกันเป็นชุด (groups of related package) หรือจะจัดการแพคเกจแต่ละแพคเกจภายในกลุ่มแยกกันก็ได้ โดยค่าปริยายแล้วแพคเกจทั้งกลุ่มจะนำมาแสดงรวมเป็นชุดเพียงชุดเดียว หากคุณต้องการแยกจัดการแต่ละแพ็คเกจเองให้เลือกใช้ตัวเลือกนี้ ซึ่งควรจะทำโดยผู้ดูแลระบบที่มีความเชี่ยวชาญเท่านั้น"
+
+msgid "yum_DeltaRpmProcess"
+msgstr "(en) Deltarpmprocess"
+
+msgid "yum_DownloadOnly"
+msgstr "(en) Downloadonly"
+
+msgid "yum_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "yum_FORM_TITLE"
+msgstr "ตัวติดตั้งซอฟต์แวร์"
+
+msgid "yum_HEADER_AVAILABLE_SOFTWARE"
+msgstr "คุณสามารถที่จะติดตั้งซอฟต์แวร์เพิ่มเติมต่อไปนี้เพิ่มในระบบของคุณได้ คุณควรทำเมื่อคุณรู้จักและยอมรับผลที่จะเกิด"
+
+msgid "yum_HEADER_INSTALLED_SOFTWARE"
+msgstr "ซอฟต์แวร์ต่อไปนี้ได้ถูกติดตั้งลงในระบบแล้ว หากคุณต้องการถอนการติดตั้ง คุณควรทำเมื่อคุณทราบและยอมรับผลที่จะเกิด "
+
+msgid "yum_HEADER_POSTUPGRADE_REQUIRED"
+msgstr " หลังจากเพิ่มหรือลบออกระบบต้องทำการปรับปรุงการตั้งค่าของระบบ หรือ applying updates<p>โปรดคลิ๊กปุ่ม ทำปรับปรุงการตั้งค่าของระบบ ที่ด้านล่างของจอเพื่อเริ่มขั้นตอน <b>จะทำการรีบู๊ตเครื่องอัตโนมัติหลังเสร็จสิ้นขั้นตอนนั้นแล้ว</b></p> "
+
+msgid "yum_INSTALL_SOFTWARE"
+msgstr "ติดตั้ง"
+
+msgid "yum_INSTALL_UPDATES"
+msgstr "ติดตั้งรายการอัพเดตที่เลือกไว้"
+
+msgid "yum_LABEL_AVAILABLE_GROUPS"
+msgstr "กลุ่มที่มี"
+
+msgid "yum_LABEL_AVAILABLE_PACKAGES"
+msgstr "แพ็คเกจที่มี"
+
+msgid "yum_LABEL_AVAILABLE_UPDATES"
+msgstr "มีอัพเดตใหม่"
+
+msgid "yum_LABEL_ENABLED_REPOSITORIES"
+msgstr "เปิดใช้งาน repositories"
+
+msgid "yum_LABEL_INSTALLED_GROUPS"
+msgstr "กลุ่มที่ถูกติดตั้งแล้ว"
+
+msgid "yum_LABEL_INSTALLED_PACKAGES"
+msgstr "แพคเกจที่ถูกติดตั้งแล้ว"
+
+msgid "yum_LABEL_YUM_AUTOINSTALLUPDATES"
+msgstr "ติดตั้งการอัพเดตโดยอัตโนมัติ"
+
+msgid "yum_LABEL_YUM_DELTARPMPROCESS"
+msgstr "อัปเดตเดลต้า RPM"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY"
+msgstr "ดาวน์โหลดอัปเดตล่วงหน้า"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION"
+msgstr "(en)The rpm updates can be downloaded during the night, this will ease and give faster the dnf update process (only enabled repositories will be used)."
+
+msgid "yum_LABEL_YUM_PACKAGEFUNCTIONS"
+msgstr "จัดการแยกแต่ละแพ็คเกจ"
+
+msgid "yum_LABEL_YUM_STATUS"
+msgstr "ตรวจสอบการอัพเดต"
+
+msgid "yum_MULTI_SELECT"
+msgstr "(en) <strong>Ctrl/Cmd-click</strong> toggles individual items and <strong>Shift-click</strong> selects ranges.\n<br /><strong>Case-insensitive</strong> search unless you enter a <strong>regex</strong> in <i>/pattern/flags</i> form (e.g. /maria.*client/i).."
+
+msgid "yum_Please_Wait_-_dnf_Running"
+msgstr "โปรดรอ - dnf กำลังทำงาน"
+
+msgid "yum_SUCCESS"
+msgstr "การตั้งค่าใหม่ได้รับการบันทึก"
+
+msgid "yum_UPDATE_SUCCESS"
+msgstr "(en)The requested changes have been successfully implemented."
+
+msgid "yum_check4updates"
+msgstr "(en) Check4updates"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "yum_SYSTEM_BEING_RECONFIGURED"
+#~ msgstr "ระบบของคุณกำลังจะรีบู๊ตโดยอัตโนมัติเพื่อให้การปรับปรุงการตั้งค่าของระบบเสร็จสมบูรณ์"
+#~ msgid "yum_Software Installer"
+#~ msgstr "ตัวติดตั้งซอฟต์แวร์"

@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Localnetworks module\n"
+"POT-Creation-Date: 2026-08-21 11:19+0100\n"
+"PO-Revision-Date: 2026-08-21 11:19+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "Local networks"
+msgstr "Redes locales"
+
+msgid "ln_ADD_DESC"
+msgstr " Cada parámetro debe estar en la forma #.#.#.# (cada # es un número de 0 a 255). El software del servidor pondrá en cero la parte final (el identificador de host) de la dirección de red según la máscara de subred, para asegurar que la dirección de red sea válida.  \"Router\" debe corresponder a la dirección IP del router de su red local a través del cual se alcanza la red adicional. "
+
+msgid "ln_ADD_TITLE"
+msgstr "Agregar una red local"
+
+msgid "ln_ERROR_CREATING_NETWORK"
+msgstr "Ocurrió un error al crear la red."
+
+msgid "ln_ERROR_DELETING_NETWORK"
+msgstr "Ocurrió un error al eliminar la red."
+
+msgid "ln_FIRSTPAGE_DESC"
+msgstr " Por razones de seguridad, varios servicios en su servidor sólo están disponibles para su red local. Sin embargo, puede conceder estos privilegios de acceso local a otras redes, enumerándolas a continuación. La mayoría de las instalaciones deben dejar esta lista vacía. Agregar red "
+
+msgid "ln_Failed to find network in Db"
+msgstr "(en)Failed to find network in Db"
+
+msgid "ln_INVALID_IP_ADDRESS"
+msgstr "Dirección IP no válida"
+
+msgid "ln_INVALID_SUBNET_MASK"
+msgstr "Máscara de subred inválida"
+
+msgid "ln_LOCAL NETWORKS"
+msgstr "Redes locales"
+
+msgid "ln_LOCALNETWORK_ADD"
+msgstr "Agregar red"
+
+msgid "ln_LOCAL_NETWORK_NONE"
+msgstr "(en) No Local networks found"
+
+msgid "ln_NETWORK_ALREADY_ADDED"
+msgstr "Error: la red [_1] (derivada de la red [_2] y máscara de subred [_3]) ya ha sido agregada. No se agregó una nueva red."
+
+msgid "ln_NETWORK_ALREADY_LOCAL"
+msgstr "Error: la red [_1] (derivada de la red [_2] y máscara de subred [_3]) ya es considerada local. No se agregó una nueva red."
+
+msgid "ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK"
+msgstr "Error: la dirección del router [_1] no es accesible desde la red local. No se agregó la red."
+
+msgid "ln_NO_SUCH_NETWORK"
+msgstr "(en)Network not found in network db"
+
+msgid "ln_NUMBER_OF_HOSTS"
+msgstr "Cantidad de hosts"
+
+msgid "ln_REMOVE_DESC"
+msgstr "Está a punto de eliminar la siguiente red local."
+
+msgid "ln_REMOVE_HOSTS_DESC"
+msgstr "Los hosts locales configurados en la red que esta a punto de eliminar han sido detectados. Por defecto, también serán eliminados. Destilde esta casilla si, por alguna razón, desea que esto no ocurra. Tenga en cuenta que no serán tratados como locales, y no podrán ser accesibles, luego de que esta red haya sido eliminada."
+
+msgid "ln_REMOVE_HOSTS_LABEL"
+msgstr "Eliminar hosts de la red"
+
+msgid "ln_REMOVE_TITLE"
+msgstr "Eliminar red local"
+
+msgid "ln_SUBNET_MASK"
+msgstr "Máscara de subred"
+
+msgid "ln_SUCCESS_NETWORK_RANGE"
+msgstr "Se agregó con éxito la red [_1]/[_2] mediante el router [_3]. Su servidor concederá privilegios de acceso local a [_4] direcciones IP en el rango de [_5] a [_6]."
+
+msgid "ln_SUCCESS_NONSTANDARD_RANGE"
+msgstr "  Se agregó con éxito la red [_1]/[_2] mediante el router [_3]. \n\n  <p> Su servidor concederá privilegios de acceso local a [_1] direcciones IP en el rango de [_2] a [_3]. </p>\n\n  <p> Advertencia: el servidor FTP ProFTPd no puede manejar esta máscara de subred no estándar. En su lugar, se utilizará la especificación más simple <b>[_1]</b>. </p>\n\n  "
+
+msgid "ln_SUCCESS_REMOVED_NETWORK"
+msgstr "La red [_1]/[_2] ha sido removida con éxito mediante el router [_3]."
+
+msgid "ln_SUCCESS_SINGLE_ADDRESS"
+msgstr "Se agregó con éxito la red [_1]/[_2] mediante el router [_3]. Su servidor concederá privilegios de acceso local a la dirección IP única [_4]."

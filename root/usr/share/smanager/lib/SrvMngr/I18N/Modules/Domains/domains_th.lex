@@ -4,8 +4,8 @@
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">สร้างโดเมน</a></p>
 
   ',
-'dom_NO_VIRTUAL_DOMAINS' => 'ไม่มีโดเมนในระบบนี้',
-'dom_CURRENT_LIST_OF_DOMAINS' => 'รายชื่อโดเมนที่มี',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_NO_VIRTUAL_DOMAINS' => 'ไม่มีโดเมนในระบบนี้',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_CURRENT_LIST_OF_DOMAINS' => 'รายชื่อโดเมนที่มี',
 'dom_PRIMARY_SITE' => 'ไซต์หลัก',
 'dom_CONTENT' => '[_1] ไอ-เบย์',
 'dom_CREATE_TITLE' => 'สร้างโดเมนใหม่',
@@ -27,9 +27,9 @@
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'ข้อผิดพลาด: เกิดความผิดพลาดภายในขณะลบโดเมน[_1]',
 'dom_SUCCESSFULLY_DELETED' => 'ลบโดเมน[_1]แล้ว เว็บเซอร์ฟเวอร์จะทำการรีสตาร์ท ลิ๊งต่างๆ ในหน้าจอนี้จะใช้การไม่ได้จนกว่าการรีสตาร์ทจะเสร็จสิ้น',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' ตั้งค่า DNS ขององค์กร ',
-'dom_BUTTON_CORPORATE_DNS' => ' ถ้าเซิร์ฟเวอร์นี้ใช้อินเตอร์เน็ตไม่ได้ หรือคุณมีต้องการตั้งค่า DNS เป็นพิเศษ ใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ที่นี่ แต่คุณไม่ควรใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ของ ISP ของคุณลงที่นี่ เพราะเซิร์ฟเวอร์นี้สามารถให้บริการค้นที่อยู่จากชื่อโดเมนแก่เครื่องลูกข่ายได้อย่างถูกต้องโดยไม่ต้องตั้งค่าพิเศษใดๆ อยู่แล้ว
-
-  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">แก้ไขค่า DNS ขององค์กร</a> ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_BUTTON_CORPORATE_DNS' => ' ถ้าเซิร์ฟเวอร์นี้ใช้อินเตอร์เน็ตไม่ได้ หรือคุณมีต้องการตั้งค่า DNS เป็นพิเศษ ใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ที่นี่ แต่คุณไม่ควรใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ของ ISP ของคุณลงที่นี่ เพราะเซิร์ฟเวอร์นี้สามารถให้บริการค้นที่อยู่จากชื่อโดเมนแก่เครื่องลูกข่ายได้อย่างถูกต้องโดยไม่ต้องตั้งค่าพิเศษใดๆ อยู่แล้ว
+#
+#  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">แก้ไขค่า DNS ขององค์กร</a> ',
 'dom_DESC_CORPORATE_DNS' => 'ถ้าเซิร์ฟเวอร์นี้ใช้อินเตอร์เน็ตไม่ได้ หรือคุณมีต้องการตั้งค่า DNS เป็นพิเศษ ใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ที่นี่ ช่องเหล่านี้ควรเว้นว่างไว้ ยกเว้นหากคุณถ้าคุณต้องการตั้งให้ไปใช้ DNS เซิร์ฟเวอร์ตัวอื่น แต่คุณไม่ควรใส่หมายเลข IP ของ DNS เซิร์ฟเวอร์ของ ISP ของคุณลงที่นี่ เพราะเซิร์ฟเวอร์นี้สามารถให้บริการค้นที่อยู่จากชื่อโดเมนแก่เครื่องลูก ข่ายได้อย่างถูกต้องโดยไม่ต้องตั้งค่าพิเศษใดๆ อยู่แล้ว',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Primary DNS server ขององค์กร',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Secondary DNS server ขององค์กร',
@@ -38,8 +38,8 @@
 'dom_localhost' => 'จากที่นี่ (เซิร์ฟเวอร์นี้)',
 'dom_internet' => 'จาก DNS เซิร์ฟเวอร์บนอินเตอร์เน็ต',
 'dom_corporate' => 'จาก DNS เซิร์ฟเวอร์ขององค์กร',
-'dom_REMOVE_DESC' => 'คุณกำลังจะลบเครื่องพิมพ์:',
-'dom_REMOVE_DESC2' => 'คุณแน่ใจหรือว่าต้องการลบเครื่องพิมพ์นี้?',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC' => 'คุณกำลังจะลบเครื่องพิมพ์:',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC2' => 'คุณแน่ใจหรือว่าต้องการลบเครื่องพิมพ์นี้?',
 'dom_ADD_DOMAIN' => 'เพิ่มโดเมน',
 'dom_CURRENT_DOMAINS' => 'รายการโดเมนปัจจุบัน',
 'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',

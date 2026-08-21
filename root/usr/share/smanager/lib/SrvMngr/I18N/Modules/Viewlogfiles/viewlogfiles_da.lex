@@ -1,4 +1,4 @@
-'log_View log files' => 'Vis logfiler',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => 'Vis logfiler',
 'log_FIRSTPAGE_DESC' => ' Dette panel tillader dig at vise eller hente logfiler, dannet af tjenester, der kører på din server. ',
 'log_LOG_FILE_SELECT_DESC' => 'Vælg hvilken logfil du vil se',
 'log_FILTER_PATTERN_DESC' => ' Du har mulighed for at specificere et filtermønster, så kun linjer fra logfilen, der indeholder det angivne mønster vises. Efterlader du feltet tomt vises alle logfilens linjer. Bemærk at denne mulighed ikke benyttes, når du henter logfilen.
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'Handling',
-'log_DOWNLOAD_PAGE_DESC' => ' Hent af logfilen er forberedt. Den vil fortsætte så snart du har klikket på &quot;Næste&quot; knappen nedenfor, og instrueret din browser til at acceptere hentningen via det pop-up vindue, der vil fremkomme.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Forbereder hentning af logfil [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Hent af logfilen er forberedt. Den vil fortsætte så snart du har klikket på &quot;Næste&quot; knappen nedenfor, og instrueret din browser til at acceptere hentningen via det pop-up vindue, der vil fremkomme.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Forbereder hentning af logfil [_1].',
 'log_FORM_TITLE' => 'Vis logfiler',

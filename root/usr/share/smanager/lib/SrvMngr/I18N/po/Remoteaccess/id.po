@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Remoteaccess module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "Remote access"
+msgstr "Akses jarak jauh"
+
+msgid "rma_DESC_FTP_ACCESS"
+msgstr " Pengaturan FTP  Anda juga dapat mengatur akses FTP ke server anda. Kami menganjurkan untuk membiarkan parameter ini ke 'no access' kecuali anda memiliki alasan khusus.  Catatan: pengaruran tersebut membatasi akses ke server dan menimpa aturan lain, termasuk pada masing-masing information bays. "
+
+msgid "rma_DESC_FTP_LOGIN"
+msgstr " Anda juga dapat mengatur akses FTP access ke information bays dan akun pengguna. Kami sangat menganjurkan agar membiarkan parameter ini ke privat kecuali anda punya alasan khusus.  Catatan: klien secure shell sftp dapat juga digunakan untuk mengakses server, jika akses jarak jauh melalui secure shell dibolehkan. Metode ini memproteksi password and data dari sesi FTP, dimana FTP yang umum tidak melakukan proteksi. "
+
+msgid "rma_DESC_IPSECRW"
+msgstr " Pengaturan Klien IPSEC (Roadwarrior)  Anda bisa membolehkan klien IPSEC untuk mengakses server anda, diotentikasi dengan sertifikat digital. Anda harus membiarkan fitur ini dalam kondisi disable dengan mengisikan angka 0 kecuali anda memerlukan akses bagi klien IPSEC. "
+
+msgid "rma_DESC_IPSECRW_RESET"
+msgstr "Jika anda ingin mereset semua sertifikat digital, anda dapat lakukan disini.Semua sertifikat yang lama tidak akan di otentikasi dengan server, karena itu semua klien IPSEC perlu untuk meng-import sertifikat yang baru!. "
+
+msgid "rma_DESC_PPTP"
+msgstr " Pengaturan PPTP Anda dapat membolehkan akses PPTP ke server anda. Anda harus membiarkan fitur ini dalam kondisi disabled dengan cara mengisikan angka 0 kecuali anda memerlukan akses PPTP. "
+
+msgid "rma_DESC_SSH"
+msgstr "  Pengaturan Secure ShellAnda dapat mengkontrol akses Secure Shell ke server anda. Pengaturan untuk umum hanya dibolehkan oleh administrator berpengalaman untuk diagnosa dan penyelesaian masalah secara jarak jauh. Kami anjurkan untuk membiarkan parameter ini di set ke \"No Access\" kecuali anda punya alasan yang khusus. "
+
+msgid "rma_DESC_TELNET_ACCESS"
+msgstr " Pengaturan Telnet PERINGATAN: Telnet saat ini di enable, tapi fitur ini tidak didukung lagi. Telnet kurang aman dan hanya boleh digunakan jika tidak ada pilihan lain. Anda harus mengganti opsi menjadi [_1] dan menggunakan secure shell jika akses jarak jauhdiperlukan. Sekali di-disable, telnet tidak akan muncul lagi di layar ini. "
+
+msgid "rma_DESC_VALID_FROM_ENTRIES"
+msgstr "Untuk menambahkan jaringan untuk pengaturan jarak jauh, masukkan rincian dibawah ini."
+
+msgid "rma_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "rma_ERR_INVALID_PARAMS"
+msgstr "Isikan network dan subnet mask, atau biarkan keduanya kosong."
+
+msgid "rma_FORM_TITLE"
+msgstr "Ubah akses jarak jauh"
+
+msgid "rma_INVALID_SUBNET_MASK"
+msgstr "Subnet mask cacat"
+
+msgid "rma_LABEL_FTP_ACCESS"
+msgstr "Akses FTP"
+
+msgid "rma_LABEL_FTP_LOGIN"
+msgstr "Password akses FTP"
+
+msgid "rma_LABEL_IPSECRW_RESET"
+msgstr "Reset sertifikat digital"
+
+msgid "rma_LABEL_IPSECRW_SESS"
+msgstr "Jumlah klien IPSEC"
+
+msgid "rma_LABEL_PPTP"
+msgstr "Jumlah klien PPTP"
+
+msgid "rma_LABEL_SSH"
+msgstr "Akses secure shell"
+
+msgid "rma_LABEL_SSH_ADMIN"
+msgstr "Bolehkan akses administrasi command line melalui secure shell"
+
+msgid "rma_LABEL_SSH_PASSWORD_ACCESS"
+msgstr "Bolehkan akses secure shell menggunakan password standar"
+
+msgid "rma_LABEL_SSH_PORT"
+msgstr "Port TCP untuk akses secure shell"
+
+msgid "rma_LABEL_TELNET_ACCESS"
+msgstr "Akses telnet"
+
+msgid "rma_NO_ACCESS"
+msgstr "Tidak ada akses"
+
+msgid "rma_NO_ENTRIES_YET"
+msgstr "Belum ada entry"
+
+msgid "rma_NUMBER_OF_PPTP_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE"
+msgstr "(en)The number of pptp clients is greater than the number of reserved IP for DHCP. You should take a smaller number."
+
+msgid "rma_NUM_OF_HOSTS"
+msgstr "Jumlah host"
+
+msgid "rma_PASSWORD_LOGIN_PRIVATE"
+msgstr "Terima password hanya dari jaringan lokal"
+
+msgid "rma_PASSWORD_LOGIN_PUBLIC"
+msgstr "Terima password dari manapun"
+
+msgid "rma_REMOTE_MANAGEMENT"
+msgstr "Pengaturan Jarak Jauh"
+
+msgid "rma_SUBNET_MASK"
+msgstr "Subnet mask"
+
+msgid "rma_SUCCESS"
+msgstr "Setting pengaturan jarak jauh yang baru telah disimpan."
+
+msgid "rma_TITLE_FTP_ACCESS"
+msgstr "Pengaturan FTP"
+
+msgid "rma_TITLE_IPSECRW"
+msgstr "Pengaturan Klien IPSEC (Roadwarrior)"
+
+msgid "rma_TITLE_PPTP"
+msgstr "Pengaturan PPTP"
+
+msgid "rma_TITLE_SSH"
+msgstr "Pengaturan Secure Shell"
+
+msgid "rma_TITLE_TELNET_ACCESS"
+msgstr "Pengaturan Telnet"
+
+msgid "rma_VALIDFROM_DESC"
+msgstr " [_1] Adalah memungkinkan untuk membolehkan host di jaringan luar untuk mengakses server manager dengan memasukkan jaringan tersebut disini. Gunakan subnet mask dengan format 255.255.255.255 untuk membatasi akses host tertentu. Semua host dalam jangkauan yang ditentukan itu akan dapat mengakses server manager menggunakan HTTPS. "
+
+msgid "rma_VALIDFROM_TITLE"
+msgstr "[_1]"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rma_DESCRIPTION"
+#~ msgstr "Untuk setiap pilihan dibawah, pengaturan privat membolehkan semua orang dari jaringan lokal anda untuk mengakses server anda. Pengaturan umum membolehkan akses dari mana saja di Internet. Pengaturan no access men-disable akses. Untuk mengerti aspek keamanan akibat dari perubahan mengubah pilihan tersebut dari setting default, anda harus membaca panduan pengguna pada bagian akses jarak jauh."
+#~ msgid "rma_DESC_SERIAL_CONSOLE_ACCESS"
+#~ msgstr " Konsol Serial Anda dapat membolehkan akses ke konsol server dari sebuah terminal yang terhubung melalui serial port pada server."
+#~ msgid "rma_ERR_NO_RECORD"
+#~ msgstr "Tidak dapat menemukan record httpd-admin dalam configuration db"
+#~ msgid "rma_LABEL_PPTP_ACCESS"
+#~ msgstr "Akses default user PPTP"
+#~ msgid "rma_LABEL_SERIAL_CONSOLE_ACCESS"
+#~ msgstr "Konsol serial"
+#~ msgid "rma_PORT1_ENABLED"
+#~ msgstr "Dibolehkan pada port serial 1"
+#~ msgid "rma_PORT2_ENABLED"
+#~ msgstr "Dibolehkan pada port serial 2"
+#~ msgid "rma_Remote access"
+#~ msgstr "Akses jarak jauh"
+#~ msgid "rma_VALUE_ZERO_OR_POSITIVE"
+#~ msgstr "Nilai haruslah nol atau bilangan bulat positif"

@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Dnf module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+
+msgid "Groups"
+msgstr "(en) Groups"
+
+msgid "Packages"
+msgstr "(en) Packages"
+
+msgid "Start"
+msgstr "(en) Start"
+
+msgid "yum_1DAILY"
+msgstr "Zilnic"
+
+msgid "yum_2WEEKLY"
+msgstr "Saptamanal"
+
+msgid "yum_3MONTHLY"
+msgstr "Lunar"
+
+msgid "yum_AutoInstallUpdates"
+msgstr "(en) Autoinstallupdates"
+
+msgid "yum_BUTTON_CONFIGURATION"
+msgstr "Schimbă setările programului de instalare a software-ului"
+
+msgid "yum_BUTTON_INSTALL_AVAILABLE"
+msgstr "Instalați software suplimentar"
+
+msgid "yum_BUTTON_INSTALL_UPDATES"
+msgstr "Listează actualizările disponibile"
+
+msgid "yum_BUTTON_REMOVE"
+msgstr "Elimină software-ul instalat"
+
+msgid "yum_DESC_AVAILABLE_GROUPS"
+msgstr "Puteți selecta grupurile de programe de instalat din lista de mai jos."
+
+msgid "yum_DESC_AVAILABLE_PACKAGES"
+msgstr "Puteți selacta deasemenea pachete individuale din lista de mai jos"
+
+msgid "yum_DESC_AVAILABLE_UPDATES"
+msgstr "Următoarele actualizări sunt disponibile pentru sistemul dumneavoastră. În mod normal ar trebui să instalați toate actualizările. Dacă sunt actualizări pe care nu doriți să le instalați, deselectați-le din lista de mai jos."
+
+msgid "yum_DESC_ENABLED_REPOSITORIES"
+msgstr "Instalatorul de programe software poate instala programe din oricare bibliotecă de programe activată. Pentru a activa bibliotecile selectațile din listă. Pentru a le dezactiva, deselectați-le. Implicit numai programele stabile si testate sunt disponible pentru instalare."
+
+msgid "yum_DESC_INSTALLED_GROUPS"
+msgstr "Puteți selecta grupurile de programe din lista de mai jos."
+
+msgid "yum_DESC_INSTALLED_PACKAGES"
+msgstr "Puteți selecta deasemenea din lista de mai jos pachete individuale pe care sa le dezinstalați."
+
+msgid "yum_DESC_UPDATES_AVAILABLE"
+msgstr "Toate actualizările au fost instalate."
+
+msgid "yum_DESC_UPTODATE"
+msgstr "Aveți toate actualizările la zi."
+
+msgid "yum_DESC_YUM_AUTOINSTALLUPDATES"
+msgstr "(en)If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page."
+
+msgid "yum_DESC_YUM_DELTARPMPROCESS"
+msgstr "(en)A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles"
+
+msgid "yum_DESC_YUM_PACKAGEFUNCTIONS"
+msgstr "Instalatorul de programe software, poate gestiona grupuri de pachete relationate sau pachete individuale. Implicit sunt prezente numai grupurile de pachete. Dacă doriți să gestionați pachetele individual, trebuie sa activați această optiune. Acest lucru este recomandat să fie efectuat doar de administratorii experimentați."
+
+msgid "yum_DeltaRpmProcess"
+msgstr "(en) Deltarpmprocess"
+
+msgid "yum_DownloadOnly"
+msgstr "(en) Downloadonly"
+
+msgid "yum_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "yum_FORM_TITLE"
+msgstr "Instalator software"
+
+msgid "yum_HEADER_AVAILABLE_SOFTWARE"
+msgstr "Următoarele programe sunt disponibile pentru a fi instalate pe sistemul dumneavoastră. Puteți adăuga programe pe sistem doar daca sunteți conștient de consecințele acestei acțiuni."
+
+msgid "yum_HEADER_INSTALLED_SOFTWARE"
+msgstr "Urmatoarele programe sutn instalate pe sistem. Puteți dezinstala programe de pe sistem numai dacă intelegeți consecința acestei acțiuni."
+
+msgid "yum_HEADER_POSTUPGRADE_REQUIRED"
+msgstr " Sistemul are nevoie de reconfigurare după adaugarea,înlăturarea sau actualizarea programelor. <p> Apasați pe butonul de Reconfigurare din partea de jos a paginii pentru a porni acest proces. <b>O restartare automata la finalul procesului este parte integrantă din proces</b> </p> "
+
+msgid "yum_INSTALL_SOFTWARE"
+msgstr "Instalează"
+
+msgid "yum_INSTALL_UPDATES"
+msgstr "Instalați actualizările selectate"
+
+msgid "yum_LABEL_AVAILABLE_GROUPS"
+msgstr "Grupuri disponibile"
+
+msgid "yum_LABEL_AVAILABLE_PACKAGES"
+msgstr "Pachete disponibile"
+
+msgid "yum_LABEL_AVAILABLE_UPDATES"
+msgstr "Actualizări disponibile."
+
+msgid "yum_LABEL_ENABLED_REPOSITORIES"
+msgstr "Biblioteci de programe software activate"
+
+msgid "yum_LABEL_INSTALLED_GROUPS"
+msgstr "Grupuri instalate"
+
+msgid "yum_LABEL_INSTALLED_PACKAGES"
+msgstr "Pachete instalate"
+
+msgid "yum_LABEL_YUM_AUTOINSTALLUPDATES"
+msgstr "Instalați actalizări automat"
+
+msgid "yum_LABEL_YUM_DELTARPMPROCESS"
+msgstr "Actualizare Delta RPM"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY"
+msgstr "S-au actualizat detaliile personale"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION"
+msgstr "(en)The rpm updates can be downloaded during the night, this will ease and give faster the dnf update process (only enabled repositories will be used)."
+
+msgid "yum_LABEL_YUM_PACKAGEFUNCTIONS"
+msgstr "Gestionați pachete individuale."
+
+msgid "yum_LABEL_YUM_STATUS"
+msgstr "Verifică pentru actualizări"
+
+msgid "yum_MULTI_SELECT"
+msgstr "(en) <strong>Ctrl/Cmd-click</strong> toggles individual items and <strong>Shift-click</strong> selects ranges.\n<br /><strong>Case-insensitive</strong> search unless you enter a <strong>regex</strong> in <i>/pattern/flags</i> form (e.g. /maria.*client/i).."
+
+msgid "yum_Please_Wait_-_dnf_Running"
+msgstr "Vă rugăm să așteptați - dnf rulează"
+
+msgid "yum_SUCCESS"
+msgstr "Noile setări au fost salvate"
+
+msgid "yum_UPDATE_SUCCESS"
+msgstr "(en)The requested changes have been successfully implemented."
+
+msgid "yum_check4updates"
+msgstr "(en) Check4updates"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "yum_SYSTEM_BEING_RECONFIGURED"
+#~ msgstr "Sistemul dumneavoastră este repornit automat pentur terminarea procesului de reconfigurare."
+#~ msgid "yum_Software Installer"
+#~ msgstr "Instalator software"

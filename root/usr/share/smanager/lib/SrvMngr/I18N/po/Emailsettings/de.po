@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "E-Mail-Zugriffseinstellungen erfolgreich gespeichert"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Spezifische Einstellung"
+
+msgid "mai_DEFAULT"
+msgstr "Vorgabe"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "E-Mail-Zustellungseinstellungen erfolgreich gespeichert"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Sie können ausführbare Inhalte in E-Mail Anhängen blockieren, indem Sie die zu blockierenden ausführbaren Typen markieren. E-Mail mit diesen angehängten Dateitypen werden automatisch an den Sender zurückgesandt."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Externer Mailserver Ihr Server verfügt über einen kompletten E-Mail Server mit allen Funktionen. Jedoch kann es aus verschieden Gründen notwendig sein, die Mailserver-Funktion eines anderen Mailserver zu nutzen. Geben Sie hierfür die IP Adresse des externen Mailservers unten an. Für eine normale Installation lassen Sie bitte das Feld leer. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "Für ETRN oder Multidrop können Sie hier einstellen, wie oft dieser Server Ihren sekundären E-Mail Server die Mails kontaktiert. Je öfter die Verbindung augenommen wird, desto schneller erhalten Sie Ihre E-Mails, aber Sie sollten bedenken, daß hierfür mehr Datenverkehr entsteht und Sie eventuell höhere Internetkosten haben."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "Sie können den Zugang zu ihren IMAP-Server einstellen. Die Einstellung 'Zugang nur von lokalen Netzwerken' erlaubt der Zugang nur über lokales Netzwerk(e). Die IMAPS-Einstellung ermöglicht den verschlüsselten externen Zugriff auf Ihren IMAP-Server. Wir empfehlen die 'Zugang nur von lokalem Netzwerk' nur zu ändern, wenn Sie besondere Gründe haben."
+
+msgid "mai_DESC_MODE"
+msgstr "Der E-Mail Empfangsmodus kann auf Standard (für kontinuierliche Internetverbindung), ETRN (empfohlen für Einwahlverbindungen) oder Multidrop (für Einwahlverbindungen wenn ETRN von Ihrem Internet Provider nicht unterstützt wird) eingestellt werden. Beachten Sie, dass der Multidrop Mode nur zur Verfügung steht, wenn Ihr Server im Modus Privater Server und Gateway läuft."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "Sie können den Zugang zu Ihrem POP3-Server einstellen. Die Einstellung 'Zugang nur von lokalen Netzwerken' erlaubt den POP3-Zugang nur über lokales Netzwerk(e). Die POP3S-Einstellung ermöglicht verschlüsselten externen Zugriff auf Ihren POP3-Server. Wir empfehlen die Einstellung 'Zugang nur von lokalen Netzwerken' nur in begründeten Fällen zu ändern."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " Einstellungen für ETRN oder Multidrop Geben Sie für ETRN oder Multidrop den Hostnamen oder die IP-Adresse Ihres sekundären Mailservers an. (Wenn Sie die Standard E-Mail Einstellungen verwenden, kann dieses Feld leer bleiben.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " SMTP Server Der Server kann ausgehende E-Mails direkt selbst an den Empfänger versenden (in den meisten Fällen empfohlen) oder aber über den SMTP Server Ihres Internet Providers (empfohlen bei einer unzuverlässigen Internet-Verbindung oder bei Einwahlverbindung). Wenn Sie den SMTP Server Ihres Internet Providers verwenden, geben Sie den Hostnamen oder die IP-Adresse unten ein. Ansonsten lassen Sie das Feld leer. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " Sie können authentifizierten Zugriff auf den SMTP-Server bereitstellen oder deaktivieren. Die SSMTP Einstellung erfordert von allen Benutzer eine SSL/TLS-Authentifizierung. Die Auswahl SMTP und SSMTP lässt zusätzlich STARTTLS zu, was eine sichere Authentifizierung gewährleistet. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "E-Mails können nach Spam gefiltert werden. Bei Einschalten des Spam-Filters wird jeder E-Mail ein Header mit X-Spam-Status hinzugefügt, der für das Filtern von Spam benutzt werden kann. Die Sensibilität, mit der der Filter E-Mails als Spam einstuft, ist auf Mittel voreingestellt. Zur Feineinstellung kann die Empfindlichkeit auf Spezifisch mit spezifischem Tagging Level geändert werden, und optional ein Level, bei der eine E-Mail abgewiesen wird."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "Sie können ein Kennzeichen zur E-Mail-Betreffzeile hinzu fügen, das die E-Mail als SPAM eingestuft ist. Die Eingabe dieses Kennzeichens erfolgt unten."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " Einstellungen für E-Mail-Zugang ändern "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " Einstellungen für E-Mail-Auslieferung ändern "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " Einstellungen für E-Mail-Filter ändern "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " Einstellungen für E-Mail-Empfang ändern "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Unbekannte Benutzer Das Auswählen von Ablehnen (empfohlene Einstellung) konfiguriert den Server so, dass er nur E-Mails für gültige E-Mail Adressen (zum Beispiel Benutzer, Gruppen, Pseudonyme) annimmt. E-Mails für andere Adressen werden abgelehnt. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "Ein- und ausgehende E-Mails können nach Viren durchsucht werden. Wenn die Viruserkennung eingeschaltet ist und ein Virus gefunden wird, wird die E-Mail abgewiesen und an den Absender zurückgeschickt."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "Sie können Webmail auf diesem System aktivieren oder deaktivieren. Webmail erlaubt den Benutzern, ihre E-Mails mit einem normalen Webbrowser über https://[_1]/webmail und Anmeldung auf Ihrem Konto einzusehen."
+
+msgid "mai_E-Mail"
+msgstr "E-Mail"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "HTTPS (sicherer Zugang) erlauben"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP mit Client-Abfrage)"
+
+msgid "mai_EVERY15MIN"
+msgstr "Alle 15 Minuten"
+
+msgid "mai_EVERY2HRS"
+msgstr "Alle 2 Stunden"
+
+msgid "mai_EVERY30MIN"
+msgstr "Alle 30 Minuten"
+
+msgid "mai_EVERY5MIN"
+msgstr "Alle 5 Minuten"
+
+msgid "mai_EVERYHOUR"
+msgstr "Jede Stunde"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "E-Mail-Filtereinstellungen erfolgreich gespeichert"
+
+msgid "mai_FORWARD_TO"
+msgstr "Senden an"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "An den Administrator schicken"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Hoch"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "Sowohl IMAP als auch IMAPS erlauben"
+
+msgid "mai_INSECURE_POP3"
+msgstr "Sowohl POP3 als auch POP3S erlauben"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "Der Smart Host-Name, den Sie eingegeben haben, ist kein gültiger Internet-Domänenname und auch nicht leer"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Ausführbare Dateianhänge blockieren"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Zu blockierender Inhalt"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Adresse des internen Mailservers"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "Während den Bürozeiten (8:00 Uhr bis 18:00 Uhr) an Wochentagen"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "Außerhalb der Bürozeiten (18:00 Uhr bis 08:00 Uhr) an Wochentagen"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "Während des Wochenendes"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "IMAP Server Zugang"
+
+msgid "mai_LABEL_MODE"
+msgstr "E-Mail Abrufmodus"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "POP3 Server Zugang"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "POP Benutzerkonto (für Multidrop)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "POP Benutzerpasswort (für Multidrop)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "Sekundärer Mailserver"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "Adresse des E-Mail Servers Ihres Internet Providers"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Mail-Server Kennwort"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "SMTP Anmeldung beim Internet-Provider"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "Mail-Server Benutzer-ID"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Spam in den Junkmail-Ordner verschieben"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "Wählen Sie einen Nachrichtenheader (für Multidrop)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Wählen Sie die Sortiermethode (für Multidrop)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Spezifische Einstellung zur Mail-Abweisung"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Spam-Filter"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Spam Sensibilität"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "SPAM-Kennzeichnung in der Betreffzeile"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "Spam Nachricht Betreff verändern"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Spezifische Spam-Einstellungen"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "E-Mail an unbekannte Benutzer"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Viren-Scanner"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Webmail Zugang"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Niedrig"
+
+msgid "mai_MEDIUM"
+msgstr "Mittel"
+
+msgid "mai_MULTIDROP"
+msgstr "Mehrfachabwurf"
+
+msgid "mai_NEVER"
+msgstr "niemals"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "HTTPS (sicherer Zugang) vom lokalen Netzwerk erlauben"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "E-Mail-Empfangseinstellungen erfolgreich gespeichert"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Ablehnen"
+
+msgid "mai_SECURE_IMAP"
+msgstr "Lokal und öffentlich erlauben (Secure IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "Lokal und öffentlich erlauben (Secure POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "Nur SSMTP (Secure) erlauben"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Unten angeben"
+
+msgid "mai_STANDARD"
+msgstr "Standard (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "Status des Submission-Ports %u:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Mailserver delegieren"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "ETRN- oder Multi-Drop-Einstellungen"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "SMTP-Server"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Unbekannte Nutzer"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "Dieses Feld darf nicht leer sein, wenn SMTP Authentifizierung aktiviert ist."
+
+msgid "mai_VERYHIGH"
+msgstr "Sehr hoch"
+
+msgid "mai_VERYLOW"
+msgstr "Sehr niedrig"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "E-mail"
+#~ msgstr "E-Mail"
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Lokal erlauben"
+#~ msgid "mai_AUTO"
+#~ msgstr "Automatisch"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "Für Multidrop von E-Mails geben Sie bitte das POP Benutzerkonto sowie das Passwort an. (Wenn Sie Standard oder ETRN E-Mail verwenden kann dieses Feld leer bleiben.) Für Multidrop können Sie auch angeben, ob Sie die Standard Mail Sortiermethode verwenden wollen, oder Sie definieren spezielle Nachrichtenheader für die Sortierung der Mails."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " E-Mail Zugang "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " E-Mail Auslieferung "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " E-Mail Empfang "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Sowohl HTTP als auch HTTPS erlauben"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "E-Mail Einstellungen"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "Sowohl SMTP als auch SSMTP erlauben"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Protokoll (für Multi-Drop)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Tunnel über SSL (für Multi-Drop)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "SMTP Authentifizierung"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "Die neuen E-Mail Einstellungen wurden gespeichert."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "Dieses Feld erfordert eine gültige E-Mail-Adresse, die das @ Symbol und einen Domänennamen enthalten muß."

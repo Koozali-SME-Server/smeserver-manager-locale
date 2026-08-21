@@ -1,4 +1,4 @@
-'prx_Proxy settings' => 'Pengaturan Proxy',
+# ORPHANED (no longer in proxy_en.lex; kept for reference, commented out by lex-to-po.pl): 'prx_Proxy settings' => 'Pengaturan Proxy',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Halaman ini memungkinkan pengaturan proxy server\'s. Server ini memiliki sebuah transparent proxy dan cache untuk lalulintas HTTP. Hal ini di-enable secara default, namun tidak dijalankan jika server dalam mode &quot;serveronly&quot; . Jika server ini bertindak sebagai sebuah server e-mail, sambungan dari klien jaringan lokal ke SMTP server eksternal akan secara default dialihkan ke email server lokal.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'HTTP proxy server berguna untuk mengurangi pemakaian sambungan keluar dengan cara menyimpan halaman-halaman yang baru dikunjungi. Proxy ini transparan bagi penjelajah webyang menggunakan server ini sebagai gateway. Enable atau disable proxy ini dengan pilihan dibawah.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'Status HTTP proxy',

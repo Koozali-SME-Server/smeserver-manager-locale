@@ -12,8 +12,8 @@
   <p> Untuk menjalankan fungsi pengaturan sistem, klik satu dari link menu disebelah kiri layar anda. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Selamat datang di SME Server. Software ini SAMA SEKALI TIDAK DIGARANSI. Silakan <a href="/smanager/support" target="main">klik disini</a> untuk melihat informasi secara terperinci tentang dukungan, garansi dan lisensi. 
-
-  <p> <a href="/server-manager/noframes">Click here</a> for a list of system administration functions. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Selamat datang di SME Server. Software ini SAMA SEKALI TIDAK DIGARANSI. Silakan <a href="/smanager/support" target="main">klik disini</a> untuk melihat informasi secara terperinci tentang dukungan, garansi dan lisensi. 
+#
+#  <p> <a href="/server-manager/noframes">Click here</a> for a list of system administration functions. </p>
+#
+#  ',

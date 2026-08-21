@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Οι νέες προεπιλεγμένες ρυθμίσεις LDAP έχουν αποθηκευθεί.',
 'dir_LEAVE' => 'Άφησε ως έχουν',
 'dir_UPDATE' => 'Ενημέρωση με τις νέες προεπιλεγμένες ρυθμίσεις',
-'dir_Directory' => 'Κατάλογος',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Κατάλογος',

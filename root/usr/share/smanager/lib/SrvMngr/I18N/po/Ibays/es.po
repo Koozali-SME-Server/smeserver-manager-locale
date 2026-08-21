@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "La cuenta \"[_1]\" es una cuenta [_2] existente."
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " La cuenta \"[_1]\" entra en conflicto con los detalles del seudónimo para [_2] de la cuenta \"[_3]\". [_1] es un seudónimo de [_3]. "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "El nombre de i-bay \"[_1]\" contiene caracteres no válidos. Los nombres de i-bays deben comenzar con minúscula y deben contener sólo minúsculas, números y guiones."
+
+msgid "iba_ADD_IBAY"
+msgstr "Añadir i-bay"
+
+msgid "iba_ADD_TITLE"
+msgstr "Crear o modificar una i-bay"
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "Ejecución de contenido dinámico (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "No se puede crear una nueva cuenta para [_1] (¿ya existe?)"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "No se puede encontrar la cuenta de [_1] (¿existe?)"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "Toda la Web (no se requiere contraseña)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "Toda la Web (se requiere contraseña)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "Toda la Web (se requiere contraseña fuera de la red local)"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "Ocurrió un error al crear la i-bay."
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "Ocurrió un error al eliminar la i-bay."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "Ocurrió un error al modificar la i-bay."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "Error al restablecer la contraseña."
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "  Agregar i-bay \n\n   Puede eliminar cualquier bahía de información o puede restablecer su contraseña haciendo click en el comando correspondiente junto a la bahía de información. Si la bahía de información aparece en rojo, significa que aún no se ha cambiado la contraseña del valor predeterminado y se debe cambiar pronto. \n\n  "
+
+msgid "iba_FORM_TITLE"
+msgstr "Crear, modificar o eliminar i-bays"
+
+msgid "iba_HTTPS_Only"
+msgstr "Forzar conexiones seguras"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "Las contraseñas no coinciden."
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "Red local (no se requiere contraseña)"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "Red local (se requiere contraseña)"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "El nombre de la i-bay \"[_1]\" es demasiado largo. El máximo es de [_1] caracteres."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "El nombre de la bahía de información debe contener sólo minúsculas, números, puntos, guiones y guiones bajos y debe comenzar con una minúscula. Por ejemplo \"rojas\", \"intra\" y \"client3.prj12\" son nombres válidos, pero \"3asociados\", \"Juan Arancibia\" y \"Bus!Socio\" no lo son. El nombre está limitado a [_1] caracteres."
+
+msgid "iba_NAME_LABEL"
+msgstr "Nombre de la bahía de información"
+
+msgid "iba_NONE"
+msgstr "Sin acceso"
+
+msgid "iba_NO_IBAYS"
+msgstr "No hay i-bays actualmente configuradas."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "Esta a punto de cambiar la contraseña para la i-bay [_1]."
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "Acceso público mediante Web o FTP anónimo"
+
+msgid "iba_REMOVE_DESC"
+msgstr "  Está a punto de eliminar la bahía de información \"[_1]\" ([_2]). \n\n   Se borrarán todos los archivos pertenecientes a esta bahía de información. \n\n   ¿Está seguro de que desea eliminar esta bahía de información? \n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "Eliminar bahía de información"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "Se creó con éxito la i-bay."
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "Se eliminó con éxito la i-bay."
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "Se modificó con éxito la i-bay."
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "Se restableció con éxito la contraseña."
+
+msgid "iba_USER_ACCESS"
+msgstr "Acceso de usuario mediante uso compartido de archivos o FTP del usuario"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " Los siguientes dominios virtuales estaban utilizando esta bahía de información como su contenido y se cambiarán al sitio Web primario (posteriormente, puede cambiarlos a algo diferente): [_1] "
+
+msgid "iba_WARG"
+msgstr "Escritura = admin, Lectura = grupo"
+
+msgid "iba_WGRE"
+msgstr "Escritura = grupo, Lectura = todos"
+
+msgid "iba_WGRG"
+msgstr "Escritura = grupo, Lectura = grupo"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "ENTIRE_INTERNET_NO_PASSWORD"
+#~ msgstr "Internet completo (no se requiere contraseña)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD"
+#~ msgstr "Toda Internet (se requiere contraseña)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD_REMOTE"
+#~ msgstr "(en)Entire Internet (password required outside local network)"
+#~ msgid "INVALID_IBAY_DESCRIPTION"
+#~ msgstr "(en)Error: unexpected or missing characters in i-bay description"
+#~ msgid "LOCAL_NETWORK_NO_PASSWORD"
+#~ msgstr "Red local (no se requiere contraseña)"
+#~ msgid "LOCAL_NETWORK_PASSWORD"
+#~ msgstr "Red local (se requiere contraseña)"
+#~ msgid "NONE"
+#~ msgstr "Sin acceso"
+#~ msgid "WARG"
+#~ msgstr "(en)Write = admin, Read = group"
+#~ msgid "WGRE"
+#~ msgstr "(en)Write = group, Read = everyone"
+#~ msgid "WGRG"
+#~ msgstr "(en)Write = group, Read = group"
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "La contraseña sólo puede contener letras y números."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "Error: caracteres erróneos o faltantes en la descripción de i-bay"
+#~ msgid "iba_Information bays"
+#~ msgstr "Bahías de información"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "El modo de acceso público \"contraseña requerida fuera de la red local\" no es soportado por el servidor FTP. Si selecciona este modo, el servidor FTP requerirá una contraseña tanto dentro como fuera de la red local para esta i-bay."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr "Los siguientes dominios virtuales estaban utilizando esta bahía de información como su contenido y se cambiarán al sitio Web primario (posteriormente, puede cambiarlos a algo diferente)."

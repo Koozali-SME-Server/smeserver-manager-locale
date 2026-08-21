@@ -7,4 +7,4 @@
 'clm_NEVER' => '从不',
 'clm_DAILY' => '每天',
 'clm_SUCCESS' => '反病毒设置已被保存。',
-'clm_Antivirus (ClamAV)' => '杀毒软件（ClamAV）',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => '杀毒软件（ClamAV）',

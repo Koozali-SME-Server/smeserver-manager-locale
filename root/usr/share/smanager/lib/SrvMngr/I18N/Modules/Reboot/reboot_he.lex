@@ -7,4 +7,4 @@
 'rbo_DESC_SHUTDOWN' => 'השרת שלך יזם תהליך כיבוי. התהליך יארך מספר דקות עד להשלמתו, לאחר מכן ניתן לכבות את מקור המתח.',
 'rbo_LABEL_REBOOT' => 'בחר כיבוי, הפעלה מחדש או שינוי תצורה',
 'rbo_DESCRIPTION' => ' You can reboot, shut down your server or perform a full system reconfiguration from this screen. You must perform a shutdown before switching the power off. All of these functions take several minutes to complete. When you click ביצוע הפעולה יתחיל מיד אז היה מוכן ! ',
-'rbo_Reboot or shutdown' => 'הפעלה מחדש או כיבוי',
+# ORPHANED (no longer in reboot_en.lex; kept for reference, commented out by lex-to-po.pl): 'rbo_Reboot or shutdown' => 'הפעלה מחדש או כיבוי',

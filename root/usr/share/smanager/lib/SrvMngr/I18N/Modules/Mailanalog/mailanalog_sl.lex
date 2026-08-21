@@ -1,0 +1,25 @@
+'mai_FORM_TITLE' => 'E-mail LOG datoteka',
+'mai_INITIAL_DESC' => ' Analiza sistemske LOG e-mail datoteke lahko pomaga pri razumevanju delovanja in diagnozi pri tazavah z odposiljanjem e-poste. Na voljo je kar nekaj razlicnih vrst porocil. 
+#
+#  <p>Prosim bodi pozoren, ker lahko generiranje porocila traja kar nekaj casa. </p>
+#
+#  ',
+'mai_REPORT_TYPE' => 'Izberi vrsto porocila',
+'mai_GENERATE_REPORT' => 'Generiraj porocilo',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_LIST_OUTGOING' => 'Seznam odposlanih sporocil in prejemnikov',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SUMMARIZE_QUEUE' => 'Summarize status of mail queue',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SUCCESSFUL_DELIVERY_DELAY' => 'Uspesno odposlana posta z zakasnitvijo',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_DEFERRAL' => 'Vzrok za zakasnitev',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_FAILURE' => 'Vzrok za napako',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_BASIC_STATS' => 'Osnovna statistika',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_STATS' => 'Statistika prejemnikov',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_HOSTS' => 'Prejemnikovi host-i',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_ORDERED' => 'Prejemniki v boljsem redu mailing listo',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDER_STATS' => 'Statistika posiljateljev',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDMAIL_STYLE' => 'Sendmail stil log',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_SUCCESS' => 'Vzrok za uspeh',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDER_UIDS' => 'Posiljateljev uids',
+'mai_INVALID_REPORT_TYPE' => 'Napacna vrsta porocila:',
+'mai_REPORT_GENERATED' => 'Porocilo generirano:',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_END_OF_REPORT' => 'Konec porocila',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_Mail log file analysis' => 'Analiza E-mail log datoteke',

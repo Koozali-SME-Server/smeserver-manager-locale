@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Initial module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt-br\n"
+
+msgid "initial_FORM_TITLE"
+msgstr "Bem vindo ao gerenciador do servidor"
+
+msgid "initial_FRAMES_BODY"
+msgstr "  Bemvindo ao Servidor SME, a distribuição Linux lider em pequenas e médias empresas. O Servidor SME é oferecido a você por <a href=\"https://www.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a>, uma corporação sem fins lucrativos que existe para prover marketing e suporte legal para o servidor SME. \n\n  <p> O Servidor SME é livremente distribuido sobre a GNU (General Public License) o que somente é possível através dos esforços da comunidade do Servidor SME. Contudo, a disponibilidade e a qualidade do Servidor SME depende de podermos pagar nossas despesas com custos de hospedagem, custo de hardware e outros.</p>\n\n  <p>Para tal, lhe pedimos uma pequena doação para diminuir estes custos e ajudar a pagar desenvolvimentos futuros.</p>\n\n  <p><b>Por favor visite <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\">https://wiki.koozali.org/Donate</a> para fazer uma doação. </b></p>\n\n  <p>Este software vem sem NENHUMA GARANTIA. Por favor <a href=\"/smanager/support\" target=\"main\">clique aqui</a> para ver informações detalhadas sobre suporte, garantia e licenciamento.</p>\n\n  <p>Para realizar uma função administrativa, clique em um dos links no menu na esquerda desta tela.</p>\n\n  "
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "initial_NOFRAMES_BODY"
+#~ msgstr "  Esta é uma versão de desenvolvimento e sem suporte do Servidor Mitel Networks SME. Este software vem ABSOLUTAMENTE SEM NENHUMA GARANTIA. Por favor <a href=\"/smanager/support\" target=\"main\">clique aqui</a> para ver informações detalhadas sobre suporte, garantia e licença. \n\n  <p> <a href=\"/server-manager/noframes\">Clique aqui</a> para uma lista de funções de administração do sistema. </p>\n\n  "

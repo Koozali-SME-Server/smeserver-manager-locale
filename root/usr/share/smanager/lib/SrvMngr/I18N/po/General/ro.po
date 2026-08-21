@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager General module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+
+msgid "ACCESS"
+msgstr "Acces"
+
+msgid "ACCOUNT"
+msgstr "Cont"
+
+msgid "ACCOUNT_GROUP_NONE"
+msgstr "(en)There are no user groups in the system."
+
+msgid "ACCOUNT_LOCKED"
+msgstr "(en)Account is locked"
+
+msgid "ACCOUNT_NAME_INVALID"
+msgstr "(en)The account name entered is invalid."
+
+msgid "ACCOUNT_NAME_INVALID_CHARS"
+msgstr "(en)The account name you entered contained invalid characters."
+
+msgid "ACCOUNT_PASSWORD_CHANGE"
+msgstr "Schimbă parola contului"
+
+msgid "ACCOUNT_USER_NONE"
+msgstr "(en)There are no user accounts in the system."
+
+msgid "ACTION"
+msgstr "Acțiune"
+
+msgid "ADD"
+msgstr "Adaugă"
+
+msgid "APRIL"
+msgstr "Aprilie"
+
+msgid "AUGUST"
+msgstr "August"
+
+msgid "Administration"
+msgstr "Administrația"
+
+msgid "All rights reserved"
+msgstr "Toate drepturile rezervate"
+
+msgid "BACK"
+msgstr "Înapoi"
+
+msgid "BACKUP"
+msgstr "Copie de rezervă"
+
+msgid "CANCEL"
+msgstr "Anulare"
+
+msgid "COMMENT"
+msgstr "Comentariu"
+
+msgid "CONTENT"
+msgstr "Conținut"
+
+msgid "CREATE"
+msgstr "Creează"
+
+msgid "CREATE_GROUP"
+msgstr "(en)Create user group"
+
+msgid "Collaboration"
+msgstr "Colaborare"
+
+msgid "Configuration"
+msgstr "Configurare"
+
+msgid "DECEMBER"
+msgstr "Decembrie"
+
+msgid "DESCRIPTION"
+msgstr "Descriere"
+
+msgid "DESCRIPTION_BRIEF"
+msgstr "Scurtă descriere"
+
+msgid "DESC_SECTIONBAR"
+msgstr "  "
+
+msgid "DESTINATION"
+msgstr "Destinație"
+
+msgid "DISABLED"
+msgstr "Dezactivat"
+
+msgid "DOMAIN"
+msgstr "Domeniu"
+
+msgid "DOMAINS"
+msgstr "Domenii"
+
+msgid "DOMAIN_NAME"
+msgstr "Nume de domeniu"
+
+msgid "DOWNLOAD"
+msgstr "Descarcă"
+
+msgid "Date"
+msgstr "(en) Date"
+
+msgid "E-Mail"
+msgstr "(en) E-Mail"
+
+msgid "ENABLED"
+msgstr "Activat"
+
+msgid "END_OF_REPORT"
+msgstr "Sfârșitul raportului"
+
+msgid "ERROR_BELOW"
+msgstr "(en)ERROR: There was an error in the validation of this page. Please scroll down and find the specific problem."
+
+msgid "ERROR_INVALID_CHARS"
+msgstr "(en)Unexpected characters in description."
+
+msgid "ERROR_PASSWORD_CHANGE"
+msgstr "(en)An error occurred while attempting to change your password. Please make sure that the old password entered is correct."
+
+msgid "ERROR_UPDATING_CONFIGURATION"
+msgstr "(en)Error occurred while updating system configuration."
+
+msgid "FEBRUARY"
+msgstr "Februarie"
+
+msgid "FM_ERR_UNEXPECTED_DESC"
+msgstr "(en)Error: unexpected or missing characters in description"
+
+msgid "FM_IP_NUMBER1"
+msgstr "(en)This field must contain a valid IP number and can not be left blank."
+
+msgid "FM_IP_NUMBER2"
+msgstr "(en)Invalid IP address format (expected X.X.X.X)"
+
+msgid "FM_IP_NUMBER3"
+msgstr "[_1] is more than 255"
+
+msgid "FM_MAC_ADDRESS1"
+msgstr "(en)You must provide a MAC address."
+
+msgid "FM_MAC_ADDRESS2"
+msgstr "(en)The MAC address you provided was not valid."
+
+msgid "FM_NONBLANK"
+msgstr "(en)This field must not be left blank"
+
+msgid "FRIDAY"
+msgstr "Vineri"
+
+msgid "GROUP"
+msgstr "Grup"
+
+msgid "GROUPS"
+msgstr "Grupuri"
+
+msgid "GROUP_ADD"
+msgstr "Adaugă grup"
+
+msgid "GROUP_MEMBERS"
+msgstr "Membrii grupului"
+
+msgid "GROUP_NAME"
+msgstr "Nume grup"
+
+msgid "IP_ADDRESS"
+msgstr "Adresă e-mail"
+
+msgid "IP_ADDRESS_OR_FQDN"
+msgstr "(en)IP Address or FQDN"
+
+msgid "JANUARY"
+msgstr "Ianuarie"
+
+msgid "JULY"
+msgstr "Iulie"
+
+msgid "JUNE"
+msgstr "Iunie"
+
+msgid "LOCAL"
+msgstr "Local"
+
+msgid "LOCATION"
+msgstr "Locație"
+
+msgid "MARCH"
+msgstr "Martie"
+
+msgid "MAY"
+msgstr "Mai"
+
+msgid "MB"
+msgstr "Mb (megaocteți)"
+
+msgid "MODIFY"
+msgstr "Modifică"
+
+msgid "MODIFY_USER_GROUP"
+msgstr "(en)Modify user group"
+
+msgid "MONDAY"
+msgstr "Luni"
+
+msgid "Miscellaneous"
+msgstr "Diverse"
+
+msgid "NAME"
+msgstr "Nume"
+
+msgid "NETWORK"
+msgstr "Rețea"
+
+msgid "NETWORKS_ALLOW_LOCAL"
+msgstr "(en)Allow access only from local networks"
+
+msgid "NETWORKS_ALLOW_PUBLIC"
+msgstr "(en)Allow public access (entire Internet)"
+
+msgid "NEXT"
+msgstr "Următorul"
+
+msgid "NO"
+msgstr "Nu"
+
+msgid "NOVEMBER"
+msgstr "Noiembrie"
+
+msgid "NO_PIPES_ALLOWED"
+msgstr "(en)Pipe symbols (|) are not permitted in this field"
+
+msgid "OCTOBER"
+msgstr "Octombrie"
+
+msgid "OFF"
+msgstr "Dezactivat"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "ON"
+msgstr "Pornit"
+
+msgid "OPERATION_STATUS_REPORT"
+msgstr "Raport operațiune"
+
+msgid "PASSWORD"
+msgstr "Parolă"
+
+msgid "PASSWORD_CHANGE"
+msgstr "Schimbaţi-vă parola "
+
+msgid "PASSWORD_CHANGE_SUCCESS"
+msgstr "(en)Your password has been successfully changed."
+
+msgid "PASSWORD_INVALID_CHARS"
+msgstr "(en)The password you entered contained invalid characters."
+
+msgid "PASSWORD_NEW"
+msgstr "Parolă nouă:"
+
+msgid "PASSWORD_OLD"
+msgstr "Parola veche:"
+
+msgid "PASSWORD_OLD_INVALID_CHARS"
+msgstr "(en)The old password you entered contained invalid characters."
+
+msgid "PASSWORD_RESET"
+msgstr "Resetează parola"
+
+msgid "PASSWORD_VERIFY_ERROR"
+msgstr "(en)The passwords you entered did not match."
+
+msgid "PASSWORD_VERIFY_NEW"
+msgstr "(en)New password (verify):"
+
+msgid "PERFORM"
+msgstr "Execută"
+
+msgid "PHONE_VALIDATION"
+msgstr "(en) Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma."
+
+msgid "Please_Wait"
+msgstr "(en) Please Wait..."
+
+msgid "RECONFIGURE"
+msgstr "Reconfigurare"
+
+msgid "REMOTE"
+msgstr "Eliminare"
+
+msgid "REMOVE"
+msgstr "Eliminare"
+
+msgid "REMOVE_USER_GROUP"
+msgstr "(en)Remove user group"
+
+msgid "RESET_PASSWORD_TITLE"
+msgstr "(en)Reset user password"
+
+msgid "RESTORE"
+msgstr "Restaurează"
+
+msgid "ROUTER"
+msgstr "Router"
+
+msgid "Report a bug"
+msgstr "(en) Report a bug"
+
+msgid "SATURDAY"
+msgstr "Sâmbătă"
+
+msgid "SAVE"
+msgstr "Salvează"
+
+msgid "SELF"
+msgstr "Sine"
+
+msgid "SEPTEMBER"
+msgstr "Septembrie"
+
+msgid "SHUTDOWN"
+msgstr "Închidere"
+
+msgid "STRING_VALIDATION"
+msgstr "(en) String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty."
+
+msgid "SUCCESS"
+msgstr "Succes"
+
+msgid "SUNDAY"
+msgstr "Duminică"
+
+msgid "Security"
+msgstr "Securitate"
+
+msgid "THEME"
+msgstr "(en) Theme"
+
+msgid "THURSDAY"
+msgstr "Joi"
+
+msgid "TUESDAY"
+msgstr "marți"
+
+msgid "Time"
+msgstr "(en) Time"
+
+msgid "USER_INVALID"
+msgstr "Utilizator nevalid"
+
+msgid "USER_LIST_CURRENT"
+msgstr "(en)Current list of users"
+
+msgid "USER_NAME"
+msgstr "Nume de utilizator"
+
+msgid "User password"
+msgstr "Parola utilizatorului"
+
+msgid "WEDNESDAY"
+msgstr "Miercuri"
+
+msgid "YES"
+msgstr "Da"
+
+msgid "YOUR_ACCOUNT"
+msgstr "Contul tău:"
+
+msgid "YOUR_ACCOUNT_INVALID"
+msgstr "(en)The account name entered is invalid."
+
+msgid "Your Settings"
+msgstr "Setările tale"
+
+msgid "acs_ADMIN"
+msgstr "(en) Please login"
+
+msgid "cancel"
+msgstr "Anulează"
+
+msgid "del"
+msgstr "șterge"
+
+msgid "edit"
+msgstr "editează"
+
+msgid "exit"
+msgstr "Ieșire"
+
+msgid "hello"
+msgstr "Salut"
+
+msgid "info_dev_mode_and_public"
+msgstr "(en)Warning: Development or debug mode enabled AND public access is offered !"
+
+msgid "info_not_changed_password"
+msgstr "(en)Warning: you have not yet changed the default system password."
+
+msgid "info_reconfigure_required"
+msgstr "(en)Warning: a reconfigure and reboot is required before proceeding! Failure to do so now may leave your system in an unknown state!"

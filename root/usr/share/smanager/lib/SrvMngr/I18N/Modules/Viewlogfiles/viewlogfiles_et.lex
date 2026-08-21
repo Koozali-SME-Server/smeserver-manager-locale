@@ -1,4 +1,4 @@
-'log_View log files' => 'Vaata logifaile',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => 'Vaata logifaile',
 'log_FIRSTPAGE_DESC' => ' Siit saad vaadata või allalaadida logifaile mille on koostanud erinevad teenused selles serveris. ',
 'log_LOG_FILE_SELECT_DESC' => 'Vali logifail mida vaadata',
 'log_FILTER_PATTERN_DESC' => '(en)You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile.',
@@ -20,8 +20,8 @@
 
   ',
 'log_OP_LABEL' => 'Tegevus',
-'log_DOWNLOAD_PAGE_DESC' => ' Logifaili valmistatakse allalaadimiseks. Allalaadimine hakkab kohe kui vajutad &quot;Rdasi&quot; nuppu ja jälgid oma brauseri juhiseid nõustumaks faili allalaadimisega.
-
-  ',
-'log_DOWNLOAD_FILE' => '[_1] faili valmistatakse ette alladimiseks.',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Logifaili valmistatakse allalaadimiseks. Allalaadimine hakkab kohe kui vajutad &quot;Rdasi&quot; nuppu ja jälgid oma brauseri juhiseid nõustumaks faili allalaadimisega.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => '[_1] faili valmistatakse ette alladimiseks.',
 'log_FORM_TITLE' => 'Vaata logifaile',

@@ -1,4 +1,4 @@
-'log_View log files' => 'Log dosyalarını görüntüle',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => 'Log dosyalarını görüntüle',
 'log_FIRSTPAGE_DESC' => ' Bu panel, sunucuda çalışan hizmetlerin log dosyalarını görüntülemeyi ve indirmeyi sağlar. ',
 'log_LOG_FILE_SELECT_DESC' => 'Görmek istediğiniz log dosyasını seçin',
 'log_FILTER_PATTERN_DESC' => ' Görmek istediğiniz kelimeleri içeren satırları filtreleyebilirsiniz. Bir kelime belirtmediğiniz zaman log dosyasının tamamı görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => 'İşlem',
-'log_DOWNLOAD_PAGE_DESC' => ' Log dosyası indirmek için hazır. İndirmek için &quot;Next&quot; butonuna tıkladığınızda, dosya indirme pencersi belirecektir, dosyayı istediğiniz yere yükleyebilirsiniz.
-
-  ',
-'log_DOWNLOAD_FILE' => 'Log dosyası indirme için hazırlanıyor [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Log dosyası indirmek için hazır. İndirmek için &quot;Next&quot; butonuna tıkladığınızda, dosya indirme pencersi belirecektir, dosyayı istediğiniz yere yükleyebilirsiniz.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => 'Log dosyası indirme için hazırlanıyor [_1].',
 'log_FORM_TITLE' => 'Günlük dosyalarını görüntüle',

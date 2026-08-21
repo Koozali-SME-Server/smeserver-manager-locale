@@ -1,0 +1,604 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Backup module\n"
+"POT-Creation-Date: 2026-08-21 10:08+0100\n"
+"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+
+msgid "ALL_BACKUPS"
+msgstr "(en) ALL_BACKUPS"
+
+msgid "Backup or restore"
+msgstr "Архивиране или възстановяване"
+
+msgid "Mounted disk"
+msgstr "(en) Mounted disk"
+
+msgid "bac_ALL_BACKUPS"
+msgstr "Всички резервни копия"
+
+msgid "bac_AM"
+msgstr "AM"
+
+msgid "bac_AM/PM"
+msgstr "AM/PM"
+
+msgid "bac_ANOTHER_RESTORE_IN_PROGRESS"
+msgstr "В момента се извършва друго възстановяване. Моля, опитайте по-късно."
+
+msgid "bac_BACKUPS_RUN_AT"
+msgstr "Редовните резервни копия на лента ще се бъдат създавани в:"
+
+msgid "bac_BACKUP_CHOICE"
+msgstr "Избиране на файлове за показване"
+
+msgid "bac_BACKUP_CONFIG_STATUS"
+msgstr "Конфигурация и състояние на резервното копие"
+
+msgid "bac_BACKUP_DESC_DAR"
+msgstr "(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>\n\n  <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>\n\n  <p>Workstation backup. This method uses a software package called <i>dar</i> to back up your server configuration and data files to a network share or a local removable disk such as a USB disk. You can manage how many rotating sets of backups are kept, and how many incremental backups to have in each set. The backup is performed automatically at the selected time every day. Currently configuration and data files total approximately <b>[_3]</b> uncompressed. Twice the compressed data size must be available on the backup share.</p>\n\n  <p>Backup to Desktop. This method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how much the data can be compressed. This file can be used to restore the server from the console if you copy it to a local removable disk such as a USB disk.</p>\n\n  <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>"
+
+msgid "bac_BACKUP_DESKTOP_TOO_BIG"
+msgstr "Сървърът съдържа твърде много данни за надеждно копиране на локалния компютър."
+
+msgid "bac_BACKUP_FILE_INCOMPLETE"
+msgstr "Backup файла беше непълен"
+
+msgid "bac_BACKUP_TITLE"
+msgstr "Резервно копиране и възстановяване на данните на сървъра"
+
+msgid "bac_BETWEEN_0_AND_12"
+msgstr "Моля, изберете час между 0 и 12."
+
+msgid "bac_BETWEEN_0_AND_59"
+msgstr "Моля, изберете минута между 0 и 59."
+
+msgid "bac_CHECK_INTEGRITY_WARNING"
+msgstr "Внимание : За големи резервни копия проверката на интегритета може да бъде продължителна задача и би трябвало да се извършва когато ежедневното резервно копиране на работна станция е забранено."
+
+msgid "bac_CHECK_TO_VERIFY_FULL_RESTORE"
+msgstr "Проверете тук интегритета на всички резервни копия, необходими за пълно възстановяване с избраното резервно копие"
+
+msgid "bac_COMPRESSION_LEVEL"
+msgstr "Ниво на компресията за резервното копие ~[0-9~]"
+
+msgid "bac_CONFIGURATION_TO_BE_DONE"
+msgstr "Моля, конфигурирайте настройките за резервно копиране."
+
+msgid "bac_CONFIGURE_TAPE_BACKUP"
+msgstr "Конфигуриране на резервно копие на лента"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP"
+msgstr "Настройване на резервно копиране на работна станция"
+
+msgid "bac_CONFIGURE_WORKSTN_BACKUP_DESC"
+msgstr "Можете да зададете броя на последователните комплекти от резервни копия, които да се пазят на работната станция с автоматично завъртане на комплектите. Всеки комплект може да съдържа записани данни за няколко последователни дни. В този случай първото резервно копие в комплекта е пълно копие, а другите ежедневни копия са с натрупване. Можете също да зададете ограничение за времето за всяка сесия за копиране или само за копията с натрупване. Когато се достигне такова ограничение, резервното копиране се спира по внимателен начин и следващото копиране с натрупване ще продължи без проблем с незаписаните и модифицираните данни."
+
+msgid "bac_COULD_NOT_DECODE"
+msgstr "Не можа да се декодира backup файла:"
+
+msgid "bac_COULD_NOT_EXEC_PIPELINE"
+msgstr "Не можа да се изпълни backup pipeline:"
+
+msgid "bac_COULD_NOT_FORK"
+msgstr "Не може да се разклони:"
+
+msgid "bac_DESKTOP_BACKUP"
+msgstr "Резервно копие в компютъра"
+
+msgid "bac_DESKTOP_RESTORE"
+msgstr "Възстановяване от компютъра"
+
+msgid "bac_DESKTOP_RESTORE_DESC"
+msgstr " Този процес ще зареди сървърен backup файл от локалния Ви desktop на Вашия сървър и ще възстанови конфигурацията и потребителските файлове с данни. Рestore -ът трябва да бъде извършен на прясно инсталиран сървър. "
+
+msgid "bac_DESKTOP_VERIFY"
+msgstr "Проверка на файла с резервното копие в компютъра"
+
+msgid "bac_DOW"
+msgstr "Неделя Понеделник Вторник Сряда Четвъртък Петък Събота Ежедневно"
+
+msgid "bac_ENABLE_DISABLE_TAPE"
+msgstr "Разрешаване/Забраняване на нощен backup на лента"
+
+msgid "bac_ENABLE_DISABLE_WORKSTN"
+msgstr "Разрешаване/Забраняване на ежедневно резервно копиране на работна станция"
+
+msgid "bac_ENABLE_TAPE_BACKUP"
+msgstr "Разрешаване на резервно копиране на лента"
+
+msgid "bac_ENABLE_WORKSTN_BACKUP"
+msgstr "Разрешаване на резервно копиране на работна станция"
+
+msgid "bac_ERROR_READING_FILE"
+msgstr "Грешка при четене на файловете от"
+
+msgid "bac_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "bac_ERROR_WHEN_TESTING_REMOTE_SERVER"
+msgstr "(en)The parameters have been saved, however the remote host is not reachable, please check your settings."
+
+msgid "bac_ERR_ALREADY_MOUNTED"
+msgstr "Директорията за резервни копия вече е монтирана"
+
+msgid "bac_ERR_CONF_BACKUP"
+msgstr "Възникна грешка по време на събитието conf-backup."
+
+msgid "bac_ERR_DAR_CATALOG"
+msgstr "Грешка при използването на каталога на Dar"
+
+msgid "bac_ERR_EXTRACT"
+msgstr "Грешка при извличане с Dar"
+
+msgid "bac_ERR_INVALID_COMPRESSION"
+msgstr "Нивото на компресия трябва да бъде между 0 (няма компресия) и 9 (максимална компресия)"
+
+msgid "bac_ERR_INVALID_FILES_IN_SET_NUMBER"
+msgstr "Броя трябва да бъде 1 или повече. Първото копие в комплекта е пълно, другите са с натрупване"
+
+msgid "bac_ERR_INVALID_FOLDER"
+msgstr "Некоректно име на споделената папка"
+
+msgid "bac_ERR_INVALID_HOUR"
+msgstr "Грешка: некоректен час за резервно копиране:"
+
+msgid "bac_ERR_INVALID_LOGIN"
+msgstr "Некоректно име за влизане"
+
+msgid "bac_ERR_INVALID_MINUTE"
+msgstr "Грешка: некоректна минута за резервно копиране:"
+
+msgid "bac_ERR_INVALID_PASSWORD"
+msgstr "Некоректна парола"
+
+msgid "bac_ERR_INVALID_REMINDER_HOUR"
+msgstr "Грешка: некоректен час за напомняне:"
+
+msgid "bac_ERR_INVALID_REMINDER_MINUTE"
+msgstr "Грешка: некоректна минута на подсещане:"
+
+msgid "bac_ERR_INVALID_SELDATE"
+msgstr "Некоректен формат на датата, трябва да е ~[ ~[ ~[гггг/~]мм/~]дд-~]чч:мм~[:сс~]. т.е.: 2005/12/31-08:23:32 или 10-08:32 или 08:32"
+
+msgid "bac_ERR_INVALID_SETS_NUMBER"
+msgstr "Броя на комплектите трябва да бъде 1 или повече"
+
+msgid "bac_ERR_INVALID_SETS_NUMBERFOLDER"
+msgstr "(en) Err invalid sets numberfolder"
+
+msgid "bac_ERR_INVALID_TIMEOUT"
+msgstr "Максималното време за резервно копиране трябва да бъде между 1 и 24 часа"
+
+msgid "bac_ERR_INVALID_WORKSTN"
+msgstr "Некоректен IP адрес или име на работната станция"
+
+msgid "bac_ERR_MOUNTING_SMBSHARE"
+msgstr "Невъзможно е да се монтира споделената папка от работната станция"
+
+msgid "bac_ERR_NOT_MOUNTED"
+msgstr "Директорията за резервни копия не е монтирана"
+
+msgid "bac_ERR_NO_FULL_BACKUP"
+msgstr "Прекъсване на възстановяването, защото необходимото пълно резервно копие липсва или не се чете."
+
+msgid "bac_ERR_NO_HOST_DIR"
+msgstr "Няма папка за вашия сървър в споделената папка. Може би името на сървъра е различно от това на резервните копия"
+
+msgid "bac_ERR_NO_INC_BACKUP"
+msgstr "Прекъсвам възстановяването защото комплекта има липсващ или нечитаем номер на резервно копие с наслагване"
+
+msgid "bac_ERR_NO_MOUNTED_DISK"
+msgstr "Грешка : Няма наличен USB-диск. Моля, свържете USB-диск или изберете друг вид споделена папка за резервното копие"
+
+msgid "bac_ERR_NO_USB_DISK"
+msgstr "Грешка : Няма наличен USB-диск. Моля, свържете USB-диск или изберете друг вид споделена папка за резервното копие"
+
+msgid "bac_ERR_POST_BACKUP"
+msgstr "Възникна грешка по време на операциите след резервното копиране."
+
+msgid "bac_ERR_PRE_BACKUP"
+msgstr "Възникна грешка по време на подготовката за резервното копиране."
+
+msgid "bac_ERR_PRE_RESTORE"
+msgstr "Възникна грешка по време на подготовката за възстановяване."
+
+msgid "bac_ERR_READING_FILE"
+msgstr "Имаше грешка при четенето на backup файла."
+
+msgid "bac_ERR_RESTORING_FROM_TAPE"
+msgstr "Възникна грешка при възстановяването на файловете от лентата."
+
+msgid "bac_ERR_RESTORING_FROM_WORKSTN"
+msgstr "Възникна грешка при възстановяване на файловете от работната станция."
+
+msgid "bac_ERR_RESTORING_GID"
+msgstr "Възникна грешка по време при възстановяването на gid на 'www'"
+
+msgid "bac_ERR_RESTORING_INITIAL_GRP"
+msgstr "Възникна грешка по време при възстановяването на първоначалната група 'www'."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_TAPE_RESTORE"
+msgstr "Възникна грешка при актуализацията на системната конфигурация след възстановяване от лента."
+
+msgid "bac_ERR_UPDATING_CONF_AFTER_WORKSTN_RESTORE"
+msgstr "Възникна грешка при актуализиране на системната конфигурация след възстановяване от работна станция."
+
+msgid "bac_ERR_WHILE_UNMOUNTING"
+msgstr "Възникна грешка при размонтирането на отдалечената споделена папка"
+
+msgid "bac_FILES_HAVE_BEEN_RESTORED"
+msgstr "Следните файлове и директории бяха възстановени:"
+
+msgid "bac_FILES_IN_BACKUP"
+msgstr "Следните файлове са предвидени за backup :"
+
+msgid "bac_FILE_TO_RESTORE"
+msgstr "Backup файл от който да се възстанови"
+
+msgid "bac_FILTER_EXPRESSION"
+msgstr "Имената, филтрирани по"
+
+msgid "bac_FINISHED_AT"
+msgstr "и завърши:"
+
+msgid "bac_FREE_SPACE"
+msgstr " Имате приблизително $tmpfree свободно място на сървъра. Проверете дали резервното копие в компютъра Ви е по-малко от $halffree преди да започне възстановяването. "
+
+msgid "bac_FULL_ONLY_ON"
+msgstr "Пълно резервно копие е разрешено на"
+
+msgid "bac_HOURS"
+msgstr "часа."
+
+msgid "bac_INC_ONLY_TIMEOUT"
+msgstr "Не ограничавай времето на сесиите за пълно резервно копие"
+
+msgid "bac_INVALID_FUNCTION"
+msgstr "(en) Invalid function"
+
+msgid "bac_LOAD_TAPE_REMINDER_TIME"
+msgstr "Време за напомняне за зареждане на лентата (час/мин.)"
+
+msgid "bac_LOGIN"
+msgstr "Името за влизане"
+
+msgid "bac_MUST_REBOOT_AFTER_RESTORE"
+msgstr "След като завърши възстановяването трябва да рестартирате сървъра."
+
+msgid "bac_Mounted disk"
+msgstr "Инсталирани дискове"
+
+msgid "bac_NOW_RESTORING_FROM_TAPE"
+msgstr "Конфигурацията на сървъра и потребителските файлове с данни започнаха да се възстановяват от лентата."
+
+msgid "bac_NOW_RESTORING_FROM_WORKSTN"
+msgstr "Конфигурацията и потребителските файлове с данни се възстановяват от споделена папка на работната станция."
+
+msgid "bac_NO_BACKUPS_TO_RESTORE"
+msgstr "Няма комплект от резервни копия в споделената папка на настроената работна станция. Проверете настройките в конфигурацията."
+
+msgid "bac_NO_UID_FOR_NAME"
+msgstr "Не може да се вземе uid на потребител с име:"
+
+msgid "bac_NUMBER_OF_FILES_IN_SET"
+msgstr "Ежедневни резервни копия във всеки комплект"
+
+msgid "bac_NUMBER_OF_SETS"
+msgstr "Брой комплекти от резервни копия за въртене"
+
+msgid "bac_No suitable local devices found"
+msgstr "Не са открити подходящи локални устройства"
+
+msgid "bac_OPERATION_STATUS_REPORT"
+msgstr "(en) Operation status report"
+
+msgid "bac_PAGE_REFRESH_IN"
+msgstr " Тази страница ще се обнови за да покаже състоянието след [_1] секунди, или щракнете тук. "
+
+msgid "bac_PASSWORD"
+msgstr "паролата е"
+
+msgid "bac_PM"
+msgstr "PM"
+
+msgid "bac_READ_COMPLETE"
+msgstr " Можете да изберете всички папки и файлове, които искате да се възстановят от показания списък (използвайте ctrl или shift за множествен избор).  Внимание : Ако изберете папка, то всички файлове и папки в нея ще бъдат възстановени. По подразбиране се възстановява последната версия на избраните файлове, но ако зададете дата във формат ~[ ~[ ~[гггг/~]мм/~]дд-~]чч:мм~[:сс~] процесът ще възстанови само последната версия модифицирана преди посочената дата. "
+
+msgid "bac_REBOOT"
+msgstr "Рестартиране"
+
+msgid "bac_REFRESH_THIS_DISPLAY"
+msgstr "Опресняване на този екран"
+
+msgid "bac_REMINDER_MESSAGE_AT"
+msgstr "Напомнящите съобщения ще бъдат изпращани на:"
+
+msgid "bac_RESTORE_CANNOT_PROCEED"
+msgstr "Не може да се продължи с възстановяването на сървърната конфигурация"
+
+msgid "bac_RESTORE_COMPLETE"
+msgstr "Възстановяването завърши"
+
+msgid "bac_RESTORE_COMPLETED"
+msgstr "Възстановяването на системата приключи"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE"
+msgstr "Възстановяване на конфигурацията на сървъра от резервно копие на лента"
+
+msgid "bac_RESTORE_CONF_FROM_TAPE_DESC"
+msgstr " <p>Този процес ще възстанови конфигурацията и потребителските файлове с данни от резервно копие на сървъра върху лента. <b>Възстановяването трябва бъде извършено на току що (прясно) инсталиран сървър</b>.</p>\n\n  <p>Уверете се че сте заредили касетата с исканото резервно копие в устройството преди да продължите.</p>\n\n  <p>След приключване на възстановяването трябва да рестартирате сървъра.</p>\n\n  "
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN"
+msgstr "Възстановяване на конфигурацията на сървъра от резервно копие на работна станция"
+
+msgid "bac_RESTORE_CONF_FROM_WORKSTN_DESC"
+msgstr " <p>Този процес ще възстанови конфигурацията и потребителските файлове с данни резервно копие на сървъра върху работна станция. <b>Възстановяването трябва да бъде направено на току що (\"прясно\") инсталиран сървър</b>.</p>\n\n  <p>Уверете се че избрали правилното резервно копие по-долу преди да продължите.</p>\n\n  <p>След като приключи възстановяването трябва да рестартирате сървъра.</p>\n\n  Възстановяването ще стане от следното резервно копие : "
+
+msgid "bac_RESTORE_FAILED"
+msgstr "Възстановяването бе неуспешено! Backup файлът беше непълен."
+
+msgid "bac_RESTORE_FAILED_MSG"
+msgstr "Възстановяването е неуспешено! Има грешка при четенето на backup файла."
+
+msgid "bac_RESTORE_FROM_TAPE"
+msgstr "Възстановяване от лента"
+
+msgid "bac_RESTORE_FROM_WORKSTN"
+msgstr "Възстанови от работна станция"
+
+msgid "bac_RESTORE_IN_PROGRESS"
+msgstr "Извършва се възстановяване"
+
+msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
+msgstr "Извършва възстановяване на системата. То започна в:"
+
+msgid "bac_RESTORE_IN_PROGRESS_DESC"
+msgstr "След като възстановяването завърши трябва да рестартирате сървъра. Възстановяването ще приключи, когато се появи надписът \"Възстановяването завърши\" в долния край на екрана."
+
+msgid "bac_RESTORE_SERVER_CONFIG"
+msgstr "Възстановяване на конфигурацията на сървъра"
+
+msgid "bac_RESTORE_VERIFY_FAILED"
+msgstr "Проверете датата и часа"
+
+msgid "bac_RESTORING_FROM_TAPE"
+msgstr "Възстановяване от лента"
+
+msgid "bac_RESTORING_FROM_WORKSTN"
+msgstr "Възстановяване от работна станция"
+
+msgid "bac_SELECT_AN_ACTION"
+msgstr "Изберете действие"
+
+msgid "bac_SELECT_BACKUP_FILE"
+msgstr "Изберете backup файл"
+
+msgid "bac_SELECT_DATE_BEFORE"
+msgstr "Възстановяване на най-новия преди"
+
+msgid "bac_SELECT_FILES_TO_RESTORE"
+msgstr "Изберете файлове за възстановяване"
+
+msgid "bac_SELECT_VFS_TYPE"
+msgstr "Изберете вида на споделената папка, предназначена за резервното копие"
+
+msgid "bac_SERVER_REBOOT"
+msgstr "Рестарт на сървъра"
+
+msgid "bac_SERVER_WILL_REBOOT"
+msgstr "Сега сървъра ще се рестартира."
+
+msgid "bac_SHARED_FOLDER_NAME"
+msgstr "Споделена папка за резервно копиране"
+
+msgid "bac_STARTED_AT"
+msgstr "Започна:"
+
+msgid "bac_SUCCESS"
+msgstr "(en) Success"
+
+msgid "bac_SUCCESSFULLY_DISABLED"
+msgstr "Успешно забранихте резервно копиране на лента"
+
+msgid "bac_SUCCESSFULLY_DISABLED_WORKSTN"
+msgstr "Успешно забраняване на резервно копиране на работна станция"
+
+msgid "bac_SUCCESSFULLY_ENABLED_TAPE"
+msgstr "Успешно разрешихте резервно копиране на лента"
+
+msgid "bac_SUCCESSFULLY_ENABLED_WORKSTN"
+msgstr "Успешно разрешаване на резервно копиране на работна станция"
+
+msgid "bac_TAPE_BACKUPS"
+msgstr "Архивирането на лента е"
+
+msgid "bac_TAPE_BACKUP_TIME"
+msgstr "Време за резервното копиране на лента (час/мин.)"
+
+msgid "bac_TAPE_CONFIGURE"
+msgstr "Конфигуриране на резервно копие на лента"
+
+msgid "bac_TAPE_CONFIG_DESC"
+msgstr " <p>Изберете дали искате да разрешите нощно резервно копиране. След това посочете желаното време за резервното копиране и за напомнянето за зареждане на лентата.</p>\n\n  <p>Резервното копиране на лента изисква използването на поддържано устройство за ленти. Ще бъде изпратено напомнящо съобщение до администратора, когато настъпи времето посочено за напомняне ако устройството е празно.</p>\n\n  "
+
+msgid "bac_TAPE_RESTORE"
+msgstr "Възстановяване от лента"
+
+msgid "bac_TESTED_BACKUP"
+msgstr "Тестване на интегритета на резервното копие"
+
+msgid "bac_TESTING_NEEDED_BACKUPS_FOR_RESTORE"
+msgstr "Проверяване на всички резервни копия, необходими за пълно възстановяване с избраното резервно копие"
+
+msgid "bac_UNABLE_TO_RESTORE_CONF"
+msgstr "Не може да се възстанови конфигурацията на сървъра"
+
+msgid "bac_UPDATE_CONF"
+msgstr "Обновяване"
+
+msgid "bac_UPDATING_TAPE_CONF"
+msgstr "Обновяване на конфигурацията на резервното копиране на лента"
+
+msgid "bac_UPDATING_WORKSTN_CONF"
+msgstr "Актуализация на конфигурацията на резервното копиране на работна станция"
+
+msgid "bac_VERIFY"
+msgstr "Провери"
+
+msgid "bac_VERIFY_BACKUP_DESC"
+msgstr " <p>Тази настройка ще покаже имената на всички файлове в направения преди това backup файл. Можете да използвате тази възможност за да проверите съдържанието на backup файла.</p>\n\n  "
+
+msgid "bac_VERIFY_COMPLETE"
+msgstr "Проверката е завършена"
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_DESC"
+msgstr " <p>Тази настройка ще покаже имената на всички файлове от направени преди това ежедневни резервни копия на работна станция. Можете да използвате тази настройка за да проверите съдържанието на резервното копие. <b>Трябва да изберете резервното копие, което искате да проверите</b></p>\n\n  <p>Само файлове маркирани със ~[запазен~] са част от резервното копие.</p>\n\n  <br/>Файловете от резервните копия се проверяват от споделената папка : "
+
+msgid "bac_VERIFY_WORKSTN_BACKUP_FILE"
+msgstr "Проверка на резервно копие върху работна станция"
+
+msgid "bac_WITH_BACKUP_TIME"
+msgstr "с време за създаване:"
+
+msgid "bac_WITH_REMINDER_TIME"
+msgstr "и време за напомняне за зареждане на лентата:"
+
+msgid "bac_WKBACKUPS_RUN_AT"
+msgstr "Редовните резервни копия на лента ще се бъдат създавани в:"
+
+msgid "bac_WORKSTATION_BACKUP_DEST"
+msgstr "Настройки за резервни копия на работна станция"
+
+msgid "bac_WORKSTATION_BACKUP_SETCONF"
+msgstr "Създаване и промяна на конфигурация за резервно копиране на работна станция"
+
+msgid "bac_WORKSTN_BACKUPS"
+msgstr "Архивните копия на работната станция са"
+
+msgid "bac_WORKSTN_BACKUP_COMPRESSION"
+msgstr "нивото на компресия (0-9) на резервното копие е"
+
+msgid "bac_WORKSTN_BACKUP_DAYSINSET"
+msgstr "Броят на ежедневни резервни копия, съдържащи се във всеки набор е"
+
+msgid "bac_WORKSTN_BACKUP_DESC"
+msgstr " <p>Този панел показва текущата конфигурация на резервното копиране на работна станция. Можете да я промените в този панел и в следващия.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_ENABLED"
+msgstr "Резервното копиране е"
+
+msgid "bac_WORKSTN_BACKUP_HOST"
+msgstr "Резервното копие е направено на компютър в LAN-a"
+
+msgid "bac_WORKSTN_BACKUP_INCONLY_TIMEOUT"
+msgstr "с изключение на пълното резервно копиране, което ще бъде прекъснато надеждно след 24 часа"
+
+msgid "bac_WORKSTN_BACKUP_MNT"
+msgstr "Резервното копие е направено на локален USB диск"
+
+msgid "bac_WORKSTN_BACKUP_NOT_CONFIGURED"
+msgstr " <p>В момента резервното копиране на работна станция не е конфигурирано. Можете да зададете тази конфигурация в този панел и в следващия.</p>\n\n  <p/> "
+
+msgid "bac_WORKSTN_BACKUP_SETSNUM"
+msgstr "Броят на въртящи се набори от резервни копия е"
+
+msgid "bac_WORKSTN_BACKUP_SETTINGS"
+msgstr "Настройки на резервно копиране на работна станция"
+
+msgid "bac_WORKSTN_BACKUP_SHARE"
+msgstr "Споделената папка, определена за резервно копиране е"
+
+msgid "bac_WORKSTN_BACKUP_TIME"
+msgstr "Време за резервно копиране на работна станция (час/мин.)"
+
+msgid "bac_WORKSTN_BACKUP_TIMEOUT"
+msgstr "Всяко ежедневно резервно копиране ще бъде прекъснато надеждно след"
+
+msgid "bac_WORKSTN_BACKUP_TOD"
+msgstr "Ежедневното резервно копиране се извършва в"
+
+msgid "bac_WORKSTN_BACKUP_USB"
+msgstr "Резервното копие е направено на локален USB диск"
+
+msgid "bac_WORKSTN_BACKUP_VFSTYPE"
+msgstr "чрез"
+
+msgid "bac_WORKSTN_CONFIGURE"
+msgstr "Настройване на резервни копия върху работна станция"
+
+msgid "bac_WORKSTN_FULL_BACKUP_DAY"
+msgstr "Сесиите за пълно резервно копиране (нов комплект копия) са позволени само в"
+
+msgid "bac_WORKSTN_FULL_BACKUP_EVERYDAY"
+msgstr "Сесиите за пълно резервно копиране (нов комплект копия) са позволени всеки ден"
+
+msgid "bac_WORKSTN_LOGIN"
+msgstr "Име за влизане"
+
+msgid "bac_WORKSTN_NAME"
+msgstr "IP адрес или име на работната станция"
+
+msgid "bac_WORKSTN_NOT_SET"
+msgstr "Най-напред трябва правилно да конфигурирате резервното копиране на работна станция"
+
+msgid "bac_WORKSTN_RESTORE"
+msgstr "Възстановяване от работна станция"
+
+msgid "bac_WORKSTN_SELECTIVE_RESTORE"
+msgstr "Избирателно възстановяване на файлове от работната станция"
+
+msgid "bac_WORKSTN_SEL_RESTORE"
+msgstr "Избирателно възстановяване на файлове от работна станция"
+
+msgid "bac_WORKSTN_SEL_REST_DESC"
+msgstr " Този процес ще възстанови само избраните файлове и папки. Първо трябва да изберете резервно копие от което файловете ще бъдат възстановени. Ако не знете в кое резервно копие са нужните файлове, можете да изберете от 'Всички резервни копия'.  Следващи панел ще покаже наличните файлове и папки, така че ще можете да изберете тези, които искате да се възстановяват. За да се ограничи броя на файловете и папките показани в този панел имате възможност да зададете филтриращ израз, който ще бъде зададен като регулярен израз /regex/ спрямо показаните имена. Отговорността да не възстановявате файлове, които биха нарушили функционирането на сървъра е Ваша. В момента файловете ще бъдат възстановявани от : "
+
+msgid "bac_WORKSTN_TIMEOUT"
+msgstr "Незадължителен таймаут на сесията за копиране (часове)"
+
+msgid "bac_WORKSTN_VERIFY"
+msgstr "Проверка на резервно копие върху работна станция"
+
+msgid "bac_X_BACKUP_OR_RESTORE"
+msgstr "X резервно копие или възстановяване на данните от сървъра"
+
+msgid "bac_YOU_MUST_REBOOT"
+msgstr "Трябва да рестартирате сървъра за да активирате промените в конфигурацията, които са направени вследствие на възстановяването на системата."
+
+msgid "bac_cifs"
+msgstr "cifs"
+
+msgid "bac_local removable disk"
+msgstr "Резервното копие е направено на локален USB диск"
+
+msgid "bac_nfs"
+msgstr "nfs"
+
+msgid "cifs"
+msgstr "(en) cifs"
+
+msgid "local removable disk"
+msgstr "(en) local removable disk"
+
+msgid "nfs"
+msgstr "(en) nfs"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bac_BACKUP_DESC"
+#~ msgstr " <p>Сървърът предоставя два начина за резервното си копиране и възстановяване: коато използвате локалния компютър и чрез лентово устройство.</p>\n\n  <p>Първият метод създава копие на конфигурацията на сървъра и потребителските файлове с данни, и го сваля на локалния компютър чрез браузъра. В момента конфигурацията и файловете с данни са с приблизителен размер <b>[_3]</b>. Файлът с резервното копие ще бъде около или по-малко от това, в зависимост степента на компресия на данните. Можете да използвате \\\"Проверка на файл с резервно копие в компютъра\\\" за да проверите интегритета на файла с резервното копие в локалния компютър.</p>\n\n  <p>Методът за резервно копиране на лента използва софтуерен пакет, наречен <i>[_1]</i> за да създаде резервно копие на целия твърд диск на лента всяка нощ. Това изисква използването на поддържано устройство за лента и касета с лента, която не е защитена срещу запис. Резервното копиране се извършва автоматично в избраното време всяка нощ (с напомняне, което се праща по електронната поща на администратора през деня). В момента твърдият диск съдържа <b>[_2]</b> данни.</p>\n\n  <p>И двата метода за възстановяване позволяват връщането на конфигурацията и потребителските файлове с данни. <b>В идеалния случай възстановяването трябва да се извърши върху току що (прясно) инсталиран сървър</b>.</p>\n\n  "
+#~ msgid "bac_Backup or restore"
+#~ msgstr "Резервно копиране или възстановяване"
+#~ msgid "bac_TAPE_BACKUPS_DISABLED"
+#~ msgstr " Резервните копия върху лента са забранени "
+#~ msgid "bac_TAPE_BACKUPS_ENABLED"
+#~ msgstr " Резервните копия върху лента са забранени "
+#~ msgid "bac_WORKSTN_BACKUPS_DISABLED"
+#~ msgstr " Резервните копия върху лента са забранени "
+#~ msgid "bac_WORKSTN_BACKUPS_ENABLED"
+#~ msgstr " Резервното копиране върху работна станция е разрешено. "

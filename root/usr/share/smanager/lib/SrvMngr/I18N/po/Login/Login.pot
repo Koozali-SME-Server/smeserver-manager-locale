@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Login module\n"
+"POT-Creation-Date: 2026-08-21 10:19+0100\n"
+"PO-Revision-Date: 2026-08-21 10:19+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Goodbye !
+msgid "use_BYE"
+msgstr ""
+
+#. Confirm Password Reset
+msgid "use_CONFIRM_RESET"
+msgstr ""
+
+#. Please enter an account name for a password reset !
+msgid "use_DESC_RESET"
+msgstr ""
+
+#. Enter a valid account name
+msgid "use_ERR_NAME"
+msgstr ""
+
+#. Forgot password ?
+msgid "use_FORGOT"
+msgstr ""
+
+#. Password reset\n\nClick the following link to reset your password. If you have not requested the password reset, then ignore this email.\n\n[_1]
+msgid "use_GO_TO_URL"
+msgstr ""
+
+#. Invalid input data, Try again
+msgid "use_INVALID_DATA"
+msgstr ""
+
+#. Error: your request is invalid or outdated
+msgid "use_INVALID_REQUEST"
+msgstr ""
+
+#. Operation not allowed for this account.
+msgid "use_NOT_THAT_OPER"
+msgstr ""
+
+#. You are about to reset your user account password
+msgid "use_OK_FOR_RESET"
+msgstr ""
+
+#. Reset Password
+msgid "use_RESET"
+msgstr ""
+
+#. A password reset message has been sent to the e-mail address of this account.\nIf you do not receive it, check your spam/junk folders or ask your local administrator for help.<br>\nIf it is not there ask your local administrator.
+msgid "use_RESET_REGISTERED"
+msgstr ""
+
+#. Sign in
+msgid "use_SIGNIN"
+msgstr ""
+
+#. Sorry try again
+msgid "use_SORRY"
+msgstr ""
+
+#. User login
+msgid "use_TITLE"
+msgstr ""
+
+#. Login access blocked !!Too many failed login attempts.  Try again later
+msgid "use_TOO_MANY_LOGIN"
+msgstr ""
+
+#. Welcome Back!
+msgid "use_WELCOME"
+msgstr ""

@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Proxy module\n"
+"POT-Creation-Date: 2026-08-21 10:22+0100\n"
+"PO-Revision-Date: 2026-08-21 10:22+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+
+msgid "Proxy settings"
+msgstr "Proxy"
+
+msgid "prx_BLOCKED"
+msgstr "Bloccato"
+
+msgid "prx_ERR_NO_SQUID_REC"
+msgstr "ERRORE: Non c'è il record squid nel database di configurazione."
+
+msgid "prx_ERR_PROXY_UPDATE_FAILED"
+msgstr "ERRORE: L'evento proxy-update ha restituito un errore."
+
+msgid "prx_FIRST_PAGE_DESCRIPTION"
+msgstr "Questa pagina permette la configurazione dei proxy del server. Il server include un proxy trasparente e una cache per il traffico HTTP, abilitati di default, a meno che il server sia in modalità &quot;serveronly&quot;. Se vengono utilizzate le funzionalità e-mail del server, le connessioni dei client della rete locale ai server SMTP esterni saranno reindirizzate al server di posta locale."
+
+msgid "prx_HTTP_PROXY_STATUS_DESCRIPTION"
+msgstr "Il server proxy HTTP riduce l'uso della banda memorizzando le pagine visitate recentemente. Questo processo di caching è trasparente ai browser che usano questo server come gateway."
+
+msgid "prx_HTTP_PROXY_STATUS_LABEL"
+msgstr "Stato proxy HTTP"
+
+msgid "prx_Proxy"
+msgstr "Proxy"
+
+msgid "prx_SMTP_PROXY_STATUS_DESCRIPTION"
+msgstr "Il proxy trasparente SMTP riduce il traffico da virus intercettando tutto il traffico in uscita e constringendolo a passare attraverso il server se è impostato su \"abilitato\". Se è necessario utilizzare un server SMTP alternativo e questo server è il gateway di rete, disabilitare il proxy SMTP. Impostando il proxy SMTP su \"bloccato\" impedisce il traffico SMTP verso altri server (default). Il proxy intecetta/blocca solo il traffico smtp normale (porta 25)."
+
+msgid "prx_SMTP_PROXY_STATUS_LABEL"
+msgstr "Stato proxy SMTP"
+
+msgid "prx_SUCCESS"
+msgstr "La nuova configurazione del proxy è stata applicata con successo."
+
+msgid "prx_TITLE"
+msgstr "Impostazioni proxy"

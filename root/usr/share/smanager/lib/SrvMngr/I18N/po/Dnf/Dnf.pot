@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Dnf module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Groups
+msgid "Groups"
+msgstr ""
+
+#. Packages
+msgid "Packages"
+msgstr ""
+
+#. Start
+msgid "Start"
+msgstr ""
+
+#. Daily
+msgid "yum_1DAILY"
+msgstr ""
+
+#. Weekly
+msgid "yum_2WEEKLY"
+msgstr ""
+
+#. Monthly
+msgid "yum_3MONTHLY"
+msgstr ""
+
+#. Autoinstallupdates
+msgid "yum_AutoInstallUpdates"
+msgstr ""
+
+#. Change software installer settings
+msgid "yum_BUTTON_CONFIGURATION"
+msgstr ""
+
+#. Install additional software
+msgid "yum_BUTTON_INSTALL_AVAILABLE"
+msgstr ""
+
+#. List available updates
+msgid "yum_BUTTON_INSTALL_UPDATES"
+msgstr ""
+
+#. Remove installed software
+msgid "yum_BUTTON_REMOVE"
+msgstr ""
+
+#. You can select software groups\n to install from the list below.
+msgid "yum_DESC_AVAILABLE_GROUPS"
+msgstr ""
+
+#. You can also select individual packages \n to install from the list below. 
+msgid "yum_DESC_AVAILABLE_PACKAGES"
+msgstr ""
+
+#. The following updates are available for your system. \n You should normally install all available updates. \n If there are updates you do not wish to install, de-select\n them from the list below.
+msgid "yum_DESC_AVAILABLE_UPDATES"
+msgstr ""
+
+#. The software installer can install software\n from any of enabled repositories. To enable\n a repository, select it from the list. \n To disable a repository, de-select it from the list.\n By default, only stable, tested software is available\n for installation.
+msgid "yum_DESC_ENABLED_REPOSITORIES"
+msgstr ""
+
+#. You can select software groups\n to remove from the list below.
+msgid "yum_DESC_INSTALLED_GROUPS"
+msgstr ""
+
+#. You can also select individual packages \n you wish to remove from the list below.
+msgid "yum_DESC_INSTALLED_PACKAGES"
+msgstr ""
+
+#. There are updates available for your system. These updates \nshould be installed as soon as possible.
+msgid "yum_DESC_UPDATES_AVAILABLE"
+msgstr ""
+
+#. All updates have been installed.
+msgid "yum_DESC_UPTODATE"
+msgstr ""
+
+#. If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page.
+msgid "yum_DESC_YUM_AUTOINSTALLUPDATES"
+msgstr ""
+
+#. A deltarpm contains the difference between an old and a new version of a rpm, \n which can save bandwith. The drawback is that update \n operations consume considerably more CPU cycles
+msgid "yum_DESC_YUM_DELTARPMPROCESS"
+msgstr ""
+
+#. The software installer can manage groups of \n related package or individual packages. By \n default, only groups of packages are presented.\n If you wish to manage individual packages\\, \n enable this option. This should only be done \n by experienced administrators.
+msgid "yum_DESC_YUM_PACKAGEFUNCTIONS"
+msgstr ""
+
+#. Deltarpmprocess
+msgid "yum_DeltaRpmProcess"
+msgstr ""
+
+#. Downloadonly
+msgid "yum_DownloadOnly"
+msgstr ""
+
+#. Error updating configuration
+msgid "yum_ERROR_UPDATING_CONFIGURATION"
+msgstr ""
+
+#. Software installer
+msgid "yum_FORM_TITLE"
+msgstr ""
+
+#. The following software is available to be installed \n onto your system. You should only install additional\n software onto this system if you are aware\n of the consequences of doing so.
+msgid "yum_HEADER_AVAILABLE_SOFTWARE"
+msgstr ""
+
+#. The following software is installed \n on this system. You should only remove\n software from this system if you are aware\n of the consequences of doing so.
+msgid "yum_HEADER_INSTALLED_SOFTWARE"
+msgstr ""
+
+#.  The system needs to be reconfigured\n  after adding or removing software,\n or applying updates. \n<p>\n Please click on the Reconfigure button at the bottom of\n this page to start the reconfiguration process.\n <b>An automatic reboot will be\n  initiated as part of this reconfiguration process</b>\n </p> 
+msgid "yum_HEADER_POSTUPGRADE_REQUIRED"
+msgstr ""
+
+#. Install
+msgid "yum_INSTALL_SOFTWARE"
+msgstr ""
+
+#. Install selected updates
+msgid "yum_INSTALL_UPDATES"
+msgstr ""
+
+#. Available groups
+msgid "yum_LABEL_AVAILABLE_GROUPS"
+msgstr ""
+
+#. Available packages
+msgid "yum_LABEL_AVAILABLE_PACKAGES"
+msgstr ""
+
+#. Updates available
+msgid "yum_LABEL_AVAILABLE_UPDATES"
+msgstr ""
+
+#. Enabled repositories
+msgid "yum_LABEL_ENABLED_REPOSITORIES"
+msgstr ""
+
+#. Installed groups
+msgid "yum_LABEL_INSTALLED_GROUPS"
+msgstr ""
+
+#. Installed packages
+msgid "yum_LABEL_INSTALLED_PACKAGES"
+msgstr ""
+
+#. Automatically install updates
+msgid "yum_LABEL_YUM_AUTOINSTALLUPDATES"
+msgstr ""
+
+#. Delta Rpm Update
+msgid "yum_LABEL_YUM_DELTARPMPROCESS"
+msgstr ""
+
+#. Predownload updates
+msgid "yum_LABEL_YUM_DOWNLOADONLY"
+msgstr ""
+
+#. The rpm updates can be downloaded during the night, \n  this will ease and give faster the dnf update process \n  (only enabled repositories will be used).
+msgid "yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION"
+msgstr ""
+
+#. Manage individual packages
+msgid "yum_LABEL_YUM_PACKAGEFUNCTIONS"
+msgstr ""
+
+#. Check for updates
+msgid "yum_LABEL_YUM_STATUS"
+msgstr ""
+
+#. <strong>Ctrl/Cmd-click</strong> toggles individual items and <strong>Shift-click</strong> selects ranges.\n<br /><strong>Case-insensitive</strong> search unless you enter a <strong>regex</strong> in <i>/pattern/flags</i> form (e.g. /maria.*client/i)..
+msgid "yum_MULTI_SELECT"
+msgstr ""
+
+#. Please Wait-dnf Running
+msgid "yum_Please_Wait_-_dnf_Running"
+msgstr ""
+
+#. The new settings have been saved.
+msgid "yum_SUCCESS"
+msgstr ""
+
+#. The requested changes have been successfully implemented.
+msgid "yum_UPDATE_SUCCESS"
+msgstr ""
+
+#. Check4updates
+msgid "yum_check4updates"
+msgstr ""

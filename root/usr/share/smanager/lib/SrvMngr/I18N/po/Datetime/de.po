@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Datetime module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "COULD_NOT_OPEN_TZ_FILE"
+msgstr "(en) COULD_NOT_OPEN_TZ_FILE"
+
+msgid "Date and time"
+msgstr "Datum und Uhrzeit"
+
+msgid "Day:"
+msgstr "(en) Day:"
+
+msgid "Hour:"
+msgstr "(en) Hour:"
+
+msgid "Minute:"
+msgstr "(en) Minute:"
+
+msgid "Month:"
+msgstr "(en) Month:"
+
+msgid "Second:"
+msgstr "(en) Second:"
+
+msgid "Year:"
+msgstr "(en) Year:"
+
+msgid "dat_BETWEEN_0_AND_23"
+msgstr "(en) dat_BETWEEN_0_AND_23"
+
+msgid "dat_BETWEEN_0_AND_59"
+msgstr "Bitte wählen Sie eine Minute zwischen 0 und 59."
+
+msgid "dat_FORM_TITLE"
+msgstr "Datum- und Zeiteinstellung"
+
+msgid "dat_INITIAL_DESC"
+msgstr "Hier werden Datum und Zeit für diesen Server eingestellt. Sie haben die Möglichkeit, einen bestehenden NTP-Server zu verwenden oder Sie stellen die Zeit manuell für Ihre Zeitzone ein."
+
+msgid "dat_INVALID_HOUR"
+msgstr "FEHLER: ungültige Stunde:"
+
+msgid "dat_INVALID_MINUTE"
+msgstr "FEHLER: ungültige Minute:"
+
+msgid "dat_INVALID_NTP_SERVER"
+msgstr " Ungültiger NTP-Server, der Server wird nicht versuchen, sich mit einem NTP-Server zu synchronisieren. "
+
+msgid "dat_INVALID_SECOND"
+msgstr "FEHLER: ungültige Sekunde"
+
+msgid "dat_Invalid_date"
+msgstr "Ungültiges Datum"
+
+msgid "dat_NTP_CONFIGURE_DESC"
+msgstr "Die Systemzeit des Server wird über das Network Time Protocol (NTP) regelmäßig mit der in der unten eingetragene Adresse synchronisiert. Um das System mit einem anderen NTP-Server zu synchronisieren, geben Sie bitte eine andere IP-Adresse oder Hostnamen ein."
+
+msgid "dat_NTP_DISABLE_DESC"
+msgstr "Wählen Sie diese Option, um die Zeitsynchronisation zwischen dem Server und dem NTP-Server zu beenden. Wenn der NTP-Service deaktiviert ist, können Sie das Datum und die Uhrzeit manuell über diese Seite einstellen."
+
+msgid "dat_NTP_ENABLE_DESC"
+msgstr "Dieser Server bietet die Möglichkeit, die Systemzeit regelmäßig mit einem anderen Server über das Network Time Protocol (NTP) zu synchronisieren. Wenn Sie diese Option auswählen, müssen Sie unten die IP-Adresse oder den Hostnamen des NTP-Servers angeben."
+
+msgid "dat_NTP_Server_URL"
+msgstr "NTP-Server-URL:"
+
+msgid "dat_SETTINGS_CHANGED"
+msgstr "NTP-Server Einstellungen wurden erfolgreich geändert"
+
+msgid "dat_TZ"
+msgstr "Zeitzone:"
+
+msgid "dat_Test_Server"
+msgstr "NTP-Server testen"
+
+msgid "dat_The_time_is_currently"
+msgstr "Aktuelle Uhrzeit:"
+
+msgid "dat_Time_Configuration"
+msgstr "Zeitkonfiguration"
+
+msgid "dat_Time_Setting_Mode"
+msgstr "Zeiteinstellmodus"
+
+msgid "dat_UPDATING_CLOCK"
+msgstr " Die Systemzeit wird neu eingestellt. Bitte warten Sie einige Sekunden und dann klicken Sie hier um die Änderungen zu überprüfen. "
+
+msgid "dat_manually_set"
+msgstr "Manuell festlegen"
+
+msgid "dat_ntp_server"
+msgstr "NTP-Server"
+
+msgid "dat_set_manually"
+msgstr "Datum und Uhrzeit einstellen:"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "dat_AM/PM_AND_TZ"
+#~ msgstr "AM (Vormittag)/PM (Nachmittag) und Zeitzone:"
+#~ msgid "dat_BETWEEN_1_AND_12"
+#~ msgstr "Bitte wählen Sie eine Stunde zwischen 1 und 12."
+#~ msgid "dat_BETWEEN_1_AND_31"
+#~ msgstr "Bitte wählen Sie einen Tag zwischen dem 1. und 31."
+#~ msgid "dat_COULD_NOT_OPEN_TZ_FILE"
+#~ msgstr "FEHLER: die Zeitzonendatei kann nicht gelesen werden:"
+#~ msgid "dat_CURRENT_SETTING"
+#~ msgstr "Aktuelle Einstellungen"
+#~ msgid "dat_ERR_CHANGING_TS"
+#~ msgstr "Fehler bei der Änderung der Einstellungen des NTP-Servers"
+#~ msgid "dat_ERR_SETTING_CLOCK"
+#~ msgstr "Beim Einstellen des Systemzeit und der Rechneruhr ist ein Fehler aufgetreten."
+#~ msgid "dat_FOUR_DIGIT_YEAR"
+#~ msgstr "Bitte wählen Sie ein vierstelliges Jahr zwischen 1900 und 2200."
+#~ msgid "dat_INVALID_DAY"
+#~ msgstr "FEHLER: Ungültiger Tag im Monat:"
+#~ msgid "dat_INVALID_MONTH"
+#~ msgstr "(en)Error: invalid month"
+#~ msgid "dat_INVALID_NTP_ADDR"
+#~ msgstr "Ungültige NTP-Server Adresse:"
+#~ msgid "dat_INVALID_YEAR"
+#~ msgstr "FEHLER: Ungültiges Jahr:"
+#~ msgid "dat_MONTH_BETWEEN_1_AND_12"
+#~ msgstr "(en)Please choose a month value between 1 and 12."
+#~ msgid "dat_NETWORK_TIME_SERVER"
+#~ msgstr "NTP-Server"
+#~ msgid "dat_NEW_DATE_AND_TIME"
+#~ msgstr "Neue Datum- und Uhrzeiteinstellung:"
+#~ msgid "dat_NEW_H/M/S"
+#~ msgstr "Eingabe Stunde/Minute/Sekunde:"
+#~ msgid "dat_NEW_M/D/Y"
+#~ msgstr "Eingabe Monat/Tag/Jahr:"
+#~ msgid "dat_NTP_CONFIGURE_TITLE"
+#~ msgstr "NTP-Server einstellen"
+#~ msgid "dat_NTP_DISABLE_TITLE"
+#~ msgstr "NTP-Server deaktivieren"
+#~ msgid "dat_NTP_ENABLE_TITLE"
+#~ msgstr "NTP-Server aktivieren"
+#~ msgid "dat_NTP_SERVER"
+#~ msgstr "NTP-Server"
+#~ msgid "dat_SERVER_DISABLED"
+#~ msgstr "NTP-Server Zeitsynchronisation wurde erfolgreich abgeschaltet"
+#~ msgid "dat_SERVER_DISABLED_DESC"
+#~ msgstr " Sie haben diesen Service abgeschaltet: der Server arbeitet jetzt mit der internen Uhr und wird nicht versuchen, sich mit einem NTP-Server zu synchronisieren. "
+#~ msgid "dat_SETTING_DATE_AND_TIME"
+#~ msgstr "Datum und Uhrzeit einstellen"
+#~ msgid "dat_SET_DATE_TITLE"
+#~ msgstr "Datum und Uhrzeit einstellen"
+#~ msgid "dat_SYNC_WITH"
+#~ msgstr "Dieser Server ist nun eingerichtet, sich regelmäßig (über das Internet) mit folgendem NTP-Server zu synchronisieren:"
+#~ msgid "dat_VERIFY_DATE_AND_TIME"
+#~ msgstr "Überprüfung des Datums und der Uhrzeit"

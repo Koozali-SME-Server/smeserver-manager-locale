@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Dnf module\n"
+"POT-Creation-Date: 2026-08-21 10:13+0100\n"
+"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+msgid "Groups"
+msgstr "(en) Groups"
+
+msgid "Packages"
+msgstr "(en) Packages"
+
+msgid "Start"
+msgstr "(en) Start"
+
+msgid "yum_1DAILY"
+msgstr "Codziennie"
+
+msgid "yum_2WEEKLY"
+msgstr "Tygodniowo"
+
+msgid "yum_3MONTHLY"
+msgstr "Miesięcznie"
+
+msgid "yum_AutoInstallUpdates"
+msgstr "(en) Autoinstallupdates"
+
+msgid "yum_BUTTON_CONFIGURATION"
+msgstr "Zmień ustawienia instalatora oprogramowania"
+
+msgid "yum_BUTTON_INSTALL_AVAILABLE"
+msgstr "Zainstaluj dodatkowe oprogramowanie"
+
+msgid "yum_BUTTON_INSTALL_UPDATES"
+msgstr "Wyświetl dostępne aktualizacje"
+
+msgid "yum_BUTTON_REMOVE"
+msgstr "Usuń zainstalowane oprogramowanie"
+
+msgid "yum_DESC_AVAILABLE_GROUPS"
+msgstr "Można wybrać grupy oprogramowania do zainstalowania z poniższej listy."
+
+msgid "yum_DESC_AVAILABLE_PACKAGES"
+msgstr "Możesz także zaznaczyć indywidualne paczki do zainstalowania z poniższej listy."
+
+msgid "yum_DESC_AVAILABLE_UPDATES"
+msgstr "(en)The following updates are available for your system. You should normally install all available updates. If there are updates you do not wish to install, de-select them from the list below."
+
+msgid "yum_DESC_ENABLED_REPOSITORIES"
+msgstr "(en)The software installer can install software from any of enabled repositories. To enable a repository, select it from the list. To disable a repository, de-select it from the list. By default, only stable, tested software is available for installation."
+
+msgid "yum_DESC_INSTALLED_GROUPS"
+msgstr "Można wybrać grupy oprogramowania do usunięcia z poniższej listy."
+
+msgid "yum_DESC_INSTALLED_PACKAGES"
+msgstr "Możesz także zaznaczyć indywidualne paczki do usunięcia z poniższej listy."
+
+msgid "yum_DESC_UPDATES_AVAILABLE"
+msgstr "(en)There are updates available for your system. These updates should be installed as soon as possible."
+
+msgid "yum_DESC_UPTODATE"
+msgstr "Wszystkie aktualizacje zostały zainstalowane."
+
+msgid "yum_DESC_YUM_AUTOINSTALLUPDATES"
+msgstr "(en)If enabled this will take precedence over the simple check for updates notification and predownload features. Instead it will install the available updates from enabled repositories. For more information refer to yum and yum-cron manual page."
+
+msgid "yum_DESC_YUM_DELTARPMPROCESS"
+msgstr "(en)A deltarpm contains the difference between an old and a new version of a rpm, which can save bandwith. The drawback is that update operations consume considerably more CPU cycles"
+
+msgid "yum_DESC_YUM_PACKAGEFUNCTIONS"
+msgstr "(en)The software installer can manage groups of related package or individual packages. By default, only groups of packages are presented. If you wish to manage individual packages, enable this option. This should only be done by experienced administrators."
+
+msgid "yum_DeltaRpmProcess"
+msgstr "(en) Deltarpmprocess"
+
+msgid "yum_DownloadOnly"
+msgstr "(en) Downloadonly"
+
+msgid "yum_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "yum_FORM_TITLE"
+msgstr "Instalator oprogramowania"
+
+msgid "yum_HEADER_AVAILABLE_SOFTWARE"
+msgstr "Poniższe oprogramowanie jest dostępne do zainstalowania w twoim systemie. Powinieneś instalować dodatkowe oprogramowanie tylko wtedy, jeżeli rozumiesz konsekwencje wynikające z tego."
+
+msgid "yum_HEADER_INSTALLED_SOFTWARE"
+msgstr "Poniższe oprogramowanie jest zainstalowane w systemie. Powinieneś usuwać oprogramowanie, jeśli jesteś świadomy konsekwencji tego czynu."
+
+msgid "yum_HEADER_POSTUPGRADE_REQUIRED"
+msgstr "(en)The system needs to be reconfigured after adding or removing software, or applying updates. <p> Please click on the Reconfigure button at the bottom of this page to start the reconfiguration process. <b>An automatic reboot will be initiated as part of this reconfiguration process</b> </p>"
+
+msgid "yum_INSTALL_SOFTWARE"
+msgstr "Zainstaluj"
+
+msgid "yum_INSTALL_UPDATES"
+msgstr "Zainstaluj wybrane aktualizacje"
+
+msgid "yum_LABEL_AVAILABLE_GROUPS"
+msgstr "Dostępne grupy"
+
+msgid "yum_LABEL_AVAILABLE_PACKAGES"
+msgstr "Dostępne paczki"
+
+msgid "yum_LABEL_AVAILABLE_UPDATES"
+msgstr "Dostępne aktualizacje"
+
+msgid "yum_LABEL_ENABLED_REPOSITORIES"
+msgstr "Włączone repozytoria"
+
+msgid "yum_LABEL_INSTALLED_GROUPS"
+msgstr "Zainstalowane grupy"
+
+msgid "yum_LABEL_INSTALLED_PACKAGES"
+msgstr "Zainstalowane paczki"
+
+msgid "yum_LABEL_YUM_AUTOINSTALLUPDATES"
+msgstr "Automatyczne instalowanie aktualizacji"
+
+msgid "yum_LABEL_YUM_DELTARPMPROCESS"
+msgstr "Aktualizacja delta RPM"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY"
+msgstr "Dane osobiste zostały aktualizowane"
+
+msgid "yum_LABEL_YUM_DOWNLOADONLY_DESCRIPTION"
+msgstr "(en)The rpm updates can be downloaded during the night, this will ease and give faster the dnf update process (only enabled repositories will be used)."
+
+msgid "yum_LABEL_YUM_PACKAGEFUNCTIONS"
+msgstr "Zarządzaj indywidualnymi paczkami"
+
+msgid "yum_LABEL_YUM_STATUS"
+msgstr "Sprawdź dostępność aktualizacji"
+
+msgid "yum_MULTI_SELECT"
+msgstr "(en) <strong>Ctrl/Cmd-click</strong> toggles individual items and <strong>Shift-click</strong> selects ranges.\n<br /><strong>Case-insensitive</strong> search unless you enter a <strong>regex</strong> in <i>/pattern/flags</i> form (e.g. /maria.*client/i).."
+
+msgid "yum_Please_Wait_-_dnf_Running"
+msgstr "Proszę czekać — dnf jest uruchomiony"
+
+msgid "yum_SUCCESS"
+msgstr "Nowe ustawienia zostały zapisane."
+
+msgid "yum_UPDATE_SUCCESS"
+msgstr "(en)The requested changes have been successfully implemented."
+
+msgid "yum_check4updates"
+msgstr "(en) Check4updates"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "yum_SYSTEM_BEING_RECONFIGURED"
+#~ msgstr "System jest automatycznie uruchomiony ponownie, aby zakończyć proces rekonfiguracji."
+#~ msgid "yum_Software Installer"
+#~ msgstr "Instalator oprogramowania"

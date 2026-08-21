@@ -1,4 +1,4 @@
-'View log files' => 'Log Dateien anzeigen',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'View log files' => 'Log Dateien anzeigen',
 'log_FIRSTPAGE_DESC' => ' Diese Ansicht erlaubt es Ihnen, die vom Server und den darauf laufenden Prozessen erzeugten Log Dateien anzusehen oder herunterzuladen. ',
 'log_LOG_FILE_SELECT_DESC' => 'Wählen Sie eine Log Datei zur Ansicht',
 'log_FILTER_PATTERN_DESC' => ' Sie können optional hier Filtermuster eingeben, um sich nur bestimmte Zeilen einer gewählten Log Datei anzeigen zu lassen. Wenn Sie das Feld leer lassen, werden alle verfügbaren Zeilen der Log Datei ausgegeben. Diese Funktion steht beim Herunterladen von Log Dateien nicht zur Verfügung.
@@ -26,9 +26,9 @@
 
   ',
 'log_OP_LABEL' => 'Betrieb',
-'log_DOWNLOAD_PAGE_DESC' => ' Das Herunterladen der Log-Datei wird vorbereitet. Dies wird durchgeführt, sobald Sie unten auf &quot;Weiter&quot; drücken und in Ihrem Browser das Herunterladen bestätigen.
-
-  ',
-'DOWNLOAD_FILE' => 'Vorbereitung zum Herunterladen der Log Datei [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' Das Herunterladen der Log-Datei wird vorbereitet. Dies wird durchgeführt, sobald Sie unten auf &quot;Weiter&quot; drücken und in Ihrem Browser das Herunterladen bestätigen.
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'DOWNLOAD_FILE' => 'Vorbereitung zum Herunterladen der Log Datei [_1].',
 'log_FORM_TITLE' => 'Log-Dateien anzeigen',
-'log_DOWNLOAD_FILE' => '(en)Preparing to download the logfile [_1].',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => '(en)Preparing to download the logfile [_1].',

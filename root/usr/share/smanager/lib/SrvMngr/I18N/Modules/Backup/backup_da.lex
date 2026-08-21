@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Lav sikkerhedskopi eller gendan server data',
-'bac_BACKUP_DESC' => ' <p> Denne server giver 2 muligheder for at sikkerhedskopiere eller gendanne din server: Sikkerhedskopi til arbejdsstation og sikkerhedskopi til bånd.</p>
-
-  <p>Den første metode danner en kopi af din serverkonfiguration og brugerdata, og giver dig mulighed for gemme sikkerhedskopien på din arbejdsstation via en browser. Dine nuværende serveropsætning og brugerdate fylder ca. <b>[_3]</b>. Sikkerhedskopien vil være en smule mindre, afhængig af hvor meget data kan komprimeres. Valgmuligheden \\"Undersøg sikkerhedskopi til arbejdsstation\\" kan bruges til at kontrollere sikkerhedskopien.</p>
-
-  <p> Sikkerhedskopi til bånd anvender programmet <i>[_1]</i> til at lave en sikkerhedskopi af hele harddisken hver nat. Det kræver en understøttet båndstation og et isat bånd, der ikke er skrivebeskyttet. Sikkerhedskopien dannes automatisk på det valgte tidspunkt hver nat (der sendes automatisk en påmindelse til administrator om dagen). P.t. indeholder din hardisk <b>[_2]</b> data. </p>
-
-  <p>Begge metoder giver dig mulighed for at gendanne dine serveropsætning og dine brugerdata. <b>Ideelt set bør sikkerhedskopien indlæses på en nyinstalleret server</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p> Denne server giver 2 muligheder for at sikkerhedskopiere eller gendanne din server: Sikkerhedskopi til arbejdsstation og sikkerhedskopi til bånd.</p>
+#
+#  <p>Den første metode danner en kopi af din serverkonfiguration og brugerdata, og giver dig mulighed for gemme sikkerhedskopien på din arbejdsstation via en browser. Dine nuværende serveropsætning og brugerdate fylder ca. <b>[_3]</b>. Sikkerhedskopien vil være en smule mindre, afhængig af hvor meget data kan komprimeres. Valgmuligheden \\"Undersøg sikkerhedskopi til arbejdsstation\\" kan bruges til at kontrollere sikkerhedskopien.</p>
+#
+#  <p> Sikkerhedskopi til bånd anvender programmet <i>[_1]</i> til at lave en sikkerhedskopi af hele harddisken hver nat. Det kræver en understøttet båndstation og et isat bånd, der ikke er skrivebeskyttet. Sikkerhedskopien dannes automatisk på det valgte tidspunkt hver nat (der sendes automatisk en påmindelse til administrator om dagen). P.t. indeholder din hardisk <b>[_2]</b> data. </p>
+#
+#  <p>Begge metoder giver dig mulighed for at gendanne dine serveropsætning og dine brugerdata. <b>Ideelt set bør sikkerhedskopien indlæses på en nyinstalleret server</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => ' <p>Serveren tilbyder tre forskellige muligheder for sikkerhedskopi og gendannelse: Sikkerhedskopi til bånd, til et netværksshare eller flytbart medie, eller din lokale desktop.</p>
 
   <p>Bånd backup. Bruger en programpakke ved navn <i>[_1]</i> til at sikkerhedskopiere hele din disk til bånd hver nat. Det forudsætter en understøttet båndstation og et bånd der ikke er skrivebeskyttet. Sikkerhedskopien udføres automatisk på et fastlagt tidspunkt hver nat (og der sendes automatisk en påmindelse til administrator i løbet af dagen). Aktuelt indeholder din disk <b>[_2]</b> af data.</p>
@@ -20,10 +20,10 @@
 
   ',
 'bac_BACKUP_CONFIG_STATUS' => 'Sikkerhedskopiopsætning og status',
-'bac_TAPE_BACKUPS_ENABLED' => ' Sikkerhedskopi til bånd er for tiden aktiveret. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Sikkerhedskopi til bånd er for tiden aktiveret. ',
 'bac_BACKUPS_RUN_AT' => 'Sikkerhedskopi til bånd vil foregå kl.:',
 'bac_REMINDER_MESSAGE_AT' => 'En påmindelse vil blive sendt:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Sikkerhedskopi til bånd er deaktiveret ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Sikkerhedskopi til bånd er deaktiveret ',
 'bac_DESKTOP_BACKUP' => 'Sikkerhedskopi til arbejdsstation',
 'bac_DESKTOP_RESTORE' => 'Gendan fra arbejdsstation',
 'bac_DESKTOP_VERIFY' => 'Undersøg sikkerhedskopi til arbejdsstation',
@@ -112,10 +112,10 @@
 'bac_SERVER_WILL_REBOOT' => 'Din server vil nu genstarte.',
 'bac_NO_UID_FOR_NAME' => 'Kunne ikke finde brugerID for brugeren:',
 'bac_PAGE_REFRESH_IN' => ' Siden vil genopfiske statusvisningen om [_1] sekunder, ellers klik her. ',
-'bac_Backup or restore' => 'Sikkerhedskopi eller gendannelse',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => 'Sikkerhedskopi eller gendannelse',
 'bac_BACKUP_DESKTOP_TOO_BIG' => 'Din server har for mange data til en pålidelig sikkerhedskopi til arbejdsstation.',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Sikkerhedskopi til lokalnet er deaktiveret ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Sikkerhedskopi til lokalnet er aktiveret. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Sikkerhedskopi til lokalnet er deaktiveret ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Sikkerhedskopi til lokalnet er aktiveret. ',
 'bac_WKBACKUPS_RUN_AT' => 'Sikkerhedskopi til lokalnet vil foregå kl.:',
 'bac_WORKSTN_CONFIGURE' => 'Opsætning af sikkerhedskopi til lokalnet',
 'bac_WORKSTN_VERIFY' => 'Kontroller sikkerhedskopi på lokalnet',

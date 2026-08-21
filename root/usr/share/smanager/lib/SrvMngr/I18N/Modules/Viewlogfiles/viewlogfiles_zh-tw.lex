@@ -1,4 +1,4 @@
-'log_View log files' => '檢視眾日誌檔',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_View log files' => '檢視眾日誌檔',
 'log_FIRSTPAGE_DESC' => '此版面允許您檢視伺服器運作中的服務所產生之日誌檔。',
 'log_LOG_FILE_SELECT_DESC' => '請選擇一份日誌檔來檢視',
 'log_FILTER_PATTERN_DESC' => ' 您能選擇性地指定過濾器模式來呈現日誌檔中符合條件的行。若您將此區塊留白，日誌檔中的所有行將完整呈現。請注意，若您欲下載日誌檔，此選項是不使用的。
@@ -26,8 +26,8 @@
 
   ',
 'log_OP_LABEL' => '作業',
-'log_DOWNLOAD_PAGE_DESC' => ' 您要下載的日誌檔已準備就緒。當您點擊下方的 &quot;下一步&quot; 按鍵後，下載即將執行，並請確認您的瀏覽器允許彈現視窗。
-
-  ',
-'log_DOWNLOAD_FILE' => '正準備下載日誌檔[_1]。',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_PAGE_DESC' => ' 您要下載的日誌檔已準備就緒。當您點擊下方的 &quot;下一步&quot; 按鍵後，下載即將執行，並請確認您的瀏覽器允許彈現視窗。
+#
+#  ',
+# ORPHANED (no longer in viewlogfiles_en.lex; kept for reference, commented out by lex-to-po.pl): 'log_DOWNLOAD_FILE' => '正準備下載日誌檔[_1]。',
 'log_FORM_TITLE' => '檢視記錄檔',

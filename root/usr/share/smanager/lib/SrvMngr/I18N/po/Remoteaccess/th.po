@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Remoteaccess module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "Remote access"
+msgstr "การเข้าถึงระยะไกล"
+
+msgid "rma_DESC_FTP_ACCESS"
+msgstr " FTP Settingsคุณสามารถควบคุมการเข้าถึงFTP ของเซิร์ฟเวอร์นี้ของคุณ เราแนะนำให้ปล่อยค่าให้เป็น 'no access' เอาไว้ยกเว้นหากคุณมีเหตุผลในการตั้งค่าเป็นอย่างอื่น  หมายเหตุ: การการตั้งค่าเหล่านี้จะเป็นการจำกัดการเข้าถึงเซิร์ฟเวอร์ และจะมีผลเหนือการตั้งค่าอื่นๆ รวมถึงค่าที่ตั้งไว้ของ information bays แต่ละตัวด้วย "
+
+msgid "rma_DESC_FTP_LOGIN"
+msgstr " คุณสามารถควบคุมการเข้าถึง authenticated FTP ของ information bays และบัญชีผู้ใช้ได้ เราแนะนำอย่างยิ่งว่าควรปล่อยการตั้งค่าให้เป็น private เอาไว้ ยกเว้นคุณมีเหตุผลอื่นที่จะใช้งานหมายเหตุ: เซิร์ฟเวอร์นี้สามารถทำการเข้าถึงแบบ secure shell sftp ได้หากเปิดใช้การเข้าถึงแบบ secure shell เอาไว้ การเข้าถึงแบบนี้จะช่วยปกป้องข้อมูลและรหัสผ่านที่ของคุณขณะทำการสื่อสารผ่านการเชื่อมต่อ FTP นั้นๆ ซึ่งจะไม่มีในการการสื่อสารผ่าน FTP แบบปกติ "
+
+msgid "rma_DESC_IPSECRW"
+msgstr " ตั้งค่า IPSEC Client (Roadwarrior) คุณสามารถเปิดให้ผู้ใช้เข้าถึงเซิร์ฟเวอร์นี้ของคุณผ่าน IPSEC client access ได้ โดยการตรวจสอบสิทธิ์จะกระทำผ่านใบรับรองดิจิตอล (digital certificates) การปิดการใช้งานนี้ทำได้โดยกรอกตัวเลขเป็น 0 ยกเว้นหาคุณมีความประสงค์ที่จะให้ใช้ IPSEC client access "
+
+msgid "rma_DESC_IPSECRW_RESET"
+msgstr " คุณสามารถทำการรีเซ็ต ใบรับรองดิจิตอล (digital certificates) ได้ที่นี่การรับรองอันเดิมทั้งหมดจะไม่สามารถใช้เพื่อเข้าถึงเซิรฟเวอร์นี้ได้อีกต่อไป ดังนั้น เครื่อง IPSEC clients ทุกเครื่องต้องทำการนำเข้า (import) ใบรับรองอันใหม่!. "
+
+msgid "rma_DESC_PPTP"
+msgstr " ตั้งค่า PPTPคุณสามารถให้เข้าถึงเซิร์ฟเวอร์นี้ผ่าน PPTP ได้ กรอกตัวเลขจำนวนการเข้าถึงผ่าน PPTP สูงสุดที่ต้องการเปิดที่นี่ หรือกรอก 0 หากต้องการปิดการใช้งาน "
+
+msgid "rma_DESC_SSH"
+msgstr "  ตั้งค่า Secure Shellคุณสามารถควบคุมการเข้าถึงแบบ ของเซิร์ฟเวอร์นี้ของคุณได้ การเปิดให้เข้าถึงแบบสาธารณะควรเปิดให้ใช้เฉพาะกับผู้ดูแลระบบที่มีความชำนาญ เพื่อใช้ในการตรวจสอบหาและแก้ไขความผิดปกติของระบบจากภายนอก เราแนะนำให้คุณปล่อยเป็น \"No Access\" เอาไว้ตามค่าตั้งต้น ยกเว้นหากคุณมีความประสงค์เป็นอย่างอื่น "
+
+msgid "rma_DESC_TELNET_ACCESS"
+msgstr " การตั้งค่า telnet คำเตือน: ขณะนี้การเข้าถึงแบบ telnet ถูกเปิดไว้ แต่คุณสมบัตินี้ไม่ได้รับการสนับสนุนให้ใช้แล้ว การเข้าถึงแบบ telnet มีความไม่ปลอดภัยในตัวของมันและควรถูกใช้ในกรณีที่ไม่ทางเลือกอื่นที่ดีกว่า คุณควรเลือกตั้งให้เป็น [_1] และใช้งาน secure shell แทนหากจไเป็นต้องใช้การ remote access, Once disabled, telnet will no longer appear on this screen. "
+
+msgid "rma_DESC_VALID_FROM_ENTRIES"
+msgstr "กรอกข้อมูลด้านล่าง เพื่อเพิ่มข้อมูล remote management network"
+
+msgid "rma_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) Error updating configuration"
+
+msgid "rma_ERR_INVALID_PARAMS"
+msgstr "กรอกทั้ง network และ subnet mask หรือไม่กรอกทั้งสอง"
+
+msgid "rma_FORM_TITLE"
+msgstr "แก้ไขการตั้งค่าremote access"
+
+msgid "rma_INVALID_SUBNET_MASK"
+msgstr "subnet mask ไม่ถูกต้อง"
+
+msgid "rma_LABEL_FTP_ACCESS"
+msgstr "การเข้าถึงแบบ FTP"
+
+msgid "rma_LABEL_FTP_LOGIN"
+msgstr "การเข้าถึงจาก FTP โดยใช้รหัสผ่าน"
+
+msgid "rma_LABEL_IPSECRW_RESET"
+msgstr "รีเซ็ตใบรับรองดิจิตอล (digital certificates)"
+
+msgid "rma_LABEL_IPSECRW_SESS"
+msgstr " ตัวเลขจำนวน IPSEC clients"
+
+msgid "rma_LABEL_PPTP"
+msgstr "ตัวเลขจำนวน PPTP clients"
+
+msgid "rma_LABEL_SSH"
+msgstr "เข้าถึงแบบ secure shell"
+
+msgid "rma_LABEL_SSH_ADMIN"
+msgstr "อนุญาตให้ใช้คำสั่งจัดการระบบ (administrative command line) ผ่าน secure shell"
+
+msgid "rma_LABEL_SSH_PASSWORD_ACCESS"
+msgstr "อนุญาตให้เข้าถึง secure shell โดยใช้รหัสผ่านแบบ standard"
+
+msgid "rma_LABEL_SSH_PORT"
+msgstr "หมายเลขพอร์ท TCP ของการเข้าถึงแบบ secure shell "
+
+msgid "rma_LABEL_TELNET_ACCESS"
+msgstr "การเข้าถึงผ่าน telnet"
+
+msgid "rma_NO_ACCESS"
+msgstr "ไม่เปิดให้เข้าถึง"
+
+msgid "rma_NO_ENTRIES_YET"
+msgstr "ยังไม่มีการกรอกข้อมูล"
+
+msgid "rma_NUMBER_OF_PPTP_CLIENTS_MUST_BE_LESSER_THAN_NUMBER_OF_IP_IN_DHCP_RANGE"
+msgstr "(en)The number of pptp clients is greater than the number of reserved IP for DHCP. You should take a smaller number."
+
+msgid "rma_NUM_OF_HOSTS"
+msgstr "จำนวนของโฮสท์"
+
+msgid "rma_PASSWORD_LOGIN_PRIVATE"
+msgstr "เปิดรับเฉพาะจากเครือข่ายท้องถิ่นโดยใช้รหัสผ่าน"
+
+msgid "rma_PASSWORD_LOGIN_PUBLIC"
+msgstr "เปิดรับจากทุกที่โดยใช้รหัสผ่าน"
+
+msgid "rma_REMOTE_MANAGEMENT"
+msgstr "การจัดการระยะไกล"
+
+msgid "rma_SUBNET_MASK"
+msgstr "ซับเน็ตมาสก์"
+
+msgid "rma_SUCCESS"
+msgstr "ข้อมูลใหม่ของการตั้งค่า remote access ถูกบันทึกแล้ว"
+
+msgid "rma_TITLE_FTP_ACCESS"
+msgstr "การตั้งค่า FTP"
+
+msgid "rma_TITLE_IPSECRW"
+msgstr "การตั้งค่าไคลเอนต์ IPSEC (Roadwarrior)"
+
+msgid "rma_TITLE_PPTP"
+msgstr "การตั้งค่า PPTP"
+
+msgid "rma_TITLE_SSH"
+msgstr "การตั้งค่า Secure Shell"
+
+msgid "rma_TITLE_TELNET_ACCESS"
+msgstr "การตั้งค่า Telnet"
+
+msgid "rma_VALIDFROM_DESC"
+msgstr " [_1] คุณสามารถเปิดให้โฮสต์จาก remote networks สามารถเข้าถึงเซิร์ฟเวอร์นี้ได้โดยกรอกข้อมูลเครือข่ายเหล่านั้นด้านล่าง Use a subnet mask of 255.255.255.255 to limit the access to the specified host. Any hosts within the specified range will be able to access the server manager using HTTPS. "
+
+msgid "rma_VALIDFROM_TITLE"
+msgstr "[_1]"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rma_DESCRIPTION"
+#~ msgstr "การตั้งค่าเป็น private จะเปิดให้ทุกคนในเครือข่ายท้องถิ่นสามารถเข้าถึงเซิร์ฟเวอร์ได้ การตั้งเป็น public จะเปิดให้สามารถเข้าถึงได้จากอินเตอร์เน็ตตั้งเป็น no access จะเป็นการปิดไม่ให้เข้าถึงได้ โปรดทราบว่ามันจะมีผลกระทบต่อความปลอดภัยหากเปลี่ยนค่าไปจากค่าตั้งต้นที่ให้มา คุณควรศึกษาจากคู่มือผู้ใช้เรื่อง remote access ก่อนทำการแก้ไข"
+#~ msgid "rma_DESC_SERIAL_CONSOLE_ACCESS"
+#~ msgstr " Serial consoleคุณสามารถเปิดใช้งาน server console จากเทอร์มินัลที่ต่อกับซีเรียลพอร์ตของเซิร์ฟเวอร์ได้"
+#~ msgid "rma_ERR_NO_RECORD"
+#~ msgstr "ไม่พบข้อ httpd-admin recordใน configuration db"
+#~ msgid "rma_LABEL_PPTP_ACCESS"
+#~ msgstr "ค่าเริ่มต้นของการเข้าถึง PPTP ของผู้ใช้"
+#~ msgid "rma_LABEL_SERIAL_CONSOLE_ACCESS"
+#~ msgstr "คอนโซลอนุกรม"
+#~ msgid "rma_PORT1_ENABLED"
+#~ msgstr "เปิดใช้ซีเรียลพอร์ต 1"
+#~ msgid "rma_PORT2_ENABLED"
+#~ msgstr "เปิดใช้ซีเรียลพอร์ต 2"
+#~ msgid "rma_Remote access"
+#~ msgstr "การเข้าถึงระยะไกล"
+#~ msgid "rma_VALUE_ZERO_OR_POSITIVE"
+#~ msgstr "ต้องเป็นตัวเลขเต็มบวก หรือ 0"

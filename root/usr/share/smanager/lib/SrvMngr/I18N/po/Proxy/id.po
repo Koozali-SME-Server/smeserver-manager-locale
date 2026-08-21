@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Proxy module\n"
+"POT-Creation-Date: 2026-08-21 10:22+0100\n"
+"PO-Revision-Date: 2026-08-21 10:22+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "Proxy settings"
+msgstr "Pengaturan proxy"
+
+msgid "prx_BLOCKED"
+msgstr "Diblokir"
+
+msgid "prx_ERR_NO_SQUID_REC"
+msgstr "ERROR: Tidak ada record squid dalam konfigurasi database."
+
+msgid "prx_ERR_PROXY_UPDATE_FAILED"
+msgstr "ERROR: ada kesalahan pada event proxy-update ."
+
+msgid "prx_FIRST_PAGE_DESCRIPTION"
+msgstr "Halaman ini memungkinkan pengaturan proxy server's. Server ini memiliki sebuah transparent proxy dan cache untuk lalulintas HTTP. Hal ini di-enable secara default, namun tidak dijalankan jika server dalam mode &quot;serveronly&quot; . Jika server ini bertindak sebagai sebuah server e-mail, sambungan dari klien jaringan lokal ke SMTP server eksternal akan secara default dialihkan ke email server lokal."
+
+msgid "prx_HTTP_PROXY_STATUS_DESCRIPTION"
+msgstr "HTTP proxy server berguna untuk mengurangi pemakaian sambungan keluar dengan cara menyimpan halaman-halaman yang baru dikunjungi. Proxy ini transparan bagi penjelajah webyang menggunakan server ini sebagai gateway. Enable atau disable proxy ini dengan pilihan dibawah."
+
+msgid "prx_HTTP_PROXY_STATUS_LABEL"
+msgstr "Status HTTP proxy"
+
+msgid "prx_Proxy"
+msgstr "Proksi"
+
+msgid "prx_SMTP_PROXY_STATUS_DESCRIPTION"
+msgstr "SMTP proxy server transparan berguna untuk mengurangi perpindahan virus komputer terinfeksi dengan memaksa semua lalulintas keluar SMTP agar melalui server ini. Jika anda ingin menggunakan SMTP server lain, dan server ini adalah gateway kesana, disable proxy ini."
+
+msgid "prx_SMTP_PROXY_STATUS_LABEL"
+msgstr "Status SMTP proxy"
+
+msgid "prx_SUCCESS"
+msgstr "Setting proxy telah berhasil diterapkan."
+
+msgid "prx_TITLE"
+msgstr "Pengaturan proxy"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prx_Proxy settings"
+#~ msgstr "Pengaturan Proxy"

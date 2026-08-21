@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "Акаунтът \"[_1]\" е съществуващ [_2] акаунт."
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " Акаунтът \"[_1]\" се застъпва с описанието на псевдоним за [_2] акаунт \"[_3]\". [_1] е псевдоним за [_3]. "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "Името на инфо-слота \"[_1]\" съдържа невалидни символи. Имената на инфо-слотовете трябва да започват с малка буква и да съдържат само малки букви, цифри и тирета."
+
+msgid "iba_ADD_IBAY"
+msgstr "Добавяне на i-bay"
+
+msgid "iba_ADD_TITLE"
+msgstr "Създаване и промяна на инфо-слотове"
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "Изпълнение на динамично съдържание (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "Не може да се създаде нов акаунт за [_1] съществува ли?)"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "Не може да се намери акаунт за [_1] (съществува ли?)"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "Целия интернет (без парола)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "Целия интернет (с парола)"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "Целия интернет (с парола извън локалната мрежа)"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "Възникна грешка по време на създаването на инфо-слот."
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "Възникна грешка по време на изтриването на инфо-слот."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "Възникна грешка по време на промяната на инфо-слот."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "Грешка при инициализацията на паролата."
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "  Добави инфо-слот\n   Можете да премахнете всеки информационен слот или да инициализирате паролата му като щракнете на съответната команда срещу информационния слот. Ако информационния слот е показан в червено, това означава че паролата все още не е променена спрямо подразбиращата се и че трябва скоро да се промени."
+
+msgid "iba_FORM_TITLE"
+msgstr "Създаване, промяна или изтриване на инфо-слотове"
+
+msgid "iba_HTTPS_Only"
+msgstr "Изискване на сигурни връзки"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "Паролите не съвпадат."
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "Локална мрежа (без парола)"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "Локална мрежа (с парола)"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "Името на инфо-слота \"[_1]\" е твърде дълго. Максимумът е [_1] символа."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "Името на информационния слот трябва да съдържа само малки букви, цифри, точки, тирета и знаци за подчертаване и трябва да започва с малка буква. Например \"johnson\", \"intra\", и \"cust3.prj12\" са валидни имена, а \"3associates\", \"John Smith\" и \"Bus!Partner\" не са. Името е ограничено до [_1] символа."
+
+msgid "iba_NAME_LABEL"
+msgstr "Име на информационния слот"
+
+msgid "iba_NONE"
+msgstr "Без достъп"
+
+msgid "iba_NO_IBAYS"
+msgstr "Няма настроени инфо-слотове."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "Възнамерявате да промените паролата за инфо-слот [_1]."
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "Публичен достъп чрез web или анонимно ftp."
+
+msgid "iba_REMOVE_DESC"
+msgstr "  Възнамеряване да премахнете инфо-слота \"[_1]\" ([_2]). \n\n   Всички файлове, принадлежащи към този информационен слот ще бъдат изтрити. \n\n   Сигурни ли сте, че искате да премахнете този информационен слот? \n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "Премахване на информационен слот"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "Успешно бе създаден инфо-слот."
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "Успешно изтрит инфо-слот."
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "Успешно променен инфо-слот."
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "Успешно инициализирана парола."
+
+msgid "iba_USER_ACCESS"
+msgstr "Потребителски достъп чрез споделен достъп до файлове или ftp"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " Следните виртуални домейни използваха този информационен слот като тяхно съдържание и ще бъдат променени да сочат към основния сайт (можете да ги пренасочите към нещо друго после): [_1] "
+
+msgid "iba_WARG"
+msgstr "Писане = админ, Четене = група"
+
+msgid "iba_WGRE"
+msgstr "Писане = група, Четене = всеки"
+
+msgid "iba_WGRG"
+msgstr "Писане = група, Четене = група"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "ENTIRE_INTERNET_NO_PASSWORD"
+#~ msgstr "Целият интернет (не се изисква парола)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD"
+#~ msgstr "Целият интернет (изисква се парола)"
+#~ msgid "ENTIRE_INTERNET_PASSWORD_REMOTE"
+#~ msgstr "(en)Entire Internet (password required outside local network)"
+#~ msgid "INVALID_IBAY_DESCRIPTION"
+#~ msgstr "(en)Error: unexpected or missing characters in i-bay description"
+#~ msgid "LOCAL_NETWORK_NO_PASSWORD"
+#~ msgstr "Локална мрежа (не се изисква парола)"
+#~ msgid "LOCAL_NETWORK_PASSWORD"
+#~ msgstr "Локална мрежа (изисква се парола)"
+#~ msgid "NONE"
+#~ msgstr "Няма достъп"
+#~ msgid "WARG"
+#~ msgstr "(en)Write = admin, Read = group"
+#~ msgid "WGRE"
+#~ msgstr "(en)Write = group, Read = everyone"
+#~ msgid "WGRG"
+#~ msgstr "(en)Write = group, Read = group"
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "Паролата може да съдържа само букви и цифри."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "Грешка: неочаквани или липсващи символи в описанието на инфо-слота"
+#~ msgid "iba_Information bays"
+#~ msgstr "Информационни слотове"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "Режимът за публичен достъп \"с парола извън локалната мрежа\" не се поддържа за FTP компонентата на сървъра. Ако изберете този режим, FTP сървърът ще иска за този инфо-слот парола както от локалната мрежа, така и извън нея."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr "Следните виртуални домейни използваха този информационен слот като тяхно съдържание и ще бъдат променени да сочат към основния сайт (можете да ги пренасочите към нещо друго после)."

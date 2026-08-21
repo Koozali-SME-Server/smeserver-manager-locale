@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Uued LDAP vaikimisi seaded on edukalt salvestatud.',
 'dir_LEAVE' => 'Jäta nii nagu on',
 'dir_UPDATE' => 'Rakenda kõikidele vaikimisi seaded',
-'dir_Directory' => 'Kataloog',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Kataloog',

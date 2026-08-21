@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "Configurações de acesso ao e-mail salvas com sucesso"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Customizado"
+
+msgid "mai_DEFAULT"
+msgstr "Padrão"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "Configurações de entrega de e-mail salvas com sucesso"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Você pode bloquear conteúdo executável em anexos de e-mail marcando o tipo de anexo executável que deseja bloquear. E-mails que contenham esse tipo de anexo serão automaticamente retornados ao remetente."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Delegação de servidor de correio Seu servidor inclui um servidor de correio eletrônico completo. Entretanto, se por alguma razão voce desejar delegar o processamento de correio para outro sistema, especifique o endereço IP do sistema desejado aqui. Para operações normais deixe este campo em branco. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "Para ETRN ou multi-drop, você pode controlar a frequência com que este servidor faz contato com o secundário para trazer os e-mails. Conexões mais frequentes significam que você receberá e-mails mais rapidamente, mas também causará maior tráfego com a Internet, possibilitando contas maiores de telefone e Internet."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "Você pode controlar o acesso do servidor IMAP. A configuração 'Permite privado' permite acesso IMAP somente da rede(s) local(is). A configuração IMAPS pode ser usada para prover um acesso externo encriptado ao seu servidor IMAP. Nós recomendamos deixar essa configuração como 'Permite privado' a não ser que tenha uma razão específica para fazer de outra maneira."
+
+msgid "mai_DESC_MODE"
+msgstr "O modo de recuperação de e-mail pode ser configurado para padrão (para conexões dedicadas com a Internet), ETRN (recomendado para conexões discadas) ou multi-drop (para conecções discadas se ETRN não for suportado por seu provedor de Internet). Note que o modo multi-drop é a única opção disponível quando o servidor está configurado como servidor privado e modo gateway."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "Você pode controlar o acesso do servidor POP3. A configuração 'Permite privado' permite acesso POP3 somente da rede(s) local(is). A configuração POP3S pode ser usada para prover um acesso externo encriptado ao seu servidor POP3. Nós recomendamos deixar essa configuração como 'Permite privado' a não ser que tenha uma razão específica para fazer de outra maneira."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " Configuração ETRN ou multi-drop Para ETRN ou multi-drop, especifique o nome do host ou endereço IP de seu servidor secundário de correio. (Numa configuração padrão, este campo pode ficar em branco.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " Servidor SMTPO servidor pode enviar mensagens diretamente para seu destino (recomendado na maioria dos casos) ou pode enviá-las via servidor SMTP de seu provedor internet (recomendado se seu provedor de Internet (recomendado se voce possui uma conexão não confiável ou está usando internet residencial). Se estiver usando o servidor SMTP de seu provedor de Internet, especifique o hostname ou endereço IP abaixo. Caso contrário deixe esses campos em branco. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires all users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "Voce pode escanear mensagem por spam. Se a filtragem de spam estiver habilitada, um status de X-Spam-Status: será adicinada ao cabeçalho de cada mensagem, que pode ser usado para filtro de spam. Você pode ajustar a sensibilidade do processo de detecção de Spam para um padrão médio. Para um controle mais rigoroso você pode ajustar os níveis de sensibilidade escolhido, e também um nível customizado de marcação e opcionalmente um nível em que a mensagem será rejeitada."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "(en)You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " Trocar configuração de acesso a e-mail "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " Trocar configurações de entrega de e-mail "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " Trocar configurações de filtro de e-mail "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " Trocar configuração de recepção de e-mail "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr "  Usuários Desconhecidos Selecione Rejeitar (configuração recomendada) configurará o servidor para aceitar somente e-mails para endereços de e-mail válidos (sejam usuários, grupos ou pseudônimos). Todos e-mails para outros endereços serão rejeitados."
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "Você pode escanear mensagens entrando ou saindo para vírus. Se o escaneio estiver habilitado e um vírus for detectado, o e-mail será rejeitado e devolvido ao remetente."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "Você pode habilitar ou desabilitar o uso de webmail neste sistema. O Webmail permite seus usuários terem acesso a suas mensagens por meio de um navegador internet no endereço https://[_1]/webmail e fazendo login usando seus usuários e senhas."
+
+msgid "mai_E-Mail"
+msgstr "E-mail"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "Permite HTTPS (seguro)"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP com requisição de cliente)"
+
+msgid "mai_EVERY15MIN"
+msgstr "Cada 15 minutos"
+
+msgid "mai_EVERY2HRS"
+msgstr "Cada 2 horas"
+
+msgid "mai_EVERY30MIN"
+msgstr "Cada 30 minutos"
+
+msgid "mai_EVERY5MIN"
+msgstr "Cada 5 minutos"
+
+msgid "mai_EVERYHOUR"
+msgstr "Cada hora"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "Configurações de filtragem de e-mail salvas com sucesso"
+
+msgid "mai_FORWARD_TO"
+msgstr "Enviar para"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "Enviar ao administrador"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Alto"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "Permite ambos IMAP e IMAPS"
+
+msgid "mai_INSECURE_POP3"
+msgstr "Permite ambos POP3 e POP3S"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "O nome do smarthost fornecido não é um domínio de internet válido e não está em branco"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Bloquear conteúdo executável"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Conteúdo para bloquear"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Endereço do servidor interno de correio"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "Durante horário comercial (8:00 as 18:00) nos dias de semana"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "Fora do horário comercial (18:00 as 8:00) em dias de semana"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "Durante final de semana"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "Acesso ao servidor IMAP"
+
+msgid "mai_LABEL_MODE"
+msgstr "Modo de recuperação dos E-mails"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "Acesso ao servidor POP3"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "Conta POP do usuário (para multi-drop)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "Senha POP do usuário (para multi-drop)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "Servidor secundário de correio"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "Endereços do servidor de e-mail do provedor internet"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Senha para servidor de correio"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "Autenticação SMTP no provedor de Internet"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "ID de usuário para servidor de correio"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Mover mensagens marcadas como para a pasta junkmail"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "Selecionar cabeçalho de classificação (para multi-drop)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Selecionar método de classificação (para multi-drop)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Nivel customizado da rejeição como spam"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Filtragem de spam"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Sensibilidade do filtro de spam"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "Prefixo do assunto de SPAM"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "Modificar o assunto das mensagens detectadas como spam"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Nível customizado da marcação como spam "
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "E-mail para usuários desconhecidos"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Escanear por vírus"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Acesso ao webmail"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Baixo"
+
+msgid "mai_MEDIUM"
+msgstr "Médio"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "de modo nenhum"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "Permite acesso HTTPS (sguro) somente da rede local"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "Definições de receção de e-mail guardadas com sucesso"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Retornar ao remetente"
+
+msgid "mai_SECURE_IMAP"
+msgstr "Permite privado e público (seguro IMAPS)"
+
+msgid "mai_SECURE_POP3"
+msgstr "Permite privado e público (seguro POP3S)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "Permite SSMTP (seguro)"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Especificar abaixo"
+
+msgid "mai_STANDARD"
+msgstr "Padrão (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "Estado da porta de submissão %u:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Delegar servidores de correio"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "Configurações de ETRN ou multi-drop"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "Servidor SMTP"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Utilizadores desconhecidos"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "Este campo não pode ficar em branco se a autenticação do SMTP estiver habilitada."
+
+msgid "mai_VERYHIGH"
+msgstr "Muito alto"
+
+msgid "mai_VERYLOW"
+msgstr "Muito baixo"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Permitir privado"
+#~ msgid "mai_AUTO"
+#~ msgstr "Automático"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "Para e-mail multi-drop, especificar a conta POP e a senha. (Se usando a padrão ou or ETRN e-mail, este campo pode ficar em branco.) Tambem, para multi-drop, você pode ou usar o método padrão de classificação de correio ou especificar um cabeçalho particular para ser usado na classificação de mensagens de correio."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " Acesso a E-mail "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " Entrega de E-mail "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr " Recepção de e-mail "
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Permite ambos HTTP e HTTPS"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "Configurações de e-mail"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "Permite ambos SMTP e SSMTP"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Protocolo (para multi-drop)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Tunel sobre SSL (para multi-drop)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "Autenticação SMTP"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "A nova configuração de e-mail foi salva."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "Este campo requer um endereço de e-mail válido, o qual deve incluir o símbolo @ e o nome de um domínio."

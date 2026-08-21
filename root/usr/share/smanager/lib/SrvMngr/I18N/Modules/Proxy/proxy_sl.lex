@@ -1,4 +1,4 @@
-'prx_Proxy settings' => 'Nastavitve proxy streznika',
+# ORPHANED (no longer in proxy_en.lex; kept for reference, commented out by lex-to-po.pl): 'prx_Proxy settings' => 'Nastavitve proxy streznika',
 'prx_FIRST_PAGE_DESCRIPTION' => 'Konfiguracija proxy nastavitev na strezniku. Streznik vsebuje transparenten proxy in vmesni pomnilnik za HTTP promet. Obe storitvi sta privzeto omogoceni, razen ce streznik v nacinu &quot;samo streznik&quot; . Ce uporabljamo ta streznik kot e-mail streznik, bodo vse povezave s strani lokalnih racunalnikov na zunanje SMTP streznike sle skozi ta lokalni streznik.',
 'prx_HTTP_PROXY_STATUS_DESCRIPTION' => 'HTTP proxy zmanjsa skupen pretok podatkov na ta nacin, da nazadnje obiskane spletne strani shrani v vmesni pomnilnik. Ta je transparenten za vse brskalnike, ki uporabljajo streznik za prehod. To funkcijo lahko omogocite ali onemogocite tukaj.',
 'prx_HTTP_PROXY_STATUS_LABEL' => 'Status HTTP proxy streznika',

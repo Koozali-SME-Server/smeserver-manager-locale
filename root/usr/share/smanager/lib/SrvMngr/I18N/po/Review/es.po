@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Review module\n"
+"POT-Creation-Date: 2026-08-21 11:02+0100\n"
+"PO-Revision-Date: 2026-08-21 11:02+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgid "Review configuration"
+msgstr "Revisar configuración"
+
+msgid "rvw_ADDITIONAL_LOCAL_NETWORKS"
+msgstr "Redes locales adicionales"
+
+msgid "rvw_BEGINNING_OF_DHCP_ADDRESS_RANGE"
+msgstr "Comienzo del rango de dirección DHCP"
+
+msgid "rvw_DESCRIPTION"
+msgstr "Este informe resume los parámetros de la red, del servidor y del dominio en este servidor, que son relevantes para configurar los ordenadores cliente en su red. Si lo desea, puede imprimir esta página y utilizarla como referencia."
+
+msgid "rvw_DHCP_SERVER"
+msgstr "Servidor DHCP"
+
+msgid "rvw_DNS_SERVER"
+msgstr "Servidor DNS"
+
+msgid "rvw_DOMAIN_INFORMATION"
+msgstr "Información de dominio"
+
+msgid "rvw_EMAIL_ADDRESSES"
+msgstr "Direcciones de Email"
+
+msgid "rvw_EMAIL_FIRSTNAME"
+msgstr "nombre"
+
+msgid "rvw_EMAIL_LASTNAME"
+msgstr "apellido"
+
+msgid "rvw_EMAIL_USERACCOUNT"
+msgstr "cuenta"
+
+msgid "rvw_END_OF_DHCP_ADDRESS_RANGE"
+msgstr "Fin del rango de dirección DHCP"
+
+msgid "rvw_EXTERNAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "Dirección IP externa / máscara de subred"
+
+msgid "rvw_FORM_TITLE"
+msgstr "Revisar configuración"
+
+msgid "rvw_FTP_SERVER"
+msgstr "Servidor FTP"
+
+msgid "rvw_GATEWAY"
+msgstr "Puerta de enlace"
+
+msgid "rvw_INTERNET_VISIBLE_ADDRESS"
+msgstr "Dirección IP Visible de Internet"
+
+msgid "rvw_LOCAL_IP_ADDRESS_SUBNET_MASK"
+msgstr "Dirección IP local / máscara de subred"
+
+msgid "rvw_NETWORKING_PARAMS"
+msgstr "Parámetros de Red"
+
+msgid "rvw_NO_NETWORKS"
+msgstr "No hay redes adicionales definidas"
+
+msgid "rvw_NO_VIRTUAL_DOMAINS"
+msgstr "(en) rvw_NO_VIRTUAL_DOMAINS"
+
+msgid "rvw_PRIMARY_DOMAIN"
+msgstr "Dominio primario"
+
+msgid "rvw_PRIMARY_WEB_SITE"
+msgstr "Sitio Web primario"
+
+msgid "rvw_PROXY_SERVER"
+msgstr "Servidor proxy"
+
+msgid "rvw_SERVER_MANAGER"
+msgstr "Administrador de servidores"
+
+msgid "rvw_SERVER_MODE"
+msgstr "Modo de Servidor"
+
+msgid "rvw_SERVER_NAMES"
+msgstr "Nombres del servidor"
+
+msgid "rvw_SMTP_POP_AND_IMAP_MAIL_SERVERS"
+msgstr "Servidores de correo SMTP, POP e IMAP"
+
+msgid "rvw_USER_PASSWORD_PANEL"
+msgstr "Panel de contraseña de usuario"
+
+msgid "rvw_VIRTUAL_DOMAINS"
+msgstr "Dominios virtuales"
+
+msgid "rvw_WEB_SERVER"
+msgstr "Servidor Web"

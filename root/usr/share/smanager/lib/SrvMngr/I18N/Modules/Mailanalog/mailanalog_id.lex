@@ -1,0 +1,25 @@
+'mai_FORM_TITLE' => 'Analisa File Log Mail',
+'mai_INITIAL_DESC' => ' Menganalisa log file dari mail sistem dapat membantu anda mengerti bagaimana dayaguna sistem anda dan dalam mendiagnosa masalah pengiriman. Beberapa jenis laporan tersedia.
+#
+#  <p>Harap dicatat bahwa mungkin diperlukan beberapa menit untuk membuat laporan-laporan tersebut</p>
+#
+#  ',
+'mai_REPORT_TYPE' => 'Pilih jenis laporan',
+'mai_GENERATE_REPORT' => 'Buat laporan',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_LIST_OUTGOING' => 'Daftar pesan keluar dan penerima',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SUMMARIZE_QUEUE' => 'Ringkasan status dari antrian surat',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SUCCESSFUL_DELIVERY_DELAY' => 'Sebaran waktu tunda yang berhasil dikirim',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_DEFERRAL' => 'Alasan ditangguhkan',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_FAILURE' => 'Alasan gagal',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_BASIC_STATS' => 'Statistik dasar',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_STATS' => 'Statistik penerima',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_HOSTS' => 'Host penerima',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_ORDERED' => 'Penerima diurutkan dari yang terbaik untuk daftar alamat surat',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDER_STATS' => 'Statistik pengirim',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDMAIL_STYLE' => 'Log dengan style Sendmail',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_SUCCESS' => 'Alasan berhasil',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDER_UIDS' => 'Uid pengirim',
+'mai_INVALID_REPORT_TYPE' => 'Jenis laporan invalid:',
+'mai_REPORT_GENERATED' => 'Laporan yang dibuat:',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_END_OF_REPORT' => 'Akhir dari laporan',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_Mail log file analysis' => 'Analisa File Log Mail',

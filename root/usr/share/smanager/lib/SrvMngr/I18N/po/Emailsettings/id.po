@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Emailsettings module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "Modify"
+msgstr "(en) Modify"
+
+msgid "Submission port %u status:"
+msgstr "(en) Submission port %u status:"
+
+msgid "mai_ACC_panel_action_was_successful"
+msgstr "Pengaturan akses email berhasil disimpan"
+
+msgid "mai_Authentication_allowed_(LAN)"
+msgstr "(en) Authentication allowed (LAN)"
+
+msgid "mai_Authentication_allowed_(LAN_and_public)"
+msgstr "(en) Authentication allowed (LAN and public)"
+
+msgid "mai_CUSTOM"
+msgstr "Kustom"
+
+msgid "mai_DEFAULT"
+msgstr "Bawaan"
+
+msgid "mai_DEL_panel_action_was_successful"
+msgstr "Pengaturan pengiriman email berhasil disimpan"
+
+msgid "mai_DESC_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Anda dapat mem-blok executable content di e-mail dengan meng-highlight jenis attachment yang ingin anda blok. E-mail dengan jenis attachment tersebut secara otomatis dikembalikan ke pengirim."
+
+msgid "mai_DESC_DELEGATE"
+msgstr " Delegate mail servers Server anda dilengkapi dengan e-mail server yang lengkap, full-featured. Namun, untuk alasan tertentu jika anda ingin mendelegasikan pemrosesan e-mail ke server lain, isikan IP address dari system delegasi tersebut disini. Untuk opersai normal, biarkan field ini kosong. "
+
+msgid "mai_DESC_FETCH_PERIOD"
+msgstr "Untuk ETRN atau multi-drop, anda dapat mengatur sesering apa server ini menghubungi server email sekunder untuk mengambil email. Koneksi lebih sering berarti anda menerima e-mail anda lebih cepat namun juga menyebabkan lebih banyak permintaan ke Internet, yang mungkin akan meningkatkan biaya telepon dan Internet anda."
+
+msgid "mai_DESC_IMAP_ACCESS_CONTROL"
+msgstr "Anda dapat mengatur akses server IMAP. Setting 'Bolehkan akses hanya dari jaringan lokal' membolehkan akses hanya dari jaringan lokal. Setting IMAPS dapat digunakan untuk menyediakan akses eksternal ter-enkripsi ke server IMAP anda. Kami rekomendasikan setting ini 'Bolehkan akses hanya dari jaringan lokal' kecuali anda punya alasan lain."
+
+msgid "mai_DESC_MODE"
+msgstr "Email retrieval mode dapat diset ke standar (untuk sambungan internet yang selalu tersambung), ETRN (direkomendasikan untuk sambungan dialup), atau multi-drop (untuk koneksi dialup jika ETRN tidak didukung oleh ISP anda). Catat bahwa jika server dikonfigurasi sebagai private server dan gateway maka pilihan yang tersedia hanyalah mode multi-drop."
+
+msgid "mai_DESC_PEERPORT"
+msgstr "(en)Usually 25, 587 or 467. If empty will assume 25."
+
+msgid "mai_DESC_POP_ACCESS_CONTROL"
+msgstr "Anda dapat mengatur akses server POP3. Setting 'Bolehkan akses hanya dari jaringan lokal' membolehkan akses hanya dari jaringan lokal. Setting POP3S dapat digunakan untuk menyediakan akses eksternal ter-enkripsi ke server POP3 anda. Kami rekomendasikan setting ini 'Bolehkan akses hanya dari jaringan lokal' kecuali anda punya alasan lain."
+
+msgid "mai_DESC_SECONDARY"
+msgstr " ETRN or multi-drop settings Untuk ETRN atau multi-drop, tentukan hostname atau IP address dari mail server sekunder. (Jika menggunakan setup e-mail standard , field ini dapat dikosongkan.) "
+
+msgid "mai_DESC_SMARTHOST"
+msgstr " SMTP server Server dapat mengirim pesan keluar secara langsung ke alamat tujuan (paling disarankan) atau dapat mengirimnya melalui SMTP server Penyedia Jasa Internet anda(disarankan jika anda memiliki sambungan internet yang tidak terpercaya atau menggunakan Jasa Internet rumahan). Jika menggunakan SMTP server Penyedia Jasar Internet anda, tentukan nama atau alamat IP-nya dibawah ini. Selain itu, biarkan field ini kosong. "
+
+msgid "mai_DESC_SMTP_AUTH_CONTROL"
+msgstr " You can provide authenticated access to your SMTP server, or set it to Disabled. The SSMTP setting requires all users to use SSL/TLS authentication. The SMTP and SSMTP option additionally allows STARTTLS to be used to ensure secure authentication. "
+
+msgid "mai_DESC_SPAM_SCAN"
+msgstr "Anda dapat memeriksa email dari spam. Jika Spam filtering di-enable, maka X-Spam-Status: header akan ditambahkan pada setiap email, yang akan digunakan untuk menyaring spam. Anda dapat mengatur sensitivitas dari proses deteksi spam dari default yaitu medium. Untuk kontrol yang lebih teliti, anda dapat mengatur sensitivitas spam ke Custom dan pilih tagging level yang diinginkan, dan secara opsional level dimana email tersebut ditolak."
+
+msgid "mai_DESC_SPAM_SUBJECT"
+msgstr "(en)You can enable to add a tag to the subject of each message that is classified as SPAM. The value for this tag can be defined below."
+
+msgid "mai_DESC_STATE_ACCESS_BUTTON"
+msgstr " Ubah pengaturan akses e-mail  "
+
+msgid "mai_DESC_STATE_DELIVERY_BUTTON"
+msgstr " Ubah pengaturan pengiriman e-mail "
+
+msgid "mai_DESC_STATE_FILTERING_BUTTON"
+msgstr " Ubah pengaturan filter e-mail "
+
+msgid "mai_DESC_STATE_RECEPTION_BUTTON"
+msgstr " Ubah pengaturan penerimaan e-mail "
+
+msgid "mai_DESC_UNKNOWN"
+msgstr " Pengguna tidak dikenal Pilih Tolak(setting yang disarankan) akan mengatur server agar hanya menerima email untuk alamat email yang valid saja (contohnya users, group, pseudonim) . Mail untuk alamat selain itu akan ditolak. "
+
+msgid "mai_DESC_VIRUS_SCAN"
+msgstr "Anda dapat memeriksa e-mail masuk dan keluar dari virus. Jika scanning di-enable dan ditemukan virus, maka email akan ditolak dan dikembalikan ke pengirim."
+
+msgid "mai_DESC_WEBMAIL"
+msgstr "Anda dapat meng-enable atau men-disable webmail pada sistem ini. Webmail membolehkan user untuk mengakses mail melalui web browser dengan mengarahkan web browser ke alamat https://[_1]/webmail, dan login ke akun mereka."
+
+msgid "mai_E-Mail"
+msgstr "Email"
+
+msgid "mai_ENABLED_SECURE_ONLY"
+msgstr "Bolehkan HTTPS (aman)"
+
+msgid "mai_ERROR_UPDATING_CONFIGURATION"
+msgstr "(en) System call to email-update returned a failure ([_1])"
+
+msgid "mai_ETRN"
+msgstr "ETRN (SMTP dengan permintaan klien)"
+
+msgid "mai_EVERY15MIN"
+msgstr "Tiap 15 menit"
+
+msgid "mai_EVERY2HRS"
+msgstr "Setiap 2 jam"
+
+msgid "mai_EVERY30MIN"
+msgstr "Tiap 30 menit"
+
+msgid "mai_EVERY5MIN"
+msgstr "Setiap 5 menit"
+
+msgid "mai_EVERYHOUR"
+msgstr "Tiap jam"
+
+msgid "mai_Enabled_for_local_access_only"
+msgstr "(en) Enabled for local access only"
+
+msgid "mai_Enabled_for_local_and_public_access"
+msgstr "(en) Enabled for local and public access"
+
+msgid "mai_Enabled_for_public_SSL_only"
+msgstr "(en) Enabled for public SSL only"
+
+msgid "mai_FIL_panel_action_was_successful"
+msgstr "Pengaturan pemfilteran email berhasil disimpan"
+
+msgid "mai_FORWARD_TO"
+msgstr "Kirim ke"
+
+msgid "mai_FORWARD_TO_ADMIN"
+msgstr "Kirim ke administrator"
+
+msgid "mai_FRONT_panel_action_was_successful"
+msgstr "(en) Front panel action was successful"
+
+msgid "mai_HIGH"
+msgstr "Tinggi"
+
+msgid "mai_INSECURE_IMAP"
+msgstr "Bolehkan IMAP dan IMAPS"
+
+msgid "mai_INSECURE_POP3"
+msgstr "Bolehkan POP3 dan POP3S"
+
+msgid "mai_INVALID_DELEGATE"
+msgstr "(en)The delegate host name you entered is not a valid IP Address and is not blank"
+
+msgid "mai_INVALID_SMARTHOST"
+msgstr "Nama host yang anda masukkan bukan nama domain internet yang valid dan bukan kosong"
+
+msgid "mai_LABEL_BLOCK_EXECUTABLE_CONTENT"
+msgstr "Pemblokiran konten yang dapat dieksekusi"
+
+msgid "mai_LABEL_CONTENT_TO_BLOCK"
+msgstr "Konten yang diblok"
+
+msgid "mai_LABEL_DELEGATE"
+msgstr "Alamat mail server internal"
+
+msgid "mai_LABEL_FETCH_PERIOD"
+msgstr "Saat jam kantor (8:00 AM s.d 6:00 PM) pada hari kerja"
+
+msgid "mai_LABEL_FETCH_PERIOD_NIGHTS"
+msgstr "Diluar jam kantor (6:00 PM s.d 8:00 AM) pada hari kerja"
+
+msgid "mai_LABEL_FETCH_PERIOD_WEEKENDS"
+msgstr "Selama akhir pekan"
+
+msgid "mai_LABEL_IMAP_ACCESS_CONTROL"
+msgstr "IMAP server akses"
+
+msgid "mai_LABEL_MODE"
+msgstr "Modus pengambilan email"
+
+msgid "mai_LABEL_POP_ACCESS_CONTROL"
+msgstr "POP3 server akses"
+
+msgid "mai_LABEL_POP_ACCOUNT"
+msgstr "Nama Pengguna POP (untuk multi-drop)"
+
+msgid "mai_LABEL_POP_PASS"
+msgstr "Password POP (untuk multi-drop)"
+
+msgid "mai_LABEL_SECONDARY"
+msgstr "Email server sekunder"
+
+msgid "mai_LABEL_SMARTHOST"
+msgstr "Alamat mail server Penyedia Jasa Internet"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PASSWD"
+msgstr "Password server email"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_PEERPORT"
+msgstr "(en)Peer Port of Internet provider's mail server"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_STATUS"
+msgstr "SMTP Authentication untuk ISP"
+
+msgid "mai_LABEL_SMARTHOST_SMTPAUTH_USERID"
+msgstr "User id server email"
+
+msgid "mai_LABEL_SORTSPAM"
+msgstr "Urutkan spam kedalam folder junkmail"
+
+msgid "mai_LABEL_SORT_HEADER"
+msgstr "Pilih header untuk pengurutan (untuk multi-drop)"
+
+msgid "mai_LABEL_SORT_METHOD"
+msgstr "Pilih metode pengurutan (untuk multi-drop)"
+
+msgid "mai_LABEL_SPAM_REJECTLEVEL"
+msgstr "Tingkat penolakan spam kustom"
+
+msgid "mai_LABEL_SPAM_SCAN"
+msgstr "Penyaringan spam"
+
+msgid "mai_LABEL_SPAM_SENSITIVITY"
+msgstr "Sensitivitas Spam"
+
+msgid "mai_LABEL_SPAM_SUBJECT"
+msgstr "Awalan subjek SPAM"
+
+msgid "mai_LABEL_SPAM_SUBJECTTAG"
+msgstr "Ubah subject pesan dari spam"
+
+msgid "mai_LABEL_SPAM_TAGLEVEL"
+msgstr "Tingkat penandaan spam kustom"
+
+msgid "mai_LABEL_UNKNOWN"
+msgstr "E-mail ke pengguna tidak dikenal"
+
+msgid "mai_LABEL_VIRUS_SCAN"
+msgstr "Pemindaian virus"
+
+msgid "mai_LABEL_WEBMAIL"
+msgstr "Akses Webmail"
+
+msgid "mai_LABEL_WEBMAIL_ACCESS_CONTROL"
+msgstr "(en) Webmail access"
+
+msgid "mai_LOW"
+msgstr "Rendah"
+
+msgid "mai_MEDIUM"
+msgstr "Sedang"
+
+msgid "mai_MULTIDROP"
+msgstr "multi-drop"
+
+msgid "mai_NEVER"
+msgstr "tidak kedua-duanya"
+
+msgid "mai_No_Authentication"
+msgstr "(en) No Authentication"
+
+msgid "mai_ONLY_LOCAL_NETWORK_SSL"
+msgstr "Bolehkan akses hanya dari jaringan lokal"
+
+msgid "mai_REC_panel_action_was_successful"
+msgstr "Pengaturan penerimaan email berhasil disimpan"
+
+msgid "mai_RETURN_TO_SENDER"
+msgstr "Tolak"
+
+msgid "mai_SECURE_IMAP"
+msgstr "Bolehkan privat dan umum (IMAPS aman)"
+
+msgid "mai_SECURE_POP3"
+msgstr "Bolehkan privat dan umum (POP3S aman)"
+
+msgid "mai_SECURE_SMTP"
+msgstr "Bolehkan SSMTP (aman)"
+
+msgid "mai_SMTPS_SSL/TLS"
+msgstr "(en)Smtps ssl/tls auth: port %u status:"
+
+msgid "mai_SMTPS_port_(465)"
+msgstr "(en)Smtps port (465) will require implicit ssl/tls then authenticate to send."
+
+msgid "mai_SMTP_Submission"
+msgstr "(en)Smtp submission port (587) will require starttls, then authenticate to send."
+
+msgid "mai_SMTP_port_(25)"
+msgstr "(en)Smtp port (25) main purpose is to receive emails from another server, starttls is always offered, but auth if offered is only if starttls is also used by client."
+
+msgid "mai_SMTP_port_authenticate"
+msgstr "(en)Smtp port %u allow client to authenticate:"
+
+msgid "mai_SPECIFY_BELOW"
+msgstr "Spesifikasikan dibawah ini"
+
+msgid "mai_STANDARD"
+msgstr "Standar (SMTP)"
+
+msgid "mai_Submission_port"
+msgstr "Status port pengiriman %u:"
+
+msgid "mai_TITLE_DELEGATE"
+msgstr "Delegasikan server email"
+
+msgid "mai_TITLE_SECONDARY"
+msgstr "Pengaturan ETRN atau multi-drop"
+
+msgid "mai_TITLE_SMARTHOST"
+msgstr "Server SMTP"
+
+msgid "mai_TITLE_UNKNOWN"
+msgstr "Pengguna tidak dikenal"
+
+msgid "mai_VALIDATION_SMTPAUTH_NONBLANK"
+msgstr "Field ini harus diisi jika SMTP Authentication di-enable"
+
+msgid "mai_VERYHIGH"
+msgstr "Sangat tinggi"
+
+msgid "mai_VERYLOW"
+msgstr "Sangat rendah"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_ALLOW_PRIVATE"
+#~ msgstr "Bolehkan privat"
+#~ msgid "mai_AUTO"
+#~ msgstr "Otomatis"
+#~ msgid "mai_DESC_POP_ACCOUNT"
+#~ msgstr "Untuk e-mail multi-drop, tentukan nama user dan password POP. (Jika menggunakan e-mail standard atau ETRN, field tersebut boleh dibiarkan kosong.) Juga, untuk multi-drop, anda dapat menggunakan metode pengurutan surat default, atau anda dapat menentukan header pesan yang digunakan untuk mengurutkan surat."
+#~ msgid "mai_DESC_STATE_ACCESS"
+#~ msgstr " Akses E-mail  "
+#~ msgid "mai_DESC_STATE_DELIVERY"
+#~ msgstr " Pengiriman e-mail "
+#~ msgid "mai_DESC_STATE_RECEPTION"
+#~ msgstr "Penerimaan e-mail"
+#~ msgid "mai_ENABLED_BOTH"
+#~ msgstr "Bolehkan HTTP dan HTTPS"
+#~ msgid "mai_FORM_TITLE"
+#~ msgstr "Pengaturan email"
+#~ msgid "mai_INSECURE_SMTP"
+#~ msgstr "Bolehkan SMTP dan SSMTP"
+#~ msgid "mai_LABEL_FETCH_PROTO"
+#~ msgstr "Protokol (untuk multi-drop)"
+#~ msgid "mai_LABEL_FETCH_SECURE"
+#~ msgstr "Tunnel melalui SSL (untuk multi-drop)"
+#~ msgid "mai_LABEL_SMTP_AUTH_CONTROL"
+#~ msgstr "Otentikasi SMTP"
+#~ msgid "mai_SUCCESS"
+#~ msgstr "Setting e-mail yang baru telah disimpan."
+#~ msgid "mai_UNACCEPTABLE_CHARS"
+#~ msgstr "Field ini memerlukan alamat email yang valid, dimana tanda @ dan nama domain harus ada."

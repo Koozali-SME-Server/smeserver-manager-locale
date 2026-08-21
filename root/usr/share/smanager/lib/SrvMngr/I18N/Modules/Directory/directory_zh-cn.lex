@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'LDAP 默认设置已被保存。',
 'dir_LEAVE' => '保持原样',
 'dir_UPDATE' => '更新默认值',
-'dir_Directory' => '目录',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => '目录',

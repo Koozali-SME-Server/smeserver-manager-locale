@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Initial module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+
+msgid "initial_FORM_TITLE"
+msgstr "Welkom bij de server manager"
+
+msgid "initial_FRAMES_BODY"
+msgstr "  Welkom bij de SME Server, de leidende Linux distributie voor het midden- en klein bedrijf. SME Server wordt u gepresenteerd door <a href=\"https://www.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a>, een niet voor profijt organisatie welke is opgericht t.b.v. marketing- en juridische support voor SME Server. \n\n  <p> SME Server is vrij te verkrijgen onder de GNU General Public License en is enkel mogelijk door de inspanningen van de SME Server gemeenschap. Desalniettemin, de beschikbaarheid en kwaliteit van SME Server is afhankelijk van de dekking van de kosten zoals die van hosting, server hardware, etc. </p>\n\n  <p> Dien ten gevolge vragen wij u om een donatie om onze kosten te dekken en te voorzien in de verdere ontwikkeling. </p>\n\n  <p> a) Bent u een school, kerk, non-profit organisatie of individu welke SME gebruikt voor persoonlijke doeleinden, dan zouden we het appreciëren indien u binnen uw vermogen doneert tegemoetkoming voor onze kosten betreffende hosting, onderhoud en ontwikkeling. </p>\n\n  <p> b) Bent u een bedrijf of een integrator welke SME implementeert ten behoeve van uw werk voor het genereren van inkomsten, dan verwachten wij een donatie evenredig met de hoeveelheid winst die u hiermee maakt en het aantal servers welke u in gebruik heeft. Alstublieft, help het project </p>\n\n  <br> <p> <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\"> <img src=\"images/btn_donateCC_LG.gif\" alt=\"https://wiki.koozali.org/donate\" align=\"middle\"></a> </p>\n\n  <br> <p> Deze software komt met ABSOLUUT GEEN GARANTIE. <a href=\"/smanager/support\" target=\"main\">Klik hier</a> voor een gedetailleerd rapport, garantie- en licentie informatie. </p>\n\n  <p> Om systeem administratie taken uit te voeren klik op een van de items uit het menu aan de linker zijde van het scherm. </p>\n\n  "
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "initial_NOFRAMES_BODY"
+#~ msgstr "  Welkom bij de SME Server. Deze software komt met ABSOLUUT GEEN GARANTIE. <a href=\"/smanager/support\" target=\"main\">Klik hier</a> voor een gedetailleerd rapport, garantie- en licentie informatie. \n\n  <p> <a href=\"/server-manager/noframes\">Klik hier</a> voor een lijst met systeem administratieve functies. </p>\n\n  "

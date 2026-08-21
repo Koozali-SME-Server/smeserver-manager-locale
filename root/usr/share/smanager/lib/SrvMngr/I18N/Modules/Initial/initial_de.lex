@@ -16,8 +16,8 @@
   <p> Um Funktion des Server-Managers aufzurufen, klicken Sie bitte auf einen der Menüpunkte auf der linken Seite des Bildschirms. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Willkommen beim SME Server. Diese Software wird ABSOLUT OHNE GARANTIE zur Verfügung gestellt. Bitte <a href=\"/server-manager/support/\" target=\"main\">hier klicken</a>, um ausführliche Informationen zu Support, Garantie und Lizenzen anzuschauen. 
-
-  <p> <a href=\"/server-manager/noframes\">Klicken Sie hier</a>, um eine Liste der Systemadministrationsfunktionen aufzurufen. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Willkommen beim SME Server. Diese Software wird ABSOLUT OHNE GARANTIE zur Verfügung gestellt. Bitte <a href=\"/server-manager/support/\" target=\"main\">hier klicken</a>, um ausführliche Informationen zu Support, Garantie und Lizenzen anzuschauen. 
+#
+#  <p> <a href=\"/server-manager/noframes\">Klicken Sie hier</a>, um eine Liste der Systemadministrationsfunktionen aufzurufen. </p>
+#
+#  ',

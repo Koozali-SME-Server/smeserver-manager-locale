@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Proxy module\n"
+"POT-Creation-Date: 2026-08-21 10:22+0100\n"
+"PO-Revision-Date: 2026-08-21 10:22+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Proxy settings
+msgid "Proxy settings"
+msgstr ""
+
+#. Blocked
+msgid "prx_BLOCKED"
+msgstr ""
+
+#. ERROR: There is no squid record in the configuration database.
+msgid "prx_ERR_NO_SQUID_REC"
+msgstr ""
+
+#. ERROR: The proxy-update event returned an error.
+msgid "prx_ERR_PROXY_UPDATE_FAILED"
+msgstr ""
+
+#. This page allows configuration of the server's \nproxy settings.\nThe server includes a transparent proxy and cache for \nHTTP traffic. This is enabled by default, but not enforced \nif the server is in &quot;serveronly&quot; mode. \nIf this server is acting as an e-mail server, connections \nfrom local network clients to external SMTP servers \nwill default to being redirected to the local e-mail server.
+msgid "prx_FIRST_PAGE_DESCRIPTION"
+msgstr ""
+
+#. The server's HTTP proxy works to reduce overall uplink usage by\ncaching recently-visited pages. It is transparent to web browsers\nusing this server as their gateway. Enable or disable this proxy\nwith the following toggle.
+msgid "prx_HTTP_PROXY_STATUS_DESCRIPTION"
+msgstr ""
+
+#. HTTP proxy status
+msgid "prx_HTTP_PROXY_STATUS_LABEL"
+msgstr ""
+
+#. Proxy
+msgid "prx_Proxy"
+msgstr ""
+
+#. The server's transparent SMTP proxy works to reduce virus traffic \nfrom infected client hosts by forcing all outgoing SMTP traffic \nthrough this server if set to \"enabled\". \nIf you wish to use an alternate SMTP server, and this server is \nyour gateway to it, set this proxy to \"disabled\". Setting the \nproxy to \"blocked\" prevents all SMTP traffic to other servers, \nthis is the default. The proxy only intercepts/blocks normal smtp \n(port 25) traffic.
+msgid "prx_SMTP_PROXY_STATUS_DESCRIPTION"
+msgstr ""
+
+#. SMTP proxy status
+msgid "prx_SMTP_PROXY_STATUS_LABEL"
+msgstr ""
+
+#. The new proxy settings were applied successfully.
+msgid "prx_SUCCESS"
+msgstr ""
+
+#. Proxy settings
+msgid "prx_TITLE"
+msgstr ""

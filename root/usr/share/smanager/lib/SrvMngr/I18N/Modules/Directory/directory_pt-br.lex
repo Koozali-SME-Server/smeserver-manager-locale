@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'A configuração LDAP padrão foi salva.',
 'dir_LEAVE' => 'Deixe como estão',
 'dir_UPDATE' => 'Atualizar com os novos padrões',
-'dir_Directory' => 'Diretório',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Diretório',

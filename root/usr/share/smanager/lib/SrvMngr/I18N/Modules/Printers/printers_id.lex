@@ -1,7 +1,7 @@
 'prt_FORM_TITLE' => 'Tambah atau hapus printer',
-'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Tambah pinter</a>
-
-  ',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_INITIAL_DESC' => ' <a class="button-like" href="printers?page=0&next=add">Tambah pinter</a>
+#
+#  ',
 'prt_NO_PRINTERS' => 'Tidak ada printer dalam sistem',
 'prt_CURRENT_LIST' => 'Daftar Printer',
 'prt_REMOTE_ADDRESS' => 'Alamat remote',
@@ -24,10 +24,10 @@
 'prt_ERR_EXISTS' => 'Error: Akun sudah ada dengan jenis:',
 'prt_ERR_INVALID_ADDRESS' => 'Error: alamat network salah. Tidak membuat printer baru.',
 'prt_ERR_INVALID_REMOTE_NAME' => 'Error: nama printer network salah. Tidak membuat printer baru.',
-'prt_ERR_CREATING' => 'Gagal saat membuat printer.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_CREATING' => 'Gagal saat membuat printer.',
 'prt_CREATED_SUCCESSFULLY' => 'Berhasil membuat printer:',
 'prt_CREATE_NETWORK_PRINTER' => 'Tambah printer network',
-'prt_ERR_OPENING_DB' => 'Gagal saat membuka database akun.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_OPENING_DB' => 'Gagal saat membuka database akun.',
 'prt_CREATE_NETWORK_DESC' => 'Isi alamat dan nama printer jaringan',
 'prt_HOSTNAME_OR_IP' => 'Hostname atau alamat IP printer jaringan',
 'prt_REMOTE_NAME_DESC' => ' Nama printer jaringan (isikan raw jika tidak yakin) ',
@@ -36,9 +36,9 @@
 'prt_SPOOL_FILE_WARNING' => 'Semua file antrian untuk printer ini akan dihapus',
 'prt_ARE_YOU_SURE' => 'Anda yakin menghapus printer ini?',
 'prt_ERR_INTERNAL_FAILURE' => 'Error: gagal saat menghapus printer:',
-'prt_ERR_DELETING' => 'Kesalahan saat menghapus printer.',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_ERR_DELETING' => 'Kesalahan saat menghapus printer.',
 'prt_DELETED_SUCCESSFULLY' => 'Berhasil menghapus printer:',
 'prt_MUST_BE_VALID_HOSTNAME_OR_IP' => 'Harus hostname atau alamat IP yang valid',
-'prt_Printers' => 'Printer-printer',
+# ORPHANED (no longer in printers_en.lex; kept for reference, commented out by lex-to-po.pl): 'prt_Printers' => 'Printer-printer',
 'prt_INITIAL_BTN' => 'Tambahkan printer',
 'Printers' => 'Printer',

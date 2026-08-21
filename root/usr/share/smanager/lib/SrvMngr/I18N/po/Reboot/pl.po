@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Reboot module\n"
+"POT-Creation-Date: 2026-08-21 10:23+0100\n"
+"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+
+msgid "Reboot or shutdown"
+msgstr "(en) Reboot or shutdown"
+
+msgid "rbo_DESCRIPTION"
+msgstr " W tym miejscu możesz zdalnie wyłączyć, uruchomić ponownie lub skonfigurować ponownie serwer.Musisz wyłączyć komputer z tego miejsca, zanim odłączysz zasilanie. Wszystkie z podanych zadań mogą potrwać minutę lub dłużej. Gdy naciśniesz przycisk wykonaj , żądana operacja zostanie wykonana. "
+
+msgid "rbo_DESC_REBOOT"
+msgstr "Twój serwer jest w trakcie procesu ponownego uruchomienia."
+
+msgid "rbo_DESC_RECONFIGURE"
+msgstr "Twój serwer jest w trakcie procesu ponownego uruchomienia i konfiguracji."
+
+msgid "rbo_DESC_SHUTDOWN"
+msgstr "Twój serwer jest w trakcie procesu zamykania systemu. Proces ten może potrwać parę minut, potem możesz wyłączyć zasilanie."
+
+msgid "rbo_FORM_TITLE"
+msgstr "Wyłącz lub uruchom ponownie"
+
+msgid "rbo_LABEL_REBOOT"
+msgstr "Wybierz: wyłączenie, ponowne uruchomienie lub rekonfiguracja"
+
+msgid "rbo_REBOOT"
+msgstr "Uruchom ponownie"
+
+msgid "rbo_REBOOT_SUCCEEDED"
+msgstr "Żądanie ponownego uruchomienia zostało wykonane pomyślnie."
+
+msgid "rbo_RECONFIGURE_SUCCEEDED"
+msgstr "Żądanie ponownej konfiguracji zostało wykonane pomyślnie."
+
+msgid "rbo_SHUTDOWN_SUCCEEDED"
+msgstr "(en) Shutdown request initiated successfully."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "rbo_Reboot or shutdown"
+#~ msgstr "Wyłącz lub uruchom ponownie"

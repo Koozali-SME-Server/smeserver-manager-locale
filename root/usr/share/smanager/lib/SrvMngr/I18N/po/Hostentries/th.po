@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Hostentries module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+
+msgid "Hostnames and addresses"
+msgstr "ชื่อโฮสต์และที่อยู่"
+
+msgid "hos_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this hostname?"
+
+msgid "hos_ADDR_IN_DHCP_RANGE"
+msgstr "ช่วงหมายเลขที่ใช้ของ dynamic DHCP"
+
+msgid "hos_ADD_HOSTNAME"
+msgstr " เพิ่มชื่อโฮสต์ "
+
+msgid "hos_CREATE_OR_MODIFY_SUCCEEDED"
+msgstr "(en) Create or modify succeeded"
+
+msgid "hos_CREATE_TITLE"
+msgstr "สร้างหรือแก้ไขชื่อโฮสต์"
+
+msgid "hos_CREATE_TYPE"
+msgstr "(en) Create type"
+
+msgid "hos_CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN"
+msgstr "รายการชื่อโฮสต์ปัจจุบันของ [_1]"
+
+msgid "hos_ERROR_CREATING_HOST"
+msgstr "(en) Error creating host"
+
+msgid "hos_ERROR_MODIFYING_HOST"
+msgstr "(en) Error modifying host"
+
+msgid "hos_ERROR_WHILE_CREATING_HOST"
+msgstr "เกิดข้อผิดพลาดขึ้นระหว่างการสร้างชื่อโฮสต์"
+
+msgid "hos_ERROR_WHILE_DELETING_HOST"
+msgstr "เกิดข้อผิดพลาดขึ้นระหว่างการลบชื่อโฮสต์"
+
+msgid "hos_ERROR_WHILE_MODIFYING_HOST"
+msgstr "เกิดข้อผิดพลาดขึ้นระหว่างการแก้ไขชื่อโฮสต์"
+
+msgid "hos_ERROR_WHILE_REMOVING_HOST"
+msgstr "(en) Error while removing host"
+
+msgid "hos_ERR_IP_IS_LOCAL_OR_GATEWAY"
+msgstr "ผิดพลาด: หมายเลข IP จะเป็นหมายเลขของเซิร์ฟเวอร์หรือหมายเลขของเกตเวย์ไม่ได้"
+
+msgid "hos_ERR_IP_NOT_LOCAL"
+msgstr "ผิดพลาด: หมายเลข IP นี้ไม่ได้เป็นหมายเลขที่อยู่ในเครือข่ายท้องถิ่นแห่งนี้"
+
+msgid "hos_ETHERNET_ADDRESS"
+msgstr "หมายเลขอีเธอร์เน็ต"
+
+msgid "hos_ETHERNET_ADDRESS_DESCRIPTION"
+msgstr "หมายเลขอีเธอร์เน็ต (ethernet address) เป็นตัวเลือก และเป็นการเจาะจงให้เซอร์ฟเวอร์ DHCP ทำการกำนด (bind) เลข IP ภายในที่แน่นอนให้แก่เครื่องที่มีหมายเลขอีเธอร์เน็ตที่ระบุ หากจะกำหนดให้กำหนดให้อยู่ในรูปแบบ \"AA:BB:CC:DD:EE:FF\" โดยแต่ละหลักต้องเป็นตัวเลข 0-9 และตัวอักษร A-F เท่านั้น"
+
+msgid "hos_FORM_TITLE"
+msgstr "ชื่อโฮสต์และที่อยู่"
+
+msgid "hos_HOSTNAME"
+msgstr "ชื่อโฮสต์"
+
+msgid "hos_HOSTNAME_COMMENT_ERROR"
+msgstr "ผิดพลาด: มีตัวอักษรที่ไม่ถูกต้องในชื่อโฮสต์: \"[_1].[_2]\" ชื่อโฮสต์ต้องมีเฉพาะตัวอักษร ตัวเลข ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรหรือตัวเลขเท่านั้น"
+
+msgid "hos_HOSTNAME_DESCRIPTION"
+msgstr "ชื่อโฮสต์ต้องเป็นตัวอักษร (ภาษาอังกฤษ), ตัวเลข, จุด (.), และ ยติภังค์ (-) และจะเริ่มต้องต้นด้วยตัวอักษรเท่านั้น"
+
+msgid "hos_HOSTNAME_EXISTS_ERROR"
+msgstr "ผิดพลาด: ชื่อ [_1] ถูกใช้เป็นเป็นชื่อของ [_2] ไปแล้ว (need clear)"
+
+msgid "hos_HOSTNAME_IN_USE_ERROR"
+msgstr "(en) Hostname in use error"
+
+msgid "hos_HOSTNAME_VALIDATOR_ERROR"
+msgstr "ผิดพลาด: มีตัวอักษรที่ไม่ถูกต้องในชื่อโฮสต์: \"[_1].[_2]\" ชื่อโฮสต์ต้องมีเฉพาะตัวอักษร ตัวเลข ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรหรือตัวเลขเท่านั้น"
+
+msgid "hos_HOSTTYPE"
+msgstr "ที่ตั้ง"
+
+msgid "hos_LOCAL_IP"
+msgstr "IP ภายในเครื่อง"
+
+msgid "hos_LOCAL_IP_DESCRIPTION"
+msgstr "หมายเลข IP ของเครื่องอื่นในเครือข่ายท้องถิ่นนี้, โปรดกรอกหมายเลข IP ที่ถูกต้องในรูปแบบ \"aaa.bbb.ccc.ddd\""
+
+msgid "hos_LOCAL_PAGE_DESCRIPTION"
+msgstr "กรุณากรอกรายละเอียดเพิ่มเติมของโฮสต์ท้องถิ่น:"
+
+msgid "hos_MODIFY_SUCCEEDED"
+msgstr "(en) Modify succeeded"
+
+msgid "hos_MODIFY_TITLE"
+msgstr "แก้ไขชื่อโฮสต์"
+
+msgid "hos_MODIFY_TYPE"
+msgstr "(en) Modify type"
+
+msgid "hos_NONEXISTENT_HOSTNAME_ERROR"
+msgstr "(en) Nonexistent hostname error"
+
+msgid "hos_NONEXISTENT_HOST_ERROR"
+msgstr "(en) Nonexistent host error"
+
+msgid "hos_REMOTE_PAGE_DESCRIPTION"
+msgstr "กรุณากรอกรายละเอียดเพิ่มเติมของรีโมทโฮสต์:"
+
+msgid "hos_REMOVE_PAGE_DESCRIPTION"
+msgstr " คุณกำลังจะลบชื่อโฮสต์ \"[_1].[_2]\".   คุณแน่ใจหรือว่าต้องการลบชื่อโฮสต์นี้ ? "
+
+msgid "hos_REMOVE_SUCCEEDED"
+msgstr "(en) Remove succeeded"
+
+msgid "hos_REMOVE_TITLE"
+msgstr "ลบชื่อโฮสต์"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "hos_CONFIRM_DESCRIPTION"
+#~ msgstr "กรุณายืนยันรายละเอียดเหล่านี้"
+#~ msgid "hos_CREATE_LOCAL_HOST_TITLE"
+#~ msgstr "สร้างชื่อโฮสต์ใหม่โดยอ้างอิงถึงโฮสต์ท้องถิ่น (local host)"
+#~ msgid "hos_CREATE_REMOTE_HOST_TITLE"
+#~ msgstr "สร้างชื่อโฮสต์ใหม่ที่อ้างอิงไปยังรีโมทโฮสต์"
+#~ msgid "hos_CURRENT_HOSTNAMES_FOR_DOMAIN"
+#~ msgstr "รายการชื่อโฮสต์ปัจจุบันของ [_1]"
+#~ msgid "hos_DIDNT_ENTER_LOCAL_IP"
+#~ msgstr "ผิดพลาด: คุณไม่ได้ระบุหมายเลข IP ภายใน หมายเลข IP ที่ต้องระบุต้องมีเฉพาะตัวเลข เครื่องหมายจุด และต้องอยู่ในรูปแบบ \"aaa.bbb.ccc.ddd\" เท่านั้น ไม่มีการสร้างชื่อโฮส"
+#~ msgid "hos_DNS_FORWARDER_ENABLED"
+#~ msgstr "ได้กำหนดค่า DNS forwarder แล้ว ซึ่งหมายความว่าการขอบริการ DNS (DNS lookup) ทุกรายการจะถูกจัดการที่ DNS forwarder ที่กำหนด และการแก้ไขหมายเลขและชื่อของโฮสต์บนเซิร์ฟเวอร์นี้จะใช้การไม่ได้ขณะมีการตั้งค่า DNS forwarder นี้อยู่"
+#~ msgid "hos_DOMAIN_VALIDATION_ERROR"
+#~ msgstr "ผิดพลาด: ไม่มีการสร้างโดเมนเนื่องจากไม่กรอกชื่อ หรือชื่อมีตัวอักษรที่ไม่ถูกต้อง ชื่อโดเมนต้องยาวอย่างน้อย 1 ตัวอักษร และต้องเป็นตัวอักษร (ภาษาอังกฤษ), ตัวเลข, จุด, และ ยติภังค์ (-) เท่านั้น"
+#~ msgid "hos_HOSTNAME_LENGTH_ERROR"
+#~ msgstr "ผิดพลาด: ชื่อ [_1] ยาวเกินไป ความยาวสูงสุดที่มีได้คือ 32 ตัวอักษร"
+#~ msgid "hos_HOSTNAME_VALIDATION_ERROR"
+#~ msgstr "ผิดพลาด: มีตัวอักษรที่ไม่ถูกต้องในชื่อโฮสต์: \"[_1]\" ชื่อโฮสต์ต้องมีเฉพาะตัวอักษร ตัวเลข ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรหรือตัวเลขเท่านั้น"
+#~ msgid "hos_Hostnames and addresses"
+#~ msgstr "ชื่อโฮสต์และที่อยู่"
+#~ msgid "hos_IP_VALIDATION_ERROR"
+#~ msgstr "ผิดพลาด: หมายเลข IP ไม่ถูกต้อง หมายเลข IP ต้องมีเฉพาะตัวเลข เครื่องหมายจุด และต้องอยู่ในรูปแบบ \"aaa.bbb.ccc.ddd\" เท่านั้น ไม่มีการสร้างชื่อโฮส"
+#~ msgid "hos_MAC_ADDRESS_VALIDATION_ERROR"
+#~ msgstr "ผิดพลาด: หมายเลขอีเธอร์เน็ต [_1] ไม่ถูกต้อง หมายเลขอีเธอร์เน็ตต้องอยู่ในรูปแบบ \"AA:BB:CC:DD:EE:FF\" และต้องมีเฉพาะตัวเลข 0-9 และตัวอักษร A-F เท่านั้น ไม่มีการสร้างชื่อโฮส"
+#~ msgid "hos_MUST_BE_VALID_HOSTNAME_OR_IP"
+#~ msgstr "ต้องเป็นชื่อโฮสต์ที่ถูกต้อง หรือเป็นหมายเลข IP"
+#~ msgid "hos_NO_HOSTNAMES_FOR_LOCAL_DOMAIN"
+#~ msgstr "ไม่มีชื่อโฮสต์อยู่ในระบบของ [_1]"
+#~ msgid "hos_NO_HOSTNAMES_FOR_SERVICENAME"
+#~ msgstr "ไม่มีชื่อโฮสต์อยู่ในระบบของ [_1]"
+#~ msgid "hos_NO_HOSTS_FOR_THIS_DOMAIN"
+#~ msgstr "ไม่มีโฮสต์ในโดเมนนี้"
+#~ msgid "hos_STATIC_HOST_MESSAGE"
+#~ msgstr "- ชื่อโฮสต์นี้เป็นชื่อของระบบ จะแก้ไขหรือลบไม่ได้"
+#~ msgid "hos_SUCCESSFULLY_CREATED"
+#~ msgstr "สร้างชื่อโฮสต์สำเร็จ"
+#~ msgid "hos_SUCCESSFULLY_DELETED"
+#~ msgstr "ลบโฮสต์สำเร็จ"
+#~ msgid "hos_SUCCESSFULLY_MODIFIED"
+#~ msgstr "แก้ไขโฮสต์เสร็จแล้ว"
+#~ msgid "hos_UNABLE_TO_OPEN_CONFIGDB"
+#~ msgstr "ไม่สามารถเปิดฐานข้อมูลเก็บการตั้งค่า"

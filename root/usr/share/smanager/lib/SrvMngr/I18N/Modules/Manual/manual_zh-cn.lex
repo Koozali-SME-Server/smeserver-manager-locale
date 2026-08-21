@@ -1,3 +1,3 @@
 'manual_FORM_TITLE' => '在线手册和其他文档',
 'manual_DESCRIPTION' => ' <ul><li><a target="new" href="https://wiki.koozali.org/documentation/manual/">在线手册</a> <li><a target="new" href="https://wiki.koozali.org/documentation/FAQ/"> FAQs</a> </ul> 支持和许可 此软件根据位于 <a href="/server-manager/cgi-bin/support"> 支持和许可</a> 页面的条款发布。 ',
-'manual_Online manual' => '在线手册',
+# ORPHANED (no longer in manual_en.lex; kept for reference, commented out by lex-to-po.pl): 'manual_Online manual' => '在线手册',

@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Bugreport module\n"
+"POT-Creation-Date: 2026-08-21 10:12+0100\n"
+"PO-Revision-Date: 2026-08-21 10:12+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+
+msgid "bugr_ALTERED_EVENTS"
+msgstr "En liste over SME begivenheder som er ændret på din server i forhold til en basis installation"
+
+msgid "bugr_ALTERED_TEMPLATES"
+msgstr "En liste over SME templates som er ændret på din server i forhold til en basis installation"
+
+msgid "bugr_AWARE_SME"
+msgstr "Du er sikkert opmærksom på, at SME server er udviklet og vedligeholdes af et fællesskab af frivillige fra hele verden. Og selv om SME server i sig selv er gratis og kan hentes og bruges uden udgifter, så koster det penge at drifte og vedligeholde den bagvedliggende infrastruktur (som f.eks. hostning af fora, wiki, repositories og at bygge servere og lignende)."
+
+msgid "bugr_CONSIDER_DONATING"
+msgstr "Vælgj venligst at donere til projektet ved at klikke på billedet nedenfor:"
+
+msgid "bugr_CREATE_REPORT"
+msgstr "Dan konfigurations rapporten"
+
+msgid "bugr_DESCRIPTION"
+msgstr "(en) Description"
+
+msgid "bugr_DONATING"
+msgstr "Har du overvejet at donere?"
+
+msgid "bugr_DO_NOT_PANIC"
+msgstr "Gå ikke i panik!"
+
+msgid "bugr_Download this report"
+msgstr "Hent denne rapport!"
+
+msgid "bugr_FOLLOWING_REPORT_MIGHT_HELP"
+msgstr "Det vil også hjælpe, hvis du giver nogle grundlæggende informationer om konfigurationen af din SME-server i bug-rapporten. Ved at klikke på knappen \"Dan konfigurationsrapport\" nedenfor, kan du danne og hente en tekst fil som indeholder den information. Vedhæft venligst også den fil til din bug-rapport."
+
+msgid "bugr_FORM_TITLE"
+msgstr "Rapporter en bug"
+
+msgid "bugr_INSTALLED_RPMS"
+msgstr "En liste over yderligere installerede RPMs på din server"
+
+msgid "bugr_KERNEL_AND_ARCH"
+msgstr "Nuværende kørende kernel version og arkitektur"
+
+msgid "bugr_PLEASE_REPORT_HERE"
+msgstr "For at hjælpe udviklerne med at diagnosticere og rette det problem du er stødt på, beder vi dig om at downloade et af følgende templates, udfylde det og indsætte det i din bug-rapport her"
+
+msgid "bugr_PREVIOUS_SERVER_MODE"
+msgstr "(en)Previous server mode"
+
+msgid "bugr_PRIVACY"
+msgstr "Ingen fortrolig information (som f.eks. brugernavne, kodeord, IP-adresser) er inkluderet i rapporten."
+
+msgid "bugr_REPORT_CONTENT"
+msgstr "Rapporten vil indeholde følgende information"
+
+msgid "bugr_SERVER_MODE"
+msgstr "Servertilstand"
+
+msgid "bugr_SME_EXPERIENCE"
+msgstr "Desværre findes der ikke software uden fejl, og du er sikkert havnet på denne side på grund af et problem med din SME-server"
+
+msgid "bugr_SME_VERSION"
+msgstr "(en)Koozali SME Server version"
+
+msgid "bugr_THANK_YOU"
+msgstr "Tak for din støtte!"
+
+msgid "bugr_USE_TEMPLATE"
+msgstr "I nedenstående link kan du se hvordan du rapporterer en bug og hvordan du bruger template"
+
+msgid "bugr_YOUR_HELP"
+msgstr "På samme måde som du har brug for at få os til se se på dit problem, så har vi brug for DIN hjælp for at holde dette projekt i live!"
+
+msgid "bugr_YUM_REPOS"
+msgstr "En liste over ekstra software repositories som er konfigureret på din server"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "bugr_Report a bug"
+#~ msgstr "Rapportér en fejl"

@@ -7,4 +7,4 @@
 'clm_NEVER' => 'Asla',
 'clm_DAILY' => 'Günlük',
 'clm_SUCCESS' => 'clamav antivirüs için yeni ayarlar kaydedildi.',
-'clm_Antivirus (ClamAV)' => 'Antivirüs (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'Antivirüs (ClamAV)',

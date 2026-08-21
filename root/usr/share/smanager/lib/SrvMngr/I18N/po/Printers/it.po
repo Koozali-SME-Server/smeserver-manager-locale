@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Printers module\n"
+"POT-Creation-Date: 2026-08-21 10:21+0100\n"
+"PO-Revision-Date: 2026-08-21 10:21+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+
+msgid "Printers"
+msgstr "Stampanti"
+
+msgid "prt_ABOUT_TO_REMOVE"
+msgstr "Sta per essere rimossa la stampante:"
+
+msgid "prt_ARE_YOU_SURE"
+msgstr "Siete sicuri di voler rimuovere questa stampante ?"
+
+msgid "prt_CREATED_SUCCESSFULLY"
+msgstr "Stampante creata con successo:"
+
+msgid "prt_CREATE_NETWORK_DESC"
+msgstr "Inserire nome e indirizzo della stampante di rete"
+
+msgid "prt_CREATE_NETWORK_PRINTER"
+msgstr "Crea una stampante di rete"
+
+msgid "prt_CREATE_NEW_DESC"
+msgstr "Selezionare un nome univoco per la stampante e inserire una breve descrizione. Il nome della stampante può contenere soltanto lettere minuscole e numeri e deve iniziare con una lettera minuscola. Per esempio \"hplaser\", \"epsonlp\" e \"canonbj\" sono nomi validi, mentre \"HP Laser Jet\", \"Canon Bubblejet\" e \"Stampante HP JetDirect\" non sono validi."
+
+msgid "prt_CREATE_NEW_PRINTER"
+msgstr "Crea nuova stampante"
+
+msgid "prt_CURRENT_LIST"
+msgstr "Lista delle stampanti"
+
+msgid "prt_DELETED_SUCCESSFULLY"
+msgstr "Stampante rimossa con successo:"
+
+msgid "prt_ERR_EXISTS"
+msgstr "Errore: esiste un account con lo stesso nome di tipo:"
+
+msgid "prt_ERR_INTERNAL_FAILURE"
+msgstr "Errore: problema interno durante la rimozione della stampante:"
+
+msgid "prt_ERR_INVALID_ADDRESS"
+msgstr "Errore: indirizzo di rete non valido. Stampante non creata."
+
+msgid "prt_ERR_INVALID_REMOTE_NAME"
+msgstr "Errore: nome stampante di rete non valido. Stampante non creata."
+
+msgid "prt_ERR_UNEXPECTED_DESC"
+msgstr "Errore: carattere mancante o inaspettato nella descrizione. Stampante non creata."
+
+msgid "prt_ERR_UNEXPECTED_NAME"
+msgstr " Errore: carattere inaspettato nel nome stampante.\n\n  <p>Il nome della stampante può contenere soltanto lettere minuscole e numeri e deve iniziare con una lettera minuscola. Per esempio \"hplaser\", \"epsonlp\" e \"canonbj\" sono nomi validi.</p>\n\n  "
+
+msgid "prt_FIRST_USB_PRINTER"
+msgstr "Prima stampante USB"
+
+msgid "prt_FORM_TITLE"
+msgstr "Aggiungi o rimuovi stampanti"
+
+msgid "prt_HOSTNAME_OR_IP"
+msgstr "Nome host o indirizzo IP della stampante di rete"
+
+msgid "prt_INITIAL_BTN"
+msgstr "Aggiungi stampante"
+
+msgid "prt_LOCAL_PRINTER_0"
+msgstr "Porta stampante locale 0 (LPT1)"
+
+msgid "prt_LOCAL_PRINTER_1"
+msgstr "Porta stampante locale 1 (LPT2)"
+
+msgid "prt_LOCAL_PRINTER_2"
+msgstr "Porta stampante locale 2 (LPT3)"
+
+msgid "prt_MUST_BE_VALID_HOSTNAME_OR_IP"
+msgstr "Deve essere un nome host valido o un indirizzo IP"
+
+msgid "prt_NET_PRINTER"
+msgstr "Stampante di rete ..."
+
+msgid "prt_NO_PRINTERS"
+msgstr "Non ci sono stampanti nel sistema."
+
+msgid "prt_PRINTER_NAME"
+msgstr "Nome stampante"
+
+msgid "prt_REMOTE_ADDRESS"
+msgstr "Indirizzo remoto"
+
+msgid "prt_REMOTE_NAME"
+msgstr "Nome remoto"
+
+msgid "prt_REMOTE_NAME_DESC"
+msgstr " Nome stampante di rete (selezionare raw se non si é sicuri) "
+
+msgid "prt_REMOVE_PRINTER"
+msgstr "Rimuovi stampante"
+
+msgid "prt_SECOND_USB_PRINTER"
+msgstr "Seconda stampante USB"
+
+msgid "prt_SPOOL_FILE_WARNING"
+msgstr "Tutti i file in spool di questa stampante saranno cancellati."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prt_ERR_CREATING"
+#~ msgstr "Errore durante la creazione della stampante."
+#~ msgid "prt_ERR_DELETING"
+#~ msgstr "Errore durante la rimozione della stampante."
+#~ msgid "prt_ERR_OPENING_DB"
+#~ msgstr "Errore durante l'apertura del database accounts"
+#~ msgid "prt_INITIAL_DESC"
+#~ msgstr " <a class=\"button-like\" href=\"printers?page=0&next=add\">Aggiungi stampante</a>\n\n  "

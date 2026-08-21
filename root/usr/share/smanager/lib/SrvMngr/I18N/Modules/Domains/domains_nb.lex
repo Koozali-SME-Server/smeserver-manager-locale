@@ -2,8 +2,8 @@
 'dom_FORM_DESCRIPTION' => ' Når du oppretter et domene, vil serveren din kunne motta e-post for det domene og vil også kunne vise en webside for domenet.
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Legg til domene</a> ',
-'dom_NO_VIRTUAL_DOMAINS' => 'Det er ingen domener i systemet.',
-'dom_CURRENT_LIST_OF_DOMAINS' => 'Gjeldende liste over domener',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_NO_VIRTUAL_DOMAINS' => 'Det er ingen domener i systemet.',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_CURRENT_LIST_OF_DOMAINS' => 'Gjeldende liste over domener',
 'dom_PRIMARY_SITE' => 'Hoved side',
 'dom_CONTENT' => '[_1] i-bay',
 'dom_CREATE_TITLE' => 'Opprett et nytt domene',
@@ -25,9 +25,9 @@
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Feil: Intern feil ved forsøk på å fjerne domenet [_1].',
 'dom_SUCCESSFULLY_DELETED' => 'Domenet [_1] er slettet.Webserverne restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' Felles DNS Instillinger ',
-'dom_BUTTON_CORPORATE_DNS' => ' Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner.
-
-  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Endre felles DNS innstillinger</a> ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_BUTTON_CORPORATE_DNS' => ' Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner.
+#
+#  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Endre felles DNS innstillinger</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Hvis denne serveren ikke har tilgang til internet, eller du har spesielle krav til DNS, skriver du inn DNS serverens IP adresse her. Feltene bør stå tomme med mindre du har spesifikke grunner til å sette opp andre DNS servere. Du bør ikke skrive inn internettilbyderens DNS servere her, da serveren selv håndterer alle DNS navn uten yttligere konfigurasjoner.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Første felles DNS server',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Andre felles DNS server',
@@ -36,8 +36,8 @@
 'dom_localhost' => 'Løse lokalt',
 'dom_internet' => 'Internet DNS servere',
 'dom_corporate' => 'Felles DNS servere',
-'dom_REMOVE_DESC' => 'Du er i ferd med å fjerne skriveren:',
-'dom_REMOVE_DESC2' => 'Er du sikker på at du vil slette skriveren?',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC' => 'Du er i ferd med å fjerne skriveren:',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC2' => 'Er du sikker på at du vil slette skriveren?',
 'dom_ADD_DOMAIN' => 'Legg til domene',
 'dom_CURRENT_DOMAINS' => 'Gjeldende liste over domener',
 'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',

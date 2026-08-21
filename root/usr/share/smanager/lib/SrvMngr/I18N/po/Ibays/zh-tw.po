@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Ibays module\n"
+"POT-Creation-Date: 2026-08-21 10:18+0100\n"
+"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-tw\n"
+
+msgid "iba_ACCOUNT_EXISTS"
+msgstr "此名稱\"[_1]\"是現存[_2]的帳號。"
+
+msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
+msgstr " 此名稱\"[_1]\"與另一帳號\"[_3]\"的暱稱[_2]相衝突。[_1]是[_3]的暱稱。 "
+
+msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
+msgstr "(en)The i-bay name \"[_1]\" contains invalid characters. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens."
+
+msgid "iba_ADD_IBAY"
+msgstr "新增 i-bay"
+
+msgid "iba_ADD_TITLE"
+msgstr "建立或修改 i-bay"
+
+msgid "iba_ALLOW_DYNAMIC_CONTENT"
+msgstr "(en)Execution of dynamic content (CGI, PHP, SSI)"
+
+msgid "iba_CANT_CREATE_IBAY"
+msgstr "無法為[_1]建立新帳號（是否已經存在？）"
+
+msgid "iba_CANT_FIND_IBAY"
+msgstr "無法找到[_1]的帳號（是否存在？）"
+
+msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
+msgstr "整個網際網路（無需密碼）"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD"
+msgstr "整個網際網路（需密碼）"
+
+msgid "iba_ENTIRE_INTERNET_PASSWORD_REMOTE"
+msgstr "整個網際網路（區網以外需密碼）"
+
+msgid "iba_ERROR_WHILE_CREATING_IBAY"
+msgstr "(en)An error occurred while creating the i-bay."
+
+msgid "iba_ERROR_WHILE_DELETING_IBAY"
+msgstr "(en)An error occurred while deleting the i-bay."
+
+msgid "iba_ERROR_WHILE_MODIFYING_IBAY"
+msgstr "(en)An error occurred while modifying the i-bay."
+
+msgid "iba_ERROR_WHILE_RESETTING_PASSWORD"
+msgstr "重設密碼時發生錯誤。"
+
+msgid "iba_ERR_INTERNAL_FAILURE"
+msgstr "(en) Err internal failure"
+
+msgid "iba_FIRSTPAGE_DESC"
+msgstr "  Add i-bay \n\n   You can remove any information bay or reset its password by clicking on the corresponding command next to the information bay. If the information bay shows up in red, that means that the password has not yet been changed from the default, and should be changed soon. \n\n  "
+
+msgid "iba_FORM_TITLE"
+msgstr "建立、修改或移除 i-bay"
+
+msgid "iba_HTTPS_Only"
+msgstr "強制安全連接"
+
+msgid "iba_IBAY_PASSWD_VERIFY_ERROR"
+msgstr "密碼不相符。"
+
+msgid "iba_LOCAL_NETWORK_NO_PASSWORD"
+msgstr "區網（無需密碼）"
+
+msgid "iba_LOCAL_NETWORK_PASSWORD"
+msgstr "區網（需密碼）"
+
+msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
+msgstr "The i-bay name \"[_1]\" is too long. The maximum is [_1] characters."
+
+msgid "iba_NAME_FIELD_DESC"
+msgstr "(en)The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example \"johnson\", \"intra\", and \"cust3.prj12\" are all valid names, but \"3associates\", \"John Smith\" and \"Bus!Partner\" are not. The name is limited to [_1] characters."
+
+msgid "iba_NAME_LABEL"
+msgstr "訊息看板名稱"
+
+msgid "iba_NONE"
+msgstr "無法存取"
+
+msgid "iba_NO_IBAYS"
+msgstr "(en)There are no i-bays currently configured."
+
+msgid "iba_PASSWORD_DESC"
+msgstr "(en)You are about to change the password for the i-bay [_1]."
+
+msgid "iba_PUBLIC_ACCESS"
+msgstr "(en)Public access via web or anonymous ftp"
+
+msgid "iba_REMOVE_DESC"
+msgstr "  You are about to remove the information bay \"[_1]\" ([_2]). \n\n   All files belonging to this information bay will be deleted. \n\n   Are you sure you wish to remove this information bay? \n\n  "
+
+msgid "iba_REMOVE_TITLE"
+msgstr "移除資訊欄"
+
+msgid "iba_SUCCESSFULLY_CREATED_IBAY"
+msgstr "已成功建立 i-bay。"
+
+msgid "iba_SUCCESSFULLY_DELETED_IBAY"
+msgstr "已成功刪除 i-bay。"
+
+msgid "iba_SUCCESSFULLY_MODIFIED_IBAY"
+msgstr "已成功修改 i-bay。"
+
+msgid "iba_SUCCESSFULLY_RESET_PASSWORD"
+msgstr "已成功重設密碼。"
+
+msgid "iba_USER_ACCESS"
+msgstr "(en)User access via file sharing or user ftp"
+
+msgid "iba_VHOST_MESSAGE"
+msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): [_1] "
+
+msgid "iba_WARG"
+msgstr "寫入 = 管理員，讀取 = 群組"
+
+msgid "iba_WGRE"
+msgstr "寫入 = 群組，讀取 = 每個人"
+
+msgid "iba_WGRG"
+msgstr "寫入=群組，讀取=群組"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "ENTIRE_INTERNET_NO_PASSWORD"
+#~ msgstr "整個網際網路（不需要密碼）"
+#~ msgid "ENTIRE_INTERNET_PASSWORD"
+#~ msgstr "整個網際網路（需要密碼）"
+#~ msgid "ENTIRE_INTERNET_PASSWORD_REMOTE"
+#~ msgstr "(en)Entire Internet (password required outside local network)"
+#~ msgid "INVALID_IBAY_DESCRIPTION"
+#~ msgstr "(en)Error: unexpected or missing characters in i-bay description"
+#~ msgid "LOCAL_NETWORK_NO_PASSWORD"
+#~ msgstr "本機網路（不需要密碼）"
+#~ msgid "LOCAL_NETWORK_PASSWORD"
+#~ msgstr "本機網路（需要密碼）"
+#~ msgid "NONE"
+#~ msgstr "無法存取"
+#~ msgid "WARG"
+#~ msgstr "(en)Write = admin, Read = group"
+#~ msgid "WGRE"
+#~ msgstr "(en)Write = group, Read = everyone"
+#~ msgid "WGRG"
+#~ msgstr "(en)Write = group, Read = group"
+#~ msgid "iba_IBAY_PASSWD_VALIDATION_ERROR"
+#~ msgstr "(en)The password may contain only letters and numbers."
+#~ msgid "iba_INVALID_IBAY_DESCRIPTION"
+#~ msgstr "Error: unexpected or missing characters in i-bay description"
+#~ msgid "iba_Information bays"
+#~ msgstr "訊息看板"
+#~ msgid "iba_PUBLIC_ACCESS_DESCRIPTION"
+#~ msgstr "(en)The public access mode \"password required outside local network\" is not supported by the FTP server component. If you select this mode, the FTP server will require a password both inside and outside the local network for this i-bay."
+#~ msgid "iba_VIRTUAL_HOST_MESSAGE"
+#~ msgstr "接下來的虛擬網域將使用此訊息作為其內容，並將被更改成主要的網站（您後續可以將其更改為其他內容）。"

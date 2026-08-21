@@ -1,0 +1,25 @@
+'mai_FORM_TITLE' => 'Ανάλυση αρχείου καταγραφής αλληλογραφίας',
+'mai_INITIAL_DESC' => ' Η ανάλυση των αρχείων καταγραφής συστήματος αλληλογραφίας μπορεί να βοηθήσει τόσο στην κατανόηση του τρόπου λειτουργίας του συστήματος όσο και στην διάγνωση προβλημάτων παράδοσης. Είναι διαθέσιμες αρκετές διαφορετικές αναφορές.
+#
+#  <p>Παρακαλώ σημειώστε ότι μπορεί να χρειαστούν αρκετά λεπτά για τη δημιουργία αυτών των αναφορών</p>
+#
+#  ',
+'mai_REPORT_TYPE' => 'Επιλέξτε ένα τύπο αναφοράς',
+'mai_GENERATE_REPORT' => 'Δημιουργία αναφοράς',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_LIST_OUTGOING' => 'Προβολή λίστας εξερχομένων μηνυμάτων και παραλήπτες',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SUMMARIZE_QUEUE' => 'Σύνοψη κατάστασης ουράς αναμονής αλληλογραφίας',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SUCCESSFUL_DELIVERY_DELAY' => 'Επιτυχής παράδοση καθυστερημένης διανομής',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_DEFERRAL' => 'Λόγοι αναβολής',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_FAILURE' => 'Λόγοι αποτυχίας',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_BASIC_STATS' => 'Βασικά στατιστικά',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_STATS' => 'Στατιστικά παραληπτών',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_HOSTS' => 'Λαμβάνοντες Η/Υ',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_RECIP_ORDERED' => 'Παραλήπτες σε βέλτιστη σειρά για λίστες αλληλογραφίας',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDER_STATS' => 'Στατιστικά αποστολέων',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDMAIL_STYLE' => 'Αρχείο καταγραφής τύπου Sendmail',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_REASONS_SUCCESS' => 'Λόγοι επιτυχίας',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_SENDER_UIDS' => 'uids αποστολέα',
+'mai_INVALID_REPORT_TYPE' => 'Μη-έγκυρος τύπος αναφορών:',
+'mai_REPORT_GENERATED' => 'Η αναφορά δημιουργήθηκε:',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_END_OF_REPORT' => 'Τέλος Αναφοράς',
+# ORPHANED (no longer in mailanalog_en.lex; kept for reference, commented out by lex-to-po.pl): 'mai_Mail log file analysis' => 'Ανάλυση αρχείων καταγραφής αλληλογραφίας',

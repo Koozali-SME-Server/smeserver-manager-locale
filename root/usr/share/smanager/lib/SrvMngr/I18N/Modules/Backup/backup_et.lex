@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Varunda või taasta serveri andmed',
-'bac_BACKUP_DESC' => ' <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>
-
-  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\"Verify desktop backup file\\" option can be used to check the integrity of a desktop backup file.</p>
-
-  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
-
-  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>The server provides two ways to back up and restore your server: using your local desktop or a tape drive.</p>
+#
+#  <p>The first method creates a copy of your server configuration and user data files, and downloads it to your local desktop via your web browser. Currently your configuration and data files total approximately <b>[_3]</b>. The backup file will be somewhat less than this, depending on how compressible the data are. The \\"Verify desktop backup file\\" option can be used to check the integrity of a desktop backup file.</p>
+#
+#  <p>The tape backup method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
+#
+#  <p>Both restore methods allow you to restore your configuration and user data files. <b>Ideally, the restore should be performed on a freshly installed server</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
@@ -18,10 +18,10 @@
 
   <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Varundamise seaded ja olek',
-'bac_TAPE_BACKUPS_ENABLED' => ' Varundamine lindiseadmele on lubatud. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Varundamine lindiseadmele on lubatud. ',
 'bac_BACKUPS_RUN_AT' => 'Regulaarne varundamine lindiseadmele käivitatakse:',
 'bac_REMINDER_MESSAGE_AT' => '(en)Reminder messages will be sent at:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Varundamine lindiseadmele on keelatud ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Varundamine lindiseadmele on keelatud ',
 'bac_DESKTOP_BACKUP' => 'Varunda töölauale',
 'bac_DESKTOP_RESTORE' => 'Taasta töölaualt',
 'bac_DESKTOP_VERIFY' => 'Uuenda töölaua varundus faili',
@@ -108,10 +108,10 @@
 'bac_SERVER_WILL_REBOOT' => 'Server teeb taaskäivitust.',
 'bac_NO_UID_FOR_NAME' => 'Ei saanud uid kasutajale nimega:',
 'bac_PAGE_REFRESH_IN' => ' Lehte uuendatatakse[_1] sekundi pärast, või vajutasiia. ',
-'bac_Backup or restore' => 'Taasta või varunda',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => 'Taasta või varunda',
 'bac_BACKUP_DESKTOP_TOO_BIG' => ' Sinu serveris on liiga palju andmeid korrektse varunduse loomiseks töölauale.  ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' Varundamine tööjaama on keelatud ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' Varundamine tööjaama on lubatud. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' Varundamine tööjaama on keelatud ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' Varundamine tööjaama on lubatud. ',
 'bac_WKBACKUPS_RUN_AT' => 'Regulaarne varundamine tööjaama käivitatakse:',
 'bac_WORKSTN_CONFIGURE' => 'Seadista varundamist tööjaama',
 'bac_WORKSTN_VERIFY' => 'Kontrolli tööjaama varundamist',

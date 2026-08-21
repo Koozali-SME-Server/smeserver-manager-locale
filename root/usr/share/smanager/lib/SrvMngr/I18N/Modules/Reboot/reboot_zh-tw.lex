@@ -7,4 +7,4 @@
 'rbo_DESC_SHUTDOWN' => '您的伺服器已開始進行關機程序。該程序將費時數分鐘，然後您可以關閉電源。',
 'rbo_LABEL_REBOOT' => '選擇關機、重啟或重配置',
 'rbo_DESCRIPTION' => ' 您可以從此畫面選擇重啟、關機或全系統重配置。當您關閉電源之前，必須先執行關機程序。所有功能將耗時數分鐘。當您按下 執行 ，操作將直接開始進行，因此請事先準備好！',
-'rbo_Reboot or shutdown' => '重啟或關機',
+# ORPHANED (no longer in reboot_en.lex; kept for reference, commented out by lex-to-po.pl): 'rbo_Reboot or shutdown' => '重啟或關機',

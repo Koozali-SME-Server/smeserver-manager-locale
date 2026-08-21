@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Hostentries module\n"
+"POT-Creation-Date: 2026-08-21 10:17+0100\n"
+"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+
+msgid "Hostnames and addresses"
+msgstr "Gazdanevek és címek"
+
+msgid "hos_ABOUT_TO_REMOVE"
+msgstr "(en)Are you sure you wish to remove this hostname?"
+
+msgid "hos_ADDR_IN_DHCP_RANGE"
+msgstr "Az IP cím a DHCP lefoglalt címtartományába esik"
+
+msgid "hos_ADD_HOSTNAME"
+msgstr " Kiszolgálónév hozzáadása "
+
+msgid "hos_CREATE_OR_MODIFY_SUCCEEDED"
+msgstr "(en) Create or modify succeeded"
+
+msgid "hos_CREATE_TITLE"
+msgstr "Kiszolgálónév létrehozása vagy módosítása"
+
+msgid "hos_CREATE_TYPE"
+msgstr "(en) Create type"
+
+msgid "hos_CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN"
+msgstr "A [_1] kiszolgálóinak listája"
+
+msgid "hos_ERROR_CREATING_HOST"
+msgstr "(en) Error creating host"
+
+msgid "hos_ERROR_MODIFYING_HOST"
+msgstr "(en) Error modifying host"
+
+msgid "hos_ERROR_WHILE_CREATING_HOST"
+msgstr "Hiba történt a kiszolgálónév létrehozásakor."
+
+msgid "hos_ERROR_WHILE_DELETING_HOST"
+msgstr "Hiba történt a kiszolgálónév törlésekor."
+
+msgid "hos_ERROR_WHILE_MODIFYING_HOST"
+msgstr "Hiba történt a kiszolgálónév módosításakor."
+
+msgid "hos_ERROR_WHILE_REMOVING_HOST"
+msgstr "(en) Error while removing host"
+
+msgid "hos_ERR_IP_IS_LOCAL_OR_GATEWAY"
+msgstr "Hiba: Az IP cím nem lehet a szerver vagy az átjáró IP címe."
+
+msgid "hos_ERR_IP_NOT_LOCAL"
+msgstr "Hiba: Ez az IP cím nem tartozik ehhez a hálózathoz."
+
+msgid "hos_ETHERNET_ADDRESS"
+msgstr "Fizikai cím"
+
+msgid "hos_ETHERNET_ADDRESS_DESCRIPTION"
+msgstr "A fizikai cím megadása opcionális, ilyen esetben a DHCP szerver a számítógép IP címét statikusan rögzíti a fizikai címhez. Amennyiben megadja a fizikai címet, azt \"AA:BB:CC:DD:EE:FF\" formátumban kell megadnia és csak 0-tól 9-ig tartalmazhat számot, valamint A-tól F-ig betűt."
+
+msgid "hos_FORM_TITLE"
+msgstr "Gépnevek és címek"
+
+msgid "hos_HOSTNAME"
+msgstr "Kiszolgálónév"
+
+msgid "hos_HOSTNAME_COMMENT_ERROR"
+msgstr "Hiba: érvénytelen karakterek a \"[_1].[_2]\" kiszolgálónévben. A kiszolgálónév csak betűket, számokat, és kötőjeleket tartalmazhat, valamint betűvel, vagy számmal kell kezdődnie."
+
+msgid "hos_HOSTNAME_DESCRIPTION"
+msgstr "A kiszolgálónév csak betűket, számokat, és kötőjeleket tartalmazhat és betűvelvagy számmal kell kezdődnie."
+
+msgid "hos_HOSTNAME_EXISTS_ERROR"
+msgstr "Hiba: a [_1] fióknév egy létező [_2] kiszolgálónév."
+
+msgid "hos_HOSTNAME_IN_USE_ERROR"
+msgstr "(en) Hostname in use error"
+
+msgid "hos_HOSTNAME_VALIDATOR_ERROR"
+msgstr "Hiba: érvénytelen karakterek a \"[_1].[_2]\" kiszolgálónévben. A kiszolgálónév csak betűket, számokat, és kötőjeleket tartalmazhat, valamint betűvel, vagy számmal kell kezdődnie."
+
+msgid "hos_HOSTTYPE"
+msgstr "Hely"
+
+msgid "hos_LOCAL_IP"
+msgstr "Helyi IP cím"
+
+msgid "hos_LOCAL_IP_DESCRIPTION"
+msgstr "A helyi IP cím a helyi fálózaton lévő másik gép IP címe. Kérem adjon meg egy érvényes címet az \"aaa.bbb.ccc.ddd\" formátumban."
+
+msgid "hos_LOCAL_PAGE_DESCRIPTION"
+msgstr "Kérem adja meg a helyi kiszolgáló további részleteit:"
+
+msgid "hos_MODIFY_SUCCEEDED"
+msgstr "(en) Modify succeeded"
+
+msgid "hos_MODIFY_TITLE"
+msgstr "Gépnév módosítása"
+
+msgid "hos_MODIFY_TYPE"
+msgstr "(en) Modify type"
+
+msgid "hos_NONEXISTENT_HOSTNAME_ERROR"
+msgstr "(en) Nonexistent hostname error"
+
+msgid "hos_NONEXISTENT_HOST_ERROR"
+msgstr "(en) Nonexistent host error"
+
+msgid "hos_REMOTE_PAGE_DESCRIPTION"
+msgstr "Kérem adja meg a távoli kiszolgáló további részleteit:"
+
+msgid "hos_REMOVE_PAGE_DESCRIPTION"
+msgstr " A \"[_1].[_2]\" kiszolgálónév eltávolítására készül.   Biztos benne, hogy eltávolítja ezt a kiszolgálónevet? "
+
+msgid "hos_REMOVE_SUCCEEDED"
+msgstr "(en) Remove succeeded"
+
+msgid "hos_REMOVE_TITLE"
+msgstr "Gépnév eltávolítása"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "hos_CONFIRM_DESCRIPTION"
+#~ msgstr "Kérem hagyja jóvá a következő adatokat."
+#~ msgid "hos_CREATE_LOCAL_HOST_TITLE"
+#~ msgstr "Egy helyi kiszolgálóra utaló kiszolgálónév létrehozása."
+#~ msgid "hos_CREATE_REMOTE_HOST_TITLE"
+#~ msgstr "Egy távoli kiszolgálóra utaló kiszolgálónév létrehozása"
+#~ msgid "hos_CURRENT_HOSTNAMES_FOR_DOMAIN"
+#~ msgstr "A [_1] kiszolgálóinak listája."
+#~ msgid "hos_DIDNT_ENTER_LOCAL_IP"
+#~ msgstr "Hiba: Nem adta meg a helyi IP címet. Az IP címek csak számokat és pontokat tartalmazhatnak az \"aaa.bbb.ccc.ddd\" formátumban. A kiszolgálónév létrehozása sikertelen."
+#~ msgid "hos_DNS_FORWARDER_ENABLED"
+#~ msgstr "A DNS továbbító konfigurálva lett. Ez azt jelenti, hogy minden DNS kérés a DNS továbbítónak megy. A kiszolgálónevek és IP címek addig nem módosíthatók ezen a szerveren, amíg a DNS továbbitó be van állítva."
+#~ msgid "hos_DOMAIN_VALIDATION_ERROR"
+#~ msgstr "Hiba: helytelen, vagy hiányzó karakter a [_1] domén névben. A domén névnek egy vagy több betűt, számot, pontot, vagy kötőjelet kell tartalmaznia. A domén létrehozása sikertelen."
+#~ msgid "hos_HOSTNAME_LENGTH_ERROR"
+#~ msgstr "Hiba: a [_1] fióknév túl hosszú. Maximum 32 karakter hosszú lehet."
+#~ msgid "hos_HOSTNAME_VALIDATION_ERROR"
+#~ msgstr "Hiba: érvénytelen karakterek a \"[_1]\" kiszolgálónévben. A kiszolgálónév csak betűket, számokat, és kötőjeleket tartalmazhat, valamint betűvel, vagy számmal kell kezdődnie."
+#~ msgid "hos_Hostnames and addresses"
+#~ msgstr "Kiszolgálónevek és címek"
+#~ msgid "hos_IP_VALIDATION_ERROR"
+#~ msgstr "Hiba: A [_1] IP cím érvénytelen. Az IP címek csak számokat és pontokat tartalmazhatnak az \"aaa.bbb.ccc.ddd\" formátumban. A kiszolgálónév létrehozása sikertelen."
+#~ msgid "hos_MAC_ADDRESS_VALIDATION_ERROR"
+#~ msgstr "Hiba: A [_1] fizikai cím érvénytelen. A fizikai címeket \"AA:BB:CC:DD:EE:FF\" formátumban kell megadnia és csak 0-tól 9-ig tartalmazhat számot, valamint A-tól F-ig betűt. A kiszolgálónév létrehozása sikertelen."
+#~ msgid "hos_MUST_BE_VALID_HOSTNAME_OR_IP"
+#~ msgstr "Érvényes névnek és IP címnek kell lennie"
+#~ msgid "hos_NO_HOSTNAMES_FOR_LOCAL_DOMAIN"
+#~ msgstr "A rendszerben nincsenek [_1] -hoz tartozó kiszolgálónevek."
+#~ msgid "hos_NO_HOSTNAMES_FOR_SERVICENAME"
+#~ msgstr "Nincs a [_1] szolgáltatáshoz tartozó kiszolgálónév a rendszerben."
+#~ msgid "hos_NO_HOSTS_FOR_THIS_DOMAIN"
+#~ msgstr "Nincsenek kiszolgálók ebben a doménben."
+#~ msgid "hos_STATIC_HOST_MESSAGE"
+#~ msgstr "- Ez a kiszolgálónév a rendszer nevét képviseli és nem törölhető, vagy változtatható."
+#~ msgid "hos_SUCCESSFULLY_CREATED"
+#~ msgstr "A kiszolgálónév létrehozása sikeres."
+#~ msgid "hos_SUCCESSFULLY_DELETED"
+#~ msgstr "Kiszolgáló törlése sikeres."
+#~ msgid "hos_SUCCESSFULLY_MODIFIED"
+#~ msgstr "Kiszolgáló módosítása sikeres."
+#~ msgid "hos_UNABLE_TO_OPEN_CONFIGDB"
+#~ msgstr "A konfigurációs adatbázis nem nyitható meg"

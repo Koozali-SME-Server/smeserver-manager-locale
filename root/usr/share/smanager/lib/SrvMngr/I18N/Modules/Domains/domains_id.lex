@@ -2,8 +2,8 @@
 'dom_FORM_DESCRIPTION' => ' Saat anda membuat sebuah domain, server anda akan dapatmenerima e-mail untuk domain tersebut dan juga bisa sebagai tuan rumah bagi situs web untuk domain tersebut.
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Tambah domain</a> ',
-'dom_NO_VIRTUAL_DOMAINS' => 'Tidak ada domain dalam sistem',
-'dom_CURRENT_LIST_OF_DOMAINS' => 'Daftar domain saat ini',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_NO_VIRTUAL_DOMAINS' => 'Tidak ada domain dalam sistem',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_CURRENT_LIST_OF_DOMAINS' => 'Daftar domain saat ini',
 'dom_PRIMARY_SITE' => 'Situs primary',
 'dom_CONTENT' => '[_1] i-bay',
 'dom_CREATE_TITLE' => 'Buat domain baru',
@@ -25,9 +25,9 @@
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Error: gagal saat menghapus domain [_1].',
 'dom_SUCCESSFULLY_DELETED' => 'Sukses menghapus domain [_1]. Web server anda sedang di-restart. Link pada halaman ini akan nonaktif sampai proses restart web server selesai.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => 'Pengaturan DNS Perusahaan',
-'dom_BUTTON_CORPORATE_DNS' => ' Jika server ini tidak memiliki akses keInternet, atau jika anda memiliki aturan khusus untuk resolusi DNS, masukkan alamat IP DNS server disini. Jangan isikan DNS servers ISP anda disini, karena server dapat mencari semua nama DNS Internet tanpa konfigurasi tambahan ini.
-
-  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Ubah pengaturan DNS korporat</a> ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_BUTTON_CORPORATE_DNS' => ' Jika server ini tidak memiliki akses keInternet, atau jika anda memiliki aturan khusus untuk resolusi DNS, masukkan alamat IP DNS server disini. Jangan isikan DNS servers ISP anda disini, karena server dapat mencari semua nama DNS Internet tanpa konfigurasi tambahan ini.
+#
+#  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Ubah pengaturan DNS korporat</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Jika server ini tidak memiliki akses keInternet, atau jika anda memiliki aturan khusus untuk resolusi DNS, masukkan alamat IP DNS server disini. Kosongkan Field tersebut kecuali anda memiliki alasan khusus untuk mengkonfigurasi server DNS lain. Jangan isikan DNS servers ISP anda disini, karena server dapat mencari semua nama DNS Internet tanpa konfigurasi tambahan ini.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'DNS server primer korporat ',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'DNS server sekunder korporat ',
@@ -36,8 +36,8 @@
 'dom_localhost' => 'Resolve secara lokal',
 'dom_internet' => 'DNS Server Internet',
 'dom_corporate' => 'Alamat server DNS perusahaan',
-'dom_REMOVE_DESC' => 'Anda akan menghapus printer:',
-'dom_REMOVE_DESC2' => 'Anda yakin menghapus printer ini?',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC' => 'Anda akan menghapus printer:',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC2' => 'Anda yakin menghapus printer ini?',
 'dom_ADD_DOMAIN' => 'Tambahkan domain',
 'dom_CURRENT_DOMAINS' => 'Daftar domain saat ini',
 'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',

@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Proxy module\n"
+"POT-Creation-Date: 2026-08-21 10:22+0100\n"
+"PO-Revision-Date: 2026-08-21 10:22+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "Proxy settings"
+msgstr "Настройки прокси"
+
+msgid "prx_BLOCKED"
+msgstr "Заблокированный"
+
+msgid "prx_ERR_NO_SQUID_REC"
+msgstr "ERROR: Нет записи squid в базе данных конфигурации."
+
+msgid "prx_ERR_PROXY_UPDATE_FAILED"
+msgstr "ERROR: Событие обновления прокси возвратило ошибку."
+
+msgid "prx_FIRST_PAGE_DESCRIPTION"
+msgstr "На этой странице вы можете настроить прокси-серверы. Сервер включает прозрачный прокси и кэш для HTTP трафика. Он включен по умолчанию, но не действует если сервер работает в режиме &quot;serveronly&quot;. Если этот сервер работает как почтовый, соединения от клиентов локальной сети к внешним SMTP серверам по умолчанию будут перенаправлены на локальный почтовый сервер."
+
+msgid "prx_HTTP_PROXY_STATUS_DESCRIPTION"
+msgstr "HTTP прокси сервера работает чтобы снизить использование интернет-соединения кэшируя часто-посещаемые страницы. Прокси прозрачен для веб-браузеров использующих этот сервер в качестве шлюза. Включите или выключите прокси следующим переключателем."
+
+msgid "prx_HTTP_PROXY_STATUS_LABEL"
+msgstr "Состояние HTTP прокси"
+
+msgid "prx_Proxy"
+msgstr "Прокси"
+
+msgid "prx_SMTP_PROXY_STATUS_DESCRIPTION"
+msgstr "Прозрачный SMTP прокси-сервер работает, чтобы умньшить вирусный трафик с заражённых клиентских машин, перенаправляя весь исхлдящий SMTP трафик через этот сервер. Если вы хотите использовать альтернативный SMTP сервер и этот сервер является вашим шлюзом к нему, отключите этот прокси."
+
+msgid "prx_SMTP_PROXY_STATUS_LABEL"
+msgstr "Состояние SMTP прокси"
+
+msgid "prx_SUCCESS"
+msgstr "Новые настройки прокси успешно применены."
+
+msgid "prx_TITLE"
+msgstr "Настройки прокси"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "prx_Proxy settings"
+#~ msgstr "Настройки прокси"

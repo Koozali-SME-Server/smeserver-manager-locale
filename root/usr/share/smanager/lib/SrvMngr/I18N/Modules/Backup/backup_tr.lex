@@ -1,13 +1,13 @@
 'bac_BACKUP_TITLE' => 'Sunucu verilerini yedekle veya geri yükle',
-'bac_BACKUP_DESC' => ' <p>Sunucunuz iki şekilde yedek alma ve geri yüklemeyi sağlar: yerel masaüstünüzü veya teyip sürücüsünü kullanarak.</p>
-
-  <p>İlk yöntem ayar ve kullanıcı dosyalarınızın yedeğini oluşturup, web gezginiyle masaüstünüze kaydetmeyi sağlar. Mevcut ayar ve kullanıcı dosyalarınız yaklaşık olarak <b>[_3]</b> yer kaplar. Yedekleme dosyası bundan daha az yer kaplar, ne kadar sıkıştırıldığına bağlı. \\"Masaüstü yedeklemesini doğrula\\" seçeneği masaüstünüze yüklenen yedeğin içeriğini bütünlüğünü doğrular.</p>
-
-  <p>Teyip yedeklemesi ise <i>[_1]</i> programını kullanarak sunucunuzun yedeğini her gece teybe kaydetmek için kullanır . Bu işlem için tanımlanan bir teyip sürücüsü ve yazılabilir bir kaset gerekir. Yedekleme belirtilen saatte her gece otomatik olarak yapılır (hatırlatıcı kullanılırsa her gün yöneticiye hatırlatma e-postası gönderilir). Diskinizdeki mevcut veri iktarı <b>[_2]</b> .</p>
-
-  <p>Her iki geri yükleme yöntemi hem sunucu ayarlarını hem de kullanıcı dosyalarını geri yüklemeyi sağlar. <b>En iyisi, geri yükleme işlemi yeni kurulum yapılmış sunucuda yapmaktır</b>.</p>
-
-  ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_BACKUP_DESC' => ' <p>Sunucunuz iki şekilde yedek alma ve geri yüklemeyi sağlar: yerel masaüstünüzü veya teyip sürücüsünü kullanarak.</p>
+#
+#  <p>İlk yöntem ayar ve kullanıcı dosyalarınızın yedeğini oluşturup, web gezginiyle masaüstünüze kaydetmeyi sağlar. Mevcut ayar ve kullanıcı dosyalarınız yaklaşık olarak <b>[_3]</b> yer kaplar. Yedekleme dosyası bundan daha az yer kaplar, ne kadar sıkıştırıldığına bağlı. \\"Masaüstü yedeklemesini doğrula\\" seçeneği masaüstünüze yüklenen yedeğin içeriğini bütünlüğünü doğrular.</p>
+#
+#  <p>Teyip yedeklemesi ise <i>[_1]</i> programını kullanarak sunucunuzun yedeğini her gece teybe kaydetmek için kullanır . Bu işlem için tanımlanan bir teyip sürücüsü ve yazılabilir bir kaset gerekir. Yedekleme belirtilen saatte her gece otomatik olarak yapılır (hatırlatıcı kullanılırsa her gün yöneticiye hatırlatma e-postası gönderilir). Diskinizdeki mevcut veri iktarı <b>[_2]</b> .</p>
+#
+#  <p>Her iki geri yükleme yöntemi hem sunucu ayarlarını hem de kullanıcı dosyalarını geri yüklemeyi sağlar. <b>En iyisi, geri yükleme işlemi yeni kurulum yapılmış sunucuda yapmaktır</b>.</p>
+#
+#  ',
 'bac_BACKUP_DESC_DAR' => '(en)<p>Three ways are provided to back up and restore your server: using a tape drive, using a network share or a local removable disk, or using your local desktop.</p>
 
   <p>Tape Backup. This method uses a software package called <i>[_1]</i> to back up your entire hard disk to tape every night. This requires a supported tape drive and a tape that is not write-protected. The backup is performed automatically at the selected time every night (with a reminder automatically e-mailed to the administrator during the day). Currently your hard disk contains <b>[_2]</b> of data.</p>
@@ -18,10 +18,10 @@
 
   <p>All backup methods allow you to restore your configuration and user data files. Workstation backup provides individual file restore. <b>Ideally, full restore should be performed on a freshly installed server</b>.</p>',
 'bac_BACKUP_CONFIG_STATUS' => 'Yedekleme ayarları ve durumu',
-'bac_TAPE_BACKUPS_ENABLED' => ' Teyip yedeklemesi etkin. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_ENABLED' => ' Teyip yedeklemesi etkin. ',
 'bac_BACKUPS_RUN_AT' => 'Teyip yedeklemesi düzenli olarak bu saate gerçekleşecektir:',
 'bac_REMINDER_MESSAGE_AT' => 'Hatırlatma mesajı gönderme zamanı:',
-'bac_TAPE_BACKUPS_DISABLED' => ' Teyip yedeklemesi devredışı ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_TAPE_BACKUPS_DISABLED' => ' Teyip yedeklemesi devredışı ',
 'bac_DESKTOP_BACKUP' => 'Masaüstüne yedekle',
 'bac_DESKTOP_RESTORE' => 'Masaüstünden geri yükle',
 'bac_DESKTOP_VERIFY' => 'Masaüstündeki yedeği doğrula',
@@ -110,10 +110,10 @@
 'bac_SERVER_WILL_REBOOT' => 'Sunucu yeniden başlatılıyor',
 'bac_NO_UID_FOR_NAME' => 'Bu kullanıcınn UID numarası bulunamadı:',
 'bac_PAGE_REFRESH_IN' => ' Bu sayfa [_1] saniyede bir kendini yenileyerek ilerleme durumunu gösterir, veya buraya tıklayın. ',
-'bac_Backup or restore' => 'Yedek oluştur veya geri yükle',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_Backup or restore' => 'Yedek oluştur veya geri yükle',
 'bac_BACKUP_DESKTOP_TOO_BIG' => '  Sunucunuzda, masaüstünüze yedeklenecek gerğinden fazla veri bulunmaktadır.  ',
-'bac_WORKSTN_BACKUPS_DISABLED' => ' İş istasonu yedeklemesi devre dışı ',
-'bac_WORKSTN_BACKUPS_ENABLED' => ' İş istasonu yedeklemesi etkin. ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_DISABLED' => ' İş istasonu yedeklemesi devre dışı ',
+# ORPHANED (no longer in backup_en.lex; kept for reference, commented out by lex-to-po.pl): 'bac_WORKSTN_BACKUPS_ENABLED' => ' İş istasonu yedeklemesi etkin. ',
 'bac_WKBACKUPS_RUN_AT' => 'İş istasyonu yedeklemesi düzenli olarak bu saate gerçekleşecektir:',
 'bac_WORKSTN_CONFIGURE' => 'İş istasyonu yedeklemesi ayarları',
 'bac_WORKSTN_VERIFY' => 'İş istasyonu yedeğini doğrula',

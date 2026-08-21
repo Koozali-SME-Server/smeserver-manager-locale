@@ -16,8 +16,8 @@
   <p> Per amministrare il sistema, fare clic su uno dei link nel menu alla sinistra dello schermo. </p>
 
   ',
-'initial_NOFRAMES_BODY' => '  Benvenuto su SME Server. Questo software non ha NESSUNA GARANZIA. Fare clic <a href="cgi-bin/support/" target="main">qui</a> per avere informazioni dettagliate su supporto, garanzia e licenza. 
-
-  <p> Fare clic <a href="/common/noframes">qui</a> per una lista delle funzioni di amministrazione. </p>
-
-  ',
+# ORPHANED (no longer in initial_en.lex; kept for reference, commented out by lex-to-po.pl): 'initial_NOFRAMES_BODY' => '  Benvenuto su SME Server. Questo software non ha NESSUNA GARANZIA. Fare clic <a href="cgi-bin/support/" target="main">qui</a> per avere informazioni dettagliate su supporto, garanzia e licenza. 
+#
+#  <p> Fare clic <a href="/common/noframes">qui</a> per una lista delle funzioni di amministrazione. </p>
+#
+#  ',

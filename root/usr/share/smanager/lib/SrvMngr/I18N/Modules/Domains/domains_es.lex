@@ -2,8 +2,8 @@
 'dom_FORM_DESCRIPTION' => ' Cuando crea un dominio, el servidor queda habilitado para recibir correo electrónico para ese dominio y también puede alojar un sitio web para ese dominio.
 
   <p><a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_create">Agregar dominio</a> ',
-'dom_NO_VIRTUAL_DOMAINS' => 'No hay dominios en el sistema.',
-'dom_CURRENT_LIST_OF_DOMAINS' => 'Lista actual de dominios',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_NO_VIRTUAL_DOMAINS' => 'No hay dominios en el sistema.',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_CURRENT_LIST_OF_DOMAINS' => 'Lista actual de dominios',
 'dom_PRIMARY_SITE' => 'sitio primario',
 'dom_CONTENT' => 'i-bay [_1]',
 'dom_CREATE_TITLE' => 'Crear un nuevo dominio',
@@ -25,9 +25,9 @@
 'dom_ERROR_WHILE_REMOVING_DOMAIN' => 'Error: falla interna al eliminar el dominio [_1].',
 'dom_SUCCESSFULLY_DELETED' => 'Se eliminó con éxito el dominio [_1]. Ahora se está reiniciando el servidor web. Los vínculos en esta página estarán inactivos hasta que se complete el reinicio del servidor web.',
 'dom_DESC_CORPORATE_DNS_CURRENT' => ' Configuración de DNS Corporativa ',
-'dom_BUTTON_CORPORATE_DNS' => ' Si este servidor no tiene acceso a Internet, o usted tiene requerimientos especiales para la resolución de DNS, ingrese aquí la dirección IP del servidor de DNS. No debe ingresar aquí la dirección de DNS de su ISP, debido a que el servidor es capaz de resolver todos los nombres DNS de Internet sin ninguna configuración adicional.
-
-  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Modificar configuración de DNS corporativa</a> ',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_BUTTON_CORPORATE_DNS' => ' Si este servidor no tiene acceso a Internet, o usted tiene requerimientos especiales para la resolución de DNS, ingrese aquí la dirección IP del servidor de DNS. No debe ingresar aquí la dirección de DNS de su ISP, debido a que el servidor es capaz de resolver todos los nombres DNS de Internet sin ninguna configuración adicional.
+#
+#  <p> <a class="button-like" href="domains?page=0&page_stack=&next=next&wherenext=domains_page_corporate_dns">Modificar configuración de DNS corporativa</a> ',
 'dom_DESC_CORPORATE_DNS' => 'Si este servidor no tiene acceso a Internet, o usted tiene requerimientos especiales para la resolución de DNS, ingrese aquí la dirección IP del servidor de DNS. Estos campos pueden dejarse en blanco a menos que tenga una razón específica para configurar otros servidores de DNS. No debe ingresar aquí la dirección de DNS de su ISP, debido a que el servidor es capaz de resolver todos los nombres de DNS de Internet sin ninguna configuración adicional.',
 'dom_LABEL_CORPORATE_DNS_PRIMARY' => 'Servidor Primario corporativo de DNS',
 'dom_LABEL_CORPORATE_DNS_SECONDARY' => 'Servidor Secundario corporativo de DNS',
@@ -36,8 +36,8 @@
 'dom_localhost' => 'Resolver localmente',
 'dom_internet' => 'Servidores DNS de Internet',
 'dom_corporate' => 'Servidor DNS corporativo',
-'dom_REMOVE_DESC' => 'Está a punto de eliminar la impresora:',
-'dom_REMOVE_DESC2' => '¿Está seguro de que desea eliminar esta impresora?',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC' => 'Está a punto de eliminar la impresora:',
+# ORPHANED (no longer in domains_en.lex; kept for reference, commented out by lex-to-po.pl): 'dom_REMOVE_DESC2' => '¿Está seguro de que desea eliminar esta impresora?',
 'dom_ADD_DOMAIN' => 'Agregar dominio',
 'dom_CURRENT_DOMAINS' => 'Lista actual de dominios',
 'dom_ABOUT_TO_REMOVE' => '(en)Are you sure you wish to remove this domain ?',

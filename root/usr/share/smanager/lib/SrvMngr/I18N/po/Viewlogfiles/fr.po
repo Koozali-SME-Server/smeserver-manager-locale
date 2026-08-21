@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Viewlogfiles module\n"
+"POT-Creation-Date: 2026-08-21 10:25+0100\n"
+"PO-Revision-Date: 2026-08-21 10:25+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+
+msgid "LOG_LIVESTREAM"
+msgstr "(en) Live stream"
+
+msgid "log_END_DESC"
+msgstr "Veuillez noter que la génération de ces rapports peut nécessiter un délai assez long."
+
+msgid "log_ERR_NOEXIST_FILE"
+msgstr "(en) Err noexist file"
+
+msgid "log_ERR_NOOPEN_FILE"
+msgstr "(en) Err noopen file"
+
+msgid "log_FILENAME_ERROR"
+msgstr " Erreur de spécification du nom de fichier journal.\n\n  <p>Type de rapport non valide pour \"[_1]\".</p>\n\n  "
+
+msgid "log_FILTER_PATTERN_DESC"
+msgstr " Vous avez la possibilité de spécifier un modèle de filtre afin de n'afficher que les lignes du fichier journal qui correspondent à ce modèle. Si vous laissez ce champ vide, le fichier journal sera affiché dans son intégralité. Veuillez noter que cette option est ignorée en cas de téléchargement du fichier.\n\n  "
+
+msgid "log_FILTER_PATTERN_HINT"
+msgstr "(en) The pattern is case insensitive, but enclosing it in \"/\" will result in it being treated as a regex."
+
+msgid "log_FILTER_PATTERN_LABEL"
+msgstr "Modèle de filtre (facultatif)"
+
+msgid "log_FIRSTPAGE_DESC"
+msgstr " Cette page vous permet de visualiser ou de télécharger les fichiers journaux générés par les services en cours de fonctionnement sur votre serveur. "
+
+msgid "log_FORM_TITLE"
+msgstr "Visualisation des fichiers journaux"
+
+msgid "log_HIGHLIGHT_HEADER"
+msgstr "Surbrillance des lignes qui concordent avec \"[_1]\"."
+
+msgid "log_LOG_FILE_EMPTY"
+msgstr "Le fichier journal \"[_1]\" est vide !"
+
+msgid "log_LOG_FILE_SELECT_DESC"
+msgstr "Choisissez le fichier journal à afficher"
+
+msgid "log_MATCH_HEADER"
+msgstr "Affichage des lignes qui concordent avec \"[_1]\"."
+
+msgid "log_MATCH_PATTERN_DESC"
+msgstr " Vous pouvez également spécifier un modèle de surbrillance afin de marquer en gras toutes les lignes du fichier journal qui correspondent à ce modèle. Ce modèle de surbrillance est appliqué à toutes les lignes qui ont déjà été mises en concordance avec le modèle de filtre. Veuillez noter que cette option est ignorée en cas de téléchargement du fichier.\n\n  "
+
+msgid "log_MATCH_PATTERN_LABEL"
+msgstr "Modèle de surbrillance (facultatif)"
+
+msgid "log_NO_MATCHING_LINES"
+msgstr "Aucune ligne ne concorde avec le modèle de filtre."
+
+msgid "log_OP_DESC"
+msgstr "Vous avez la possibilité d'afficher le fichier journal dans votre navigateur ou de le télécharger sur votre ordinateur. Si le fichier journal est particulièrement volumineux, il peut être préférable de le télécharger sur votre ordinateur. En effet, certains navigateurs peuvent éprouver des difficultés à afficher de trop gros fichiers."
+
+msgid "log_OP_LABEL"
+msgstr "Action"
+
+msgid "log_REFRESH"
+msgstr "Régénérer ce fichier journal"
+
+msgid "log_VIEW"
+msgstr "Afficher le fichier journal"
+
+msgid "log_VIEWING_TIME"
+msgstr "Affiché le [_1]."
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "View log files"
+#~ msgstr "Visualisation des fichiers journaux"
+#~ msgid "log_DOWNLOAD_FILE"
+#~ msgstr "Préparation du téléchargement du fichier journal \"[_1]\"."
+#~ msgid "log_DOWNLOAD_PAGE_DESC"
+#~ msgstr " Votre fichier journal est prêt à être téléchargé. Le téléchargement commencera dès que vous aurez cliqué sur le bouton \"Suivant\" ci-dessous et que vous aurez indiqué à votre navigateur d'accepter l'opération dans la boîte de dialogue qui s'affichera.\n\n  "

@@ -7,4 +7,4 @@
 'clm_NEVER' => 'Nikoli',
 'clm_DAILY' => 'Dnevno',
 'clm_SUCCESS' => 'Nove nastavitve za clamav antivirus so shranjene.',
-'clm_Antivirus (ClamAV)' => 'Protivirusni program (ClamAV)',
+# ORPHANED (no longer in clamav_en.lex; kept for reference, commented out by lex-to-po.pl): 'clm_Antivirus (ClamAV)' => 'Protivirusni program (ClamAV)',

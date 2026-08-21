@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smeserver-manager Mailanalog module\n"
+"POT-Creation-Date: 2026-08-21 12:03+0100\n"
+"PO-Revision-Date: 2026-08-21 12:03+0100\n"
+"Last-Translator: unassigned\n"
+"Language-Team: unassigned\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+
+msgid "Mail log file analysis"
+msgstr "(en) Mail log file analysis"
+
+msgid "mai_Authentication Analysis"
+msgstr "(en) Authentication Analysis"
+
+msgid "mai_Bounce Rate Analysis"
+msgstr "(en) Bounce Rate Analysis"
+
+msgid "mai_Comparison Reports"
+msgstr "(en) Comparison Reports"
+
+msgid "mai_Customized Reports"
+msgstr "(en) Customized Reports"
+
+msgid "mai_Daily_Summary_Report_all"
+msgstr "(en) Summary report for all time up to now"
+
+msgid "mai_Daily_Summary_Report_today"
+msgstr "(en) Summary report for today up to now"
+
+msgid "mai_Daily_Summary_Report_yesterday"
+msgstr "(en) Summary report for yesterday"
+
+msgid "mai_Delivery Status Report"
+msgstr "(en) Delivery Status Report"
+
+msgid "mai_Error Reporting"
+msgstr "(en) Error Reporting"
+
+msgid "mai_FORM_TITLE"
+msgstr "Analiza fișierelor de evidență poștă electronică"
+
+msgid "mai_GENERATE_REPORT"
+msgstr "Generează raport"
+
+msgid "mai_Geographic Analysis of Email"
+msgstr "(en) Geographic Analysis of Email"
+
+msgid "mai_INITIAL_DESC"
+msgstr " Analizarea fișierelor de log poate ajuta atât la înțelegerea performaței sistemului cât și la diagnosticarea problemelor. Câteva tipuri de rapoarte sunt disponibile. Țineți cont că se poate ca genrarea acestor rapoarte să dureze câteva minute "
+
+msgid "mai_INVALID_REPORT_TYPE"
+msgstr "Tip de raport invalid:"
+
+msgid "mai_REPORT_GENERATED"
+msgstr "Raport generat:"
+
+msgid "mai_REPORT_TYPE"
+msgstr "Alege un tip de raport"
+
+msgid "mai_Spam and Virus Filtering Report"
+msgstr "(en) Spam and Virus Filtering Report"
+
+msgid "mai_Top Senders and Recipients"
+msgstr "(en) Top Senders and Recipients"
+
+msgid "mai_Traffic Analysis"
+msgstr "(en) Traffic Analysis"
+
+msgid "mai_User Activity Report"
+msgstr "(en) User Activity Report"
+
+# --- obsolete: no longer present in the English source ---
+#~ msgid "mai_BASIC_STATS"
+#~ msgstr "Statistică de bază"
+#~ msgid "mai_END_OF_REPORT"
+#~ msgstr "Final raport"
+#~ msgid "mai_LIST_OUTGOING"
+#~ msgstr "Listează mesajele și destinatarii mesajelor de ieșire"
+#~ msgid "mai_Mail log file analysis"
+#~ msgstr "Analiză log de mail"
+#~ msgid "mai_REASONS_DEFERRAL"
+#~ msgstr "Motivele de amânare"
+#~ msgid "mai_REASONS_FAILURE"
+#~ msgstr "Motivele de eşec"
+#~ msgid "mai_REASONS_SUCCESS"
+#~ msgstr "Motive de succes"
+#~ msgid "mai_RECIP_HOSTS"
+#~ msgstr "Gazde beneficiare"
+#~ msgid "mai_RECIP_ORDERED"
+#~ msgstr "Destinatari triați pentru lista de trimiteri"
+#~ msgid "mai_RECIP_STATS"
+#~ msgstr "Statistica destinatarilor"
+#~ msgid "mai_SENDER_STATS"
+#~ msgstr "Statistică expeditori"
+#~ msgid "mai_SENDER_UIDS"
+#~ msgstr "UID-uri expeditori"
+#~ msgid "mai_SENDMAIL_STYLE"
+#~ msgstr "Evidență în stil Sendmail"
+#~ msgid "mai_SUCCESSFUL_DELIVERY_DELAY"
+#~ msgstr "Distribuția reușitelor de distribuție întârziată"
+#~ msgid "mai_SUMMARIZE_QUEUE"
+#~ msgstr "Statut general al cozii de postă electronică"

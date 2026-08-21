@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'Yeni LDAP varsayılan değerleri kaydedildi.',
 'dir_LEAVE' => 'Olduğu gibi bırak',
 'dir_UPDATE' => 'Yeni varsayılan bilgileri kullanarak güncelle',
-'dir_Directory' => 'Dizin',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Dizin',

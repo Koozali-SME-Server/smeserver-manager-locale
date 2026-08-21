@@ -14,4 +14,4 @@
 'dir_SUCCESS' => 'De nye forhåndsinnstilte LDAP innstillingene er lagret.',
 'dir_LEAVE' => 'La de være som de er',
 'dir_UPDATE' => 'Oppdater med nye forhåndsinnstillinger',
-'dir_Directory' => 'Mappe',
+# ORPHANED (no longer in directory_en.lex; kept for reference, commented out by lex-to-po.pl): 'dir_Directory' => 'Mappe',
