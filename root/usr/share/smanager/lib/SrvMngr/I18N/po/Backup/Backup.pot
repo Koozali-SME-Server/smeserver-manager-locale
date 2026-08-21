@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Backup module\n"
-"POT-Creation-Date: 2026-08-21 10:08+0100\n"
-"PO-Revision-Date: 2026-08-21 10:08+0100\n"
+"POT-Creation-Date: 2026-08-21 12:31+0100\n"
+"PO-Revision-Date: 2026-08-21 12:31+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -473,7 +473,7 @@ msgstr ""
 msgid "bac_RESTORE_IN_PROGRESS_BEGAN_AT"
 msgstr ""
 
-#. After the restore completes you must reboot the server. Your restore is\ncomplete when the words \"Restore complete\" appear at the bottom of your screen.\n
+#. After the restore completes you must reboot the server. Your restore is complete when the words \"Restore complete\" appear at the bottom of your screen.
 msgid "bac_RESTORE_IN_PROGRESS_DESC"
 msgstr ""
 
@@ -597,7 +597,7 @@ msgstr ""
 msgid "bac_VERIFY"
 msgstr ""
 
-#. \n<p>This option will display the names of all files\nin a previously created desktop backup file. You\ncan use this option to verify the contents of the\nbackup file.</p> 
+#. <p>This option will display the names of all files in a previously created desktop backup file. You can use this option to verify the contents of the backup file.</p> 
 msgid "bac_VERIFY_BACKUP_DESC"
 msgstr ""
 

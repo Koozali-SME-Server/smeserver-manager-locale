@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Initial module\n"
-"POT-Creation-Date: 2026-08-21 10:18+0100\n"
-"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"POT-Creation-Date: 2026-08-21 12:41+0100\n"
+"PO-Revision-Date: 2026-08-21 12:41+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,3 @@ msgstr "Bem vindo ao gerenciador do servidor"
 
 msgid "initial_FRAMES_BODY"
 msgstr "  Bemvindo ao Servisor SME, a distribuição Linux lider em empresas pequenas e médias. Servidor SME é oferecido a você por <a href=\"https://www.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a>, uma corporação sem fins lucrativosque existe para prover marketing e suporte legal para o servidor SME. >/p> Servidor SME é livremente distribuido sobre a GNU General Public License e somente é possível através dos esforços da comunidade do Servidor SME. Contuado, a disponibilidade e a qualidade do Servidor SME depende de podermos pagar nossas despesas com custos de hospedagem, custo de hardware e outros.\n\n  <p>Para tal, lhe pedimos uma pequena doação para diminuir estes custos e ajudar a pagar maiores desenvolvimentos.</p>\n\n  <p><b>Por favor visite <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\">https://wiki.koozali.org/Donate</a> para fazer uma doação. </b></p>\n\n  <p>Este software vem sem QUALQUER GARANTIA. Por favor <a href=\"/smanager/support\" target=\"main\">clique aqui</a> para ver informações detalhadas sobre suporte, garantia e licenciamento.</p>\n\n  <p>Para realizar uma função administrativa, clique em um dos links no menu na esquerda desta tela.</p>\n\n  "
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "initial_NOFRAMES_BODY"
-#~ msgstr "  Esta é uma versão de desenvolvimento e sem suporte do Servidor Mitel Networks SME Este software vem SEM ABSOLUTAMENTE NENHUMA GARANTIA. Favor <a href=\"/smanager/support\" target=\"main\">click aqui</a> para ver detalhado suporte, garantia e informações de licença. \n\n  <p> <a href=\"/server-manager/noframes\">Click aquie</a> para uma lista de funções de administração do sistema. </p>\n\n  "

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Initial module\n"
-"POT-Creation-Date: 2026-08-21 10:18+0100\n"
-"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"POT-Creation-Date: 2026-08-21 12:41+0100\n"
+"PO-Revision-Date: 2026-08-21 12:41+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,3 @@ msgstr "Sunucu yöneticisine hoşgeldiniz"
 
 msgid "initial_FRAMES_BODY"
 msgstr "  SME Sunucusuna Hoşheldiniz, küçük ve orta ölçekli işletmeler için önde gelen Linux dağıtımı <a href=\"https://wiki.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a>,kar amacı gütmeyen bir kuruluş, pazarlama ve SME Sunusu için yasal destek sağlamaktadır. \n\n  <p> SME Server, GNU Genel Kamu Lisansı altında ve SME Server topluluğu aracılığıyla devam ettirilmektedir. SME Server Linuxun kalitesinin artması ve projenin devam edebilmesi giderlerimize bağlıdır, sunucu ücreti, seunucu donanımı vb. </p>\n\n  <p> Bu nedenle, maliyetleri karşılamak için küçük bir bağış bekliyoruz. </p>\n\n  <p> <b> Lütfen <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\">https://wiki.koozali.org/Donate</a> bağışta bulunun. </b></p>\n\n  <p> Bu yazılımın KESİNLİKE GARANTİSİ YOKTUR. Lütfen <a href=\"/smanager/support\" target=\"main\">buraya tıklayarak</a> destek, garanti ve lisans bilgilerine gözatın. </p>\n\n  <p> Sistemi yönetmeye başlamak için ekranın solundaki menüden bir linke tıklayın. </p>\n\n  "
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "initial_NOFRAMES_BODY"
-#~ msgstr "  SME Sunucusuna Hoşheldiniz. Bu yazılımın KESİNLİKE GARANTİSİ YOKTUR. Lütfen <a href=\"/smanager/support\" target=\"main\">buraya tıklayarak</a> destek, garanti ve lisans bilgilerine gözatın. \n\n  <p> Sistem Yönetim paneli için<a href=\"/server-manager/noframes\">buraya tıklayın</a>. </p>\n\n  "

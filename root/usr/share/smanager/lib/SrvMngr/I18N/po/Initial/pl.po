@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Initial module\n"
-"POT-Creation-Date: 2026-08-21 10:18+0100\n"
-"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"POT-Creation-Date: 2026-08-21 12:41+0100\n"
+"PO-Revision-Date: 2026-08-21 12:41+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,3 @@ msgstr "Witamy w menedżerze serwera"
 
 msgid "initial_FRAMES_BODY"
 msgstr "  Witamy w SME Server, dystrybucji Linuksa dla małych i średnich przedsiębiorstw. SME Server zostało przygotowane dla Ciebie przez <a href=\"https://www.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a>, korporacją non-profit, która istnieje, aby zarządzać marketingiem i wsparciem dla SME Server. \n\n  <p> SME Server jest dystrybucją ogólnodostępną, rozprowadzaną na licencji GNU GPL i jest tylko dzięki wysiłkom społeczności SME Server. Jednakże, dostępność i jakość SME Server jest uzależniona od naszych wydatków, jak koszty hostingu, serwera, itp. </p>\n\n  <p> <b> Proszę odwiedzić <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\">https://wiki.koozali.org/Donate</a>, aby wesprzeć pieniężnie projekt. </b></p>\n\n  <p> Ten projekt jest rozprowadzany ABSOLUTNIE BEZ ŻADNEJ GWARANCJI. Proszę <a href=\"/smanager/support\" target=\"main\">tutaj kliknąć</a>, aby wyświetlić szczegóły wsparcia, gwarancji i licencji. </p>\n\n  <p> Aby przygotować funkcję administracji systemem, kliknij na jeden z hiperłączy w menu po lewej stronie monitora. </p>\n\n  "
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "initial_NOFRAMES_BODY"
-#~ msgstr "  Witamy w SME Server. To oprogramowanie jest rozprowadzane BEZ ŻADNEJ GWARANCJI. Proszę <a href=\"/smanager/support\" target=\"main\">tutaj kliknąć</a>, aby wyświetlić szczegóły wsparcia, gwarancji i licencji.\n\n  <p> <a href=\"/server-manager/noframes\">Kliknij tutaj</a> aby zobaczyć listę funkcji administracji systemem. </p>\n\n  "

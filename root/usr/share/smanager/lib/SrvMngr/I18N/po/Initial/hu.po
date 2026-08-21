@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Initial module\n"
-"POT-Creation-Date: 2026-08-21 10:18+0100\n"
-"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"POT-Creation-Date: 2026-08-21 12:41+0100\n"
+"PO-Revision-Date: 2026-08-21 12:41+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,3 @@ msgstr "Üdvözöljük a szerver kezelőben"
 
 msgid "initial_FRAMES_BODY"
 msgstr "  Üdvözli az SME Server, a piacvezető linux disztribúció kis és középvállalkozások számára. Az SME Server-t az <a href=\"https://www.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a> biztosítja az ön számára, amely egy olyan non-profit szervezet, amely azért jött létre, hogy értékesítési, és jogi támogatást nyújtson az SME Server számára. \n\n  <p>Az SME Server szabadon elérhető a GNU General Public License alatt és az SME Server közösség önerejéből jött létre. Azonban az SME Server hozzáférhetősége és minősége nagyban függ a költségeinktől, mint például tárhely költségek, szerver hardver, stb. </p>\n\n  <p> Ezért kiadásaink ellensúlyozására és a további fejlesztések támogatására szívesen fogadjuk pénzbeli támogatását. </p>\n\n  <p> <b> Kérjük látogassa meg <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\">https://wiki.koozali.org/Donate</a> weboldalt adománya elküldéséhez. </b></p>\n\n  <p> Ez a szoftver SEMMILYEN GARANCIÁT NEM TARTALMAZ. Kérjük <a href=\"/smanager/support\" target=\"main\">kattintson ide</a> a részletes terméktámogatási, garancia és licensz információkért. </p>\n\n  <p> A rendszer adminisztrálásához kattintson a képernyő bal oldalán lévő oszlop valamely menüpontjára.</p>\n\n  "
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "initial_NOFRAMES_BODY"
-#~ msgstr "  Üdvözli az SME szerver. Ez a szoftver SEMMILYEN GARANCIÁT NEM TARTALMAZ. Kérjük <a href=\"/smanager/support\" target=\"main\">kattintson ide</a> a részletes terméktámogatási, garancia és licensz információkért. \n\n  <p> <a href=\"/server-manager/noframes\">Kattintson ide</a> a rendszer adminisztrációs funkciók listájának megtekintéséhez. </p>\n\n  "

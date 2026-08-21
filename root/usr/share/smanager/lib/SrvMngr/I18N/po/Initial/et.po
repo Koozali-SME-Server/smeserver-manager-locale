@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Initial module\n"
-"POT-Creation-Date: 2026-08-21 10:18+0100\n"
-"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"POT-Creation-Date: 2026-08-21 12:41+0100\n"
+"PO-Revision-Date: 2026-08-21 12:41+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,3 @@ msgstr "Tere tulemast serveri haldusesse"
 
 msgid "initial_FRAMES_BODY"
 msgstr "  Tere tulemast SME Server-isse, tegemist on juhtiva Linuxi distributsiooniga väikesele ja keskmise suurusega ettevõttele. SME Server is brought to you by <a href=\"https://www.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a>, a non-profit corporation that exists to provide marketing and legal support for SME Server. \n\n  <p> SME Server is freely available under the GNU General Public License and is only possible through the efforts of the SME Server community. However, the availability and quality of SME Server is dependent on meeting our expenses, such as hosting costs, server hardware, etc. </p>\n\n  <p> As such, we ask for a small donation to offset costs and fund further development. </p>\n\n  <p> <b> Palun külasta <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\">https://wiki.koozali.org/Donate</a> toetamaks serveri arendust. </b></p>\n\n  <p> This software comes with ABSOLUTELY NO WARRANTY. Please <a href=\"/smanager/support\" target=\"main\">click here</a> to view detailed support, warranty and licensing information. </p>\n\n  <p> To perform a system administration function, click one of the links in the menu on the left of your screen. </p>\n\n  "
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "initial_NOFRAMES_BODY"
-#~ msgstr "  Tere tulemast SME Server-isse. This software comes with ABSOLUTELY NO WARRANTY. Palun <a href=\"/smanager/support\" target=\"main\">vajuta siia</a> vaatamaks detailset kasutajatoe, warranty ja litsentsi informatiooni. \n\n  <p> <a href=\"/server-manager/noframes\">Vajuta siia</a> for a list of system administration functions. </p>\n\n  "

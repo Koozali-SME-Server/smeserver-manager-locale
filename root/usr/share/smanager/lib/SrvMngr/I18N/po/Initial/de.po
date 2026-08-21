@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Initial module\n"
-"POT-Creation-Date: 2026-08-21 10:18+0100\n"
-"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"POT-Creation-Date: 2026-08-21 12:41+0100\n"
+"PO-Revision-Date: 2026-08-21 12:41+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,3 @@ msgstr "Willkommen im Server Manager"
 
 msgid "initial_FRAMES_BODY"
 msgstr "  Willkommen beim SME Server, der führenden Linux-Distribution für kleine und mittlere Unternehmen. SME Server wird Ihnen präsentiert von <a href=\\\"https://wiki.koozali.org/\\\" target=\\\"_blank\\\"> Koozali Foundation, Inc. </a>, einer nicht gewinnorientierten Organisation, die Marketing und Support für den SME Server betreibt. \n\n  <p> SME Server ist unter der GNU General Public License frei verfügbar und wird durch die Bemühungen der SME Server Community stetig weiterentwickelt. Allerdings verursacht es Kosten, SME Server mit hoher Qualität verfügbar zu machen, z. B. durch Hosting, Server-Hardware, usw. </p>\n\n  <p> Daher wird um Spenden zur Finanzierung der Kosten und Weiterentwicklung gebeten. </p>\n\n  <p> a) Wenn Sie eine Schule, eine Kirche, eine gemeinnützige Organisation oder eine Privatperson sind, würden wir uns über einen Beitrag innerhalb Ihres finanziellen Rahmens freuen, der mithilft die Kosten für Hosting, Wartung und Entwicklung zu decken. </p>\n\n  <p> b) Wenn Sie ein Unternehmen sind oderim Rahmen Ihrer Tätigkeit Gewinne erzielen, erwarten wir von Ihnen eine angemessene Spende im Einklang mit der Höhe Ihrer Gewinne und der Anzahl der eingesetzten Server. Bitte besuchen Sie für eine Spende </p>\n\n  <br> <p> <a href=\\\"https://wiki.koozali.org/donate\\\" target=\\\"_blank\\\"> <img src=\\\"images/btn_donateCC_LG.gif\\\" alt=\\\"https://wiki.koozali.org/donate\\\" align=\\\"middle\\\"> </a> </p>\n\n  <br> <p> Diese Software wird ABSOLUT OHNE GARANTIE zur Verfügung gestellt. Bitte schauen Sie sich <a href=\\\"/server-manager/support/\\\" target=\\\"main\\\">hier</a> die ausführlichen Informationen zu Support, Garantie und Lizenzen an. </p>\n\n  <p> Um Funktion des Server-Managers aufzurufen, klicken Sie bitte auf einen der Menüpunkte auf der linken Seite des Bildschirms. </p>\n\n  "
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "initial_NOFRAMES_BODY"
-#~ msgstr "  Willkommen beim SME Server. Diese Software wird ABSOLUT OHNE GARANTIE zur Verfügung gestellt. Bitte <a href=\\\"/server-manager/support/\\\" target=\\\"main\\\">hier klicken</a>, um ausführliche Informationen zu Support, Garantie und Lizenzen anzuschauen. \n\n  <p> <a href=\\\"/server-manager/noframes\\\">Klicken Sie hier</a>, um eine Liste der Systemadministrationsfunktionen aufzurufen. </p>\n\n  "

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Remoteaccess module\n"
-"POT-Creation-Date: 2026-08-21 10:23+0100\n"
-"PO-Revision-Date: 2026-08-21 10:23+0100\n"
+"POT-Creation-Date: 2026-08-21 12:46+0100\n"
+"PO-Revision-Date: 2026-08-21 12:46+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid "rma_DESC_PPTP"
 msgstr ""
 
-#. You can control Secure Shell access to your server.\nThe public setting should only be enabled by \nexperienced administrators \nfor remote problem diagnosis and resolution. \nWe recommend leaving this\nparameter set to \"No Access\"\nunless you have a specific reason to do otherwise.\nNote that an \"Autoblock\" feature is enabled by default when public access is enabled; to disable or tune this feature, refer to the manual at https://wiki.koozali.org/AutoBlock\n
+#. You can control Secure Shell access to your server.\nThe public setting should only be enabled by \nexperienced administrators \nfor remote problem diagnosis and resolution. \nWe recommend leaving this\nparameter set to \"No Access\"\nunless you have a specific reason to do otherwise.\nNote that an \"Autoblock\" feature is enabled by default when public access is enabled; to disable or tune this feature, refer to the manual at https://wiki.koozali.org/AutoBlock
 msgid "rma_DESC_SSH"
 msgstr ""
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Initial module\n"
-"POT-Creation-Date: 2026-08-21 10:18+0100\n"
-"PO-Revision-Date: 2026-08-21 10:18+0100\n"
+"POT-Creation-Date: 2026-08-21 12:41+0100\n"
+"PO-Revision-Date: 2026-08-21 12:41+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,3 @@ msgstr "Velkommen til server manager"
 
 msgid "initial_FRAMES_BODY"
 msgstr "  Velkommen til SME Server, den førende Linuxdistribution til små og mellemstore virksomheder. SME Server er leveret til dig af <a href=\"https://www.koozali.org/\" target=\"_blank\">Koozali Foundation, Inc.</a>, et almennyttigt selskab, hvis formål er markedsføring og understøttelse af SME Server. \n\n  <p> SME Server er frit tilgængelig under GNU General Public Licens, hvilket kun er muligt gennem SME Server gruppens indsats. Ikke desto mindre er adgangen til, og kvaliteten af, SME Server afhængig af, at omkostninger til hosting, serverhardware mm. dækkes.</p>\n\n  <p> Derfor anmoder vi om bidrag til at dække disse omkostninger og til at understøtte den videre udvikling.</p>\n\n  <p> a) Hvis du er en skole, en kirke, en almennyttig organisation eller en person som bruger SME til private formål, vil vi sætte pris på at du bidrager, indenfor dine muligheder, til udgifterne til hosting, vedligehold og udvikling. </p>\n\n  <p> b) Hvis du er en virksomhed eller en konsulent og du anvender SME i forbindelse med dit arbejde til at skabe indtægter, forventer vi at du bidrager med et beløb i forhold til den indtægt det skaber og antallet af de servere du har etableret. Hjælp venligst projektet </p>\n\n  <br> <p> <a href=\"https://wiki.koozali.org/donate\" target=\"_blank\"> <img src=\"images/btn_donateCC_LG.gif\" alt=\"https://wiki.koozali.org/donate\" align=\"middle\"></a> </p>\n\n  <br> <p> Denne software er UDEN NOGEN FORM FOR GARANTI. Klik venligst <a href=\"/smanager/support\" target=\"main\">her</a> for at se detaljerede oplysninger om support, garanti og licens. </p>\n\n  <p> For at udføre system administration, klik på et af linkene i menuen i venstre side af skærmen. </p>\n\n  "
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "initial_NOFRAMES_BODY"
-#~ msgstr "  Velkommen til SME Server. Denne software leveres UDEN NOGEN FORM FOR GARANTI. Klik venligst<a href=\"/smanager/support\" target=\"main\">her</a> for at få vist detaljerede oplysninger om support, garanti og licensinformation. \n\n  <p> <a href=\"/server-manager/noframes\">Klik her</a> for at få vist en liste over system administrations funktioner. </p>\n\n  "
