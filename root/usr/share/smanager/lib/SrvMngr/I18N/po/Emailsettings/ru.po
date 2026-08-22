@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Вы можете сканировать входящую и исходящую почту на вирусы. Если сканирование включено и обнаружен вирус, сообщение будет отклонено и возвращено отправителю."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Вы можете включить или отключить веб-почту в этой системе. Веб-почта позволяет пользователям получить доступ к их почте с помощью обычного веб-браузера, указав в нём адрес https://[_1]/webmail и войдя под своёй учётной записью."
+msgstr "Вы можете включить или отключить веб-почту в этой системе. Веб-почта позволяет пользователям получить доступ к их почте с помощью обычного веб-браузера, указав в нём адрес https://%1/webmail и войдя под своёй учётной записью."
 
 msgid "mai_E-Mail"
 msgstr "Электронная почта"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Разрешить HTTPS (безопасно)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP с запросом клиента)"

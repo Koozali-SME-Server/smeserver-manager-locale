@@ -14,7 +14,7 @@ msgid "DELETE_ERROR"
 msgstr "(en) DELETE_ERROR"
 
 msgid "grp_ACCOUNT_CONFLICT"
-msgstr "Erro: o grupo \"[_1]\" não pode ser criado porque já existe a conta [_2] com esse nome."
+msgstr "Erro: o grupo \"%1\" não pode ser criado porque já existe a conta %2 com esse nome."
 
 msgid "grp_CREATED_GROUP"
 msgstr "Grupo de usuários criado com sucesso"
@@ -29,7 +29,7 @@ msgid "grp_DELETED_GROUP"
 msgstr "Grupo de usuários removido com sucesso"
 
 msgid "grp_DELETE_DESCRIPTION"
-msgstr " Voce está prestes a remover o grupo de usuários \"[_1]\" "
+msgstr " Voce está prestes a remover o grupo de usuários \"%1\" "
 
 msgid "grp_ERR_INTERNAL_FAILURE"
 msgstr "(en) Err internal failure"
@@ -50,7 +50,7 @@ msgid "grp_GROUP_NAMING"
 msgstr " Nome de grupo deve conter apenas letras minúsculas números, hifens, pontos ou sublinhados e também deve iniciar com letra minúscula. Por exemplo \"vendas\", \"beta5\", e \"parceiros_vendas\" são todos nomes de grupo válidos, mas \"3os-pagantes\", \"Time Escola\" and \"perdidos&achados\" não são. "
 
 msgid "grp_GROUP_TOO_LONG"
-msgstr "Erro: nome de grupo muito longo. O máximo é de [_1] caracteres."
+msgstr "Erro: nome de grupo muito longo. O máximo é de %1 caracteres."
 
 msgid "grp_IBAYS_WILL_BE_CHANGED"
 msgstr "Os seguintes compartilhamentos foram designados para este grupo e serão trocados para o grupo Administrador (e você poderá trocá-los para qualquer coisa diferente mais tarde):"

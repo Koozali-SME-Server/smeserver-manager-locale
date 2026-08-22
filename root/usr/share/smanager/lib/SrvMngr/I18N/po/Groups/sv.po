@@ -14,7 +14,7 @@ msgid "DELETE_ERROR"
 msgstr "(en) DELETE_ERROR"
 
 msgid "grp_ACCOUNT_CONFLICT"
-msgstr "Fel: gruppen \"[_1]\" kan inte skapas eftersom det redan finns ett [_2] konto med detta namn."
+msgstr "Fel: gruppen \"%1\" kan inte skapas eftersom det redan finns ett %2 konto med detta namn."
 
 msgid "grp_CREATED_GROUP"
 msgstr "Skapade en användargrupp"
@@ -29,7 +29,7 @@ msgid "grp_DELETED_GROUP"
 msgstr "Raderade användargrupp"
 
 msgid "grp_DELETE_DESCRIPTION"
-msgstr " Du är på väg att radera denna användargrupp \"[_1]\" "
+msgstr " Du är på väg att radera denna användargrupp \"%1\" "
 
 msgid "grp_ERR_INTERNAL_FAILURE"
 msgstr "(en) Err internal failure"
@@ -50,7 +50,7 @@ msgid "grp_GROUP_NAMING"
 msgstr " Gruppens namn får bara innehålla gemener, siffror, bindestreck, punkt, understreck och skall börja med en gemen. Exempelvis \"sales\", \"beta5\" och \"reseller_partners\" är alla tillåtna gruppnamn, ment \"3rd-event\", \"Marketing Team\" och \"lost&found\" är det inte. "
 
 msgid "grp_GROUP_TOO_LONG"
-msgstr "Fel: Gruppens namn är för långt. Maximal längd är [_1] tecken."
+msgstr "Fel: Gruppens namn är för långt. Maximal längd är %1 tecken."
 
 msgid "grp_IBAYS_WILL_BE_CHANGED"
 msgstr "Följande informations bay var tilldelad denna grupp och kommer att ändras till Administratörsgruppen (du kan ändra dessa till något annat efteråt):"

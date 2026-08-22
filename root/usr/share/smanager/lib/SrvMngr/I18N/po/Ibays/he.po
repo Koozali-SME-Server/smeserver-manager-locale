@@ -11,13 +11,13 @@ msgstr ""
 "Language: he\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "החשבון \"[_1]\" הוא חשבון [_2] קיים."
+msgstr "החשבון \"%1\" הוא חשבון %2 קיים."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " החשבון \"[_1]\" מתנגש עם תיאור השם הנרדף עבור [_2] חשבון \"[_3]\". [_1] הוא שם נרדף עבור [_3]. "
+msgstr " החשבון \"%1\" מתנגש עם תיאור השם הנרדף עבור %2 חשבון \"%3\". %1 הוא שם נרדף עבור %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "שם הi-bay \"[_1]\" מכיל סימנים לא חוקיים. שמות i-bay חייבים להתחיל באות קטנה ולהכיל אך ורק אותיות קטנות, מספרים ומקפים."
+msgstr "שם הi-bay \"%1\" מכיל סימנים לא חוקיים. שמות i-bay חייבים להתחיל באות קטנה ולהכיל אך ורק אותיות קטנות, מספרים ומקפים."
 
 msgid "iba_ADD_IBAY"
 msgstr "הוסף i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "החרגה של תוכן דינמי (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "לא ניתן ליצור חשבון חדש עבור [_1] (ייתכן שהוא כבר קיים ?)"
+msgstr "לא ניתן ליצור חשבון חדש עבור %1 (ייתכן שהוא כבר קיים ?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "לא ניתן למצוא חשבון עבור [_1] (האם הוא קיים ?)"
+msgstr "לא ניתן למצוא חשבון עבור %1 (האם הוא קיים ?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "כל האינטרנט (סיסמא לא נדרשת)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "רשתות מקומיות (דרושה סיסמא)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "שם הi-bay \"[_1]\"ארוך מדי. המקסימום הוא [_1] תווים."
+msgstr "שם הi-bay \"%1\"ארוך מדי. המקסימום הוא %1 תווים."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "שם מפרץ המידע צריך להכיל אך ורק אותיות קטנות, מספרים, נקודות, מקפים וקווים תחתיים וחייב להתחיל באות קטנה. למשל, \"johnson\", \"intar\" ו- \"cust3.prj12\" הינם כולם שמות חוקיים, אך \"3associates\", \"John Smith\" ו- \"Bus!Partner\" אינם. השם מוגבל עד ל[_1] תווים."
+msgstr "שם מפרץ המידע צריך להכיל אך ורק אותיות קטנות, מספרים, נקודות, מקפים וקווים תחתיים וחייב להתחיל באות קטנה. למשל, \"johnson\", \"intar\" ו- \"cust3.prj12\" הינם כולם שמות חוקיים, אך \"3associates\", \"John Smith\" ו- \"Bus!Partner\" אינם. השם מוגבל עד ל%1 תווים."
 
 msgid "iba_NAME_LABEL"
 msgstr "שם מפרץ מידע"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "אין כרגע i-bay מוגדר."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "את\\ה עומד\\ת לשנות את סיסמת i-bay [_1]."
+msgstr "את\\ה עומד\\ת לשנות את סיסמת i-bay %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "גישה פומבית דרך האינטרנט או דרך ftp אנונימי"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  אתה עומד להסיר את מפרץ המידע \"[_1]\" ([_2]). \n\n   כל הקבצים השייכים למרץ מידע זה ימחקו. \n\n   האם אתה בטוח שברצונך להסיר מפרץ מידע זה? \n\n  "
+msgstr "  אתה עומד להסיר את מפרץ המידע \"%1\" (%2). \n\n   כל הקבצים השייכים למרץ מידע זה ימחקו. \n\n   האם אתה בטוח שברצונך להסיר מפרץ מידע זה? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "הסרת מפרץ מידע"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "גישת משתמש דרך שיתוף קבצים או ftp של משתמש"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): [_1] "
+msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): %1 "
 
 msgid "iba_WARG"
 msgstr "כתיבה = admin, קריאה = group"

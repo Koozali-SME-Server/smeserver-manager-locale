@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Você pode escanear mensagens entrando ou saindo para vírus. Se o escaneio estiver habilitado e um vírus for detectado, o e-mail será rejeitado e devolvido ao remetente."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Você pode habilitar ou desabilitar o uso de webmail neste sistema. O Webmail permite seus usuários terem acesso a suas mensagens por meio de um navegador internet no endereço https://[_1]/webmail e fazendo login usando seus usuários e senhas."
+msgstr "Você pode habilitar ou desabilitar o uso de webmail neste sistema. O Webmail permite seus usuários terem acesso a suas mensagens por meio de um navegador internet no endereço https://%1/webmail e fazendo login usando seus usuários e senhas."
 
 msgid "mai_E-Mail"
 msgstr "E-mail"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Permite HTTPS (seguro)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP com requisição de cliente)"

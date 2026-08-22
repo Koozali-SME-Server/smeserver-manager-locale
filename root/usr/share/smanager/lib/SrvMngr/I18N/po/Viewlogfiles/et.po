@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr "(en)Error while specifying log file name.\n\n  <p>Invalid report type \"[_1]\".</p>"
+msgstr "(en)Error while specifying log file name.\n\n  <p>Invalid report type \"%1\".</p>"
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr "(en)You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile."
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Vaata logifaile"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Esiletõstetakse read, mis vastavad: \"[_1]\"."
+msgstr "Esiletõstetakse read, mis vastavad: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Logifail \"[_1]\" on tühi!"
+msgstr "Logifail \"%1\" on tühi!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Vali logifail mida vaadata"
 
 msgid "log_MATCH_HEADER"
-msgstr "Kuvatakse read, mis vastavad: \"[_1]\"."
+msgstr "Kuvatakse read, mis vastavad: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr "(en)You may also optionally specify a highlight pattern to mark in bold any lines from the log file which match the highlight pattern. The highlight pattern is applied to any lines which have already matched the filter pattern. Note that this option is not used if you download the logfile."
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Vaata logifaile"
 
 msgid "log_VIEWING_TIME"
-msgstr "Vaadatud [_1]."
+msgstr "Vaadatud %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "[_1] faili valmistatakse ette alladimiseks."
+#~ msgstr "%1 faili valmistatakse ette alladimiseks."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Logifaili valmistatakse allalaadimiseks. Allalaadimine hakkab kohe kui vajutad &quot;Rdasi&quot; nuppu ja jälgid oma brauseri juhiseid nõustumaks faili allalaadimisega.\n\n  "
 #~ msgid "log_View log files"

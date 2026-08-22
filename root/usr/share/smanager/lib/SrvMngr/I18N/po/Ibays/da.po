@@ -11,13 +11,13 @@ msgstr ""
 "Language: da\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "Kontoen \"[_1]\" er en eksisterende [_2] konto."
+msgstr "Kontoen \"%1\" er en eksisterende %2 konto."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " Kontoen \"[_1]\" er i konflikt med pseudonym detaljer for [_2] konto \"[_3]\". [_1] er pseudonym for [_3]. "
+msgstr " Kontoen \"%1\" er i konflikt med pseudonym detaljer for %2 konto \"%3\". %1 er pseudonym for %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "I-bay navnet \"[_1]\" indehold ulovlige tegn. I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal og bindestreger."
+msgstr "I-bay navnet \"%1\" indehold ulovlige tegn. I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal og bindestreger."
 
 msgid "iba_ADD_IBAY"
 msgstr "Tilføj i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Udfør dynamisk indhold (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Kan ikke oprette en ny konto for [_1] (eksisterer den i forvejen?)"
+msgstr "Kan ikke oprette en ny konto for %1 (eksisterer den i forvejen?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Kan ikke finde nogen konto for [_1] (eksisterer den?)"
+msgstr "Kan ikke finde nogen konto for %1 (eksisterer den?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Hele Internet (ingen adgangskode påkrævet)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Lokalt netværk (adgangskode påkrævet)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "I-bay navnet \"[_1]\" er for langt. maximum er [_1] tegn."
+msgstr "I-bay navnet \"%1\" er for langt. maximum er %1 tegn."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal, punktum, bindestreger og understregningskoder. Fx \"johnson\", \"intra\", and \"cust3.prj12\" er alle lovlige navne, mens \"3associates\", \"John Smith\" og \"Bus!Partner\" ikke er. Navnet er begrænset til [_1] anslag."
+msgstr "I-bay navne skal starte med et lille bogstav og må kun indeholde små bogstaver, tal, punktum, bindestreger og understregningskoder. Fx \"johnson\", \"intra\", and \"cust3.prj12\" er alle lovlige navne, mens \"3associates\", \"John Smith\" og \"Bus!Partner\" ikke er. Navnet er begrænset til %1 anslag."
 
 msgid "iba_NAME_LABEL"
 msgstr "I-bay navn"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Der er ikke opsat nogen i-bays."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Du er ved at ændre adgangskoden for i-bay [_1]."
+msgstr "Du er ved at ændre adgangskoden for i-bay %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Åben adgang via web eller annonym ftp"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Du er ved at fjerne I-bay \"[_1]\" ([_2]). \n\n   Alle filer i denne i-bay vil blive slettet. \n\n   Er du sikker på du ønsker at slette denne i-bay? \n\n  "
+msgstr "  Du er ved at fjerne I-bay \"%1\" (%2). \n\n   Alle filer i denne i-bay vil blive slettet. \n\n   Er du sikker på du ønsker at slette denne i-bay? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Fjern i-bay"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Tillad bruger adgang via fildeling eller ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " Følgende virtuelt domæne hentede sit indhold denne i-bay. Det vil blive ændret til at hente indholdet fra den primære webside. (Du kan ændre dette senere): [_1] "
+msgstr " Følgende virtuelt domæne hentede sit indhold denne i-bay. Det vil blive ændret til at hente indholdet fra den primære webside. (Du kan ændre dette senere): %1 "
 
 msgid "iba_WARG"
 msgstr "Skrive = admin, læse = gruppe"

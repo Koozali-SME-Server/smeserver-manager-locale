@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Du kan søke etter virus i inn og utgående e-post. hvis søk er slått på, og et virus blir funnet, vil e-posten bli avvist og returnert til avsenderen."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Du kan slå på eller av Nettbasert e-post på systemet. Nettbasert e-post gir brukerene tilgang til e-posten deres via en vanlig nettleser ved å gå til https://[_1]/webmail, og logge på kontoen deres."
+msgstr "Du kan slå på eller av Nettbasert e-post på systemet. Nettbasert e-post gir brukerene tilgang til e-posten deres via en vanlig nettleser ved å gå til https://%1/webmail, og logge på kontoen deres."
 
 msgid "mai_E-Mail"
 msgstr "E-post"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Tillat HTTPS(sikker)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP med klientforespørsel)"

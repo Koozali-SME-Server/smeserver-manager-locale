@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "הוסף דומיין"
 
 msgid "dom_CONTENT"
-msgstr "[_1] איי-ביי"
+msgstr "%1 איי-ביי"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "(en)For the web site, you may choose your primary web site or any i-bay as the content."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "שנה את הגדרות ה-DNS הארגוניות"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "(en)Error: unexpected or missing characters in domain description [_1]. Did not create new domain."
+msgstr "(en)Error: unexpected or missing characters in domain description %1. Did not create new domain."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "(en)Error: domain [_1] is already in use. Did not create new domain."
+msgstr "(en)Error: domain %1 is already in use. Did not create new domain."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Error: unexpected or missing characters in domain name [_1]. The domain name should contain one or more letters, numbers, periods and minus signs. Did not create new domain."
+msgstr "Error: unexpected or missing characters in domain name %1. The domain name should contain one or more letters, numbers, periods and minus signs. Did not create new domain."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "(en)Error: internal failure while removing domain [_1]."
+msgstr "(en)Error: internal failure while removing domain %1."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " When you create a domain, your server will be able to receive e-mail for that domain and will also be able to host a web site for that domain.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Add domain</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "שנה דומיין"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "(en)Error: [_1] is not an existing domain."
+msgstr "(en)Error: %1 is not an existing domain."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "אתר ראשי"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  You are about to remove the domain [_1] ([_2]). \n\n  <p> <b>Are you sure you wish to remove this domain?</b> </p>\n\n  "
+msgstr "  You are about to remove the domain %1 (%2). \n\n  <p> <b>Are you sure you wish to remove this domain?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "הסר דומיין"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Successfully created domain [_1]. Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
+msgstr "Successfully created domain %1. Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "(en)Successfully deleted domain [_1]. Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
+msgstr "(en)Successfully deleted domain %1. Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Successfully modified domain [_1]. Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
+msgstr "Successfully modified domain %1. Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "(en)Error: domain [_1] is your system domain name. You cannot have a domain with the same name. Did not create new domain."
+msgstr "(en)Error: domain %1 is your system domain name. You cannot have a domain with the same name. Did not create new domain."
 
 msgid "dom_corporate"
 msgstr "שרתי DNS ארגוניים"

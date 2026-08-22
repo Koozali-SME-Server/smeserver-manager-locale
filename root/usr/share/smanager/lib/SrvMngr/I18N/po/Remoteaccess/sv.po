@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr " Inställningar för säkert skalDu kan kontrollera åtkomsten via säkert skal till din server. Den publika inställningen bör endast tillåtas av erfarna administratörer för fjärrdiagnostik och för problemlösning. Vi rekommenderar att låta denna inställning vara \"Ingen åtkomst\" om du inte har ett speciellt skäl att göra annorlunda. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Telnet-inställningar Varning: Telnet är för tillfället tillåten, med denna möjlighet stöds inte längre. Telnet är osäker och skall endast användas i de fall då inga andra pratiska alternativ finns. Du bör ändra valet till [_1] och använda säkert skal om fjärråtkomst krävs. När den inte längre är tillåten, kommer telnet inte att synas på denna skärm. "
+msgstr " Telnet-inställningar Varning: Telnet är för tillfället tillåten, med denna möjlighet stöds inte längre. Telnet är osäker och skall endast användas i de fall då inga andra pratiska alternativ finns. Du bör ändra valet till %1 och använda säkert skal om fjärråtkomst krävs. När den inte längre är tillåten, kommer telnet inte att synas på denna skärm. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "För att lägga till en nytt nätverk för fjärrhantering, ange värden nedan."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Telnet-inställningar"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] Det är möjligt att tillåta värdar på fjärrnätverk att komma åt serverhanteraren genom att ange de specifika nätverken här. Använd en subnätmask av formen 255.255.255.255 för att begränsa åtkomsten för en specik värd. Alla värdar inom det angivna intervallet kommer att få åtkomst till serverhanteraren genom att använda HTTPS. "
+msgstr " %1 Det är möjligt att tillåta värdar på fjärrnätverk att komma åt serverhanteraren genom att ange de specifika nätverken här. Använd en subnätmask av formen 255.255.255.255 för att begränsa åtkomsten för en specik värd. Alla värdar inom det angivna intervallet kommer att få åtkomst till serverhanteraren genom att använda HTTPS. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

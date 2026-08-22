@@ -47,13 +47,13 @@ msgid "ln_LOCAL_NETWORK_NONE"
 msgstr "(en) No Local networks found"
 
 msgid "ln_NETWORK_ALREADY_ADDED"
-msgstr "Fel: Nätverk [_1] (tagen ur nätverk [_2] och subnätmask [_3]) har redan lagts till. Nätverk lades inte till."
+msgstr "Fel: Nätverk %1 (tagen ur nätverk %2 och subnätmask %3) har redan lagts till. Nätverk lades inte till."
 
 msgid "ln_NETWORK_ALREADY_LOCAL"
-msgstr "Fel: Nätverk [_1] (tagen ur nätverk [_2] och subnätmask [_3]) anses redan vara lokal. Nätverket lades inte till."
+msgstr "Fel: Nätverk %1 (tagen ur nätverk %2 och subnätmask %3) anses redan vara lokal. Nätverket lades inte till."
 
 msgid "ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK"
-msgstr "Fel: router-adressen [_1] är inte tillgänglig på det lokala nätverket. Nätverket lades inte till."
+msgstr "Fel: router-adressen %1 är inte tillgänglig på det lokala nätverket. Nätverket lades inte till."
 
 msgid "ln_NO_SUCH_NETWORK"
 msgstr "(en)Network not found in network db"
@@ -77,13 +77,13 @@ msgid "ln_SUBNET_MASK"
 msgstr "Subnätmask"
 
 msgid "ln_SUCCESS_NETWORK_RANGE"
-msgstr "Lagt till nätverket [_1]/[_2] via router [_3]. Din server tillåter lokala åtkomstprivilegier till [_4] IP-adresser inom intervallet [_5] till [_6]."
+msgstr "Lagt till nätverket %1/%2 via router %3. Din server tillåter lokala åtkomstprivilegier till %4 IP-adresser inom intervallet %5 till %6."
 
 msgid "ln_SUCCESS_NONSTANDARD_RANGE"
-msgstr "  Lagt till nätverk [_1]/[_2] via router [_3]. \n\n  <p> Din server tillåter lokala åtkomstprivilegier till [_1] IP-adresser inom intervallet [_2] till [_3]. </p>\n\n  <p> Varning: ProFTPd FTP-server kan inte hantera denna icke standardiserade nätverksmask. Den enklare specifikationen <b>[_1]</b> kommer att användas istället. </p>\n\n  "
+msgstr "  Lagt till nätverk %1/%2 via router %3. \n\n  <p> Din server tillåter lokala åtkomstprivilegier till %1 IP-adresser inom intervallet %2 till %3. </p>\n\n  <p> Varning: ProFTPd FTP-server kan inte hantera denna icke standardiserade nätverksmask. Den enklare specifikationen <b>%1</b> kommer att användas istället. </p>\n\n  "
 
 msgid "ln_SUCCESS_REMOVED_NETWORK"
-msgstr "Radera nätverk [_1]/[_2] via router [_3]."
+msgstr "Radera nätverk %1/%2 via router %3."
 
 msgid "ln_SUCCESS_SINGLE_ADDRESS"
-msgstr "Lagt till nätverket [_1]/[_2] via router [_3]. Din server tillåter lokala åtkomstprivilegier till den enstaka nätverksadressen [_4]."
+msgstr "Lagt till nätverket %1/%2 via router %3. Din server tillåter lokala åtkomstprivilegier till den enstaka nätverksadressen %4."

@@ -14,7 +14,7 @@ msgid "DELETE_ERROR"
 msgstr "(en) DELETE_ERROR"
 
 msgid "grp_ACCOUNT_CONFLICT"
-msgstr "Hiba: A \"[_1]\" nevű csoport nem hozható létre, mert már van egy ilyen nevű [_2] fiók."
+msgstr "Hiba: A \"%1\" nevű csoport nem hozható létre, mert már van egy ilyen nevű %2 fiók."
 
 msgid "grp_CREATED_GROUP"
 msgstr "Felhasználói csoport sikeresen létrehozva"
@@ -29,7 +29,7 @@ msgid "grp_DELETED_GROUP"
 msgstr "Felhasználói csoport sikeresen törölve"
 
 msgid "grp_DELETE_DESCRIPTION"
-msgstr " Most készül eltávolítani a(z) \"[_1]\" felhasználói csoportot"
+msgstr " Most készül eltávolítani a(z) \"%1\" felhasználói csoportot"
 
 msgid "grp_ERR_INTERNAL_FAILURE"
 msgstr "(en) Err internal failure"
@@ -50,7 +50,7 @@ msgid "grp_GROUP_NAMING"
 msgstr " A csoportnév csak kisbetűket, számokat, elválasztójeleket, pontokat és aláhúzásokat tartalmazhat és csak kisbetűvel kezdődhet. Például a \"titkarsag\", \"reszleg5\", és \"gyarto_uzem\" érvényes csoportnevek, de a \"hr-iroda\", \"Marketing Team\" és a \"lost&found\" nem. "
 
 msgid "grp_GROUP_TOO_LONG"
-msgstr "Hiba: a csoport neve túl hosszú. Legfeljebb [_1] karakter hosszúságú lehet."
+msgstr "Hiba: a csoport neve túl hosszú. Legfeljebb %1 karakter hosszúságú lehet."
 
 msgid "grp_IBAYS_WILL_BE_CHANGED"
 msgstr "A következő adattárak hozzá lettek rendelve ehhez a csoporthoz és az Administrator csoporthoz (késöbb ez megváltoztatható):"

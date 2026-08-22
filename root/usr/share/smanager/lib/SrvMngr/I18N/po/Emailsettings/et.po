@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Sa võid kontrollida sisse- ja väljaminevaid kirju kontrollida viiruste suhtes. Kui kontroll on lubatud ja viirus leitakse, siis saadetakse kiri tagasi saatjale."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Sa võid keelata või lubada webmaili serveris. Webmail lubab kasutajatel juurdepääsu oma e-mailidele ükskõik millise brauseriga sisestades aadressi https://[_1]/webmail, ning kasutades autentimiseks oma konto andmeid."
+msgstr "Sa võid keelata või lubada webmaili serveris. Webmail lubab kasutajatel juurdepääsu oma e-mailidele ükskõik millise brauseriga sisestades aadressi https://%1/webmail, ning kasutades autentimiseks oma konto andmeid."
 
 msgid "mai_E-Mail"
 msgstr "E-post"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Luba HTTPS (turvatud)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP kliendipäringuga)"

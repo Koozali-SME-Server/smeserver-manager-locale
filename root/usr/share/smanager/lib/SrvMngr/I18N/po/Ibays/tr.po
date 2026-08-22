@@ -11,13 +11,13 @@ msgstr ""
 "Language: tr\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "[_1]\" hesabı [_2] hesabıyla çeşidindedir."
+msgstr "%1\" hesabı %2 hesabıyla çeşidindedir."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " \"[_1]\" hesabı, [_2] hesap çeşidi \"[_3]\" takma adıyla çakışıyor . [_1], [_3] nın takma adıdır. "
+msgstr " \"%1\" hesabı, %2 hesap çeşidi \"%3\" takma adıyla çakışıyor . %1, %3 nın takma adıdır. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "i-bay adı \"[_1]\" geçersiz karakter içeriyor. i-bay isimleri küçük harf veya rakalma başlamalı ve küçük harf, rakam ve nokta içerebilir."
+msgstr "i-bay adı \"%1\" geçersiz karakter içeriyor. i-bay isimleri küçük harf veya rakalma başlamalı ve küçük harf, rakam ve nokta içerebilir."
 
 msgid "iba_ADD_IBAY"
 msgstr "i-bay ekle"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Dinamik içerik yürütmesi (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "[_1] hesabı oluşturulamadı (mevcut olabilir)"
+msgstr "%1 hesabı oluşturulamadı (mevcut olabilir)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "[_1] hesabı bulunamadı (mevcut mu kontrol edin)"
+msgstr "%1 hesabı bulunamadı (mevcut mu kontrol edin)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Bütün internet (şifre grekmez)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Yerel ağ (şifre grekir)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "i-bay adı \"[_1]\" çok uzun. En fazla [_1] karakterden oluşmalıdır."
+msgstr "i-bay adı \"%1\" çok uzun. En fazla %1 karakterden oluşmalıdır."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "i-bay adı sadece küçük harfer, rakamlar, tire altçizgi ve nokta içermelidir, sadece üçük harfle başlamalıdır. Örneğin \"johnson\", \"intra\" ve \"cust3.prj12\" geçerli, fakat \"3associates\", \"John Smith\" and \"Bus!Partner\" geçersizdir. İsimler en fazla [_1] karakterden oluşmaktadır."
+msgstr "i-bay adı sadece küçük harfer, rakamlar, tire altçizgi ve nokta içermelidir, sadece üçük harfle başlamalıdır. Örneğin \"johnson\", \"intra\" ve \"cust3.prj12\" geçerli, fakat \"3associates\", \"John Smith\" and \"Bus!Partner\" geçersizdir. İsimler en fazla %1 karakterden oluşmaktadır."
 
 msgid "iba_NAME_LABEL"
 msgstr "i-bay (bilgi yuvası) adı"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Yapılandırılmış i-bay yok."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "[_1] isimli i-bay şifresi başarıyla değiştirildi."
+msgstr "%1 isimli i-bay şifresi başarıyla değiştirildi."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "web veya anonim ftp yoluyla kamu erişimi"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  \"[_1]\" ([_2]) isimli i-bay kaldırılacak. \n\n   bu i-baydaki bütün bilgiler silinecektir. \n\n   Bu i-bay'ı silmek istediğinizden eminmisiniz? \n\n  "
+msgstr "  \"%1\" (%2) isimli i-bay kaldırılacak. \n\n   bu i-baydaki bütün bilgiler silinecektir. \n\n   Bu i-bay'ı silmek istediğinizden eminmisiniz? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "i-bay kaldır"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Kullanıcı, erişim dosya paylaşımı veya ftp üzerinden yapılabilir"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " Aşaığdaki alan adları bu i-bay'ı kullanmaktadır ve içeriği birincil i-bay'a taşınacaktır (daha sonra bunları değiştirebilirsiniz): [_1] "
+msgstr " Aşaığdaki alan adları bu i-bay'ı kullanmaktadır ve içeriği birincil i-bay'a taşınacaktır (daha sonra bunları değiştirebilirsiniz): %1 "
 
 msgid "iba_WARG"
 msgstr "Yazma = admin, Okuma = grup"

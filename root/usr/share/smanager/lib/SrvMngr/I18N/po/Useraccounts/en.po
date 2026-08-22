@@ -23,16 +23,16 @@ msgid "Webmail"
 msgstr "Webmail"
 
 msgid "usr_ACCOUNT_CONFLICT"
-msgstr "Error: the account \"[_1]\" can't be created because there is already a [_1] account of that name."
+msgstr "Error: the account \"%1\" can't be created because there is already a %1 account of that name."
 
 msgid "usr_ACCOUNT_NAME"
 msgstr "Account name"
 
 msgid "usr_ACCOUNT_TOO_LONG"
-msgstr "Error: account name is too long. The maximum is [_1] characters."
+msgstr "Error: account name is too long. The maximum is %1 characters."
 
 msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "The account name \"[_1]\" contains invalid characters. Account names must start with a lower case letter and contain only lower case letters, numbers, hyphens, periods and underscores."
+msgstr "The account name \"%1\" contains invalid characters. Account names must start with a lower case letter and contain only lower case letters, numbers, hyphens, periods and underscores."
 
 msgid "usr_ADD_USER"
 msgstr "Add user account"
@@ -41,10 +41,10 @@ msgid "usr_CANNOT_CONTAIN_WHITESPACE"
 msgstr "This field cannot contain white-space"
 
 msgid "usr_CANNOT_MODIFY_USER"
-msgstr "Error: an internal error occurred while attempting to modify the user \"[_1]\"."
+msgstr "Error: an internal error occurred while attempting to modify the user \"%1\"."
 
 msgid "usr_CANNOT_MODIFY_USER_GROUPS"
-msgstr "Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+msgstr "Error: an internal error occurred while attempting to modify the group \"%1\" for user \"%2\"."
 
 msgid "usr_CITY"
 msgstr "City"
@@ -101,7 +101,7 @@ msgid "usr_GROUP_MEMBERSHIPS"
 msgstr "Group memberships"
 
 msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
-msgstr "The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+msgstr "The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters and must pass a dictionary check."
 
 msgid "usr_LABEL_IPSECRW_DOWNLOAD"
 msgstr "Download digital certificate to IPSec client"
@@ -113,7 +113,7 @@ msgid "usr_LOCK"
 msgstr "Lock"
 
 msgid "usr_LOCKED_ACCOUNT"
-msgstr "Successfully locked account for user \"[_1]\"."
+msgstr "Successfully locked account for user \"%1\"."
 
 msgid "usr_LOCK_ACCOUNT"
 msgstr "Lock account"
@@ -122,7 +122,7 @@ msgid "usr_LOCK_ACCOUNT_TITLE"
 msgstr "Lock user account"
 
 msgid "usr_LOCK_DESC"
-msgstr "You are about to lock the user account \"[_1]\" ([_2])"
+msgstr "You are about to lock the user account \"%1\" (%2)"
 
 msgid "usr_LOCK_DESC2"
 msgstr "This user account will be locked. This means that this user will not be able to log in, and will not be able to collect e-mail. Any e-mail arriving will still be stored and/or forwarded to an external e-mail address, as configured. The account may be activated in the future by setting a new password. The current password will not be retained.<b>Are you sure you wish to lock this account?</b>"
@@ -143,13 +143,13 @@ msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
 msgstr "New system password (verify)"
 
 msgid "usr_NONE_PASSWORD_DESCRIPTION"
-msgstr "The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+msgstr "The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters."
 
 msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
-msgstr "The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+msgstr "The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters."
 
 msgid "usr_NO_SUCH_USER"
-msgstr "Error: the user account \"[_1]\" does not exist."
+msgstr "Error: the user account \"%1\" does not exist."
 
 msgid "usr_NO_USER_ACCOUNTS"
 msgstr "There are no user accounts on this system."
@@ -158,7 +158,7 @@ msgid "usr_P2_TITLE"
 msgstr "Create or modify"
 
 msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
-msgstr "Successfully changed password for user \"[_1]\"."
+msgstr "Successfully changed password for user \"%1\"."
 
 msgid "usr_PASSWORD_WIKI"
 msgstr "If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
@@ -167,19 +167,19 @@ msgid "usr_PHONE_NUMBER"
 msgstr "Phone number"
 
 msgid "usr_PSEUDONYM_CLASH"
-msgstr "Error: the pseudonym \"[_3]\" is already taken by the existing user account \"[_2]\".To differentiate, add initials to this field."
+msgstr "Error: the pseudonym \"%3\" is already taken by the existing user account \"%2\".To differentiate, add initials to this field."
 
 msgid "usr_REMOVE_ACCOUNT_TITLE"
 msgstr "Remove user account"
 
 msgid "usr_REMOVE_DESC"
-msgstr "You are about to remove the user account \"[_1]\" ([_2])"
+msgstr "You are about to remove the user account \"%1\" (%2)"
 
 msgid "usr_REMOVE_DESC2"
 msgstr "All files belonging to this user account will be deleted. Also, any e-mail for this user account still remaining on the server (i.e. that has not yet been retrieved by the user) will be discarded. <b>Are you sure you wish to remove this account?</b>"
 
 msgid "usr_RESET_DESC"
-msgstr "You are about to change the password for the user account \"[_1]\" ([_2])"
+msgstr "You are about to change the password for the user account \"%1\" (%2)"
 
 msgid "usr_RESET_DESC2"
 msgstr "Enter the new password in the fields below"
@@ -188,7 +188,7 @@ msgid "usr_STREET_ADDRESS"
 msgstr "Street address"
 
 msgid "usr_STRONG_PASSWORD_DESCRIPTION"
-msgstr "The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+msgstr "The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
 
 msgid "usr_SUCCESSFULLY_DELETED_USER"
 msgstr "Successfully deleted user"
@@ -215,7 +215,7 @@ msgid "usr_TAINTED_PASSWORD"
 msgstr "The new password starts with invalid characters."
 
 msgid "usr_TAINTED_USER"
-msgstr "The account name \"[_1]\" contains invalid characters."
+msgstr "The account name \"%1\" contains invalid characters."
 
 msgid "usr_UNACCEPTABLE_CHARS"
 msgstr "This field must contain only letters, numbers, dots, hypens and underscores and start with a letter"

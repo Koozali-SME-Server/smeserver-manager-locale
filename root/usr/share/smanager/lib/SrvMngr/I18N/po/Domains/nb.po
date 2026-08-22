@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Legg til domene"
 
 msgid "dom_CONTENT"
-msgstr "[_1] i-bay"
+msgstr "%1 i-bay"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "For webstedet kan du velge å bruke hovedsiden eller en annen i-bay som innehold."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Endre bedriftens DNS-innstillinger"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Feil: uventede eller manglene tegn i domenebeskrivelsen [_1]. Domenet erikke opprettet."
+msgstr "Feil: uventede eller manglene tegn i domenebeskrivelsen %1. Domenet erikke opprettet."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Feil: domenet [_1] er allerede i bruk. Domenet er ikke opprettet."
+msgstr "Feil: domenet %1 er allerede i bruk. Domenet er ikke opprettet."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Feil: uventede eller manglende tegn i domenenavnet [_1]. Domenenavnet skal inneholde en eller flere bokstaver, tall, punktum, og minustegn. Domenet er ikke opprettet."
+msgstr "Feil: uventede eller manglende tegn i domenenavnet %1. Domenenavnet skal inneholde en eller flere bokstaver, tall, punktum, og minustegn. Domenet er ikke opprettet."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Feil: Intern feil ved forsøk på å fjerne domenet [_1]."
+msgstr "Feil: Intern feil ved forsøk på å fjerne domenet %1."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Når du oppretter et domene, vil serveren din kunne motta e-post for det domene og vil også kunne vise en webside for domenet.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Legg til domene</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Endre domene"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Feil: [_1] eksisterer ikke."
+msgstr "Feil: %1 eksisterer ikke."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "Hoved side"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  Du holder på å fjerne domenet [_1] ([_2]). \n\n  <p> <b>Er du sikker på at du vil fjerne dette domenet?</b> </p>\n\n  "
+msgstr "  Du holder på å fjerne domenet %1 (%2). \n\n  <p> <b>Er du sikker på at du vil fjerne dette domenet?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Fjerne domene"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Domenet [_1] er opprettet. Webserveren blir nå restartet. Linkene på denne siden er inaktive inntil webserverens restart er fullført"
+msgstr "Domenet %1 er opprettet. Webserveren blir nå restartet. Linkene på denne siden er inaktive inntil webserverens restart er fullført"
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Domenet [_1] er slettet.Webserverne restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig."
+msgstr "Domenet %1 er slettet.Webserverne restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Domenet [_1] er oppdatert. Web serveren restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig."
+msgstr "Domenet %1 er oppdatert. Web serveren restarter nå. Linkene på denne siden vil være inaktive inntil web serverens restart er ferdig."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Feil: domenet [_1] er systemets domenenavn. Du kan ikke ha et domene med det samme navnet. Domenet er ikke opprettet."
+msgstr "Feil: domenet %1 er systemets domenenavn. Du kan ikke ha et domene med det samme navnet. Domenet er ikke opprettet."
 
 msgid "dom_corporate"
 msgstr "Felles DNS servere"

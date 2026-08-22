@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Feil ved spesifisering av loggfilnavnet.\n\n  <p>Ugyldig rapport type \"[_1]\".</p>\n\n  "
+msgstr " Feil ved spesifisering av loggfilnavnet.\n\n  <p>Ugyldig rapport type \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Du kan velge å spesifisere et filtrengings mønster, som gjør at bare linjer fra loggfilen vises som stemmer med filteret. Hvis du lar dette feltet stå tomt, vil alle linjene vises. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Vis loggfiler"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Viser linjer som stemmer med: \"[_1]\"."
+msgstr "Viser linjer som stemmer med: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Loggfilen \"[_1]\" er tom!"
+msgstr "Loggfilen \"%1\" er tom!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Velg en loggfil å vise"
 
 msgid "log_MATCH_HEADER"
-msgstr "Viser linjer som stemmer med: \"[_1]\"."
+msgstr "Viser linjer som stemmer med: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Du kan velge å merke ut et mønster med fet skrift, som gjør at alle linjer merkes med fet skrift dersom linjene stemmer med filtrerings mønsteret. fet skrift mønsteret påføres en hver linje som allerede stemmer med mønsteret. Merk at denne muligheten ikke brukes dersom du laster ned loggfilen.\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Vis loggfil"
 
 msgid "log_VIEWING_TIME"
-msgstr "Vist[_1]."
+msgstr "Vist%1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Forbereder å laste ned loggfilen [_1]."
+#~ msgstr "Forbereder å laste ned loggfilen %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Din loggfil nedlasting blir forberedt. Det vil fortsette så snart du klikker på &quot;Neste&quot; knappen nedenfor, og gi nettleseren din beskjed om å godta nedlastingen via pop-up vinduet som vil komme.\n\n  "
 #~ msgid "log_View log files"

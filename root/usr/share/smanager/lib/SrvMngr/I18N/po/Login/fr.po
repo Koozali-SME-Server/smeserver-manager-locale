@@ -26,7 +26,7 @@ msgid "use_FORGOT"
 msgstr "Mot de passe oublié ?"
 
 msgid "use_GO_TO_URL"
-msgstr "Réinitialiser le mot de passe  Cliquer sur le lien suivant pour réinitialiser votre mot de passe. Si vous n'avez pas demandé cette réinitialisation de mot de passe, vous pouvez ignorer ce courriel.  [_1]"
+msgstr "Réinitialiser le mot de passe  Cliquer sur le lien suivant pour réinitialiser votre mot de passe. Si vous n'avez pas demandé cette réinitialisation de mot de passe, vous pouvez ignorer ce courriel.  %1"
 
 msgid "use_INVALID_DATA"
 msgstr "Données entrées invalides. Essayez à nouveau."

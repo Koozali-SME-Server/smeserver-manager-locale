@@ -41,7 +41,7 @@ msgid "bac_BACKUP_CONFIG_STATUS"
 msgstr "Backup configuration and status"
 
 msgid "bac_BACKUP_DESC_DAR"
-msgstr "<P>Three ways are provided to back up and restore your \nserver: using a tape drive, using a network share or a local \nremovable disk, or using your local desktop.</P>\n<P>Tape Backup. This method uses a software package called <I>[_1]</I>\nto back up your entire hard disk to tape every night. This requires a\nsupported tape drive and a tape that is not write-protected. The backup\nis performed automatically at the selected time every night (with a\nreminder automatically e-mailed to the administrator during the day).\nCurrently your hard disk contains <b>[_2]</b> of data.</P>\n<P>Workstation backup. This method uses a software package called <I>dar</I>\nto back up your server configuration and data files to a network share \nor a local removable disk such as a USB disk. \nYou can manage how many rotating sets of backups are kept,\nand how many incremental backups to have in each set. \nThe backup is performed automatically at the selected time every day. Currently \nconfiguration and data files total approximately <b>[_3]</b> uncompressed.\nTwice the compressed data size must be available on the backup share.</P>\n<P>Backup to Desktop. This method creates a copy of your server \nconfiguration and user data files, and downloads it to your \nlocal desktop via your web browser.\nCurrently your configuration and data files total approximately\n<b>[_3]</b>. The backup file will be somewhat less than this,\ndepending on how much the data can be compressed. \nThis file can be used to restore the server from the console if you H\ncopy it to a local removable disk such as a USB disk.</P>\n<P>All backup methods allow you to restore your configuration and user\ndata files. Workstation backup provides individual file restore. <b>Ideally, \nfull restore should be performed on a freshly installed server</b>.</P>"
+msgstr "<P>Three ways are provided to back up and restore your \nserver: using a tape drive, using a network share or a local \nremovable disk, or using your local desktop.</P>\n<P>Tape Backup. This method uses a software package called <I>%1</I>\nto back up your entire hard disk to tape every night. This requires a\nsupported tape drive and a tape that is not write-protected. The backup\nis performed automatically at the selected time every night (with a\nreminder automatically e-mailed to the administrator during the day).\nCurrently your hard disk contains <b>%2</b> of data.</P>\n<P>Workstation backup. This method uses a software package called <I>dar</I>\nto back up your server configuration and data files to a network share \nor a local removable disk such as a USB disk. \nYou can manage how many rotating sets of backups are kept,\nand how many incremental backups to have in each set. \nThe backup is performed automatically at the selected time every day. Currently \nconfiguration and data files total approximately <b>%3</b> uncompressed.\nTwice the compressed data size must be available on the backup share.</P>\n<P>Backup to Desktop. This method creates a copy of your server \nconfiguration and user data files, and downloads it to your \nlocal desktop via your web browser.\nCurrently your configuration and data files total approximately\n<b>%3</b>. The backup file will be somewhat less than this,\ndepending on how much the data can be compressed. \nThis file can be used to restore the server from the console if you H\ncopy it to a local removable disk such as a USB disk.</P>\n<P>All backup methods allow you to restore your configuration and user\ndata files. Workstation backup provides individual file restore. <b>Ideally, \nfull restore should be performed on a freshly installed server</b>.</P>"
 
 msgid "bac_BACKUP_DESKTOP_TOO_BIG"
 msgstr "Your server has too much data for a reliable backup to desktop."
@@ -248,7 +248,7 @@ msgid "bac_FINISHED_AT"
 msgstr "and finished at: "
 
 msgid "bac_FREE_SPACE"
-msgstr "You have approximately [_1] free space on the server.\nCheck that desktop backup file is less than [_2] before\ncommencing the restore."
+msgstr "You have approximately %1 free space on the server.\nCheck that desktop backup file is less than %2 before\ncommencing the restore."
 
 msgid "bac_FULL_ONLY_ON"
 msgstr "Full backup is allowed on"
@@ -299,7 +299,7 @@ msgid "bac_OPERATION_STATUS_REPORT"
 msgstr "Operation status report"
 
 msgid "bac_PAGE_REFRESH_IN"
-msgstr "This page will refresh to the status display in [_1] seconds, or\nclick <a href=\"/server-manager/cgi-bin/backup\">here</a>."
+msgstr "This page will refresh to the status display in %1 seconds, or\nclick <a href=\"/server-manager/cgi-bin/backup\">here</a>."
 
 msgid "bac_PASSWORD"
 msgstr "Password is "

@@ -26,7 +26,7 @@ msgid "use_FORGOT"
 msgstr "Forgot password ?"
 
 msgid "use_GO_TO_URL"
-msgstr "Password reset\n\nClick the following link to reset your password. If you have not requested the password reset, then ignore this email.\n\n[_1]"
+msgstr "Password reset\n\nClick the following link to reset your password. If you have not requested the password reset, then ignore this email.\n\n%1"
 
 msgid "use_INVALID_DATA"
 msgstr "Invalid input data, Try again"

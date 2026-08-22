@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "您可以扫描入站和出站的邮件，如果启用了病毒扫描并且检测到了病毒，邮件将会被绝收并返回给发送者。"
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "您可以启用或禁用webmail。webmail允许用户使用标准浏览器访问他们的邮件，地址为https://[_1]/webmail，然后使用帐户登陆。"
+msgstr "您可以启用或禁用webmail。webmail允许用户使用标准浏览器访问他们的邮件，地址为https://%1/webmail，然后使用帐户登陆。"
 
 msgid "mai_E-Mail"
 msgstr "电子邮件"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "允许https（加密的http）"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN（带客户端请求的 SMTP）"

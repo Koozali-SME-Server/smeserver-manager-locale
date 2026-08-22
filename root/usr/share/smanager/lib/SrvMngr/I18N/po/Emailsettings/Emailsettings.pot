@@ -113,7 +113,7 @@ msgstr ""
 msgid "mai_DESC_VIRUS_SCAN"
 msgstr ""
 
-#. You can enable or disable webmail on this system. Webmail allows\nusers to access their mail through a regular web browser by\npointing the browser to https://[_1]/webmail,and \n logging in to their account.
+#. You can enable or disable webmail on this system. Webmail allows\nusers to access their mail through a regular web browser by\npointing the browser to https://%1/webmail,and \n logging in to their account.
 msgid "mai_DESC_WEBMAIL"
 msgstr ""
 
@@ -125,7 +125,7 @@ msgstr ""
 msgid "mai_ENABLED_SECURE_ONLY"
 msgstr ""
 
-#. System call to email-update returned a failure ([_1])
+#. System call to email-update returned a failure (%1)
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
 msgstr ""
 

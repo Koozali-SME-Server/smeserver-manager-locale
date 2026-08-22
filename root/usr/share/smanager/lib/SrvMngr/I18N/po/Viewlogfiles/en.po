@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr "Error while specifying log file name.\n<p>Invalid report type \"[_1]\".</p>"
+msgstr "Error while specifying log file name.\n<p>Invalid report type \"%1\".</p>"
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr "You may optionally specify a filter pattern to display only the\nlines from the log file which match this pattern. If you leave\nthis field blank, all available lines of the log file will be\ndisplayed. Note that this option is not used if you download the\nlogfile."
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "View log files"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Highlighting lines matching: \"[_1]\"."
+msgstr "Highlighting lines matching: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Log file \"[_1]\" is empty!"
+msgstr "Log file \"%1\" is empty!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Choose a log file to view"
 
 msgid "log_MATCH_HEADER"
-msgstr "Displaying lines matching: \"[_1]\"."
+msgstr "Displaying lines matching: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr "You may also optionally specify a highlight pattern to be highlighted in the log file. The\nhighlight pattern is applied to any lines which have already\nmatched the filter pattern. Note that this option is not used if\nyou download the logfile."
@@ -74,4 +74,4 @@ msgid "log_VIEW"
 msgstr "View log file"
 
 msgid "log_VIEWING_TIME"
-msgstr "Viewed at [_1]."
+msgstr "Viewed at %1."

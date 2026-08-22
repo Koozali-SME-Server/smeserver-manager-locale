@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr "(en)Error while specifying log file name.\n\n  <p>Invalid report type \"[_1]\".</p>"
+msgstr "(en)Error while specifying log file name.\n\n  <p>Invalid report type \"%1\".</p>"
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr "(en)You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile."
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "ログファイルを表示"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "「[_1]」に一致する行をハイライトしています。"
+msgstr "「%1」に一致する行をハイライトしています。"
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "ログファイル「[_1]」は空です！"
+msgstr "ログファイル「%1」は空です！"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "(en)Choose a log file to view"
 
 msgid "log_MATCH_HEADER"
-msgstr "次に一致する行を表示しています: \"[_1]\""
+msgstr "次に一致する行を表示しています: \"%1\""
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr "(en)You may also optionally specify a highlight pattern to mark in bold any lines from the log file which match the highlight pattern. The highlight pattern is applied to any lines which have already matched the filter pattern. Note that this option is not used if you download the logfile."
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "ログファイルを表示"
 
 msgid "log_VIEWING_TIME"
-msgstr "[_1] で表示しました。"
+msgstr "%1 で表示しました。"
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "(en)Preparing to download the logfile [_1]."
+#~ msgstr "(en)Preparing to download the logfile %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr "(en)Your logfile download is now prepared. It will proceed as soon as you click on the &quot;Next&quot; button below, and instruct your browser to accept the download via the pop-up window that will appear."
 #~ msgid "log_View log files"

@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Ändra företagets DNS-inställningar"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Fel: Ogiltigt eller saknat tecken i domänbeskrivningen [_1]. Skapade inte en ny domän."
+msgstr "Fel: Ogiltigt eller saknat tecken i domänbeskrivningen %1. Skapade inte en ny domän."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Fel: Domänen [_1] används redan. Skapade inte en ny domän."
+msgstr "Fel: Domänen %1 används redan. Skapade inte en ny domän."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Fel: Ogiltigt eller saknat tecken i domännamnet [_1]. Domännamnet måste innehålla en eller flera bokstäver, siffror, punkter eller minustecken. Skapade inte en ny domän."
+msgstr "Fel: Ogiltigt eller saknat tecken i domännamnet %1. Domännamnet måste innehålla en eller flera bokstäver, siffror, punkter eller minustecken. Skapade inte en ny domän."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Fel: internt fel vid radering av den domänen [_1]."
+msgstr "Fel: internt fel vid radering av den domänen %1."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " När du skapar en domän kommer din server att kunna ta emot e-post för denna domän men också kunna vara värd för en webbplats för denna domän.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Lägg till domän</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Ändra domän"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Fel: [_1] är inte en existerande domän."
+msgstr "Fel: %1 är inte en existerande domän."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "primär plats"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  Du håller på att radera den domänen [_1] ([_2]). \n\n  <p> <b>Är du säker på att du vill ta bort denna domän?</b> </p>\n\n  "
+msgstr "  Du håller på att radera den domänen %1 (%2). \n\n  <p> <b>Är du säker på att du vill ta bort denna domän?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Radera domän"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Skapat den nya domänen [_1]. Din webb-server startas nu om. Länkarna på denna sida kommer att vara inaktiva tills dess att webb-serverns omstart är klar."
+msgstr "Skapat den nya domänen %1. Din webb-server startas nu om. Länkarna på denna sida kommer att vara inaktiva tills dess att webb-serverns omstart är klar."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Domänen [_1] är raderad. Din webbserver startas nu om. Länkarna på denna sida är inaktiva tills webbserverns omstart är klar."
+msgstr "Domänen %1 är raderad. Din webbserver startas nu om. Länkarna på denna sida är inaktiva tills webbserverns omstart är klar."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Domänen ändrad [_1]. Din webb-server startas nu om. Länkarna på denna sina är inaktiva tills webb-serverns omstart är klar."
+msgstr "Domänen ändrad %1. Din webb-server startas nu om. Länkarna på denna sina är inaktiva tills webb-serverns omstart är klar."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Fel: Domänen [_1] är ditt systems domännamn. Du kan inte ha en domän med samma namn. Skapade inte en ny domän."
+msgstr "Fel: Domänen %1 är ditt systems domännamn. Du kan inte ha en domän med samma namn. Skapade inte en ny domän."
 
 msgid "dom_corporate"
 msgstr "Företagets DNS-servrar"

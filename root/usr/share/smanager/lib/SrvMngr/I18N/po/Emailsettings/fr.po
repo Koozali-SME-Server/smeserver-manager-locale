@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Le système peut rechercher la présence de virus dans les courriels et soit rejeter soit mettre en quarantaine ceux qui sont infectés."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Vous pouvez activer ou désactiver l'accès à la messagerie par interface Web sur ce système. La messagerie Web permet aux utilisateurs d'accéder à leurs courriels à l'aide d'un navigateur Web standard. Pour cela, il leur suffit de taper l'adresse https://[_1]/webmail et de se connecter avec leurs paramètres de compte."
+msgstr "Vous pouvez activer ou désactiver l'accès à la messagerie par interface Web sur ce système. La messagerie Web permet aux utilisateurs d'accéder à leurs courriels à l'aide d'un navigateur Web standard. Pour cela, il leur suffit de taper l'adresse https://%1/webmail et de se connecter avec leurs paramètres de compte."
 
 msgid "mai_E-Mail"
 msgstr "Courriel"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Autoriser HTTPS (accès sécurisé uniquement)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP avec requête client)"

@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Erro enquanto especificava nome do arquivo de log.\n\n  <p>Tipo de relatório inválido \"[_1]\".</p>\n\n  "
+msgstr " Erro enquanto especificava nome do arquivo de log.\n\n  <p>Tipo de relatório inválido \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Você pode opcionalmente especificar um modelo de filtro para mostrar somente as linhas do arquivo de log que coincidirem com o filtro. Se você deixar esse campo em branco, todas as linhas disponíveis no arquivo de log serão mostradas. Note que essa opção não é usada se você baixar o arquivo de log.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Ver arquivos de log"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Destacando linhas que coincidem: \"[_1]\"."
+msgstr "Destacando linhas que coincidem: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Arquivo log \"[_1]\" está em branco!"
+msgstr "Arquivo log \"%1\" está em branco!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Escolher o arquivo de log para visualizar"
 
 msgid "log_MATCH_HEADER"
-msgstr "Mostrando linhas que coincidem com: \"[_1]\"."
+msgstr "Mostrando linhas que coincidem com: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Você pode também opcionalmente especificar um modelo de destaque para marcar em negrito qualquer linha do arquivo de log que coincida com o modelo destacado. O modelo destacado é aplicado para qualquer linha que já tenha coincidido com modelo de filtro. Note que esta opção não é usada se você baixar o arquivo de log.\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Visualizar arquivo de log"
 
 msgid "log_VIEWING_TIME"
-msgstr "Visualizado as [_1]."
+msgstr "Visualizado as %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Preparando para baixar o arquivo de log [_1]."
+#~ msgstr "Preparando para baixar o arquivo de log %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " O download do arquivo de log está pronto. Será processado assim que você clicar no botão &quot;Next&quot; abaixo e instruir seu browser para aceitar o download na janela que aparecerá.\n\n  "
 #~ msgid "log_View log files"

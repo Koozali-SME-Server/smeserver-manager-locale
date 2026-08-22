@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Errore nel nome del file di log.\n\n  <p>Tipo rapporto non valido \"[_1]\".</p>\n\n  "
+msgstr " Errore nel nome del file di log.\n\n  <p>Tipo rapporto non valido \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " E' possibile specificare un filtro che visualizzi solo le linee del log che soddisfano certi criteri. Lasciando vuoto il campo verranno mostrate tutte le linee del log. Notare che l'opzione viene ignorata in caso di download del log.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Visualizza i file di log"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Vengono evidenziate le linee che comprendono: \"[_1]\"."
+msgstr "Vengono evidenziate le linee che comprendono: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Il log \"[_1]\" è vuoto!"
+msgstr "Il log \"%1\" è vuoto!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Selezionare un file di log da visualizzare"
 
 msgid "log_MATCH_HEADER"
-msgstr "Vengono mostrate le linee che comprendono: \"[_1]\"."
+msgstr "Vengono mostrate le linee che comprendono: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " E' possibile specificare un filtro che evidenzi in grassetto le linee corrispondenti a certi criteri. I criteri di evidenziazione vengono applicati alle linee che già soddisfano i criteri di filtro. Notare che questa opzione viene ignorata in caso di download del log.\n\n  "
@@ -74,12 +74,12 @@ msgid "log_VIEW"
 msgstr "Visualizza log"
 
 msgid "log_VIEWING_TIME"
-msgstr "Visualizzato alle [_1]."
+msgstr "Visualizzato alle %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "View log files"
 #~ msgstr "Visualizza log"
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Preparazione del log [_1] in corso."
+#~ msgstr "Preparazione del log %1 in corso."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Il download del log è pronto. Continuerà dopo aver fatto clic su &quot;Avanti&quot; qui sotto. Sarà necessario accettare il download dalla finestra che apparirà.\n\n  "

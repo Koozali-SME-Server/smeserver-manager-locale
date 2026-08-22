@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr "  SSH设置您可以控制服务器的SSH访问。为了进行远程故障诊断和解决，开放设置只应由有经验的管理员来启用。除非您有特别的理由，否则建议此处设置为\"无法访问\"。"
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Telnet设置 警告: Telnet当前被启用，但此特性已不被支持了。Telnet本来就是不安全的，仅仅在没有可替代方案的情况下使用。您应该设置为 [_1] ，如果远程需要访问，请使用SSH。一旦禁用，telnet将不会在屏幕上出现。 "
+msgstr " Telnet设置 警告: Telnet当前被启用，但此特性已不被支持了。Telnet本来就是不安全的，仅仅在没有可替代方案的情况下使用。您应该设置为 %1 ，如果远程需要访问，请使用SSH。一旦禁用，telnet将不会在屏幕上出现。 "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "要添加远程管理网络，请在下面输入。"
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Telnet 设置"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] 在下面输入外部网络的主机IP，将允许这些主机远程访问server manager。使用子网掩码255.255.255.255以允许指定主机的访问。任何指定范围内的主机均通过使用HTTPS来访问server manager。 "
+msgstr " %1 在下面输入外部网络的主机IP，将允许这些主机远程访问server manager。使用子网掩码255.255.255.255以允许指定主机的访问。任何指定范围内的主机均通过使用HTTPS来访问server manager。 "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

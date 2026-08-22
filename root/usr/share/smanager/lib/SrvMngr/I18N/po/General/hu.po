@@ -146,7 +146,7 @@ msgid "FM_IP_NUMBER2"
 msgstr "Érvénytelen IP cím formátum (X.X.X.X az elfogadott)"
 
 msgid "FM_IP_NUMBER3"
-msgstr "A [_1] nagyobb mint 255"
+msgstr "A %1 nagyobb mint 255"
 
 msgid "FM_MAC_ADDRESS1"
 msgstr "Meg kell adnia egy MAC címet."

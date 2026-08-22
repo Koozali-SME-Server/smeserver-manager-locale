@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Erreur de spécification du nom de fichier journal.\n\n  <p>Type de rapport non valide pour \"[_1]\".</p>\n\n  "
+msgstr " Erreur de spécification du nom de fichier journal.\n\n  <p>Type de rapport non valide pour \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Vous avez la possibilité de spécifier un modèle de filtre afin de n'afficher que les lignes du fichier journal qui correspondent à ce modèle. Si vous laissez ce champ vide, le fichier journal sera affiché dans son intégralité. Veuillez noter que cette option est ignorée en cas de téléchargement du fichier.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Visualisation des fichiers journaux"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Surbrillance des lignes qui concordent avec \"[_1]\"."
+msgstr "Surbrillance des lignes qui concordent avec \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Le fichier journal \"[_1]\" est vide !"
+msgstr "Le fichier journal \"%1\" est vide !"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Choisissez le fichier journal à afficher"
 
 msgid "log_MATCH_HEADER"
-msgstr "Affichage des lignes qui concordent avec \"[_1]\"."
+msgstr "Affichage des lignes qui concordent avec \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Vous pouvez également spécifier un modèle de surbrillance afin de marquer en gras toutes les lignes du fichier journal qui correspondent à ce modèle. Ce modèle de surbrillance est appliqué à toutes les lignes qui ont déjà été mises en concordance avec le modèle de filtre. Veuillez noter que cette option est ignorée en cas de téléchargement du fichier.\n\n  "
@@ -74,12 +74,12 @@ msgid "log_VIEW"
 msgstr "Afficher le fichier journal"
 
 msgid "log_VIEWING_TIME"
-msgstr "Affiché le [_1]."
+msgstr "Affiché le %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "View log files"
 #~ msgstr "Visualisation des fichiers journaux"
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Préparation du téléchargement du fichier journal \"[_1]\"."
+#~ msgstr "Préparation du téléchargement du fichier journal \"%1\"."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Votre fichier journal est prêt à être téléchargé. Le téléchargement commencera dès que vous aurez cliqué sur le bouton \"Suivant\" ci-dessous et que vous aurez indiqué à votre navigateur d'accepter l'opération dans la boîte de dialogue qui s'affichera.\n\n  "

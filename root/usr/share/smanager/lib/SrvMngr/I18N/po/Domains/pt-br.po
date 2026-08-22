@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Adicionar domínio"
 
 msgid "dom_CONTENT"
-msgstr "compartilhamento [_1]"
+msgstr "compartilhamento %1"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "Para o web site, você pode escolher o web site primário ou qualquer compartilhamento como conteúdo."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Modificar as configurações de DNS corporativo"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Erro: caracter inesperado ou faltando na descrição do domínio [_1]. Novo domínio não criado."
+msgstr "Erro: caracter inesperado ou faltando na descrição do domínio %1. Novo domínio não criado."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Erro: domínio [_1] já está em uso. Novo domínio não criado."
+msgstr "Erro: domínio %1 já está em uso. Novo domínio não criado."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Erro: caracter inesperado ou faltando no nome de domínio [_1]. O nome do domínio deve conter uma ou mais letras, números, pontos e sinal de menos. Novo domínio não criado."
+msgstr "Erro: caracter inesperado ou faltando no nome de domínio %1. O nome do domínio deve conter uma ou mais letras, números, pontos e sinal de menos. Novo domínio não criado."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Erro: falha interna enquanto removia o domínio virtual [_1]."
+msgstr "Erro: falha interna enquanto removia o domínio virtual %1."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Quando criar um domínio virtual, seu servidor será capaz de receber e-mail para este domínio e também ser um hospedeiro de páginas web para este domínio.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Adicionar domínio</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Modificar domínio virtual"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Erro: [_1] não é um domínio existente."
+msgstr "Erro: %1 não é um domínio existente."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "site primário"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  Você está prestes a remover o domínio virtual [_1] ([_2]). \n\n  <p> <b>Tem certeza que deseja remover este domínio?</b> </p>\n\n  "
+msgstr "  Você está prestes a remover o domínio virtual %1 (%2). \n\n  <p> <b>Tem certeza que deseja remover este domínio?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Remover domínio virtual"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Domínio virtual [_1] criado com sucesso. Seu servidor web está sendo reinicializado. Os links desta página estarão bloqueados até que a reinicialização do servidor esteja completa."
+msgstr "Domínio virtual %1 criado com sucesso. Seu servidor web está sendo reinicializado. Os links desta página estarão bloqueados até que a reinicialização do servidor esteja completa."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Domínio virtual [_1] removido com sucesso. Seu servidor web está sendo reinicializado. Os links desta página estarão bloqueados até que a reinicialização do servidor esteja completa."
+msgstr "Domínio virtual %1 removido com sucesso. Seu servidor web está sendo reinicializado. Os links desta página estarão bloqueados até que a reinicialização do servidor esteja completa."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Domínio virtual [_1] modificado com sucesso. Seu servidor web está sendo reinicializado. Os links desta página estarão bloqueados até que a reinicialização do servidor esteja completa."
+msgstr "Domínio virtual %1 modificado com sucesso. Seu servidor web está sendo reinicializado. Os links desta página estarão bloqueados até que a reinicialização do servidor esteja completa."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Erro: domínio [_1] é o nome de domínio seu sistema. Você não pode ter um domínio virtual com o mesmo nome. Novo domínio não criado."
+msgstr "Erro: domínio %1 é o nome de domínio seu sistema. Você não pode ter um domínio virtual com o mesmo nome. Novo domínio não criado."
 
 msgid "dom_corporate"
 msgstr "Servidores DNS corporativos"

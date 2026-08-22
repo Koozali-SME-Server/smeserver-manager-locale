@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Fehler bei der Eingabe des Log Dateinamens.\n\n  <p>Ungültiger Berichtstyp \"[_1]\".</p>\n\n  "
+msgstr " Fehler bei der Eingabe des Log Dateinamens.\n\n  <p>Ungültiger Berichtstyp \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Sie können optional hier Filtermuster eingeben, um sich nur bestimmte Zeilen einer gewählten Log Datei anzeigen zu lassen. Wenn Sie das Feld leer lassen, werden alle verfügbaren Zeilen der Log Datei ausgegeben. Diese Funktion steht beim Herunterladen von Log Dateien nicht zur Verfügung.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Log-Dateien anzeigen"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Markierte Zeilen entsprechen: \"[_1]\"."
+msgstr "Markierte Zeilen entsprechen: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Die Log Datei \"[_1]\" ist leer!"
+msgstr "Die Log Datei \"%1\" ist leer!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Wählen Sie eine Log Datei zur Ansicht"
 
 msgid "log_MATCH_HEADER"
-msgstr "Angezeigte Zeilen entsprechen: \"[_1]\"."
+msgstr "Angezeigte Zeilen entsprechen: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Sie haben optional auch die Möglichkeit, sich zusätzlich Zeilen in Fettdruck anzeigen zu lassen, welche den markierten Mustern entsprechen. Das Markiermuster wird auf alle Zeilen angewendet, die von dem Filtermuster bereits erkannt wurden. Diese Funktion steht beim Herunterladen von Log Dateien nicht zur Verfügung.\n\n  "
@@ -74,14 +74,14 @@ msgid "log_VIEW"
 msgstr "Log Dateien anzeigen"
 
 msgid "log_VIEWING_TIME"
-msgstr "Angesehen am [_1]."
+msgstr "Angesehen am %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "DOWNLOAD_FILE"
-#~ msgstr "Vorbereitung zum Herunterladen der Log Datei [_1]."
+#~ msgstr "Vorbereitung zum Herunterladen der Log Datei %1."
 #~ msgid "View log files"
 #~ msgstr "Log Dateien anzeigen"
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "(en)Preparing to download the logfile [_1]."
+#~ msgstr "(en)Preparing to download the logfile %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Das Herunterladen der Log-Datei wird vorbereitet. Dies wird durchgeführt, sobald Sie unten auf &quot;Weiter&quot; drücken und in Ihrem Browser das Herunterladen bestätigen.\n\n  "

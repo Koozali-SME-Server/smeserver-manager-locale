@@ -11,13 +11,13 @@ msgstr ""
 "Language: pl\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "Konto \"[_1]\" jest obecnym kontem [_2]."
+msgstr "Konto \"%1\" jest obecnym kontem %2."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " Konto „[_1]” koliduje ze szczegółami pseudonimu [_2] dla konta „[_3]”.  [_4] to pseudonim dla [_5]. "
+msgstr " Konto „%1” koliduje ze szczegółami pseudonimu %2 dla konta „%3”.  %4 to pseudonim dla %5. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Magazyn \"[_1]\" zawiera nieprawidłowe znaki. Nazwa magazynu musi zaczynać się od małej litery i zawierać tylko litery, cyfry i łączniki."
+msgstr "Magazyn \"%1\" zawiera nieprawidłowe znaki. Nazwa magazynu musi zaczynać się od małej litery i zawierać tylko litery, cyfry i łączniki."
 
 msgid "iba_ADD_IBAY"
 msgstr "Dodaj i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Uruchamiaj dynamiczną zawartość (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Nie udało się utworzyć nowego konta dla [_1](czy już istnieje?)"
+msgstr "Nie udało się utworzyć nowego konta dla %1(czy już istnieje?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Nie udało się znaleźć konta dla [_1](czy istnieje?)"
+msgstr "Nie udało się znaleźć konta dla %1(czy istnieje?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Internet (nie wymagaj hasła)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Sieć lokalna (wymagaj hasła)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "Nazwa magazynu \"[_1]\" jest za długa. Maksymalna długość wynosi [_1] znaków."
+msgstr "Nazwa magazynu \"%1\" jest za długa. Maksymalna długość wynosi %1 znaków."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "Nazwa magazynu informacji powinna zawierać tylko małe litery, cyrfry, myślniki i podkreślniki oraz powinna zaczynać się od małej litery. Na przykład \"dane\", \"faktury\" i \"dokumenty.2009\" są poprawnymi nazwamy, ale \"11wnioski\", \"Dane klientów\" i \"Ważne!dokumenty\" nie są poprawne. Nazwa magazynu jest ograniczona do [_1] znaków."
+msgstr "Nazwa magazynu informacji powinna zawierać tylko małe litery, cyrfry, myślniki i podkreślniki oraz powinna zaczynać się od małej litery. Na przykład \"dane\", \"faktury\" i \"dokumenty.2009\" są poprawnymi nazwamy, ale \"11wnioski\", \"Dane klientów\" i \"Ważne!dokumenty\" nie są poprawne. Nazwa magazynu jest ograniczona do %1 znaków."
 
 msgid "iba_NAME_LABEL"
 msgstr "Nazwa magazynu"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Nie ma żadnych obecnie skonfigurowanych magazynów."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Masz zamiar zmienić hasło dla magzynu [_1]."
+msgstr "Masz zamiar zmienić hasło dla magzynu %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Dostęp powszechny przez sieć web lub anonimowy ftp"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Zamierzasz usunąć magazyn \"[_1]\" ([_2]). \n\n   Wszystkie dane należące do tego magazynu zostaną usunięte. \n\n   Czy jesteś pewien, że chcesz usunąć ten magazyn danych? \n\n  "
+msgstr "  Zamierzasz usunąć magazyn \"%1\" (%2). \n\n   Wszystkie dane należące do tego magazynu zostaną usunięte. \n\n   Czy jesteś pewien, że chcesz usunąć ten magazyn danych? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Usuń magazyn informacji"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Dostęp użytkowników przez udostępnianie lub ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie): [_1] "
+msgstr " Poniższe wirtualne domeny używały tego magazynu, jako głównego, który zostanie zmieniony do głównej witryny sieci Web (możesz zmienić go na inny w późniejszym czasie): %1 "
 
 msgid "iba_WARG"
 msgstr "Zapis = administrator, Odczyt = grupa"

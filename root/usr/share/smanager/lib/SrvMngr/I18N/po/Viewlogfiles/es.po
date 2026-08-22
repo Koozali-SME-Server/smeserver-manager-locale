@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Ocurrió un error al especificar el nombre del archivo de registro.\n\n  <p>Tipo de informe inválido \"[_1]\".</p>\n\n  "
+msgstr " Ocurrió un error al especificar el nombre del archivo de registro.\n\n  <p>Tipo de informe inválido \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Opcionalmente, puede especificar un patrón de filtro para mostrar sólo las líneas del archivo de registro que coincidan con este patrón. Si deja este campo en blanco, se mostrarán todas las líneas disponibles del archivo de registro. Tenga presente que esta opción no tiene ningún efecto si usted elige descargar el archivo.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Ver archivos de registro"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Destacar las líneas que coincidan con: \"[_1]\"."
+msgstr "Destacar las líneas que coincidan con: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "¡El archivo de registro \"[_1]\" está vacío!"
+msgstr "¡El archivo de registro \"%1\" está vacío!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Elija el archivo de registro que desea ver"
 
 msgid "log_MATCH_HEADER"
-msgstr "Mostrar las líneas que coincidan con: \"[_1]\"."
+msgstr "Mostrar las líneas que coincidan con: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Opcionalmente, también puede especificar un patrón de resaltado para marcar en negrita cualquier línea del archivo de registro que concuerde con dicho patrón. El patrón de resaltado se aplica a todas las líneas que ya coincidan con el patrón de filtro. Tenga presente que esta opción no tiene ningún efecto si usted elige descargar el archivo.\n\n  "
@@ -74,12 +74,12 @@ msgid "log_VIEW"
 msgstr "Ver archivo de registro"
 
 msgid "log_VIEWING_TIME"
-msgstr "Visto a las [_1]."
+msgstr "Visto a las %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "View log files"
 #~ msgstr "Ver archivos de registro"
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Preparando la descarga del archivo de registro [_1]."
+#~ msgstr "Preparando la descarga del archivo de registro %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " La descarga del archivo de registro ya está preparada. Ésta se realizará una vez que haga clic en el botón &quot;Siguiente&quot; que está más abajo, y le indique a su navegador que acepte la descarga a través de la ventana emergente que aparecerá.\n\n  "

@@ -146,7 +146,7 @@ msgid "FM_IP_NUMBER2"
 msgstr "Sobimatu IP aadress DHCP alguseks (mall X.X.X.X)"
 
 msgid "FM_IP_NUMBER3"
-msgstr "[_1] on rohkem kui 255"
+msgstr "%1 on rohkem kui 255"
 
 msgid "FM_MAC_ADDRESS1"
 msgstr "Sisesta MAC aadress:"

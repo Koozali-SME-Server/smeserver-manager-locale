@@ -14,7 +14,7 @@ msgid "DELETE_ERROR"
 msgstr "(en) DELETE_ERROR"
 
 msgid "grp_ACCOUNT_CONFLICT"
-msgstr "Eroare: grupul \"[_1]\" nu poate fi creat deorece există deja un cont de tipul [_2] cu același nume"
+msgstr "Eroare: grupul \"%1\" nu poate fi creat deorece există deja un cont de tipul %2 cu același nume"
 
 msgid "grp_CREATED_GROUP"
 msgstr "Grup creat cu succes"
@@ -29,7 +29,7 @@ msgid "grp_DELETED_GROUP"
 msgstr "Grup șters cu succes"
 
 msgid "grp_DELETE_DESCRIPTION"
-msgstr " Sunteți pe cale să ștergeți grupul \"[_1]\" "
+msgstr " Sunteți pe cale să ștergeți grupul \"%1\" "
 
 msgid "grp_ERR_INTERNAL_FAILURE"
 msgstr "(en) Err internal failure"
@@ -50,7 +50,7 @@ msgid "grp_GROUP_NAMING"
 msgstr " Numele grupului trebuei să conțină numai litere mnuscule, numere, cratime, paranteze și sublinieri, trebuie să înceapă cu o litera minuscula . De exemplu \"sales\", \"beta5\", și \"reseller_partners\" sunt nume valide, dar\"3rd-event\", \"Marketing Team\" și \"lost&found\" nu sunt. "
 
 msgid "grp_GROUP_TOO_LONG"
-msgstr "Eroare: numele este prea lung. Maxim [_1] caractere."
+msgstr "Eroare: numele este prea lung. Maxim %1 caractere."
 
 msgid "grp_IBAYS_WILL_BE_CHANGED"
 msgstr "Următoarele i-bay-uri erau asignate acestui grup și vor fi alocate grupului administratorilor (le puteți modifica mai târziu după dorință): "

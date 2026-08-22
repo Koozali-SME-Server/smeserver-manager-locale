@@ -29,7 +29,7 @@ msgstr ""
 msgid "use_FORGOT"
 msgstr ""
 
-#. Password reset\n\nClick the following link to reset your password. If you have not requested the password reset, then ignore this email.\n\n[_1]
+#. Password reset\n\nClick the following link to reset your password. If you have not requested the password reset, then ignore this email.\n\n%1
 msgid "use_GO_TO_URL"
 msgstr ""
 

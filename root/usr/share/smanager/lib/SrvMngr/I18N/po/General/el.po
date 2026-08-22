@@ -146,7 +146,7 @@ msgid "FM_IP_NUMBER2"
 msgstr "Invalid IP address format (expected X.X.X.X)"
 
 msgid "FM_IP_NUMBER3"
-msgstr "[_1] είναι μεγαλύτερο από 255"
+msgstr "%1 είναι μεγαλύτερο από 255"
 
 msgid "FM_MAC_ADDRESS1"
 msgstr "Πρέπει να δώσετε μια MAC διεύθυνση."

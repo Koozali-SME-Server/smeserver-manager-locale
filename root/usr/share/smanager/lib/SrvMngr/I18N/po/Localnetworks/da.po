@@ -47,13 +47,13 @@ msgid "ln_LOCAL_NETWORK_NONE"
 msgstr "(en) No Local networks found"
 
 msgid "ln_NETWORK_ALREADY_ADDED"
-msgstr "Fejl: Netværket [_1] (beregnet fra netadressen [_2] og subnetmasken [_3]) er allerede tilføjet. Netværket blev ikke oprettet."
+msgstr "Fejl: Netværket %1 (beregnet fra netadressen %2 og subnetmasken %3) er allerede tilføjet. Netværket blev ikke oprettet."
 
 msgid "ln_NETWORK_ALREADY_LOCAL"
-msgstr "Fejl: Netværket [_1] (beregnet fra netadressen [_2] og subnetmasken [_3]) ses allerede som en del af det lokale net. Netværket blev ikke oprettet."
+msgstr "Fejl: Netværket %1 (beregnet fra netadressen %2 og subnetmasken %3) ses allerede som en del af det lokale net. Netværket blev ikke oprettet."
 
 msgid "ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK"
-msgstr "Fejl: Der er ingen adgang til router-adressen [_1] fra lokal-nettet. Netværket blev ikke oprettet."
+msgstr "Fejl: Der er ingen adgang til router-adressen %1 fra lokal-nettet. Netværket blev ikke oprettet."
 
 msgid "ln_NO_SUCH_NETWORK"
 msgstr "(en)Network not found in network db"
@@ -77,13 +77,13 @@ msgid "ln_SUBNET_MASK"
 msgstr "Subnetmaske"
 
 msgid "ln_SUCCESS_NETWORK_RANGE"
-msgstr "Netværket er tilføjet [_1]/[_2] via router [_3]. Serveren vil tildele lokal adgangsret til [_4] IP-adresser i området [_5] til [_6]."
+msgstr "Netværket er tilføjet %1/%2 via router %3. Serveren vil tildele lokal adgangsret til %4 IP-adresser i området %5 til %6."
 
 msgid "ln_SUCCESS_NONSTANDARD_RANGE"
-msgstr "  Netværket er tilføjet [_1]/[_2] via router [_3]. \n\n  <p> Serveren vil tildele lokal adgangsret til [_1] IP-adresser i området [_2] til [_3]. </p>\n\n  <p> Advarsel: ProFTPd FTP-server kan ikke håndtere denne ikke-standard subnetmaske. <b>[_1]</b> vil blive brugt i stedet for. </p>\n\n  "
+msgstr "  Netværket er tilføjet %1/%2 via router %3. \n\n  <p> Serveren vil tildele lokal adgangsret til %1 IP-adresser i området %2 til %3. </p>\n\n  <p> Advarsel: ProFTPd FTP-server kan ikke håndtere denne ikke-standard subnetmaske. <b>%1</b> vil blive brugt i stedet for. </p>\n\n  "
 
 msgid "ln_SUCCESS_REMOVED_NETWORK"
-msgstr "Netværket [_1]/[_2] via router [_3] blev fjernet."
+msgstr "Netværket %1/%2 via router %3 blev fjernet."
 
 msgid "ln_SUCCESS_SINGLE_ADDRESS"
-msgstr "Netværket er tilføjet [_1]/[_2] via router [_3]. De nedenfor nævnte IP adresser har adgang til serveren svarende til adgangen fra lokalnet [_4]."
+msgstr "Netværket er tilføjet %1/%2 via router %3. De nedenfor nævnte IP adresser har adgang til serveren svarende til adgangen fra lokalnet %4."

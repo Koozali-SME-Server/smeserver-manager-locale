@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Alan adı ekle"
 
 msgid "dom_CONTENT"
-msgstr "[_1] i-bay"
+msgstr "%1 i-bay"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "Web sitesi için birincil sitenizi veya herhangi bir i-bay içerik olarak seçebilirsiniz."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Kurumsal DNS ayarlarını değiştir"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Hata: [_1] alan adı açıklamasi geçersiz karakter içriyor. Yeni alan adı olşturulamadı."
+msgstr "Hata: %1 alan adı açıklamasi geçersiz karakter içriyor. Yeni alan adı olşturulamadı."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Hata: alan adı [_1] zaten kullanımda. Yeni alan adı olşturulamadı."
+msgstr "Hata: alan adı %1 zaten kullanımda. Yeni alan adı olşturulamadı."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Hata: [_1] alan adı geçersiz karakter içriyor. Alanı adı bir veya daha fazla harf, rakam, nokta ve eksi işaretleri içermelidir"
+msgstr "Hata: %1 alan adı geçersiz karakter içriyor. Alanı adı bir veya daha fazla harf, rakam, nokta ve eksi işaretleri içermelidir"
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Hata: [_1] silinirken iç hata oluştu."
+msgstr "Hata: %1 silinirken iç hata oluştu."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Bu sistemde bir alan adı oluşturulduğunda, bu alana bağlı e-posta alabilir ve web sitesini barındırabilirsiniz.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Alan adı ekle</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Alan adını düzenle"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Hata: [_1] mevcut bir alan değildir."
+msgstr "Hata: %1 mevcut bir alan değildir."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "birincil site"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  [_1] ([_2]) alan daını silmek üzeresiniz. \n\n  <p> <b>Bu alan adını silmek istediğinizden eminmisiniz?</b> </p>\n\n  "
+msgstr "  %1 (%2) alan daını silmek üzeresiniz. \n\n  <p> <b>Bu alan adını silmek istediğinizden eminmisiniz?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Alan adı Sil"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "[_1] alan adı başarıyla oluşturuldu. Sunucunuz şimdi yeniden başlatılacak. Web sunucunuz tekrar açılana kadar aşağıdaki bağlantılar etkin olmayacaklar."
+msgstr "%1 alan adı başarıyla oluşturuldu. Sunucunuz şimdi yeniden başlatılacak. Web sunucunuz tekrar açılana kadar aşağıdaki bağlantılar etkin olmayacaklar."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "[_1] başarıyla silindi. Web sunucunuz şimdi yeniden başlatılacaktır. Sunucu yeniden başlatılana kadar aşağıdaki bağlantılar etkinleşmeyecektir."
+msgstr "%1 başarıyla silindi. Web sunucunuz şimdi yeniden başlatılacaktır. Sunucu yeniden başlatılana kadar aşağıdaki bağlantılar etkinleşmeyecektir."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "[_1] alan adı ayarları uygulandı. Web sunucunuz şimdi yeniden başlatılacaktır. Sunucu yeniden başlatılana kadar aşağıdaki bağlantılar etkinleşmeyecektir."
+msgstr "%1 alan adı ayarları uygulandı. Web sunucunuz şimdi yeniden başlatılacaktır. Sunucu yeniden başlatılana kadar aşağıdaki bağlantılar etkinleşmeyecektir."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Hata: alan adı [_1] sizin sistem adan adınızla aynı. Aynı isme sahip bir alan adı oluşturulamaz. Yeni alan adı olşturulamadı."
+msgstr "Hata: alan adı %1 sizin sistem adan adınızla aynı. Aynı isme sahip bir alan adı oluşturulamaz. Yeni alan adı olşturulamadı."
 
 msgid "dom_corporate"
 msgstr "Kurumsal DNS kullanarak çözümle"

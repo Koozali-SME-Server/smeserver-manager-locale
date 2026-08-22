@@ -11,13 +11,13 @@ msgstr ""
 "Language: id\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "Akun \"[_1]\" adalah akun[_2] yang telah ada."
+msgstr "Akun \"%1\" adalah akun%2 yang telah ada."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " Akun \"[_1]\" bentrok dengan detail pseudonym untuk [_2] akun \"[_3]\". [_1] adalah pseudonym untuk [_3]. "
+msgstr " Akun \"%1\" bentrok dengan detail pseudonym untuk %2 akun \"%3\". %1 adalah pseudonym untuk %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Nama i-bay\"[_1]\" mengandung karakter yang tidak dibolehkan. Nama I-bay harus dimulai dengan huruf kecil dan hanya mengandung huruf kecil, angka, dan hyphen (tanda minus)."
+msgstr "Nama i-bay\"%1\" mengandung karakter yang tidak dibolehkan. Nama I-bay harus dimulai dengan huruf kecil dan hanya mengandung huruf kecil, angka, dan hyphen (tanda minus)."
 
 msgid "iba_ADD_IBAY"
 msgstr "Tambahkan i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Jalankan konten dinamis (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Tak dapat membuat akun baru dengan nama [_1] (apakah nama tsb sudah ada?)"
+msgstr "Tak dapat membuat akun baru dengan nama %1 (apakah nama tsb sudah ada?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Tidak ditemukan akun [_1] (apakah benar ada?)"
+msgstr "Tidak ditemukan akun %1 (apakah benar ada?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Seluruh Internet (tidak perlu password)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Jaringan lokal (password diperlukan)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "Nama i-bay \"[_1]\" terlalu panjang. Maksimum adalah [_1] karakter."
+msgstr "Nama i-bay \"%1\" terlalu panjang. Maksimum adalah %1 karakter."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "Nama information bay hanya boleh berisi huruf kecil, angka, titik, min (hyphen), dan garis bawah (underscore), dan harus dimulai dengan huruf kecil. Contoh yang benar :\"johnson\",\"intra\" dan \"cust3.prj12\". Sedangkan \"3associates\",\"John Smith\" dan \"Bus!Partner\" adalah salah. Panjang nama dibatasi [_1] karakter."
+msgstr "Nama information bay hanya boleh berisi huruf kecil, angka, titik, min (hyphen), dan garis bawah (underscore), dan harus dimulai dengan huruf kecil. Contoh yang benar :\"johnson\",\"intra\" dan \"cust3.prj12\". Sedangkan \"3associates\",\"John Smith\" dan \"Bus!Partner\" adalah salah. Panjang nama dibatasi %1 karakter."
 
 msgid "iba_NAME_LABEL"
 msgstr "Nama Information Bay"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Tidak ada i-bay yang dikonfigurasi saat ini."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Anda akan mengubah password i-bay [_1]."
+msgstr "Anda akan mengubah password i-bay %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Akses umum melalui web atau ftp anonim"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Anda akan manghapus information bay \"[_1]\" ([_2]). \n\n   Semua file pada information bay ini akan dihapus. \n\n   Anda yakin menghapus information bay ini? \n\n  "
+msgstr "  Anda akan manghapus information bay \"%1\" (%2). \n\n   Semua file pada information bay ini akan dihapus. \n\n   Anda yakin menghapus information bay ini? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Hapus information bay"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Akses pengguna melalui file sharing atau pengguna ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):\n\n  <ul>[_1]</ul> "
+msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward):\n\n  <ul>%1</ul> "
 
 msgid "iba_WARG"
 msgstr "Write = admin, Read = group"

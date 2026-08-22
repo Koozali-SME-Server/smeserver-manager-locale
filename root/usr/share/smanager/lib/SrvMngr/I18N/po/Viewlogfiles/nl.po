@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Fout bij het opgeven van de naam van het logbestand.\n\n  <p>Ongeldig rapporttype \"[_1]\".</p>\n\n  "
+msgstr " Fout bij het opgeven van de naam van het logbestand.\n\n  <p>Ongeldig rapporttype \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " U kan er voor kiezen om een filterpatroon op te geven om alleen de regels uit het logbestand te tonen die overeenkomen met dit patroon. Alle regels uit het logbestand zullen worden weergegeven indien u dit vakje leeg laat. Merk op: deze optie is niet van toepassing als u het logbestand dowloadt.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Logbestanden bekijken"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Regels gemarkeerd die overeenkomen met: \"[_1]\"."
+msgstr "Regels gemarkeerd die overeenkomen met: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Het logbestand \"[_1]\" is leeg!"
+msgstr "Het logbestand \"%1\" is leeg!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Kies een logbestand om te bekijken"
 
 msgid "log_MATCH_HEADER"
-msgstr "Regels weergeven die overeenkomen met: \"[_1]\"."
+msgstr "Regels weergeven die overeenkomen met: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " U kan er ook voor kiezen om een markeringspatroon op te geven om regels in het vet weer te geven die overeenkomen met dit patroon. Het markeringspatroon wordt toegepast op regels die al overeenkwamen met het filterpatroon. Merk op: deze optie is niet van toepassing als u het logbestand dowloadt.\n\n  "
@@ -74,12 +74,12 @@ msgid "log_VIEW"
 msgstr "Logbestand bekijken"
 
 msgid "log_VIEWING_TIME"
-msgstr "Bekeken om [_1]."
+msgstr "Bekeken om %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "View log files"
 #~ msgstr "Logbestanden bekijken"
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Bezig met het voorbereiden van het logbestand[_1]."
+#~ msgstr "Bezig met het voorbereiden van het logbestand%1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Uw logbestand is klaar om te worden gedownload. De download start als u op de &quot;Volgende&quot; knop hieronder klikt en u uw browser opdracht geeft om de download op te slaan in het dialoogvenster dat zal verschijnen.\n\n  "

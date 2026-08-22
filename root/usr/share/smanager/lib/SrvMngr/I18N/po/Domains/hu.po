@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Domain hozzáadása"
 
 msgid "dom_CONTENT"
-msgstr "[_1] Adattár"
+msgstr "%1 Adattár"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "A weboldalhoz kiválaszthatja az elsődleges webhelyet, vagy bármely adattárat."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Vállalati DNS-beállítások módosítása"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Hiba: Helytelen vagy hiányzó karakterek vannak a [_1] domain leírásában. A domain nem jött létre."
+msgstr "Hiba: Helytelen vagy hiányzó karakterek vannak a %1 domain leírásában. A domain nem jött létre."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Hiba: a [_1] domain név már használatban van. A domain nem jött létre."
+msgstr "Hiba: a %1 domain név már használatban van. A domain nem jött létre."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Hiba: Helytelen vagy hiányzó karakterek vannak a [_1] domain névben. A domain név egy vagy több betűt, számokat, pontokat és kötőjeleket tartalmazhat. A domain nem jött létre."
+msgstr "Hiba: Helytelen vagy hiányzó karakterek vannak a %1 domain névben. A domain név egy vagy több betűt, számokat, pontokat és kötőjeleket tartalmazhat. A domain nem jött létre."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Hiba: probléma a [_1] domain eltávolításakor."
+msgstr "Hiba: probléma a %1 domain eltávolításakor."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Amikor létrehoz egy új domain-t, a szerver képes lesz az arra a domain-re küldött levelek fogadására, valamint weboldalt közzéteni az adott domain alatt az Interneten.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Domain hozzáadása</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Domain módosítása"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Hiba: A [_1] nem létező domain név."
+msgstr "Hiba: A %1 nem létező domain név."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "elsődleges webhely"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  Most készül eltávolítani a [_1] ([_2]) nevű domain-t. \n\n  <p> <b>Biztos benne, hogy törölni akarja?</b> </p>\n\n  "
+msgstr "  Most készül eltávolítani a %1 (%2) nevű domain-t. \n\n  <p> <b>Biztos benne, hogy törölni akarja?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Domain eltávolítása"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "A [_1] domain sikeresen létrejött. A webszerver újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik."
+msgstr "A %1 domain sikeresen létrejött. A webszerver újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Sikeresen törölte a [_1] nevű domain-t. A webszerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik."
+msgstr "Sikeresen törölte a %1 nevű domain-t. A webszerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Sikeresen módosította a [_1] -nevű domain-t. A szerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik."
+msgstr "Sikeresen módosította a %1 -nevű domain-t. A szerver most újraindul. A hivatkozások ezen a weboldalon nem működnek addig, míg az újraindítás be nem fejeződik."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Hiba: a [_1] domain az ön rendszerének a domain neve. Nem hozhat létre új domaint ugyanezzel a névvel. A domain nem jött létre."
+msgstr "Hiba: a %1 domain az ön rendszerének a domain neve. Nem hozhat létre új domaint ugyanezzel a névvel. A domain nem jött létre."
 
 msgid "dom_corporate"
 msgstr "Vállalati DNS szerver"

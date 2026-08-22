@@ -23,16 +23,16 @@ msgid "Webmail"
 msgstr "(en) Webmail"
 
 msgid "usr_ACCOUNT_CONFLICT"
-msgstr "Errore: l'utente \"[_1]\" non può essere creato perché esiste già un [_2] con quel nome."
+msgstr "Errore: l'utente \"%1\" non può essere creato perché esiste già un %2 con quel nome."
 
 msgid "usr_ACCOUNT_NAME"
 msgstr "Nome utente"
 
 msgid "usr_ACCOUNT_TOO_LONG"
-msgstr "Errore: il nome utente è troppo lungo. Il massimo è [_1] caratteri."
+msgstr "Errore: il nome utente è troppo lungo. Il massimo è %1 caratteri."
 
 msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "L'utente \"[_1]\" contiene caratteri non validi. I nomi utente devono iniziare con una lettera minuscola e possono contenere solo lettere minuscole, numeri, trattini, punti e underscore."
+msgstr "L'utente \"%1\" contiene caratteri non validi. I nomi utente devono iniziare con una lettera minuscola e possono contenere solo lettere minuscole, numeri, trattini, punti e underscore."
 
 msgid "usr_ADD_USER"
 msgstr "Aggiungi account utente"
@@ -41,10 +41,10 @@ msgid "usr_CANNOT_CONTAIN_WHITESPACE"
 msgstr "Questo campo non può contenere spazi bianchi"
 
 msgid "usr_CANNOT_MODIFY_USER"
-msgstr "Errore: errore interno durante la modifica dell'utente: \"[_1]\"."
+msgstr "Errore: errore interno durante la modifica dell'utente: \"%1\"."
 
 msgid "usr_CANNOT_MODIFY_USER_GROUPS"
-msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"%1\" for user \"%2\"."
 
 msgid "usr_CITY"
 msgstr "Città"
@@ -101,7 +101,7 @@ msgid "usr_GROUP_MEMBERSHIPS"
 msgstr "Appartenenza ai gruppi"
 
 msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters and must pass a dictionary check."
 
 msgid "usr_LABEL_IPSECRW_DOWNLOAD"
 msgstr "Carica certificato digitale nel client IPSec"
@@ -113,7 +113,7 @@ msgid "usr_LOCK"
 msgstr "Blocca"
 
 msgid "usr_LOCKED_ACCOUNT"
-msgstr "Utente \"[_1]\" bloccato con successo."
+msgstr "Utente \"%1\" bloccato con successo."
 
 msgid "usr_LOCK_ACCOUNT"
 msgstr "(en) Lock account"
@@ -143,13 +143,13 @@ msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
 msgstr "Nuova password di sistema (verifica)"
 
 msgid "usr_NONE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters."
 
 msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters."
 
 msgid "usr_NO_SUCH_USER"
-msgstr "Errore: l'utente \"[_1]\" non esiste."
+msgstr "Errore: l'utente \"%1\" non esiste."
 
 msgid "usr_NO_USER_ACCOUNTS"
 msgstr "Non ci sono utenti in questo sistema"
@@ -158,7 +158,7 @@ msgid "usr_P2_TITLE"
 msgstr "Crea o modifica"
 
 msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
-msgstr "Password per l'utente \"[_1]\" modificata con successo."
+msgstr "Password per l'utente \"%1\" modificata con successo."
 
 msgid "usr_PASSWORD_WIKI"
 msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
@@ -167,7 +167,7 @@ msgid "usr_PHONE_NUMBER"
 msgstr "Telefono"
 
 msgid "usr_PSEUDONYM_CLASH"
-msgstr "Errore: lo pseudonimo \"[_1]\" è già usato dall'utente \"[_2]\". Per differenziare, aggiungere le iniziali a questo campo."
+msgstr "Errore: lo pseudonimo \"%1\" è già usato dall'utente \"%2\". Per differenziare, aggiungere le iniziali a questo campo."
 
 msgid "usr_REMOVE_ACCOUNT_TITLE"
 msgstr "Rimuovi utente"
@@ -188,7 +188,7 @@ msgid "usr_STREET_ADDRESS"
 msgstr "Indirizzo"
 
 msgid "usr_STRONG_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
 
 msgid "usr_SUCCESSFULLY_DELETED_USER"
 msgstr "(en) Successfully deleted user"
@@ -215,7 +215,7 @@ msgid "usr_TAINTED_PASSWORD"
 msgstr "(en)The new password starts with invalid characters."
 
 msgid "usr_TAINTED_USER"
-msgstr "Il nome utente \"[_1]\" contiene caratteri non validi."
+msgstr "Il nome utente \"%1\" contiene caratteri non validi."
 
 msgid "usr_UNACCEPTABLE_CHARS"
 msgstr "Questo campo deve contenere solo lettere, numeri, punti, trattini e underscore e iniziare con una lettera."

@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "(en)You can scan incoming and outgoing e-mail for viruses. If scanning is enabled and a virus is detected, the e-mail will be rejected and returned to the sender."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "You can enable or disable webmail on this system. Webmail allows users to access their mail through a regular web browser by pointing the browser to https://[_1]/webmail, and logging in to their account."
+msgstr "You can enable or disable webmail on this system. Webmail allows users to access their mail through a regular web browser by pointing the browser to https://%1/webmail, and logging in to their account."
 
 msgid "mai_E-Mail"
 msgstr "E-mail"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Zezwalaj na HTTPS (bezpieczne)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP z żądaniem klienta)"

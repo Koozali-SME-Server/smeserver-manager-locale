@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr "You can control Secure Shell access to your server.\nThe public setting should only be enabled by \nexperienced administrators \nfor remote problem diagnosis and resolution. \nWe recommend leaving this\nparameter set to \"No Access\"\nunless you have a specific reason to do otherwise.\nNote that an \"Autoblock\" feature is enabled by default when public access is enabled; to disable or tune this feature, refer to the manual at https://wiki.koozali.org/AutoBlock"
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr "WARNING:Telnet is currently enabled, but this feature is\nno longer supported. Telnet is inherently insecure and should only\nbe used in circumstances where no practical alternative exists. You\nshould change option to [_1] and use\nsecure shell if remote access is\nrequired. Once disabled, telnet will no longer appear on this \nscreen. "
+msgstr "WARNING:Telnet is currently enabled, but this feature is\nno longer supported. Telnet is inherently insecure and should only\nbe used in circumstances where no practical alternative exists. You\nshould change option to %1 and use\nsecure shell if remote access is\nrequired. Once disabled, telnet will no longer appear on this \nscreen. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "To add a new remote management network, \nenter the details below."
@@ -125,4 +125,4 @@ msgid "rma_VALIDFROM_DESC"
 msgstr "It is possible to allow hosts on remote networks to access the\nserver manager by entering those networks here. Use a subnet\nmask of 255.255.255.255 to limit the access to the specified host.\nAny hosts within the specified range will be able to access the\nserver manager using HTTPS."
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

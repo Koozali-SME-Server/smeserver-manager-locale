@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Add domain"
 
 msgid "dom_CONTENT"
-msgstr "[_1] i-bay"
+msgstr "%1 i-bay"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "For the web site, you may choose your primary web site or any i-bay as the content."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Modify corporate DNS settings"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Error: unexpected or missing characters in domain description [_1]. Did not create new domain."
+msgstr "Error: unexpected or missing characters in domain description %1. Did not create new domain."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Error: domain [_1] is already in use. Did not create new domain."
+msgstr "Error: domain %1 is already in use. Did not create new domain."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Error: unexpected or missing characters in domain name [_1].The domain name should contain one or more letters, numbers, periods and minus signs. Did not create new domain."
+msgstr "Error: unexpected or missing characters in domain name %1.The domain name should contain one or more letters, numbers, periods and minus signs. Did not create new domain."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Error: internal failure while removing domain [_1]."
+msgstr "Error: internal failure while removing domain %1."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr "When you create a domain, your server will be able to receive e-mail for that domain and will also be able to host a web site for that domain."
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Modify domain"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Error: [_1] is not an existing domain."
+msgstr "Error: %1 is not an existing domain."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "primary site"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "You are about to remove the domain \"[_1]\" ([_2])."
+msgstr "You are about to remove the domain \"%1\" (%2)."
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Remove domain"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Successfully created domain [_1].Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
+msgstr "Successfully created domain %1.Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Successfully deleted domain [_1]. Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
+msgstr "Successfully deleted domain %1. Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Successfully modified domain [_1].Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
+msgstr "Successfully modified domain %1.Your web server is now being restarted. The links on this page will be inactive until the web server restart is complete."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Error: domain [_1] is your system domain name. You cannot have a domain with the same name. Did not create new domain."
+msgstr "Error: domain %1 is your system domain name. You cannot have a domain with the same name. Did not create new domain."
 
 msgid "dom_corporate"
 msgstr "Corporate DNS servers"

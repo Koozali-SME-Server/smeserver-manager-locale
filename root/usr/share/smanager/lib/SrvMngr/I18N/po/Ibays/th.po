@@ -11,13 +11,13 @@ msgstr ""
 "Language: th\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "บัญชีชื่อ \"[_1]\" ปรากฏว่าถูกใช้ไปแล้วโดย [_2]"
+msgstr "บัญชีชื่อ \"%1\" ปรากฏว่าถูกใช้ไปแล้วโดย %2"
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " ชื่อบั๙ชี \"[_1]\" ชนกันกับนามแฝงของ [_2] ของบัญชีที่ชื่อ \"[_3]\" ชื่อ [_1] ความผิดพลาดที่จะเกิดคือชื่อนี้จะถูกแปลความเป็นนามแฝงของ [_3] ไป "
+msgstr " ชื่อบั๙ชี \"%1\" ชนกันกับนามแฝงของ %2 ของบัญชีที่ชื่อ \"%3\" ชื่อ %1 ความผิดพลาดที่จะเกิดคือชื่อนี้จะถูกแปลความเป็นนามแฝงของ %3 ไป "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "ชื่อ i-bay \"[_1]\" มีอักขระที่ไม่ถูกต้อง ชื่อ i-bay ต้องต้องเริ่มต้นด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข และเครื่องหมายยัติภังค์ (-) เท่านั้น"
+msgstr "ชื่อ i-bay \"%1\" มีอักขระที่ไม่ถูกต้อง ชื่อ i-bay ต้องต้องเริ่มต้นด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข และเครื่องหมายยัติภังค์ (-) เท่านั้น"
 
 msgid "iba_ADD_IBAY"
 msgstr "เพิ่ม i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "การประมวลผลเนื้อหาเว็บชนิด dynamic content (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "ไม่สามารถสร้างบัญชีให้กับ [_1] (มันมีอยู่แล้วหรือไม่?)"
+msgstr "ไม่สามารถสร้างบัญชีให้กับ %1 (มันมีอยู่แล้วหรือไม่?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "ไม่พบบัญชี [_1] (มันมีอยู่หรือไม่?)"
+msgstr "ไม่พบบัญชี %1 (มันมีอยู่หรือไม่?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "ทั้งอินเตอร์เน็ต (ไม่ต้องกรอกรหัสผ่าน)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "เฉพาะในเครือข่ายท้องถิ่น (ต้องกรอกรหัสผ่าน)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "ชื่อ i-bay \"[_1]\" ยาวเกินไป ความยาวสูงสุดคือไม่เกิน[_1] ตัวอักษร"
+msgstr "ชื่อ i-bay \"%1\" ยาวเกินไป ความยาวสูงสุดคือไม่เกิน%1 ตัวอักษร"
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "ชื่อ i-bay จะต้องประกอบด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข จุด (.) ขีดล่าง (_) ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรเท่านั้น ตัวอย่างที่ถูกต้อง เช่น \"johnson\", \"intra\", และ \"cust3.prj12\" ส่วนที่ไม่ถูกต้อง เช่น \"3associates\", \"John Smith\" และ \"Bus!Partner\" เป็นต้น ชื่อ i-bay จะมีความยาวได้สูงสุด [_1] ตัวอักษร"
+msgstr "ชื่อ i-bay จะต้องประกอบด้วยตัวอักษรตัวพิมพ์เล็ก (ภาษาอังกฤษ) ตัวเลข จุด (.) ขีดล่าง (_) ยัติภังค์ (-) และต้องเริ่มต้นด้วยตัวอักษรเท่านั้น ตัวอย่างที่ถูกต้อง เช่น \"johnson\", \"intra\", และ \"cust3.prj12\" ส่วนที่ไม่ถูกต้อง เช่น \"3associates\", \"John Smith\" และ \"Bus!Partner\" เป็นต้น ชื่อ i-bay จะมีความยาวได้สูงสุด %1 ตัวอักษร"
 
 msgid "iba_NAME_LABEL"
 msgstr "ชื่อ information bay"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "ไม่มี i-bay ที่กำลังถูกตั้งค่า"
 
 msgid "iba_PASSWORD_DESC"
-msgstr "คุณกำลังจะเปลี่ยนรหัสผ่านของ i-bay ชื่อ [_1]"
+msgstr "คุณกำลังจะเปลี่ยนรหัสผ่านของ i-bay ชื่อ %1"
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "การเข้าถึงแบบสาธารณะ (public access) ผ่านหน้าเว็บ และ anonymous ftp"
 
 msgid "iba_REMOVE_DESC"
-msgstr " คุณกำลังจะลบ information bay ชื่อ \"[_1]\" ([_2])\n\n  ทุกไฟล์ใน information bay นี้จะถูกลบทั้งหมด\n\n  คุณแน่ใจหรือว่าต้องการจะลบ information นี้? \n\n  "
+msgstr " คุณกำลังจะลบ information bay ชื่อ \"%1\" (%2)\n\n  ทุกไฟล์ใน information bay นี้จะถูกลบทั้งหมด\n\n  คุณแน่ใจหรือว่าต้องการจะลบ information นี้? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "ลบ information bay"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "การใช้งาน การแชร์ไฟล์ และ ftp ของผู้ใช้"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " โดเมนเสมือน (virtual domain) ที่ตั้งให้ใช้ information bay นี้เป็นที่เก็บข้อมูลของมัน จะถูกเปลี่ยนไปใช้ข้อมูลจาก primary web site แทน (คุณสามารถแก้ไขเป็นอย่างอื่นภายหลังได้) : [_1] "
+msgstr " โดเมนเสมือน (virtual domain) ที่ตั้งให้ใช้ information bay นี้เป็นที่เก็บข้อมูลของมัน จะถูกเปลี่ยนไปใช้ข้อมูลจาก primary web site แทน (คุณสามารถแก้ไขเป็นอย่างอื่นภายหลังได้) : %1 "
 
 msgid "iba_WARG"
 msgstr "เขียน = ผู้ดูแลระบบ, อ่าน = เฉพาะในกลุ่ม"

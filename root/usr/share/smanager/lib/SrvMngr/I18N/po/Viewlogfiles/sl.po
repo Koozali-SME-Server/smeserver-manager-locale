@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Napaka pri procesiranju LOG datoteke.\n\n  <p>Napacen tip porocila \"[_1]\".</p>\n\n  "
+msgstr " Napaka pri procesiranju LOG datoteke.\n\n  <p>Napacen tip porocila \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Tu lahko dolocis nastavitve filtra, ki ti izpise samo zapise, ki se ujemajo z besedami v filtru. Ce ostane to polje prazno bodo prikazani vsi zapisi v datoteki. Pazi pri opciji prenosa LOG datoteke ta opcija ne velja. \n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Ogled dnevniških datotek"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Ojacani zapisi, ki se ujemajo: \"[_1]\"."
+msgstr "Ojacani zapisi, ki se ujemajo: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "LOG datoteka \"[_1]\" je brez zapisov!"
+msgstr "LOG datoteka \"%1\" je brez zapisov!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Izberi LOG datoteko za ogled"
 
 msgid "log_MATCH_HEADER"
-msgstr "Izpis zapisov, ki se ujemajo: \"[_1]\"."
+msgstr "Izpis zapisov, ki se ujemajo: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Lahko izberes tudi opcijo poudarjeno besedilo, ki bo poudarilo vrstico zapisa, ki se ujema z izbranim besedilom. Pazi pri opciji prenosa LOG datoteke ta opcija ne velja. \n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Poglej LOG datoteko"
 
 msgid "log_VIEWING_TIME"
-msgstr "Pogledano [_1]."
+msgstr "Pogledano %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Pripravljam prenos LOG datoteke [_1]."
+#~ msgstr "Pripravljam prenos LOG datoteke %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Tvoja LOG datoteka je pripravljena za prenos. Prenos sledi takoj ko bos kliknil na gubm &quot;Next&quot; ki je spodaj in potrdil prenos datoteke.\n\n  "
 #~ msgid "log_View log files"

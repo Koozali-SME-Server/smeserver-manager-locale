@@ -23,16 +23,16 @@ msgid "Webmail"
 msgstr "(en) Webmail"
 
 msgid "usr_ACCOUNT_CONFLICT"
-msgstr "Грешка: акаунтът \"[_1]\" не може да бъде създаден защото вече има акаунт с това име [_2]."
+msgstr "Грешка: акаунтът \"%1\" не може да бъде създаден защото вече има акаунт с това име %2."
 
 msgid "usr_ACCOUNT_NAME"
 msgstr "потребителско име"
 
 msgid "usr_ACCOUNT_TOO_LONG"
-msgstr "Грешка: името на акаунта е прекалено дълго. Допустимият максимум е [_1] знака."
+msgstr "Грешка: името на акаунта е прекалено дълго. Допустимият максимум е %1 знака."
 
 msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "В потребителското име \"[_1]\" има невалидни символи. Потребителските имена трябва да започват с малка буква и да съдържат само малки букви, цифри, тирета, точки и долни черти."
+msgstr "В потребителското име \"%1\" има невалидни символи. Потребителските имена трябва да започват с малка буква и да съдържат само малки букви, цифри, тирета, точки и долни черти."
 
 msgid "usr_ADD_USER"
 msgstr "Добавяне на потребителски акаунт"
@@ -41,10 +41,10 @@ msgid "usr_CANNOT_CONTAIN_WHITESPACE"
 msgstr "Това поле не може да съдържа празни знаци"
 
 msgid "usr_CANNOT_MODIFY_USER"
-msgstr "Грешка: възникна вътрешна грешка по време на опита за промяна на потребителя \"[_1]\"."
+msgstr "Грешка: възникна вътрешна грешка по време на опита за промяна на потребителя \"%1\"."
 
 msgid "usr_CANNOT_MODIFY_USER_GROUPS"
-msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"%1\" for user \"%2\"."
 
 msgid "usr_CITY"
 msgstr "град"
@@ -101,7 +101,7 @@ msgid "usr_GROUP_MEMBERSHIPS"
 msgstr "Членство в групи"
 
 msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters and must pass a dictionary check."
 
 msgid "usr_LABEL_IPSECRW_DOWNLOAD"
 msgstr "Зареждане на цифров сертификат в IPSec клиент"
@@ -113,7 +113,7 @@ msgid "usr_LOCK"
 msgstr "Заключи"
 
 msgid "usr_LOCKED_ACCOUNT"
-msgstr "Потребителят с име \"[_1]\" бе успешно заключен."
+msgstr "Потребителят с име \"%1\" бе успешно заключен."
 
 msgid "usr_LOCK_ACCOUNT"
 msgstr "(en) Lock account"
@@ -143,13 +143,13 @@ msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
 msgstr "Нова системна парола (проверка)"
 
 msgid "usr_NONE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters."
 
 msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters."
 
 msgid "usr_NO_SUCH_USER"
-msgstr "Грешка: потребителят с име \"[_1]\" не съществува."
+msgstr "Грешка: потребителят с име \"%1\" не съществува."
 
 msgid "usr_NO_USER_ACCOUNTS"
 msgstr "Няма потребители в тази система."
@@ -158,7 +158,7 @@ msgid "usr_P2_TITLE"
 msgstr "Създаване или промяна"
 
 msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
-msgstr "Паролата на потребителя \"[_1]\" бе успешно променена."
+msgstr "Паролата на потребителя \"%1\" бе успешно променена."
 
 msgid "usr_PASSWORD_WIKI"
 msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
@@ -167,7 +167,7 @@ msgid "usr_PHONE_NUMBER"
 msgstr "телефон"
 
 msgid "usr_PSEUDONYM_CLASH"
-msgstr "Грешка: псевдонима \"[_1]\" е вече зает от съществуващ потребител с име \"[_2]\". За да го направите различен добавете инициалите в това поле."
+msgstr "Грешка: псевдонима \"%1\" е вече зает от съществуващ потребител с име \"%2\". За да го направите различен добавете инициалите в това поле."
 
 msgid "usr_REMOVE_ACCOUNT_TITLE"
 msgstr "Премахни потребител"
@@ -188,7 +188,7 @@ msgid "usr_STREET_ADDRESS"
 msgstr "адрес"
 
 msgid "usr_STRONG_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
 
 msgid "usr_SUCCESSFULLY_DELETED_USER"
 msgstr "(en) Successfully deleted user"
@@ -215,7 +215,7 @@ msgid "usr_TAINTED_PASSWORD"
 msgstr "(en)The new password starts with invalid characters."
 
 msgid "usr_TAINTED_USER"
-msgstr "Името на акаунта \"[_1]\" съдържа грешни символи."
+msgstr "Името на акаунта \"%1\" съдържа грешни символи."
 
 msgid "usr_UNACCEPTABLE_CHARS"
 msgstr "Това поле трябва да съдържа само букви, числа, точки, тирета и подчертаващи знаци и да започва с буква"

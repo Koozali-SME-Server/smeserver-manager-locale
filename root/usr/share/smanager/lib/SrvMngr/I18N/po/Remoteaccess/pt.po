@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr " Configuração de shell seguraVocê pode controlar acesso ao Shell Seguro para seu servidor. A configuração pública deve somente ser habilitada por administradores experientes para resolução e diagnóstico de problemas. Nós recomendamos deixar este parâmetro configurado para \"Acesso negado\" a não ser que voce tenha uma razão específica para fazer o contrário. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Configuraração telnet AVISO: Telnet está atualmente habilitada, mas esta opção não é mas suportada. Telnet é inerentemente insegura e somente deve ser usada numa circunstância onde uma prática alternativa não exista. Você deve trocar essa opção para [_1] e usar shell segura se acesso remoto for necessário. Uma vez desabilitada, telnet não irá mais aparecer nessa tela. "
+msgstr " Configuraração telnet AVISO: Telnet está atualmente habilitada, mas esta opção não é mas suportada. Telnet é inerentemente insegura e somente deve ser usada numa circunstância onde uma prática alternativa não exista. Você deve trocar essa opção para %1 e usar shell segura se acesso remoto for necessário. Uma vez desabilitada, telnet não irá mais aparecer nessa tela. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Para adicionar um novo gerenciador remoto da rede, entre com os detalhes abaixo."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Configurações de Telnet"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] É possível permitir que hosts em uma rede remota acessem o gerenciador do servidor entrando essas redes aqui. Use uma máscara de subrede de 255.255.255.255 para limitar o acesso a um determinado host. Qualquer host dentro da faixa especificada estará habilitado a acessar o gerenciador do servidor usando HTTPS. "
+msgstr " %1 É possível permitir que hosts em uma rede remota acessem o gerenciador do servidor entrando essas redes aqui. Use uma máscara de subrede de 255.255.255.255 para limitar o acesso a um determinado host. Qualquer host dentro da faixa especificada estará habilitado a acessar o gerenciador do servidor usando HTTPS. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

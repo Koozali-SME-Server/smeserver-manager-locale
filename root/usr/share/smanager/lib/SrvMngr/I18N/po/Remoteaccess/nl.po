@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr " Beveiligde shell instellingenU kunt de beveiligde shell toegang tot uw server beheren. Publieke toegang mag alleen door ervaren systeembeheerders worden ingeschakeld voor probleemoplossingen op afstand. We raden aan om deze instelling op \"Geen toegang\" te laten staan tenzij u een specifieke reden hebt om dit te niet te doen. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Telnet instellingen WAARSCHUWING: Telnet is momenteel ingeschakeld, maar deze optie wordt niet langer ondersteund. Telnet is onveilig en mag alleen worden gebruikt indien er praktisch gezien geen alternatieven bestaan. Het is aan te raden de optie te wijzigen in [_1] en gebruik te maken van beveiligde shell indien toegang op afstand noodzakelijk is. Eenmaal uitgeschakeld, zal telnet niet meer op dit scherm verschijnen. "
+msgstr " Telnet instellingen WAARSCHUWING: Telnet is momenteel ingeschakeld, maar deze optie wordt niet langer ondersteund. Telnet is onveilig en mag alleen worden gebruikt indien er praktisch gezien geen alternatieven bestaan. Het is aan te raden de optie te wijzigen in %1 en gebruik te maken van beveiligde shell indien toegang op afstand noodzakelijk is. Eenmaal uitgeschakeld, zal telnet niet meer op dit scherm verschijnen. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Voer hieronder de details in van een nieuw op afstand beheer netwerk."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Telnet-instellingen"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] De mogelijkheid bestaat om hosts op een extern netwerk toegang te geven tot de Server Manager door deze netwerken hier in te geven. Gebruik het subnet masker 255.255.255.255 om de toegang te beperken tot de gespecificeerde host. Elke host binnen het opgegeven bereik zal via HTTPS toegang kunnen verkrijgen tot de Server Manager. "
+msgstr " %1 De mogelijkheid bestaat om hosts op een extern netwerk toegang te geven tot de Server Manager door deze netwerken hier in te geven. Gebruik het subnet masker 255.255.255.255 om de toegang te beperken tot de gespecificeerde host. Elke host binnen het opgegeven bereik zal via HTTPS toegang kunnen verkrijgen tot de Server Manager. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

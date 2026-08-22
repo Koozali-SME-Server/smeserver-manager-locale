@@ -47,13 +47,13 @@ msgid "ln_LOCAL_NETWORK_NONE"
 msgstr "(en) No Local networks found"
 
 msgid "ln_NETWORK_ALREADY_ADDED"
-msgstr "Fout: netwerk [_1] (afgeleid van netwerk [_2] en subnet masker [_3]) is reeds aanwezig. Het netwerk is niet toegevoegd."
+msgstr "Fout: netwerk %1 (afgeleid van netwerk %2 en subnet masker %3) is reeds aanwezig. Het netwerk is niet toegevoegd."
 
 msgid "ln_NETWORK_ALREADY_LOCAL"
-msgstr "Fout: netwerk [_1] (afgeleid van netwerk [_2] en subnet masker [_3]) wordt al gezien als lokaal. Het netwerk is niet toegevoegd."
+msgstr "Fout: netwerk %1 (afgeleid van netwerk %2 en subnet masker %3) wordt al gezien als lokaal. Het netwerk is niet toegevoegd."
 
 msgid "ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK"
-msgstr "Fout: router adres [_1] is niet toegankelijk vanaf het lokale netwerk. Het netwerk is niet toegevoegd."
+msgstr "Fout: router adres %1 is niet toegankelijk vanaf het lokale netwerk. Het netwerk is niet toegevoegd."
 
 msgid "ln_NO_SUCH_NETWORK"
 msgstr "(en)Network not found in network db"
@@ -77,13 +77,13 @@ msgid "ln_SUBNET_MASK"
 msgstr "Subnet masker"
 
 msgid "ln_SUCCESS_NETWORK_RANGE"
-msgstr "Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan [_4] IP adressen in het bereik [_5] tot [_6]."
+msgstr "Netwerk %1/%2 via router %3 is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan %4 IP adressen in het bereik %5 tot %6."
 
 msgid "ln_SUCCESS_NONSTANDARD_RANGE"
-msgstr "  Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd. \n\n  <p> De server zal lokale toegangsprivileges toekennen aan [_1] IP adressen in het bereik [_2] tot [_3]. </p>\n\n  <p> Waarschuwing: de ProFTPd FTP server herkent dit niet-standaard deelnetwerkmasker niet. De versimpelde specificatie <b>[_1]</b> zal in plaats hiervan worden gebruikt. </p>\n\n  "
+msgstr "  Netwerk %1/%2 via router %3 is met succes toegevoegd. \n\n  <p> De server zal lokale toegangsprivileges toekennen aan %1 IP adressen in het bereik %2 tot %3. </p>\n\n  <p> Waarschuwing: de ProFTPd FTP server herkent dit niet-standaard deelnetwerkmasker niet. De versimpelde specificatie <b>%1</b> zal in plaats hiervan worden gebruikt. </p>\n\n  "
 
 msgid "ln_SUCCESS_REMOVED_NETWORK"
-msgstr "Netwerk [_1]/[_2] via router [_3] is met succes verwijderd."
+msgstr "Netwerk %1/%2 via router %3 is met succes verwijderd."
 
 msgid "ln_SUCCESS_SINGLE_ADDRESS"
-msgstr "Netwerk [_1]/[_2] via router [_3] is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan het enkele IP adres [_4]."
+msgstr "Netwerk %1/%2 via router %3 is met succes toegevoegd. De server zal lokale toegangsprivileges toekennen aan het enkele IP adres %4."

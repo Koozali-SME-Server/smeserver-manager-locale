@@ -11,13 +11,13 @@ msgstr ""
 "Language: es\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "La cuenta \"[_1]\" es una cuenta [_2] existente."
+msgstr "La cuenta \"%1\" es una cuenta %2 existente."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " La cuenta \"[_1]\" entra en conflicto con los detalles del seudónimo para [_2] de la cuenta \"[_3]\". [_1] es un seudónimo de [_3]. "
+msgstr " La cuenta \"%1\" entra en conflicto con los detalles del seudónimo para %2 de la cuenta \"%3\". %1 es un seudónimo de %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "El nombre de i-bay \"[_1]\" contiene caracteres no válidos. Los nombres de i-bays deben comenzar con minúscula y deben contener sólo minúsculas, números y guiones."
+msgstr "El nombre de i-bay \"%1\" contiene caracteres no válidos. Los nombres de i-bays deben comenzar con minúscula y deben contener sólo minúsculas, números y guiones."
 
 msgid "iba_ADD_IBAY"
 msgstr "Añadir i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Ejecución de contenido dinámico (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "No se puede crear una nueva cuenta para [_1] (¿ya existe?)"
+msgstr "No se puede crear una nueva cuenta para %1 (¿ya existe?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "No se puede encontrar la cuenta de [_1] (¿existe?)"
+msgstr "No se puede encontrar la cuenta de %1 (¿existe?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Toda la Web (no se requiere contraseña)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Red local (se requiere contraseña)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "El nombre de la i-bay \"[_1]\" es demasiado largo. El máximo es de [_1] caracteres."
+msgstr "El nombre de la i-bay \"%1\" es demasiado largo. El máximo es de %1 caracteres."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "El nombre de la bahía de información debe contener sólo minúsculas, números, puntos, guiones y guiones bajos y debe comenzar con una minúscula. Por ejemplo \"rojas\", \"intra\" y \"client3.prj12\" son nombres válidos, pero \"3asociados\", \"Juan Arancibia\" y \"Bus!Socio\" no lo son. El nombre está limitado a [_1] caracteres."
+msgstr "El nombre de la bahía de información debe contener sólo minúsculas, números, puntos, guiones y guiones bajos y debe comenzar con una minúscula. Por ejemplo \"rojas\", \"intra\" y \"client3.prj12\" son nombres válidos, pero \"3asociados\", \"Juan Arancibia\" y \"Bus!Socio\" no lo son. El nombre está limitado a %1 caracteres."
 
 msgid "iba_NAME_LABEL"
 msgstr "Nombre de la bahía de información"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "No hay i-bays actualmente configuradas."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Esta a punto de cambiar la contraseña para la i-bay [_1]."
+msgstr "Esta a punto de cambiar la contraseña para la i-bay %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Acceso público mediante Web o FTP anónimo"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Está a punto de eliminar la bahía de información \"[_1]\" ([_2]). \n\n   Se borrarán todos los archivos pertenecientes a esta bahía de información. \n\n   ¿Está seguro de que desea eliminar esta bahía de información? \n\n  "
+msgstr "  Está a punto de eliminar la bahía de información \"%1\" (%2). \n\n   Se borrarán todos los archivos pertenecientes a esta bahía de información. \n\n   ¿Está seguro de que desea eliminar esta bahía de información? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Eliminar bahía de información"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Acceso de usuario mediante uso compartido de archivos o FTP del usuario"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " Los siguientes dominios virtuales estaban utilizando esta bahía de información como su contenido y se cambiarán al sitio Web primario (posteriormente, puede cambiarlos a algo diferente): [_1] "
+msgstr " Los siguientes dominios virtuales estaban utilizando esta bahía de información como su contenido y se cambiarán al sitio Web primario (posteriormente, puede cambiarlos a algo diferente): %1 "
 
 msgid "iba_WARG"
 msgstr "Escritura = admin, Lectura = grupo"

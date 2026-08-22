@@ -23,16 +23,16 @@ msgid "Webmail"
 msgstr "(en) Webmail"
 
 msgid "usr_ACCOUNT_CONFLICT"
-msgstr "Ошибка: учётная запись \"[_1]\" не может быть создана, т.к. уже есть учётная запись [_2] с таким именем."
+msgstr "Ошибка: учётная запись \"%1\" не может быть создана, т.к. уже есть учётная запись %2 с таким именем."
 
 msgid "usr_ACCOUNT_NAME"
 msgstr "Имя учётной записи"
 
 msgid "usr_ACCOUNT_TOO_LONG"
-msgstr "Ошибка: слишком длинное имя учётной записи. Максимум - [_1] символов."
+msgstr "Ошибка: слишком длинное имя учётной записи. Максимум - %1 символов."
 
 msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Имя учётной записи \"[_1]\" содержит недопустимые символы. Имена учётных записей должны начинаться с прописной буквы и содержать только прописные буквы, цифры, дефисы, точки и подчёркивания."
+msgstr "Имя учётной записи \"%1\" содержит недопустимые символы. Имена учётных записей должны начинаться с прописной буквы и содержать только прописные буквы, цифры, дефисы, точки и подчёркивания."
 
 msgid "usr_ADD_USER"
 msgstr "Добавить учетную запись пользователя"
@@ -41,10 +41,10 @@ msgid "usr_CANNOT_CONTAIN_WHITESPACE"
 msgstr "Это поле не может содержать пробелы"
 
 msgid "usr_CANNOT_MODIFY_USER"
-msgstr "Ошибка: произошла внутренняя ошибка при попытке изменить пользователя \"[_1]\"."
+msgstr "Ошибка: произошла внутренняя ошибка при попытке изменить пользователя \"%1\"."
 
 msgid "usr_CANNOT_MODIFY_USER_GROUPS"
-msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"%1\" for user \"%2\"."
 
 msgid "usr_CITY"
 msgstr "Город"
@@ -101,7 +101,7 @@ msgid "usr_GROUP_MEMBERSHIPS"
 msgstr "Членство в группах"
 
 msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+msgstr "(en)The password must be composed of at least %1 characters with uppercase and lowercase letters and must pass a dictionary check."
 
 msgid "usr_LABEL_IPSECRW_DOWNLOAD"
 msgstr "Загрузите цифровой сертификат в клиента IPSec"
@@ -113,7 +113,7 @@ msgid "usr_LOCK"
 msgstr "Блокировать"
 
 msgid "usr_LOCKED_ACCOUNT"
-msgstr "Успешно заблокирована учётная запись пользователя \"[_1]\"."
+msgstr "Успешно заблокирована учётная запись пользователя \"%1\"."
 
 msgid "usr_LOCK_ACCOUNT"
 msgstr "(en) Lock account"
@@ -143,13 +143,13 @@ msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
 msgstr "Новый системный пароль (подтверждение)"
 
 msgid "usr_NONE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password must be composed of at least [_1] characters."
+msgstr "(en)The password must be composed of at least %1 characters."
 
 msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
-msgstr "(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters."
+msgstr "(en)The password must be composed of at least %1 characters with uppercase and lowercase letters."
 
 msgid "usr_NO_SUCH_USER"
-msgstr "Ошибка: учётная запись пользователя \"[_1]\" не существует."
+msgstr "Ошибка: учётная запись пользователя \"%1\" не существует."
 
 msgid "usr_NO_USER_ACCOUNTS"
 msgstr "В этой системе нет учётных записей пользователей."
@@ -158,7 +158,7 @@ msgid "usr_P2_TITLE"
 msgstr "Создать или изменить"
 
 msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
-msgstr "Успешно изменён пароль пользователя \"[_1]\"."
+msgstr "Успешно изменён пароль пользователя \"%1\"."
 
 msgid "usr_PASSWORD_WIKI"
 msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
@@ -167,7 +167,7 @@ msgid "usr_PHONE_NUMBER"
 msgstr "Номер телефона"
 
 msgid "usr_PSEUDONYM_CLASH"
-msgstr "Ошибка: псевдоним \"[_1]\" уже дан существующей учетной записи пользователя \"[_2]\". Для различения, добавьте инициалы в это поле."
+msgstr "Ошибка: псевдоним \"%1\" уже дан существующей учетной записи пользователя \"%2\". Для различения, добавьте инициалы в это поле."
 
 msgid "usr_REMOVE_ACCOUNT_TITLE"
 msgstr "Удалить учётную запись пользователя"
@@ -188,7 +188,7 @@ msgid "usr_STREET_ADDRESS"
 msgstr "Улица"
 
 msgid "usr_STRONG_PASSWORD_DESCRIPTION"
-msgstr "(en)The password must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+msgstr "(en)The password must be composed of at least %1 characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
 
 msgid "usr_SUCCESSFULLY_DELETED_USER"
 msgstr "(en) Successfully deleted user"
@@ -215,7 +215,7 @@ msgid "usr_TAINTED_PASSWORD"
 msgstr "(en)The new password starts with invalid characters."
 
 msgid "usr_TAINTED_USER"
-msgstr "Имя учётной записи \"[_1]\" содержит недопустимые символы."
+msgstr "Имя учётной записи \"%1\" содержит недопустимые символы."
 
 msgid "usr_UNACCEPTABLE_CHARS"
 msgstr "Это поле должно содержать только буквы, цифры, точки, дефисы и подчёркивания и начинаться с буквы"

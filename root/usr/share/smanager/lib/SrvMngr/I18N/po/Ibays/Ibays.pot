@@ -9,15 +9,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. The account \"[_1]\" is an existing [_2] account.
+#. The account \"%1\" is an existing %2 account.
 msgid "iba_ACCOUNT_EXISTS"
 msgstr ""
 
-#. The account \"[_1]\" clashes with pseudonym\ndetails for [_2] account \"[_3]\".\n[_1] is a pseudonym for [_2].
+#. The account \"%1\" clashes with pseudonym\ndetails for %2 account \"%3\".\n%1 is a pseudonym for %2.
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
 msgstr ""
 
-#. The i-bay name \"[_1]\" contains invalid characters.\nI-bay names must start with a lower case letter and contain\nonly lower case letters, numbers, and hyphens.
+#. The i-bay name \"%1\" contains invalid characters.\nI-bay names must start with a lower case letter and contain\nonly lower case letters, numbers, and hyphens.
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
 msgstr ""
 
@@ -33,11 +33,11 @@ msgstr ""
 msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr ""
 
-#. Can't create new account for [_1] (does it already exist?)
+#. Can't create new account for %1 (does it already exist?)
 msgid "iba_CANT_CREATE_IBAY"
 msgstr ""
 
-#. Can't find account for [_1] (does it exist?)
+#. Can't find account for %1 (does it exist?)
 msgid "iba_CANT_FIND_IBAY"
 msgstr ""
 
@@ -97,11 +97,11 @@ msgstr ""
 msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr ""
 
-#. The i-bay name \"[_1]\" is too long. The maximum is \n[_2] characters.
+#. The i-bay name \"%1\" is too long. The maximum is \n%2 characters.
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
 msgstr ""
 
-#. The information bay name should contain only lower-case\nletters, numbers, periods, hyphens and underscores, and\nshould start with a lower-case letter. For example\n\"johnson\", \"intra\", and \"cust3.prj12\" are all valid\nnames, but \"3associates\", \"John Smith\" and\n\"Bus!Partner\" are not. The name is limited to [_1] characters.
+#. The information bay name should contain only lower-case\nletters, numbers, periods, hyphens and underscores, and\nshould start with a lower-case letter. For example\n\"johnson\", \"intra\", and \"cust3.prj12\" are all valid\nnames, but \"3associates\", \"John Smith\" and\n\"Bus!Partner\" are not. The name is limited to %1 characters.
 msgid "iba_NAME_FIELD_DESC"
 msgstr ""
 
@@ -117,7 +117,7 @@ msgstr ""
 msgid "iba_NO_IBAYS"
 msgstr ""
 
-#. You are about to change the password for the i-bay [_1].
+#. You are about to change the password for the i-bay %1.
 msgid "iba_PASSWORD_DESC"
 msgstr ""
 
@@ -125,7 +125,7 @@ msgstr ""
 msgid "iba_PUBLIC_ACCESS"
 msgstr ""
 
-#. You are about to remove the information bay [_1] ([_2]).\nAll files belonging to this information bay will be deleted.\nAre you sure you wish to remove this information bay?
+#. You are about to remove the information bay %1 (%2).\nAll files belonging to this information bay will be deleted.\nAre you sure you wish to remove this information bay?
 msgid "iba_REMOVE_DESC"
 msgstr ""
 

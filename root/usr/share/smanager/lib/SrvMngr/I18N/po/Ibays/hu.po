@@ -11,13 +11,13 @@ msgstr ""
 "Language: hu\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "A \"[_1]\" nevű fiók egy létező [_2] fiók."
+msgstr "A \"%1\" nevű fiók egy létező %2 fiók."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " A \"[_1]\" nevű fiók ütközik az [_2]\"[_3]\" fiók álnevével. A[_1] az [_3] álneve. "
+msgstr " A \"%1\" nevű fiók ütközik az %2\"%3\" fiók álnevével. A%1 az %3 álneve. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "A \"[_1]\" adattár neve érvénytelen karaktereket tartalmaz. Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. "
+msgstr "A \"%1\" adattár neve érvénytelen karaktereket tartalmaz. Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. "
 
 msgid "iba_ADD_IBAY"
 msgstr "i-bay hozzáadása"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Dinamikus tartalom engedélyezése (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "A [_1] névhez nem lehet fiókot létrehozni (már létezik?)"
+msgstr "A %1 névhez nem lehet fiókot létrehozni (már létezik?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "A [_1] névhez nem található felhasználói fiók (létezik?)"
+msgstr "A %1 névhez nem található felhasználói fiók (létezik?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Az egész Internet (nem kell jelszó)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Helyi hálózat (jelszó kell)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "A \"[_1]\" adattár neve túl hosszú. Maximum [_1] karakter hosszú lehet."
+msgstr "A \"%1\" adattár neve túl hosszú. Maximum %1 karakter hosszú lehet."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. Például \"johnson\", \"intra\", and \"cust3.prj12\" használható nevek, de az \"3associates\", \"John Smith\" and \"Bus!Partner\" nevek nem. A név [_1] karakter hosszú lehet."
+msgstr "Az adattárak neve kis betűvel kell hogy kezdődjön és csak kisbetűket, számokat és kötőjeleket tartalmazhat. Például \"johnson\", \"intra\", and \"cust3.prj12\" használható nevek, de az \"3associates\", \"John Smith\" and \"Bus!Partner\" nevek nem. A név %1 karakter hosszú lehet."
 
 msgid "iba_NAME_LABEL"
 msgstr "Adattár neve"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Nincsenek adattárak beállítva."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Most készül megváltoztatni a [_1] nevű adattár jelszavát."
+msgstr "Most készül megváltoztatni a %1 nevű adattár jelszavát."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Publikus hozzáférés web-en, vagy névtelen ftp-n keresztül"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Most készül eltávolítani a \"[_1]\" ([_2]) adattárat. \n\n   Minden fájl, amit az adattár tartalmaz, megsemmisül. \n\n   Biztos benne, hogy törli az adattárat? \n\n  "
+msgstr "  Most készül eltávolítani a \"%1\" (%2) adattárat. \n\n   Minden fájl, amit az adattár tartalmaz, megsemmisül. \n\n   Biztos benne, hogy törli az adattárat? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Adattár eltávolítása"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Felhasználói hozzáférés fájlmegosztáson, vagy ftp-n keresztül"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " A következő virtuális domének ezt az adattárat használták tartalomként, ezért ezek ezentúl az elsődleges webhelyet jelenítik meg (később ezek átállíthatók másra): [_1] "
+msgstr " A következő virtuális domének ezt az adattárat használták tartalomként, ezért ezek ezentúl az elsődleges webhelyet jelenítik meg (később ezek átállíthatók másra): %1 "
 
 msgid "iba_WARG"
 msgstr "Írás = admin, Olvasás = csoport"

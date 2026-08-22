@@ -11,13 +11,13 @@ msgstr ""
 "Language: de\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "Das Konto \"[_1]\" ist ein existierendes [_2] Konto."
+msgstr "Das Konto \"%1\" ist ein existierendes %2 Konto."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " Das Konto \"[_1]\" kollidiert mit den Pseudonymangaben für [_2] Konto \"[_3]\". [_1] ist ein Pseudonym für [_3]. "
+msgstr " Das Konto \"%1\" kollidiert mit den Pseudonymangaben für %2 Konto \"%3\". %1 ist ein Pseudonym für %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Der i-bay Name \"[_1]\" enthält ungültige Zeichen. Der i-bay Name darf nur Kleinbuchstaben, Nummern, Punkte, Unterstriche und Bindestriche enthalten und muß mit einem Kleinbuchstaben beginnen."
+msgstr "Der i-bay Name \"%1\" enthält ungültige Zeichen. Der i-bay Name darf nur Kleinbuchstaben, Nummern, Punkte, Unterstriche und Bindestriche enthalten und muß mit einem Kleinbuchstaben beginnen."
 
 msgid "iba_ADD_IBAY"
 msgstr "I-bay hinzufügen"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Ausführung dynamischer Inhalte(CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Kann das neue Konto für [_1] nicht anlegen (Besteht es bereits?)"
+msgstr "Kann das neue Konto für %1 nicht anlegen (Besteht es bereits?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Kann das Konto für [_1] nicht finden (Wurde es angelegt?)"
+msgstr "Kann das Konto für %1 nicht finden (Wurde es angelegt?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Gesamtes Internet (Kennwort wird nicht benötigt)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Lokales Netzwerk (Kennwort wird benötigt)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "Der i-bay Name \"[_1]\" ist zu lang. Die maximale Länge beträgt [_1] Zeichen."
+msgstr "Der i-bay Name \"%1\" ist zu lang. Die maximale Länge beträgt %1 Zeichen."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "Der i-bay Name darf nur Kleinbuchstaben, Zahlen, Punkte, Unterstriche und Bindestriche enthalten und sollte immer mit einem Kleinbuchstaben beginnen. Zum Beispiel \"susan\", \"h.müller\" und \"hans-josef\" sind zulässige i-bay Namen, jedoch \"3freunde\", \"Heinz-Müller\" oder \"heinz!müller\" werden nicht akzeptiert. Der Name darf max. [_1] Zeichen enthalten."
+msgstr "Der i-bay Name darf nur Kleinbuchstaben, Zahlen, Punkte, Unterstriche und Bindestriche enthalten und sollte immer mit einem Kleinbuchstaben beginnen. Zum Beispiel \"susan\", \"h.müller\" und \"hans-josef\" sind zulässige i-bay Namen, jedoch \"3freunde\", \"Heinz-Müller\" oder \"heinz!müller\" werden nicht akzeptiert. Der Name darf max. %1 Zeichen enthalten."
 
 msgid "iba_NAME_LABEL"
 msgstr "i-bay Name"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Zur Zeit sind keine i-bays konfiguriert."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Sie ändern gerade das Kennwort für das i-bay [_1]."
+msgstr "Sie ändern gerade das Kennwort für das i-bay %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Öffentlicher Zugang über Web oder anonymous FTP"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Sie löschen gerade das i-bay \"[_1]\" ([_2]). \n\n   Alle Dateien im i-bay werden gelöscht. \n\n   <b>Sind Sie sicher, daß Sie das i-bay löschen wollen?</b> \n\n  "
+msgstr "  Sie löschen gerade das i-bay \"%1\" (%2). \n\n   Alle Dateien im i-bay werden gelöscht. \n\n   <b>Sind Sie sicher, daß Sie das i-bay löschen wollen?</b> \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "i-bay löschen"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Benutzerzugang über freigegebene Ordner oder FTP mit Login"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " Die folgenden virtuellen Domänen benutzten dieses i-bay, und ihr Inhalt wird auf die primäre Webseite geändert (Sie können dies anschließend ändern): [_1] "
+msgstr " Die folgenden virtuellen Domänen benutzten dieses i-bay, und ihr Inhalt wird auf die primäre Webseite geändert (Sie können dies anschließend ändern): %1 "
 
 msgid "iba_WARG"
 msgstr "Schreiben = admin, Lesen = Gruppe"

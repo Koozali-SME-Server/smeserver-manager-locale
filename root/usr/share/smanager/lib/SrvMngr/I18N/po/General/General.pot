@@ -189,7 +189,7 @@ msgstr ""
 msgid "FM_IP_NUMBER2"
 msgstr ""
 
-#. [_1] is more than 255
+#. %1 is more than 255
 msgid "FM_IP_NUMBER3"
 msgstr ""
 

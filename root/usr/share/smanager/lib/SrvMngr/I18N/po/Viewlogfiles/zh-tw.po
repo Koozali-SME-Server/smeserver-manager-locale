@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " 指定日誌檔名時錯誤。\n\n  <p>\"[_1]\"ˋ無效的報告形式。</p>\n\n  "
+msgstr " 指定日誌檔名時錯誤。\n\n  <p>\"%1\"ˋ無效的報告形式。</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " 您能選擇性地指定過濾器模式來呈現日誌檔中符合條件的行。若您將此區塊留白，日誌檔中的所有行將完整呈現。請注意，若您欲下載日誌檔，此選項是不使用的。\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "檢視記錄檔"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "醒目行符合：\"[_1]\""
+msgstr "醒目行符合：\"%1\""
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "日誌檔 \"[_1]\" 是空的！"
+msgstr "日誌檔 \"%1\" 是空的！"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "請選擇一份日誌檔來檢視"
 
 msgid "log_MATCH_HEADER"
-msgstr "顯示符合 \"[_1]\"的行。"
+msgstr "顯示符合 \"%1\"的行。"
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " 您亦可選擇性地指定醒目模式，以粗體字標示日誌檔中符合條件的行。醒目模式適用於任何已符合過濾條件的行。請注意，若您欲下載日誌檔，此選項是不使用的。\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "檢視日誌檔"
 
 msgid "log_VIEWING_TIME"
-msgstr "在 [_1] 檢視。"
+msgstr "在 %1 檢視。"
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "正準備下載日誌檔[_1]。"
+#~ msgstr "正準備下載日誌檔%1。"
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " 您要下載的日誌檔已準備就緒。當您點擊下方的 &quot;下一步&quot; 按鍵後，下載即將執行，並請確認您的瀏覽器允許彈現視窗。\n\n  "
 #~ msgid "log_View log files"

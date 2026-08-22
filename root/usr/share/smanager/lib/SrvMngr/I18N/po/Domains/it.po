@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Aggiungi dominio"
 
 msgid "dom_CONTENT"
-msgstr "I-bay per [_1]"
+msgstr "I-bay per %1"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "Per il sito web, è possibile selezionare il sito principale o qualsiasi i-bay."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Modifica le impostazioni DNS aziendali"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Errore: carattere inaspettato o mancante nella descrizione [_1]. Dominio non creato."
+msgstr "Errore: carattere inaspettato o mancante nella descrizione %1. Dominio non creato."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Errore: dominio [_1] già in uso. Dominio non creato."
+msgstr "Errore: dominio %1 già in uso. Dominio non creato."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Errore: carattere inaspettato o mancante nel nome di dominio [_1]. Il nome può contenere uno o più lettere, numeri, punti e segni meno (trattino). Dominio non creato."
+msgstr "Errore: carattere inaspettato o mancante nel nome di dominio %1. Il nome può contenere uno o più lettere, numeri, punti e segni meno (trattino). Dominio non creato."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Errore: problema interno durante la rimozione del dominio [_1]."
+msgstr "Errore: problema interno durante la rimozione del dominio %1."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Creando un dominio, il server potrà ricevere e-mail per quel dominio e potrà anche ospitare il sito web di quel dominio.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Aggiungi dominio</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Modifica dominio"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Errore: [_1] non è un dominio esistente."
+msgstr "Errore: %1 non è un dominio esistente."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "Sito principale"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  Sta per essere rimosso il dominio [_1] ([_2]). \n\n  <p> <b>Siete sicuri di voler rimuovere questo dominio ?</b> </p>\n\n  "
+msgstr "  Sta per essere rimosso il dominio %1 (%2). \n\n  <p> <b>Siete sicuri di voler rimuovere questo dominio ?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Rimuovi dominio"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Dominio [_1] creato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell'operazione."
+msgstr "Dominio %1 creato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell'operazione."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Dominio [_1] eliminato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell'operazione."
+msgstr "Dominio %1 eliminato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell'operazione."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Dominio [_1] modificato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell'operazione."
+msgstr "Dominio %1 modificato con successo. Riavvio del server web in corso. I link su questa pagina rimarranno inattivi fino al completamento dell'operazione."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Errore: dominio [_1] è il dominio di sistema. Impossibile creare un dominio con lo stesso nome. Dominio non creato."
+msgstr "Errore: dominio %1 è il dominio di sistema. Impossibile creare un dominio con lo stesso nome. Dominio non creato."
 
 msgid "dom_corporate"
 msgstr "Server DNS aziendale"

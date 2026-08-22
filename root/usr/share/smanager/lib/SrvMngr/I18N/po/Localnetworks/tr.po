@@ -47,13 +47,13 @@ msgid "ln_LOCAL_NETWORK_NONE"
 msgstr "(en) No Local networks found"
 
 msgid "ln_NETWORK_ALREADY_ADDED"
-msgstr "Hata: ağ [_1] (mevcut ağ [_2] ve alt ağ maskesi [_3]) zaten eklenmiş. Ağ eklenemedi."
+msgstr "Hata: ağ %1 (mevcut ağ %2 ve alt ağ maskesi %3) zaten eklenmiş. Ağ eklenemedi."
 
 msgid "ln_NETWORK_ALREADY_LOCAL"
-msgstr "Hata: ağ [_1] (yerel ağ [_2] ve alt ağ maskesi [_3]) yerel olarak kullanımda. Ağ eklenemedi."
+msgstr "Hata: ağ %1 (yerel ağ %2 ve alt ağ maskesi %3) yerel olarak kullanımda. Ağ eklenemedi."
 
 msgid "ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK"
-msgstr "Hata: yönlendirme [_1] yerel ağ tarafından erişilemez. Ağ eklenemedi."
+msgstr "Hata: yönlendirme %1 yerel ağ tarafından erişilemez. Ağ eklenemedi."
 
 msgid "ln_NO_SUCH_NETWORK"
 msgstr "(en)Network not found in network db"
@@ -77,13 +77,13 @@ msgid "ln_SUBNET_MASK"
 msgstr "Alt ağ maskesi"
 
 msgid "ln_SUCCESS_NETWORK_RANGE"
-msgstr "Ağ [_1]/[_2] , yönlendirme [_3] başarıyla eklendi. Sunucunuz [_4] den [_5] kadar olan toplam [_6] IP adresine yerel erişim hizmeti tanıyacaktır."
+msgstr "Ağ %1/%2 , yönlendirme %3 başarıyla eklendi. Sunucunuz %4 den %5 kadar olan toplam %6 IP adresine yerel erişim hizmeti tanıyacaktır."
 
 msgid "ln_SUCCESS_NONSTANDARD_RANGE"
-msgstr "  Ağ [_1]/[_2] , yönlendirme [_3] başarıyla eklendi. \n\n  <p> Sunucunuz [_1] den [_2] kadar olan toplam [_3] IP adresine yerel erişim hizmeti tanıyacaktır. </p>\n\n  <p> Dikkat: ProFTPd FTP sunucusu bu standart olmayan alt ağ maskesini kullanamaz. Bunun yerine standart <b>[_1]</b> alt ağ maskesini kullanacaktır. </p>\n\n  "
+msgstr "  Ağ %1/%2 , yönlendirme %3 başarıyla eklendi. \n\n  <p> Sunucunuz %1 den %2 kadar olan toplam %3 IP adresine yerel erişim hizmeti tanıyacaktır. </p>\n\n  <p> Dikkat: ProFTPd FTP sunucusu bu standart olmayan alt ağ maskesini kullanamaz. Bunun yerine standart <b>%1</b> alt ağ maskesini kullanacaktır. </p>\n\n  "
 
 msgid "ln_SUCCESS_REMOVED_NETWORK"
-msgstr "Ağ [_1]/[_2] , yönlendirme [_3] başarıyla silindi."
+msgstr "Ağ %1/%2 , yönlendirme %3 başarıyla silindi."
 
 msgid "ln_SUCCESS_SINGLE_ADDRESS"
-msgstr "Ağ [_1]/[_2] , yönlendirme [_3] başarıyla eklendi. Sunucunuz [_4] IP adresine yerel erişim yetkisi tanıyacaktır."
+msgstr "Ağ %1/%2 , yönlendirme %3 başarıyla eklendi. Sunucunuz %4 IP adresine yerel erişim yetkisi tanıyacaktır."

@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Fel vid angivandet av namnet på loggfilen.\n\n  <p>Ogiltig rapporttyp \"[_1]\".</p>\n\n  "
+msgstr " Fel vid angivandet av namnet på loggfilen.\n\n  <p>Ogiltig rapporttyp \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Du har även möjligheten att ange ett filtermönster för att visa endast de rader från loggfilen som matchar detta mönster. Om du lämnar fältet tomt kommer alla tillgängliga rader att visas. Observera att denna möjlighet inte går att använda vid nerladdning av loggfilen.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Visa loggfiler"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Highlighta rader som matchar: \"[_1]\"."
+msgstr "Highlighta rader som matchar: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Loggfilen \"[_1]\" är tom!"
+msgstr "Loggfilen \"%1\" är tom!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Välj en loggfil för granskning"
 
 msgid "log_MATCH_HEADER"
-msgstr "Visar rader som matchar: \"[_1]\"."
+msgstr "Visar rader som matchar: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Du kan också ange ett mönster för att markera rader i fet stil i loggfilen, som matchar mönstret. Mönstret för markeringen appliceras på alla rader som tidigare har matchat filtermönstret. Observera att denna funktion inte används om du laddar ner loggfilen.\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Granska loggfil"
 
 msgid "log_VIEWING_TIME"
-msgstr "Granskad kl [_1]."
+msgstr "Granskad kl %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Förbereder att ladda ner loggfilen [_1]."
+#~ msgstr "Förbereder att ladda ner loggfilen %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Din loggfil förbereds nu. Processen kommer att fortsätta så snart du klickar på &quot;Nästa&quot;-knappen nedan och du tillåter din webbläsare att ladda ner filen via det pop-up fönster som kommer fram.\n\n  "
 #~ msgid "log_View log files"

@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Log dosyasının adı yanlış.\n\n  <p> \"[_1]\" dosyası geçersiz log içeriyor.</p>\n\n  "
+msgstr " Log dosyasının adı yanlış.\n\n  <p> \"%1\" dosyası geçersiz log içeriyor.</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Görmek istediğiniz kelimeleri içeren satırları filtreleyebilirsiniz. Bir kelime belirtmediğiniz zaman log dosyasının tamamı görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Günlük dosyalarını görüntüle"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr " \"[_1]\" ile eşleşip vurgulanan satırlar."
+msgstr " \"%1\" ile eşleşip vurgulanan satırlar."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "[_1]\" dosyası boş!"
+msgstr "%1\" dosyası boş!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Görmek istediğiniz log dosyasını seçin"
 
 msgid "log_MATCH_HEADER"
-msgstr " \"[_1]\" ile eşleşen satırlar."
+msgstr " \"%1\" ile eşleşen satırlar."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Ayrıca isteğe bağlı olarak vurgulamak istediğiniz kelimeyle eşleşen log dosyası satırı, kalın bir hat olarak görüntülemek için belirtebilirsiniz. Filtre ile eşleşen satırlar kalın bir hat olarak görüntülenecektir. Log dosyasını indirdiğinizde bu opsiyonu kullanamazsınız.\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Log dosyasını görüntüle"
 
 msgid "log_VIEWING_TIME"
-msgstr "Görüntülenme zamanı [_1]."
+msgstr "Görüntülenme zamanı %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Log dosyası indirme için hazırlanıyor [_1]."
+#~ msgstr "Log dosyası indirme için hazırlanıyor %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Log dosyası indirmek için hazır. İndirmek için &quot;Next&quot; butonuna tıkladığınızda, dosya indirme pencersi belirecektir, dosyayı istediğiniz yere yükleyebilirsiniz.\n\n  "
 #~ msgid "log_View log files"

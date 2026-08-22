@@ -23,16 +23,16 @@ msgid "Webmail"
 msgstr "(en) Webmail"
 
 msgid "usr_ACCOUNT_CONFLICT"
-msgstr "Napaka: Racuna \"[_1]\" ne mores kreirati ker tak racun [_2] ze obstaja."
+msgstr "Napaka: Racuna \"%1\" ne mores kreirati ker tak racun %2 ze obstaja."
 
 msgid "usr_ACCOUNT_NAME"
 msgstr "Ime racuna"
 
 msgid "usr_ACCOUNT_TOO_LONG"
-msgstr "Napaka: Ime racuna je predolgo. Maximalna dolzina je [_1] znakov."
+msgstr "Napaka: Ime racuna je predolgo. Maximalna dolzina je %1 znakov."
 
 msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Naziv racuna \"[_1]\" vsebuje napacen znak. Ime racuna se mora zaceti z malo crko in vsebovati samo crke, stevilke in podcrtaj."
+msgstr "Naziv racuna \"%1\" vsebuje napacen znak. Ime racuna se mora zaceti z malo crko in vsebovati samo crke, stevilke in podcrtaj."
 
 msgid "usr_ADD_USER"
 msgstr "Dodaj uporabniški račun"
@@ -41,10 +41,10 @@ msgid "usr_CANNOT_CONTAIN_WHITESPACE"
 msgstr "To polje ne sme vsebovati presledka"
 
 msgid "usr_CANNOT_MODIFY_USER"
-msgstr "Napaka: Prislo je do interne napake pri urejanju uporabnika \"[_1]\"."
+msgstr "Napaka: Prislo je do interne napake pri urejanju uporabnika \"%1\"."
 
 msgid "usr_CANNOT_MODIFY_USER_GROUPS"
-msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"%1\" for user \"%2\"."
 
 msgid "usr_CITY"
 msgstr "Mesto"
@@ -101,7 +101,7 @@ msgid "usr_GROUP_MEMBERSHIPS"
 msgstr "Clan skupine"
 
 msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters and must pass a dictionary check."
 
 msgid "usr_LABEL_IPSECRW_DOWNLOAD"
 msgstr "Prenesi digitalni certifikat na IPSec client"
@@ -113,7 +113,7 @@ msgid "usr_LOCK"
 msgstr "Zakleni"
 
 msgid "usr_LOCKED_ACCOUNT"
-msgstr "Uspesno zaklenjen racun uporabnika \"[_1]\"."
+msgstr "Uspesno zaklenjen racun uporabnika \"%1\"."
 
 msgid "usr_LOCK_ACCOUNT"
 msgstr "(en) Lock account"
@@ -143,13 +143,13 @@ msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
 msgstr "Novo sistemsko geslo (ponovno)"
 
 msgid "usr_NONE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters."
 
 msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters."
 
 msgid "usr_NO_SUCH_USER"
-msgstr "Napaka: Uporabniski racun \"[_1]\" ne obstaja."
+msgstr "Napaka: Uporabniski racun \"%1\" ne obstaja."
 
 msgid "usr_NO_USER_ACCOUNTS"
 msgstr "Uporabniski racun ne obstaja."
@@ -158,7 +158,7 @@ msgid "usr_P2_TITLE"
 msgstr "Ustvari ali popravi"
 
 msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
-msgstr "Uspesno spremenjeno geslo za racun \"[_1]\"."
+msgstr "Uspesno spremenjeno geslo za racun \"%1\"."
 
 msgid "usr_PASSWORD_WIKI"
 msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
@@ -167,7 +167,7 @@ msgid "usr_PHONE_NUMBER"
 msgstr "Telefonska stevilka"
 
 msgid "usr_PSEUDONYM_CLASH"
-msgstr "Napaka: Vzdevek \"[_1]\" je ze v uporabi pri obsojecemu uporabniskemu racunu \"[_2]\". Za razlikovanje dodaj inicijalke v to polje.\""
+msgstr "Napaka: Vzdevek \"%1\" je ze v uporabi pri obsojecemu uporabniskemu racunu \"%2\". Za razlikovanje dodaj inicijalke v to polje.\""
 
 msgid "usr_REMOVE_ACCOUNT_TITLE"
 msgstr "Izbrisi uporabniski racun"
@@ -188,7 +188,7 @@ msgid "usr_STREET_ADDRESS"
 msgstr "Naslov"
 
 msgid "usr_STRONG_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
 
 msgid "usr_SUCCESSFULLY_DELETED_USER"
 msgstr "(en) Successfully deleted user"
@@ -215,7 +215,7 @@ msgid "usr_TAINTED_PASSWORD"
 msgstr "(en)The new password starts with invalid characters."
 
 msgid "usr_TAINTED_USER"
-msgstr "Uporabniski racun \"[_1]\" vsebuje neveljaven znak."
+msgstr "Uporabniski racun \"%1\" vsebuje neveljaven znak."
 
 msgid "usr_UNACCEPTABLE_CHARS"
 msgstr "To polje lahko vsebuje smo crke, stevilke, pikoali podcrtaj in se zacne samo z crko."

@@ -11,13 +11,13 @@ msgstr ""
 "Language: zh-tw\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "此名稱\"[_1]\"是現存[_2]的帳號。"
+msgstr "此名稱\"%1\"是現存%2的帳號。"
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " 此名稱\"[_1]\"與另一帳號\"[_3]\"的暱稱[_2]相衝突。[_1]是[_3]的暱稱。 "
+msgstr " 此名稱\"%1\"與另一帳號\"%3\"的暱稱%2相衝突。%1是%3的暱稱。 "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "(en)The i-bay name \"[_1]\" contains invalid characters. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens."
+msgstr "(en)The i-bay name \"%1\" contains invalid characters. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens."
 
 msgid "iba_ADD_IBAY"
 msgstr "新增 i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "(en)Execution of dynamic content (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "無法為[_1]建立新帳號（是否已經存在？）"
+msgstr "無法為%1建立新帳號（是否已經存在？）"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "無法找到[_1]的帳號（是否存在？）"
+msgstr "無法找到%1的帳號（是否存在？）"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "整個網際網路（無需密碼）"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "區網（需密碼）"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "The i-bay name \"[_1]\" is too long. The maximum is [_1] characters."
+msgstr "The i-bay name \"%1\" is too long. The maximum is %1 characters."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "(en)The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example \"johnson\", \"intra\", and \"cust3.prj12\" are all valid names, but \"3associates\", \"John Smith\" and \"Bus!Partner\" are not. The name is limited to [_1] characters."
+msgstr "(en)The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example \"johnson\", \"intra\", and \"cust3.prj12\" are all valid names, but \"3associates\", \"John Smith\" and \"Bus!Partner\" are not. The name is limited to %1 characters."
 
 msgid "iba_NAME_LABEL"
 msgstr "訊息看板名稱"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "(en)There are no i-bays currently configured."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "(en)You are about to change the password for the i-bay [_1]."
+msgstr "(en)You are about to change the password for the i-bay %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "(en)Public access via web or anonymous ftp"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  You are about to remove the information bay \"[_1]\" ([_2]). \n\n   All files belonging to this information bay will be deleted. \n\n   Are you sure you wish to remove this information bay? \n\n  "
+msgstr "  You are about to remove the information bay \"%1\" (%2). \n\n   All files belonging to this information bay will be deleted. \n\n   Are you sure you wish to remove this information bay? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "移除資訊欄"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "(en)User access via file sharing or user ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): [_1] "
+msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): %1 "
 
 msgid "iba_WARG"
 msgstr "寫入 = 管理員，讀取 = 群組"

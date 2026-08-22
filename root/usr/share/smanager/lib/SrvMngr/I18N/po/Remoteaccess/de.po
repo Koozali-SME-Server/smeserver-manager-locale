@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr " Einstellung für sicheren SSH-Zugriff Sie können den Zugriff zu Ihrem Server per sicherem SSH gestatten. Der Öffentliche Zugang sollte nur von erfahrenen Administratoren zur Diagnose und Fehlerbehebung aktiviert werden. Wir empfehlen den Parameter auf \"Kein Zugang\" eingestellt zu lassen, außer Sie haben besondere Gründe, dies zu ändern. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Telnet Einstellungen WARNUNG: Telnet ist zurzeit aktiviert, aber diese Funktion wird nicht weiter unterstützt. Telnet ist schon an sich sehr unsicher und sollte nur dort verwendet werden, wo keine vernünftigen Alternativen vorhanden sind. Sie sollten die Option auf [_1] setzen und sollten eine sichere SSH Datenübertragung wählen, wenn der Fernzugriff benötigt wird. Wenn telnet je deaktiviert würde, wird die telnet Funktion auf dieser Seite nicht mehr zur Verfügung stehen. "
+msgstr " Telnet Einstellungen WARNUNG: Telnet ist zurzeit aktiviert, aber diese Funktion wird nicht weiter unterstützt. Telnet ist schon an sich sehr unsicher und sollte nur dort verwendet werden, wo keine vernünftigen Alternativen vorhanden sind. Sie sollten die Option auf %1 setzen und sollten eine sichere SSH Datenübertragung wählen, wenn der Fernzugriff benötigt wird. Wenn telnet je deaktiviert würde, wird die telnet Funktion auf dieser Seite nicht mehr zur Verfügung stehen. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Um den Fernzugriff für ein neues entferntes Netzwerk zu erlauben, geben Sie unten die Daten für das Netzwerk ein."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Telnet-Einstellungen"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1]  Es ist möglich, Hosts aus entfernten Netzwerken den Zugriff auf den Server Manager zu erlauben, hierzu hinterlegen Sie diese Netzwerke hier. Verwenden Sie die Subnetz-Maske 255.255.255.255, um den Zugang auf einen bestimmten Host zu beschränken. Jeder Host im spezifizierten Bereich kann den Server Manager über HTTPS erreichen. "
+msgstr " %1  Es ist möglich, Hosts aus entfernten Netzwerken den Zugriff auf den Server Manager zu erlauben, hierzu hinterlegen Sie diese Netzwerke hier. Verwenden Sie die Subnetz-Maske 255.255.255.255, um den Zugang auf einen bestimmten Host zu beschränken. Jeder Host im spezifizierten Bereich kann den Server Manager über HTTPS erreichen. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

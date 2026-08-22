@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr "  ssh AyarlarıSunucunuza ssh erişimini kontrol edebilirsiniz. Genel erişim sadece deneyimli yneticilerin sorun tespit ve çözümleri için aktifleştirilmelidir. Geçerli bir sebep yoksa \"Erişim yok\" olarak ayarlamanız önerilir. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Telnet Ayarları DİKKAT: Telnet erişimi etkin, fakat bu özellik artık kullanılmayacaktır. Telnet güvenli olmadığı için sadece başka bir alternatif bulunmadığında kullanılmalıdır. Seçimi [_1] olarak değiştirip bağlantı için ssh kullanılmalıdır. Telnet inaktif edildiğinde, artık bu sayfa görünmeyecektir. "
+msgstr " Telnet Ayarları DİKKAT: Telnet erişimi etkin, fakat bu özellik artık kullanılmayacaktır. Telnet güvenli olmadığı için sadece başka bir alternatif bulunmadığında kullanılmalıdır. Seçimi %1 olarak değiştirip bağlantı için ssh kullanılmalıdır. Telnet inaktif edildiğinde, artık bu sayfa görünmeyecektir. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Uzaktan yönetim ağı tanımlamak için ayrıntıları aşağıya girin."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Telnet Ayarları"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] Uzaktaki bir sistemden, yönetim arabirime erişim izni verebilirsiniz. Alt ağ maskesi olarak 255.255.255.255 girin. HTTPS kullanarak belirtilen ağ aralığındaki herhangi bir sistemden erişim sağlanabilir. "
+msgstr " %1 Uzaktaki bir sistemden, yönetim arabirime erişim izni verebilirsiniz. Alt ağ maskesi olarak 255.255.255.255 girin. HTTPS kullanarak belirtilen ağ aralığındaki herhangi bir sistemden erişim sağlanabilir. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

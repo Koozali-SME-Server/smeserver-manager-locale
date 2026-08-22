@@ -11,13 +11,13 @@ msgstr ""
 "Language: nl\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "De account \"[_1]\" is een bestaande [_2] account."
+msgstr "De account \"%1\" is een bestaande %2 account."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " De account \"[_1]\" heeft een conflict met pseudoniem details voor [_2] account \"[_3]\". [_1] is een pseudoniem voor [_3]. "
+msgstr " De account \"%1\" heeft een conflict met pseudoniem details voor %2 account \"%3\". %1 is een pseudoniem voor %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "De informatie-baai naam \"[_1]\" bevat ongeldige tekens. Informatie-baai namen dienen te starten met een kleine letter en mogen enkel kleine letters, cijfers en koppeltekens bevatten."
+msgstr "De informatie-baai naam \"%1\" bevat ongeldige tekens. Informatie-baai namen dienen te starten met een kleine letter en mogen enkel kleine letters, cijfers en koppeltekens bevatten."
 
 msgid "iba_ADD_IBAY"
 msgstr "I-bay toevoegen"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Uitvoeren van dynamische inhoud (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Kan geen nieuw account toevoegen voor [_1] (bestaat deze al?)"
+msgstr "Kan geen nieuw account toevoegen voor %1 (bestaat deze al?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Kan geen account vinden voor [_1] (bestaat deze account?)"
+msgstr "Kan geen account vinden voor %1 (bestaat deze account?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Gehele Internet (geen wachtwoord vereist)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Lokaal netwerk (wachtwoord vereist)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "De informatie-baai naam \"[_1]\" is te lang. Demaximale lengte is [_1] tekens."
+msgstr "De informatie-baai naam \"%1\" is te lang. Demaximale lengte is %1 tekens."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "De informatie-baai naam mag enkel bestaan uit kleine letters, cijfers, punten, koppeltekens en lage streepjes en dient te beginnen met een kleine letter. Bijvoorbeeld \"johnson\", \"intra\" en \"cust3.prj12\" zijn correcte namen, maar \"3vrienden\", \"Jan Smit\" en \"Bus!Partner\" zijn dit niet. De lengte van de naam is gelimiteerd tot [_1] tekens."
+msgstr "De informatie-baai naam mag enkel bestaan uit kleine letters, cijfers, punten, koppeltekens en lage streepjes en dient te beginnen met een kleine letter. Bijvoorbeeld \"johnson\", \"intra\" en \"cust3.prj12\" zijn correcte namen, maar \"3vrienden\", \"Jan Smit\" en \"Bus!Partner\" zijn dit niet. De lengte van de naam is gelimiteerd tot %1 tekens."
 
 msgid "iba_NAME_LABEL"
 msgstr "Informatie-baai naam"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Er zijn momenteel geen informatie-baaien geconfigureerd."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "U staat op het punt om het wachtwoord te veranderen voor de informatie-baai [_1]."
+msgstr "U staat op het punt om het wachtwoord te veranderen voor de informatie-baai %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Publiekelijke toegang via internet of anonieme ftp"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  U staat op het punt om de informatie-baai\"[_1]\" ([_2]) te verwijderen. \n\n   Alle bestanden welke zich in deze informatie-baai bevinden zullen verloren gaan. \n\n   Weet u zeker dat u deze informatie-baai wilt verwijderen? \n\n  "
+msgstr "  U staat op het punt om de informatie-baai\"%1\" (%2) te verwijderen. \n\n   Alle bestanden welke zich in deze informatie-baai bevinden zullen verloren gaan. \n\n   Weet u zeker dat u deze informatie-baai wilt verwijderen? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Informatie-baai verwijderen"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Gebruikers toegang via bestandsdeling of gebruikers-ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " De volgende virtuele domeinen gebruikten deze informatie-baai voor hun inhoud, dit zal worden aangepast naar de primaire web site (dit kan achteraf worden aangepast):\n\n  <ul>[_1]</ul> "
+msgstr " De volgende virtuele domeinen gebruikten deze informatie-baai voor hun inhoud, dit zal worden aangepast naar de primaire web site (dit kan achteraf worden aangepast):\n\n  <ul>%1</ul> "
 
 msgid "iba_WARG"
 msgstr "Schrijven = beheerder, Lezen = groep"

@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr " Varnostne nastavitve lupine Shell Tu lahko nastavis Varnostne Nastavitve Lupine Shell za dostop do streznika. Javni dostop naj bi bil izbran samo za zelo izkusene Administratorje za resevanje tezav na daljavo. Priporocam ti, da pustis to opcijo nastavljeno na \"ni dostopa\", razen ce imas tehten razlog za spremembo. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Telnet nastavitve POZOR: Telnet dostop je trenutno omogocen. Toda ta opcija ni vec podprta. Telnet je izredno brez varnosti in naj bo uporabljen samo takrat, ko ni popolnoma nobene druge moznosti. Moral bi spremeniti v [_1] in uporabiti Varen Dostop, ce potrebujes oddaljen dostop. Ko bo Telnet enkrat onemogocen se na ekranu ne bo vec pojavil "
+msgstr " Telnet nastavitve POZOR: Telnet dostop je trenutno omogocen. Toda ta opcija ni vec podprta. Telnet je izredno brez varnosti in naj bo uporabljen samo takrat, ko ni popolnoma nobene druge moznosti. Moral bi spremeniti v %1 in uporabiti Varen Dostop, ce potrebujes oddaljen dostop. Ko bo Telnet enkrat onemogocen se na ekranu ne bo vec pojavil "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Za dodajanje oddaljenega omrezja vnesi spodnje podatke."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Nastavitve Telnet-a"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] Tu je mozno dolociti oddaljeno omrezje za dostop do Upravljalca Streznika (server-manager). Uporabi masko podomrezja 255.255.255.255, da omogocis dostop samo izbranemu gostitelju (host-u). Vsak gostitelj v izbranem obmocju bo imel dostop do Upravljalca Streznika preko HTTPS povezave.. "
+msgstr " %1 Tu je mozno dolociti oddaljeno omrezje za dostop do Upravljalca Streznika (server-manager). Uporabi masko podomrezja 255.255.255.255, da omogocis dostop samo izbranemu gostitelju (host-u). Vsak gostitelj v izbranem obmocju bo imel dostop do Upravljalca Streznika preko HTTPS povezave.. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

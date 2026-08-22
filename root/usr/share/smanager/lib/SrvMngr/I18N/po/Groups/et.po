@@ -14,7 +14,7 @@ msgid "DELETE_ERROR"
 msgstr "(en) DELETE_ERROR"
 
 msgid "grp_ACCOUNT_CONFLICT"
-msgstr "Viga: gruppi \"[_1]\" ei saanud luua kuna on juba kasutajakonto [_2] sellise nimega."
+msgstr "Viga: gruppi \"%1\" ei saanud luua kuna on juba kasutajakonto %2 sellise nimega."
 
 msgid "grp_CREATED_GROUP"
 msgstr "Kasutajate grupp edukalt loodud"
@@ -29,7 +29,7 @@ msgid "grp_DELETED_GROUP"
 msgstr "Kasutajate grupp edukalt kustutatud"
 
 msgid "grp_DELETE_DESCRIPTION"
-msgstr " Oled kindel, et tahad gruppi \"[_1]\"kustutada "
+msgstr " Oled kindel, et tahad gruppi \"%1\"kustutada "
 
 msgid "grp_ERR_INTERNAL_FAILURE"
 msgstr "(en) Err internal failure"
@@ -50,7 +50,7 @@ msgid "grp_GROUP_NAMING"
 msgstr " Grupi nimi võib sisaldada ainult väike tähti, numbreid, hyphens, periods, and underscores, ja peab algama väiketäehega. Näiteks \"müük\", \"beta5\", ja\"reseller_partners\" sobivad grupi nimeks aga \"3rd-event\", \"Müügi Grupp\" ja \"lost&found\" ei sobi. "
 
 msgid "grp_GROUP_TOO_LONG"
-msgstr "VIGA: grupi nimi on liiga pikk. Nimi võib olla [_1] pikk."
+msgstr "VIGA: grupi nimi on liiga pikk. Nimi võib olla %1 pikk."
 
 msgid "grp_IBAYS_WILL_BE_CHANGED"
 msgstr "The following information bays were assigned to this group and will be changed to the Administrator group (you can change them to something else afterward):"

@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Domain hinzufügen"
 
 msgid "dom_CONTENT"
-msgstr "[_1] i-bay"
+msgstr "%1 i-bay"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "Für die Webseite können Sie als Inhalt entweder die primäre Seite oder ein i-bay auswählen."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "DNS-Einstellungen des Unternehmens ändern"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "FEHLER: Ungültiges oder fehlendes Zeichen in der Domänenbeschreibung [_1]. Neue Domäne wurde nicht erstellt."
+msgstr "FEHLER: Ungültiges oder fehlendes Zeichen in der Domänenbeschreibung %1. Neue Domäne wurde nicht erstellt."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "FEHLER: Domäne [_1] ist bereits vorhanden. Neue Domäne wurde nicht erstellt."
+msgstr "FEHLER: Domäne %1 ist bereits vorhanden. Neue Domäne wurde nicht erstellt."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "FEHLER: Ungültiges oder fehlendes Zeichen im Domänen-Namen [_1]. Der Domänen-Name darf nur Buchstaben, Nummern, Punkte oder Bindestriche enthalten. Neue Domäne wurde nicht erstellt."
+msgstr "FEHLER: Ungültiges oder fehlendes Zeichen im Domänen-Namen %1. Der Domänen-Name darf nur Buchstaben, Nummern, Punkte oder Bindestriche enthalten. Neue Domäne wurde nicht erstellt."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "FEHLER: interner Fehler beim Entfernen der Domäne [_1]."
+msgstr "FEHLER: interner Fehler beim Entfernen der Domäne %1."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Wenn Sie eine Domäne anlegen, wird der Server in der Lage sein, Emails für diese Domäne zu empfangen sowie eine Website für diese Domäne zu hosten. <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next?wherenext=domains_page_create\">Domäne hinzufügen</a></p> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Domäne ändern"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "FEHLER: [_1] ist keine existierende Domäne."
+msgstr "FEHLER: %1 ist keine existierende Domäne."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "Primäre Seite"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  Sie sind dabei, die Domäne [_1] ([_2]) zu entfernen. <p> <b>Sind Sie sicher, dass Sie die Domäne entfernen wollen ?</b> </p> "
+msgstr "  Sie sind dabei, die Domäne %1 (%2) zu entfernen. <p> <b>Sind Sie sicher, dass Sie die Domäne entfernen wollen ?</b> </p> "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Domäne entfernen"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Die Domäne [_1] wurde erfolgreich erstellt. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist."
+msgstr "Die Domäne %1 wurde erfolgreich erstellt. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Die Domäne [_1] wurde erfolgreich entfernt. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist."
+msgstr "Die Domäne %1 wurde erfolgreich entfernt. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Die Domäne [_1] wurde erfolgreich geändert. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist."
+msgstr "Die Domäne %1 wurde erfolgreich geändert. Ihr Webserver wird nun neu gestartet. Die Links auf dieser Seite werden inaktiv sein, bis der Neustart des Webservers abgeschlossen ist."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "FEHLER: Diese Domäne [_1] ist Ihre Haupt-Domäne. Es ist nicht möglich, eine Domäne mit dem gleichen Namen zu erstellen. Neue Domäne wurde nicht erstellt."
+msgstr "FEHLER: Diese Domäne %1 ist Ihre Haupt-Domäne. Es ist nicht möglich, eine Domäne mit dem gleichen Namen zu erstellen. Neue Domäne wurde nicht erstellt."
 
 msgid "dom_corporate"
 msgstr "Zentrale DNS-Server"

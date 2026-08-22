@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "新增網域"
 
 msgid "dom_CONTENT"
-msgstr "[_1] i-bay"
+msgstr "%1 i-bay"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "對於網站而言，您能選擇您的主要站台或任何 i-bay 以作為內容。"
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "修改公司 DNS 設定"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "錯誤: 在網域描述 [_1] 中含未知或缺少字元。無法建立新網域。"
+msgstr "錯誤: 在網域描述 %1 中含未知或缺少字元。無法建立新網域。"
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "錯誤: 網域名稱 [_1] 正在使用中。無法建立新網域。"
+msgstr "錯誤: 網域名稱 %1 正在使用中。無法建立新網域。"
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "錯誤: 在網域名稱 [_1] 中含未知或缺少字元。網域名稱應該包含單一或更多的字元、數字、句號與減號。無法建立新網域。"
+msgstr "錯誤: 在網域名稱 %1 中含未知或缺少字元。網域名稱應該包含單一或更多的字元、數字、句號與減號。無法建立新網域。"
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "錯誤: 移除網域[_1]時出現內部錯誤。"
+msgstr "錯誤: 移除網域%1時出現內部錯誤。"
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " 當您建立網域後，您的伺服器將能為該網域接收電郵，並且能為該網域建立網站。\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">增加網域</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "修正網域"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "錯誤: [_1]並非既有網域。"
+msgstr "錯誤: %1並非既有網域。"
 
 msgid "dom_PRIMARY_SITE"
 msgstr "主站台"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr " 您即將移除網域[_1] ([_2])。\n\n  <p> <b>您確定要移除該網域？</b> </p>\n\n  "
+msgstr " 您即將移除網域%1 (%2)。\n\n  <p> <b>您確定要移除該網域？</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "移除網域"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "成功建立了網域 [_1] 。您的網頁伺服器正重啟中。網頁伺服器重啟完畢前，此頁面上的連結都將會失效。"
+msgstr "成功建立了網域 %1 。您的網頁伺服器正重啟中。網頁伺服器重啟完畢前，此頁面上的連結都將會失效。"
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "成功刪除網域 [_1] 。您的網頁伺服器將被重啟。網頁伺服器重啟完成後，本頁的連結將啟用。"
+msgstr "成功刪除網域 %1 。您的網頁伺服器將被重啟。網頁伺服器重啟完成後，本頁的連結將啟用。"
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "成功修正網域[_1]。您的網頁伺服器正將重啟。網站伺服器重啟完成後，本頁的連結將啟用。"
+msgstr "成功修正網域%1。您的網頁伺服器正將重啟。網站伺服器重啟完成後，本頁的連結將啟用。"
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "錯誤: 網域名稱 [_1] 是您系統的網域名稱。您無法建立相同網域名稱。無法建立新網域。"
+msgstr "錯誤: 網域名稱 %1 是您系統的網域名稱。您無法建立相同網域名稱。無法建立新網域。"
 
 msgid "dom_corporate"
 msgstr "組織DNS服务器"

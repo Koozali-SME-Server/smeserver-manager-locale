@@ -23,16 +23,16 @@ msgid "Webmail"
 msgstr "(en) Webmail"
 
 msgid "usr_ACCOUNT_CONFLICT"
-msgstr "错误：账号\"[_1]\"不能被创建，因为同名[_2] 账号已存在。"
+msgstr "错误：账号\"%1\"不能被创建，因为同名%2 账号已存在。"
 
 msgid "usr_ACCOUNT_NAME"
 msgstr "账号名称"
 
 msgid "usr_ACCOUNT_TOO_LONG"
-msgstr "错误：账号名称太长，最大为[_1]个字符。"
+msgstr "错误：账号名称太长，最大为%1个字符。"
 
 msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "账号名称\"[_1]\"中包含无效的字符。账户名必须由小写字母、数字、连接符、句点和下划线组成并且以小写字母开头。"
+msgstr "账号名称\"%1\"中包含无效的字符。账户名必须由小写字母、数字、连接符、句点和下划线组成并且以小写字母开头。"
 
 msgid "usr_ADD_USER"
 msgstr "添加用户账户"
@@ -41,10 +41,10 @@ msgid "usr_CANNOT_CONTAIN_WHITESPACE"
 msgstr "此字段不能包含空白字符"
 
 msgid "usr_CANNOT_MODIFY_USER"
-msgstr "错误：尝试修改用户\"[_1]\"时出现内部错误。"
+msgstr "错误：尝试修改用户\"%1\"时出现内部错误。"
 
 msgid "usr_CANNOT_MODIFY_USER_GROUPS"
-msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"%1\" for user \"%2\"."
 
 msgid "usr_CITY"
 msgstr "城市"
@@ -101,7 +101,7 @@ msgid "usr_GROUP_MEMBERSHIPS"
 msgstr "群组成员"
 
 msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters and must pass a dictionary check."
 
 msgid "usr_LABEL_IPSECRW_DOWNLOAD"
 msgstr "下载数字证书到IPSec客户端"
@@ -113,7 +113,7 @@ msgid "usr_LOCK"
 msgstr "锁定"
 
 msgid "usr_LOCKED_ACCOUNT"
-msgstr "成功锁定了用户\"[_1]\"的账号"
+msgstr "成功锁定了用户\"%1\"的账号"
 
 msgid "usr_LOCK_ACCOUNT"
 msgstr "(en) Lock account"
@@ -143,13 +143,13 @@ msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
 msgstr "新的系统密码（确认）"
 
 msgid "usr_NONE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters."
 
 msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters."
 
 msgid "usr_NO_SUCH_USER"
-msgstr "错误：用户账号\"[_1]\"不存在。"
+msgstr "错误：用户账号\"%1\"不存在。"
 
 msgid "usr_NO_USER_ACCOUNTS"
 msgstr "此系统中暂无用户账号。"
@@ -158,7 +158,7 @@ msgid "usr_P2_TITLE"
 msgstr "创建或修改"
 
 msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
-msgstr "成功修改了用户\"[_1]\"的密码。"
+msgstr "成功修改了用户\"%1\"的密码。"
 
 msgid "usr_PASSWORD_WIKI"
 msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
@@ -167,7 +167,7 @@ msgid "usr_PHONE_NUMBER"
 msgstr "电话号码"
 
 msgid "usr_PSEUDONYM_CLASH"
-msgstr "错误：假名\"[_1]\" 已被用户\"[_2]\"使用。需使用不同的假名，请重新填写此字段。"
+msgstr "错误：假名\"%1\" 已被用户\"%2\"使用。需使用不同的假名，请重新填写此字段。"
 
 msgid "usr_REMOVE_ACCOUNT_TITLE"
 msgstr "移除用户账户"
@@ -188,7 +188,7 @@ msgid "usr_STREET_ADDRESS"
 msgstr "地址"
 
 msgid "usr_STRONG_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
 
 msgid "usr_SUCCESSFULLY_DELETED_USER"
 msgstr "(en) Successfully deleted user"
@@ -215,7 +215,7 @@ msgid "usr_TAINTED_PASSWORD"
 msgstr "(en)The new password starts with invalid characters."
 
 msgid "usr_TAINTED_USER"
-msgstr "账号名称\"[_1]\"包含非法字符。"
+msgstr "账号名称\"%1\"包含非法字符。"
 
 msgid "usr_UNACCEPTABLE_CHARS"
 msgstr "此地段只能包含字母、数字、句点、连接符和下划线，并且要以字母开头。"

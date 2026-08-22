@@ -14,7 +14,7 @@ msgid "DELETE_ERROR"
 msgstr "(en) DELETE_ERROR"
 
 msgid "grp_ACCOUNT_CONFLICT"
-msgstr "ERREUR : le groupe \"[_1] avec ce nom."
+msgstr "ERREUR : le groupe \"%1 avec ce nom."
 
 msgid "grp_CREATED_GROUP"
 msgstr "Le groupe d'utilisateurs a été créé avec succès."
@@ -29,7 +29,7 @@ msgid "grp_DELETED_GROUP"
 msgstr "Le groupe d'utilisateurs a été supprimé avec succès."
 
 msgid "grp_DELETE_DESCRIPTION"
-msgstr " Vous êtes sur le point de supprimer le groupe d'utilisateurs \"[_1]\". "
+msgstr " Vous êtes sur le point de supprimer le groupe d'utilisateurs \"%1\". "
 
 msgid "grp_ERR_INTERNAL_FAILURE"
 msgstr "(en) Err internal failure"
@@ -50,7 +50,7 @@ msgid "grp_GROUP_NAMING"
 msgstr " Le nom de groupe doit contenir uniquement des lettres minuscules, des chiffres, des traits d'union, des points, des traits de soulignement et commencer par une minuscule. Par exemple, \"ventes\", \"beta5\" ou \"partenaires_ventes\" sont tous des noms de groupe valides, mais pas \"3e-événement\", \"Groupe Marketing\" ni \"perdu&trouvé\". "
 
 msgid "grp_GROUP_TOO_LONG"
-msgstr "ERREUR : le nom du groupe est trop long : [_1] caractères au maximum."
+msgstr "ERREUR : le nom du groupe est trop long : %1 caractères au maximum."
 
 msgid "grp_IBAYS_WILL_BE_CHANGED"
 msgstr "Les i-bays suivantes étaient attribuées à ce groupe et vont être réattribuées au groupe de l'administrateur (vous pourrez par la suite les attribuer à un autre groupe) :"

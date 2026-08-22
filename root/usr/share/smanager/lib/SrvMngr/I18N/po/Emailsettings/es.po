@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Puede analizar el e-mail entrante y saliente en busca de virus. Si el análisis detecta algún virus, el e-mail será rechazado y devuelto al remitente."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Usted puede habilitar o deshabilitar el webmail en este sistema. El webmail le permite a los usuarios el acceso a sus correos a través de un navegador web común, dirigiendo el navegador a la dirección https://[_1]/webmail, e iniciando una sesión en su cuenta."
+msgstr "Usted puede habilitar o deshabilitar el webmail en este sistema. El webmail le permite a los usuarios el acceso a sus correos a través de un navegador web común, dirigiendo el navegador a la dirección https://%1/webmail, e iniciando una sesión en su cuenta."
 
 msgid "mai_E-Mail"
 msgstr "Correo electrónico"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Permitir HTTPS (seguro)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP con solicitud del cliente)"

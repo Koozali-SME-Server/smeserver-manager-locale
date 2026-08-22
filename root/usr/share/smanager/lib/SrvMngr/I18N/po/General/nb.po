@@ -146,7 +146,7 @@ msgid "FM_IP_NUMBER2"
 msgstr "Ugyldig IP-adresse til DHCP-start"
 
 msgid "FM_IP_NUMBER3"
-msgstr "[_1] er mer en 255"
+msgstr "%1 er mer en 255"
 
 msgid "FM_MAC_ADDRESS1"
 msgstr "Du må oppgi MAC adresse."

@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Du kan söka igenom inkommande och utgående e-post efter virus. Om genomsökning är tillåten och ett virus upptäckts kommer e-postmeddelandet att förkastas och returneras till avsändaren."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Du kan tillåta eller ej tillåta webbmail på detta system. Webbmail tillåter åtkomst för användare till deras e-post genom en vanlig webbläsare genom adressen https://[_1]/webmail och därefter inloggning på deras konto."
+msgstr "Du kan tillåta eller ej tillåta webbmail på detta system. Webbmail tillåter åtkomst för användare till deras e-post genom en vanlig webbläsare genom adressen https://%1/webmail och därefter inloggning på deras konto."
 
 msgid "mai_E-Mail"
 msgstr "E-post"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Tillåt HTTPS (säker)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP med klientbegäran)"

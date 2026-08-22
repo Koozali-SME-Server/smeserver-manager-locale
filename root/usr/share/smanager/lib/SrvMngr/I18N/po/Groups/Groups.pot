@@ -13,7 +13,7 @@ msgstr ""
 msgid "DELETE_ERROR"
 msgstr ""
 
-#. Error: the group \"[_1]\" can't be created because there is\nalready a [_2] account of that name.
+#. Error: the group \"%1\" can't be created because there is\nalready a %2 account of that name.
 msgid "grp_ACCOUNT_CONFLICT"
 msgstr ""
 
@@ -33,7 +33,7 @@ msgstr ""
 msgid "grp_DELETED_GROUP"
 msgstr ""
 
-#. You are about to remove the user group \"[_1].\"
+#. You are about to remove the user group \"%1.\"
 msgid "grp_DELETE_DESCRIPTION"
 msgstr ""
 
@@ -61,7 +61,7 @@ msgstr ""
 msgid "grp_GROUP_NAMING"
 msgstr ""
 
-#. Error: group name is too long. The maximum is [_1] characters.
+#. Error: group name is too long. The maximum is %1 characters.
 msgid "grp_GROUP_TOO_LONG"
 msgstr ""
 

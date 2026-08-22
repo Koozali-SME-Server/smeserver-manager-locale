@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr " Configuración de shell seguroPuede controlar el acceso de shell seguro al servidor. La configuración pública la deben habilitar sólo los administradores experimentados para diagnosticar y solucionar problemas remotos. Se recomienda que este parámetro se deje configurado en \"Sin acceso\" a menos que tenga una razón específica para hacer lo contrario. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Configuración de Telnet ADVERTENCIA: Actualmente Telnet se encuentra habilitado, pero esta característica ya no es soportada. Telnet es inherentemente inseguro y debe ser usado únicamente en aquellas circunstancias donde ninguna otra alternativa se encuentra disponible. Usted debe cambiar la opción a [_1] y usar shell seguro si el acceso remoto es requerido. Una vez que Telnet sea deshabilitado, esta opción no volverá a aparecer en esta pantalla. "
+msgstr " Configuración de Telnet ADVERTENCIA: Actualmente Telnet se encuentra habilitado, pero esta característica ya no es soportada. Telnet es inherentemente inseguro y debe ser usado únicamente en aquellas circunstancias donde ninguna otra alternativa se encuentra disponible. Usted debe cambiar la opción a %1 y usar shell seguro si el acceso remoto es requerido. Una vez que Telnet sea deshabilitado, esta opción no volverá a aparecer en esta pantalla. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Para agregar una nueva red de administración remota, introduzca los detalles a continuación."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Configuración de Telnet"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] Se puede permitir el acceso a hosts de redes remotas a la administración del servidor si introduce esas redes aquí. Use una máscara de subred de 255.255.255.255 para limitar el acceso al host especificado. Todos los hosts dentro del rango especificado podrán acceder al administrador del servidor utilizando HTTPS. "
+msgstr " %1 Se puede permitir el acceso a hosts de redes remotas a la administración del servidor si introduce esas redes aquí. Use una máscara de subred de 255.255.255.255 para limitar el acceso al host especificado. Todos los hosts dentro del rango especificado podrán acceder al administrador del servidor utilizando HTTPS. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

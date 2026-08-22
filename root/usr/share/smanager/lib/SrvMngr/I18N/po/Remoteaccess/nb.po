@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr "  Sikker Shell InnstillingerDu kan kontrollere Sikker Shell tilgang til serveren. Offentlig innstilling bør bare brukes av erfarne administratorer for fjern problem diagnostisering og løsning. Vi anbefaler å la denne innstillingen stå på \"Ingen tilgang\" med mindre du har en spesifikk grunn til å gjøre annet. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Telnet Innstillinger ADVARSEL: Telnet er mulig, men denne muligheten er ikke lenger støttet. Telnet er usikkert og bør bare brukes under omstendigheter hvor ingen andre muligheter finnes. Du bør endre dette til [_1] og bruke sikkert shell hvis fjerntilgang er påkrevd. Når dette blir slått av, vil ikke lenger telnet vises på denne skjermen. "
+msgstr " Telnet Innstillinger ADVARSEL: Telnet er mulig, men denne muligheten er ikke lenger støttet. Telnet er usikkert og bør bare brukes under omstendigheter hvor ingen andre muligheter finnes. Du bør endre dette til %1 og bruke sikkert shell hvis fjerntilgang er påkrevd. Når dette blir slått av, vil ikke lenger telnet vises på denne skjermen. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "For å legge til et nytt fjern administrasjonsnettverk, skriver du inn detaljene nedenfor."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Telnet-innstillinger"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] Det er mulig å tillate maskiner på fjerne nettverk å få tilgang til server manager ved å skrive inn nettverkene her. Bruk en subnett maske på 255.255.255.255 for å begrense tilgangen til en spesifikk maskin. Enhver maskin innenfor det spesifiserte område vil ha tilgang til server manager ved å bruke HTTPS. "
+msgstr " %1 Det er mulig å tillate maskiner på fjerne nettverk å få tilgang til server manager ved å skrive inn nettverkene her. Bruk en subnett maske på 255.255.255.255 for å begrense tilgangen til en spesifikk maskin. Enhver maskin innenfor det spesifiserte område vil ha tilgang til server manager ved å bruke HTTPS. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

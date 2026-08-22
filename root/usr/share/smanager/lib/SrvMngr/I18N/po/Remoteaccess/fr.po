@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr "Vous pouvez contrôler l'accès à votre serveur par terminal sécurisé (SSH). L'accès \"public\" ne doit être activé que par des administrateurs expérimentés afin de pouvoir diagnostiquer et résoudre des problèmes à distance. Nous vous recommandons de laisser ce paramètre validé sur \"Aucun accès\", à moins que vous n'ayez une raison bien précise de faire autrement. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr "AVERTISSEMENT : Telnet est actuellement activé, mais cette fonctionnalité n'est plus prise en charge. Intrinsèquement, Telnet n'est pas sécurisé et nous vous recommandons de ne pas l'utiliser, à moins que vous n'ayez pas d'autre alternative. Vous devriez définir cette option à \"[_1]\" et utiliser un terminal sécurisé (SSH) si l'accès distant est nécessaire. Une fois désactivé, Telnet n'apparaîtra plus sur cette page. "
+msgstr "AVERTISSEMENT : Telnet est actuellement activé, mais cette fonctionnalité n'est plus prise en charge. Intrinsèquement, Telnet n'est pas sécurisé et nous vous recommandons de ne pas l'utiliser, à moins que vous n'ayez pas d'autre alternative. Vous devriez définir cette option à \"%1\" et utiliser un terminal sécurisé (SSH) si l'accès distant est nécessaire. Une fois désactivé, Telnet n'apparaîtra plus sur cette page. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Pour ajouter une nouvelle plage d'adresses de gestion à distance, entrez les informations ci-dessous :"
@@ -125,4 +125,4 @@ msgid "rma_VALIDFROM_DESC"
 msgstr " Il est possible de permettre l'accès au gestionnaire du serveur à des hôtes situés sur des réseaux distants en indiquant ces réseaux ici. Utilisez le masque de sous-réseau 255.255.255.255 pour ne permettre l'accès qu'à une machine unique. Tout hôte contenu dans la plage d'adresses spécifiée pourra alors accéder au gestionnaire du serveur à l'aide du protocole sécurisé HTTPS. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

@@ -146,7 +146,7 @@ msgid "FM_IP_NUMBER2"
 msgstr "รูปแบบหมายเลข IP ไม่ถูกต้อง (รูปแบบคือ X.X.X.X)"
 
 msgid "FM_IP_NUMBER3"
-msgstr "ตัวเลขของชุด [_1] มีค่าเกิน 255"
+msgstr "ตัวเลขของชุด %1 มีค่าเกิน 255"
 
 msgid "FM_MAC_ADDRESS1"
 msgstr "คุณต้องระบุ MAC address"

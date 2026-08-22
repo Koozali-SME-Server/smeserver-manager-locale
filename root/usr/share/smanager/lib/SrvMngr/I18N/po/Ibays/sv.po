@@ -11,13 +11,13 @@ msgstr ""
 "Language: sv\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "Kontot \"[_1]\" är ett existerande [_2] konto."
+msgstr "Kontot \"%1\" är ett existerande %2 konto."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " Kontot \"[_1]\" kolliderar med pseudonymens uppgifter för [_2] kontot \"[_3]\". [_1] är en pseudonym för [_3]. "
+msgstr " Kontot \"%1\" kolliderar med pseudonymens uppgifter för %2 kontot \"%3\". %1 är en pseudonym för %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Namnet på i-bay \"[_1]\" innehåller ej tillåtna tecken. I-baynamn måste börja med gemen och endast innehålla gemener, siffror och bindestreck."
+msgstr "Namnet på i-bay \"%1\" innehåller ej tillåtna tecken. I-baynamn måste börja med gemen och endast innehålla gemener, siffror och bindestreck."
 
 msgid "iba_ADD_IBAY"
 msgstr "Lägg till i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Exekvera dynamiskt innehåll (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Kan inte skapa ett nytt konto för [_1] (existerar det redan?)"
+msgstr "Kan inte skapa ett nytt konto för %1 (existerar det redan?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Kan inte finna konto för [_1] (existerar detta?)"
+msgstr "Kan inte finna konto för %1 (existerar detta?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Hela Internet (inget lösenord krävs)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Lokalt nätverk (lösenord krävs)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "I-baynamnet \"[_1]\" är för långt. Maximala antalet är [_1] tecken."
+msgstr "I-baynamnet \"%1\" är för långt. Maximala antalet är %1 tecken."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "Namnet på information bay får bara innehålla gemener, siffror, punkter, bindestreck, understreck och måste börja med en gemen. Exempelvis \"johnson\", \"intra\", and \"cust3.prj12\" är alla tillåtna namn men, \"3associates\", \"John Smith\" och \"Bus!Partner\" är det inte. Namnet är begränsat till [_1] tecken."
+msgstr "Namnet på information bay får bara innehålla gemener, siffror, punkter, bindestreck, understreck och måste börja med en gemen. Exempelvis \"johnson\", \"intra\", and \"cust3.prj12\" är alla tillåtna namn men, \"3associates\", \"John Smith\" och \"Bus!Partner\" är det inte. Namnet är begränsat till %1 tecken."
 
 msgid "iba_NAME_LABEL"
 msgstr "Namnet på information bay"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Det finns inga i-bays konfigurerade för närvarande."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Du är på väg att ändra lösenordet för i-bay [_1]."
+msgstr "Du är på väg att ändra lösenordet för i-bay %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Publik åtkomst via webb eller anonym ftp"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Du är på väg att radera en information bay \"[_1]\" ([_2]). \n\n   Alla filer som tillhör denna information bay kommer att raderas. \n\n   Är du säker på att du vill radera denna information bay? \n\n  "
+msgstr "  Du är på väg att radera en information bay \"%1\" (%2). \n\n   Alla filer som tillhör denna information bay kommer att raderas. \n\n   Är du säker på att du vill radera denna information bay? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Radera information bay"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Användaråtkomst via fildelning eller ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " Följande virtuella domäner använde denna information bay för deras innehåll och kommer därför att ändras till den primära webbplatsen (du kan ändra dem till någonting annat efteråt): [_1] "
+msgstr " Följande virtuella domäner använde denna information bay för deras innehåll och kommer därför att ändras till den primära webbplatsen (du kan ändra dem till någonting annat efteråt): %1 "
 
 msgid "iba_WARG"
 msgstr "Skriva = admin, Läsa = grupp"

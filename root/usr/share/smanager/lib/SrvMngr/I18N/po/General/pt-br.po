@@ -146,7 +146,7 @@ msgid "FM_IP_NUMBER2"
 msgstr "Formato do endereço IP inválido (deve ser X.X.X.X)"
 
 msgid "FM_IP_NUMBER3"
-msgstr "[_1] é maior que 255"
+msgstr "%1 é maior que 255"
 
 msgid "FM_MAC_ADDRESS1"
 msgstr "Você precisa fornecer um endereço MAC."

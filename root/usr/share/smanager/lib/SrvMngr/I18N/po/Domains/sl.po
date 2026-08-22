@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Dodaj domeno"
 
 msgid "dom_CONTENT"
-msgstr "[_1] i-lista"
+msgstr "%1 i-lista"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "Za spletno stran te domene lahko izberete primarno ali vsebino katerega koli informacijskega lista."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Spremeni korporativne nastavitve DNS-ja"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Napaka: v polju opisa domene [_1] so nepricakovani ali manjkajoci znaki. Nova domena ni bila dodana."
+msgstr "Napaka: v polju opisa domene %1 so nepricakovani ali manjkajoci znaki. Nova domena ni bila dodana."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Napaka: domena [_1] je ze uporabljena. Nova domena ni bila dodana."
+msgstr "Napaka: domena %1 je ze uporabljena. Nova domena ni bila dodana."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Napaka: v domeni [_1] so nepricakovani ali manjakjoci znaki. Domena lahko vsebuje eno ali vec crk, stevilk, pik ali minus znakov. Nova domena ni bila dodana."
+msgstr "Napaka: v domeni %1 so nepricakovani ali manjakjoci znaki. Domena lahko vsebuje eno ali vec crk, stevilk, pik ali minus znakov. Nova domena ni bila dodana."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Napaka: pri odstranjevanju navidezne domene [_1] je prislo do notranje napake."
+msgstr "Napaka: pri odstranjevanju navidezne domene %1 je prislo do notranje napake."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Ko ustvarite navidezno domeno, bo vas streznik lahko skrbel za elektronsko posto te domene in gostil spletne strani zanjo.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Dodaj domeno</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Uredi navidezno domeno"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Napaka: [_1] ni obstojeca domena."
+msgstr "Napaka: %1 ni obstojeca domena."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "primarna spletna stran"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  Ste tik pred tem, da odstranite navidezno domeno [_1] ([_2]). \n\n  <p> <b>Ste prepricani, da zelite odstraniti to domeno?</b> </p>\n\n  "
+msgstr "  Ste tik pred tem, da odstranite navidezno domeno %1 (%2). \n\n  <p> <b>Ste prepricani, da zelite odstraniti to domeno?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Odstrani navidezno domeno"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Nova domena z imenom [_1] je bila dodana. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven."
+msgstr "Nova domena z imenom %1 je bila dodana. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Navidezno domeno [_1] ste uspesno odstranili. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven."
+msgstr "Navidezno domeno %1 ste uspesno odstranili. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Navidezna domena [_1] je bila uspesno posodobljena. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven."
+msgstr "Navidezna domena %1 je bila uspesno posodobljena. Spletni streznik se sedaj ponovno zaganja. Link na tej spletni strani med tem casom ne bo aktiven."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Napaka: domena [_1] je vasa primarna domena. Ne morete imeti navidezne domene z enakim imenom. Nova domena ni bila dodana."
+msgstr "Napaka: domena %1 je vasa primarna domena. Ne morete imeti navidezne domene z enakim imenom. Nova domena ni bila dodana."
 
 msgid "dom_corporate"
 msgstr "Lokalni DNS strezniki"

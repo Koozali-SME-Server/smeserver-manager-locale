@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Error saat menentukan nama log file.\n\n  <p>Jenis laporan invalid \"[_1]\".</p>\n\n  "
+msgstr " Error saat menentukan nama log file.\n\n  <p>Jenis laporan invalid \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Anda dapat secara opsional menentukan sebuah pattern filter untuk menampilkan hanya baris -baris dari log file yang cocok dengan pattern ini. Jika anda membiarkan field ini kosong, semua baris dari log file akan ditampilkan. Harap catat bahwa pilihan ini tidak berlaku jika anda mendownload logfile tersebut.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Lihat file log"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Menyoroti baris yang cocok dengan : \"[_1]\"."
+msgstr "Menyoroti baris yang cocok dengan : \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Log file \"[_1]\" kosong!"
+msgstr "Log file \"%1\" kosong!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Pilih sebuah log file untuk dilihat"
 
 msgid "log_MATCH_HEADER"
-msgstr "Menampilkan baris yang matching: \"[_1]\"."
+msgstr "Menampilkan baris yang matching: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Anda juga dapat secara opsional menentukan sebuat highlight pattern untuk menandai dengan menebalkan baris-bari dimana log file cocok dengan highlight pattern. Highlight pattern diterapkan pada setiap baris yang cocok dengan filter pattern. Harap catat bahwa pilihan ini tidak berlaku jika anda mendownload logfile tersebut.\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Lihat log file"
 
 msgid "log_VIEWING_TIME"
-msgstr "Dilihat pada [_1]."
+msgstr "Dilihat pada %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Mempersiapkan untuk download logfile [_1]."
+#~ msgstr "Mempersiapkan untuk download logfile %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Logfile download sedang disiapkan. Saat anda klik &quot;Next&quot; tombol dibawah ini proses segera dijalankan, dan instruksikan browser anda untuk menerima download lewat pop-up yang akan muncul.\n\n  "
 #~ msgid "log_View log files"

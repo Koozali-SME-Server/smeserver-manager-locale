@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Eroare în numele fișierului de log.\n\n  <p>Tip de raport invalid \"[_1]\".</p>\n\n  "
+msgstr " Eroare în numele fișierului de log.\n\n  <p>Tip de raport invalid \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Puteți opta pentru un anume model de filtru în fișierul de evidență, numai liniile ce au modelul impus vor fi afișate . Dacă nu completați nimic toate înregistrările din fișierul de evidență vor fi afișate. Luați aminte că această opțiune nu este utilizată daca optați pentu tranferul fișierului.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Vizualizați fișierele jurnal"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Ingrosare linii conforme: \"[_1]\"."
+msgstr "Ingrosare linii conforme: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Fișierul de log \"[_1]\" este gol!"
+msgstr "Fișierul de log \"%1\" este gol!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Alege un fișier de evidență"
 
 msgid "log_MATCH_HEADER"
-msgstr "Listare linii conforme filtru: \"[_1]\"."
+msgstr "Listare linii conforme filtru: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Puteți specifica opțional un filtru ce va fi adus in atenție prin ingroșarea liniilor din log ce vor fi conforme filtrului. Filtrul va fi aplicat oricărei linii din log ce a fost identificata ca conformă. Notă: această opțiune nu se aplică la descărcarea logului.\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Vizualizează log"
 
 msgid "log_VIEWING_TIME"
-msgstr "Vizualizat la [_1]."
+msgstr "Vizualizat la %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Pregtire tranfer fișier de evidență [_1]."
+#~ msgstr "Pregtire tranfer fișier de evidență %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " Fișierul de evidență este pregătit. Tranferul va contiuna imediat ce se apasă butonul &quot;Next&quot; de mai jos și veti accepta ferestrele de confirmare ce vor apare în browserului dumneavoastră.\n\n  "
 #~ msgid "log_View log files"

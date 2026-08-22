@@ -37,7 +37,7 @@ msgstr ""
 msgid "hos_CREATE_TYPE"
 msgstr ""
 
-#. Current list of hostnames for [_1]
+#. Current list of hostnames for %1
 msgid "hos_CURRENT_HOSTNAMES_FOR_LOCAL_DOMAIN"
 msgstr ""
 
@@ -89,7 +89,7 @@ msgstr ""
 msgid "hos_HOSTNAME"
 msgstr ""
 
-#. Error: unexpected characters in the comment of \"[_1]\". \nThe comment must contain only letters, spaces, numbers, dots, commas, undescores, hyphens and must start with a letter or number.
+#. Error: unexpected characters in the comment of \"%1\". \nThe comment must contain only letters, spaces, numbers, dots, commas, undescores, hyphens and must start with a letter or number.
 msgid "hos_HOSTNAME_COMMENT_ERROR"
 msgstr ""
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid "hos_HOSTNAME_DESCRIPTION"
 msgstr ""
 
-#. Error: account [_1] hostname.
+#. Error: account %1 hostname.
 msgid "hos_HOSTNAME_EXISTS_ERROR"
 msgstr ""
 
@@ -105,7 +105,7 @@ msgstr ""
 msgid "hos_HOSTNAME_IN_USE_ERROR"
 msgstr ""
 
-#. Error: unexpected characters in host name: \"[_1]\". The host name should contain only \nletters, numbers, and hyphens and must start with a letter or a number. 
+#. Error: unexpected characters in host name: \"%1\". The host name should contain only \nletters, numbers, and hyphens and must start with a letter or a number. 
 msgid "hos_HOSTNAME_VALIDATOR_ERROR"
 msgstr ""
 
@@ -149,7 +149,7 @@ msgstr ""
 msgid "hos_REMOTE_PAGE_DESCRIPTION"
 msgstr ""
 
-#. You are about to remove the hostname \"[_1]\"
+#. You are about to remove the hostname \"%1\"
 msgid "hos_REMOVE_PAGE_DESCRIPTION"
 msgstr ""
 

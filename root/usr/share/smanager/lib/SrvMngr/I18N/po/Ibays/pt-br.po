@@ -11,13 +11,13 @@ msgstr ""
 "Language: pt-br\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "A conta \"[_1]\" é uma conta do tipo [_2] já existente."
+msgstr "A conta \"%1\" é uma conta do tipo %2 já existente."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " A conta \"[_1]\" conflita com detalhes do pseudonimo para a conta \"[_3]\" do tipo [_2]. [_1] é um pseudonimo para [_3]. "
+msgstr " A conta \"%1\" conflita com detalhes do pseudonimo para a conta \"%3\" do tipo %2. %1 é um pseudonimo para %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "O nome de compartilhamento \"[_1]\" contém caracteres inválidos. O nome do compartilhamento tem que iniciar com letra minúscula e conter somente letras minúsculas, números e hifens."
+msgstr "O nome de compartilhamento \"%1\" contém caracteres inválidos. O nome do compartilhamento tem que iniciar com letra minúscula e conter somente letras minúsculas, números e hifens."
 
 msgid "iba_ADD_IBAY"
 msgstr "Adicionar i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Conteúdo de execução dinâmica (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Incapaz de criar conta para [_1] (isto já existe?)"
+msgstr "Incapaz de criar conta para %1 (isto já existe?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Incapaz de encontrar conta para [_1] (isto existe?)"
+msgstr "Incapaz de encontrar conta para %1 (isto existe?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Toda a Internet (não requer senha)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Rede local (requer senha)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "O nome do compartilhamento \"[_1]\" é muito longo. O máximo é de [_1] caracteres."
+msgstr "O nome do compartilhamento \"%1\" é muito longo. O máximo é de %1 caracteres."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "O nome do compartilhamento deverá conter somente letras minúsculas, números, pontos, hífens e sublinhado e deverá iniciar com letra minúscula. Por exemplo \"joao\", \"intra\", e \"cust3.prj12\" são todos nomes válidos, mas \"3associados\", \"Joao Silva\" e \"Parceiros!Comerciais\" não são. O tamanho do nome está limitado a [_1] caracteres."
+msgstr "O nome do compartilhamento deverá conter somente letras minúsculas, números, pontos, hífens e sublinhado e deverá iniciar com letra minúscula. Por exemplo \"joao\", \"intra\", e \"cust3.prj12\" são todos nomes válidos, mas \"3associados\", \"Joao Silva\" e \"Parceiros!Comerciais\" não são. O tamanho do nome está limitado a %1 caracteres."
 
 msgid "iba_NAME_LABEL"
 msgstr "Nome da pasta"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Não existe nenhuma pasta configurada."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Você está prestes a trocar a senha da pasta [_1]."
+msgstr "Você está prestes a trocar a senha da pasta %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Acesso público via web ou ftp anônimo"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Você está prestes a remover a pasta \"[_1]\" ([_2]). \n\n   Todos os arquivos pertencentes a esta pasta serão apagados. \n\n   Você tem certeza que deseja remover esta pasta? \n\n  "
+msgstr "  Você está prestes a remover a pasta \"%1\" (%2). \n\n   Todos os arquivos pertencentes a esta pasta serão apagados. \n\n   Você tem certeza que deseja remover esta pasta? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Remover pasta"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Acesso do usuário via compartilhamento de arquivos ou ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " Os seguinte domínios virtuais estavam usando esta pasta como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde): [_1] "
+msgstr " Os seguinte domínios virtuais estavam usando esta pasta como seu conteúdo e serão mudados para o web site primário (você pode mudá-los para outro local mais tarde): %1 "
 
 msgid "iba_WARG"
 msgstr "Escrever = admin, Ler = grupo"

@@ -146,7 +146,7 @@ msgid "FM_IP_NUMBER2"
 msgstr "Alamat IP tidak valid untuk memulai DHCP"
 
 msgid "FM_IP_NUMBER3"
-msgstr "[_1] lebih dari 255"
+msgstr "%1 lebih dari 255"
 
 msgid "FM_MAC_ADDRESS1"
 msgstr "Anda harus mengisikan alamat MAC"

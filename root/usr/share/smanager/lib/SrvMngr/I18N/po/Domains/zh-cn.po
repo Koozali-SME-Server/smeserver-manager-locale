@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "添加域名"
 
 msgid "dom_CONTENT"
-msgstr "[_1] i-bay"
+msgstr "%1 i-bay"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "对于web站点，您可以选择您的主站点或者i-bay作为网站的内容。"
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "修改企业 DNS 设置"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "错误：在domain名称[_1]中缺少必要的字符。未能创建新域。"
+msgstr "错误：在domain名称%1中缺少必要的字符。未能创建新域。"
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "错误：domain [_1] 已在使用中。未能创建新域。"
+msgstr "错误：domain %1 已在使用中。未能创建新域。"
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "错误：在domain名称[_1]中缺少必要的字符。此domain名称应该包含一个或者多个字母、数字、句点和分隔号。未能创建新domain。"
+msgstr "错误：在domain名称%1中缺少必要的字符。此domain名称应该包含一个或者多个字母、数字、句点和分隔号。未能创建新domain。"
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "错误：删除域名 [_1] 时出现内部错误。"
+msgstr "错误：删除域名 %1 时出现内部错误。"
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " 每当创建一个域名，服务器将会收到一份该域名的邮件，并可以为此域名建立网站。\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">添加域名</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "修改domain"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "错误: [_1] 已经存在。"
+msgstr "错误: %1 已经存在。"
 
 msgid "dom_PRIMARY_SITE"
 msgstr "主站点"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  即将删除域名 [_1] ([_2]). \n\n  <p> <b>是否真的要删除这个域名？</b> </p>\n\n  "
+msgstr "  即将删除域名 %1 (%2). \n\n  <p> <b>是否真的要删除这个域名？</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "删除域名"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "成功修改了域[_1]。您的web服务器现正重新启动。此页面上的链接将会失效，直到web服务器重启完毕。"
+msgstr "成功修改了域%1。您的web服务器现正重新启动。此页面上的链接将会失效，直到web服务器重启完毕。"
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "成功删除域名[_1]。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。"
+msgstr "成功删除域名%1。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。"
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "成功修改了域名[_1]。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。"
+msgstr "成功修改了域名%1。Web服务器正在重新启动。此页面上的链接将会失效，直到web服务器重启完毕。"
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "错误：域 [_1]是您系统的域名。您不能创建一个同名域。未能创建新域。"
+msgstr "错误：域 %1是您系统的域名。您不能创建一个同名域。未能创建新域。"
 
 msgid "dom_corporate"
 msgstr "外部DNS服务器"

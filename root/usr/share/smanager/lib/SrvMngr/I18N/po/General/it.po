@@ -146,7 +146,7 @@ msgid "FM_IP_NUMBER2"
 msgstr "Formato dell'Indirizzo IP non valido (ci si aspetta un x.x.x.x)"
 
 msgid "FM_IP_NUMBER3"
-msgstr "[_1] è più grande di 255"
+msgstr "%1 è più grande di 255"
 
 msgid "FM_MAC_ADDRESS1"
 msgstr "Deve essere introdotto un Mac-Address"

@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Kereshet vírusokat a ki és bejövő levelekben. Ha a víruskeresés engedélyezve van, és vírust észlel, a levél vissza lesz dobva a feladónak."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Engedélyezheti a rendszer webes levelező felületét. A webmail lehetővé teszi a felhasználóknak, hogy web-böngésző segítségével hozzáférjenek a levelezésükhöz a https://[_1]/webmail címen."
+msgstr "Engedélyezheti a rendszer webes levelező felületét. A webmail lehetővé teszi a felhasználóknak, hogy web-böngésző segítségével hozzáférjenek a levelezésükhöz a https://%1/webmail címen."
 
 msgid "mai_E-Mail"
 msgstr "E-mail"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Engedélyezve HTTPS (biztonságos)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP kliens kérelemmel)"

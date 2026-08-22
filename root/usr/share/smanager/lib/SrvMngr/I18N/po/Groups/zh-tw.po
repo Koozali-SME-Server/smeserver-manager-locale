@@ -14,7 +14,7 @@ msgid "DELETE_ERROR"
 msgstr "(en) DELETE_ERROR"
 
 msgid "grp_ACCOUNT_CONFLICT"
-msgstr "錯誤：群組 \"[_1]\" 無法被建立，因為因為已經有相同名稱 [_2] 的帳號。"
+msgstr "錯誤：群組 \"%1\" 無法被建立，因為因為已經有相同名稱 %2 的帳號。"
 
 msgid "grp_CREATED_GROUP"
 msgstr "成功建立使用者群組"
@@ -29,7 +29,7 @@ msgid "grp_DELETED_GROUP"
 msgstr "成功移除使用者群組"
 
 msgid "grp_DELETE_DESCRIPTION"
-msgstr " 您將要移除使用者群組 \"[_1]\" "
+msgstr " 您將要移除使用者群組 \"%1\" "
 
 msgid "grp_ERR_INTERNAL_FAILURE"
 msgstr "(en) Err internal failure"
@@ -50,7 +50,7 @@ msgid "grp_GROUP_NAMING"
 msgstr "群組名稱僅能使用小寫字母、數字、連字符，句號，和下底線，並且應當由小寫字母起頭。例如： \"sales\", \"beta5\", and \"reseller_partners\" 皆為認可的群組名稱，但是, \"3rd-event\", \"Marketing Team\" and \"lost&found\" 無法認可。"
 
 msgid "grp_GROUP_TOO_LONG"
-msgstr "錯誤：群組名稱太長。最多 [_1] 字元。"
+msgstr "錯誤：群組名稱太長。最多 %1 字元。"
 
 msgid "grp_IBAYS_WILL_BE_CHANGED"
 msgstr "下列訊息被指定到此群組，而且將被改成管理員群組（您隨後可修改）："

@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "คุณสามารถให้สแกนหาไวรัสในอีเมล์เข้าออกได้ ถ้าเลือกให้ทำการแสกนและพบไวรัส อีเมล์นั้นจะปฏิเสธการส่งต่อและตีกลับไปยังผู้ส่ง"
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "คุณสามารถเลือกเปิดหรือปิดการให้บริการเว็บเมล์ได้ บริการเว็บเมล์จะทำให้ผู้ใช้สามารถเข้าถึงอีเมล์ของเขาผ่านเว็บเบราว์เซอร์ โดยการระบุที่อยู่เว็บบนเบราว์เซอร์มาที่ https://[_1]/webmail และล็อกอินเข้าสู่บัญชีของเขา"
+msgstr "คุณสามารถเลือกเปิดหรือปิดการให้บริการเว็บเมล์ได้ บริการเว็บเมล์จะทำให้ผู้ใช้สามารถเข้าถึงอีเมล์ของเขาผ่านเว็บเบราว์เซอร์ โดยการระบุที่อยู่เว็บบนเบราว์เซอร์มาที่ https://%1/webmail และล็อกอินเข้าสู่บัญชีของเขา"
 
 msgid "mai_E-Mail"
 msgstr "อีเมล"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "อนุญาต HTTPS (secure)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP พร้อมคำขอจากไคลเอนต์)"

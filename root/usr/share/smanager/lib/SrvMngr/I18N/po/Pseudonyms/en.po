@@ -14,7 +14,7 @@ msgid "Pseudonyms"
 msgstr "Pseudonyms"
 
 msgid "pse_ABOUT_TO_REMOVE"
-msgstr "You are about to remove the pseudonym: [_1]\n<b>Are you sure you wish to continue?</b>"
+msgstr "You are about to remove the pseudonym: %1\n<b>Are you sure you wish to continue?</b>"
 
 msgid "pse_ACCOUNT_PSEUDONYM_NONE"
 msgstr "No Pseudonyms found for this account"

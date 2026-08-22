@@ -25,7 +25,7 @@ msgstr ""
 msgid "log_ERR_NOOPEN_FILE"
 msgstr ""
 
-#. Error while specifying log file name.\n<p>Invalid report type \"[_1]\".</p>
+#. Error while specifying log file name.\n<p>Invalid report type \"%1\".</p>
 msgid "log_FILENAME_ERROR"
 msgstr ""
 
@@ -49,11 +49,11 @@ msgstr ""
 msgid "log_FORM_TITLE"
 msgstr ""
 
-#. Highlighting lines matching: \"[_1]\".
+#. Highlighting lines matching: \"%1\".
 msgid "log_HIGHLIGHT_HEADER"
 msgstr ""
 
-#. Log file \"[_1]\" is empty!
+#. Log file \"%1\" is empty!
 msgid "log_LOG_FILE_EMPTY"
 msgstr ""
 
@@ -61,7 +61,7 @@ msgstr ""
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr ""
 
-#. Displaying lines matching: \"[_1]\".
+#. Displaying lines matching: \"%1\".
 msgid "log_MATCH_HEADER"
 msgstr ""
 
@@ -93,6 +93,6 @@ msgstr ""
 msgid "log_VIEW"
 msgstr ""
 
-#. Viewed at [_1].
+#. Viewed at %1.
 msgid "log_VIEWING_TIME"
 msgstr ""

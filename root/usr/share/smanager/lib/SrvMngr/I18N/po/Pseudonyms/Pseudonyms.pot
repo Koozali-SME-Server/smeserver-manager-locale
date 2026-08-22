@@ -13,7 +13,7 @@ msgstr ""
 msgid "Pseudonyms"
 msgstr ""
 
-#. You are about to remove the pseudonym: [_1]\n<b>Are you sure you wish to continue?</b>
+#. You are about to remove the pseudonym: %1\n<b>Are you sure you wish to continue?</b>
 msgid "pse_ABOUT_TO_REMOVE"
 msgstr ""
 

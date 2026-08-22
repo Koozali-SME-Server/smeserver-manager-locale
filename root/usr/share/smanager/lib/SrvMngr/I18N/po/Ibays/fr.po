@@ -11,13 +11,13 @@ msgstr ""
 "Language: fr\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "Le nom de compte \"[_1]\" est un compte [_2] existant."
+msgstr "Le nom de compte \"%1\" est un compte %2 existant."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " Le compte \"[_1]\" entre en conflit avec un pseudonyme du compte \"[_2]\". \"[_3]\" est un pseudonyme de \"[_4]\". "
+msgstr " Le compte \"%1\" entre en conflit avec un pseudonyme du compte \"%2\". \"%3\" est un pseudonyme de \"%4\". "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Le nom de l'i-bay \"[_1]\" contient des caractères non valides. Le nom de l'i-bay doit commencer par une minuscule et contenir uniquement des lettres minuscules, des chiffres et des traits d'union."
+msgstr "Le nom de l'i-bay \"%1\" contient des caractères non valides. Le nom de l'i-bay doit commencer par une minuscule et contenir uniquement des lettres minuscules, des chiffres et des traits d'union."
 
 msgid "iba_ADD_IBAY"
 msgstr "Créer une i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Exécution de contenu dynamique (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Impossible de créer un compte pour [_1] (existe-t'il déjà ?)"
+msgstr "Impossible de créer un compte pour %1 (existe-t'il déjà ?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Compte introuvable pour [_1] (existe-t'il ?)"
+msgstr "Compte introuvable pour %1 (existe-t'il ?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Tout Internet (aucun mot de passe requis)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Réseau local (mot de passe requis)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "Le nom de l'i-bay \"[_1]\" est trop long. Le nombre maximum de caractères est de [_2]."
+msgstr "Le nom de l'i-bay \"%1\" est trop long. Le nombre maximum de caractères est de %2."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "Le nom de l'i-bay doit contenir uniquement des lettres minuscules, des chiffres, des traits d'union, des points, des traits de soulignement et commencer par une minuscule. Par exemple, \"johnson\", \"intra\" et \"cust3.prj12\" sont tous des noms valides, mais pas \"3amis\", \"Pierre Leblanc\" ni \"Bus!Partner\". Le nom ne peut contenir que [_1] caractères."
+msgstr "Le nom de l'i-bay doit contenir uniquement des lettres minuscules, des chiffres, des traits d'union, des points, des traits de soulignement et commencer par une minuscule. Par exemple, \"johnson\", \"intra\" et \"cust3.prj12\" sont tous des noms valides, mais pas \"3amis\", \"Pierre Leblanc\" ni \"Bus!Partner\". Le nom ne peut contenir que %1 caractères."
 
 msgid "iba_NAME_LABEL"
 msgstr "Nom de l'i-bay"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Aucune i-bay n'est configurée actuellement."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Veuillez taper le mot de passe de l'i-bay \"[_1]\" :"
+msgstr "Veuillez taper le mot de passe de l'i-bay \"%1\" :"
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Accès public par le Web ou le protocole FTP anonyme"
 
 msgid "iba_REMOVE_DESC"
-msgstr " Vous êtes sur le point de supprimer l'i-bay \"[_1]\" ([_2]).\n\n  Tous les fichiers contenus dans cette i-bay seront supprimés.\n\n  <b>Voulez-vous vraiment supprimer cette i-bay ?</b>\n\n  "
+msgstr " Vous êtes sur le point de supprimer l'i-bay \"%1\" (%2).\n\n  Tous les fichiers contenus dans cette i-bay seront supprimés.\n\n  <b>Voulez-vous vraiment supprimer cette i-bay ?</b>\n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Supprimer l'i-bay"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Accès authentifié par le partage de fichiers ou le protocole FTP"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :\n\n  <ul>[_1]</ul> "
+msgstr " Les domaines virtuels suivants utilisent cette i-bay comme contenu et seront redirigés vers le site Web primaire (vous pourrez par la suite leur attribuer une autre i-bay) :\n\n  <ul>%1</ul> "
 
 msgid "iba_WARG"
 msgstr "Écriture=Admin, Lecture=Groupe"

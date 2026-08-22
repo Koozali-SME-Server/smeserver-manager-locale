@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr "  Pengaturan Secure ShellAnda dapat mengkontrol akses Secure Shell ke server anda. Pengaturan untuk umum hanya dibolehkan oleh administrator berpengalaman untuk diagnosa dan penyelesaian masalah secara jarak jauh. Kami anjurkan untuk membiarkan parameter ini di set ke \"No Access\" kecuali anda punya alasan yang khusus. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Pengaturan Telnet PERINGATAN: Telnet saat ini di enable, tapi fitur ini tidak didukung lagi. Telnet kurang aman dan hanya boleh digunakan jika tidak ada pilihan lain. Anda harus mengganti opsi menjadi [_1] dan menggunakan secure shell jika akses jarak jauhdiperlukan. Sekali di-disable, telnet tidak akan muncul lagi di layar ini. "
+msgstr " Pengaturan Telnet PERINGATAN: Telnet saat ini di enable, tapi fitur ini tidak didukung lagi. Telnet kurang aman dan hanya boleh digunakan jika tidak ada pilihan lain. Anda harus mengganti opsi menjadi %1 dan menggunakan secure shell jika akses jarak jauhdiperlukan. Sekali di-disable, telnet tidak akan muncul lagi di layar ini. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Untuk menambahkan jaringan untuk pengaturan jarak jauh, masukkan rincian dibawah ini."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Pengaturan Telnet"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] Adalah memungkinkan untuk membolehkan host di jaringan luar untuk mengakses server manager dengan memasukkan jaringan tersebut disini. Gunakan subnet mask dengan format 255.255.255.255 untuk membatasi akses host tertentu. Semua host dalam jangkauan yang ditentukan itu akan dapat mengakses server manager menggunakan HTTPS. "
+msgstr " %1 Adalah memungkinkan untuk membolehkan host di jaringan luar untuk mengakses server manager dengan memasukkan jaringan tersebut disini. Gunakan subnet mask dengan format 255.255.255.255 untuk membatasi akses host tertentu. Semua host dalam jangkauan yang ditentukan itu akan dapat mengakses server manager menggunakan HTTPS. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

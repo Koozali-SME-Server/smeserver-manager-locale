@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "E' possibile scansionare le e-mail per individuare eventuali messaggi infetti (contenenti virus)."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "La webmail può essere abilitata oppure disabilitata. La webmail permette agli utenti di accedere alla loro posta utilizzando un normale browser web, indicando l'indirizzo https://[_1]/webmail e accedendo con il proprio username e password."
+msgstr "La webmail può essere abilitata oppure disabilitata. La webmail permette agli utenti di accedere alla loro posta utilizzando un normale browser web, indicando l'indirizzo https://%1/webmail e accedendo con il proprio username e password."
 
 msgid "mai_E-Mail"
 msgstr "Email"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Abilitato HTTPS (accesso sicuro)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP su richiesta)"

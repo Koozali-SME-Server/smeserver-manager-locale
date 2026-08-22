@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Tambahkan domain"
 
 msgid "dom_CONTENT"
-msgstr "[_1] i-bay"
+msgstr "%1 i-bay"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "Untuk situs web anda dapat memilih situs primary atau i-bay manapun sebagai konten."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Ubah pengaturan DNS perusahaan"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Error: terdapat karakter yang tidak dibolehkan atau hilang dalam deskripsi domain [_1]. . Gagal membuat domain baru."
+msgstr "Error: terdapat karakter yang tidak dibolehkan atau hilang dalam deskripsi domain %1. . Gagal membuat domain baru."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Error: domain [_1] sudah digunakan. Gagal membuat domain baru."
+msgstr "Error: domain %1 sudah digunakan. Gagal membuat domain baru."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Error: terdapat karakter yang tidak dibolehkan atau hilang dalam nama domain [_1]. Nama domain hanya boleh terdiri dari satu atau lebih huruf, angka, titik dan tanda minus. Gagal membuat domain baru."
+msgstr "Error: terdapat karakter yang tidak dibolehkan atau hilang dalam nama domain %1. Nama domain hanya boleh terdiri dari satu atau lebih huruf, angka, titik dan tanda minus. Gagal membuat domain baru."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Error: gagal saat menghapus domain [_1]."
+msgstr "Error: gagal saat menghapus domain %1."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Saat anda membuat sebuah domain, server anda akan dapatmenerima e-mail untuk domain tersebut dan juga bisa sebagai tuan rumah bagi situs web untuk domain tersebut.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Tambah domain</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Ubah domain"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Error: [_1] tidak ada."
+msgstr "Error: %1 tidak ada."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "Situs primary"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  Anda akan menghapusdomain [_1] ([_2]). \n\n  <p> <b>Anda yakin menghapus domain ini?</b> </p>\n\n  "
+msgstr "  Anda akan menghapusdomain %1 (%2). \n\n  <p> <b>Anda yakin menghapus domain ini?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Hapus domain"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Berhasil membuat domain [_1]. Web server anda sedang di-restart. Link pada halaman ini akan tidak aktif sampai proses restart web server selesai."
+msgstr "Berhasil membuat domain %1. Web server anda sedang di-restart. Link pada halaman ini akan tidak aktif sampai proses restart web server selesai."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Sukses menghapus domain [_1]. Web server anda sedang di-restart. Link pada halaman ini akan nonaktif sampai proses restart web server selesai."
+msgstr "Sukses menghapus domain %1. Web server anda sedang di-restart. Link pada halaman ini akan nonaktif sampai proses restart web server selesai."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Sukses mengubah domain [_1]. Web server sedang di-restart. Link di halaman ini akan akan nonaktif sampai prosest restart web server selesai."
+msgstr "Sukses mengubah domain %1. Web server sedang di-restart. Link di halaman ini akan akan nonaktif sampai prosest restart web server selesai."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Error: domain [_1] adalah nama domain dari sistem anda. Anda tidak dapat memiliki domain dengan nama rangkap. Gagal membuat doamin baru."
+msgstr "Error: domain %1 adalah nama domain dari sistem anda. Anda tidak dapat memiliki domain dengan nama rangkap. Gagal membuat doamin baru."
 
 msgid "dom_corporate"
 msgstr "Alamat server DNS perusahaan"

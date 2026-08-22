@@ -11,13 +11,13 @@ msgstr ""
 "Language: sl\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "I-list \"[_1]\" je obstojeci [_2] racun."
+msgstr "I-list \"%1\" je obstojeci %2 racun."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " Ime i-liste \"[_1]\" se ujema s psevdonimom podrobnosti za [_2] racun \"[_3]\". [_1] je psevdonim za [_3]. "
+msgstr " Ime i-liste \"%1\" se ujema s psevdonimom podrobnosti za %2 racun \"%3\". %1 je psevdonim za %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Ime i-liste \"[_1]\" vsebuje neveljavne znake. Imena I-liste se morajo zaceti z majhno crko in morajo vsebovati samo majhne crke, stevilke in vezaje."
+msgstr "Ime i-liste \"%1\" vsebuje neveljavne znake. Imena I-liste se morajo zaceti z majhno crko in morajo vsebovati samo majhne crke, stevilke in vezaje."
 
 msgid "iba_ADD_IBAY"
 msgstr "Dodaj i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Izvajanje dinamicnih vsebin (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Ne morem dodati novega i-lista z imenom [_1] (ali to ime morda ze obstaja?)"
+msgstr "Ne morem dodati novega i-lista z imenom %1 (ali to ime morda ze obstaja?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Ne najdem i-lista [_1] (ne obstaja?)"
+msgstr "Ne najdem i-lista %1 (ne obstaja?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Celoten internet (brez gesla)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Lokalno omrezje (zahteva geslo)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "Ime i-liste \"[_1]\" je predolgo. Maksimalno stevilo znakov je [_1]."
+msgstr "Ime i-liste \"%1\" je predolgo. Maksimalno stevilo znakov je %1."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "Ime informacijskega lista sme vsebovati samo majhne crke, stevilke, pike, vezaje in podcrtaje, ter se zacne z majno crko. Npr. \"novak\", \"inter\" in \"just4.you\" so veljavna imena, imena \"5tica\", \"Janez Novak\" in \"Novi!Partner\" pa ne. Ime je omejeno na maksimalno [_1] znakov."
+msgstr "Ime informacijskega lista sme vsebovati samo majhne crke, stevilke, pike, vezaje in podcrtaje, ter se zacne z majno crko. Npr. \"novak\", \"inter\" in \"just4.you\" so veljavna imena, imena \"5tica\", \"Janez Novak\" in \"Novi!Partner\" pa ne. Ime je omejeno na maksimalno %1 znakov."
 
 msgid "iba_NAME_LABEL"
 msgstr "Ime informacijskega lista"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Trenutno ni nobenega i-lista v sistemu."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Ste tik pred tem, da spremenite geslo za i-list [_1]."
+msgstr "Ste tik pred tem, da spremenite geslo za i-list %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Javen spletni dostop ali anonimen FTP"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Ste tik pred tem, da odstranite informacijski list \"[_1]\" ([_2]). \n\n   Vse datoteke v tem informacijskem listu bodo izbrisane. \n\n   Ali ste prepricani, da zelite odstraniti ta informacijski list? \n\n  "
+msgstr "  Ste tik pred tem, da odstranite informacijski list \"%1\" (%2). \n\n   Vse datoteke v tem informacijskem listu bodo izbrisane. \n\n   Ali ste prepricani, da zelite odstraniti ta informacijski list? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Odstrani informacijski list"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Uporabniski dostop v skupni rabi ali ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr "  Naslednje navidezne domene uporabljajo vsebino tega i-lista za spletno stran. Sedaj bo uporabljena vsebina primarne spletne strani. (kasneje lahko to poljubno spremenite):\n\n  <ul>[_1]</ul> "
+msgstr "  Naslednje navidezne domene uporabljajo vsebino tega i-lista za spletno stran. Sedaj bo uporabljena vsebina primarne spletne strani. (kasneje lahko to poljubno spremenite):\n\n  <ul>%1</ul> "
 
 msgid "iba_WARG"
 msgstr "Pisi = admin, Beri = skupina"

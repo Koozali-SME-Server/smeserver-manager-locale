@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Ajouter un domaine"
 
 msgid "dom_CONTENT"
-msgstr "i-bay [_1]"
+msgstr "i-bay %1"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "Pour le contenu du site Web, vous pouvez sélectionner votre site primaire ou toute baie d'information :"
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "Modifier les paramètres DNS de votre organisation"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "ERREUR : caractères inattendus ou manquants dans la description du domaine \"[_1]\". Le domaine n'a pas été créé."
+msgstr "ERREUR : caractères inattendus ou manquants dans la description du domaine \"%1\". Le domaine n'a pas été créé."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "ERREUR : le domaine \"[_1]\" existe déjà. Le domaine n'a pas été créé."
+msgstr "ERREUR : le domaine \"%1\" existe déjà. Le domaine n'a pas été créé."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "ERREUR : caractères inattendus ou manquants dans le nom du domaine \"[_1]\". Le nom du domaine doit contenir au moins une lettre, des chiffres, des points et des traits d'union. Le domaine n'a pas été créé."
+msgstr "ERREUR : caractères inattendus ou manquants dans le nom du domaine \"%1\". Le nom du domaine doit contenir au moins une lettre, des chiffres, des points et des traits d'union. Le domaine n'a pas été créé."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "ERREUR : une erreur s'est produite lors de la suppression du domaine \"[_1]\"."
+msgstr "ERREUR : une erreur s'est produite lors de la suppression du domaine \"%1\"."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Si vous créez un domaine, le serveur pourra recevoir des courriels et héberger un site Web pour ce domaine."
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Modifier le domaine"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "ERREUR : le domaine \"[_1]\" est inexistant."
+msgstr "ERREUR : le domaine \"%1\" est inexistant."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "site primaire"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr " Vous êtes sur le point de supprimer le domaine \"[_1]\" ([_2])..\n\n  <p><b>Voulez-vous vraiment supprimer ce domaine ?</b></p>\n\n  "
+msgstr " Vous êtes sur le point de supprimer le domaine \"%1\" (%2)..\n\n  <p><b>Voulez-vous vraiment supprimer ce domaine ?</b></p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Supprimer le domaine"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Le domaine \"[_1]\" a été créé avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu'à la fin du redémarrage du service Web."
+msgstr "Le domaine \"%1\" a été créé avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu'à la fin du redémarrage du service Web."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Le domaine \"[_1]\" a été supprimé avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu'à la fin du redémarrage du service Web."
+msgstr "Le domaine \"%1\" a été supprimé avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu'à la fin du redémarrage du service Web."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Le domaine \"[_1]\" a été modifié avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu'à la fin du redémarrage du service Web."
+msgstr "Le domaine \"%1\" a été modifié avec succès. Votre service Web redémarre. Les liens de cette page seront inactifs jusqu'à la fin du redémarrage du service Web."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "ERREUR : \"[_1]\" est le nom du domaine primaire de votre système. Il est impossible d'avoir un domaine avec le même nom. Le domaine n'a pas été créé."
+msgstr "ERREUR : \"%1\" est le nom du domaine primaire de votre système. Il est impossible d'avoir un domaine avec le même nom. Le domaine n'a pas été créé."
 
 msgid "dom_corporate"
 msgstr "Serveurs DNS de votre organisation"

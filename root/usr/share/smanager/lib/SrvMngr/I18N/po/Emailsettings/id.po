@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Anda dapat memeriksa e-mail masuk dan keluar dari virus. Jika scanning di-enable dan ditemukan virus, maka email akan ditolak dan dikembalikan ke pengirim."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Anda dapat meng-enable atau men-disable webmail pada sistem ini. Webmail membolehkan user untuk mengakses mail melalui web browser dengan mengarahkan web browser ke alamat https://[_1]/webmail, dan login ke akun mereka."
+msgstr "Anda dapat meng-enable atau men-disable webmail pada sistem ini. Webmail membolehkan user untuk mengakses mail melalui web browser dengan mengarahkan web browser ke alamat https://%1/webmail, dan login ke akun mereka."
 
 msgid "mai_E-Mail"
 msgstr "Email"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Bolehkan HTTPS (aman)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP dengan permintaan klien)"

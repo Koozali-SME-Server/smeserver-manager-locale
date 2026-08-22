@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "U kunt in- en uitgaande e-mail scannen op virussen. Als scannen aanstaat en een virus is gedetecteerd wordt de e-mail geweigerd en teruggestuurd aan de verzender."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "U kunt webmail aan- en uitzetten op dit systeem. Webmail geeft gebruikers toegang tot hun mail via een reguliere webbrowser door de webbrowser te sturen naar https://[_1]/webmail, en in te loggen op hun account."
+msgstr "U kunt webmail aan- en uitzetten op dit systeem. Webmail geeft gebruikers toegang tot hun mail via een reguliere webbrowser door de webbrowser te sturen naar https://%1/webmail, en in te loggen op hun account."
 
 msgid "mai_E-Mail"
 msgstr "E-mail"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "HTTPS (beveiligd) toestaan"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP met clientverzoek)"

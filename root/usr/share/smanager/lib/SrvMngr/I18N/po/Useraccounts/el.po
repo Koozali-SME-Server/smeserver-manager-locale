@@ -23,16 +23,16 @@ msgid "Webmail"
 msgstr "(en) Webmail"
 
 msgid "usr_ACCOUNT_CONFLICT"
-msgstr "Σφάλμα: ο λογαριασμός \"[_1]\" δεν μπορεί να δημιουργηθεί διότι υπάρχει ήδη ένας λογαριασμός [_2]με την ίδια ονομασία."
+msgstr "Σφάλμα: ο λογαριασμός \"%1\" δεν μπορεί να δημιουργηθεί διότι υπάρχει ήδη ένας λογαριασμός %2με την ίδια ονομασία."
 
 msgid "usr_ACCOUNT_NAME"
 msgstr "Ονομασία λογαριασμού"
 
 msgid "usr_ACCOUNT_TOO_LONG"
-msgstr "Σφάλμα: ονομασία λογαριασμού μεγάλου μήκους. Το μέγιστο μήκος είναι [_1] χαρακτήρες."
+msgstr "Σφάλμα: ονομασία λογαριασμού μεγάλου μήκους. Το μέγιστο μήκος είναι %1 χαρακτήρες."
 
 msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Η ονομασία του λογαριασμού \"[_1]\"περιλαμβάνει μη-αποδεκτούς χαρακτήρες. Οι ονομασίες λογαριασμών πρέπει ν' αρχίζουν με πεζό γράμμα και να περιλαμβάνουν μόνο πεζά γράμματα, αριθμούς, hyphens, τελείες στίξης και μπάρες υπογράμμισης."
+msgstr "Η ονομασία του λογαριασμού \"%1\"περιλαμβάνει μη-αποδεκτούς χαρακτήρες. Οι ονομασίες λογαριασμών πρέπει ν' αρχίζουν με πεζό γράμμα και να περιλαμβάνουν μόνο πεζά γράμματα, αριθμούς, hyphens, τελείες στίξης και μπάρες υπογράμμισης."
 
 msgid "usr_ADD_USER"
 msgstr "Προσθήκη λογαριασμού χρήστη"
@@ -41,10 +41,10 @@ msgid "usr_CANNOT_CONTAIN_WHITESPACE"
 msgstr "Το παρόν πεδίο δεν μπορεί να περιλαμβάνει \"αόρατους\" χαρακτήρες (spaces, tabs, newlines)"
 
 msgid "usr_CANNOT_MODIFY_USER"
-msgstr "Σφάλμα: Παρουσιάστηκε εσωτερικό σφάλμα κατά την απόπειρα τροποποίησης του χρήστη \"[_1]\"."
+msgstr "Σφάλμα: Παρουσιάστηκε εσωτερικό σφάλμα κατά την απόπειρα τροποποίησης του χρήστη \"%1\"."
 
 msgid "usr_CANNOT_MODIFY_USER_GROUPS"
-msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"%1\" for user \"%2\"."
 
 msgid "usr_CITY"
 msgstr "Πόλη"
@@ -101,7 +101,7 @@ msgid "usr_GROUP_MEMBERSHIPS"
 msgstr "Συμμετοχή σε ομάδες"
 
 msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters and must pass a dictionary check."
 
 msgid "usr_LABEL_IPSECRW_DOWNLOAD"
 msgstr "Αποστολή (download) ψηφιακού πιστοποιητικού σε πελάτη IPSec"
@@ -113,7 +113,7 @@ msgid "usr_LOCK"
 msgstr "Κλείδωμα"
 
 msgid "usr_LOCKED_ACCOUNT"
-msgstr "Επιτυχές κλείδωμα του λογαριασμού του χρήστη \"[_1]\"."
+msgstr "Επιτυχές κλείδωμα του λογαριασμού του χρήστη \"%1\"."
 
 msgid "usr_LOCK_ACCOUNT"
 msgstr "(en) Lock account"
@@ -143,13 +143,13 @@ msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
 msgstr "Νέος κωδικός πρόσβασης συστήματος (επιβεβαίωση)"
 
 msgid "usr_NONE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters."
 
 msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters."
 
 msgid "usr_NO_SUCH_USER"
-msgstr "Σφάλμα: Δεν υφίσταται λογαριασμός χρήστη \"[_1]\"."
+msgstr "Σφάλμα: Δεν υφίσταται λογαριασμός χρήστη \"%1\"."
 
 msgid "usr_NO_USER_ACCOUNTS"
 msgstr "Δεν υφίστανται λογαριασμοί χρηστών σ΄αυτό το σύστημα."
@@ -158,7 +158,7 @@ msgid "usr_P2_TITLE"
 msgstr "Δημιουργία ή τροποποίηση"
 
 msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
-msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης για τον χρήστη \"[_1]\"."
+msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης για τον χρήστη \"%1\"."
 
 msgid "usr_PASSWORD_WIKI"
 msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
@@ -167,7 +167,7 @@ msgid "usr_PHONE_NUMBER"
 msgstr "Αριθμός τηλεφώνου"
 
 msgid "usr_PSEUDONYM_CLASH"
-msgstr "Σφάλμα: το ψευδώνυμο \"[_1]\" έχει ήδη παραχωρηθεί στον υπάρχοντα λογαριασμό χρήστη\"[_2]\". Για να διαφοροποιηθείτε, προσθέστε αρχικούς χαρακτήρες σ' αυτό το πεδίο."
+msgstr "Σφάλμα: το ψευδώνυμο \"%1\" έχει ήδη παραχωρηθεί στον υπάρχοντα λογαριασμό χρήστη\"%2\". Για να διαφοροποιηθείτε, προσθέστε αρχικούς χαρακτήρες σ' αυτό το πεδίο."
 
 msgid "usr_REMOVE_ACCOUNT_TITLE"
 msgstr "Διαγραφή λογαριασμού χρήστη"
@@ -188,7 +188,7 @@ msgid "usr_STREET_ADDRESS"
 msgstr "Διεύθυνση"
 
 msgid "usr_STRONG_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
 
 msgid "usr_SUCCESSFULLY_DELETED_USER"
 msgstr "(en) Successfully deleted user"
@@ -215,7 +215,7 @@ msgid "usr_TAINTED_PASSWORD"
 msgstr "(en)The new password starts with invalid characters."
 
 msgid "usr_TAINTED_USER"
-msgstr "Η ονομασία λογαριασμού \"[_1]\" περιλαμβάνει μη-έγκυρους χαρακτήρες."
+msgstr "Η ονομασία λογαριασμού \"%1\" περιλαμβάνει μη-έγκυρους χαρακτήρες."
 
 msgid "usr_UNACCEPTABLE_CHARS"
 msgstr "Το παρόν πεδίο πρέπει να περιλαμβάνει μόνο γράμματα, αριθμούς, τελείες, παύλες και παύλες υπογράμμισης και να αρχίζει με ένα γράμμα"

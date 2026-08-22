@@ -47,13 +47,13 @@ msgid "ln_LOCAL_NETWORK_NONE"
 msgstr "(en) No Local networks found"
 
 msgid "ln_NETWORK_ALREADY_ADDED"
-msgstr "Erro: rede [_1] (derivada da rede [_2] e máscara de rede [_3]) já foi adicionada. Nova rede não adicionada."
+msgstr "Erro: rede %1 (derivada da rede %2 e máscara de rede %3) já foi adicionada. Nova rede não adicionada."
 
 msgid "ln_NETWORK_ALREADY_LOCAL"
-msgstr "Erro: rede [_1] (derivada da rede [_2] e máscara de rede [_3]) já é considerada local. Nova rede não adicionada."
+msgstr "Erro: rede %1 (derivada da rede %2 e máscara de rede %3) já é considerada local. Nova rede não adicionada."
 
 msgid "ln_NOT_ACCESSIBLE_FROM_LOCAL_NETWORK"
-msgstr "Erro: endereço de roteador [_1] não está acessível da rede local. Rede não adicionada."
+msgstr "Erro: endereço de roteador %1 não está acessível da rede local. Rede não adicionada."
 
 msgid "ln_NO_SUCH_NETWORK"
 msgstr "(en)Network not found in network db"
@@ -77,13 +77,13 @@ msgid "ln_SUBNET_MASK"
 msgstr "Máscara de subrede"
 
 msgid "ln_SUCCESS_NETWORK_RANGE"
-msgstr "Rede adicionada com sucesso [_1]/[_2] rotear via [_3]. Seu servidor irá garantir privilegios de acesso local para [_4] endereços IP na faixa de [_5] à [_6]."
+msgstr "Rede adicionada com sucesso %1/%2 rotear via %3. Seu servidor irá garantir privilegios de acesso local para %4 endereços IP na faixa de %5 à %6."
 
 msgid "ln_SUCCESS_NONSTANDARD_RANGE"
-msgstr "  Rede adicionada com sucesso [_1]/[_2] rotear via [_3]. \n\n  <p> Seu servidor irá garantir privilegios de acesso local para [_1] endereços IP na faixa de [_2] à [_3]. </p>\n\n  <p> Aviso: o servidor FTP ProFTP não pode manusear essas máscaras de rede não -padrão. A especificação simples <b>[_1]</b> será usada. </p>\n\n  "
+msgstr "  Rede adicionada com sucesso %1/%2 rotear via %3. \n\n  <p> Seu servidor irá garantir privilegios de acesso local para %1 endereços IP na faixa de %2 à %3. </p>\n\n  <p> Aviso: o servidor FTP ProFTP não pode manusear essas máscaras de rede não -padrão. A especificação simples <b>%1</b> será usada. </p>\n\n  "
 
 msgid "ln_SUCCESS_REMOVED_NETWORK"
-msgstr "Remoção da rede com sucesso [_1]/[_2] rotear via [_3]."
+msgstr "Remoção da rede com sucesso %1/%2 rotear via %3."
 
 msgid "ln_SUCCESS_SINGLE_ADDRESS"
-msgstr "Rede adicionada com sucesso [_1]/[_2] rotear via [_3]. Seu servidor irá garantir privilégios de acesso local para o endereço IP [_4]."
+msgstr "Rede adicionada com sucesso %1/%2 rotear via %3. Seu servidor irá garantir privilégios de acesso local para o endereço IP %4."

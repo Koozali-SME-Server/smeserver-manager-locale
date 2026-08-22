@@ -23,16 +23,16 @@ msgid "Webmail"
 msgstr "(en) Webmail"
 
 msgid "usr_ACCOUNT_CONFLICT"
-msgstr "Hata: \"[_1]\" hesabı oluşturulamadı çünkü [_2] isimli bir hesap zaten mevcut."
+msgstr "Hata: \"%1\" hesabı oluşturulamadı çünkü %2 isimli bir hesap zaten mevcut."
 
 msgid "usr_ACCOUNT_NAME"
 msgstr "Hesap adı"
 
 msgid "usr_ACCOUNT_TOO_LONG"
-msgstr "Hata: kullanıcı adı çok uzun. En fazla [_1] karakter kullanılabilir."
+msgstr "Hata: kullanıcı adı çok uzun. En fazla %1 karakter kullanılabilir."
 
 msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "[_1]\" kullancı adı geçersiz karakter içeriyor. Hesap adı küçük harfle başlamalı ve küçük harfler, rakamlar, tire, nokta ve alt çizgi içermelidir."
+msgstr "%1\" kullancı adı geçersiz karakter içeriyor. Hesap adı küçük harfle başlamalı ve küçük harfler, rakamlar, tire, nokta ve alt çizgi içermelidir."
 
 msgid "usr_ADD_USER"
 msgstr "Kullanıcı hesabı ekle"
@@ -41,10 +41,10 @@ msgid "usr_CANNOT_CONTAIN_WHITESPACE"
 msgstr "Bu alan boşluk içermemelidir"
 
 msgid "usr_CANNOT_MODIFY_USER"
-msgstr "Hata: \"[_1]\" isimli kullanıcının ayarları değiştirilirken hata meydana geldi."
+msgstr "Hata: \"%1\" isimli kullanıcının ayarları değiştirilirken hata meydana geldi."
 
 msgid "usr_CANNOT_MODIFY_USER_GROUPS"
-msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"%1\" for user \"%2\"."
 
 msgid "usr_CITY"
 msgstr "Şehir"
@@ -101,7 +101,7 @@ msgid "usr_GROUP_MEMBERSHIPS"
 msgstr "Grup üyeleri"
 
 msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters and must pass a dictionary check."
 
 msgid "usr_LABEL_IPSECRW_DOWNLOAD"
 msgstr "Dijital sertifikaları IPSec istemcisine indir"
@@ -113,7 +113,7 @@ msgid "usr_LOCK"
 msgstr "Kilitli"
 
 msgid "usr_LOCKED_ACCOUNT"
-msgstr "[_1]\" kullanıcısının hesabı başarıyla kilitlendi."
+msgstr "%1\" kullanıcısının hesabı başarıyla kilitlendi."
 
 msgid "usr_LOCK_ACCOUNT"
 msgstr "(en) Lock account"
@@ -143,13 +143,13 @@ msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
 msgstr "Sistemin yeni şifresi (doğrula)"
 
 msgid "usr_NONE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters."
 
 msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters."
 
 msgid "usr_NO_SUCH_USER"
-msgstr "Hata: \"[_1]\" kullanıcısının hesabı bulunamadı."
+msgstr "Hata: \"%1\" kullanıcısının hesabı bulunamadı."
 
 msgid "usr_NO_USER_ACCOUNTS"
 msgstr "Kullanıcı hesabı bulunamadı."
@@ -158,7 +158,7 @@ msgid "usr_P2_TITLE"
 msgstr "Oluştur veya değiştir"
 
 msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
-msgstr "[_1]\" kullanıcısının şifresi başarıyla değiştirildi."
+msgstr "%1\" kullanıcısının şifresi başarıyla değiştirildi."
 
 msgid "usr_PASSWORD_WIKI"
 msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
@@ -167,7 +167,7 @@ msgid "usr_PHONE_NUMBER"
 msgstr "Telefon numarası"
 
 msgid "usr_PSEUDONYM_CLASH"
-msgstr "Hata: takma isim \"[_1]\" zaten var olan \"[_2]\" kullanıcının hesabı ile alınır . Farklılaştırmak için, bu alanın başına harfleri ekleyin."
+msgstr "Hata: takma isim \"%1\" zaten var olan \"%2\" kullanıcının hesabı ile alınır . Farklılaştırmak için, bu alanın başına harfleri ekleyin."
 
 msgid "usr_REMOVE_ACCOUNT_TITLE"
 msgstr "Kullanıcı hesabını sil"
@@ -188,7 +188,7 @@ msgid "usr_STREET_ADDRESS"
 msgstr "Adres"
 
 msgid "usr_STRONG_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
 
 msgid "usr_SUCCESSFULLY_DELETED_USER"
 msgstr "(en) Successfully deleted user"
@@ -215,7 +215,7 @@ msgid "usr_TAINTED_PASSWORD"
 msgstr "(en)The new password starts with invalid characters."
 
 msgid "usr_TAINTED_USER"
-msgstr "Girilen hesap adı \"[_1]\" geçersiz karakterler içeriyor."
+msgstr "Girilen hesap adı \"%1\" geçersiz karakterler içeriyor."
 
 msgid "usr_UNACCEPTABLE_CHARS"
 msgstr "Bu alan sadece harfler, sayılar, nokta, tire ve altçizgi içerebilir ve harfle başlamalıdır"

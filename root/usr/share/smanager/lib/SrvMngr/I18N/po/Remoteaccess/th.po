@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr "  ตั้งค่า Secure Shellคุณสามารถควบคุมการเข้าถึงแบบ ของเซิร์ฟเวอร์นี้ของคุณได้ การเปิดให้เข้าถึงแบบสาธารณะควรเปิดให้ใช้เฉพาะกับผู้ดูแลระบบที่มีความชำนาญ เพื่อใช้ในการตรวจสอบหาและแก้ไขความผิดปกติของระบบจากภายนอก เราแนะนำให้คุณปล่อยเป็น \"No Access\" เอาไว้ตามค่าตั้งต้น ยกเว้นหากคุณมีความประสงค์เป็นอย่างอื่น "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " การตั้งค่า telnet คำเตือน: ขณะนี้การเข้าถึงแบบ telnet ถูกเปิดไว้ แต่คุณสมบัตินี้ไม่ได้รับการสนับสนุนให้ใช้แล้ว การเข้าถึงแบบ telnet มีความไม่ปลอดภัยในตัวของมันและควรถูกใช้ในกรณีที่ไม่ทางเลือกอื่นที่ดีกว่า คุณควรเลือกตั้งให้เป็น [_1] และใช้งาน secure shell แทนหากจไเป็นต้องใช้การ remote access, Once disabled, telnet will no longer appear on this screen. "
+msgstr " การตั้งค่า telnet คำเตือน: ขณะนี้การเข้าถึงแบบ telnet ถูกเปิดไว้ แต่คุณสมบัตินี้ไม่ได้รับการสนับสนุนให้ใช้แล้ว การเข้าถึงแบบ telnet มีความไม่ปลอดภัยในตัวของมันและควรถูกใช้ในกรณีที่ไม่ทางเลือกอื่นที่ดีกว่า คุณควรเลือกตั้งให้เป็น %1 และใช้งาน secure shell แทนหากจไเป็นต้องใช้การ remote access, Once disabled, telnet will no longer appear on this screen. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "กรอกข้อมูลด้านล่าง เพื่อเพิ่มข้อมูล remote management network"
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "การตั้งค่า Telnet"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] คุณสามารถเปิดให้โฮสต์จาก remote networks สามารถเข้าถึงเซิร์ฟเวอร์นี้ได้โดยกรอกข้อมูลเครือข่ายเหล่านั้นด้านล่าง Use a subnet mask of 255.255.255.255 to limit the access to the specified host. Any hosts within the specified range will be able to access the server manager using HTTPS. "
+msgstr " %1 คุณสามารถเปิดให้โฮสต์จาก remote networks สามารถเข้าถึงเซิร์ฟเวอร์นี้ได้โดยกรอกข้อมูลเครือข่ายเหล่านั้นด้านล่าง Use a subnet mask of 255.255.255.255 to limit the access to the specified host. Any hosts within the specified range will be able to access the server manager using HTTPS. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

@@ -11,13 +11,13 @@ msgstr ""
 "Language: et\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "Konto\"[_1]\" on olemas [_2] kontona."
+msgstr "Konto\"%1\" on olemas %2 kontona."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " The account \"[_1]\" clashes with pseudonym details for [_2] account \"[_3]\". [_1] is a pseudonym for [_3]. "
+msgstr " The account \"%1\" clashes with pseudonym details for %2 account \"%3\". %1 is a pseudonym for %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr " I-bay nimi \"[_1]\" sisaldab sobimatuid sümboleid. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens."
+msgstr " I-bay nimi \"%1\" sisaldab sobimatuid sümboleid. I-bay names must start with a lower case letter and contain only lower case letters, numbers, and hyphens."
 
 msgid "iba_ADD_IBAY"
 msgstr "Lisa i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Dünaamilise sisu käivitamine (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Ei saa luua uut kontot [_1] (selline on juba olemas?)"
+msgstr "Ei saa luua uut kontot %1 (selline on juba olemas?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Ei leia kontot [_1] (on see üldse olemas?)"
+msgstr "Ei leia kontot %1 (on see üldse olemas?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Internetist (ilma paroolita)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Kohtvõrgust (parooliga)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "I-bay nimi \"[_1]\" ion liiga pikk. Maksimum lubatud pikkus on [_1] märki."
+msgstr "I-bay nimi \"%1\" ion liiga pikk. Maksimum lubatud pikkus on %1 märki."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "(en)The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example \"johnson\", \"intra\", and \"cust3.prj12\" are all valid names, but \"3associates\", \"John Smith\" and \"Bus!Partner\" are not. The name is limited to [_1] characters."
+msgstr "(en)The information bay name should contain only lower-case letters, numbers, periods, hyphens and underscores, and should start with a lower-case letter. For example \"johnson\", \"intra\", and \"cust3.prj12\" are all valid names, but \"3associates\", \"John Smith\" and \"Bus!Partner\" are not. The name is limited to %1 characters."
 
 msgid "iba_NAME_LABEL"
 msgstr "I-bay nimi"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Pole i-bay-sid mida seadistada."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "(en)You are about to change the password for the i-bay [_1]."
+msgstr "(en)You are about to change the password for the i-bay %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "(en)Public access via web or anonymous ftp"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  You are about to remove the information bay \"[_1]\" ([_2]). \n\n   All files belonging to this information bay will be deleted. \n\n   Are you sure you wish to remove this information bay? \n\n  "
+msgstr "  You are about to remove the information bay \"%1\" (%2). \n\n   All files belonging to this information bay will be deleted. \n\n   Are you sure you wish to remove this information bay? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Eemalda i- bay"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "(en)User access via file sharing or user ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): [_1] "
+msgstr " The following virtual domains were using this information bay as their content and will be changed to the primary web site (you can change them to something else afterward): %1 "
 
 msgid "iba_WARG"
 msgstr "Write = admin, Read = group"

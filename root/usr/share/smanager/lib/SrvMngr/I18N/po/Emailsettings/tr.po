@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Gelen ve giden e-postalarını virüse karşı tarayabilirsiniz. Virüs tespit edilirse, e-pota göndericiye geli yollanır."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Bu sistemdeki webmail etkinleştirilebilir veya devre dışı bırakılabilri. Webmail kullanıcıları kendi e-postalarına web gezginini https://[_1]/webmail adresine yönlendirerek hesaplarına giriş yapabilirler."
+msgstr "Bu sistemdeki webmail etkinleştirilebilir veya devre dışı bırakılabilri. Webmail kullanıcıları kendi e-postalarına web gezginini https://%1/webmail adresine yönlendirerek hesaplarına giriş yapabilirler."
 
 msgid "mai_E-Mail"
 msgstr "E-posta"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "HTTPS için izin ver (güvenli)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP istemci isteği ile)"

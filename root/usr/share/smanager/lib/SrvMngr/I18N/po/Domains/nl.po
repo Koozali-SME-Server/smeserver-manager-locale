@@ -17,7 +17,7 @@ msgid "dom_ADD_DOMAIN"
 msgstr "Domein toevoegen"
 
 msgid "dom_CONTENT"
-msgstr "[_1] informatie-baai"
+msgstr "%1 informatie-baai"
 
 msgid "dom_CONTENT_FIELD_DESCRIPTION"
 msgstr "Voor de website, mag u uw primaire website als inhoud kiezen of een van de informatie-baaien."
@@ -41,13 +41,13 @@ msgid "dom_DOMAINS_PAGE_CORPORATE_DNS"
 msgstr "DNS-instellingen van het bedrijf wijzigen"
 
 msgid "dom_DOMAIN_DESCRIPTION_VALIDATION_ERROR"
-msgstr "Fout: Onverwachte of missende tekens in de domein beschrijving [_1]. Het nieuw domein is niet toegevoegd."
+msgstr "Fout: Onverwachte of missende tekens in de domein beschrijving %1. Het nieuw domein is niet toegevoegd."
 
 msgid "dom_DOMAIN_IN_USE_ERROR"
-msgstr "Fout: domein [_1] is reeds in gebruik. Het nieuw domein is niet toegevoegd."
+msgstr "Fout: domein %1 is reeds in gebruik. Het nieuw domein is niet toegevoegd."
 
 msgid "dom_DOMAIN_NAME_VALIDATION_ERROR"
-msgstr "Fout: Onverwachte of missende tekens in domeinnaam [_1]. De domeinnaam moet uit een of meer letters, cijfers, punten of koppeltekens bestaan. Het nieuw domein is niet toegevoegd."
+msgstr "Fout: Onverwachte of missende tekens in domeinnaam %1. De domeinnaam moet uit een of meer letters, cijfers, punten of koppeltekens bestaan. Het nieuw domein is niet toegevoegd."
 
 msgid "dom_ERROR_CREATING_DOMAIN"
 msgstr "(en) Error creating domain"
@@ -59,7 +59,7 @@ msgid "dom_ERROR_UPDATING"
 msgstr "(en) Error updating"
 
 msgid "dom_ERROR_WHILE_REMOVING_DOMAIN"
-msgstr "Fout: interne fout opgetreden tijdens verwijderen van domein [_1]."
+msgstr "Fout: interne fout opgetreden tijdens verwijderen van domein %1."
 
 msgid "dom_FORM_DESCRIPTION"
 msgstr " Wanneer u een domein toevoegd zal uw server e-mail kunnen ontvangen voor dat domein en zal de server ook een website kunnen hosten voor dat domein.\n\n  <p><a class=\"button-like\" href=\"domains?page=0&page_stack=&next=next&wherenext=domains_page_create\">Voeg domein toe</a> "
@@ -80,28 +80,28 @@ msgid "dom_MODIFY_TITLE"
 msgstr "Wijzig domein"
 
 msgid "dom_NONEXISTENT_DOMAIN_ERROR"
-msgstr "Fout: [_1] is geen bestaand domein."
+msgstr "Fout: %1 is geen bestaand domein."
 
 msgid "dom_PRIMARY_SITE"
 msgstr "primaire site"
 
 msgid "dom_REMOVE_DESCRIPTION"
-msgstr "  U staat op het punt het domein [_1] ([_2]) te verwijderen. \n\n  <p> <b>Bent u zeker dat u dit domein wil verwijderen?</b> </p>\n\n  "
+msgstr "  U staat op het punt het domein %1 (%2) te verwijderen. \n\n  <p> <b>Bent u zeker dat u dit domein wil verwijderen?</b> </p>\n\n  "
 
 msgid "dom_REMOVE_TITLE"
 msgstr "Domein verwijderen"
 
 msgid "dom_SUCCESSFULLY_CREATED"
-msgstr "Domein [_1] is met succes toegevoegd. Uw webserver wordt nu herstart. De links op deze pagina zullen inactief blijven totdat de webserver herstart voltooid is."
+msgstr "Domein %1 is met succes toegevoegd. Uw webserver wordt nu herstart. De links op deze pagina zullen inactief blijven totdat de webserver herstart voltooid is."
 
 msgid "dom_SUCCESSFULLY_DELETED"
-msgstr "Domein [_1] is met succes verwijderd. Uw webserver wordt nu herstart. De links op deze pagina zullen inactief blijven totdat de webserver herstart voltooid is."
+msgstr "Domein %1 is met succes verwijderd. Uw webserver wordt nu herstart. De links op deze pagina zullen inactief blijven totdat de webserver herstart voltooid is."
 
 msgid "dom_SUCCESSFULLY_MODIFIED"
-msgstr "Domein [_1] is met succes gewijzigd. Uw webserver wordt nu herstart. De links op deze pagina zullen inactief blijven totdat de webserver herstart voltooid is."
+msgstr "Domein %1 is met succes gewijzigd. Uw webserver wordt nu herstart. De links op deze pagina zullen inactief blijven totdat de webserver herstart voltooid is."
 
 msgid "dom_SYSTEM_DOMAIN_ERROR"
-msgstr "Fout: Domein [_1] is uw systeems domein naam. U kan geen domein hebben met dezelfde naam. Het nieuw domein is niet toegevoegd."
+msgstr "Fout: Domein %1 is uw systeems domein naam. U kan geen domein hebben met dezelfde naam. Het nieuw domein is niet toegevoegd."
 
 msgid "dom_corporate"
 msgstr "Ondernemings DNS servers"

@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " เกิดข้อผิดพลาดขณะทำการระบุชื่อ log file \n\n  <p>ประเภทของรายงานไม่ถูกต้อง \"[_1]\"</p>\n\n  "
+msgstr " เกิดข้อผิดพลาดขณะทำการระบุชื่อ log file \n\n  <p>ประเภทของรายงานไม่ถูกต้อง \"%1\"</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " คุณอาจตั้งแพทเทิร์นการแสดงผลเพิ่มเติมเพื่อให้กรองเฉพาะบรรทัดจาก log file ที่ตรงกับแพทเทิร์นนั้น การปล่อยฟิลด์นี้ให้ว่างไว้จะเป็นการให้แสดงทุกบรรทัดที่มี หมายเหตุ:แพทเทิร์นนี้จะไม่มีผล หากเป็นการเลือกดาวน์โหลด\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "ดูไฟล์บันทึก"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "กำลังแสดงผลโดยเน้นบรรทัดที่ตรงตาม \"[_1]\""
+msgstr "กำลังแสดงผลโดยเน้นบรรทัดที่ตรงตาม \"%1\""
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "แฟ้ม (Log file) \"[_1]\" ว่างเปล่า!"
+msgstr "แฟ้ม (Log file) \"%1\" ว่างเปล่า!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "เลือก log file ที่ต้องกาีรดู"
 
 msgid "log_MATCH_HEADER"
-msgstr "กำลังแสดงผลบรรทัดที่ตรงตาม \"[_1]\""
+msgstr "กำลังแสดงผลบรรทัดที่ตรงตาม \"%1\""
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " คุณอาจตั้งแพทเทิร์นให้แสดงผลการเน้น (highlight) เพิ่มเติม เพื่อให้ทำการเน้นโดยทำตัวหนาแก่บรรทัดใดก็ตามที่ตรงตามแพทเทิร์นนั้น การเน้นจะรวมเน้นบรรทัดที่มาจากแพทเทิร์นกรองการแสดงผลด้วย หมายเหตุ:แพทเทิร์นนี้จะไม่มีผล หากเป็นการเลือกดาวน์โหลด\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "ดู log file"
 
 msgid "log_VIEWING_TIME"
-msgstr "ดูเมื่อ [_1]"
+msgstr "ดูเมื่อ %1"
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "เตรียมการดาวน์โหลด logfile [_1]"
+#~ msgstr "เตรียมการดาวน์โหลด logfile %1"
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " ขณะนี้ได้เสร็จสิ้นการเตรียมการ logfile ที่คุณต้องการดาวน์โหลดแล้ว การดำเนินการจะเริ่มทันทีที่คุณคลิกที่ปุ่ม &quot;ถัดไป&quot; ด้านล่าง และคุณต้องสั่งบราวเซอร์ของคุณยอมรับการถามดาวน์โหลดจะที่ปรากฎขึ้นในหน้าต่างป๊อปอัพ\n\n  "
 #~ msgid "log_View log files"

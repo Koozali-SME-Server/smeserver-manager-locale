@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "您可掃描傳入與傳出郵件中的病毒。倘若啟用掃瞄並偵測到病毒，該電郵將被拒絕並回傳給寄件者。"
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "您可啟用或禁用此系統上的webmail。webmail允許使用者們透過正規網際瀏覽器存取其郵件，藉由點選瀏覽器到https://[_1]/webmail，並且登入到其帳號。"
+msgstr "您可啟用或禁用此系統上的webmail。webmail允許使用者們透過正規網際瀏覽器存取其郵件，藉由點選瀏覽器到https://%1/webmail，並且登入到其帳號。"
 
 msgid "mai_E-Mail"
 msgstr "電子郵件"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "允許https（加密的http）"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN（用戶端要求的 SMTP）"

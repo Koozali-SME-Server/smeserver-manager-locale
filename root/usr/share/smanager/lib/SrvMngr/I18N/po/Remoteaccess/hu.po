@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr "  Secure Shell beállításokSzabályozhatja a Secure Shell hozzáférést a szerverhez. A nyilvános beállítást csak tapasztalt rendszergazdák alkalmazzák távoli hibaelhárításhoz. Ha nincs rá különösebb oka ezt használni, akkor ajánlott ezt a beállítást a \"Nincs hozzáférés\" -re állítani. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Telnet beállítások Figyelem: A telnet jelenleg engedélyezett, de ez a szolgáltatás többé nem támogatott. A telnet alapvetően nem biztonságos és csak olyan körülmények között használja, ahol nem létezik más alternatíva. Állítsa ezt az opciót[_1] -re és használjon secure shell-t ha távoli hozzáférésre van szüksége. Miután letiltja, a telnet nem jelenik meg többé ezen az oldalon. "
+msgstr " Telnet beállítások Figyelem: A telnet jelenleg engedélyezett, de ez a szolgáltatás többé nem támogatott. A telnet alapvetően nem biztonságos és csak olyan körülmények között használja, ahol nem létezik más alternatíva. Állítsa ezt az opciót%1 -re és használjon secure shell-t ha távoli hozzáférésre van szüksége. Miután letiltja, a telnet nem jelenik meg többé ezen az oldalon. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Távoli hálózat hozzáadásához, adja meg az alábbi adatokat."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Telnet beállítások"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] Lehetséges engedélyezni a távoli hálózatokban lévő gépeknek a szerver kezelőhöz való hozzáférést azok hálózatának bejegyzésével. Használja a 255.255.255.255 alhálózati maszkot a gépek hozzáférésének korlátozásához. Az alhálózati maszk által meghatározott címtartományban minden gép HTTPS használatával hozzáférhet a szerver kezelőhöz. "
+msgstr " %1 Lehetséges engedélyezni a távoli hálózatokban lévő gépeknek a szerver kezelőhöz való hozzáférést azok hálózatának bejegyzésével. Használja a 255.255.255.255 alhálózati maszkot a gépek hozzáférésének korlátozásához. Az alhálózati maszk által meghatározott címtartományban minden gép HTTPS használatával hozzáférhet a szerver kezelőhöz. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"

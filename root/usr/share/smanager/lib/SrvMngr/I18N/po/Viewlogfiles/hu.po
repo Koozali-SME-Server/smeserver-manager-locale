@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Hiba történt a naplófájl nevének meghatározásakor.\n\n  <p>Érvénytelen lekérdezés típus a \"[_1]\".</p>\n\n  "
+msgstr " Hiba történt a naplófájl nevének meghatározásakor.\n\n  <p>Érvénytelen lekérdezés típus a \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " Opcionálisan meghatározhat egy szűrési feltételt, hogy csak azok a sorok látszódjanak a naplófájlból amelyek megfelelnek a szűrési feltételnek. Ha ezt a mezőt üresen hagyja, minden sor látható lesz. Ez az opció nem működik a naplófájl letöltésekor.\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Naplófájlok megtekintése"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "A \"[_1]\" feltételre illeszkedő sorok kiemelése."
+msgstr "A \"%1\" feltételre illeszkedő sorok kiemelése."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "A \"[_1]\" naplófájl üres!"
+msgstr "A \"%1\" naplófájl üres!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Válasszon egy naplófájlt a megtekintéshez"
 
 msgid "log_MATCH_HEADER"
-msgstr "A \"[_1]\" feltételre illeszkedő sorok mutatása."
+msgstr "A \"%1\" feltételre illeszkedő sorok mutatása."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " Opcionálisan meghatározhat egy kiemelési feltételt, hogy azok a sorok ki legyenek emelve a naplófájban amelyek megfelelnek a kiemelési feltételnek. Ez az opció nem működik a naplófájl letöltésekor.\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Naplófájl megtekintése"
 
 msgid "log_VIEWING_TIME"
-msgstr "Megtekintve [_1] -kor"
+msgstr "Megtekintve %1 -kor"
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "A [_1] naplófájl letöltésének előkészítése."
+#~ msgstr "A %1 naplófájl letöltésének előkészítése."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " A naplófájl letöltése elő lett készítve. Kattintson a lenti &quot;Tovább&quot; gombra, és a böngésző segítségével töltse le a fájlt.\n\n  "
 #~ msgid "log_View log files"

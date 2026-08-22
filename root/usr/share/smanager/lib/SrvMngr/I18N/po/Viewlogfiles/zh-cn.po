@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " 指定日志文件名称时出错。\n\n  <p>无效的报表类型 \"[_1]\"。</p>\n\n  "
+msgstr " 指定日志文件名称时出错。\n\n  <p>无效的报表类型 \"%1\"。</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr " 您可以随意指定一个过滤器以便从日志文件中只显示符合条件的行。若将此字段留空，则显示所有行。注意，当您要下载日志文件时，一般不用此选项。\n\n  "
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "查看日志文件"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "高亮显示匹配\"[_1]\"的行。"
+msgstr "高亮显示匹配\"%1\"的行。"
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "日志文件 \"[_1]\" 是空的！"
+msgstr "日志文件 \"%1\" 是空的！"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "请选择要查看的日志文件"
 
 msgid "log_MATCH_HEADER"
-msgstr "显示匹配 \"[_1]\"的行。"
+msgstr "显示匹配 \"%1\"的行。"
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr " 您也可以随意指定高亮显示模式，以便从日志文件中以粗体标记符合条件的行。高亮显示模式适用于任何已过滤的行。 注意，当您要下载日志文件时，一般不用此选项。\n\n  "
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "查看日志文件"
 
 msgid "log_VIEWING_TIME"
-msgstr "在 [_1] 查看。"
+msgstr "在 %1 查看。"
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "正在准备下载日志文件[_1]。"
+#~ msgstr "正在准备下载日志文件%1。"
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr " 您要下载的日志文件已经准备好，请点击下面的 &quot;下一步&quot; 来执行下载,请确保您的浏览器允许弹出窗口。\n\n  "
 #~ msgid "log_View log files"

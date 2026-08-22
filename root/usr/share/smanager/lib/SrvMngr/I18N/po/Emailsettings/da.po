@@ -89,7 +89,7 @@ msgid "mai_DESC_VIRUS_SCAN"
 msgstr "Du kan skanne indgående og udgående post for virus. Hvis der er tændt for skanning og virus findes vil e-brevet blive afvist og sendt retur til afsenderen."
 
 msgid "mai_DESC_WEBMAIL"
-msgstr "Du kan åbne eller lukke for adgangen til webmail. Webmail tillader brugere at tilgå deres post gennem en regulær web browser med adressen https://[_1]/webmail, og logge ind til deres konto."
+msgstr "Du kan åbne eller lukke for adgangen til webmail. Webmail tillader brugere at tilgå deres post gennem en regulær web browser med adressen https://%1/webmail, og logge ind til deres konto."
 
 msgid "mai_E-Mail"
 msgstr "E-mail"
@@ -98,7 +98,7 @@ msgid "mai_ENABLED_SECURE_ONLY"
 msgstr "Tillad HTTPS (sikret)"
 
 msgid "mai_ERROR_UPDATING_CONFIGURATION"
-msgstr "(en) System call to email-update returned a failure ([_1])"
+msgstr "(en) System call to email-update returned a failure (%1)"
 
 msgid "mai_ETRN"
 msgstr "ETRN (SMTP med klientanmodning)"

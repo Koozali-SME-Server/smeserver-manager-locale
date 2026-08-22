@@ -299,7 +299,7 @@ msgid "bac_OPERATION_STATUS_REPORT"
 msgstr "(en) Operation status report"
 
 msgid "bac_PAGE_REFRESH_IN"
-msgstr " Ez az oldal [_1] másodperc múlva frissül, vagy kattintson ide. "
+msgstr " Ez az oldal %1 másodperc múlva frissül, vagy kattintson ide. "
 
 msgid "bac_PASSWORD"
 msgstr "A jelszó "

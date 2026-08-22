@@ -11,13 +11,13 @@ msgstr ""
 "Language: nb\n"
 
 msgid "iba_ACCOUNT_EXISTS"
-msgstr "Kontoen \"[_1]\" er en eksisterende [_2] konto."
+msgstr "Kontoen \"%1\" er en eksisterende %2 konto."
 
 msgid "iba_ACCT_CLASHES_WITH_PSEUDONYM"
-msgstr " Kontoen \"[_1]\" er i konflikt med pseudonym detaljene for [_2] kontoen \"[_3]\". [_1] er et pseudonym for [_3]. "
+msgstr " Kontoen \"%1\" er i konflikt med pseudonym detaljene for %2 kontoen \"%3\". %1 er et pseudonym for %3. "
 
 msgid "iba_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Informasjonsgruppens navn \"[_1]\" inneholder ugyldige tegn. Informasjonsgruppenavn må starte med liten bokstav og kun inneholde små bokstaver, tall og bindestreker."
+msgstr "Informasjonsgruppens navn \"%1\" inneholder ugyldige tegn. Informasjonsgruppenavn må starte med liten bokstav og kun inneholde små bokstaver, tall og bindestreker."
 
 msgid "iba_ADD_IBAY"
 msgstr "Legg til i-bay"
@@ -29,10 +29,10 @@ msgid "iba_ALLOW_DYNAMIC_CONTENT"
 msgstr "Kjøring av dynamisk innhold (CGI, PHP, SSI)"
 
 msgid "iba_CANT_CREATE_IBAY"
-msgstr "Kan ikke opprette ny konto for [_1] (eksisterer det allerede?)"
+msgstr "Kan ikke opprette ny konto for %1 (eksisterer det allerede?)"
 
 msgid "iba_CANT_FIND_IBAY"
-msgstr "Kan ikke finne en konto for [_1] (eksisterer det?)"
+msgstr "Kan ikke finne en konto for %1 (eksisterer det?)"
 
 msgid "iba_ENTIRE_INTERNET_NO_PASSWORD"
 msgstr "Hele internett (passord ikke påkrevd)"
@@ -77,10 +77,10 @@ msgid "iba_LOCAL_NETWORK_PASSWORD"
 msgstr "Lokalt nettverk (passord påkrevd)"
 
 msgid "iba_MAX_IBAY_NAME_LENGTH_ERROR"
-msgstr "Informasjonsgruppenavnet \"[_1]\" er for langt. maksimallengden er [_1] tegn."
+msgstr "Informasjonsgruppenavnet \"%1\" er for langt. maksimallengden er %1 tegn."
 
 msgid "iba_NAME_FIELD_DESC"
-msgstr "Informasjonsgruppens navn kan bare inneholde små bokstaver, tall, punktum og understreker, og må starte med liten bokstav. For eksempel er \"jonsen\", intra\", og \"cust3.prj12\" gyldige navn, mens \"3part\", Jon Jonsen\" og \"Bus!Partner\" ikker er gyldige. Navnet er begrenset til en lengde på [_1] tegn."
+msgstr "Informasjonsgruppens navn kan bare inneholde små bokstaver, tall, punktum og understreker, og må starte med liten bokstav. For eksempel er \"jonsen\", intra\", og \"cust3.prj12\" gyldige navn, mens \"3part\", Jon Jonsen\" og \"Bus!Partner\" ikker er gyldige. Navnet er begrenset til en lengde på %1 tegn."
 
 msgid "iba_NAME_LABEL"
 msgstr "Informasjonsgruppe navn"
@@ -92,13 +92,13 @@ msgid "iba_NO_IBAYS"
 msgstr "Ingen informasjonsgrupper er opprettet."
 
 msgid "iba_PASSWORD_DESC"
-msgstr "Du er i ferdi med å endre passordet for informasjonsgruppen [_1]."
+msgstr "Du er i ferdi med å endre passordet for informasjonsgruppen %1."
 
 msgid "iba_PUBLIC_ACCESS"
 msgstr "Offentlig tilgang via web eller anonym ftp"
 
 msgid "iba_REMOVE_DESC"
-msgstr "  Du er i ferd med å fjerne informasjonsgruppen \"[_1]\" ([_2]). \n\n   Alle filer som hører til gruppen vil bli slettet. \n\n   Er du sikker på at du vil fjerne informasjonsgruppen? \n\n  "
+msgstr "  Du er i ferd med å fjerne informasjonsgruppen \"%1\" (%2). \n\n   Alle filer som hører til gruppen vil bli slettet. \n\n   Er du sikker på at du vil fjerne informasjonsgruppen? \n\n  "
 
 msgid "iba_REMOVE_TITLE"
 msgstr "Fjerne informasjonsgruppe"
@@ -119,7 +119,7 @@ msgid "iba_USER_ACCESS"
 msgstr "Brukertilgang via fildeling eller bruker ftp"
 
 msgid "iba_VHOST_MESSAGE"
-msgstr " Følgende virituelle domener brukte denne informasjonsgruppens innhold, og de vil bli flyttet til hoved webstedet (du kan endre det til noe annet senere): [_1] "
+msgstr " Følgende virituelle domener brukte denne informasjonsgruppens innhold, og de vil bli flyttet til hoved webstedet (du kan endre det til noe annet senere): %1 "
 
 msgid "iba_WARG"
 msgstr "Skrive = admin, Lese = gruppe"

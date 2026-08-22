@@ -23,16 +23,16 @@ msgid "Webmail"
 msgstr "(en) Webmail"
 
 msgid "usr_ACCOUNT_CONFLICT"
-msgstr "Feil: kontoen \"[_1]\" kan ikke opprettes fordi det allerede er en [_2]konto med det navnet."
+msgstr "Feil: kontoen \"%1\" kan ikke opprettes fordi det allerede er en %2konto med det navnet."
 
 msgid "usr_ACCOUNT_NAME"
 msgstr "Kontonavn"
 
 msgid "usr_ACCOUNT_TOO_LONG"
-msgstr "Feil: kontonavnet er for langt. maksimal lengde er [_1] tegn."
+msgstr "Feil: kontonavnet er for langt. maksimal lengde er %1 tegn."
 
 msgid "usr_ACCT_NAME_HAS_INVALID_CHARS"
-msgstr "Kontonavnet \"[_1]\" inneholder ugyldige tegn. Kontonavn må starte med liten bokstav og bare inneholde små bokstaver, tall, bindestrek, punktum og understreker."
+msgstr "Kontonavnet \"%1\" inneholder ugyldige tegn. Kontonavn må starte med liten bokstav og bare inneholde små bokstaver, tall, bindestrek, punktum og understreker."
 
 msgid "usr_ADD_USER"
 msgstr "Legg til brukerkonto"
@@ -41,10 +41,10 @@ msgid "usr_CANNOT_CONTAIN_WHITESPACE"
 msgstr "Dette feltet kan ikke inneholde tomme tegn"
 
 msgid "usr_CANNOT_MODIFY_USER"
-msgstr "Feil: en intern feil oppsto under forsøk på å endre brukeren \"[_1]\"."
+msgstr "Feil: en intern feil oppsto under forsøk på å endre brukeren \"%1\"."
 
 msgid "usr_CANNOT_MODIFY_USER_GROUPS"
-msgstr "(en) Error: an internal error occurred while attempting to modify the group \"[_1]\" for user \"[_2]\"."
+msgstr "(en) Error: an internal error occurred while attempting to modify the group \"%1\" for user \"%2\"."
 
 msgid "usr_CITY"
 msgstr "By"
@@ -101,7 +101,7 @@ msgid "usr_GROUP_MEMBERSHIPS"
 msgstr "Gruppemedlemskap"
 
 msgid "usr_INTERMEDIATE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters and must pass a dictionary check."
 
 msgid "usr_LABEL_IPSECRW_DOWNLOAD"
 msgstr "Last ned digitalt sertifikat til IPSec klient"
@@ -113,7 +113,7 @@ msgid "usr_LOCK"
 msgstr "Lås"
 
 msgid "usr_LOCKED_ACCOUNT"
-msgstr "Kontoen til brukeren \"[_1]\" er låst."
+msgstr "Kontoen til brukeren \"%1\" er låst."
 
 msgid "usr_LOCK_ACCOUNT"
 msgstr "(en) Lock account"
@@ -143,13 +143,13 @@ msgid "usr_NEW_SYSTEM_PASSWORD_VERIFY"
 msgstr "Nytt systempassord (bekreft)"
 
 msgid "usr_NONE_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters."
 
 msgid "usr_NORMAL_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters."
 
 msgid "usr_NO_SUCH_USER"
-msgstr "Feil: brukerkontoen \"[_1]\" eksisterer ikke."
+msgstr "Feil: brukerkontoen \"%1\" eksisterer ikke."
 
 msgid "usr_NO_USER_ACCOUNTS"
 msgstr "Det er ingen brukerkontoer på systemet."
@@ -158,7 +158,7 @@ msgid "usr_P2_TITLE"
 msgstr "Opprett eller endre"
 
 msgid "usr_PASSWORD_CHANGE_SUCCEEDED"
-msgstr "Passordet for brukeren \"[_1]\" er endret."
+msgstr "Passordet for brukeren \"%1\" er endret."
 
 msgid "usr_PASSWORD_WIKI"
 msgstr "(en)If you want to know more about passwords, then please refer to the <a href='https://wiki.koozali.org/SME_Server:Documentation:Administration_Manual:Chapter9#Changing_User_Passwords'>Wiki</a>"
@@ -167,7 +167,7 @@ msgid "usr_PHONE_NUMBER"
 msgstr "Telefonnummer"
 
 msgid "usr_PSEUDONYM_CLASH"
-msgstr "Feil: Pseudonymet \"[_1]\" er allerede i bruk av den eksiterende brukerkontoen \"[_2]\". For å diffrensiere, legg til initialer til feltet."
+msgstr "Feil: Pseudonymet \"%1\" er allerede i bruk av den eksiterende brukerkontoen \"%2\". For å diffrensiere, legg til initialer til feltet."
 
 msgid "usr_REMOVE_ACCOUNT_TITLE"
 msgstr "Fjern brukerkonto"
@@ -188,7 +188,7 @@ msgid "usr_STREET_ADDRESS"
 msgstr "Gateadresse"
 
 msgid "usr_STRONG_PASSWORD_DESCRIPTION"
-msgstr "(en)The password strength is set to <strong>[_2]</strong> which means it must be composed of at least [_1] characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
+msgstr "(en)The password strength is set to <strong>%2</strong> which means it must be composed of at least %1 characters with uppercase and lowercase letters, numbers and special characters and must pass a dictionary check."
 
 msgid "usr_SUCCESSFULLY_DELETED_USER"
 msgstr "(en) Successfully deleted user"
@@ -215,7 +215,7 @@ msgid "usr_TAINTED_PASSWORD"
 msgstr "(en)The new password starts with invalid characters."
 
 msgid "usr_TAINTED_USER"
-msgstr "Kontonavnet \"[_1]\" inneholder ugyldige tegn."
+msgstr "Kontonavnet \"%1\" inneholder ugyldige tegn."
 
 msgid "usr_UNACCEPTABLE_CHARS"
 msgstr "Dette feltet må bare inneholde bokstaver, tall, punktum, bindestrek og understrek, og må begynne med en bokstav"

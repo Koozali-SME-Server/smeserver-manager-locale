@@ -23,7 +23,7 @@ msgid "log_ERR_NOOPEN_FILE"
 msgstr "(en) Err noopen file"
 
 msgid "log_FILENAME_ERROR"
-msgstr " Ошибка при указании имени логфайла.\n\n  <p>Неверный тип отчёта \"[_1]\".</p>\n\n  "
+msgstr " Ошибка при указании имени логфайла.\n\n  <p>Неверный тип отчёта \"%1\".</p>\n\n  "
 
 msgid "log_FILTER_PATTERN_DESC"
 msgstr "(en)You may optionally specify a filter pattern to display only the lines from the log file which match this pattern. If you leave this field blank, all available lines of the log file will be displayed. Note that this option is not used if you download the logfile."
@@ -41,16 +41,16 @@ msgid "log_FORM_TITLE"
 msgstr "Просмотреть файлы журнала"
 
 msgid "log_HIGHLIGHT_HEADER"
-msgstr "Подсветить строки соответствующие: \"[_1]\"."
+msgstr "Подсветить строки соответствующие: \"%1\"."
 
 msgid "log_LOG_FILE_EMPTY"
-msgstr "Логфайл \"[_1]\" пуст!"
+msgstr "Логфайл \"%1\" пуст!"
 
 msgid "log_LOG_FILE_SELECT_DESC"
 msgstr "Выберите лог файл для просмотра"
 
 msgid "log_MATCH_HEADER"
-msgstr "Показаны строки соответствующие: \"[_1]\"."
+msgstr "Показаны строки соответствующие: \"%1\"."
 
 msgid "log_MATCH_PATTERN_DESC"
 msgstr "(en)You may also optionally specify a highlight pattern to mark in bold any lines from the log file which match the highlight pattern. The highlight pattern is applied to any lines which have already matched the filter pattern. Note that this option is not used if you download the logfile."
@@ -74,11 +74,11 @@ msgid "log_VIEW"
 msgstr "Просмотр логфайла"
 
 msgid "log_VIEWING_TIME"
-msgstr "Просмотрен в [_1]."
+msgstr "Просмотрен в %1."
 
 # --- obsolete: no longer present in the English source ---
 #~ msgid "log_DOWNLOAD_FILE"
-#~ msgstr "Подготовка к загрузке логфайла [_1]."
+#~ msgstr "Подготовка к загрузке логфайла %1."
 #~ msgid "log_DOWNLOAD_PAGE_DESC"
 #~ msgstr "(en)Your logfile download is now prepared. It will proceed as soon as you click on the &quot;Next&quot; button below, and instruct your browser to accept the download via the pop-up window that will appear."
 #~ msgid "log_View log files"

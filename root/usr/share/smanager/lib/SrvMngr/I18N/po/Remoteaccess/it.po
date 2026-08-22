@@ -32,7 +32,7 @@ msgid "rma_DESC_SSH"
 msgstr " Impostazioni Secure Shell (ssh)E' possibile impostare l'accesso ssh al server. L'impostazione pubblico dovrebbe essere abilitata solo da amministratori esperti per diagnosi e risoluzione problemi da remoto. Il valore raccomandato per questo parametro è \"Nessun Accesso\" a meno di specifiche ragioni contrarie. "
 
 msgid "rma_DESC_TELNET_ACCESS"
-msgstr " Impostazioni Telnet ATTENZIONE: Telnet è abilitato, ma non più supportato. Telnet non è sicuro e dovrebbe essere usato solo in circostanze in cui non esistono alternative. L'opzione dovrebbe essere su [_1] e dovrebbe essere utilizzato ssh in caso di accesso remoto. Una volta disabilitato, telnet non apparirà su questo schermo. "
+msgstr " Impostazioni Telnet ATTENZIONE: Telnet è abilitato, ma non più supportato. Telnet non è sicuro e dovrebbe essere usato solo in circostanze in cui non esistono alternative. L'opzione dovrebbe essere su %1 e dovrebbe essere utilizzato ssh in caso di accesso remoto. Una volta disabilitato, telnet non apparirà su questo schermo. "
 
 msgid "rma_DESC_VALID_FROM_ENTRIES"
 msgstr "Per aggiungere una nuova rete di gestione, inserire i dettagli sotto."
@@ -122,7 +122,7 @@ msgid "rma_TITLE_TELNET_ACCESS"
 msgstr "Impostazioni Telnet"
 
 msgid "rma_VALIDFROM_DESC"
-msgstr " [_1] E' possibile consentire l'accesso a computer su reti remote al server-manager, inserendo le reti abilitate qui. Utilizzare una subnet mask di 255.255.255.255 per limitare l'accesso ad un host specifico. I computer abilitati potranno accedere al server-manager in HTTPS. "
+msgstr " %1 E' possibile consentire l'accesso a computer su reti remote al server-manager, inserendo le reti abilitate qui. Utilizzare una subnet mask di 255.255.255.255 per limitare l'accesso ad un host specifico. I computer abilitati potranno accedere al server-manager in HTTPS. "
 
 msgid "rma_VALIDFROM_TITLE"
-msgstr "[_1]"
+msgstr "%1"
