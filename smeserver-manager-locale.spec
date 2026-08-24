@@ -2,7 +2,7 @@ Summary: SME Server Manager localisation module (manager 2)
 %define name smeserver-manager-locale
 Name: %{name}
 %define version 11.0.0
-%define release 23
+%define release 24
 %define package_locales en bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
 Version: %{version}
 Release: %{release}%{?dist}
@@ -15,6 +15,31 @@ BuildRequires: perl
 BuildRequires: smeserver-devtools
 BuildRequires: gettext
 Requires: smeserver-manager >= 11.0.0-245
+Obsoletes: smeserver-manager-locale-bg
+Obsoletes: smeserver-manager-locale-da
+Obsoletes: smeserver-manager-locale-de
+Obsoletes: smeserver-manager-locale-el
+Obsoletes: smeserver-manager-locale-es
+Obsoletes: smeserver-manager-locale-et
+Obsoletes: smeserver-manager-locale-fr
+Obsoletes: smeserver-manager-locale-he
+Obsoletes: smeserver-manager-locale-hu
+Obsoletes: smeserver-manager-locale-id
+Obsoletes: smeserver-manager-locale-it
+Obsoletes: smeserver-manager-locale-ja
+Obsoletes: smeserver-manager-locale-nb
+Obsoletes: smeserver-manager-locale-nl
+Obsoletes: smeserver-manager-locale-pl
+Obsoletes: smeserver-manager-locale-pt
+Obsoletes: smeserver-manager-locale-pt_BR
+Obsoletes: smeserver-manager-locale-ro
+Obsoletes: smeserver-manager-locale-ru
+Obsoletes: smeserver-manager-locale-sl
+Obsoletes: smeserver-manager-locale-sv
+Obsoletes: smeserver-manager-locale-th
+Obsoletes: smeserver-manager-locale-tr
+Obsoletes: smeserver-manager-locale-zh_CN
+Obsoletes: smeserver-manager-locale-zh_TW
 AutoReqProv: no
 
 %description
@@ -23,6 +48,9 @@ All supported languages are installed by this single package - there
 are no more per-language sub-packages.
 
 %changelog
+* Mon Aug 24 2026 Brian Read <brianr@koozali.org> 11.0.0-24.sme
+- Add in Obsolete spec so that individual lang locale fies are eliminated [SME: 13711]
+
 * Wed Aug 19 2026 Brian Read <brianr@koozali.org> 11.0.0-23.sme
 - Add in spec changes to add in po files to create mo files but no po files in final package only for Useraccounts for testing [SME: 13705]
 
