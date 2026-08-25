@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Directory module\n"
-"POT-Creation-Date: 2026-08-21 10:13+0100\n"
-"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"POT-Creation-Date: 2026-08-25 05:43+0100\n"
+"PO-Revision-Date: 2026-08-25 05:43+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -49,9 +49,6 @@ msgstr "Racine du serveur"
 msgid "dir_LEAVE"
 msgstr "Les laisser tels quels"
 
-msgid "dir_PHONE"
-msgstr "(en) dir_PHONE"
-
 msgid "dir_PHONENUMBER"
 msgstr "Numéro de téléphone par défaut"
 
@@ -63,6 +60,3 @@ msgstr "Les nouveaux paramètres LDAP ont été enregistrés avec succès."
 
 msgid "dir_UPDATE"
 msgstr "Les mettre à jour avec les nouvelles valeurs par défaut."
-
-msgid "dom_FORM_TITLE"
-msgstr "(en) dom_FORM_TITLE"

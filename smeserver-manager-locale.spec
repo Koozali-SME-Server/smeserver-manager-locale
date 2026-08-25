@@ -2,7 +2,7 @@ Summary: SME Server Manager localisation module (manager 2)
 %define name smeserver-manager-locale
 Name: %{name}
 %define version 11.0.0
-%define release 24
+%define release 25
 %define package_locales en bg da de el es et fr he hu id it ja nb nl pl pt pt_BR ro ru sl sv th tr zh_CN zh_TW
 Version: %{version}
 Release: %{release}%{?dist}
@@ -48,6 +48,9 @@ All supported languages are installed by this single package - there
 are no more per-language sub-packages.
 
 %changelog
+* Tue Aug 25 2026 Brian Read <brianr@koozali.org> 11.0.0-25.sme
+- Regenerate .po files for Directory panel [SME: 13702]
+
 * Mon Aug 24 2026 Brian Read <brianr@koozali.org> 11.0.0-24.sme
 - Add in Obsolete spec so that individual lang locale fies are eliminated [SME: 13711]
 

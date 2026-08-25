@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager General module\n"
-"POT-Creation-Date: 2026-08-21 10:17+0100\n"
-"PO-Revision-Date: 2026-08-21 10:17+0100\n"
+"POT-Creation-Date: 2026-08-25 06:57+0100\n"
+"PO-Revision-Date: 2026-08-25 06:57+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -381,7 +381,7 @@ msgstr ""
 msgid "PERFORM"
 msgstr ""
 
-#. Phone string could be a simple short 2-5 extension. Alternatively, it is expected to have: optional country code, optional 3-digit area code, required 3-digit exchange + 4-digit line number, and optional 2 to 5 digit extension after a coma.
+#. Please enter a valid phone number (7-15 digits, optionally starting with + or 00 for an international code, with spaces, dashes, or dots between groups), or a short extension (2-5 digits).
 msgid "PHONE_VALIDATION"
 msgstr ""
 
@@ -441,7 +441,7 @@ msgstr ""
 msgid "SHUTDOWN"
 msgstr ""
 
-#. String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, coma or space. It can not be empty.
+#. String should start with a unicode character, could then contains unicode characters, hyphens, periods, underscores, single quote, backtick, comma or space. It can not be empty.
 msgid "STRING_VALIDATION"
 msgstr ""
 

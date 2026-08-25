@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smeserver-manager Directory module\n"
-"POT-Creation-Date: 2026-08-21 10:13+0100\n"
-"PO-Revision-Date: 2026-08-21 10:13+0100\n"
+"POT-Creation-Date: 2026-08-25 05:43+0100\n"
+"PO-Revision-Date: 2026-08-25 05:43+0100\n"
 "Last-Translator: unassigned\n"
 "Language-Team: unassigned\n"
 "MIME-Version: 1.0\n"
@@ -49,9 +49,6 @@ msgstr "Server root"
 msgid "dir_LEAVE"
 msgstr "La de være som de er"
 
-msgid "dir_PHONE"
-msgstr "(en) dir_PHONE"
-
 msgid "dir_PHONENUMBER"
 msgstr "Forhåndsvalgt telefonnummer"
 
@@ -63,10 +60,3 @@ msgstr "De nye forhåndsinnstilte LDAP innstillingene er lagret."
 
 msgid "dir_UPDATE"
 msgstr "Oppdater med nye forhåndsinnstillinger"
-
-msgid "dom_FORM_TITLE"
-msgstr "(en) dom_FORM_TITLE"
-
-# --- obsolete: no longer present in the English source ---
-#~ msgid "dir_Directory"
-#~ msgstr "Mappe"
